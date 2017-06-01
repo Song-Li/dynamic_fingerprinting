@@ -1,3 +1,4 @@
+var server_address = "lab.songli.us/uniquemachine";
 jQuery(function($) {
   var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
   var eventer = window[eventMethod];
@@ -127,5 +128,22 @@ jQuery(function($) {
     }, 1000);
   });
 
+  //add label
+  $("#label-button").click(function() {
+    var command = prompt("Input your label: ");
+    var key = "label";
+    $.ajax({
+      url: "http://" + server_address + "/utils",
+      type: 'POST',
+      async: false,
+      data: {
+        key: command
+      },
+      success: function(data) {
+        res = data;
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+      }
+    });
+  });
 });
-
