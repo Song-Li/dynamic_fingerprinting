@@ -1,5 +1,5 @@
 # Dynamic fingerprinting
-Author: Song Li
+Author: Song Li, Olivia
 
 Group: SECLAB in Lehigh University
 
