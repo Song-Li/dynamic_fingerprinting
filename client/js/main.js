@@ -143,6 +143,7 @@ jQuery(function($) {
       },
       success: function(data) {
         res = data;
+        console.log(data);
       },
       error: function(xhr, ajaxOptions, thrownError) {
       }
