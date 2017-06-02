@@ -133,6 +133,7 @@ jQuery(function($) {
     var command = prompt("Input your label: ");
     if (command == null) return ;
     var key = "label";
+    command = "label," + command;
     $.ajax({
       url: "http://" + server_address + "/utils",
       type: 'POST',

@@ -129,7 +129,7 @@ def utils():
         label = command.split(',')[1]
         db = mysql.get_db()
         cursor = db.cursor()
-        sql_str = "INSERT INTO labels (id, date_created, label) VALUES (null, null, " + label +  ")"
+        sql_str = "INSERT INTO labels (id, date_created, label) VALUES (null, null,'" + label +  "')"
         cursor.execute(sql_str)
         db.commit()
         return "label created"
