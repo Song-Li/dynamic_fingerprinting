@@ -319,8 +319,11 @@ def features():
     hash_object = hashlib.md5(cross_hash)
     cross_hash = hash_object.hexdigest()
 
-    feature_str += ',browser_fingerprint,computer_fingerprint_1'
-    value_str += ",'" + single_hash + "','" + cross_hash + "'"
+    sql_label = "SELECT label FROM labels ORDER BY date_created DESC LIMIT 1"
+    label = run_sql(sql_label)[0][0]
+
+    feature_str += ',browser_fingerprint,computer_fingerprint_1,label'
+    value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "'"
 
     db = mysql.get_db()
     cursor = db.cursor()
