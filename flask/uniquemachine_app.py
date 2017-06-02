@@ -90,10 +90,10 @@ def utils():
     command = request.values['key']
     sql_str = ""
     if command == "keys":
-        sql_str = "SELECT distinct IP, time, id, agent from features"
+        sql_str = "SELECT distinct IP, time, id, agent, label from features"
         res = run_sql(sql_str)
         # return the ip, time and the id
-        return ",".join([r[0] + '~' + r[1].isoformat() + '~' + get_browser_from_agent(r[3]) + '~' + get_os_from_agent(r[3]) + '~' + str(r[2]) for r in res])
+        return ",".join([r[0] + '~' + r[1].isoformat() + '~' + get_browser_from_agent(r[3]) + '~' + get_os_from_agent(r[3]) + '~' + str(r[2]) + '~' + str(r[4]) for r in res])
 
     elif command.split(',')[0] == "get_pictures_by_id":
         ID = command.split(',')[1]
@@ -127,11 +127,12 @@ def utils():
 
     elif command.split(',')[0] == "label":
         label = command.split(',')[1]
-        db = mysql.get_db()
-        cursor = db.cursor()
-        sql_str = "INSERT INTO labels (id, date_created, label) VALUES (null, null, " + label +  ")"
-        cursor.execute(sql_str)
-        db.commit()
+        #db = mysql.get_db()
+        #cursor = db.cursor()
+        sql_str = "INSERT INTO labels (id, date_created, label) VALUES (null, null, '" + label +  "')"
+        #cursor.execute(sql_str)
+        #db.commit()
+        run_sql(sql_str)
         return "label created"
 
 @app.route("/result", methods=['POST'])

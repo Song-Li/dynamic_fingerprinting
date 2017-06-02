@@ -131,7 +131,8 @@ jQuery(function($) {
   //add label
   $("#label-button").click(function() {
     var command = prompt("Input your label: ");
-    var key = "label";
+    command = "label," + command;
+    var key = "key";
     $.ajax({
       url: "http://" + server_address + "/utils",
       type: 'POST',
@@ -141,6 +142,7 @@ jQuery(function($) {
       },
       success: function(data) {
         res = data;
+        console.log(data);
       },
       error: function(xhr, ajaxOptions, thrownError) {
       }
