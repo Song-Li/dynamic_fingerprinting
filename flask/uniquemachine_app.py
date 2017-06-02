@@ -101,6 +101,7 @@ def utils():
         res = run_sql(sql_str)
         imgs_str = res[0][0]
         return imgs_str
+
     elif command.split(',')[0] == "clear":
         if command.split(',')[1] == "seclab":
             clear_all_data()
@@ -123,6 +124,15 @@ def utils():
             res[name] = value
 
         return flask.jsonify(res)
+
+    elif command.split(',')[0] == "label":
+        label = command.split(',')[1]
+        db = mysql.get_db()
+        cursor = db.cursor()
+        sql_str = "INSERT INTO labels (id, date_created, label) VALUES (null, null, " + label +  ")"
+        cursor.execute(sql_str)
+        db.commit()
+        return "label created"
 
 @app.route("/result", methods=['POST'])
 def get_result():
