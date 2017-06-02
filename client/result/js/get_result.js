@@ -29,6 +29,7 @@ function get_keys() {
 function get_result() {
   var keys = get_keys();
   console.log(keys);
+  var curr_label = "None";
   for (var idx in keys) {
     parts = keys[idx].split('~')
     ip = parts[0];
@@ -36,9 +37,18 @@ function get_result() {
     browser = parts[2];
     os = parts[3];
     id = parts[4];
+    label = parts[5];
 
-    var b_1 = $('<option value = "' + id + '">' + ip + '_' + os + '_' + browser + '_' + time + '</option>');
-    var b_2 = $('<option value = "' + id + '">' + ip + '_' + os + '_' + browser + '_' + time + '</option>');
+    if (curr_label != label) {
+      curr_label = label;
+      var label_1 = $('<option value = "' + label + '" disabled></option>');
+      $("#select_1").append(label_1);
+      var label_2 = $('<option value = "' + label + '" disabled></option>');
+      $("#select_2").append(label_2);
+    }
+
+    var b_1 = $('<option value = "' + id + '">' + ip + '_' + os + '_' + browser + '_' + time + '_' + label + '</option>');
+    var b_2 = $('<option value = "' + id + '">' + ip + '_' + os + '_' + browser + '_' + time + '_' + label + '</option>');
     $("#select_1").append(b_1);
     $("#select_2").append(b_2);
   }
