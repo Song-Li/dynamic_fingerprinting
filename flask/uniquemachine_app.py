@@ -42,9 +42,13 @@ def clear_all_data():
     run_sql(sql_str)
     sql_str = "delete from pictures"
     run_sql(sql_str)
+    sql_str = "delete from labels"
+    run_sql(sql_str)
     sql_str = "ALTER TABLE features AUTO_INCREMENT = 1"
     run_sql(sql_str)
     sql_str = "ALTER TABLE pictures AUTO_INCREMENT = 1"
+    run_sql(sql_str)
+    sql_str = "ALTER TABLE labels AUTO_INCREMENT = 1"
     run_sql(sql_str)
     os.system("rm " + pictures_path + "*")
 
