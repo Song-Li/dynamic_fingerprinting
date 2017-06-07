@@ -142,7 +142,14 @@ def utils():
         ID = command.split(',')[1]
         sql_str = "SELECT gpuimgs FROM features where id = " + ID
         res = run_sql(sql_str)
-        return res[0]
+        res_str = res[0].split(',')
+        for r in res_str:
+            pic_id= r.split('_')[1]
+            return pic_id
+            sql_str = "delete from pictures where id = " + pic_id
+            run_sql(sql_str)
+
+
 
 @app.route("/result", methods=['POST'])
 def get_result():
