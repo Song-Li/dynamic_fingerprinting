@@ -61,7 +61,8 @@ function get_pictures(column) {
 
 function clearEntry() {
   var id = $("select[id=select_1]").val();
-  console.log(send_to_utils("delete-entry," + id)); 
+  var res = send_to_utils("delete-entry," + id); 
+  alert("Entry " + res + " deleted");
 }
 
 // add picture to html
