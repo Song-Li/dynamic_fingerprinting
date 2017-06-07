@@ -38,6 +38,7 @@ function subtract() {
         }
       }
     } else if (i == "fonts") {
+      /*
       var str_0 = details_global[0][i];
       var str_1 = details_global[1][i];
       var font_res = [];
@@ -50,6 +51,7 @@ function subtract() {
         $('#table_3').append('<tr><td>' + font_res[j] + '</td><td>' + font_res[j + 1]
           + '</td><td>' + font_res[j + 2] + '</td></tr>');
       }
+      */
     }
   }
 }
