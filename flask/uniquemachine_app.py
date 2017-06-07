@@ -251,7 +251,8 @@ def features():
             "adBlock", 
             "cpu_cores", 
             "canvas_test", 
-            "audio"]
+            "audio",
+            "flashFonts"]
 
     cross_feature_list = [
             "timezone",
