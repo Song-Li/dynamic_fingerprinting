@@ -248,7 +248,7 @@ var Collector = function() {
         data : JSON.stringify(this.postData),
         success : function(data) {
           console.log(data);
-          parent.postMessage(data,"http://127.0.0.1/uniquemachine/");
+          parent.postMessage(data,"http://lab.songli.io/site/test_site/");
           //parent.postMessage(data,"http://uniquemachine.org");
         },
         error: function (xhr, ajaxOptions, thrownError) {

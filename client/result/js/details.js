@@ -30,7 +30,7 @@ var show_list = {
   cookie: 'Cookie Enabled',
   cpu_cores: 'Number of Cpu Cores',
   encoding: 'Encoding',
-  fonts: 'Detected Fonts',
+  flashFonts: 'Flash Fonts',
   gpu: 'GPU',
   language: 'Language',
   langsdetected: 'Detected Supported Languages (Buggy and not finished)',
