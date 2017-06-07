@@ -114,8 +114,7 @@ var Collector = function() {
     canvasContext.fillStyle = "rgba(102, 204, 0, 0.7)";
     canvasContext.font = "18pt Arial";
     canvasContext.fillText("Cwm fjordbank glyphs vext quiz, \ud83d\ude03", 4, 45);
-    canvasData = canvas.toDataURL("image/png", 1.0);
-    return canvasData;
+    return canvas;
   }
 
   this.finished = false;
@@ -171,7 +170,14 @@ var Collector = function() {
     this.postData['localstorage'] = this.checkLocalStorage();
     this.postData['adBlock'] = $('#ad')[0] == null ? 'Yes' : 'No';
     cvs_test = CanvasTest();
-    this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_test.substring(22, cvs_test.length))); //remove the leading words
+    // here we assume that the ID for canvas is 28
+    // ===========================================
+    // Maybe dangerous for later usage
+    // ===========================================
+    this.getData(null, cvs_test, 28);
+    var cvs_dataurl = cvs_test.toDataURL('image/png', 1.0);
+
+    this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
     this.postData['cpu_cores'] = this.getCPUCores();
     this.postData['audio'] = this.audioFingerPrinting();
     this.postData['langsDetected'] = get_writing_scripts();
