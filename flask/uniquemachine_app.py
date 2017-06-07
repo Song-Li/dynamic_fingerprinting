@@ -273,7 +273,7 @@ def features():
     fonts = list(result['fonts'])
 
     cnt = 0
-    for i in range(len(mask)):
+    for i in range(len(fonts)):
         fonts[i] = str(int(fonts[i]) & mask[i] & mac_mask[i])
         if fonts[i] == '1':
             cnt += 1

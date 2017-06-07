@@ -18,27 +18,6 @@ var Sender = function () {
     }
     return idList;
   }
-
-  // used for sending images back to server
-  this.getData = function(gl, canvas, id) {
-    var dataurl = canvas.toDataURL('image/png', 1.0);
-    $.ajax({
-      context:this,
-      url : "http://" + ip_address + "/pictures",
-      type : 'POST',
-      async: false,
-      data : {
-        imageBase64: dataurl
-      },
-      success : function(img_id) {
-        this.toServer(WebGL, ven, ren, md5(dataurl), id, img_id);
-        //parent.postMessage(data,"http://uniquemachine.org");
-      },
-      error: function (xhr, ajaxOptions, thrownError) {
-        //alert(thrownError);
-      }
-    });
-  }
 }
 
 // return the canvas with the canvasName

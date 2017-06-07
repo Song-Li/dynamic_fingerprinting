@@ -1,9 +1,9 @@
-ip_address = "dont exsist";
+ip_address = "lab.songli.io/uniquemachine/";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
     flashFonts: "No Flash",
-    JSFonts: "",
+    fonts: "",
     WebGL: false,
     inc: "Undefined",
     gpu: "Undefined",
@@ -118,6 +118,50 @@ var Collector = function() {
     return canvasData;
   }
 
+  this.finished = false;
+  this.nextID = 0;
+  this.getID = function(){
+    if (this.finished) {
+      throw "Can't  generate ID anymore";
+      return -1;
+    }
+    return this.nextID ++;
+  }
+
+  this.getIDs = function(numIDs) {
+    var idList = [];
+    for (var i = 0;i < numIDs;++ i) {
+      idList.push(this.getID());
+    }
+    return idList;
+  }
+
+  // used for sending images back to server
+  this.getData = function(gl, canvas, id) {
+    var dataurl = canvas.toDataURL('image/png', 1.0);
+    $.ajax({
+      context:this,
+      url : "http://" + ip_address + "/pictures",
+      type : 'POST',
+      async: false,
+      data : {
+        imageBase64: dataurl
+      },
+      success : function(img_id) {
+        this.setGPUTestPostData(calcSHA1(dataurl), id, img_id);
+        //parent.postMessage(data,"http://uniquemachine.org");
+      },
+      error: function (xhr, ajaxOptions, thrownError) {
+        //alert(thrownError);
+      }
+    });
+  }
+
+  //this function is used to set the postdata of gpu test
+  this.setGPUTestPostData = function(hashValue, id, img_id) {
+    this.postData['gpuImgs'][id] = img_id + '_' + hashValue;
+  }
+
   this.getPostData = function() {
     // get every basic features
     this.postData['timezone'] = new Date().getTimezoneOffset();
@@ -147,19 +191,24 @@ var Collector = function() {
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
 
-    function finished() {
-      console.log("finished");
+
+    this.webglFinished = function() {
+      console.log(this.postData);
+      this.startSend();
     }
-    webGLTest(finished);
+
+    webGLTest(this);
+
     //startSend(this.postData);
     console.log(this.postData);
-    function startSend(postData){
+    
+    this.startSend = function(){
       $.ajax({
         url : "http://" + ip_address + "/features",
         dataType : "json",
         contentType: 'application/json',
         type : 'POST',
-        data : JSON.stringify(postData),
+        data : JSON.stringify(this.postData),
         success : function(data) {
           console.log(data);
           parent.postMessage(data,"http://127.0.0.1/uniquemachine/");
@@ -170,6 +219,7 @@ var Collector = function() {
         }
       });
     }
+
   }
 };
 
