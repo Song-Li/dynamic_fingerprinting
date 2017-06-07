@@ -138,6 +138,8 @@ def utils():
         #db.commit()
         run_sql(sql_str)
         return "label created"
+    elif command.split(',')[0] == "delete-entry":
+        return "delete entry"
 
 @app.route("/result", methods=['POST'])
 def get_result():

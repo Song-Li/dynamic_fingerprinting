@@ -59,6 +59,11 @@ function get_pictures(column) {
   get_pictures_by_id(column, id);
 }
 
+function clearEntry() {
+  var id = $("select[id=select_1]").val();
+  cosole.log(send_to_utils("delete-entry," + id)); 
+}
+
 // add picture to html
 function get_pictures_by_id(column, id) {
   // clear this div
