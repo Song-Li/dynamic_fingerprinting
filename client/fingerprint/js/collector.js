@@ -22,15 +22,43 @@ var Collector = function() {
     video: []
   };
 
+  //get the usable fonts by flash
+  this.flashFontsDetection = function(_this) {
+    if (typeof window.swfobject === "undefined") {
+      console.log("No flash available");
+      return "";    
+    }
+    if(!swfobject.hasFlashPlayerVersion("9.0.0")){
+      console.log("Insufficient flash version: need at least 9.0.0");
+      return "";
+    }
+    var hiddenCallback = "___fp_swf_loaded";
+    window[hiddenCallback] = function(fonts) {
+      //this loop is used to replace , in fonts
+      for (var i = 0;i < fonts.length;++ i) {
+        fonts[i].replace(/,/g , " ");
+      }
+      _this.postData['flashFonts'] = fonts.toString();
+      _this.flashFontsDetectionFinished();
+    };
+    var id = "flashfontfp";
+    var node = document.createElement("div");
+    node.setAttribute("id", id);
+    document.body.appendChild(node);
+    var flashvars = { onReady: hiddenCallback};
+    var flashparams = { allowScriptAccess: "always", menu: "false" };
+    swfobject.embedSWF("static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
+  }
+
   // get the basic info of audio card
   this.audioFingerPrinting = function() {
     var finished = false;
     try{
       var audioCtx = new (window.AudioContext || window.webkitAudioContext),
-          oscillator = audioCtx.createOscillator(),
-          analyser = audioCtx.createAnalyser(),
-          gainNode = audioCtx.createGain(),
-          scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
+      oscillator = audioCtx.createOscillator(),
+      analyser = audioCtx.createAnalyser(),
+      gainNode = audioCtx.createGain(),
+      scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
       var destination = audioCtx.destination;
       return (audioCtx.sampleRate).toString() + '_' + destination.maxChannelCount + "_" + destination.numberOfInputs + '_' + destination.numberOfOutputs + '_' + destination.channelCount + '_' + destination.channelCountMode + '_' + destination.channelInterpretation;
     }
@@ -114,8 +142,7 @@ var Collector = function() {
     canvasContext.fillStyle = "rgba(102, 204, 0, 0.7)";
     canvasContext.font = "18pt Arial";
     canvasContext.fillText("Cwm fjordbank glyphs vext quiz, \ud83d\ude03", 4, 45);
-    canvasData = canvas.toDataURL("image/png", 1.0);
-    return canvasData;
+    return canvas;
   }
 
   this.finished = false;
@@ -171,11 +198,18 @@ var Collector = function() {
     this.postData['localstorage'] = this.checkLocalStorage();
     this.postData['adBlock'] = $('#ad')[0] == null ? 'Yes' : 'No';
     cvs_test = CanvasTest();
-    this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_test.substring(22, cvs_test.length))); //remove the leading words
+    // here we assume that the ID for canvas is 28
+    // ===========================================
+    // Maybe dangerous for later usage
+    // ===========================================
+    this.getData(null, cvs_test, 28);
+    var cvs_dataurl = cvs_test.toDataURL('image/png', 1.0);
+
+    this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
     this.postData['cpu_cores'] = this.getCPUCores();
     this.postData['audio'] = this.audioFingerPrinting();
     this.postData['langsDetected'] = get_writing_scripts();
-    
+
     // this is the WebGL information part
     this.testGL = this.getWebGL();
     if (this.testGL) this.postData['WebGL'] = true;
@@ -188,11 +222,14 @@ var Collector = function() {
       this.postData['gpu'] = this.getGpu(this.testGL);
     }
 
+
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
-
-
     this.webglFinished = function() {
+      this.flashFontsDetection(this);
+    }
+
+    this.flashFontsDetectionFinished = function(fontsStr) {
       console.log(this.postData);
       this.startSend();
     }
@@ -201,7 +238,7 @@ var Collector = function() {
 
     //startSend(this.postData);
     console.log(this.postData);
-    
+
     this.startSend = function(){
       $.ajax({
         url : "http://" + ip_address + "/features",
@@ -219,7 +256,6 @@ var Collector = function() {
         }
       });
     }
-
   }
 };
 
