@@ -38,7 +38,7 @@ var Collector = function() {
       for (var i = 0;i < fonts.length;++ i) {
         fonts[i].replace(/,/g , " ");
       }
-      _this.postData['flashFonts'] = fonts.toString();
+      _this.postData['flashFonts'] = fonts.join("_");
       _this.flashFontsDetectionFinished();
     };
     var id = "flashfontfp";
