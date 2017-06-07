@@ -139,7 +139,24 @@ def utils():
         run_sql(sql_str)
         return "label created"
     elif command.split(',')[0] == "delete-entry":
-        return "delete entry"
+        ID = command.split(',')[1]
+        sql_str = "SELECT gpuimgs FROM features where id = " + ID
+        res = run_sql(sql_str)
+        res_str = res[0][0].split(',')
+        # delete from features table
+        sql_str = "DELETE FROM features WHERE ID = " + ID
+        run_sql(sql_str)
+
+        for r in res_str:
+            pic_id = r.split('_')[1]
+            sql_str = "delete from pictures where id = " + pic_id
+            run_sql(sql_str)
+            os.system("rm " + pictures_path + pic_id + ".png")
+
+        return ID
+
+
+
 
 @app.route("/result", methods=['POST'])
 def get_result():
