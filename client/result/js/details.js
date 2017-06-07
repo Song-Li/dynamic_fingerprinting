@@ -168,8 +168,8 @@ function getGPUTable(hashes) {
     if (hash >= 1) checked = '';
     res += "<td>" + gpu_imgs_name[hash] + "(" + hashes[hash] + ")</td>";
     // & 1 has the same speed as % 2
-    if (cur ++ % 2 == 1) 
-      res += "</tr><tr>";
+    //if (cur ++ % 2 == 1) 
+    res += "</tr><tr>";
   }  
   res += "</tr></table>";
   return res;
@@ -188,6 +188,15 @@ function getGPUString() {
   return value;
 }
 
+function getFlashFontsString(str) {
+  //make the table only show the first few fonts
+  if (str){
+    var flashFonts = str.split('_');
+    return flashFonts.slice(0,3).toString() + '...(' + flashFonts.length + ' detected)';
+  }
+  return "";
+}
+
 function getLangsString(sup) {
   res = "<table border='0'><tr>";
   for (var s in sup) {
@@ -197,7 +206,7 @@ function getLangsString(sup) {
       res += "&#" + language_codes[index][c];
     }
     res += ")</td>"
-    if (s % 4 == 3)
+    if (s % 2 == 1)
       res += "</tr><tr>";
   }
   res += "</tr></table>";
@@ -206,6 +215,7 @@ function getLangsString(sup) {
 
 function getTable(name) {
   if (name == "fonts") return getFontsString(trans_data[name]);
+  if (name == 'flashFonts') return getFlashFontsString(trans_data[name]);
   if (name == "gpuimgs") return getGPUString(trans_data[name]); 
   if (name == "langsdetected") return getLangsString(trans_data[name].split('_'));
   return trans_data[name];
@@ -229,6 +239,7 @@ function buildTable(data, col) {
   if (timezone > 0) base = 'UTC-';
   else base = 'UTC+';
   data['timezone'] = 'UTC-' + (timezone / 60).toString();
+
 
   $('#table_' + col).append('<tr><td>Feature</td><td>Value</td></tr>');
   for (var cross in cross_list) {
