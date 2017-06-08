@@ -117,13 +117,15 @@ var Collector = function() {
   // get the inc info
   this.getInc = function(gl) {
     var debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
-    return gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);
+    if (debugInfo) return gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL);
+    return "No Debug Info";
   }
 
   // get the GPU info
   this.getGpu = function(gl) {
     var debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
-    return gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+    if (debugInfo) return gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+    return "No Debug Info";
   }
 
   // get the canvas test information
