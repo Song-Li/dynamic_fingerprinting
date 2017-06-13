@@ -282,8 +282,8 @@ stringify = function(array) {
 
 //INSERTION OF AUDIOFINGERPRINT CODE
 // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-var cc_output = [];
-function run_cc_fp() {
+run_cc_fp = function() {
+  var cc_output = [];
   var audioCtx = new(window.AudioContext || window.webkitAudioContext),
   oscillator = audioCtx.createOscillator(),
   analyser = audioCtx.createAnalyser(),
@@ -308,16 +308,18 @@ function run_cc_fp() {
     analyser.disconnect();
     scriptProcessor.disconnect();
     gain.disconnect();
-    set_result(cc_output.slice(0, 30), 'cc_result');   
-    draw_fp(bins);
+    console.log("CC result:",cc_output.slice(0,30));
+    //set_result(cc_output.slice(0, 30), 'cc_result');   
+    //draw_fp(bins);
   };
 
   oscillator.start(0);
+  console.log(cc_output);
 }
 
 // Performs a hybrid of cc/pxi methods found above
-var hybrid_output = [];
-function run_hybrid_fp() {
+run_hybrid_fp = function() {
+  var hybrid_output = [];
   var audioCtx = new(window.AudioContext || window.webkitAudioContext),
   oscillator = audioCtx.createOscillator(),
   analyser = audioCtx.createAnalyser(),
@@ -350,19 +352,19 @@ function run_hybrid_fp() {
     analyser.disconnect();
     scriptProcessor.disconnect();
     gain.disconnect();
-    set_result(hybrid_output.slice(0,30), 'hybrid_result');   
+    console.log("Hybrid result:",hybrid_output.slice(0,30));
+    //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
     //draw_fp(bins);
   };
 
   oscillator.start(0);
+  console.log(hybrid_output);
 }
 //END INSERTION OF AUDIOFINGERPRINT CODE
 
 function getFingerprint() {
   var collector = new Collector();
   collector.getPostData();
-  run_cc_fp();
-  run_hydrid_fp();
-  console.log(cc_output);
-  console.log(hybrid_output);
+  this.run_cc_fp();
+  this.run_hybrid_fp();
 }
