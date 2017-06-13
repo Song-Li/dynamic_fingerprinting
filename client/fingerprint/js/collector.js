@@ -19,7 +19,9 @@ var Collector = function() {
     canvas_test: "Undefined", 
     audio: "Undefined",
     langsDetected: [],
-    video: []
+    video: [],
+    cc_audio: [],
+    hybrid_audio: []
   };
 
   //get the usable fonts by flash
@@ -146,6 +148,96 @@ var Collector = function() {
   }
 
   this.finished = false;
+
+  //INSERTION OF AUDIOFINGERPRINT CODE
+  // Performs fingerprint as found in https://www.cdn-net.com/cc.js
+  var run_cc_fp = function(_this) {
+    var cc_output = [];
+    var audioCtx = new(window.AudioContext || window.webkitAudioContext),
+    oscillator = audioCtx.createOscillator(),
+    analyser = audioCtx.createAnalyser(),
+    gain = audioCtx.createGain(),
+    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+
+
+    gain.gain.value = 0; // Disable volume
+    oscillator.type = "triangle"; // Set oscillator to output triangle wave
+    oscillator.connect(analyser); // Connect oscillator output to analyser input
+    analyser.connect(scriptProcessor); // Connect analyser output to scriptProcessor input
+    scriptProcessor.connect(gain); // Connect scriptProcessor output to gain input
+    gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
+
+    var results = [];
+    scriptProcessor.onaudioprocess = function (bins) {
+      bins = new Float32Array(analyser.frequencyBinCount);
+      analyser.getFloatFrequencyData(bins);
+      for (var i = 0; i < bins.length; i = i + 1) {
+        cc_output.push(bins[i]);
+      }
+      //cc_output.extend(bins);
+      analyser.disconnect();
+      scriptProcessor.disconnect();
+      gain.disconnect();
+      console.log("Hello");
+      results = cc_output.slice(0,30);
+      console.log(results);
+      _this.runCcFpFinished(results);
+      //console.log("CC result:",cc_output.slice(0,30));
+      //set_result(cc_output.slice(0, 30), 'cc_result');   
+      //draw_fp(bins);
+    };
+
+    oscillator.start(0);
+    console.log("Test");
+    console.log(results);
+    return results;
+  }
+
+  // Performs a hybrid of cc/pxi methods found above
+  var run_hybrid_fp = function(_this) {
+    var hybrid_output = [];
+    var audioCtx = new(window.AudioContext || window.webkitAudioContext),
+    oscillator = audioCtx.createOscillator(),
+    analyser = audioCtx.createAnalyser(),
+    gain = audioCtx.createGain(),
+    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+
+    // Create and configure compressor
+    compressor = audioCtx.createDynamicsCompressor();
+    compressor.threshold && (compressor.threshold.value = -50);
+    compressor.knee && (compressor.knee.value = 40);
+    compressor.ratio && (compressor.ratio.value = 12);
+    compressor.reduction && (compressor.reduction.value = -20);
+    compressor.attack && (compressor.attack.value = 0);
+    compressor.release && (compressor.release.value = .25);
+
+    gain.gain.value = 0; // Disable volume
+    oscillator.type = "triangle"; // Set oscillator to output triangle wave
+    oscillator.connect(compressor); // Connect oscillator output to dynamic compressor
+    compressor.connect(analyser); // Connect compressor to analyser
+    analyser.connect(scriptProcessor); // Connect analyser output to scriptProcessor input
+    scriptProcessor.connect(gain); // Connect scriptProcessor output to gain input
+    gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
+
+    scriptProcessor.onaudioprocess = function (bins) {
+      bins = new Float32Array(analyser.frequencyBinCount);
+      analyser.getFloatFrequencyData(bins);
+      for (var i = 0; i < bins.length; i = i + 1) {
+        hybrid_output.push(bins[i]);
+      }
+      analyser.disconnect();
+      scriptProcessor.disconnect();
+      gain.disconnect();
+      //console.log("Hybrid result:",hybrid_output.slice(0,30));
+      //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
+      //draw_fp(bins);
+      _this.runHybridFpFinished(hybrid_output.slice(0, 30));
+    };
+
+    oscillator.start(0);
+    return hybrid_output.slice(0,30);
+  }
+  //END INSERTION OF AUDIOFINGERPRINT CODE
   this.nextID = 0;
   this.getID = function(){
     if (this.finished) {
@@ -222,7 +314,6 @@ var Collector = function() {
       this.postData['gpu'] = this.getGpu(this.testGL);
     }
 
-
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
     this.webglFinished = function() {
@@ -230,6 +321,16 @@ var Collector = function() {
     }
 
     this.flashFontsDetectionFinished = function(fontsStr) {
+      run_cc_fp(this);
+    }
+
+    this.runCcFpFinished = function(data) {
+      this.postData['cc_audio'] = data.join('_');
+      run_hybrid_fp(this);
+    }
+
+    this.runHybridFpFinished = function(data) {
+      this.postData['hybrid_audio'] = data.join('_');
       console.log(this.postData);
       this.startSend();
     }
@@ -280,91 +381,7 @@ stringify = function(array) {
   return Base64EncodeUrlSafe(b64);
 };
 
-//INSERTION OF AUDIOFINGERPRINT CODE
-// Performs fingerprint as found in https://www.cdn-net.com/cc.js
-run_cc_fp = function() {
-  var cc_output = [];
-  var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-  oscillator = audioCtx.createOscillator(),
-  analyser = audioCtx.createAnalyser(),
-  gain = audioCtx.createGain(),
-  scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
-
-
-  gain.gain.value = 0; // Disable volume
-  oscillator.type = "triangle"; // Set oscillator to output triangle wave
-  oscillator.connect(analyser); // Connect oscillator output to analyser input
-  analyser.connect(scriptProcessor); // Connect analyser output to scriptProcessor input
-  scriptProcessor.connect(gain); // Connect scriptProcessor output to gain input
-  gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
-
-  scriptProcessor.onaudioprocess = function (bins) {
-    bins = new Float32Array(analyser.frequencyBinCount);
-    analyser.getFloatFrequencyData(bins);
-    for (var i = 0; i < bins.length; i = i + 1) {
-      cc_output.push(bins[i]);
-    }
-    //cc_output.extend(bins);
-    analyser.disconnect();
-    scriptProcessor.disconnect();
-    gain.disconnect();
-    console.log("CC result:",cc_output.slice(0,30));
-    //set_result(cc_output.slice(0, 30), 'cc_result');   
-    //draw_fp(bins);
-  };
-
-  oscillator.start(0);
-  console.log(cc_output);
-}
-
-// Performs a hybrid of cc/pxi methods found above
-run_hybrid_fp = function() {
-  var hybrid_output = [];
-  var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-  oscillator = audioCtx.createOscillator(),
-  analyser = audioCtx.createAnalyser(),
-  gain = audioCtx.createGain(),
-  scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
-
-  // Create and configure compressor
-  compressor = audioCtx.createDynamicsCompressor();
-  compressor.threshold && (compressor.threshold.value = -50);
-  compressor.knee && (compressor.knee.value = 40);
-  compressor.ratio && (compressor.ratio.value = 12);
-  compressor.reduction && (compressor.reduction.value = -20);
-  compressor.attack && (compressor.attack.value = 0);
-  compressor.release && (compressor.release.value = .25);
-
-  gain.gain.value = 0; // Disable volume
-  oscillator.type = "triangle"; // Set oscillator to output triangle wave
-  oscillator.connect(compressor); // Connect oscillator output to dynamic compressor
-  compressor.connect(analyser); // Connect compressor to analyser
-  analyser.connect(scriptProcessor); // Connect analyser output to scriptProcessor input
-  scriptProcessor.connect(gain); // Connect scriptProcessor output to gain input
-  gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
-
-  scriptProcessor.onaudioprocess = function (bins) {
-    bins = new Float32Array(analyser.frequencyBinCount);
-    analyser.getFloatFrequencyData(bins);
-    for (var i = 0; i < bins.length; i = i + 1) {
-      hybrid_output.push(bins[i]);
-    }
-    analyser.disconnect();
-    scriptProcessor.disconnect();
-    gain.disconnect();
-    console.log("Hybrid result:",hybrid_output.slice(0,30));
-    //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
-    //draw_fp(bins);
-  };
-
-  oscillator.start(0);
-  console.log(hybrid_output);
-}
-//END INSERTION OF AUDIOFINGERPRINT CODE
-
 function getFingerprint() {
   var collector = new Collector();
   collector.getPostData();
-  this.run_cc_fp();
-  this.run_hybrid_fp();
 }

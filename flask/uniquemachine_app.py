@@ -252,7 +252,10 @@ def features():
             "cpu_cores", 
             "canvas_test", 
             "audio",
-            "flashFonts"]
+            "flashFonts",
+            "cc_audio",
+            "hybrid_audio"
+            ]
 
     cross_feature_list = [
             "timezone",
@@ -284,6 +287,7 @@ def features():
     result['encoding'] = encoding
     result['language'] = language
     
+
     print agent
            
     feature_str = "IP"
