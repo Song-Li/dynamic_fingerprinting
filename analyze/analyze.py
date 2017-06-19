@@ -7,7 +7,7 @@ class Analyzer():
     def __init__(self):
         pass
 
-    def check_imgs_difference_dy_id(self, str_1, str_2):
+    def check_imgs_difference_by_str(self, str_1, str_2):
         """
         check the differences of two gpu rendering result strs
         vars: str_1, str_2
@@ -29,6 +29,31 @@ class Analyzer():
                 res[i] = (img_1, img_2)
         return res
 
+    def check_fonts_difference_by_str(self, str_1, str_2):
+        """
+        check the differences of two font lists
+        vars: str_1, str_2
+        return: the differences
+        """
+        fonts_1 = str_1.split('_')
+        fonts_2 = str_2.split('_')
+        f1 = []
+        f2 = []
+        for f in fonts_1:
+            if f not in fonts_2:
+                f1.append(f)
+
+        for f in fonts_2:
+            if f not in fonts_1:
+                f2.append(f)
+
+        return (f1, f2)
+
+    def output_diff(self, keys, values):
+        length = len(keys)
+        for i in range(length):
+            print '\t'+ str(keys[i]) + ': \t' + str(values[i])
+
             
     def check_difference_by_id(self, base_id, entry_id):
         """
@@ -44,15 +69,20 @@ class Analyzer():
                 continue
             if base_entry[i] != compare_entry[i]:
                 if self.cols[i][0] == 'gpuimgs':
-                    diff = self.check_imgs_difference_dy_id(base_entry[i], compare_entry[i])
-                    print self.cols[i][0], diff
+                    diff = self.check_imgs_difference_by_str(base_entry[i], compare_entry[i])
+                    print self.cols[i][0]
+                    self.output_diff(diff.keys(), diff.values())
+                if self.cols[i][0] == 'flashFonts':
+                    diff = self.check_fonts_difference_by_str(base_entry[i], compare_entry[i])
+                    print self.cols[i][0]
+                    self.output_diff([base_id, entry_id], diff)
                 else:
                     print self.cols[i][0]
         
 
 def main():
     analyzer = Analyzer()
-    analyzer.check_difference_by_id(12, 1)
+    analyzer.check_difference_by_id(2002, 1000)
 
 
 
