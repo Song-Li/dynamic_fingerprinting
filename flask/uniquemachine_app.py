@@ -153,7 +153,10 @@ def utils():
             run_sql(sql_str)
             os.system("rm " + pictures_path + pic_id + ".png")
 
-        return ID
+    elif command == "get_groups":
+        sql_str = "SELECT id,label  from labels"
+        res = run_sql(sql_str)
+        return '~'.join([str(r) for r in res]) 
 
 
 
