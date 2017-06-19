@@ -1,4 +1,6 @@
 from database import Database
+import argparse
+
 class Analyzer():
     ignores = ['id', 'time', 'browser_fingerprint', 'computer_fingerprint_1']
     db = Database('uniquemachine')
@@ -72,17 +74,35 @@ class Analyzer():
                     diff = self.check_imgs_difference_by_str(base_entry[i], compare_entry[i])
                     print self.cols[i][0]
                     self.output_diff(diff.keys(), diff.values())
-                if self.cols[i][0] == 'flashFonts':
+                elif self.cols[i][0] == 'flashFonts':
                     diff = self.check_fonts_difference_by_str(base_entry[i], compare_entry[i])
                     print self.cols[i][0]
                     self.output_diff([base_id, entry_id], diff)
                 else:
                     print self.cols[i][0]
+                    self.output_diff([base_id, entry_id], [base_entry[i], compare_entry[i]])
         
 
+    def check_difference_by_group(self, firefox_version, base_group, compare_group):
+        """
+        check the difference of two groups
+        """
+        sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '%" + base_group + "%'"
+        base_id = self.db.run_sql(sql_str)[0][0]
+        sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '%" + compare_group + "%'"
+        compare_id = self.db.run_sql(sql_str)[0][0]
+        self.check_difference_by_id(base_id, compare_id)
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-g", "--group", nargs = '*', action="store", help="Input the key word of two groups")
+    parser.add_argument("-v", "--firefox_version", type=int, action="store")
+    args = parser.parse_args()
+    groups = args.group
+    firefox_version = args.firefox_version
     analyzer = Analyzer()
-    analyzer.check_difference_by_id(2002, 1000)
+    analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
 
 
 
