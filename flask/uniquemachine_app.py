@@ -156,7 +156,7 @@ def utils():
     elif command == "get_groups":
         sql_str = "SELECT id,label  from labels"
         res = run_sql(sql_str)
-        return '~'.join([str(r) for r in res]) 
+        return '~'.join(['$'.join(map(str,r)) for r in res]) 
 
 
 
