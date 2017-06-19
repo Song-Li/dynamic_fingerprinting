@@ -20,6 +20,18 @@ class Database():
     def get_db(self):
         return self.__db
 
+    def get_entry_by_id(self, table, entry_id):
+        """
+        get an entry by the table name and id
+        vars: table name, entry id
+        return: the selected data
+        """
+        sql_str = "SELECT * from " + str(table) + " WHERE id='" + str(entry_id) + "'"
+        # here we assume that the ID is identical
+        # return only the first value
+        return self.run_sql(sql_str)[0]
+
+
     def run_sql(self, sql_str):
         self.__cursor.execute(sql_str)
         self.__db.commit()
