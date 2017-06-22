@@ -123,6 +123,9 @@ class Analyzer():
 
 
     def cal_all_distances(self, aim):
+        """
+        calculate the distance between aim and all other entries
+        """
         sql_str = "SELECT id FROM features"
         all_ids = self.db.run_sql(sql_str) 
         length = len(all_ids)
@@ -137,8 +140,8 @@ class Analyzer():
             if min_distance > dis:
                 min_distance = dis
                 min_index = all_ids[i][0]
-        print "min_distance:", min_distance 
-        print "min_index:", min_index 
+
+        return (min_distance, min_index)
 
     
 def main():
@@ -149,7 +152,8 @@ def main():
     args = parser.parse_args()
     analyzer = Analyzer()
     if args.all != None and args.all != 0:
-        analyzer.cal_all_distances(args.all)
+        min_distance = analyzer.cal_all_distances(args.all)
+        print min_distance
     else:
         groups = args.group
         firefox_version = args.firefox_version
