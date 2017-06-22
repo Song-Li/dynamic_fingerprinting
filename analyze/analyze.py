@@ -107,7 +107,6 @@ class Analyzer():
                 dis += 0
             else:
                 dis += 1
-            print feature, diff[feature]
         return dis
         
 
@@ -123,17 +122,45 @@ class Analyzer():
         return diff
 
 
+    def cal_all_distances(self, aim):
+        sql_str = "SELECT id FROM features"
+        all_ids = self.db.run_sql(sql_str) 
+        length = len(all_ids)
+        distances = []
+        min_distance = 0x3fffffff
+        min_index = -1
+        for i in range(length):
+            if aim == all_ids[i][0]:
+                continue
+            dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0]))
+            distances.append(dis)
+            if min_distance > dis:
+                min_distance = dis
+                min_index = all_ids[i][0]
+        print "min_distance:", min_distance 
+        print "min_index:", min_index 
+
+    
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-g", "--group", nargs = '*', action="store", help="Input the key word of two groups")
-    parser.add_argument("-v", "--firefox_version", type=int, action="store")
+    parser.add_argument("-v", "--firefox_version", type=int, action="store", help = "Input the firefox version")
+    parser.add_argument("-a", "--all", type=int, action = "store", help = "Compare all data pairs in database")
     args = parser.parse_args()
-    groups = args.group
-    firefox_version = args.firefox_version
     analyzer = Analyzer()
-    diff = analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
-    distance = analyzer.cal_distance(diff)
-    print distance
+    if args.all != None and args.all != 0:
+        analyzer.cal_all_distances(args.all)
+    else:
+        groups = args.group
+        firefox_version = args.firefox_version
+        if firefox_version == None:
+            firefox_version = 0
+        if groups == None:
+            print "Please use -h to see the usage. Key words needed here"
+            return 0
+        diff = analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
+        distance = analyzer.cal_distance(diff)
+        print distance
 
 
 
