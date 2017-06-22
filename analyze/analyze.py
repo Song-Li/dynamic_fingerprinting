@@ -141,7 +141,7 @@ class Analyzer():
                 min_distance = dis
                 min_index = all_ids[i][0]
 
-        return (min_distance, min_index)
+        return distances
 
     
 def main():
@@ -152,8 +152,8 @@ def main():
     args = parser.parse_args()
     analyzer = Analyzer()
     if args.all != None and args.all != 0:
-        min_distance = analyzer.cal_all_distances(args.all)
-        print min_distance
+        distance = analyzer.cal_all_distances(args.all)
+        print distance
     else:
         groups = args.group
         firefox_version = args.firefox_version
