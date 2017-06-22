@@ -2,7 +2,7 @@ from database import Database
 import argparse
 
 class Analyzer():
-    ignores = ['id', 'time', 'browser_fingerprint', 'computer_fingerprint_1']
+    ignores = ['id', 'time', 'browser_fingerprint', 'computer_fingerprint_1', "fonts"]
     db = Database('uniquemachine')
     cols = db.run_sql("SHOW COLUMNS FROM features")
 
@@ -37,6 +37,8 @@ class Analyzer():
         vars: str_1, str_2
         return: the differences
         """
+        if str_1 == None or str_2 == None:
+            return ([], [])
         fonts_1 = str_1.split('_')
         fonts_2 = str_2.split('_')
         f1 = []
@@ -66,21 +68,47 @@ class Analyzer():
         base_entry = self.db.get_entry_by_id('features', base_id)
         compare_entry = self.db.get_entry_by_id('features', entry_id)
         length = len(base_entry)
+        res = {}
         for i in range(length):
             if self.cols[i][0] in self.ignores:
                 continue
             if base_entry[i] != compare_entry[i]:
                 if self.cols[i][0] == 'gpuimgs':
                     diff = self.check_imgs_difference_by_str(base_entry[i], compare_entry[i])
-                    print self.cols[i][0]
-                    self.output_diff(diff.keys(), diff.values())
+                    res[self.cols[i][0]] = diff
+                    #print self.cols[i][0]
+                    #self.output_diff(diff.keys(), diff.values())
                 elif self.cols[i][0] == 'flashFonts':
                     diff = self.check_fonts_difference_by_str(base_entry[i], compare_entry[i])
-                    print self.cols[i][0]
-                    self.output_diff([base_id, entry_id], diff)
+                    res[self.cols[i][0]] = diff
+                    #print self.cols[i][0]
+                    #self.output_diff([base_id, entry_id], diff)
                 else:
-                    print self.cols[i][0]
-                    self.output_diff([base_id, entry_id], [base_entry[i], compare_entry[i]])
+                    res[self.cols[i][0]] = [base_entry[i], compare_entry[i]]
+                    #print self.cols[i][0]
+                    #self.output_diff([base_id, entry_id], [base_entry[i], compare_entry[i]])
+        return res
+
+    def cal_gpuimgs_distance(self, diff):
+        return 1
+
+    def cal_flashFonts_distance(self, diff):
+        return 1
+
+    def cal_distance(self, diff):
+        dis = 0
+        for feature in diff:
+            if feature == "gpuimgs":
+                dis += self.cal_gpuimgs_distance(diff[feature])
+
+            elif feature == "flashFonts":
+                dis += self.cal_flashFonts_distance(diff[feature])
+            elif feature == "label":
+                dis += 0
+            else:
+                dis += 1
+            print feature, diff[feature]
+        return dis
         
 
     def check_difference_by_group(self, firefox_version, base_group, compare_group):
@@ -91,7 +119,8 @@ class Analyzer():
         base_id = self.db.run_sql(sql_str)[0][0]
         sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '%" + compare_group + "%'"
         compare_id = self.db.run_sql(sql_str)[0][0]
-        self.check_difference_by_id(base_id, compare_id)
+        diff = self.check_difference_by_id(base_id, compare_id)
+        return diff
 
 
 def main():
@@ -102,7 +131,9 @@ def main():
     groups = args.group
     firefox_version = args.firefox_version
     analyzer = Analyzer()
-    analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
+    diff = analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
+    distance = analyzer.cal_distance(diff)
+    print distance
 
 
 
