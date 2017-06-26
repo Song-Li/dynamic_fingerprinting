@@ -52,6 +52,15 @@ def clear_all_data():
     run_sql(sql_str)
     os.system("rm " + pictures_path + "*")
 
+def delete_group(group_id):
+    sql_str = "select label from labels where id = " + group_id
+    label = run_sql(sql_str)[0]
+    sql_str = "select agent from features where label = '" + label[0] + "'" 
+    res = run_sql(sql_str)
+    sql_str = "delete from features where label = '" + label[0] + "'" 
+    return run_sql(sql_str)
+
+
 def run_sql(sql_str):
     db = mysql.get_db()
     cursor = db.cursor()
@@ -157,8 +166,10 @@ def utils():
         sql_str = "SELECT id,label  from labels"
         res = run_sql(sql_str)
         return '~'.join(['$'.join(map(str,r)) for r in res]) 
-
-
+    elif command.split(",")[0] == "delete-group":
+        group_id = command.split(",")[1]
+        return delete_group(group_id)
+        
 
 
 @app.route("/result", methods=['POST'])
