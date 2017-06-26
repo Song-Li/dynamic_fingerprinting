@@ -76,17 +76,17 @@ class Analyzer():
                 if self.cols[i][0] == 'gpuimgs':
                     diff = self.check_imgs_difference_by_str(base_entry[i], compare_entry[i])
                     res[self.cols[i][0]] = diff
-                    #print self.cols[i][0]
-                    #self.output_diff(diff.keys(), diff.values())
+                    print self.cols[i][0]
+                    self.output_diff(diff.keys(), diff.values())
                 elif self.cols[i][0] == 'flashFonts':
                     diff = self.check_fonts_difference_by_str(base_entry[i], compare_entry[i])
                     res[self.cols[i][0]] = diff
-                    #print self.cols[i][0]
-                    #self.output_diff([base_id, entry_id], diff)
+                    print self.cols[i][0]
+                    self.output_diff([base_id, entry_id], diff)
                 else:
                     res[self.cols[i][0]] = [base_entry[i], compare_entry[i]]
-                    #print self.cols[i][0]
-                    #self.output_diff([base_id, entry_id], [base_entry[i], compare_entry[i]])
+                    print self.cols[i][0]
+                    self.output_diff([base_id, entry_id], [base_entry[i], compare_entry[i]])
         return res
 
     def cal_gpuimgs_distance(self, diff):

@@ -58,7 +58,11 @@ def delete_group(group_id):
     sql_str = "select agent from features where label = '" + label[0] + "'" 
     res = run_sql(sql_str)
     sql_str = "delete from features where label = '" + label[0] + "'" 
-    return run_sql(sql_str)
+    run_sql(sql_str)
+    sql_str = "delete from labels where id = " + group_id
+    run_sql(sql_str)
+    return "deleted"
+
 
 
 def run_sql(sql_str):
