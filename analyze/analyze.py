@@ -75,6 +75,8 @@ class Analyzer():
             if base_entry[i] != compare_entry[i]:
                 if self.cols[i][0] == 'gpuimgs':
                     diff = self.check_imgs_difference_by_str(base_entry[i], compare_entry[i])
+                    if len(diff) == 0:
+                        continue
                     res[self.cols[i][0]] = diff
                     if (detail):
                         print self.cols[i][0]
@@ -93,30 +95,38 @@ class Analyzer():
         return res
 
     def cal_gpuimgs_distance(self, diff):
-        return 1
+        return (1, "change the video card")
 
     def cal_flashFonts_distance(self, diff):
-        return 1
+        return (1, "add fonts " + str(diff[1]))
 
     def cal_agent_distance(self, diff):
-
-        return 1
+        return (1, "change agent to " + diff[1])
 
 
     def cal_distance(self, diff):
         dis = 0
+        way = ""
         for feature in diff:
             if feature == "gpuimgs":
-                dis += self.cal_gpuimgs_distance(diff[feature])
+                gpuimgs_change = self.cal_gpuimgs_distance(diff[feature])
+                dis += gpuimgs_change[0]
+                way += gpuimgs_change[1]
             elif feature == "agent":
-                dis += self.cal_agent_distance(diff[feature])
+                agent_change = self.cal_agent_distance(diff[feature])
+                dis += agent_change[0]
+                way += agent_change[1]
             elif feature == "flashFonts":
-                dis += self.cal_flashFonts_distance(diff[feature])
+                flashFonts_change = self.cal_flashFonts_distance(diff[feature])
+                dis += flashFonts_change[0]
+                way += flashFonts_change[1]
             elif feature == "label":
                 dis += 0
             else:
                 dis += 1
-        return dis
+            way += '_'
+
+        return (dis, way)
         
 
     def check_difference_by_group(self, firefox_version, base_group, compare_group, detail):
