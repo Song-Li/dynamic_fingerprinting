@@ -114,9 +114,9 @@ class Analyzer():
         """
         check the difference of two groups
         """
-        sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '%" + base_group + "%'"
+        sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '" + base_group + "'"
         base_id = self.db.run_sql(sql_str)[0][0]
-        sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '%" + compare_group + "%'"
+        sql_str = "SELECT id FROM features WHERE agent like '%" + str(firefox_version) + "%' and label like '" + compare_group + "'"
         compare_id = self.db.run_sql(sql_str)[0][0]
         diff = self.check_difference_by_id(base_id, compare_id)
         return diff
@@ -162,9 +162,16 @@ def main():
         if groups == None:
             print "Please use -h to see the usage. Key words needed here"
             return 0
-        diff = analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
-        distance = analyzer.cal_distance(diff)
-        print distance
+        if firefox_version == 100:
+            for i in range(31,54):
+                print("Firefox #" + str(i))
+                diff = analyzer.check_difference_by_group(i, groups[0], groups[1])
+                distance = analyzer.cal_distance(diff)
+                print distance
+        else:
+            diff = analyzer.check_difference_by_group(firefox_version, groups[0], groups[1])
+            distance = analyzer.cal_distance(diff)
+            print distance
 
 
 
