@@ -141,7 +141,7 @@ class Analyzer():
         return diff
 
 
-    def cal_all_distances(self, aim):
+    def cal_all_distances(self, aim, detail):
         """
         calculate the distance between aim and all other entries
         """
@@ -154,7 +154,7 @@ class Analyzer():
         for i in range(length):
             if aim == all_ids[i][0]:
                 continue
-            dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0]))
+            dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0], detail))
             distances.append(dis)
             if min_distance > dis:
                 min_distance = dis
@@ -162,7 +162,6 @@ class Analyzer():
 
         return distances
 
-    
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-g", "--group", nargs = '*', action="store", help="Input the key word of two groups")
@@ -173,8 +172,8 @@ def main():
     args = parser.parse_args()
     analyzer = Analyzer()
     if args.all != None and args.all != 0:
-        distance = analyzer.cal_all_distances(args.all)
-        print distance
+        distance = analyzer.cal_all_distances(args.all, args.detail)
+        print distance[0]
     elif args.id != None:
         ids = args.id
         diff = analyzer.check_difference_by_id(ids[0], ids[1], args.detail)
@@ -191,7 +190,6 @@ def main():
         diff = analyzer.check_difference_by_group(firefox_version, groups[0], groups[1], args.detail)
         distance = analyzer.cal_distance(diff)
         print distance
-
 
 
 if __name__ == "__main__":
