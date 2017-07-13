@@ -122,8 +122,10 @@ class Analyzer():
                 way += flashFonts_change[1]
             elif feature == "label":
                 dis += 0
+                way += diff[feature][1]
             else:
                 dis += 1
+                way += feature
             way += '_'
 
         return (dis, way)
@@ -149,17 +151,15 @@ class Analyzer():
         all_ids = self.db.run_sql(sql_str) 
         length = len(all_ids)
         distances = []
-        min_distance = 0x3fffffff
-        min_index = -1
-        for i in range(length):
-            if aim == all_ids[i][0]:
-                continue
-            dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0], detail))
-            distances.append(dis)
-            if min_distance > dis:
-                min_distance = dis
-                min_index = all_ids[i][0]
-
+        if aim == 0:
+            for i in range(1, length):
+                distances.append(self.cal_all_distances(all_ids[i][0], detail))
+        else:
+            for i in range(1, length):
+                if aim == all_ids[i][0]:
+                    continue
+                dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0], detail))
+                distances.append(dis)
         return distances
 
 def main():
@@ -171,9 +171,17 @@ def main():
     parser.add_argument("-i", "--id", type=int, nargs = '*', action = "store", help = "Compare all data pairs in database")
     args = parser.parse_args()
     analyzer = Analyzer()
-    if args.all != None and args.all != 0:
+    if args.all != None :
         distance = analyzer.cal_all_distances(args.all, args.detail)
-        print distance[0]
+        if args.all == 0:
+            for i in distance:
+                string = ""
+                for j in i:
+                    string += str(j[0]) + '\t'
+                print string
+        else:
+            for i in distance:
+                print i
     elif args.id != None:
         ids = args.id
         diff = analyzer.check_difference_by_id(ids[0], ids[1], args.detail)
