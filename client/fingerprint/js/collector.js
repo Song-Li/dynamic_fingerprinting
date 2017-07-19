@@ -82,11 +82,13 @@ var Collector = function() {
   // get the list of plugins
   this.getPlugins = function() {
     var plgs_len = navigator.plugins.length;
-    var plgs = "";
+    var plugins = [];
     for(var i = 0;i < plgs_len;i ++) {
-      plgs += navigator.plugins[i].name + '_';
+      plugins.push(navigator.plugins[i].name);
     }
-    plgs = plgs.replace(/[^a-zA-Z ]/g, "");
+    plugins.sort();
+    var plgs = plugins.join("~");
+    plgs = plgs.replace(/[^a-zA-Z~ ]/g, "");
     return plgs;
   };
 
