@@ -1,5 +1,6 @@
 ip_address = "lab.songli.us/uniquemachine"
 details_global = [];
+
 function get_details_by_id(column, id) {
   var command = "get_details," + id;
   details = send_to_utils(command);
@@ -8,6 +9,8 @@ function get_details_by_id(column, id) {
 
 function get_details(column) {
   var id = $("select[id=select_" + column + "]").val();
+  input_id = (document.getElementById('input_' + column).value);
+  if (input_id != "") id = parseInt(input_id);
   $('#table_' + column).empty();
   var details = get_details_by_id(column, id);
   details_global[column - 1] = details;

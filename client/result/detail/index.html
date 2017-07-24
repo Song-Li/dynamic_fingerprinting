@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
     <link type="text/css" rel="stylesheet" href="css/index.css">
-    <script type="text/javascript" src="../js/get_result.js"></script>
-    <script type="text/javascript" src="../js/get_detail.js"></script>
-    <script type="text/javascript" src="../js/details.js"></script>
+    <script type="text/javascript" src="./js/get_result.js"></script>
+    <script type="text/javascript" src="./js/get_detail.js"></script>
+    <script type="text/javascript" src="./js/details.js"></script>
   </head>
   <body onload="get_result();">
     <div id = "left" class="left">
       <select id="select_1" onChange="get_details(1);">
         <option disabled selected value> -- select an option -- </option>
       </select>
+      <br />
+      Input ID: <input type='text' id='input_1' onchange="get_details(1);"></input>
       <div id = "detail_1">
         <table id="table_1" class="table">
         </table>
@@ -21,6 +23,8 @@
       <select id="select_2" onChange="get_details(2);">
         <option disabled selected value> -- select an option -- </option>
       </select>
+      <br />
+      Input ID: <input type='text' id='input_2' onchange="get_details(2);"></input>
       <div id = "detail_2">
         <table id="table_2" class="table">
         </table>
