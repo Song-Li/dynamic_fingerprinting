@@ -95,7 +95,7 @@ class Analyzer():
         return res
 
     def cal_gpuimgs_distance(self, diff):
-        return (1, "video")
+        return (1, "video==================================")
 
     def cal_flashFonts_distance(self, diff):
         return (1, len(diff[0]) + len(diff[1]))
@@ -156,8 +156,6 @@ class Analyzer():
                 distances.append(self.cal_all_distances(all_ids[i][0], detail))
         else:
             for i in range(1, length):
-                if aim == all_ids[i][0]:
-                    continue
                 dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0], detail))
                 if dis[0] != 0:
                     distances.append((all_ids[i][0], dis))

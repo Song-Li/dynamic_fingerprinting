@@ -38,7 +38,8 @@ var Collector = function() {
     window[hiddenCallback] = function(fonts) {
       //this loop is used to replace , in fonts
       for (var i = 0;i < fonts.length;++ i) {
-        fonts[i].replace(/,/g , " ");
+        fonts[i] = fonts[i].replace(/,/g , " ");
+        fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
       }
       _this.postData['flashFonts'] = fonts.join("_");
       _this.flashFontsDetectionFinished();
