@@ -95,13 +95,13 @@ class Analyzer():
         return res
 
     def cal_gpuimgs_distance(self, diff):
-        return (1, "change the video card")
+        return (1, "video")
 
     def cal_flashFonts_distance(self, diff):
-        return (1, "add fonts " + str(diff[1]))
+        return (1, len(diff[0]) + len(diff[1]))
 
     def cal_agent_distance(self, diff):
-        return (1, "change agent to " + diff[1])
+        return (1, "agent") 
 
 
     def cal_distance(self, diff):
@@ -119,14 +119,14 @@ class Analyzer():
             elif feature == "flashFonts":
                 flashFonts_change = self.cal_flashFonts_distance(diff[feature])
                 dis += flashFonts_change[0]
-                way += flashFonts_change[1]
+                way += str(flashFonts_change[1]) + " fonts ====================" 
             elif feature == "label":
                 dis += 0
                 way += diff[feature][1]
             else:
                 dis += 1
                 way += feature
-            way += '_'
+            way += '~~'
 
         return (dis, way)
         
@@ -159,7 +159,8 @@ class Analyzer():
                 if aim == all_ids[i][0]:
                     continue
                 dis = self.cal_distance(self.check_difference_by_id(aim, all_ids[i][0], detail))
-                distances.append(dis)
+                if dis[0] != 0:
+                    distances.append((all_ids[i][0], dis))
         return distances
 
 def main():
