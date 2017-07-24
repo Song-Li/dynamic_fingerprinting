@@ -56,6 +56,8 @@ function get_result() {
 
 function get_pictures(column) {
   var id = $("select[id=select_" + column + "]").val();
+  input_id = (document.getElementById('input_' + column).value);
+  if (input_id != "") id = parseInt(input_id);
   get_pictures_by_id(column, id);
 }
 
