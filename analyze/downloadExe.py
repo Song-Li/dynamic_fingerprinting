@@ -3,8 +3,8 @@ import urllib
 import re
 import json
 
-for i in range(20):
-    response = urllib2.urlopen('http://rj.baidu.com/soft/lists/' + str(i))
+for i in range(1,1213):
+    response = urllib2.urlopen('http://rj.baidu.com/soft/lists/0/' + str(i))
     html = response.read()
     p = re.compile(r' {"data(.*)}};')
     #remove the ;
