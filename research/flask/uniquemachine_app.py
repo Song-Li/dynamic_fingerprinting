@@ -311,7 +311,7 @@ def features():
         # for gpu imgs
         if feature == "gpuImgs":
             # only keep the pure value of every result
-            hash_str = ",".join(v.split('_')[1] for k, v in value.iteritems())
+            hash_str = ",".join(v.split('_')[0] for k, v in value.iteritems())
             # change value to str
             value = ",".join('%s_%s' % (k, v) for k, v in value.iteritems())
         else:
@@ -350,8 +350,7 @@ def features():
     hash_object = hashlib.md5(cross_hash)
     cross_hash = hash_object.hexdigest()
 
-    sql_label = "SELECT label FROM labels ORDER BY date_created DESC LIMIT 1"
-    label = run_sql(sql_label)[0][0]
+    label = "1"
 
     feature_str += ',browser_fingerprint,computer_fingerprint_1,label'
     value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "'"

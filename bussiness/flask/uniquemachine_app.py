@@ -174,9 +174,12 @@ def get_result():
 @app.route("/pictures", methods=['POST'])
 def store_pictures():
     # get ID for this picture
+    image_b64 = request.values['imageBase64']
+
+    pic_hash = md5.md5(image_b64).hexdigest()
     db = mysql.get_db()
     cursor = db.cursor()
-    sql_str = "INSERT INTO pictures (dataurl) VALUES ('" + "tmp"+ "')"
+    sql_str = "INSERT INTO pictures (dataurl) VALUES ('" + pic_hash + "')"
     cursor.execute(sql_str)
     db.commit()
 
@@ -185,7 +188,7 @@ def store_pictures():
     ID = cursor.fetchone()
     db.commit()
 
-    image_b64 = request.values['imageBase64']
+
     # remove the define part of image_b64
     image_b64 = re.sub('^data:image/.+;base64,', '', image_b64)
     # decode image_b64
@@ -193,7 +196,7 @@ def store_pictures():
     image_data = cStringIO.StringIO(image_data)
     image_PIL = Image.open(image_data)
     image_PIL.save("/home/sol315/pictures/" + str(ID[0]) + ".png")
-    return str(ID[0])
+    return pic_hash 
 
 @app.route('/details', methods=['POST'])
 def details():
