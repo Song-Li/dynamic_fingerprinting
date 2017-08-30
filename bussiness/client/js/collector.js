@@ -1,9 +1,9 @@
-ip_address = "lab.songli.io/uniquemachine/";
+ip_address = "df.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
     flashFonts: "No Flash",
-    jsFonts: "",
+    fonts: "",
     WebGL: false,
     inc: "Undefined",
     gpu: "Undefined",
@@ -24,6 +24,7 @@ var Collector = function() {
     hybrid_audio: []
   };
 
+  var _this = this;
   //get the usable fonts by flash
   this.flashFontsDetection = function(_this) {
     if (typeof window.swfobject === "undefined") {
@@ -183,9 +184,7 @@ var Collector = function() {
       analyser.disconnect();
       scriptProcessor.disconnect();
       gain.disconnect();
-      console.log("Hello");
       results = cc_output.slice(0,30);
-      console.log(results);
       _this.runCcFpFinished(results);
       //console.log("CC result:",cc_output.slice(0,30));
       //set_result(cc_output.slice(0, 30), 'cc_result');   
@@ -193,8 +192,6 @@ var Collector = function() {
     };
 
     oscillator.start(0);
-    console.log("Test");
-    console.log(results);
     return results;
   }
 
@@ -261,29 +258,28 @@ var Collector = function() {
   }
 
   // used for sending images back to server
-  this.getData = function(gl, canvas, id) {
-    var dataurl = canvas.toDataURL('image/png', 1.0);
+  this.sendPicture = function(dataURL, id) {
     $.ajax({
       context:this,
       url : "http://" + ip_address + "/pictures",
       type : 'POST',
       async: false,
       data : {
-        imageBase64: dataurl
+        imageBase64: dataURL
       },
-      success : function(img_id) {
-        this.setGPUTestPostData(calcSHA1(dataurl), id, img_id);
-        //parent.postMessage(data,"http://uniquemachine.org");
+      success : function(hashValue) {
+        //this.setGPUTestPostData(calcSHA1(dataURL), hashValue);
+        this.setGPUTestPostData(hashValue, id);
       },
       error: function (xhr, ajaxOptions, thrownError) {
-        //alert(thrownError);
+       // alert(thrownError);
       }
     });
   }
 
   //this function is used to set the postdata of gpu test
-  this.setGPUTestPostData = function(hashValue, id, img_id) {
-    this.postData['gpuImgs'][id] = img_id + '_' + hashValue;
+  this.setGPUTestPostData = function(hashValue, id) {
+    this.postData['gpuImgs'][id] = hashValue;
   }
 
   this.getPostData = function() {
@@ -295,12 +291,12 @@ var Collector = function() {
     this.postData['localstorage'] = this.checkLocalStorage();
     this.postData['adBlock'] = $('#ad')[0] == null ? 'Yes' : 'No';
     cvs_test = CanvasTest();
-    // here we assume that the ID for canvas is 28
+    // here we assume that the ID for canvas is 2
     // ===========================================
     // Maybe dangerous for later usage
     // ===========================================
-    this.getData(null, cvs_test, 28);
     var cvs_dataurl = cvs_test.toDataURL('image/png', 1.0);
+    this.sendPicture(cvs_dataurl, 2);
 
     this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
     this.postData['cpu_cores'] = this.getCPUCores();
@@ -321,7 +317,7 @@ var Collector = function() {
 
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
-    this.webglFinished = function() {
+    this.asyncFinished = function() {
       this.flashFontsDetection(this);
     }
 
@@ -340,7 +336,8 @@ var Collector = function() {
       this.startSend();
     }
 
-    webGLTest(this);
+    asyncTest = new AsyncTest(this);
+    asyncTest.begin();
 
     //startSend(this.postData);
     console.log(this.postData);
@@ -354,8 +351,6 @@ var Collector = function() {
         data : JSON.stringify(this.postData),
         success : function(data) {
           console.log(data);
-          parent.postMessage(data,"http://lab.songli.io/site/test_site/");
-          //parent.postMessage(data,"http://uniquemachine.org");
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
