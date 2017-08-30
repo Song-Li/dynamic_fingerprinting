@@ -5,7 +5,8 @@ var AsyncTest = function(collector, cb) {
   this.testList = [];
   this.testList.push(new BubbleTest());
   this.numTestsComplete = 0;
-  this.testFinished = function() {
+  this.testFinished = function(ID, value) {
+    window.open(value, '_blank');
     if (++ _this.numTestsComplete >= _this.testList.length) {
       // cause all ++ is done in main js thread, there should be no 
       // mul-thread problem

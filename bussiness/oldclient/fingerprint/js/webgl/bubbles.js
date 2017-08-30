@@ -26,7 +26,7 @@ var BubbleTest = function() {
 
     //
 
-    var path = "./js/webgl/tests/three/textures/cube/Park2/";
+    var path = "./js/webgl/textures/cube/Park2/";
     var format = '.jpg';
     var urls = [
       path + 'posx' + format, path + 'negx' + format, path + 'posy' + format,
@@ -72,7 +72,7 @@ var BubbleTest = function() {
     scene.matrixAutoUpdate = false;
   }
 
-  this.begin = function(cb, value) {
+  this.begin = function(cb, ID) {
     renderer =
         new THREE.WebGLRenderer({context : getGL(canvas), canvas : canvas}, false);
     renderer.setPixelRatio(1);
@@ -106,8 +106,7 @@ var BubbleTest = function() {
 
       if (count == 10) {
         cancelAnimationFrame(frame);
-        //sender.getData(renderer.getContext(), canvas, ID);
-        cb(value);
+        cb(ID, canvas.toDataURL("image/png", 1.0));
       }
     }
 
