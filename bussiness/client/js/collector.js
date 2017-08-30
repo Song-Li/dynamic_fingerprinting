@@ -3,7 +3,7 @@ var Collector = function() {
   this.finalized = false;
   this.postData = {
     flashFonts: "No Flash",
-    fonts: "",
+    jsFonts: "",
     WebGL: false,
     inc: "Undefined",
     gpu: "Undefined",

@@ -1,4 +1,17 @@
-// Load a text resource from a file over the network
+// this function includes all necessary js files for the application
+function include(file) {
+  var script  = document.createElement('script');
+  script.src  = file;
+  script.type = 'text/javascript';
+  script.defer = true;
+  document.getElementsByTagName('head').item(0).appendChild(script);
+}
+
+//==============
+//include all of the js files here
+//==============
+include('');
+
 
 var Sender = function () {
   this.finished = false;

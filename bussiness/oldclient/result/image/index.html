@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="./css/index.css">
+<script type="text/javascript" src="./js/get_result.js"></script>
+</head>
+<body onload="get_result(1);">
+  <div id = "keys" class = "keys">
+    <select id="select_1" onChange="get_pictures(1);">
+      <option disabled selected value> -- select an option -- </option>
+    </select>
+    Input ID: <input type='text' id='input_1' onchange="get_pictures(1);"></input>
+    <select id="select_2" onChange="get_pictures(2);">
+      <option disabled selected value> -- select an option -- </option>
+    </select>
+    Input ID: <input type='text' id='input_2' onchange="get_pictures(2);"></input>
+  </div>
+  <div id = "picture_1" class = "picture_1">
+  </div>
+  <div id = "picture_2" class = "picture_2">
+  </div>
+  <div id = "subtract" class = "subtract">
+  </div>
+  <div id = "operations" class = "operations">
+    <input type="button" value = "subtract" onclick="subtract();" />
+    <input type="button" value = "clear all data (Dangerous!!!)" onclick="clear_all_data();" />
+    <input type="button" value = "clear selected entry" onclick="clearEntry();" />
+  </div>
+</body>
+</html>
