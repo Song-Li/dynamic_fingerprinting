@@ -7,8 +7,8 @@ var AsyncTest = function(collector, cb) {
   this.testList.push(new BubbleTest());
   this.numTestsComplete = 0;
   this.testFinished = function(ID, value) {
-    collector.postData['gpuImgs'][ID] = value;
-    window.open(value, '_blank');
+    var img_hash = calcSHA1(value);
+    collector.postData['gpuImgs'][ID] = img_hash;
     if (++ _this.numTestsComplete >= _this.testList.length) {
       // cause all ++ is done in main js thread, there should be no 
       // mul-thread problem
@@ -24,6 +24,6 @@ var AsyncTest = function(collector, cb) {
   }
 
   this.allFinished = function() {
-    _this.cb();
+    collector.asyncFinished();
   }
 }

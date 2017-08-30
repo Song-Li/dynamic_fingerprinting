@@ -24,6 +24,7 @@ var Collector = function() {
     hybrid_audio: []
   };
 
+  var _this = this;
   //get the usable fonts by flash
   this.flashFontsDetection = function(_this) {
     if (typeof window.swfobject === "undefined") {
@@ -183,9 +184,7 @@ var Collector = function() {
       analyser.disconnect();
       scriptProcessor.disconnect();
       gain.disconnect();
-      console.log("Hello");
       results = cc_output.slice(0,30);
-      console.log(results);
       _this.runCcFpFinished(results);
       //console.log("CC result:",cc_output.slice(0,30));
       //set_result(cc_output.slice(0, 30), 'cc_result');   
@@ -193,8 +192,6 @@ var Collector = function() {
     };
 
     oscillator.start(0);
-    console.log("Test");
-    console.log(results);
     return results;
   }
 
@@ -275,7 +272,7 @@ var Collector = function() {
         this.setGPUTestPostData(hashValue, id);
       },
       error: function (xhr, ajaxOptions, thrownError) {
-        //alert(thrownError);
+       // alert(thrownError);
       }
     });
   }
@@ -320,7 +317,7 @@ var Collector = function() {
 
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
-    this.webglFinished = function() {
+    this.asyncFinished = function() {
       this.flashFontsDetection(this);
     }
 
@@ -339,18 +336,13 @@ var Collector = function() {
       this.startSend();
     }
 
-    this.asyncFinished = function() {
-      alert("asyncFinished");
-    }
-    asyncTest = new AsyncTest(this, this.asyncFinished);
+    asyncTest = new AsyncTest(this);
     asyncTest.begin();
 
     //startSend(this.postData);
     console.log(this.postData);
 
     this.startSend = function(){
-      alert("Finished");
-      return ;
       $.ajax({
         url : "http://" + ip_address + "/features",
         dataType : "json",
@@ -359,8 +351,6 @@ var Collector = function() {
         data : JSON.stringify(this.postData),
         success : function(data) {
           console.log(data);
-          parent.postMessage(data,"http://lab.songli.io/site/test_site/");
-          //parent.postMessage(data,"http://uniquemachine.org");
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
