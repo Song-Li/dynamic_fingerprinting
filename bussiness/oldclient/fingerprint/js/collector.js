@@ -1,4 +1,4 @@
-ip_address = "lab.songli.io/uniquemachine/";
+ip_address = "df.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
