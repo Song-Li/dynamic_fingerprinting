@@ -55,7 +55,7 @@ var Collector = function() {
         cookie: this_cookie 
       },
       success : function(res) {
-        document.cookie = "dynamic_fingerprinting=" + res;
+        document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
         this.postData["label"] = res;
       },
       error: function (xhr, ajaxOptions, thrownError) {
