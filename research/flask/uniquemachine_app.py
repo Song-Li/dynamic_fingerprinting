@@ -261,7 +261,7 @@ def features():
             "language",
             "langsDetected",
             "resolution",
-            "fonts",
+            "jsFonts",
             "WebGL", 
             "inc", 
             "gpu", 
@@ -281,7 +281,7 @@ def features():
 
     cross_feature_list = [
             "timezone",
-            "fonts",
+            "jsFonts",
             "langsDetected",
             "audio"
             ]
@@ -296,12 +296,11 @@ def features():
     #with open("fonts.txt", 'a') as f:
         #f.write(result['fonts'] + '\n')
 
-    fonts = list(result['fonts'])
+    jsFonts = list(result['jsFonts'])
 
     cnt = 0
-    for i in range(len(fonts)):
-        fonts[i] = str(int(fonts[i]) & mask[i] & mac_mask[i])
-        if fonts[i] == '1':
+    for i in range(len(jsFonts)):
+        if jsFonts[i] == '1':
             cnt += 1
 
     result['agent'] = agent
@@ -358,7 +357,7 @@ def features():
         single_hash_str += hash_str
 
 
-    result['fonts'] = fonts
+    result['jsFonts'] = jsFonts
     for feature in cross_feature_list:
         cross_hash += str(result[feature])
         hash_object = hashlib.md5(str(result[feature]))
