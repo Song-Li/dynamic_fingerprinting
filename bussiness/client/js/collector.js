@@ -404,7 +404,7 @@ var Collector = function() {
         type : 'POST',
         data : JSON.stringify(this.postData),
         success : function(data) {
-          console.log(data['id']);
+          alert("finished " + data['id']);
           flashFontsDetection(data['id']);
         },
         error: function (xhr, ajaxOptions, thrownError) {
