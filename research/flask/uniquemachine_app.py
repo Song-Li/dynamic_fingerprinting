@@ -13,6 +13,7 @@ import numpy as np
 from PIL import Image
 import base64
 import cStringIO
+from datetime import datetime
 
 root = "/home/sol315/server/uniquemachine/"
 pictures_path = "/home/sol315/pictures/"
@@ -88,6 +89,22 @@ def get_browser_from_agent(agent):
         if end_pos == -1:
             end_pos = len(agent)
         return agent[start_pos:end_pos]
+
+@app.route("/getCookie", methods=['POST'])
+def getCookie():
+    cookie = request.values['cookie']
+    sql_str = 'SELECT count(id) FROM cookies WHERE cookie = "' + cookie + '"'
+    res = run_sql(sql_str)
+    if res[0][0] == 0:
+        IP = request.remote_addr
+        id_str = IP + str(datetime.now()) 
+        cookie = hashlib.md5(id_str).hexdigest()
+        sql_str = "INSERT INTO cookies (cookie) VALUES ('" + cookie + "')"
+        run_sql(sql_str)
+
+    return cookie
+
+
 
 @app.route("/utils", methods=['POST'])
 def utils():
@@ -350,7 +367,8 @@ def features():
     hash_object = hashlib.md5(cross_hash)
     cross_hash = hash_object.hexdigest()
 
-    label = "1"
+    # this is the cookie of this computer
+    label = result['label']
 
     feature_str += ',browser_fingerprint,computer_fingerprint_1,label'
     value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "'"
