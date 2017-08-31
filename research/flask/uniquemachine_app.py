@@ -203,6 +203,8 @@ def store_pictures():
     db.commit()
 
     image_b64 = request.values['imageBase64']
+    hash_value = hashlib.md5(image_b64).hexdigest()
+
     # remove the define part of image_b64
     image_b64 = re.sub('^data:image/.+;base64,', '', image_b64)
     # decode image_b64
@@ -210,7 +212,7 @@ def store_pictures():
     image_data = cStringIO.StringIO(image_data)
     image_PIL = Image.open(image_data)
     image_PIL.save("/home/sol315/pictures/" + str(ID[0]) + ".png")
-    return str(ID[0])
+    return hash_value 
 
 @app.route('/details', methods=['POST'])
 def details():
