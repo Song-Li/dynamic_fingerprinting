@@ -3,7 +3,7 @@ var Collector = function() {
   this.finalized = false;
   this.postData = {
     flashFonts: "No Flash",
-    fonts: "",
+    jsFonts: "",
     WebGL: false,
     inc: "Undefined",
     gpu: "Undefined",
@@ -26,7 +26,7 @@ var Collector = function() {
 
   var _this = this;
   //get the usable fonts by flash
-  
+
   this.handleCookie = function() {
 
     function getCookie(cname) {
@@ -322,6 +322,11 @@ var Collector = function() {
 
   this.getPostData = function() {
     // get every basic features
+    // Start with a new worker to do js font detection
+    // currently we dont start new worker
+    var jsFontsDetector = new JsFontsDetector(); 
+    this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
+
     this.postData['timezone'] = new Date().getTimezoneOffset();
     this.postData['resolution'] = this.getResolution();
     this.postData['plugins'] = this.getPlugins();
