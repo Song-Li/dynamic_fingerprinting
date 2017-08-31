@@ -90,6 +90,15 @@ def get_browser_from_agent(agent):
             end_pos = len(agent)
         return agent[start_pos:end_pos]
 
+
+@app.route("/flashFonts", methods=['POST'])
+def flashFonts():
+    flashFonts = request.values['flashFonts']
+    ID = request.values['id']
+    sql_str = 'UPDATE features SET flashFonts="' + flashFonts + '" WHERE id=' + ID
+    res = run_sql(sql_str)
+    return "flash fonts finished" 
+
 @app.route("/getCookie", methods=['POST'])
 def getCookie():
     cookie = request.values['cookie']
