@@ -64,7 +64,7 @@ var Collector = function() {
     });
   }
 
-  this.flashFontsDetection = function(_this) {
+  flashFontsDetection = function(record_id) {
     if (typeof window.swfobject === "undefined") {
       console.log("No flash available");
       return "";    
@@ -73,6 +73,7 @@ var Collector = function() {
       console.log("Insufficient flash version: need at least 9.0.0");
       return "";
     }
+    // flash fonts need to be sent separately
     var hiddenCallback = "___fp_swf_loaded";
     window[hiddenCallback] = function(fonts) {
       //this loop is used to replace , in fonts
@@ -80,8 +81,7 @@ var Collector = function() {
         fonts[i] = fonts[i].replace(/,/g , " ");
         fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
       }
-      _this.postData['flashFonts'] = fonts.join("_");
-      _this.flashFontsDetectionFinished();
+      flashFontsDetectionFinished(record_id, fonts.join("_"));
     };
     var id = "flashfontfp";
     var node = document.createElement("div");
@@ -361,11 +361,25 @@ var Collector = function() {
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
     this.asyncFinished = function() {
-      this.flashFontsDetection(this);
-    }
-
-    this.flashFontsDetectionFinished = function(fontsStr) {
       run_cc_fp(this);
+    }
+    
+    flashFontsDetectionFinished = function(id, flashFonts) {
+      $.ajax({
+        url : "http://" + ip_address + "/flashFonts",
+        type : 'POST',
+        async: false,
+        data : {
+          id: id,
+          flashFonts: flashFonts 
+        },
+        success : function(res) {
+          console.log(res);
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(thrownError);
+        }
+      });
     }
 
     this.runCcFpFinished = function(data) {
@@ -390,7 +404,8 @@ var Collector = function() {
         type : 'POST',
         data : JSON.stringify(this.postData),
         success : function(data) {
-          console.log(data);
+          console.log(data['id']);
+          flashFontsDetection(data['id']);
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
