@@ -26,6 +26,44 @@ var Collector = function() {
 
   var _this = this;
   //get the usable fonts by flash
+  
+  this.handleCookie = function() {
+
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+
+    var this_cookie = getCookie("dynamic_fingerprinting");
+    $.ajax({
+      context:this,
+      url : "http://" + ip_address + "/getCookie",
+      type : 'POST',
+      async: false,
+      data : {
+        cookie: this_cookie 
+      },
+      success : function(res) {
+        document.cookie = "dynamic_fingerprinting=" + res;
+        this.postData["label"] = res;
+      },
+      error: function (xhr, ajaxOptions, thrownError) {
+        alert(thrownError);
+      }
+    });
+  }
+
   this.flashFontsDetection = function(_this) {
     if (typeof window.swfobject === "undefined") {
       console.log("No flash available");
@@ -59,10 +97,10 @@ var Collector = function() {
     var finished = false;
     try{
       var audioCtx = new (window.AudioContext || window.webkitAudioContext),
-      oscillator = audioCtx.createOscillator(),
-      analyser = audioCtx.createAnalyser(),
-      gainNode = audioCtx.createGain(),
-      scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
+        oscillator = audioCtx.createOscillator(),
+        analyser = audioCtx.createAnalyser(),
+        gainNode = audioCtx.createGain(),
+        scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
       var destination = audioCtx.destination;
       return (audioCtx.sampleRate).toString() + '_' + destination.maxChannelCount + "_" + destination.numberOfInputs + '_' + destination.numberOfOutputs + '_' + destination.channelCount + '_' + destination.channelCountMode + '_' + destination.channelInterpretation;
     }
@@ -160,10 +198,10 @@ var Collector = function() {
   var run_cc_fp = function(_this) {
     var cc_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-    oscillator = audioCtx.createOscillator(),
-    analyser = audioCtx.createAnalyser(),
-    gain = audioCtx.createGain(),
-    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+      oscillator = audioCtx.createOscillator(),
+      analyser = audioCtx.createAnalyser(),
+      gain = audioCtx.createGain(),
+      scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
 
     gain.gain.value = 0; // Disable volume
@@ -199,10 +237,10 @@ var Collector = function() {
   var run_hybrid_fp = function(_this) {
     var hybrid_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-    oscillator = audioCtx.createOscillator(),
-    analyser = audioCtx.createAnalyser(),
-    gain = audioCtx.createGain(),
-    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+      oscillator = audioCtx.createOscillator(),
+      analyser = audioCtx.createAnalyser(),
+      gain = audioCtx.createGain(),
+      scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
     // Create and configure compressor
     compressor = audioCtx.createDynamicsCompressor();
@@ -272,7 +310,7 @@ var Collector = function() {
         this.setGPUTestPostData(hashValue, id);
       },
       error: function (xhr, ajaxOptions, thrownError) {
-       // alert(thrownError);
+        // alert(thrownError);
       }
     });
   }
@@ -339,9 +377,6 @@ var Collector = function() {
     asyncTest = new AsyncTest(this);
     asyncTest.begin();
 
-    //startSend(this.postData);
-    console.log(this.postData);
-
     this.startSend = function(){
       $.ajax({
         url : "http://" + ip_address + "/features",
@@ -383,5 +418,6 @@ stringify = function(array) {
 
 function getFingerprint() {
   var collector = new Collector();
+  collector.handleCookie();
   collector.getPostData();
 }
