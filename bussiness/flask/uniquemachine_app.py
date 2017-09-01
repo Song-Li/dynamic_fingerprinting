@@ -89,6 +89,14 @@ def get_browser_from_agent(agent):
             end_pos = len(agent)
         return agent[start_pos:end_pos]
 
+@app.route("/distance", methods=['POST'])
+def distance():
+    ID = request.value['id']
+    sql_str = "SELECT * FROM features"
+    res = run_sql(sql_str)
+    return res
+
+
 @app.route("/utils", methods=['POST'])
 def utils():
     command = request.values['key']
