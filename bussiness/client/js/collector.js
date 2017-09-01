@@ -396,8 +396,26 @@ var Collector = function() {
     asyncTest = new AsyncTest(this);
     asyncTest.begin();
 
+    this.getNearest = function(cur_id){
+      $.ajax({
+        url : "http://" + ip_address + "/distance",
+        type : 'POST',
+        data : {
+          id: cur_id
+        },
+        success : function(data) {
+          console.log(data);
+
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+          alert(thrownError);
+        }
+      });
+    }
+
     this.startSend = function(){
       $.ajax({
+        context: this,
         url : "http://" + ip_address + "/features",
         dataType : "json",
         contentType: 'application/json',
@@ -406,6 +424,7 @@ var Collector = function() {
         success : function(data) {
           alert("finished " + data['id']);
           flashFontsDetection(data['id']);
+          this.getNearest(data['id']);
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
