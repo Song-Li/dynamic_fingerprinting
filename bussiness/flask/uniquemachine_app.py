@@ -13,6 +13,7 @@ import numpy as np
 from PIL import Image
 import base64
 import cStringIO
+from datetime import datetime
 
 root = "/home/sol315/server/uniquemachine/"
 pictures_path = "/home/sol315/pictures/"
@@ -91,10 +92,50 @@ def get_browser_from_agent(agent):
 
 @app.route("/distance", methods=['POST'])
 def distance():
-    ID = request.value['id']
+    ID = request.values['id']
     sql_str = "SELECT * FROM features"
+    all_records = run_sql(sql_str)
+    sql_str = "SELECT * FROM features WHERE id=" + ID
+    aim_record = run_sql(sql_str)[0]
+    num_attr = len(aim_record)
+    cur_max = -1 
+    max_record = ""
+    cur_same = 0
+    for record in all_records:
+        cur_same = 0
+        if ID == record[0]:
+            continue
+        for i in range(num_attr):
+            if record[i] == aim_record[i]:
+                cur_same += 1
+        if cur_same > cur_max:
+            cur_max = cur_same
+            max_record = str(record[21])
+    return str(float(cur_max) / 29.0) + ", " + max_record 
+
+
+@app.route("/flashFonts", methods=['POST'])
+def flashFonts():
+    flashFonts = request.values['flashFonts']
+    ID = request.values['id']
+    sql_str = 'UPDATE features SET flashFonts="' + flashFonts + '" WHERE id=' + ID
     res = run_sql(sql_str)
-    return res
+    return "flash fonts finished" 
+
+@app.route("/getCookie", methods=['POST'])
+def getCookie():
+    cookie = request.values['cookie']
+    sql_str = 'SELECT count(id) FROM cookies WHERE cookie = "' + cookie + '"'
+    res = run_sql(sql_str)
+    if res[0][0] == 0:
+        IP = request.remote_addr
+        id_str = IP + str(datetime.now()) 
+        cookie = hashlib.md5(id_str).hexdigest()
+        sql_str = "INSERT INTO cookies (cookie) VALUES ('" + cookie + "')"
+        run_sql(sql_str)
+
+    return cookie
+
 
 
 @app.route("/utils", methods=['POST'])
@@ -182,12 +223,9 @@ def get_result():
 @app.route("/pictures", methods=['POST'])
 def store_pictures():
     # get ID for this picture
-    image_b64 = request.values['imageBase64']
-
-    pic_hash = md5.md5(image_b64).hexdigest()
     db = mysql.get_db()
     cursor = db.cursor()
-    sql_str = "INSERT INTO pictures (dataurl) VALUES ('" + pic_hash + "')"
+    sql_str = "INSERT INTO pictures (dataurl) VALUES ('" + "tmp"+ "')"
     cursor.execute(sql_str)
     db.commit()
 
@@ -196,6 +234,8 @@ def store_pictures():
     ID = cursor.fetchone()
     db.commit()
 
+    image_b64 = request.values['imageBase64']
+    hash_value = hashlib.md5(image_b64).hexdigest()
 
     # remove the define part of image_b64
     image_b64 = re.sub('^data:image/.+;base64,', '', image_b64)
@@ -204,7 +244,7 @@ def store_pictures():
     image_data = cStringIO.StringIO(image_data)
     image_PIL = Image.open(image_data)
     image_PIL.save("/home/sol315/pictures/" + str(ID[0]) + ".png")
-    return pic_hash 
+    return hash_value 
 
 @app.route('/details', methods=['POST'])
 def details():
@@ -253,7 +293,7 @@ def features():
             "language",
             "langsDetected",
             "resolution",
-            "fonts",
+            "jsFonts",
             "WebGL", 
             "inc", 
             "gpu", 
@@ -273,7 +313,7 @@ def features():
 
     cross_feature_list = [
             "timezone",
-            "fonts",
+            "jsFonts",
             "langsDetected",
             "audio"
             ]
@@ -288,12 +328,11 @@ def features():
     #with open("fonts.txt", 'a') as f:
         #f.write(result['fonts'] + '\n')
 
-    fonts = list(result['fonts'])
+    jsFonts = list(result['jsFonts'])
 
     cnt = 0
-    for i in range(len(fonts)):
-        fonts[i] = str(int(fonts[i]) & mask[i] & mac_mask[i])
-        if fonts[i] == '1':
+    for i in range(len(jsFonts)):
+        if jsFonts[i] == '1':
             cnt += 1
 
     result['agent'] = agent
@@ -322,7 +361,7 @@ def features():
         # for gpu imgs
         if feature == "gpuImgs":
             # only keep the pure value of every result
-            hash_str = ",".join(v.split('_')[1] for k, v in value.iteritems())
+            hash_str = ",".join(v.split('_')[0] for k, v in value.iteritems())
             # change value to str
             value = ",".join('%s_%s' % (k, v) for k, v in value.iteritems())
         else:
@@ -350,7 +389,7 @@ def features():
         single_hash_str += hash_str
 
 
-    result['fonts'] = fonts
+    result['jsFonts'] = jsFonts
     for feature in cross_feature_list:
         cross_hash += str(result[feature])
         hash_object = hashlib.md5(str(result[feature]))
@@ -361,8 +400,8 @@ def features():
     hash_object = hashlib.md5(cross_hash)
     cross_hash = hash_object.hexdigest()
 
-    sql_label = "SELECT label FROM labels ORDER BY date_created DESC LIMIT 1"
-    label = run_sql(sql_label)[0][0]
+    # this is the cookie of this computer
+    label = result['label']
 
     feature_str += ',browser_fingerprint,computer_fingerprint_1,label'
     value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "'"
