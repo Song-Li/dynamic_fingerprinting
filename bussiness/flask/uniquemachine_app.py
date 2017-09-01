@@ -103,7 +103,7 @@ def distance():
     cur_same = 0
     for record in all_records:
         cur_same = 0
-        if ID == record[0]:
+        if str(ID) == str(record[24]):
             continue
         for i in range(num_attr):
             if record[i] == aim_record[i]:
