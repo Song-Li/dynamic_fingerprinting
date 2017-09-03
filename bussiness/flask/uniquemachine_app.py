@@ -92,6 +92,38 @@ def get_browser_from_agent(agent):
 
 @app.route("/distance", methods=['POST'])
 def distance():
+    feature_list = [
+            "agent",
+            "accept",
+            "encoding",
+            "language",
+            "langsdetected",
+            "resolution",
+            "jsFonts",
+            "WebGL", 
+            "inc", 
+            "gpu", 
+            "gpuimgs", 
+            "timezone", 
+            "plugins", 
+            "cookie", 
+            "localstorage", 
+            "adblock", 
+            "cpu_cores", 
+            "canvas_test", 
+            "audio",
+            "flashFonts",
+            "cc_audio",
+            "hybrid_audio"
+            ]
+
+
+    sql_str = "DESCRIBE features"
+    res = run_sql(sql_str)
+    attrs = []
+    for attr in res:
+        attrs.append(attr[0])
+
     ID = request.values['id']
     sql_str = "SELECT * FROM features"
     all_records = run_sql(sql_str)
@@ -105,13 +137,14 @@ def distance():
         cur_same = 0
         if str(ID) == str(record[24]):
             continue
-        for i in range(num_attr):
+        for feature in feature_list: 
+            i = attrs.index(feature)
             if record[i] == aim_record[i]:
                 cur_same += 1
         if cur_same > cur_max:
             cur_max = cur_same
             max_record = str(record[21])
-    return str(float(cur_max) / 29.0) + ", " + max_record 
+    return str(float(cur_max) / float(len(feature_list))) + ", " + max_record 
 
 
 @app.route("/flashFonts", methods=['POST'])
