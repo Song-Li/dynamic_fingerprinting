@@ -397,20 +397,22 @@ var Collector = function() {
     asyncTest.begin();
 
     this.getNearest = function(cur_id){
+      nearest_data = "";
       $.ajax({
         url : "http://" + ip_address + "/distance",
         type : 'POST',
+        async: false,
         data : {
           id: cur_id
         },
         success : function(data) {
-          console.log(data);
-
+          nearest_data = data;
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
         }
       });
+      return nearest_data;
     }
 
     this.startSend = function(){
@@ -424,7 +426,7 @@ var Collector = function() {
         success : function(data) {
           alert("finished " + data['id']);
           flashFontsDetection(data['id']);
-          this.getNearest(data['id']);
+          console.log(this.getNearest(data['id']));
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
