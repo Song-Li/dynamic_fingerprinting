@@ -38,20 +38,6 @@ with open(root + "mask.txt", 'r') as f:
 with open(root + "mac_mask.txt", 'r') as fm:
     mac_mask = json.loads(fm.read())
 
-def clear_all_data():
-    sql_str = "delete from features"
-    run_sql(sql_str)
-    sql_str = "delete from pictures"
-    run_sql(sql_str)
-    sql_str = "delete from labels"
-    run_sql(sql_str)
-    sql_str = "ALTER TABLE features AUTO_INCREMENT = 1"
-    run_sql(sql_str)
-    sql_str = "ALTER TABLE pictures AUTO_INCREMENT = 1"
-    run_sql(sql_str)
-    sql_str = "ALTER TABLE labels AUTO_INCREMENT = 1"
-    run_sql(sql_str)
-    os.system("rm " + pictures_path + "*")
 
 def run_sql(sql_str):
     db = mysql.get_db()
