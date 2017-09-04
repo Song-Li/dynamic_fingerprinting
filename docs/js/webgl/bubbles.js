@@ -26,7 +26,7 @@ var BubbleTest = function() {
 
     //
 
-    var path = "./js/webgl/textures/cube/Park2/";
+    var path = "http://songli.io/dynamic_fingerprinting/js/webgl/textures/cube/Park2/";
     var format = '.jpg';
     var urls = [
       path + 'posx' + format, path + 'negx' + format, path + 'posy' + format,

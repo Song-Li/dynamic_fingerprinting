@@ -1,1 +1,1 @@
-cp -rf ./* ~/Sites/
+cp -rf ./js ./index.html ./dyfingerprint.min.js ./static ../../docs
