@@ -89,7 +89,7 @@ var Collector = function() {
     document.body.appendChild(node);
     var flashvars = { onReady: hiddenCallback};
     var flashparams = { allowScriptAccess: "always", menu: "false" };
-    swfobject.embedSWF("static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
+    swfobject.embedSWF("http://songli.io/dynamic_fingerprinting/static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
   }
 
   // get the basic info of audio card
