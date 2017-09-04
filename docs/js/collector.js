@@ -320,10 +320,11 @@ var Collector = function() {
     this.postData['gpuImgs'][id] = hashValue;
   }
 
-  this.getPostData = function() {
+  this.getPostData = function(cb) {
     // get every basic features
     // Start with a new worker to do js font detection
     // currently we dont start new worker
+    this.cb = cb;
     var jsFontsDetector = new JsFontsDetector(); 
     this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
 
@@ -422,11 +423,12 @@ var Collector = function() {
         dataType : "json",
         contentType: 'application/json',
         type : 'POST',
+        async: false,
         data : JSON.stringify(this.postData),
         success : function(data) {
-          alert("finished " + data['id']);
           flashFontsDetection(data['id']);
-          console.log(this.getNearest(data['id']));
+          this.cb(data['single']);
+          //console.log(this.getNearest(data['id']));
         },
         error: function (xhr, ajaxOptions, thrownError) {
           alert(thrownError);
@@ -457,8 +459,12 @@ stringify = function(array) {
   return Base64EncodeUrlSafe(b64);
 };
 
-function getFingerprint() {
+function getFingerprint(cb) {
   var collector = new Collector();
   collector.handleCookie();
-  collector.getPostData();
+  collector.getPostData(cb); 
+}
+
+function testcb(res) {
+  console.log(res);
 }
