@@ -1,4 +1,5 @@
 ip_address = "df.songli.io/uniquemachine";
+var $= jQuery.noConflict();
 var Collector = function() {
   this.finalized = false;
   this.postData = {
