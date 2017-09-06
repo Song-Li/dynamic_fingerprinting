@@ -24,11 +24,14 @@ var Sender = function () {
 // if doesn't exsit, generate a new one
 // this function won't delete the generated canvases
 getCanvas = function(canvasName) {
-  var canvas = $('#' + canvasName);
-  if(!canvas[0]){
-    return $("<canvas id='" + canvasName + "' width='256' height='256'></canvas>")[0];
+  var canvas = document.getElementById(canvasName);
+  if(!canvas){
+    var div = document.createElement('div');
+    var s = "<canvas id='" + canvasName + "' width='256' height='256'></canvas>";
+    div.innerHTML = s;
+    return div.firstChild;
   }
-  return canvas = $('#' + canvasName)[0];
+  return canvas;
 }
 
 getGLAA = function(canvas) {

@@ -28,7 +28,6 @@ var Collector = function() {
   //get the usable fonts by flash
 
   this.handleCookie = function() {
-
     function getCookie(cname) {
       var name = cname + "=";
       var decodedCookie = decodeURIComponent(document.cookie);
@@ -46,22 +45,21 @@ var Collector = function() {
     }
 
     var this_cookie = getCookie("dynamic_fingerprinting");
-    $.ajax({
-      context:this,
-      url : "http://" + ip_address + "/getCookie",
-      type : 'POST',
-      async: false,
-      data : {
-        cookie: this_cookie 
-      },
-      success : function(res) {
+    var xhttp = new XMLHttpRequest();
+    var url = "http://" + ip_address + "/getCookie";
+    var data = "cookie=" + this_cookie; 
+    var _this = this;
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var res = this.responseText;
         document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
-        this.postData["label"] = res;
-      },
-      error: function (xhr, ajaxOptions, thrownError) {
-        alert(thrownError);
+        _this.postData["label"] = res;
+        console.log(document.cookie);
       }
-    });
+    };
+    xhttp.open("POST", url, false);
+    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhttp.send(encodeURI(data));
   }
 
   flashFontsDetection = function(record_id) {
@@ -176,7 +174,12 @@ var Collector = function() {
 
   var CanvasTest = function() {
     canvasData = "Not supported";
-    canvas = $("<canvas height='60' width='400'></canvas>")[0];
+
+    var div = document.createElement('div');
+    var s = "<canvas height='60' width='400'></canvas>";
+    div.innerHTML = s;
+    canvas = div.firstChild;
+
     canvasContext = canvas.getContext("2d");
     canvas.style.display = "inline";
     canvasContext.textBaseline = "alphabetic";
@@ -297,22 +300,19 @@ var Collector = function() {
 
   // used for sending images back to server
   this.sendPicture = function(dataURL, id) {
-    $.ajax({
-      context:this,
-      url : "http://" + ip_address + "/pictures",
-      type : 'POST',
-      async: false,
-      data : {
-        imageBase64: dataURL
-      },
-      success : function(hashValue) {
-        //this.setGPUTestPostData(calcSHA1(dataURL), hashValue);
-        this.setGPUTestPostData(hashValue, id);
-      },
-      error: function (xhr, ajaxOptions, thrownError) {
-        // alert(thrownError);
+    var xhttp = new XMLHttpRequest();
+    var url = "http://" + ip_address + "/pictures";
+    var data = "imageBase64=" + encodeURIComponent(dataURL); 
+    var _this = this;
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var hashValue = this.responseText;
+        _this.setGPUTestPostData(hashValue, id);
       }
-    });
+    };
+    xhttp.open("POST", url, false);
+    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhttp.send(data);
   }
 
   //this function is used to set the postdata of gpu test
@@ -333,7 +333,7 @@ var Collector = function() {
     this.postData['plugins'] = this.getPlugins();
     this.postData['cookie'] = navigator.cookieEnabled;
     this.postData['localstorage'] = this.checkLocalStorage();
-    this.postData['adBlock'] = $('#ad')[0] == null ? 'Yes' : 'No';
+    this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
     cvs_test = CanvasTest();
     // here we assume that the ID for canvas is 2
     // ===========================================
@@ -366,21 +366,18 @@ var Collector = function() {
     }
     
     flashFontsDetectionFinished = function(id, flashFonts) {
-      $.ajax({
-        url : "http://" + ip_address + "/flashFonts",
-        type : 'POST',
-        async: false,
-        data : {
-          id: id,
-          flashFonts: flashFonts 
-        },
-        success : function(res) {
-          console.log(res);
-        },
-        error: function (xhr, ajaxOptions, thrownError) {
-          alert(thrownError);
+      var xhttp = new XMLHttpRequest();
+      var url = "http://" + ip_address + "/flashFonts";
+      var data = "id=" + encodeURIComponent(id) + "&flashFonts=" + encodeURIComponent(flashFonts); 
+      var _this = this;
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          console.log(this.responseText);
         }
-      });
+      };
+      xhttp.open("POST", url, false);
+      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhttp.send(data);
     }
 
     this.runCcFpFinished = function(data) {
@@ -417,24 +414,24 @@ var Collector = function() {
     }
 
     this.startSend = function(){
-      $.ajax({
-        context: this,
-        url : "http://" + ip_address + "/features",
-        dataType : "json",
-        contentType: 'application/json',
-        type : 'POST',
-        async: false,
-        data : JSON.stringify(this.postData),
-        success : function(data) {
+      var xhttp = new XMLHttpRequest();
+      var url = "http://" + ip_address + "/features";
+      var data = JSON.stringify(this.postData);
+      var _this = this;
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var data = JSON.parse(this.responseText);
           flashFontsDetection(data['id']);
-          this.cb(data['single']);
-          //console.log(this.getNearest(data['id']));
-        },
-        error: function (xhr, ajaxOptions, thrownError) {
-          alert(thrownError);
+          console.log(data);
+          _this.cb(data['single']);
         }
-      });
+      };
+      xhttp.open("POST", url, false);
+      xhttp.setRequestHeader("Content-Type", "application/json");
+      xhttp.send(data);
     }
+
+
   }
 };
 
