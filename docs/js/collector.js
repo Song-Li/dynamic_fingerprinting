@@ -456,12 +456,13 @@ stringify = function(array) {
   return Base64EncodeUrlSafe(b64);
 };
 
-function getFingerprint(cb) {
+
+function messageToParent(message) {
+  parent.postMessage(message, "*");
+} 
+
+function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
-  collector.getPostData(cb); 
-}
-
-function testcb(res) {
-  console.log(res);
+  collector.getPostData(messageToParent); 
 }
