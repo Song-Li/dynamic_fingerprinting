@@ -161,8 +161,21 @@ class Analyzer():
                     distances.append((all_ids[i][0], dis))
         return distances
 
+    def check_change(self):
+        """
+        check if there is any changes for same cookie/ip (We can decide it later)
+        """
+        sql_str = "SELECT DISTINCT(IP) FROM features"
+        all_ips = self.db.run_sql(sql_str)
+        num_ips = len(all_ips)
+        print num_ips
+        
+
+
+
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("-c", "--change", action = "store_true", help = "Check if there is any change for a single computer")
     parser.add_argument("-g", "--group", nargs = '*', action="store", help="Input the key word of two groups")
     parser.add_argument("-v", "--firefox_version", type=int, action="store", help = "Input the firefox version")
     parser.add_argument("-a", "--all", type=int, action = "store", help = "Compare all data pairs in database")
@@ -170,7 +183,9 @@ def main():
     parser.add_argument("-i", "--id", type=int, nargs = '*', action = "store", help = "Compare all data pairs in database")
     args = parser.parse_args()
     analyzer = Analyzer()
-    if args.all != None :
+    if args.check:
+        analyzer.check_change()
+    elif args.all != None :
         distance = analyzer.cal_all_distances(args.all, args.detail)
         if args.all == 0:
             for i in distance:
