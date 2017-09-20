@@ -1,4 +1,5 @@
 ip_address = "df.songli.io/uniquemachine";
+//ip_address = "lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
@@ -21,10 +22,19 @@ var Collector = function() {
     langsDetected: [],
     video: [],
     cc_audio: [],
-    hybrid_audio: []
+    hybrid_audio: [],
+    clientid: "Not Set"
   };
 
   var _this = this;
+
+  this.addClientId = function() {
+    cur = window.location.search.substr(1);
+    if (cur != "") this.postData['clientid'] = cur.split('=')[1];
+  }
+
+  this.addClientId();
+
   //get the usable fonts by flash
 
   this.handleCookie = function() {

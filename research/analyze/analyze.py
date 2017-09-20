@@ -165,12 +165,15 @@ class Analyzer():
         """
         check if there is any changes for same cookie/ip (We can decide it later)
         """
-        sql_str = "SELECT DISTINCT(IP) FROM features"
-        all_ips = self.db.run_sql(sql_str)
-        num_ips = len(all_ips)
-        print num_ips
-        
-
+        sql_str = "SELECT DISTINCT(label) FROM features"
+        all_cookies = self.db.run_sql(sql_str)
+        num_cookies = len(all_cookies)
+        for cookie in all_cookies:
+            sql_str = "SELECT IP FROM features WHERE label='" + cookie[0] + "'"
+            records = self.db.run_sql(sql_str)
+            if len(records) > 10:
+                print len(records)
+                print records[0]
 
 
 def main():
@@ -183,7 +186,7 @@ def main():
     parser.add_argument("-i", "--id", type=int, nargs = '*', action = "store", help = "Compare all data pairs in database")
     args = parser.parse_args()
     analyzer = Analyzer()
-    if args.check:
+    if args.change:
         analyzer.check_change()
     elif args.all != None :
         distance = analyzer.cal_all_distances(args.all, args.detail)
