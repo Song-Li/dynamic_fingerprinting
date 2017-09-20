@@ -33,12 +33,6 @@ base64_header = "data:image/png;base64,"
 mask = []
 mac_mask = []
 
-with open(root + "mask.txt", 'r') as f:
-    mask = json.loads(f.read())
-with open(root + "mac_mask.txt", 'r') as fm:
-    mac_mask = json.loads(fm.read())
-
-
 def run_sql(sql_str):
     db = mysql.get_db()
     cursor = db.cursor()
@@ -422,9 +416,10 @@ def features():
 
     # this is the cookie of this computer
     label = result['label']
+    clientid = result['clientid']
 
-    feature_str += ',browser_fingerprint,computer_fingerprint_1,label'
-    value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "'"
+    feature_str += ',browser_fingerprint,computer_fingerprint_1,label, clientid'
+    value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "','" + clientid + "'"
 
     db = mysql.get_db()
     cursor = db.cursor()
