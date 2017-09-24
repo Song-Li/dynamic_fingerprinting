@@ -37,3 +37,4 @@ class Database():
         self.__db.commit()
         res = self.__cursor.fetchall()
         return res
+
