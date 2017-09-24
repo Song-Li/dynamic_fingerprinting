@@ -56,7 +56,7 @@ var Collector = function() {
 
     var this_cookie = getCookie("dynamic_fingerprinting");
     var xhttp = new XMLHttpRequest();
-    var url = "http://" + ip_address + "/getCookie";
+    var url = "https://" + ip_address + "/getCookie";
     var data = "cookie=" + this_cookie; 
     var _this = this;
     xhttp.onreadystatechange = function() {
