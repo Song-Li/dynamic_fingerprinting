@@ -1,4 +1,4 @@
-ip_address = "df.songli.io/uniquemachine";
+ip_address = "https://df.songli.io/uniquemachine";
 //ip_address = "lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
@@ -56,7 +56,7 @@ var Collector = function() {
 
     var this_cookie = getCookie("dynamic_fingerprinting");
     var xhttp = new XMLHttpRequest();
-    var url = "https://" + ip_address + "/getCookie";
+    var url = ip_address + "/getCookie";
     var data = "cookie=" + this_cookie; 
     var _this = this;
     xhttp.onreadystatechange = function() {
@@ -97,7 +97,7 @@ var Collector = function() {
     document.body.appendChild(node);
     var flashvars = { onReady: hiddenCallback};
     var flashparams = { allowScriptAccess: "always", menu: "false" };
-    swfobject.embedSWF("http://songli.io/dynamic_fingerprinting/static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
+    swfobject.embedSWF("https://songli.io/dynamic_fingerprinting/static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
   }
 
   // get the basic info of audio card
@@ -311,7 +311,7 @@ var Collector = function() {
   // used for sending images back to server
   this.sendPicture = function(dataURL, id) {
     var xhttp = new XMLHttpRequest();
-    var url = "http://" + ip_address + "/pictures";
+    var url = ip_address + "/pictures";
     var data = "imageBase64=" + encodeURIComponent(dataURL); 
     var _this = this;
     xhttp.onreadystatechange = function() {
@@ -377,7 +377,7 @@ var Collector = function() {
     
     flashFontsDetectionFinished = function(id, flashFonts) {
       var xhttp = new XMLHttpRequest();
-      var url = "http://" + ip_address + "/flashFonts";
+      var url = ip_address + "/flashFonts";
       var data = "id=" + encodeURIComponent(id) + "&flashFonts=" + encodeURIComponent(flashFonts); 
       var _this = this;
       xhttp.onreadystatechange = function() {
@@ -407,7 +407,7 @@ var Collector = function() {
     this.getNearest = function(cur_id){
       nearest_data = "";
       $.ajax({
-        url : "http://" + ip_address + "/distance",
+        url :ip_address + "/distance",
         type : 'POST',
         async: false,
         data : {
@@ -425,7 +425,7 @@ var Collector = function() {
 
     this.startSend = function(){
       var xhttp = new XMLHttpRequest();
-      var url = "http://" + ip_address + "/features";
+      var url = ip_address + "/features";
       var data = JSON.stringify(this.postData);
       var _this = this;
       xhttp.onreadystatechange = function() {
