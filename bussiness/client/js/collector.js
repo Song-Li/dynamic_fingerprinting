@@ -64,7 +64,6 @@ var Collector = function() {
         var res = this.responseText;
         document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
         _this.postData["label"] = res;
-        console.log(document.cookie);
       }
     };
     xhttp.open("POST", url, false);
@@ -74,7 +73,6 @@ var Collector = function() {
 
   flashFontsDetection = function(record_id) {
     if (typeof window.swfobject === "undefined") {
-      console.log("No flash available");
       return "";    
     }
     if(!swfobject.hasFlashPlayerVersion("9.0.0")){
@@ -382,7 +380,6 @@ var Collector = function() {
       var _this = this;
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-          console.log(this.responseText);
         }
       };
       xhttp.open("POST", url, false);
@@ -397,7 +394,6 @@ var Collector = function() {
 
     this.runHybridFpFinished = function(data) {
       this.postData['hybrid_audio'] = data.join('_');
-      console.log(this.postData);
       this.startSend();
     }
 
@@ -432,7 +428,6 @@ var Collector = function() {
         if (this.readyState == 4 && this.status == 200) {
           var data = JSON.parse(this.responseText);
           flashFontsDetection(data['id']);
-          console.log(data);
           _this.cb(data['single']);
         }
       };
