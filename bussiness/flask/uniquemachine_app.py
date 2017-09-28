@@ -233,6 +233,17 @@ def get_result():
     db.commit()
     return cursor.fetchone()[0]
 
+@app.route("/check_exsit_picture", methods=['POST'])
+def check_exsit_picture():
+    hash_value = request.values['hash_value']
+    sql_str = "SELECT dataurl FROM pictures WHERE dataurl='" + hash_value + "'"
+    res = run_sql(sql_str)
+
+    if len(res) > 0: 
+        return '1'
+    else:
+        return '0'
+
 @app.route("/pictures", methods=['POST'])
 def store_pictures():
     # get ID for this picture
