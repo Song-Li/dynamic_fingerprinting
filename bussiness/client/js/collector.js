@@ -420,8 +420,10 @@ var Collector = function() {
       this.startSend();
     }
 
-    asyncTest = new AsyncTest(this);
-    asyncTest.begin();
+    if (this.postData['WebGL'] == true){
+      asyncTest = new AsyncTest(this);
+      asyncTest.begin();
+    }
 
     this.getNearest = function(cur_id){
       nearest_data = "";
