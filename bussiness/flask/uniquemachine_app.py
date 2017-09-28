@@ -143,7 +143,7 @@ def getCookie():
     if res[0][0] == 0:
         IP = request.remote_addr
         id_str = IP + str(datetime.now()) 
-        cookie = hashlib.md5(id_str).hexdigest()
+        cookie = hashlib.sha1(id_str).hexdigest()
         sql_str = "INSERT INTO cookies (cookie) VALUES ('" + cookie + "')"
         run_sql(sql_str)
 
@@ -237,19 +237,13 @@ def get_result():
 def store_pictures():
     # get ID for this picture
     image_b64 = request.values['imageBase64']
-    hash_value = hashlib.md5(image_b64).hexdigest()
+    hash_value = hashlib.sha1(image_b64).hexdigest()
 
     db = mysql.get_db()
     cursor = db.cursor()
     sql_str = "INSERT INTO pictures (dataurl) VALUES ('" + hash_value + "')"
     cursor.execute(sql_str)
     db.commit()
-
-    sql_str = "SELECT LAST_INSERT_ID()"
-    cursor.execute(sql_str)
-    ID = cursor.fetchone()
-    db.commit()
-
 
     # remove the define part of image_b64
     image_b64 = re.sub('^data:image/.+;base64,', '', image_b64)
