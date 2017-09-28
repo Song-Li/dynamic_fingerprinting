@@ -1,5 +1,5 @@
 ip_address = "https://df.songli.io/uniquemachine";
-//ip_address = "lab.songli.io/uniquemachine";
+//ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
@@ -306,8 +306,31 @@ var Collector = function() {
     return idList;
   }
 
+  this.checkExsitPicture= function(dataURL, id) {
+    var xhttp = new XMLHttpRequest();
+    var url = ip_address + "/check_exsit_picture";
+    var data = "hash_value=" + calcSHA1(dataURL); 
+    var _this = this;
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var result = this.responseText;
+        if (result != '1') {
+          _this.storePicture(dataURL, id);
+        }
+      }
+    };
+    xhttp.open("POST", url, false);
+    xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhttp.send(data);
+  }
+
   // used for sending images back to server
   this.sendPicture = function(dataURL, id) {
+    this.checkExsitPicture(dataURL, id);
+  }
+
+
+  this.storePicture = function(dataURL, id) {
     var xhttp = new XMLHttpRequest();
     var url = ip_address + "/pictures";
     var data = "imageBase64=" + encodeURIComponent(dataURL); 
@@ -397,8 +420,10 @@ var Collector = function() {
       this.startSend();
     }
 
-    asyncTest = new AsyncTest(this);
-    asyncTest.begin();
+    if (this.postData['WebGL'] == true){
+      asyncTest = new AsyncTest(this);
+      asyncTest.begin();
+    }
 
     this.getNearest = function(cur_id){
       nearest_data = "";
