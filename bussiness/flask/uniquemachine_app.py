@@ -236,10 +236,10 @@ def get_result():
 @app.route("/check_exsit_picture", methods=['POST'])
 def check_exsit_picture():
     hash_value = request.values['hash_value']
-    sql_str = "SELECT dataurl FROM pictures WHERE dataurl='" + hash_value + "'"
+    sql_str = "SELECT count(dataurl) FROM pictures WHERE dataurl='" + hash_value + "'"
     res = run_sql(sql_str)
 
-    if len(res) > 0: 
+    if res[0][0] > 0: 
         return '1'
     else:
         return '0'
