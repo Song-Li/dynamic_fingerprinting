@@ -1,5 +1,5 @@
-//ip_address = "https://df.songli.io/uniquemachine";
-ip_address = "http://lab.songli.io/uniquemachine";
+ip_address = "https://df.songli.io/uniquemachine";
+//ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
