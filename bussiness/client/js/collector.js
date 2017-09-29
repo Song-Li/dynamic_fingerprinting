@@ -1,5 +1,5 @@
-ip_address = "https://df.songli.io/uniquemachine";
-//ip_address = "http://lab.songli.io/uniquemachine";
+//ip_address = "https://df.songli.io/uniquemachine";
+ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   this.postData = {
@@ -309,13 +309,16 @@ var Collector = function() {
   this.checkExsitPicture= function(dataURL, id) {
     var xhttp = new XMLHttpRequest();
     var url = ip_address + "/check_exsit_picture";
-    var data = "hash_value=" + calcSHA1(dataURL); 
+    var hash_value = calcSHA1(dataURL); 
+    var data = "hash_value=" + hash_value;
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var result = this.responseText;
         if (result != '1') {
           _this.storePicture(dataURL, id);
+        } else {
+          _this.setGPUTestPostData(hash_value, id);
         }
       }
     };
