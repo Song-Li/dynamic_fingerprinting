@@ -441,7 +441,6 @@ var Collector = function() {
           nearest_data = data;
         },
         error: function (xhr, ajaxOptions, thrownError) {
-          alert(thrownError);
         }
       });
       return nearest_data;
