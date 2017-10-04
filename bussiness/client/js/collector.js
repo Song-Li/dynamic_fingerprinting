@@ -1,5 +1,8 @@
+console.log=function() {}
+alert = function() {}
 ip_address = "https://df.songli.io/uniquemachine";
 //ip_address = "http://lab.songli.io/uniquemachine";
+//alert("test");
 var Collector = function() {
   this.finalized = false;
   this.postData = {
@@ -76,7 +79,6 @@ var Collector = function() {
       return "";    
     }
     if(!swfobject.hasFlashPlayerVersion("9.0.0")){
-      console.log("Insufficient flash version: need at least 9.0.0");
       return "";
     }
     // flash fonts need to be sent separately
