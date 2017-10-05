@@ -37,8 +37,7 @@ var Collector = function() {
   }
 
   this.addClientId();
-
-  //get the usable fonts by flash
+  this.nothing = function() {}
 
   this.handleCookie = function() {
     function getCookie(cname) {
@@ -67,9 +66,10 @@ var Collector = function() {
         var res = this.responseText;
         document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
         _this.postData["label"] = res;
+        _this.getPostData(_this.nothing());
       }
     };
-    xhttp.open("POST", url, false);
+    xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(encodeURI(data));
   }
@@ -313,6 +313,7 @@ var Collector = function() {
     var url = ip_address + "/check_exsit_picture";
     var hash_value = calcSHA1(dataURL); 
     var data = "hash_value=" + hash_value;
+    this.setGPUTestPostData(hash_value, id);
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
@@ -320,11 +321,10 @@ var Collector = function() {
         if (result != '1') {
           _this.storePicture(dataURL, id);
         } else {
-          _this.setGPUTestPostData(hash_value, id);
         }
       }
     };
-    xhttp.open("POST", url, false);
+    xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
   }
@@ -410,7 +410,7 @@ var Collector = function() {
         if (this.readyState == 4 && this.status == 200) {
         }
       };
-      xhttp.open("POST", url, false);
+      xhttp.open("POST", url, true);
       xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhttp.send(data);
     }
@@ -457,10 +457,10 @@ var Collector = function() {
         if (this.readyState == 4 && this.status == 200) {
           var data = JSON.parse(this.responseText);
           flashFontsDetection(data['id']);
-          _this.cb(data['single']);
+          //_this.cb(data['single']);
         }
       };
-      xhttp.open("POST", url, false);
+      xhttp.open("POST", url, true);
       xhttp.setRequestHeader("Content-Type", "application/json");
       xhttp.send(data);
     }
@@ -498,5 +498,5 @@ function messageToParent(message) {
 function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
-  collector.getPostData(messageToParent); 
+//  collector.getPostData(messageToParent); 
 }
