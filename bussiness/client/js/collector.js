@@ -28,7 +28,7 @@ var Collector = function() {
     hybrid_audio: [],
     clientid: "Not Set"
   };
-
+ 
   var _this = this;
 
   this.addClientId = function() {
@@ -37,7 +37,8 @@ var Collector = function() {
   }
 
   this.addClientId();
-  this.nothing = function() {}
+
+  //get the usable fonts by flash
 
   this.handleCookie = function() {
     function getCookie(cname) {
@@ -66,10 +67,9 @@ var Collector = function() {
         var res = this.responseText;
         document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
         _this.postData["label"] = res;
-        _this.getPostData(_this.nothing());
       }
     };
-    xhttp.open("POST", url, true);
+    xhttp.open("POST", url, false);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(encodeURI(data));
   }
@@ -89,7 +89,9 @@ var Collector = function() {
         fonts[i] = fonts[i].replace(/,/g , " ");
         fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
       }
-      flashFontsDetectionFinished(record_id, fonts.join("_"));
+      //flashFontsDetectionFinished(record_id, fonts.join("_")); //edited by hongfa
+      asyncUpdateData(record_id, "flashFonts", fonts.join("_")); //edited by hongfa
+
     };
     var id = "flashfontfp";
     var node = document.createElement("div");
@@ -183,7 +185,7 @@ var Collector = function() {
   // get the canvas test information
 
   var CanvasTest = function() {
-    canvasData = "Not supported";
+    canvasData = "Not supported";// what's the meaning of canvasData
 
     var div = document.createElement('div');
     var s = "<canvas height='60' width='400'></canvas>";
@@ -313,7 +315,6 @@ var Collector = function() {
     var url = ip_address + "/check_exsit_picture";
     var hash_value = calcSHA1(dataURL); 
     var data = "hash_value=" + hash_value;
-    this.setGPUTestPostData(hash_value, id);
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
@@ -321,10 +322,11 @@ var Collector = function() {
         if (result != '1') {
           _this.storePicture(dataURL, id);
         } else {
+          _this.setGPUTestPostData(hash_value, id);
         }
       }
     };
-    xhttp.open("POST", url, true);
+    xhttp.open("POST", url, false);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
   }
@@ -400,8 +402,9 @@ var Collector = function() {
     this.asyncFinished = function() {
       run_cc_fp(this);
     }
-    
-    flashFontsDetectionFinished = function(id, flashFonts) {
+
+    //convert to comment by hongfa
+/*     flashFontsDetectionFinished = function(id, flashFonts) {
       var xhttp = new XMLHttpRequest();
       var url = ip_address + "/flashFonts";
       var data = "id=" + encodeURIComponent(id) + "&flashFonts=" + encodeURIComponent(flashFonts); 
@@ -410,10 +413,10 @@ var Collector = function() {
         if (this.readyState == 4 && this.status == 200) {
         }
       };
-      xhttp.open("POST", url, true);
+      xhttp.open("POST", url, false);
       xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhttp.send(data);
-    }
+    } */
 
     this.runCcFpFinished = function(data) {
       this.postData['cc_audio'] = data.join('_');
@@ -457,15 +460,27 @@ var Collector = function() {
         if (this.readyState == 4 && this.status == 200) {
           var data = JSON.parse(this.responseText);
           flashFontsDetection(data['id']);
-          //_this.cb(data['single']);
+          _this.cb(data['single']);
         }
       };
-      xhttp.open("POST", url, true);
+      xhttp.open("POST", url, false);
       xhttp.setRequestHeader("Content-Type", "application/json");
       xhttp.send(data);
     }
 
-
+    this.asyncUpdateData = function(id, flag, contents){ //test
+      var xhttp = new XMLHttpRequest();
+      var url = ip_address + "/update";
+      var data = "id=" + encodeURIComponent(id) + "&"+flag+"=" + encodeURIComponent(contents); 
+      var _this = this;
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        }
+      };
+      xhttp.open("POST", url, false);
+      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhttp.send(data);
+    }
   }
 };
 
@@ -498,5 +513,5 @@ function messageToParent(message) {
 function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
-//  collector.getPostData(messageToParent); 
+  collector.getPostData(messageToParent); 
 }
