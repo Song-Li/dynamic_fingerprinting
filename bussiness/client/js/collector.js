@@ -1,8 +1,8 @@
-console.log=function() {}
-alert = function() {}
-ip_address = "https://df.songli.io/uniquemachine";
-//ip_address = "http://lab.songli.io/uniquemachine";
-//alert("test");
+//console.log=function() {}
+//alert = function() {}
+//ip_address = "https://df.songli.io/uniquemachine";
+ip_address = "http://lab.songli.io/uniquemachine";
+alert("test");
 var Collector = function() {
   this.finalized = false;
   this.postData = {
@@ -89,7 +89,8 @@ var Collector = function() {
         fonts[i] = fonts[i].replace(/,/g , " ");
         fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
       }
-      flashFontsDetectionFinished(record_id, fonts.join("_"));
+      //flashFontsDetectionFinished(record_id, fonts.join("_"));//edited by hongfa
+      this.asyncUpdateFeature(record_id, "flashFonts", fonts.join("_")); //edited by hongfa
     };
     var id = "flashfontfp";
     var node = document.createElement("div");
@@ -401,6 +402,7 @@ var Collector = function() {
       run_cc_fp(this);
     }
     
+/*   converted to comment by hongfa 
     flashFontsDetectionFinished = function(id, flashFonts) {
       var xhttp = new XMLHttpRequest();
       var url = ip_address + "/flashFonts";
@@ -414,6 +416,7 @@ var Collector = function() {
       xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhttp.send(data);
     }
+*/
 
     this.runCcFpFinished = function(data) {
       this.postData['cc_audio'] = data.join('_');
@@ -465,6 +468,22 @@ var Collector = function() {
       xhttp.send(data);
     }
 
+    //update one feature asynchronously to the server
+    //by hongfa
+    this.asyncUpdateFeature = function(id, flag, contents){
+      var xhttp = new XMLHttpRequest();
+      var url = ip_address + "/update";
+      var data = "id=" + encodeURIComponent(id) + "&"+flag+"=" + encodeURIComponent(contents); 
+      var _this = this;
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        }
+      };
+      console.log(data);    
+      xhttp.open("POST", url, false);
+      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhttp.send(data);
+    }
 
   }
 };
