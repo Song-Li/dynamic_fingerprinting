@@ -2,7 +2,6 @@
 //alert = function() {}
 //ip_address = "https://df.songli.io/uniquemachine";
 ip_address = "http://lab.songli.io/uniquemachine";
-alert("test");
 var Collector = function() {
   this.finalized = false;
   this.postData = {
@@ -90,7 +89,7 @@ var Collector = function() {
         fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
       }
       //flashFontsDetectionFinished(record_id, fonts.join("_"));//edited by hongfa
-      this.asyncUpdateFeature(record_id, "flashFonts", fonts.join("_")); //edited by hongfa
+      asyncUpdateFeature(record_id, "flashFonts", fonts.join("_")); //edited by hongfa
     };
     var id = "flashfontfp";
     var node = document.createElement("div");
@@ -470,7 +469,7 @@ var Collector = function() {
 
     //update one feature asynchronously to the server
     //by hongfa
-    this.asyncUpdateFeature = function(id, flag, contents){
+    asyncUpdateFeature = function(id, flag, contents){
       var xhttp = new XMLHttpRequest();
       var url = ip_address + "/update";
       var data = "id=" + encodeURIComponent(id) + "&"+flag+"=" + encodeURIComponent(contents); 
