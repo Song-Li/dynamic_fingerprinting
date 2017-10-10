@@ -139,16 +139,22 @@ def flashFonts():
 # by hongfa
 @app.route("/update", methods=['POST'])
 def updateFeature():
-    flags=["flashFonts", "audio"]
-    for flag in flags:
-        if flag in request.keys():
-            targetFlag = flag;
-            targetValue = request.values[targetFlag]
-            break
+    # flags=["flashFonts", "audio"]
+    # for flag in flags:
+        # if flag in request.keys():
+            # targetFlag = flag;
+            # targetValue = request.values[targetFlag]
+            # break
+    # ID = request.values['id']
+    # sql_str = 'UPDATE features SET '+targetFlag+ '=' + targetValue + '" WHERE id=' + ID
+    # res = run_sql(sql_str)
+    # return targetFlag+ " finished"
+    
+    flashFonts = request.values['flashFonts']
     ID = request.values['id']
-    sql_str = 'UPDATE features SET '+targetFlag+ '=' + targetValue + '" WHERE id=' + ID
+    sql_str = 'UPDATE features SET flashFonts="' + flashFonts + '" WHERE id=' + ID
     res = run_sql(sql_str)
-    return targetFlag+ " finished"
+    return "flash fonts finished" 
     
 
 @app.route("/getCookie", methods=['POST'])
