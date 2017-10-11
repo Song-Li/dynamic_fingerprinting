@@ -139,10 +139,9 @@ def flashFonts():
 # by hongfa
 @app.route("/update", methods=['POST'])
 def updateFeature():
-    targetFlag = "nothing"
     flags=["flashFonts", "audio"]
     for flag in flags:
-        if flag in request..values.keys():
+        if flag in request.values.keys():
             targetFlag = flag
             targetValue = request.values[targetFlag]
     ID = request['id']
