@@ -476,14 +476,12 @@ var Collector = function() {
       var _this = this;
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
+            //alert("OK");
         }
       };
-      console.log(data);    
       xhttp.open("POST", url, false);
       xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhttp.send(data);
-      
-      alert("OK");
     }
 
   }
