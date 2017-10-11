@@ -144,9 +144,9 @@ def updateFeature():
         if flag in request.values.keys():
             targetFlag = flag
             targetValue = request.values[targetFlag]
+            break
     ID = request.values['id']
     sql_str = 'UPDATE features SET '+targetFlag+ '="' + targetValue + '" WHERE id=' + ID
-    print (sql_str)
     res = run_sql(sql_str)
     return targetFlag + " finished"
     
