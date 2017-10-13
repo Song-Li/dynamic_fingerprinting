@@ -116,6 +116,12 @@ var Collector = function() {
       return "not supported";
     }
   }
+  
+  
+  this.audioDetection = function(record_id) {
+    var audioFingerprint = this.audioFingerPrinting();
+    asyncUpdateFeature(record_id, "audio", audioFingerprint); 
+  }
 
   // get the screen resolution
   this.getResolution = function() {
@@ -241,7 +247,6 @@ var Collector = function() {
       //set_result(cc_output.slice(0, 30), 'cc_result');   
       //draw_fp(bins);
     };
-
     oscillator.start(0);
     return results;
   }
@@ -285,8 +290,8 @@ var Collector = function() {
       //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
       //draw_fp(bins);
       _this.runHybridFpFinished(hybrid_output.slice(0, 30));
+      
     };
-
     oscillator.start(0);
     return hybrid_output.slice(0,30);
   }
@@ -380,7 +385,7 @@ var Collector = function() {
 
     this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
     this.postData['cpu_cores'] = this.getCPUCores();
-    this.postData['audio'] = this.audioFingerPrinting();
+    //this.postData['audio'] = this.audioFingerPrinting();
     this.postData['langsDetected'] = get_writing_scripts();
 
     // this is the WebGL information part
@@ -399,6 +404,7 @@ var Collector = function() {
     //these two part are async, so we need callback functions here
     this.asyncFinished = function() {
       run_cc_fp(this);
+      //this.startSend();
     }
     
 /*   converted to comment by hongfa 
@@ -417,14 +423,28 @@ var Collector = function() {
     }
 */
 
-    this.runCcFpFinished = function(data) {
+     this.runCcFpFinished = function(data) {
       this.postData['cc_audio'] = data.join('_');
       run_hybrid_fp(this);
+    }
+    this.cc_audioDetection = function(record_id) {
+        var cc_audioData = run_cc_fp(this).join('_');
+        asyncUpdateFeature(record_id,"cc_audio",cc_audioData);
     }
 
     this.runHybridFpFinished = function(data) {
       this.postData['hybrid_audio'] = data.join('_');
       this.startSend();
+    }
+    
+    this.hybrid_audioDetection = function(record_id) {
+        
+        
+        var hybrid_audioData = run_hybrid_fp(this).join('_');
+        
+        var hybrid_audioData = scriptProcessor.onaudioprocess();
+        
+        asyncUpdateFeature(record_id,"hybrid_audio",hybrid_audioData);
     }
 
     if (this.postData['WebGL'] == true){
@@ -459,6 +479,10 @@ var Collector = function() {
         if (this.readyState == 4 && this.status == 200) {
           var data = JSON.parse(this.responseText);
           flashFontsDetection(data['id']);
+          _this.audioDetection(data['id']);
+          //_this.cc_audioDetection(data['id']);
+          //_this.hybrid_audioDetection(data['id']);
+          
           //_this.cb(data['single']);
         }
       };
