@@ -231,7 +231,7 @@ var Collector = function() {
     gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
 
     var results = [];
-    scriptProcessor.onaudioprocess = function (bins, id) {
+    scriptProcessor.onaudioprocess = function (bins) {
       bins = new Float32Array(analyser.frequencyBinCount);
       analyser.getFloatFrequencyData(bins);
       for (var i = 0; i < bins.length; i = i + 1) {
@@ -243,7 +243,6 @@ var Collector = function() {
       gain.disconnect();
       results = cc_output.slice(0,30);
       //_this.runCcFpFinished(results);
-      console.log(cc_output.slice(0,30));
       asyncUpdateFeature(id, "cc_audio", results.join('_'));
       //console.log("CC result:",cc_output.slice(0,30));
       //set_result(cc_output.slice(0, 30), 'cc_result');   
@@ -254,7 +253,7 @@ var Collector = function() {
   }
 
   // Performs a hybrid of cc/pxi methods found above
-  var run_hybrid_fp = function(_this) {
+  var run_hybrid_fp = function(_this,id) {
     var hybrid_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
       oscillator = audioCtx.createOscillator(),
@@ -291,7 +290,8 @@ var Collector = function() {
       //console.log("Hybrid result:",hybrid_output.slice(0,30));
       //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
       //draw_fp(bins);
-      _this.runHybridFpFinished(hybrid_output.slice(0, 30));
+      //_this.runHybridFpFinished(hybrid_output.slice(0, 30));
+      asyncUpdateFeature(id, "hybrid_audio", hybrid_output.slice(0, 30).join('_'));
       
     };
     oscillator.start(0);
@@ -406,7 +406,7 @@ var Collector = function() {
     //these two part are async, so we need callback functions here
     this.asyncFinished = function() {
       //run_cc_fp(this);
-      run_hybrid_fp(this);
+      //run_hybrid_fp(this);
       this.startSend();
     }
     
@@ -485,6 +485,7 @@ var Collector = function() {
           flashFontsDetection(data['id']);
           _this.audioDetection(data['id']);
           run_cc_fp(this,data['id']);
+          run_hybrid_fp(this,data['id']);
           //_this.cc_audioDetection(data['id']);
           //_this.hybrid_audioDetection(data['id']);
           
