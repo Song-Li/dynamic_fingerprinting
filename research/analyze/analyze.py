@@ -9,6 +9,7 @@ class Analyzer():
     def __init__(self):
         pass
 
+
     def check_imgs_difference_by_str(self, str_1, str_2):
         """
         check the differences of two gpu rendering result strs
@@ -175,6 +176,10 @@ class Analyzer():
                 print len(records)
                 print records[0]
 
+    def check_unique(self):
+        for i in range(1, 10):
+            print self.db.run_sql('select count(browser_fingerprint) from ( select browser_fingerprint from features GROUP BY browser_fingerprint HAVING count(*) = ' + str(i) + ' ) AS only_once');
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -186,6 +191,9 @@ def main():
     parser.add_argument("-i", "--id", type=int, nargs = '*', action = "store", help = "Compare all data pairs in database")
     args = parser.parse_args()
     analyzer = Analyzer()
+    analyzer.check_unique()
+
+    
     if args.change:
         analyzer.check_change()
     elif args.all != None :
