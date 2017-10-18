@@ -139,7 +139,7 @@ def flashFonts():
 # by hongfa
 @app.route("/update", methods=['POST'])
 def updateFeature():
-    flags=["flashFonts", "audio"]
+    flags=["flashFonts", "audio", "cc_audio", "hybrid_audio"]
     for flag in flags:
         if flag in request.values.keys():
             targetFlag = flag

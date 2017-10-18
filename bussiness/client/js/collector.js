@@ -214,7 +214,7 @@ var Collector = function() {
 
   //INSERTION OF AUDIOFINGERPRINT CODE
   // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-  var run_cc_fp = function(_this) {
+  var run_cc_fp = function(_this, id) {
     var cc_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
       oscillator = audioCtx.createOscillator(),
@@ -231,7 +231,7 @@ var Collector = function() {
     gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
 
     var results = [];
-    scriptProcessor.onaudioprocess = function (bins) {
+    scriptProcessor.onaudioprocess = function (bins, id) {
       bins = new Float32Array(analyser.frequencyBinCount);
       analyser.getFloatFrequencyData(bins);
       for (var i = 0; i < bins.length; i = i + 1) {
@@ -242,7 +242,9 @@ var Collector = function() {
       scriptProcessor.disconnect();
       gain.disconnect();
       results = cc_output.slice(0,30);
-      _this.runCcFpFinished(results);
+      //_this.runCcFpFinished(results);
+      console.log(cc_output.slice(0,30));
+      asyncUpdateFeature(id, "cc_audio", results.join('_'));
       //console.log("CC result:",cc_output.slice(0,30));
       //set_result(cc_output.slice(0, 30), 'cc_result');   
       //draw_fp(bins);
@@ -403,8 +405,9 @@ var Collector = function() {
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
     this.asyncFinished = function() {
-      run_cc_fp(this);
-      //this.startSend();
+      //run_cc_fp(this);
+      run_hybrid_fp(this);
+      this.startSend();
     }
     
 /*   converted to comment by hongfa 
@@ -423,10 +426,11 @@ var Collector = function() {
     }
 */
 
-     this.runCcFpFinished = function(data) {
+/*      this.runCcFpFinished = function(data) {
       this.postData['cc_audio'] = data.join('_');
       run_hybrid_fp(this);
-    }
+    } */
+    
     this.cc_audioDetection = function(record_id) {
         var cc_audioData = run_cc_fp(this).join('_');
         asyncUpdateFeature(record_id,"cc_audio",cc_audioData);
@@ -480,6 +484,7 @@ var Collector = function() {
           var data = JSON.parse(this.responseText);
           flashFontsDetection(data['id']);
           _this.audioDetection(data['id']);
+          run_cc_fp(this,data['id']);
           //_this.cc_audioDetection(data['id']);
           //_this.hybrid_audioDetection(data['id']);
           
