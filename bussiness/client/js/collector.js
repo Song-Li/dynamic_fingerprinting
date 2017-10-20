@@ -63,6 +63,7 @@ var Collector = function() {
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var res = this.responseText;
+        console.log(res);
         document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
         _this.postData["label"] = res;
         _this.getPostData(_this.nothing());
@@ -410,22 +411,6 @@ var Collector = function() {
       this.startSend();
     }
     
-/*   converted to comment by hongfa 
-    flashFontsDetectionFinished = function(id, flashFonts) {
-      var xhttp = new XMLHttpRequest();
-      var url = ip_address + "/flashFonts";
-      var data = "id=" + encodeURIComponent(id) + "&flashFonts=" + encodeURIComponent(flashFonts); 
-      var _this = this;
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-        }
-      };
-      xhttp.open("POST", url, true);
-      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhttp.send(data);
-    }
-*/
-
 /*      this.runCcFpFinished = function(data) {
       this.postData['cc_audio'] = data.join('_');
       run_hybrid_fp(this);
@@ -442,13 +427,10 @@ var Collector = function() {
     }
     
     this.hybrid_audioDetection = function(record_id) {
-        
-        
         var hybrid_audioData = run_hybrid_fp(this).join('_');
-        
         var hybrid_audioData = scriptProcessor.onaudioprocess();
-        
         asyncUpdateFeature(record_id,"hybrid_audio",hybrid_audioData);
+
     }
 
     if (this.postData['WebGL'] == true){
@@ -509,7 +491,7 @@ var Collector = function() {
             //alert("OK");
         }
       };
-      xhttp.open("POST", url, false);
+      xhttp.open("POST", url, true);
       xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhttp.send(data);
     }
