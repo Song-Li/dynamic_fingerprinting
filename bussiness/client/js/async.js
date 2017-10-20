@@ -8,7 +8,6 @@ var AsyncTest = function(collector, cb) {
   this.numTestsComplete = 0;
   this.testFinished = function(ID, value) {
     var img_hash = calcSHA1(value);
-    collector.postData['gpuImgs'][ID] = img_hash;
     if (++ _this.numTestsComplete >= _this.testList.length) {
       // cause all ++ is done in main js thread, there should be no 
       // mul-thread problem

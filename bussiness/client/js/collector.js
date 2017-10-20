@@ -4,8 +4,11 @@
 ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
+  // all kinds of features
+  // add more later
+  this.unique_label = "";
+
   this.postData = {
-    flashFonts: "No Flash",
     jsFonts: "",
     WebGL: false,
     inc: "Undefined",
@@ -16,20 +19,17 @@ var Collector = function() {
     cookie: "Undefined",
     localstorage: "Undefined",
     manufacturer: "Undefined",
-    gpuImgs: {},
     adBlock: "Undefined",
     cpu_cores: "Undefined", 
     canvas_test: "Undefined", 
     audio: "Undefined",
     langsDetected: [],
-    video: [],
-    cc_audio: [],
-    hybrid_audio: [],
     clientid: "Not Set"
   };
 
   var _this = this;
 
+  // collect the ground truth from the website
   this.addClientId = function() {
     cur = window.location.search.substr(1);
     if (cur != "") this.postData['clientid'] = cur.split('=')[1];
@@ -38,6 +38,7 @@ var Collector = function() {
   this.addClientId();
   this.nothing = function() {}
 
+  // get the cookie and unique_label for this record
   this.handleCookie = function() {
     function getCookie(cname) {
       var name = cname + "=";
@@ -62,43 +63,19 @@ var Collector = function() {
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-        var res = this.responseText;
-        console.log(res);
-        document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
-        _this.postData["label"] = res;
+        var res = this.responseText.split(',');
+        var new_cookie = res[1];
+        document.cookie = "dynamic_fingerprinting=" + new_cookie + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
+        _this.postData["label"] = new_cookie;
+        _this.unique_label = res[0];
+        // after we set the cookie, call the main function
+        // make sure we set the unique_label and cookie first
         _this.getPostData(_this.nothing());
       }
     };
     xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(encodeURI(data));
-  }
-
-  flashFontsDetection = function(record_id) {
-    if (typeof window.swfobject === "undefined") {
-      return "";    
-    }
-    if(!swfobject.hasFlashPlayerVersion("9.0.0")){
-      return "";
-    }
-    // flash fonts need to be sent separately
-    var hiddenCallback = "___fp_swf_loaded";
-    window[hiddenCallback] = function(fonts) {
-      //this loop is used to replace , in fonts
-      for (var i = 0;i < fonts.length;++ i) {
-        fonts[i] = fonts[i].replace(/,/g , " ");
-        fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
-      }
-      //flashFontsDetectionFinished(record_id, fonts.join("_"));//edited by hongfa
-      asyncUpdateFeature(record_id, "flashFonts", fonts.join("_")); //edited by hongfa
-    };
-    var id = "flashfontfp";
-    var node = document.createElement("div");
-    node.setAttribute("id", id);
-    document.body.appendChild(node);
-    var flashvars = { onReady: hiddenCallback};
-    var flashparams = { allowScriptAccess: "always", menu: "false" };
-    swfobject.embedSWF("https://songli.io/dynamic_fingerprinting/static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
   }
 
   // get the basic info of audio card
@@ -321,7 +298,6 @@ var Collector = function() {
     var url = ip_address + "/check_exsit_picture";
     var hash_value = calcSHA1(dataURL); 
     var data = "hash_value=" + hash_value;
-    this.setGPUTestPostData(hash_value, id);
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
@@ -351,17 +327,11 @@ var Collector = function() {
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var hashValue = this.responseText;
-        _this.setGPUTestPostData(hashValue, id);
       }
     };
     xhttp.open("POST", url, false);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
-  }
-
-  //this function is used to set the postdata of gpu test
-  this.setGPUTestPostData = function(hashValue, id) {
-    this.postData['gpuImgs'][id] = hashValue;
   }
 
   this.getPostData = function(cb) {
@@ -371,7 +341,6 @@ var Collector = function() {
     this.cb = cb;
     var jsFontsDetector = new JsFontsDetector(); 
     this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
-
     this.postData['timezone'] = new Date().getTimezoneOffset();
     this.postData['resolution'] = this.getResolution();
     this.postData['plugins'] = this.getPlugins();
@@ -406,15 +375,8 @@ var Collector = function() {
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
     this.asyncFinished = function() {
-      //run_cc_fp(this);
-      //run_hybrid_fp(this);
       this.startSend();
     }
-    
-/*      this.runCcFpFinished = function(data) {
-      this.postData['cc_audio'] = data.join('_');
-      run_hybrid_fp(this);
-    } */
     
     this.cc_audioDetection = function(record_id) {
         var cc_audioData = run_cc_fp(this).join('_');
@@ -464,14 +426,9 @@ var Collector = function() {
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
           var data = JSON.parse(this.responseText);
-          flashFontsDetection(data['id']);
           _this.audioDetection(data['id']);
           run_cc_fp(this,data['id']);
           run_hybrid_fp(this,data['id']);
-          //_this.cc_audioDetection(data['id']);
-          //_this.hybrid_audioDetection(data['id']);
-          
-          //_this.cb(data['single']);
         }
       };
       xhttp.open("POST", url, true);
