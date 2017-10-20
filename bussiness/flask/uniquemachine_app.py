@@ -127,43 +127,37 @@ def distance():
     return str(float(cur_max) / float(len(feature_list))) + ", " + max_record 
 
 
-@app.route("/flashFonts", methods=['POST'])
-def flashFonts():
-    flashFonts = request.values['flashFonts']
-    ID = request.values['id']
-    sql_str = 'UPDATE features SET flashFonts="' + flashFonts + '" WHERE id=' + ID
-    res = run_sql(sql_str)
-    return "flash fonts finished" 
-    
 # update one feature requested from client to the database asynchronously.
-# by hongfa
-@app.route("/update", methods=['POST'])
-def updateFeature():
-    flags=["flashFonts", "audio", "cc_audio", "hybrid_audio"]
-    for flag in flags:
-        if flag in request.values.keys():
-            targetFlag = flag
-            targetValue = request.values[targetFlag]
-            break
-    ID = request.values['id']
-    sql_str = 'UPDATE features SET '+targetFlag+ '="' + targetValue + '" WHERE id=' + ID
+# before this function, we have to make sure
+# every feature is included in the sql server
+def updateFeature(unique_label, data):
+    update_str = ""
+    for key, value in data.iteritems():
+        update_str += '"{}"="{}", '.format(key, value)
+
+    update_str = update_str[:-1]
+    sql_str = 'UPDATE features SET {} WHERE uniquelabel = {}'.format(update_str, unique_label)
     res = run_sql(sql_str)
-    return targetFlag + " finished"
+
+    return res 
     
 
 @app.route("/getCookie", methods=['POST'])
 def getCookie():
+    IP = request.remote_addr
+    id_str = IP + str(datetime.now()) 
+    unique_label = hashlib.sha1(id_str).hexdigest()
+
     cookie = request.values['cookie']
     sql_str = 'SELECT count(id) FROM cookies WHERE cookie = "' + cookie + '"'
     res = run_sql(sql_str)
+
     if res[0][0] == 0:
-        IP = request.remote_addr
-        id_str = IP + str(datetime.now()) 
-        cookie = hashlib.sha1(id_str).hexdigest()
+        cookie = unique_label 
         sql_str = "INSERT INTO cookies (cookie) VALUES ('" + cookie + "')"
         run_sql(sql_str)
 
-    return cookie
+    return unique_label + ',' + cookie
 
 
 
@@ -352,16 +346,11 @@ def features():
             "langsDetected",
             "audio"
             ]
-    
 
     result = request.get_json()
 
     single_hash = "single"
     single_hash_str = "single"
-    cross_hash = "cross"
-
-    #with open("fonts.txt", 'a') as f:
-        #f.write(result['fonts'] + '\n')
 
     jsFonts = list(result['jsFonts'])
 
@@ -374,10 +363,7 @@ def features():
     result['accept'] = accept
     result['encoding'] = encoding
     result['language'] = language
-    
 
-    print agent
-           
     feature_str = "IP"
     value_str = "'" + IP + "'"
 
