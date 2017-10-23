@@ -133,14 +133,41 @@ def distance():
 def updateFeature(unique_label, data):
     update_str = ""
     for key, value in data.iteritems():
-        update_str += '"{}"="{}", '.format(key, value)
+        update_str += '{}="{}",'.format(key, value)
 
     update_str = update_str[:-1]
-    sql_str = 'UPDATE features SET {} WHERE uniquelabel = {}'.format(update_str, unique_label)
+    sql_str = 'UPDATE features SET {} WHERE uniquelabel = "{}"'.format(update_str, unique_label)
     res = run_sql(sql_str)
-
     return res 
     
+def doInit(unique_label, cookie):
+
+    result = {}
+    agent = ""
+    accept = ""
+    encoding = ""
+    language = ""
+    IP = ""
+    try:
+        agent = request.headers.get('User-Agent')
+        accpet = request.headers.get('Accept')
+        encoding = request.headers.get('Accept-Encoding')
+        language = request.headers.get('Accept-Language')
+        IP = request.remote_addr
+    except:
+        pass
+
+    # create a new record in features table
+    sql_str = "INSERT INTO features (uniquelabel, IP) VALUES ('{}', '{}')".format(unique_label, IP)
+    run_sql(sql_str)
+
+    # update the statics
+    result['agent'] = agent
+    result['accept'] = accept
+    result['encoding'] = encoding
+    result['language'] = language
+    result['label'] = cookie
+    return updateFeature(unique_label, result)
 
 @app.route("/getCookie", methods=['POST'])
 def getCookie():
@@ -149,7 +176,7 @@ def getCookie():
     unique_label = hashlib.sha1(id_str).hexdigest()
 
     cookie = request.values['cookie']
-    sql_str = 'SELECT count(id) FROM cookies WHERE cookie = "' + cookie + '"'
+    sql_str = 'SELECT count(id) FROM cookies WHERE cookie = "{}"'.format(cookie)
     res = run_sql(sql_str)
 
     if res[0][0] == 0:
@@ -157,91 +184,8 @@ def getCookie():
         sql_str = "INSERT INTO cookies (cookie) VALUES ('" + cookie + "')"
         run_sql(sql_str)
 
+    doInit(unique_label, cookie)
     return unique_label + ',' + cookie
-
-
-
-@app.route("/utils", methods=['POST'])
-def utils():
-    command = request.values['key']
-    sql_str = ""
-    if command == "keys":
-        sql_str = "SELECT distinct IP, time, id, agent, label from features"
-        res = run_sql(sql_str)
-        # return the ip, time and the id
-        return ",".join([r[0] + '~' + r[1].isoformat() + '~' + get_browser_from_agent(r[3]) + '~' + get_os_from_agent(r[3]) + '~' + str(r[2]) + '~' + str(r[4]) for r in res])
-
-    elif command.split(',')[0] == "get_pictures_by_id":
-        ID = command.split(',')[1]
-        sql_str = "SELECT gpuImgs from features where id = " + ID
-        res = run_sql(sql_str)
-        imgs_str = res[0][0]
-        return imgs_str
-
-    elif command.split(',')[0] == "clear":
-        if command.split(',')[1] == "seclab":
-            clear_all_data()
-            return "cleared"
-        else:
-            return "wrong password"
-
-    elif command.split(',')[0] == "get_details":
-        res = {}
-        ID = command.split(',')[1]
-        db = mysql.get_db()
-        cursor = db.cursor()
-        sql_str = "SELECT * FROM features WHERE id = '" + ID +"'"
-        cursor.execute(sql_str)
-        db.commit()
-        row = cursor.fetchone()
-        for i in range(len(row)):
-            value = row[i]
-            name = cursor.description[i][0]
-            res[name] = value
-
-        return flask.jsonify(res)
-
-    elif command.split(',')[0] == "label":
-        label = command.split(',')[1]
-        #db = mysql.get_db()
-        #cursor = db.cursor()
-        sql_str = "INSERT INTO labels (id, date_created, label) VALUES (null, null, '" + label +  "')"
-        #cursor.execute(sql_str)
-        #db.commit()
-        run_sql(sql_str)
-        return "label created"
-    elif command.split(',')[0] == "delete-entry":
-        ID = command.split(',')[1]
-        sql_str = "SELECT gpuimgs FROM features where id = " + ID
-        res = run_sql(sql_str)
-        res_str = res[0][0].split(',')
-        # delete from features table
-        sql_str = "DELETE FROM features WHERE ID = " + ID
-        run_sql(sql_str)
-
-        for r in res_str:
-            pic_id = r.split('_')[1]
-            sql_str = "delete from pictures where id = " + pic_id
-            run_sql(sql_str)
-            os.system("rm " + pictures_path + pic_id + ".png")
-
-    elif command == "get_groups":
-        sql_str = "SELECT id,label  from labels"
-        res = run_sql(sql_str)
-        return '~'.join(['$'.join(map(str,r)) for r in res]) 
-
-
-
-
-@app.route("/result", methods=['POST'])
-def get_result():
-    image_id = request.values['image_id']
-    sql_str = "SELECT dataurl from pirctures where ID={image_id}"
-    db = mysql.get_db()
-    cursor = db.cursor()
-    cursor.execute(sql_str)
-    db.commit()
-    return cursor.fetchone()[0]
 
 @app.route("/check_exsit_picture", methods=['POST'])
 def check_exsit_picture():
@@ -275,45 +219,8 @@ def store_pictures():
     image_PIL.save("/home/sol315/pictures/" + str(hash_value) + ".png")
     return hash_value 
 
-@app.route('/details', methods=['POST'])
-def details():
-    res = {}
-    ID = request.get_json()["ID"]
-    db = mysql.get_db()
-    cursor = db.cursor()
-    sql_str = "SELECT * FROM features WHERE browser_fingerprint = '" + ID +"'"
-    cursor.execute(sql_str)
-    db.commit()
-    row = cursor.fetchone()
-    for i in range(len(row)):
-        value = row[i]
-        name = cursor.description[i][0]
-        res[name] = value
-
-    if 'fonts' in res:
-        fs = list(res['fonts'])
-        for i in range(len(mask)):
-            fs[i] = str(int(fs[i]) & mask[i] & mac_mask[i])
-        res['fonts'] = ''.join(fs)
-
-    return flask.jsonify(res)
-
 @app.route('/features', methods=['POST'])
 def features():
-    agent = ""
-    accept = ""
-    encoding = ""
-    language = ""
-    IP = ""
-
-    try:
-        agent = request.headers.get('User-Agent')
-        accpet = request.headers.get('Accept')
-        encoding = request.headers.get('Accept-Encoding')
-        language = request.headers.get('Accept-Language')
-        IP = request.remote_addr
-    except:
-        pass
 
     feature_list = [
             "agent",
@@ -348,21 +255,8 @@ def features():
             ]
 
     result = request.get_json()
-
-    single_hash = "single"
-    single_hash_str = "single"
-
     jsFonts = list(result['jsFonts'])
 
-    cnt = 0
-    for i in range(len(jsFonts)):
-        if jsFonts[i] == '1':
-            cnt += 1
-
-    result['agent'] = agent
-    result['accept'] = accept
-    result['encoding'] = encoding
-    result['language'] = language
 
     feature_str = "IP"
     value_str = "'" + IP + "'"
@@ -388,9 +282,7 @@ def features():
         else:
             value = str(value)
 
-#        if feature == "cpu_cores" and type(value) != 'int':
-#           value = -1
-#fix the bug for N/A for cpu_cores
+        #fix the bug for N/A for cpu_cores
         if feature == 'cpu_cores':
             value = int(value)
 
@@ -409,17 +301,7 @@ def features():
         #print feature, hash_object.hexdigest()
         single_hash_str += hash_str
 
-
     result['jsFonts'] = jsFonts
-    for feature in cross_feature_list:
-        cross_hash += str(result[feature])
-        hash_object = hashlib.md5(str(result[feature]))
-
-    hash_object = hashlib.md5(single_hash_str)
-    single_hash = hash_object.hexdigest()
-
-    hash_object = hashlib.md5(cross_hash)
-    cross_hash = hash_object.hexdigest()
 
     # this is the cookie of this computer
     label = result['label']
@@ -439,5 +321,4 @@ def features():
     ID = cursor.fetchone()[0]
     db.commit()
 
-    print (single_hash, cross_hash, ID)
-    return flask.jsonify({"single": single_hash, "cross": cross_hash, "id": ID})
+    return flask.jsonify({"single": single_hash, "id": ID})
