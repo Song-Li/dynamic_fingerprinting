@@ -63,6 +63,7 @@ var Collector = function() {
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
+        console.log(this.responseText);
         var res = this.responseText.split(',');
         var new_cookie = res[1];
         document.cookie = "dynamic_fingerprinting=" + new_cookie + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
