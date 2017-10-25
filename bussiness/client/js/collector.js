@@ -63,7 +63,6 @@ var Collector = function() {
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-        console.log(this.responseText);
         var res = this.responseText.split(',');
         var new_cookie = res[1];
         document.cookie = "dynamic_fingerprinting=" + new_cookie + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
@@ -97,11 +96,6 @@ var Collector = function() {
   }
   
   
-  this.audioDetection = function(record_id) {
-    var audioFingerprint = this.audioFingerPrinting();
-    asyncUpdateFeature(record_id, "audio", audioFingerprint); 
-  }
-
   // get the screen resolution
   this.getResolution = function() {
     var zoom_level = detectZoom.device();
@@ -193,13 +187,13 @@ var Collector = function() {
 
   //INSERTION OF AUDIOFINGERPRINT CODE
   // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-  var run_cc_fp = function(_this, id) {
+  this.run_cc_fp = function() {
     var cc_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-      oscillator = audioCtx.createOscillator(),
-      analyser = audioCtx.createAnalyser(),
-      gain = audioCtx.createGain(),
-      scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+    oscillator = audioCtx.createOscillator(),
+    analyser = audioCtx.createAnalyser(),
+    gain = audioCtx.createGain(),
+    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
 
     gain.gain.value = 0; // Disable volume
@@ -210,6 +204,7 @@ var Collector = function() {
     gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
 
     var results = [];
+    var _this = this;
     scriptProcessor.onaudioprocess = function (bins) {
       bins = new Float32Array(analyser.frequencyBinCount);
       analyser.getFloatFrequencyData(bins);
@@ -221,24 +216,22 @@ var Collector = function() {
       scriptProcessor.disconnect();
       gain.disconnect();
       results = cc_output.slice(0,30);
-      //_this.runCcFpFinished(results);
-      asyncUpdateFeature(id, "cc_audio", results.join('_'));
-      //console.log("CC result:",cc_output.slice(0,30));
-      //set_result(cc_output.slice(0, 30), 'cc_result');   
-      //draw_fp(bins);
+      res = {};
+      res['cc_audio'] = results.join('_'); 
+      _this.updateFeatures(res);
     };
     oscillator.start(0);
-    return results;
   }
 
+
   // Performs a hybrid of cc/pxi methods found above
-  var run_hybrid_fp = function(_this,id) {
+  this.run_hybrid_fp = function() {
     var hybrid_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-      oscillator = audioCtx.createOscillator(),
-      analyser = audioCtx.createAnalyser(),
-      gain = audioCtx.createGain(),
-      scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+    oscillator = audioCtx.createOscillator(),
+    analyser = audioCtx.createAnalyser(),
+    gain = audioCtx.createGain(),
+    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
     // Create and configure compressor
     compressor = audioCtx.createDynamicsCompressor();
@@ -257,6 +250,7 @@ var Collector = function() {
     scriptProcessor.connect(gain); // Connect scriptProcessor output to gain input
     gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
 
+    var _this = this;
     scriptProcessor.onaudioprocess = function (bins) {
       bins = new Float32Array(analyser.frequencyBinCount);
       analyser.getFloatFrequencyData(bins);
@@ -266,21 +260,18 @@ var Collector = function() {
       analyser.disconnect();
       scriptProcessor.disconnect();
       gain.disconnect();
-      //console.log("Hybrid result:",hybrid_output.slice(0,30));
-      //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
-      //draw_fp(bins);
-      //_this.runHybridFpFinished(hybrid_output.slice(0, 30));
-      asyncUpdateFeature(id, "hybrid_audio", hybrid_output.slice(0, 30).join('_'));
-      
+      res = {};
+      res['hybrid_audio'] = hybrid_output.slice(0, 30).join('_');
+      _this.updateFeatures(res);
     };
     oscillator.start(0);
-    return hybrid_output.slice(0,30);
   }
+
   //END INSERTION OF AUDIOFINGERPRINT CODE
   this.nextID = 0;
   this.getID = function(){
     if (this.finished) {
-      throw "Can't  generate ID anymore";
+      throw "Can't generate ID anymore";
       return -1;
     }
     return this.nextID ++;
@@ -348,6 +339,7 @@ var Collector = function() {
     this.postData['cookie'] = navigator.cookieEnabled;
     this.postData['localstorage'] = this.checkLocalStorage();
     this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
+    this.postData['audio'] = this.audioFingerPrinting(); 
     cvs_test = CanvasTest();
     // here we assume that the ID for canvas is 2
     // ===========================================
@@ -359,7 +351,7 @@ var Collector = function() {
     this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
     this.postData['cpu_cores'] = this.getCPUCores();
     //this.postData['audio'] = this.audioFingerPrinting();
-    this.postData['langsDetected'] = get_writing_scripts();
+    this.postData['langsDetected'] = get_writing_scripts().join('_');
 
     // this is the WebGL information part
     this.testGL = this.getWebGL();
@@ -375,25 +367,8 @@ var Collector = function() {
 
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
-    this.asyncFinished = function() {
-      this.startSend();
-    }
-    
-    this.cc_audioDetection = function(record_id) {
-        var cc_audioData = run_cc_fp(this).join('_');
-        asyncUpdateFeature(record_id,"cc_audio",cc_audioData);
-    }
-
-    this.runHybridFpFinished = function(data) {
-      this.postData['hybrid_audio'] = data.join('_');
-      this.startSend();
-    }
-    
-    this.hybrid_audioDetection = function(record_id) {
-        var hybrid_audioData = run_hybrid_fp(this).join('_');
-        var hybrid_audioData = scriptProcessor.onaudioprocess();
-        asyncUpdateFeature(record_id,"hybrid_audio",hybrid_audioData);
-
+    this.asyncFinished = function(res) {
+      this.updateFeatures(res);
     }
 
     if (this.postData['WebGL'] == true){
@@ -419,41 +394,31 @@ var Collector = function() {
       return nearest_data;
     }
 
-    this.startSend = function(){
-      var xhttp = new XMLHttpRequest();
-      var url = ip_address + "/features";
-      var data = JSON.stringify(this.postData);
-      var _this = this;
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          var data = JSON.parse(this.responseText);
-          _this.audioDetection(data['id']);
-          run_cc_fp(this,data['id']);
-          run_hybrid_fp(this,data['id']);
-        }
-      };
-      xhttp.open("POST", url, true);
-      xhttp.setRequestHeader("Content-Type", "application/json");
-      xhttp.send(data);
-    }
+    this.run_cc_fp();
+    this.run_hybrid_fp();
 
     //update one feature asynchronously to the server
-    //by hongfa
-    asyncUpdateFeature = function(id, flag, contents){
+    this.updateFeatures = function(features){
+      //
+      // include the unique label as one of the feature list
+      // extract this information later from the server part
+      //
+      console.log(features);
+      features['uniquelabel'] = this.unique_label;
       var xhttp = new XMLHttpRequest();
-      var url = ip_address + "/update";
-      var data = "id=" + encodeURIComponent(id) + "&"+flag+"=" + encodeURIComponent(contents); 
-      var _this = this;
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            //alert("OK");
-        }
-      };
+      var url = ip_address + "/updateFeatures";
+      var data = JSON.stringify(features) 
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+            console.log(data);
+          }
+        };
       xhttp.open("POST", url, true);
-      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhttp.setRequestHeader('Content-Type', 'application/json');
       xhttp.send(data);
     }
-
+    this.updateFeatures(this.postData);
   }
 };
 
@@ -486,5 +451,5 @@ function messageToParent(message) {
 function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
-//  collector.getPostData(messageToParent); 
+  //  collector.getPostData(messageToParent); 
 }
