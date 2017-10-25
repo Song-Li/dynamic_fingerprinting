@@ -130,7 +130,7 @@ def distance():
 # update one feature requested from client to the database asynchronously.
 # before this function, we have to make sure
 # every feature is included in the sql server
-def updateFeature(unique_label, data):
+def doUpdateFeatures(unique_label, data):
     update_str = ""
     for key, value in data.iteritems():
         update_str += '{}="{}",'.format(key, value)
@@ -167,7 +167,7 @@ def doInit(unique_label, cookie):
     result['encoding'] = encoding
     result['language'] = language
     result['label'] = cookie
-    return updateFeature(unique_label, result)
+    return doUpdateFeatures(unique_label, result)
 
 @app.route("/getCookie", methods=['POST'])
 def getCookie():
@@ -219,9 +219,8 @@ def store_pictures():
     image_PIL.save("/home/sol315/pictures/" + str(hash_value) + ".png")
     return hash_value 
 
-@app.route('/features', methods=['POST'])
-def features():
-
+@app.route('/updateFeatures', methods=['POST'])
+def updateFeatures():
     feature_list = [
             "agent",
             "accept",
@@ -233,7 +232,7 @@ def features():
             "WebGL", 
             "inc", 
             "gpu", 
-            "gpuImgs", 
+            "gpuimgs", 
             "timezone", 
             "plugins", 
             "cookie", 
@@ -247,78 +246,22 @@ def features():
             "hybrid_audio"
             ]
 
-    cross_feature_list = [
-            "timezone",
-            "jsFonts",
-            "langsDetected",
-            "audio"
-            ]
-
     result = request.get_json()
-    jsFonts = list(result['jsFonts'])
+    unique_label = result['uniquelabel']
+    features = {}
 
-
-    feature_str = "IP"
-    value_str = "'" + IP + "'"
-
-
-    for feature in feature_list:
+    for feature in result.iterkeys():
         
-        if result[feature] is not "":
-            value = result[feature]
-        else:
-            value = "NULL"
+        if feature not in feature_list:
+            continue
         
-        # set hash_str as the pure value from js
-        hash_str = str(value)
-
-        feature_str += "," + feature
-        # for gpu imgs
-        if feature == "gpuImgs":
-            # only keep the pure value of every result
-            hash_str = ",".join(v.split('_')[0] for k, v in value.iteritems())
-            # change value to str
-            value = ",".join('%s_%s' % (k, v) for k, v in value.iteritems())
-        else:
-            value = str(value)
+        value = result[feature]
 
         #fix the bug for N/A for cpu_cores
         if feature == 'cpu_cores':
             value = int(value)
 
-        if feature == 'langsDetected':
-            value = str("".join(value))
-            value = value.replace(" u'", "")
-            value = value.replace("'", "")
-            value = value.replace(",", "_")
-            value = value.replace("[", "")
-            value = value.replace("]", "")
-            value = value[1:]
+        features[feature] = value
 
-        # if feature is gpuImgs
-        # we need to ignore the picture id
-        value_str += ",'" + str(value) + "'"
-        #print feature, hash_object.hexdigest()
-        single_hash_str += hash_str
-
-    result['jsFonts'] = jsFonts
-
-    # this is the cookie of this computer
-    label = result['label']
-    clientid = result['clientid']
-
-    feature_str += ',browser_fingerprint,computer_fingerprint_1,label, clientid'
-    value_str += ",'" + single_hash + "','" + cross_hash + "','" + label + "','" + clientid + "'"
-
-    db = mysql.get_db()
-    cursor = db.cursor()
-    sql_str = "INSERT INTO features (" + feature_str + ") VALUES (" + value_str + ");"
-    cursor.execute(sql_str)
-    db.commit()
-
-    sql_str = "SELECT LAST_INSERT_ID()"
-    cursor.execute(sql_str)
-    ID = cursor.fetchone()[0]
-    db.commit()
-
-    return flask.jsonify({"single": single_hash, "id": ID})
+    doUpdateFeatures(unique_label, features)
+    return flask.jsonify({'finished': features.keys()})
