@@ -1,5 +1,5 @@
-//console.log=function() {}
-//alert = function() {}
+console.log=function() {}
+alert = function() {}
 //ip_address = "https://df.songli.io/uniquemachine";
 ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
@@ -348,7 +348,7 @@ var Collector = function() {
     var cvs_dataurl = cvs_test.toDataURL('image/png', 1.0);
     this.sendPicture(cvs_dataurl, 2);
 
-    this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
+    this.postData['canvas_test'] = calcSHA1(cvs_dataurl);
     this.postData['cpu_cores'] = this.getCPUCores();
     //this.postData['audio'] = this.audioFingerPrinting();
     this.postData['langsDetected'] = get_writing_scripts().join('_');
@@ -451,5 +451,4 @@ function messageToParent(message) {
 function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
-  //  collector.getPostData(messageToParent); 
 }
