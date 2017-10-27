@@ -418,8 +418,8 @@ var Collector = function() {
     }
     // what the f**k is this thing!!!
     // we have to have a delay here for audio fingerprinting
-    setTimeout(this.run_cc_fp, 1000, this);
-    setTimeout(this.run_hybrid_fp, 2000, this);
+    setTimeout(this.run_cc_fp, 1500, this);
+    setTimeout(this.run_hybrid_fp, 3000, this);
 
     //update one feature asynchronously to the server
     this.updateFeatures = function(features){
