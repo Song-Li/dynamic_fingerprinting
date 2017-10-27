@@ -32,6 +32,30 @@ base64_header = "data:image/png;base64,"
 
 mask = []
 mac_mask = []
+feature_list = [
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsDetected",
+        "resolution",
+        "jsFonts",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adBlock", 
+        "cpu_cores", 
+        "canvas_test", 
+        "audio",
+        "flashFonts",
+        "cc_audio",
+        "hybrid_audio"
+        ]
 
 def run_sql(sql_str):
     db = mysql.get_db()
@@ -40,7 +64,6 @@ def run_sql(sql_str):
     db.commit()
     res = cursor.fetchall() 
     return res
-
 
 def get_os_from_agent(agent):
     start_pos = 0
@@ -69,6 +92,19 @@ def get_browser_from_agent(agent):
         if end_pos == -1:
             end_pos = len(agent)
         return agent[start_pos:end_pos]
+
+@app.route("/finishPage", methods=['POST'])
+def finishPage():
+    recordID = request.values['recordID']
+    feature_str = ",".join(feature_list)
+    sql_str = 'select {} from features where uniquelabel="{}"'.format(feature_str, recordID)
+    res = run_sql(sql_str)
+    fingerprint = hashlib.sha1(str(res[0])).hexdigest()
+    sql_str = 'UPDATE features SET {}="{}" WHERE uniquelabel = "{}"'.format('browser_fingerprint', fingerprint, recordID)
+    run_sql(sql_str)
+    return fingerprint
+
+
 
 @app.route("/distance", methods=['POST'])
 def distance():
@@ -221,30 +257,6 @@ def store_pictures():
 
 @app.route('/updateFeatures', methods=['POST'])
 def updateFeatures():
-    feature_list = [
-            "agent",
-            "accept",
-            "encoding",
-            "language",
-            "langsDetected",
-            "resolution",
-            "jsFonts",
-            "WebGL", 
-            "inc", 
-            "gpu", 
-            "gpuimgs", 
-            "timezone", 
-            "plugins", 
-            "cookie", 
-            "localstorage", 
-            "adBlock", 
-            "cpu_cores", 
-            "canvas_test", 
-            "audio",
-            "flashFonts",
-            "cc_audio",
-            "hybrid_audio"
-            ]
 
     result = request.get_json()
     unique_label = result['uniquelabel']
