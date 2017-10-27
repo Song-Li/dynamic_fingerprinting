@@ -1,5 +1,28 @@
-console.log=function() {}
+// this is the record ID of this visit
+// always same as collector.unique_label
+// updated when cookie was handelled
+var recordID = "";
+//console.log=function() {}
+
 alert = function() {}
+var finishPage = function() {
+  var xhttp = new XMLHttpRequest();
+  var url = ip_address + "/finishPage";
+  var data = "recordID=" + recordID; 
+  var _this = this;
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      console.log(this.responseText);
+    }
+  };
+  xhttp.open("POST", url, true);
+  xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+  xhttp.send(data);
+}
+window.onbeforeunload = function() {
+  finishPage();
+  return null;
+}
 //ip_address = "https://df.songli.io/uniquemachine";
 ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
@@ -68,6 +91,7 @@ var Collector = function() {
         document.cookie = "dynamic_fingerprinting=" + new_cookie + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
         _this.postData["label"] = new_cookie;
         _this.unique_label = res[0];
+        recordID = res[0];
         // after we set the cookie, call the main function
         // make sure we set the unique_label and cookie first
         _this.getPostData(_this.nothing());
@@ -83,10 +107,10 @@ var Collector = function() {
     var finished = false;
     try{
       var audioCtx = new (window.AudioContext || window.webkitAudioContext),
-        oscillator = audioCtx.createOscillator(),
-        analyser = audioCtx.createAnalyser(),
-        gainNode = audioCtx.createGain(),
-        scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
+      oscillator = audioCtx.createOscillator(),
+      analyser = audioCtx.createAnalyser(),
+      gainNode = audioCtx.createGain(),
+      scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
       var destination = audioCtx.destination;
       return (audioCtx.sampleRate).toString() + '_' + destination.maxChannelCount + "_" + destination.numberOfInputs + '_' + destination.numberOfOutputs + '_' + destination.channelCount + '_' + destination.channelCountMode + '_' + destination.channelInterpretation;
     }
@@ -94,8 +118,8 @@ var Collector = function() {
       return "not supported";
     }
   }
-  
-  
+
+
   // get the screen resolution
   this.getResolution = function() {
     var zoom_level = detectZoom.device();
@@ -187,7 +211,7 @@ var Collector = function() {
 
   //INSERTION OF AUDIOFINGERPRINT CODE
   // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-  this.run_cc_fp = function() {
+  this.run_cc_fp = function(_this) {
     var cc_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
     oscillator = audioCtx.createOscillator(),
@@ -204,7 +228,6 @@ var Collector = function() {
     gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
 
     var results = [];
-    var _this = this;
     scriptProcessor.onaudioprocess = function (bins) {
       bins = new Float32Array(analyser.frequencyBinCount);
       analyser.getFloatFrequencyData(bins);
@@ -225,7 +248,8 @@ var Collector = function() {
 
 
   // Performs a hybrid of cc/pxi methods found above
-  this.run_hybrid_fp = function() {
+  // pass _this here because we need to use delay
+  this.run_hybrid_fp = function(_this) {
     var hybrid_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
     oscillator = audioCtx.createOscillator(),
@@ -250,7 +274,6 @@ var Collector = function() {
     scriptProcessor.connect(gain); // Connect scriptProcessor output to gain input
     gain.connect(audioCtx.destination); // Connect gain output to audiocontext destination
 
-    var _this = this;
     scriptProcessor.onaudioprocess = function (bins) {
       bins = new Float32Array(analyser.frequencyBinCount);
       analyser.getFloatFrequencyData(bins);
@@ -321,7 +344,7 @@ var Collector = function() {
         var hashValue = this.responseText;
       }
     };
-    xhttp.open("POST", url, false);
+    xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
   }
@@ -393,9 +416,10 @@ var Collector = function() {
       });
       return nearest_data;
     }
-
-    this.run_cc_fp();
-    this.run_hybrid_fp();
+    // what the f**k is this thing!!!
+    // we have to have a delay here for audio fingerprinting
+    setTimeout(this.run_cc_fp, 1000, this);
+    setTimeout(this.run_hybrid_fp, 2000, this);
 
     //update one feature asynchronously to the server
     this.updateFeatures = function(features){
