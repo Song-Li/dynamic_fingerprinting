@@ -354,8 +354,17 @@ var Collector = function() {
     // Start with a new worker to do js font detection
     // currently we dont start new worker
     this.cb = cb;
+
+
     var jsFontsDetector = new JsFontsDetector(); 
     this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
+
+    // what the f**k is this thing!!!
+    // we have to have a delay here for audio fingerprinting
+    // run this first
+    setTimeout(this.run_cc_fp, 1500, this);
+    setTimeout(this.run_hybrid_fp, 3000, this);
+
     this.postData['timezone'] = new Date().getTimezoneOffset();
     this.postData['resolution'] = this.getResolution();
     this.postData['plugins'] = this.getPlugins();
@@ -416,10 +425,6 @@ var Collector = function() {
       });
       return nearest_data;
     }
-    // what the f**k is this thing!!!
-    // we have to have a delay here for audio fingerprinting
-    setTimeout(this.run_cc_fp, 1500, this);
-    setTimeout(this.run_hybrid_fp, 3000, this);
 
     //update one feature asynchronously to the server
     this.updateFeatures = function(features){
