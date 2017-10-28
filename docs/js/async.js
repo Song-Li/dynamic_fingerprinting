@@ -8,11 +8,12 @@ var AsyncTest = function(collector, cb) {
   this.numTestsComplete = 0;
   this.testFinished = function(ID, value) {
     var img_hash = calcSHA1(value);
-    collector.postData['gpuImgs'][ID] = img_hash;
+    res = {};
+    res[ID] = img_hash;
     if (++ _this.numTestsComplete >= _this.testList.length) {
       // cause all ++ is done in main js thread, there should be no 
       // mul-thread problem
-      _this.allFinished();
+      _this.allFinished(res);
     }
   }
 
@@ -23,7 +24,13 @@ var AsyncTest = function(collector, cb) {
     }
   }
 
-  this.allFinished = function() {
-    collector.asyncFinished();
+  this.allFinished = function(res) {
+    var res_str = "";
+    for (var key in res) {
+      res_str += key + '_' + res[key];
+    }
+    ret = {};
+    ret['gpuimgs'] = res_str;
+    collector.asyncFinished(ret);
   }
 }
