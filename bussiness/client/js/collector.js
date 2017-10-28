@@ -23,8 +23,8 @@ var finishPage = function() {
 //  finishPage();
 //  return null;
 //}
-//ip_address = "https://df.songli.io/uniquemachine";
-ip_address = "http://lab.songli.io/uniquemachine";
+ip_address = "https://df.songli.io/uniquemachine";
+//ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   // all kinds of features
