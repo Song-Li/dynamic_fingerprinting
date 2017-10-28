@@ -49,12 +49,13 @@ feature_list = [
         "cookie", 
         "localstorage", 
         "adBlock", 
-        "cpu_cores", 
-        "canvas_test", 
+        "cpucores", 
+        "canvastest", 
         "audio",
-        "flashFonts",
-        "cc_audio",
-        "hybrid_audio"
+        "ccaudio",
+        "hybridaudio",
+        "touchSupport",
+        "doNotTrack"
         ]
 
 def run_sql(sql_str):
@@ -100,7 +101,7 @@ def finishPage():
     sql_str = 'select {} from features where uniquelabel="{}"'.format(feature_str, recordID)
     res = run_sql(sql_str)
     fingerprint = hashlib.sha1(str(res[0])).hexdigest()
-    sql_str = 'UPDATE features SET {}="{}" WHERE uniquelabel = "{}"'.format('browser_fingerprint', fingerprint, recordID)
+    sql_str = 'UPDATE features SET {}="{}" WHERE uniquelabel = "{}"'.format('browserfingerprint', fingerprint, recordID)
     run_sql(sql_str)
     return fingerprint
 
@@ -128,7 +129,6 @@ def distance():
             "cpu_cores", 
             "canvas_test", 
             "audio",
-            "flashFonts",
             "cc_audio",
             "hybrid_audio"
             ]
