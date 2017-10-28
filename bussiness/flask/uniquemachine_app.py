@@ -267,7 +267,7 @@ def updateFeatures():
 
     for feature in result.iterkeys():
         
-        if feature not in feature_list:
+        if feature not in feature_list and feature != "clientid":
             continue
         
         value = result[feature]
