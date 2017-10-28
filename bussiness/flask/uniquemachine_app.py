@@ -174,6 +174,7 @@ def doUpdateFeatures(unique_label, data):
     update_str = update_str[:-1]
     sql_str = 'UPDATE features SET {} WHERE uniquelabel = "{}"'.format(update_str, unique_label)
     res = run_sql(sql_str)
+    finishPage()
     return res 
     
 def doInit(unique_label, cookie):
@@ -257,7 +258,6 @@ def store_pictures():
 
 @app.route('/updateFeatures', methods=['POST'])
 def updateFeatures():
-
     result = request.get_json()
     unique_label = result['uniquelabel']
     features = {}

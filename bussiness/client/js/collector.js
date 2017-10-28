@@ -2,7 +2,7 @@
 // always same as collector.unique_label
 // updated when cookie was handelled
 var recordID = "";
-//console.log=function() {}
+console.log=function() {}
 alert = function() {}
 var finishPage = function() {
   var xhttp = new XMLHttpRequest();
@@ -19,12 +19,12 @@ var finishPage = function() {
   xhttp.send(data);
 }
 
-window.onbeforeunload = function() {
-  finishPage();
-  return null;
-}
-ip_address = "https://df.songli.io/uniquemachine";
-//ip_address = "http://lab.songli.io/uniquemachine";
+//window.onbeforeunload = function() {
+//  finishPage();
+//  return null;
+//}
+//ip_address = "https://df.songli.io/uniquemachine";
+ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   // all kinds of features
@@ -422,7 +422,9 @@ var Collector = function() {
     this.postData['canvastest'] = calcSHA1(cvs_dataurl);
     this.postData['cpucores'] = this.getCPUCores();
     //this.postData['audio'] = this.audioFingerPrinting();
-    this.postData['langsDetected'] = get_writing_scripts().join('_');
+    try{
+      this.postData['langsDetected'] = get_writing_scripts().join('_');
+    } catch (e) {} 
     this.postData['touchSupport'] = this.getTouchSupport();
 
     // this is the WebGL information part
