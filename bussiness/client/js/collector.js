@@ -2,7 +2,7 @@
 // always same as collector.unique_label
 // updated when cookie was handelled
 var recordID = "";
-console.log=function() {}
+//console.log=function() {}
 alert = function() {}
 var finishPage = function() {
   var xhttp = new XMLHttpRequest();
@@ -161,6 +161,7 @@ var Collector = function() {
     var zoom_level = detectZoom.device();
     var fixed_width = window.screen.width * zoom_level;
     var fixed_height = window.screen.height * zoom_level;
+    return Math.round(fixed_width / fixed_height * 100) / 100;
     var res = Math.round(fixed_width) + '_' + Math.round(fixed_height) + '_' + zoom_level + '_' + window.screen.width+"_"+window.screen.height+"_"+window.screen.colorDepth+"_"+window.screen.availWidth + "_" + window.screen.availHeight + "_" + window.screen.left + '_' + window.screen.top + '_' + window.screen.availLeft + "_" + window.screen.availTop + "_" + window.innerWidth + "_" + window.outerWidth + "_" + detectZoom.zoom();
     return res;
   }
