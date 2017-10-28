@@ -94,9 +94,7 @@ def get_browser_from_agent(agent):
             end_pos = len(agent)
         return agent[start_pos:end_pos]
 
-@app.route("/finishPage", methods=['POST'])
-def finishPage():
-    recordID = request.values['recordID']
+def genFingerprint(recordID):
     feature_str = ",".join(feature_list)
     sql_str = 'select {} from features where uniquelabel="{}"'.format(feature_str, recordID)
     res = run_sql(sql_str)
@@ -106,6 +104,11 @@ def finishPage():
     return fingerprint
 
 
+
+@app.route("/finishPage", methods=['POST'])
+def finishPage():
+    recordID = request.values['recordID']
+    return genFingerprint(recordID)
 
 @app.route("/distance", methods=['POST'])
 def distance():
@@ -174,7 +177,7 @@ def doUpdateFeatures(unique_label, data):
     update_str = update_str[:-1]
     sql_str = 'UPDATE features SET {} WHERE uniquelabel = "{}"'.format(update_str, unique_label)
     res = run_sql(sql_str)
-    finishPage()
+    genFingerprint(unique_label)
     return res 
     
 def doInit(unique_label, cookie):
