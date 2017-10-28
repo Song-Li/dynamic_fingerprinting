@@ -2,8 +2,7 @@
 // always same as collector.unique_label
 // updated when cookie was handelled
 var recordID = "";
-//console.log=function() {}
-
+console.log=function() {}
 alert = function() {}
 var finishPage = function() {
   var xhttp = new XMLHttpRequest();
@@ -19,13 +18,13 @@ var finishPage = function() {
   xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhttp.send(data);
 }
+
 window.onbeforeunload = function() {
   finishPage();
-  console.log(recordID);
   return null;
 }
-//ip_address = "https://df.songli.io/uniquemachine";
-ip_address = "http://lab.songli.io/uniquemachine";
+ip_address = "https://df.songli.io/uniquemachine";
+//ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   // all kinds of features
