@@ -1,12 +1,37 @@
+// this is the record ID of this visit
+// always same as collector.unique_label
+// updated when cookie was handelled
+var recordID = "";
 console.log=function() {}
 alert = function() {}
+var finishPage = function() {
+  var xhttp = new XMLHttpRequest();
+  var url = ip_address + "/finishPage";
+  var data = "recordID=" + recordID; 
+  var _this = this;
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      console.log(this.responseText);
+    }
+  };
+  xhttp.open("POST", url, true);
+  xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+  xhttp.send(data);
+}
+
+//window.onbeforeunload = function() {
+//  finishPage();
+//  return null;
+//}
 ip_address = "https://df.songli.io/uniquemachine";
 //ip_address = "http://lab.songli.io/uniquemachine";
-//alert("test");
 var Collector = function() {
   this.finalized = false;
+  // all kinds of features
+  // add more later
+  this.unique_label = "";
+
   this.postData = {
-    flashFonts: "No Flash",
     jsFonts: "",
     WebGL: false,
     inc: "Undefined",
@@ -17,20 +42,18 @@ var Collector = function() {
     cookie: "Undefined",
     localstorage: "Undefined",
     manufacturer: "Undefined",
-    gpuImgs: {},
     adBlock: "Undefined",
-    cpu_cores: "Undefined", 
-    canvas_test: "Undefined", 
+    cpucores: "Undefined", 
+    canvastest: "Undefined", 
     audio: "Undefined",
     langsDetected: [],
-    video: [],
-    cc_audio: [],
-    hybrid_audio: [],
+    doNotTrack: "false",
     clientid: "Not Set"
   };
 
   var _this = this;
 
+  // collect the ground truth from the website
   this.addClientId = function() {
     cur = window.location.search.substr(1);
     if (cur != "") this.postData['clientid'] = cur.split('=')[1];
@@ -39,6 +62,7 @@ var Collector = function() {
   this.addClientId();
   this.nothing = function() {}
 
+  // get the cookie and unique_label for this record
   this.handleCookie = function() {
     function getCookie(cname) {
       var name = cname + "=";
@@ -63,9 +87,14 @@ var Collector = function() {
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-        var res = this.responseText;
-        document.cookie = "dynamic_fingerprinting=" + res + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
-        _this.postData["label"] = res;
+        var res = this.responseText.split(',');
+        var new_cookie = res[1];
+        document.cookie = "dynamic_fingerprinting=" + new_cookie + ";expires=Fri, 31 Dec 2020 23:59:59 GMT";
+        _this.postData["label"] = new_cookie;
+        _this.unique_label = res[0];
+        recordID = res[0];
+        // after we set the cookie, call the main function
+        // make sure we set the unique_label and cookie first
         _this.getPostData(_this.nothing());
       }
     };
@@ -74,41 +103,50 @@ var Collector = function() {
     xhttp.send(encodeURI(data));
   }
 
-  flashFontsDetection = function(record_id) {
-    if (typeof window.swfobject === "undefined") {
-      return "";    
+  // get touch support
+  // from fingerprintjs2
+  //
+  this.getTouchSupport = function() {
+    var maxTouchPoints = 0;
+    var touchEvent = false;
+    if (typeof navigator.maxTouchPoints !== 'undefined') {
+      maxTouchPoints = navigator.maxTouchPoints;
+    } else if (typeof navigator.msMaxTouchPoints !== 'undefined') {
+      maxTouchPoints = navigator.msMaxTouchPoints;
     }
-    if(!swfobject.hasFlashPlayerVersion("9.0.0")){
-      return "";
-    }
-    // flash fonts need to be sent separately
-    var hiddenCallback = "___fp_swf_loaded";
-    window[hiddenCallback] = function(fonts) {
-      //this loop is used to replace , in fonts
-      for (var i = 0;i < fonts.length;++ i) {
-        fonts[i] = fonts[i].replace(/,/g , " ");
-        fonts[i] = fonts[i].replace(/[^\x00-\xFF]/g, "?");
-      }
-      flashFontsDetectionFinished(record_id, fonts.join("_"));
-    };
-    var id = "flashfontfp";
-    var node = document.createElement("div");
-    node.setAttribute("id", id);
-    document.body.appendChild(node);
-    var flashvars = { onReady: hiddenCallback};
-    var flashparams = { allowScriptAccess: "always", menu: "false" };
-    swfobject.embedSWF("https://songli.io/dynamic_fingerprinting/static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
+    try {
+      document.createEvent('TouchEvent');
+      touchEvent = true;
+    } catch (_) { /* squelch */ }
+    var touchStart = 'ontouchstart' in window;
+    return [maxTouchPoints, touchEvent, touchStart].join('_');
   }
+
+
+  // get the do not track key
+
+  this.getDoNotTrack = function() {
+    if (navigator.doNotTrack) {
+      return navigator.doNotTrack;
+    } else if (navigator.msDoNotTrack) {
+      return navigator.msDoNotTrack;
+    } else if (window.doNotTrack) {
+      return window.doNotTrack;
+    } else {
+      return 'unknown';
+    }
+  }
+
 
   // get the basic info of audio card
   this.audioFingerPrinting = function() {
     var finished = false;
     try{
       var audioCtx = new (window.AudioContext || window.webkitAudioContext),
-        oscillator = audioCtx.createOscillator(),
-        analyser = audioCtx.createAnalyser(),
-        gainNode = audioCtx.createGain(),
-        scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
+      oscillator = audioCtx.createOscillator(),
+      analyser = audioCtx.createAnalyser(),
+      gainNode = audioCtx.createGain(),
+      scriptProcessor = audioCtx.createScriptProcessor(4096,1,1);
       var destination = audioCtx.destination;
       return (audioCtx.sampleRate).toString() + '_' + destination.maxChannelCount + "_" + destination.numberOfInputs + '_' + destination.numberOfOutputs + '_' + destination.channelCount + '_' + destination.channelCountMode + '_' + destination.channelInterpretation;
     }
@@ -117,11 +155,13 @@ var Collector = function() {
     }
   }
 
+
   // get the screen resolution
   this.getResolution = function() {
     var zoom_level = detectZoom.device();
     var fixed_width = window.screen.width * zoom_level;
     var fixed_height = window.screen.height * zoom_level;
+    return Math.round(fixed_width / fixed_height * 100) / 100;
     var res = Math.round(fixed_width) + '_' + Math.round(fixed_height) + '_' + zoom_level + '_' + window.screen.width+"_"+window.screen.height+"_"+window.screen.colorDepth+"_"+window.screen.availWidth + "_" + window.screen.availHeight + "_" + window.screen.left + '_' + window.screen.top + '_' + window.screen.availLeft + "_" + window.screen.availTop + "_" + window.innerWidth + "_" + window.outerWidth + "_" + detectZoom.zoom();
     return res;
   }
@@ -208,13 +248,13 @@ var Collector = function() {
 
   //INSERTION OF AUDIOFINGERPRINT CODE
   // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-  var run_cc_fp = function(_this) {
+  this.run_cc_fp = function(_this) {
     var cc_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-      oscillator = audioCtx.createOscillator(),
-      analyser = audioCtx.createAnalyser(),
-      gain = audioCtx.createGain(),
-      scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+    oscillator = audioCtx.createOscillator(),
+    analyser = audioCtx.createAnalyser(),
+    gain = audioCtx.createGain(),
+    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
 
     gain.gain.value = 0; // Disable volume
@@ -236,24 +276,23 @@ var Collector = function() {
       scriptProcessor.disconnect();
       gain.disconnect();
       results = cc_output.slice(0,30);
-      _this.runCcFpFinished(results);
-      //console.log("CC result:",cc_output.slice(0,30));
-      //set_result(cc_output.slice(0, 30), 'cc_result');   
-      //draw_fp(bins);
+      res = {};
+      res['ccaudio'] = results.join('_'); 
+      _this.updateFeatures(res);
     };
-
     oscillator.start(0);
-    return results;
   }
 
+
   // Performs a hybrid of cc/pxi methods found above
-  var run_hybrid_fp = function(_this) {
+  // pass _this here because we need to use delay
+  this.run_hybrid_fp = function(_this) {
     var hybrid_output = [];
     var audioCtx = new(window.AudioContext || window.webkitAudioContext),
-      oscillator = audioCtx.createOscillator(),
-      analyser = audioCtx.createAnalyser(),
-      gain = audioCtx.createGain(),
-      scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
+    oscillator = audioCtx.createOscillator(),
+    analyser = audioCtx.createAnalyser(),
+    gain = audioCtx.createGain(),
+    scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
     // Create and configure compressor
     compressor = audioCtx.createDynamicsCompressor();
@@ -281,20 +320,18 @@ var Collector = function() {
       analyser.disconnect();
       scriptProcessor.disconnect();
       gain.disconnect();
-      //console.log("Hybrid result:",hybrid_output.slice(0,30));
-      //set_result(hybrid_output.slice(0,30), 'hybrid_result');   
-      //draw_fp(bins);
-      _this.runHybridFpFinished(hybrid_output.slice(0, 30));
+      res = {};
+      res['hybridaudio'] = hybrid_output.slice(0, 30).join('_');
+      _this.updateFeatures(res);
     };
-
     oscillator.start(0);
-    return hybrid_output.slice(0,30);
   }
+
   //END INSERTION OF AUDIOFINGERPRINT CODE
   this.nextID = 0;
   this.getID = function(){
     if (this.finished) {
-      throw "Can't  generate ID anymore";
+      throw "Can't generate ID anymore";
       return -1;
     }
     return this.nextID ++;
@@ -313,7 +350,6 @@ var Collector = function() {
     var url = ip_address + "/check_exsit_picture";
     var hash_value = calcSHA1(dataURL); 
     var data = "hash_value=" + hash_value;
-    this.setGPUTestPostData(hash_value, id);
     var _this = this;
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
@@ -343,17 +379,11 @@ var Collector = function() {
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         var hashValue = this.responseText;
-        _this.setGPUTestPostData(hashValue, id);
       }
     };
-    xhttp.open("POST", url, false);
+    xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
-  }
-
-  //this function is used to set the postdata of gpu test
-  this.setGPUTestPostData = function(hashValue, id) {
-    this.postData['gpuImgs'][id] = hashValue;
   }
 
   this.getPostData = function(cb) {
@@ -361,8 +391,17 @@ var Collector = function() {
     // Start with a new worker to do js font detection
     // currently we dont start new worker
     this.cb = cb;
+
+
     var jsFontsDetector = new JsFontsDetector(); 
     this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
+
+    // what the f**k is this thing!!!
+    // we have to have a delay here for audio fingerprinting
+    // run this first
+    setTimeout(this.run_cc_fp, 2000, this);
+    setTimeout(this.run_hybrid_fp, 3000, this);
+
 
     this.postData['timezone'] = new Date().getTimezoneOffset();
     this.postData['resolution'] = this.getResolution();
@@ -370,6 +409,8 @@ var Collector = function() {
     this.postData['cookie'] = navigator.cookieEnabled;
     this.postData['localstorage'] = this.checkLocalStorage();
     this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
+    this.postData['audio'] = this.audioFingerPrinting(); 
+    this.postData['doNotTrack'] = this.getDoNotTrack();
     cvs_test = CanvasTest();
     // here we assume that the ID for canvas is 2
     // ===========================================
@@ -378,10 +419,13 @@ var Collector = function() {
     var cvs_dataurl = cvs_test.toDataURL('image/png', 1.0);
     this.sendPicture(cvs_dataurl, 2);
 
-    this.postData['canvas_test'] = Base64EncodeUrlSafe(calcSHA1(cvs_dataurl.substring(22, cvs_dataurl.length))); //remove the leading words
-    this.postData['cpu_cores'] = this.getCPUCores();
-    this.postData['audio'] = this.audioFingerPrinting();
-    this.postData['langsDetected'] = get_writing_scripts();
+    this.postData['canvastest'] = calcSHA1(cvs_dataurl);
+    this.postData['cpucores'] = this.getCPUCores();
+    //this.postData['audio'] = this.audioFingerPrinting();
+    try{
+      this.postData['langsDetected'] = get_writing_scripts().join('_');
+    } catch (e) {} 
+    this.postData['touchSupport'] = this.getTouchSupport();
 
     // this is the WebGL information part
     this.testGL = this.getWebGL();
@@ -397,32 +441,8 @@ var Collector = function() {
 
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
-    this.asyncFinished = function() {
-      run_cc_fp(this);
-    }
-    
-    flashFontsDetectionFinished = function(id, flashFonts) {
-      var xhttp = new XMLHttpRequest();
-      var url = ip_address + "/flashFonts";
-      var data = "id=" + encodeURIComponent(id) + "&flashFonts=" + encodeURIComponent(flashFonts); 
-      var _this = this;
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-        }
-      };
-      xhttp.open("POST", url, true);
-      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhttp.send(data);
-    }
-
-    this.runCcFpFinished = function(data) {
-      this.postData['cc_audio'] = data.join('_');
-      run_hybrid_fp(this);
-    }
-
-    this.runHybridFpFinished = function(data) {
-      this.postData['hybrid_audio'] = data.join('_');
-      this.startSend();
+    this.asyncFinished = function(res) {
+      this.updateFeatures(res);
     }
 
     if (this.postData['WebGL'] == true){
@@ -448,24 +468,28 @@ var Collector = function() {
       return nearest_data;
     }
 
-    this.startSend = function(){
+    //update one feature asynchronously to the server
+    this.updateFeatures = function(features){
+      //
+      // include the unique label as one of the feature list
+      // extract this information later from the server part
+      //
+      console.log(features);
+      features['uniquelabel'] = this.unique_label;
       var xhttp = new XMLHttpRequest();
-      var url = ip_address + "/features";
-      var data = JSON.stringify(this.postData);
-      var _this = this;
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          var data = JSON.parse(this.responseText);
-          flashFontsDetection(data['id']);
-          //_this.cb(data['single']);
-        }
-      };
+      var url = ip_address + "/updateFeatures";
+      var data = JSON.stringify(features) 
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+            console.log(data);
+          }
+        };
       xhttp.open("POST", url, true);
-      xhttp.setRequestHeader("Content-Type", "application/json");
+      xhttp.setRequestHeader('Content-Type', 'application/json');
       xhttp.send(data);
     }
-
-
+    this.updateFeatures(this.postData);
   }
 };
 
@@ -498,5 +522,4 @@ function messageToParent(message) {
 function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
-//  collector.getPostData(messageToParent); 
 }
