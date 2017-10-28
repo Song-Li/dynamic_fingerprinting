@@ -21,6 +21,7 @@ var finishPage = function() {
 }
 window.onbeforeunload = function() {
   finishPage();
+  console.log(recordID);
   return null;
 }
 //ip_address = "https://df.songli.io/uniquemachine";
@@ -43,10 +44,11 @@ var Collector = function() {
     localstorage: "Undefined",
     manufacturer: "Undefined",
     adBlock: "Undefined",
-    cpu_cores: "Undefined", 
-    canvas_test: "Undefined", 
+    cpucores: "Undefined", 
+    canvastest: "Undefined", 
     audio: "Undefined",
     langsDetected: [],
+    doNotTrack: "false",
     clientid: "Not Set"
   };
 
@@ -101,6 +103,41 @@ var Collector = function() {
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(encodeURI(data));
   }
+
+  // get touch support
+  // from fingerprintjs2
+  //
+  this.getTouchSupport = function() {
+    var maxTouchPoints = 0;
+    var touchEvent = false;
+    if (typeof navigator.maxTouchPoints !== 'undefined') {
+      maxTouchPoints = navigator.maxTouchPoints;
+    } else if (typeof navigator.msMaxTouchPoints !== 'undefined') {
+      maxTouchPoints = navigator.msMaxTouchPoints;
+    }
+    try {
+      document.createEvent('TouchEvent');
+      touchEvent = true;
+    } catch (_) { /* squelch */ }
+    var touchStart = 'ontouchstart' in window;
+    return [maxTouchPoints, touchEvent, touchStart].join('_');
+  }
+
+
+  // get the do not track key
+
+  this.getDoNotTrack = function() {
+    if (navigator.doNotTrack) {
+      return navigator.doNotTrack;
+    } else if (navigator.msDoNotTrack) {
+      return navigator.msDoNotTrack;
+    } else if (window.doNotTrack) {
+      return window.doNotTrack;
+    } else {
+      return 'unknown';
+    }
+  }
+
 
   // get the basic info of audio card
   this.audioFingerPrinting = function() {
@@ -240,7 +277,7 @@ var Collector = function() {
       gain.disconnect();
       results = cc_output.slice(0,30);
       res = {};
-      res['cc_audio'] = results.join('_'); 
+      res['ccaudio'] = results.join('_'); 
       _this.updateFeatures(res);
     };
     oscillator.start(0);
@@ -284,7 +321,7 @@ var Collector = function() {
       scriptProcessor.disconnect();
       gain.disconnect();
       res = {};
-      res['hybrid_audio'] = hybrid_output.slice(0, 30).join('_');
+      res['hybridaudio'] = hybrid_output.slice(0, 30).join('_');
       _this.updateFeatures(res);
     };
     oscillator.start(0);
@@ -362,8 +399,9 @@ var Collector = function() {
     // what the f**k is this thing!!!
     // we have to have a delay here for audio fingerprinting
     // run this first
-    setTimeout(this.run_cc_fp, 1500, this);
+    setTimeout(this.run_cc_fp, 2000, this);
     setTimeout(this.run_hybrid_fp, 3000, this);
+
 
     this.postData['timezone'] = new Date().getTimezoneOffset();
     this.postData['resolution'] = this.getResolution();
@@ -372,6 +410,7 @@ var Collector = function() {
     this.postData['localstorage'] = this.checkLocalStorage();
     this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
     this.postData['audio'] = this.audioFingerPrinting(); 
+    this.postData['doNotTrack'] = this.getDoNotTrack();
     cvs_test = CanvasTest();
     // here we assume that the ID for canvas is 2
     // ===========================================
@@ -380,10 +419,11 @@ var Collector = function() {
     var cvs_dataurl = cvs_test.toDataURL('image/png', 1.0);
     this.sendPicture(cvs_dataurl, 2);
 
-    this.postData['canvas_test'] = calcSHA1(cvs_dataurl);
-    this.postData['cpu_cores'] = this.getCPUCores();
+    this.postData['canvastest'] = calcSHA1(cvs_dataurl);
+    this.postData['cpucores'] = this.getCPUCores();
     //this.postData['audio'] = this.audioFingerPrinting();
     this.postData['langsDetected'] = get_writing_scripts().join('_');
+    this.postData['touchSupport'] = this.getTouchSupport();
 
     // this is the WebGL information part
     this.testGL = this.getWebGL();
