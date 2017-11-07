@@ -1,6 +1,6 @@
 <?php
 
-include 'sql_util.php';
+include 'fingerprints.php';
 
 $recordID = $_POST["recordID"];
 echo getFingerprint($recordID);
