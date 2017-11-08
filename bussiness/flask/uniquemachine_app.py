@@ -133,7 +133,8 @@ def distance():
             "canvas_test", 
             "audio",
             "cc_audio",
-            "hybrid_audio"
+            "hybrid_audio",
+            "clientId"
             ]
 
 
