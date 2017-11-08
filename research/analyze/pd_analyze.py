@@ -39,7 +39,7 @@ for key, items in cookies:
             if max_time < row['time']:
                 max_time = row['time']
                 max_row = row
-        if max_time - min_time > datetime.timedelta(days = 0):
+        if max_time - min_time > datetime.timedelta(days = 1):
             more_than_2 += 1
             for k in feature_names:
                 if not featureDiff(min_row[k], max_row[k]):
