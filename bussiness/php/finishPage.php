@@ -2,7 +2,9 @@
 
 include 'fingerprints.php';
 
-$recordID = $_POST["recordID"];
-echo getFingerprint($recordID);
+if(isset($_POST["recordID"])){
+    $recordID = $_POST["recordID"];
+    echo getFingerprint($recordID);
+}
 
 ?>

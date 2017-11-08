@@ -14,28 +14,28 @@
       <file leaf-file-name="fingerprints.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fingerprints.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="123" column="40" lean-forward="true" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="40" />
+            <state relative-caret-position="269">
+              <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
               <folding>
-                <marker date="1510094049473" expanded="true" signature="1361:1421" ph="select {} fr... " />
-                <marker date="1510094049473" expanded="true" signature="1361:1424" ph="select {} fr... " />
-                <marker date="1510094049473" expanded="true" signature="1588:1689" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="1588:1691" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="1594:1627" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="1594:1669" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="1594:1672" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="2050:2109" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="2050:2131" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="2050:2132" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="2050:2133" ph="UPDATE featu... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3189" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3209" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3210" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3212" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3224" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3226" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3141:3251" ph="INSERT INTO features... " />
-                <marker date="1510094049473" expanded="true" signature="3309:3332" ph="update the s... " />
+                <marker date="1510109537061" expanded="true" signature="1361:1421" ph="select {} fr... " />
+                <marker date="1510109537061" expanded="true" signature="1361:1424" ph="select {} fr... " />
+                <marker date="1510109537061" expanded="true" signature="1588:1689" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="1588:1691" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="1594:1627" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="1594:1669" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="1594:1672" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="2050:2109" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="2050:2131" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="2050:2132" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="2050:2133" ph="UPDATE featu... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3189" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3209" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3210" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3212" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3224" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3226" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3141:3251" ph="INSERT INTO features... " />
+                <marker date="1510109537061" expanded="true" signature="3309:3332" ph="update the s... " />
               </folding>
             </state>
           </provider>
@@ -44,25 +44,62 @@
       <file leaf-file-name="finishPage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finishPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="108">
+              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCookie.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="distance.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/distance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <folding>
+                <marker date="1510111581523" expanded="true" signature="748:770" ph="SELECT * FRO... features" />
+                <marker date="1510111581523" expanded="true" signature="839:872" ph="SELECT * FRO... features" />
+                <marker date="1510111581523" expanded="true" signature="839:884" ph="SELECT * FRO... features" />
+                <marker date="1510111581523" expanded="true" signature="839:885" ph="SELECT * FRO... features" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_exsit_picture.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check_exsit_picture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <marker date="1510111581391" expanded="true" signature="95:146" ph="SELECT count... pictures" />
+                <marker date="1510111581391" expanded="true" signature="95:166" ph="SELECT count... pictures" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store_pictures.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store_pictures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <marker date="1510113888259" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
+                <marker date="1510113888259" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getCookie.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getCookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1510094273971" expanded="true" signature="227:271" ph="SELECT count... cookies" />
-                <marker date="1510094273971" expanded="true" signature="227:272" ph="SELECT count... cookies" />
-                <marker date="1510094273971" expanded="true" signature="227:274" ph="SELECT count... cookies" />
-                <marker date="1510094273971" expanded="true" signature="227:289" ph="SELECT count... cookies" />
-                <marker date="1510094273971" expanded="true" signature="227:290" ph="SELECT count... cookies" />
-                <marker date="1510094273971" expanded="true" signature="418:456" ph="INSERT INTO cookies... " />
+                <marker date="1510110388009" expanded="true" signature="246:308" ph="SELECT count... cookies" />
+                <marker date="1510110388009" expanded="true" signature="457:512" ph="INSERT INTO cookies... " />
               </folding>
             </state>
           </provider>
@@ -98,21 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fingerprints.pem" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fingerprints.pem">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="updateFeatures.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/updateFeatures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -124,6 +151,8 @@
     <findStrings>
       <find>select</find>
       <find>sha</find>
+      <find>forea</find>
+      <find>imp</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -132,9 +161,13 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/ignore" />
         <option value="$PROJECT_DIR$/sql_util.php" />
-        <option value="$PROJECT_DIR$/finishPage.php" />
         <option value="$PROJECT_DIR$/fingerprints.php" />
         <option value="$PROJECT_DIR$/getCookie.php" />
+        <option value="$PROJECT_DIR$/finishPage.php" />
+        <option value="$PROJECT_DIR$/distance.php" />
+        <option value="$PROJECT_DIR$/check_exsit_picture.php" />
+        <option value="$PROJECT_DIR$/updateFeatures.php" />
+        <option value="$PROJECT_DIR$/store_pictures.php" />
       </list>
     </option>
   </component>
@@ -207,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510080253845</updated>
-      <workItem from="1510080258411" duration="13320000" />
+      <workItem from="1510080258411" duration="18924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13320000" />
+    <option name="totallyTimeSpent" value="18924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="283" y="41" width="1400" height="1000" extended-state="1" />
@@ -256,14 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/updateFeatures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -288,6 +313,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/finishPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sql_util.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -296,53 +329,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finishPage.php">
+    <entry file="file://$PROJECT_DIR$/getCookie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1510110388009" expanded="true" signature="246:308" ph="SELECT count... cookies" />
+            <marker date="1510110388009" expanded="true" signature="457:512" ph="INSERT INTO cookies... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <marker date="1510111581523" expanded="true" signature="748:770" ph="SELECT * FRO... features" />
+            <marker date="1510111581523" expanded="true" signature="839:872" ph="SELECT * FRO... features" />
+            <marker date="1510111581523" expanded="true" signature="839:884" ph="SELECT * FRO... features" />
+            <marker date="1510111581523" expanded="true" signature="839:885" ph="SELECT * FRO... features" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_exsit_picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <marker date="1510111581391" expanded="true" signature="95:146" ph="SELECT count... pictures" />
+            <marker date="1510111581391" expanded="true" signature="95:166" ph="SELECT count... pictures" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fingerprints.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="123" column="40" lean-forward="true" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="40" />
+        <state relative-caret-position="269">
+          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
           <folding>
-            <marker date="1510094049473" expanded="true" signature="1361:1421" ph="select {} fr... " />
-            <marker date="1510094049473" expanded="true" signature="1361:1424" ph="select {} fr... " />
-            <marker date="1510094049473" expanded="true" signature="1588:1689" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="1588:1691" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="1594:1627" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="1594:1669" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="1594:1672" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="2050:2109" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="2050:2131" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="2050:2132" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="2050:2133" ph="UPDATE featu... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3189" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3209" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3210" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3212" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3224" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3226" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3141:3251" ph="INSERT INTO features... " />
-            <marker date="1510094049473" expanded="true" signature="3309:3332" ph="update the s... " />
+            <marker date="1510109537061" expanded="true" signature="1361:1421" ph="select {} fr... " />
+            <marker date="1510109537061" expanded="true" signature="1361:1424" ph="select {} fr... " />
+            <marker date="1510109537061" expanded="true" signature="1588:1689" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1588:1691" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1594:1627" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1594:1669" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1594:1672" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2109" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2131" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2132" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2133" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3189" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3209" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3210" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3212" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3224" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3226" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3251" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3309:3332" ph="update the s... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getCookie.php">
+    <entry file="file://$PROJECT_DIR$/updateFeatures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="342">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store_pictures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="42" />
           <folding>
-            <marker date="1510094273971" expanded="true" signature="227:271" ph="SELECT count... cookies" />
-            <marker date="1510094273971" expanded="true" signature="227:272" ph="SELECT count... cookies" />
-            <marker date="1510094273971" expanded="true" signature="227:274" ph="SELECT count... cookies" />
-            <marker date="1510094273971" expanded="true" signature="227:289" ph="SELECT count... cookies" />
-            <marker date="1510094273971" expanded="true" signature="227:290" ph="SELECT count... cookies" />
-            <marker date="1510094273971" expanded="true" signature="418:456" ph="INSERT INTO cookies... " />
+            <marker date="1510113888259" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
+            <marker date="1510113888259" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
           </folding>
         </state>
       </provider>

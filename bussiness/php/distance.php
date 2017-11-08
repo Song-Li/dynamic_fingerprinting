@@ -1,65 +1,75 @@
 <?php
 
-include 'sql_util.php';
+include 'fingerprints.php';
 
-$recordID = $_POST["recordID"];
-echo getFingerprint($recordID);
+if(isset($_POST["id"])){
 
-$feature_list = array(
-    "agent",
-    "accept",
-    "encoding",
-    "language",
-    "langsdetected",
-    "resolution",
-    "jsFonts",
-    "WebGL", 
-    "inc", 
-    "gpu", 
-    "gpuimgs", 
-    "timezone", 
-    "plugins", 
-    "cookie", 
-    "localstorage", 
-    "adblock", 
-    "cpu_cores", 
-    "canvas_test", 
-    "audio",
-    "cc_audio",
-    "hybrid_audio"
-);
+    $feature_list = array(
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "jsFonts",
+        "WebGL",
+        "inc",
+        "gpu",
+        "gpuimgs",
+        "timezone",
+        "plugins",
+        "cookie",
+        "localstorage",
+        "adblock",
+        "cpu_cores",
+        "canvas_test",
+        "audio",
+        "cc_audio",
+        "hybrid_audio"
+    );
 
-$conn = connect();
+    $conn = connect();
 
-$sql_str = "DESCRIBE features"
-    $res = run_sql($conn, $sql_str);
+    $sql_str = "DESCRIBE features";
+    $res = run_sql($conn, $sql_str,true);
     $attrs = array();
 
-for attr in res{
-    attrs.append(attr[0]);
+    foreach ($res as $attr){
+        array_push($attrs, $attr[0]);
+    }
+
+    $ID = $_POST["id"];
+
+    $sql_str = "SELECT * FROM features";
+    $all_records = run_sql($conn,$sql_str,true);
+
+    $sql_str = "SELECT * FROM features WHERE id='" . $ID . "'";
+
+    $aim_record = run_sql($conn,$sql_str,true)[0];
+    $num_attr = count($aim_record);
+    $cur_max = -1 ;
+    $max_record = "";
+    $cur_same = 0;
+
+    foreach ($all_records as $record){
+        $cur_same = 0;
+        if ($ID == $record[24]){
+            continue;
+        }
+        foreach ($feature_list as $feature){
+            $i = array_search($feature, $attrs);
+            if($record[i] == $aim_record[i]){
+                $cur_same += 1;
+            }
+            if ($cur_same > $cur_max){
+                $cur_max = $cur_same;
+                $max_record = $record[21];
+            }
+        }
+    }
+
+    echo $cur_max / count($feature_list) . ", " . $max_record;
+
 }
-
-$ID = $_POST["id"];
-
-$sql_str = "SELECT * FROM features";
-$all_records = run_sql($sql_str);
-$sql_str = "SELECT * FROM features WHERE id=" + ID;
-$aim_record = run_sql($sql_str)[0];
-num_attr = len(aim_record);
-cur_max = -1 ;
-max_record = "";
-cur_same = 0;
-for record in all_records:
-    cur_same = 0
-    if str(ID) == str(record[24]):
-        continue
-        for feature in feature_list: 
-            i = attrs.index(feature)
-            if record[i] == aim_record[i]:
-                cur_same += 1
-                if cur_same > cur_max:
-                    cur_max = cur_same
-                    max_record = str(record[21])
-                    return str(float(cur_max) / float(len(feature_list))) + ", " + max_record 
 
 ?>

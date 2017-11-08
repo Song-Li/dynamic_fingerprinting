@@ -146,6 +146,4 @@ function doInit($unique_label, $cookie){
     return doUpdateFeatures($unique_label, $result);
 }
 
-doInit("1", "2");
-
 ?>
