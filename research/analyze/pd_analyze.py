@@ -55,15 +55,34 @@ def relation(cookies):
                             numbers[k][k2] += 1
     return numbers
 
-# get how many users have different fingerprints
+# get how many users have unique fingerprints
 def diff_diff(cookies):
+    total = 0
+    num_users = len(cookies)
+    print ("We have {} users in total".format(num_users))
+    big_fingerprint_set = {}
     for key, items in cookies:
-        
+        num_exsit = 0
+        # how many fingerprints we have
+        fingerprints = set(items['browserfingerprint'])
+        for fingerprint in fingerprints:
+            if fingerprint not in big_fingerprint_set:
+                big_fingerprint_set[fingerprint] = 0 
+            big_fingerprint_set[fingerprint] += 1
+
+    print ("We have {} fingerprints in total".format(len(big_fingerprint_set)))
+
+    for key, items in cookies:
+        fingerprints = set(items['browserfingerprint'])
+        for fingerprint in fingerprints:
+            if big_fingerprint_set[fingerprint] == 1:
+                total += 1
+                break
+
+    print ("We have {} fingerprintable users in total".format(total))
+    return total
 
 
-
-
-
-
-numbers = relation(cookies)
-printTable(numbers)
+# numbers = relation(cookies)
+numbers = diff_diff(cookies)
+# printTable(numbers)
