@@ -27,3 +27,4 @@ if(isset($_POST["imageBase64"])){
 
     echo $hash_value;
 }
+?>

@@ -10,12 +10,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="fingerprints.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fingerprints.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
+            <state relative-caret-position="-989">
+              <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="23" />
               <folding>
                 <marker date="1510109537061" expanded="true" signature="1361:1421" ph="select {} fr... " />
                 <marker date="1510109537061" expanded="true" signature="1361:1424" ph="select {} fr... " />
@@ -44,8 +44,8 @@
       <file leaf-file-name="finishPage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finishPage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="90">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -54,52 +54,49 @@
       <file leaf-file-name="distance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/distance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
               <folding>
-                <marker date="1510111581523" expanded="true" signature="748:770" ph="SELECT * FRO... features" />
-                <marker date="1510111581523" expanded="true" signature="839:872" ph="SELECT * FRO... features" />
-                <marker date="1510111581523" expanded="true" signature="839:884" ph="SELECT * FRO... features" />
-                <marker date="1510111581523" expanded="true" signature="839:885" ph="SELECT * FRO... features" />
+                <marker date="1510264141626" expanded="true" signature="753:775" ph="SELECT * FRO... features" />
+                <marker date="1510264141626" expanded="true" signature="844:877" ph="SELECT * FRO... features" />
+                <marker date="1510264141626" expanded="true" signature="844:889" ph="SELECT * FRO... features" />
+                <marker date="1510264141626" expanded="true" signature="844:890" ph="SELECT * FRO... features" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check_exsit_picture.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="check_exsit_picture.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/check_exsit_picture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="198">
+              <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
-                <marker date="1510111581391" expanded="true" signature="95:146" ph="SELECT count... pictures" />
-                <marker date="1510111581391" expanded="true" signature="95:166" ph="SELECT count... pictures" />
+                <marker date="1510270245140" expanded="true" signature="131:182" ph="SELECT count... pictures" />
+                <marker date="1510270245140" expanded="true" signature="131:202" ph="SELECT count... pictures" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store_pictures.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store_pictures.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store_pictures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
               <folding>
-                <marker date="1510113888259" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
-                <marker date="1510113888259" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getCookie.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getCookie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <marker date="1510110388009" expanded="true" signature="246:308" ph="SELECT count... cookies" />
-                <marker date="1510110388009" expanded="true" signature="457:512" ph="INSERT INTO cookies... " />
+                <marker date="1510264062669" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
+                <marker date="1510264062669" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
               </folding>
             </state>
           </provider>
@@ -108,29 +105,22 @@
       <file leaf-file-name="sql_util.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql_util.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ignore">
+      <file leaf-file-name="getCookie.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getCookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="540">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+              <folding>
+                <marker date="1510264251619" expanded="true" signature="251:313" ph="SELECT count... cookies" />
+                <marker date="1510264251619" expanded="true" signature="462:517" ph="INSERT INTO cookies... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,9 +128,21 @@
       <file leaf-file-name="updateFeatures.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/updateFeatures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pictures.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pictures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <marker date="1510269739656" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +155,7 @@
       <find>sha</find>
       <find>forea</find>
       <find>imp</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -160,14 +163,16 @@
       <list>
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/ignore" />
-        <option value="$PROJECT_DIR$/sql_util.php" />
         <option value="$PROJECT_DIR$/fingerprints.php" />
+        <option value="$PROJECT_DIR$/store_pictures.php" />
+        <option value="$PROJECT_DIR$/distance.php" />
         <option value="$PROJECT_DIR$/getCookie.php" />
         <option value="$PROJECT_DIR$/finishPage.php" />
-        <option value="$PROJECT_DIR$/distance.php" />
-        <option value="$PROJECT_DIR$/check_exsit_picture.php" />
+        <option value="$PROJECT_DIR$/sql_util.php" />
         <option value="$PROJECT_DIR$/updateFeatures.php" />
-        <option value="$PROJECT_DIR$/store_pictures.php" />
+        <option value="$PROJECT_DIR$/pictures.php" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/check_exsit_picture.php" />
       </list>
     </option>
   </component>
@@ -199,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +215,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,12 +245,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510080253845</updated>
-      <workItem from="1510080258411" duration="18924000" />
+      <workItem from="1510080258411" duration="20105000" />
+      <workItem from="1510264047337" duration="6271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18924000" />
+    <option name="totallyTimeSpent" value="26376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="283" y="41" width="1400" height="1000" extended-state="1" />
@@ -253,20 +259,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -281,92 +287,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fingerprints.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createTable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finishPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql_util.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getCookie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <marker date="1510110388009" expanded="true" signature="246:308" ph="SELECT count... cookies" />
-            <marker date="1510110388009" expanded="true" signature="457:512" ph="INSERT INTO cookies... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <marker date="1510111581523" expanded="true" signature="748:770" ph="SELECT * FRO... features" />
-            <marker date="1510111581523" expanded="true" signature="839:872" ph="SELECT * FRO... features" />
-            <marker date="1510111581523" expanded="true" signature="839:884" ph="SELECT * FRO... features" />
-            <marker date="1510111581523" expanded="true" signature="839:885" ph="SELECT * FRO... features" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check_exsit_picture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <marker date="1510111581391" expanded="true" signature="95:146" ph="SELECT count... pictures" />
-            <marker date="1510111581391" expanded="true" signature="95:166" ph="SELECT count... pictures" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fingerprints.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="1044">
           <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
           <folding>
             <marker date="1510109537061" expanded="true" signature="1361:1421" ph="select {} fr... " />
@@ -392,6 +315,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/distance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <marker date="1510264141626" expanded="true" signature="753:775" ph="SELECT * FRO... features" />
+            <marker date="1510264141626" expanded="true" signature="844:877" ph="SELECT * FRO... features" />
+            <marker date="1510264141626" expanded="true" signature="844:889" ph="SELECT * FRO... features" />
+            <marker date="1510264141626" expanded="true" signature="844:890" ph="SELECT * FRO... features" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finishPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_exsit_picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <marker date="1510270245140" expanded="true" signature="131:182" ph="SELECT count... pictures" />
+            <marker date="1510270245140" expanded="true" signature="131:202" ph="SELECT count... pictures" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1510264251619" expanded="true" signature="251:313" ph="SELECT count... cookies" />
+            <marker date="1510264251619" expanded="true" signature="462:517" ph="INSERT INTO cookies... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/updateFeatures.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -402,11 +392,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store_pictures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1510113888259" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
-            <marker date="1510113888259" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
+            <marker date="1510264062669" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
+            <marker date="1510264062669" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fingerprints.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createTable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store_pictures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="2" />
+          <folding>
+            <marker date="1510264062669" expanded="true" signature="223:263" ph="INSERT INTO pictures... " />
+            <marker date="1510264062669" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <marker date="1510264251619" expanded="true" signature="251:313" ph="SELECT count... cookies" />
+            <marker date="1510264251619" expanded="true" signature="462:517" ph="INSERT INTO cookies... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql_util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fingerprints.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989">
+          <caret line="56" column="23" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="23" />
+          <folding>
+            <marker date="1510109537061" expanded="true" signature="1361:1421" ph="select {} fr... " />
+            <marker date="1510109537061" expanded="true" signature="1361:1424" ph="select {} fr... " />
+            <marker date="1510109537061" expanded="true" signature="1588:1689" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1588:1691" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1594:1627" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1594:1669" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="1594:1672" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2109" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2131" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2132" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="2050:2133" ph="UPDATE featu... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3189" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3209" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3210" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3212" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3224" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3226" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3141:3251" ph="INSERT INTO features... " />
+            <marker date="1510109537061" expanded="true" signature="3309:3332" ph="update the s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finishPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updateFeatures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pictures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <marker date="1510269739656" expanded="true" signature="223:284" ph="INSERT INTO pictures... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/distance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1510264141626" expanded="true" signature="753:775" ph="SELECT * FRO... features" />
+            <marker date="1510264141626" expanded="true" signature="844:877" ph="SELECT * FRO... features" />
+            <marker date="1510264141626" expanded="true" signature="844:889" ph="SELECT * FRO... features" />
+            <marker date="1510264141626" expanded="true" signature="844:890" ph="SELECT * FRO... features" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_exsit_picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <marker date="1510270245140" expanded="true" signature="131:182" ph="SELECT count... pictures" />
+            <marker date="1510270245140" expanded="true" signature="131:202" ph="SELECT count... pictures" />
           </folding>
         </state>
       </provider>

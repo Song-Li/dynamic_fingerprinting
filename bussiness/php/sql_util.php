@@ -1,7 +1,7 @@
 <?php
 
 function connect(){
-    echo "connect" . "<br>";
+    //echo "connect" . "<br>";
     $file_handle = fopen("ignore", "r");
     $host = fgets($file_handle);
     $host = str_replace(array("\r", "\n"), '', $host);
@@ -16,13 +16,13 @@ function connect(){
 
     if($conn->connect_error)die("Connection failed: " . $conn->connect_error);
 
-    echo "Connected successfully!";
+    //echo "Connected successfully!";
 
     return $conn;
 }
 
 function run_sql($conn, $sql, $isQuery = false){
-    print "<br>" . $sql . "<br>";
+    //print "<br>" . $sql . "<br>";
     $result = $conn->query($sql);
 
     if($isQuery)return $result->fetch_all();

@@ -1,10 +1,13 @@
 <?php
 
-if($_POST){
+if(file_get_contents("php://input")){
 
-    $json = file_get_contents("datas.json");
+    include "fingerprints.php";
+
+    $json = file_get_contents("php://input");
     $result = json_decode($json);
-    $unique_label = $result["uniquelabel"];
+
+    $unique_label = $result->uniquelabel;
     $features = array();
 
     foreach ($result as $feature => $value){
@@ -20,7 +23,7 @@ if($_POST){
     }
 
     doUpdateFeatures($unique_label, $features);
-    echo json_encode(array("finished" => "[" . implode("",array_keys($feature)) . "]" ));
+    echo json_encode(array("finished" => "[" . implode(",",array_keys($features)) . "]" ));
 
 }
 ?>

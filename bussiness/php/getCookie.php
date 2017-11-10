@@ -1,8 +1,9 @@
 <?php
 
-include "fingerprints.php";
 
 if(isset($_POST['cookie'])){
+
+    include "fingerprints.php";
 
     $IP = getRealIpAddr();
 

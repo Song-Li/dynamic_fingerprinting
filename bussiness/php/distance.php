@@ -1,8 +1,9 @@
 <?php
 
-include 'fingerprints.php';
 
 if(isset($_POST["id"])){
+
+    include "fingerprints.php";
 
     $feature_list = array(
         "agent",
