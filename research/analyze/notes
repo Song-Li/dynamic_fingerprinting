@@ -3,10 +3,12 @@
   1, we have 271,324 different users in total
   2, we have 366,021 different fingerprints in total
   3, 122,267 out of 271,324 users(cookies) have unique fingerprints (based on cookie)
+  4, 187,804 of them have only one fingerprint
 3, Based on client id 
   1, we have 154,564 different users in total
   2, we have 365,928 fingerprints in total
   3, we have 100,362 fingerprintable users in total (64.93%)
+  4, 44,553 users have only one fingerprint
 4, Change of features based on cookie
   ('canvastest', 205)
   ('langsdetected', 4)
@@ -51,3 +53,4 @@
   ('resolution', 54)
   ('jsFonts', 546)
   ('ccaudio', 4935)
+6, Among 154564 clientids, 107955 of them have only one cookie. (69.84%)

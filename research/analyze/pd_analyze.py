@@ -2,7 +2,6 @@ import pandas as pd
 import datetime
 from database import Database
 
-
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) 
 
@@ -50,6 +49,7 @@ def printTable(table):
 def get_change(cookies):
     total = 0
     cnt = {}
+    only_one = 0
     for key, items in cookies:
         if items['browserfingerprint'].nunique() > 1:
             total += 1
@@ -75,10 +75,10 @@ def get_change(cookies):
                             if featureDiff(min_row[k2], max_row[k2]):
                                 cnt[k] -= 1
                                 break
+
     for k in cnt:
         print (k, cnt[k])
     return cnt
-
 
 # get the both-change number of features
 def relation(cookies):
@@ -117,6 +117,7 @@ def relation(cookies):
 def diff_diff(cookies):
     total = 0
     num_users = len(cookies)
+    only_one = 0
     print ("We have {} users in total".format(num_users))
     big_fingerprint_set = {}
     for key, items in cookies:
@@ -132,12 +133,37 @@ def diff_diff(cookies):
 
     for key, items in cookies:
         fingerprints = set(items['browserfingerprint'])
+        if len(fingerprints) == 1:
+            only_one += 1
         for fingerprint in fingerprints:
             if big_fingerprint_set[fingerprint] == 1:
                 total += 1
                 break
 
     print ("We have {} fingerprintable users in total".format(total))
+    print ("We have {} users in only have one fingerprint ".format(only_one))
+    return total
+
+# get how many clientid have just one cookie
+def num_of_same_cookie(clientid):
+    total = 0
+    for key, items in clientid:
+        if items['label'].nunique() == 1:
+            total += 1
+        else:
+            # print (items['id'])
+            pass
+    print ("We have {} clientids in total".format(len(clientid)))
+    print ("{} of them is const. {:.2f}%".format(total, float(total) / float(len(clientid)) * 100))
+    return total
+
+# get how many users have only one browser fingerprint
+def num_of_same_fingerprint(cookies):
+    total = 0
+    for key, items in cookies:
+        if items['browserfingerprint'].nunique() == 1:
+            total += 1
+    print ("{} users have only one fingerprints".format(total))
     return total
 
 
@@ -146,8 +172,9 @@ def diff_diff(cookies):
 # bsed on clientid here
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
-#numbers = diff_diff(clientid)
+numbers = diff_diff(cookies)
 #numbers = get_change(cookies)
-numbers = get_change(clientid)
-
+#numbers = get_change(clientid)
+#numbers = num_of_same_cookie(clientid)
+#num_of_same_fingerprint(cookies)
 # printTable(numbers)
