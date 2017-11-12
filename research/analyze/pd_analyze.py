@@ -12,6 +12,31 @@ print ("data loaded")
 
 cookies = df.groupby('label')
 feature_names = list(df.columns.values)
+counted_features = [ 
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "jsFonts",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adblock", 
+        "cpucores", 
+        "canvastest", 
+        "audio",
+        "ccaudio",
+        "hybridaudio",
+        "touchSupport",
+        "doNotTrack"
+        ]
 
 # print a 2D table
 def printTable(table):
@@ -21,6 +46,39 @@ def printTable(table):
         if k not in table:
             continue
         print '{:<5.5} '.format(k) + ' '.join(['{:<5.5}'.format(str(table[k][k2])) for k2 in feature_names])
+
+def get_change(cookies):
+    total = 0
+    cnt = {}
+    for key, items in cookies:
+        if items['browserfingerprint'].nunique() > 1:
+            total += 1
+            min_time = datetime.datetime.now()
+            max_time = datetime.datetime.now() - datetime.timedelta(days = 10000)
+            for index, row in items.iterrows():
+                if min_time > row['time']:
+                    min_time = row['time']
+                    min_row = row
+                if max_time < row['time']:
+                    max_time = row['time']
+                    max_row = row
+            if max_time - min_time > datetime.timedelta(days = 0):
+                for k in counted_features:
+                    if featureDiff(min_row[k], max_row[k]):
+                        if k not in cnt:
+                            cnt[k] = 0
+                        cnt[k] += 1
+                        for k2 in counted_features:
+                            if k == k2:
+                                continue
+                            # here we want to get the single change of every feature
+                            if featureDiff(min_row[k2], max_row[k2]):
+                                cnt[k] -= 1
+                                break
+    for k in cnt:
+        print (k, cnt[k])
+    return cnt
+
 
 # get the both-change number of features
 def relation(cookies):
@@ -84,5 +142,12 @@ def diff_diff(cookies):
 
 
 # numbers = relation(cookies)
-numbers = diff_diff(cookies)
+# get all records with clientid
+# bsed on clientid here
+df = df[pd.notnull(df['clientid'])]
+clientid = df.groupby('clientid')
+#numbers = diff_diff(clientid)
+#numbers = get_change(cookies)
+numbers = get_change(clientid)
+
 # printTable(numbers)
