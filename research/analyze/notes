@@ -54,3 +54,11 @@
   ('jsFonts', 546)
   ('ccaudio', 4935)
 6, Among 154564 clientids, 107955 of them have only one cookie. (69.84%)
+7, NULL feature records
+  language 188
+  encoding 78
+  clientid 141
+  hybridaudio 290551
+  gpuimgs 187844
+  resolution 470444
+  ccaudio 275185

@@ -3,7 +3,7 @@ import datetime
 from database import Database
 
 def featureDiff(f1, f2):
-    return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) 
+    return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
 
 db = Database('uniquemachine')
 df = pd.read_sql('select * from features;', con=db.get_db())    
@@ -157,6 +157,21 @@ def num_of_same_cookie(clientid):
     print ("{} of them is const. {:.2f}%".format(total, float(total) / float(len(clientid)) * 100))
     return total
 
+# get the percentage of NULL of every feature
+def num_of_null(df):
+    total = 0
+    res = {}
+    for index, row in df.iterrows():
+        for feature in feature_names:
+            if pd.isnull(row[feature]) or (row[feature] == 'None'):
+                if feature not in res:
+                    res[feature] = 0
+                res[feature] += 1
+    for feature in res:
+        print feature, res[feature] 
+
+
+
 # get how many users have only one browser fingerprint
 def num_of_same_fingerprint(cookies):
     total = 0
@@ -170,10 +185,12 @@ def num_of_same_fingerprint(cookies):
 # numbers = relation(cookies)
 # get all records with clientid
 # bsed on clientid here
+# num_of_null(df)
+
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
-numbers = diff_diff(cookies)
-#numbers = get_change(cookies)
+#numbers = diff_diff(cookies)
+numbers = get_change(cookies)
 #numbers = get_change(clientid)
 #numbers = num_of_same_cookie(clientid)
 #num_of_same_fingerprint(cookies)
