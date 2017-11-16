@@ -2,7 +2,11 @@
 
 if(isset($_POST["imageBase64"])){
 
-    include "fingerprints.php";
+    include "uniquemachine.php";
+
+    store_picture($_POST["imageBase64"]);
+
+    /*include "fingerprints.php";
 
     // get ID for this picture
 
@@ -25,6 +29,6 @@ if(isset($_POST["imageBase64"])){
     // clean up the file resource
     fclose( $ifp );
 
-    echo $hash_value;
+    echo $hash_value;*/
 }
 ?>

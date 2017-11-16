@@ -2,32 +2,6 @@
 
 include "sql_util.php";
 
-$feature_list = array(
-    "agent",
-    "accept",
-    "encoding",
-    "language",
-    "langsDetected",
-    "resolution",
-    "jsFonts",
-    "WebGL",
-    "inc",
-    "gpu",
-    "gpuimgs",
-    "timezone",
-    "plugins",
-    "cookie",
-    "localstorage",
-    "adBlock",
-    "cpucores",
-    "canvastest",
-    "audio",
-    "ccaudio",
-    "hybridaudio",
-    "touchSupport",
-    "doNotTrack"
-);
-
 function get_os_from_agent($agent){
     $start_pos = 0;
     $start_pos = strpos($agent, "(");
@@ -54,17 +28,44 @@ function get_browser_from_agent($agent){
     }
 }
 
-function getFingerprint($recordID){
-    global $feature_list;
+function getFingerprint($unique_label){
+
+    $feature_list = array(
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsDetected",
+        "resolution",
+        "jsFonts",
+        "WebGL",
+        "inc",
+        "gpu",
+        "gpuimgs",
+        "timezone",
+        "plugins",
+        "cookie",
+        "localstorage",
+        "adBlock",
+        "cpucores",
+        "canvastest",
+        "audio",
+        "ccaudio",
+        "hybridaudio",
+        "touchSupport",
+        "doNotTrack"
+    );
+
     $feature_str = implode(",", $feature_list);
-    $sql_str = "select " .$feature_str . " from features where uniquelabel = '" . $recordID . "'";
+
+    $sql_str = "select " .$feature_str . " from features where uniquelabel = '" . $unique_label . "'";
 
     $conn = connect();
     $res = run_sql($conn, $sql_str,true);
 
     $fingerprint = sha1("[" . implode(",", $res[0]) . "]");
 
-    $sql_str = "UPDATE features SET browserfingerprint='" . $fingerprint . "' WHERE uniquelabel = '" . $recordID . "';";
+    $sql_str = "UPDATE features SET browserfingerprint='" . $fingerprint . "' WHERE uniquelabel = '" . $unique_label . "';";
     run_sql($conn, $sql_str);
 
     $conn->close();
@@ -122,7 +123,7 @@ function doInit($unique_label, $cookie){
 
     try {
         $agent = $headers["User-Agent"];
-        $accpet = $headers["Accept"];
+        $accept = $headers["Accept"];
         $encoding = $headers["Accept-Encoding"];
         $language = $headers["Accept-Language"];
         $IP = getRealIpAddr();

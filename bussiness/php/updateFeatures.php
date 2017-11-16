@@ -2,7 +2,11 @@
 
 if(file_get_contents("php://input")){
 
-    include "fingerprints.php";
+    include "uniquemachine.php";
+
+    echo update_features(file_get_contents("php://input"));
+
+    /*include "fingerprints.php";
 
     $json = file_get_contents("php://input");
     $result = json_decode($json);
@@ -23,7 +27,7 @@ if(file_get_contents("php://input")){
     }
 
     doUpdateFeatures($unique_label, $features);
-    echo json_encode(array("finished" => "[" . implode(",",array_keys($features)) . "]" ));
+    echo json_encode(array("finished" => "[" . implode(",",array_keys($features)) . "]" ));*/
 
 }
 ?>

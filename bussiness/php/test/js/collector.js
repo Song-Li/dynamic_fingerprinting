@@ -364,6 +364,7 @@ var Collector = function() {
     xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
+
   }
 
   // used for sending images back to server
@@ -385,6 +386,21 @@ var Collector = function() {
     xhttp.open("POST", url, true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhttp.send(data);
+  }
+
+  this.distance = function(id){
+      var xhttp = new XMLHttpRequest();
+      var url = ip_address + "/distance.php";
+      var data = "id=" + id;
+      var _this = this;
+      xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+          }
+      };
+      xhttp.open("POST", url, true);
+      xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhttp.send(data);
+
   }
 
   this.getPostData = function(cb) {
@@ -523,4 +539,10 @@ function messageToParent(message) {
 function myGetFingerprint() {
   var collector = new Collector();
   collector.handleCookie();
+}
+
+function distance(){
+    var collector = new Collector();
+    collector.distance(90);
+
 }
