@@ -186,7 +186,6 @@ def num_of_same_fingerprint(cookies):
 # get all records with clientid
 # bsed on clientid here
 # num_of_null(df)
-
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
 #numbers = diff_diff(cookies)
