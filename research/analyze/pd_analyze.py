@@ -7,12 +7,8 @@ import numpy as np
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
 
-db = Database('uniquemachine')
-df = pd.read_sql('select * from features;', con=db.get_db())    
-print ("data loaded")
 
-cookies = df.groupby('label')
-feature_names = list(df.columns.values)
+db = Database('uniquemachine')
 counted_features = [ 
         "agent",
         "accept",
@@ -24,7 +20,7 @@ counted_features = [
         "WebGL", 
         "inc", 
         "gpu", 
-        "gpuimgs", 
+#        "gpuimgs", 
         "timezone", 
         "plugins", 
         "cookie", 
@@ -33,11 +29,17 @@ counted_features = [
         "cpucores", 
         "canvastest", 
         "audio",
-        "ccaudio",
-        "hybridaudio",
+#        "ccaudio",
+#        "hybridaudio",
         "touchSupport",
         "doNotTrack"
         ]
+db.clean_sql(counted_features)
+df = pd.read_sql('select * from features;', con=db.get_db())    
+print ("data loaded")
+
+cookies = df.groupby('label')
+feature_names = list(df.columns.values)
 
 # print a 2D table
 def printTable(table):
