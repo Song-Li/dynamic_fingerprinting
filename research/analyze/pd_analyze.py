@@ -1,6 +1,8 @@
 import pandas as pd
 import datetime
 from database import Database
+import matplotlib.pyplot as plt
+import numpy as np
 
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
@@ -80,13 +82,11 @@ def get_change(cookies):
         print (k, cnt[k])
     return cnt
 
-# get the both-change number of features
-def relation(cookies):
-    numbers = {}
+# get total change of specific features
+def get_every_change(cookies):
     total = 0
-    more_than_2 = 0
-    stop = False 
-    res_table = {}
+    cnt = {}
+    only_one = 0
     for key, items in cookies:
         if items['browserfingerprint'].nunique() > 1:
             total += 1
@@ -100,17 +100,58 @@ def relation(cookies):
                     max_time = row['time']
                     max_row = row
             if max_time - min_time > datetime.timedelta(days = 0):
-                more_than_2 += 1
-                for k in feature_names:
+                for k in counted_features:
+                    if featureDiff(min_row[k], max_row[k]):
+                        if k not in cnt:
+                            cnt[k] = 0
+                        cnt[k] += 1
+    feature = []
+    num_change = []
+    for k in cnt:
+        print (k, cnt[k])
+        if k!='ccaudio' and k!='hybridaudio' and k!='gpuimgs':
+            feature.append(k)
+            num_change.append(cnt[k])
+    ind = np.arange(len(feature))
+    plt.bar(ind, num_change, 0.5)
+    plt.xticks(ind, feature, rotation=40, ha='center')
+    plt.show()
+    return cnt
+ 
+
+# get the both-change number of features
+def relation(cookies):
+    numbers = {}
+    # total = 0
+    # more_than_2 = 0
+    # stop = False 
+    # res_table = {}
+    for key, items in cookies:
+        if items['browserfingerprint'].nunique() > 1:
+            # total += 1
+            min_time = datetime.datetime.now()
+            max_time = datetime.datetime.now() - datetime.timedelta(days = 10000)
+            for index, row in items.iterrows():
+                if min_time > row['time']:
+                    min_time = row['time']
+                    min_row = row
+                if max_time < row['time']:
+                    max_time = row['time']
+                    max_row = row
+            if max_time - min_time > datetime.timedelta(days = 0):
+                # more_than_2 += 1
+                for k in counted_features:
                     if not featureDiff(min_row[k], max_row[k]):
                         continue
                     if k not in numbers:
                         numbers[k] = {} 
-                    for k2 in feature_names:
+                    for k2 in counted_features:
                         if k2 not in numbers[k]:
                             numbers[k][k2] = 0
                         if featureDiff(min_row[k2], max_row[k2]):
                             numbers[k][k2] += 1
+    for k in numbers:
+        print(k, numbers[k])
     return numbers
 
 # get how many users have unique fingerprints
@@ -182,15 +223,87 @@ def num_of_same_fingerprint(cookies):
     return total
 
 
+def max_num_of_fingerprint(cookies):
+    num = []
+    num_of_fingerprint = {}
+    for key, items in cookies:
+        fingerprints = items['label'].nunique()
+        num.append(fingerprints)
+        if fingerprints not in num_of_fingerprint:
+            num_of_fingerprint[fingerprints] = 0
+        num_of_fingerprint[fingerprints] += 1
+    for k in num_of_fingerprint:
+        print (k, num_of_fingerprint[k])
+    for i in range(0,10):
+        print max(num)
+        num.remove(max(num))
+    return num_of_fingerprint
+
+
+def feature_null (finger):
+    null_val = {}
+    for key, items in finger:
+        if items['label'].nunique() == 3:
+            cookie = []
+            for i, row in items.iterrows():
+                cookie.append(row)
+            for k in counted_features:
+                if k not in null_val:
+                    null_val[k] = 0
+                if 'None' in str(cookie[0][k]) or pd.isnull(cookie[0][k]):
+                    null_val[k] += 1
+    for k in null_val:
+        print (k, null_val[k])
+    return 
+
+def no_null_feature (finger):
+    count = {}
+    for key, items in finger:
+        if items['label'].nunique() > 1:
+            if items['label'].nunique() not in count:
+                count[items['label'].nunique()] = 0
+            count[items['label'].nunique()] += 1
+            for i, r in items.iterrows():
+                row = r
+                break
+            for k in counted_features:
+                if 'None' in str(row[k]) or pd.isnull(row[k]):
+                    count[items['label'].nunique()] -= 1
+                    break
+    # result = 0
+    # for key, items in finger:
+    #     if items['label'].nunique() == 110:
+    #         result = 1
+    #         for i, r in items.iterrows():
+    #             row = r
+    #             break
+    #         for k in counted_features:
+    #             if 'None' in str(row[k]) or pd.isnull(row[k]):
+    #                 result = 0
+    #                 break
+    #         if result == 1:
+    #             print key
+    for k in count:
+        print (k, count[k])
+    return
+
+
+
+
 # numbers = relation(cookies)
 # get all records with clientid
 # bsed on clientid here
 # num_of_null(df)
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
-#numbers = diff_diff(cookies)
-numbers = get_change(cookies)
+finger = df.groupby('browserfingerprint')
+#numbers = diff_diff(clientid)
+#numbers = get_change(cookies)
+#numbers = get_every_change(cookies)
 #numbers = get_change(clientid)
 #numbers = num_of_same_cookie(clientid)
 #num_of_same_fingerprint(cookies)
+#numbers = relation(cookies)
+#feature_null(finger)
+no_null_feature(finger)
 # printTable(numbers)
