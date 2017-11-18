@@ -112,6 +112,7 @@ function getRealIpAddr()
 }
 
 function doInit($unique_label, $cookie){
+
     $result = array();
     $agent = "";
     $accept = "";

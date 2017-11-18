@@ -17,7 +17,7 @@ var AsyncTest = function(collector, cb) {
     }
   }
 
-  // start test here
+  // start uniquemachine here
   this.begin = function() {
     for (var test in this.testList) {
       this.testList[test].begin(this.testFinished, collector.getID());

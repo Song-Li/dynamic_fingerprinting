@@ -4309,7 +4309,7 @@
 			if ( Math.abs( s ) < 0.001 ) s = 1;
 
 			// prevent divide by zero, should not happen if matrix is orthogonal and should be
-			// caught by singularity test above, but I've left it in just in case
+			// caught by singularity uniquemachine above, but I've left it in just in case
 
 			this.x = ( m32 - m23 ) / s;
 			this.y = ( m13 - m31 ) / s;
@@ -15254,10 +15254,10 @@
 				// t1 = second intersect point - exit point on back of sphere
 				var t1 = tca + thc;
 
-				// test to see if both t0 and t1 are behind the ray - if so, return null
+				// uniquemachine to see if both t0 and t1 are behind the ray - if so, return null
 				if ( t0 < 0 && t1 < 0 ) return null;
 
-				// test to see if t0 is behind the ray:
+				// uniquemachine to see if t0 is behind the ray:
 				// if it is, the ray is inside the sphere, so return the second exit point scaled by t1,
 				// in order to always return an intersect point that is in front of the ray.
 				if ( t0 < 0 ) return this.at( t1, optionalTarget );

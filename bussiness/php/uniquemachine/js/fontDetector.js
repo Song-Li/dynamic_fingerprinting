@@ -78,12 +78,12 @@ var JsFontsDetector = function() {
   // And we use a LLi so that the same matching fonts can get separated
   var testString = "mmmmmmmmmmlli";
 
-  //we test using 72px font size, we may use any size. I guess larger the better.
+  //we uniquemachine using 72px font size, we may use any size. I guess larger the better.
   var testSize = '72px';
 
   var h = document.getElementsByTagName("body")[0];
 
-  // create a SPAN in the document to get the width of the text we use to test
+  // create a SPAN in the document to get the width of the text we use to uniquemachine
   var s = document.createElement("span");
   s.style.fontSize = testSize;
   s.innerHTML = testString;
