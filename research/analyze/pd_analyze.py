@@ -34,7 +34,10 @@ counted_features = [
         "touchSupport",
         "doNotTrack"
         ]
+# clean the sql regenerate the fingerprint
+# without the gpuimgs, ccaudio and hybridaudio
 db.clean_sql(counted_features)
+print ("clean finished")
 df = pd.read_sql('select * from features;', con=db.get_db())    
 print ("data loaded")
 
