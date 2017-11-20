@@ -54,11 +54,23 @@ Based on cookies:
   3, 134,676 out of 303,899 users(cookies) have unique fingerprints (44.32%)
   4, 210,734 of them have only one fingerprint
 
+After Cleaning:
+  1, we have 303,899 different users in total
+  2, we have 112,737 different fingerprints in total
+  3, 80,997 out of 303,899 users(cookies) have unique fingerprints (26.65%)
+  4, 296,888 of them have only one fingerprint
+
 Based on clientid:
   1, we have 172,343 different users in total
   2, we have 401,577 fingerprints in total
   3, we have 110,445 fingerprintable users in total (64.08%)
   4, 49,639 users have only one fingerprint
+
+After Cleaning:
+  1, We have 172,343 users in total
+  2, We have 112,700 fingerprints in total
+  3, We have 84,693 fingerprintable users in total
+  4, 155,397 users only have one fingerprint
 
 
 cookies per fingerprints:
@@ -210,4 +222,64 @@ no null feature: 3587
 
 
 total no null feature: 5649
-total affacted cookies: 18273
+total affacted cookies: 18273   (6.01%)
+
+
+
+
+(2, 3587)
+(3, 953)
+(4, 379)
+(5, 201)
+(6, 128)
+(7, 94)
+(8, 68)
+(9, 44)
+(10, 33)
+(11, 27)
+(12, 25)
+(13, 15)
+(14, 18)
+(15, 8)
+(16, 12)
+(17, 4)
+(18, 4)
+(19, 6)
+(20, 5)
+(21, 5)
+(22, 3)
+(23, 2)
+(24, 3)
+(25, 3)
+(26, 2)
+(27, 1)
+(29, 2)
+(30, 1)
+(31, 1)
+(33, 1)
+(34, 1)
+(36, 1)
+(39, 3)
+(40, 1)
+(42, 2)
+(51, 1)
+(52, 1)
+(55, 1)
+(66, 1)
+(73, 1)
+(110, 1)
+
+
+After clean:
+(2, 7992)
+(3, 2225)
+(4, 1708)
+(5, 782)
+(6, 666)
+(7, 401)
+(8, 357)
+(9, 232)
+(10, 207)
+(11, 158)
+(12, 119)
+(13, 106)

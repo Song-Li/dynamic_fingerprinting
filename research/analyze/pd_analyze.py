@@ -34,7 +34,9 @@ counted_features = [
         "touchSupport",
         "doNotTrack"
         ]
+print ("start clean")
 db.clean_sql(counted_features)
+print ("clean finished")
 df = pd.read_sql('select * from features;', con=db.get_db())    
 print ("data loaded")
 
@@ -290,6 +292,29 @@ def no_null_feature (finger):
     return
 
 
+def fingerprint_change_time (cookies):
+    days = 10
+    res = [0 for i in range(days)]
+    for key, items in cookies:
+        if items['browserfingerprint'].nunique() > 1:
+            for d in range(days):
+                min_time = datetime.datetime.now()
+                max_time = datetime.datetime.now() - datetime.timedelta(days = 10000)
+                for index, row in items.iterrows():
+                    if min_time > row['time']:
+                        min_time = row['time']
+                        min_row = row
+                    if max_time < row['time'] and max_time - min_time < datetime.timedelta(days = d):
+                        max_time = row['time']
+                        max_row = row
+                    else:
+                        break
+                if featureDiff(max_row['browserfingerprint'], min_row['browserfingerprint']):
+                    res[d] += 1
+    print res
+    return res
+
+
 
 
 # numbers = relation(cookies)
@@ -299,7 +324,8 @@ def no_null_feature (finger):
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
 finger = df.groupby('browserfingerprint')
-#numbers = diff_diff(clientid)
+numbers = fingerprint_change_time(cookies)
+#numbers = diff_diff(cookies)
 #numbers = get_change(cookies)
 #numbers = get_every_change(cookies)
 #numbers = get_change(clientid)
@@ -307,5 +333,5 @@ finger = df.groupby('browserfingerprint')
 #num_of_same_fingerprint(cookies)
 #numbers = relation(cookies)
 #feature_null(finger)
-no_null_feature(finger)
+#no_null_feature(finger)
 # printTable(numbers)
