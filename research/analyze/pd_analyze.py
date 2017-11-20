@@ -34,7 +34,6 @@ counted_features = [
         "touchSupport",
         "doNotTrack"
         ]
-# used to clear database
 print ("start clean")
 db.clean_sql(counted_features)
 print ("clean finished")
