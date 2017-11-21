@@ -4,7 +4,7 @@ var AsyncTest = function(collector, cb) {
   this.webglTestNum = 1;
   this.collector = collector;
   this.testList = [];
-  this.testList.push(new BubbleTest());
+  this.testList.push(new MoreLight());
   this.numTestsComplete = 0;
   this.testFinished = function(ID, value) {
     _this.collector.checkExsitPicture(value, ID);

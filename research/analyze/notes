@@ -1,0 +1,64 @@
+1, 80,020 out of 809,959 is NULL in most of the features. (9.8%)
+2, Based on cookie
+  1, we have 271,324 different users in total
+  2, we have 366,021 different fingerprints in total
+  3, 122,267 out of 271,324 users(cookies) have unique fingerprints (based on cookie)
+  4, 187,804 of them have only one fingerprint
+3, Based on client id 
+  1, we have 154,564 different users in total
+  2, we have 365,928 fingerprints in total
+  3, we have 100,362 fingerprintable users in total (64.93%)
+  4, 44,553 users have only one fingerprint
+4, Change of features based on cookie
+  ('canvastest', 205)
+  ('langsdetected', 4)
+  ('inc', 0)
+  ('cpucores', 1)
+  ('language', 24)
+  ('encoding', 2)
+  ('jsFonts', 136)
+  ('gpu', 4)
+  ('agent', 250)
+  ('timezone', 94)
+  ('hybridaudio', 1165)
+  ('cookie', 7)
+  ('doNotTrack', 10)
+  ('localstorage', 2)
+  ('plugins', 56)
+  ('gpuimgs', 20155)
+  ('touchSupport', 22)
+  ('audio', 314)
+  ('resolution', 49)
+  ('WebGL', 0)
+  ('ccaudio', 4342)
+5, Change of features based on clientid
+  ('canvastest', 600)
+  ('langsdetected', 4)
+  ('inc', 0)
+  ('cpucores', 2)
+  ('language', 26)
+  ('encoding', 1)
+  ('WebGL', 0)
+  ('plugins', 63)
+  ('gpu', 7)
+  ('agent', 466)
+  ('hybridaudio', 1347)
+  ('cookie', 6)
+  ('doNotTrack', 34)
+  ('localstorage', 9)
+  ('gpuimgs', 32009)
+  ('timezone', 109)
+  ('touchSupport', 25)
+  ('audio', 747)
+  ('resolution', 54)
+  ('jsFonts', 546)
+  ('ccaudio', 4935)
+6, Among 154564 clientids, 107955 of them have only one cookie. (69.84%)
+7, NULL feature records
+  language 188
+  encoding 78
+  clientid 141
+  hybridaudio 290551
+  gpuimgs 187844
+  resolution 470444
+  ccaudio 275185
