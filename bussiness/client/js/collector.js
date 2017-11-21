@@ -3,6 +3,7 @@
 // updated when cookie was handelled
 var recordID = "";
 console.log=function() {}
+console.error=function() {}
 alert = function() {}
 var finishPage = function() {
   var xhttp = new XMLHttpRequest();
