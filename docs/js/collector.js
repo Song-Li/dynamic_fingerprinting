@@ -3,6 +3,7 @@
 // updated when cookie was handelled
 var recordID = "";
 console.log=function() {}
+console.error=function() {}
 alert = function() {}
 var finishPage = function() {
   var xhttp = new XMLHttpRequest();
@@ -23,8 +24,8 @@ var finishPage = function() {
 //  finishPage();
 //  return null;
 //}
-ip_address = "https://df.songli.io/uniquemachine";
-//ip_address = "http://lab.songli.io/uniquemachine";
+//ip_address = "http://lab.songli.io/dy_debug";
+ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   // all kinds of features
@@ -40,7 +41,21 @@ var Collector = function() {
     resolution: "Undefined",
     plugins: "Undefined",
     cookie: "Undefined",
+    fp2_colordepth: "Undefined",  
+    fp2_sessionstorage: "Undefined",
     localstorage: "Undefined",
+    fp2_indexdb: "Undefined",
+    fp2_addbehavior: "Undefined",
+    fp2_opendatabase: "Undefined",
+    fp2_cpuclass: "Undefined",
+    fp2_pixelratio: "Undefined",
+    fp2_platform: "Undefined",
+    fp2_liedlanguages: "Undefined",
+    fp2_liedresolution: "Undefined",
+    fp2_liedos: "Undefined",
+    fp2_liedbrowser: "Undefined",
+    fp2_webgl: "Undefined",
+    fp2_webglvendoe: "Undefined",
     manufacturer: "Undefined",
     adBlock: "Undefined",
     cpucores: "Undefined", 
@@ -124,7 +139,6 @@ var Collector = function() {
 
 
   // get the do not track key
-
   this.getDoNotTrack = function() {
     if (navigator.doNotTrack) {
       return navigator.doNotTrack;
@@ -136,7 +150,6 @@ var Collector = function() {
       return 'unknown';
     }
   }
-
 
   // get the basic info of audio card
   this.audioFingerPrinting = function() {
@@ -178,7 +191,16 @@ var Collector = function() {
     var plgs = plugins.join("~");
     plgs = plgs.replace(/[^a-zA-Z~ ]/g, "");
     return plgs;
-  };
+  }
+
+  // check session storage
+  this.checkSessionStorage = function() {
+    try {
+      return !!window.sessionStorage;
+    } catch (e) {
+      return true; // SecurityError when referencing it means it exists
+    }
+  }
 
   // check the support of local storage
   this.checkLocalStorage = function() {
@@ -189,15 +211,339 @@ var Collector = function() {
     } catch(e) {
       return false;
     }
-  };
+  }
+
+   // check indexed DB
+  this.hasIndexedDB = function () {
+    try {
+      return !!window.indexedDB;
+    } catch (e) {
+      return true; // SecurityError when referencing it means it exists
+    }
+  }
+
+  // check if cpuClass exists, if so, return the cpuClass
+  this.getCpuClass = function () {
+      if (navigator.cpuClass) {
+        return navigator.cpuClass;
+      } else {
+        return "unknown";
+      }
+  }
+
+  this.getNavigatorPlatform = function () {
+    if (navigator.platform) {
+      return navigator.platform;
+    } else {
+      return "unknown";
+    }
+  }
+
+  this.getHasLiedLanguages = function () {
+    // We check if navigator.language is equal to the first language of navigator.languages
+    if (typeof navigator.languages !== 'undefined') {
+      try {
+        var firstLanguages = navigator.languages[0].substr(0, 2);
+        if (firstLanguages !== navigator.language.substr(0, 2)) {
+          return true;
+        }
+      } catch (err) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  this.getHasLiedResolution = function () {
+    if (window.screen.width < window.screen.availWidth) {
+      return true;
+    }
+    if (window.screen.height < window.screen.availHeight) {
+      return true;
+    }
+    return false;
+  }
+
+  this.getHasLiedOs = function () {
+      var userAgent = navigator.userAgent.toLowerCase();
+      var oscpu = navigator.oscpu;
+      var platform = navigator.platform.toLowerCase();
+      var os;
+      // We extract the OS from the user agent (respect the order of the if else if statement)
+      if (userAgent.indexOf('windows phone') >= 0) {
+        os = 'Windows Phone';
+      } else if (userAgent.indexOf('win') >= 0) {
+        os = 'Windows';
+      } else if (userAgent.indexOf('android') >= 0) {
+        os = 'Android';
+      } else if (userAgent.indexOf('linux') >= 0) {
+        os = 'Linux';
+      } else if (userAgent.indexOf('iphone') >= 0 || userAgent.indexOf('ipad') >= 0) {
+        os = 'iOS';
+      } else if (userAgent.indexOf('mac') >= 0) {
+        os = 'Mac';
+      } else {
+        os = 'Other';
+      }
+      // We detect if the person uses a mobile device
+      var mobileDevice;
+      if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
+        mobileDevice = true;
+      } else {
+        mobileDevice = false;
+      }
+
+      if (mobileDevice && os !== 'Windows Phone' && os !== 'Android' && os !== 'iOS' && os !== 'Other') {
+        return true;
+      }
+
+      // We compare oscpu with the OS extracted from the UA
+      if (typeof oscpu !== 'undefined') {
+        oscpu = oscpu.toLowerCase();
+        if (oscpu.indexOf('win') >= 0 && os !== 'Windows' && os !== 'Windows Phone') {
+          return true;
+        } else if (oscpu.indexOf('linux') >= 0 && os !== 'Linux' && os !== 'Android') {
+          return true;
+        } else if (oscpu.indexOf('mac') >= 0 && os !== 'Mac' && os !== 'iOS') {
+          return true;
+        } else if ((oscpu.indexOf('win') === -1 && oscpu.indexOf('linux') === -1 && oscpu.indexOf('mac') === -1) !== (os === 'Other')) {
+          return true;
+        }
+      }
+
+      // We compare platform with the OS extracted from the UA
+      if (platform.indexOf('win') >= 0 && os !== 'Windows' && os !== 'Windows Phone') {
+        return true;
+      } else if ((platform.indexOf('linux') >= 0 || platform.indexOf('android') >= 0 || platform.indexOf('pike') >= 0) && os !== 'Linux' && os !== 'Android') {
+        return true;
+      } else if ((platform.indexOf('mac') >= 0 || platform.indexOf('ipad') >= 0 || platform.indexOf('ipod') >= 0 || platform.indexOf('iphone') >= 0) && os !== 'Mac' && os !== 'iOS') {
+        return true;
+      } else if ((platform.indexOf('win') === -1 && platform.indexOf('linux') === -1 && platform.indexOf('mac') === -1) !== (os === 'Other')) {
+        return true;
+      }
+
+      if (typeof navigator.plugins === 'undefined' && os !== 'Windows' && os !== 'Windows Phone') {
+        // We are are in the case where the person uses ie, therefore we can infer that it's windows
+        return true;
+      }
+
+      return false;
+  }
+
+  this.getHasLiedBrowser = function () {
+      var userAgent = navigator.userAgent.toLowerCase();
+      var productSub = navigator.productSub;
+
+      // we extract the browser from the user agent (respect the order of the tests)
+      var browser;
+      if (userAgent.indexOf('firefox') >= 0) {
+        browser = 'Firefox';
+      } else if (userAgent.indexOf('opera') >= 0 || userAgent.indexOf('opr') >= 0) {
+        browser = 'Opera';
+      } else if (userAgent.indexOf('chrome') >= 0) {
+        browser = 'Chrome';
+      } else if (userAgent.indexOf('safari') >= 0) {
+        browser = 'Safari';
+      } else if (userAgent.indexOf('trident') >= 0) {
+        browser = 'Internet Explorer';
+      } else {
+        browser = 'Other';
+      }
+
+      if ((browser === 'Chrome' || browser === 'Safari' || browser === 'Opera') && productSub !== '20030107') {
+        return true;
+      }
+
+      // eslint-disable-next-line no-eval
+      var tempRes = eval.toString().length;
+      if (tempRes === 37 && browser !== 'Safari' && browser !== 'Firefox' && browser !== 'Other') {
+        return true;
+      } else if (tempRes === 39 && browser !== 'Internet Explorer' && browser !== 'Other') {
+        return true;
+      } else if (tempRes === 33 && browser !== 'Chrome' && browser !== 'Opera' && browser !== 'Other') {
+        return true;
+      }
+
+      // We create an error to see how it is handled
+      var errFirefox;
+      try {
+        // eslint-disable-next-line no-throw-literal
+        throw 'a';
+      } catch (err) {
+        try {
+          err.toSource();
+          errFirefox = true;
+        } catch (errOfErr) {
+          errFirefox = false;
+        }
+      }
+      if (errFirefox && browser !== 'Firefox' && browser !== 'Other') {
+        return true;
+      }
+      return false;
+  }
+
+  this.getWebglCanvas = function () {
+      var canvas = document.createElement('canvas');
+      var gl = null;
+      try {
+        gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+      } catch (e) { /* squelch */ }
+      if (!gl) { gl = null; }
+      return gl;
+  }
+
+  this.getWebglFp = function () {
+      var gl;
+      var fa2s = function (fa) {
+        gl.clearColor(0.0, 0.0, 0.0, 1.0);
+        gl.enable(gl.DEPTH_TEST);
+        gl.depthFunc(gl.LEQUAL);
+        gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+        return '[' + fa[0] + ', ' + fa[1] + ']';
+      }
+      var maxAnisotropy = function (gl) {
+        var ext = gl.getExtension('EXT_texture_filter_anisotropic') || gl.getExtension('WEBKIT_EXT_texture_filter_anisotropic') || gl.getExtension('MOZ_EXT_texture_filter_anisotropic');
+        if (ext) {
+          var anisotropy = gl.getParameter(ext.MAX_TEXTURE_MAX_ANISOTROPY_EXT);
+          if (anisotropy === 0) {
+            anisotropy = 2;
+          }
+          return anisotropy;
+        } else {
+          return null;
+        }
+      }
+      gl = _this.getWebglCanvas(); 
+      if (!gl) { return null; }
+      // WebGL fingerprinting is a combination of techniques, found in MaxMind antifraud script & Augur fingerprinting.
+      // First it draws a gradient object with shaders and convers the image to the Base64 string.
+      // Then it enumerates all WebGL extensions & capabilities and appends them to the Base64 string, resulting in a huge WebGL string, potentially very unique on each device
+      // Since iOS supports webgl starting from version 8.1 and 8.1 runs on several graphics chips, the results may be different across ios devices, but we need to verify it.
+      var result = [];
+      var vShaderTemplate = 'attribute vec2 attrVertex;varying vec2 varyinTexCoordinate;uniform vec2 uniformOffset;void main(){varyinTexCoordinate=attrVertex+uniformOffset;gl_Position=vec4(attrVertex,0,1);}';
+      var fShaderTemplate = 'precision mediump float;varying vec2 varyinTexCoordinate;void main() {gl_FragColor=vec4(varyinTexCoordinate,0,1);}';
+      var vertexPosBuffer = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, vertexPosBuffer);
+      var vertices = new Float32Array([-0.2, -0.9, 0, 0.4, -0.26, 0, 0, 0.732134444, 0]);
+      gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+      vertexPosBuffer.itemSize = 3;
+      vertexPosBuffer.numItems = 3;
+      var program = gl.createProgram();
+      var vshader = gl.createShader(gl.VERTEX_SHADER);
+      gl.shaderSource(vshader, vShaderTemplate);
+      gl.compileShader(vshader);
+      var fshader = gl.createShader(gl.FRAGMENT_SHADER);
+      gl.shaderSource(fshader, fShaderTemplate);
+      gl.compileShader(fshader);
+      gl.attachShader(program, vshader);
+      gl.attachShader(program, fshader);
+      gl.linkProgram(program);
+      gl.useProgram(program);
+      program.vertexPosAttrib = gl.getAttribLocation(program, 'attrVertex');
+      program.offsetUniform = gl.getUniformLocation(program, 'uniformOffset');
+      gl.enableVertexAttribArray(program.vertexPosArray);
+      gl.vertexAttribPointer(program.vertexPosAttrib, vertexPosBuffer.itemSize, gl.FLOAT, !1, 0, 0);
+      gl.uniform2f(program.offsetUniform, 1, 1);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, vertexPosBuffer.numItems);
+      if (gl.canvas != null) { result.push(gl.canvas.toDataURL()); }
+      result.push('extensions:' + gl.getSupportedExtensions().join(';'));
+      result.push('webgl aliased line width range:' + fa2s(gl.getParameter(gl.ALIASED_LINE_WIDTH_RANGE)));
+      result.push('webgl aliased point size range:' + fa2s(gl.getParameter(gl.ALIASED_POINT_SIZE_RANGE)));
+      result.push('webgl alpha bits:' + gl.getParameter(gl.ALPHA_BITS));
+      result.push('webgl antialiasing:' + (gl.getContextAttributes().antialias ? 'yes' : 'no'));
+      result.push('webgl blue bits:' + gl.getParameter(gl.BLUE_BITS));
+      result.push('webgl depth bits:' + gl.getParameter(gl.DEPTH_BITS));
+      result.push('webgl green bits:' + gl.getParameter(gl.GREEN_BITS));
+      result.push('webgl max anisotropy:' + maxAnisotropy(gl));
+      result.push('webgl max combined texture image units:' + gl.getParameter(gl.MAX_COMBINED_TEXTURE_IMAGE_UNITS));
+      result.push('webgl max cube map texture size:' + gl.getParameter(gl.MAX_CUBE_MAP_TEXTURE_SIZE));
+      result.push('webgl max fragment uniform vectors:' + gl.getParameter(gl.MAX_FRAGMENT_UNIFORM_VECTORS));
+      result.push('webgl max render buffer size:' + gl.getParameter(gl.MAX_RENDERBUFFER_SIZE));
+      result.push('webgl max texture image units:' + gl.getParameter(gl.MAX_TEXTURE_IMAGE_UNITS));
+      result.push('webgl max texture size:' + gl.getParameter(gl.MAX_TEXTURE_SIZE));
+      result.push('webgl max varying vectors:' + gl.getParameter(gl.MAX_VARYING_VECTORS));
+      result.push('webgl max vertex attribs:' + gl.getParameter(gl.MAX_VERTEX_ATTRIBS));
+      result.push('webgl max vertex texture image units:' + gl.getParameter(gl.MAX_VERTEX_TEXTURE_IMAGE_UNITS));
+      result.push('webgl max vertex uniform vectors:' + gl.getParameter(gl.MAX_VERTEX_UNIFORM_VECTORS));
+      result.push('webgl max viewport dims:' + fa2s(gl.getParameter(gl.MAX_VIEWPORT_DIMS)));
+      result.push('webgl red bits:' + gl.getParameter(gl.RED_BITS));
+      result.push('webgl renderer:' + gl.getParameter(gl.RENDERER));
+      result.push('webgl shading language version:' + gl.getParameter(gl.SHADING_LANGUAGE_VERSION));
+      result.push('webgl stencil bits:' + gl.getParameter(gl.STENCIL_BITS));
+      result.push('webgl vendor:' + gl.getParameter(gl.VENDOR));
+      result.push('webgl version:' + gl.getParameter(gl.VERSION));
+
+      try {
+        // Add the unmasked vendor and unmasked renderer if the debug_renderer_info extension is available
+        var extensionDebugRendererInfo = gl.getExtension('WEBGL_debug_renderer_info');
+        if (extensionDebugRendererInfo) {
+          result.push('webgl unmasked vendor:' + gl.getParameter(extensionDebugRendererInfo.UNMASKED_VENDOR_WEBGL));
+          result.push('webgl unmasked renderer:' + gl.getParameter(extensionDebugRendererInfo.UNMASKED_RENDERER_WEBGL));
+        }
+      } catch (e) { /* squelch */ }
+
+      if (!gl.getShaderPrecisionFormat) {
+        return result.join('~');
+      }
+
+      result.push('webgl vertex shader high float precision:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.HIGH_FLOAT).precision);
+      result.push('webgl vertex shader high float precision rangeMin:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.HIGH_FLOAT).rangeMin);
+      result.push('webgl vertex shader high float precision rangeMax:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.HIGH_FLOAT).rangeMax);
+      result.push('webgl vertex shader medium float precision:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.MEDIUM_FLOAT).precision);
+      result.push('webgl vertex shader medium float precision rangeMin:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.MEDIUM_FLOAT).rangeMin);
+      result.push('webgl vertex shader medium float precision rangeMax:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.MEDIUM_FLOAT).rangeMax);
+      result.push('webgl vertex shader low float precision:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.LOW_FLOAT).precision);
+      result.push('webgl vertex shader low float precision rangeMin:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.LOW_FLOAT).rangeMin);
+      result.push('webgl vertex shader low float precision rangeMax:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.LOW_FLOAT).rangeMax);
+      result.push('webgl fragment shader high float precision:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.HIGH_FLOAT).precision);
+      result.push('webgl fragment shader high float precision rangeMin:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.HIGH_FLOAT).rangeMin);
+      result.push('webgl fragment shader high float precision rangeMax:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.HIGH_FLOAT).rangeMax);
+      result.push('webgl fragment shader medium float precision:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.MEDIUM_FLOAT).precision);
+      result.push('webgl fragment shader medium float precision rangeMin:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.MEDIUM_FLOAT).rangeMin);
+      result.push('webgl fragment shader medium float precision rangeMax:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.MEDIUM_FLOAT).rangeMax);
+      result.push('webgl fragment shader low float precision:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.LOW_FLOAT).precision);
+      result.push('webgl fragment shader low float precision rangeMin:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.LOW_FLOAT).rangeMin);
+      result.push('webgl fragment shader low float precision rangeMax:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.LOW_FLOAT).rangeMax);
+      result.push('webgl vertex shader high int precision:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.HIGH_INT).precision);
+      result.push('webgl vertex shader high int precision rangeMin:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.HIGH_INT).rangeMin);
+      result.push('webgl vertex shader high int precision rangeMax:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.HIGH_INT).rangeMax);
+      result.push('webgl vertex shader medium int precision:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.MEDIUM_INT).precision);
+      result.push('webgl vertex shader medium int precision rangeMin:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.MEDIUM_INT).rangeMin);
+      result.push('webgl vertex shader medium int precision rangeMax:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.MEDIUM_INT).rangeMax);
+      result.push('webgl vertex shader low int precision:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.LOW_INT).precision);
+      result.push('webgl vertex shader low int precision rangeMin:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.LOW_INT).rangeMin);
+      result.push('webgl vertex shader low int precision rangeMax:' + gl.getShaderPrecisionFormat(gl.VERTEX_SHADER, gl.LOW_INT).rangeMax);
+      result.push('webgl fragment shader high int precision:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.HIGH_INT).precision);
+      result.push('webgl fragment shader high int precision rangeMin:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.HIGH_INT).rangeMin);
+      result.push('webgl fragment shader high int precision rangeMax:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.HIGH_INT).rangeMax);
+      result.push('webgl fragment shader medium int precision:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.MEDIUM_INT).precision);
+      result.push('webgl fragment shader medium int precision rangeMin:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.MEDIUM_INT).rangeMin);
+      result.push('webgl fragment shader medium int precision rangeMax:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.MEDIUM_INT).rangeMax);
+      result.push('webgl fragment shader low int precision:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.LOW_INT).precision);
+      result.push('webgl fragment shader low int precision rangeMin:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.LOW_INT).rangeMin);
+      result.push('webgl fragment shader low int precision rangeMax:' + gl.getShaderPrecisionFormat(gl.FRAGMENT_SHADER, gl.LOW_INT).rangeMax);
+      return result.join('~');
+    }
+
+  this.getWebglVendorAndRenderer = function () {
+      /* This a subset of the WebGL fingerprint with a lot of entropy, while being reasonably browser-independent */
+      try {
+        var glContext = _this.getWebglCanvas();
+        var extensionDebugRendererInfo = glContext.getExtension('WEBGL_debug_renderer_info');
+        return glContext.getParameter(extensionDebugRendererInfo.UNMASKED_VENDOR_WEBGL) + '~' + glContext.getParameter(extensionDebugRendererInfo.UNMASKED_RENDERER_WEBGL);
+      } catch (e) {
+        return null;
+      }
+  }
 
   // get the number of CPU cores
   this.getCPUCores = function() {
     if(!navigator.hardwareConcurrency)
-      return "-1"
+      return "-1";
     else
       return navigator.hardwareConcurrency;
-  };
+  }
 
   // check the support of WebGL
   this.getWebGL = function() {
@@ -405,9 +751,24 @@ var Collector = function() {
 
     this.postData['timezone'] = new Date().getTimezoneOffset();
     this.postData['resolution'] = this.getResolution();
+    this.postData['fp2_colordepth'] = window.screen.colorDepth || -1;
     this.postData['plugins'] = this.getPlugins();
     this.postData['cookie'] = navigator.cookieEnabled;
+    this.postData['fp2_sessionstorage'] = this.checkSessionStorage();
     this.postData['localstorage'] = this.checkLocalStorage();
+    this.postData['fp2_indexdb'] = this.hasIndexedDB();
+    this.postData['fp2_addbehavior'] = document.body.addBehavior;
+    this.postData['fp2_opendatabase'] = window.openDatabase;
+    this.postData['fp2_cpuclass'] = this.getCpuClass();
+    this.postData['fp2_pixelratio'] = window.devicePixelRatio || '';
+    this.postData['fp2_devicememory'] = navigator.deviceMemory || -1;
+    this.postData['fp2_platform'] = this.getNavigatorPlatform();
+    this.postData['fp2_liedlanguages'] = this.getHasLiedLanguages();
+    this.postData['fp2_liedresolution'] = this.getHasLiedResolution();
+    this.postData['fp2_liedos'] = this.getHasLiedOs();
+    this.postData['fp2_liedbrowser'] = this.getHasLiedBrowser();
+    this.postData['fp2_webgl'] = calcSHA1(this.getWebglFp());
+    this.postData['fp2_webglvendoe'] = this.getWebglVendorAndRenderer();
     this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
     this.postData['audio'] = this.audioFingerPrinting(); 
     this.postData['doNotTrack'] = this.getDoNotTrack();
