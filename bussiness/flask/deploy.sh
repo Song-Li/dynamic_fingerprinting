@@ -1,1 +1,1 @@
-cp ./* ~/server/uniquemachine/
+cp ./* ~/server/dy_debug/

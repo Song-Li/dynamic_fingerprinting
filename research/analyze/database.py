@@ -1,5 +1,6 @@
 import ConfigParser
 import MySQLdb
+import hashlib
 
 
 class Database():
@@ -38,3 +39,25 @@ class Database():
         res = self.__cursor.fetchall()
         return res
 
+    def gen_fingerprint(self, recordID, feature_str):
+        sql_str = 'select {} from features where uniquelabel="{}"'.format(feature_str, recordID)
+        res = self.run_sql(sql_str)
+        fingerprint = hashlib.sha1(str(res[0])).hexdigest()
+        sql_str = 'UPDATE features SET {}="{}" WHERE uniquelabel = "{}"'.format('browserfingerprint', fingerprint, recordID)
+        self.run_sql(sql_str)
+
+    def clean_sql(self, feature_list):
+        sql_str = "DELETE FROM features WHERE jsFonts is NULL"
+        self.run_sql(sql_str)
+        sql_str = 'select uniquelabel from features'
+        unique_labels = self.run_sql(sql_str)
+        cur = 0
+        leng = len(unique_labels)
+        pro = 0
+        feature_str = ",".join(feature_list)
+        for label in unique_labels:
+            cur += 1
+            if int(float(cur) / float(leng) * 100) != pro:
+                pro += 1
+                print pro
+            self.gen_fingerprint(label[0], feature_str)
