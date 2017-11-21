@@ -1,0 +1,163 @@
+.NET	Microsoft .NET 3.5 SP1	".NET"
+.NET 4	Microsoft .NET 4.0.30319	".NET 4"
+.NET 3.5	Microsoft .NET 3.5 SP1	".NET 3.5"
+.NET 4.5	Microsoft .NET 4.5.50709	".NET 4.5"
+.NET 4.5.1	Microsoft .NET 4.5.51641	".NET 4.5.1"
+.NET 4.5.2	Microsoft .NET 4.5.51650	".NET 4.5.2"
+.NET 4.6	Microsoft .NET 4.6.00081	".NET 4.6"
+.NET 4.6.1	Microsoft .NET 4.6.01055	".NET 4.6.1"
+.NET 4.6.2	Microsoft .NET 4.6.01590	".NET 4.6.2"
+.NET 4.7	Microsoft .NET 4.7.02053	".NET 4.7"
+7-Zip	Great Compression App 16.04	"7-Zip"
+Acrobat	Acrobat Std/Pro Updates 9.x-2017	Acrobat
+Ad-Aware	Antivirus Free Trial 11.15.1046.10613	"Ad-Aware"
+AIM	AOL Instant Messenger 7.5.21.5	AIM
+AIMP	Music Player 4.50.2042	AIMP
+Air	Adobe Air 27.0.0.124	Air
+Audacity	Audio Editor 2.1.3	Audacity
+Auslogics	Great Disk Defrag 7.1.0.0	Auslogics
+Avast	Avast Free Antivirus 17.7.3660	Avast
+AVG	AVG Free Antivirus 17.7.3032	AVG
+Avira	Avira Free Antivirus 15.0.32.12	Avira
+BitTorrent Sync	File Synchronization 1.4.111	"BitTorrent Sync"
+Blender	3D Creation Suite 2.79.0	Blender
+CCCP	Video decoders plus MPC 2015.10.19	CCCP
+CDBurnerXP	Disc Burner 4.5.7.6623 (requires .NET)	CDBurnerXP
+Chrome	Fast Browser by Google 62.0.3202.75	Chrome
+Citrix Receiver	Citrix Receiver 4.9.0.2520	"Citrix Receiver"
+Classic Start	Classic Shell Win8 Start Menu 4.3.1	"Classic Start"
+CutePDF	Print Documents as PDF Files 3.2	CutePDF
+Digsby	Multi-IM Client Build 30295	Digsby
+Dropbox	Great Online Backup/File Sync 37.4.29	Dropbox
+Eclipse	IDE for Java 4.7.1a (requires Java)	Eclipse
+eMule	File Sharing Client 0.50a	eMule
+Essentials	Great Antivirus by Microsoft 4.10.209	Essentials
+Evernote	Online Notes 6.7.5.5825	Evernote
+Everything	Local File Search Engine 1.4.1.877	Everything
+FastStone	FastStone Image Viewer 6.4	FastStone
+FileZilla	FTP Client 3.28.0	FileZilla
+Firefox	Extensible Browser 56.0.2	Firefox
+Firefox ESR	Extended Support Release 52.4.1	"Firefox ESR"
+Firefox ESR 10	Extended Support Release 10.0.12	"Firefox ESR 10"
+Firefox ESR 17	Extended Support Release 17.0.11	"Firefox ESR 17"
+Firefox ESR 24	Extended Support Release 24.8.1	"Firefox ESR 24"
+Firefox ESR 31	Extended Support Release 31.8.0	"Firefox ESR 31"
+Firefox ESR 38	Extended Support Release 38.8.0	"Firefox ESR 38"
+Firefox ESR 45	Extended Support Release 45.9.0	"Firefox ESR 45"
+Firefox ESR 52	Extended Support Release 52.4.1	"Firefox ESR 52"
+Flash	Flash Player for other browsers 27.0.0.183	Flash
+Flash (IE)	Flash Player for Internet Explorer 27.0.0.183	"Flash (IE)"
+Flash (PPAPI)	Flash Player for Opera and Chromium	"Flash (PPAPI)"
+foobar2000	Music Player 1.3.16	foobar2000
+Foxit Reader	Alternative PDF Reader 9.0.0.29935	"Foxit Reader"
+GIMP	Open Source Image Editor 2.8.22	GIMP
+Glary	System Utilities 5.86.0.107	Glary
+GOM	Video Player 2.3.14.5270	GOM
+Google Backup and Sync	Online Backup/File Sync 3.37.7121.2026	"Google Backup and Sync"
+Google Drive	Online Backup/File Sync 2.34.5075.1619	"Google Drive"
+Google Earth	Online Atlas by Google 7.3.0.3832	"Google Earth"
+Google Talk	Google Talk IM Client 1.0.0.104	"Google Talk"
+GoToMeeting	Online Meeting 8.15.0.7759	GoToMeeting
+Greenshot	Screenshot Tool 1.2.10.6	Greenshot
+HandBrake	Convert Videos 1.0.7.0 (requires .NET 4)	HandBrake
+Hulu	Internet TV	Hulu
+ImgBurn	Disc Burner 2.5.8.0	ImgBurn
+InfraRecorder	Disc Burner 0.53.0	InfraRecorder
+Inkscape	Vector Graphics Editor 0.92.2	Inkscape
+IrfanView	Image Viewer 4.50	IrfanView
+iTunes	Music/Media Manager 12.7.1.14	iTunes
+Java	Java Runtime Environment (JRE) 8u151-b12	Java
+Java 6	Java Runtime Environment (JRE) 6u45-b06	"Java 6"
+Java 7	Java Runtime Environment (JRE) 7u79-b15	"Java 7"
+Java 8	Java Runtime Environment (JRE) 8u151-b12	"Java 8"
+Java x64	64-bit Java Runtime (JRE) 8u151-b12	"Java x64"
+Java x64 7	64-bit Java Runtime (JRE) 7u79-b15	"Java x64 7"
+Java x64 6	64-bit Java Runtime (JRE) 6u45-b06	"Java x64 6"
+Java x64 8	64-bit Java Runtime (JRE) 8u151-b12	"Java x64 8"
+Java x64 9	64-bit Java Runtime (JRE) 9.0.1	"Java x64 9"
+JDK	Java Development Kit 8u151-b12	JDK
+JDK 6	Java Development Kit 6u45-b06	"JDK 6"
+JDK 7	Java Development Kit 7u79-b15	"JDK 7"
+JDK 8	Java Development Kit 8u151-b12	"JDK 8"
+JDK x64	Java Development Kit 8u151-b12	"JDK x64"
+JDK x64 7	Java Development Kit 7u79-b15	"JDK x64 7"
+JDK x64 8	Java Development Kit 8u151-b12	"JDK x64 8"
+K-Lite Codecs	Video decoders plus Media Player Classic 13.6.0	"K-Lite Codecs"
+K-Lite Codecs x64	Supplemental 64-bit video decoders 10.0.0	"K-Lite Codecs x64"
+KeePass	Password Manager Classic 1.34	KeePass
+KeePass 2	Password Manager 2.37	"KeePass 2"
+KeePass 1	Password Manager Classic 1.34	"KeePass 1"
+KMPlayer	Video Player 4.1.2.2	KMPlayer
+Krita	Painting Program 3.3.1	Krita
+Launchy	Hotkey Launcher 2.5	Launchy
+LibreOffice	Free Office Suite 5.4.2 (JRE recommended)	LibreOffice
+LogMeIn	Remote Access Free/Pro 4.1.9954	LogMeIn
+Malwarebytes	Malware Remover 3.2.2.2029	Malwarebytes
+MediaMonkey	Music Organizer 4.1.19.1859	MediaMonkey
+Messenger	Windows Live IM Client 2012 (2009 on XP)	Messenger
+Mozy	MozyHome Online Backup 2.28.2.432	Mozy
+MusicBee	Music Manager & Player 3.1.6512.37408	MusicBee
+Notepad++	Programmer's Editor 7.5.1	"Notepad++"
+NVDA	Screen Reader 2017.3	NVDA
+Office	Microsoft Office 12 Standard (Trial Version)	Office
+OneDrive	Online File Sync by Microsoft 17.3.7073.1013	OneDrive
+OpenOffice	Free Office Suite 4.1.4 (JRE recommended)	OpenOffice
+Opera	Alternative Browser 12.17	Opera
+Opera Chromium	Alternative Browser 48.0.2685.52	"Opera Chromium"
+Opera 12	Alternative Browser 12.17	"Opera 12"
+Paint.NET	Image Editor 4.19.6484.39094 (requires .NET 4.5)	"Paint.NET"
+PDFCreator	Print Documents as PDF Files 3.0.2.8660	PDFCreator
+PeaZip	File Compression Tool 6.5.0	PeaZip
+Picasa	Photo Manager by Google 3.9.141.259	Picasa
+Pidgin	Multi-IM Client 2.12.0	Pidgin
+PuTTY	SSH client 0.70	PuTTY
+Python	Great Programming Language 2.7.14	Python
+qBittorrent	Free Bittorrent Client 3.3.16	qBittorrent
+QuickTime	Video Player 7.7.9	QuickTime
+Reader	Adobe PDF Reader 17.12.20098	Reader
+Reader 9	Adobe PDF Reader 9.5.5	"Reader 9"
+Reader 10	Adobe PDF Reader 10.1.16	"Reader 10"
+Reader 11	Adobe PDF Reader 11.0.22	"Reader 11"
+Reader DC	Adobe PDF Reader 17.12.20098	"Reader DC"
+RealVNC	Free Remote PC Access 6.1.1.28093	RealVNC
+Revo	App Uninstaller/Reverse Ninite 2.0.4	Revo
+Safari	Alternative Browser by Apple 5.1.7	Safari
+ShareX	Screenshot Uploader	ShareX
+Shockwave	Shockwave Player 12.2.9.199	Shockwave
+Silverlight	Microsoft Silverlight 5.1.50907.0	Silverlight
+SkyDrive	Online File Sync by Microsoft 17.0.2015.0811	SkyDrive
+Skype	Internet Telephone 7.40.0.104	Skype
+Songbird	Music Manager 2.2.0.2453	Songbird
+Spotify	Online Music Service 1.0.66.478	Spotify
+Spybot	Spyware Remover 1.6.2	Spybot
+Spybot 2	Spyware Remover 2.6.46	"Spybot 2"
+Spybot 1	Spyware Remover 1.6.2	"Spybot 1"
+Steam	App Store for Games	Steam
+SugarSync	Online Backup/File Sync 3.8.5.7.149673	SugarSync
+SumatraPDF	Lightweight PDF Reader 3.1.2	SumatraPDF
+Super	SUPERAntiSpyware Free 6.0.1250	Super
+TeamViewer	Remote Access Tool 12.0.83369	TeamViewer
+TeamViewer 7	Remote Access Tool 7.0.43148.0	"TeamViewer 7"
+TeamViewer 8	Remote Access Tool 8.0.44109.0	"TeamViewer 8"
+TeamViewer 9	Remote Access Tool 9.0.41110.0	"TeamViewer 9"
+TeamViewer 10	Remote Access Tool 10.0.47484.0	"TeamViewer 10"
+TeamViewer 11	Remote Access Tool 11.0.80697.0	"TeamViewer 11"
+TeamViewer 12	Remote Access Tool 12.0.83369	"TeamViewer 12"
+TeraCopy	Better File Copy 3.2.6	TeraCopy
+Thunderbird	Email Reader by Mozilla 52.4.0	Thunderbird
+Thunderbird ESR	Email Reader by Mozilla 17.0.9	"Thunderbird ESR"
+Thunderbird ESR 17	Email Reader by Mozilla 17.0.9	"Thunderbird ESR 17"
+Trillian	Trillian IM 6.0.0.61	Trillian
+TrueCrypt	Disk Encryption Tool 7.1a	TrueCrypt
+TweetDeck	Twitter Client 3.3.7	TweetDeck
+uTorrent	BitTorrent Client 3.5.0.43916	uTorrent
+Visual Studio Code	Programmer's Editor 1.17.2	"Visual Studio Code"
+VLC	Great Video Player 2.2.6	VLC
+WebEx	WebEx Connect 731.2014.11.13	WebEx
+Winamp	Music Player 5.6.6.3516	Winamp
+WinDirStat	Directory Statistics 1.1.2.80	WinDirStat
+WinMerge	Compare and Merge Files 2.14.0	WinMerge
+WinRAR	Another Compression Tool 5.50 (Trial)	WinRAR
+WinSCP	SCP Client 5.11.2	WinSCP
+XnView	Image Viewer 2.43	XnView
+Yahoo!	Yahoo! IM Client 11.5.0.0228	"Yahoo!"

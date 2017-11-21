@@ -1,0 +1,6 @@
+choco install flashplayerplugin -y
+success
+choco install nagstamon.portable -y
+success
+choco install nagstamon.portable -y
+success
