@@ -8,6 +8,10 @@ def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
 
 
+
+def featureDiff(f1, f2):
+    return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) 
+
 db = Database('uniquemachine')
 counted_features = [ 
         "agent",
@@ -44,8 +48,6 @@ print ("data loaded")
 
 cookies = df.groupby('label')
 feature_names = list(df.columns.values)
-
-# print a 2D table
 def printTable(table):
     head = [' '] + feature_names
     print ' '.join(['{:<5.5}'.format(name) for name in head])

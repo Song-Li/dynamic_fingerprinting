@@ -7,6 +7,7 @@ var AsyncTest = function(collector, cb) {
   this.testList.push(new BubbleTest());
   this.numTestsComplete = 0;
   this.testFinished = function(ID, value) {
+    _this.collector.checkExsitPicture(value, ID);
     var img_hash = calcSHA1(value);
     res = {};
     res[ID] = img_hash;

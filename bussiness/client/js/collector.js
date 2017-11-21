@@ -745,8 +745,8 @@ var Collector = function() {
     // what the f**k is this thing!!!
     // we have to have a delay here for audio fingerprinting
     // run this first
-    setTimeout(this.run_cc_fp, 2000, this);
-    setTimeout(this.run_hybrid_fp, 3000, this);
+    setTimeout(this.run_cc_fp, 50, this);
+    setTimeout(this.run_hybrid_fp, 1000, this);
 
 
     this.postData['timezone'] = new Date().getTimezoneOffset();
