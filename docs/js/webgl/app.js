@@ -1,19 +1,19 @@
 var MoreLight = function(){
   var _this = this;
   this.Init = function () {
-    loadTextResource('/js/webgl/shader.vs.glsl', function (vsErr, vsText) {
+    loadTextResource('./shader.vs.glsl', function (vsErr, vsText) {
       if (vsErr) {
         console.error(vsErr);
       } else {
-        loadTextResource('/js/webgl/shader.fs.glsl', function (fsErr, fsText) {
+        loadTextResource('./shader.fs.glsl', function (fsErr, fsText) {
           if (fsErr) {
             console.error(fsErr);
           } else {
-            loadJSONResource('/js/webgl/monkey.json', function (modelErr, monkeyObj) {
+            loadJSONResource('./monkey.json', function (modelErr, monkeyObj) {
               if (modelErr) {
                 console.error(fsErr);
               } else {
-                loadImage('/js/webgl/color.png', function (imgErr, img) {
+                loadImage('./color.png', function (imgErr, img) {
                   if (imgErr) {
                     console.error(imgErr);
                   } else { 
