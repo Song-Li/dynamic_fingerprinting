@@ -222,8 +222,6 @@ var Collector = function () {
             this.features['gpu'] = this.getGpu(this.testGL);
         }
 
-        this.features['label'] = this.getCookie("dynamic_fingerprinting");
-
         var jsFontsDetector = new JsFontsDetector();
         this.features['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
 
@@ -267,9 +265,6 @@ var Collector = function () {
             syncTest.begin();
         }*/
 
-        // what the f**k is this thing!!!
-        // we have to have a delay here for audio fingerprinting
-        // run this first
         setTimeout(this.run_cc_fp, 1000, this, cb);
 
     }
@@ -310,6 +305,7 @@ var Collector = function () {
             gain.disconnect();
             results = cc_output.slice(0, 30);
             collector.features['ccaudio'] = results.join('_');
+
             setTimeout(collector.run_hybrid_fp, 50, collector, cb);
         };
         oscillator.start(0);
@@ -318,7 +314,7 @@ var Collector = function () {
 
     // Performs a hybrid of cc/pxi methods found above
     // pass _this here because we need to use delay
-    this.run_hybrid_fp = function (collector, flag) {
+    this.run_hybrid_fp = function (collector, cb) {
         var hybrid_output = [];
         var audioCtx = new (window.AudioContext || window.webkitAudioContext),
             oscillator = audioCtx.createOscillator(),
@@ -354,8 +350,7 @@ var Collector = function () {
             gain.disconnect();
             collector.features['hybridaudio'] = hybrid_output.slice(0, 30).join('_');
 
-            if (flag == 0) collector.install();
-            else if (flag == 1) collector.distance();
+            cb(collector.features);
         };
         oscillator.start(0);
     }
@@ -376,38 +371,6 @@ var Collector = function () {
             idList.push(this.getID());
         }
         return idList;
-    }
-
-    this.install = function () {
-        console.log(this.features);
-
-        var data = JSON.stringify(this.features);
-
-        var xhttp = new XMLHttpRequest();
-        var url = ip_address + "/install.php";
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                console.log(this.responseText);
-            }
-        };
-        xhttp.open("POST", url, true);
-        xhttp.setRequestHeader('Content-Type', 'application/json');
-        xhttp.send(data);
-    }
-
-    this.distance = function () {
-        var xhttp = new XMLHttpRequest();
-        var url = ip_address + "/distance.php";
-        var data = JSON.stringify(this.features);
-        xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                console.log(this.responseText);
-            }
-        };
-        xhttp.open("POST", url, true);
-        xhttp.setRequestHeader('Content-Type', 'application/json');
-        xhttp.send(data);
-
     }
 };
 
@@ -432,22 +395,68 @@ stringify = function (array) {
     return Base64EncodeUrlSafe(b64);
 };
 
+//example of send install request
+//set the features in json format, please set the cookie first
+//nothing return by install API
+function installCallback (features) {
+    //set Cookie here
+    //this.features['label'] = this.getCookie("dynamic_fingerprinting");
+    console.log("install");
 
-function messageToParent(message) {
-    parent.postMessage(message, "*");
+    var data = JSON.stringify(features);
+
+    var xhttp = new XMLHttpRequest();
+    var url = ip_address + "/install.php";
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+        }
+    };
+    xhttp.open("POST", url, true);
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+    xhttp.send(data);
 }
 
-function myGetFingerprint() {
-    var collector = new Collector();
-    collector.handleCookie();
+//example of send distance request
+//set the features in json format
+//return similarity,cookie. If there is nothing match, return NULL,
+function distanceCallback (features) {
+    var xhttp = new XMLHttpRequest();
+    var url = ip_address + "/distance.php";
+    var data = JSON.stringify(features);
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+        }
+    };
+    xhttp.open("POST", url, true);
+    xhttp.setRequestHeader('Content-Type', 'application/json');
+    xhttp.send(data);
+
 }
 
+//example of print fingerprint
+function fingerprintCallback (features) {
+    console.log(Base64EncodeUrlSafe(JSON.stringify(features)));
+}
+
+//example of getting features and then sending install request
 function install() {
     var collector = new Collector();
-    collector.syncTest(0);
+    //collector.syncTest(installCallback);
+    collector.syncTest(fingerprintCallback);
 }
 
+//example of getting features and then sending distance request
 function distance() {
     var collector = new Collector();
-    collector.syncTest(1);
+    collector.syncTest(distanceCallback);
 }
+
+//example of getting features and then printing the fingerprint
+function fingerprint() {
+    var collector = new Collector();
+    collector.syncTest(fingerprintCallback);
+}
+
+

@@ -1,0 +1,6 @@
+The server-side codes are in php folder, install.php and distance.php are instances for the two APIs.
+
+The client-side codes are in uniquemachine folder.
+install.html and distance.html are instances to connect the two APIs. You could see which files to import there.
+The APIs definitions are located in uniquemachine/js/collector.js.
+There you could see three examples for requesting server APIs (install and distance functions) and returning fingerprint (getFingerprint Function).
