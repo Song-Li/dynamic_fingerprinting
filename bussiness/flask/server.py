@@ -1,7 +1,7 @@
 from flask_failsafe import failsafe
 
 def create_app():
-    from uniquemachine_app import app
+    from dy_debug import app
     return app
 
 if __name__ == "__main__":
