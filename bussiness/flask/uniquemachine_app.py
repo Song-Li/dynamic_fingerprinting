@@ -55,7 +55,19 @@ feature_list = [
         "ccaudio",
         "hybridaudio",
         "touchSupport",
-        "doNotTrack"
+        "doNotTrack",
+        "fp2_indexdb",
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+        "fp2_cpuclass",
+        "fp2_pixelratio",
+        "fp2_platform",
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser",
+        "fp2_webgl",
+        "fp2_webglvendoe"
         ]
 
 def run_sql(sql_str):
