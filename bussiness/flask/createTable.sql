@@ -76,6 +76,20 @@ CREATE TABLE `features` (
   `touchSupport` text,
   `doNotTrack` text,
   `uniquelabel` varchar(64) DEFAULT NULL,
+  `fp2_colordepth` text,
+  `fp2_sessionstorage` text,
+  `fp2_indexdb` text,
+  `fp2_addbehavior` text,
+  `fp2_opendatabase` text,
+  `fp2_cpuclass` text,
+  `fp2_pixelratio` text,
+  `fp2_liedlanguages` text,
+  `fp2_liedresolution` text,
+  `fp2_liedos` text,
+  `fp2_liedbrowser` text,
+  `fp2_webgl` text,
+  `fp2_webglvendoe` text,
+  `fp2_platform` text,
   KEY `uniquelabel` (`uniquelabel`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;

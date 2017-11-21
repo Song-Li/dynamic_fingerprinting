@@ -15,7 +15,7 @@ import base64
 import cStringIO
 from datetime import datetime
 
-root = "/home/sol315/server/uniquemachine/"
+root = "/home/sol315/server/dy_debug/"
 pictures_path = "/home/sol315/pictures/"
 config = ConfigParser.ConfigParser()
 config.read(root + 'password.ignore')
@@ -55,7 +55,22 @@ feature_list = [
         "ccaudio",
         "hybridaudio",
         "touchSupport",
-        "doNotTrack"
+        "doNotTrack",
+        "fp2_colordepth", 
+        "fp2_sessionstorage",
+        "localstorage",
+        "fp2_indexdb",
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+        "fp2_cpuclass",
+        "fp2_pixelratio",
+        "fp2_platform",
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser",
+        "fp2_webgl",
+        "fp2_webglvendoe"
         ]
 
 def run_sql(sql_str):
