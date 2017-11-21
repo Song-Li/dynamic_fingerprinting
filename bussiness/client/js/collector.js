@@ -23,7 +23,7 @@ var finishPage = function() {
 //  finishPage();
 //  return null;
 //}
-ip_address = "https://df.songli.io/uniquemachine";
+ip_address = "http://lab.songli.io/dy_debug";
 //ip_address = "http://lab.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
@@ -755,17 +755,19 @@ var Collector = function() {
     this.postData['cookie'] = navigator.cookieEnabled;
     this.postData['fp2_sessionstorage'] = this.checkSessionStorage();
     this.postData['localstorage'] = this.checkLocalStorage();
-    this.postData['fp2_indexDB'] = this.hasIndexedDB();
-    this.postData['fp2_addBehavior'] = document.body.addBehavior;
+    this.postData['fp2_indexdb'] = this.hasIndexedDB();
+    this.postData['fp2_addbehavior'] = document.body.addBehavior;
     this.postData['fp2_opendatabase'] = window.openDatabase;
-    this.postData['fp2_cpuClass'] = this.getCpuClass();
+    this.postData['fp2_cpuclass'] = this.getCpuClass();
     this.postData['fp2_pixelratio'] = window.devicePixelRatio || '';
     this.postData['fp2_devicememory'] = navigator.deviceMemory || -1;
-    this.postData['fp2_platform'] = this.getNavigatorPlatform;
+    this.postData['fp2_platform'] = this.getNavigatorPlatform();
     this.postData['fp2_liedlanguages'] = this.getHasLiedLanguages();
     this.postData['fp2_liedresolution'] = this.getHasLiedResolution();
     this.postData['fp2_liedos'] = this.getHasLiedOs();
     this.postData['fp2_liedbrowser'] = this.getHasLiedBrowser();
+    this.postData['fp2_webgl'] = calcSHA1(this.getWebglFp());
+    this.postData['fp2_webglvendoe'] = this.getWebglVendorAndRenderer();
     this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
     this.postData['audio'] = this.audioFingerPrinting(); 
     this.postData['doNotTrack'] = this.getDoNotTrack();
@@ -800,7 +802,7 @@ var Collector = function() {
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
     this.asyncFinished = function(res) {
-      this.updateFeature(res);
+      this.updateFeatures(res);
     }
 
     if (this.postData['WebGL'] == true){
