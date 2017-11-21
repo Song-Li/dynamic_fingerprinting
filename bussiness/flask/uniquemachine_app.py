@@ -15,7 +15,7 @@ import base64
 import cStringIO
 from datetime import datetime
 
-root = "/home/sol315/server/dy_debug/"
+root = "/home/sol315/server/uniquemachine/"
 pictures_path = "/home/sol315/pictures/"
 config = ConfigParser.ConfigParser()
 config.read(root + 'password.ignore')
@@ -24,7 +24,7 @@ mysql = MySQL()
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_USER'] = config.get('mysql', 'username')
 app.config['MYSQL_DATABASE_PASSWORD'] = config.get('mysql', 'password')
-app.config['MYSQL_DATABASE_DB'] = 'dy_debug'
+app.config['MYSQL_DATABASE_DB'] = 'uniquemachine'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 CORS(app)
