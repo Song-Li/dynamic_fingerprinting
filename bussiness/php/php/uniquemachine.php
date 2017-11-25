@@ -87,7 +87,6 @@ function initialize($hashCookie)
         $res = run_sql($conn, $sql_str, true);
 
         if ($res[0][0] == 0) {
-            $cookie = $unique_label;
             $sql_str = "INSERT INTO cookies (cookie) VALUES ('" . $cookie . "')";
             run_sql($conn, $sql_str);
         }
@@ -155,6 +154,8 @@ function distance($features)
         "hybridaudio"
     );
 
+    $threshold = 0.8;
+
     $conn = connect();
 
     $sql_str = "DESCRIBE features";
@@ -174,6 +175,8 @@ function distance($features)
     $max_record = "NULL";
     $cur_same = 0;
 
+    $res = array();
+
     foreach ($all_records as $record) {
         if ($record[$target] == "NULL") continue;
         $cur_same = 0;
@@ -187,13 +190,17 @@ function distance($features)
 
         }
 
-        if ($cur_same > $cur_max) {
+        /*if ($cur_same > $cur_max) {
             $cur_max = $cur_same;
             $max_record = $record[$target];
+        }*/
+
+        if($cur_same / count($feature_list) > $threshold){
+            $res[$record[$target]] = $cur_same / count($feature_list);
         }
     }
 
-    return $cur_max / count($feature_list) . ", " . $max_record;
+    return $res;
 }
 
 ?>

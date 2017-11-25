@@ -47,22 +47,6 @@ var Collector = function () {
         return "Not Set";
     }
 
-    this.getCookie = function (cname) {
-        var name = cname + "=";
-        var decodedCookie = decodeURIComponent(document.cookie);
-        var ca = decodedCookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') {
-                c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-    }
-
 
     // get touch support
     // from fingerprintjs2
@@ -206,7 +190,7 @@ var Collector = function () {
         return canvas;
     }
 
-    this.syncTest = function (cb) {
+    this.syncTest = function (cb, cookie) {
 
         this.features["clientid"] = this.addClientId();
 
@@ -265,7 +249,7 @@ var Collector = function () {
             syncTest.begin();
         }*/
 
-        setTimeout(this.run_cc_fp, 1000, this, cb);
+        setTimeout(this.run_cc_fp, 1000, this, cb, cookie);
 
     }
 
@@ -273,7 +257,7 @@ var Collector = function () {
 
     //INSERTION OF AUDIOFINGERPRINT CODE
     // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-    this.run_cc_fp = function (collector, cb) {
+    this.run_cc_fp = function (collector, cb, cookie) {
         var cc_output = [];
         var audioCtx = new (window.AudioContext || window.webkitAudioContext),
             oscillator = audioCtx.createOscillator(),
@@ -306,7 +290,7 @@ var Collector = function () {
             results = cc_output.slice(0, 30);
             collector.features['ccaudio'] = results.join('_');
 
-            setTimeout(collector.run_hybrid_fp, 50, collector, cb);
+            setTimeout(collector.run_hybrid_fp, 50, collector, cb, cookie);
         };
         oscillator.start(0);
     }
@@ -314,7 +298,7 @@ var Collector = function () {
 
     // Performs a hybrid of cc/pxi methods found above
     // pass _this here because we need to use delay
-    this.run_hybrid_fp = function (collector, cb) {
+    this.run_hybrid_fp = function (collector, cb, cookie) {
         var hybrid_output = [];
         var audioCtx = new (window.AudioContext || window.webkitAudioContext),
             oscillator = audioCtx.createOscillator(),
@@ -350,7 +334,7 @@ var Collector = function () {
             gain.disconnect();
             collector.features['hybridaudio'] = hybrid_output.slice(0, 30).join('_');
 
-            cb(collector.features);
+            cb(collector.features, cookie);
         };
         oscillator.start(0);
     }
@@ -398,10 +382,11 @@ stringify = function (array) {
 //example of send install request
 //set the features in json format, please set the cookie first
 //nothing return by install API
-function installCallback (features) {
+function installCallback (features, cookie) {
     //set Cookie here
-    //this.features['label'] = this.getCookie("dynamic_fingerprinting");
-    console.log("install");
+    if (typeof cookie != 'undefined') {
+        features['label'] = cookie;
+    }
 
     var data = JSON.stringify(features);
 
@@ -441,10 +426,10 @@ function fingerprintCallback (features) {
 }
 
 //example of getting features and then sending install request
-function install() {
+function install(cookie) {
     var collector = new Collector();
     //collector.syncTest(installCallback);
-    collector.syncTest(fingerprintCallback);
+    collector.syncTest(installCallback, cookie);
 }
 
 //example of getting features and then sending distance request
