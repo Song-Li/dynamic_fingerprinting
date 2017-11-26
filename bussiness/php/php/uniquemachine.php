@@ -154,7 +154,7 @@ function distance($features)
         "hybridaudio"
     );
 
-    $threshold = 0.8;
+    $threshold = 0.85;
 
     $conn = connect();
 
@@ -171,9 +171,13 @@ function distance($features)
     $all_records = run_sql($conn, $sql_str, true);
 
     $num_attr = count($feature_list);
-    $cur_max = 0;
-    $max_record = "NULL";
     $cur_same = 0;
+
+    $feature_count = 0;
+
+    foreach ($features as $feature => $value){
+        if(in_array($feature, $feature_list))$feature_count++;
+    }
 
     $res = array();
 
@@ -182,6 +186,8 @@ function distance($features)
         $cur_same = 0;
 
         foreach ($features as $feature => $value) {
+            if(array_search($feature, $feature_list) == false)continue;
+
             $i = array_search($feature, $attrs);
 
             if ($record[$i] == $value) {
@@ -190,13 +196,8 @@ function distance($features)
 
         }
 
-        /*if ($cur_same > $cur_max) {
-            $cur_max = $cur_same;
-            $max_record = $record[$target];
-        }*/
-
-        if($cur_same / count($feature_list) > $threshold){
-            $res[$record[$target]] = $cur_same / count($feature_list);
+        if($cur_same / $feature_count > $threshold){
+            $res[$record[$target]] = $cur_same / $feature_count;
         }
     }
 
