@@ -3,6 +3,8 @@ import datetime
 from database import Database
 import matplotlib.pyplot as plt
 import numpy as np
+from latex import build_pdf
+import os
 
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
@@ -20,7 +22,7 @@ counted_features = [
         "WebGL", 
         "inc", 
         "gpu", 
-#        "gpuimgs", 
+        "gpuimgs", 
         "timezone", 
         "plugins", 
         "cookie", 
@@ -32,12 +34,26 @@ counted_features = [
 #        "ccaudio",
 #        "hybridaudio",
         "touchSupport",
-        "doNotTrack"
+        "doNotTrack",
+        "fp2_colordepth", 
+        "fp2_sessionstorage",
+        "fp2_indexdb",
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+        "fp2_cpuclass",
+        "fp2_pixelratio",
+        "fp2_platform",
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser",
+        "fp2_webgl",
+        "fp2_webglvendoe"
         ]
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
 print ("start clean")
-db.clean_sql(counted_features)
+# db.clean_sql(counted_features)
 print ("clean finished")
 df = pd.read_sql('select * from features;', con=db.get_db())    
 print ("data loaded")
@@ -161,7 +177,7 @@ def relation(cookies):
     return numbers
 
 # get how many users have unique fingerprints
-def diff_diff(cookies):
+def basic_numbers(cookies):
     total = 0
     num_users = len(cookies)
     only_one = 0
@@ -176,7 +192,8 @@ def diff_diff(cookies):
                 big_fingerprint_set[fingerprint] = 0 
             big_fingerprint_set[fingerprint] += 1
 
-    print ("We have {} fingerprints in total".format(len(big_fingerprint_set)))
+    res = []
+    res.append("We have {} fingerprints in total".format(len(big_fingerprint_set)))
 
     for key, items in cookies:
         fingerprints = set(items['browserfingerprint'])
@@ -187,9 +204,10 @@ def diff_diff(cookies):
                 total += 1
                 break
 
-    print ("We have {} fingerprintable users in total".format(total))
-    print ("We have {} users in only have one fingerprint ".format(only_one))
-    return total
+
+    res.append("We have {} fingerprintable users in total ({:.2f}\\%)".format(total, 100 * float(total) / float(len(big_fingerprint_set))))
+    res.append("We have {} users only have one fingerprint ".format(only_one))
+    return res
 
 # get how many clientid have just one cookie
 def num_of_same_cookie(clientid):
@@ -316,6 +334,60 @@ def fingerprint_change_time (cookies):
     print res
     return res
 
+def get_latex_items(items):
+    head = r"\begin{itemize}"
+    body = ""
+    for item in items:
+        body += r'\item {}'.format(item)
+
+    tail = r'\end{itemize}'
+    return head + body + tail 
+
+def get_latex_section(body, title):
+    head = '\\section{' + title + '}\n'
+    return head + body
+
+
+def get_latex_subsection(body, title):
+    head = '\\subsection{' + title + '}\n'
+    return head + body
+
+
+def get_latex_doc(body):
+    with open('./report/base.tex', 'r') as base:
+        out_lines = []
+        for line in base.readlines():
+            out_lines.append(line.replace('qwerbodyqwer', body))
+
+    with open('./report/report.tex', 'w') as output:
+        for line in out_lines:
+            output.write(line)
+
+    os.system("cd ./report && pdflatex -synctex=1 -interaction=nonstopmode \"report\".tex")
+    
+def get_latex_pic(path):
+    head = r"\begin{figure}[H]"
+    head += r'\centering'
+    body = r'\includegraphics[width=75mm,scale=0.5]{' + path + '}'
+    body += r'\caption{How many users changed in days}'
+    tail = r'\end{figure}'
+    return head + body + tail
+
+# take in the grouped database
+def get_all(client, title):
+    # get the basic numbers of a group
+    basic = basic_numbers(client)
+    basic = get_latex_items(basic)
+    basic_sub = get_latex_subsection(basic, 'Basic Numbers')
+    # fingerprint_change_time(client)
+    change_time = [1163, 25580, 25858, 26040, 26085, 26120, 26120, 26120, 26120, 26120]
+    plt.plot(change_time)
+    pic_name = 'changebytime'
+    plt.savefig('./report/' + pic_name + '.png')
+    pic_latex = get_latex_pic(pic_name)
+    pic_sub = get_latex_subsection(pic_latex, "How many users changed in days")
+    section = get_latex_section(basic_sub + pic_sub, 'Based On {}'.format(title))
+    get_latex_doc(section)
 
 
 
@@ -325,9 +397,9 @@ def fingerprint_change_time (cookies):
 # num_of_null(df)
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
-finger = df.groupby('browserfingerprint')
-numbers = fingerprint_change_time(cookies)
-#numbers = diff_diff(cookies)
+get_all(clientid, 'Client ID')
+#finger = df.groupby('browserfingerprint')
+#numbers = fingerprint_change_time(cookies)
 #numbers = get_change(cookies)
 #numbers = get_every_change(cookies)
 #numbers = get_change(clientid)
@@ -336,4 +408,4 @@ numbers = fingerprint_change_time(cookies)
 #numbers = relation(cookies)
 #feature_null(finger)
 #no_null_feature(finger)
-# printTable(numbers)
+#printTable(numbers)
