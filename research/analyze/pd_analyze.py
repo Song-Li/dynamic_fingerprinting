@@ -107,7 +107,7 @@ def get_change(cookies):
     return cnt
 
 # get total change of specific features
-def get_every_change(cookies):
+def get_every_change(cookies, pic_name):
     total = 0
     cnt = {}
     only_one = 0
@@ -132,15 +132,15 @@ def get_every_change(cookies):
     feature = []
     num_change = []
     for k in cnt:
-        print (k, cnt[k])
-        if k!='ccaudio' and k!='hybridaudio' and k!='gpuimgs':
+        if k!='ccaudio' and k!='hybridaudio':
             feature.append(k)
             num_change.append(cnt[k])
     ind = np.arange(len(feature))
     plt.bar(ind, num_change, 0.5)
-    plt.xticks(ind, feature, rotation=40, ha='center')
-    plt.show()
-    return cnt
+    plt.xticks(ind, feature, rotation=90, ha='center')
+    plt.savefig('./report/' + pic_name + '.png')
+    plt.clf()
+    return cnt 
  
 
 # get the both-change number of features
@@ -218,7 +218,6 @@ def num_of_same_cookie(clientid):
         if items['label'].nunique() == 1:
             total += 1
         else:
-            # print (items['id'])
             pass
     print ("We have {} clientids in total".format(len(clientid)))
     print ("{} of them is const. {:.2f}%".format(total, float(total) / float(len(clientid)) * 100))
@@ -333,7 +332,6 @@ def fingerprint_change_time (cookies):
                         break
                 if featureDiff(max_row['browserfingerprint'], min_row['browserfingerprint']):
                     res[d] += 1
-    print res
     return res
 
 def get_latex_items(items):
@@ -371,43 +369,48 @@ def get_latex_pic(path):
     head = r"\begin{figure}[H]"
     head += r'\centering'
     body = r'\includegraphics[width=75mm,scale=0.5]{' + path + '}'
-    body += r'\caption{How many users changed in days}'
+    #body += r'\caption{How many users changed in days}'
     tail = r'\end{figure}'
     return head + body + tail
 
-# take in the grouped database
-def get_all(client, title):
+def get_group_section(client, title):
     # get the basic numbers of a group
     basic = basic_numbers(client)
     basic = get_latex_items(basic)
     basic_sub = get_latex_subsection(basic, 'Basic Numbers')
-    # fingerprint_change_time(client)
+    print ('basic numbers generated')
+
+    # fingerprint change in days subsection
+    # change_time = fingerprint_change_time(client)
     change_time = [1163, 25580, 25858, 26040, 26085, 26120, 26120, 26120, 26120, 26120]
     plt.plot(change_time)
-    pic_name = 'changebytime'
+    pic_name = '{}changebytime'.format(title.replace(' ', ''))
     plt.savefig('./report/' + pic_name + '.png')
+    plt.clf()
     pic_latex = get_latex_pic(pic_name)
-    pic_sub = get_latex_subsection(pic_latex, "How many users changed in days")
-    section = get_latex_section(basic_sub + pic_sub, 'Based On {}'.format(title))
-    get_latex_doc(section)
+    change_by_time_sub = get_latex_subsection(pic_latex, "How many users changed in days")
+    print ('number of users changed generated')
+
+
+    # generate the feature change
+    pic_name = '{}featurechange'.format(title.replace(' ',''))
+    get_every_change(client, pic_name) 
+    pic_latex = get_latex_pic(pic_name)
+    feature_change_sub = get_latex_subsection(pic_latex, "How many changes for every feature")
+    print ('feature changes generated')
 
 
 
-# numbers = relation(cookies)
-# get all records with clientid
-# bsed on clientid here
-# num_of_null(df)
+    section = get_latex_section(basic_sub + change_by_time_sub + feature_change_sub, 'Based On {}'.format(title))
+    return section
+
+# take in the grouped database
+def get_all(clientid, cookies):
+    clientid_section = get_group_section(clientid, "Based on Client ID")
+    cookies_section = get_group_section(cookies, "Based on Cookie")
+    get_latex_doc(clientid_section + cookies_section)
+
+
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
-get_all(clientid, 'Client ID')
-#finger = df.groupby('browserfingerprint')
-#numbers = fingerprint_change_time(cookies)
-#numbers = get_change(cookies)
-#numbers = get_every_change(cookies)
-#numbers = get_change(clientid)
-#numbers = num_of_same_cookie(clientid)
-#num_of_same_fingerprint(cookies)
-#numbers = relation(cookies)
-#feature_null(finger)
-#no_null_feature(finger)
-#printTable(numbers)
+get_all(clientid, cookies)
