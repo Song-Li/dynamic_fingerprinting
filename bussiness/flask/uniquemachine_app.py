@@ -14,6 +14,8 @@ from PIL import Image
 import base64
 import cStringIO
 from datetime import datetime
+from urllib2 import urlopen
+from django.utils.encoding import smart_str, smart_unicode
 
 root = "/home/sol315/server/uniquemachine/"
 pictures_path = "/home/sol315/pictures/"
@@ -194,7 +196,20 @@ def doUpdateFeatures(unique_label, data):
     res = run_sql(sql_str)
     genFingerprint(unique_label)
     return res 
-    
+
+
+# try to use the ip location
+def get_location_dy_ip(ip):
+    url = 'http://ipinfo.io/{}/json'.format(ip)
+    response = urlopen(url)
+    data = json.load(response)
+    IP = data['ip']
+    org = data['org']
+    city = data['city']
+    country = data['country']
+    region = data['region']
+    return city
+
 def doInit(unique_label, cookie):
 
     result = {}
@@ -222,6 +237,8 @@ def doInit(unique_label, cookie):
     result['encoding'] = encoding
     result['language'] = language
     result['label'] = cookie
+    result['iplocation'] = smart_str(get_location_by_ip(IP))
+
     return doUpdateFeatures(unique_label, result)
 
 @app.route("/getCookie", methods=['POST'])
