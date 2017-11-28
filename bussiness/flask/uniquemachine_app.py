@@ -203,11 +203,11 @@ def get_location_by_ip(ip):
     url = 'http://ipinfo.io/{}/json'.format(ip)
     response = urlopen(url)
     data = json.load(response)
-    IP = data['ip']
-    org = data['org']
-    city = data['city']
-    country = data['country']
-    region = data['region']
+    city = ""
+    try:
+        city = data['city']
+    except:
+        pass
     return city
 
 def doInit(unique_label, cookie):
