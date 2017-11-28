@@ -1,4 +1,8 @@
 import pandas as pd
+import re
+import json
+from urllib2 import urlopen
+
 import datetime
 from database import Database
 import matplotlib.pyplot as plt
@@ -431,6 +435,17 @@ def get_all(clientid, cookies):
     clientid_section = get_group_section(clientid, "Based on Client ID", 'clientid')
     cookies_section = get_group_section(cookies, "Based on Cookie", 'label')
     get_latex_doc(clientid_section + cookies_section)
+
+def get_location_dy_ip(ip):
+    url = 'http://ipinfo.io/{}/json'.format(ip)
+    response = urlopen(url)
+    data = json.load(response)
+
+    IP=data['ip']
+    org=data['org']
+    city = data['city']
+    country=data['country']
+    region=data['region']
 
 
 df = df[pd.notnull(df['clientid'])]
