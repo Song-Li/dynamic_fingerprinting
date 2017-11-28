@@ -200,12 +200,12 @@ def doUpdateFeatures(unique_label, data):
 
 # try to use the ip location
 def get_location_by_ip(ip):
-    url = 'http://ipinfo.io/{}/json'.format(ip)
-    response = urlopen(url)
-    data = json.load(response)
-    city = ""
+    city = "failed"
     try:
-        city = data['city']
+        url = 'http://ipinfo.io/{}/json'.format(ip)
+        response = urlopen(url)
+        data = json.load(response)
+        city = smart_str(data['city'])
     except:
         pass
     return city
@@ -237,7 +237,7 @@ def doInit(unique_label, cookie):
     result['encoding'] = encoding
     result['language'] = language
     result['label'] = cookie
-    result['iplocation'] = smart_str(get_location_by_ip(IP))
+    result['iplocation'] = get_location_by_ip(IP)
 
     return doUpdateFeatures(unique_label, result)
 
