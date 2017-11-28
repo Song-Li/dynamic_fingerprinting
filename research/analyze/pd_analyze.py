@@ -56,18 +56,9 @@ counted_features = [
         "fp2_liedos",
         "fp2_liedbrowser",
         "fp2_webgl",
-        "fp2_webglvendoe"
+        "fp2_webglvendoe",
+        "iplocation"
         ]
-# clean the sql regenerate the fingerprint
-# without the gpuimgs, ccaudio and hybridaudio
-print ("start clean")
-# db.clean_sql(counted_features)
-print ("clean finished")
-df = pd.read_sql('select * from features;', con=db.get_db())    
-print ("data loaded")
-
-cookies = df.groupby('label')
-feature_names = list(df.columns.values)
 def printTable(table):
     head = [' '] + feature_names
     print ' '.join(['{:<5.5}'.format(name) for name in head])
@@ -436,17 +427,28 @@ def get_all(clientid, cookies):
     cookies_section = get_group_section(cookies, "Based on Cookie", 'label')
     get_latex_doc(clientid_section + cookies_section)
 
+# try to use the ip location
 def get_location_dy_ip(ip):
     url = 'http://ipinfo.io/{}/json'.format(ip)
     response = urlopen(url)
     data = json.load(response)
-
-    IP=data['ip']
-    org=data['org']
+    IP = data['ip']
+    org = data['org']
     city = data['city']
-    country=data['country']
-    region=data['region']
+    country = data['country']
+    region = data['region']
+    return city
 
+# clean the sql regenerate the fingerprint
+# without the gpuimgs, ccaudio and hybridaudio
+print ("start clean")
+db.clean_sql(counted_features, generator = get_location_dy_ip)
+print ("clean finished")
+df = pd.read_sql('select * from features;', con=db.get_db())    
+print ("data loaded")
+
+cookies = df.groupby('label')
+feature_names = list(df.columns.values)
 
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
