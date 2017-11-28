@@ -85,4 +85,3 @@ class Database():
                 print pro
             self.generate_column('ip', 'iplocation', generator, label[0])
             self.gen_fingerprint(label[0], feature_str)
-

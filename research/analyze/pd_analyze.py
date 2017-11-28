@@ -427,16 +427,18 @@ def get_all(clientid, cookies):
     cookies_section = get_group_section(cookies, "Based on Cookie", 'label')
     get_latex_doc(clientid_section + cookies_section)
 
+
+ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
+print ("ip2location data loaded")
+def ip2int(ip):
+    o = map(int, ip.split('.'))
+    res = (16777216 * o[0]) + (65536 * o[1]) + (256 * o[2]) + o[3]
+    return res
+
 # try to use the ip location
+# TODO
 def get_location_dy_ip(ip):
-    url = 'http://ipinfo.io/{}/json'.format(ip)
-    response = urlopen(url)
-    data = json.load(response)
-    IP = data['ip']
-    org = data['org']
-    city = data['city']
-    country = data['country']
-    region = data['region']
+    int_ip = ip2int(ip)
     return city
 
 # clean the sql regenerate the fingerprint
