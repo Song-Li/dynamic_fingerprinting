@@ -199,7 +199,7 @@ def doUpdateFeatures(unique_label, data):
 
 
 # try to use the ip location
-def get_location_dy_ip(ip):
+def get_location_by_ip(ip):
     url = 'http://ipinfo.io/{}/json'.format(ip)
     response = urlopen(url)
     data = json.load(response)

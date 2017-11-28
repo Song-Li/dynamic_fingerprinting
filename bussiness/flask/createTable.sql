@@ -90,6 +90,7 @@ CREATE TABLE `features` (
   `fp2_webgl` text,
   `fp2_webglvendoe` text,
   `fp2_platform` text,
+  `iplocation` text,
   KEY `uniquelabel` (`uniquelabel`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
