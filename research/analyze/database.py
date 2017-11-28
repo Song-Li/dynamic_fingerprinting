@@ -48,20 +48,26 @@ class Database():
         self.run_sql(sql_str)
 
     
-    def add_column(self, column_name):
-        try:
-            sql_str = 'ALTER TABLE features ADD {} text'.format(column_name)
-            self.run_sql(sql_str)
-        except:
-            pass
+    def add_columns(self, column_names):
+        for column_name in column_names:
+            try:
+                sql_str = 'ALTER TABLE features ADD {} text'.format(column_name)
+                self.run_sql(sql_str)
+            except:
+                pass
 
 
-    def generate_column(self, source_column_name, aim_column_name, generator, recordID):
+    def generate_column(self, source_column_name, aim_column_names, generator, recordID):
         sql_str = 'select {} from features where uniquelabel="{}"'.format(source_column_name, recordID)
         res = self.run_sql(sql_str)[0][0]
-        aim = smart_str(generator(res))
-        print aim 
-        sql_str = 'UPDATE features SET {}="{}" WHERE uniquelabel = "{}"'.format(aim_column_name, aim, recordID)
+        aim = generator(res)
+        update_str = ""
+        for i in range(len(aim_column_names)):
+            name = aim_column_names[i]
+            update_str += '{}="{}",'.format(name, aim[i])
+
+        update_str = update_str[:-1]
+        sql_str = 'UPDATE features SET {} WHERE uniquelabel = "{}"'.format(update_str, recordID)
         self.run_sql(sql_str)
         
 
@@ -77,11 +83,11 @@ class Database():
         leng = len(unique_labels)
         pro = 0
         feature_str = ",".join(feature_list)
-        self.add_column('iplocation')
+        self.add_columns(['ipcity', 'ipregion', 'ipcountry'])
         for label in unique_labels:
             cur += 1
             if int(float(cur) / float(leng) * 100) != pro:
                 pro += 1
                 print pro
-            self.generate_column('ip', 'iplocation', generator, label[0])
+            self.generate_column('ip', ['ipcity', 'ipregion', 'ipcountry'], generator, label[0])
             self.gen_fingerprint(label[0], feature_str)
