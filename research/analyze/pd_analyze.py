@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from latex import build_pdf
 import os
+import bisect
 
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
@@ -57,7 +58,9 @@ counted_features = [
         "fp2_liedbrowser",
         "fp2_webgl",
         "fp2_webglvendoe",
-        "iplocation"
+        "ipcity",
+        "ipregion",
+        "ipcountry"
         ]
 def printTable(table):
     head = [' '] + feature_names
@@ -436,10 +439,14 @@ def ip2int(ip):
     return res
 
 # try to use the ip location
-# TODO
 def get_location_dy_ip(ip):
     int_ip = ip2int(ip)
-    return city
+    ip_from = ip2location['ip_from']
+    idx = bisect.bisect_left(ip_from, int_ip) - 1
+    city = ip2location.iloc[idx]['city_name']
+    region = ip2location.iloc[idx]['region_name']
+    country = ip2location.iloc[idx]['country_name']
+    return [city, region, country]
 
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
