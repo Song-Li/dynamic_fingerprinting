@@ -207,7 +207,7 @@ def basic_numbers(cookies):
                 break
 
 
-    res.append("We have {} fingerprintable users in total ({:.2f}\\%)".format(total, 100 * float(total) / float(len(big_fingerprint_set))))
+    res.append("We have {} fingerprintable users in total ({:.2f}\\%)".format(total, 100 * float(total) / float(num_users)))
     res.append("We have {} users only have one fingerprint ".format(only_one))
     return res
 
@@ -248,21 +248,21 @@ def num_of_same_fingerprint(cookies):
     return total
 
 
-def max_num_of_fingerprint(cookies):
+def num_of_users_per_fingerprint(cookies, base):
     num = []
-    num_of_fingerprint = {}
+    count = 20
+    num_of_fingerprint = [0 for i in range(count + 1)]
+    user_set = [set() for i in range(count + 1)]
     for key, items in cookies:
-        fingerprints = items['label'].nunique()
-        num.append(fingerprints)
-        if fingerprints not in num_of_fingerprint:
-            num_of_fingerprint[fingerprints] = 0
-        num_of_fingerprint[fingerprints] += 1
-    for k in num_of_fingerprint:
-        print (k, num_of_fingerprint[k])
-    for i in range(0,10):
-        print max(num)
-        num.remove(max(num))
-    return num_of_fingerprint
+        fingerprints = items[base].nunique()
+        if fingerprints <= count:
+            num_of_fingerprint[fingerprints] += 1
+            for i in range(fingerprints, count + 1):
+                for item in items[base]:
+                    # make sure have more than 1 items
+                    user_set[i].add(item)
+
+    return num_of_fingerprint, user_set
 
 
 def feature_null (finger):
@@ -373,7 +373,7 @@ def get_latex_pic(path):
     tail = r'\end{figure}'
     return head + body + tail
 
-def get_group_section(client, title):
+def get_group_section(client, title, sql_key):
     # get the basic numbers of a group
     basic = basic_numbers(client)
     basic = get_latex_items(basic)
@@ -381,7 +381,7 @@ def get_group_section(client, title):
     print ('basic numbers generated')
 
     # fingerprint change in days subsection
-    # change_time = fingerprint_change_time(client)
+    #change_time = fingerprint_change_time(client)
     change_time = [1163, 25580, 25858, 26040, 26085, 26120, 26120, 26120, 26120, 26120]
     plt.plot(change_time)
     pic_name = '{}changebytime'.format(title.replace(' ', ''))
@@ -399,15 +399,37 @@ def get_group_section(client, title):
     feature_change_sub = get_latex_subsection(pic_latex, "How many changes for every feature")
     print ('feature changes generated')
 
+    # generate how many fingerprints have multiple users
+    fingerprints = df.groupby('browserfingerprint')
+    changes, less_than_n = num_of_users_per_fingerprint(fingerprints, sql_key)
+    pic_name = '{}numberofusersfingerprint'.format(title.replace(' ',''))
+    ind = np.arange(len(changes))
+    plt.bar(ind, changes, 0.5)
+    plt.xticks(ind, [i for i in range(len(changes))], ha='center')
+    plt.savefig('./report/' + pic_name + '.png')
+    plt.clf()
+    pic_latex = get_latex_pic(pic_name)
+    number_of_users_fingerprint = get_latex_subsection(pic_latex, "How many fingerprints have multiple users")
+
+    tolerance = [float(len(t)) / float(len(client)) * 100 for t in less_than_n]
+    pic_name = '{}tolerance'.format(title.replace(' ',''))
+    ind = np.arange(len(tolerance))
+    plt.bar(ind, tolerance, 0.5)
+    plt.xticks(ind, [i for i in range(len(tolerance))], ha='center')
+    plt.savefig('./report/' + pic_name + '.png')
+    plt.clf()
+    pic_latex = get_latex_pic(pic_name)
+    tolerance = get_latex_subsection(pic_latex, "The percentage of tolerance")
+    tolerance += str(tolerance)
 
 
-    section = get_latex_section(basic_sub + change_by_time_sub + feature_change_sub, 'Based On {}'.format(title))
+    section = get_latex_section(basic_sub + change_by_time_sub + feature_change_sub + number_of_users_fingerprint + tolerance, 'Based On {}'.format(title))
     return section
 
 # take in the grouped database
 def get_all(clientid, cookies):
-    clientid_section = get_group_section(clientid, "Based on Client ID")
-    cookies_section = get_group_section(cookies, "Based on Cookie")
+    clientid_section = get_group_section(clientid, "Based on Client ID", 'clientid')
+    cookies_section = get_group_section(cookies, "Based on Cookie", 'label')
     get_latex_doc(clientid_section + cookies_section)
 
 
