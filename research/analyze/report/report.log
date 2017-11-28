@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.1)  26 NOV 2017 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.1)  27 NOV 2017 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,18 +256,66 @@ Package pdftex.def Info: BasedonClientIDfeaturechange.png used on input line 17
 .
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-<BasedonCookiechangebytime.png, id=4, 578.16pt x 433.62pt>
+<BasedonClientIDnumberofusersfingerprint.png, id=4, 578.16pt x 433.62pt>
+File: BasedonClientIDnumberofusersfingerprint.png Graphic file (type png)
+
+<use BasedonClientIDnumberofusersfingerprint.png>
+Package pdftex.def Info: BasedonClientIDnumberofusersfingerprint.png used on in
+put line 18.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \vbox (badness 2990) has occurred while \output is active []
+
+
+<BasedonClientIDtolerance.png, id=5, 578.16pt x 433.62pt>
+File: BasedonClientIDtolerance.png Graphic file (type png)
+
+<use BasedonClientIDtolerance.png>
+Package pdftex.def Info: BasedonClientIDtolerance.png used on input line 19.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+File: BasedonClientIDtolerance.png Graphic file (type png)
+ <use BasedonClientIDtolerance.png>
+Package pdftex.def Info: BasedonClientIDtolerance.png used on input line 20.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./BasedonClientIDchangebytime.png> <./BasedonClientIDfeaturechange.png> <./Ba
+sedonClientIDnumberofusersfingerprint.png> <./BasedonClientIDtolerance.png>]
+<BasedonCookiechangebytime.png, id=18, 578.16pt x 433.62pt>
 File: BasedonCookiechangebytime.png Graphic file (type png)
 
 <use BasedonCookiechangebytime.png>
-Package pdftex.def Info: BasedonCookiechangebytime.png used on input line 20.
+Package pdftex.def Info: BasedonCookiechangebytime.png used on input line 23.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-<BasedonCookiefeaturechange.png, id=5, 578.16pt x 433.62pt>
+<BasedonCookiefeaturechange.png, id=19, 578.16pt x 433.62pt>
 File: BasedonCookiefeaturechange.png Graphic file (type png)
 
 <use BasedonCookiefeaturechange.png>
-Package pdftex.def Info: BasedonCookiefeaturechange.png used on input line 21.
+Package pdftex.def Info: BasedonCookiefeaturechange.png used on input line 24.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+<BasedonCookienumberofusersfingerprint.png, id=20, 578.16pt x 433.62pt>
+File: BasedonCookienumberofusersfingerprint.png Graphic file (type png)
+
+<use BasedonCookienumberofusersfingerprint.png>
+Package pdftex.def Info: BasedonCookienumberofusersfingerprint.png used on inpu
+t line 25.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+<BasedonCookietolerance.png, id=21, 578.16pt x 433.62pt>
+File: BasedonCookietolerance.png Graphic file (type png)
+
+<use BasedonCookietolerance.png>
+Package pdftex.def Info: BasedonCookietolerance.png used on input line 26.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+File: BasedonCookietolerance.png Graphic file (type png)
+ <use BasedonCookietolerance.png>
+Package pdftex.def Info: BasedonCookietolerance.png used on input line 27.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
@@ -281,28 +329,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./BasedonClientIDchangebytime.png> <./BasedonClientIDfeaturechange.png> <./Ba
-sedonCookiechangebytime.png> <./BasedonCookiefeaturechange.png>] (./report.aux)
- ) 
+[2 <./BasedonCookiechangebytime.png> <./BasedonCookiefeaturechange.png> <./Base
+donCookienumberofusersfingerprint.png> <./BasedonCookietolerance.png>]
+(./report.aux) ) 
 Here is how much of TeX's memory you used:
- 2378 strings out of 493029
- 39343 string characters out of 6136234
- 102498 words of memory out of 5000000
- 5913 multiletter control sequences out of 15000+600000
+ 2398 strings out of 493029
+ 40109 string characters out of 6136234
+ 101498 words of memory out of 5000000
+ 5929 multiletter control sequences out of 15000+600000
  30804 words of font info for 60 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  37i,7n,23p,261b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/times/utmri8a.pfb>
-Output written on report.pdf (1 page, 125219 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (2 pages, 194087 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
