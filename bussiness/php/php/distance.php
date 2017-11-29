@@ -6,7 +6,9 @@ if(file_get_contents("php://input")){
 
     include "uniquemachine.php";
 
-    echo json_encode(distance(json_decode(file_get_contents("php://input"))));
+    $json = json_decode(file_get_contents("php://input"));
+
+    echo json_encode(distance($json->threshold, file_get_contents("php://input")));
 
 }
 

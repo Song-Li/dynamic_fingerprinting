@@ -190,7 +190,7 @@ var Collector = function () {
         return canvas;
     }
 
-    this.syncTest = function (cb, cookie) {
+    this.syncTest = function (cb, para) {
 
         this.features["clientid"] = this.addClientId();
 
@@ -249,7 +249,7 @@ var Collector = function () {
             syncTest.begin();
         }*/
 
-        setTimeout(this.run_cc_fp, 1000, this, cb, cookie);
+        setTimeout(this.run_cc_fp, 1000, this, cb, para);
 
     }
 
@@ -257,7 +257,7 @@ var Collector = function () {
 
     //INSERTION OF AUDIOFINGERPRINT CODE
     // Performs fingerprint as found in https://www.cdn-net.com/cc.js
-    this.run_cc_fp = function (collector, cb, cookie) {
+    this.run_cc_fp = function (collector, cb, para) {
         var cc_output = [];
         var audioCtx = new (window.AudioContext || window.webkitAudioContext),
             oscillator = audioCtx.createOscillator(),
@@ -290,7 +290,7 @@ var Collector = function () {
             results = cc_output.slice(0, 30);
             collector.features['ccaudio'] = results.join('_');
 
-            setTimeout(collector.run_hybrid_fp, 50, collector, cb, cookie);
+            setTimeout(collector.run_hybrid_fp, 50, collector, cb, para);
         };
         oscillator.start(0);
     }
@@ -298,7 +298,7 @@ var Collector = function () {
 
     // Performs a hybrid of cc/pxi methods found above
     // pass _this here because we need to use delay
-    this.run_hybrid_fp = function (collector, cb, cookie) {
+    this.run_hybrid_fp = function (collector, cb, para) {
         var hybrid_output = [];
         var audioCtx = new (window.AudioContext || window.webkitAudioContext),
             oscillator = audioCtx.createOscillator(),
@@ -334,7 +334,7 @@ var Collector = function () {
             gain.disconnect();
             collector.features['hybridaudio'] = hybrid_output.slice(0, 30).join('_');
 
-            cb(collector.features, cookie);
+            cb(collector.features, para);
         };
         oscillator.start(0);
     }
@@ -405,7 +405,14 @@ function installCallback (features, cookie) {
 //example of send distance request
 //set the features in json format
 //return similarity,cookie. If there is nothing match, return NULL,
-function distanceCallback (features) {
+function distanceCallback (features, threshold) {
+    if (typeof threshold != 'undefined') {
+        features['threshold'] = threshold;
+    }
+    else{
+        features['threshold'] = 0.85;
+    }
+
     var xhttp = new XMLHttpRequest();
     var url = ip_address + "/distance.php";
     var data = JSON.stringify(features);
@@ -433,9 +440,9 @@ function install(cookie) {
 }
 
 //example of getting features and then sending distance request
-function distance() {
+function distance(threshold) {
     var collector = new Collector();
-    collector.syncTest(distanceCallback);
+    collector.syncTest(distanceCallback,threshold);
 }
 
 //example of getting features and then printing the fingerprint

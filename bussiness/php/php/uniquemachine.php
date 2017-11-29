@@ -114,10 +114,11 @@ function store_picture($hash_value, $image_b64)
     return $hash_value;
 }
 
-function install($features)
+function install($cookieHash, $features)
 {
+    $features = json_decode($features);
 
-    $unique_label = initialize($features->label);
+    $unique_label = initialize($cookieHash);
 
     if (check_exist_picture($features->canvastest) == 0)
         store_picture($features->canvastest, $features->image_b64);
@@ -127,8 +128,9 @@ function install($features)
     //return $unique_label;
 }
 
-function distance($features)
+function distance($threshold, $featuresStr)
 {
+    $features = json_decode($featuresStr);
 
     $feature_list = array(
         "agent",
@@ -154,8 +156,6 @@ function distance($features)
         "hybridaudio"
     );
 
-    $threshold = 0.85;
-
     $conn = connect();
 
     $sql_str = "DESCRIBE features";
@@ -175,8 +175,8 @@ function distance($features)
 
     $feature_count = 0;
 
-    foreach ($features as $feature => $value){
-        if(in_array($feature, $feature_list))$feature_count++;
+    foreach ($features as $featureName => $value){
+        if(in_array($featureName, $feature_list))$feature_count++;
     }
 
     $res = array();

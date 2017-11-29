@@ -6,7 +6,9 @@ if(file_get_contents("php://input")){
 
     include "uniquemachine.php";
 
-    echo install(json_decode(file_get_contents("php://input")));
+    $json = json_decode(file_get_contents("php://input"));
+
+    echo install($json->label, file_get_contents("php://input"));
 
 }
 

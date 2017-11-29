@@ -14,8 +14,18 @@
       <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="async.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uniquemachine/js/async.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -44,24 +54,24 @@
       <file leaf-file-name="collector.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uniquemachine/js/collector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="370">
+              <caret line="398" column="6" lean-forward="true" selection-start-line="398" selection-start-column="6" selection-end-line="398" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uniquemachine.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uniquemachine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/uniquemachine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+            <state relative-caret-position="712">
+              <caret line="201" column="5" lean-forward="false" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
               <folding>
-                <marker date="1511660162019" expanded="true" signature="97:168" ph="SELECT count... pictures" />
-                <marker date="1511660162019" expanded="true" signature="1654:1716" ph="SELECT count... cookies" />
-                <marker date="1511660162019" expanded="true" signature="1850:1905" ph="INSERT INTO cookies... " />
-                <marker date="1511660162019" expanded="true" signature="2144:2205" ph="INSERT INTO pictures... " />
-                <marker date="1511660162019" expanded="true" signature="3485:3507" ph="SELECT * FRO... features" />
+                <marker date="1511985011573" expanded="true" signature="97:168" ph="SELECT count... pictures" />
+                <marker date="1511985011573" expanded="true" signature="1654:1716" ph="SELECT count... cookies" />
+                <marker date="1511985011573" expanded="true" signature="1850:1905" ph="INSERT INTO cookies... " />
+                <marker date="1511985011573" expanded="true" signature="2144:2205" ph="INSERT INTO pictures... " />
+                <marker date="1511985011573" expanded="true" signature="3567:3589" ph="SELECT * FRO... features" />
               </folding>
             </state>
           </provider>
@@ -70,18 +80,8 @@
       <file leaf-file-name="distance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uniquemachine/distance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql_util.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/sql_util.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="450">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
       <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/install.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -114,8 +114,8 @@
       <file leaf-file-name="distance.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/distance.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -181,13 +181,14 @@
         <option value="$PROJECT_DIR$/test/js/webglTest.js" />
         <option value="$PROJECT_DIR$/uniquemachine.php" />
         <option value="$PROJECT_DIR$/test/js/collector.js" />
-        <option value="$PROJECT_DIR$/php/install.php" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/uniquemachine/js/collector.js" />
         <option value="$PROJECT_DIR$/uniquemachine/install.html" />
+        <option value="$PROJECT_DIR$/php/install.php" />
         <option value="$PROJECT_DIR$/php/distance.php" />
-        <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/php/uniquemachine.php" />
+        <option value="$PROJECT_DIR$/uniquemachine/distance.html" />
+        <option value="$PROJECT_DIR$/uniquemachine/js/collector.js" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
       </list>
     </option>
   </component>
@@ -219,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,12 +245,67 @@
               <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dependency" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webgl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webgl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webgl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webgl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shaders" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webgl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="textures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="uniquemachine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webgl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="textures" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="patterns" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,17 +357,17 @@
       <workItem from="1511209171610" duration="5456000" />
       <workItem from="1511558836727" duration="6784000" />
       <workItem from="1511657002068" duration="2104000" />
+      <workItem from="1511968721990" duration="5711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99966000" />
+    <option name="totallyTimeSpent" value="105677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1054" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -370,11 +428,11 @@
         <state relative-caret-position="1782">
           <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
           <folding>
-            <marker date="1511660162019" expanded="true" signature="97:168" ph="SELECT count... pictures" />
-            <marker date="1511660162019" expanded="true" signature="1654:1716" ph="SELECT count... cookies" />
-            <marker date="1511660162019" expanded="true" signature="1850:1905" ph="INSERT INTO cookies... " />
-            <marker date="1511660162019" expanded="true" signature="2144:2205" ph="INSERT INTO pictures... " />
-            <marker date="1511660162019" expanded="true" signature="3485:3507" ph="SELECT * FRO... features" />
+            <marker date="1511985011573" expanded="true" signature="97:168" ph="SELECT count... pictures" />
+            <marker date="1511985011573" expanded="true" signature="1654:1716" ph="SELECT count... cookies" />
+            <marker date="1511985011573" expanded="true" signature="1850:1905" ph="INSERT INTO cookies... " />
+            <marker date="1511985011573" expanded="true" signature="2144:2205" ph="INSERT INTO pictures... " />
+            <marker date="1511985011573" expanded="true" signature="3567:3589" ph="SELECT * FRO... features" />
           </folding>
         </state>
       </provider>
@@ -487,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uniquemachine/js/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/store_pictures.php" />
     <entry file="file://$PROJECT_DIR$/php/pictures.php" />
     <entry file="file://$PROJECT_DIR$/php/check_exsit_picture.php" />
@@ -509,22 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uniquemachine/install.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,49 +591,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uniquemachine/install.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/distance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uniquemachine/distance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uniquemachine/js/collector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="252">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/uniquemachine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="21" />
+        <state relative-caret-position="712">
+          <caret line="201" column="5" lean-forward="false" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
           <folding>
-            <marker date="1511660162019" expanded="true" signature="97:168" ph="SELECT count... pictures" />
-            <marker date="1511660162019" expanded="true" signature="1654:1716" ph="SELECT count... cookies" />
-            <marker date="1511660162019" expanded="true" signature="1850:1905" ph="INSERT INTO cookies... " />
-            <marker date="1511660162019" expanded="true" signature="2144:2205" ph="INSERT INTO pictures... " />
-            <marker date="1511660162019" expanded="true" signature="3485:3507" ph="SELECT * FRO... features" />
+            <marker date="1511985011573" expanded="true" signature="97:168" ph="SELECT count... pictures" />
+            <marker date="1511985011573" expanded="true" signature="1654:1716" ph="SELECT count... cookies" />
+            <marker date="1511985011573" expanded="true" signature="1850:1905" ph="INSERT INTO cookies... " />
+            <marker date="1511985011573" expanded="true" signature="2144:2205" ph="INSERT INTO pictures... " />
+            <marker date="1511985011573" expanded="true" signature="3567:3589" ph="SELECT * FRO... features" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniquemachine/distance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniquemachine/js/collector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="398" column="6" lean-forward="true" selection-start-line="398" selection-start-column="6" selection-end-line="398" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uniquemachine/js/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
