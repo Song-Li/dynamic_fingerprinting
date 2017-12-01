@@ -181,7 +181,6 @@ def basic_numbers(cookies):
     total = 0
     num_users = len(cookies)
     only_one = 0
-    print ("We have {} users in total".format(num_users))
     big_fingerprint_set = {}
     for key, items in cookies:
         num_exsit = 0
@@ -194,6 +193,7 @@ def basic_numbers(cookies):
 
     res = []
     res.append("We have {} fingerprints in total".format(len(big_fingerprint_set)))
+    res.append("We have {} users in total".format(num_users))
 
     for key, items in cookies:
         fingerprints = set(items['browserfingerprint'])
@@ -379,7 +379,7 @@ def get_group_section(client, title, sql_key):
     print ('basic numbers generated')
 
     # fingerprint change in days subsection
-    #change_time = fingerprint_change_time(client)
+    # change_time = fingerprint_change_time(client)
     change_time = [1163, 25580, 25858, 26040, 26085, 26120, 26120, 26120, 26120, 26120]
     plt.plot(change_time)
     pic_name = '{}changebytime'.format(title.replace(' ', ''))
@@ -417,11 +417,18 @@ def get_group_section(client, title, sql_key):
     plt.savefig('./report/' + pic_name + '.png')
     plt.clf()
     pic_latex = get_latex_pic(pic_name)
-    tolerance = get_latex_subsection(pic_latex, "The percentage of tolerance")
-    tolerance += str(tolerance)
+    tolerance_sub = get_latex_subsection(pic_latex, "The percentage of tolerance")
+    tolerance_sub += str(tolerance)
 
 
-    section = get_latex_section(basic_sub + change_by_time_sub + feature_change_sub + number_of_users_fingerprint + tolerance, 'Based On {}'.format(title))
+    section = get_latex_section(
+            basic_sub + 
+            change_by_time_sub + 
+            feature_change_sub + 
+            number_of_users_fingerprint + 
+            tolerance_sub, 
+            'Based On {}'.format(title))
+
     return section
 
 # take in the grouped database

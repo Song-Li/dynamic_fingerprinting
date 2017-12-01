@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.1)  28 NOV 2017 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.1)  29 NOV 2017 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -264,7 +264,7 @@ Package pdftex.def Info: BasedonClientIDnumberofusersfingerprint.png used on in
 put line 18.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-Underfull \vbox (badness 2990) has occurred while \output is active []
+Underfull \vbox (badness 1910) has occurred while \output is active []
 
 
 <BasedonClientIDtolerance.png, id=5, 578.16pt x 433.62pt>
@@ -273,14 +273,47 @@ File: BasedonClientIDtolerance.png Graphic file (type png)
 <use BasedonClientIDtolerance.png>
 Package pdftex.def Info: BasedonClientIDtolerance.png used on input line 19.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-File: BasedonClientIDtolerance.png Graphic file (type png)
- <use BasedonClientIDtolerance.png>
-Package pdftex.def Info: BasedonClientIDtolerance.png used on input line 20.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\OT1/ptm/m/n/10 [0.0, 78.19668690386425, 86.80513988541756,
+ []
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 89.17374709462769, 90.64062002005582,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 91.69860308921727, 92.46663194471436,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 93.13593644328013, 93.6622072278667,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 94.05710465559191, 94.44267379762285,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 94.75983551122893, 95.01714072496327,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 95.30554022434528, 95.5014342239255,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 95.71287536632956, 95.92198443731004,
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./BasedonClientIDchangebytime.png> <./BasedonClientIDfeaturechange.png> <./Ba
@@ -289,14 +322,14 @@ sedonClientIDnumberofusersfingerprint.png> <./BasedonClientIDtolerance.png>]
 File: BasedonCookiechangebytime.png Graphic file (type png)
 
 <use BasedonCookiechangebytime.png>
-Package pdftex.def Info: BasedonCookiechangebytime.png used on input line 23.
+Package pdftex.def Info: BasedonCookiechangebytime.png used on input line 22.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 <BasedonCookiefeaturechange.png, id=19, 578.16pt x 433.62pt>
 File: BasedonCookiefeaturechange.png Graphic file (type png)
 
 <use BasedonCookiefeaturechange.png>
-Package pdftex.def Info: BasedonCookiefeaturechange.png used on input line 24.
+Package pdftex.def Info: BasedonCookiefeaturechange.png used on input line 23.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 <BasedonCookienumberofusersfingerprint.png, id=20, 578.16pt x 433.62pt>
@@ -304,18 +337,14 @@ File: BasedonCookienumberofusersfingerprint.png Graphic file (type png)
 
 <use BasedonCookienumberofusersfingerprint.png>
 Package pdftex.def Info: BasedonCookienumberofusersfingerprint.png used on inpu
-t line 25.
+t line 24.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 <BasedonCookietolerance.png, id=21, 578.16pt x 433.62pt>
 File: BasedonCookietolerance.png Graphic file (type png)
 
 <use BasedonCookietolerance.png>
-Package pdftex.def Info: BasedonCookietolerance.png used on input line 26.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-File: BasedonCookietolerance.png Graphic file (type png)
- <use BasedonCookietolerance.png>
-Package pdftex.def Info: BasedonCookietolerance.png used on input line 27.
+Package pdftex.def Info: BasedonCookietolerance.png used on input line 25.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
@@ -329,22 +358,67 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\OT1/ptm/m/n/10 [0.0, 43.52053105902544, 57.889441107418364,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 63.70312615700914, 69.1156421101233,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 72.28492153027933, 75.05956555259846,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 77.05669943679517, 78.95190762221283,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 80.26082524969618, 81.54317250271149,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 82.56547854986736, 83.49108585715592,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 84.34874269859178, 85.11144311979754,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 85.63849481006538, 86.28445981557546,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/ptm/m/n/10 86.95089707682322, 87.42132337888047,
+ []
+
 [2 <./BasedonCookiechangebytime.png> <./BasedonCookiefeaturechange.png> <./Base
 donCookienumberofusersfingerprint.png> <./BasedonCookietolerance.png>]
 (./report.aux) ) 
 Here is how much of TeX's memory you used:
  2398 strings out of 493029
  40109 string characters out of 6136234
- 101498 words of memory out of 5000000
+ 102498 words of memory out of 5000000
  5929 multiletter control sequences out of 15000+600000
  30804 words of font info for 60 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 37i,7n,23p,262b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,23p,567b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 192959 bytes).
+Output written on report.pdf (2 pages, 200067 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
