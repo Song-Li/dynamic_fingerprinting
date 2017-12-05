@@ -74,6 +74,21 @@ class Database():
     def null_generator(string):
         pass
 
+    def generate_column_pd(self, source_column_name, aim_column_names, generator, recordID):
+        sql_str = 'select {} from features where uniquelabel="{}"'.format(
+                source_column_name, recordID)
+        res = self.run_sql(sql_str)[0][0]
+        aim = generator(res)
+        update_str = ""
+        for i in range(len(aim_column_names)):
+            name = aim_column_names[i]
+            update_str += '{}="{}",'.format(name, aim[i])
+
+        update_str = update_str[:-1]
+        sql_str = 'UPDATE features SET {} WHERE uniquelabel = "{}"'.format(update_str, recordID)
+        self.run_sql(sql_str)
+        
+
     def clean_sql(self, feature_list, generator = null_generator):
         sql_str = "DELETE FROM features WHERE jsFonts is NULL"
         self.run_sql(sql_str)
