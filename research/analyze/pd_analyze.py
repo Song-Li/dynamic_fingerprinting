@@ -7,7 +7,6 @@ import datetime
 from database import Database
 import matplotlib.pyplot as plt
 import numpy as np
-from latex import build_pdf
 import os
 import bisect
 
@@ -438,13 +437,14 @@ def get_all(clientid, cookies):
     get_latex_doc(clientid_section + cookies_section)
 
 
-ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
-print ("ip2location data loaded")
+
 def ip2int(ip):
     o = map(int, ip.split('.'))
     res = (16777216 * o[0]) + (65536 * o[1]) + (256 * o[2]) + o[3]
     return res
 
+ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
+print ("ip2location data loaded")
 # try to use the ip location
 def get_location_dy_ip(ip):
     int_ip = ip2int(ip)
@@ -455,17 +455,24 @@ def get_location_dy_ip(ip):
     country = ip2location.iloc[idx]['country_name']
     return [city, region, country]
 
+def load_data(load = True, file_path = None):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
-print ("start clean")
-db.clean_sql(counted_features, generator = get_location_dy_ip)
-print ("clean finished")
-df = pd.read_sql('select * from features;', con=db.get_db())    
-print ("data loaded")
+    df = None
+    if load == True:
+        df = pd.read_csv(file_path)
+        print ("data loaded")
+    else:
+        df = pd.read_sql('select * from features;', con=db.get_db())    
+        print ("start clean")
+        db.clean_sql(counted_features, df, generator = get_location_dy_ip)
+        print ("clean finished")
 
+    return df
+
+df = load_data(load = True, file_path = '~/data/dynamic_fingerprinting/feature_table.csv')
 cookies = df.groupby('label')
 feature_names = list(df.columns.values)
-
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby('clientid')
 get_all(clientid, cookies)
