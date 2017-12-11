@@ -2,10 +2,12 @@ import pandas as pd
 import re
 import json
 from urllib2 import urlopen
-
 import datetime
 from database import Database
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
 import numpy as np
 import os
 import bisect
@@ -292,19 +294,6 @@ def no_null_feature (finger):
                 if 'None' in str(row[k]) or pd.isnull(row[k]):
                     count[items['label'].nunique()] -= 1
                     break
-    # result = 0
-    # for key, items in finger:
-    #     if items['label'].nunique() == 110:
-    #         result = 1
-    #         for i, r in items.iterrows():
-    #             row = r
-    #             break
-    #         for k in counted_features:
-    #             if 'None' in str(row[k]) or pd.isnull(row[k]):
-    #                 result = 0
-    #                 break
-    #         if result == 1:
-    #             print key
     for k in count:
         print (k, count[k])
     return
@@ -355,13 +344,11 @@ def get_latex_doc(body):
         out_lines = []
         for line in base.readlines():
             out_lines.append(line.replace('qwerbodyqwer', body))
-
     with open('./report/report.tex', 'w') as output:
         for line in out_lines:
             output.write(line)
-
     os.system("cd ./report && pdflatex -synctex=1 -interaction=nonstopmode \"report\".tex")
-    
+
 def get_latex_pic(path):
     head = r"\begin{figure}[H]"
     head += r'\centering'
@@ -369,6 +356,10 @@ def get_latex_pic(path):
     #body += r'\caption{How many users changed in days}'
     tail = r'\end{figure}'
     return head + body + tail
+
+def get_location_change(client):
+    for key, items in client:
+        pass
 
 def get_group_section(client, title, sql_key):
     # get the basic numbers of a group
@@ -407,7 +398,10 @@ def get_group_section(client, title, sql_key):
     plt.clf()
     pic_latex = get_latex_pic(pic_name)
     number_of_users_fingerprint = get_latex_subsection(pic_latex, "How many fingerprints have multiple users")
+    print ("how many fingerprints have multiple users generated")
 
+    # generate the accuracy if we can tolerant
+    # a number of users share the same fingerprint
     tolerance = [float(len(t)) / float(len(client)) * 100 for t in less_than_n]
     pic_name = '{}tolerance'.format(title.replace(' ',''))
     ind = np.arange(len(tolerance))
@@ -418,6 +412,10 @@ def get_group_section(client, title, sql_key):
     pic_latex = get_latex_pic(pic_name)
     tolerance_sub = get_latex_subsection(pic_latex, "The percentage of tolerance")
     tolerance_sub += str(tolerance)
+    print ("tolerance table generated")
+
+    # generate the moving distance distributaion of people
+    location_change = get_location_change(client)
 
 
     section = get_latex_section(
@@ -443,8 +441,7 @@ def ip2int(ip):
     res = (16777216 * o[0]) + (65536 * o[1]) + (256 * o[2]) + o[3]
     return res
 
-ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
-print ("ip2location data loaded")
+ip2location = ""
 # try to use the ip location
 def get_location_dy_ip(ip):
     int_ip = ip2int(ip)
@@ -453,26 +450,49 @@ def get_location_dy_ip(ip):
     city = ip2location.iloc[idx]['city_name']
     region = ip2location.iloc[idx]['region_name']
     country = ip2location.iloc[idx]['country_name']
-    return [city, region, country]
+    latitude = ip2location.iloc[idx]['latitude']
+    longitude = ip2location.iloc[idx]['longitude']
+    return [city, region, country, latitude, longitude]
 
 def load_data(load = True, file_path = None):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
     df = None
     if load == True:
-        df = pd.read_csv(file_path)
+        df = pd.read_sql('select * from pandas_features;', con=db.get_db())    
         print ("data loaded")
     else:
+        ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
+        print ("ip2location data loaded")
         df = pd.read_sql('select * from features;', con=db.get_db())    
         print ("start clean")
         db.clean_sql(counted_features, df, generator = get_location_dy_ip)
         print ("clean finished")
-
     return df
 
-df = load_data(load = True, file_path = '~/data/dynamic_fingerprinting/feature_table.csv')
+# output the detiled difference of a feature
+def output_diff(client, feature_name, output_number):
+    if feature_name not in counted_features:
+        print ("Wrong feature name {}".format(feature_name))
+        return
+
+    cnt = 1 
+    for key, items in client:
+        if items[feature_name].nunique() > 1:
+            print ("Client ID: {}".format(key))
+            client_group = items.groupby(feature_name)
+            if cnt > output_number:
+                 return 
+            cnt += 1
+            for fn, data in client_group:
+                print (fn, set(data['fp2_platform']))
+
+
+df = load_data(load = True)
 cookies = df.groupby('label')
 feature_names = list(df.columns.values)
 df = df[pd.notnull(df['clientid'])]
-clientid = df.groupby('clientid')
-get_all(clientid, cookies)
+clientid = df.groupby(['clientid', 'fp2_platform'])
+#clientid = df.groupby('clientid')
+output_diff(clientid, 'agent', 10)
+#get_all(clientid, cookies)
