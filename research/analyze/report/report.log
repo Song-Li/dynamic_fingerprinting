@@ -1,12 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.1)  4 DEC 2017 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  11 DEC 2017 12:05
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**report.tex
-(./report.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+**./report.tex
+(report.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 1 language(s) loaded.
+(/home/sol315/.miktex/texmfs/install/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +17,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/home/sol315/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -113,41 +111,33 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+) (/home/sol315/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/home/sol315/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+(/home/sol315/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/home/sol315/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/home/sol315/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count94
+(/home/sol315/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/home/sol315/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count95
+\c@float@type=\count94
 \float@exts=\toks16
 \float@box=\box28
 \@float@everytoks=\toks17
@@ -157,7 +147,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 LaTeX Warning: Unused global option(s):
     [compsocconf].
 
-(./report.aux)
+(report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -174,183 +164,158 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 
 -- Lines per column: 56 (exact).
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/home/sol315/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count96
+\scratchcounter=\count95
 \scratchdimen=\dimen128
 \scratchbox=\box30
-\nofMPsegments=\count97
-\nofMParguments=\count98
+\nofMPsegments=\count96
+\nofMParguments=\count97
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count99
+\MPscratchCnt=\count98
 \MPscratchDim=\dimen129
-\MPnumerator=\count100
-\makeMPintoPDFobject=\count101
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
 \everyMPtoPDFconversion=\toks19
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (/home/sol315/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/home/sol315/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/home/sol315/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/sol315/.miktex/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 15.
-
-<BasedonClientIDchangebytime.png, id=1, 578.16pt x 433.62pt>
+<BasedonClientIDchangebytime.png, id=1, 462.528pt x 346.896pt>
 File: BasedonClientIDchangebytime.png Graphic file (type png)
-
 <use BasedonClientIDchangebytime.png>
-Package pdftex.def Info: BasedonClientIDchangebytime.png used on input line 16.
-
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-<BasedonClientIDfeaturechange.png, id=3, 578.16pt x 433.62pt>
-File: BasedonClientIDfeaturechange.png Graphic file (type png)
-
-<use BasedonClientIDfeaturechange.png>
-Package pdftex.def Info: BasedonClientIDfeaturechange.png used on input line 17
+Package pdftex.def Info: BasedonClientIDchangebytime.png  used on input line 16
 .
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-<BasedonClientIDnumberofusersfingerprint.png, id=4, 578.16pt x 433.62pt>
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<BasedonClientIDfeaturechange.png, id=3, 462.528pt x 346.896pt>
+File: BasedonClientIDfeaturechange.png Graphic file (type png)
+<use BasedonClientIDfeaturechange.png>
+Package pdftex.def Info: BasedonClientIDfeaturechange.png  used on input line 1
+7.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<BasedonClientIDnumberofusersfingerprint.png, id=4, 462.528pt x 346.896pt>
 File: BasedonClientIDnumberofusersfingerprint.png Graphic file (type png)
-
 <use BasedonClientIDnumberofusersfingerprint.png>
-Package pdftex.def Info: BasedonClientIDnumberofusersfingerprint.png used on in
-put line 18.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Package pdftex.def Info: BasedonClientIDnumberofusersfingerprint.png  used on i
+nput line 18.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
-
-<BasedonClientIDtolerance.png, id=5, 578.16pt x 433.62pt>
+<BasedonClientIDtolerance.png, id=5, 462.528pt x 346.896pt>
 File: BasedonClientIDtolerance.png Graphic file (type png)
-
 <use BasedonClientIDtolerance.png>
-Package pdftex.def Info: BasedonClientIDtolerance.png used on input line 19.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Package pdftex.def Info: BasedonClientIDtolerance.png  used on input line 19.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]\OT1/ptm/m/n/10 [0.0, 75.988923634143, 84.51256620023796,
+[]\OT1/ptm/m/n/10 [0.0, 75.06097537406605, 83.55848804264218,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 86.93578445307811, 88.45352032597366,
+\OT1/ptm/m/n/10 85.87342633285789, 87.46593689483633,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 89.4921928466892, 90.32239384271982,
+\OT1/ptm/m/n/10 88.57798856639262, 89.38970511497385,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 90.97255124924982, 91.49267717447383,
+\OT1/ptm/m/n/10 90.05647227987986, 90.65405027231157,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 91.94436547795782, 92.40605620308074,
+\OT1/ptm/m/n/10 91.14803777187672, 91.57863407431458,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 92.75508807395475, 93.0567400528549,
+\OT1/ptm/m/n/10 91.99802095774821, 92.33005167928692,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 93.31259146951368, 93.56001979426598,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 93.80744811901829, 93.97801573012413,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 94.22702338460891, 94.38758857407583,
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[1{/home/sol315/.miktex/texmfs/data/pdftex/config/pdftex.map}
 
 
  <./BasedonClientIDchangebytime.png> <./BasedonClientIDfeaturechange.png> <./Ba
 sedonClientIDnumberofusersfingerprint.png> <./BasedonClientIDtolerance.png>]
-<BasedonCookiechangebytime.png, id=18, 578.16pt x 433.62pt>
+<BasedonCookiechangebytime.png, id=17, 462.528pt x 346.896pt>
 File: BasedonCookiechangebytime.png Graphic file (type png)
-
 <use BasedonCookiechangebytime.png>
-Package pdftex.def Info: BasedonCookiechangebytime.png used on input line 22.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-<BasedonCookiefeaturechange.png, id=19, 578.16pt x 433.62pt>
+Package pdftex.def Info: BasedonCookiechangebytime.png  used on input line 22.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<BasedonCookiefeaturechange.png, id=18, 462.528pt x 346.896pt>
 File: BasedonCookiefeaturechange.png Graphic file (type png)
-
 <use BasedonCookiefeaturechange.png>
-Package pdftex.def Info: BasedonCookiefeaturechange.png used on input line 23.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Package pdftex.def Info: BasedonCookiefeaturechange.png  used on input line 23.
 
-<BasedonCookienumberofusersfingerprint.png, id=20, 578.16pt x 433.62pt>
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<BasedonCookienumberofusersfingerprint.png, id=19, 462.528pt x 346.896pt>
 File: BasedonCookienumberofusersfingerprint.png Graphic file (type png)
-
 <use BasedonCookienumberofusersfingerprint.png>
-Package pdftex.def Info: BasedonCookienumberofusersfingerprint.png used on inpu
-t line 24.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-
-<BasedonCookietolerance.png, id=21, 578.16pt x 433.62pt>
+Package pdftex.def Info: BasedonCookienumberofusersfingerprint.png  used on inp
+ut line 24.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<BasedonCookietolerance.png, id=20, 462.528pt x 346.896pt>
 File: BasedonCookietolerance.png Graphic file (type png)
-
 <use BasedonCookietolerance.png>
-Package pdftex.def Info: BasedonCookietolerance.png used on input line 25.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Package pdftex.def Info: BasedonCookietolerance.png  used on input line 25.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 
 ** Conference Paper **
@@ -365,68 +330,67 @@ Before submitting the final camera ready copy, remember to:
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]\OT1/ptm/m/n/10 [0.0, 40.973563631463094, 54.44780108710301,
+[]\OT1/ptm/m/n/10 [0.0, 32.369058054347036, 43.00509051138328,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 60.225281883113965, 65.44685773325547,
+\OT1/ptm/m/n/10 47.80030398314422, 52.02309628545465,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 68.62786936795293, 71.42087058083644,
+\OT1/ptm/m/n/10 54.71181915415484, 57.07983176382601,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 73.42690130721891, 75.22938098018956,
+\OT1/ptm/m/n/10 58.772004599956574, 60.33389894570925,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 76.68034904092359, 77.88621355734243,
+\OT1/ptm/m/n/10 61.60162124343581, 62.67859009722635,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 78.98875836665019, 80.0230784780558,
+\OT1/ptm/m/n/10 63.59005701694424, 64.44378322302552,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 80.84542473383945, 81.61021517452046,
+\OT1/ptm/m/n/10 65.18813983224634, 65.85256013317357,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 82.15685503795876, 82.74588967252146,
+\OT1/ptm/m/n/10 66.46036558396126, 67.05932496441467,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 83.42083688962761, 83.93855846547774,
+\OT1/ptm/m/n/10 67.57834803657448, 68.09447603117033,
  []
 
 [2 <./BasedonCookiechangebytime.png> <./BasedonCookiefeaturechange.png> <./Base
 donCookienumberofusersfingerprint.png> <./BasedonCookietolerance.png>]
-(./report.aux) ) 
+(report.aux) ) 
 Here is how much of TeX's memory you used:
- 2398 strings out of 493029
- 40109 string characters out of 6136234
- 102498 words of memory out of 5000000
- 5929 multiletter control sequences out of 15000+600000
- 30804 words of font info for 60 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 37i,7n,23p,567b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 194703 bytes).
+ 2348 strings out of 495212
+ 39842 string characters out of 3181293
+ 93834 words of memory out of 3000000
+ 5647 multiletter control sequences out of 15000+200000
+ 30804 words of font info for 60 fonts, out of 3000000 for 9000
+ 17 hyphenation exceptions out of 8191
+ 41i,7n,25p,567b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/sol315/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi6
+00/cmsy7.pk>{/home/sol315/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</
+home/sol315/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/sol3
+15/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (2 pages, 142078 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

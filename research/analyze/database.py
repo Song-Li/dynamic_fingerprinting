@@ -63,7 +63,8 @@ class Database():
         df['ipcity'] = 'ipcity'
         df['ipregion'] = 'ipregion'
         df['ipcountry'] = 'ipcountry'
-        df.to_csv('~/data/dynamic_fingerprinting/feature_table.csv')
+        df['latitude'] = 'latitude'
+        df['longitude'] = 'longitude'
         # regenerate ip realted features
         # and generate the browser finergrpint
         for idx in tqdm(df.index):
@@ -71,6 +72,8 @@ class Database():
             df.at[idx, 'ipcity'] = ip_related[0]
             df.at[idx, 'ipregion'] = ip_related[1]
             df.at[idx, 'ipcountry'] = ip_related[2]
+            df.at[idx, 'latitude'] = ip_related[3] 
+            df.at[idx, 'longitude'] = ip_related[4] 
             res_str = ""
             for feature in feature_list:
                 res_str += str(df.at[idx, feature] )
@@ -79,7 +82,5 @@ class Database():
             df.at[idx, 'browserfingerprint'] = hash_str
 
         print ("Finished calculation, start to put back to csv")
-        #df.to_sql('pandas_features', self.get_db_engine(), if_exists='replace', chunksize = 100000)
-
-        df.to_csv('~/data/dynamic_fingerprinting/feature_table.csv')
+        df.to_sql('pandas_features', self.get_db_engine(), if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
