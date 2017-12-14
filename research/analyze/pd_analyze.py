@@ -15,11 +15,6 @@ import bisect
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
 
-
-
-def featureDiff(f1, f2):
-    return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) 
-
 db = Database('uniquemachine')
 counted_features = [ 
         "agent",
@@ -441,9 +436,10 @@ def ip2int(ip):
     res = (16777216 * o[0]) + (65536 * o[1]) + (256 * o[2]) + o[3]
     return res
 
-ip2location = ""
+global ip2location
 # try to use the ip location
 def get_location_dy_ip(ip):
+    global ip2location
     int_ip = ip2int(ip)
     ip_from = ip2location['ip_from']
     idx = bisect.bisect_left(ip_from, int_ip) - 1
@@ -454,9 +450,33 @@ def get_location_dy_ip(ip):
     longitude = ip2location.iloc[idx]['longitude']
     return [city, region, country, latitude, longitude]
 
+
+def get_device(row):
+    id_str = ""
+    # platform is between the first ( and the first ;
+    platform = ""
+    try:
+        platform = row['agent'].split(')')[0].split('(')[1].split(';')[0]
+    except:
+        print ("error getting platform: ", row['agent'])
+    id_str = platform
+    gpu_type = row['gpu'].split('Direct')[0]
+    id_str += gpu_type
+    keys = ['clientid', 'inc', 'fp2_platform']
+    for key in keys:
+        # we assume that all of the keys are not null
+        try:
+            id_str += row[key]
+        except:
+            pass
+    return id_str
+    
+
+
 def load_data(load = True, file_path = None):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
+    global ip2location
     df = None
     if load == True:
         df = pd.read_sql('select * from pandas_features;', con=db.get_db())    
@@ -465,8 +485,11 @@ def load_data(load = True, file_path = None):
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         print ("ip2location data loaded")
         df = pd.read_sql('select * from features;', con=db.get_db())    
+        # delete the null clientid rows
+        df = df[pd.notnull(df['clientid'])]
         print ("start clean")
-        db.clean_sql(counted_features, df, generator = get_location_dy_ip)
+        db.clean_sql(counted_features, df, generator = get_location_dy_ip, 
+                get_device = get_device)
         print ("clean finished")
     return df
 
@@ -488,11 +511,11 @@ def output_diff(client, feature_name, output_number):
                 print (fn, set(data['fp2_platform']))
 
 
-df = load_data(load = True)
+df = load_data(load = False)
 cookies = df.groupby('label')
 feature_names = list(df.columns.values)
 df = df[pd.notnull(df['clientid'])]
 clientid = df.groupby(['clientid', 'fp2_platform'])
 #clientid = df.groupby('clientid')
-output_diff(clientid, 'agent', 10)
+output_diff(clientid, 'agent', 100)
 #get_all(clientid, cookies)

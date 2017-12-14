@@ -1,4 +1,5 @@
 import ConfigParser
+import pandas as pd
 import MySQLdb
 import hashlib
 from django.utils.encoding import smart_str, smart_unicode
@@ -58,22 +59,32 @@ class Database():
         pass
 
 
-    def clean_sql(self, feature_list, df, generator = null_generator):
+    def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator):
+        # remove the null rows
+        df = df[pd.notnull(df['jsFonts'])]
+        df = df[pd.notnull(df['fp2_platform'])]
         # add columns
         df['ipcity'] = 'ipcity'
         df['ipregion'] = 'ipregion'
         df['ipcountry'] = 'ipcountry'
         df['latitude'] = 'latitude'
         df['longitude'] = 'longitude'
+        df['deviceid'] = 'deviceid'
         # regenerate ip realted features
         # and generate the browser finergrpint
         for idx in tqdm(df.index):
             ip_related = generator(df.at[idx, 'IP'])
+            # the first 5 return values realted to IP location
             df.at[idx, 'ipcity'] = ip_related[0]
             df.at[idx, 'ipregion'] = ip_related[1]
             df.at[idx, 'ipcountry'] = ip_related[2]
             df.at[idx, 'latitude'] = ip_related[3] 
             df.at[idx, 'longitude'] = ip_related[4] 
+
+            device_str = get_device(df.iloc[idx])
+            df.at[idx, 'deviceid'] = device_str 
+            # hashlib.sha256(device_str).hexdigest()
+
             res_str = ""
             for feature in feature_list:
                 res_str += str(df.at[idx, feature] )
