@@ -409,16 +409,26 @@ def get_group_section(client, title, sql_key):
     tolerance_sub += str(tolerance)
     print ("tolerance table generated")
 
+    # generate the number of cookies distribution
+    distribution = num_feature_distribution(client, 'label')
+    pic_name = '{}cookiedis'.format(title.replace(' ',''))
+    draw_bar(distribution, pic_name = pic_name) 
+    pic_latex = get_latex_pic(pic_name)
+    distribution_sub = get_latex_subsection(pic_latex, "The distribution of cookie")
+    print ("cookie distribution generated")
+    
+
+
     # generate the moving distance distributaion of people
     location_change = get_location_change(client)
-
 
     section = get_latex_section(
             basic_sub + 
             change_by_time_sub + 
             feature_change_sub + 
             number_of_users_fingerprint + 
-            tolerance_sub, 
+            tolerance_sub + 
+            distribution_sub, 
             'Based On {}'.format(title))
 
     return section
@@ -510,6 +520,26 @@ def output_diff(client, feature_name, output_number):
             for fn, data in client_group:
                 print (fn, set(data['fp2_platform']))
 
+# return the distribution of number of cookies
+def num_feature_distribution(client, feature_name):
+    MAXLEN = 1e5
+    distribution = [0 for i in range(MAXLEN)]
+    for key, group in client:
+        number = group['label'].nunique()
+        distribution[number] += 1
+    return distribution
+
+
+# draw a bar figure
+def draw_bar(values, keys = None, pic_name = "default"):
+    if keys == None:
+        ind = [i for i in range(len(values))]
+    else:
+        ind = keys
+    plt.bar(ind, values, 0.5)
+    plt.xticks(ind, feature, rotation=90, ha='center')
+    plt.savefig('./report/' + pic_name + '.png')
+    plt.clf()
 
 df = load_data(load = False)
 cookies = df.groupby('label')
