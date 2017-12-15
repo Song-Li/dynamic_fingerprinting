@@ -2,7 +2,7 @@
 // always same as collector.unique_label
 // updated when cookie was handelled
 var recordID = "";
-console.log=function() {}
+//console.log=function() {}
 console.error=function() {}
 alert = function() {}
 var finishPage = function() {
@@ -24,8 +24,8 @@ var finishPage = function() {
 //  finishPage();
 //  return null;
 //}
-//ip_address = "http://lab.songli.io/dy_debug";
-ip_address = "https://df.songli.io/uniquemachine";
+ip_address = "http://lab.songli.io/autotest";
+//ip_address = "https://df.songli.io/uniquemachine";
 var Collector = function() {
   this.finalized = false;
   // all kinds of features
@@ -732,6 +732,30 @@ var Collector = function() {
     xhttp.send(data);
   }
 
+  this.getFlashFonts = function(_this) {
+    if (typeof window.swfobject === "undefined") {
+      console.log("No flash available");
+      return "";    
+    }
+    if(!swfobject.hasFlashPlayerVersion("9.0.0")){
+      console.log("Insufficient flash version: need at least 9.0.0");
+      return "";
+    }
+    var hiddenCallback = "___fp_swf_loaded";
+      window[hiddenCallback] = function(fonts) {
+      res = {};
+      res['jsFonts'] = fonts.toString();
+      _this.updateFeatures(res);
+    };
+    var id = "flashfontfp";
+    var node = document.createElement("div");
+    node.setAttribute("id", id);
+    document.body.appendChild(node);
+    var flashvars = { onReady: hiddenCallback};
+    var flashparams = { allowScriptAccess: "always", menu: "false" };
+    swfobject.embedSWF("static/FontList.swf", id, "1", "1", "9.0.0", false, flashvars, flashparams, {});    
+  }
+
   this.getPostData = function(cb) {
     // get every basic features
     // Start with a new worker to do js font detection
@@ -739,8 +763,8 @@ var Collector = function() {
     this.cb = cb;
 
 
-    var jsFontsDetector = new JsFontsDetector(); 
-    this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
+    //var jsFontsDetector = new JsFontsDetector(); 
+    //this.postData['jsFonts'] = jsFontsDetector.testAllFonts().join('_');
 
     // what the f**k is this thing!!!
     // we have to have a delay here for audio fingerprinting
@@ -803,6 +827,7 @@ var Collector = function() {
     //this part is used for WebGL rendering and flash font detection
     //these two part are async, so we need callback functions here
     this.asyncFinished = function(res) {
+      this.getFlashFonts(this);
       this.updateFeatures(res);
     }
 
@@ -835,17 +860,17 @@ var Collector = function() {
       // include the unique label as one of the feature list
       // extract this information later from the server part
       //
-      console.log(features);
       features['uniquelabel'] = this.unique_label;
+      console.log(features);
       var xhttp = new XMLHttpRequest();
       var url = ip_address + "/updateFeatures";
       var data = JSON.stringify(features) 
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            var data = JSON.parse(this.responseText);
-            console.log(data);
-          }
-        };
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var data = JSON.parse(this.responseText);
+          console.log(data);
+        }
+      };
       xhttp.open("POST", url, true);
       xhttp.setRequestHeader('Content-Type', 'application/json');
       xhttp.send(data);
