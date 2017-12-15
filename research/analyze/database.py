@@ -72,7 +72,7 @@ class Database():
         df['deviceid'] = 'deviceid'
         # regenerate ip realted features
         # and generate the browser finergrpint
-        for idx in tqdm(df.index):
+        for idx, row in tqdm(df.iterrows()):
             ip_related = generator(df.at[idx, 'IP'])
             # the first 5 return values realted to IP location
             df.at[idx, 'ipcity'] = ip_related[0]
