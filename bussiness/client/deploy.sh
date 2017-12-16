@@ -1,1 +1,1 @@
-cp -rf ./* ../../docs
+cp -rf ./* ~/site/dynamic_test/ 
