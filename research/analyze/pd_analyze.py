@@ -458,7 +458,8 @@ def get_device(row):
     try:
         platform = row['agent'].split(')')[0].split('(')[1].split(';')[0]
     except:
-        print ("error getting platform: ", row['agent'])
+        pass
+    #print ("error getting platform: ", row['agent'])
     id_str = platform
     gpu_type = row['gpu'].split('Direct')[0]
     id_str += gpu_type
@@ -466,7 +467,7 @@ def get_device(row):
     for key in keys:
         # we assume that all of the keys are not null
         try:
-            id_str += row[key]
+            id_str += str(row[key])
         except:
             pass
     return id_str
