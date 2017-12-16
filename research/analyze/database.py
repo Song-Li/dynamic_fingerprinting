@@ -72,7 +72,8 @@ class Database():
         df['deviceid'] = 'deviceid'
         # regenerate ip realted features
         # and generate the browser finergrpint
-        for idx in tqdm(df.index):
+        size = len(df)
+        for idx in tqdm(range(size)):
             ip_related = generator(df.at[idx, 'IP'])
             # the first 5 return values realted to IP location
             df.at[idx, 'ipcity'] = ip_related[0]
@@ -81,8 +82,13 @@ class Database():
             df.at[idx, 'latitude'] = ip_related[3] 
             df.at[idx, 'longitude'] = ip_related[4] 
 
-            device_str = get_device(df.iloc[idx])
-            df.at[idx, 'deviceid'] = device_str 
+            try:
+                device_str = get_device(df.iloc[idx])
+                df.at[idx, 'deviceid'] = device_str 
+            except:
+                print (idx)
+                print (df.at[idx, 'id'])
+                print (df.iloc[idx])
             # hashlib.sha256(device_str).hexdigest()
 
             res_str = ""
