@@ -1,1 +1,1 @@
-cp ./* ~/server/uniquemachine/
+cp ./* ~/server/autotest/

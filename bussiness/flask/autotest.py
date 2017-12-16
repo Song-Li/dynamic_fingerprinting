@@ -17,7 +17,7 @@ from datetime import datetime
 from urllib2 import urlopen
 from django.utils.encoding import smart_str, smart_unicode
 
-root = "/home/sol315/server/uniquemachine/"
+root = "/home/sol315/server/autotest/"
 pictures_path = "/home/sol315/pictures/"
 config = ConfigParser.ConfigParser()
 config.read(root + 'password.ignore')
@@ -26,7 +26,7 @@ mysql = MySQL()
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_USER'] = config.get('mysql', 'username')
 app.config['MYSQL_DATABASE_PASSWORD'] = config.get('mysql', 'password')
-app.config['MYSQL_DATABASE_DB'] = 'uniquemachine'
+app.config['MYSQL_DATABASE_DB'] = 'autotest'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 CORS(app)
