@@ -1,4 +1,5 @@
 import pandas as pd
+from math import sin, cos, sqrt, atan2, radians
 import re
 import json
 from urllib2 import urlopen
@@ -11,6 +12,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import bisect
+
+global df
 
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
@@ -352,17 +355,30 @@ def get_latex_pic(path):
     tail = r'\end{figure}'
     return head + body + tail
 
-def get_location_change(client):
-    for key, items in client:
-        pass
 
-def get_group_section(client, title, sql_key):
+
+def get_basic_numbers(client):
     # get the basic numbers of a group
     basic = basic_numbers(client)
     basic = get_latex_items(basic)
     basic_sub = get_latex_subsection(basic, 'Basic Numbers')
     print ('basic numbers generated')
+    return basic_sub
 
+def get_num_cookies_distribution(client, title):
+    # generate the number of cookies distribution
+    distribution = num_feature_distribution(client, 'label')
+    pic_name = '{}cookiedis'.format(title.replace(' ',''))
+    draw_bar(distribution, pic_name = pic_name) 
+    #draw_line(distribution, pic_name = pic_name)
+    pic_latex = get_latex_pic(pic_name)
+    distribution_sub = get_latex_subsection(pic_latex, "The distribution of cookie")
+    distribution_sub += str(distribution)
+    print ("cookie distribution generated")
+    return distribution_sub
+
+
+def get_fingerprint_change(client, title):
     # fingerprint change in days subsection
     # change_time = fingerprint_change_time(client)
     change_time = [1163, 25580, 25858, 26040, 26085, 26120, 26120, 26120, 26120, 26120]
@@ -373,15 +389,21 @@ def get_group_section(client, title, sql_key):
     pic_latex = get_latex_pic(pic_name)
     change_by_time_sub = get_latex_subsection(pic_latex, "How many users changed in days")
     print ('number of users changed generated')
+    return change_by_time_sub
 
 
+def get_feature_change(client, title):
     # generate the feature change
     pic_name = '{}featurechange'.format(title.replace(' ',''))
     get_every_change(client, pic_name) 
     pic_latex = get_latex_pic(pic_name)
     feature_change_sub = get_latex_subsection(pic_latex, "How many changes for every feature")
     print ('feature changes generated')
+    return feature_change_sub
 
+
+def get_num_of_users_per_fingerprint(client, title, sql_key):
+    global df
     # generate how many fingerprints have multiple users
     fingerprints = df.groupby('browserfingerprint')
     changes, less_than_n = num_of_users_per_fingerprint(fingerprints, sql_key)
@@ -392,9 +414,12 @@ def get_group_section(client, title, sql_key):
     plt.savefig('./report/' + pic_name + '.png')
     plt.clf()
     pic_latex = get_latex_pic(pic_name)
-    number_of_users_fingerprint = get_latex_subsection(pic_latex, "How many fingerprints have multiple users")
+    num_of_users = get_latex_subsection(pic_latex, "How many fingerprints have multiple users")
     print ("how many fingerprints have multiple users generated")
+    return num_of_users, less_than_n
 
+
+def get_tolerance(client, title, less_than_n):
     # generate the accuracy if we can tolerant
     # a number of users share the same fingerprint
     tolerance = [float(len(t)) / float(len(client)) * 100 for t in less_than_n]
@@ -408,26 +433,26 @@ def get_group_section(client, title, sql_key):
     tolerance_sub = get_latex_subsection(pic_latex, "The percentage of tolerance")
     tolerance_sub += str(tolerance)
     print ("tolerance table generated")
+    return tolerance_sub
 
-    # generate the number of cookies distribution
-    distribution = num_feature_distribution(client, 'label')
-    pic_name = '{}cookiedis'.format(title.replace(' ',''))
-    draw_bar(distribution, pic_name = pic_name) 
-    pic_latex = get_latex_pic(pic_name)
-    distribution_sub = get_latex_subsection(pic_latex, "The distribution of cookie")
-    print ("cookie distribution generated")
-    
-
-
+def get_group_section(client, title, sql_key):
+    location_change_sub = get_location_change(client, title)
+    basic_sub = get_basic_numbers(client)
+    num_of_users, less_than_n = get_num_of_users_per_fingerprint(client, title, sql_key)
+    distribution_sub = get_num_cookies_distribution(client, title)
+    change_by_time_sub = get_fingerprint_change(client, title)
+    feature_change_sub = get_feature_change(client, title)
+    tolerance_sub = get_tolerance(client, title, less_than_n)
     # generate the moving distance distributaion of people
-    location_change = get_location_change(client)
+    location_change = get_location_change(client, title)
 
     section = get_latex_section(
             basic_sub + 
             change_by_time_sub + 
             feature_change_sub + 
-            number_of_users_fingerprint + 
+            num_of_users +
             tolerance_sub + 
+            location_change_sub + 
             distribution_sub, 
             'Based On {}'.format(title))
 
@@ -436,8 +461,8 @@ def get_group_section(client, title, sql_key):
 # take in the grouped database
 def get_all(clientid, cookies):
     clientid_section = get_group_section(clientid, "Based on Client ID", 'clientid')
-    cookies_section = get_group_section(cookies, "Based on Cookie", 'label')
-    get_latex_doc(clientid_section + cookies_section)
+    # cookies_section = get_group_section(cookies, "Based on Cookie", 'label')
+    get_latex_doc(clientid_section) # + cookies_section)
 
 
 
@@ -523,30 +548,101 @@ def output_diff(client, feature_name, output_number):
 
 # return the distribution of number of cookies
 def num_feature_distribution(client, feature_name):
-    MAXLEN = 1e5
+    MAXLEN = int(1e5)
     distribution = [0 for i in range(MAXLEN)]
+    length = 0
     for key, group in client:
         number = group['label'].nunique()
         distribution[number] += 1
-    return distribution
+        length = max(length, number)
+    return distribution[:30]
 
 
-# draw a bar figure
-def draw_bar(values, keys = None, pic_name = "default"):
-    if keys == None:
-        ind = [i for i in range(len(values))]
-    else:
+def draw_line(values, keys = "T^T", pic_name = "default"):
+    plt.clf()
+    ind = [i for i in range(len(values))]
+    if keys != "T^T":
         ind = keys
-    plt.bar(ind, values, 0.5)
-    plt.xticks(ind, feature, rotation=90, ha='center')
+    plt.plot(ind, values)
     plt.savefig('./report/' + pic_name + '.png')
     plt.clf()
 
-df = load_data(load = False)
-cookies = df.groupby('label')
-feature_names = list(df.columns.values)
-df = df[pd.notnull(df['clientid'])]
-clientid = df.groupby(['clientid', 'fp2_platform'])
-#clientid = df.groupby('clientid')
-output_diff(clientid, 'agent', 100)
-#get_all(clientid, cookies)
+
+# draw a bar figure
+def draw_bar(values, keys = "T^T", pic_name = "default"):
+    plt.clf()
+    ind = [i for i in range(len(values))]
+    if keys == "T^T":
+        keys = [i for i in range(len(values))]
+
+    plt.bar(ind, values, 0.5)
+    plt.xticks(ind, keys, rotation=90, ha='center')
+    plt.savefig('./report/' + pic_name + '.png')
+    plt.clf()
+
+# get distance by ip change
+def ip_distance(lat1, lon1, lat2, lon2):
+    # approximate radius of earth in km
+    R = 6373.0
+
+    lat1 = radians(lat1)
+    lon1 = radians(lon1)
+    lat2 = radians(lat2)
+    lon2 = radians(lon2)
+
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+
+    a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+    distance = R * c
+    return distance
+
+def get_location_change(client, title):
+    pre_row = ""
+    cnt = [0 for i in range(1000)] 
+    for key, items in client:
+        if items['IP'].nunique() > 1:
+            pre_row = ""
+            for name, row in items.iterrows():
+                if type(pre_row) == type("") or pre_row['IP'] == row['IP']:
+                    pre_row = row
+                    continue
+                seconds_change = float((row['time'] - pre_row['time']).seconds)
+                distance_change = ip_distance(pre_row['latitude'], pre_row['longitude'],
+                        row['latitude'],
+                        row['longitude']) 
+                if distance_change == 0:
+                    continue
+
+                if seconds_change == 0:
+                    seconds_change = 0.1
+
+                km_per_hour = distance_change / (seconds_change / 60) * 60
+                pre_row = row
+                if km_per_hour > 999:
+                    km_per_hour = 999 
+                cnt[int(km_per_hour)] += 1
+    pic_name = '{}locationchange'.format(title.replace(' ',''))
+    draw_line(cnt, pic_name = pic_name)
+    pic_latex = get_latex_pic(pic_name)
+    location_change = get_latex_subsection(pic_latex, "location change speed per hour")
+    return location_change
+
+
+
+
+def main():
+    global df
+    df = load_data(load = True)
+    cookies = df.groupby('label')
+    feature_names = list(df.columns.values)
+    df = df[pd.notnull(df['clientid'])]
+    df = df.reset_index(drop = True)
+    clientid = df.groupby('deviceid')
+    #clientid = df.groupby('clientid')
+    #output_diff(clientid, 'agent', 100)
+    get_all(clientid, cookies)
+
+if __name__ == '__main__':
+    main()
