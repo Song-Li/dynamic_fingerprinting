@@ -435,8 +435,18 @@ def get_tolerance(client, title, less_than_n):
     print ("tolerance table generated")
     return tolerance_sub
 
+def get_num_device_distribution(title):
+    pic_name = '{}numdevice'.format(title.replace(' ',''))
+    num_device_distribution(pic_name) 
+    pic_latex = get_latex_pic(pic_name)
+    device_distribution = get_latex_subsection(pic_latex, "Number of device distribution")
+    print ('number of device generated')
+    return device_distribution 
+    
+
 def get_group_section(client, title, sql_key):
     location_change_sub = get_location_change(client, title)
+    num_device_dis_sub = get_num_device_distribution(title) 
     basic_sub = get_basic_numbers(client)
     num_of_users, less_than_n = get_num_of_users_per_fingerprint(client, title, sql_key)
     distribution_sub = get_num_cookies_distribution(client, title)
@@ -444,7 +454,7 @@ def get_group_section(client, title, sql_key):
     feature_change_sub = get_feature_change(client, title)
     tolerance_sub = get_tolerance(client, title, less_than_n)
     # generate the moving distance distributaion of people
-    location_change = get_location_change(client, title)
+    #location_change = get_location_change(client, title)
 
     section = get_latex_section(
             basic_sub + 
@@ -453,6 +463,7 @@ def get_group_section(client, title, sql_key):
             num_of_users +
             tolerance_sub + 
             location_change_sub + 
+            num_device_dis_sub + 
             distribution_sub, 
             'Based On {}'.format(title))
 
@@ -553,6 +564,19 @@ def num_feature_distribution(client, feature_name):
     length = 0
     for key, group in client:
         number = group['label'].nunique()
+        distribution[number] += 1
+        length = max(length, number)
+    return distribution[:30]
+
+
+def num_device_distribution(client):
+    global df
+    client = df.groupby('clientid')
+    MAXLEN = int(1e5)
+    distribution = [0 for i in range(MAXLEN)]
+    length = 0
+    for key, group in client:
+        number = group['deviceid'].nunique()
         distribution[number] += 1
         length = max(length, number)
     return distribution[:30]
