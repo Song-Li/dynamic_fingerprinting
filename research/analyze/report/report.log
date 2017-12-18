@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  11 DEC 2017 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  18 DEC 2017 00:50
 entering extended mode
 **./report.tex
 (report.tex
@@ -261,60 +261,64 @@ Package pdftex.def Info: BasedonClientIDtolerance.png  used on input line 19.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]\OT1/ptm/m/n/10 [0.0, 75.06097537406605, 83.55848804264218,
+[]\OT1/ptm/m/n/10 [0.0, 69.42262360688053, 77.2018264189482,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 85.87342633285789, 87.46593689483633,
+\OT1/ptm/m/n/10 79.3862852324884, 80.74659921504362,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 88.57798856639262, 89.38970511497385,
+\OT1/ptm/m/n/10 81.80171835384789, 82.6472386991812,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 90.05647227987986, 90.65405027231157,
+\OT1/ptm/m/n/10 83.25733150453932, 83.80834476329588,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 91.14803777187672, 91.57863407431458,
+\OT1/ptm/m/n/10 84.3035441790318, 84.72986693742318,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 91.99802095774821, 92.33005167928692,
+\OT1/ptm/m/n/10 85.09621950278179, 85.45129054667878,
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 85.77073573332858, 86.03852342696996,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 86.31165499919842, 86.50225333547088,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/ptm/m/n/10 86.6655385145205, 86.83535510073212,
+ []
+
+<BasedonClientIDlocationchange.png, id=6, 462.528pt x 346.896pt>
+File: BasedonClientIDlocationchange.png Graphic file (type png)
+<use BasedonClientIDlocationchange.png>
+Package pdftex.def Info: BasedonClientIDlocationchange.png  used on input line 
+20.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 [1{/home/sol315/.miktex/texmfs/data/pdftex/config/pdftex.map}
 
 
  <./BasedonClientIDchangebytime.png> <./BasedonClientIDfeaturechange.png> <./Ba
 sedonClientIDnumberofusersfingerprint.png> <./BasedonClientIDtolerance.png>]
-<BasedonCookiechangebytime.png, id=17, 462.528pt x 346.896pt>
-File: BasedonCookiechangebytime.png Graphic file (type png)
-<use BasedonCookiechangebytime.png>
-Package pdftex.def Info: BasedonCookiechangebytime.png  used on input line 22.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<BasedonCookiefeaturechange.png, id=18, 462.528pt x 346.896pt>
-File: BasedonCookiefeaturechange.png Graphic file (type png)
-<use BasedonCookiefeaturechange.png>
-Package pdftex.def Info: BasedonCookiefeaturechange.png  used on input line 23.
-
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<BasedonCookienumberofusersfingerprint.png, id=19, 462.528pt x 346.896pt>
-File: BasedonCookienumberofusersfingerprint.png Graphic file (type png)
-<use BasedonCookienumberofusersfingerprint.png>
-Package pdftex.def Info: BasedonCookienumberofusersfingerprint.png  used on inp
-ut line 24.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<BasedonCookietolerance.png, id=20, 462.528pt x 346.896pt>
-File: BasedonCookietolerance.png Graphic file (type png)
-<use BasedonCookietolerance.png>
-Package pdftex.def Info: BasedonCookietolerance.png  used on input line 25.
+<BasedonClientIDcookiedis.png, id=18, 462.528pt x 346.896pt>
+File: BasedonClientIDcookiedis.png Graphic file (type png)
+<use BasedonClientIDcookiedis.png>
+Package pdftex.def Info: BasedonClientIDcookiedis.png  used on input line 21.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 
@@ -328,69 +332,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+[2
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]\OT1/ptm/m/n/10 [0.0, 32.369058054347036, 43.00509051138328,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 47.80030398314422, 52.02309628545465,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 54.71181915415484, 57.07983176382601,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 58.772004599956574, 60.33389894570925,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 61.60162124343581, 62.67859009722635,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 63.59005701694424, 64.44378322302552,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 65.18813983224634, 65.85256013317357,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 66.46036558396126, 67.05932496441467,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/ptm/m/n/10 67.57834803657448, 68.09447603117033,
- []
-
-[2 <./BasedonCookiechangebytime.png> <./BasedonCookiefeaturechange.png> <./Base
-donCookienumberofusersfingerprint.png> <./BasedonCookietolerance.png>]
+ <./BasedonClientIDlocationchange.png> <./BasedonClientIDcookiedis.png>]
 (report.aux) ) 
 Here is how much of TeX's memory you used:
- 2348 strings out of 495212
- 39842 string characters out of 3181293
+ 2338 strings out of 495212
+ 39479 string characters out of 3181293
  93834 words of memory out of 3000000
- 5647 multiletter control sequences out of 15000+200000
+ 5639 multiletter control sequences out of 15000+200000
  30804 words of font info for 60 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 41i,7n,25p,567b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,25p,577b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/sol315/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi6
 00/cmsy7.pk>{/home/sol315/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</
 home/sol315/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/sol3
 15/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 142078 bytes).
+Output written on report.pdf (2 pages, 116687 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
