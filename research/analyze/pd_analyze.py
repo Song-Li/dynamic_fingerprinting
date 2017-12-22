@@ -658,7 +658,9 @@ def get_location_change(client, title):
     location_change = get_latex_subsection(pic_latex, "location change speed per hour")
     return location_change
 
-def os_changed  
+def os_changed(agent):
+#TODO doing
+    pass
 
 def get_change_agent(agent):
     os_changed = get_os_changed(agent)
