@@ -8,7 +8,6 @@ from database import Database
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-
 import numpy as np
 import os
 import bisect
@@ -437,16 +436,18 @@ def get_tolerance(client, title, less_than_n):
 
 def get_num_device_distribution(title):
     pic_name = '{}numdevice'.format(title.replace(' ',''))
-    num_device_distribution(pic_name) 
+    distribution = num_device_distribution(pic_name) 
+    draw_bar(distribution, pic_name = pic_name) 
     pic_latex = get_latex_pic(pic_name)
     device_distribution = get_latex_subsection(pic_latex, "Number of device distribution")
+    device_distribution += str(distribution)
     print ('number of device generated')
     return device_distribution 
     
 
 def get_group_section(client, title, sql_key):
-    location_change_sub = get_location_change(client, title)
     num_device_dis_sub = get_num_device_distribution(title) 
+    location_change_sub = get_location_change(client, title)
     basic_sub = get_basic_numbers(client)
     num_of_users, less_than_n = get_num_of_users_per_fingerprint(client, title, sql_key)
     distribution_sub = get_num_cookies_distribution(client, title)
@@ -505,10 +506,8 @@ def get_device(row):
         platform = row['agent'].split(')')[0].split('(')[1].split(';')[0]
     except:
         pass
+
     #print ("error getting platform: ", row['agent'])
-    id_str = platform
-    gpu_type = row['gpu'].split('Direct')[0]
-    id_str += gpu_type
     keys = ['clientid', 'inc', 'fp2_platform']
     for key in keys:
         # we assume that all of the keys are not null
@@ -516,6 +515,10 @@ def get_device(row):
             id_str += str(row[key])
         except:
             pass
+
+    id_str += platform
+    gpu_type = row['gpu'].split('Direct')[0]
+    id_str += gpu_type
     return id_str
     
 
@@ -542,9 +545,9 @@ def load_data(load = True, file_path = None):
 
 # output the detiled difference of a feature
 def output_diff(client, feature_name, output_number):
-    if feature_name not in counted_features:
-        print ("Wrong feature name {}".format(feature_name))
-        return
+    #if feature_name not in counted_features:
+    #    print ("Wrong feature name {}".format(feature_name))
+    #    return
 
     cnt = 1 
     for key, items in client:
@@ -555,7 +558,7 @@ def output_diff(client, feature_name, output_number):
                  return 
             cnt += 1
             for fn, data in client_group:
-                print (fn, set(data['fp2_platform']))
+                print (fn, set(data['time']))
 
 # return the distribution of number of cookies
 def num_feature_distribution(client, feature_name):
@@ -579,7 +582,9 @@ def num_device_distribution(client):
         number = group['deviceid'].nunique()
         distribution[number] += 1
         length = max(length, number)
-    return distribution[:30]
+        if number > 10:
+            print key
+    return distribution[:length + 1]
 
 
 def draw_line(values, keys = "T^T", pic_name = "default"):
@@ -624,7 +629,7 @@ def ip_distance(lat1, lon1, lat2, lon2):
 
 def get_location_change(client, title):
     pre_row = ""
-    cnt = [0 for i in range(1000)] 
+    cnt = [0 for i in range(2000)] 
     for key, items in client:
         if items['IP'].nunique() > 1:
             pre_row = ""
@@ -653,20 +658,26 @@ def get_location_change(client, title):
     location_change = get_latex_subsection(pic_latex, "location change speed per hour")
     return location_change
 
+def os_changed  
+
+def get_change_agent(agent):
+    os_changed = get_os_changed(agent)
+    browser = get_browser_agent(agent)
+    browser_changed = get_browser_changed(agent)
 
 
 
 def main():
     global df
-    df = load_data(load = True)
+    df = load_data(load = False)
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('deviceid')
     #clientid = df.groupby('clientid')
-    #output_diff(clientid, 'agent', 100)
-    get_all(clientid, cookies)
+    output_diff(clientid, 'agent', 1000)
+    #get_all(clientid, cookies)
 
 if __name__ == '__main__':
     main()
