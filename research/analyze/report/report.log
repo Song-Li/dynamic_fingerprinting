@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  18 DEC 2017 00:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  20 DEC 2017 14:59
 entering extended mode
 **./report.tex
 (report.tex
@@ -315,10 +315,15 @@ Package pdftex.def Info: BasedonClientIDlocationchange.png  used on input line
 
  <./BasedonClientIDchangebytime.png> <./BasedonClientIDfeaturechange.png> <./Ba
 sedonClientIDnumberofusersfingerprint.png> <./BasedonClientIDtolerance.png>]
-<BasedonClientIDcookiedis.png, id=18, 462.528pt x 346.896pt>
+<BasedonClientIDnumdevice.png, id=18, 462.528pt x 346.896pt>
+File: BasedonClientIDnumdevice.png Graphic file (type png)
+<use BasedonClientIDnumdevice.png>
+Package pdftex.def Info: BasedonClientIDnumdevice.png  used on input line 21.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<BasedonClientIDcookiedis.png, id=19, 462.528pt x 346.896pt>
 File: BasedonClientIDcookiedis.png Graphic file (type png)
 <use BasedonClientIDcookiedis.png>
-Package pdftex.def Info: BasedonClientIDcookiedis.png  used on input line 21.
+Package pdftex.def Info: BasedonClientIDcookiedis.png  used on input line 22.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 
@@ -334,23 +339,24 @@ Before submitting the final camera ready copy, remember to:
 
 [2
 
- <./BasedonClientIDlocationchange.png> <./BasedonClientIDcookiedis.png>]
-(report.aux) ) 
+ <./BasedonClientIDlocationchange.png> <./BasedonClientIDnumdevice.png> <./Base
+donClientIDcookiedis.png>] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 2338 strings out of 495212
- 39479 string characters out of 3181293
+ 2343 strings out of 495212
+ 39638 string characters out of 3181293
  93834 words of memory out of 3000000
- 5639 multiletter control sequences out of 15000+200000
+ 5643 multiletter control sequences out of 15000+200000
  30804 words of font info for 60 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
  41i,7n,25p,577b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/sol315/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi6
-00/cmsy7.pk>{/home/sol315/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</
-home/sol315/.miktex/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/sol3
-15/.miktex/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 116687 bytes).
+ </home/sol315/.miktex/texmfs/data/fon
+ts/pk/ljfour/public/cm/dpi600/cmsy7.pk>{/home/sol315/.miktex/texmfs/install/fon
+ts/enc/dvips/base/8r.enc}</home/sol315/.miktex/texmfs/install/fonts/type1/urw/t
+imes/utmr8a.pfb></home/sol315/.miktex/texmfs/install/fonts/type1/urw/times/utmr
+i8a.pfb>
+Output written on report.pdf (2 pages, 127564 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
