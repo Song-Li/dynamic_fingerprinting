@@ -756,6 +756,7 @@ def get_item_change(client, title, key, sep = '_', N = 10):
             pic_name = '{}{}change'.format(title, key))
     return cnts
 
+
 def main():
     global df
     df = load_data(load = True)
