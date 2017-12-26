@@ -1,6 +1,9 @@
 import pandas as pd
+import operator
+from tqdm import *
 from math import sin, cos, sqrt, atan2, radians
 import re
+from extractinfo import *
 import json
 from urllib2 import urlopen
 import datetime
@@ -445,7 +448,51 @@ def get_num_device_distribution(title):
     return device_distribution 
     
 
+def get_agent_change_distribution(client, title):
+    print ("start generating agent change")
+    cnts = [0 for i in range(6)]
+    for key, items in tqdm(client):
+        if items['agent'].nunique() > 1:
+            client_group = items.groupby('agent')
+            pre = ""
+            for agent, data in client_group:
+                if pre == "":
+                    pre = agent
+                    continue
+                browser_change, os_change = get_agent_change(pre, agent) 
+                pre = agent
+
+                if browser_change == 0 and os_change == 3:
+                # nothing changed
+                    cnts[0] += 1
+                elif browser_change != 0 and os_change != 3:
+                # both changed
+                    cnts[3] += 1
+                else:
+                    cnts[browser_change] += 1
+                    cnts[os_change] += 1 
+
+    res = cnts 
+    draw_labels = [
+            "nothing\n changed",
+            "browser",
+            "browser\n version",
+            "both\n changed",
+            "os",
+            "os version"
+            ]
+    pic_name = '{}agentdis'.format(title.replace(' ', ""))
+    draw_bar(res, keys = draw_labels, pic_name = pic_name)
+    pic_latex = get_latex_pic(pic_name)
+    agent_change = get_latex_subsection(pic_latex, "Agent change")
+    agent_change += str(res)
+    print ('agent change generated')
+    return agent_change
+
+
+
 def get_group_section(client, title, sql_key):
+    agent_change_sub = get_agent_change_distribution(client, title)
     num_device_dis_sub = get_num_device_distribution(title) 
     location_change_sub = get_location_change(client, title)
     basic_sub = get_basic_numbers(client)
@@ -465,6 +512,7 @@ def get_group_section(client, title, sql_key):
             tolerance_sub + 
             location_change_sub + 
             num_device_dis_sub + 
+            agent_change_sub +
             distribution_sub, 
             'Based On {}'.format(title))
 
@@ -558,7 +606,7 @@ def output_diff(client, feature_name, output_number):
                  return 
             cnt += 1
             for fn, data in client_group:
-                print (fn, set(data['time']))
+                print (fn, get_os_version(fn), get_browser_version(fn))
 
 # return the distribution of number of cookies
 def num_feature_distribution(client, feature_name):
@@ -605,6 +653,7 @@ def draw_bar(values, keys = "T^T", pic_name = "default"):
         keys = [i for i in range(len(values))]
 
     plt.bar(ind, values, 0.5)
+    plt.gcf().subplots_adjust(bottom=0.5)
     plt.xticks(ind, keys, rotation=90, ha='center')
     plt.savefig('./report/' + pic_name + '.png')
     plt.clf()
@@ -649,8 +698,8 @@ def get_location_change(client, title):
 
                 km_per_hour = distance_change / (seconds_change / 60) * 60
                 pre_row = row
-                if km_per_hour > 999:
-                    km_per_hour = 999 
+                if km_per_hour > 1999:
+                    km_per_hour = 1999 
                 cnt[int(km_per_hour)] += 1
     pic_name = '{}locationchange'.format(title.replace(' ',''))
     draw_line(cnt, pic_name = pic_name)
@@ -658,28 +707,73 @@ def get_location_change(client, title):
     location_change = get_latex_subsection(pic_latex, "location change speed per hour")
     return location_change
 
-def os_changed(agent):
-#TODO doing
-    pass
-
 def get_change_agent(agent):
     os_changed = get_os_changed(agent)
     browser = get_browser_agent(agent)
     browser_changed = get_browser_changed(agent)
 
 
+# the two strs put in this function is separated by _
+# if it's separated by ' ', trans them before this function
+# or use the sep param
+# return the diff of str1 to str2 and str2 to str1 
+def get_change_strs(str1, str2, sep = '_'):
+    words_1 = set(str1.split(sep))
+    words_2 = set(str2.split(sep))
+    return words_1 - words_2, words_2 - words_1
+
+def get_item_change(client, title, key, sep = '_', N = 10):
+    print ("start generating {} change".format(key))
+    cnts = {}
+    for cur_id, items in tqdm(client):
+        if items[key].nunique() > 1:
+            pre = ""
+            for name, row in items.iterrows():
+                cur_key = row[key]
+                if pre == "":
+                    pre = cur_key 
+                    continue
+                if pre == cur_key:
+                    continue
+
+                str1_str2, str2_str1 = get_change_strs(pre, cur_key, sep = sep) 
+                # assume no downgrading
+                part1 = '~'.join(str1_str2)
+                part2 = '~'.join(str2_str1)
+
+                pre = cur_key 
+                res = min(part1, part2) + '\n' + max(part1, part2)
+                if res not in cnts:
+                    cnts[res] = 0
+                cnts[res] += 1
+    cnts = sorted(cnts.items(), key = operator.itemgetter(1), reverse = True)[:N]
+    print ("finished generating {} change".format(key))
+    values = [c[1] for c in cnts] 
+    keys = [c[0] for c in cnts]
+    print (keys, values)
+    draw_bar(values, 
+            keys = keys,
+            pic_name = '{}{}change'.format(title, key))
+    return cnts
 
 def main():
     global df
-    df = load_data(load = False)
+    df = load_data(load = True)
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('deviceid')
     #clientid = df.groupby('clientid')
-    output_diff(clientid, 'agent', 1000)
+    #output_diff(clientid, 'inc', 100)
+    #output_diff(clientid, 'gpu', 100)
     #get_all(clientid, cookies)
+    get_item_change(clientid, 'radom', 'gpu', sep = ' ')
+    get_item_change(clientid, 'radom', 'agent', sep = ' ')
+    get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
+    get_item_change(clientid, 'radom', 'audio', sep = ' ')
+    get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
+    get_item_change(clientid, 'radom', 'ipcity', sep = '~')
 
 if __name__ == '__main__':
     main()
