@@ -728,10 +728,12 @@ def get_item_change(client, title, key, sep = '_', N = 10):
     for cur_id, items in tqdm(client):
         if items[key].nunique() > 1:
             pre = ""
+            pre_row = ""
             for name, row in items.iterrows():
                 cur_key = row[key]
                 if pre == "":
                     pre = cur_key 
+                    pre_row = row
                     continue
                 if pre == cur_key:
                     continue
@@ -742,6 +744,13 @@ def get_item_change(client, title, key, sep = '_', N = 10):
                 part2 = '~'.join(str2_str1)
 
                 pre = cur_key 
+                pre_row = row
+                
+                if max(part1, part2) == 'Arial Black~Arial Narrow':
+                    print get_browser_version(pre_row['agent']), get_browser_version(row['agent'])
+                    if get_os_from_agent(row['agent']) != 'mac' or get_browser_from_agent(row['agent']) != 'safari':
+                        print row['agent']
+
                 res = min(part1, part2) + '\n' + max(part1, part2)
                 if res not in cnts:
                     cnts[res] = 0
@@ -756,6 +765,31 @@ def get_item_change(client, title, key, sep = '_', N = 10):
             pic_name = '{}{}change'.format(title, key))
     return cnts
 
+# input two lists of fonts
+# return the intersection of these two sets
+def get_fonts_intersection(fonts_1, fonts_2):
+    font_list1 = fonts_1.split('_')
+    font_list2 = fonts_2.split('_')
+    return set(font_list1) & set(font_list2) 
+
+# return the os fonts and the conts of the 
+# contributors
+def get_os_fonts():
+    fonts = {}
+    cnts = {}
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        os = get_os_version(row['agent'])
+        cur_fonts = set(row['jsFonts'].split('_'))
+        if os not in fonts:
+            fonts[os] = cur_fonts
+            cnts[os] = 1
+        else:
+            fonts[os] &= cur_fonts 
+            cnts[os] += 1
+
+    return fonts, cnts
+
 
 def main():
     global df
@@ -769,12 +803,18 @@ def main():
     #output_diff(clientid, 'inc', 100)
     #output_diff(clientid, 'gpu', 100)
     #get_all(clientid, cookies)
+    fonts, cnts = get_os_fonts()
+    for os in fonts:
+        print (os, cnts[os], fonts[os])
+
+    '''
+    get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
     get_item_change(clientid, 'radom', 'gpu', sep = ' ')
     get_item_change(clientid, 'radom', 'agent', sep = ' ')
-    get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
     get_item_change(clientid, 'radom', 'audio', sep = ' ')
     get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
     get_item_change(clientid, 'radom', 'ipcity', sep = '~')
+    '''
 
 if __name__ == '__main__':
     main()
