@@ -877,17 +877,15 @@ def main():
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
     #output_diff(clientid, 'gpu', 100)
-    get_all(clientid, cookies)
+    #get_all(clientid, cookies)
     #fonts, cnts = get_os_fonts()
     #get_browser_update_influence(clientid, method = 'intersection')
-    '''
     get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
     get_item_change(clientid, 'radom', 'gpu', sep = ' ')
     get_item_change(clientid, 'radom', 'agent', sep = ' ')
     get_item_change(clientid, 'radom', 'audio', sep = ' ')
     get_item_change(clientid, 'radom', 'ipcity', sep = '~')
     get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
-    '''
 
 if __name__ == '__main__':
     main()
