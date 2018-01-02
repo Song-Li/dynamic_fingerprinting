@@ -813,7 +813,7 @@ def diff_record(row_1, row_2):
     return res
 
 #return the update of browsers fonts
-def get_browser_update_fonts(browserid):
+def get_browser_update_influence(browserid, method = "all"):
     res = {}
     for browser, group in browserid:
         if group['agent'].nunique() > 1:
@@ -839,23 +839,36 @@ def get_browser_update_fonts(browserid):
                     for key in diff:
                         if change_key not in res:
                             res[change_key] = {} 
+                            res[change_key]['cnt'] = set() 
                         if key not in res[change_key]:
                             res[change_key][key] = {} 
-                        if str(diff[key]) not in res[change_key][key]:
-                            res[change_key][key][str(diff[key])] = 0
-                        res[change_key][key][str(diff[key])] += 1
+                        res[change_key]['cnt'].add(browser) 
+                        if method == "all":
+                            if str(diff[key]) not in res[change_key][key]:
+                                res[change_key][key][str(diff[key])] = 0
+                            res[change_key][key][str(diff[key])] += 1
+                        else:
+                            if len(res[change_key][key]) == 0:
+                                res[change_key][key] = diff[key]
+                            else:
+                                after_0 = res[change_key][key][0] & diff[key][0]
+                                after_1 = res[change_key][key][1] & diff[key][1]
+                                res[change_key][key] = (after_0, after_1)
                 pre_row = row
 
     for key in res:
         print ('============================')
         print (key)
+        print ('browser count: {}'.format(len(res[key]['cnt'])))
         for k in res[key]:
+            if k == 'cnt':
+                continue
             print (k, res[key][k])
     return res
 
 def main():
     global df
-    df = load_data(load = False)
+    df = load_data(load = True)
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
@@ -864,18 +877,16 @@ def main():
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
     #output_diff(clientid, 'gpu', 100)
-    #get_all(clientid, cookies)
+    get_all(clientid, cookies)
     #fonts, cnts = get_os_fonts()
-    #get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
-    get_browser_update_fonts(clientid)
-
-
+    #get_browser_update_influence(clientid, method = 'intersection')
     '''
+    get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
     get_item_change(clientid, 'radom', 'gpu', sep = ' ')
     get_item_change(clientid, 'radom', 'agent', sep = ' ')
     get_item_change(clientid, 'radom', 'audio', sep = ' ')
-    get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
     get_item_change(clientid, 'radom', 'ipcity', sep = '~')
+    get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
     '''
 
 if __name__ == '__main__':
