@@ -718,6 +718,12 @@ def get_change_agent(agent):
 # or use the sep param
 # return the diff of str1 to str2 and str2 to str1 
 def get_change_strs(str1, str2, sep = '_'):
+    str1 = str(str1)
+    str2 = str(str2)
+    if str1 == None:
+        str1 = ""
+    if str2 == None:
+        str2 = ""
     words_1 = set(str1.split(sep))
     words_2 = set(str2.split(sep))
     return words_1 - words_2, words_2 - words_1
@@ -737,24 +743,27 @@ def get_item_change(client, title, key, sep = '_', N = 10):
                     continue
                 if pre == cur_key:
                     continue
-
                 str1_str2, str2_str1 = get_change_strs(pre, cur_key, sep = sep) 
                 # assume no downgrading
                 part1 = '~'.join(str1_str2)
                 part2 = '~'.join(str2_str1)
-
                 pre = cur_key 
-                pre_row = row
                 
-                if max(part1, part2) == 'Arial Black~Arial Narrow':
-                    print get_browser_version(pre_row['agent']), get_browser_version(row['agent'])
-                    if get_os_from_agent(row['agent']) != 'mac' or get_browser_from_agent(row['agent']) != 'safari':
-                        print row['agent']
+                if max(part1, part2) == "Tifinagh":
+                    diff = diff_record(pre_row, row)
+                    print cur_id
+                    print pre_row['agent']
+                    print row['agent']
+                    print pre_row['time'], row['time'], diff
+                    print '=============================='
 
                 res = min(part1, part2) + '\n' + max(part1, part2)
                 if res not in cnts:
-                    cnts[res] = 0
-                cnts[res] += 1
+                    cnts[res] = [] 
+                cnts[res].append(cur_id) 
+                pre_row = row
+    for cnt in cnts:
+        cnts[cnt] = len(set(cnts[cnt]))
     cnts = sorted(cnts.items(), key = operator.itemgetter(1), reverse = True)[:N]
     print ("finished generating {} change".format(key))
     values = [c[1] for c in cnts] 
@@ -787,28 +796,81 @@ def get_os_fonts():
         else:
             fonts[os] &= cur_fonts 
             cnts[os] += 1
-
     return fonts, cnts
 
 
+# input two df rows
+# return the diff of these two rows
+# the return is a dict of changes
+def diff_record(row_1, row_2):
+    res = {} 
+    for key in counted_features:
+        if row_1[key] != row_2[key]:
+            if key == 'jsFonts' or key == 'langsdetected':
+                res[key] = get_change_strs(row_1[key], row_2[key], sep = '_')
+            else:
+                res[key] = get_change_strs(row_1[key], row_2[key], sep = ' ')
+    return res
+
+#return the update of browsers fonts
+def get_browser_update_fonts(browserid):
+    res = {}
+    for browser, group in browserid:
+        if group['agent'].nunique() > 1:
+            first = True
+            for name, row in group.iterrows():
+                if first:
+                    first = False
+                    pre_row = row
+                    continue
+                # only keep the int number
+                browser_v1 = get_browser_version(pre_row['agent']).split('.')[0]
+                browser_v2 = get_browser_version(row['agent']).split('.')[0]
+                if browser_v1 == 'other' or browser_v2 == 'other':
+                    continue
+                try:
+                    browser_v1_int = int(browser_v1.split('/')[1])
+                    browser_v2_int = int(browser_v2.split('/')[1])
+                except:
+                    pass
+                if browser_v1_int < browser_v2_int:
+                    diff = diff_record(pre_row, row)
+                    change_key = browser_v1 + '~' + browser_v2
+                    for key in diff:
+                        if change_key not in res:
+                            res[change_key] = {} 
+                        if key not in res[change_key]:
+                            res[change_key][key] = {} 
+                        if str(diff[key]) not in res[change_key][key]:
+                            res[change_key][key][str(diff[key])] = 0
+                        res[change_key][key][str(diff[key])] += 1
+                pre_row = row
+
+    for key in res:
+        print ('============================')
+        print (key)
+        for k in res[key]:
+            print (k, res[key][k])
+    return res
+
 def main():
     global df
-    df = load_data(load = True)
+    df = load_data(load = False)
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
-    clientid = df.groupby('deviceid')
+    clientid = df.groupby('browserid')
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
     #output_diff(clientid, 'gpu', 100)
     #get_all(clientid, cookies)
-    fonts, cnts = get_os_fonts()
-    for os in fonts:
-        print (os, cnts[os], fonts[os])
+    #fonts, cnts = get_os_fonts()
+    #get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
+    get_browser_update_fonts(clientid)
+
 
     '''
-    get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
     get_item_change(clientid, 'radom', 'gpu', sep = ' ')
     get_item_change(clientid, 'radom', 'agent', sep = ' ')
     get_item_change(clientid, 'radom', 'audio', sep = ' ')

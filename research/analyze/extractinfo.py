@@ -24,6 +24,11 @@ def get_browser_from_agent(agent):
     browser_list = [
             'firefox',
             'opera',
+            # opr just like opera
+            # use space and / to make it stable
+            'opr/',
+            # added samsung browser
+            'samsungbrowser',
             'chrome',
             'safari',
             'trident'
