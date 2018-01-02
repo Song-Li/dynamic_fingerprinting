@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  29 DEC 2017 19:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6530) (preloaded format=pdflatex 2017.12.10)  2 JAN 2018 14:24
 entering extended mode
 **./report.tex
 (report.tex
@@ -261,47 +261,47 @@ Package pdftex.def Info: BasedonClientIDtolerance.png  used on input line 19.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[]\OT1/ptm/m/n/10 [0.0, 67.7753717460304, 75.27491620088058,
+[]\OT1/ptm/m/n/10 [0.0, 64.78167536359268, 73.49196268813492,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 77.53950529915544, 78.92987147270331,
+\OT1/ptm/m/n/10 75.90375992137753, 77.41028804895069,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 80.00029663405105, 80.86074726355088,
+\OT1/ptm/m/n/10 78.55871692773543, 79.51421168664021,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 81.55275212834931, 82.09622808615948,
+\OT1/ptm/m/n/10 80.28232612385936, 80.89783184547885,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 82.62042283065162, 83.0810531356338,
+\OT1/ptm/m/n/10 81.46721689513706, 81.99241302872763,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 83.47006750543477, 83.83641055847717,
+\OT1/ptm/m/n/10 82.43575100632408, 82.85663232165668,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 84.1595297926528, 84.43455193426588,
+\OT1/ptm/m/n/10 83.22704651426722, 83.5573767720842,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 84.70703149829859, 84.9642555968489,
+\OT1/ptm/m/n/10 83.83965460204621, 84.1301423945563,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/ptm/m/n/10 85.17698458774223, 85.38759476398523,
+\OT1/ptm/m/n/10 84.35205285284125, 84.59666144287678,
  []
 
 <BasedonClientIDlocationchange.png, id=6, 462.528pt x 346.896pt>
@@ -351,13 +351,13 @@ Here is how much of TeX's memory you used:
  5647 multiletter control sequences out of 15000+200000
  30804 words of font info for 60 fonts, out of 3000000 for 9000
  17 hyphenation exceptions out of 8191
- 41i,7n,25p,578b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,25p,580b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
  </h
 ome/sol315/.miktex/texmfs/data/fonts/pk/ljfour/public/cm/dpi600/cmsy7.pk>{/home
 /sol315/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/sol315/.mikte
 x/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></home/sol315/.miktex/texmfs/
 install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 126247 bytes).
+Output written on report.pdf (2 pages, 126508 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
