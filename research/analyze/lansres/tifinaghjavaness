@@ -1,0 +1,188 @@
+start generating langsdetected change
+05528e577c1cc4648e87cb29ad0a512fIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+2017-11-28 09:34:09 2017-12-07 15:22:23 {'ipcity': (set(['Ahaus']), set(['Dortmund'])), 'fp2_webgl': (set(['28d008468c4d4bb507083ed7f7ac8546da08196e']), set(['3ea39a50928d0208778c6e188167c3d9f42bfb46'])), 'langsdetected': (set(['Tifinagh', 'Javanese']), set([])), 'agent': (set(['Firefox/57.0', 'rv:57.0)']), set(['Firefox/56.0', 'rv:56.0)']))}
+==============================
+060a10bb0a9d547889bff2f575bd3709Intel Inc.MacIntelMacintoshIntel HD Graphics 5000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-23 08:02:50 2017-12-20 07:43:59 {'fp2_webgl': (set(['6346511f573d496611d9e7aedbf5b1bc127df17b']), set(['dacd359ee8a5e9eb5684fefc863a6b5315f99e54'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+25fdab352798268c113931ab5ed07653NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 750M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-30 12:51:38 2017-12-18 14:14:13 {'fp2_webgl': (set(['00feb54b4b49a45276bdfee881d7c03952de8897']), set(['a4a0eac5db969f838440138402d3e8e10e58fc5e'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+27d574cff40a096ed508f3cccb73bcb4Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:55.0) Gecko/20100101 Firefox/55.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-10 12:16:57 2017-12-12 22:23:38 {'fp2_webgl': (set(['aa87bef382b7735d1df5198e6385e490e44152e5']), set(['351970acfe83c0e7345c9db7a04730e42e2b85d2'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['rv:55.0)', 'Firefox/55.0']), set(['Firefox/57.0', 'rv:57.0)'])), 'plugins': (set(['Shockwave', 'Flash']), set(['']))}
+==============================
+2de5650ef99e9363417c5698ebfcb18bIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-06 13:03:30 2017-12-10 13:59:48 {'fp2_webgl': (set(['3ea39a50928d0208778c6e188167c3d9f42bfb46']), set(['28d008468c4d4bb507083ed7f7ac8546da08196e'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+30bf6685ce03f03b81a6f2f27ce90c12NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce 9400M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 19:29:12 2017-11-26 07:32:35 {'fp2_webgl': (set(['c49a6fb0954637f95d3a47d8e410525d253247d4']), set(['04b911de6a68fcce7eb34a7e57338ce75a600762'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['rv:55.0)', 'Firefox/55.0']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+39072dacb9a6cb572082140120b6eae1NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 650M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:55.0) Gecko/20100101 Firefox/55.0
+2017-12-14 12:28:15 2017-12-16 21:04:28 {'fp2_webgl': (set(['2cb0292daa7d63b3a571a9b89eb64e14e0c594ad']), set(['e0eb80a265e0e0f9f8c0f62798d5b096dee1fe2b'])), 'langsdetected': (set(['Tifinagh', 'Javanese']), set([])), 'agent': (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:55.0)', 'Firefox/55.0']))}
+==============================
+405cf75e61157d20fd4c561fa088031aIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 16:21:42 2017-12-03 07:15:54 {'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'fp2_webgl': (set(['106f889ab26b70855c6902221bd9904721690ebf']), set(['0a0f6487f1e8a721e3fe3a7a0c03c8d2f0e1cf90'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Zurich']), set(['Augsburg-Lechviertel'])), 'ipregion': (set(['Zurich']), set(['Bayern'])), 'ipcountry': (set(['Switzerland']), set(['Germany']))}
+==============================
+4358482fd9cc41970287f9ad59fba264NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 750M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-01 21:05:14 2017-12-09 01:37:38 {'fp2_webgl': (set(['3d41ec4f13601eaf23c374de10bd69cc65e9ff2c']), set(['2b835a89b3433babea7d163b6b40d2c5da8ad311'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+4a560c01c6743eb814789cc1d8b892b8Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-23 11:19:18 2017-12-05 09:50:29 {'ipcity': (set(['Hamburg']), set(['Luebeck'])), 'ipregion': (set(['Hamburg']), set(['Schleswig-Holstein'])), 'fp2_webgl': (set(['3cf5c6226504062c13e05db731dd6070a0977872']), set(['5fd65b5479aed3b94f597a488224a7bc8ce39947'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+4b7ce08f30c0e0f3f9c164f22d401141ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M290X OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 08:10:48 2017-11-23 08:20:23 {'ipcity': (set(['Berlin']), set(['Darmstadt'])), 'ipregion': (set(['Berlin']), set(['Hessen'])), 'fp2_webgl': (set(['29ed4848124b3c94e697eb37607b0ef670e4f8fa']), set(['62505732d23bb7aff9943e144417d38fb1c72153'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+5dcf5650784d74c84420426c8f82224cATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6750M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-25 07:47:32 2017-12-10 22:39:40 {'fp2_webgl': (set(['8f354259c7b30fe5343c9f5c497195e0f034be3f']), set(['a31e7e3b4d2ca84738af1a95c690e59ded03ad4d'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['rv:55.0)', 'Firefox/55.0']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+6093d4320ad23b5e075531eb98fbd141Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Pro Graphics 6200firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-23 16:28:31 2017-12-21 12:58:42 {'fp2_webgl': (set(['2119afcbd30d3491d622ded7006996a19cd19e11']), set(['c13c000ff0615583f75978d653129dfb2698a986'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+6187763100536b630a1d3964d2129243ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M370X OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 14:25:59 2017-12-01 15:13:36 {'canvastest': (set(['159dbce7ffa9c265b3ead91e465b58a9ad1b3e6d']), set(['2e044e33710238be7dd8cff474c8decc1d61d3e1'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'fp2_pixelratio': (set(['2']), set(['1'])), 'jsFonts': (set([]), set(['GOTHAM BOLD'])), 'fp2_webgl': (set(['bab4437fdbd2c82e4ea5cb829d5d7ae6e37a48dd']), set(['dec9bfc0c40cd449de0a59e11b6e4779c768c080'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)'])), 'gpuimgs': (set(['0_fefb9063677f36b915231d4eab85f1b5597b014b']), set(['0_fa00bb6bf0405a73145b384730270f9384adfa72'])), 'resolution': (set(['1.6']), set(['1.78']))}
+==============================
+782463445e7a3a6cd7ada4cf41898705ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 555 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 14:25:59 2017-12-10 14:06:13 {'canvastest': (set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03']), set(['159dbce7ffa9c265b3ead91e465b58a9ad1b3e6d'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'fp2_webgl': (set(['4bcf0f114ae449b12a132d69615050661f444bd4']), set(['4e45454e484b2aa91a8448104631d67ae7e0033f'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Karlsruhe']), set(['Berlin'])), 'ipregion': (set(['Baden-Wurttemberg']), set(['Berlin']))}
+==============================
+81982576b77ba72f9b265da278047111Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 16:29:22 2017-12-28 05:24:10 {'canvastest': (set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac'])), 'fp2_webgl': (set(['3cf5c6226504062c13e05db731dd6070a0977872']), set(['5fd65b5479aed3b94f597a488224a7bc8ce39947'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)', '10.12;']), set(['10.13;', 'Firefox/57.0', 'rv:57.0)']))}
+==============================
+8b7c7813569647172105760fcc1d8bbbIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-25 10:12:16 2017-12-20 17:16:40 {'fp2_webgl': (set(['106f889ab26b70855c6902221bd9904721690ebf']), set(['0a0f6487f1e8a721e3fe3a7a0c03c8d2f0e1cf90'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+949ae01925d1f1a11ad809c61a6043c0ATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6770M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-27 20:15:58 2017-12-06 11:22:54 {'canvastest': (set(['2e044e33710238be7dd8cff474c8decc1d61d3e1']), set(['b8c6915b30b3925d5948b2a25ed56a75b8dac496'])), 'fp2_webgl': (set(['c6f7441b340af37ee27cac3faebe4cd43a374fce']), set(['48f8e0437e2de70e3e611dfa10936c28916cfa72'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)', '10.12;']), set(['10.13;', 'Firefox/57.0', 'rv:57.0)']))}
+==============================
+96bfbb007466991d096d40e262156b9eIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-29 15:21:54 2017-12-22 06:18:30 {'ipcity': (set(['Dortmund']), set(['Frankfurt', 'Main', 'am'])), 'ipregion': (set(['Nordrhein-Westfalen']), set(['Hessen'])), 'fp2_webgl': (set(['106f889ab26b70855c6902221bd9904721690ebf']), set(['0a0f6487f1e8a721e3fe3a7a0c03c8d2f0e1cf90'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+97ca0677507182a62c083f056ec28b1dATI Technologies Inc.MacIntelMacintoshATI Radeon HD 4670 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-06 21:20:36 2017-12-11 07:41:13 {'fp2_webgl': (set(['7572fb1f6d669f79b49ba414828fd226ded40db2']), set(['7b3f13a46cc77cbe8aeb3fe79e149f12efbdd265'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+ab31b2012ca1d09be37fcbf17acf8e28ATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6490M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-02 21:16:56 2017-12-18 10:58:59 {'ipcity': (set(['Buxtehude']), set(['Hamburg'])), 'ipregion': (set(['Niedersachsen']), set(['Hamburg'])), 'fp2_webgl': (set(['d721d3cd0f9eafc5ede6d7d7c4fc5c51862872aa']), set(['74748702c2e1939c241f3d7bd28e38e980a8e0d3'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['rv:55.0)', 'Firefox/55.0']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+ab58eca87b46280e61c65815206678d9Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 11:47:39 2017-12-26 16:22:18 {'canvastest': (set(['c8b63c7a06eba7d53c236dc6c74b7c3d49fc7167']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'fp2_webgl': (set(['b2d56bf8e91d858a92327d90118e7047d70d9ba1']), set(['351970acfe83c0e7345c9db7a04730e42e2b85d2'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)', '10.12;']), set(['10.13;', 'Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Muenster']), set(['Hanover'])), 'ipregion': (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))}
+==============================
+c29b67292e793037e2b6c19ad0f8db69Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-27 15:02:42 2017-12-05 21:06:55 {'ipcity': (set(['Enzersdorf', 'Maria']), set(['Vienna'])), 'ipregion': (set(['Niederosterreich']), set(['Wien'])), 'fp2_webgl': (set(['b2d56bf8e91d858a92327d90118e7047d70d9ba1']), set(['351970acfe83c0e7345c9db7a04730e42e2b85d2'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+c416a8af93621335250254452aeaa413Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-28 16:19:58 2017-12-05 07:11:05 {'ipcity': (set(['Kuhnicht']), set(['Cottbus'])), 'ipregion': (set(['Sachsen']), set(['Brandenburg'])), 'fp2_webgl': (set(['ae43e3482540e3a5a6a173d4ba23318162a5b4cd']), set(['b4ff73e5be501cc3acf06bc1771a951a91556563'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+cb2c366ee2baf5ea0639531a93c2c4aaIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 540firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-27 06:53:37 2017-12-02 11:25:16 {'fp2_webgl': (set(['bbea6619658901b237e2576d33c1e4170bb38359']), set(['03e0443ca000f93d765ca67f84d7e779c25bb8e6'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+cc9f2cab1c2d2fd7ba35388656056bcfIntel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 14:42:13 2017-12-10 15:08:49 {'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+ccd340651e30aa39a5322fa7af079fa2Intel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-27 10:53:47 2017-11-28 08:27:06 {'fp2_webgl': (set(['3ea39a50928d0208778c6e188167c3d9f42bfb46']), set(['28d008468c4d4bb507083ed7f7ac8546da08196e'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+cd5eb10e77252ee1064bfc97e9e10a56ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 575 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-28 21:45:46 2017-12-21 16:37:40 {'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'jsFonts': (set(['ADOBE CASLON PRO']), set([])), 'fp2_webgl': (set(['7b29e2a1f694f04613951ad13c09de35d0a5a939']), set(['dcade5a0fa84b8d3fd8d13a0b58b5b4b1b49ecb1'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Wilmington']), set(['Columbia'])), 'ipregion': (set(['North']), set(['South']))}
+==============================
+cfe4cacdd914454960c3f909a04c2d42NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 650M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-06 21:35:50 2017-12-20 08:48:59 {'canvastest': (set(['4997c7d2e3a37b15317a2b5199d252d51a8b0f1a']), set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03'])), 'fp2_webgl': (set(['b367797a5673b96b25a4f85810777c83d3da2bdb']), set(['b6764dc9bce7d1f6a4246bb4e783382a9ccb0240'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+dee498857d07308a911b17c1014fb664Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-29 12:03:12 2017-12-05 11:13:28 {'canvastest': (set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'fp2_webgl': (set(['3cf5c6226504062c13e05db731dd6070a0977872']), set(['5fd65b5479aed3b94f597a488224a7bc8ce39947'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)', '10.12;']), set(['10.13;', 'Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Ariana']), set(['Tunis'])), 'ipregion': (set(["L'Ariana"]), set(['Tunis']))}
+==============================
+e1d26e79e3b5716fb8c1e4c5776bd78eATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 455 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-04 10:15:56 2017-12-06 14:58:59 {'gpuimgs': (set(['0_5fde110c11ff088aeef967ed323457971d612a67']), set(['0_766dcb40e0e03cba219cf1541fe40bde2bdf35ef'])), 'canvastest': (set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03']), set(['159dbce7ffa9c265b3ead91e465b58a9ad1b3e6d'])), 'fp2_webgl': (set(['4a6eb37a661f47d66eb90bdd1e6dcce7fa5cf0f9']), set(['c14cc3eab9c1c0a0992995d9785b1d02e3fe05c3'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+e25066eee7975f857d7bc114684f3340Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Pro Graphics 6200firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 12:01:43 2017-12-07 14:26:10 {'fp2_webgl': (set(['2119afcbd30d3491d622ded7006996a19cd19e11']), set(['c13c000ff0615583f75978d653129dfb2698a986'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+e2b2c8e38a8fd73d2168b678f02e93a6Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-28 19:11:36 2017-12-21 12:10:17 {'ipcity': (set(['Ahaus']), set(['Nuremberg'])), 'ipregion': (set(['Nordrhein-Westfalen']), set(['Bayern'])), 'fp2_webgl': (set(['3cf5c6226504062c13e05db731dd6070a0977872']), set(['5fd65b5479aed3b94f597a488224a7bc8ce39947'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+ea016991ddcc210feeaf2c5779b95afaIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-29 17:04:20 2017-12-28 09:41:26 {'fp2_webgl': (set(['3ea39a50928d0208778c6e188167c3d9f42bfb46']), set(['28d008468c4d4bb507083ed7f7ac8546da08196e'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+f83f1910e23d04196fb36aa95ca54b83ATI Technologies Inc.MacIntelMacintoshATI Radeon HD 4670 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-05 18:20:09 2017-12-13 04:19:25 {'fp2_webgl': (set(['7572fb1f6d669f79b49ba414828fd226ded40db2']), set(['7b3f13a46cc77cbe8aeb3fe79e149f12efbdd265'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+f98fba57348e855d22dbe632c5d220e4Intel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 20:54:37 2017-12-05 08:57:23 {'ipcity': (set(['Wulsdorf']), set(['Bremen'])), 'ipregion': (set(['Niedersachsen']), set(['Bremen'])), 'fp2_webgl': (set(['0bffea47e86326ff36508088d7831879c101de35']), set(['44b809d74700469de1da129bc566988d4e5b59c8'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))}
+==============================
+fa987285bcacc426600e57afe08da28fATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6750M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-07 19:49:38 2017-12-19 15:45:18 {'ipregion': (set(['Berlin']), set(['Sachsen'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Berlin']), set(['Leipzig'])), 'doNotTrack': (set(['1']), set(['unspecified'])), 'plugins': (set(['Shockwave', 'Flash']), set([''])), 'audio': (set(['48000_4_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))}
+==============================
+finished generating langsdetected change
+(['\nTifinagh~Javanese', '\nCherokee', '\nTifinagh', '\nSundanese~Lontara~Thaana~Javanese', '\nSyriac', '\nSyriac~Tifinagh', '\nLontara~Thaana~Chinese~Sundanese~Kana~Syriac~Javanese', '\nLontara~Tifinagh~Cherokee~Sundanese~Inuktitut~Syriac~Mongolian~Javanese~Modern Yi', '\nBurmese', '\nJavanese'], [37, 31, 13, 10, 9, 9, 8, 8, 8, 7])

@@ -1,0 +1,663 @@
+start generating jsFonts change
+007c740db2beef5354768964582bc812ATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6970M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+2017-12-19 12:24:35 2017-12-20 09:26:06 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+08b5e62e44aa095d8b9a5d31fb06c381ATI Technologies Inc.MacIntelMacintoshATI Radeon HD 4850 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-28 15:40:01 2017-12-11 13:21:36 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+0c68b66c0bece07f206db0b2d0e0893dIntel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-27 04:08:26 2017-12-08 16:06:14 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+106cff4982676a5f14b15e59babbead4Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-12-01 07:31:50 2017-12-05 13:36:48 {'canvastest': (set(['af94aab9f9f1fa50a816e7779a4849a6304a8f1a']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8'])), 'langsdetected': (set([]), set(['Lontara', 'Thaana', 'Chinese', 'Sundanese', 'Kana', 'Syriac', 'Javanese'])), 'encoding': (set([]), set(['br,'])), 'jsFonts': (set(['OSAKA']), set(['Bradley Hand', 'Microsoft JhengHei'])), 'fp2_webgl': (set(['bfbe6f57702b6153fe40c702f8216a62733219d5']), set(['1fdd615f6353e0357e1fd5e6e612043f620dea68'])), 'agent': (set(['Safari/537.86.7', 'AppleWebKit/601.7.8', 'Version/9.1.3', '10_9_5)']), set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)'])), 'ipcity': (set(['Dusseldorf']), set(['Zella-Mehlis'])), 'plugins': (set(['', 'Helper~RealPlayer', 'Plugin~Shockwave', 'Flash~Silverlight', 'D', 'for', 'Plugin', 'Viewer', 'v~Adobe', 'Pluginplugin~SharePoint', 'Browser', 'Version', '~Default', 'IKEA', 'NPAPI', 'Acrobat', 'PlugIn~WebKitintegrierte']), set(['WebKitintegrierte'])), 'gpuimgs': (set(['0_8c5eff05da3c357c7169a409d74df0561b11ab5e']), set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76'])), 'ipregion': (set(['Nordrhein-Westfalen']), set(['Thuringen'])), 'resolution': (set(['None']), set(['1.6']))}
+==============================
+12c8f91273546b5ba81864ac33878722Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-25 09:50:13 2017-12-05 23:02:03 {'jsFonts': (set(['OSAKA']), set([])), 'ipregion': (set(['Hessen']), set(['Sachsen-Anhalt'])), 'ipcity': (set(['Fulda']), set(['Halle', '(Saale)']))}
+==============================
+14a10ff014749e57eff8a9ce16468f46Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Pro Graphics 6200firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 17:17:53 2017-12-19 12:55:18 {'jsFonts': (set([]), set(['OSAKA'])), 'ipregion': (set(['Sachsen']), set(['Brandenburg'])), 'ipcity': (set(['Leipzig']), set(['Potsdam']))}
+==============================
+1543ae495f5c8318f448d77cc7005304Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-26 19:01:54 2017-11-30 07:41:05 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'jsFonts': (set(['OSAKA']), set([])), 'agent': (set(['10_12_6)']), set(['10_13_1)'])), 'ipcity': (set(['Pullman']), set(['Chelan'])), 'audio': (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers'])), 'fp2_pixelratio': (set(['2']), set(['1']))}
+==============================
+17d27449ae42e4caed9e696cf88852f1NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 750M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+2017-12-03 11:50:59 2017-12-08 03:51:58 {'jsFonts': (set([]), set(['OSAKA'])), 'ipregion': (set(['England']), set(['Hamburg'])), 'ipcity': (set(['London']), set(['Hamburg'])), 'ipcountry': (set(['Kingdom', 'United']), set(['Germany']))}
+==============================
+1b345fbea6c349f35d5037765c2dc2edIntel Inc.MacIntelMacintoshIntel Iris OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-11 15:32:11 2017-12-13 15:29:45 {'jsFonts': (set([]), set(['OSAKA'])), 'ipregion': (set(['Tunapuna-Piarco']), set(['of', 'Port', 'Spain'])), 'ipcity': (set(['Arouca']), set(['of', 'Port', 'Spain']))}
+==============================
+1b58d38435c4cbd623025994a1fce677ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M395 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 22:18:03 2017-12-07 17:24:24 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+1d9494aba8550fea12bb6c74d83eb115Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-06 16:22:15 2017-12-28 09:15:03 {'jsFonts': (set([]), set(['OSAKA'])), 'ipregion': (set(['Nordrhein-Westfalen']), set(['Malopolskie'])), 'ipcity': (set(['Muenster']), set(['Bochnia'])), 'ipcountry': (set(['Germany']), set(['Poland']))}
+==============================
+1dc788af271912655368bf132366a338Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Pro Graphics 6200firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 07:12:17 2017-12-21 11:12:13 {'canvastest': (set(['552bea8215028f7a68e50c0cb2706f338743f07f']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac'])), 'langsdetected': (set([]), set(['Javanese'])), 'language': (set(['de,en-US;q=0.7,en;q=0.3']), set(['de,en;q=0.7,en-US;q=0.3'])), 'fp2_pixelratio': (set(['1']), set(['2'])), 'jsFonts': (set(['OSAKA']), set(['MYRIAD PRO', 'Minion Pro'])), 'fp2_webgl': (set(['c1e22421d30cb17922535fcb0b1d85d54bf43006']), set(['c13c000ff0615583f75978d653129dfb2698a986'])), 'agent': (set(['10.11;']), set(['10.13;'])), 'doNotTrack': (set(['unspecified']), set(['1'])), 'resolution': (set(['1.6']), set(['1.78']))}
+==============================
+21df1b59ab00de712527d6e680e19902NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 755M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 09:28:59 2017-12-11 13:44:08 {'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['0bf96c64d461ed69d64a1f01fb90a08bcdf21309']), set(['e9c3adb777b24e0f07b5376270fe8b9c582a31dc'])), 'langsdetected': (set([]), set(['Javanese'])), 'canvastest': (set(['c2c2463dd184d8d5e8247b0eb65a94e49c1c9c42']), set(['b4ebf4195ba70bb0526c3d598816782504ba574f'])), 'agent': (set(['10.11;']), set(['10.13;']))}
+==============================
+233d1c4220664aa24803a8444419baa0Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-01 07:46:43 2017-12-20 19:59:18 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['1fdd615f6353e0357e1fd5e6e612043f620dea68']), set(['51baa39c222ed3e9c19b28657552f7345c032f4c'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+291533cbf729e454ce4ef631c50b9288NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 680MX OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-26 12:04:59 2017-12-22 08:30:45 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['f10d35e74f7ecce69597e05cf9765b6f69dddfcf']), set(['3fd1e345ddb2ea11f44bca398d099113592ce98e'])), 'agent': (set(['Chrome/62.0.3202.94', '10_12_6)']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'ipcity': (set(['Apeldoorn']), set(['Haag', 'Den'])), 'gpuimgs': (set(['0_3a89d4db411aae74128eab8046c07ff887ffef18']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e'])), 'ipregion': (set(['Gelderland']), set(['Zuid-Holland']))}
+==============================
+2b83b679c3f047a42f128ce3efefe644Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-23 16:26:04 2017-12-04 17:28:22 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'language': (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9'])), 'jsFonts': (set(['OSAKA']), set([])), 'agent': (set(['Chrome/61.0.3163.100', '10_12_6)']), set(['Chrome/62.0.3202.94', '10_13_1)'])), 'ipcity': (set(['Helmsdale']), set(['Edinburgh'])), 'plugins': (set([]), set(['Module~Widevine']))}
+==============================
+2e7fabf5d7f11532fcf6a2fde51ba156ATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6750M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-22 18:33:09 2017-12-05 08:06:36 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_12_6)']), set(['10_13_1)']))}
+==============================
+2fa79d116926c476c2767872d62d3776ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 555 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-30 20:56:04 2017-12-20 09:53:49 {'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['22b62bcd498537701e498790523269d767cb525a']), set(['677692efc9ec75f33bbb9d0785e831360e85ff0f'])), 'agent': (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84'])), 'ipcity': (set(['Sosmenhusen']), set(['Berlin'])), 'gpuimgs': (set(['0_df44baa744c8c0eef1512381b82aff27880a180e']), set(['0_b1ed69532e9fcad403031e901c57ed778c9efec0'])), 'ipregion': (set(['Schleswig-Holstein']), set(['Berlin']))}
+==============================
+37ef866017e6c0492f0cbb902f04c005NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 775M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-23 20:55:17 2017-12-17 19:33:34 {'gpuimgs': (set(['0_3a89d4db411aae74128eab8046c07ff887ffef18']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a0fef167ae5194d317227845faa5b84b63f9814f']), set(['1cf92b3ff19b33f46cdc20a4e73fb3db36364440'])), 'agent': (set(['Chrome/62.0.3202.94', '10_13_1)']), set(['10_13_2)', 'Chrome/63.0.3239.84']))}
+==============================
+3d4ce2e51af046c7e1eb4446e18f99bfATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M290X OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-23 09:34:29 2017-12-29 10:34:25 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+3de80b88621e47287b77c2fffc2cca67Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-22 08:45:08 2017-12-04 11:44:04 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Nuremberg']), set(['Limburg'])), 'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_12_6)']), set(['10_13_1)']))}
+==============================
+3efd2c94aa14f5242278f9bd2e3c59b3ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M370X OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-08 03:51:07 2017-12-16 03:37:09 {'canvastest': (set(['2746065d144f08c01ccdf12be156ef774cc045ad']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'langsdetected': (set(['Syriac', 'Tifinagh']), set([])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['5083fc87adf4eb6c93fec1279e854198b0d6201d']), set(['309cea8006d530b9b61ea1f0f4e6fae05b6eed20'])), 'agent': (set(['10_11_6)', 'Chrome/62.0.3202.94']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'ipcity': (set(['Thornton']), set(['Denver'])), 'cookie': (set(['True']), set(['False'])), 'localstorage': (set(['True']), set(['False'])), 'gpuimgs': (set(['0_0f0562f5c8609a5438c3cdfde251f7c75d923bb1']), set(['0_c3119b07769ae019d57a404f69c2980a0f0fa386']))}
+==============================
+3f9a2763e9c0e058865eb0ea157f8c3bATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6770M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-12-03 17:48:55 2017-12-21 14:57:34 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+405cf75e61157d20fd4c561fa088031aIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 16:21:42 2017-12-23 10:25:43 {'canvastest': (set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['106f889ab26b70855c6902221bd9904721690ebf']), set(['0a0f6487f1e8a721e3fe3a7a0c03c8d2f0e1cf90'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)', '10.12;']), set(['10.13;', 'Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Zurich']), set(['Bremen'])), 'ipregion': (set(['Zurich']), set(['Bremen'])), 'ipcountry': (set(['Switzerland']), set(['Germany']))}
+==============================
+41e50bec0211764932bfb82f693bf3efIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-25 17:45:16 2017-12-28 10:49:36 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['37a5d4a0c1357d0062ce4472b5b969dbd9819837']), set(['6d81a7b529af67110f9269064c01ea6142c48308'])), 'ipcity': (set(['Durnstein']), set(['Weiten'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+435ca3a6832b22a12adf5591c78f7c2bIntel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-25 09:21:15 2017-12-22 02:03:48 {'canvastest': (set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'language': (set(['en-US,en;q=0.8,de;q=0.6']), set(['en-US,en;q=0.9,de;q=0.8'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['918922b07e42b6ef1ca080d5459b1cd658443702']), set(['1c4f3a702f4f28f185f655b5a865cff26c43181a'])), 'agent': (set(['Chrome/61.0.3163.100', '10_10_5)']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'doNotTrack': (set(['unknown']), set(['1'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))}
+==============================
+45b2e19c66162d7006ced43fbfeae7b3Intel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-01 10:44:10 2017-12-28 14:08:46 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['1ab9e7fb35fd08b32d400e4cd2fe1130696788c9'])), 'language': (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['ec3fa1ef87c5291e800df91763965c3043918220']), set(['b3481d46f1bc39554bf8ca57507704afae459bf9'])), 'agent': (set(['Chrome/62.0.3202.94', '10_12_6)']), set(['10_13_0)', 'Chrome/63.0.3239.84'])), 'ipcity': (set(['Goldbach']), set(['Karlsruhe'])), 'plugins': (set(['Client~Shockwave', 'Flash~Widevine']), set(['Client~Widevine'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b'])), 'fp2_pixelratio': (set(['2']), set(['1']))}
+==============================
+487e85fdc8f0a01d0c76ebf8ecadffb3NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 780M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-30 19:34:12 2017-12-22 13:06:20 {'gpuimgs': (set(['0_a6139d4e4a2ef4cbf56ca75f71970d51250f1093']), set(['0_f8b34e92bff7d44ecd591e3e2d129d72fb01879d'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['6743ae2280f0e85d2aea9c3a31b9174035883645']), set(['7ba5064cf7e1bb9ba1404c0717cb37fbfc83f7fd'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+4ddcbd5452d4af4b4630d9e0efafc647Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-22 12:25:09 2017-11-29 15:29:41 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'jsFonts': (set(['OSAKA']), set([])), 'agent': (set(['10_12_6)']), set(['10_13_1)'])), 'ipcity': (set(['Zurich']), set(['Baden'])), 'plugins': (set(['Module~Widevine']), set([])), 'ipregion': (set(['Zurich']), set(['Aargau']))}
+==============================
+537364371474041c8556bbcee7479567NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 755M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-23 08:34:27 2017-12-22 07:44:58 {'gpuimgs': (set(['0_a6139d4e4a2ef4cbf56ca75f71970d51250f1093']), set(['0_f8b34e92bff7d44ecd591e3e2d129d72fb01879d'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['58bbe1c83b3249233c259658064eaba0100eab4f']), set(['2addb9cb1fa1bf7efd089b1250e67c2e10bc454f'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+5505db039b6255bfd3ee03889f3c3228NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 750M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-28 11:46:11 2017-12-12 10:05:12 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+557af413c93e930483be40e7694500c4Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-22 08:40:06 2017-12-18 11:28:08 {'jsFonts': (set([]), set(['OSAKA'])), 'plugins': (set(['Flash', 'WebKit~Shockwave']), set(['WebKit']))}
+==============================
+562de42c2382c4e37d47691c14725c0dNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 660M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-23 06:38:28 2017-11-30 06:32:16 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+56c3785cf2ae2d7393008ad57f1b01d2ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M390 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-22 10:16:23 2017-11-29 09:34:35 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+56c59f782d8ecc61ed802303846b3a87Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-30 07:21:07 2017-12-19 21:26:08 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['41bad84e3b11cd9b7fb351662802d33c3208a87b']), set(['f840205c90e62fa3acd40d5a75f1fdb262c8d8dc'])), 'ipcity': (set(['Nuremberg']), set(['Burgkunstadt'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+56dc57591a7cd4751cddc011fe5251edNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 650M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-29 09:44:31 2017-12-06 11:53:03 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+56f76dd9527f8162af688cd8ee13bf82Intel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 17:51:57 2017-12-03 17:37:19 {'canvastest': (set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def']), set(['354c270152c0e26bf949bc099988e5a620f74be7'])), 'langsdetected': (set(['Lontara', 'Thaana', 'Tifinagh', 'Sundanese', 'Syriac', 'Javanese']), set([])), 'jsFonts': (set(['Bradley Hand']), set(['OSAKA'])), 'fp2_webgl': (set(['44b809d74700469de1da129bc566988d4e5b59c8']), set(['c614e9e961ba3b14fd64be3be0ddecdd88df535b'])), 'agent': (set(['10.13;']), set(['10.9;'])), 'ipcity': (set(['Halle', '(Saale)']), set(['Chemnitz'])), 'ipregion': (set(['Sachsen-Anhalt']), set(['Sachsen']))}
+==============================
+5b6a27fa8c597502688970e80e5f0dc9Intel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 16:35:55 2017-11-26 15:49:25 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['c8b63c7a06eba7d53c236dc6c74b7c3d49fc7167']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+5f07e1784f971862c4b5e2c1efb4a1e9No Debug InfoMacIntelMacintoshNo Debug Infofirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:48.0) Gecko/20100101 Firefox/48.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:48.0) Gecko/20100101 Firefox/48.0
+2017-12-10 20:59:52 2017-12-12 14:58:50 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+5f07e1784f971862c4b5e2c1efb4a1e9No Debug InfoMacIntelMacintoshNo Debug Infofirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:48.0) Gecko/20100101 Firefox/48.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:48.0) Gecko/20100101 Firefox/48.0
+2017-12-12 14:58:50 2017-12-18 01:52:21 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+5f84b9e145019b7709fd4c51690f4fd0ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 570 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:58.0) Gecko/20100101 Firefox/58.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0
+2017-12-13 09:44:22 2017-12-22 09:13:58 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['159dbce7ffa9c265b3ead91e465b58a9ad1b3e6d']), set(['fca53e75042da7a934ccb95af522ddaa2d994f26'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+5ff216153588d125ac1de931c606f1a2Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-29 16:37:36 2017-12-16 20:28:47 {'jsFonts': (set([]), set(['OSAKA'])), 'ipregion': (set(['Hessen']), set(['Schleswig-Holstein'])), 'ipcity': (set(['Darmstadt']), set(['Reinbek']))}
+==============================
+6022374f7056ac50c6b14f22fe61cf4cIntel Inc.MacIntelMacintoshIntel Iris OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-27 07:31:41 2017-11-30 04:41:34 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+63f847154d9333e9687c60aa22e906cfIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Plus Graphics 640safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-12-01 23:52:01 2017-12-03 20:04:39 {'jsFonts': (set(['Garamond']), set(['OSAKA'])), 'ipregion': (set(['Hamburg']), set(['Schleswig-Holstein'])), 'ipcity': (set(['Hamburg']), set(['Bendorf']))}
+==============================
+65b02e2bf4375a8e3a4153c2cea660d4ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M370X OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-11 22:42:34 2017-12-28 17:27:29 {'jsFonts': (set([]), set(['OSAKA'])), 'ipcity': (set(['Munich']), set(['Ingolstadt'])), 'canvastest': (set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac']), set(['fca53e75042da7a934ccb95af522ddaa2d994f26']))}
+==============================
+65d09a24c7a69397ca87a3c00b87e379NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 640M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 16:40:47 2017-12-09 15:35:46 {'canvastest': (set(['43bb4d735d2cc642009880be52a5c90f50d569d8']), set(['b4ebf4195ba70bb0526c3d598816782504ba574f'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['3ae6fc70e8a8ca8ab476434360ef6b23545647ea']), set(['95d31b47410214a8cdfd2ceffe294213cb9800a1'])), 'agent': (set(['10.12;']), set(['10.13;'])), 'ipcity': (set(['Nuremberg']), set(['Hanover'])), 'ipregion': (set(['Bayern']), set(['Niedersachsen']))}
+==============================
+665a0daf1c9806de79275a173423d9e0ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M370X OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-22 02:48:26 2017-12-27 08:32:31 {'gpuimgs': (set(['0_0f0562f5c8609a5438c3cdfde251f7c75d923bb1']), set(['0_c3119b07769ae019d57a404f69c2980a0f0fa386'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['5083fc87adf4eb6c93fec1279e854198b0d6201d']), set(['309cea8006d530b9b61ea1f0f4e6fae05b6eed20'])), 'ipcity': (set(['Melbourne']), set(['Officer'])), 'agent': (set(['Chrome/62.0.3202.94', '10_13_1)']), set(['10_13_2)', 'Chrome/63.0.3239.84']))}
+==============================
+666dfd4bf706c8de5746a49b5b3909b4Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 5300safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-02 12:06:27 2017-12-12 18:59:23 {'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['8d52d0ae844186c93487e55dc92654194ea96471']), set(['4efac8697c1d60e0cf575146a90ad5de828c8d34'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2'])), 'ipcity': (set(['Nuremberg']), set(['Grambzow'])), 'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'ipregion': (set(['Bayern']), set(['Mecklenburg-Vorpommern']))}
+==============================
+66c780a5b4ae25fedaf5fa357c436410Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100chrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-04 14:04:25 2017-12-11 18:40:24 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Osnabruck']), set(['Delmenhorst']))}
+==============================
+6913cff6c0445261d367ead1356ef1e7Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Pro Graphics 6200safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-25 08:01:47 2017-12-20 06:33:27 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set(['Garamond']), set(['OSAKA'])), 'fp2_webgl': (set(['19e68ca8a85fd0d69b4d609a38f0d239a59f0269']), set(['00091a8784e28b4ce03f8423bf2ca10585c28a2a'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+69b1fcbf2b14ec148d93799cdb9c8934Intel Inc.MacIntelMacintoshIntel HD Graphics 5000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-27 12:59:59 2017-12-11 11:05:02 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['e10feddd738c0ea2616b68a047a5e66f5ed56578']), set(['6654e0cecb8bdcb08a0c1b656c4e80ef4178eb69'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+7081d1b47130b28c94d50b89b47e05abATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M390 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-04 08:56:33 2017-12-20 11:31:11 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a9e912d1875d89a9c4ec482f7db31de28fd86771']), set(['5e95356660017875a5b42dd0be720b191b620a74'])), 'agent': (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84'])), 'ipcity': (set(['Oberhausen']), set(['Stralsund'])), 'gpuimgs': (set(['0_0f0562f5c8609a5438c3cdfde251f7c75d923bb1']), set(['0_c3119b07769ae019d57a404f69c2980a0f0fa386'])), 'ipregion': (set(['Rheinland-Pfalz']), set(['Mecklenburg-Vorpommern']))}
+==============================
+720b52226b5219046f84a74b3f3e90d7Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 530safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-25 12:36:24 2017-12-08 20:15:11 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+7411bb4dee25be95b24bc316c44aa256Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-12-22 18:16:28 2017-12-27 22:50:47 {'canvastest': (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8'])), 'cpucores': (set(['4.0']), set(['-1.0'])), 'encoding': (set([]), set(['br,'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['a95cb8f3fb13329cf600927c3108452b3fc2699f']), set(['a388a070bd0aa36bcf5579f291a7b56b2169fad2'])), 'agent': (set(['Safari/603.3.8', '10_12_6)', 'AppleWebKit/603.3.8', 'Version/10.1.2']), set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)'])), 'ipcity': (set(['Karlsruhe']), set(['Nuremberg'])), 'ipregion': (set(['Baden-Wurttemberg']), set(['Bayern']))}
+==============================
+758bcdf13cb24d0a85ab1d8740fb49dfIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-07 00:22:52 2017-12-07 21:58:13 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'jsFonts': (set(['OSAKA']), set([])), 'language': (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9'])), 'agent': (set(['Chrome/61.0.3163.100', '10_12_5)']), set(['Chrome/62.0.3202.94', '10_13_1)'])), 'plugins': (set([]), set(['Module~Widevine']))}
+==============================
+758bcdf13cb24d0a85ab1d8740fb49dfIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-07 21:58:13 2017-12-23 11:01:28 {'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['ec3fa1ef87c5291e800df91763965c3043918220']), set(['b3481d46f1bc39554bf8ca57507704afae459bf9'])), 'agent': (set(['Chrome/62.0.3202.94', '10_13_1)']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'plugins': (set(['Module~Widevine']), set([]))}
+==============================
+75e661f7d0d33aaef44c8ed854fb9047Intel Inc.MacIntelMacintoshIntel HD Graphics 5000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-30 07:20:33 2017-12-20 05:41:42 {'canvastest': (set(['552bea8215028f7a68e50c0cb2706f338743f07f']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'langsdetected': (set([]), set(['Javanese'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['f42a3fcfbb83942ae9f2486f1d17f128912cf364']), set(['dacd359ee8a5e9eb5684fefc863a6b5315f99e54'])), 'agent': (set(['10.11;']), set(['10.13;'])), 'ipcity': (set(['Freiburg']), set(['Frankfurt', 'Main', 'am'])), 'ipregion': (set(['Baden-Wurttemberg']), set(['Hessen']))}
+==============================
+7669fccfbfa1404d15e60acafff39105Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-23 06:52:31 2017-12-18 21:53:12 {'canvastest': (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8'])), 'encoding': (set([]), set(['br,'])), 'jsFonts': (set(['American Typewriter Condensed', 'Roman']), set(['OSAKA'])), 'fp2_webgl': (set(['ef98d82802a3d777d4bff10a78cd32f8cb9aace7']), set(['1fdd615f6353e0357e1fd5e6e612043f620dea68'])), 'agent': (set(['10_12_6)']), set(['10_13_1)'])), 'ipcity': (set(['Haag', 'Den']), set(['Amsterdam'])), 'ipregion': (set(['Zuid-Holland']), set(['Noord-Holland']))}
+==============================
+780bc9a35e833a38eeb4fc2feb3b94c8No Debug InfoMacIntelMacintoshNo Debug Infofirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:51.0) Gecko/20100101 Firefox/51.0
+2017-11-23 11:40:55 2017-11-27 10:51:32 {'jsFonts': (set(['OSAKA']), set([])), 'ipregion': (set(['Lagos']), set(['Rivers'])), 'ipcity': (set(['Lagos']), set(['Harcourt', 'Port'])), 'canvastest': (set(['c115b29fef52478929b3356ebe141080412bf455']), set(['10fc5de364ade496f9723b2f71b7d673a816b8d8'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+786319f28e8054c04e9c71513cb36312Intel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+2017-11-22 19:11:55 2017-12-05 07:28:07 {'jsFonts': (set([]), set(['OSAKA'])), 'ipregion': (set(['Niedersachsen']), set(['Bayern'])), 'ipcity': (set(['Braunschweig']), set(['Nuremberg']))}
+==============================
+7b9afb4bf050197444de5a3fe33ff2cbIntel Inc.MacIntelMacintoshIntel Iris OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-07 20:45:10 2017-12-13 14:23:47 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Hanover']), set(['Papenburg'])), 'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_12_6)']), set(['10_13_2)']))}
+==============================
+7cd0808eab7e2cfc5a2aeeae5d0622e4Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-22 19:06:03 2017-11-23 10:06:18 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+80d524b7e45a26f21d3e9956b3a90d70Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 550safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-28 12:05:04 2017-12-22 07:49:45 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a8a169667fef104fa870e46c31ab36a27b38b637']), set(['8c9979a104b67b1c7fd48bfecd4c8788b44cc8d7'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2'])), 'ipcity': (set(['Dresden']), set(['Bonn'])), 'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'ipregion': (set(['Sachsen']), set(['Nordrhein-Westfalen']))}
+==============================
+80d722edb3d6fa16a3827e274f334c9aATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 560 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-11 21:53:08 2017-12-26 13:24:03 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Dusseldorf']), set(['Aachen'])), 'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_12_6)']), set(['10_13_2)']))}
+==============================
+836a0d3e61e9e055a530058c9555c7ddIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-23 13:13:06 2017-12-28 13:41:03 {'canvastest': (set(['2746065d144f08c01ccdf12be156ef774cc045ad']), set(['c3f882c8e13ddb020b41bb567944d110d6cc1787'])), 'fp2_webgl': (set(['ec3fa1ef87c5291e800df91763965c3043918220']), set(['b3481d46f1bc39554bf8ca57507704afae459bf9'])), 'langsdetected': (set(['Syriac', 'Tifinagh']), set([])), 'language': (set(['ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,ro;q=0.6,uk;q=0.5,bg;q=0.4']), set(['ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_liedlanguages': (set(['False']), set(['True'])), 'agent': (set(['10_11_6)', 'Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84', '10_12_6)'])), 'plugins': (set(['Module~Widevine']), set([])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))}
+==============================
+844f988ae2ecc68aecc1a016344a943bIntel Inc.MacIntelMacintoshIntel(R) HD Graphics 515safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-03 13:11:22 2017-12-17 21:45:02 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['dc41542e1c7de2433c00186de62a914d3cf0613d']), set(['55dece29bb3bde616a3ba05571da75917b08a2d3'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2'])), 'ipcity': (set(['Berlin']), set(['Halle', '(Saale)'])), 'gpuimgs': (set(['0_ea8d3cbba2c6880b4e2f4fddede60114c1839665']), set(['0_629388aa7c3662410da0fa87ceffc5de4a78683c'])), 'ipregion': (set(['Berlin']), set(['Sachsen-Anhalt']))}
+==============================
+84d4796bfaa492a66547529589aab21dATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6770M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-28 09:28:53 2017-12-13 14:05:19 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+8aadeeec561a02aaa077fcb6ccb3bfa5ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 560 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-12 21:45:21 2017-12-18 08:48:12 {'gpuimgs': (set(['0_f8d9ad45180d185e56bcb2eb111222972b39ef64']), set(['0_a8fe998b56a1848a448d6291dc64eead802d20b7'])), 'jsFonts': (set(['Garamond']), set(['OSAKA'])), 'fp2_webgl': (set(['357eb834055f3c7b00d59f029991c1f7b623823c']), set(['74bdfdd4ff69ead511dfd6cf03a63e6deccb3fcc'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+8aeedf46bcc4b0523bbbdece3196c5cfNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 675MX OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-30 08:54:29 2017-12-01 13:41:13 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+8c59f178206b0d87f4f8a1494d7807b3Intel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-28 16:43:19 2017-12-20 17:15:10 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['37a5d4a0c1357d0062ce4472b5b969dbd9819837']), set(['6d81a7b529af67110f9269064c01ea6142c48308'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+8d6b0c7a71e7a59df2941d6ddc3d17c0ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 580 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-22 16:30:30 2017-12-08 17:32:49 {'jsFonts': (set(['OSAKA']), set([])), 'ipregion': (set(['Brandenburg']), set(['Thuringen'])), 'ipcity': (set(['Potsdam']), set(['Erfurt'])), 'canvastest': (set(['159dbce7ffa9c265b3ead91e465b58a9ad1b3e6d']), set(['fca53e75042da7a934ccb95af522ddaa2d994f26'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+904387dcf3efd2e87dd2c06ac7b33ed2ATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6750M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-02 10:30:23 2017-12-04 16:38:08 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_12_6)']), set(['10_13_1)']))}
+==============================
+90732fa0ebe27f92f58e1a12a8f2868cIntel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/9.1.3 Safari/537.86.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+2017-12-16 22:30:39 2017-12-28 13:17:42 {'canvastest': (set(['af94aab9f9f1fa50a816e7779a4849a6304a8f1a']), set(['ed579c296984057264338158645478eab110a54b'])), 'langsdetected': (set([]), set(['Lontara', 'Thaana', 'Chinese', 'Sundanese', 'Kana', 'Syriac', 'Javanese'])), 'cpucores': (set(['-1.0']), set(['4.0'])), 'jsFonts': (set(['OSAKA']), set(['Bradley Hand', 'Microsoft JhengHei'])), 'fp2_webgl': (set(['bfbe6f57702b6153fe40c702f8216a62733219d5']), set(['ef98d82802a3d777d4bff10a78cd32f8cb9aace7'])), 'agent': (set(['Safari/537.86.7', 'AppleWebKit/601.7.8', 'Version/9.1.3', '10_9_5)']), set(['Safari/603.3.8', '10_12_6)', 'AppleWebKit/603.3.8', 'Version/10.1.2'])), 'doNotTrack': (set(['unknown']), set(['1'])), 'plugins': (set(['Default', 'Browser', 'Helper~WebKitintegrierte', 'PDF~iPhotoPhotocast']), set(['PDF', 'WebKitintegrierte'])), 'gpuimgs': (set(['0_8c5eff05da3c357c7169a409d74df0561b11ab5e']), set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76'])), 'audio': (set(['44100_0_1_0_2_explicit_speakers']), set(['48000_0_1_0_2_explicit_speakers'])), 'resolution': (set(['None']), set(['1.78']))}
+==============================
+91c8701ccd7d4567068719f38ba7caacNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 650M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+2017-11-29 20:49:32 2017-12-28 20:34:41 {'canvastest': (set(['2746065d144f08c01ccdf12be156ef774cc045ad']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'langsdetected': (set(['Syriac', 'Tifinagh']), set([])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['6638146603a9c4128bad61eeb5bf659179fb040e']), set(['8ffea2197a53b479d98101f7fc3ea93b4c2a9971'])), 'agent': (set(['10_11_6)', 'Chrome/62.0.3202.94']), set(['10_13_2)', 'Chrome/63.0.3239.108'])), 'gpuimgs': (set(['0_3a89d4db411aae74128eab8046c07ff887ffef18']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e'])), 'fp2_pixelratio': (set(['2']), set(['1.5']))}
+==============================
+95f3625261298910b12f80f51bd3030cATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M370X OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-29 20:55:15 2017-12-11 18:29:43 {'jsFonts': (set(['OSAKA']), set([])), 'langsdetected': (set(['Syriac', 'Tifinagh']), set([])), 'canvastest': (set(['2746065d144f08c01ccdf12be156ef774cc045ad']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_11_2)']), set(['10_13_2)']))}
+==============================
+964e77dcf4d5a73a943e99e51e287238Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-23 16:28:07 2017-11-29 16:05:51 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['c8b63c7a06eba7d53c236dc6c74b7c3d49fc7167']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+97498e3cd688c8b41ec789899102008bATI Technologies Inc.MacIntelMacintoshAMD Radeon HD - FirePro D500 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-11 18:09:26 2017-12-18 19:03:24 {'jsFonts': (set([]), set(['OSAKA'])), 'resolution': (set(['1.6']), set(['2.37']))}
+==============================
+996a510fa2773cabd5da0da78d427197NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce 9400M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-03 11:14:30 2017-12-03 19:44:07 {'jsFonts': (set(['OSAKA']), set(['Arial Unicode MS'])), 'fp2_webgl': (set(['3571f45b2454979c279a30c1c8e8359f879c74e2']), set(['04b911de6a68fcce7eb34a7e57338ce75a600762'])), 'langsdetected': (set([]), set(['Javanese'])), 'canvastest': (set(['ad577b403498877229f6343fe3ba2e89f443a831']), set(['3c65b5356a223267cd2d7735e50ab99e7561ab40'])), 'agent': (set(['10.11;']), set(['10.13;']))}
+==============================
+9b98e4c01a604fba460b46fe7cee4d4cNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce 320M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-21 09:24:05 2017-12-28 08:31:14 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+9e611cd987a76ae65bfdd83f1607865eNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 780M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+2017-11-24 10:33:23 2017-12-04 16:11:29 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+a4c3c0a5c00ebf7678538590296218f7Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 08:28:07 2017-11-29 12:12:08 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+a4f45cd8f9cbcf90d04a384028829727Intel Inc.MacIntelMacintoshIntel HD Graphics 3000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-30 19:31:29 2017-12-23 18:10:44 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['44b809d74700469de1da129bc566988d4e5b59c8']), set(['0bffea47e86326ff36508088d7831879c101de35'])), 'ipcity': (set(['Munich']), set(['Winterberg'])), 'ipregion': (set(['Bayern']), set(['Nordrhein-Westfalen']))}
+==============================
+a71500cb2642a8f52d690a4ce85b4be5ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M290X OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-06 17:39:36 2017-12-13 08:08:03 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_pixelratio': (set(['2']), set(['2.20000004768']))}
+==============================
+a71500cb2642a8f52d690a4ce85b4be5Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-10 07:54:45 2017-12-29 17:21:53 {'canvastest': (set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'jsFonts': (set(['OSAKA']), set(['MYRIAD PRO', 'MUSEO'])), 'fp2_webgl': (set(['918922b07e42b6ef1ca080d5459b1cd658443702']), set(['1c4f3a702f4f28f185f655b5a865cff26c43181a'])), 'agent': (set(['Chrome/62.0.3202.94', '10_10_5)']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'ipcity': (set(['Wuerzburg']), set(['Minh', 'Chi', 'Ho', 'City'])), 'timezone': (set(['-60.0']), set(['-420.0'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b'])), 'ipregion': (set(['Bayern']), set(['Minh', 'Chi', 'Ho'])), 'ipcountry': (set(['Germany']), set(['Viet', 'Nam']))}
+==============================
+aacec378bdedb4550b98106f0149eca2Intel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-22 18:43:25 2017-12-26 16:26:31 {'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b'])), 'jsFonts': (set(['OSAKA']), set(['Bradley Hand'])), 'fp2_webgl': (set(['ed02918de8a3bc9dfdb8a2b7a2fae5bc97548829']), set(['b3481d46f1bc39554bf8ca57507704afae459bf9'])), 'canvastest': (set(['f41f219c5febc5ab650b22b6206fb7150f70fa34']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['Chrome/62.0.3202.94', '10_9_5)']), set(['10_13_2)', 'Chrome/63.0.3239.84']))}
+==============================
+b117b1efac815253c015993f8589b29fATI Technologies Inc.MacIntelMacintoshATI Radeon HD 4670 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-25 15:41:33 2017-12-08 12:58:02 {'jsFonts': (set(['Garamond']), set(['OSAKA']))}
+==============================
+b793b89406959ac9c18e6ede64c5e378NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 750M OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 09:22:48 2017-12-23 14:07:37 {'jsFonts': (set(['FRUTIGER']), set(['OSAKA']))}
+==============================
+b7ac1c957c0fbbdd4335458fa2317e61NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GTX 775M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-27 11:50:33 2017-12-16 11:49:40 {'gpuimgs': (set(['0_a6139d4e4a2ef4cbf56ca75f71970d51250f1093']), set(['0_f8b34e92bff7d44ecd591e3e2d129d72fb01879d'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['99d2af0dc6309dca168d8f68a99e34726d2b670b']), set(['98cfd750d1b28fa6441f0f00c49a9684bd714b6c'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+b832567ed5101b21a369e141d0c823b8Intel Inc.MacIntelMacintoshIntel HD Graphics 5000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-24 21:53:59 2017-12-04 20:51:08 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+b9e1c4f1c6e4b2db896bda1d2d1abe89ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 555 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-09 15:25:47 2017-12-28 14:51:47 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['22b62bcd498537701e498790523269d767cb525a']), set(['677692efc9ec75f33bbb9d0785e831360e85ff0f'])), 'agent': (set(['Chrome/62.0.3202.94', '10_13_1)']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'ipcity': (set(['Hamburg']), set(['Berlin'])), 'gpuimgs': (set(['0_df44baa744c8c0eef1512381b82aff27880a180e']), set(['0_b1ed69532e9fcad403031e901c57ed778c9efec0'])), 'ipregion': (set(['Hamburg']), set(['Berlin']))}
+==============================
+c09dd16d7bd711357d3b3550d4f6f984Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0
+2017-11-26 19:50:29 2017-12-28 12:41:22 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['c8b63c7a06eba7d53c236dc6c74b7c3d49fc7167']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+c59dcfcea912cfeac823f92ae1980903ATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6750M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-29 05:16:09 2017-12-16 07:07:16 {'gpuimgs': (set(['0_9084a8349bdd098a869c5a9224ed857dde802972']), set(['0_c24710a382aed954a2a809e3f7e79d7df9180b1d'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['62bc880231c1bc4d29ece3e16fb0edb6ef72877c']), set(['7ca28f68a4b33cd89b67aa2b854b22f0bfca9462'])), 'agent': (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))}
+==============================
+c77f89e8ae45bb4249a2cb41368c0b79Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-26 11:42:06 2017-12-06 20:27:39 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['c8b63c7a06eba7d53c236dc6c74b7c3d49fc7167']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+c798b1a132a62b14c6144f58ad71b3f3Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-08 11:03:47 2017-12-22 19:34:11 {'canvastest': (set(['2746065d144f08c01ccdf12be156ef774cc045ad']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'langsdetected': (set(['Syriac', 'Tifinagh']), set([])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['918922b07e42b6ef1ca080d5459b1cd658443702']), set(['1c4f3a702f4f28f185f655b5a865cff26c43181a'])), 'agent': (set(['10_11_6)', 'Chrome/62.0.3202.94']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'ipcity': (set(['Warnow']), set(['Hanover'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b'])), 'ipregion': (set(['Mecklenburg-Vorpommern']), set(['Niedersachsen']))}
+==============================
+cadb20cc369877d6d540100bf07bf4d0No Debug InfoMacIntelMacintoshNo Debug Infofirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:46.0) Gecko/20100101 Firefox/46.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:46.0) Gecko/20100101 Firefox/46.0
+2017-11-22 12:32:43 2017-12-21 10:38:51 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Ulm']), set(['Gmund', 'Schwabisch'])), 'canvastest': (set(['94b1cbd241c1d138fbd20b8ef4ce17606fdf7faf']), set(['3f4249041325817bb327d27d783902d9585a7d45'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+cd0af3cf1bae9baa292b6bf9adc73e78Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.2 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.2
+2017-12-11 11:57:00 2017-12-27 20:29:06 {'jsFonts': (set([]), set(['OSAKA'])), 'audio': (set(['44100_0_1_0_2_explicit_speakers']), set(['48000_0_1_0_2_explicit_speakers'])), 'agent': (set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']), set(['10_13_3)', 'Safari/604.5.2', 'Version/11.0.3', 'AppleWebKit/604.5.2']))}
+==============================
+cd1c6a22742595d7f8e608c791b1614fIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 550safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-30 11:41:03 2017-12-04 11:22:05 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+d361d73993cfe52f7f87c5497359a603Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 650safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-22 08:12:10 2017-12-28 13:50:36 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['055f0cb3ac0e398b8d7b0b59dd98dacceb8a8762']), set(['77ce9d91ecaea1ed8ab3eeb78fb22a673436746d'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2'])), 'ipcity': (set(['Munich']), set(['Madrid'])), 'timezone': (set(['-60.0']), set(['0.0'])), 'gpuimgs': (set(['0_ea8d3cbba2c6880b4e2f4fddede60114c1839665']), set(['0_629388aa7c3662410da0fa87ceffc5de4a78683c'])), 'ipregion': (set(['Bayern']), set(['de', 'Madrid,', 'Comunidad'])), 'ipcountry': (set(['Germany']), set(['Spain']))}
+==============================
+d6a5e8aae0cbb80e190acc0f35e2e1f5ATI Technologies Inc.MacIntelMacintoshATI Radeon HD 5670 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-24 13:36:11 2017-12-28 09:03:48 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a6ba2eb57e17f1530d227733f2a13c71e75f39a3']), set(['6301e76a8ce6a6da71a7f9eceb51fcda760532a6'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2'])), 'ipcity': (set(['Dresden']), set(['Halle', '(Saale)'])), 'gpuimgs': (set(['0_6f4fc1ab7a05c2b7a61904b5349f3ffcd046a6bc']), set(['0_3edde9897b15ecc33e7bbe87dec5b873dc32d3af'])), 'ipregion': (set(['Sachsen']), set(['Sachsen-Anhalt']))}
+==============================
+d9371cee33d089d95f6ed7b512ba2f68NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce 320M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-04 12:29:41 2017-12-23 14:34:37 {'canvastest': (set(['9d3743b20cce8ef39e34aa45e4bdbc327e1d32df']), set(['24243f816ef537ccdd88a930b162fdd4050ef02f'])), 'langsdetected': (set(['Syriac', 'Tifinagh']), set([])), 'language': (set(['pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4']), set(['pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'])), 'encoding': (set(['deflate']), set(['br', 'deflate,'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['30c739c9f2ae3de0ff5d1e0a288112c7ba11cc79']), set(['98dfdcefb3da2c377d427847f4ccf407c04cd42e'])), 'agent': (set(['10_11_6)', 'Chrome/49.0.2623.112']), set(['10_13_2)', 'Chrome/63.0.3239.84'])), 'plugins': (set(['Flash', 'Client~Shockwave', 'Viewer~Chrome']), set(['Content', 'Decryption', 'Client~Widevine', 'Module', 'Plugin~Chrome'])), 'gpuimgs': (set(['0_926ce64424c33ca10a5cde2b5fd988dd5b9d73ed']), set(['0_617d78b6891bfd73110b5a930090eb433c06fa18']))}
+==============================
+da23619146eb0b7bc690d17cf69092abATI Technologies Inc.MacIntelMacintoshAMD Radeon HD 6770M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-18 06:35:33 2017-12-19 13:01:11 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Bayreuth']), set(['Sulzbach-Rosenberg']))}
+==============================
+da8f7c21a63d2fb5e17ea0a76ffbcfe1Intel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-27 13:41:42 2017-12-19 08:52:57 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_pixelratio': (set(['0.895522415638']), set(['1'])), 'canvastest': (set(['5908119e822a0f9d77bf01dae100774e59cdb247']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def']))}
+==============================
+dc314e7c2b87f60e8570a8af305fb02fIntel Inc.MacIntelMacintoshIntel Iris OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.5 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-04 07:23:01 2017-12-24 08:40:16 {'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a52fc8f758b7c755ed9cdb206c3e52ed73c189ac']), set(['3a11492c6c47f2878d892875969872e148db451b'])), 'agent': (set(['Safari/604.4.5', 'AppleWebKit/604.4.5']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7'])), 'plugins': (set(['WebKitintegrierte']), set(['Shockwave', 'Flash~WebKitintegrierte']))}
+==============================
+dc99a2d8996f81358104bc918bfb1222Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-22 15:26:01 2017-12-20 21:00:51 {'jsFonts': (set([]), set(['OSAKA'])), 'ipcity': (set(['Aislingen']), set(['Nuremberg']))}
+==============================
+ddf512a04624d10b17b62e34dbeb0854Intel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-16 16:22:20 2017-12-21 15:43:08 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_10_5)']), set(['10_13_2)']))}
+==============================
+de077e8280cf74e7d045d3565cd34a9fIntel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-27 15:43:37 2017-12-21 13:54:32 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['37a5d4a0c1357d0062ce4472b5b969dbd9819837']), set(['6d81a7b529af67110f9269064c01ea6142c48308'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+dee498857d07308a911b17c1014fb664Intel Inc.MacIntelMacintoshIntel Iris OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:56.0) Gecko/20100101 Firefox/56.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-29 12:03:12 2017-12-07 22:54:16 {'canvastest': (set(['3d5c2b30ab9c9d2d6c9535dc99fedb8d6d9cca03']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac'])), 'langsdetected': (set([]), set(['Tifinagh', 'Javanese'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['3cf5c6226504062c13e05db731dd6070a0977872']), set(['5fd65b5479aed3b94f597a488224a7bc8ce39947'])), 'agent': (set(['Firefox/56.0', 'rv:56.0)', '10.12;']), set(['10.13;', 'Firefox/57.0', 'rv:57.0)'])), 'ipcity': (set(['Ariana']), set(['Majaz', 'Bab', 'al'])), 'ipregion': (set(["L'Ariana"]), set(['Beja']))}
+==============================
+e0356fe695ab96d0f72ec2441395d3d8Intel Inc.MacIntelMacintoshIntel HD Graphics 5000 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+2017-12-11 13:58:23 2017-12-23 09:02:49 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'language': (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['11fc7a21a941219c1b317212161479ecfe30e66a']), set(['c275d23151d7a378dde95a63aacbff2b1b217a6f'])), 'agent': (set(['10_12_6)', 'Chrome/57.0.2987.133']), set(['10_13_2)', 'Chrome/63.0.3239.108'])), 'plugins': (set(['Viewer~Chrome']), set(['Plugin~Chrome'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))}
+==============================
+e2c605aa94889dfd649b96918a13352aIntel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000chrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-28 13:47:27 2017-11-28 19:23:21 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'jsFonts': (set(['OSAKA']), set([])), 'language': (set(['sv-SE,sv;q=0.8,en-US;q=0.6,en;q=0.4']), set(['sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7'])), 'agent': (set(['Chrome/61.0.3163.100', '10_12_6)']), set(['Chrome/62.0.3202.94', '10_13_1)']))}
+==============================
+e3d58a3ed6fe555ed956a43ab1c1d03fATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M295X OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-28 09:36:38 2017-12-05 13:03:01 {'jsFonts': (set(['OSAKA']), set(['Lucida Sans'])), 'langsdetected': (set([]), set(['Javanese'])), 'canvastest': (set(['cc491e70b221540e18ab43bc3b269ddf315ebf18']), set(['fca53e75042da7a934ccb95af522ddaa2d994f26'])), 'agent': (set(['10.11;']), set(['10.13;']))}
+==============================
+e45fab061c6976282c83a19526dcb390Intel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000firefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-12-11 09:54:23 2017-12-24 14:57:33 {'jsFonts': (set([]), set(['OSAKA'])), 'ipcity': (set(['Dachswald']), set(['Heidelberg']))}
+==============================
+e6affcdc5f5caa9731cfdb28a60d4805NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 330M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-24 11:05:39 2017-11-27 13:16:03 {'jsFonts': (set(['Garamond']), set(['OSAKA'])), 'ipregion': (set(['Bayern']), set(['Baden-Wurttemberg'])), 'ipcity': (set(['Munich']), set(['Karlsruhe']))}
+==============================
+e9d25bed0fd9c5ebb2aabd442e577e37ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M380 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-22 00:50:15 2017-12-03 20:34:39 {'jsFonts': (set(['OSAKA']), set([])), 'ipcity': (set(['Trotton']), set(['Southend-on-Sea'])), 'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['10_12_6)']), set(['10_13_1)'])), 'plugins': (set(['Module~Widevine']), set([]))}
+==============================
+ecb3e1bbfd855f2e0912fb4168036ad0Intel Inc.MacIntelMacintoshIntel HD Graphics 5000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+2017-11-27 16:58:36 2017-12-13 10:22:27 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+ed5ae6bc75fd0f0982f445363662defaIntel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:55.0) Gecko/20100101 Firefox/55.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:55.0) Gecko/20100101 Firefox/55.0
+2017-12-19 08:45:36 2017-12-22 08:58:33 {'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['cdf7094e4f8b8e463f4774ca2f9445a9254a4f23']), set(['e30ed313080e812a91698bda331ad59d896e4c8e'])), 'langsdetected': (set([]), set(['Sundanese', 'Lontara', 'Thaana', 'Syriac'])), 'canvastest': (set(['bdcca88e28eed3e993d9c1597f8767c39347eede']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def'])), 'agent': (set(['10.10;']), set(['10.13;']))}
+==============================
+f08c10514638bcb9f977f45234a0b48eNVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 755M OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-11 14:40:06 2017-12-28 07:05:01 {'gpuimgs': (set(['0_a6139d4e4a2ef4cbf56ca75f71970d51250f1093']), set(['0_f8b34e92bff7d44ecd591e3e2d129d72fb01879d'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['58bbe1c83b3249233c259658064eaba0100eab4f']), set(['2addb9cb1fa1bf7efd089b1250e67c2e10bc454f'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+f0c664b5afdc506f7db27bc7c3fa6b1dIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 6100safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-03 20:26:56 2017-12-17 01:12:08 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['41bad84e3b11cd9b7fb351662802d33c3208a87b']), set(['f840205c90e62fa3acd40d5a75f1fdb262c8d8dc'])), 'ipcity': (set(['Frankfurt', 'Main', 'am']), set(['Sterbfritz'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+f10edf2d10fb205aff1163304837a193NVIDIA CorporationMacIntelMacintoshNVIDIA GeForce GT 750M OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-01 13:46:59 2017-12-04 18:08:23 {'jsFonts': (set(['OSAKA']), set(['Bradley Hand'])), 'fp2_webgl': (set(['3be8dfa02033402286824c070cd823ad68c26c6c']), set(['cc6ce0e50be395d1a66d19c8524a49dffc591c08'])), 'canvastest': (set(['f41f219c5febc5ab650b22b6206fb7150f70fa34']), set(['c3f882c8e13ddb020b41bb567944d110d6cc1787'])), 'agent': (set(['10_9_5)']), set(['10_12_6)']))}
+==============================
+f241bef26d1d61b136b412bda36faef6ATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M390 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-11-22 21:57:13 2017-12-26 14:19:11 {'gpuimgs': (set(['0_0f0562f5c8609a5438c3cdfde251f7c75d923bb1']), set(['0_c3119b07769ae019d57a404f69c2980a0f0fa386'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a9e912d1875d89a9c4ec482f7db31de28fd86771']), set(['5e95356660017875a5b42dd0be720b191b620a74'])), 'agent': (set(['Chrome/62.0.3202.94', '10_13_1)']), set(['10_13_2)', 'Chrome/63.0.3239.84']))}
+==============================
+f299a0fb35f88a3a76d416fea6a88a37ATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 575 OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-23 22:32:31 2017-11-28 18:37:38 {'jsFonts': (set(['OSAKA']), set([])), 'ipregion': (set(['Lisboa']), set(['Braga'])), 'ipcity': (set(['Lisbon']), set(['Braga'])), 'canvastest': (set(['159dbce7ffa9c265b3ead91e465b58a9ad1b3e6d']), set(['fca53e75042da7a934ccb95af522ddaa2d994f26'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+f2be8cee99a520fbcef88044d980bf9fIntel Inc.MacIntelMacintoshIntel Iris OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-18 07:22:56 2017-12-26 07:19:25 {'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['679df1e9264b922ac914acc2b37c24a069e140ca']), set(['bb79d29c0841709dc0395bfce431f7cd5ddec823'])), 'canvastest': (set(['f41f219c5febc5ab650b22b6206fb7150f70fa34']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'agent': (set(['Chrome/62.0.3202.94', '10_10_2)']), set(['10_13_2)', 'Chrome/63.0.3239.84']))}
+==============================
+f32ed511cba11ddc9075fee3fe406cffATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 460 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-30 16:21:53 2017-12-04 15:18:50 {'jsFonts': (set([]), set(['OSAKA']))}
+==============================
+f32ed511cba11ddc9075fee3fe406cffATI Technologies Inc.MacIntelMacintoshAMD Radeon Pro 460 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-12-04 15:18:50 2017-12-06 08:17:24 {'jsFonts': (set(['OSAKA']), set([]))}
+==============================
+f32ed511cba11ddc9075fee3fe406cffATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M390 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+2017-12-01 20:33:22 2017-12-21 21:39:16 {'gpuimgs': (set(['0_0f0562f5c8609a5438c3cdfde251f7c75d923bb1']), set(['0_c3119b07769ae019d57a404f69c2980a0f0fa386'])), 'jsFonts': (set([]), set(['OSAKA'])), 'fp2_webgl': (set(['a9e912d1875d89a9c4ec482f7db31de28fd86771']), set(['5e95356660017875a5b42dd0be720b191b620a74'])), 'agent': (set(['Chrome/62.0.3202.94', '10_13_1)']), set(['10_13_2)', 'Chrome/63.0.3239.84']))}
+==============================
+f5fbc1914453aae538440debff726f9bIntel Inc.MacIntelMacintoshIntel HD Graphics 4000 OpenGL Enginesafari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-11-25 11:08:52 2017-12-19 04:29:14 {'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'jsFonts': (set(['OSAKA']), set([])), 'fp2_webgl': (set(['ef98d82802a3d777d4bff10a78cd32f8cb9aace7']), set(['0a1805aa99abdcfab181d7304f3038ab38e865e2'])), 'ipcity': (set(['Dortmund']), set(['Dusseldorf'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))}
+==============================
+fc8d65c1b82b07a4ccbf9feb0f40926aATI Technologies Inc.MacIntelMacintoshAMD Radeon R9 M395 OpenGL Enginechrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+2017-11-22 13:48:35 2017-12-14 15:11:13 {'jsFonts': (set([]), set(['OSAKA'])), 'plugins': (set(['Module~Widevine']), set([]))}
+==============================
+fe84c90e0b1f9def75ce6a5121963e7aIntel Inc.MacIntelMacintoshIntel(R) HD Graphics 6000safari
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0.1 Safari/604.3.5
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7
+2017-12-01 10:23:06 2017-12-25 12:51:28 {'jsFonts': (set(['OSAKA']), set(['Garamond'])), 'fp2_webgl': (set(['55b507003d4846f1fa223923cef5a24c6b24af89']), set(['70ccaed462dd5c0173d854863b80e4d3c0078f65'])), 'agent': (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2'])), 'ipcity': (set(['Stuttgart']), set(['Berlin'])), 'gpuimgs': (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201'])), 'ipregion': (set(['Baden-Wurttemberg']), set(['Berlin']))}
+==============================
+ff79d0a4ff57ba868069a6cf32ec390eIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 650chrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+2017-11-22 16:08:50 2017-12-21 20:35:58 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'language': (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9'])), 'jsFonts': (set(['OSAKA']), set(['Lucida Sans Typewriter', 'Calibri', 'Stencil', 'Copperplate Gothic Light', 'Perpetua Titling MT', 'Engravers MT', 'Haettenschweiler', 'Matura MT Script Capitals', 'MS Mincho', 'Gulim', 'PMingLiU', 'SimSun', 'Century Schoolbook', 'Lucida Calligraphy', 'MS PGothic', 'Gloucester MT Extra Condensed', 'Lucida Console', 'Baskerville Old Face', 'Lucida Fax', 'SimSun-ExtB', 'Bernard MT Condensed', 'Colonna MT', 'Marlett', 'Garamond', 'Lucida Sans Unicode', 'Book Antiqua', 'Curlz MT', 'Gill Sans MT', 'Britannic Bold', 'SimHei', 'Constantia', 'Consolas', 'MS Gothic', 'Perpetua', 'Cooper Black', 'Cambria', 'Rockwell', 'Palatino Linotype', 'MYRIAD PRO', 'MingLiU', 'Batang', 'EUROSTILE', 'MS Reference Specialty', 'Imprint MT Shadow', 'Lucida Handwriting', 'Goudy Old Style', 'Edwardian Script ITC', 'Cambria Math', 'Candara', 'Abadi MT Condensed Light', 'Bookman Old Style', 'MingLiU-ExtB', 'Microsoft Himalaya', 'Copperplate Gothic Bold', 'Bell MT', 'Corbel', 'MT Extra', 'Lucida Sans', 'Microsoft Tai Le', 'Harrington', 'Mistral', 'Footlight MT Light', 'Gabriola', 'MS Reference Sans Serif', 'Meiryo', 'Playbill', 'PMingLiU-ExtB', 'Century', 'Rockwell Extra Bold', 'Calisto MT', 'Tw Cen MT', 'Mongolian Baiti', 'HKSCS-ExtB', 'Wide Latin', 'MS PMincho', 'Lucida Bright', 'Microsoft Yi Baiti', 'Onyx', 'Century Gothic', 'HKSCS', 'Monotype Corsiva'])), 'fp2_webgl': (set(['8c28c4afbe1fd803a49899f10bdb8155e1b82ab9']), set(['dadb7ccfd6432000f5780e3e0703832d07f46cb1'])), 'agent': (set(['Chrome/61.0.3163.100', '10_12_6)']), set(['Chrome/63.0.3239.108', '10_13_1)'])), 'ipcity': (set(['Houston']), set(['Mobile'])), 'plugins': (set(['Client~Shockwave', 'Flash~Widevine']), set(['Client~Widevine'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_6a688334c1b0e98879aa067815b613de0e8826c1'])), 'ipregion': (set(['Texas']), set(['Alabama'])), 'fp2_pixelratio': (set(['2']), set(['1']))}
+==============================
+ff79d0a4ff57ba868069a6cf32ec390eIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 650chrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+2017-12-21 20:35:58 2017-12-21 21:01:50 {'canvastest': (set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3']), set(['c3f882c8e13ddb020b41bb567944d110d6cc1787'])), 'ipregion': (set(['Alabama']), set(['Texas'])), 'language': (set(['en-US,en;q=0.9']), set(['en-US,en;q=0.8'])), 'jsFonts': (set(['Lucida Sans Typewriter', 'Calibri', 'Stencil', 'Copperplate Gothic Light', 'Perpetua Titling MT', 'Engravers MT', 'Haettenschweiler', 'Matura MT Script Capitals', 'MS Mincho', 'Gulim', 'PMingLiU', 'SimSun', 'Century Schoolbook', 'Lucida Calligraphy', 'MS PGothic', 'Gloucester MT Extra Condensed', 'Lucida Console', 'Baskerville Old Face', 'Lucida Fax', 'SimSun-ExtB', 'Bernard MT Condensed', 'Colonna MT', 'Marlett', 'Garamond', 'Lucida Sans Unicode', 'Book Antiqua', 'Curlz MT', 'Gill Sans MT', 'Britannic Bold', 'SimHei', 'Constantia', 'Consolas', 'MS Gothic', 'Perpetua', 'Cooper Black', 'Cambria', 'Rockwell', 'Palatino Linotype', 'MYRIAD PRO', 'MingLiU', 'Batang', 'EUROSTILE', 'MS Reference Specialty', 'Imprint MT Shadow', 'Lucida Handwriting', 'Goudy Old Style', 'Edwardian Script ITC', 'Cambria Math', 'Candara', 'Abadi MT Condensed Light', 'Bookman Old Style', 'MingLiU-ExtB', 'Microsoft Himalaya', 'Copperplate Gothic Bold', 'Bell MT', 'Corbel', 'MT Extra', 'Lucida Sans', 'Microsoft Tai Le', 'Harrington', 'Mistral', 'Footlight MT Light', 'Gabriola', 'MS Reference Sans Serif', 'Meiryo', 'Playbill', 'PMingLiU-ExtB', 'Century', 'Rockwell Extra Bold', 'Calisto MT', 'Tw Cen MT', 'Mongolian Baiti', 'HKSCS-ExtB', 'Wide Latin', 'MS PMincho', 'Lucida Bright', 'Microsoft Yi Baiti', 'Onyx', 'Century Gothic', 'HKSCS', 'Monotype Corsiva']), set(['OSAKA'])), 'fp2_webgl': (set(['dadb7ccfd6432000f5780e3e0703832d07f46cb1']), set(['8c28c4afbe1fd803a49899f10bdb8155e1b82ab9'])), 'agent': (set(['Chrome/63.0.3239.108', '10_13_1)']), set(['Chrome/61.0.3163.100', '10_12_6)'])), 'ipcity': (set(['Mobile']), set(['Conroe'])), 'plugins': (set(['Client~Widevine']), set(['Client~Shockwave', 'Flash~Widevine'])), 'gpuimgs': (set(['0_6a688334c1b0e98879aa067815b613de0e8826c1']), set(['0_480bba8ec15658093d320b330762358ba7cb637c'])), 'audio': (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers'])), 'fp2_pixelratio': (set(['1']), set(['2']))}
+==============================
+ff79d0a4ff57ba868069a6cf32ec390eIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 650chrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+2017-12-21 21:01:50 2017-12-21 21:02:49 {'canvastest': (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])), 'ipregion': (set(['Texas']), set(['Alabama'])), 'language': (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9'])), 'jsFonts': (set(['OSAKA']), set(['Lucida Sans Typewriter', 'Calibri', 'Stencil', 'Copperplate Gothic Light', 'Perpetua Titling MT', 'Engravers MT', 'Haettenschweiler', 'Matura MT Script Capitals', 'MS Mincho', 'Gulim', 'PMingLiU', 'SimSun', 'Century Schoolbook', 'Lucida Calligraphy', 'MS PGothic', 'Gloucester MT Extra Condensed', 'Lucida Console', 'Baskerville Old Face', 'Lucida Fax', 'SimSun-ExtB', 'Bernard MT Condensed', 'Colonna MT', 'Marlett', 'Garamond', 'Lucida Sans Unicode', 'Book Antiqua', 'Curlz MT', 'Gill Sans MT', 'Britannic Bold', 'SimHei', 'Constantia', 'Consolas', 'MS Gothic', 'Perpetua', 'Cooper Black', 'Cambria', 'Rockwell', 'Palatino Linotype', 'MYRIAD PRO', 'MingLiU', 'Batang', 'EUROSTILE', 'MS Reference Specialty', 'Imprint MT Shadow', 'Lucida Handwriting', 'Goudy Old Style', 'Edwardian Script ITC', 'Cambria Math', 'Candara', 'Abadi MT Condensed Light', 'Bookman Old Style', 'MingLiU-ExtB', 'Microsoft Himalaya', 'Copperplate Gothic Bold', 'Bell MT', 'Corbel', 'MT Extra', 'Lucida Sans', 'Microsoft Tai Le', 'Harrington', 'Mistral', 'Footlight MT Light', 'Gabriola', 'MS Reference Sans Serif', 'Meiryo', 'Playbill', 'PMingLiU-ExtB', 'Century', 'Rockwell Extra Bold', 'Calisto MT', 'Tw Cen MT', 'Mongolian Baiti', 'HKSCS-ExtB', 'Wide Latin', 'MS PMincho', 'Lucida Bright', 'Microsoft Yi Baiti', 'Onyx', 'Century Gothic', 'HKSCS', 'Monotype Corsiva'])), 'fp2_webgl': (set(['8c28c4afbe1fd803a49899f10bdb8155e1b82ab9']), set(['dadb7ccfd6432000f5780e3e0703832d07f46cb1'])), 'agent': (set(['Chrome/61.0.3163.100', '10_12_6)']), set(['Chrome/63.0.3239.108', '10_13_1)'])), 'ipcity': (set(['Conroe']), set(['Mobile'])), 'plugins': (set(['Client~Shockwave', 'Flash~Widevine']), set(['Client~Widevine'])), 'gpuimgs': (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_6a688334c1b0e98879aa067815b613de0e8826c1'])), 'audio': (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers'])), 'fp2_pixelratio': (set(['2']), set(['1']))}
+==============================
+ff79d0a4ff57ba868069a6cf32ec390eIntel Inc.MacIntelMacintoshIntel(R) Iris(TM) Graphics 650chrome
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+2017-12-21 21:02:49 2017-12-22 15:34:01 {'canvastest': (set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3']), set(['c3f882c8e13ddb020b41bb567944d110d6cc1787'])), 'ipregion': (set(['Alabama']), set(['Texas'])), 'language': (set(['en-US,en;q=0.9']), set(['en-US,en;q=0.8'])), 'jsFonts': (set(['Lucida Sans Typewriter', 'Calibri', 'Stencil', 'Copperplate Gothic Light', 'Perpetua Titling MT', 'Engravers MT', 'Haettenschweiler', 'Matura MT Script Capitals', 'MS Mincho', 'Gulim', 'PMingLiU', 'SimSun', 'Century Schoolbook', 'Lucida Calligraphy', 'MS PGothic', 'Gloucester MT Extra Condensed', 'Lucida Console', 'Baskerville Old Face', 'Lucida Fax', 'SimSun-ExtB', 'Bernard MT Condensed', 'Colonna MT', 'Marlett', 'Garamond', 'Lucida Sans Unicode', 'Book Antiqua', 'Curlz MT', 'Gill Sans MT', 'Britannic Bold', 'SimHei', 'Constantia', 'Consolas', 'MS Gothic', 'Perpetua', 'Cooper Black', 'Cambria', 'Rockwell', 'Palatino Linotype', 'MYRIAD PRO', 'MingLiU', 'Batang', 'EUROSTILE', 'MS Reference Specialty', 'Imprint MT Shadow', 'Lucida Handwriting', 'Goudy Old Style', 'Edwardian Script ITC', 'Cambria Math', 'Candara', 'Abadi MT Condensed Light', 'Bookman Old Style', 'MingLiU-ExtB', 'Microsoft Himalaya', 'Copperplate Gothic Bold', 'Bell MT', 'Corbel', 'MT Extra', 'Lucida Sans', 'Microsoft Tai Le', 'Harrington', 'Mistral', 'Footlight MT Light', 'Gabriola', 'MS Reference Sans Serif', 'Meiryo', 'Playbill', 'PMingLiU-ExtB', 'Century', 'Rockwell Extra Bold', 'Calisto MT', 'Tw Cen MT', 'Mongolian Baiti', 'HKSCS-ExtB', 'Wide Latin', 'MS PMincho', 'Lucida Bright', 'Microsoft Yi Baiti', 'Onyx', 'Century Gothic', 'HKSCS', 'Monotype Corsiva']), set(['OSAKA'])), 'fp2_webgl': (set(['dadb7ccfd6432000f5780e3e0703832d07f46cb1']), set(['8c28c4afbe1fd803a49899f10bdb8155e1b82ab9'])), 'agent': (set(['Chrome/63.0.3239.108', '10_13_1)']), set(['Chrome/61.0.3163.100', '10_12_6)'])), 'ipcity': (set(['Mobile']), set(['Conroe'])), 'plugins': (set(['Client~Widevine']), set(['Client~Shockwave', 'Flash~Widevine'])), 'gpuimgs': (set(['0_6a688334c1b0e98879aa067815b613de0e8826c1']), set(['0_480bba8ec15658093d320b330762358ba7cb637c'])), 'audio': (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers'])), 'fp2_pixelratio': (set(['1']), set(['2']))}
+==============================
+ffea7b00941972fbf7e49f1bee964d58Intel Inc.MacIntelMacintoshIntel Iris Pro OpenGL Enginefirefox
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:57.0) Gecko/20100101 Firefox/57.0
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0
+2017-11-23 22:44:48 2017-12-22 18:46:32 {'jsFonts': (set(['OSAKA']), set([])), 'canvastest': (set(['3d1a2b414f056b4392ac8a69b21bfbb97a0de5af']), set(['ea4c5da334e283d12470992726090b88dedaacdc'])), 'agent': (set(['10.12;']), set(['10.13;']))}
+==============================
+finished generating jsFonts change
+(['\nArial Black~Arial Narrow', '\nGaramond', '\nAlbertus Extra Bold', '\nArial Black', '\nLeelawadee~Microsoft Uighur', '\nMeiryo UI~Meiryo', '\nBodoni MT Condensed~Copperplate Gothic Light~Bodoni MT Black~Script MT Bold~Arial Narrow~Arial Black~Rockwell Condensed~Bernard MT Condensed~Arial Rounded MT Bold~Gill Sans MT Ext Condensed Bold~Gill Sans MT Condensed~Cooper Black~Rockwell Extra Bold~Tw Cen MT Condensed~Britannic Bold~Gill Sans Ultra Bold Condensed~Copperplate Gothic Bold~OCR A Extended~Harlow Solid Italic~Bodoni MT Poster Compressed~Segoe UI Semibold~Footlight MT Light~Gill Sans Ultra Bold~Segoe UI Light~Rage Italic~Berlin Sans FB Demi~Tw Cen MT Condensed Extra Bold', '\nOSAKA', '\nZWAdobeF', '\nAlbertus Extra Bold~Arial Black~Arial Narrow'], [4118, 3712, 1106, 1046, 439, 149, 117, 108, 73, 69])

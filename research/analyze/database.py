@@ -1,4 +1,5 @@
 import ConfigParser
+from extractinfo import *
 import pandas as pd
 import MySQLdb
 import hashlib
@@ -62,7 +63,10 @@ class Database():
     def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator):
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]
+        df = df[pd.notnull(df['gpuimgs'])]
         df = df[pd.notnull(df['fp2_platform'])]
+        df = df[df.jsFonts != '']
+        df = df[df.langsdetected != '']
         # add columns
         df['ipcity'] = 'ipcity'
         df['ipregion'] = 'ipregion'
@@ -70,6 +74,7 @@ class Database():
         df['latitude'] = 'latitude'
         df['longitude'] = 'longitude'
         df['deviceid'] = 'deviceid'
+        df['browserid'] = 'browserid'
         # regenerate ip realted features
         # and generate the browser finergrpint
         df = df.reset_index()
@@ -90,6 +95,8 @@ class Database():
                 print (df.at[idx, 'id'])
                 print (df.iloc[idx])
             # hashlib.sha256(device_str).hexdigest()
+            browser_str = device_str + get_browser_from_agent(df.at[idx, 'agent'])
+            df.at[idx, 'browserid'] = browser_str
 
             res_str = ""
             for feature in feature_list:
