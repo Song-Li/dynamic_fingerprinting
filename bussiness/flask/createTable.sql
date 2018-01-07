@@ -48,6 +48,7 @@ DROP TABLE IF EXISTS `features`;
 CREATE TABLE `features` (
   `IP` varchar(32) DEFAULT NULL,
   `inc` text,
+  `httpheaders` text,
   `gpu` text,
   `timezone` int(11) DEFAULT NULL,
   `resolution` text,
