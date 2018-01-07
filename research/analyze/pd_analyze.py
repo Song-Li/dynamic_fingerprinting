@@ -71,6 +71,9 @@ def printTable(table):
             continue
         print '{:<5.5} '.format(k) + ' '.join(['{:<5.5}'.format(str(table[k][k2])) for k2 in feature_names])
 
+
+
+
 def get_change(cookies):
     total = 0
     cnt = {}
@@ -357,6 +360,24 @@ def get_latex_pic(path):
     tail = r'\end{figure}'
     return head + body + tail
 
+# input a list of data
+# output the latexified list
+def get_latex_table(table, title):
+    head = r"\begin{table}[h!]"
+    head += r"\centering\captionof{table}"
+    body = r"{" + title + r"}{\begin{tabular}{"
+    for i in range(len(table[0])):
+        body += "c "
+    body += r"}\hline"
+    head_line = True
+    for line in table:
+        body += '&'.join(line) 
+        body += r'\\'
+        if head_line:
+            body += r'\hline'
+            head_line = False
+    tail = r'\hline\end{tabular}}\end{table}'
+    return head + body + tail
 
 
 def get_basic_numbers(client):
@@ -874,18 +895,21 @@ def main():
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
+
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
     #output_diff(clientid, 'gpu', 100)
     #get_all(clientid, cookies)
     #fonts, cnts = get_os_fonts()
     #get_browser_update_influence(clientid, method = 'intersection')
+    '''
     get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
     get_item_change(clientid, 'radom', 'gpu', sep = ' ')
     get_item_change(clientid, 'radom', 'agent', sep = ' ')
     get_item_change(clientid, 'radom', 'audio', sep = ' ')
     get_item_change(clientid, 'radom', 'ipcity', sep = '~')
     get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
+    '''
 
 if __name__ == '__main__':
     main()
