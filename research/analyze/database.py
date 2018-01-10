@@ -75,6 +75,7 @@ class Database():
         df['longitude'] = 'longitude'
         df['deviceid'] = 'deviceid'
         df['browserid'] = 'browserid'
+        df['browser'] = 'browser'
         # regenerate ip realted features
         # and generate the browser finergrpint
         df = df.reset_index()
@@ -95,7 +96,8 @@ class Database():
                 print (df.at[idx, 'id'])
                 print (df.iloc[idx])
             # hashlib.sha256(device_str).hexdigest()
-            browser_str = device_str + get_browser_from_agent(df.at[idx, 'agent'])
+            df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
+            browser_str = device_str + df.at[idx, 'browser']
             df.at[idx, 'browserid'] = browser_str
 
             res_str = ""

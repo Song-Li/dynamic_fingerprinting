@@ -1,3 +1,35 @@
+from tqdm import *
+# return the os fonts and the conts of the 
+# contributors
+def get_os_fonts(df):
+    fonts = {}
+    res_fonts = {}
+    cnts = {}
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        os = get_os_version(row['agent'])
+        cur_fonts = row['jsFonts'].split('_')
+        if os not in fonts:
+            fonts[os] = {} 
+            cnts[os] = 0
+        for font in cur_fonts:
+            if font not in fonts[os]:
+                fonts[os][font] = 0
+            else:
+                fonts[os][font] += 1
+        cnts[os] += 1
+
+    for os in fonts:
+        res_fonts[os] = []
+        for font in fonts[os]:
+            if fonts[os][font] > cnts[os] * 0.9:
+                res_fonts[os].append(font)
+        # convert the font list to a set
+        res_fonts[os] = set(res_fonts[os])
+
+    return res_fonts, cnts
+
+
 # input the agent string
 # return the os type
 def get_os_from_agent(agent):
