@@ -802,24 +802,6 @@ def get_fonts_intersection(fonts_1, fonts_2):
     font_list2 = fonts_2.split('_')
     return set(font_list1) & set(font_list2) 
 
-# return the os fonts and the conts of the 
-# contributors
-def get_os_fonts():
-    fonts = {}
-    cnts = {}
-    for idx in tqdm(df.index):
-        row = df.iloc[idx]
-        os = get_os_version(row['agent'])
-        cur_fonts = set(row['jsFonts'].split('_'))
-        if os not in fonts:
-            fonts[os] = cur_fonts
-            cnts[os] = 1
-        else:
-            fonts[os] &= cur_fonts 
-            cnts[os] += 1
-    return fonts, cnts
-
-
 # input two df rows
 # return the diff of these two rows
 # the return is a dict of changes
@@ -887,6 +869,83 @@ def get_browser_update_influence(browserid, method = "all"):
             print (k, res[key][k])
     return res
 
+# input the agent string 
+# return whether this is a private agent or not
+def is_private(agent):
+    agent = agent.lower()
+    if get_os_from_agent(agent) == 'other':
+        return True 
+    return False 
+
+
+# Private browser test
+def private_browser_test(df, fonts):
+    private_count = 0
+    possible_os = {}
+    fail = set()
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        agent = row['agent']
+        if is_private(agent):
+            for os in fonts:
+                if len(fonts[os] - set(row['jsFonts'].split('_'))) == 0:
+                    if row['browserid'] not in possible_os:
+                        possible_os[row['browserid']] = [row['agent']] 
+                    possible_os[row['browserid']].append(os)
+            if row['browserid'] not in possible_os:
+                fail.add(row['browserid'])
+    return possible_os, fail
+
+# output fonts to file
+def output_to_file(fonts):
+    f = open('osversion2fonts', 'w')
+    start = True
+    for os in fonts:
+        if start:
+            start = False
+        else:
+            f.write("~~~")
+        f.write("{}___{}".format(os, '---'.join(fonts[os])))
+    f.close()
+
+# load fonts into memory
+def load_from_file(filename):
+    fonts = {}
+    f = open(filename, 'r')
+    data = f.readline().split('~~~')
+    for tmp in data:
+        fonts[tmp.split('___')[0]] = set(tmp.split('___')[1].split('---'))
+        tmp = f.readline()
+    return fonts
+
+
+# the percentage of changes on that day
+def number_of_change_of_days(client):
+    print 'the percentage of changes on that day'
+    total = 0.0
+    changes = [0.0 for i in range(100)]
+    for browserid, cur_group in client:
+        total += 1.0
+        if cur_group['browserfingerprint'].nunique() > 1:
+            min_time = datetime.datetime.now()
+            counted_days = -1
+            for index, row in cur_group.iterrows():
+                if min_time > row['time']:
+                    min_time = row['time']
+                    min_row = row
+                if row['browserfingerprint'] != min_row['browserfingerprint']:
+                    if counted_days == (row['time'] - min_time).days:
+                        continue
+                    counted_days = (row['time'] - min_time).days
+                    changes[counted_days] += 1.0
+    while changes.pop() == 0:
+        pass
+    for idx in range(len(changes)):
+        changes[idx] /= total
+    print 'finished the percentage of changes on that day'
+    return changes
+
+
 def main():
     global df
     df = load_data(load = True)
@@ -895,14 +954,25 @@ def main():
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
+    get_all(clientid, cookies)
+    #changes = number_of_change_of_days(clientid)
+    #for i in range(len(changes)):
+    #    print str(i) + ' ' + str(changes[i])
 
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
     #output_diff(clientid, 'gpu', 100)
-    #get_all(clientid, cookies)
-    #fonts, cnts = get_os_fonts()
-    #get_browser_update_influence(clientid, method = 'intersection')
+    #print private_browser_test(df)
+    #fonts, cnts = get_os_fonts(df)
+    #output_to_file(fonts)
+
     '''
+    fonts = load_from_file('osversion2fonts')
+    possible_os, fail = private_browser_test(df, fonts)
+    for browserid in possible_os:
+        print browserid, possible_os[browserid] 
+
+    #get_browser_update_influence(clientid, method = 'intersection')
     get_item_change(clientid, 'radom', 'langsdetected', sep = '_')
     get_item_change(clientid, 'radom', 'gpu', sep = ' ')
     get_item_change(clientid, 'radom', 'agent', sep = ' ')
