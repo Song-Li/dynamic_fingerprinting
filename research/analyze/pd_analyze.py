@@ -1,5 +1,7 @@
 import pandas as pd
+from datetime_truncate import truncate
 import operator
+import collections
 from tqdm import *
 from math import sin, cos, sqrt, atan2, radians
 import re
@@ -945,6 +947,86 @@ def number_of_change_of_days(client):
     print 'finished the percentage of changes on that day'
     return changes
 
+# the percentage of changes on the date
+# here the change is based on the change of previous 
+def changes_of_date(client):
+    print 'the percentage of changes on that date'
+    features = [
+            'browserfingerprint',
+            'agent',
+            'jsFonts',
+            'canvastest'
+            ]
+    total = 0.0
+    changes = {}
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    # truncate the mindate to days
+    min_date = truncate(min_date, 'day')
+    length = (max_date - min_date).days
+    length += 3
+    for feature in features:
+        changes[feature] = [0.0 for i in range(length + 1)] 
+
+    for browserid, cur_group in client:
+        pre = {} 
+        if cur_group['browserfingerprint'].nunique() > 1:
+            start = True
+            for index, row in cur_group.iterrows():
+                total += 1.0
+                if start:
+                    pre = row
+                    start = False
+                    continue
+                for feature in features:
+                    if row[feature] != pre[feature]:
+                        delt = (row['time'] - min_date).days
+                        changes[feature][delt] += 1.0
+                        if feature == 'agent' and row['time'].day == 20 and row['time'].month == 12:
+                            print row['agent'], pre['agent']
+                            print get_change_strs(row['agent'], pre['agent'], sep = ' ')
+                            print '==============================='
+                pre = row
+    res = {}
+    print changes
+    for date in range(length + 1):
+        cur_date = min_date + datetime.timedelta(days = date)
+        res[cur_date] = {}
+        for feature in features:
+            res[cur_date][feature] = changes[feature][date] / total
+    print 'finished the percentage of changes on that date'
+    return res, features 
+
+
+# return a list of browser id that happens fliping
+def font_flip_count(client):
+    total = 0
+    res = {} 
+    pre = ""
+    for browserid, cur_group in client:
+        total += 1
+        if cur_group['browserfingerprint'].nunique() > 1:
+            history = set() 
+            start = True
+            cur_jsFonts = ""
+            for idx, row in cur_group.iterrows():
+                cur_jsFonts = row['jsFonts']
+                if start:
+                    start = False
+                    pre = cur_jsFonts
+                    continue
+                if cur_jsFonts in history and cur_jsFonts != pre:
+                    os = get_os_from_agent(row['agent'])
+                    if os not in res:
+                        res[os] = set()
+                    res[os].add(row['browserid'])
+                    break
+                else:
+                    history.add(cur_jsFonts)
+                pre = cur_jsFonts
+    return res
+
+
 
 def main():
     global df
@@ -954,10 +1036,18 @@ def main():
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
-    get_all(clientid, cookies)
-    #changes = number_of_change_of_days(clientid)
-    #for i in range(len(changes)):
-    #    print str(i) + ' ' + str(changes[i])
+    #get_all(clientid, cookies)
+    #changes, features = changes_of_date(clientid)
+    #f = open('./pics/changebydate.dat', 'w')
+    #for date in sorted(changes):
+    #    f.write('{}-{}-{}'.format(date.year, date.month, date.day))
+    #    for feature in features:
+    #        f.write(' {}'.format(changes[date][feature]))
+    #    f.write('\n')
+    #f.close()
+    fliped = font_flip_count(clientid)
+    for os in fliped:
+        print os, len(fliped[os])
 
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
