@@ -1027,6 +1027,18 @@ def font_flip_count(client):
     return res
 
 
+# get the mapping between os and canvastest
+def os_canvas_mapping(df):
+    mapping = {}
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        agent = row['agent']
+        canvas = row['canvastest']
+        os = get_os_version(agent)
+        if canvas not in mapping:
+            mapping[canvas] = set()
+        mapping[canvas].add(os)
+    return mapping
 
 def main():
     global df
@@ -1036,6 +1048,10 @@ def main():
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
+    canvas_mapping = os_canvas_mapping(df)
+    for canvas in canvas_mapping:
+        print canvas, canvas_mapping[canvas]
+    
     #get_all(clientid, cookies)
     #changes, features = changes_of_date(clientid)
     #f = open('./pics/changebydate.dat', 'w')
@@ -1045,9 +1061,9 @@ def main():
     #        f.write(' {}'.format(changes[date][feature]))
     #    f.write('\n')
     #f.close()
-    fliped = font_flip_count(clientid)
-    for os in fliped:
-        print os, len(fliped[os])
+    #fliped = font_flip_count(clientid)
+    #for os in fliped:
+    #    print os, len(fliped[os])
 
     #clientid = df.groupby('clientid')
     #output_diff(clientid, 'inc', 100)
