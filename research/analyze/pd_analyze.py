@@ -982,10 +982,6 @@ def changes_of_date(client):
                     if row[feature] != pre[feature]:
                         delt = (row['time'] - min_date).days
                         changes[feature][delt] += 1.0
-                        if feature == 'agent' and row['time'].day == 20 and row['time'].month == 12:
-                            print row['agent'], pre['agent']
-                            print get_change_strs(row['agent'], pre['agent'], sep = ' ')
-                            print '==============================='
                 pre = row
     res = {}
     print changes
@@ -994,6 +990,56 @@ def changes_of_date(client):
         res[cur_date] = {}
         for feature in features:
             res[cur_date][feature] = changes[feature][date] / total
+    print 'finished the percentage of changes on that date'
+    return res, features 
+
+# the percentage of changes on the date
+# here the change is based on the change of previous 
+def agent_changes_of_date(client):
+    print 'the percentage of changes on that date'
+    features = [
+            'chrome',
+            'opera',
+            'firefox',
+            'opr/',
+            'safari',
+            'trident',
+            'samsungbrowser',
+            'other'
+            ]
+    total = 0.0
+    changes = {}
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    # truncate the mindate to days
+    min_date = truncate(min_date, 'day')
+    length = (max_date - min_date).days
+    length += 3
+    for feature in features:
+        changes[feature] = [0.0 for i in range(length + 1)] 
+
+    for browserid, cur_group in client:
+        pre = {} 
+        if cur_group['browserfingerprint'].nunique() > 1:
+            start = True
+            for index, row in cur_group.iterrows():
+                total += 1.0
+                agent = row['agent']
+                if start:
+                    pre = row
+                    start = False
+                    continue
+                if get_browser_version(agent) != get_browser_version(pre['agent']):
+                    delt = (row['time'] - min_date).days
+                    changes[get_browser_from_agent(agent)][delt] += 1.0
+                pre = row
+    res = {}
+    print changes
+    for date in range(length + 1):
+        cur_date = min_date + datetime.timedelta(days = date)
+        res[cur_date] = {}
+        for feature in features:
+            res[cur_date][feature] = changes[feature][date]
     print 'finished the percentage of changes on that date'
     return res, features 
 
@@ -1028,17 +1074,32 @@ def font_flip_count(client):
 
 
 # get the mapping between os and canvastest
-def os_canvas_mapping(df):
+def get_canvas_agent_mapping(df, func):
     mapping = {}
     for idx in tqdm(df.index):
         row = df.iloc[idx]
         agent = row['agent']
         canvas = row['canvastest']
-        os = get_os_version(agent)
+        aim = func(agent)
         if canvas not in mapping:
-            mapping[canvas] = set()
-        mapping[canvas].add(os)
+            mapping[canvas] = {'ids': set(), 'aim': set()}
+        mapping[canvas]['aim'].add(os)
+        mapping[canvas]['ids'].add(row['browserid'])
     return mapping
+
+# get the mapping between os and canvastest
+def get_canvas_attr_mapping(df, attr):
+    mapping = {}
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        cur_attr = row[attr]
+        canvas = row['canvastest']
+        if canvas not in mapping:
+            mapping[canvas] = {'ids': set(), 'aim': set()}
+        mapping[canvas]['aim'].add(cur_attr)
+        mapping[canvas]['ids'].add(row['browserid'])
+    return mapping
+
 
 def main():
     global df
@@ -1048,19 +1109,26 @@ def main():
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
-    canvas_mapping = os_canvas_mapping(df)
-    for canvas in canvas_mapping:
-        print canvas, canvas_mapping[canvas]
+    '''
+    canvas_mapping = get_canvas_attr_mapping(df, 'gpu')
+    for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
+        print key, len(value['ids']), value['aim']
+
+    canvas_mapping = os_canvas_mapping(df, get_os_version)
+    for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
+        print key, len(value['ids']), value['os']
+    '''
     
+    changes, features = agent_changes_of_date(clientid)
+    print features
+    f = open('./pics/agentchangebydate.dat', 'w')
+    for date in sorted(changes):
+        f.write('{}-{}-{}'.format(date.year, date.month, date.day))
+        for feature in features:
+            f.write(' {}'.format(changes[date][feature]))
+        f.write('\n')
+    f.close()
     #get_all(clientid, cookies)
-    #changes, features = changes_of_date(clientid)
-    #f = open('./pics/changebydate.dat', 'w')
-    #for date in sorted(changes):
-    #    f.write('{}-{}-{}'.format(date.year, date.month, date.day))
-    #    for feature in features:
-    #        f.write(' {}'.format(changes[date][feature]))
-    #    f.write('\n')
-    #f.close()
     #fliped = font_flip_count(clientid)
     #for os in fliped:
     #    print os, len(fliped[os])
