@@ -22,7 +22,6 @@ global df
 def featureDiff(f1, f2):
     return f1 != f2 and 'None' not in str(f1) and 'None' not in str(f2) and pd.notnull(f1) and pd.notnull(f2) 
 
-db = Database('uniquemachine')
 counted_features = [ 
         "agent",
         "accept",
@@ -45,6 +44,7 @@ counted_features = [
         "audio",
 #        "ccaudio",
 #        "hybridaudio",
+'''
         "touchSupport",
         "doNotTrack",
         "fp2_colordepth", 
@@ -61,6 +61,7 @@ counted_features = [
         "fp2_liedbrowser",
         "fp2_webgl",
         "fp2_webglvendoe",
+'''
         "ipcity",
         "ipregion",
         "ipcountry"
@@ -594,7 +595,7 @@ def get_device(row):
     
 
 
-def load_data(load = True, file_path = None):
+def load_data(load = True, db = None, file_path = None):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
     global ip2location
@@ -605,7 +606,7 @@ def load_data(load = True, file_path = None):
     else:
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         print ("ip2location data loaded")
-        df = pd.read_sql('select * from features;', con=db.get_db())    
+        df = pd.read_sql('select * from longfeatures;', con=db.get_db())    
         # delete the null clientid rows
         df = df[pd.notnull(df['clientid'])]
         print ("start clean")
@@ -1088,28 +1089,97 @@ def get_canvas_agent_mapping(df, func):
     return mapping
 
 # get the mapping between os and canvastest
-def get_canvas_attr_mapping(df, attr):
+def get_attr_mapping(df, attr_from, attr):
     mapping = {}
     for idx in tqdm(df.index):
         row = df.iloc[idx]
         cur_attr = row[attr]
-        canvas = row['canvastest']
-        if canvas not in mapping:
-            mapping[canvas] = {'ids': set(), 'aim': set()}
-        mapping[canvas]['aim'].add(cur_attr)
-        mapping[canvas]['ids'].add(row['browserid'])
+        attr_from_val = row[attr_from]
+        if attr_from_val not in mapping:
+            mapping[attr_from_val] = {'ids': set(), 'aim': set()}
+        mapping[attr_from_val]['aim'].add(cur_attr)
+        mapping[attr_from_val]['ids'].add(row['browserid'])
     return mapping
+
+def get_mapping_back(df, canvas_mapping, gpuimgs_mapping, back_name, null_val = 'No Debug Info'):
+    users = {}
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        value = row[back_name]
+        canvas_value = row['canvastest']
+        gpu_value = row['gpuimgs']
+        userid = row['browserid']
+        if value.find(null_val) == -1:
+            continue
+        if userid not in users:
+            users[userid] = canvas_mapping[canvas_value]['aim'] 
+        #users[userid] &= gpuimgs_mapping[gpu_value]['aim']
+    return users
 
 
 def main():
+    small_feature_list = [ 
+        "IP",
+        "time",
+        "label",
+        "clientid",
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "jsFonts",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adblock", 
+        "cpucores", 
+        "canvastest", 
+        "audio"
+        ]
     global df
-    df = load_data(load = True)
+    db = Database('uniquemachine')
+    df = load_data(load = True, db = db)
+    feature_names = list(df.columns.values)
+    df = df[pd.notnull(df['clientid'])]
+    df = df.reset_index(drop = True)
+    clientid = df.groupby('browserid')
+
+    canvas_mapping = get_attr_mapping(df, 'canvastest', 'gpu')
+    gpuimgs_mapping = get_attr_mapping(df, 'gpuimgs', 'gpu')
+    res = get_mapping_back(df, canvas_mapping, gpuimgs_mapping, 'gpu')
+    cnt = 0
+    f = open('mapback.dat', 'w')
+    for r in res:
+        # all should have 'No Debug Info'
+        # we need to drop them
+        val = res[r]
+        if len(val) > 1:
+            f.write(str(val))
+            f.write('\n')
+            cnt += 1
+    print cnt, 'out of ', len(res)
+
+
+    '''
+    db = Database('data1')
+    df1 = load_data(load = True, db = db)
+    db = Database('data2')
+    df2 = load_data(load = True, db = db)
+    db.combine_tables(small_feature_list, [df1, df2])
+    
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
-    '''
+
     canvas_mapping = get_canvas_attr_mapping(df, 'gpu')
     for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
         print key, len(value['ids']), value['aim']
@@ -1117,7 +1187,6 @@ def main():
     canvas_mapping = os_canvas_mapping(df, get_os_version)
     for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
         print key, len(value['ids']), value['os']
-    '''
     
     changes, features = agent_changes_of_date(clientid)
     print features
@@ -1128,6 +1197,7 @@ def main():
             f.write(' {}'.format(changes[date][feature]))
         f.write('\n')
     f.close()
+    '''
     #get_all(clientid, cookies)
     #fliped = font_flip_count(clientid)
     #for os in fliped:
