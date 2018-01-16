@@ -44,7 +44,6 @@ counted_features = [
         "audio",
 #        "ccaudio",
 #        "hybridaudio",
-'''
         "touchSupport",
         "doNotTrack",
         "fp2_colordepth", 
@@ -61,7 +60,6 @@ counted_features = [
         "fp2_liedbrowser",
         "fp2_webgl",
         "fp2_webglvendoe",
-'''
         "ipcity",
         "ipregion",
         "ipcountry"
@@ -595,23 +593,47 @@ def get_device(row):
     
 
 
-def load_data(load = True, db = None, file_path = None):
+def load_data(load = True, db = None, file_path = None, feature_list = counted_features):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
+    small_features = [ 
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "jsFonts",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adblock", 
+        "cpucores", 
+        "canvastest", 
+        "audio"
+        ]
     global ip2location
     df = None
     if load == True:
-        df = pd.read_sql('select * from pandas_features;', con=db.get_db())    
+        df = pd.read_sql('select * from pandas_longfeatures;', con=db.get_db())    
         print ("data loaded")
     else:
-        ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
-        print ("ip2location data loaded")
-        df = pd.read_sql('select * from longfeatures;', con=db.get_db())    
+        #ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
+        #print ("ip2location data loaded")
+        df = pd.read_sql('select * from longfeatures where jsFonts is not NULL and gpuimgs is not NULL;',
+                con=db.get_db())    
+        print ("data loaded")
         # delete the null clientid rows
         df = df[pd.notnull(df['clientid'])]
         print ("start clean")
-        db.clean_sql(counted_features, df, generator = get_location_dy_ip, 
-                get_device = get_device)
+        #db.clean_sql(small_features, df, generator = get_location_dy_ip, 
+        #        get_device = get_device)
+        db.generate_browserid(small_features, df, get_device)
         print ("clean finished")
     return df
 
@@ -996,7 +1018,7 @@ def changes_of_date(client):
 
 # the percentage of changes on the date
 # here the change is based on the change of previous 
-def agent_changes_of_date(client):
+def agent_changes_of_date(client, df):
     print 'the percentage of changes on that date'
     features = [
             'chrome',
@@ -1019,6 +1041,16 @@ def agent_changes_of_date(client):
     for feature in features:
         changes[feature] = [0.0 for i in range(length + 1)] 
 
+    num_browserids_that_day = [set() for i in range(length + 1)]
+    print 'generating number of changed browser in each day'
+    for idx in tqdm(df.index):
+        delt = (df.at[idx, 'time'] - min_date).days
+        num_browserids_that_day[delt].add(df.at[idx, 'browserid'])
+    for idx in range(length + 1):
+        num_browserids_that_day[idx] = float(len(num_browserids_that_day[idx]))
+    print num_browserids_that_day
+    print 'finished generating number of changed browser in each day'
+
     for browserid, cur_group in client:
         pre = {} 
         if cur_group['browserfingerprint'].nunique() > 1:
@@ -1040,7 +1072,10 @@ def agent_changes_of_date(client):
         cur_date = min_date + datetime.timedelta(days = date)
         res[cur_date] = {}
         for feature in features:
-            res[cur_date][feature] = changes[feature][date]
+            if num_browserids_that_day[date] == 0.0:
+                res[cur_date][feature] = 0.0
+            else:
+                res[cur_date][feature] = changes[feature][date] / num_browserids_that_day[date]
     print 'finished the percentage of changes on that date'
     return res, features 
 
@@ -1116,8 +1151,25 @@ def get_mapping_back(df, canvas_mapping, gpuimgs_mapping, back_name, null_val = 
         #users[userid] &= gpuimgs_mapping[gpu_value]['aim']
     return users
 
+def draw_browser_change_by_date():
+    db = Database('uniquemachine')
+    df = load_data(load = True, db = db)
+    feature_names = list(df.columns.values)
+    df = df[pd.notnull(df['clientid'])]
+    df = df.reset_index(drop = True)
+    clientid = df.groupby('browserid')
+    changes, features = agent_changes_of_date(clientid, df)
+    f = open('./pics/agentchangebydate.dat', 'w')
+    for date in sorted(changes):
+        f.write('{}-{}-{}'.format(date.year, date.month, date.day))
+        for feature in features:
+            f.write(' {}'.format(changes[date][feature]))
+        f.write('\n')
+    f.close()
 
 def main():
+
+    '''
     small_feature_list = [ 
         "IP",
         "time",
@@ -1155,7 +1207,7 @@ def main():
     gpuimgs_mapping = get_attr_mapping(df, 'gpuimgs', 'gpu')
     res = get_mapping_back(df, canvas_mapping, gpuimgs_mapping, 'gpu')
     cnt = 0
-    f = open('mapback.dat', 'w')
+    f = open('canvasmapback.dat', 'w')
     for r in res:
         # all should have 'No Debug Info'
         # we need to drop them
@@ -1167,7 +1219,6 @@ def main():
     print cnt, 'out of ', len(res)
 
 
-    '''
     db = Database('data1')
     df1 = load_data(load = True, db = db)
     db = Database('data2')
@@ -1188,15 +1239,9 @@ def main():
     for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
         print key, len(value['ids']), value['os']
     
-    changes, features = agent_changes_of_date(clientid)
-    print features
-    f = open('./pics/agentchangebydate.dat', 'w')
-    for date in sorted(changes):
-        f.write('{}-{}-{}'.format(date.year, date.month, date.day))
-        for feature in features:
-            f.write(' {}'.format(changes[date][feature]))
-        f.write('\n')
-    f.close()
+    '''
+    draw_browser_change_by_date()
+
     '''
     #get_all(clientid, cookies)
     #fliped = font_flip_count(clientid)
@@ -1210,7 +1255,6 @@ def main():
     #fonts, cnts = get_os_fonts(df)
     #output_to_file(fonts)
 
-    '''
     fonts = load_from_file('osversion2fonts')
     possible_os, fail = private_browser_test(df, fonts)
     for browserid in possible_os:

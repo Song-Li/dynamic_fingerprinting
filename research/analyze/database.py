@@ -69,11 +69,45 @@ class Database():
         big_df.to_sql('longfeatures', self.get_db_engine(), if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
+    def generate_browserid(self, feature_list, df, get_device = null_generator):
+        df['deviceid'] = 'deviceid'
+        df['browserid'] = 'browserid'
+        df['browser'] = 'browser'
+        # remove the null rows
+        df = df[pd.notnull(df['jsFonts'])]
+        #df = df[pd.notnull(df['gpuimgs'])]
+        df = df[df.jsFonts != '']
+        df = df[df.langsdetected != '']
+        df = df.reset_index()
+        for idx in tqdm(df.index):
+            try:
+                device_str = get_device(df.iloc[idx])
+                df.at[idx, 'deviceid'] = device_str 
+            except:
+                print (idx)
+                print (df.at[idx, 'id'])
+                print (df.iloc[idx])
+            # hashlib.sha256(device_str).hexdigest()
+            df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
+            browser_str = device_str + df.at[idx, 'browser']
+            df.at[idx, 'browserid'] = browser_str
+
+            res_str = ""
+            for feature in feature_list:
+                res_str += str(df.at[idx, feature] )
+
+            hash_str = hashlib.sha256(res_str).hexdigest()
+            df.at[idx, 'browserfingerprint'] = hash_str
+
+        print ("Finished calculation, start to put back to csv")
+        df.to_sql('pandas_longfeatures', self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
+        print ("Finished push to csv")
+
 
     def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator):
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]
-        df = df[pd.notnull(df['gpuimgs'])]
+        #df = df[pd.notnull(df['gpuimgs'])]
         df = df[df.jsFonts != '']
         df = df[df.langsdetected != '']
         # add columns
