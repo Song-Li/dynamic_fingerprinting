@@ -218,13 +218,16 @@ def doInit(unique_label, cookie):
     encoding = ""
     language = ""
     IP = ""
+    keys = ""
     try:
         agent = request.headers.get('User-Agent')
         accpet = request.headers.get('Accept')
         encoding = request.headers.get('Accept-Encoding')
         language = request.headers.get('Accept-Language')
+        keys = '_'.join(request.headers.keys())
         IP = request.remote_addr
     except:
+        print keys
         pass
 
     # create a new record in features table
@@ -237,7 +240,8 @@ def doInit(unique_label, cookie):
     result['encoding'] = encoding
     result['language'] = language
     result['label'] = cookie
-    result['iplocation'] = get_location_by_ip(IP)
+    # remove iplocation
+    result['httpheaders'] = keys 
 
     return doUpdateFeatures(unique_label, result)
 
