@@ -607,7 +607,7 @@ def load_data(load = True, db = None, file_path = None, feature_list = counted_f
         "WebGL", 
         "inc", 
         "gpu", 
-        "gpuimgs", 
+        #"gpuimgs", 
         "timezone", 
         "plugins", 
         "cookie", 
@@ -620,7 +620,9 @@ def load_data(load = True, db = None, file_path = None, feature_list = counted_f
     global ip2location
     df = None
     if load == True:
-        df = pd.read_sql('select * from pandas_longfeatures;', con=db.get_db())    
+        #df = pd.read_sql('select * from pandas_longfeatures;', con=db.get_db())    
+        #used for combine databases
+        df = pd.read_sql('select * from features;', con=db.get_db())    
         print ("data loaded")
     else:
         #ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
@@ -1069,10 +1071,11 @@ def agent_changes_of_date(client, df):
                     continue
                 #if get_browser_version(agent) != get_browser_version(pre['agent']):
                 #if row['agent'] != pre['agent']:
-                if row['jsFonts'] != pre['jsFonts']:
+                #if row['jsFonts'] != pre['jsFonts']:
+                if row['browserfingerprint'] != pre['browserfingerprint']:
                     delt = (row['time'] - min_date).days
                     changes[row['browser']][delt] += 1.0
-#TODO: output the time
+                #TODO: output the time
                     break
                 pre = row
     res = {}
@@ -1178,8 +1181,6 @@ def draw_browser_change_by_date():
     f.close()
 
 def main():
-
-    '''
     small_feature_list = [ 
         "IP",
         "time",
@@ -1205,9 +1206,10 @@ def main():
         "canvastest", 
         "audio"
         ]
+    '''
     global df
     db = Database('uniquemachine')
-    df = load_data(load = True, db = db)
+    df = load_data(load = False, db = db)
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -1228,6 +1230,7 @@ def main():
             cnt += 1
     print cnt, 'out of ', len(res)
 
+    '''
 
     db = Database('data1')
     df1 = load_data(load = True, db = db)
@@ -1235,6 +1238,7 @@ def main():
     df2 = load_data(load = True, db = db)
     db.combine_tables(small_feature_list, [df1, df2])
     
+    '''
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
@@ -1249,10 +1253,8 @@ def main():
     for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
         print key, len(value['ids']), value['os']
     
-    '''
     draw_browser_change_by_date()
 
-    '''
     #get_all(clientid, cookies)
     #fliped = font_flip_count(clientid)
     #for os in fliped:
