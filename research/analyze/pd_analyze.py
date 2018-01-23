@@ -1038,16 +1038,21 @@ def agent_changes_of_date(client, df):
     min_date = truncate(min_date, 'day')
     length = (max_date - min_date).days
     length += 3
+    num_browserids_that_day = {}
     for feature in features:
         changes[feature] = [0.0 for i in range(length + 1)] 
+        num_browserids_that_day[feature] = [set() for i in range(length + 1)]
 
-    num_browserids_that_day = [set() for i in range(length + 1)]
     print 'generating number of changed browser in each day'
+    total_num_ids_that_day = [set() for i in range(length + 1)]
     for idx in tqdm(df.index):
         delt = (df.at[idx, 'time'] - min_date).days
-        num_browserids_that_day[delt].add(df.at[idx, 'browserid'])
-    for idx in range(length + 1):
-        num_browserids_that_day[idx] = float(len(num_browserids_that_day[idx]))
+        num_browserids_that_day[df.at[idx, 'browser']][delt].add(df.at[idx, 'browserid'])
+        total_num_ids_that_day[delt].add(df.at[idx, 'browserid'])
+
+    for feature in features:
+        for idx in range(length + 1):
+            num_browserids_that_day[feature][idx] = float(len(num_browserids_that_day[feature][idx]))
     print num_browserids_that_day
     print 'finished generating number of changed browser in each day'
 
@@ -1062,9 +1067,13 @@ def agent_changes_of_date(client, df):
                     pre = row
                     start = False
                     continue
-                if get_browser_version(agent) != get_browser_version(pre['agent']):
+                #if get_browser_version(agent) != get_browser_version(pre['agent']):
+                #if row['agent'] != pre['agent']:
+                if row['jsFonts'] != pre['jsFonts']:
                     delt = (row['time'] - min_date).days
-                    changes[get_browser_from_agent(agent)][delt] += 1.0
+                    changes[row['browser']][delt] += 1.0
+#TODO: output the time
+                    break
                 pre = row
     res = {}
     print changes
@@ -1072,10 +1081,11 @@ def agent_changes_of_date(client, df):
         cur_date = min_date + datetime.timedelta(days = date)
         res[cur_date] = {}
         for feature in features:
-            if num_browserids_that_day[date] == 0.0:
+            if num_browserids_that_day[feature][date] == 0.0:
                 res[cur_date][feature] = 0.0
             else:
-                res[cur_date][feature] = changes[feature][date] / num_browserids_that_day[date]
+                res[cur_date][feature] = changes[feature][date] / num_browserids_that_day[feature][date]
+#total_num_ids_that_day[date]
     print 'finished the percentage of changes on that date'
     return res, features 
 
@@ -1159,7 +1169,7 @@ def draw_browser_change_by_date():
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     changes, features = agent_changes_of_date(clientid, df)
-    f = open('./pics/agentchangebydate.dat', 'w')
+    f = open('./pics/gpuchangebydate.dat', 'w')
     for date in sorted(changes):
         f.write('{}-{}-{}'.format(date.year, date.month, date.day))
         for feature in features:
