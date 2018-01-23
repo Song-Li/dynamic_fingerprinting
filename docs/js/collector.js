@@ -602,8 +602,7 @@ var Collector = function() {
     gain = audioCtx.createGain(),
     scriptProcessor = audioCtx.createScriptProcessor(4096, 1, 1);
 
-
-    gain.gain.value = 0; // Disable volume
+    gain.gain.setTargetAtTime(0, audioCtx.currentTime, 0.015); // Disable volume
     oscillator.type = "triangle"; // Set oscillator to output triangle wave
     oscillator.connect(analyser); // Connect oscillator output to analyser input
     analyser.connect(scriptProcessor); // Connect analyser output to scriptProcessor input
@@ -649,7 +648,7 @@ var Collector = function() {
     compressor.attack && (compressor.attack.value = 0);
     compressor.release && (compressor.release.value = .25);
 
-    gain.gain.value = 0; // Disable volume
+    gain.gain.setTargetAtTime(0, audioCtx.currentTime, 0.015); // Disable volume
     oscillator.type = "triangle"; // Set oscillator to output triangle wave
     oscillator.connect(compressor); // Connect oscillator output to dynamic compressor
     compressor.connect(analyser); // Connect compressor to analyser
