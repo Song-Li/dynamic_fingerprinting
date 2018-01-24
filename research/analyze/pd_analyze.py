@@ -593,7 +593,8 @@ def get_device(row):
     
 
 
-def load_data(load = True, db = None, file_path = None, feature_list = counted_features):
+def load_data(load = True, db = None, file_path = None, table_name = "features", 
+        feature_list = counted_features):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
     small_features = [ 
@@ -622,12 +623,17 @@ def load_data(load = True, db = None, file_path = None, feature_list = counted_f
     if load == True:
         #df = pd.read_sql('select * from pandas_longfeatures;', con=db.get_db())    
         #used for combine databases
-        df = pd.read_sql('select * from features;', con=db.get_db())    
+        feature_str = ""
+        for feature in feature_list:
+            feature_str += feature + ','
+        # remove the last ,
+        feature_str = feature_str[:-1]
+        df = pd.read_sql('select {} from {} where jsFonts is not NULL;'.format(feature_str, table_name), con=db.get_db())    
         print ("data loaded")
     else:
         #ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         #print ("ip2location data loaded")
-        df = pd.read_sql('select * from longfeatures where jsFonts is not NULL and gpuimgs is not NULL;',
+        df = pd.read_sql('select * from {} where jsFonts is not NULL and gpuimgs is not NULL;'.format(table_name),
                 con=db.get_db())    
         print ("data loaded")
         # delete the null clientid rows
@@ -1020,7 +1026,7 @@ def changes_of_date(client):
 
 # the percentage of changes on the date
 # here the change is based on the change of previous 
-def agent_changes_of_date(client, df):
+def agent_changes_of_date(count_feature, client, df):
     print 'the percentage of changes on that date'
     features = [
             'chrome',
@@ -1071,11 +1077,13 @@ def agent_changes_of_date(client, df):
                     continue
                 #if get_browser_version(agent) != get_browser_version(pre['agent']):
                 #if row['agent'] != pre['agent']:
-                #if row['jsFonts'] != pre['jsFonts']:
-                if row['browserfingerprint'] != pre['browserfingerprint']:
+                if row[count_feature] != pre[count_feature]:
+                #if row['browserfingerprint'] != pre['browserfingerprint']:
                     delt = (row['time'] - min_date).days
                     changes[row['browser']][delt] += 1.0
                 #TODO: output the time
+                    #if row['browser'] == 'safari' and row['time'].day == datetime.datetime(2017, 10, 29).day:
+                    #    print row['agent']
                     break
                 pre = row
     res = {}
@@ -1166,21 +1174,47 @@ def get_mapping_back(df, canvas_mapping, gpuimgs_mapping, back_name, null_val = 
 
 def draw_browser_change_by_date():
     db = Database('uniquemachine')
-    df = load_data(load = True, db = db)
+    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_longfeatures', db = db)
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
-    changes, features = agent_changes_of_date(clientid, df)
-    f = open('./pics/gpuchangebydate.dat', 'w')
-    for date in sorted(changes):
-        f.write('{}-{}-{}'.format(date.year, date.month, date.day))
-        for feature in features:
-            f.write(' {}'.format(changes[date][feature]))
-        f.write('\n')
-    f.close()
+    small_features = [ 
+        "agent",
+        "jsFonts",
+        "canvastest", 
+        "browserfingerprint"
+        ]
+    '''
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        #"gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adblock", 
+        "cpucores", 
+        "audio"
+    '''
+    for feature in small_features: 
+        changes, features = agent_changes_of_date(feature, clientid, df)
+        f = open('./pics/{}changebydate.dat'.format(feature), 'w')
+        for date in sorted(changes):
+            f.write('{}-{}-{}'.format(date.year, date.month, date.day))
+            for feature in features:
+                f.write(' {}'.format(changes[date][feature]))
+            f.write('\n')
+        f.close()
 
 def main():
+    '''
     small_feature_list = [ 
         "IP",
         "time",
@@ -1206,10 +1240,10 @@ def main():
         "canvastest", 
         "audio"
         ]
-    '''
-    global df
     db = Database('uniquemachine')
-    df = load_data(load = False, db = db)
+    df = load_data(load = False, table_name = "longfeatures", db = db)
+
+
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -1230,13 +1264,13 @@ def main():
             cnt += 1
     print cnt, 'out of ', len(res)
 
-    '''
 
-    db = Database('data1')
-    df1 = load_data(load = True, db = db)
     db = Database('data2')
-    df2 = load_data(load = True, db = db)
+    df1 = load_data(load = True, feature_list = small_feature_list, table_name = 'features', db = db)
+    db = Database('uniquemachine')
+    df2 = load_data(load = True, feature_list = small_feature_list, db = db)
     db.combine_tables(small_feature_list, [df1, df2])
+    '''
     
     '''
     cookies = df.groupby('label')
@@ -1253,8 +1287,10 @@ def main():
     for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
         print key, len(value['ids']), value['os']
     
+    '''
     draw_browser_change_by_date()
 
+    '''
     #get_all(clientid, cookies)
     #fliped = font_flip_count(clientid)
     #for os in fliped:
