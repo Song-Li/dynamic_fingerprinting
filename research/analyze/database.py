@@ -153,3 +153,37 @@ class Database():
         print ("Finished calculation, start to put back to csv")
         df.to_sql('pandas_features', self.get_db_engine(), if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
+
+    def build_map(self, df):
+        map_res = {}
+        map_pre = {}
+        print ("generating map round 1")
+        for idx in tqdm(df.index):
+            agent = df.at[idx, 'agent']
+            browserid = df.at[idx, 'browserid']
+            if browserid not in map_pre:
+                map_pre[browserid] = {}
+            cur_browser_version = get_browser_version(agent)
+            if cur_browser_version not in map_pre[browserid]:
+                map_pre[browserid][cur_browser_version] = df.at[idx, 'canvastest'] 
+
+        print ("generating map round 2")
+        for browserid in map_pre:
+            for cur_browser_version in map_pre[browserid]:
+                cur_hash = map_pre[browserid][cur_browser_version]
+                for bv in map_pre[browserid]:
+                    cur_key = cur_hash + bv
+                    if cur_key not in map_res:
+                        map_res[cur_key] = []
+                    if map_pre[browserid][bv] not in map_res[cur_key]:
+                        map_res[cur_key].append(map_pre[browserid][bv])
+
+        print ("generating unique rate")
+        unique = 0
+        for cur_key in map_pre:
+            if len(map_pre[cur_key]) == 1:
+                unique += 1
+        print ("Unique rate is: {}".format(str(float(unique) / float(len(map_pre)))))
+        
+        return map_res
+

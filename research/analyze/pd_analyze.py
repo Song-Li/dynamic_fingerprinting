@@ -628,7 +628,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
             feature_str += feature + ','
         # remove the last ,
         feature_str = feature_str[:-1]
-        df = pd.read_sql('select {} from {} where jsFonts is not NULL;'.format(feature_str, table_name), con=db.get_db())    
+        df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set";'.format(feature_str, table_name), con=db.get_db())    
         print ("data loaded")
     else:
         #ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
@@ -1078,12 +1078,10 @@ def agent_changes_of_date(count_feature, client, df):
                 #if get_browser_version(agent) != get_browser_version(pre['agent']):
                 #if row['agent'] != pre['agent']:
                 if row[count_feature] != pre[count_feature]:
-                #if row['browserfingerprint'] != pre['browserfingerprint']:
                     delt = (row['time'] - min_date).days
                     changes[row['browser']][delt] += 1.0
-                #TODO: output the time
-                    #if row['browser'] == 'safari' and row['time'].day == datetime.datetime(2017, 10, 29).day:
-                    #    print row['agent']
+                    if row['time'].date() >= datetime.datetime(2017, 11, 1).date() and row['time'].date() <= datetime.datetime(2017, 11, 10).date() and row['agent'].lower().find('android') != -1 and row['browser'] != 'samsungbrowser':
+                        print row['agent'], row['browserid'], row['canvastest']
                     break
                 pre = row
     res = {}
@@ -1180,12 +1178,13 @@ def draw_browser_change_by_date():
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     small_features = [ 
-        "agent",
-        "jsFonts",
-        "canvastest", 
-        "browserfingerprint"
+        "canvastest"
         ]
     '''
+        "browserfingerprint"
+        "gpuimgs"
+        "jsFonts",
+        "agent",
         "accept",
         "encoding",
         "language",
@@ -1214,7 +1213,6 @@ def draw_browser_change_by_date():
         f.close()
 
 def main():
-    '''
     small_feature_list = [ 
         "IP",
         "time",
@@ -1238,8 +1236,11 @@ def main():
         "adblock", 
         "cpucores", 
         "canvastest", 
-        "audio"
+        "audio",
+        "browser",
+        "browserid"
         ]
+    '''
     db = Database('uniquemachine')
     df = load_data(load = False, table_name = "longfeatures", db = db)
 
@@ -1288,7 +1289,10 @@ def main():
         print key, len(value['ids']), value['os']
     
     '''
-    draw_browser_change_by_date()
+    #draw_browser_change_by_date()
+    db = Database('uniquemachine')
+    df = load_data(load = True, table_name = "pandas_longfeatures", feature_list = small_feature_list, db = db)
+    map_res = db.build_map(df)
 
     '''
     #get_all(clientid, cookies)
