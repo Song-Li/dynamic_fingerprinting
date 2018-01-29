@@ -1305,7 +1305,7 @@ def feature_latex_table(df):
             if feature not in per_browser_instance:
                 per_browser_instance[feature] = 0
             per_browser_instance[feature] += len(browser_instance[bid][feature])
-        per_browser_instance[feature] = float(per_browser_instance[feature] / len(browser_instance))
+        per_browser_instance[feature] = float(per_browser_instance[feature]) / float(len(browser_instance))
 
         print r'{} & {} & {} & {} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature])
 
