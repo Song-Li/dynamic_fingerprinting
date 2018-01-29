@@ -594,7 +594,7 @@ def get_device(row):
 
 
 def load_data(load = True, db = None, file_path = None, table_name = "features", 
-        feature_list = counted_features):
+        feature_list = ['*']):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
     small_features = [ 
@@ -1062,8 +1062,24 @@ def agent_changes_of_date(count_feature, client, df):
         for idx in range(length + 1):
             num_browserids_that_day[feature][idx] = float(len(num_browserids_that_day[feature][idx]))
     print num_browserids_that_day
+#=================================================
+    return num_browserids_that_day, features 
+#=================================================
     print 'finished generating number of changed browser in each day'
+    tmpset = set(['Bodoni MT Condensed', 'Copperplate Gothic Light', 'Bodoni MT Black',
+        'Script MT Bold', 'Arial Narrow', 'Arial Black', 'Rockwell Condensed', 
+        'Bernard MT Condensed', 'Arial Rounded MT Bold',
+        'Gill Sans MT Ext Condensed Bold', 'Gill Sans MT Condensed', 'Cooper Black', 
+        'Rockwell Extra Bold', 'Tw Cen MT Condensed', 
+        'Britannic Bold', 'Gill Sans Ultra Bold Condensed', 'Copperplate Gothic Bold', 'OCR A Extended', 
+        'Harlow Solid Italic', 'Bodoni MT Poster Compressed', 'Segoe UI Semibold', 'Footlight MT Light', 
+        'Gill Sans Ultra Bold', 'Segoe UI Light', 'Rage Italic', 
+        'Berlin Sans FB Demi', 'Tw Cen MT Condensed Extra Bold'])
+    smallset = set(['Bodoni MT Condensed', 'Copperplate Gothic Light'])
 
+    cur_cnt = 0
+    total_cnt = 0
+    total_change = 0
     for browserid, cur_group in client:
         pre = {} 
         if cur_group['browserfingerprint'].nunique() > 1:
@@ -1080,12 +1096,23 @@ def agent_changes_of_date(count_feature, client, df):
                 if row[count_feature] != pre[count_feature]:
                     delt = (row['time'] - min_date).days
                     changes[row['browser']][delt] += 1.0
-                    if row['time'].date() >= datetime.datetime(2017, 11, 1).date() and row['time'].date() <= datetime.datetime(2017, 11, 10).date() and row['agent'].lower().find('android') != -1 and row['browser'] != 'samsungbrowser':
-                        print row['agent'], row['browserid'], row['canvastest']
+                    '''
+                    if row['time'].date() >= datetime.datetime(2017, 11, 15).date() and row['time'].date() <= datetime.datetime(2017, 11, 25).date() and row['browser'] == 'firefox':
+                        total_change += 1
+                        if get_os_from_agent(agent) == 'win' :
+                            total_cnt += 1
+                        if get_change_strs(row['jsFonts'], pre['jsFonts'])[0] >= smallset:
+                            if get_os_from_agent(agent) == 'win' :
+                                cur_cnt += 1
+                        print row['agent'], row['browserid'], pre['agent'], get_change_strs(row['jsFonts'], pre['jsFonts'])
+                    '''
                     break
                 pre = row
     res = {}
     print changes
+    print '============================'
+    print cur_cnt, total_cnt, total_change, total
+    print '============================'
     for date in range(length + 1):
         cur_date = min_date + datetime.timedelta(days = date)
         res[cur_date] = {}
@@ -1094,6 +1121,7 @@ def agent_changes_of_date(count_feature, client, df):
                 res[cur_date][feature] = 0.0
             else:
                 res[cur_date][feature] = changes[feature][date] / num_browserids_that_day[feature][date]
+            print feature, cur_date, num_browserids_that_day[feature][date], changes[feature][date], res[cur_date][feature]
 #total_num_ids_that_day[date]
     print 'finished the percentage of changes on that date'
     return res, features 
@@ -1178,12 +1206,11 @@ def draw_browser_change_by_date():
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     small_features = [ 
-        "canvastest"
+        "gpuimgs"
         ]
     '''
         "browserfingerprint"
-        "gpuimgs"
-        "jsFonts",
+        "canvastest"
         "agent",
         "accept",
         "encoding",
@@ -1211,6 +1238,76 @@ def draw_browser_change_by_date():
                 f.write(' {}'.format(changes[date][feature]))
             f.write('\n')
         f.close()
+
+def feature_latex_table(df):
+    value_set = {}
+    browser_instance = {}
+    feature_list = [ 
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "jsFonts",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adblock", 
+        "cpucores", 
+        "canvastest", 
+        "audio",
+        "ipcity",
+        "ipregion",
+        "ipcountry",
+        "fp2_colordepth",
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+        "fp2_cpuclass",
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser"
+        ]
+
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        if row['browserid'] not in browser_instance:
+            browser_instance[row['browserid']] = {} 
+        for feature in feature_list:
+            if feature not in value_set:
+                value_set[feature] = {}
+            if row[feature] not in value_set[feature]:
+                value_set[feature][row[feature]] = set()
+            value_set[feature][row[feature]].add(row['browserid'])
+
+            if feature not in browser_instance[row['browserid']]:
+                browser_instance[row['browserid']][feature] = set()
+            browser_instance[row['browserid']][feature].add(row[feature])
+
+    distinct = {}
+    unique = {}
+    per_browser_instance = {}
+    for feature in feature_list:
+        distinct[feature] = len(value_set[feature])
+        cnt = 0
+        for val in value_set[feature]:
+            if len(value_set[feature][val]) == 1:
+                cnt += 1
+        unique[feature] = cnt
+
+        for bid in browser_instance:
+            if feature not in per_browser_instance:
+                per_browser_instance[feature] = 0
+            per_browser_instance[feature] += len(browser_instance[bid][feature])
+        per_browser_instance[feature] = float(per_browser_instance[feature] / len(browser_instance))
+
+        print r'{} & {} & {} & {} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature])
 
 def main():
     small_feature_list = [ 
@@ -1240,6 +1337,7 @@ def main():
         "browser",
         "browserid"
         ]
+
     '''
     db = Database('uniquemachine')
     df = load_data(load = False, table_name = "longfeatures", db = db)
@@ -1268,10 +1366,13 @@ def main():
 
     db = Database('data2')
     df1 = load_data(load = True, feature_list = small_feature_list, table_name = 'features', db = db)
-    db = Database('uniquemachine')
-    df2 = load_data(load = True, feature_list = small_feature_list, db = db)
-    db.combine_tables(small_feature_list, [df1, df2])
     '''
+    db = Database('uniquemachine')
+    df = load_data(load = True, table_name = 'pandas_features', db = db)
+    feature_latex_table(df)
+    
+
+    #db.combine_tables(small_feature_list, [df1, df2])
     
     '''
     cookies = df.groupby('label')
@@ -1288,11 +1389,11 @@ def main():
     for key, value in sorted(canvas_mapping.iteritems(), key = lambda (k, v): (-len(v['ids']), k)):
         print key, len(value['ids']), value['os']
     
-    '''
-    #draw_browser_change_by_date()
     db = Database('uniquemachine')
     df = load_data(load = True, table_name = "pandas_longfeatures", feature_list = small_feature_list, db = db)
     map_res = db.build_map(df)
+    draw_browser_change_by_date()
+    '''
 
     '''
     #get_all(clientid, cookies)
