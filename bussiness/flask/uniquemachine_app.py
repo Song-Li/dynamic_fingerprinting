@@ -221,7 +221,7 @@ def doInit(unique_label, cookie):
     keys = ""
     try:
         agent = request.headers.get('User-Agent')
-        accpet = request.headers.get('Accept')
+        accept = request.headers.get('Accept')
         encoding = request.headers.get('Accept-Encoding')
         language = request.headers.get('Accept-Language')
         keys = '_'.join(request.headers.keys())
