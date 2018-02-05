@@ -187,7 +187,10 @@ def basic_numbers(cookies):
     num_users = len(cookies)
     only_one = 0
     big_fingerprint_set = {}
+    num_users_changed = 0 
     for key, items in cookies:
+        if items['browserfingerprint'].nunique() > 1:
+            num_users_changed += 1
         num_exsit = 0
         # how many fingerprints we have
         fingerprints = set(items['browserfingerprint'])
@@ -199,6 +202,8 @@ def basic_numbers(cookies):
     res = []
     res.append("We have {} fingerprints in total".format(len(big_fingerprint_set)))
     res.append("We have {} users in total".format(num_users))
+    res.append("We have {} users changed their fingerprint({}%)".format(num_users_changed, 
+        float(num_users_changed) / float(num_users) * 100))
 
     for key, items in cookies:
         fingerprints = set(items['browserfingerprint'])
@@ -599,7 +604,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
 # without the gpuimgs, ccaudio and hybridaudio
     small_features = [ 
         "agent",
-        "accept",
+        #"accept",
         "encoding",
         "language",
         "langsdetected",
@@ -608,7 +613,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         "WebGL", 
         "inc", 
         "gpu", 
-        #"gpuimgs", 
+        "gpuimgs", 
         "timezone", 
         "plugins", 
         "cookie", 
@@ -616,7 +621,18 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         "adblock", 
         "cpucores", 
         "canvastest", 
-        "audio"
+        "audio",
+        "ipcity",
+        "ipregion",
+        "ipcountry",
+        "fp2_colordepth",
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+        "fp2_cpuclass",
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser"
         ]
     global ip2location
     df = None
@@ -631,17 +647,17 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set";'.format(feature_str, table_name), con=db.get_db())    
         print ("data loaded")
     else:
-        #ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
-        #print ("ip2location data loaded")
+        ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
+        print ("ip2location data loaded")
         df = pd.read_sql('select * from {} where jsFonts is not NULL and gpuimgs is not NULL;'.format(table_name),
                 con=db.get_db())    
         print ("data loaded")
         # delete the null clientid rows
         df = df[pd.notnull(df['clientid'])]
         print ("start clean")
-        #db.clean_sql(small_features, df, generator = get_location_dy_ip, 
-        #        get_device = get_device)
-        db.generate_browserid(small_features, df, get_device)
+        db.clean_sql(small_features, df, generator = get_location_dy_ip, 
+                get_device = get_device)
+        #db.generate_browserid(small_features, df, get_device)
         print ("clean finished")
     return df
 
@@ -838,9 +854,9 @@ def get_fonts_intersection(fonts_1, fonts_2):
 # input two df rows
 # return the diff of these two rows
 # the return is a dict of changes
-def diff_record(row_1, row_2):
+def diff_record(row_1, row_2, feature_list):
     res = {} 
-    for key in counted_features:
+    for key in feature_list:
         if row_1[key] != row_2[key]:
             if key == 'jsFonts' or key == 'langsdetected':
                 res[key] = get_change_strs(row_1[key], row_2[key], sep = '_')
@@ -1062,9 +1078,18 @@ def agent_changes_of_date(count_feature, client, df):
         for idx in range(length + 1):
             num_browserids_that_day[feature][idx] = float(len(num_browserids_that_day[feature][idx]))
     print num_browserids_that_day
+    '''
 #=================================================
-    return num_browserids_that_day, features 
+    res = {}
+    for feature in features:
+        for idx in range(length + 1):
+            cur_date = min_date + datetime.timedelta(days = idx)
+            if cur_date not in res:
+                res[cur_date] = {}
+            res[cur_date][feature] = num_browserids_that_day[feature][idx]
+    return res, features 
 #=================================================
+    '''
     print 'finished generating number of changed browser in each day'
     tmpset = set(['Bodoni MT Condensed', 'Copperplate Gothic Light', 'Bodoni MT Black',
         'Script MT Bold', 'Arial Narrow', 'Arial Black', 'Rockwell Condensed', 
@@ -1075,11 +1100,31 @@ def agent_changes_of_date(count_feature, client, df):
         'Harlow Solid Italic', 'Bodoni MT Poster Compressed', 'Segoe UI Semibold', 'Footlight MT Light', 
         'Gill Sans Ultra Bold', 'Segoe UI Light', 'Rage Italic', 
         'Berlin Sans FB Demi', 'Tw Cen MT Condensed Extra Bold'])
-    smallset = set(['Bodoni MT Condensed', 'Copperplate Gothic Light'])
-
-    cur_cnt = 0
-    total_cnt = 0
-    total_change = 0
+    smallset = set(['MT Extra'])
+    cur_cnt = {}
+    total_cnt = {}
+    total_change = {}
+    small_features = [ 
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "langsdetected",
+        "resolution",
+        "jsFonts",
+        "WebGL", 
+        "inc", 
+        "gpu", 
+        #"gpuimgs", 
+        "timezone", 
+        "plugins", 
+        "cookie", 
+        "localstorage", 
+        "adblock", 
+        "cpucores", 
+        "canvastest", 
+        "audio"
+        ]
     for browserid, cur_group in client:
         pre = {} 
         if cur_group['browserfingerprint'].nunique() > 1:
@@ -1097,22 +1142,35 @@ def agent_changes_of_date(count_feature, client, df):
                     delt = (row['time'] - min_date).days
                     changes[row['browser']][delt] += 1.0
                     '''
-                    if row['time'].date() >= datetime.datetime(2017, 11, 15).date() and row['time'].date() <= datetime.datetime(2017, 11, 25).date() and row['browser'] == 'firefox':
-                        total_change += 1
+                    if row['time'].date() >= datetime.datetime(2018, 1, 28).date() and row['time'].date() <= datetime.datetime(2018, 2, 5).date() and row['browser'] == 'trident':
+                        browser = row['browser']
+                        if browser not in total_change:
+                            total_change[browser] = 0
+                            total_cnt[browser] = 0
+                            cur_cnt[browser] = 0
+                        total_change[browser] += 1
                         if get_os_from_agent(agent) == 'win' :
-                            total_cnt += 1
-                        if get_change_strs(row['jsFonts'], pre['jsFonts'])[0] >= smallset:
+                            total_cnt[browser] += 1
+                        #if get_change_strs(row['jsFonts'], pre['jsFonts'])[1] >= smallset:
+                        if row[count_feature] != pre[count_feature]:
                             if get_os_from_agent(agent) == 'win' :
-                                cur_cnt += 1
-                        print row['agent'], row['browserid'], pre['agent'], get_change_strs(row['jsFonts'], pre['jsFonts'])
+                                cur_cnt[browser] += 1
+                        print '=========================='
+                        print row['agent']
+                        print pre['agent'] 
+                        print diff_record(pre, row, small_features)
+                        print '=========================='
                     '''
                     break
                 pre = row
     res = {}
     print changes
+    '''
     print '============================'
-    print cur_cnt, total_cnt, total_change, total
+    for browser in total_change:
+        print browser, cur_cnt[browser], total_cnt[browser], total_change[browser], total
     print '============================'
+    '''
     for date in range(length + 1):
         cur_date = min_date + datetime.timedelta(days = date)
         res[cur_date] = {}
@@ -1120,7 +1178,7 @@ def agent_changes_of_date(count_feature, client, df):
             if num_browserids_that_day[feature][date] == 0.0:
                 res[cur_date][feature] = 0.0
             else:
-                res[cur_date][feature] = changes[feature][date] / num_browserids_that_day[feature][date]
+                res[cur_date][feature] = 100 * changes[feature][date] / num_browserids_that_day[feature][date]
             print feature, cur_date, num_browserids_that_day[feature][date], changes[feature][date], res[cur_date][feature]
 #total_num_ids_that_day[date]
     print 'finished the percentage of changes on that date'
@@ -1198,22 +1256,24 @@ def get_mapping_back(df, canvas_mapping, gpuimgs_mapping, back_name, null_val = 
         #users[userid] &= gpuimgs_mapping[gpu_value]['aim']
     return users
 
-def draw_browser_change_by_date():
-    db = Database('uniquemachine')
-    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_longfeatures', db = db)
+def draw_browser_change_by_date(df):
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     small_features = [ 
-        "gpuimgs"
+            "gpuimgs",
+            "agent",
+            "jsFonts",
+            "canvastest",
+            "browserfingerprint"
         ]
     '''
         "browserfingerprint"
         "canvastest"
-        "agent",
         "accept",
         "encoding",
+        "gpuimgs"
         "language",
         "langsdetected",
         "resolution",
@@ -1231,11 +1291,12 @@ def draw_browser_change_by_date():
     '''
     for feature in small_features: 
         changes, features = agent_changes_of_date(feature, clientid, df)
+        print changes
         f = open('./pics/{}changebydate.dat'.format(feature), 'w')
         for date in sorted(changes):
             f.write('{}-{}-{}'.format(date.year, date.month, date.day))
             for feature in features:
-                f.write(' {}'.format(changes[date][feature]))
+                f.write(' {:.2f}'.format(changes[date][feature]))
             f.write('\n')
         f.close()
 
@@ -1306,8 +1367,64 @@ def feature_latex_table(df):
                 per_browser_instance[feature] = 0
             per_browser_instance[feature] += len(browser_instance[bid][feature])
         per_browser_instance[feature] = float(per_browser_instance[feature]) / float(len(browser_instance))
+        print r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature])
 
-        print r'{} & {} & {} & {} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature])
+
+def get_num_visits(df):
+    cnt = {}
+    MAX = -1
+    for idx in tqdm(df.index):
+        browserid = df.at[idx, 'browserid']
+        if browserid not in cnt:
+            cnt[browserid] = 0
+        cnt[browserid] += 1
+        MAX = max(MAX, cnt[browserid])
+
+    res = [0 for i in range(MAX + 1)]
+    for browserid in cnt:
+        res[cnt[browserid]] += 1
+    fp = open('./pics/numvisits.dat', 'w')
+    for i in range(MAX + 1):
+        fp.write('{} {}\n'.format(i, res[i]))
+
+
+
+def for_paper_jsFonts_diff(db):
+    df = pd.read_sql('select jsFonts, clientid from features where clientid like "[final_test%]";', 
+            con=db.get_db())    
+
+    for idx in df.index:
+        row = df.iloc[idx]
+        if row['clientid'] != "[final_test_original_windows7]":
+            continue
+        for idx2 in df.index:
+            row2 = df.iloc[idx2]
+            set1, set2 = get_change_strs(row['jsFonts'], row2['jsFonts'])
+            print row['clientid'], row2['clientid'], set1, len(set1), set2, len(set2) 
+        break
+
+def map_back(clientid, feature_names, df):
+    base_row = df.loc[df['clientid'] == "[final_test_original_windows7]"].iloc[0]
+    aim_row = df.loc[df['clientid'] == clientid].iloc[0]
+    aim_fonts = get_change_strs(base_row['jsFonts'], aim_row['jsFonts'])[1]
+    user_list = []
+    grouped = df.groupby('browserid')
+
+    for browserid, cur_group in grouped:
+        for idx, row in cur_group.iterrows():
+            mapped = 1
+            for feature in feature_names:
+                if feature == 'jsFonts':
+                    cur_fonts = set(row[feature].split('_'))
+                    if cur_fonts < aim_fonts:
+                        mapped = 0
+                elif row[feature] != aim_row[feature]:
+                    mapped = 0
+                    break
+            if mapped == 1:
+                user_list.append(browserid)
+                break
+    return user_list
 
 def main():
     small_feature_list = [ 
@@ -1316,12 +1433,16 @@ def main():
         "label",
         "clientid",
         "agent",
+        "jsFonts",
+        "canvastest", 
+        "browser",
+        "browserfingerprint",
+        "browserid",
         "accept",
         "encoding",
         "language",
         "langsdetected",
         "resolution",
-        "jsFonts",
         "WebGL", 
         "inc", 
         "gpu", 
@@ -1332,15 +1453,11 @@ def main():
         "localstorage", 
         "adblock", 
         "cpucores", 
-        "canvastest", 
-        "audio",
-        "browser",
-        "browserid"
+        "audio"
         ]
-
-    '''
     db = Database('uniquemachine')
-    df = load_data(load = False, table_name = "longfeatures", db = db)
+    df = load_data(load = False, feature_list = ['*'], table_name = "features", db = db)
+    '''
 
 
     feature_names = list(df.columns.values)
@@ -1366,15 +1483,29 @@ def main():
 
     db = Database('data2')
     df1 = load_data(load = True, feature_list = small_feature_list, table_name = 'features', db = db)
-    '''
     db = Database('uniquemachine')
-    df = load_data(load = True, table_name = 'pandas_features', db = db)
-    feature_latex_table(df)
+    df2 = load_data(load = True, feature_list = small_feature_list, table_name = 'features', db = db)
+    db.combine_tables(small_feature_list, [df1, df2])
+    mapped = map_back("[final_test_officeproplus2013]", ['jsFonts', 'canvastest'], df)
+    print len(mapped)
+    for_paper_jsFonts_diff(db)
+    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_features', db = db)
+    df = df[pd.notnull(df['clientid'])]
+    df = df.reset_index(drop = True)
+    #clientid = df.groupby('clientid')
+    clientid = df.groupby('browserid')
+    res = basic_numbers(clientid)
+    print "based on browser instances:"
+    print res
+    '''
+    '''
+    
+    #db.combine_tables(small_feature_list, [df1, df2])
+    #feature_latex_table(df)
+    get_num_visits(df)
     
 
-    #db.combine_tables(small_feature_list, [df1, df2])
     
-    '''
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
@@ -1392,7 +1523,6 @@ def main():
     db = Database('uniquemachine')
     df = load_data(load = True, table_name = "pandas_longfeatures", feature_list = small_feature_list, db = db)
     map_res = db.build_map(df)
-    draw_browser_change_by_date()
     '''
 
     '''
@@ -1420,6 +1550,9 @@ def main():
     get_item_change(clientid, 'radom', 'audio', sep = ' ')
     get_item_change(clientid, 'radom', 'ipcity', sep = '~')
     get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
+    draw_browser_change_by_date(df)
+    db = Database('uniquemachine')
+    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_longfeatures', db = db)
     '''
 
 if __name__ == '__main__':
