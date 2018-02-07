@@ -104,7 +104,7 @@ class Database():
         print ("Finished push to csv")
 
 
-    def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator):
+    def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator, get_browserid =  null_generator):
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]
         #df = df[pd.notnull(df['gpuimgs'])]
@@ -140,7 +140,7 @@ class Database():
                 print (df.iloc[idx])
             # hashlib.sha256(device_str).hexdigest()
             df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
-            browser_str = device_str + df.at[idx, 'browser']
+            browser_str = get_browserid(df.iloc[idx]) + df.at[idx, 'browser']
             df.at[idx, 'browserid'] = browser_str
 
             res_str = ""

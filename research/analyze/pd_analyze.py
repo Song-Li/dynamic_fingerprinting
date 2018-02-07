@@ -596,6 +596,30 @@ def get_device(row):
     #gpu_type = row['gpu'].split('Direct')[0]
     #id_str += gpu_type
     return id_str
+
+def get_browserid(row):
+    id_str = ""
+    # platform is between the first ( and the first ;
+    platform = ""
+    try:
+        platform = row['agent'].split(')')[0].split('(')[1].split(';')[0]
+    except:
+        pass
+
+    #print ("error getting platform: ", row['agent'])
+    keys = ['clientid', 'cpucores', 'fp2_platform', 'audio', 'fp2_pixelratio']
+    for key in keys:
+        # we assume that all of the keys are not null
+        try:
+            id_str += str(row[key])
+        except:
+            pass
+
+    #id_str += platform
+    gpu_type = row['gpu'].split('Direct')[0]
+    id_str += row['inc']
+    id_str += gpu_type
+    return id_str
     
 
 
@@ -657,7 +681,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         df = df[pd.notnull(df['clientid'])]
         print ("start clean")
         db.clean_sql(small_features, df, generator = get_location_dy_ip, 
-                get_device = get_device)
+                get_device = get_device, get_browserid = get_browserid)
         #db.generate_browserid(small_features, df, get_device)
         print ("clean finished")
     return df
@@ -1082,7 +1106,6 @@ def agent_changes_of_date(count_feature, client, df):
         for idx in range(length + 1):
             num_browserids_that_day[feature][idx] = float(len(num_browserids_that_day[feature][idx]))
     print num_browserids_that_day
-    '''
 #=================================================
     res = {}
     for feature in features:
@@ -1093,6 +1116,7 @@ def agent_changes_of_date(count_feature, client, df):
             res[cur_date][feature] = num_browserids_that_day[feature][idx]
     return res, features 
 #=================================================
+    '''
     '''
     print 'finished generating number of changed browser in each day'
     tmpset = set(['Bodoni MT Condensed', 'Copperplate Gothic Light', 'Bodoni MT Black',
@@ -1266,13 +1290,13 @@ def draw_browser_change_by_date(df):
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     small_features = [ 
+            "browserfingerprint"
+        ]
+    '''
             "gpuimgs",
             "agent",
             "jsFonts",
             "canvastest",
-            "browserfingerprint"
-        ]
-    '''
         "browserfingerprint"
         "canvastest"
         "accept",
@@ -1294,7 +1318,8 @@ def draw_browser_change_by_date(df):
         "audio"
     '''
     for feature in small_features: 
-        changes, features = agent_changes_of_date(feature, clientid, df)
+        #changes, features = agent_changes_of_date(feature, clientid, df)
+        changes, features = agent_changes_of_date('browserid', clientid, df)
         print changes
         f = open('./pics/{}changebydate.dat'.format(feature), 'w')
         for date in sorted(changes):
@@ -1304,7 +1329,7 @@ def draw_browser_change_by_date(df):
             f.write('\n')
         f.close()
 
-def feature_latex_table(df):
+def feature_latex_table_paper(df):
     value_set = {}
     browser_instance = {}
     feature_list = [ 
@@ -1361,10 +1386,14 @@ def feature_latex_table(df):
     print group_map
     num_back = 0;
     browser_id_group = df.groupby('browserid').size()
-    for num in browser_id_group:
-        if browser_id_group[num] > 1:
+    browser_id_group = browser_id_group.reset_index(name='counts')
+    back_users = set()
+    for idx in browser_id_group.index:
+        if browser_id_group.at[idx, 'counts'] > 1:
             num_back += 1
+            back_users.add(browser_id_group.at[idx, 'browserid'])
     print 'num_back:', num_back
+    print 'num_size:', len(back_users)
 
     for idx in tqdm(df.index):
         row = df.iloc[idx]
@@ -1403,6 +1432,7 @@ def feature_latex_table(df):
     distinct = {}
     unique = {}
     per_browser_instance = {}
+    f = open('feature_table.dat', 'w')
     for feature in value_set:
         distinct[feature] = len(value_set[feature])
         cnt = 0
@@ -1416,15 +1446,86 @@ def feature_latex_table(df):
         for bid in browser_instance:
             if feature not in per_browser_instance:
                 per_browser_instance[feature] = 0
-            if len(browser_instance[bid][feature]) == 1:
+            if len(browser_instance[bid][feature]) == 1 and bid in back_users:
                 per_browser_instance[feature] += 1
         per_browser_instance[feature] = float(per_browser_instance[feature]) / float(num_back)
-        print r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature])
+        f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature]))
+    f.close()
 
+def get_num_each_day_paper(df):
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
+    length = (max_date - min_date).days + 3
 
-def get_num_visits(df):
-    cnt = {}
+    num_new_user =  [set() for i in range(length)]
+    num_new_device = [set() for i in range(length)]
+    num_new_browserid = [set() for i in range(length)]
+    num_back_user = [set() for i in range(length)]
+    num_back_device = [set() for i in range(length)]
+    num_back_browserid = [set() for i in range(length)]
+
+    for idx in tqdm(df.index):
+        row = df.iloc[idx]
+        clientid = row['clientid'] 
+        deviceid = row['deviceid']
+        browserid = row['browserid']
+        cur_delt_days = (row['time'] - min_date).days
+        # add to new first, remove it later
+        num_new_user[cur_delt_days].add(clientid)
+        num_new_device[cur_delt_days].add(deviceid)
+        num_new_browserid[cur_delt_days].add(browserid)
+
+    # remove the new and add to exsits
+    cur_users = set()
+    cur_device = set()
+    cur_browserid = set()
+    for i in tqdm(range(length)):
+        for user in num_new_user[i]:
+            if user in cur_users:
+                num_back_user[i].add(user)
+            else:
+                cur_users.add(user)
+
+        for device in num_new_device[i]:
+            if device in cur_device:
+                num_back_device[i].add(device)
+            else:
+                cur_device.add(device)
+        for browserid in num_new_browserid[i]:
+            if browserid in cur_browserid:
+                num_back_browserid[i].add(browserid)
+            else:
+                cur_browserid.add(browserid)
+
+    for i in range(length):
+        num_new_user[i] -= num_back_user[i]
+        num_new_device[i] -= num_back_device[i]
+        num_new_browserid[i] -= num_back_browserid[i]
+
+    f = open('./pics/numusersdate.dat', 'w')
+    for cur_delt in range(length):
+        date = min_date + datetime.timedelta(days = cur_delt)
+        f.write('{}-{}-{} '.format(date.year, date.month, date.day))
+        f.write('{} {}\n'.format(len(num_new_user[cur_delt]), len(num_back_user[cur_delt])))
+    f.close()
+
+    f = open('./pics/numdevicedate.dat', 'w')
+    for cur_delt in range(length):
+        date = min_date + datetime.timedelta(days = cur_delt)
+        f.write('{}-{}-{} '.format(date.year, date.month, date.day))
+        f.write('{} {} \n'.format(len(num_new_device[cur_delt]), len(num_back_device[cur_delt])))
+    f.close()
+    f = open('./pics/numbrowseriddate.dat', 'w')
+    for cur_delt in range(length):
+        date = min_date + datetime.timedelta(days = cur_delt)
+        f.write('{}-{}-{} '.format(date.year, date.month, date.day))
+        f.write('{} {} \n'.format(len(num_new_browserid[cur_delt]), len(num_back_browserid[cur_delt])))
+    f.close()
+
+def get_num_visits_paper(df):
     MAX = -1
+    cnt = {}
     for idx in tqdm(df.index):
         browserid = df.at[idx, 'browserid']
         browser = df.at[idx, 'browser']
@@ -1450,6 +1551,7 @@ def get_num_visits(df):
         for browser in res[i]:
             fp.write('{} '.format(res[i][browser]))
         fp.write('\n')
+    fp.close()
 
 
 
@@ -1490,7 +1592,47 @@ def map_back(clientid, feature_names, df):
                 break
     return user_list
 
-def cookie_life_cdf(df):
+def life_time_distribution_paper(df, feature_list):
+    grouped = df.groupby('browserid')
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    length = (max_date - min_date).days + 3
+    life_time = {}
+
+    for browserid, cur_group in grouped:
+        pre_feature = {}
+        pre_time = {}
+        for feature in feature_list:
+            pre_feature[feature] = "fackprefeature"
+            pre_time[feature] = datetime.datetime.now()
+        for idx, row in cur_group:
+            for feature in feature_list:
+                if row[feature] not in pre_feature:
+                    pre_feature[feature] = row[feature]
+                else:
+                    if pre_feature[feature] != row[feature]:
+                        if feature not in life_time:
+                            life_time[feature] = [0 for i in range(length)]
+                        cur_delt = (row['time'] - pre_time[feature]).days
+                        life_time[feature][cur_delt] += 1
+                pre_feature[feature] = row[feature]
+                pre_time[feature] = row['time']
+
+    medians = {}
+    cur = 0
+    for feature in life_time:
+        total_change = sum(life_time[feature])
+        half = total_change / 2
+        for i in range(length + 1):
+            cur += life_time[feature][i]
+            if cur > half:
+                medians[feature] = i
+                break
+
+    for feature in medians:
+        print feature + ' ' + str(medians[feature])
+
+def cookie_life_cdf_paper(df):
     grouped = df.groupby('browserid')
     min_date = min(df['time'])
     max_date = max(df['time'])
@@ -1545,6 +1687,32 @@ def see_agent(df):
             print agent
     print cnt
         
+def get_tolerance_paper(df):
+    less_than_n = {}
+    grouped = df.groupby('browserid')
+    for browserid, cur_group in grouped:
+        n = cur_group['browserfingerprint'].nunique()
+        browser = cur_group.first()['browser']
+        if n > 13:
+            continue
+        if browser not in less_than_n:
+            less_than_n[browser] = [0 for i in range(15)]
+        less_than_n[browser][n] += 1
+
+    for browser in less_than_n:
+        for i in range(1, 13):
+            less_than_n[browser][i] += less_than_n[browser][i - 1]
+
+    f = open('./pics/tolerance.dat', 'w')
+    for browser in less_than_n:
+        f.write('{} ', str(browser))
+    f.write('\n')
+    for i in range(1, 13):
+        for browser in less_than_n:
+            f.write('{} ', str(less_than_n[browser][i]))
+        f.write('\n')
+    f.close()
+
 
 def main():
     small_feature_list = [ 
@@ -1575,9 +1743,9 @@ def main():
         "cpucores", 
         "audio"
         ]
-    '''
     db = Database('uniquemachine')
     df = load_data(load = False, feature_list = ['*'], table_name = "features", db = db)
+    '''
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -1608,10 +1776,11 @@ def main():
     print len(mapped)
     for_paper_jsFonts_diff(db)
     '''
-    db = Database('uniquemachine')
-    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_features', db = db)
-    feature_latex_table(df)
     '''
+    db = Database('uniquemachine')
+    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_longfeatures', db = db)
+    get_num_visits(df)
+    feature_latex_table(df)
     see_agent(df)
     cookie_cdf = cookie_life_cdf(df)
     f = open('cookie_cdf.dat', 'w')
@@ -1633,7 +1802,6 @@ def main():
     print "based on browser instances:"
     print res
     print (device)
-    get_num_visits(df)
     
     #db.combine_tables(small_feature_list, [df1, df2])
     
@@ -1656,8 +1824,8 @@ def main():
     db = Database('uniquemachine')
     df = load_data(load = True, table_name = "pandas_longfeatures", feature_list = small_feature_list, db = db)
     map_res = db.build_map(df)
-    '''
 
+    '''
     '''
     #fliped = font_flip_count(clientid)
     #for os in fliped:
@@ -1682,7 +1850,6 @@ def main():
     get_item_change(clientid, 'radom', 'audio', sep = ' ')
     get_item_change(clientid, 'radom', 'ipcity', sep = '~')
     get_item_change(clientid, 'radom', 'jsFonts', sep = '_')
-    draw_browser_change_by_date(df)
 
     change_time = fingerprint_change_time(clientid)
     print 'change time: ', change_time
@@ -1690,8 +1857,13 @@ def main():
     print 'feature change:', feature_change
     tolerance = [float(len(t)) / float(len(clientid)) * 100 for t in less_than_n]
     print 'tolerance: ', tolerance
+    '''
+    '''
     db = Database('uniquemachine')
     df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_features', db = db)
+
+    get_num_each_day(df)
+    draw_browser_change_by_date(df)
     clientid = df.groupby('browserid')
     #fingerprints = df.groupby('browserfingerprint')
     #changes, less_than_n = num_of_users_per_fingerprint(fingerprints, 'browserid')
