@@ -704,7 +704,8 @@ def output_diff(client, feature_name, output_number):
                 print (fn, get_os_version(fn), get_browser_version(fn))
 
 # return the distribution of number of cookies
-def num_feature_distribution(client, feature_name):
+def num_cookie_distribution_paper(df):
+    client = df.groupby('browserid')
     MAXLEN = 35
     distribution = {}
     length = 0
@@ -716,6 +717,16 @@ def num_feature_distribution(client, feature_name):
         if number <= 30:
             distribution[browser][number] += 1
         length = max(length, number)
+
+    f = open('cookie.dat', 'w')
+    for browser in distribution:
+        f.write('{} '.format(browser))
+    for i in range(len(distribution['chrome'])):
+        f.write('{} '.format(i))
+        for browser in distribution:
+            f.write('{} '.format(distribution[browser][i]))
+        f.write('\n')
+    f.close()
     return distribution
 
 
@@ -1319,7 +1330,7 @@ def draw_browser_change_by_date(df):
     '''
     for feature in small_features: 
         #changes, features = agent_changes_of_date(feature, clientid, df)
-        changes, features = agent_changes_of_date('browserid', clientid, df)
+        changes, features = agent_changes_of_date('overall', clientid, df)
         print changes
         f = open('./pics/{}changebydate.dat'.format(feature), 'w')
         for date in sorted(changes):
@@ -1592,41 +1603,74 @@ def map_back(clientid, feature_names, df):
                 break
     return user_list
 
-def life_time_distribution_paper(df, feature_list):
+def life_time_distribution_paper(df):
+    feature_list = [ 
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "timezone", 
+
+        "plugins", 
+        "cookie", 
+        "WebGL", 
+        "localstorage", 
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+
+        "langsdetected",
+        "jsFonts",
+        "canvastest", 
+
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "cpucores", 
+        "audio",
+        "fp2_cpuclass",
+        "fp2_colordepth",
+        "fp2_pixelratio",
+
+        "ipcity",
+        "ipregion",
+        "ipcountry",
+
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser"
+        ]
+
     grouped = df.groupby('browserid')
     min_date = min(df['time'])
     max_date = max(df['time'])
     length = (max_date - min_date).days + 3
     life_time = {}
+    for feature in feature_list:
+        life_time[feature] = [0 for i in range(length + 10)]
 
-    for browserid, cur_group in grouped:
+    for browserid, cur_group in tqdm(grouped):
         pre_feature = {}
         pre_time = {}
-        for feature in feature_list:
-            pre_feature[feature] = "fackprefeature"
-            pre_time[feature] = datetime.datetime.now()
-        for idx, row in cur_group:
+        for idx, row in cur_group.iterrows():
             for feature in feature_list:
-                if row[feature] not in pre_feature:
-                    pre_feature[feature] = row[feature]
-                else:
+                if feature in pre_feature:
                     if pre_feature[feature] != row[feature]:
-                        if feature not in life_time:
-                            life_time[feature] = [0 for i in range(length)]
                         cur_delt = (row['time'] - pre_time[feature]).days
                         life_time[feature][cur_delt] += 1
                 pre_feature[feature] = row[feature]
                 pre_time[feature] = row['time']
 
     medians = {}
-    cur = 0
-    for feature in life_time:
+    for feature in tqdm(feature_list):
+        cur = 0
+        print feature, life_time[feature]
         total_change = sum(life_time[feature])
         half = total_change / 2
         for i in range(length + 1):
             cur += life_time[feature][i]
             if cur > half:
-                medians[feature] = i
+                medians[feature] = i + 1
                 break
 
     for feature in medians:
@@ -1688,31 +1732,168 @@ def see_agent(df):
     print cnt
         
 def get_tolerance_paper(df):
-    less_than_n = {}
+    less_than_n = [{}, {}]
     grouped = df.groupby('browserid')
-    for browserid, cur_group in grouped:
-        n = cur_group['browserfingerprint'].nunique()
-        browser = cur_group.first()['browser']
-        if n > 13:
-            continue
-        if browser not in less_than_n:
-            less_than_n[browser] = [0 for i in range(15)]
-        less_than_n[browser][n] += 1
+    group_size = len(grouped)
+    grouped = df.groupby('browserfingerprint')
 
-    for browser in less_than_n:
-        for i in range(1, 13):
-            less_than_n[browser][i] += less_than_n[browser][i - 1]
+    for browserid, cur_group in tqdm(grouped):
+        n = cur_group['browserid'].nunique()
+        if n > 1 and n < 50:
+            n = 2
+        elif n >= 50:
+            n = 3
+        browserids = set(cur_group['browserid'])
+        browser = cur_group['browser'].iloc[0]
+        mobile = mobile_or_not(cur_group['agent'].iloc[0])
+        if browser not in less_than_n[mobile]:
+            less_than_n[mobile][browser] = [set() for i in range(4)]
+        less_than_n[mobile][browser][n] |= browserids
+        less_then_n[mobile]['all']
 
-    f = open('./pics/tolerance.dat', 'w')
-    for browser in less_than_n:
-        f.write('{} ', str(browser))
-    f.write('\n')
-    for i in range(1, 13):
-        for browser in less_than_n:
-            f.write('{} ', str(less_than_n[browser][i]))
+    f = open('./pics/desktoptolerance.dat', 'w')
+    for browser in less_than_n[0]:
+        f.write('{} '.format(str(browser)))
+        cur_sum = 0
+        for i in range(1,4):
+            cur_sum += len(less_than_n[0][browser][i])
+        for i in range(1, 4):
+            f.write('{} '.format(str(100.0 * float(len(less_than_n[0][browser][i])) / float(cur_sum))))
         f.write('\n')
     f.close()
 
+    f = open('./pics/mobiletolerance.dat', 'w')
+    for browser in less_than_n[1]:
+        f.write('{} '.format(str(browser)))
+        cur_sum = 0
+        for i in range(1,4):
+            cur_sum += len(less_than_n[1][browser][i])
+        for i in range(1, 4):
+            f.write('{} '.format(str(100.0 * float(len(less_than_n[1][browser][i])) / float(cur_sum))))
+        f.write('\n')
+    f.close()
+
+def gpu_mapback_paper(df):
+    gpu_map = [
+            'apple',
+            'intel',
+            'nvidia',
+            'amd',
+            'ati',
+            'radeon',
+            'asus',
+            'adreno'
+            ]
+    mapback_keys = ['gpuimgs']
+    df_masked = df[df['inc'] == 'No Debug Info']
+    df = df[df['inc'] != 'No Debug Info']
+    df = df.reset_index(drop = True)
+    grouped = df.groupby(mapback_keys)
+    img_mapping = {}
+    for idx in tqdm(df.index):
+        cur_gpu = df.at[idx, 'gpu'].lower()
+        for gpu_inc in gpu_map:
+            if cur_gpu.find('isklultgt2') != -1:
+                cur_gpu = 'intel'
+            if cur_gpu.find(gpu_inc) != -1:
+                df.at[idx, 'gpu'] = gpu_inc
+                break
+
+    all_keys = 0
+    for imgs, cur_group in tqdm(grouped):
+        cur_key = str(imgs)
+        if cur_key not in img_mapping:
+            img_mapping[cur_key] = {'cnt': 0, 'res': set()} 
+        cur_len = len(set(cur_group['browserid']))
+        img_mapping[cur_key]['cnt'] += cur_len 
+        all_keys += cur_len
+        img_mapping[cur_key]['res'] |= set(cur_group['gpu'])
+
+    grouped = df_masked.groupby(mapback_keys)
+    mapped_number = [{} for i in range(30)]
+    all_pos = 0
+    for imgs, cur_group in tqdm(grouped):
+        cur_key = str(imgs)
+        cur_len = len(set(cur_group['browserid']))
+        all_pos += cur_len
+        if cur_key not in img_mapping:
+            continue
+        num_pos = len(img_mapping[cur_key]['res'])
+        cur_res_str = '_'.join(img_mapping[cur_key]['res'])
+        if num_pos >= 10:
+            continue
+        if cur_key in img_mapping:
+            if cur_res_str not in mapped_number[num_pos]:
+                mapped_number[num_pos][cur_res_str] = 0
+            mapped_number[num_pos][cur_res_str] += cur_len
+
+    print all_pos
+    for idx in range(len(mapped_number)):
+        cur_sum = 0
+        print idx
+        for gpu in mapped_number[idx]:
+            cur_sum += mapped_number[idx][gpu]
+            print gpu, '====', float(mapped_number[idx][gpu]) / float(all_pos) * 100
+        print float(cur_sum) / float(all_pos) * 100
+        
+
+'''
+
+    success = 0
+    res = {}
+    for cur_key in img_mapping:
+        cur_type = ','.join(cur_key[1]['res'])
+        if cur_type not in res:
+            res[cur_type] = 0
+        res[cur_type] += cur_key[1]['cnt']
+        if len(cur_key[1]['res']) == 1:
+            success += 1
+    res = sorted(res.iteritems(), key=lambda (k, v): (-v, k))
+    for cur_type, val in res:
+        print (cur_type), float(val) / float(all_keys) * 100
+'''
+
+def ip_location_paper(df):
+    client = df.groupby('clientid')
+    pre_row = ""
+    cnt = [0 for i in range(2005)] 
+    for key, items in tqdm(client):
+        if items['IP'].nunique() > 1:
+            pre_row = ""
+            for name, row in items.iterrows():
+                if type(pre_row) == type("") or pre_row['IP'] == row['IP']:
+                    pre_row = row
+                    continue
+                seconds_change = float((row['time'] - pre_row['time']).seconds)
+                distance_change = ip_distance(pre_row['latitude'], pre_row['longitude'],
+                        row['latitude'],
+                        row['longitude']) 
+                if distance_change == 0:
+                    continue
+
+                if seconds_change == 0:
+                    seconds_change = 0.1
+
+                km_per_hour = distance_change / (seconds_change / 60) * 60
+                pre_row = row
+                if km_per_hour > 1999:
+                    km_per_hour = 1999 
+                cnt[int(km_per_hour)] += 1
+
+    f = open('./pics/ipchange.dat','w')
+    for i in range(2001):
+        f.write('{} {}\n'.format(i, cnt[i]))
+    f.close()
+
+def get_change_agent(agent):
+    os_changed = get_os_changed(agent)
+    browser = get_browser_agent(agent)
+    browser_changed = get_browser_changed(agent)
+
+
+# the two strs put in this function is separated by _
+# if it's separated by ' ', trans them before this function
+# or use the sep param
 
 def main():
     small_feature_list = [ 
@@ -1743,9 +1924,9 @@ def main():
         "cpucores", 
         "audio"
         ]
+    '''
     db = Database('uniquemachine')
     df = load_data(load = False, feature_list = ['*'], table_name = "features", db = db)
-    '''
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -1857,28 +2038,28 @@ def main():
     print 'feature change:', feature_change
     tolerance = [float(len(t)) / float(len(clientid)) * 100 for t in less_than_n]
     print 'tolerance: ', tolerance
-    '''
+    df = load_data(load = True, feature_list = ['clientid','inc', 'gpu', 'canvastest', 'gpuimgs', 'browser', 'browserid', 'browserfingerprint'], table_name = 'pandas_features', db = db)
+    gpu_mapback_paper(df)
     '''
     db = Database('uniquemachine')
-    df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_features', db = db)
+    df = load_data(load = True, feature_list = ['*'], table_name = "pandas_features", db = db)
+    feature_latex_table_paper(df)
+    '''
+    life_time_distribution_paper(df)
+    db = Database('uniquemachine')
+    df = load_data(load = True, feature_list = ['latitude', 'longitude','IP', 'clientid', 'time'], table_name = "pandas_features", db = db)
+    ip_location_paper(df)
+    df = load_data(load = True, feature_list = ['agent', 'browser', 'browserid', 'browserfingerprint'], table_name = 'pandas_features', db = db)
+    get_tolerance_paper(df)
+    num_cookie_distribution_paper(df)
+    draw_browser_change_by_date(df)
 
     get_num_each_day(df)
-    draw_browser_change_by_date(df)
     clientid = df.groupby('browserid')
     #fingerprints = df.groupby('browserfingerprint')
     #changes, less_than_n = num_of_users_per_fingerprint(fingerprints, 'browserid')
     #print changes
     distribution = num_feature_distribution(clientid, 'label')
-    print 'distribution: ',distribution
-    f = open('cookie.dat', 'w')
-    for browser in distribution:
-        f.write('{} '.format(browser))
-    for i in range(len(distribution['chrome'])):
-        f.write('{} '.format(i + 1))
-        for browser in distribution:
-            f.write('{} '.format(distribution[browser][i]))
-        f.write('\n')
-    f.close()
     '''
 
 if __name__ == '__main__':

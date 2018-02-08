@@ -1,4 +1,13 @@
 from tqdm import *
+import re
+def mobile_or_not(agent):
+    mobile_str = 'Mobile|iPhone|iPod|iPad|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|hpwOS|webOS|Fennec|Minimo|Opera Mobi|Mini|Blazer|Dolfin|Dolphin|Skyfire|Zune'
+    test_str = mobile_str.split('|')
+    for test in test_str:
+        if agent.find(test) != -1:
+            return 1
+    return 0 
+
 # return the os fonts and the conts of the 
 # contributors
 def get_os_fonts(df):
