@@ -624,7 +624,7 @@ def get_browserid(row):
 
 
 def load_data(load = True, db = None, file_path = None, table_name = "features", 
-        feature_list = ['*']):
+        feature_list = ['*'], limit = -1):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
     small_features = [ 
@@ -669,7 +669,12 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
             feature_str += feature + ','
         # remove the last ,
         feature_str = feature_str[:-1]
-        df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set";'.format(feature_str, table_name), con=db.get_db())    
+        if limit == -1:
+            limit_str = ""
+        else:
+            limit_str = ' limit {}'.format(limit)
+        #df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set" {};'.format(feature_str, table_name, limit_str), con=db.get_db())    
+        df = pd.read_sql('select {} from {} {};'.format(feature_str, table_name, limit_str), con=db.get_db())    
         print ("data loaded")
     else:
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
@@ -822,20 +827,6 @@ def get_change_agent(agent):
     browser_changed = get_browser_changed(agent)
 
 
-# the two strs put in this function is separated by _
-# if it's separated by ' ', trans them before this function
-# or use the sep param
-# return the diff of str1 to str2 and str2 to str1 
-def get_change_strs(str1, str2, sep = '_'):
-    str1 = str(str1)
-    str2 = str(str2)
-    if str1 == None:
-        str1 = ""
-    if str2 == None:
-        str2 = ""
-    words_1 = set(str1.split(sep))
-    words_2 = set(str2.split(sep))
-    return words_1 - words_2, words_2 - words_1
 
 def get_item_change(client, title, key, sep = '_', N = 10):
     print ("start generating {} change".format(key))
@@ -1117,6 +1108,7 @@ def agent_changes_of_date(count_feature, client, df):
         for idx in range(length + 1):
             num_browserids_that_day[feature][idx] = float(len(num_browserids_that_day[feature][idx]))
     print num_browserids_that_day
+    '''
 #=================================================
     res = {}
     for feature in features:
@@ -1128,18 +1120,7 @@ def agent_changes_of_date(count_feature, client, df):
     return res, features 
 #=================================================
     '''
-    '''
     print 'finished generating number of changed browser in each day'
-    tmpset = set(['Bodoni MT Condensed', 'Copperplate Gothic Light', 'Bodoni MT Black',
-        'Script MT Bold', 'Arial Narrow', 'Arial Black', 'Rockwell Condensed', 
-        'Bernard MT Condensed', 'Arial Rounded MT Bold',
-        'Gill Sans MT Ext Condensed Bold', 'Gill Sans MT Condensed', 'Cooper Black', 
-        'Rockwell Extra Bold', 'Tw Cen MT Condensed', 
-        'Britannic Bold', 'Gill Sans Ultra Bold Condensed', 'Copperplate Gothic Bold', 'OCR A Extended', 
-        'Harlow Solid Italic', 'Bodoni MT Poster Compressed', 'Segoe UI Semibold', 'Footlight MT Light', 
-        'Gill Sans Ultra Bold', 'Segoe UI Light', 'Rage Italic', 
-        'Berlin Sans FB Demi', 'Tw Cen MT Condensed Extra Bold'])
-    smallset = set(['MT Extra'])
     cur_cnt = {}
     total_cnt = {}
     total_change = {}
@@ -1301,18 +1282,13 @@ def draw_browser_change_by_date(df):
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     small_features = [ 
-            "browserfingerprint"
-        ]
-    '''
-            "gpuimgs",
-            "agent",
-            "jsFonts",
-            "canvastest",
         "browserfingerprint"
-        "canvastest"
+        "gpuimgs",
+        "agent",
+        "jsFonts",
+        "canvastest",
         "accept",
         "encoding",
-        "gpuimgs"
         "language",
         "langsdetected",
         "resolution",
@@ -1327,11 +1303,9 @@ def draw_browser_change_by_date(df):
         "adblock", 
         "cpucores", 
         "audio"
-    '''
+        ]
     for feature in small_features: 
-        #changes, features = agent_changes_of_date(feature, clientid, df)
-        changes, features = agent_changes_of_date('overall', clientid, df)
-        print changes
+        changes, features = agent_changes_of_date(feature, clientid, df)
         f = open('./pics/{}changebydate.dat'.format(feature), 'w')
         for date in sorted(changes):
             f.write('{}-{}-{}'.format(date.year, date.month, date.day))
@@ -2042,17 +2016,18 @@ def main():
     gpu_mapback_paper(df)
     '''
     db = Database('uniquemachine')
-    df = load_data(load = True, feature_list = ['*'], table_name = "pandas_features", db = db)
-    feature_latex_table_paper(df)
+    df = load_data(load = True, feature_list = ['*'], table_name = "pandas_longfeatures", db = db)
+    feature_delta_paper(df)
     '''
+    draw_browser_change_by_date_paper(df)
     life_time_distribution_paper(df)
+    feature_latex_table_paper(df)
     db = Database('uniquemachine')
     df = load_data(load = True, feature_list = ['latitude', 'longitude','IP', 'clientid', 'time'], table_name = "pandas_features", db = db)
     ip_location_paper(df)
     df = load_data(load = True, feature_list = ['agent', 'browser', 'browserid', 'browserfingerprint'], table_name = 'pandas_features', db = db)
     get_tolerance_paper(df)
     num_cookie_distribution_paper(df)
-    draw_browser_change_by_date(df)
 
     get_num_each_day(df)
     clientid = df.groupby('browserid')

@@ -187,3 +187,5 @@ class Database():
         
         return map_res
 
+    def export_sql(self, df, table_name):
+        df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
