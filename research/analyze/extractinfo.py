@@ -138,3 +138,17 @@ def get_agent_change(agent_1, agent_2):
     return browser_change, os_change
     
 
+# the two strs put in this function is separated by _
+# if it's separated by ' ', trans them before this function
+# or use the sep param
+# return the diff of str1 to str2 and str2 to str1 
+def get_change_strs(str1, str2, sep = '_'):
+    str1 = str(str1)
+    str2 = str(str2)
+    if str1 == None:
+        str1 = ""
+    if str2 == None:
+        str2 = ""
+    words_1 = set(str1.split(sep))
+    words_2 = set(str2.split(sep))
+    return words_1 - words_2, words_2 - words_1
