@@ -627,6 +627,15 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         feature_list = ['*'], limit = -1):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
+        #"fp2_colordepth",
+        #"fp2_addbehavior",
+        #"fp2_opendatabase",
+        #"fp2_cpuclass",
+        #"fp2_liedlanguages",
+        #"fp2_liedresolution",
+        #"fp2_liedos",
+        #"fp2_pixelratio",
+        #"fp2_liedbrowser"
     small_features = [ 
         "agent",
         #"accept",
@@ -648,17 +657,9 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         "audio",
         "ipcity",
         "ipregion",
-        "ipcountry",
-        "fp2_colordepth",
-        "fp2_addbehavior",
-        "fp2_opendatabase",
-        "fp2_cpuclass",
-        "fp2_liedlanguages",
-        "fp2_liedresolution",
-        "fp2_liedos",
-        "fp2_pixelratio",
-        "fp2_liedbrowser"
+        "ipcountry"
         ]
+
     global ip2location
     df = None
     if load == True:
@@ -686,8 +687,9 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         df = df[pd.notnull(df['clientid'])]
         print ("start clean")
         db.clean_sql(small_features, df, generator = get_location_dy_ip, 
-                get_device = get_device, get_browserid = get_browserid)
-        #db.generate_browserid(small_features, df, get_device)
+                get_device = get_device, get_browserid = get_browserid,
+                aim_table = 'pandas_longfeatures')
+        #db.generate_browserid(small_features, df, get_device = get_device, get_browserid = get_browserid)
         print ("clean finished")
     return df
 
@@ -1878,9 +1880,9 @@ def main():
         "agent",
         "jsFonts",
         "canvastest", 
-        "browser",
-        "browserfingerprint",
-        "browserid",
+        #"browser",
+        #"browserfingerprint",
+        #"browserid",
         "accept",
         "encoding",
         "language",
@@ -1898,9 +1900,9 @@ def main():
         "cpucores", 
         "audio"
         ]
-    '''
     db = Database('uniquemachine')
-    df = load_data(load = False, feature_list = ['*'], table_name = "features", db = db)
+    df = load_data(load = False, feature_list = ['*'], table_name = "longfeatures", db = db)
+    '''
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -1922,6 +1924,8 @@ def main():
     print cnt, 'out of ', len(res)
 
 
+    '''
+    '''
     db = Database('data2')
     df1 = load_data(load = True, feature_list = small_feature_list, table_name = 'features', db = db)
     db = Database('uniquemachine')
@@ -1930,8 +1934,6 @@ def main():
     mapped = map_back("[final_test_officeproplus2013]", ['jsFonts', 'canvastest'], df)
     print len(mapped)
     for_paper_jsFonts_diff(db)
-    '''
-    '''
     db = Database('uniquemachine')
     df = load_data(load = True, feature_list = ['*'], table_name = 'pandas_longfeatures', db = db)
     get_num_visits(df)
@@ -2015,10 +2017,10 @@ def main():
     df = load_data(load = True, feature_list = ['clientid','inc', 'gpu', 'canvastest', 'gpuimgs', 'browser', 'browserid', 'browserfingerprint'], table_name = 'pandas_features', db = db)
     gpu_mapback_paper(df)
     '''
+    '''
     db = Database('uniquemachine')
     df = load_data(load = True, feature_list = ['*'], table_name = "pandas_longfeatures", db = db)
     feature_delta_paper(df)
-    '''
     draw_browser_change_by_date_paper(df)
     life_time_distribution_paper(df)
     feature_latex_table_paper(df)

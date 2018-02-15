@@ -37,7 +37,9 @@ feature_list = [
         "fp2_liedlanguages",
         "fp2_liedresolution",
         "fp2_liedos",
-        "fp2_liedbrowser"
+        "fp2_liedbrowser",
+
+        "browserfingerprint"
         ]
 
 def feature_delta_paper(df):
@@ -58,6 +60,8 @@ def feature_delta_paper(df):
                 pre_row = row
                 continue
             for feature in feature_list:
+                if feature not in row:
+                    continue
                 if pre_row[feature] != row[feature]:
                     maps[feature]["from"].append(pre_row[feature])
                     maps[feature]['to'].append(row[feature])
@@ -70,8 +74,11 @@ def feature_delta_paper(df):
         db.export_sql(df, '{}changes'.format(feature))
     return maps
 
-def feature_by_date_paper(feature_name, df):
-    min_date = min(df['fromtime'])
+def feature_change_by_date_paper(feature_name, df):
+    try:
+        min_date = min(df['fromtime'])
+    except:
+        return 
     min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
     max_date = max(df['totime'])
     lendate = (max_date - min_date).days
@@ -83,6 +90,23 @@ def feature_by_date_paper(feature_name, df):
     cur = 0
     dates_data = {}
     datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
+
+    cnt = 0
+    sep = ' '
+    for group in sorted_group:
+        if feature_name == 'langsdetected' or feature_name == 'jsFonts':
+            sep = '_'
+        elif feature_name == 'plugins':
+            sep = '~'
+        try:
+            print group, get_change_strs(group[0], group[1], sep=sep), sorted_group[group]
+        except:
+            pass
+        cnt += 1
+        if cnt > 10:
+            break
+
+    return 
 
     for date in datelist:
         dates_data[date] = {}
@@ -115,22 +139,92 @@ def feature_by_date_paper(feature_name, df):
         f.write('\n')
     f.close()
 
-def get_all_feature_by_date_paper(db):
+def get_key_from_agent(agent, key_type = 'browser'):
+    ret = ""
+    if key_type == 'browser':
+        ret = get_browser_version(agent)
+    return ret
+
+def feature_by_date_paper(feature, df):
+    maps = {}
+    browser_options = ['chrome', 'firefox', 'safari']
+    print "round time to days"
+    for idx in tqdm(df.index):
+        df.at[idx, 'time'] = df.at[idx, 'time'].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
+    df = df.drop_duplicates(subset = ['agent', 'time', 'browserid'])
+    
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    lendate = (max_date - min_date).days
+    datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
+    for date in datelist:
+        maps[date] = {}
+
+    grouped = df.groupby('browserid')
+    browser_version_all = {browser: {} for browser in browser_options}
+
+    for key, group in tqdm(grouped):
+        for idx, row in group.iterrows():
+            browser_version = get_key_from_agent(row['agent'])
+            for browser in browser_options:
+                if browser_version.lower().find(browser) != -1:
+                    if browser_version not in browser_version_all[browser]:
+                        browser_version_all[browser][browser_version] =0
+                    browser_version_all[browser][browser_version] += 1
+
+            date = row['time']
+            if browser_version not in maps[date]:
+                maps[date][browser_version] = 0
+            maps[date][browser_version] += 1
+
+#sort browser versions
+    for browser in browser_version_all:
+        browser_version_all[browser] = sorted(browser_version_all[browser].iteritems(), key=lambda (k,v): (-v,k))
+        for date in maps:
+            for browser_version, value in browser_version_all[browser]:
+                if browser_version not in maps[date]:
+                    maps[date][browser_version] = 0
+
+    f = {}
+    f['chrome'] = open('./dat/chrome.dat','w')
+    f['firefox'] = open('./dat/firefox.dat','w')
+    f['safari'] = open('./dat/safari.dat','w')
+
+    # write titles
+    for browser in f:
+        for browser_version, value in browser_version_all[browser]:
+            f[browser].write('{} '.format(browser_version.replace(' ', '_')))
+        f[browser].write('\n')
+
+    for date in datelist:
+        for browser in browser_options:
+            f[browser].write('{}-{}-{} '.format(date.year, date.month, date.day))
+            for browser_version, cnt in browser_version_all[browser]:
+                f[browser].write('{} '.format(maps[date][browser_version]))
+            f[browser].write('\n')
+
+                
+    for browser in f:
+        f[browser].close()
+    
+
+
+def get_all_feature_change_by_date_paper(db):
     for feature in feature_list:
         print 'generating {}'.format(feature)
         df = load_data(load = True, feature_list = ["*"], 
                 table_name = "{}changes".format(feature), db = db)
-        feature_by_date_paper(feature, df)
-        break
+        feature_change_by_date_paper(feature, df)
 
 
 
 def main():
-    #db = Database('uniquemachine')
-    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
-    #maps = feature_delta_paper(df)
     db = Database('changes')
-    get_all_feature_by_date_paper(db)
+    get_all_feature_change_by_date_paper(db)
+    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
+    #feature_by_date_paper('agent', df)
+    #maps = feature_delta_paper(df)
+    #db = Database('changes')
 
 
 
