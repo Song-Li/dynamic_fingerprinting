@@ -680,7 +680,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
     else:
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         print ("ip2location data loaded")
-        df = pd.read_sql('select * from {} where jsFonts is not NULL and gpuimgs is not NULL;'.format(table_name),
+        df = pd.read_sql('select * from {} where jsFonts is not NULL;'.format(table_name),
                 con=db.get_db())    
         print ("data loaded")
         # delete the null clientid rows

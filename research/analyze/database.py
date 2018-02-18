@@ -151,7 +151,7 @@ class Database():
             df.at[idx, 'browserfingerprint'] = hash_str
 
         print ("Finished calculation, start to put back to csv")
-        df.to_sql(aim_table, self.get_db_engine(), if_exists='replace', chunksize = 1000)
+        self.export_sql(df, aim_table)
         print ("Finished push to csv")
 
     def build_map(self, df):

@@ -42,7 +42,10 @@ feature_list = [
         "browserfingerprint"
         ]
 
-def feature_delta_paper(df):
+def feature_delta_paper(db):
+    df = load_data(load = True, feature_list = ["*"], 
+            table_name = "pandas_features", db = db)
+    df = filter_less_than_n(df, 7)
     maps = {} 
     for feature in feature_list:
         maps[feature] = {"from":[], "to":[], "fromtime":[], "totime":[]}
@@ -145,6 +148,30 @@ def get_key_from_agent(agent, key_type = 'browser'):
         ret = get_browser_version(agent)
     return ret
 
+# TODO this function is not tested
+def check_flipping(df, feature, key_words, sep = ' '):
+    grouped = df.groupby('browserid')
+    total_flipping = 0
+    key_words_contained = 0
+    for key, group in tqdm(grouped):
+        if group['browserfingerprint'].nunique() == 1:
+            continue
+        appeared = set()
+        pre_val = "fake"
+        for idx, row in group.iterrows():
+            cur_val = row[feature]
+            if pre_val != cur_val:
+                pre_val = cur_val
+                if cur_val in appeared:
+                    total_flipping += 1
+                    diff_bag = get_change_strs(pre_val, cur_val, sep = sep)
+                    if len(key_words - diff_bag[0]) == 0 or len(key_words - diff_bag[1]) == 0:
+                        key_words_contained += 1
+                else:
+                    appeared.add(cur_val)
+
+    print total_flipping,key_words_contained
+
 def feature_by_date_paper(feature, df):
     maps = {}
     browser_options = ['chrome', 'firefox', 'safari']
@@ -177,7 +204,7 @@ def feature_by_date_paper(feature, df):
                 maps[date][browser_version] = 0
             maps[date][browser_version] += 1
 
-#sort browser versions
+    #sort browser versions
     for browser in browser_version_all:
         browser_version_all[browser] = sorted(browser_version_all[browser].iteritems(), key=lambda (k,v): (-v,k))
         for date in maps:
@@ -216,14 +243,61 @@ def get_all_feature_change_by_date_paper(db):
                 table_name = "{}changes".format(feature), db = db)
         feature_change_by_date_paper(feature, df)
 
+def get_unique_fingerprint_list(df):
+    grouped = df.groupby('browserfingerprint')
+    print ('getting the unique browserfingerprint set')
+    unique_fingerprint = set()
+    for key, grouped in tqdm(grouped):
+        if grouped['browserid'].nunique() == 1:
+            unique_fingerprint.add(key)
+    return unique_fingerprint
+
+def check_browser_become_unique(db):
+    df = load_data(load = True, feature_list = ["*"], 
+            table_name = "pandas_features", db = db, limit = 10000)
+    unique_list = get_unique_fingerprint_list(df)
+    ret = {}
+    change_feature = {feature: 0 for feature in feature_list}
+    grouped = df.groupby('browserid')
+    for key, cur_group in tqdm(grouped):
+        pre_row = {'browserfingerprint': 'fake'}
+        for idx, row in cur_group.iterrows():
+            if pre_row['browserfingerprint'] == 'fake':
+                pre_row = row
+                continue
+            if pre_row['browserfingerprint'] != row['browserfingerprint']:
+                if pre_row['browserfingerprint'] not in unique_list and row['browserfingerprint'] in unique_list:
+                    ret[row['browserfingerprint']] = [pre_row['browserfingerprint'], row['browserid']]
+                    for feature in feature_list:
+                        if row[feature] != pre_row[feature]:
+                            change_feature[feature] += 1
+                pre_row = row
+    print change_feature
+    for uniquefp in ret:
+        print uniquefp, ret[uniquefp]
+    return ret, change_feature
+
+
+def filter_less_than_n(df, n):
+    grouped = df.groupby('browserid')
+    filtered = set()
+    print 'filtering'
+    for key, cur_group in tqdm(grouped):
+        length = len(cur_group['IP'])
+        if length >= n:
+            filtered.add(str(key))
+
+    df = df[df['browserid'].isin(filtered)]
+    return df
 
 
 def main():
     db = Database('changes')
+    #maps = feature_delta_paper(db)
+    #change_to_unique, change_feature = check_browser_become_unique(db)
     get_all_feature_change_by_date_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
     #feature_by_date_paper('agent', df)
-    #maps = feature_delta_paper(df)
     #db = Database('changes')
 
 
