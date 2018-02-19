@@ -252,6 +252,15 @@ def get_unique_fingerprint_list(df):
             unique_fingerprint.add(key)
     return unique_fingerprint
 
+def get_sep(feature):
+    sep = ' '
+    if feature == 'langsdetected' or feature == 'jsFonts':
+        sep = '_'
+    elif feature == 'plugins':
+        sep = '~'
+    return sep
+
+
 def check_browser_become_unique(db):
     df = load_data(load = True, feature_list = ["*"], 
             table_name = "pandas_features", db = db)
@@ -271,14 +280,16 @@ def check_browser_become_unique(db):
                     ret[row['browserfingerprint']] = [pre_row['browserfingerprint'], row['browserid']]
                     for feature in feature_list:
                         if row[feature] != pre_row[feature]:
-                            if feature == 'agent':
-                                change = str(get_change_strs(pre_row['agent'], row['agent'], sep = ' '))
+                            #if feature == 'agent':
+                            if feature != 'browserfingerprint':
+                                sep = get_sep(feature)
+                                change = str(get_change_strs(pre_row[feature], row[feature], sep = sep))
                                 if change not in change_val:
                                     change_val[change] = 0
                                 change_val[change] += 1
                             change_feature[feature] += 1
                 pre_row = row
-    change_val = sorted(change_val.iteritems(), key=lambda (k,v): (v,k))
+    change_val = sorted(change_val.iteritems(), key=lambda (k,v): (-v,k))
     for change in change_val:
         print change
     print change_feature
@@ -314,8 +325,27 @@ def num_fingerprints_distribution(db):
 
 def get_browserid_change(df, browserid):
     aim_df = df[df['browserid'] == browserid]
+    aim_df = aim_df.reset_index(drop = True)
+    pre_row = {}
+    sep = ' '
     for idx in tqdm(aim_df.index):
-        pass
+        sep = ' '
+        row = aim_df.iloc[idx]
+        if len(pre_row) == 0:
+            pre_row = row
+            continue
+        if row['browserfingerprint'] != pre_row['browserfingerprint']:
+            for feature in feature_list:
+                if row[feature] != pre_row[feature]:
+                    if feature == 'langsdetected' or feature == 'jsFonts':
+                        sep = '_'
+                    elif feature == 'plugins':
+                        sep = '~'
+                    if feature == 'agent':
+                        print pre_row[feature], row[feature]
+                    print feature, get_change_strs(pre_row[feature], row[feature], sep = sep)
+            print '===================================='
+        pre_row = row
 
 
 
@@ -323,8 +353,12 @@ def get_browserid_change(df, browserid):
 
 def main():
     db = Database('uniquemachine')
-    #num_fingerprints_distribution(db)
     check_browser_become_unique(db)
+    #num_fingerprints_distribution(db)
+    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
+    #get_browserid_change(df, '231fd915c3b967fff10df7d857d885de-1iPad44100_0_1_0_2_explicit_speakers2Apple Inc.Apple A8X GPUsafari')
+    #get_browserid_change(df, 'ba677be0cc04c85b693bf20d06cd89eb-1Win32not supported1.10000002384MicrosoftNVIDIA GeForce GTX 560trident')
+    #check_browser_become_unique(db)
     #maps = feature_delta_paper(db)
     #change_to_unique, change_feature = check_browser_become_unique(db)
     #get_all_feature_change_by_date_paper(db)

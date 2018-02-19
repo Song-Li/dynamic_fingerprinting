@@ -1,0 +1,464 @@
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['d212ab66fc6374918ca2c2f1945c698e7f9e8ce112b24cf5b08dcac6197a112e']), set(['045f978e362c8351db0c4e7fb16cb6f55bdd84eef64534af11dec4d255c5839f']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+browserfingerprint (set(['045f978e362c8351db0c4e7fb16cb6f55bdd84eef64534af11dec4d255c5839f']), set(['9e32b53c7d2d569912d9dc57dffb538405cbee0bf6e9e87e4c55eb22729815f1']))
+====================================
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['9e32b53c7d2d569912d9dc57dffb538405cbee0bf6e9e87e4c55eb22729815f1']), set(['20dde56f368ffffdf5a3103def236bf6eeca2fa0712ed2fa8ebb96e824461a0e']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['20dde56f368ffffdf5a3103def236bf6eeca2fa0712ed2fa8ebb96e824461a0e']), set(['47324dbe83c392841dc826d91315a956d45c8b73e1f657a8003eae2d45ac49ca']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['47324dbe83c392841dc826d91315a956d45c8b73e1f657a8003eae2d45ac49ca']), set(['c0961443c738463ec8bda11c6cbf62ecc0c0418f5df01a44cfe4fa18f33ba62f']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['7572a0f9a1dc005fedbba709f71909743976db0d']))
+ipcity (set(['Muenster']), set(['Bramsche']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['c0961443c738463ec8bda11c6cbf62ecc0c0418f5df01a44cfe4fa18f33ba62f']), set(['f321068b6d4efa900ecb8ca512f0d5ea106ad5b88653480d48f9590997c96c92']))
+====================================
+canvastest (set(['7572a0f9a1dc005fedbba709f71909743976db0d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Bramsche']), set(['Welbergen']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f321068b6d4efa900ecb8ca512f0d5ea106ad5b88653480d48f9590997c96c92']), set(['0c16c092d1dcac350c1780de3923925339fbf62f128438e9a8dc73a5c1f56684']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+ipcity (set(['Welbergen']), set(['Muenster']))
+browserfingerprint (set(['0c16c092d1dcac350c1780de3923925339fbf62f128438e9a8dc73a5c1f56684']), set(['47324dbe83c392841dc826d91315a956d45c8b73e1f657a8003eae2d45ac49ca']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Muenster']), set(['Aslage']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['47324dbe83c392841dc826d91315a956d45c8b73e1f657a8003eae2d45ac49ca']), set(['9443a2f055d5de0ba1b80c4ebd86901c55d5bafb212831ccd796281c70cd1d4f']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+browserfingerprint (set(['9443a2f055d5de0ba1b80c4ebd86901c55d5bafb212831ccd796281c70cd1d4f']), set(['0c9a01cae4eabb8af5b81b709c0dea6269725dc5c804ea7ea471c93ab8e876b7']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+ipcity (set(['Aslage']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['0c9a01cae4eabb8af5b81b709c0dea6269725dc5c804ea7ea471c93ab8e876b7']), set(['5178324144288b53336a2426f55c61ffb09616ca32607866d2d64dafa0fb1ed9']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['5178324144288b53336a2426f55c61ffb09616ca32607866d2d64dafa0fb1ed9']), set(['d212ab66fc6374918ca2c2f1945c698e7f9e8ce112b24cf5b08dcac6197a112e']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['d212ab66fc6374918ca2c2f1945c698e7f9e8ce112b24cf5b08dcac6197a112e']), set(['c0961443c738463ec8bda11c6cbf62ecc0c0418f5df01a44cfe4fa18f33ba62f']))
+====================================
+Mozilla/5.0 (iPad; CPU OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B202 Safari/604.1 Mozilla/5.0 (iPad; CPU OS 11_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C114 Safari/604.1
+agent (set(['Mobile/15B202', 'AppleWebKit/604.3.5', '11_1_2']), set(['Mobile/15C114', 'AppleWebKit/604.4.7', '11_2']))
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['c0961443c738463ec8bda11c6cbf62ecc0c0418f5df01a44cfe4fa18f33ba62f']), set(['f14219aef322fa23c33ab16fdeb522e174bf4f548c145775494c748631c4de9a']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']))
+ipcity (set(['Osnabruck']), set(['Dusseldorf']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f14219aef322fa23c33ab16fdeb522e174bf4f548c145775494c748631c4de9a']), set(['7d53e14fe3f047db5a48acd1261862dcfd5fa350f42483dfe725ca96df8fe5a5']))
+====================================
+canvastest (set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Dusseldorf']), set(['Lintorf']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['7d53e14fe3f047db5a48acd1261862dcfd5fa350f42483dfe725ca96df8fe5a5']), set(['3716bf227775d2b00b247a7ee2dd9b1b8d13bdf067b4dcff8e1b689450adb22b']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+ipcity (set(['Lintorf']), set(['Osnabruck']))
+browserfingerprint (set(['3716bf227775d2b00b247a7ee2dd9b1b8d13bdf067b4dcff8e1b689450adb22b']), set(['98fd31bb9760df207c195fa186b1ffa33acb17f3ed53c76361e4369e417343cb']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['98fd31bb9760df207c195fa186b1ffa33acb17f3ed53c76361e4369e417343cb']), set(['c30d9370b657a5ebdfb7cbc8db4a8c606ff0702998ff04dd3640d0f1acc42f0b']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['c30d9370b657a5ebdfb7cbc8db4a8c606ff0702998ff04dd3640d0f1acc42f0b']), set(['8e1b90181f8f9f5935639efd0a4badec78b1e42bedfe1030636b5a813c6c5215']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['8e1b90181f8f9f5935639efd0a4badec78b1e42bedfe1030636b5a813c6c5215']), set(['f14219aef322fa23c33ab16fdeb522e174bf4f548c145775494c748631c4de9a']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['7572a0f9a1dc005fedbba709f71909743976db0d']))
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f14219aef322fa23c33ab16fdeb522e174bf4f548c145775494c748631c4de9a']), set(['fff90e9d8021c69f00fa858a7d38f63479bd10e79d6d3c4aa5848f27b0ccf588']))
+====================================
+canvastest (set(['7572a0f9a1dc005fedbba709f71909743976db0d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['fff90e9d8021c69f00fa858a7d38f63479bd10e79d6d3c4aa5848f27b0ccf588']), set(['f14219aef322fa23c33ab16fdeb522e174bf4f548c145775494c748631c4de9a']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['f14219aef322fa23c33ab16fdeb522e174bf4f548c145775494c748631c4de9a']), set(['47606e7c8751966d1d3720c3f2eab83ffabc468803fcbde642823f530a03e33d']))
+====================================
+Mozilla/5.0 (iPad; CPU OS 11_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C114 Safari/604.1 Mozilla/5.0 (iPad; CPU OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C153 Safari/604.1
+agent (set(['Mobile/15C114', '11_2']), set(['Mobile/15C153', '11_2_1']))
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Osnabruck']), set(['Severinghausen']))
+browserfingerprint (set(['47606e7c8751966d1d3720c3f2eab83ffabc468803fcbde642823f530a03e33d']), set(['38f79d7ed3d2bd1dfbbd5092608d8416f8de266774b5528d5e8f837ad48498f6']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+ipcity (set(['Severinghausen']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['38f79d7ed3d2bd1dfbbd5092608d8416f8de266774b5528d5e8f837ad48498f6']), set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']))
+====================================
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']), set(['d04dd3edbf5defb7c9fa3ee72340dba0f8cdd97a3c9f867e513126b9c7be1de6']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Osnabruck']), set(['Severinghausen']))
+browserfingerprint (set(['d04dd3edbf5defb7c9fa3ee72340dba0f8cdd97a3c9f867e513126b9c7be1de6']), set(['38f79d7ed3d2bd1dfbbd5092608d8416f8de266774b5528d5e8f837ad48498f6']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+ipcity (set(['Severinghausen']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['38f79d7ed3d2bd1dfbbd5092608d8416f8de266774b5528d5e8f837ad48498f6']), set(['c2f794c93f7116b0db9e5ca6518c14a002dd5f211a691985ff51d17865fde12b']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['c2f794c93f7116b0db9e5ca6518c14a002dd5f211a691985ff51d17865fde12b']), set(['ce66970ca7533887c5507a5e17cd6ea7f18a41e0b30b5191e73d9eb9a454f305']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']))
+browserfingerprint (set(['ce66970ca7533887c5507a5e17cd6ea7f18a41e0b30b5191e73d9eb9a454f305']), set(['c98d14662537538bd1234cb371aa891706f3ec6baa7f36400c211915a4f0a570']))
+====================================
+canvastest (set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['c98d14662537538bd1234cb371aa891706f3ec6baa7f36400c211915a4f0a570']), set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['e14bb83ea329f843399448a3c1f9fbc17a45bf38c1614eae8b72057acf8506a6']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['e14bb83ea329f843399448a3c1f9fbc17a45bf38c1614eae8b72057acf8506a6']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['e86b97b81d9c0be9ef79f4a96cfde6b536ce5edd0bf588ba2b0b010911bc9455']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['e86b97b81d9c0be9ef79f4a96cfde6b536ce5edd0bf588ba2b0b010911bc9455']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['c4d8cf2f9b665040c0dd4779b38f0e5a10e60cbbc28f1341b1d5e3c52146392e']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['c4d8cf2f9b665040c0dd4779b38f0e5a10e60cbbc28f1341b1d5e3c52146392e']), set(['ef7af245fb4e1e92911ca3efc098cf143a54379e8bb7adc61af92940c0abcb26']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['ef7af245fb4e1e92911ca3efc098cf143a54379e8bb7adc61af92940c0abcb26']), set(['c4d8cf2f9b665040c0dd4779b38f0e5a10e60cbbc28f1341b1d5e3c52146392e']))
+====================================
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['c4d8cf2f9b665040c0dd4779b38f0e5a10e60cbbc28f1341b1d5e3c52146392e']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['25f7fa1037d4a3afe8706a130978e3449a07ab70']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['1bedd747901ae9169982a6b5d84af718a8d9bb471abf7f08de06dfaf31576360']))
+====================================
+canvastest (set(['25f7fa1037d4a3afe8706a130978e3449a07ab70']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['1bedd747901ae9169982a6b5d84af718a8d9bb471abf7f08de06dfaf31576360']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['202a9264243f2110fe86ed3a460a7e72628b56a805b74f71e8a629e6775285d4']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['1a2100601c098a6fbc7ae06f41497fd3001d6cfc']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['bb07870db3465de4f2c633be5f9b0a7879bb842e8a9b27980b2800b099096da3']))
+====================================
+canvastest (set(['1a2100601c098a6fbc7ae06f41497fd3001d6cfc']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['bb07870db3465de4f2c633be5f9b0a7879bb842e8a9b27980b2800b099096da3']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['c98d14662537538bd1234cb371aa891706f3ec6baa7f36400c211915a4f0a570']))
+====================================
+canvastest (set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['c98d14662537538bd1234cb371aa891706f3ec6baa7f36400c211915a4f0a570']), set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['b36258e0149a470d6b66d30338495afd31e01d38']))
+browserfingerprint (set(['d2fc20f493b3cbf7b9dc7e7e67a2e800468b551d0e69962464af9d16a9404372']), set(['77108a9f2542283e101f30a594f39f407c138604491eb562c805eca299fc86d4']))
+====================================
+canvastest (set(['b36258e0149a470d6b66d30338495afd31e01d38']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Muenster']), set(['Welbergen']))
+browserfingerprint (set(['77108a9f2542283e101f30a594f39f407c138604491eb562c805eca299fc86d4']), set(['23b0ac4032d97b85b3c0d48064ffd6b6be5881653d948eb0672da5cb11f031eb']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['23b0ac4032d97b85b3c0d48064ffd6b6be5881653d948eb0672da5cb11f031eb']), set(['8d304c27f20de99facc70ee17be9e870c9b11f78373a9062d75be9dbd1c553cf']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['8d304c27f20de99facc70ee17be9e870c9b11f78373a9062d75be9dbd1c553cf']), set(['6ccb7c0af2a17ccbd00b0e8d624d7cfbc50810a6ecae0303789227c76df76f59']))
+====================================
+Mozilla/5.0 (iPad; CPU OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C153 Safari/604.1 Mozilla/5.0 (iPad; CPU OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 Safari/604.1
+agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['557bca43a0e41832d58349a538ccac91ed713ca3']))
+ipcity (set(['Welbergen']), set(['Muenster']))
+browserfingerprint (set(['6ccb7c0af2a17ccbd00b0e8d624d7cfbc50810a6ecae0303789227c76df76f59']), set(['f2b574c19f41d9cabac5eec826598197f4ecb9b936503bb3128a5e4244beb43e']))
+====================================
+canvastest (set(['557bca43a0e41832d58349a538ccac91ed713ca3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['f2b574c19f41d9cabac5eec826598197f4ecb9b936503bb3128a5e4244beb43e']), set(['468687118a15f91d26b04378fcdabf715121e3561be80540335bcc65a9dccec4']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['468687118a15f91d26b04378fcdabf715121e3561be80540335bcc65a9dccec4']), set(['13030393d6d8f1cf76c12aaa9b1a11850ca20fe5a2dbce82f65b15d8f244fd03']))
+====================================
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['13030393d6d8f1cf76c12aaa9b1a11850ca20fe5a2dbce82f65b15d8f244fd03']), set(['bafb18216bfbf01d46652e9823782ca054fb1a378e95f8953a60f3ff31542d0e']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['bafb18216bfbf01d46652e9823782ca054fb1a378e95f8953a60f3ff31542d0e']), set(['fdbc6206011d1ea096084a68d1933438cea35db5c645e0d134efde4f92095591']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+ipcity (set(['Muenster']), set(['Hameln']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['fdbc6206011d1ea096084a68d1933438cea35db5c645e0d134efde4f92095591']), set(['dfc7b2d9ca51c4ade5dd30b171362e165eedce468c5601d6a37a77acfd652f8d']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+ipcity (set(['Hameln']), set(['Laer', 'Bad']))
+browserfingerprint (set(['dfc7b2d9ca51c4ade5dd30b171362e165eedce468c5601d6a37a77acfd652f8d']), set(['c2ca2587fd12025fce9d52879c5acdde04312cddbe44e7d88954ad08b15d67d5']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']))
+browserfingerprint (set(['c2ca2587fd12025fce9d52879c5acdde04312cddbe44e7d88954ad08b15d67d5']), set(['4a4e7ffedaf8c4a07bb491f33e96b67f52f644602b75018ef9bba26996f86673']))
+====================================
+canvastest (set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['4a4e7ffedaf8c4a07bb491f33e96b67f52f644602b75018ef9bba26996f86673']), set(['1b0666728133f0e66d31091415fb533c2866830a6d0f556b3edd501a6a2cc953']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+ipcity (set(['Laer', 'Bad']), set(['Osnabruck']))
+browserfingerprint (set(['1b0666728133f0e66d31091415fb533c2866830a6d0f556b3edd501a6a2cc953']), set(['3cce8483162caa7f0b67b4fcdc25f7cd185872ebb6aeeae5744e2f7aed9841c2']))
+====================================
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['3cce8483162caa7f0b67b4fcdc25f7cd185872ebb6aeeae5744e2f7aed9841c2']), set(['bf9a21eee4c9433c0b1a7b9b060f291c66129608b7da94ea62ba08ffed21ca96']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['bf9a21eee4c9433c0b1a7b9b060f291c66129608b7da94ea62ba08ffed21ca96']), set(['732cdb894b2d094a563ac7514ef91708310443e712c3acb300e13ffa49226022']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['732cdb894b2d094a563ac7514ef91708310443e712c3acb300e13ffa49226022']), set(['37b8b1e542dc254db0480d32b2cd295ea493dcc887d866daee212ec213975ff0']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+browserfingerprint (set(['37b8b1e542dc254db0480d32b2cd295ea493dcc887d866daee212ec213975ff0']), set(['90e62553189959ab5ac635aee6c2c31aafafd2721cb85c2429a16bc5d2ba1abc']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['90e62553189959ab5ac635aee6c2c31aafafd2721cb85c2429a16bc5d2ba1abc']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['37b8b1e542dc254db0480d32b2cd295ea493dcc887d866daee212ec213975ff0']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['37b8b1e542dc254db0480d32b2cd295ea493dcc887d866daee212ec213975ff0']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+ipcity (set(['Osnabruck']), set(['Aslage']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['35260d11e54cac465eac75e0f1e8e229ccbbee3df31db810ee2d7d1e0abad2f7']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+browserfingerprint (set(['35260d11e54cac465eac75e0f1e8e229ccbbee3df31db810ee2d7d1e0abad2f7']), set(['d6e0820596b4e8d3308dd007d40c80c712db904883c1438f8465a546bb0382ec']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['d6e0820596b4e8d3308dd007d40c80c712db904883c1438f8465a546bb0382ec']), set(['35260d11e54cac465eac75e0f1e8e229ccbbee3df31db810ee2d7d1e0abad2f7']))
+====================================
+ipcity (set(['Aslage']), set(['Osnabruck']))
+browserfingerprint (set(['35260d11e54cac465eac75e0f1e8e229ccbbee3df31db810ee2d7d1e0abad2f7']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['f4f14ccb4b6584691632135b784fb1ab48e84ff9e9e39c74df62fc46047e1e8c']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f4f14ccb4b6584691632135b784fb1ab48e84ff9e9e39c74df62fc46047e1e8c']), set(['fdbc6206011d1ea096084a68d1933438cea35db5c645e0d134efde4f92095591']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['fdbc6206011d1ea096084a68d1933438cea35db5c645e0d134efde4f92095591']), set(['48b1ed223115884c587702abcb34bc12e1ba165c5584bcc8fc4fcd732fd315bb']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['48b1ed223115884c587702abcb34bc12e1ba165c5584bcc8fc4fcd732fd315bb']), set(['13030393d6d8f1cf76c12aaa9b1a11850ca20fe5a2dbce82f65b15d8f244fd03']))
+====================================
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['13030393d6d8f1cf76c12aaa9b1a11850ca20fe5a2dbce82f65b15d8f244fd03']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['3cce8483162caa7f0b67b4fcdc25f7cd185872ebb6aeeae5744e2f7aed9841c2']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+ipcity (set(['Osnabruck']), set(['Bad', 'Essen']))
+browserfingerprint (set(['3cce8483162caa7f0b67b4fcdc25f7cd185872ebb6aeeae5744e2f7aed9841c2']), set(['02f29e6ad4e055543339abb3506671b07f1dd4f07851e54a64db6a73c1f48ef3']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['02f29e6ad4e055543339abb3506671b07f1dd4f07851e54a64db6a73c1f48ef3']), set(['1dfa3783e61eee0792f1f0f4f92dd51540d6c8b83ec2693ae8c4019824d787e8']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['1dfa3783e61eee0792f1f0f4f92dd51540d6c8b83ec2693ae8c4019824d787e8']), set(['0468475cdd1a4a0ac7b068878acb302e6487326dcccc7d32ac10b05be4bfdb06']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+browserfingerprint (set(['0468475cdd1a4a0ac7b068878acb302e6487326dcccc7d32ac10b05be4bfdb06']), set(['d1b1024ab9a3582883546aacb699d99d46e15c5f63c72a0174e98d2cfd26d245']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['9fae446072586e6dadff4ed89d6e5b79e6a22f07']))
+browserfingerprint (set(['d1b1024ab9a3582883546aacb699d99d46e15c5f63c72a0174e98d2cfd26d245']), set(['d2f42cb756c6400a88fff7e48e0068e0b9269c5b22d0c70b8ae3c456ff46552c']))
+====================================
+canvastest (set(['9fae446072586e6dadff4ed89d6e5b79e6a22f07']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['d2f42cb756c6400a88fff7e48e0068e0b9269c5b22d0c70b8ae3c456ff46552c']), set(['0468475cdd1a4a0ac7b068878acb302e6487326dcccc7d32ac10b05be4bfdb06']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['0468475cdd1a4a0ac7b068878acb302e6487326dcccc7d32ac10b05be4bfdb06']), set(['02f29e6ad4e055543339abb3506671b07f1dd4f07851e54a64db6a73c1f48ef3']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']))
+ipcity (set(['Bad', 'Essen']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['02f29e6ad4e055543339abb3506671b07f1dd4f07851e54a64db6a73c1f48ef3']), set(['fc138523cbda732319b22952f3a2057ea96ca426be4c5d314f3ed0fcc0acb4d8']))
+====================================
+canvastest (set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['fc138523cbda732319b22952f3a2057ea96ca426be4c5d314f3ed0fcc0acb4d8']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+ipcity (set(['Osnabruck']), set(['Dortmund']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['40bdadba8d3e418319f47690e069fd192118eb8f18d8073cb3b431eeee7f833f']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['7572a0f9a1dc005fedbba709f71909743976db0d']))
+ipcity (set(['Dortmund']), set(['Nuremberg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['40bdadba8d3e418319f47690e069fd192118eb8f18d8073cb3b431eeee7f833f']), set(['910f4ea416d0b0d390e9e1da5060f012f8d83b0e743ab297e67a6084ea80c3cf']))
+====================================
+canvastest (set(['7572a0f9a1dc005fedbba709f71909743976db0d']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['910f4ea416d0b0d390e9e1da5060f012f8d83b0e743ab297e67a6084ea80c3cf']), set(['9877a1f14d15c29450d89ddd00aea308ea16c3d56edf74ba398862679ea74e18']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+ipcity (set(['Nuremberg']), set(['Muenster']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['9877a1f14d15c29450d89ddd00aea308ea16c3d56edf74ba398862679ea74e18']), set(['1a74779420cd29f05b022c4654c20ea2822ab8f6344ff7db15ddd9df179bafb2']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['1a74779420cd29f05b022c4654c20ea2822ab8f6344ff7db15ddd9df179bafb2']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['732cdb894b2d094a563ac7514ef91708310443e712c3acb300e13ffa49226022']))
+====================================
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['732cdb894b2d094a563ac7514ef91708310443e712c3acb300e13ffa49226022']), set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['6a42ca19b4b11d075b41f9a17fc82955da0c7ec3f10d6948bef8bc9025bade1d']), set(['5f2ff2775784b2fd94427267c527e37a09a60c82314adebd303d5f4caae2eac9']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['5f2ff2775784b2fd94427267c527e37a09a60c82314adebd303d5f4caae2eac9']), set(['1a74779420cd29f05b022c4654c20ea2822ab8f6344ff7db15ddd9df179bafb2']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']))
+browserfingerprint (set(['1a74779420cd29f05b022c4654c20ea2822ab8f6344ff7db15ddd9df179bafb2']), set(['fdbc6206011d1ea096084a68d1933438cea35db5c645e0d134efde4f92095591']))
+====================================
+canvastest (set(['89a168cd4fca4d8c03a7f457ce2c24f44717e4b7']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+browserfingerprint (set(['fdbc6206011d1ea096084a68d1933438cea35db5c645e0d134efde4f92095591']), set(['468687118a15f91d26b04378fcdabf715121e3561be80540335bcc65a9dccec4']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['468687118a15f91d26b04378fcdabf715121e3561be80540335bcc65a9dccec4']), set(['bafb18216bfbf01d46652e9823782ca054fb1a378e95f8953a60f3ff31542d0e']))
+====================================
+Mozilla/5.0 (iPad; CPU OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 Safari/604.1 Mozilla/5.0 (iPad; CPU OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D60 Safari/604.1
+agent (set(['11_2_2', 'AppleWebKit/604.4.7', 'Mobile/15C202']), set(['AppleWebKit/604.5.6', 'Mobile/15D60', '11_2_5']))
+browserfingerprint (set(['bafb18216bfbf01d46652e9823782ca054fb1a378e95f8953a60f3ff31542d0e']), set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']))
+====================================
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']), set(['09f585d17714dffed9bb019856dea4c5f3bf7149072d37a2845961470f39abf7']))
+====================================
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['09f585d17714dffed9bb019856dea4c5f3bf7149072d37a2845961470f39abf7']), set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['ba437f1452ff3b055681cabeeb6bf1437c222dc5']))
+browserfingerprint (set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']), set(['33e56423dc91e3a20df6760e7396e88f025b174f0f261800814831234c3a371d']))
+====================================
+canvastest (set(['ba437f1452ff3b055681cabeeb6bf1437c222dc5']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+browserfingerprint (set(['33e56423dc91e3a20df6760e7396e88f025b174f0f261800814831234c3a371d']), set(['6394d2f2a231aaaca7f5c0efa2902e5f83433d4d1bd449ac3222a156a4bc765d']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+browserfingerprint (set(['6394d2f2a231aaaca7f5c0efa2902e5f83433d4d1bd449ac3222a156a4bc765d']), set(['794e61c356e815c400f28e43eb3b17f0dbe6bd94d2ce92ac29ad6ed9f8543cc8']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['794e61c356e815c400f28e43eb3b17f0dbe6bd94d2ce92ac29ad6ed9f8543cc8']), set(['1915d28913a575ee8b3ee9b0140dd949c467c11a7a542a74cfe66152702c5607']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['ba437f1452ff3b055681cabeeb6bf1437c222dc5']))
+browserfingerprint (set(['1915d28913a575ee8b3ee9b0140dd949c467c11a7a542a74cfe66152702c5607']), set(['33e56423dc91e3a20df6760e7396e88f025b174f0f261800814831234c3a371d']))
+====================================
+canvastest (set(['ba437f1452ff3b055681cabeeb6bf1437c222dc5']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+browserfingerprint (set(['33e56423dc91e3a20df6760e7396e88f025b174f0f261800814831234c3a371d']), set(['794e61c356e815c400f28e43eb3b17f0dbe6bd94d2ce92ac29ad6ed9f8543cc8']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['7572a0f9a1dc005fedbba709f71909743976db0d']))
+browserfingerprint (set(['794e61c356e815c400f28e43eb3b17f0dbe6bd94d2ce92ac29ad6ed9f8543cc8']), set(['1e30ba51a3f81a0dbb572d8e8c9d0e69cbd8f69e620cf1e7c6cef95de895dccc']))
+====================================
+canvastest (set(['7572a0f9a1dc005fedbba709f71909743976db0d']), set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']))
+browserfingerprint (set(['1e30ba51a3f81a0dbb572d8e8c9d0e69cbd8f69e620cf1e7c6cef95de895dccc']), set(['794e61c356e815c400f28e43eb3b17f0dbe6bd94d2ce92ac29ad6ed9f8543cc8']))
+====================================
+canvastest (set(['b261a45b09d8764fe7d24ee3d4765f5d7708d020']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+browserfingerprint (set(['794e61c356e815c400f28e43eb3b17f0dbe6bd94d2ce92ac29ad6ed9f8543cc8']), set(['1915d28913a575ee8b3ee9b0140dd949c467c11a7a542a74cfe66152702c5607']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['1915d28913a575ee8b3ee9b0140dd949c467c11a7a542a74cfe66152702c5607']), set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']))
+====================================
+ipcity (set(['Muenster']), set(['Bramsche']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']), set(['ca17cc87fab6fa89a80789e622ba69eb29680b194badb9b4e91ad7454d3d8747']))
+====================================
+accept (set(['']), set(['*/*']))
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+browserfingerprint (set(['ca17cc87fab6fa89a80789e622ba69eb29680b194badb9b4e91ad7454d3d8747']), set(['918c0c2386dc0cd7cc62f7928eaa13c73b5cf86ec276e5fcd055225decc8ca91']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['918c0c2386dc0cd7cc62f7928eaa13c73b5cf86ec276e5fcd055225decc8ca91']), set(['ca17cc87fab6fa89a80789e622ba69eb29680b194badb9b4e91ad7454d3d8747']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+ipcity (set(['Bramsche']), set(['Osnabruck']))
+browserfingerprint (set(['ca17cc87fab6fa89a80789e622ba69eb29680b194badb9b4e91ad7454d3d8747']), set(['61d13effb25c3dc03cedea7dda1d90c5b27c6ae892b241f1885717d02b7d80c0']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']))
+ipcity (set(['Osnabruck']), set(['Muenster']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['61d13effb25c3dc03cedea7dda1d90c5b27c6ae892b241f1885717d02b7d80c0']), set(['154da7c7edd76cfb8a6ee3a3bae95ee3f8c93b8ea14ac46eac3bc740f30f64f3']))
+====================================
+canvastest (set(['22553ac53648bc4f6e67868c0e84e7e74086c39a']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['154da7c7edd76cfb8a6ee3a3bae95ee3f8c93b8ea14ac46eac3bc740f30f64f3']), set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']))
+====================================
+canvastest (set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']), set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']))
+ipcity (set(['Muenster']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+fp2_liedresolution (set(['True']), set(['False']))
+browserfingerprint (set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']), set(['dffd6a2ca1198453e55578b3d47483379e79bc2cc0e1f13da509d345d3e3b7e2']))
+====================================
+canvastest (set(['52f36a53a93dfdf998641cb1324e795cb3bc7fc3']), set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']))
+ipcity (set(['Osnabruck']), set(['Erfurt']))
+ipregion (set(['Niedersachsen']), set(['Thuringen']))
+fp2_liedresolution (set(['False']), set(['True']))
+browserfingerprint (set(['dffd6a2ca1198453e55578b3d47483379e79bc2cc0e1f13da509d345d3e3b7e2']), set(['86e3209308c4ee1a4e820750efa15c4a61693d7871a4c9c8f1f88099565b0cff']))
+====================================
+canvastest (set(['8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd']), set(['82272d1456b62fefec63828f1552d6411734fa9d']))
+ipcity (set(['Erfurt']), set(['Muenster']))
+ipregion (set(['Thuringen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['86e3209308c4ee1a4e820750efa15c4a61693d7871a4c9c8f1f88099565b0cff']), set(['1915d28913a575ee8b3ee9b0140dd949c467c11a7a542a74cfe66152702c5607']))
+====================================
+canvastest (set(['82272d1456b62fefec63828f1552d6411734fa9d']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+browserfingerprint (set(['1915d28913a575ee8b3ee9b0140dd949c467c11a7a542a74cfe66152702c5607']), set(['4b23ed2a437715a5da3eaf1d9e2e4a2c25e666f5b3a53f7a6e4f0fd612b69f6d']))
+====================================
