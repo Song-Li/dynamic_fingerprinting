@@ -337,10 +337,7 @@ def get_browserid_change(df, browserid):
         if row['browserfingerprint'] != pre_row['browserfingerprint']:
             for feature in feature_list:
                 if row[feature] != pre_row[feature]:
-                    if feature == 'langsdetected' or feature == 'jsFonts':
-                        sep = '_'
-                    elif feature == 'plugins':
-                        sep = '~'
+                    sep = get_sep(feature)
                     if feature == 'agent':
                         print pre_row[feature], row[feature]
                     print feature, get_change_strs(pre_row[feature], row[feature], sep = sep)
