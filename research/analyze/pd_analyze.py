@@ -1901,7 +1901,7 @@ def main():
         "audio"
         ]
     db = Database('uniquemachine')
-    df = load_data(load = False, feature_list = ['*'], table_name = "longfeatures", db = db)
+    df = load_data(load = False, feature_list = ['*'], table_name = "features", db = db)
     '''
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
