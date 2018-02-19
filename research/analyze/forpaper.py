@@ -254,11 +254,12 @@ def get_unique_fingerprint_list(df):
 
 def check_browser_become_unique(db):
     df = load_data(load = True, feature_list = ["*"], 
-            table_name = "pandas_features", db = db, limit = 10000)
+            table_name = "pandas_features", db = db)
     unique_list = get_unique_fingerprint_list(df)
     ret = {}
     change_feature = {feature: 0 for feature in feature_list}
     grouped = df.groupby('browserid')
+    change_val = {}
     for key, cur_group in tqdm(grouped):
         pre_row = {'browserfingerprint': 'fake'}
         for idx, row in cur_group.iterrows():
@@ -270,11 +271,19 @@ def check_browser_become_unique(db):
                     ret[row['browserfingerprint']] = [pre_row['browserfingerprint'], row['browserid']]
                     for feature in feature_list:
                         if row[feature] != pre_row[feature]:
+                            if feature == 'agent':
+                                change = str(get_change_strs(pre_row['agent'], row['agent'], sep = ' '))
+                                if change not in change_val:
+                                    change_val[change] = 0
+                                change_val[change] += 1
                             change_feature[feature] += 1
                 pre_row = row
+    change_val = sorted(change_val.iteritems(), key=lambda (k,v): (v,k))
+    for change in change_val:
+        print change
     print change_feature
-    for uniquefp in ret:
-        print uniquefp, ret[uniquefp]
+    #for uniquefp in ret:
+    #    print uniquefp, ret[uniquefp]
     return ret, change_feature
 
 
@@ -290,12 +299,35 @@ def filter_less_than_n(df, n):
     df = df[df['browserid'].isin(filtered)]
     return df
 
+def num_fingerprints_distribution(db):
+    df = load_data(load = True, feature_list = ["*"], 
+            table_name = "pandas_features", db = db)
+    df = filter_less_than_n(df, 7)
+    grouped = df.groupby('browserid')
+    change_time = [0 for i in range(100)]
+    for key, cur_group in tqdm(grouped):
+        change_time[cur_group['browserfingerprint'].nunique()] += 1
+        if cur_group['browserfingerprint'].nunique() > 40:
+            print key
+    print change_time
+    return change_time
+
+def get_browserid_change(df, browserid):
+    aim_df = df[df['browserid'] == browserid]
+    for idx in tqdm(aim_df.index):
+        pass
+
+
+
+
 
 def main():
-    db = Database('changes')
+    db = Database('uniquemachine')
+    #num_fingerprints_distribution(db)
+    check_browser_become_unique(db)
     #maps = feature_delta_paper(db)
     #change_to_unique, change_feature = check_browser_become_unique(db)
-    get_all_feature_change_by_date_paper(db)
+    #get_all_feature_change_by_date_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
     #feature_by_date_paper('agent', df)
     #db = Database('changes')
