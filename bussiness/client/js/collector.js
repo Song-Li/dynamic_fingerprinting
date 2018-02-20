@@ -246,24 +246,24 @@ var Collector = function() {
       try {
         var firstLanguages = navigator.languages[0].substr(0, 2);
         if (firstLanguages !== navigator.language.substr(0, 2)) {
-          return value + ' true';
+          return value + '~true';
         }
       } catch (err) {
-        return value + ' true';
+        return value + '~true';
       }
     }
-    return value + ' false';
+    return value + '~false';
   }
 
   this.getHasLiedResolution = function () {
     var value = window.screen.width + ' ' + window.screen.availWidth
     if (window.screen.width < window.screen.availWidth) {
-      return value + ' true';
+      return value + '~true';
     }
     if (window.screen.height < window.screen.availHeight) {
-      return value + ' true';
+      return value + '~true';
     }
-    return value + ' false';
+    return value + '~false';
   }
 
   this.getHasLiedOs = function () {
@@ -298,39 +298,39 @@ var Collector = function() {
       }
 
       if (mobileDevice && os !== 'Windows Phone' && os !== 'Android' && os !== 'iOS' && os !== 'Other') {
-        return value + ' true';
+        return value + '~true';
       }
 
       // We compare oscpu with the OS extracted from the UA
       if (typeof oscpu !== 'undefined') {
         oscpu = oscpu.toLowerCase();
         if (oscpu.indexOf('win') >= 0 && os !== 'Windows' && os !== 'Windows Phone') {
-          return value + ' true';
+          return value + '~true';
         } else if (oscpu.indexOf('linux') >= 0 && os !== 'Linux' && os !== 'Android') {
-          return value + ' true';
+          return value + '~true';
         } else if (oscpu.indexOf('mac') >= 0 && os !== 'Mac' && os !== 'iOS') {
-          return value + ' true';
+          return value + '~true';
         } else if ((oscpu.indexOf('win') === -1 && oscpu.indexOf('linux') === -1 && oscpu.indexOf('mac') === -1) !== (os === 'Other')) {
-          return value + ' true';
+          return value + '~true';
         }
       }
 
       // We compare platform with the OS extracted from the UA
       if (platform.indexOf('win') >= 0 && os !== 'Windows' && os !== 'Windows Phone') {
-        return value + ' true';
+        return value + '~true';
       } else if ((platform.indexOf('linux') >= 0 || platform.indexOf('android') >= 0 || platform.indexOf('pike') >= 0) && os !== 'Linux' && os !== 'Android') {
-        return value + ' true';
+        return value + '~true';
       } else if ((platform.indexOf('mac') >= 0 || platform.indexOf('ipad') >= 0 || platform.indexOf('ipod') >= 0 || platform.indexOf('iphone') >= 0) && os !== 'Mac' && os !== 'iOS') {
-        return value + ' true';
+        return value + '~true';
       } else if ((platform.indexOf('win') === -1 && platform.indexOf('linux') === -1 && platform.indexOf('mac') === -1) !== (os === 'Other')) {
-        return value + ' true';
+        return value + '~true';
       }
 
       if (typeof navigator.plugins === 'undefined' && os !== 'Windows' && os !== 'Windows Phone') {
         // We are are in the case where the person uses ie, therefore we can infer that it's windows
-        return value + ' true';
+        return value + '~true';
       }
-      return value + ' false';
+      return value + '~false';
   }
 
   this.getHasLiedBrowser = function () {
@@ -355,18 +355,18 @@ var Collector = function() {
       }
 
       if ((browser === 'Chrome' || browser === 'Safari' || browser === 'Opera') && productSub !== '20030107') {
-        return value + ' true'
+        return value + '~true'
       }
 
       // eslint-disable-next-line no-eval
       var tempRes = eval.toString().length;
       var value += tempRes;
       if (tempRes === 37 && browser !== 'Safari' && browser !== 'Firefox' && browser !== 'Other') {
-        return value + ' true'
+        return value + '~true'
       } else if (tempRes === 39 && browser !== 'Internet Explorer' && browser !== 'Other') {
-        return value + ' true'
+        return value + '~true'
       } else if (tempRes === 33 && browser !== 'Chrome' && browser !== 'Opera' && browser !== 'Other') {
-        return value + ' true'
+        return value + '~true'
       }
 
       // We create an error to see how it is handled
@@ -383,9 +383,9 @@ var Collector = function() {
         }
       }
       if (errFirefox && browser !== 'Firefox' && browser !== 'Other') {
-        return value + ' errfirefox true'
+        return value + ' errfirefox~true'
       }
-      return value + ' false';
+      return value + '~false';
   }
 
   this.getWebglCanvas = function () {
@@ -767,10 +767,14 @@ var Collector = function() {
     this.postData['fp2_pixelratio'] = window.devicePixelRatio || '';
     this.postData['fp2_devicememory'] = navigator.deviceMemory || -1;
     this.postData['fp2_platform'] = this.getNavigatorPlatform();
-    this.postData['fp2_liedlanguages'] = this.getHasLiedLanguages();
-    this.postData['fp2_liedresolution'] = this.getHasLiedResolution();
-    this.postData['fp2_liedos'] = this.getHasLiedOs();
-    this.postData['fp2_liedbrowser'] = this.getHasLiedBrowser();
+    this.postData['fp2_liedlanguages'] = this.getHasLiedLanguages().split('~')[1];
+    this.postData['fp2_liedlanguagesdetails'] = this.getHasLiedLanguages().split('~')[0];
+    this.postData['fp2_liedresolution'] = this.getHasLiedResolution().split('~')[1];
+    this.postData['fp2_liedresolutiondetails'] = this.getHasLiedResolution().split('~')[0];
+    this.postData['fp2_liedos'] = this.getHasLiedOs().split('~')[1];
+    this.postData['fp2_liedosdetails'] = this.getHasLiedOs().split('~')[0];
+    this.postData['fp2_liedbrowser'] = this.getHasLiedBrowser().split('~')[1];
+    this.postData['fp2_liedbrowserdetails'] = this.getHasLiedBrowser().split('~')[0];
     this.postData['fp2_webgl'] = calcSHA1(this.getWebglFp());
     this.postData['fp2_webglvendoe'] = this.getWebglVendorAndRenderer();
     this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
