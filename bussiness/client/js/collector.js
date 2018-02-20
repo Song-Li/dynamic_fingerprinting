@@ -241,27 +241,29 @@ var Collector = function() {
 
   this.getHasLiedLanguages = function () {
     // We check if navigator.language is equal to the first language of navigator.languages
+    var value = navigator.languages[0].substr(0, 2) + ' ' + navigator.language.substr(0, 2)
     if (typeof navigator.languages !== 'undefined') {
       try {
         var firstLanguages = navigator.languages[0].substr(0, 2);
         if (firstLanguages !== navigator.language.substr(0, 2)) {
-          return true;
+          return value + ' true';
         }
       } catch (err) {
-        return true;
+        return value + ' true';
       }
     }
-    return false;
+    return value + ' false';
   }
 
   this.getHasLiedResolution = function () {
+    var value = window.screen.width + ' ' + window.screen.availWidth
     if (window.screen.width < window.screen.availWidth) {
-      return true;
+      return value + ' true';
     }
     if (window.screen.height < window.screen.availHeight) {
-      return true;
+      return value + ' true';
     }
-    return false;
+    return value + ' false';
   }
 
   this.getHasLiedOs = function () {
@@ -269,6 +271,7 @@ var Collector = function() {
       var oscpu = navigator.oscpu;
       var platform = navigator.platform.toLowerCase();
       var os;
+      var value = userAgent + ' ' + oscpu + ' ' + platform;
       // We extract the OS from the user agent (respect the order of the if else if statement)
       if (userAgent.indexOf('windows phone') >= 0) {
         os = 'Windows Phone';
@@ -285,6 +288,7 @@ var Collector = function() {
       } else {
         os = 'Other';
       }
+      value += ' ' + os
       // We detect if the person uses a mobile device
       var mobileDevice;
       if (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0)) {
@@ -294,45 +298,45 @@ var Collector = function() {
       }
 
       if (mobileDevice && os !== 'Windows Phone' && os !== 'Android' && os !== 'iOS' && os !== 'Other') {
-        return true;
+        return value + ' true';
       }
 
       // We compare oscpu with the OS extracted from the UA
       if (typeof oscpu !== 'undefined') {
         oscpu = oscpu.toLowerCase();
         if (oscpu.indexOf('win') >= 0 && os !== 'Windows' && os !== 'Windows Phone') {
-          return true;
+          return value + ' true';
         } else if (oscpu.indexOf('linux') >= 0 && os !== 'Linux' && os !== 'Android') {
-          return true;
+          return value + ' true';
         } else if (oscpu.indexOf('mac') >= 0 && os !== 'Mac' && os !== 'iOS') {
-          return true;
+          return value + ' true';
         } else if ((oscpu.indexOf('win') === -1 && oscpu.indexOf('linux') === -1 && oscpu.indexOf('mac') === -1) !== (os === 'Other')) {
-          return true;
+          return value + ' true';
         }
       }
 
       // We compare platform with the OS extracted from the UA
       if (platform.indexOf('win') >= 0 && os !== 'Windows' && os !== 'Windows Phone') {
-        return true;
+        return value + ' true';
       } else if ((platform.indexOf('linux') >= 0 || platform.indexOf('android') >= 0 || platform.indexOf('pike') >= 0) && os !== 'Linux' && os !== 'Android') {
-        return true;
+        return value + ' true';
       } else if ((platform.indexOf('mac') >= 0 || platform.indexOf('ipad') >= 0 || platform.indexOf('ipod') >= 0 || platform.indexOf('iphone') >= 0) && os !== 'Mac' && os !== 'iOS') {
-        return true;
+        return value + ' true';
       } else if ((platform.indexOf('win') === -1 && platform.indexOf('linux') === -1 && platform.indexOf('mac') === -1) !== (os === 'Other')) {
-        return true;
+        return value + ' true';
       }
 
       if (typeof navigator.plugins === 'undefined' && os !== 'Windows' && os !== 'Windows Phone') {
         // We are are in the case where the person uses ie, therefore we can infer that it's windows
-        return true;
+        return value + ' true';
       }
-
-      return false;
+      return value + ' false';
   }
 
   this.getHasLiedBrowser = function () {
       var userAgent = navigator.userAgent.toLowerCase();
       var productSub = navigator.productSub;
+      var value = userAgent + ' ' + productSub + ' ';
 
       // we extract the browser from the user agent (respect the order of the tests)
       var browser;
@@ -351,17 +355,18 @@ var Collector = function() {
       }
 
       if ((browser === 'Chrome' || browser === 'Safari' || browser === 'Opera') && productSub !== '20030107') {
-        return true;
+        return value + ' true'
       }
 
       // eslint-disable-next-line no-eval
       var tempRes = eval.toString().length;
+      var value += tempRes;
       if (tempRes === 37 && browser !== 'Safari' && browser !== 'Firefox' && browser !== 'Other') {
-        return true;
+        return value + ' true'
       } else if (tempRes === 39 && browser !== 'Internet Explorer' && browser !== 'Other') {
-        return true;
+        return value + ' true'
       } else if (tempRes === 33 && browser !== 'Chrome' && browser !== 'Opera' && browser !== 'Other') {
-        return true;
+        return value + ' true'
       }
 
       // We create an error to see how it is handled
@@ -378,9 +383,9 @@ var Collector = function() {
         }
       }
       if (errFirefox && browser !== 'Firefox' && browser !== 'Other') {
-        return true;
+        return value + ' errfirefox true'
       }
-      return false;
+      return value + ' false';
   }
 
   this.getWebglCanvas = function () {
