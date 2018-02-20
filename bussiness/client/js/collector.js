@@ -360,7 +360,7 @@ var Collector = function() {
 
       // eslint-disable-next-line no-eval
       var tempRes = eval.toString().length;
-      var value += tempRes;
+      value += tempRes;
       if (tempRes === 37 && browser !== 'Safari' && browser !== 'Firefox' && browser !== 'Other') {
         return value + '~true'
       } else if (tempRes === 39 && browser !== 'Internet Explorer' && browser !== 'Other') {
