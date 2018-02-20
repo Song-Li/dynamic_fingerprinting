@@ -280,18 +280,41 @@ def check_browser_become_unique(db):
                     ret[row['browserfingerprint']] = [pre_row['browserfingerprint'], row['browserid']]
                     for feature in feature_list:
                         if row[feature] != pre_row[feature]:
-                            #if feature == 'agent':
                             if feature != 'browserfingerprint':
                                 sep = get_sep(feature)
                                 change = str(get_change_strs(pre_row[feature], row[feature], sep = sep))
                                 if change not in change_val:
-                                    change_val[change] = 0
-                                change_val[change] += 1
+                                    change_val[change] = {}
+                                    change_val[change]['total'] = 0
+                                for sub_feature in feature_list:
+                                    if row[sub_feature] != pre_row[sub_feature]:
+                                        sub_value = str(get_change_strs(pre_row[sub_feature],
+                                            row[sub_feature], sep = sep))
+                                        if sub_value not in change_val[change]:
+                                            change_val[change][sub_value] = 0
+                                        change_val[change][sub_value] += 1
+                                change_val[change]['total'] += 1
                             change_feature[feature] += 1
                 pre_row = row
-    change_val = sorted(change_val.iteritems(), key=lambda (k,v): (-v,k))
+                
+    '''
+    # we need to calculate the users with same fingerprints
+    fp_grouped = df.groupby('browserfingerprint')
+    for uniquefp in ret:
+        pre_fp = ret[0]
+        cur_group = fp_grouped.get_group(pre_fp)
+        for key, row in cur_group.iterrows():
+            pass
+    '''
+    
+
+    change_val = sorted(change_val.iteritems(), key=lambda (k,v): (-v['total'],k))
     for change in change_val:
-        print change
+        print '==================================='
+        print change[0]
+        for value in change[1]:
+            print value, change[1][value]
+        print '==================================='
     print change_feature
     #for uniquefp in ret:
     #    print uniquefp, ret[uniquefp]
@@ -343,10 +366,6 @@ def get_browserid_change(df, browserid):
                     print feature, get_change_strs(pre_row[feature], row[feature], sep = sep)
             print '===================================='
         pre_row = row
-
-
-
-
 
 def main():
     db = Database('uniquemachine')
