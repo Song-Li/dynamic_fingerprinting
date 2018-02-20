@@ -56,7 +56,6 @@ var Collector = function() {
     fp2_liedbrowser: "Undefined",
     fp2_webgl: "Undefined",
     fp2_webglvendoe: "Undefined",
-    manufacturer: "Undefined",
     adBlock: "Undefined",
     cpucores: "Undefined", 
     canvastest: "Undefined", 

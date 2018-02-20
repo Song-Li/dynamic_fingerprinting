@@ -302,10 +302,6 @@ def updateFeatures():
     features = {}
 
     for feature in result.iterkeys():
-        
-        if feature not in feature_list and feature != "clientid":
-            continue
-        
         value = result[feature]
 
         #fix the bug for N/A for cpu_cores
