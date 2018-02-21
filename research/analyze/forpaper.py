@@ -288,8 +288,9 @@ def check_browser_become_unique(db):
                                     change_val[change]['total'] = 0
                                 for sub_feature in feature_list:
                                     if row[sub_feature] != pre_row[sub_feature]:
-                                        sub_value = str(get_change_strs(pre_row[sub_feature],
-                                            row[sub_feature], sep = sep))
+                                        sub_value = sub_feature 
+#str(get_change_strs(pre_row[sub_feature],
+#                                            row[sub_feature], sep = sep))
                                         if sub_value not in change_val[change]:
                                             change_val[change][sub_value] = 0
                                         change_val[change][sub_value] += 1
@@ -307,11 +308,10 @@ def check_browser_become_unique(db):
             pass
     '''
     
-
     change_val = sorted(change_val.iteritems(), key=lambda (k,v): (-v['total'],k))
     for change in change_val:
         print '==================================='
-        print change[0]
+        print change[0], change[1]['total']
         for value in change[1]:
             print value, change[1][value]
         print '==================================='
