@@ -1,0 +1,326 @@
+ipcity (set(['Recklinghausen']), set(['Freiburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['cc97cf8853472863a894f47bb0c90ce6c5f0bb2a66e8ff6312c1767c50646284']), set(['862d98fba7c9513edf1e55c6f76357bc83ca1c86856ea054f68e6f5b97f66119']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['862d98fba7c9513edf1e55c6f76357bc83ca1c86856ea054f68e6f5b97f66119']), set(['25e57a3b045fca337c06b5c0a547de661b9c4aed417abcc8e37ebad4f5618f24']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['25e57a3b045fca337c06b5c0a547de661b9c4aed417abcc8e37ebad4f5618f24']), set(['862d98fba7c9513edf1e55c6f76357bc83ca1c86856ea054f68e6f5b97f66119']))
+====================================
+ipcity (set(['Freiburg']), set(['Recklinghausen']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['862d98fba7c9513edf1e55c6f76357bc83ca1c86856ea054f68e6f5b97f66119']), set(['cc97cf8853472863a894f47bb0c90ce6c5f0bb2a66e8ff6312c1767c50646284']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['cc97cf8853472863a894f47bb0c90ce6c5f0bb2a66e8ff6312c1767c50646284']), set(['75d2b70068ee73500561087f426a88cd83e3e7df744bbbf9d9b59576c2b975ab']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Recklinghausen']), set(['Dortmund']))
+browserfingerprint (set(['75d2b70068ee73500561087f426a88cd83e3e7df744bbbf9d9b59576c2b975ab']), set(['a72dcc6ea32ff0f7d01d470fe38d7d62f23cdc3b429329c97ec30b060a6961cd']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['a72dcc6ea32ff0f7d01d470fe38d7d62f23cdc3b429329c97ec30b060a6961cd']), set(['81b168817b7e0806bfe942ad485206ce393d409a60160fb021d78e3fa4f5ebc3']))
+====================================
+ipcity (set(['Dortmund']), set(['Recklinghausen']))
+browserfingerprint (set(['81b168817b7e0806bfe942ad485206ce393d409a60160fb021d78e3fa4f5ebc3']), set(['7bb78916904f345d369d28dddb837497c6d85716c9d73b4363b86c854aa72807']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['7bb78916904f345d369d28dddb837497c6d85716c9d73b4363b86c854aa72807']), set(['37d3c2472cd0eea55ec68b0a6289c1ec0a5d094cfc2697ccfbeef49d69ac1a1e']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['37d3c2472cd0eea55ec68b0a6289c1ec0a5d094cfc2697ccfbeef49d69ac1a1e']), set(['7bb78916904f345d369d28dddb837497c6d85716c9d73b4363b86c854aa72807']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Recklinghausen']), set(['Dortmund']))
+browserfingerprint (set(['7bb78916904f345d369d28dddb837497c6d85716c9d73b4363b86c854aa72807']), set(['49488f8b2387a76b8bd31ffdc5cf9a25eb58e40aedf8e078719d73793154eb16']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['49488f8b2387a76b8bd31ffdc5cf9a25eb58e40aedf8e078719d73793154eb16']), set(['81b168817b7e0806bfe942ad485206ce393d409a60160fb021d78e3fa4f5ebc3']))
+====================================
+ipcity (set(['Dortmund']), set(['Freiburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['81b168817b7e0806bfe942ad485206ce393d409a60160fb021d78e3fa4f5ebc3']), set(['963d3f248d82bda35b8fff285eceeaa154de83d5338cf94cb1dbcdb31d6e59dc']))
+====================================
+ipcity (set(['Freiburg']), set(['Dortmund']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['963d3f248d82bda35b8fff285eceeaa154de83d5338cf94cb1dbcdb31d6e59dc']), set(['81b168817b7e0806bfe942ad485206ce393d409a60160fb021d78e3fa4f5ebc3']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['81b168817b7e0806bfe942ad485206ce393d409a60160fb021d78e3fa4f5ebc3']), set(['a72dcc6ea32ff0f7d01d470fe38d7d62f23cdc3b429329c97ec30b060a6961cd']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Dortmund']), set(['Bocholt']))
+browserfingerprint (set(['a72dcc6ea32ff0f7d01d470fe38d7d62f23cdc3b429329c97ec30b060a6961cd']), set(['8a02388bca9429cb7df83d6c498b544b740839af4dba91b01de2f2fed48ea6b0']))
+====================================
+jsFonts (set([]), set(['Calibri', 'Segoe UI']))
+ipcity (set(['Bocholt']), set(['Siegen']))
+browserfingerprint (set(['8a02388bca9429cb7df83d6c498b544b740839af4dba91b01de2f2fed48ea6b0']), set(['93175550f05f733648c0c0c2bdeac60e435ba6b14d481734ca11d16a1c9ee221']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+ipcity (set(['Siegen']), set(['Taranto']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Puglia']))
+ipcountry (set(['Germany']), set(['Italy']))
+browserfingerprint (set(['93175550f05f733648c0c0c2bdeac60e435ba6b14d481734ca11d16a1c9ee221']), set(['c972e5343e2f7d71fa764a4409778f49d38dbfdb49a1f4e1bd8bd3f79345b47d']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Taranto']), set(['Palermo']))
+ipregion (set(['Puglia']), set(['Sicilia']))
+browserfingerprint (set(['c972e5343e2f7d71fa764a4409778f49d38dbfdb49a1f4e1bd8bd3f79345b47d']), set(['b88b55c1816a4b1443241f47dc4b2c9af4906175f0af78a46632b90db665d91c']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b88b55c1816a4b1443241f47dc4b2c9af4906175f0af78a46632b90db665d91c']), set(['b4e5b508d4a108d62c59210a2cb3580c65f94962943be3219e97c818e335013c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['b4e5b508d4a108d62c59210a2cb3580c65f94962943be3219e97c818e335013c']), set(['b88b55c1816a4b1443241f47dc4b2c9af4906175f0af78a46632b90db665d91c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['b88b55c1816a4b1443241f47dc4b2c9af4906175f0af78a46632b90db665d91c']), set(['9c0f4f093e9551ea0ca37685c77ce17eecebbe523683b1e7c560ee8c5dde61e6']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['9c0f4f093e9551ea0ca37685c77ce17eecebbe523683b1e7c560ee8c5dde61e6']), set(['1068c8ce751b37eb5bb94137459a8e1b2bf1715dd03bd571be3e01f9998a55be']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['1068c8ce751b37eb5bb94137459a8e1b2bf1715dd03bd571be3e01f9998a55be']), set(['b4e5b508d4a108d62c59210a2cb3580c65f94962943be3219e97c818e335013c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['b4e5b508d4a108d62c59210a2cb3580c65f94962943be3219e97c818e335013c']), set(['1068c8ce751b37eb5bb94137459a8e1b2bf1715dd03bd571be3e01f9998a55be']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1068c8ce751b37eb5bb94137459a8e1b2bf1715dd03bd571be3e01f9998a55be']), set(['9c0f4f093e9551ea0ca37685c77ce17eecebbe523683b1e7c560ee8c5dde61e6']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['9c0f4f093e9551ea0ca37685c77ce17eecebbe523683b1e7c560ee8c5dde61e6']), set(['1068c8ce751b37eb5bb94137459a8e1b2bf1715dd03bd571be3e01f9998a55be']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1068c8ce751b37eb5bb94137459a8e1b2bf1715dd03bd571be3e01f9998a55be']), set(['9c0f4f093e9551ea0ca37685c77ce17eecebbe523683b1e7c560ee8c5dde61e6']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Palermo']), set(['Recklinghausen']))
+ipregion (set(['Sicilia']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Italy']), set(['Germany']))
+browserfingerprint (set(['9c0f4f093e9551ea0ca37685c77ce17eecebbe523683b1e7c560ee8c5dde61e6']), set(['892fedf6f86ce5e445a303912dc624f94484b052fbc155f7329d31131755d192']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Recklinghausen']), set(['Bonn']))
+browserfingerprint (set(['892fedf6f86ce5e445a303912dc624f94484b052fbc155f7329d31131755d192']), set(['5600fb6707af494f2662567ad2ff12186fedd07e99e0b6891816a792106a3f1f']))
+====================================
+agent (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+gpuimgs (set(['0_ea8d3cbba2c6880b4e2f4fddede60114c1839665']), set(['0_629388aa7c3662410da0fa87ceffc5de4a78683c']))
+ipcity (set(['Bonn']), set(['Recklinghausen']))
+browserfingerprint (set(['5600fb6707af494f2662567ad2ff12186fedd07e99e0b6891816a792106a3f1f']), set(['9a4c8c3d664972636f7aa116f1b1266623bfa7d1ca7c83bbdfc532ea9e47bd47']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+ipcity (set(['Recklinghausen']), set(['Dortmund']))
+browserfingerprint (set(['9a4c8c3d664972636f7aa116f1b1266623bfa7d1ca7c83bbdfc532ea9e47bd47']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+ipcity (set(['Dortmund']), set(['Freiburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['913166fcccac02b4a88c13f303cc99dc798137ce2841d338c7bb057a33984375']))
+====================================
+ipcity (set(['Freiburg']), set(['Dortmund']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['913166fcccac02b4a88c13f303cc99dc798137ce2841d338c7bb057a33984375']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']), set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Dortmund']), set(['Recklinghausen']))
+browserfingerprint (set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']), set(['6a1a29a70a367ec52afd816a3206442d5b8ac3e89a8daeb81f98969ebc81aa3b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['6a1a29a70a367ec52afd816a3206442d5b8ac3e89a8daeb81f98969ebc81aa3b']), set(['4ca58b8681001711bc7311eae6b2332575b765d158ec446a03b72aa077bff05a']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['4ca58b8681001711bc7311eae6b2332575b765d158ec446a03b72aa077bff05a']), set(['5730d3a0ea01b8d1b3fe339991e614deab94ed071a9bf68a71de06d2dc35e0bc']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['5730d3a0ea01b8d1b3fe339991e614deab94ed071a9bf68a71de06d2dc35e0bc']), set(['4ca58b8681001711bc7311eae6b2332575b765d158ec446a03b72aa077bff05a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['4ca58b8681001711bc7311eae6b2332575b765d158ec446a03b72aa077bff05a']), set(['6a1a29a70a367ec52afd816a3206442d5b8ac3e89a8daeb81f98969ebc81aa3b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Recklinghausen']), set(['Bonn']))
+browserfingerprint (set(['6a1a29a70a367ec52afd816a3206442d5b8ac3e89a8daeb81f98969ebc81aa3b']), set(['8191203582253c30e4cc63d0affb0e69657f6a940424c2b5861d763e094ea4b3']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['8191203582253c30e4cc63d0affb0e69657f6a940424c2b5861d763e094ea4b3']), set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Bonn']), set(['Siegen']))
+browserfingerprint (set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']), set(['4f73dbaa12de1be05378c8c238bcd051f05c43062f8b11aa524f709cafecf8d1']))
+====================================
+ipcity (set(['Siegen']), set(['Fehmarn']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Schleswig-Holstein']))
+browserfingerprint (set(['4f73dbaa12de1be05378c8c238bcd051f05c43062f8b11aa524f709cafecf8d1']), set(['d0de3107b67de878c6d7cb4a9614837cd14a6c8e7405fe5cc672d76b0ef99b68']))
+====================================
+ipcity (set(['Fehmarn']), set(['Dortmund']))
+ipregion (set(['Schleswig-Holstein']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['d0de3107b67de878c6d7cb4a9614837cd14a6c8e7405fe5cc672d76b0ef99b68']), set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Dortmund']), set(['Bonn']))
+browserfingerprint (set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']), set(['8e3a8ac0a0f0ccd02ab86b857716b84a52f9e55b860c7abcdd118699f64f3626']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['8e3a8ac0a0f0ccd02ab86b857716b84a52f9e55b860c7abcdd118699f64f3626']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+ipcity (set(['Bonn']), set(['Wesel']))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['4823fc23337398228bf7a9b2d0fe3fccf0eae178595e29d5269904238be10aa8']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Wesel']), set(['Dortmund']))
+browserfingerprint (set(['4823fc23337398228bf7a9b2d0fe3fccf0eae178595e29d5269904238be10aa8']), set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Dortmund']), set(['Bonn']))
+browserfingerprint (set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']), set(['8e3a8ac0a0f0ccd02ab86b857716b84a52f9e55b860c7abcdd118699f64f3626']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['8e3a8ac0a0f0ccd02ab86b857716b84a52f9e55b860c7abcdd118699f64f3626']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['8e3a8ac0a0f0ccd02ab86b857716b84a52f9e55b860c7abcdd118699f64f3626']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['8e3a8ac0a0f0ccd02ab86b857716b84a52f9e55b860c7abcdd118699f64f3626']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Bonn']), set(['Recklinghausen']))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['4ca58b8681001711bc7311eae6b2332575b765d158ec446a03b72aa077bff05a']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Recklinghausen']), set(['Dortmund']))
+browserfingerprint (set(['4ca58b8681001711bc7311eae6b2332575b765d158ec446a03b72aa077bff05a']), set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']), set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']), set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['6ccbf9f41285aa334c2d969776da79dcd1d6b3b244b6799c89ee1f49fc4f4b8c']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+accept (set(['']), set(['*/*']))
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['d73079cf62a633001cbc35634fe3a9b07ee36823d70b2a8a9704784bff505346']), set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['e52c08de20d39af4bca5167a373f67656036ee6271665adc1702a81fb1cb86b0']), set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Dortmund']), set(['Bonn']))
+browserfingerprint (set(['48771c25d216d95413f0b970df181a8c3abf241d0a97b041e5860e3fd1393a5c']), set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']), set(['8191203582253c30e4cc63d0affb0e69657f6a940424c2b5861d763e094ea4b3']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['8191203582253c30e4cc63d0affb0e69657f6a940424c2b5861d763e094ea4b3']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['8191203582253c30e4cc63d0affb0e69657f6a940424c2b5861d763e094ea4b3']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['8191203582253c30e4cc63d0affb0e69657f6a940424c2b5861d763e094ea4b3']), set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']))
+====================================
+ipcity (set(['Bonn']), set(['Leipzig']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
+browserfingerprint (set(['477f9c9e1f8780b662bde0420605187582ca8feb6af139228716d5fe19c030f0']), set(['595d9b6bb36183ebb81258e6e581cbdf60cf0ea869df254138980ff9d43a4871']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['595d9b6bb36183ebb81258e6e581cbdf60cf0ea869df254138980ff9d43a4871']), set(['db9b57a4c1f51e532c96e1d2b8dadf96c3e98a0d9d5b5d307d5824eedffb0b1b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Leipzig']), set(['Karlsruhe']))
+ipregion (set(['Sachsen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['db9b57a4c1f51e532c96e1d2b8dadf96c3e98a0d9d5b5d307d5824eedffb0b1b']), set(['df174fc8bb9ddb4e57ad7d4e03dd36246b4fdb894b5a53e33f6b6bbede1a0bc7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Karlsruhe']), set(['Bielefeld']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['df174fc8bb9ddb4e57ad7d4e03dd36246b4fdb894b5a53e33f6b6bbede1a0bc7']), set(['cdf0c3c613fa88204732db25d2a87267f8ee9410566bb7693a67b541a42e0008']))
+====================================
+ipcity (set(['Bielefeld']), set(['Bonn']))
+browserfingerprint (set(['cdf0c3c613fa88204732db25d2a87267f8ee9410566bb7693a67b541a42e0008']), set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']))
+====================================
+agent (set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6', '10_13_3)']))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Bonn']), set(['Dortmund']))
+browserfingerprint (set(['c4b1f3c142c55a2f762401f7a3c63c8fe3a084008a1145c870319cd17f00ae15']), set(['f18d42eb534e16f2ad1213ece1a9afa971bd637effe1441f2c76279053107c09']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['f18d42eb534e16f2ad1213ece1a9afa971bd637effe1441f2c76279053107c09']), set(['ed2c47e9d64a50cc3dafd2f559db2bdc3d09fb66a1dd2cfa8684cf5006afb489']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Dortmund']), set(['Jakobi']))
+browserfingerprint (set(['ed2c47e9d64a50cc3dafd2f559db2bdc3d09fb66a1dd2cfa8684cf5006afb489']), set(['aa4a0063208ef08ba754eb10acf92edab5c4e43e84ba1b5093ac78b9d49e407a']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['48000_0_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['aa4a0063208ef08ba754eb10acf92edab5c4e43e84ba1b5093ac78b9d49e407a']), set(['94df4eb788524d86f4f8a1df906f2255ccdb6dca637aa614ce0b8efcd3768c4c']))
+====================================
+audio (set(['48000_0_1_0_2_explicit_speakers']), set(['44100_0_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1']), set(['2']))
+browserfingerprint (set(['94df4eb788524d86f4f8a1df906f2255ccdb6dca637aa614ce0b8efcd3768c4c']), set(['aa4a0063208ef08ba754eb10acf92edab5c4e43e84ba1b5093ac78b9d49e407a']))
+====================================

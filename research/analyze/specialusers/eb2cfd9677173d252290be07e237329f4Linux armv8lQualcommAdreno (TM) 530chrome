@@ -1,0 +1,218 @@
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']), set(['9e3a7f5e9a7731929f12532aed2aa180865d8357761d7eb462151b0d0b52ea1f']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['9e3a7f5e9a7731929f12532aed2aa180865d8357761d7eb462151b0d0b52ea1f']), set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']), set(['9e3a7f5e9a7731929f12532aed2aa180865d8357761d7eb462151b0d0b52ea1f']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['9e3a7f5e9a7731929f12532aed2aa180865d8357761d7eb462151b0d0b52ea1f']), set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']), set(['9e3a7f5e9a7731929f12532aed2aa180865d8357761d7eb462151b0d0b52ea1f']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['9e3a7f5e9a7731929f12532aed2aa180865d8357761d7eb462151b0d0b52ea1f']), set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']))
+====================================
+ipcity (set(['Sant', 'de', 'Feliu', 'Guixols']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Catalunya']), set(['Hessen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['8817cf06726cc782b1ee4e37f96527b4b263defce8a97120afae5de2f7be30e1']), set(['24a3881b5fc781c292b72ca45de8c9a4fea2cb60bea6c1b0dd96f06c35810b05']))
+====================================
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Oliva', 'Santa']))
+ipregion (set(['Hessen']), set(['Catalunya']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['24a3881b5fc781c292b72ca45de8c9a4fea2cb60bea6c1b0dd96f06c35810b05']), set(['343ebc0bd7a3c009ea45a0b04f393395d3f10db428148db0595093be105ae072']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['343ebc0bd7a3c009ea45a0b04f393395d3f10db428148db0595093be105ae072']), set(['e9ce05269e5276bca303836bb4f5402a9f35c86b9a3c4dec4090b78c2d09b13d']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['e9ce05269e5276bca303836bb4f5402a9f35c86b9a3c4dec4090b78c2d09b13d']), set(['343ebc0bd7a3c009ea45a0b04f393395d3f10db428148db0595093be105ae072']))
+====================================
+ipcity (set(['Oliva', 'Santa']), set(['Dortmund']))
+ipregion (set(['Catalunya']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['343ebc0bd7a3c009ea45a0b04f393395d3f10db428148db0595093be105ae072']), set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']))
+====================================
+ipcity (set(['Dortmund']), set(['Dusseldorf']))
+browserfingerprint (set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']), set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Nerja']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Andalucia']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']), set(['607a1fabe786d99249461b9e2b7881f910c6799e805380fe201b3925d31d5569']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['607a1fabe786d99249461b9e2b7881f910c6799e805380fe201b3925d31d5569']), set(['2dfb4421b65d1e870aa2134b638edcb9558d5c6d82d6431bcc74fcc334f8063e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2dfb4421b65d1e870aa2134b638edcb9558d5c6d82d6431bcc74fcc334f8063e']), set(['607a1fabe786d99249461b9e2b7881f910c6799e805380fe201b3925d31d5569']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['607a1fabe786d99249461b9e2b7881f910c6799e805380fe201b3925d31d5569']), set(['2dfb4421b65d1e870aa2134b638edcb9558d5c6d82d6431bcc74fcc334f8063e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2dfb4421b65d1e870aa2134b638edcb9558d5c6d82d6431bcc74fcc334f8063e']), set(['607a1fabe786d99249461b9e2b7881f910c6799e805380fe201b3925d31d5569']))
+====================================
+ipcity (set(['Nerja']), set(['Wiesbaden']))
+ipregion (set(['Andalucia']), set(['Hessen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['607a1fabe786d99249461b9e2b7881f910c6799e805380fe201b3925d31d5569']), set(['b3a9a0e1c2e1c47091b9b71772821cbfe6dfa34e282ffe3282fb7bfecfdb8c36']))
+====================================
+ipcity (set(['Wiesbaden']), set(['Ahaus']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['b3a9a0e1c2e1c47091b9b71772821cbfe6dfa34e282ffe3282fb7bfecfdb8c36']), set(['7c32e4825adc8c392ab0040487a5c866ec1ad856fa6875c87ff75575e56d4232']))
+====================================
+ipcity (set(['Ahaus']), set(['Gandesa']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Catalunya']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['7c32e4825adc8c392ab0040487a5c866ec1ad856fa6875c87ff75575e56d4232']), set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']), set(['2b57e1d07bcf0f5c4bf1f17c43868eca80ccf68b51d92cb982949448ddadf112']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2b57e1d07bcf0f5c4bf1f17c43868eca80ccf68b51d92cb982949448ddadf112']), set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']), set(['2b57e1d07bcf0f5c4bf1f17c43868eca80ccf68b51d92cb982949448ddadf112']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2b57e1d07bcf0f5c4bf1f17c43868eca80ccf68b51d92cb982949448ddadf112']), set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']), set(['2b57e1d07bcf0f5c4bf1f17c43868eca80ccf68b51d92cb982949448ddadf112']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2b57e1d07bcf0f5c4bf1f17c43868eca80ccf68b51d92cb982949448ddadf112']), set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']))
+====================================
+ipcity (set(['Gandesa']), set(['Dusseldorf']))
+ipregion (set(['Catalunya']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']), set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']), set(['d07695f5b1ac6fb75be5fbb89ff1597f84abb5bfea8c965f33baeb91b751ea69']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d07695f5b1ac6fb75be5fbb89ff1597f84abb5bfea8c965f33baeb91b751ea69']), set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']), set(['d07695f5b1ac6fb75be5fbb89ff1597f84abb5bfea8c965f33baeb91b751ea69']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d07695f5b1ac6fb75be5fbb89ff1597f84abb5bfea8c965f33baeb91b751ea69']), set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Llanca']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Catalunya']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']), set(['3c11d8a608757d24df9a41fb09eedebf1c5e277a592ed1697e331bc31aa4d9c0']))
+====================================
+ipcity (set(['Llanca']), set(['Barco', 'El', 'de', 'Avila']))
+ipregion (set(['Catalunya']), set(['y', 'Castilla', 'Leon']))
+browserfingerprint (set(['3c11d8a608757d24df9a41fb09eedebf1c5e277a592ed1697e331bc31aa4d9c0']), set(['48f14dc643bebadeb2044d5919cbe2f6bc4c4ae022c7af58077a41a6cdfa38c6']))
+====================================
+ipcity (set(['Barco', 'El', 'de', 'Avila']), set(['Gandesa']))
+ipregion (set(['y', 'Castilla', 'Leon']), set(['Catalunya']))
+browserfingerprint (set(['48f14dc643bebadeb2044d5919cbe2f6bc4c4ae022c7af58077a41a6cdfa38c6']), set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']))
+====================================
+ipcity (set(['Gandesa']), set(['Dusseldorf']))
+ipregion (set(['Catalunya']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']), set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Ahaus']))
+browserfingerprint (set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']), set(['7c32e4825adc8c392ab0040487a5c866ec1ad856fa6875c87ff75575e56d4232']))
+====================================
+ipcity (set(['Ahaus']), set(['Dortmund']))
+browserfingerprint (set(['7c32e4825adc8c392ab0040487a5c866ec1ad856fa6875c87ff75575e56d4232']), set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']))
+====================================
+ipcity (set(['Dortmund']), set(['Ahaus']))
+browserfingerprint (set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']), set(['7c32e4825adc8c392ab0040487a5c866ec1ad856fa6875c87ff75575e56d4232']))
+====================================
+ipcity (set(['Ahaus']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
+browserfingerprint (set(['7c32e4825adc8c392ab0040487a5c866ec1ad856fa6875c87ff75575e56d4232']), set(['24a3881b5fc781c292b72ca45de8c9a4fea2cb60bea6c1b0dd96f06c35810b05']))
+====================================
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Gandesa']))
+ipregion (set(['Hessen']), set(['Catalunya']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['24a3881b5fc781c292b72ca45de8c9a4fea2cb60bea6c1b0dd96f06c35810b05']), set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']))
+====================================
+ipcity (set(['Gandesa']), set(['Palma']))
+ipregion (set(['Catalunya']), set(['Illes', 'Balears']))
+browserfingerprint (set(['06a62a3f07405d7cbb7b31446700664fefebebf711eb8fc172122cbac20370e2']), set(['c8aad973b30e3634247806730d9b2c9c0329aaa5c0a8d8ad7309c86e59f125d5']))
+====================================
+ipcity (set(['Palma']), set(['Madrid']))
+ipregion (set(['Illes', 'Balears']), set(['de', 'Madrid,', 'Comunidad']))
+browserfingerprint (set(['c8aad973b30e3634247806730d9b2c9c0329aaa5c0a8d8ad7309c86e59f125d5']), set(['f97fb9acebd66e76da727d14ff3c54d37053104969ceec6e23e1ab2a53d9bb16']))
+====================================
+ipcity (set(['Madrid']), set(['Socuellamos']))
+ipregion (set(['de', 'Madrid,', 'Comunidad']), set(['Mancha', 'Castilla-La']))
+browserfingerprint (set(['f97fb9acebd66e76da727d14ff3c54d37053104969ceec6e23e1ab2a53d9bb16']), set(['9c2a0a579b7ef99bc61a3be6247f94093ea1b7b18a02b63364336bbf91db2207']))
+====================================
+ipcity (set(['Socuellamos']), set(['Baunatal']))
+ipregion (set(['Mancha', 'Castilla-La']), set(['Hessen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['9c2a0a579b7ef99bc61a3be6247f94093ea1b7b18a02b63364336bbf91db2207']), set(['5c8c702044d3a48f26989884e623f5f925824868fa9822552d37d88d430e6cb9']))
+====================================
+ipcity (set(['Baunatal']), set(['Dusseldorf']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['5c8c702044d3a48f26989884e623f5f925824868fa9822552d37d88d430e6cb9']), set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Valencia']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Valenciana,', 'Comunidad']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['da77bffc9e830c6d390544ac17b2bad3229550a01a31d63a2761dbc43067d6d4']), set(['7c48d2b0966eba7b04100e179decf180f0af982dcd4af2143305994b04cb8a2a']))
+====================================
+ipcity (set(['Valencia']), set(['Dortmund']))
+ipregion (set(['Valenciana,', 'Comunidad']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['7c48d2b0966eba7b04100e179decf180f0af982dcd4af2143305994b04cb8a2a']), set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']))
+====================================
+ipcity (set(['Dortmund']), set(['Arhus']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Midtjylland']))
+ipcountry (set(['Germany']), set(['Denmark']))
+browserfingerprint (set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']), set(['59b1c9862baebe0ad7eb132239b2118a2f48f695dd2b99ac58b6a9079e2e7f82']))
+====================================
+ipcity (set(['Arhus']), set(['Dortmund']))
+ipregion (set(['Midtjylland']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Denmark']), set(['Germany']))
+browserfingerprint (set(['59b1c9862baebe0ad7eb132239b2118a2f48f695dd2b99ac58b6a9079e2e7f82']), set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']))
+====================================
+ipcity (set(['Dortmund']), set(['Calonge']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Catalunya']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['ea9f582d490a229054a3b37ffa733d2fa1e478264c22491060786d131ea3552d']), set(['fd340676eb9fb81f039e92e769f1078986620dc5e3ee19e477952da47aaecfef']))
+====================================
+ipcity (set(['Calonge']), set(['Puigcerda']))
+browserfingerprint (set(['fd340676eb9fb81f039e92e769f1078986620dc5e3ee19e477952da47aaecfef']), set(['83e5dfdd68fc38e18edcfc596615196aaaf165f10a1ee979e81ca5ecaf78f96c']))
+====================================
+accept (set(['']), set(['*/*']))
+ipcity (set(['Puigcerda']), set(['los', 'Caballeros', 'de', 'Avila']))
+ipregion (set(['Catalunya']), set(['y', 'Castilla', 'Leon']))
+browserfingerprint (set(['83e5dfdd68fc38e18edcfc596615196aaaf165f10a1ee979e81ca5ecaf78f96c']), set(['ebf6a0286821d31119eba472efc37a13f51ade8841b269f706c101f5b9f34ea9']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+fp2_colordepth (set(['32']), set(['24']))
+ipcity (set(['los', 'Caballeros', 'de', 'Avila']), set(['Gandesa']))
+ipregion (set(['y', 'Castilla', 'Leon']), set(['Catalunya']))
+browserfingerprint (set(['ebf6a0286821d31119eba472efc37a13f51ade8841b269f706c101f5b9f34ea9']), set(['18a386dbe88c0989510cdda822c3c95517ecbcd38022188da40b339bd0440ba8']))
+====================================
+ipcity (set(['Gandesa']), set(['Bielefeld']))
+ipregion (set(['Catalunya']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Spain']), set(['Germany']))
+browserfingerprint (set(['18a386dbe88c0989510cdda822c3c95517ecbcd38022188da40b339bd0440ba8']), set(['bdd0f0292bab06b845514eb7e5f76205115ed57f538a1b62e6d639b178a079a1']))
+====================================
+ipcity (set(['Bielefeld']), set(['Denia']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Valenciana,', 'Comunidad']))
+ipcountry (set(['Germany']), set(['Spain']))
+browserfingerprint (set(['bdd0f0292bab06b845514eb7e5f76205115ed57f538a1b62e6d639b178a079a1']), set(['1b274a349b69cbeebad2299e85a1d80870c86e8e569ab9930142573fe649a50b']))
+====================================
+ipcity (set(['Denia']), set(['Oliva', 'Santa']))
+ipregion (set(['Valenciana,', 'Comunidad']), set(['Catalunya']))
+browserfingerprint (set(['1b274a349b69cbeebad2299e85a1d80870c86e8e569ab9930142573fe649a50b']), set(['c462c8211d62b654af8eaa039ab08f3dbbdd4a8b101a834c33822e8178ccc550']))
+====================================

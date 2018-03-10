@@ -1,0 +1,171 @@
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['9232fbf6ff55bb2a356c8657a4d7f980077120aab0f59ed5363adf3c0e8741cf']), set(['75af9ffdba6751abcb4f30ee623c9bf96ff9611ab1d5f69ea548fe6f17ff8e81']))
+====================================
+jsFonts (set(['Arial Black']), set([]))
+browserfingerprint (set(['75af9ffdba6751abcb4f30ee623c9bf96ff9611ab1d5f69ea548fe6f17ff8e81']), set(['a98f6ca37f2814f9fb1b7af05e668ba41e0f966257e937627c09d2512a2b491f']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['a98f6ca37f2814f9fb1b7af05e668ba41e0f966257e937627c09d2512a2b491f']), set(['0de0c1ad62bd65b164e3d54b466297744e70bf95ac52ad27d30f05cb253ebd13']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['0de0c1ad62bd65b164e3d54b466297744e70bf95ac52ad27d30f05cb253ebd13']), set(['a98f6ca37f2814f9fb1b7af05e668ba41e0f966257e937627c09d2512a2b491f']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['Arial Black', 'Century Gothic']))
+browserfingerprint (set(['a98f6ca37f2814f9fb1b7af05e668ba41e0f966257e937627c09d2512a2b491f']), set(['27464bd1efe2a3c66ce9e101f06e4a8aa88983dbae783b8c88f042b628d4f5e4']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['27464bd1efe2a3c66ce9e101f06e4a8aa88983dbae783b8c88f042b628d4f5e4']), set(['a8df5bdf051310213ed0fc293c6d80fccb19595e36cc21631c92dc3c58b9564d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Century Gothic']), set([]))
+browserfingerprint (set(['a8df5bdf051310213ed0fc293c6d80fccb19595e36cc21631c92dc3c58b9564d']), set(['9232fbf6ff55bb2a356c8657a4d7f980077120aab0f59ed5363adf3c0e8741cf']))
+====================================
+jsFonts (set([]), set(['Century Gothic']))
+browserfingerprint (set(['9232fbf6ff55bb2a356c8657a4d7f980077120aab0f59ed5363adf3c0e8741cf']), set(['27464bd1efe2a3c66ce9e101f06e4a8aa88983dbae783b8c88f042b628d4f5e4']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['27464bd1efe2a3c66ce9e101f06e4a8aa88983dbae783b8c88f042b628d4f5e4']), set(['a8df5bdf051310213ed0fc293c6d80fccb19595e36cc21631c92dc3c58b9564d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+canvastest (set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']), set(['2cda199ca515e053354c3e7dab47621b021ca9c6']))
+browserfingerprint (set(['a8df5bdf051310213ed0fc293c6d80fccb19595e36cc21631c92dc3c58b9564d']), set(['6e919f9c3412429b8c387ec75a7a2f3a0ec9afe4d99230bab374791c29181502']))
+====================================
+agent (set(['Chrome/60.0.3112.113']), set(['Chrome/63.0.3239.108']))
+language (set(['fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4']), set(['fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7']))
+plugins (set([]), set(['Chrome PDF Plugin']))
+jsFonts (set(['Impact', 'Calibri', 'Chalkboard', 'Trebuchet MS']), set([]))
+canvastest (set(['2cda199ca515e053354c3e7dab47621b021ca9c6']), set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']))
+gpuimgs (set(['0_3a89d4db411aae74128eab8046c07ff887ffef18']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+browserfingerprint (set(['6e919f9c3412429b8c387ec75a7a2f3a0ec9afe4d99230bab374791c29181502']), set(['ee78982c99d48c56938565a0207a8c31859fc882e5a8711d824154f268fc4219']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['ee78982c99d48c56938565a0207a8c31859fc882e5a8711d824154f268fc4219']), set(['6750de0d4bce86b66451c9bb3dab494920b6bca24765234d0ccc8b1ff06cf4e0']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Arial Black']), set([]))
+canvastest (set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']), set(['2cda199ca515e053354c3e7dab47621b021ca9c6']))
+browserfingerprint (set(['6750de0d4bce86b66451c9bb3dab494920b6bca24765234d0ccc8b1ff06cf4e0']), set(['368b1a8f6d86d7a8c670da198e49015972ce89bf65c647b720f59ac368a0c35f']))
+====================================
+jsFonts (set([]), set(['Arial Black']))
+canvastest (set(['2cda199ca515e053354c3e7dab47621b021ca9c6']), set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']))
+browserfingerprint (set(['368b1a8f6d86d7a8c670da198e49015972ce89bf65c647b720f59ac368a0c35f']), set(['ee78982c99d48c56938565a0207a8c31859fc882e5a8711d824154f268fc4219']))
+====================================
+jsFonts (set([]), set(['Calibri']))
+browserfingerprint (set(['ee78982c99d48c56938565a0207a8c31859fc882e5a8711d824154f268fc4219']), set(['dc1f49abd5bb5633b4032d4dab8c0106975967b1f6c76f485c09f4be0a6ee9e0']))
+====================================
+jsFonts (set(['Century Gothic']), set(['Bradley Hand']))
+browserfingerprint (set(['dc1f49abd5bb5633b4032d4dab8c0106975967b1f6c76f485c09f4be0a6ee9e0']), set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']), set(['e5c8abd7bfa65170393c85e6fe89c1c3b02fcd08d841b1343650fd983c733995']))
+====================================
+langsdetected (set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']), set(['[]']))
+browserfingerprint (set(['e5c8abd7bfa65170393c85e6fe89c1c3b02fcd08d841b1343650fd983c733995']), set(['cd21344a7edbfad556c76184af30cbf68255f5fb6a61b2daeda124b4e3d21292']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+langsdetected (set(['[]']), set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']))
+browserfingerprint (set(['cd21344a7edbfad556c76184af30cbf68255f5fb6a61b2daeda124b4e3d21292']), set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']), set(['e5c8abd7bfa65170393c85e6fe89c1c3b02fcd08d841b1343650fd983c733995']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['e5c8abd7bfa65170393c85e6fe89c1c3b02fcd08d841b1343650fd983c733995']), set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']))
+====================================
+langsdetected (set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']), set(['[]']))
+browserfingerprint (set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']), set(['93279ab0cddb8dfd5544e1a65c2185a66faceddddbc8187999fdc769860b9c9f']))
+====================================
+langsdetected (set(['[]']), set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']))
+browserfingerprint (set(['93279ab0cddb8dfd5544e1a65c2185a66faceddddbc8187999fdc769860b9c9f']), set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']))
+====================================
+jsFonts (set([]), set(['Century Gothic']))
+browserfingerprint (set(['f8ca3999d36a6b6c478c6d6ce36f8117827a6fdf4c49ded47a119aa785b98d14']), set(['fc6f3c6a9b1e27e744b3cb5b8faafca58575153f7d8b324f28ea8a41d22d8088']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['fc6f3c6a9b1e27e744b3cb5b8faafca58575153f7d8b324f28ea8a41d22d8088']), set(['15b893eaa4a6e501e5e96aab9dff652ee810ddb12e39b7e58875df363ade5d1f']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['15b893eaa4a6e501e5e96aab9dff652ee810ddb12e39b7e58875df363ade5d1f']), set(['fc6f3c6a9b1e27e744b3cb5b8faafca58575153f7d8b324f28ea8a41d22d8088']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['fc6f3c6a9b1e27e744b3cb5b8faafca58575153f7d8b324f28ea8a41d22d8088']), set(['15b893eaa4a6e501e5e96aab9dff652ee810ddb12e39b7e58875df363ade5d1f']))
+====================================
+langsdetected (set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']), set(['[]']))
+browserfingerprint (set(['15b893eaa4a6e501e5e96aab9dff652ee810ddb12e39b7e58875df363ade5d1f']), set(['7b84edd456be269f0a1410704f46a8e6e19d38571931f961dcf6c2fc280ffc8a']))
+====================================
+langsdetected (set(['[]']), set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']))
+browserfingerprint (set(['7b84edd456be269f0a1410704f46a8e6e19d38571931f961dcf6c2fc280ffc8a']), set(['15b893eaa4a6e501e5e96aab9dff652ee810ddb12e39b7e58875df363ade5d1f']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['Impact']))
+browserfingerprint (set(['15b893eaa4a6e501e5e96aab9dff652ee810ddb12e39b7e58875df363ade5d1f']), set(['40729f65c332d073a45bbde8524884d0e18ea376feff9f476e9f804f82443359']))
+====================================
+jsFonts (set(['Century Gothic']), set(['Chalkboard']))
+browserfingerprint (set(['40729f65c332d073a45bbde8524884d0e18ea376feff9f476e9f804f82443359']), set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']), set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']), set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']), set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']))
+====================================
+jsFonts (set([]), set(['Century Gothic']))
+browserfingerprint (set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']), set(['ede4ac75723635981220479328672c2cc0c91ec9dab72594cda7590218fa7d7b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Century Gothic', 'Minion Pro']), set([]))
+canvastest (set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']), set(['2cda199ca515e053354c3e7dab47621b021ca9c6']))
+browserfingerprint (set(['ede4ac75723635981220479328672c2cc0c91ec9dab72594cda7590218fa7d7b']), set(['6e465b2c46f3a3bac4356039d7c20b78cf9618e76160e1f97adc0a8ba13e0347']))
+====================================
+jsFonts (set([]), set(['Minion Pro']))
+browserfingerprint (set(['6e465b2c46f3a3bac4356039d7c20b78cf9618e76160e1f97adc0a8ba13e0347']), set(['349d2bdc2bbe4859afe3abd452cad5ef4c65bba933dc725462eb3e83baa57696']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['349d2bdc2bbe4859afe3abd452cad5ef4c65bba933dc725462eb3e83baa57696']), set(['5ec3fefb9e9941a2ba447ea65cd96117d2dd2f41725350acd649ae9e435543c5']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5ec3fefb9e9941a2ba447ea65cd96117d2dd2f41725350acd649ae9e435543c5']), set(['349d2bdc2bbe4859afe3abd452cad5ef4c65bba933dc725462eb3e83baa57696']))
+====================================
+jsFonts (set([]), set(['Century Gothic']))
+canvastest (set(['2cda199ca515e053354c3e7dab47621b021ca9c6']), set(['cc873c80422348cc2863e1f2f649013f8b8ef73f']))
+browserfingerprint (set(['349d2bdc2bbe4859afe3abd452cad5ef4c65bba933dc725462eb3e83baa57696']), set(['725034861a1afb8c73e6907abd4c77b1e57cd3825a42c502145b139938608597']))
+====================================
+jsFonts (set(['Century Gothic']), set([]))
+browserfingerprint (set(['725034861a1afb8c73e6907abd4c77b1e57cd3825a42c502145b139938608597']), set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']), set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']))
+====================================
+langsdetected (set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']), set(['[]']))
+browserfingerprint (set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']), set(['45cf31b1c3a2fff355c2429629a6d6833eee313de42cc2f30030d9b7ae782e2a']))
+====================================
+langsdetected (set(['[]']), set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']))
+browserfingerprint (set(['45cf31b1c3a2fff355c2429629a6d6833eee313de42cc2f30030d9b7ae782e2a']), set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']))
+====================================
+langsdetected (set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']), set(['[]']))
+browserfingerprint (set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']), set(['45cf31b1c3a2fff355c2429629a6d6833eee313de42cc2f30030d9b7ae782e2a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+langsdetected (set(['[]']), set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']))
+browserfingerprint (set(['45cf31b1c3a2fff355c2429629a6d6833eee313de42cc2f30030d9b7ae782e2a']), set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']), set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']), set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']), set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['9dc4a6fff30a2913043860f58049b8a5f3327ddc4e16dda84d005608de7acad8']), set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+langsdetected (set(['Latin', 'Modern Yi', 'Chinese', 'Cyrillic', 'Cherokee', 'Georgian', 'Hangul', 'Kana', 'Greek', 'Bengali/Assamese', 'Mongolian', 'Gurmukhi', 'Hebrew', 'Devanagari', 'Arabic', 'Thai']), set(['[]']))
+browserfingerprint (set(['1045691c2d23e9edfabb3cc2ab5ba65cb8fcb78cfa14e972d9194c95d4098a03']), set(['45cf31b1c3a2fff355c2429629a6d6833eee313de42cc2f30030d9b7ae782e2a']))
+====================================

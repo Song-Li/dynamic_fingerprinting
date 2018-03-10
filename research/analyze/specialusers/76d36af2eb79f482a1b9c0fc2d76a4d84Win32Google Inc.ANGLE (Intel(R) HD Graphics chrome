@@ -1,0 +1,69 @@
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['c94245ceea13714606f98512a484411b9d2a1dc4ade92cf1673f7c1097e551af']), set(['a767acba596b8ebde565aff3bc1b33ba860b9f6997790854aa8f8a35f9d65498']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Gaweinstal']))
+browserfingerprint (set(['a767acba596b8ebde565aff3bc1b33ba860b9f6997790854aa8f8a35f9d65498']), set(['4fb664a3d018acc1e51dbde6e364e2d0470711b449dcc2af7ee0793e4c3c082e']))
+====================================
+ipcity (set(['Gaweinstal']), set(['Vienna']))
+ipregion (set(['Niederosterreich']), set(['Wien']))
+browserfingerprint (set(['4fb664a3d018acc1e51dbde6e364e2d0470711b449dcc2af7ee0793e4c3c082e']), set(['375a5e08bdd4804111b0c28f40602e15c9befce94b8f7e2c6e662846ee29478d']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Vienna']), set(['Ernstbrunn']))
+ipregion (set(['Wien']), set(['Niederosterreich']))
+browserfingerprint (set(['375a5e08bdd4804111b0c28f40602e15c9befce94b8f7e2c6e662846ee29478d']), set(['dd185b71ce41dae4b2a4d52fe76a8167ec45c6f2f43d757b36a20cdbb8de501e']))
+====================================
+ipcity (set(['Ernstbrunn']), set(['Enzersdorf', 'Maria']))
+browserfingerprint (set(['dd185b71ce41dae4b2a4d52fe76a8167ec45c6f2f43d757b36a20cdbb8de501e']), set(['c94245ceea13714606f98512a484411b9d2a1dc4ade92cf1673f7c1097e551af']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c94245ceea13714606f98512a484411b9d2a1dc4ade92cf1673f7c1097e551af']), set(['8a5886a662a444fa9fdb06d21a055f80bd66a9fe237e72cc02d1df5385410f27']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['8a5886a662a444fa9fdb06d21a055f80bd66a9fe237e72cc02d1df5385410f27']), set(['c94245ceea13714606f98512a484411b9d2a1dc4ade92cf1673f7c1097e551af']))
+====================================
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.132']))
+jsFonts (set(['MT Extra']), set([]))
+gpuimgs (set(['0_a93fda3b982917b907ea420a309071881203f4b7']), set(['0_ad3d976fac6f4c25d6d28f2a5a6c0b7ade95696b']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Vienna']))
+ipregion (set(['Niederosterreich']), set(['Wien']))
+browserfingerprint (set(['c94245ceea13714606f98512a484411b9d2a1dc4ade92cf1673f7c1097e551af']), set(['21f404466297ecda9ddacdd50d8c7dc4a8bc2ffbc61c6de56d4b74135f4334e4']))
+====================================
+ipcity (set(['Vienna']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Wien']), set(['Niederosterreich']))
+browserfingerprint (set(['21f404466297ecda9ddacdd50d8c7dc4a8bc2ffbc61c6de56d4b74135f4334e4']), set(['b583563e5ec3e78565f42ba55d31247b72254633d402e9835a7659b76ab41202']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['b583563e5ec3e78565f42ba55d31247b72254633d402e9835a7659b76ab41202']), set(['02b540ea47bfecc53175532c5c4051390c87ebdb4a54c3aed7e547de78233b74']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Gaweinstal']))
+browserfingerprint (set(['02b540ea47bfecc53175532c5c4051390c87ebdb4a54c3aed7e547de78233b74']), set(['1873e75ebb85974c551450f6e7eabbf179f39bb5d00dc684743212cbf0397dda']))
+====================================
+ipcity (set(['Gaweinstal']), set(['Enzersdorf', 'Maria']))
+browserfingerprint (set(['1873e75ebb85974c551450f6e7eabbf179f39bb5d00dc684743212cbf0397dda']), set(['b583563e5ec3e78565f42ba55d31247b72254633d402e9835a7659b76ab41202']))
+====================================
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.140']))
+accept (set(['']), set(['*/*']))
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Haringsee']))
+browserfingerprint (set(['b583563e5ec3e78565f42ba55d31247b72254633d402e9835a7659b76ab41202']), set(['a5c5219c5e3d814e003eb851bc0de35bfbf27e2d87ec3d339ecb8b120aa9b7a6']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1']), set(['0.800000011921']))
+ipcity (set(['Haringsee']), set(['Enzersdorf', 'Maria']))
+browserfingerprint (set(['a5c5219c5e3d814e003eb851bc0de35bfbf27e2d87ec3d339ecb8b120aa9b7a6']), set(['435e27aa3bcf7fcdee828b03c857c6ba72b1e427141a33ecd74ed0d6e7746863']))
+====================================
+fp2_pixelratio (set(['0.899999976158']), set(['1']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Stronsdorf']))
+browserfingerprint (set(['435e27aa3bcf7fcdee828b03c857c6ba72b1e427141a33ecd74ed0d6e7746863']), set(['102088b7f18dd4e19aa03b4bb5236a4677a634df08ee459040a6eca4909958a6']))
+====================================
+ipcity (set(['Stronsdorf']), set(['Enzersdorf', 'Maria']))
+browserfingerprint (set(['102088b7f18dd4e19aa03b4bb5236a4677a634df08ee459040a6eca4909958a6']), set(['435e27aa3bcf7fcdee828b03c857c6ba72b1e427141a33ecd74ed0d6e7746863']))
+====================================
+agent (set(['Chrome/64.0.3282.140']), set(['Chrome/64.0.3282.167']))
+browserfingerprint (set(['435e27aa3bcf7fcdee828b03c857c6ba72b1e427141a33ecd74ed0d6e7746863']), set(['c4b546c4f8ae324160ad3dd101f8a0fae77982d0cfab0737599901a7c6a9b3cb']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['c4b546c4f8ae324160ad3dd101f8a0fae77982d0cfab0737599901a7c6a9b3cb']), set(['183d3d91627896bf8f9e8e37c78eca2c4a141fd87c947e2805766a6a7a42b7d3']))
+====================================

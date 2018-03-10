@@ -1,0 +1,298 @@
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['f1ca8e4aaa91098c83fadee65efe422f4566bfc8d87992000705adf68e7812e1']), set(['4a79688d167986dacf46a15b9cfece7af2eae37f22074334aeacf60717f66daf']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Imst']), set(['Linz']))
+ipregion (set(['Tirol']), set(['Oberosterreich']))
+browserfingerprint (set(['4a79688d167986dacf46a15b9cfece7af2eae37f22074334aeacf60717f66daf']), set(['c4d1b0f2eee15149aa5a56da1d2017ca666eec0e6adc86b04ec2ab3828aef0d8']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c4d1b0f2eee15149aa5a56da1d2017ca666eec0e6adc86b04ec2ab3828aef0d8']), set(['e1b3ebfe853717def6d7096cfc1d49c572ee18726e72c5f03caec231550087ef']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['e1b3ebfe853717def6d7096cfc1d49c572ee18726e72c5f03caec231550087ef']), set(['5f2d6ab1bdc912377f883ee7c4230279ec8b9f7aed9f2769c2c5f2d9cf4a1d2b']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['5f2d6ab1bdc912377f883ee7c4230279ec8b9f7aed9f2769c2c5f2d9cf4a1d2b']), set(['32e25e30d6754b2350c020abcb45e8e9a92311dd6a6cfc42a25d7eccf4de306b']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['32e25e30d6754b2350c020abcb45e8e9a92311dd6a6cfc42a25d7eccf4de306b']), set(['5f2d6ab1bdc912377f883ee7c4230279ec8b9f7aed9f2769c2c5f2d9cf4a1d2b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Linz']), set(['Hainfeld']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['5f2d6ab1bdc912377f883ee7c4230279ec8b9f7aed9f2769c2c5f2d9cf4a1d2b']), set(['6ec12a9d655a7347f4a89d0e2cb9252e8d7a4b227ba762f01e01b695f361a6f6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['6ec12a9d655a7347f4a89d0e2cb9252e8d7a4b227ba762f01e01b695f361a6f6']), set(['dc3136c2170e2d98d02ec0b7673b378446181141df6da634a9f8e4e33f3cd3cc']))
+====================================
+ipcity (set(['Hainfeld']), set(['Enzersdorf', 'Maria']))
+browserfingerprint (set(['dc3136c2170e2d98d02ec0b7673b378446181141df6da634a9f8e4e33f3cd3cc']), set(['a677473c8486ad509401080c183eb94642f580d77fe85c59060171637b4f7c89']))
+====================================
+agent (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+plugins (set(['Shockwave Flash']), set([]))
+gpuimgs (set(['0_f8d9ad45180d185e56bcb2eb111222972b39ef64']), set(['0_a8fe998b56a1848a448d6291dc64eead802d20b7']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Drosing']))
+browserfingerprint (set(['a677473c8486ad509401080c183eb94642f580d77fe85c59060171637b4f7c89']), set(['c7664dd8a4ee21cd5c39e1a917ad8b9203093d08039246edf9df864432f8f2d7']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c7664dd8a4ee21cd5c39e1a917ad8b9203093d08039246edf9df864432f8f2d7']), set(['880a7eb6fda1cf502f8704cefed01b8c75dc8df6935c6532d74df1e345468586']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['880a7eb6fda1cf502f8704cefed01b8c75dc8df6935c6532d74df1e345468586']), set(['f822cadeadba3b7d482f2202d04a4f4a74abe95bc3ce86587207262854a15d5f']))
+====================================
+ipcity (set(['Drosing']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['f822cadeadba3b7d482f2202d04a4f4a74abe95bc3ce86587207262854a15d5f']), set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']), set(['27ccd4e7162f7402ca35845791f3396b47a83612085fbad012248c3924f984d2']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['27ccd4e7162f7402ca35845791f3396b47a83612085fbad012248c3924f984d2']), set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']))
+====================================
+ipcity (set(['Linz']), set(['Florian', 'Sankt', 'am', 'Inn']))
+browserfingerprint (set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']), set(['4b1c627314e7eb994d4350eb22c92785fb2818aafd4027e802e075134c31fde2']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Florian', 'Sankt', 'am', 'Inn']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['4b1c627314e7eb994d4350eb22c92785fb2818aafd4027e802e075134c31fde2']), set(['ceeeb44cc6e43a2a062a7dea585435aa591dc1df50fbfe7179fdf98f3412808e']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['ceeeb44cc6e43a2a062a7dea585435aa591dc1df50fbfe7179fdf98f3412808e']), set(['9e5596fe72dd5bc83327082e4c01441800e25f835702a5b834056a6cdc4cc060']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['9e5596fe72dd5bc83327082e4c01441800e25f835702a5b834056a6cdc4cc060']), set(['f424c19e08ee328cf1fec62dd7f57286a017ebd89d46696cad57542e95faf3d6']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['f424c19e08ee328cf1fec62dd7f57286a017ebd89d46696cad57542e95faf3d6']), set(['55ea240f5f8bf02a04896245fee212d37e9efe1a4066029f5a9a604d2d763583']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['55ea240f5f8bf02a04896245fee212d37e9efe1a4066029f5a9a604d2d763583']), set(['f424c19e08ee328cf1fec62dd7f57286a017ebd89d46696cad57542e95faf3d6']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['f424c19e08ee328cf1fec62dd7f57286a017ebd89d46696cad57542e95faf3d6']), set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']))
+====================================
+ipcity (set(['Linz']), set(['Pfarrkirchen', 'im', 'Muehlkreis']))
+browserfingerprint (set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']), set(['eb8ec130292ec9888b554b517ff35609629bce32915da3434a49691010649f7c']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['eb8ec130292ec9888b554b517ff35609629bce32915da3434a49691010649f7c']), set(['84f2b816ae1de441e158772de73b25ee512d874dd6b2d6d28d7c5bf01f1e7d9e']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['84f2b816ae1de441e158772de73b25ee512d874dd6b2d6d28d7c5bf01f1e7d9e']), set(['eb8ec130292ec9888b554b517ff35609629bce32915da3434a49691010649f7c']))
+====================================
+ipcity (set(['Pfarrkirchen', 'im', 'Muehlkreis']), set(['Linz']))
+browserfingerprint (set(['eb8ec130292ec9888b554b517ff35609629bce32915da3434a49691010649f7c']), set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']))
+====================================
+ipcity (set(['Linz']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']), set(['f424c19e08ee328cf1fec62dd7f57286a017ebd89d46696cad57542e95faf3d6']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['f424c19e08ee328cf1fec62dd7f57286a017ebd89d46696cad57542e95faf3d6']), set(['55ea240f5f8bf02a04896245fee212d37e9efe1a4066029f5a9a604d2d763583']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['55ea240f5f8bf02a04896245fee212d37e9efe1a4066029f5a9a604d2d763583']), set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']))
+====================================
+ipcity (set(['Linz']), set(['Hainfeld']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['38d0761d25c31fb8b5edd8ac65bc92a1c03e1b094c10f8a03ac32a9bf643bc5a']), set(['96ff5dd846932365167dca212d0a55b3b5f4198bf688681a6e3b84d598c24239']))
+====================================
+ipcity (set(['Hainfeld']), set(['Florian', 'Sankt', 'am', 'Inn']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['96ff5dd846932365167dca212d0a55b3b5f4198bf688681a6e3b84d598c24239']), set(['4b1c627314e7eb994d4350eb22c92785fb2818aafd4027e802e075134c31fde2']))
+====================================
+ipcity (set(['Florian', 'Sankt', 'am', 'Inn']), set(['Ganserndorf']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['4b1c627314e7eb994d4350eb22c92785fb2818aafd4027e802e075134c31fde2']), set(['fbb0007e2ebb9f6dc40a97cf4dbc46a1155dad996845cf8d86ba5bd4f604fc91']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['fbb0007e2ebb9f6dc40a97cf4dbc46a1155dad996845cf8d86ba5bd4f604fc91']), set(['d5e8824f12520427b474f4c59cd7cae1745ecce1e2e2188611bcfd67c7e7cad9']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['d5e8824f12520427b474f4c59cd7cae1745ecce1e2e2188611bcfd67c7e7cad9']), set(['fbb0007e2ebb9f6dc40a97cf4dbc46a1155dad996845cf8d86ba5bd4f604fc91']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['fbb0007e2ebb9f6dc40a97cf4dbc46a1155dad996845cf8d86ba5bd4f604fc91']), set(['d5e8824f12520427b474f4c59cd7cae1745ecce1e2e2188611bcfd67c7e7cad9']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['d5e8824f12520427b474f4c59cd7cae1745ecce1e2e2188611bcfd67c7e7cad9']), set(['fbb0007e2ebb9f6dc40a97cf4dbc46a1155dad996845cf8d86ba5bd4f604fc91']))
+====================================
+ipcity (set(['Ganserndorf']), set(['Florian', 'Sankt', 'am', 'Inn']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['fbb0007e2ebb9f6dc40a97cf4dbc46a1155dad996845cf8d86ba5bd4f604fc91']), set(['4b1c627314e7eb994d4350eb22c92785fb2818aafd4027e802e075134c31fde2']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['4b1c627314e7eb994d4350eb22c92785fb2818aafd4027e802e075134c31fde2']), set(['c9f450347a7c24135ba60d29cb6fc35a59561a6be803921116caeaf2ca7fc9fc']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c9f450347a7c24135ba60d29cb6fc35a59561a6be803921116caeaf2ca7fc9fc']), set(['42c67aa362062d4a5b0fb0078094466215a22c56c01518bfff2cc0e9f51e90b6']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['42c67aa362062d4a5b0fb0078094466215a22c56c01518bfff2cc0e9f51e90b6']), set(['c9f450347a7c24135ba60d29cb6fc35a59561a6be803921116caeaf2ca7fc9fc']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c9f450347a7c24135ba60d29cb6fc35a59561a6be803921116caeaf2ca7fc9fc']), set(['42c67aa362062d4a5b0fb0078094466215a22c56c01518bfff2cc0e9f51e90b6']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['42c67aa362062d4a5b0fb0078094466215a22c56c01518bfff2cc0e9f51e90b6']), set(['c9f450347a7c24135ba60d29cb6fc35a59561a6be803921116caeaf2ca7fc9fc']))
+====================================
+agent (set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6']))
+accept (set(['']), set(['*/*']))
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Florian', 'Sankt', 'am', 'Inn']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['c9f450347a7c24135ba60d29cb6fc35a59561a6be803921116caeaf2ca7fc9fc']), set(['a826b6a825dfdd75485453450e548c83044126177419adf3dc7259a16440fd07']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['a826b6a825dfdd75485453450e548c83044126177419adf3dc7259a16440fd07']), set(['43594b092512e4542e924ad385605ae49e82bc08825b393cdf76509627335186']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['43594b092512e4542e924ad385605ae49e82bc08825b393cdf76509627335186']), set(['e42d07d07937db0b4d4bd8659dfbf84c0709ae53778ffd8a9e728e32a0761943']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['e42d07d07937db0b4d4bd8659dfbf84c0709ae53778ffd8a9e728e32a0761943']), set(['a826b6a825dfdd75485453450e548c83044126177419adf3dc7259a16440fd07']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['a826b6a825dfdd75485453450e548c83044126177419adf3dc7259a16440fd07']), set(['43594b092512e4542e924ad385605ae49e82bc08825b393cdf76509627335186']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['43594b092512e4542e924ad385605ae49e82bc08825b393cdf76509627335186']), set(['a826b6a825dfdd75485453450e548c83044126177419adf3dc7259a16440fd07']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['a826b6a825dfdd75485453450e548c83044126177419adf3dc7259a16440fd07']), set(['6d2d89f31f622cd3ac9df5f10a662871ab4e9111eb66f564b4f0f7d2394d2184']))
+====================================
+agent (set(['10_12_6)']), set(['10_13_3)']))
+encoding (set([]), set(['br,']))
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Roman', 'American Typewriter Condensed', 'FRUTIGER', 'OSAKA', 'Script']), set([]))
+canvastest (set(['9364b2f39c71e2484cc5695941c8291f1728d4e6']), set(['d7ac8be61049a1e172b80b910cddd7ff5770467f']))
+browserfingerprint (set(['6d2d89f31f622cd3ac9df5f10a662871ab4e9111eb66f564b4f0f7d2394d2184']), set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']), set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']), set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================
+ipcity (set(['Linz']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']), set(['a7ce644565b91c357f787affd5376fafe88bb25d33e678d3b49ff644122b525b']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['a7ce644565b91c357f787affd5376fafe88bb25d33e678d3b49ff644122b525b']), set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']), set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']), set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']), set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']), set(['a7ce644565b91c357f787affd5376fafe88bb25d33e678d3b49ff644122b525b']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['a7ce644565b91c357f787affd5376fafe88bb25d33e678d3b49ff644122b525b']), set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']), set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']), set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']), set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']), set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5454053ea6e0d542aee0a1f2f6f6f502ffb0e2e3f6eddb6a91c3421550419bee']), set(['a7ce644565b91c357f787affd5376fafe88bb25d33e678d3b49ff644122b525b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['a7ce644565b91c357f787affd5376fafe88bb25d33e678d3b49ff644122b525b']), set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['131e1b040ad3c2f502ea9af04a7cef16a20007c32c7d0fbf58ea5be75839d129']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================
+plugins (set([]), set(['Java Applet Plugin']))
+ipcity (set(['Linz']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']), set(['cfcc05fc5f990d6fb0160c4509196d21f20080125c88a7e60558d89b301fcdc6']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cfcc05fc5f990d6fb0160c4509196d21f20080125c88a7e60558d89b301fcdc6']), set(['07989fdc3b189dcea4b911f439ebf7d9386d806ee79d96840c4a1724695ae155']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['07989fdc3b189dcea4b911f439ebf7d9386d806ee79d96840c4a1724695ae155']), set(['99f85b9a335664340c0185462311bf042f83cc55158e638cde38e66c5f3b317b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['99f85b9a335664340c0185462311bf042f83cc55158e638cde38e66c5f3b317b']), set(['cfcc05fc5f990d6fb0160c4509196d21f20080125c88a7e60558d89b301fcdc6']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cfcc05fc5f990d6fb0160c4509196d21f20080125c88a7e60558d89b301fcdc6']), set(['07989fdc3b189dcea4b911f439ebf7d9386d806ee79d96840c4a1724695ae155']))
+====================================
+plugins (set(['Shockwave Flash', 'Java Applet Plugin']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['07989fdc3b189dcea4b911f439ebf7d9386d806ee79d96840c4a1724695ae155']), set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']))
+====================================
+plugins (set([]), set(['Shockwave Flash', 'Java Applet Plugin']))
+ipcity (set(['Enzersdorf', 'Maria']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['2ebda8634053a0fa4c272133c9e647b637a212786b275219ac0b67f3aa418119']), set(['cbc3484b77955591e0f92222520172398605f7e6d6577f6ace1e6f1fd6ee01eb']))
+====================================
+plugins (set(['Java Applet Plugin']), set([]))
+browserfingerprint (set(['cbc3484b77955591e0f92222520172398605f7e6d6577f6ace1e6f1fd6ee01eb']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================
+plugins (set([]), set(['Java Applet Plugin']))
+browserfingerprint (set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']), set(['cbc3484b77955591e0f92222520172398605f7e6d6577f6ace1e6f1fd6ee01eb']))
+====================================
+plugins (set(['Java Applet Plugin']), set([]))
+browserfingerprint (set(['cbc3484b77955591e0f92222520172398605f7e6d6577f6ace1e6f1fd6ee01eb']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================
+plugins (set([]), set(['Java Applet Plugin']))
+ipcity (set(['Linz']), set(['Drosing']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']), set(['2880c129ad216ce0541ff531d46abde02a62ef1d9c1630f0939b3431be7ab3ac']))
+====================================
+plugins (set(['Java Applet Plugin']), set([]))
+ipcity (set(['Drosing']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['2880c129ad216ce0541ff531d46abde02a62ef1d9c1630f0939b3431be7ab3ac']), set(['5daf2e433b77424e08a47a89c25ba67675bc7bfa1ebe737e242003a6b86217b3']))
+====================================

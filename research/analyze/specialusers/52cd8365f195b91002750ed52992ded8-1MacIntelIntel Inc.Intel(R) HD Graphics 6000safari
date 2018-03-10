@@ -1,0 +1,698 @@
+jsFonts (set([]), set(['Garamond']))
+ipcity (set(['Leipzig']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Sachsen']), set(['Hessen']))
+browserfingerprint (set(['c2baca53f6e61ef3795b5a25a6d892600d852408cc462f55cff0f9606923169f']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+gpuimgs (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_319dff5871b15929f751f2ea422cff664da895af']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['d9afd8d33f2347bfef90797541c915b8d6ab860c3bc186afe13f74c4b7e0558f']))
+====================================
+gpuimgs (set(['0_319dff5871b15929f751f2ea422cff664da895af']), set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['d9afd8d33f2347bfef90797541c915b8d6ab860c3bc186afe13f74c4b7e0558f']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+gpuimgs (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_319dff5871b15929f751f2ea422cff664da895af']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['80756bd2592d4577df4b3fa8437ddbd2180f1f479044b36c74c913c660554abc']))
+====================================
+gpuimgs (set(['0_319dff5871b15929f751f2ea422cff664da895af']), set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']))
+browserfingerprint (set(['80756bd2592d4577df4b3fa8437ddbd2180f1f479044b36c74c913c660554abc']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Dresden']))
+ipregion (set(['Hessen']), set(['Sachsen']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['4ea63f5d14670302671f9fb64e1e0e80713928a4e982582f5b8f40cc9dd4326b']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+ipcity (set(['Dresden']), set(['Berlin']))
+ipregion (set(['Sachsen']), set(['Berlin']))
+browserfingerprint (set(['4ea63f5d14670302671f9fb64e1e0e80713928a4e982582f5b8f40cc9dd4326b']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['6c122cdfb829521babb15d6488dfa87909f1719c5846ce4dd0f4b34c1bf7a07d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['6c122cdfb829521babb15d6488dfa87909f1719c5846ce4dd0f4b34c1bf7a07d']), set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['6c122cdfb829521babb15d6488dfa87909f1719c5846ce4dd0f4b34c1bf7a07d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['6c122cdfb829521babb15d6488dfa87909f1719c5846ce4dd0f4b34c1bf7a07d']), set(['c49dafe654436e2e81eb2660e01be8893c6ff1ca4a9538d486f44b977e7adc90']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['c49dafe654436e2e81eb2660e01be8893c6ff1ca4a9538d486f44b977e7adc90']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']))
+====================================
+ipcity (set(['Berlin']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Berlin']), set(['Hessen']))
+browserfingerprint (set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Berlin']))
+ipregion (set(['Hessen']), set(['Berlin']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['172562d93403253dd1163c99140fc62e27f8f9c56ff85b7045b5a82bb347f9ac']), set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+ipcity (set(['Berlin']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Berlin']), set(['Hessen']))
+browserfingerprint (set(['ed1138d0fa5a4b93edddb6d8e20593983b4580d54a56202f1775963413264023']), set(['f3cf851ac4a9610e5c707410e704ce1019f8ead5843edb9b484d69070292bd71']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['f3cf851ac4a9610e5c707410e704ce1019f8ead5843edb9b484d69070292bd71']), set(['967150501f7102e90e15d90ff7ea58d7bab8f3017c40c6506a5aff85835e536e']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['967150501f7102e90e15d90ff7ea58d7bab8f3017c40c6506a5aff85835e536e']), set(['77938c0e3c900e65210b0172c2fc263309bedd271ad432cb100992e1434a4a5b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['77938c0e3c900e65210b0172c2fc263309bedd271ad432cb100992e1434a4a5b']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Berlin']))
+ipregion (set(['Hessen']), set(['Berlin']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+ipcity (set(['Berlin']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Berlin']), set(['Hessen']))
+browserfingerprint (set(['43bb88f588c8982d8688aaac2d2b8a4e9cc91a53ebade1e9d2adab1d93798155']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+gpuimgs (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_319dff5871b15929f751f2ea422cff664da895af']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['d9afd8d33f2347bfef90797541c915b8d6ab860c3bc186afe13f74c4b7e0558f']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['d9afd8d33f2347bfef90797541c915b8d6ab860c3bc186afe13f74c4b7e0558f']), set(['80756bd2592d4577df4b3fa8437ddbd2180f1f479044b36c74c913c660554abc']))
+====================================
+gpuimgs (set(['0_319dff5871b15929f751f2ea422cff664da895af']), set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']))
+browserfingerprint (set(['80756bd2592d4577df4b3fa8437ddbd2180f1f479044b36c74c913c660554abc']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5fd3856c91b76e5f083e8d7d999093ebc145362bb45cccc809835eb6fc652249']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Senftenberg']))
+ipregion (set(['Hessen']), set(['Brandenburg']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['194f0cc061c2596ac0a23b4fb7fc1cbb97c0ffc34e29f489f98458b6138b4cf6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['194f0cc061c2596ac0a23b4fb7fc1cbb97c0ffc34e29f489f98458b6138b4cf6']), set(['c989468b50b54e374953e19b136385c8f63ba69536d530cf99056633c795f41a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Senftenberg']), set(['Potsdam']))
+browserfingerprint (set(['c989468b50b54e374953e19b136385c8f63ba69536d530cf99056633c795f41a']), set(['f732c675d5cdc27fbc30b6cd5f6e5882a3fde53f54619cd7de6d983007eeff44']))
+====================================
+ipcity (set(['Potsdam']), set(['Chemnitz']))
+ipregion (set(['Brandenburg']), set(['Sachsen']))
+browserfingerprint (set(['f732c675d5cdc27fbc30b6cd5f6e5882a3fde53f54619cd7de6d983007eeff44']), set(['e74253cbe5b8fd06b0fa1e7bfcacb640f82aaa00ddf14b68cd2577a6ea288e9b']))
+====================================
+ipcity (set(['Chemnitz']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Sachsen']), set(['Hessen']))
+browserfingerprint (set(['e74253cbe5b8fd06b0fa1e7bfcacb640f82aaa00ddf14b68cd2577a6ea288e9b']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c7f890ad867bac16eee8cf27efd76e8cf01d111052b493345d148bc2678a6d1d']), set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']))
+====================================
+agent (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['Garamond']), set([]))
+gpuimgs (set(['0_6f68e9b18f427db0bb15729b14e2a8da6c0bbc76']), set(['0_0a48cad3b58780f2e6e48149ddeb078b0162f201']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Dusseldorf']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['4121da8f80efff33bedd38226a9fd28ea45721a94786a06e2af6bc132d8e5c0d']), set(['40a2ac83940c9d049e7b3dc28bba22bb1bcebb498f60721a18fdc23075e8e065']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['40a2ac83940c9d049e7b3dc28bba22bb1bcebb498f60721a18fdc23075e8e065']), set(['86fbd54447ecc5925584840b856fbeb2ef12a41291eee3a96d70b76072b8b708']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['86fbd54447ecc5925584840b856fbeb2ef12a41291eee3a96d70b76072b8b708']), set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']), set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']), set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']), set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']), set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']), set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']), set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']), set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']), set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']), set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['20c098ad19608bf41559b0312dbeff2ae1b61d881419fdd6ce9efe911309534e']), set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['5aaa34d8fe852284f1dc35fc508cd6239f70e13237e4c940cbf949d5c17ac37e']), set(['e86a5e765bafac5017afa4b311d7b0ae9f679a8940e47c08d1436b489b9e3f8e']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Berlin']), set(['Dusseldorf']))
+ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['e86a5e765bafac5017afa4b311d7b0ae9f679a8940e47c08d1436b489b9e3f8e']), set(['86fbd54447ecc5925584840b856fbeb2ef12a41291eee3a96d70b76072b8b708']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['86fbd54447ecc5925584840b856fbeb2ef12a41291eee3a96d70b76072b8b708']), set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']), set(['df782ae33274f5aea0f9f9bb8be709273b124ebaa6d4298cec7ef46b1b377ee7']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['df782ae33274f5aea0f9f9bb8be709273b124ebaa6d4298cec7ef46b1b377ee7']), set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']), set(['df782ae33274f5aea0f9f9bb8be709273b124ebaa6d4298cec7ef46b1b377ee7']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['df782ae33274f5aea0f9f9bb8be709273b124ebaa6d4298cec7ef46b1b377ee7']), set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b50fb92086f8822f2d41e0d5dededcc37ee7f6e21df4e1dd1dfa5027f71ff3a5']), set(['df782ae33274f5aea0f9f9bb8be709273b124ebaa6d4298cec7ef46b1b377ee7']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+ipcity (set(['Dusseldorf']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['df782ae33274f5aea0f9f9bb8be709273b124ebaa6d4298cec7ef46b1b377ee7']), set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']), set(['11f5e4340a3276f80f5065416de163298619afe4e1c7d90583cc3bbb495e64d0']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+ipcity (set(['Berlin']), set(['Aachen']))
+ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['11f5e4340a3276f80f5065416de163298619afe4e1c7d90583cc3bbb495e64d0']), set(['20dd539e0f7d473d132f4b8c6b8ffa911674ec8dc1721b6428c87700bc9909ab']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['20dd539e0f7d473d132f4b8c6b8ffa911674ec8dc1721b6428c87700bc9909ab']), set(['c2a2c3b4465d9c958f4e431d83432c98fd0f0c229f0bc99a86de5a0fe68ce4f6']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['48000_0_1_0_2_explicit_speakers']))
+ipcity (set(['Aachen']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['c2a2c3b4465d9c958f4e431d83432c98fd0f0c229f0bc99a86de5a0fe68ce4f6']), set(['1583fd42f65aa7b9e699c05570f205025270b2133724e6b0a47fa6b4881abc5a']))
+====================================
+audio (set(['48000_0_1_0_2_explicit_speakers']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['1583fd42f65aa7b9e699c05570f205025270b2133724e6b0a47fa6b4881abc5a']), set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']), set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']), set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']))
+====================================
+ipcity (set(['Berlin']), set(['Nuremberg']))
+ipregion (set(['Berlin']), set(['Bayern']))
+browserfingerprint (set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']), set(['1f2da8d8292d461dc7b16d2ae5c14be255bf4c58d485e5748d1e5b8dc95c4682']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['1f2da8d8292d461dc7b16d2ae5c14be255bf4c58d485e5748d1e5b8dc95c4682']), set(['4bce718584e7cff812848f32714f70ea5c98f70275521209c5515b953af6c8c4']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Nuremberg']), set(['Berlin']))
+ipregion (set(['Bayern']), set(['Berlin']))
+browserfingerprint (set(['4bce718584e7cff812848f32714f70ea5c98f70275521209c5515b953af6c8c4']), set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']), set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']), set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['a51c0c74d462c6225206d9921b04837348ec224a126e4326e4ecbd68710bffe7']), set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']))
+====================================
+timezone (set(['-60']), set(['-330']))
+ipcity (set(['Berlin']), set(['Irinjalakuda']))
+ipregion (set(['Berlin']), set(['Kerala']))
+ipcountry (set(['Germany']), set(['India']))
+browserfingerprint (set(['efc224046d687e9adf25403622fa01b5df68707d9dce8727e545c63ecded8250']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e3ee724eb889393583e36c42523d727b5d2e9d0cc94e0c428bff637fc4a4196d']), set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']))
+====================================
+ipcity (set(['Irinjalakuda']), set(['Muvattupuzha']))
+browserfingerprint (set(['7c9b1a3fb0a0631e6acad4579986b03475f539c5959b5fddec756ab8ae8bdd06']), set(['34ff9f99e235a6c626a01000a729426e8b247f1de419e9d6f8d267239b1ced31']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['34ff9f99e235a6c626a01000a729426e8b247f1de419e9d6f8d267239b1ced31']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['34ff9f99e235a6c626a01000a729426e8b247f1de419e9d6f8d267239b1ced31']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['34ff9f99e235a6c626a01000a729426e8b247f1de419e9d6f8d267239b1ced31']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+ipcity (set(['Muvattupuzha']), set(['Vaikam']))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['a9adf7ce7493feb49acb31762f5d5c68b7940cce8d2d02f4ae7357475c933609']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['a9adf7ce7493feb49acb31762f5d5c68b7940cce8d2d02f4ae7357475c933609']), set(['9a33ed0188817779c43b59f3ddd6be90ce543d730e5b133547ab8ffb1a95d76a']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['9a33ed0188817779c43b59f3ddd6be90ce543d730e5b133547ab8ffb1a95d76a']), set(['79e4d0278fff8851e647bbe176a75d8ca4c2da1a8297d976499467980abf9310']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['79e4d0278fff8851e647bbe176a75d8ca4c2da1a8297d976499467980abf9310']), set(['a9adf7ce7493feb49acb31762f5d5c68b7940cce8d2d02f4ae7357475c933609']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Vaikam']), set(['Piravam']))
+browserfingerprint (set(['a9adf7ce7493feb49acb31762f5d5c68b7940cce8d2d02f4ae7357475c933609']), set(['10ab9195f8e324eaf10a1acc114d65b19977d97d42882eaf45617b1b60e5ad55']))
+====================================
+ipcity (set(['Piravam']), set(['Ernakulam']))
+browserfingerprint (set(['10ab9195f8e324eaf10a1acc114d65b19977d97d42882eaf45617b1b60e5ad55']), set(['e7373164d5e05a2970a083250c94b3328c027c33d849724e7b9ccf1bc491546e']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['e7373164d5e05a2970a083250c94b3328c027c33d849724e7b9ccf1bc491546e']), set(['a82bb2fda1d2f07149db25a0e6f0e9842ef2f60e1347609597a1d52d3b773e28']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['a82bb2fda1d2f07149db25a0e6f0e9842ef2f60e1347609597a1d52d3b773e28']), set(['e7373164d5e05a2970a083250c94b3328c027c33d849724e7b9ccf1bc491546e']))
+====================================
+ipcity (set(['Ernakulam']), set(['Muvattupuzha']))
+browserfingerprint (set(['e7373164d5e05a2970a083250c94b3328c027c33d849724e7b9ccf1bc491546e']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['7f8f0011396c62de0bbcb3ccb06af0c3285646c25d6f23b6b9a9907e196e6bdd']), set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']))
+====================================
+timezone (set(['-330']), set(['-420']))
+jsFonts (set([]), set(['Garamond']))
+ipcity (set(['Muvattupuzha']), set(['Haiphong']))
+ipregion (set(['Kerala']), set(['Hai', 'Phong']))
+ipcountry (set(['India']), set(['Viet', 'Nam']))
+browserfingerprint (set(['9d543697f9be798609cc3a863c3457082de5b518076f916cc7cfe896f7df36aa']), set(['9b81c05699212924f788c0e6a3b133a6a84f47b2b7f66f5f8abeb617990ee4a4']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9b81c05699212924f788c0e6a3b133a6a84f47b2b7f66f5f8abeb617990ee4a4']), set(['0d26da1d965ef74e27deb0b6c62e9b0fe946debc52a71a005675855b2e2c6e23']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['0d26da1d965ef74e27deb0b6c62e9b0fe946debc52a71a005675855b2e2c6e23']), set(['9b81c05699212924f788c0e6a3b133a6a84f47b2b7f66f5f8abeb617990ee4a4']))
+====================================
+agent (set(['Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6']))
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['9b81c05699212924f788c0e6a3b133a6a84f47b2b7f66f5f8abeb617990ee4a4']), set(['e31f61d2f97ce648687134af4f43b4805c13eed893bb84e82b97a5059b6b05d5']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['e31f61d2f97ce648687134af4f43b4805c13eed893bb84e82b97a5059b6b05d5']), set(['32ef68bf4953718f4f6460c98b8fba4c2fa2038bdf2578a5f1dd7162bfb2ff58']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['32ef68bf4953718f4f6460c98b8fba4c2fa2038bdf2578a5f1dd7162bfb2ff58']), set(['e31f61d2f97ce648687134af4f43b4805c13eed893bb84e82b97a5059b6b05d5']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['e31f61d2f97ce648687134af4f43b4805c13eed893bb84e82b97a5059b6b05d5']), set(['32ef68bf4953718f4f6460c98b8fba4c2fa2038bdf2578a5f1dd7162bfb2ff58']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['32ef68bf4953718f4f6460c98b8fba4c2fa2038bdf2578a5f1dd7162bfb2ff58']), set(['e31f61d2f97ce648687134af4f43b4805c13eed893bb84e82b97a5059b6b05d5']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['e31f61d2f97ce648687134af4f43b4805c13eed893bb84e82b97a5059b6b05d5']), set(['32ef68bf4953718f4f6460c98b8fba4c2fa2038bdf2578a5f1dd7162bfb2ff58']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Haiphong']), set(['Nang', 'Da']))
+ipregion (set(['Hai', 'Phong']), set(['Nang', 'Da']))
+browserfingerprint (set(['32ef68bf4953718f4f6460c98b8fba4c2fa2038bdf2578a5f1dd7162bfb2ff58']), set(['c6e5025aa99760fc99a985b7e58aac5d5bed3a31cf9bf20da77059f1b886f577']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['c6e5025aa99760fc99a985b7e58aac5d5bed3a31cf9bf20da77059f1b886f577']), set(['41312384e5cc579b891ea55e32371cf1c3b104c9ed1ccf2b413245a5f1f9fb60']))
+====================================
+accept (set(['']), set(['*/*']))
+jsFonts (set(['Garamond']), set([]))
+ipcity (set(['Nang', 'Da']), set(['Kantang']))
+ipregion (set(['Nang', 'Da']), set(['Trang']))
+ipcountry (set(['Viet', 'Nam']), set(['Thailand']))
+browserfingerprint (set(['41312384e5cc579b891ea55e32371cf1c3b104c9ed1ccf2b413245a5f1f9fb60']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+jsFonts (set(['Garamond']), set([]))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']))
+====================================
+jsFonts (set([]), set(['Garamond']))
+browserfingerprint (set(['48b5f787d42c8f308ab54091c21094cd69bd8d7cf122b0af6d760079b4920485']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================
+audio (set(['44100_0_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']), set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']))
+====================================
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6eea2bffbfc37953396bde9f744d4e88532025fe3965e325c908b5d3217e8015']), set(['58747773acc0a678272434dc38c2ca322e6cd878b6bc78ce2bbc0a8000979401']))
+====================================

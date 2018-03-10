@@ -1,0 +1,122 @@
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['45a4c22cbaad983f7c3ead2147d379f18823f6d96c5b250c1f4d4e44fc2326ba']), set(['017a7b3b27cc587b3bc68d02b6c52a1840c91a541396242ba1d176e620189fbd']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['017a7b3b27cc587b3bc68d02b6c52a1840c91a541396242ba1d176e620189fbd']), set(['5ee7bf55dae6783b9fab5fd5cf4cba447fcdbce3673ef0576e1b72e9990bf9de']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5ee7bf55dae6783b9fab5fd5cf4cba447fcdbce3673ef0576e1b72e9990bf9de']), set(['017a7b3b27cc587b3bc68d02b6c52a1840c91a541396242ba1d176e620189fbd']))
+====================================
+jsFonts (set(['Leelawadee', 'Microsoft Uighur']), set([]))
+browserfingerprint (set(['017a7b3b27cc587b3bc68d02b6c52a1840c91a541396242ba1d176e620189fbd']), set(['9ab5bc4012bc406577d756d894c37791b1493f5f6a6d438b54e77a69c5087b84']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['9ab5bc4012bc406577d756d894c37791b1493f5f6a6d438b54e77a69c5087b84']), set(['950f68472e6bdd0e71101c8c9ba434a7e9a3862a0d8baa08f7cab99d8536c1f1']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['950f68472e6bdd0e71101c8c9ba434a7e9a3862a0d8baa08f7cab99d8536c1f1']), set(['9ab5bc4012bc406577d756d894c37791b1493f5f6a6d438b54e77a69c5087b84']))
+====================================
+ipcity (set(['Dortmund']), set(['Dusseldorf']))
+browserfingerprint (set(['9ab5bc4012bc406577d756d894c37791b1493f5f6a6d438b54e77a69c5087b84']), set(['48f1a534774f9f7f8a00b30a35433a33508c99de79da7aebf77863637e9cc9b1']))
+====================================
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+gpuimgs (set(['0_3a89d4db411aae74128eab8046c07ff887ffef18']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+browserfingerprint (set(['48f1a534774f9f7f8a00b30a35433a33508c99de79da7aebf77863637e9cc9b1']), set(['02b52af47ee7447b2fda37130e70206246851aac7c4971f715938499ead260a2']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['02b52af47ee7447b2fda37130e70206246851aac7c4971f715938499ead260a2']), set(['619bb3afd592c280bda5ced466c0c6c2ab0cc58fb8733ab7847ed439b8c99186']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['619bb3afd592c280bda5ced466c0c6c2ab0cc58fb8733ab7847ed439b8c99186']), set(['abb3ae64983dd0e82e223387daf05494a9342c5dfd7fd99428c660d35e619d04']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['MYRIAD PRO']))
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['abb3ae64983dd0e82e223387daf05494a9342c5dfd7fd99428c660d35e619d04']), set(['0b5ac979933471dc168d22fc291ad2305c9ce3b7e2cf8593c25c60b58ff89516']))
+====================================
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+jsFonts (set(['MYRIAD PRO']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['0b5ac979933471dc168d22fc291ad2305c9ce3b7e2cf8593c25c60b58ff89516']), set(['5ef301a7979c4281e33b508b344369fdf2c08fd592bbe7c5a6415f8f4a2ff6d6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['5ef301a7979c4281e33b508b344369fdf2c08fd592bbe7c5a6415f8f4a2ff6d6']), set(['c92569c97b0aa230f466722165495c49fdc12969741e0493f973cbf890a8f80c']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c92569c97b0aa230f466722165495c49fdc12969741e0493f973cbf890a8f80c']), set(['8f71745099704ac654e837b4acf59cdb8f3ddca4823d96dd52985b761ef06a62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['8f71745099704ac654e837b4acf59cdb8f3ddca4823d96dd52985b761ef06a62']), set(['c92569c97b0aa230f466722165495c49fdc12969741e0493f973cbf890a8f80c']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c92569c97b0aa230f466722165495c49fdc12969741e0493f973cbf890a8f80c']), set(['8f71745099704ac654e837b4acf59cdb8f3ddca4823d96dd52985b761ef06a62']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['8f71745099704ac654e837b4acf59cdb8f3ddca4823d96dd52985b761ef06a62']), set(['5ef301a7979c4281e33b508b344369fdf2c08fd592bbe7c5a6415f8f4a2ff6d6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['5ef301a7979c4281e33b508b344369fdf2c08fd592bbe7c5a6415f8f4a2ff6d6']), set(['c92569c97b0aa230f466722165495c49fdc12969741e0493f973cbf890a8f80c']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['c92569c97b0aa230f466722165495c49fdc12969741e0493f973cbf890a8f80c']), set(['5ef301a7979c4281e33b508b344369fdf2c08fd592bbe7c5a6415f8f4a2ff6d6']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Dortmund']))
+browserfingerprint (set(['5ef301a7979c4281e33b508b344369fdf2c08fd592bbe7c5a6415f8f4a2ff6d6']), set(['b58cb0b4f418659d7c51464aa662d7d4b9a2cd02a8a11b6649033eeb6779ae3c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set([]), set(['MYRIAD PRO']))
+browserfingerprint (set(['b58cb0b4f418659d7c51464aa662d7d4b9a2cd02a8a11b6649033eeb6779ae3c']), set(['23a601d730eb39816471be2846906a599b58d4a23e50bfc22af051c406915450']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['23a601d730eb39816471be2846906a599b58d4a23e50bfc22af051c406915450']), set(['88fa725e0e37b9f3e868f1c2594a7baf4056475706d0167ea3177ac81f81ccff']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['88fa725e0e37b9f3e868f1c2594a7baf4056475706d0167ea3177ac81f81ccff']), set(['23a601d730eb39816471be2846906a599b58d4a23e50bfc22af051c406915450']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set(['MYRIAD PRO']), set([]))
+browserfingerprint (set(['23a601d730eb39816471be2846906a599b58d4a23e50bfc22af051c406915450']), set(['b58cb0b4f418659d7c51464aa662d7d4b9a2cd02a8a11b6649033eeb6779ae3c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['b58cb0b4f418659d7c51464aa662d7d4b9a2cd02a8a11b6649033eeb6779ae3c']), set(['a3bc464b5929a6d402fb0bb15ca6cc59641d6659b04bcaa56e96ccbbb2ab1b20']))
+====================================
+accept (set(['']), set(['*/*']))
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['a3bc464b5929a6d402fb0bb15ca6cc59641d6659b04bcaa56e96ccbbb2ab1b20']), set(['b58cb0b4f418659d7c51464aa662d7d4b9a2cd02a8a11b6649033eeb6779ae3c']))
+====================================
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.140']))
+gpuimgs (set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']), set(['0_d4eed629983adfd66a3e8255a708471356317a01']))
+browserfingerprint (set(['b58cb0b4f418659d7c51464aa662d7d4b9a2cd02a8a11b6649033eeb6779ae3c']), set(['1041bc5952b1efb174d6f85a127d7de4f00cf38b571224619b1650dba48509c5']))
+====================================
+gpuimgs (set(['0_d4eed629983adfd66a3e8255a708471356317a01']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['1041bc5952b1efb174d6f85a127d7de4f00cf38b571224619b1650dba48509c5']), set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']))
+====================================
+gpuimgs (set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']), set(['0_d4eed629983adfd66a3e8255a708471356317a01']))
+browserfingerprint (set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']), set(['fa37d476a7f68f607a80d7daa2a44091d0b7e61853f006751f987bfe70fb28fd']))
+====================================
+gpuimgs (set(['0_d4eed629983adfd66a3e8255a708471356317a01']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+browserfingerprint (set(['fa37d476a7f68f607a80d7daa2a44091d0b7e61853f006751f987bfe70fb28fd']), set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']))
+====================================
+gpuimgs (set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']), set(['0_d4eed629983adfd66a3e8255a708471356317a01']))
+browserfingerprint (set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']), set(['fa37d476a7f68f607a80d7daa2a44091d0b7e61853f006751f987bfe70fb28fd']))
+====================================
+gpuimgs (set(['0_d4eed629983adfd66a3e8255a708471356317a01']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+browserfingerprint (set(['fa37d476a7f68f607a80d7daa2a44091d0b7e61853f006751f987bfe70fb28fd']), set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']))
+====================================
+gpuimgs (set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']), set(['0_d4eed629983adfd66a3e8255a708471356317a01']))
+browserfingerprint (set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']), set(['fa37d476a7f68f607a80d7daa2a44091d0b7e61853f006751f987bfe70fb28fd']))
+====================================
+gpuimgs (set(['0_d4eed629983adfd66a3e8255a708471356317a01']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+browserfingerprint (set(['fa37d476a7f68f607a80d7daa2a44091d0b7e61853f006751f987bfe70fb28fd']), set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']))
+====================================
+agent (set(['Chrome/64.0.3282.140']), set(['Chrome/64.0.3282.167']))
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['da91d2f93966a773ca7634cc89eef8e5714caced1423b384aea33538ee654c3b']), set(['a22b1a08d37cb34cc16b0a53f30e491014dedefd5f131f4bd078452e4264ac2a']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['a22b1a08d37cb34cc16b0a53f30e491014dedefd5f131f4bd078452e4264ac2a']), set(['7a11e3b9c6890597e39c6b782a2381d8c60285158454ca873f4bf2b56d078c5a']))
+====================================

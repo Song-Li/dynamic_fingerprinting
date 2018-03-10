@@ -1,0 +1,777 @@
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Rodos']), set(['Beauharnois']))
+ipregion (set(['Notio', 'Aigaio']), set(['Quebec']))
+ipcountry (set(['Greece']), set(['Canada']))
+browserfingerprint (set(['02195afba675deea6cbaf1742f63ff5e45cae2c94993263ea71b626384237b01']), set(['b50f5e3a0b7e1dfc7547dd3a4e69cc4965194f6b6cae710b1005c966e500335c']))
+====================================
+ipcity (set(['Beauharnois']), set(['Milan']))
+ipregion (set(['Quebec']), set(['Lombardia']))
+ipcountry (set(['Canada']), set(['Italy']))
+browserfingerprint (set(['b50f5e3a0b7e1dfc7547dd3a4e69cc4965194f6b6cae710b1005c966e500335c']), set(['23894f574b81d3198aa4e53e1f107a5ce80a545c14b135652390e6b59c0874eb']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Milan']), set(['Montreal']))
+ipregion (set(['Lombardia']), set(['Quebec']))
+ipcountry (set(['Italy']), set(['Canada']))
+browserfingerprint (set(['23894f574b81d3198aa4e53e1f107a5ce80a545c14b135652390e6b59c0874eb']), set(['c329db5dcfa7fe50c10847ebbfcbff2b37ba6a49e37496f70c34f97dda68ff2b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['c329db5dcfa7fe50c10847ebbfcbff2b37ba6a49e37496f70c34f97dda68ff2b']), set(['63c8e70e3f1503a0b678659df395c769c4bf7aefe810bf6db27882f557deab3d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['63c8e70e3f1503a0b678659df395c769c4bf7aefe810bf6db27882f557deab3d']), set(['c329db5dcfa7fe50c10847ebbfcbff2b37ba6a49e37496f70c34f97dda68ff2b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['c329db5dcfa7fe50c10847ebbfcbff2b37ba6a49e37496f70c34f97dda68ff2b']), set(['63c8e70e3f1503a0b678659df395c769c4bf7aefe810bf6db27882f557deab3d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+ipcity (set(['Montreal']), set(['Beauharnois']))
+browserfingerprint (set(['63c8e70e3f1503a0b678659df395c769c4bf7aefe810bf6db27882f557deab3d']), set(['7df21ae5f0ab5c50a1a2b6f739a45ab6c75144a71fd980f4c13640a7a43e8311']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['7df21ae5f0ab5c50a1a2b6f739a45ab6c75144a71fd980f4c13640a7a43e8311']), set(['b50f5e3a0b7e1dfc7547dd3a4e69cc4965194f6b6cae710b1005c966e500335c']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Beauharnois']), set(['Afantou']))
+ipregion (set(['Quebec']), set(['Notio', 'Aigaio']))
+ipcountry (set(['Canada']), set(['Greece']))
+browserfingerprint (set(['b50f5e3a0b7e1dfc7547dd3a4e69cc4965194f6b6cae710b1005c966e500335c']), set(['d0338284a08a7b22e2d9fe63fbb8f1cffc8be0a534a5a569be3fd704ebcb7867']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['d0338284a08a7b22e2d9fe63fbb8f1cffc8be0a534a5a569be3fd704ebcb7867']), set(['2221964676373598ab51aa8123e195badd4d4b0e930688bf154ccc0cd482ec14']))
+====================================
+ipcity (set(['Afantou']), set(['Athens']))
+ipregion (set(['Notio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['2221964676373598ab51aa8123e195badd4d4b0e930688bf154ccc0cd482ec14']), set(['24ae64ac688081c44fb69b0de8ae13af70eb00794c40d8752835f6f4461b4059']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Athens']), set(['Kalamata']))
+ipregion (set(['Attiki']), set(['Peloponnisos']))
+browserfingerprint (set(['24ae64ac688081c44fb69b0de8ae13af70eb00794c40d8752835f6f4461b4059']), set(['123465e886bdbd82894fe498c6bbde9a129b85ce31d81ff2b10dd82b3ed23210']))
+====================================
+ipcity (set(['Kalamata']), set(['Athens']))
+ipregion (set(['Peloponnisos']), set(['Attiki']))
+browserfingerprint (set(['123465e886bdbd82894fe498c6bbde9a129b85ce31d81ff2b10dd82b3ed23210']), set(['25962542817d9d8c0deeb8c9c01233afd2ae0a85c262407e9ff9ecadef8aa9de']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['25962542817d9d8c0deeb8c9c01233afd2ae0a85c262407e9ff9ecadef8aa9de']), set(['24ae64ac688081c44fb69b0de8ae13af70eb00794c40d8752835f6f4461b4059']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Athens']), set(['Ambelokipoi']))
+ipregion (set(['Attiki']), set(['Kentriki', 'Makedonia']))
+browserfingerprint (set(['24ae64ac688081c44fb69b0de8ae13af70eb00794c40d8752835f6f4461b4059']), set(['f3a584d3ada6df763d52f5b7d46f490fa924dfecdaf991f04cbd0df08c25b066']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Ambelokipoi']), set(['Pylaia']))
+browserfingerprint (set(['f3a584d3ada6df763d52f5b7d46f490fa924dfecdaf991f04cbd0df08c25b066']), set(['658062331f550eeb3336468ac1fbae42f0dd90f3c32b5d89c8fe934b7605d202']))
+====================================
+ipcity (set(['Pylaia']), set(['Lefkada']))
+ipregion (set(['Kentriki', 'Makedonia']), set(['Ionia', 'Nisia']))
+browserfingerprint (set(['658062331f550eeb3336468ac1fbae42f0dd90f3c32b5d89c8fe934b7605d202']), set(['9652ea273675500c425ff534f3c80a16d42a27d8f0116e7a4c2ceb879340f019']))
+====================================
+ipcity (set(['Lefkada']), set(['Athens']))
+ipregion (set(['Ionia', 'Nisia']), set(['Attiki']))
+browserfingerprint (set(['9652ea273675500c425ff534f3c80a16d42a27d8f0116e7a4c2ceb879340f019']), set(['24ae64ac688081c44fb69b0de8ae13af70eb00794c40d8752835f6f4461b4059']))
+====================================
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+plugins (set(['Shockwave Flash']), set([]))
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))
+browserfingerprint (set(['24ae64ac688081c44fb69b0de8ae13af70eb00794c40d8752835f6f4461b4059']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Athens']), set(['Kremasti']))
+ipregion (set(['Attiki']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['b0d5c0c4802513ba20d8f5c8581b78d8b2345b8272768ae9768b7e36897fd04e']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Kremasti']), set(['Athens']))
+ipregion (set(['Notio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['b0d5c0c4802513ba20d8f5c8581b78d8b2345b8272768ae9768b7e36897fd04e']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Athens']), set(['Trikala']))
+ipregion (set(['Attiki']), set(['Thessalia']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['f6af5510c2bb8d0e920c08e1e25483adef4d6afec3b88d788792e3f00e7981aa']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['f6af5510c2bb8d0e920c08e1e25483adef4d6afec3b88d788792e3f00e7981aa']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['f6af5510c2bb8d0e920c08e1e25483adef4d6afec3b88d788792e3f00e7981aa']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['f6af5510c2bb8d0e920c08e1e25483adef4d6afec3b88d788792e3f00e7981aa']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['02a0d93cb7698175c7230deba790a8a4184275338565e5ad02403e19b91afb62']), set(['f6af5510c2bb8d0e920c08e1e25483adef4d6afec3b88d788792e3f00e7981aa']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['f6af5510c2bb8d0e920c08e1e25483adef4d6afec3b88d788792e3f00e7981aa']), set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9c0ee4a817a55abed8eed692cf37ba0d38824317a84bbd0cc34a427d3e04b226']), set(['c7283ebb0f3df59e137f4b4365fbf92f24e45c21dd3342ba67fc0cc4068b0524']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Trikala']), set(['Beauharnois']))
+ipregion (set(['Thessalia']), set(['Quebec']))
+ipcountry (set(['Greece']), set(['Canada']))
+browserfingerprint (set(['c7283ebb0f3df59e137f4b4365fbf92f24e45c21dd3342ba67fc0cc4068b0524']), set(['81fd24bab62600d1f0083d112d40a09d575391860bca7aecd2643b67f692841d']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['81fd24bab62600d1f0083d112d40a09d575391860bca7aecd2643b67f692841d']), set(['b6caca274bc0cf2ee03f37c179d84da54bc2a9917e75018dad67f296a2b68f28']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b6caca274bc0cf2ee03f37c179d84da54bc2a9917e75018dad67f296a2b68f28']), set(['81fd24bab62600d1f0083d112d40a09d575391860bca7aecd2643b67f692841d']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['81fd24bab62600d1f0083d112d40a09d575391860bca7aecd2643b67f692841d']), set(['b6caca274bc0cf2ee03f37c179d84da54bc2a9917e75018dad67f296a2b68f28']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b6caca274bc0cf2ee03f37c179d84da54bc2a9917e75018dad67f296a2b68f28']), set(['2ac646e7c7bd9afc6a9fd54f0db0b994ba2e06ae605e2f6241118e6b28261b2d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['2ac646e7c7bd9afc6a9fd54f0db0b994ba2e06ae605e2f6241118e6b28261b2d']), set(['81fd24bab62600d1f0083d112d40a09d575391860bca7aecd2643b67f692841d']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['81fd24bab62600d1f0083d112d40a09d575391860bca7aecd2643b67f692841d']), set(['b6caca274bc0cf2ee03f37c179d84da54bc2a9917e75018dad67f296a2b68f28']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+ipcity (set(['Beauharnois']), set(['Athens']))
+ipregion (set(['Quebec']), set(['Attiki']))
+ipcountry (set(['Canada']), set(['Greece']))
+browserfingerprint (set(['b6caca274bc0cf2ee03f37c179d84da54bc2a9917e75018dad67f296a2b68f28']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+ipcity (set(['Athens']), set(['Amalias']))
+ipregion (set(['Attiki']), set(['Ellada', 'Dytiki']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['2b96b0e984bfc16356a3e3e87bb87efe62d5d68e20a2deb9308908cae0b86d05']))
+====================================
+ipcity (set(['Amalias']), set(['Athens']))
+ipregion (set(['Ellada', 'Dytiki']), set(['Attiki']))
+browserfingerprint (set(['2b96b0e984bfc16356a3e3e87bb87efe62d5d68e20a2deb9308908cae0b86d05']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Athens']), set(['Preveza']))
+ipregion (set(['Attiki']), set(['Ipeiros']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['83de5aea8aceda631f7de9c3d8c8a822dcdcd600feea0e83e40413c4d568bb36']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Preveza']), set(['Athens']))
+ipregion (set(['Ipeiros']), set(['Attiki']))
+browserfingerprint (set(['83de5aea8aceda631f7de9c3d8c8a822dcdcd600feea0e83e40413c4d568bb36']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['622251f0e61697898ec6d064c5e44daaae4bcd3140140109c096ef4fe9519347']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['622251f0e61697898ec6d064c5e44daaae4bcd3140140109c096ef4fe9519347']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cd8226add476338dc68b295fa0bde2d10e07fa2412483e8a1adca58098fbda43']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['1b45f72d78df21349f72e5b04c1dfd0e5f137c2d09ba252e17f0a04c51067028']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Athens']), set(['Afantou']))
+ipregion (set(['Attiki']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['dacd32787736df1d051c96b1c3eb9c4e0db2eea724508094eb32f570b0fafa8e']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Afantou']), set(['Athens']))
+ipregion (set(['Notio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['dacd32787736df1d051c96b1c3eb9c4e0db2eea724508094eb32f570b0fafa8e']), set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']))
+====================================
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+ipcity (set(['Athens']), set(['Pylaia']))
+ipregion (set(['Attiki']), set(['Kentriki', 'Makedonia']))
+browserfingerprint (set(['6ee63b0534ddb1950677039c543ae68d4f1752f74f023fe877e83d7cb35f3e19']), set(['d823ff9e29e940d29f04b55dfc55c7a1e125084a95fa0cfd3227be7c3c501aba']))
+====================================
+ipcity (set(['Pylaia']), set(['Athens']))
+ipregion (set(['Kentriki', 'Makedonia']), set(['Attiki']))
+browserfingerprint (set(['d823ff9e29e940d29f04b55dfc55c7a1e125084a95fa0cfd3227be7c3c501aba']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+ipcity (set(['Athens']), set(['Montreal']))
+ipregion (set(['Attiki']), set(['Quebec']))
+ipcountry (set(['Greece']), set(['Canada']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['eb20090095663b7359a2c245ac28ac83bb97a3761602b7ff84adfb5e8fc43379']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Montreal']), set(['Athens']))
+ipregion (set(['Quebec']), set(['Attiki']))
+ipcountry (set(['Canada']), set(['Greece']))
+browserfingerprint (set(['eb20090095663b7359a2c245ac28ac83bb97a3761602b7ff84adfb5e8fc43379']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Athens']), set(['Montreal']))
+ipregion (set(['Attiki']), set(['Quebec']))
+ipcountry (set(['Greece']), set(['Canada']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['eb20090095663b7359a2c245ac28ac83bb97a3761602b7ff84adfb5e8fc43379']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+ipcity (set(['Montreal']), set(['Athens']))
+ipregion (set(['Quebec']), set(['Attiki']))
+ipcountry (set(['Canada']), set(['Greece']))
+browserfingerprint (set(['eb20090095663b7359a2c245ac28ac83bb97a3761602b7ff84adfb5e8fc43379']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['3566958cda6c063d36b34fa9a6070aa3ed0fc75603d3024a9e8d5fcfc3f2f5af']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['3566958cda6c063d36b34fa9a6070aa3ed0fc75603d3024a9e8d5fcfc3f2f5af']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['3566958cda6c063d36b34fa9a6070aa3ed0fc75603d3024a9e8d5fcfc3f2f5af']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['3566958cda6c063d36b34fa9a6070aa3ed0fc75603d3024a9e8d5fcfc3f2f5af']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Athens']), set(['Volos']))
+ipregion (set(['Attiki']), set(['Thessalia']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['c2a62a5b3b79bd0c21ae3f87e36c8f74c7ec23851bb65c84f80729db85174c19']))
+====================================
+ipcity (set(['Volos']), set(['Irakleion']))
+ipregion (set(['Thessalia']), set(['Kriti']))
+browserfingerprint (set(['c2a62a5b3b79bd0c21ae3f87e36c8f74c7ec23851bb65c84f80729db85174c19']), set(['b98ecad7ed1dda516ffa671891b6dede3948582c5ff3c7937eb5ab07ba5b46a3']))
+====================================
+accept (set(['']), set(['*/*']))
+ipcity (set(['Irakleion']), set(['Athens']))
+ipregion (set(['Kriti']), set(['Attiki']))
+browserfingerprint (set(['b98ecad7ed1dda516ffa671891b6dede3948582c5ff3c7937eb5ab07ba5b46a3']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+ipcity (set(['Athens']), set(['Anatoli']))
+ipregion (set(['Attiki']), set(['Ipeiros']))
+browserfingerprint (set(['d5199867745aa425121bbc64e9332e090f0485f3b409b0c51306744be3e26dd8']), set(['aa3169d97c4552ea8beed16aa6217430ded01e67dac8441b5eff7ab074a47c2d']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Anatoli']), set(['Lardos']))
+ipregion (set(['Ipeiros']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['aa3169d97c4552ea8beed16aa6217430ded01e67dac8441b5eff7ab074a47c2d']), set(['390c6e2f6e9a09e9140aad63310f8642b15e4d2566aeb3e43c45ad539d266a37']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['390c6e2f6e9a09e9140aad63310f8642b15e4d2566aeb3e43c45ad539d266a37']), set(['b2f9e8331f6224078e8822f8dffa2811382239947c9db9536bcece6a87608571']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['b2f9e8331f6224078e8822f8dffa2811382239947c9db9536bcece6a87608571']), set(['67dd4331a28ff138921f39718b0a7603287606a2c8b4f8c152659e5a5688ce70']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['67dd4331a28ff138921f39718b0a7603287606a2c8b4f8c152659e5a5688ce70']), set(['390c6e2f6e9a09e9140aad63310f8642b15e4d2566aeb3e43c45ad539d266a37']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['390c6e2f6e9a09e9140aad63310f8642b15e4d2566aeb3e43c45ad539d266a37']), set(['27aed8aa2c3b0fbd7d5ec9e984eb47cf4a9696c1e33d5a1f2c60361157f6b162']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+ipcity (set(['Lardos']), set(['Athens']))
+ipregion (set(['Notio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['27aed8aa2c3b0fbd7d5ec9e984eb47cf4a9696c1e33d5a1f2c60361157f6b162']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+ipcity (set(['Athens']), set(['Rion']))
+ipregion (set(['Attiki']), set(['Ellada', 'Dytiki']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['30901f812cb05a2f65bb05d3c0a146e23592378b0d1afd0e03ebfd2ed26f01a0']))
+====================================
+ipcity (set(['Rion']), set(['Rodos']))
+ipregion (set(['Ellada', 'Dytiki']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['30901f812cb05a2f65bb05d3c0a146e23592378b0d1afd0e03ebfd2ed26f01a0']), set(['01a617517c2c066e9b96c67509f23c197d0234cffd6aaf46429dd640ab4837f2']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['01a617517c2c066e9b96c67509f23c197d0234cffd6aaf46429dd640ab4837f2']), set(['ac5b9bfb1a1c11f6bc868304d68f63f9152c9162c93bc0c72d7fc0f33258c11b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['ac5b9bfb1a1c11f6bc868304d68f63f9152c9162c93bc0c72d7fc0f33258c11b']), set(['01a617517c2c066e9b96c67509f23c197d0234cffd6aaf46429dd640ab4837f2']))
+====================================
+ipcity (set(['Rodos']), set(['Athens']))
+ipregion (set(['Notio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['01a617517c2c066e9b96c67509f23c197d0234cffd6aaf46429dd640ab4837f2']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+ipcity (set(['Athens']), set(['Kremasti']))
+ipregion (set(['Attiki']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']), set(['7eb780b77f54c7fae517db8d7e089427fa430e6f7a26cf167454fff02de34aef']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['7eb780b77f54c7fae517db8d7e089427fa430e6f7a26cf167454fff02de34aef']), set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']), set(['58a2051835d6d27fdb5c4712c098428e7686555119f3aa614e2c5cca07739116']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58a2051835d6d27fdb5c4712c098428e7686555119f3aa614e2c5cca07739116']), set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+ipcity (set(['Kremasti']), set(['Pyrgos']))
+ipregion (set(['Notio', 'Aigaio']), set(['Ellada', 'Dytiki']))
+browserfingerprint (set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']), set(['aebfbcc74e39958b08b0f415cc8220d2cac266255a6eac43b33907abf377f397']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['aebfbcc74e39958b08b0f415cc8220d2cac266255a6eac43b33907abf377f397']), set(['e11a5c8de501e82c6e9f37eb5de26db8fd24b6ba0aad2e8a9477b16f730fbe66']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Pyrgos']), set(['Athens']))
+ipregion (set(['Ellada', 'Dytiki']), set(['Attiki']))
+browserfingerprint (set(['e11a5c8de501e82c6e9f37eb5de26db8fd24b6ba0aad2e8a9477b16f730fbe66']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+ipcity (set(['Athens']), set(['Polichnitos']))
+ipregion (set(['Attiki']), set(['Voreio', 'Aigaio']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['d1af29d54b5e2acade0a025357e687f1e54edce856ca0fe033a8015a8a57b463']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['d1af29d54b5e2acade0a025357e687f1e54edce856ca0fe033a8015a8a57b463']), set(['befb1cb624835e1f87ba78c80244d29ec0d51a07faf51302241e8424882669be']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['befb1cb624835e1f87ba78c80244d29ec0d51a07faf51302241e8424882669be']), set(['d1af29d54b5e2acade0a025357e687f1e54edce856ca0fe033a8015a8a57b463']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['d1af29d54b5e2acade0a025357e687f1e54edce856ca0fe033a8015a8a57b463']), set(['befb1cb624835e1f87ba78c80244d29ec0d51a07faf51302241e8424882669be']))
+====================================
+ipcity (set(['Polichnitos']), set(['Athens']))
+ipregion (set(['Voreio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['befb1cb624835e1f87ba78c80244d29ec0d51a07faf51302241e8424882669be']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+ipcity (set(['Athens']), set(['Thermi']))
+ipregion (set(['Attiki']), set(['Kentriki', 'Makedonia']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['ad0f3632aedd58b51f52f3c07040fb9b6979eeaaeb09a0d63190599ce59d0c6f']))
+====================================
+ipcity (set(['Thermi']), set(['Amalias']))
+ipregion (set(['Kentriki', 'Makedonia']), set(['Ellada', 'Dytiki']))
+browserfingerprint (set(['ad0f3632aedd58b51f52f3c07040fb9b6979eeaaeb09a0d63190599ce59d0c6f']), set(['abf4cfd6ef7c11d93e0e241f6529db03e796c42d97d2113692a428e3cbcd7da1']))
+====================================
+ipcity (set(['Amalias']), set(['Lardos']))
+ipregion (set(['Ellada', 'Dytiki']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['abf4cfd6ef7c11d93e0e241f6529db03e796c42d97d2113692a428e3cbcd7da1']), set(['67dd4331a28ff138921f39718b0a7603287606a2c8b4f8c152659e5a5688ce70']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['67dd4331a28ff138921f39718b0a7603287606a2c8b4f8c152659e5a5688ce70']), set(['390c6e2f6e9a09e9140aad63310f8642b15e4d2566aeb3e43c45ad539d266a37']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Lardos']), set(['Athens']))
+ipregion (set(['Notio', 'Aigaio']), set(['Attiki']))
+browserfingerprint (set(['390c6e2f6e9a09e9140aad63310f8642b15e4d2566aeb3e43c45ad539d266a37']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['cbac9f463299f8f6adf6e4baa7ed99cd96c18a6efa3cc0765423d55d8c0d6934']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+ipcity (set(['Athens']), set(['Karditsa']))
+ipregion (set(['Attiki']), set(['Thessalia']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']), set(['96a299b290075faf462348e131d572ae297212c141e125600e9fce4ef7f22afc']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['96a299b290075faf462348e131d572ae297212c141e125600e9fce4ef7f22afc']), set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']), set(['c83833607fed4fd6694ba1bd7a00e92e1b5c2aaea0132b9f7a74265e02efa0d4']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['c83833607fed4fd6694ba1bd7a00e92e1b5c2aaea0132b9f7a74265e02efa0d4']), set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+ipcity (set(['Karditsa']), set(['Ziparion']))
+ipregion (set(['Thessalia']), set(['Notio', 'Aigaio']))
+browserfingerprint (set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']), set(['e00a3869f9fa242c2f3a1b3496d0d0fac85799cf1741b736a697bca6451966cd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+ipcity (set(['Ziparion']), set(['Chios']))
+ipregion (set(['Notio']), set(['Voreio']))
+browserfingerprint (set(['e00a3869f9fa242c2f3a1b3496d0d0fac85799cf1741b736a697bca6451966cd']), set(['b299246b8099ac78ff938c4c86ed7159be63b7ebe6919eb6709b204b2d1f5d5e']))
+====================================
+ipcity (set(['Chios']), set(['Karditsa']))
+ipregion (set(['Voreio', 'Aigaio']), set(['Thessalia']))
+browserfingerprint (set(['b299246b8099ac78ff938c4c86ed7159be63b7ebe6919eb6709b204b2d1f5d5e']), set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Karditsa']), set(['Preveza']))
+ipregion (set(['Thessalia']), set(['Ipeiros']))
+browserfingerprint (set(['e364f47bf77e53d571443ce62e333389783426c819aacecf536a9504c42daa6d']), set(['2bbb6463513d9e06a026c02987f5161ffa5a7b021aaaa99025fa141c0cd7eb22']))
+====================================
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+ipcity (set(['Preveza']), set(['Iraklion']))
+ipregion (set(['Ipeiros']), set(['Kriti']))
+browserfingerprint (set(['2bbb6463513d9e06a026c02987f5161ffa5a7b021aaaa99025fa141c0cd7eb22']), set(['d7f34af66bc7fa00e37974e6b3d21d6f39730e8c20092fd3606e3fe2be6ad9f4']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['d7f34af66bc7fa00e37974e6b3d21d6f39730e8c20092fd3606e3fe2be6ad9f4']), set(['c25c9621c104909d83ac9c4a3627ef227b5d93efd64e114e7250a3531b7800ba']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['c25c9621c104909d83ac9c4a3627ef227b5d93efd64e114e7250a3531b7800ba']), set(['d7f34af66bc7fa00e37974e6b3d21d6f39730e8c20092fd3606e3fe2be6ad9f4']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['d7f34af66bc7fa00e37974e6b3d21d6f39730e8c20092fd3606e3fe2be6ad9f4']), set(['c25c9621c104909d83ac9c4a3627ef227b5d93efd64e114e7250a3531b7800ba']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['c25c9621c104909d83ac9c4a3627ef227b5d93efd64e114e7250a3531b7800ba']), set(['c5eeddcddc980f95a4af81e8ecaa0f358837a2284e363d74a5c824bcc06c90a5']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c5eeddcddc980f95a4af81e8ecaa0f358837a2284e363d74a5c824bcc06c90a5']), set(['bb76f49421de1c5697ad661d7077aa668437170cd40a443615ea0e499d70acaa']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Iraklion']), set(['Irakleion']))
+browserfingerprint (set(['bb76f49421de1c5697ad661d7077aa668437170cd40a443615ea0e499d70acaa']), set(['b98ecad7ed1dda516ffa671891b6dede3948582c5ff3c7937eb5ab07ba5b46a3']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['b98ecad7ed1dda516ffa671891b6dede3948582c5ff3c7937eb5ab07ba5b46a3']), set(['556edec36d99b11a5645e49c21c67578aa8d834981d2544edc1f585fdff39e67']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['556edec36d99b11a5645e49c21c67578aa8d834981d2544edc1f585fdff39e67']), set(['94e640fc5d67d82af4c266eb79ac12edbbf46e7b7788af5ca960f3e054e66fa5']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Irakleion']), set(['Athens']))
+ipregion (set(['Kriti']), set(['Attiki']))
+browserfingerprint (set(['94e640fc5d67d82af4c266eb79ac12edbbf46e7b7788af5ca960f3e054e66fa5']), set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']))
+====================================
+ipcity (set(['Athens']), set(['Beauharnois']))
+ipregion (set(['Attiki']), set(['Quebec']))
+ipcountry (set(['Greece']), set(['Canada']))
+browserfingerprint (set(['b27e1ae8669a77d5d161b46a62a87e45a591ab324e3c4de372823b087dbc8c13']), set(['3d676cc2ff9a51058cbb141e728b84cb3c90b01649b3411f02c6f102c9a547b3']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['3d676cc2ff9a51058cbb141e728b84cb3c90b01649b3411f02c6f102c9a547b3']), set(['8efa9cdcd4ed7f7779445080ca5d3bd4c4958a9c46431e17ed8fc7b211e095c5']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['8efa9cdcd4ed7f7779445080ca5d3bd4c4958a9c46431e17ed8fc7b211e095c5']), set(['63dc73b1fe2973c740a94f4d37e38f50391112e9dda3082d8ea31452dc99e730']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['63dc73b1fe2973c740a94f4d37e38f50391112e9dda3082d8ea31452dc99e730']), set(['3d676cc2ff9a51058cbb141e728b84cb3c90b01649b3411f02c6f102c9a547b3']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['3d676cc2ff9a51058cbb141e728b84cb3c90b01649b3411f02c6f102c9a547b3']), set(['63dc73b1fe2973c740a94f4d37e38f50391112e9dda3082d8ea31452dc99e730']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1.34999990463']), set(['1.5']))
+browserfingerprint (set(['63dc73b1fe2973c740a94f4d37e38f50391112e9dda3082d8ea31452dc99e730']), set(['3d676cc2ff9a51058cbb141e728b84cb3c90b01649b3411f02c6f102c9a547b3']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['1.5']), set(['1.34999990463']))
+browserfingerprint (set(['3d676cc2ff9a51058cbb141e728b84cb3c90b01649b3411f02c6f102c9a547b3']), set(['63dc73b1fe2973c740a94f4d37e38f50391112e9dda3082d8ea31452dc99e730']))
+====================================
+ipcity (set(['Beauharnois']), set(['Kremasti']))
+ipregion (set(['Quebec']), set(['Notio', 'Aigaio']))
+ipcountry (set(['Canada']), set(['Greece']))
+browserfingerprint (set(['63dc73b1fe2973c740a94f4d37e38f50391112e9dda3082d8ea31452dc99e730']), set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['7dacaec084bcbc129fce87f1bd4b644c734b1c5458ee7a69975e95cdd8448d49']), set(['58a2051835d6d27fdb5c4712c098428e7686555119f3aa614e2c5cca07739116']))
+====================================

@@ -1,0 +1,355 @@
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Diliman']))
+browserfingerprint (set(['a7b5bd59dbcbe25c05e1d5ca73b1d61da3ac813885c7653729a0a5df1b10ef13']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['ce9dd77df2fcee79b82b301c41893b2591784178e00a0cb13e45badc5e2e6c17']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['ce9dd77df2fcee79b82b301c41893b2591784178e00a0cb13e45badc5e2e6c17']), set(['dfbab8752932a9f139c952ace36e9e0c9add0ccce7870818af55b1b52654b7af']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['dfbab8752932a9f139c952ace36e9e0c9add0ccce7870818af55b1b52654b7af']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['ce9dd77df2fcee79b82b301c41893b2591784178e00a0cb13e45badc5e2e6c17']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['ce9dd77df2fcee79b82b301c41893b2591784178e00a0cb13e45badc5e2e6c17']), set(['dfbab8752932a9f139c952ace36e9e0c9add0ccce7870818af55b1b52654b7af']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['dfbab8752932a9f139c952ace36e9e0c9add0ccce7870818af55b1b52654b7af']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['68fdd05a2ec6af2d7d96d6460eceedfe22e13a0da2f78806d75837874b762b2b']), set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Diliman']), set(['Jose', 'Monte', 'del', 'San']))
+browserfingerprint (set(['58ec0add8b3e28897d4df054787adcb76f5b228551900fc1f143163a4897e40e']), set(['a7b5bd59dbcbe25c05e1d5ca73b1d61da3ac813885c7653729a0a5df1b10ef13']))
+====================================
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Malolos']))
+browserfingerprint (set(['a7b5bd59dbcbe25c05e1d5ca73b1d61da3ac813885c7653729a0a5df1b10ef13']), set(['2ef2657b1189ee2df47f491c288e6c0f8adedaa3f08fcdff8f436eb4eaf69e25']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['2ef2657b1189ee2df47f491c288e6c0f8adedaa3f08fcdff8f436eb4eaf69e25']), set(['2e2396bb2d5185f539621c21a8f08e2cae57737bf0bc85923da38bfb8c8d4d43']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2e2396bb2d5185f539621c21a8f08e2cae57737bf0bc85923da38bfb8c8d4d43']), set(['2ef2657b1189ee2df47f491c288e6c0f8adedaa3f08fcdff8f436eb4eaf69e25']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['2ef2657b1189ee2df47f491c288e6c0f8adedaa3f08fcdff8f436eb4eaf69e25']), set(['2e2396bb2d5185f539621c21a8f08e2cae57737bf0bc85923da38bfb8c8d4d43']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['2e2396bb2d5185f539621c21a8f08e2cae57737bf0bc85923da38bfb8c8d4d43']), set(['2ef2657b1189ee2df47f491c288e6c0f8adedaa3f08fcdff8f436eb4eaf69e25']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['2ef2657b1189ee2df47f491c288e6c0f8adedaa3f08fcdff8f436eb4eaf69e25']), set(['ebe3ff2c56cddd2d7b136cc9aa0a7d581203be811f9ed0d48d50a127e363c55f']))
+====================================
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+plugins (set(['Shockwave Flash']), set([]))
+gpuimgs (set(['0_3a89d4db411aae74128eab8046c07ff887ffef18']), set(['0_0b5b8705237da08b21d9ecf13d496574f391a76e']))
+ipcity (set(['Malolos']), set(['Diliman']))
+browserfingerprint (set(['ebe3ff2c56cddd2d7b136cc9aa0a7d581203be811f9ed0d48d50a127e363c55f']), set(['d1492cfa9584ba673db55f621f07c0ebe7633d7d9d6df1e1debd4b1b75e0cf33']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['d1492cfa9584ba673db55f621f07c0ebe7633d7d9d6df1e1debd4b1b75e0cf33']), set(['deb908ec45c5144cb9a8e69989b5561ee1483d037a4fb3a72350a9895cd3b843']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['deb908ec45c5144cb9a8e69989b5561ee1483d037a4fb3a72350a9895cd3b843']), set(['d1492cfa9584ba673db55f621f07c0ebe7633d7d9d6df1e1debd4b1b75e0cf33']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['d1492cfa9584ba673db55f621f07c0ebe7633d7d9d6df1e1debd4b1b75e0cf33']), set(['deb908ec45c5144cb9a8e69989b5561ee1483d037a4fb3a72350a9895cd3b843']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Diliman']), set(['Baguio']))
+ipregion (set(['Bulacan']), set(['Benguet']))
+browserfingerprint (set(['deb908ec45c5144cb9a8e69989b5561ee1483d037a4fb3a72350a9895cd3b843']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Baguio']), set(['Bacnar']))
+ipregion (set(['Benguet']), set(['Pangasinan']))
+browserfingerprint (set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']), set(['1310b3983125d49acbdc32aa83b770b483fd6fc71b79355e5f32c4dbba887dea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['1310b3983125d49acbdc32aa83b770b483fd6fc71b79355e5f32c4dbba887dea']), set(['65d03a5e5a76f745be10dcf1719e364e1c8aed0d70cec7d48f9bfe49a39cc4bd']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['65d03a5e5a76f745be10dcf1719e364e1c8aed0d70cec7d48f9bfe49a39cc4bd']), set(['1310b3983125d49acbdc32aa83b770b483fd6fc71b79355e5f32c4dbba887dea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['1310b3983125d49acbdc32aa83b770b483fd6fc71b79355e5f32c4dbba887dea']), set(['65d03a5e5a76f745be10dcf1719e364e1c8aed0d70cec7d48f9bfe49a39cc4bd']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['65d03a5e5a76f745be10dcf1719e364e1c8aed0d70cec7d48f9bfe49a39cc4bd']), set(['1310b3983125d49acbdc32aa83b770b483fd6fc71b79355e5f32c4dbba887dea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['1310b3983125d49acbdc32aa83b770b483fd6fc71b79355e5f32c4dbba887dea']), set(['65d03a5e5a76f745be10dcf1719e364e1c8aed0d70cec7d48f9bfe49a39cc4bd']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Bacnar']), set(['Baguio']))
+ipregion (set(['Pangasinan']), set(['Benguet']))
+browserfingerprint (set(['65d03a5e5a76f745be10dcf1719e364e1c8aed0d70cec7d48f9bfe49a39cc4bd']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']), set(['8ae47c1bf6c46c79b5babb69f801fd3e106a2d21474f088126d21b7a97d70a23']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['8ae47c1bf6c46c79b5babb69f801fd3e106a2d21474f088126d21b7a97d70a23']), set(['6002287488b7f521daf32f99d3c30512d8eac82b037ea458a9bbbbf2af5beafb']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6002287488b7f521daf32f99d3c30512d8eac82b037ea458a9bbbbf2af5beafb']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['d0a1000ead727255d04f6539202a1dc92018ea41e51b91b36ec10cc7dca799c5']), set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']))
+====================================
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ipcity (set(['Baguio']), set(['Diliman']))
+ipregion (set(['Benguet']), set(['Bulacan']))
+browserfingerprint (set(['be9e20a859cfeeedc02daf7c311f047ace533e8c345d482826652a2fd0ad57ea']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+ipcity (set(['Diliman']), set(['Jose', 'Monte', 'del', 'San']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']), set(['4570a705cb59b7d2b3f254463bd955768fc259140bb86559dbb43a25d0708a67']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['4570a705cb59b7d2b3f254463bd955768fc259140bb86559dbb43a25d0708a67']), set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']), set(['4570a705cb59b7d2b3f254463bd955768fc259140bb86559dbb43a25d0708a67']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['4570a705cb59b7d2b3f254463bd955768fc259140bb86559dbb43a25d0708a67']), set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']), set(['46e37d9e1f68dc1cc9b1170afb1b341fcd4d800e3e6d0cc42ca0aca6c541c1a5']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Diliman']))
+browserfingerprint (set(['46e37d9e1f68dc1cc9b1170afb1b341fcd4d800e3e6d0cc42ca0aca6c541c1a5']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['e757bb4e591f0c8029ae8284db91395363f1abee2defc89804d7302eeb94eaff']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e757bb4e591f0c8029ae8284db91395363f1abee2defc89804d7302eeb94eaff']), set(['dff7e087bcf4a5572e042fcafa5bdba756704dbab761074a0c5ae289252b36be']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['dff7e087bcf4a5572e042fcafa5bdba756704dbab761074a0c5ae289252b36be']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['e757bb4e591f0c8029ae8284db91395363f1abee2defc89804d7302eeb94eaff']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['e757bb4e591f0c8029ae8284db91395363f1abee2defc89804d7302eeb94eaff']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['e757bb4e591f0c8029ae8284db91395363f1abee2defc89804d7302eeb94eaff']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['e757bb4e591f0c8029ae8284db91395363f1abee2defc89804d7302eeb94eaff']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5605bebb4be3eb34483f0f6629b7c79bfda100acf8faf88b0685aa4d0982ba38']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Diliman']), set(['Bacnar']))
+ipregion (set(['Bulacan']), set(['Pangasinan']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['3901195c5a652fcf8b7f9fb0dece33c1010f5f66f9eadbde2738b32193dc2223']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Bacnar']), set(['Jose', 'Monte', 'del', 'San']))
+ipregion (set(['Pangasinan']), set(['Bulacan']))
+browserfingerprint (set(['3901195c5a652fcf8b7f9fb0dece33c1010f5f66f9eadbde2738b32193dc2223']), set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']))
+====================================
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Diliman']))
+browserfingerprint (set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']), set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']))
+====================================
+accept (set(['']), set(['*/*']))
+ipcity (set(['Diliman']), set(['Bacnar']))
+ipregion (set(['Bulacan']), set(['Pangasinan']))
+browserfingerprint (set(['af1fed91a9a6239e464bd287f668626412f81c401319635dd17bf041461dab52']), set(['c8140c33cdcb2ea714aad3e054baa5f9ea339c65d753cd7abc669781503c01bb']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['c8140c33cdcb2ea714aad3e054baa5f9ea339c65d753cd7abc669781503c01bb']), set(['3901195c5a652fcf8b7f9fb0dece33c1010f5f66f9eadbde2738b32193dc2223']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['3901195c5a652fcf8b7f9fb0dece33c1010f5f66f9eadbde2738b32193dc2223']), set(['c8140c33cdcb2ea714aad3e054baa5f9ea339c65d753cd7abc669781503c01bb']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['c8140c33cdcb2ea714aad3e054baa5f9ea339c65d753cd7abc669781503c01bb']), set(['075550de02902e336bf1e98b0f6f0671956158360c76412d422383f91784d5c4']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['075550de02902e336bf1e98b0f6f0671956158360c76412d422383f91784d5c4']), set(['c8140c33cdcb2ea714aad3e054baa5f9ea339c65d753cd7abc669781503c01bb']))
+====================================
+ipcity (set(['Bacnar']), set(['Jose', 'Monte', 'del', 'San']))
+ipregion (set(['Pangasinan']), set(['Bulacan']))
+browserfingerprint (set(['c8140c33cdcb2ea714aad3e054baa5f9ea339c65d753cd7abc669781503c01bb']), set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Malolos']))
+browserfingerprint (set(['9f906346685c836de4200f51da092dc2f990c2dc462aefd1c9b64331c54bbd69']), set(['10fff0516b4e49b18e4aa9707cdab89f1065233c5dd95171da56c8b32a96c1ce']))
+====================================
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.140']))
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Malolos']), set(['Bacnar']))
+ipregion (set(['Bulacan']), set(['Pangasinan']))
+browserfingerprint (set(['10fff0516b4e49b18e4aa9707cdab89f1065233c5dd95171da56c8b32a96c1ce']), set(['30b6526cb041ba93bd738829ab0a6f6967fd0fd69fff984c1af95e2c31ccbfc4']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['30b6526cb041ba93bd738829ab0a6f6967fd0fd69fff984c1af95e2c31ccbfc4']), set(['c937109ad26a5d9bff2806a73df289e38706e0ef9267041704161d79324e8237']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['c937109ad26a5d9bff2806a73df289e38706e0ef9267041704161d79324e8237']), set(['30b6526cb041ba93bd738829ab0a6f6967fd0fd69fff984c1af95e2c31ccbfc4']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['30b6526cb041ba93bd738829ab0a6f6967fd0fd69fff984c1af95e2c31ccbfc4']), set(['c937109ad26a5d9bff2806a73df289e38706e0ef9267041704161d79324e8237']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Bacnar']), set(['Jose', 'Monte', 'del', 'San']))
+ipregion (set(['Pangasinan']), set(['Bulacan']))
+browserfingerprint (set(['c937109ad26a5d9bff2806a73df289e38706e0ef9267041704161d79324e8237']), set(['1244978f7f7761925a5dbcf622d5b8076c77669634611349605b344156ed5535']))
+====================================
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Malolos']))
+browserfingerprint (set(['1244978f7f7761925a5dbcf622d5b8076c77669634611349605b344156ed5535']), set(['b5a2fe1f11500ea84e7022582a4329e340152f61c9bf398dc84c065c8a7000b8']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b5a2fe1f11500ea84e7022582a4329e340152f61c9bf398dc84c065c8a7000b8']), set(['431f8d36851733d73abf937a86c9060b24189bf3f8accbdd85fa74c18e24c178']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Malolos']), set(['Jose', 'Monte', 'del', 'San']))
+browserfingerprint (set(['431f8d36851733d73abf937a86c9060b24189bf3f8accbdd85fa74c18e24c178']), set(['1244978f7f7761925a5dbcf622d5b8076c77669634611349605b344156ed5535']))
+====================================
+agent (set(['Chrome/64.0.3282.140']), set(['Chrome/64.0.3282.167']))
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Jose', 'Monte', 'del', 'San']), set(['Diliman']))
+browserfingerprint (set(['1244978f7f7761925a5dbcf622d5b8076c77669634611349605b344156ed5535']), set(['18c3f8fe5b259621f47a5fce30c68aa6e70af3f2c211d8f6b28b1528ef26ca56']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['18c3f8fe5b259621f47a5fce30c68aa6e70af3f2c211d8f6b28b1528ef26ca56']), set(['542154c189cff22da29011c1773240212fe515fbdbb001e1d1a8d3d49484445c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Diliman']), set(['Bacnar']))
+ipregion (set(['Bulacan']), set(['Pangasinan']))
+browserfingerprint (set(['542154c189cff22da29011c1773240212fe515fbdbb001e1d1a8d3d49484445c']), set(['4ba11bf866b5ea6c7bd7d631ce83befee651db0d3fd4228c9f27400391ad6ce9']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['4ba11bf866b5ea6c7bd7d631ce83befee651db0d3fd4228c9f27400391ad6ce9']), set(['ab14f2c29690c95b4f39176b42dd0068291063d910391424b9de755d175c77f5']))
+====================================
