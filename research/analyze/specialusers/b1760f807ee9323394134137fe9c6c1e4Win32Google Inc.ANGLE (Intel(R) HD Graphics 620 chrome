@@ -1,0 +1,310 @@
+ipcity (set(['Pune']), set(['Nandura']))
+browserfingerprint (set(['553a007d51f1db64a4ec158ca6e5f029945ae691cb2d7308e5fdc8cf3a32e7d8']), set(['a8b3b1f2e1dfe05c35b9896a37d4f1b0c1e3530b077308c5b208ca660b20eb49']))
+====================================
+ipcity (set(['Nandura']), set(['Hyderabad']))
+ipregion (set(['Maharashtra']), set(['Telangana']))
+browserfingerprint (set(['a8b3b1f2e1dfe05c35b9896a37d4f1b0c1e3530b077308c5b208ca660b20eb49']), set(['4d5cb890c3e0968194d8ae82dea8df0239b590f96d0512ec51841a9386b1e766']))
+====================================
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ipcity (set(['Hyderabad']), set(['Pune']))
+ipregion (set(['Telangana']), set(['Maharashtra']))
+browserfingerprint (set(['4d5cb890c3e0968194d8ae82dea8df0239b590f96d0512ec51841a9386b1e766']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Shrigonda']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['7bd156461572879aba08ef41fc6cc316d771d493cbf2b5f4f77f627c874def32']))
+====================================
+ipcity (set(['Shrigonda']), set(['Pune']))
+browserfingerprint (set(['7bd156461572879aba08ef41fc6cc316d771d493cbf2b5f4f77f627c874def32']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Nandurbar']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['7f3e0269226ef1ad8951ed947eaa781ed0fa273a6dc1415ea087472d5b959a9a']))
+====================================
+ipcity (set(['Nandurbar']), set(['Wardha']))
+browserfingerprint (set(['7f3e0269226ef1ad8951ed947eaa781ed0fa273a6dc1415ea087472d5b959a9a']), set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']))
+====================================
+ipcity (set(['Wardha']), set(['Hyderabad']))
+ipregion (set(['Maharashtra']), set(['Telangana']))
+browserfingerprint (set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']), set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']))
+====================================
+ipcity (set(['Hyderabad']), set(['Raia']))
+ipregion (set(['Telangana']), set(['Goa']))
+browserfingerprint (set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']), set(['cb3b8b4e18d34af5b5c077c5003efa653e4345a1acde8ba1202d839660338572']))
+====================================
+ipcity (set(['Raia']), set(['Bhusawal']))
+ipregion (set(['Goa']), set(['Maharashtra']))
+browserfingerprint (set(['cb3b8b4e18d34af5b5c077c5003efa653e4345a1acde8ba1202d839660338572']), set(['d00770bc777e50f16bd764f044d642e5f766d3866eedad2824ad1833d7f7bf35']))
+====================================
+ipcity (set(['Bhusawal']), set(['Sangli']))
+browserfingerprint (set(['d00770bc777e50f16bd764f044d642e5f766d3866eedad2824ad1833d7f7bf35']), set(['273badd8821d1b6d0f79b4faeb474c6a9457dec32b00bd260c4b823b29465699']))
+====================================
+ipcity (set(['Sangli']), set(['Pune']))
+browserfingerprint (set(['273badd8821d1b6d0f79b4faeb474c6a9457dec32b00bd260c4b823b29465699']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Pipri']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['4aceda8024c8e576629f3a68587358526ee54d5e3330760518f046bd92a73c1c']))
+====================================
+ipcity (set(['Pipri']), set(['Hyderabad']))
+ipregion (set(['Maharashtra']), set(['Telangana']))
+browserfingerprint (set(['4aceda8024c8e576629f3a68587358526ee54d5e3330760518f046bd92a73c1c']), set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']))
+====================================
+ipcity (set(['Hyderabad']), set(['Latur']))
+ipregion (set(['Telangana']), set(['Maharashtra']))
+browserfingerprint (set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']), set(['b9f8cb9097f877e20a0e3f4cb54cffaef2ae02510bb2f172cf9aae62a89b0998']))
+====================================
+ipcity (set(['Latur']), set(['Pune']))
+browserfingerprint (set(['b9f8cb9097f877e20a0e3f4cb54cffaef2ae02510bb2f172cf9aae62a89b0998']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Shrigonda']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['7bd156461572879aba08ef41fc6cc316d771d493cbf2b5f4f77f627c874def32']))
+====================================
+ipcity (set(['Shrigonda']), set(['Pune']))
+browserfingerprint (set(['7bd156461572879aba08ef41fc6cc316d771d493cbf2b5f4f77f627c874def32']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Nagpur']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['5a17452d8adfa25a7844a4971c42c48c3fe9df5b0715133ed8bf8fcf31e6b39b']))
+====================================
+accept (set(['']), set(['*/*']))
+ipcity (set(['Nagpur']), set(['Madhubani']))
+ipregion (set(['Maharashtra']), set(['Bihar']))
+browserfingerprint (set(['5a17452d8adfa25a7844a4971c42c48c3fe9df5b0715133ed8bf8fcf31e6b39b']), set(['a81985032b96e1a5c148adad05e1d175a6da3ef8312ab0ee5874e6ec529a7bbe']))
+====================================
+ipcity (set(['Madhubani']), set(['Hyderabad']))
+ipregion (set(['Bihar']), set(['Telangana']))
+browserfingerprint (set(['a81985032b96e1a5c148adad05e1d175a6da3ef8312ab0ee5874e6ec529a7bbe']), set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']))
+====================================
+ipcity (set(['Hyderabad']), set(['Trimbak']))
+ipregion (set(['Telangana']), set(['Maharashtra']))
+browserfingerprint (set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']), set(['51697e7df0350cde30b4844e79dac92b652853de8fbc36861c2a0ff6f18cd77c']))
+====================================
+ipcity (set(['Trimbak']), set(['Wardha']))
+browserfingerprint (set(['51697e7df0350cde30b4844e79dac92b652853de8fbc36861c2a0ff6f18cd77c']), set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']))
+====================================
+ipcity (set(['Wardha']), set(['Hyderabad']))
+ipregion (set(['Maharashtra']), set(['Telangana']))
+browserfingerprint (set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']), set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']))
+====================================
+ipcity (set(['Hyderabad']), set(['Pune']))
+ipregion (set(['Telangana']), set(['Maharashtra']))
+browserfingerprint (set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Badlapur']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['3594d816865024856e3432d168e70ce38bfef802227be3d73669f32bac961017']))
+====================================
+ipcity (set(['Badlapur']), set(['Solapur']))
+browserfingerprint (set(['3594d816865024856e3432d168e70ce38bfef802227be3d73669f32bac961017']), set(['5be438260e058990bd31971ef91341d3cf3c3abf370a8ca69d1f76dbc4d8f549']))
+====================================
+ipcity (set(['Solapur']), set(['Wardha']))
+browserfingerprint (set(['5be438260e058990bd31971ef91341d3cf3c3abf370a8ca69d1f76dbc4d8f549']), set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']))
+====================================
+ipcity (set(['Wardha']), set(['Solapur']))
+browserfingerprint (set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']), set(['5be438260e058990bd31971ef91341d3cf3c3abf370a8ca69d1f76dbc4d8f549']))
+====================================
+ipcity (set(['Solapur']), set(['Mumbai']))
+browserfingerprint (set(['5be438260e058990bd31971ef91341d3cf3c3abf370a8ca69d1f76dbc4d8f549']), set(['05129dc9906f1bba4e1a51726200a25d515d487ab4f6cd326745b922c22be296']))
+====================================
+ipcity (set(['Mumbai']), set(['Pune']))
+browserfingerprint (set(['05129dc9906f1bba4e1a51726200a25d515d487ab4f6cd326745b922c22be296']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Chandrapur']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['04f1cb2c99be0512872f3f4c6ac185f56a0a19f1abc27a7bbfdb354335c0628c']))
+====================================
+ipcity (set(['Chandrapur']), set(['Ratnagiri']))
+browserfingerprint (set(['04f1cb2c99be0512872f3f4c6ac185f56a0a19f1abc27a7bbfdb354335c0628c']), set(['1560b4f4d7a6d204e6c326c753d5be65e31f5687b6e1f73d595c718bb531aced']))
+====================================
+ipcity (set(['Ratnagiri']), set(['Wardha']))
+browserfingerprint (set(['1560b4f4d7a6d204e6c326c753d5be65e31f5687b6e1f73d595c718bb531aced']), set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']))
+====================================
+ipcity (set(['Wardha']), set(['Solapur']))
+browserfingerprint (set(['26b0710f32b79d4ccd4213128aaad0fd59cf96037b5c5da0594f3c382c13e53d']), set(['5be438260e058990bd31971ef91341d3cf3c3abf370a8ca69d1f76dbc4d8f549']))
+====================================
+ipcity (set(['Solapur']), set(['Kolhapur']))
+browserfingerprint (set(['5be438260e058990bd31971ef91341d3cf3c3abf370a8ca69d1f76dbc4d8f549']), set(['36cc66abcfd84a56dc20e152771944202b9e5f57655837d5f8c59710e2270e68']))
+====================================
+ipcity (set(['Kolhapur']), set(['Daryapur']))
+browserfingerprint (set(['36cc66abcfd84a56dc20e152771944202b9e5f57655837d5f8c59710e2270e68']), set(['20619cc1e7b035c0b8bfa8e43def7dfab028543646e861f303fdd1a59d1ec4dc']))
+====================================
+ipcity (set(['Daryapur']), set(['Badlapur']))
+browserfingerprint (set(['20619cc1e7b035c0b8bfa8e43def7dfab028543646e861f303fdd1a59d1ec4dc']), set(['3594d816865024856e3432d168e70ce38bfef802227be3d73669f32bac961017']))
+====================================
+ipcity (set(['Badlapur']), set(['Ambajogai']))
+browserfingerprint (set(['3594d816865024856e3432d168e70ce38bfef802227be3d73669f32bac961017']), set(['391e6df6c204ac4db89ad69f21d99af8f19082898668f3013e91e619b9a9d8e7']))
+====================================
+ipcity (set(['Ambajogai']), set(['Pune']))
+browserfingerprint (set(['391e6df6c204ac4db89ad69f21d99af8f19082898668f3013e91e619b9a9d8e7']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Mumbai']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['05129dc9906f1bba4e1a51726200a25d515d487ab4f6cd326745b922c22be296']))
+====================================
+ipcity (set(['Mumbai']), set(['Badlapur']))
+browserfingerprint (set(['05129dc9906f1bba4e1a51726200a25d515d487ab4f6cd326745b922c22be296']), set(['3594d816865024856e3432d168e70ce38bfef802227be3d73669f32bac961017']))
+====================================
+ipcity (set(['Badlapur']), set(['Paithan']))
+browserfingerprint (set(['3594d816865024856e3432d168e70ce38bfef802227be3d73669f32bac961017']), set(['82200f41fc0df5d012a50ebb202d8ddc26c274608a521474f286a974cc3198f2']))
+====================================
+ipcity (set(['Paithan']), set(['Pune']))
+browserfingerprint (set(['82200f41fc0df5d012a50ebb202d8ddc26c274608a521474f286a974cc3198f2']), set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']))
+====================================
+ipcity (set(['Pune']), set(['Nagpur']))
+browserfingerprint (set(['30a74f666d8f66e4d3304b4dadd00f82e731886fef16cef686e7d94dedbf440d']), set(['5a17452d8adfa25a7844a4971c42c48c3fe9df5b0715133ed8bf8fcf31e6b39b']))
+====================================
+ipcity (set(['Nagpur']), set(['Mumbai']))
+browserfingerprint (set(['5a17452d8adfa25a7844a4971c42c48c3fe9df5b0715133ed8bf8fcf31e6b39b']), set(['05129dc9906f1bba4e1a51726200a25d515d487ab4f6cd326745b922c22be296']))
+====================================
+ipcity (set(['Mumbai']), set(['Hyderabad']))
+ipregion (set(['Maharashtra']), set(['Telangana']))
+browserfingerprint (set(['05129dc9906f1bba4e1a51726200a25d515d487ab4f6cd326745b922c22be296']), set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']))
+====================================
+ipcity (set(['Hyderabad']), set(['Nagpur']))
+ipregion (set(['Telangana']), set(['Maharashtra']))
+browserfingerprint (set(['711bef3ec040e849cd3dd01f4d2855364cdaa8724b5dd2e601ab92eee02fddec']), set(['5a17452d8adfa25a7844a4971c42c48c3fe9df5b0715133ed8bf8fcf31e6b39b']))
+====================================
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.140']))
+ipcity (set(['Nagpur']), set(['Pune']))
+browserfingerprint (set(['5a17452d8adfa25a7844a4971c42c48c3fe9df5b0715133ed8bf8fcf31e6b39b']), set(['cb2606ac33774c288d5d307e2fdd5697d79b196e47fba4d0e6f86b3181bb6277']))
+====================================
+ipcity (set(['Pune']), set(['Chandrapur']))
+browserfingerprint (set(['cb2606ac33774c288d5d307e2fdd5697d79b196e47fba4d0e6f86b3181bb6277']), set(['e620a41945ec46ea6f0d44ce9e2920cae290afe14c1b0daee92eed8b2f32a255']))
+====================================
+ipcity (set(['Chandrapur']), set(['Wardha']))
+browserfingerprint (set(['e620a41945ec46ea6f0d44ce9e2920cae290afe14c1b0daee92eed8b2f32a255']), set(['7330c8aa1318aeff4b3a6ff5085ce8511050722f3382d4958c74df425be4852b']))
+====================================
+ipcity (set(['Wardha']), set(['Pune']))
+browserfingerprint (set(['7330c8aa1318aeff4b3a6ff5085ce8511050722f3382d4958c74df425be4852b']), set(['cb2606ac33774c288d5d307e2fdd5697d79b196e47fba4d0e6f86b3181bb6277']))
+====================================
+ipcity (set(['Pune']), set(['Anjangaon']))
+browserfingerprint (set(['cb2606ac33774c288d5d307e2fdd5697d79b196e47fba4d0e6f86b3181bb6277']), set(['84a0cd5484e1e8abacf4c03f09cdc113377d41360dec645effce54720a586ed8']))
+====================================
+ipcity (set(['Anjangaon']), set(['Wardha']))
+browserfingerprint (set(['84a0cd5484e1e8abacf4c03f09cdc113377d41360dec645effce54720a586ed8']), set(['7330c8aa1318aeff4b3a6ff5085ce8511050722f3382d4958c74df425be4852b']))
+====================================
+ipcity (set(['Wardha']), set(['Ahmadpur']))
+browserfingerprint (set(['7330c8aa1318aeff4b3a6ff5085ce8511050722f3382d4958c74df425be4852b']), set(['335743f5cde00c2730627767f37ce12ab86d679efe44cd1c20760e9aa2353a77']))
+====================================
+ipcity (set(['Ahmadpur']), set(['Delhi']))
+ipregion (set(['Maharashtra']), set(['Delhi']))
+browserfingerprint (set(['335743f5cde00c2730627767f37ce12ab86d679efe44cd1c20760e9aa2353a77']), set(['bd0c915cf49f046c4d08e6141502024e86a61b49f73e75466a040370148d4159']))
+====================================
+ipcity (set(['Delhi']), set(['Kolkata']))
+ipregion (set(['Delhi']), set(['West', 'Bengal']))
+browserfingerprint (set(['bd0c915cf49f046c4d08e6141502024e86a61b49f73e75466a040370148d4159']), set(['8e68853ba775471b21aaa43446c58a9acc8b05fd95a18696c25f7b75d6e5262c']))
+====================================
+ipcity (set(['Kolkata']), set(['Nagpur']))
+ipregion (set(['West', 'Bengal']), set(['Maharashtra']))
+browserfingerprint (set(['8e68853ba775471b21aaa43446c58a9acc8b05fd95a18696c25f7b75d6e5262c']), set(['94afef7e1d47e07c6d0103e164fa3638620783338e8ec760be81832ed35c3e6f']))
+====================================
+agent (set(['Chrome/64.0.3282.140']), set(['Chrome/64.0.3282.167']))
+ipcity (set(['Nagpur']), set(['Kuchera']))
+ipregion (set(['Maharashtra']), set(['Rajasthan']))
+browserfingerprint (set(['94afef7e1d47e07c6d0103e164fa3638620783338e8ec760be81832ed35c3e6f']), set(['d52bbc473715f4bec41502498d242f42ab44066d01e5ae4b165d3cebdbc8ba1f']))
+====================================
+ipcity (set(['Kuchera']), set(['Pune']))
+ipregion (set(['Rajasthan']), set(['Maharashtra']))
+browserfingerprint (set(['d52bbc473715f4bec41502498d242f42ab44066d01e5ae4b165d3cebdbc8ba1f']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Kuchera']))
+ipregion (set(['Maharashtra']), set(['Rajasthan']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['d52bbc473715f4bec41502498d242f42ab44066d01e5ae4b165d3cebdbc8ba1f']))
+====================================
+ipcity (set(['Kuchera']), set(['Mumbai']))
+ipregion (set(['Rajasthan']), set(['Maharashtra']))
+browserfingerprint (set(['d52bbc473715f4bec41502498d242f42ab44066d01e5ae4b165d3cebdbc8ba1f']), set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']))
+====================================
+ipcity (set(['Mumbai']), set(['Ahmadpur']))
+browserfingerprint (set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']), set(['6224ec77e3977753c61f80117fb782db79b83e320e518fe8acc0c056f198df2d']))
+====================================
+ipcity (set(['Ahmadpur']), set(['Pune']))
+browserfingerprint (set(['6224ec77e3977753c61f80117fb782db79b83e320e518fe8acc0c056f198df2d']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Mumbai']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']))
+====================================
+ipcity (set(['Mumbai']), set(['Kuchera']))
+ipregion (set(['Maharashtra']), set(['Rajasthan']))
+browserfingerprint (set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']), set(['d52bbc473715f4bec41502498d242f42ab44066d01e5ae4b165d3cebdbc8ba1f']))
+====================================
+ipcity (set(['Kuchera']), set(['Mumbai']))
+ipregion (set(['Rajasthan']), set(['Maharashtra']))
+browserfingerprint (set(['d52bbc473715f4bec41502498d242f42ab44066d01e5ae4b165d3cebdbc8ba1f']), set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']))
+====================================
+ipcity (set(['Mumbai']), set(['Kaladhungi']))
+ipregion (set(['Maharashtra']), set(['Uttarakhand']))
+browserfingerprint (set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']), set(['189ecf358e09926a53d40ac42903944f0d6cee489b5b913902f59d1919291952']))
+====================================
+ipcity (set(['Kaladhungi']), set(['Nagpur']))
+ipregion (set(['Uttarakhand']), set(['Maharashtra']))
+browserfingerprint (set(['189ecf358e09926a53d40ac42903944f0d6cee489b5b913902f59d1919291952']), set(['3341ef125427fa68c65419871ca9d2d0125ee6fc18baf18ba493306384c09810']))
+====================================
+ipcity (set(['Nagpur']), set(['Pune']))
+browserfingerprint (set(['3341ef125427fa68c65419871ca9d2d0125ee6fc18baf18ba493306384c09810']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Mumbai']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']))
+====================================
+ipcity (set(['Mumbai']), set(['Pune']))
+browserfingerprint (set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Badlapur']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['6dc2ca9eb5599bc829e6ae2c94ad96e2561ca85cdfca8b4f49ff07e03bd57845']))
+====================================
+ipcity (set(['Badlapur']), set(['Wardha']))
+browserfingerprint (set(['6dc2ca9eb5599bc829e6ae2c94ad96e2561ca85cdfca8b4f49ff07e03bd57845']), set(['e89fab68f85c28f9ff9ba7306fbd02d436915359310601f925442da823b59153']))
+====================================
+ipcity (set(['Wardha']), set(['Kolkata']))
+ipregion (set(['Maharashtra']), set(['West', 'Bengal']))
+browserfingerprint (set(['e89fab68f85c28f9ff9ba7306fbd02d436915359310601f925442da823b59153']), set(['c1b41acfd301ed6646875dca78ef2f3a03759d7a6a7caffb427c3fec4617bd1a']))
+====================================
+ipcity (set(['Kolkata']), set(['Nagpur']))
+ipregion (set(['West', 'Bengal']), set(['Maharashtra']))
+browserfingerprint (set(['c1b41acfd301ed6646875dca78ef2f3a03759d7a6a7caffb427c3fec4617bd1a']), set(['3341ef125427fa68c65419871ca9d2d0125ee6fc18baf18ba493306384c09810']))
+====================================
+ipcity (set(['Nagpur']), set(['Pune']))
+browserfingerprint (set(['3341ef125427fa68c65419871ca9d2d0125ee6fc18baf18ba493306384c09810']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Delhi']))
+ipregion (set(['Maharashtra']), set(['Delhi']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['bfd971ee9514b2800507ee62c03493fb1cf16ef55e413d538f40832f25ee226f']))
+====================================
+ipcity (set(['Delhi']), set(['Pune']))
+ipregion (set(['Delhi']), set(['Maharashtra']))
+browserfingerprint (set(['bfd971ee9514b2800507ee62c03493fb1cf16ef55e413d538f40832f25ee226f']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Delhi']))
+ipregion (set(['Maharashtra']), set(['Delhi']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['bfd971ee9514b2800507ee62c03493fb1cf16ef55e413d538f40832f25ee226f']))
+====================================
+ipcity (set(['Delhi']), set(['Mumbai']))
+ipregion (set(['Delhi']), set(['Maharashtra']))
+browserfingerprint (set(['bfd971ee9514b2800507ee62c03493fb1cf16ef55e413d538f40832f25ee226f']), set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']))
+====================================
+ipcity (set(['Mumbai']), set(['Nagpur']))
+browserfingerprint (set(['54c56157ce7473598a8510b47209680404b861027e5236a413b98987689886a6']), set(['3341ef125427fa68c65419871ca9d2d0125ee6fc18baf18ba493306384c09810']))
+====================================
+ipcity (set(['Nagpur']), set(['Pune']))
+browserfingerprint (set(['3341ef125427fa68c65419871ca9d2d0125ee6fc18baf18ba493306384c09810']), set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']))
+====================================
+ipcity (set(['Pune']), set(['Solapur']))
+browserfingerprint (set(['0e0d9d4d479443489861057c15487f3a53ea7a194397270cb6d6edff3e6248d2']), set(['56c0a99425f0aef10a9ad6c150ecf4e791e616de33529d57a248b8549a3224bf']))
+====================================
+ipcity (set(['Solapur']), set(['Gurgaon']))
+ipregion (set(['Maharashtra']), set(['Haryana']))
+browserfingerprint (set(['56c0a99425f0aef10a9ad6c150ecf4e791e616de33529d57a248b8549a3224bf']), set(['3aec9fcbcc9699ccdf1d3f16c412bcaf81d826354b4536795422bb474b929816']))
+====================================
+ipcity (set(['Gurgaon']), set(['Anjangaon']))
+ipregion (set(['Haryana']), set(['Maharashtra']))
+browserfingerprint (set(['3aec9fcbcc9699ccdf1d3f16c412bcaf81d826354b4536795422bb474b929816']), set(['145b7fe6e8ed73a97bd72c8cf21de825d69d878236d6405cf83b550e661234e6']))
+====================================
+ipcity (set(['Anjangaon']), set(['Bhusawal']))
+browserfingerprint (set(['145b7fe6e8ed73a97bd72c8cf21de825d69d878236d6405cf83b550e661234e6']), set(['87cf998a4fdf12cf871c7c94a1f0b6e77b523b68d56a60b20bd0a7fb76afda7d']))
+====================================
+ipcity (set(['Bhusawal']), set(['Wardha']))
+browserfingerprint (set(['87cf998a4fdf12cf871c7c94a1f0b6e77b523b68d56a60b20bd0a7fb76afda7d']), set(['e89fab68f85c28f9ff9ba7306fbd02d436915359310601f925442da823b59153']))
+====================================
+ipcity (set(['Wardha']), set(['Solapur']))
+browserfingerprint (set(['e89fab68f85c28f9ff9ba7306fbd02d436915359310601f925442da823b59153']), set(['56c0a99425f0aef10a9ad6c150ecf4e791e616de33529d57a248b8549a3224bf']))
+====================================
+ipcity (set(['Solapur']), set(['Bhusawal']))
+browserfingerprint (set(['56c0a99425f0aef10a9ad6c150ecf4e791e616de33529d57a248b8549a3224bf']), set(['87cf998a4fdf12cf871c7c94a1f0b6e77b523b68d56a60b20bd0a7fb76afda7d']))
+====================================
+ipcity (set(['Bhusawal']), set(['Badlapur']))
+browserfingerprint (set(['87cf998a4fdf12cf871c7c94a1f0b6e77b523b68d56a60b20bd0a7fb76afda7d']), set(['6dc2ca9eb5599bc829e6ae2c94ad96e2561ca85cdfca8b4f49ff07e03bd57845']))
+====================================

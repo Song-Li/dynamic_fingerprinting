@@ -1,0 +1,156 @@
+ipcity (set(['Aksu']), set(['Saryaghash']))
+browserfingerprint (set(['c670d69d2307d7e0dff4542dbd87f347aca748fc553b80f89aaf477edbe76ce8']), set(['5ddee9acac309633048166c4fc800386c34be20566c904c4bad1b99d5023eec6']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['5ddee9acac309633048166c4fc800386c34be20566c904c4bad1b99d5023eec6']), set(['80677f8b96f30a45d64574c487d109d9a7517355e9bf8b759c596d1a09ca6ef9']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['80677f8b96f30a45d64574c487d109d9a7517355e9bf8b759c596d1a09ca6ef9']), set(['5ddee9acac309633048166c4fc800386c34be20566c904c4bad1b99d5023eec6']))
+====================================
+language (set(['ru,en;q=0.8,kk;q=0.6,la;q=0.4']), set(['ru,en;q=0.8,kk;q=0.6']))
+jsFonts (set(['Futura Bk BT', 'Lucida Sans Typewriter', 'NewsGoth BT', 'Futura Md BT', 'Humanst521 BT', 'ADOBE CASLON PRO', 'Humanst521 Lt BT', 'TypoUpright BT', 'Minion Pro', 'TRAJAN PRO', 'EngraversGothic BT', 'Lucida Sans', 'MYRIAD PRO', 'ARNO PRO', 'Kaufmann BT', 'ZWAdobeF', 'Exotc350 Bd BT', 'ADOBE GARAMOND PRO']), set(['MS Outlook']))
+browserfingerprint (set(['5ddee9acac309633048166c4fc800386c34be20566c904c4bad1b99d5023eec6']), set(['e951299b5b38dd31205fad03da8f761a4deae8f1ecf1ac606b526e5cc0a7167a']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e951299b5b38dd31205fad03da8f761a4deae8f1ecf1ac606b526e5cc0a7167a']), set(['519af1c055cdb9d4f0e0bc35fea658cbbe3ad6bee3a2f68cf8daaa00c2979e8c']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['519af1c055cdb9d4f0e0bc35fea658cbbe3ad6bee3a2f68cf8daaa00c2979e8c']), set(['e951299b5b38dd31205fad03da8f761a4deae8f1ecf1ac606b526e5cc0a7167a']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['e951299b5b38dd31205fad03da8f761a4deae8f1ecf1ac606b526e5cc0a7167a']), set(['519af1c055cdb9d4f0e0bc35fea658cbbe3ad6bee3a2f68cf8daaa00c2979e8c']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['519af1c055cdb9d4f0e0bc35fea658cbbe3ad6bee3a2f68cf8daaa00c2979e8c']), set(['e951299b5b38dd31205fad03da8f761a4deae8f1ecf1ac606b526e5cc0a7167a']))
+====================================
+agent (set(['YaBrowser/17.10.0.2017']), set(['YaBrowser/17.10.1.1204']))
+jsFonts (set([]), set(['MYRIAD PRO', 'Minion Pro', 'ZWAdobeF', 'TRAJAN PRO', 'ADOBE GARAMOND PRO', 'ARNO PRO', 'ADOBE CASLON PRO']))
+browserfingerprint (set(['e951299b5b38dd31205fad03da8f761a4deae8f1ecf1ac606b526e5cc0a7167a']), set(['49909878475fcedc1a65a2bbeae91d2eb68cc4eeac76b4bca88dc8886f4eba09']))
+====================================
+ipcity (set(['Saryaghash']), set(['Ilyich']))
+browserfingerprint (set(['49909878475fcedc1a65a2bbeae91d2eb68cc4eeac76b4bca88dc8886f4eba09']), set(['ea9406fb8c92545fa76a5a28322198c08585876e4a4fd292f26e2a37fbcbd6b2']))
+====================================
+language (set(['ru,en;q=0.8,kk;q=0.6']), set(['ru,en;q=0.8,kk;q=0.6,la;q=0.4']))
+ipcity (set(['Ilyich']), set(['Temirlanovka']))
+browserfingerprint (set(['ea9406fb8c92545fa76a5a28322198c08585876e4a4fd292f26e2a37fbcbd6b2']), set(['9088f2cb784954ed09486bf642dcc40c636230a73120ddd388f93625806172e6']))
+====================================
+ipcity (set(['Temirlanovka']), set(['Kentau']))
+browserfingerprint (set(['9088f2cb784954ed09486bf642dcc40c636230a73120ddd388f93625806172e6']), set(['23151af42b5c20bbcb84cfad2a88a6a91455af8247f862863956b80680a45b28']))
+====================================
+ipcity (set(['Kentau']), set(['Arys']))
+browserfingerprint (set(['23151af42b5c20bbcb84cfad2a88a6a91455af8247f862863956b80680a45b28']), set(['32ce64eda4621e4d8abea3ae6606751c02c30be2fdfb128b9b0d45361052a9ba']))
+====================================
+ipcity (set(['Arys']), set(['Kentau']))
+browserfingerprint (set(['32ce64eda4621e4d8abea3ae6606751c02c30be2fdfb128b9b0d45361052a9ba']), set(['23151af42b5c20bbcb84cfad2a88a6a91455af8247f862863956b80680a45b28']))
+====================================
+ipcity (set(['Kentau']), set(['Shymkent']))
+browserfingerprint (set(['23151af42b5c20bbcb84cfad2a88a6a91455af8247f862863956b80680a45b28']), set(['60b519fb6aa089b4192d70e732b2195a4ecaaf076beeacdb382e6243a76d6fff']))
+====================================
+agent (set(['Chrome/61.0.3163.100', 'YaBrowser/17.10.1.1204']), set(['Chrome/62.0.3202.94', 'YaBrowser/17.11.0.2191']))
+language (set(['ru,en;q=0.8,kk;q=0.6,la;q=0.4']), set(['ru,en;q=0.9,kk;q=0.8,la;q=0.7']))
+plugins (set([]), set([]))
+browserfingerprint (set(['60b519fb6aa089b4192d70e732b2195a4ecaaf076beeacdb382e6243a76d6fff']), set(['088122b4f5b51123de13e105b7fe9238658f4e8152eb96600d5493fbcb265467']))
+====================================
+plugins (set([]), set([]))
+ipcity (set(['Shymkent']), set(['Shayan']))
+browserfingerprint (set(['088122b4f5b51123de13e105b7fe9238658f4e8152eb96600d5493fbcb265467']), set(['3f488afaab07c1377772e7ad0af229f5e37424b9c49b2928c9a186a6fad11ff9']))
+====================================
+ipcity (set(['Shayan']), set(['Shymkent']))
+browserfingerprint (set(['3f488afaab07c1377772e7ad0af229f5e37424b9c49b2928c9a186a6fad11ff9']), set(['1af2cff1acc2862d893942797f187fe601c8c2308e093492d1ad6c65c4ee86d9']))
+====================================
+ipcity (set(['Shymkent']), set(['Asykata']))
+browserfingerprint (set(['1af2cff1acc2862d893942797f187fe601c8c2308e093492d1ad6c65c4ee86d9']), set(['d88a1e402c101c6c2ff81d4ed23b6b131973a09e3d385020cb6abf433b82a00a']))
+====================================
+ipcity (set(['Asykata']), set(['Kentau']))
+browserfingerprint (set(['d88a1e402c101c6c2ff81d4ed23b6b131973a09e3d385020cb6abf433b82a00a']), set(['de65e8404e7ecca3cbadd25ddfd1d97e6eea3929474fe40f98c3b12f76da7fcc']))
+====================================
+ipcity (set(['Kentau']), set(['Almaty']))
+ipregion (set(['oblysy', 'Ongtustik', 'Qazaqstan']), set(['Almaty']))
+browserfingerprint (set(['de65e8404e7ecca3cbadd25ddfd1d97e6eea3929474fe40f98c3b12f76da7fcc']), set(['fcda746face19b8f2742e4e7e9aad620b7a6fb23b3f2d6e6a0c4c6580f3d74a7']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['fcda746face19b8f2742e4e7e9aad620b7a6fb23b3f2d6e6a0c4c6580f3d74a7']), set(['5589a11905a730a231993959420a95991c888bbceda0aa561fb08edde90546f8']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['5589a11905a730a231993959420a95991c888bbceda0aa561fb08edde90546f8']), set(['fcda746face19b8f2742e4e7e9aad620b7a6fb23b3f2d6e6a0c4c6580f3d74a7']))
+====================================
+ipcity (set(['Almaty']), set(['Talghar']))
+ipregion (set([]), set(['oblysy']))
+browserfingerprint (set(['fcda746face19b8f2742e4e7e9aad620b7a6fb23b3f2d6e6a0c4c6580f3d74a7']), set(['f30665e5a6e2b8f8032421d51d7d14e21f4f44d20172e6103f4a38ed4343b58f']))
+====================================
+ipcity (set(['Talghar']), set(['Temirlanovka']))
+ipregion (set(['Almaty']), set(['Ongtustik', 'Qazaqstan']))
+browserfingerprint (set(['f30665e5a6e2b8f8032421d51d7d14e21f4f44d20172e6103f4a38ed4343b58f']), set(['e4d0d7f5fffcf24e1b484d052fc4ba33b2559c2e47056b1c7abaf7254c95ee5b']))
+====================================
+agent (set(['YaBrowser/17.11.0.2191']), set(['YaBrowser/17.11.1.990']))
+ipcity (set(['Temirlanovka']), set(['Shymkent']))
+browserfingerprint (set(['e4d0d7f5fffcf24e1b484d052fc4ba33b2559c2e47056b1c7abaf7254c95ee5b']), set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']), set(['4c39edf9260e8b156b61a2fd6edb002065ebdd6f21e447def9c58fe8628f83cf']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Shymkent']), set(['Aksu']))
+browserfingerprint (set(['4c39edf9260e8b156b61a2fd6edb002065ebdd6f21e447def9c58fe8628f83cf']), set(['d734b4d1e7c1e9a73abff90aeb68d4c47039a840d3030b5f75e34d07dae0a1fe']))
+====================================
+ipcity (set(['Aksu']), set(['Qulsary']))
+ipregion (set(['Ongtustik', 'Qazaqstan']), set(['Atyrau']))
+browserfingerprint (set(['d734b4d1e7c1e9a73abff90aeb68d4c47039a840d3030b5f75e34d07dae0a1fe']), set(['eab5a15d48dba60bfd109476fc6307a6589e443585afcd67115908e18f5c5542']))
+====================================
+ipcity (set(['Qulsary']), set(['Asykata']))
+ipregion (set(['Atyrau']), set(['Ongtustik', 'Qazaqstan']))
+browserfingerprint (set(['eab5a15d48dba60bfd109476fc6307a6589e443585afcd67115908e18f5c5542']), set(['8d6a541fe5233c7bf6764983938eac8a7bf7842ddfdb3c6e5b1947711ac9a570']))
+====================================
+accept (set(['']), set(['*/*']))
+ipcity (set(['Asykata']), set(['Kentau']))
+browserfingerprint (set(['8d6a541fe5233c7bf6764983938eac8a7bf7842ddfdb3c6e5b1947711ac9a570']), set(['b610109d18011135e83876a4b2a889dfcd0bd97ee384545eac7957a8a1660b25']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['b610109d18011135e83876a4b2a889dfcd0bd97ee384545eac7957a8a1660b25']), set(['04a05ac235f7ca0a690e44f9e977d20ef96894ccfdc0a6517b0c954bdf0bc3e8']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['04a05ac235f7ca0a690e44f9e977d20ef96894ccfdc0a6517b0c954bdf0bc3e8']), set(['b610109d18011135e83876a4b2a889dfcd0bd97ee384545eac7957a8a1660b25']))
+====================================
+ipcity (set(['Kentau']), set(['Shymkent']))
+browserfingerprint (set(['b610109d18011135e83876a4b2a889dfcd0bd97ee384545eac7957a8a1660b25']), set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']))
+====================================
+ipcity (set(['Shymkent']), set(['Ilyich']))
+browserfingerprint (set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']), set(['0ada8416070f0fd020b48257ef2079ae82b42b2c5f2c39332dff87ac8ba702b2']))
+====================================
+ipcity (set(['Ilyich']), set(['Kentau']))
+browserfingerprint (set(['0ada8416070f0fd020b48257ef2079ae82b42b2c5f2c39332dff87ac8ba702b2']), set(['b610109d18011135e83876a4b2a889dfcd0bd97ee384545eac7957a8a1660b25']))
+====================================
+ipcity (set(['Kentau']), set(['Aksu']))
+browserfingerprint (set(['b610109d18011135e83876a4b2a889dfcd0bd97ee384545eac7957a8a1660b25']), set(['d734b4d1e7c1e9a73abff90aeb68d4c47039a840d3030b5f75e34d07dae0a1fe']))
+====================================
+ipcity (set(['Aksu']), set(['Shymkent']))
+browserfingerprint (set(['d734b4d1e7c1e9a73abff90aeb68d4c47039a840d3030b5f75e34d07dae0a1fe']), set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']))
+====================================
+ipcity (set(['Shymkent']), set(['Lenger']))
+browserfingerprint (set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']), set(['7ea8e058015e62ae292547e270acc77a7af87af836ee603d8c4ecf7d9fb30937']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['7ea8e058015e62ae292547e270acc77a7af87af836ee603d8c4ecf7d9fb30937']), set(['52d34d73046ba7f8221350dc615f41580a7c80407121a3b5331f142e4a6961b6']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['52d34d73046ba7f8221350dc615f41580a7c80407121a3b5331f142e4a6961b6']), set(['7ea8e058015e62ae292547e270acc77a7af87af836ee603d8c4ecf7d9fb30937']))
+====================================
+ipcity (set(['Lenger']), set(['Almaty']))
+ipregion (set(['oblysy', 'Ongtustik', 'Qazaqstan']), set(['Almaty']))
+browserfingerprint (set(['7ea8e058015e62ae292547e270acc77a7af87af836ee603d8c4ecf7d9fb30937']), set(['0e9e542ca9b490be87318b1534d22a4b6df77d3f8fdeaea1b012f8960d456501']))
+====================================
+ipcity (set(['Almaty']), set(['Temirlanovka']))
+ipregion (set(['Almaty']), set(['oblysy', 'Ongtustik', 'Qazaqstan']))
+browserfingerprint (set(['0e9e542ca9b490be87318b1534d22a4b6df77d3f8fdeaea1b012f8960d456501']), set(['7af4ba3ac027fbafefce2c87a9a6df4179d2e84dd47d1667b98e5a5d1fa9ead3']))
+====================================
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['7af4ba3ac027fbafefce2c87a9a6df4179d2e84dd47d1667b98e5a5d1fa9ead3']), set(['bfd15a8ae3ff14d8be0dc6015056020bf2495acd604a00eb196783cbcee60131']))
+====================================
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ipcity (set(['Temirlanovka']), set(['Shymkent']))
+browserfingerprint (set(['bfd15a8ae3ff14d8be0dc6015056020bf2495acd604a00eb196783cbcee60131']), set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']))
+====================================
+ipcity (set(['Shymkent']), set(['Pervomayskiy']))
+ipregion (set(['Ongtustik', 'Qazaqstan']), set(['Almaty']))
+browserfingerprint (set(['ea68325dc87eca86d66c48b6a8c5bdfe53356d9eb8a58e1de431846e8d4b8fda']), set(['cbe98b8aee6741dac99e2a2657e4504ce0e96f456deda834deec201694552183']))
+====================================

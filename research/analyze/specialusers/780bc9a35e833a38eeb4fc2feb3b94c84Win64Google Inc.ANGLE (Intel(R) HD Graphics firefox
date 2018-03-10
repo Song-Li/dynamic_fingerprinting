@@ -1,0 +1,519 @@
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Bonny']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['8a2e808d49148f018682ab79ef6e29fa33022559236a0fd625ba8dd79aad270a']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['8a2e808d49148f018682ab79ef6e29fa33022559236a0fd625ba8dd79aad270a']), set(['ec9bb5058738aa36ab73e74a41d770f7c660aa3069e7c99a7cd79ae240c270fa']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Bonny']), set(['Harcourt', 'Port']))
+browserfingerprint (set(['ec9bb5058738aa36ab73e74a41d770f7c660aa3069e7c99a7cd79ae240c270fa']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Abuja']))
+ipregion (set(['Rivers']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['405f60d3ebadf5949cf70919bd3b0bc3aa0ef0a4278e7fafdca8611f28c2e086']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Abuja']), set(['Harcourt', 'Port']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Rivers']))
+browserfingerprint (set(['405f60d3ebadf5949cf70919bd3b0bc3aa0ef0a4278e7fafdca8611f28c2e086']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Abuja']))
+ipregion (set(['Rivers']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['405f60d3ebadf5949cf70919bd3b0bc3aa0ef0a4278e7fafdca8611f28c2e086']))
+====================================
+ipcity (set(['Abuja']), set(['Harcourt', 'Port']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Rivers']))
+browserfingerprint (set(['405f60d3ebadf5949cf70919bd3b0bc3aa0ef0a4278e7fafdca8611f28c2e086']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['ac7685084a6d367c0000ee34317bbd767a79e3b69088b3e033b791c26efe78c6']))
+====================================
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['ac7685084a6d367c0000ee34317bbd767a79e3b69088b3e033b791c26efe78c6']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['0eca82ee490a5f77b1495c5a61376551e7b7698f5ca0304d20d141e04b68cde4']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['0eca82ee490a5f77b1495c5a61376551e7b7698f5ca0304d20d141e04b68cde4']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Onitsha']))
+ipregion (set(['Rivers']), set(['Anambra']))
+browserfingerprint (set(['49e8de8fa138269076bf10361e964121ff7e6cdb0f08647c51cbcfb176cc5520']), set(['aa9d5f03e0ea14cb1bb625bd2fcdbdd6dc19b826134023577a0b809f5a721c2a']))
+====================================
+ipcity (set(['Onitsha']), set(['Harcourt', 'Port']))
+ipregion (set(['Anambra']), set(['Rivers']))
+browserfingerprint (set(['aa9d5f03e0ea14cb1bb625bd2fcdbdd6dc19b826134023577a0b809f5a721c2a']), set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']))
+====================================
+langsdetected (set([]), set(['Lontara', 'Burmese', 'Javanese']))
+jsFonts (set([]), set(['Baskerville', 'Cochin', 'Zurich Ex BT', 'Futura Md BT', 'BankGothic Md BT', 'Academy Engraved LET', 'Humanst521 Lt BT', 'Univers', 'Arrus BT', 'Univers Condensed', 'Sinhala Sangam MN', 'Chalkboard', 'Bazooka', 'Bangla Sangam MN', 'Palatino', 'ARNO PRO', 'AmerType Md BT', 'Kaufmann BT', 'Kannada Sangam MN', 'Bandy', 'Coronet', 'BinnerD', 'Andale Mono', 'Tamil Sangam MN', 'TypoUpright BT', 'Gurmukhi MN', 'AvantGarde Md BT', 'AvantGarde Bk BT', 'Futura Bk BT', 'Albertus Medium', 'Humanst521 BT', 'Technical', 'Big Caslon', 'Bank Gothic', 'Benguiat Bk BT', 'Telugu Sangam MN', 'Chalkduster', 'Malayalam Sangam MN', 'Gujarati Sangam MN', 'Bembo', 'Oriya Sangam MN', 'NewsGoth BT', 'Zurich BlkEx BT', 'Bauer Bodoni', 'Aurora Cn BT', 'MYRIAD', 'EngraversGothic BT', 'Amazone BT', 'Exotc350 Bd BT']))
+canvastest (set(['2443b839f70927ca1366ad26a9cefbf43ecf51db']), set(['c277f309cc1e7693736367a807bb3263554ae428']))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['98b13ed29faf0cbf486ef336fb7325133eba579b18764067b7376464b3784c76']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['2b379b031184e99a648f25fcf152b0181a1f867b9a6027709b0704ca2e06065b']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['2b379b031184e99a648f25fcf152b0181a1f867b9a6027709b0704ca2e06065b']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']), set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']), set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']), set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']), set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']), set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']), set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']))
+====================================
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+ipcity (set(['Lagos']), set(['Abuja']))
+ipregion (set(['Lagos']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']), set(['237f96bece32409f0028c846874395212dd94a1801e011710d65a522f5e837ce']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['237f96bece32409f0028c846874395212dd94a1801e011710d65a522f5e837ce']), set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+ipcity (set(['Abuja']), set(['Asaba']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Delta']))
+browserfingerprint (set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']), set(['c197f6a68aea57958948c36b16b9ea28ba090b816c5b2443cdd55efdb1023193']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['c197f6a68aea57958948c36b16b9ea28ba090b816c5b2443cdd55efdb1023193']), set(['98baa59bee57c0511e627c7a6b7d9223e9913a97cee73a52f916476319b05ecd']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['98baa59bee57c0511e627c7a6b7d9223e9913a97cee73a52f916476319b05ecd']), set(['c197f6a68aea57958948c36b16b9ea28ba090b816c5b2443cdd55efdb1023193']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['c197f6a68aea57958948c36b16b9ea28ba090b816c5b2443cdd55efdb1023193']), set(['98baa59bee57c0511e627c7a6b7d9223e9913a97cee73a52f916476319b05ecd']))
+====================================
+ipcity (set(['Asaba']), set(['Abuja']))
+ipregion (set(['Delta']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['98baa59bee57c0511e627c7a6b7d9223e9913a97cee73a52f916476319b05ecd']), set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']), set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Abuja']), set(['Harcourt', 'Port']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Rivers']))
+browserfingerprint (set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']), set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['f1a9d49de0cf72900edc0b45b185eb04dbbf7a3115bad7dc485d77484b233f2e']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['2b379b031184e99a648f25fcf152b0181a1f867b9a6027709b0704ca2e06065b']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['2b379b031184e99a648f25fcf152b0181a1f867b9a6027709b0704ca2e06065b']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['2b379b031184e99a648f25fcf152b0181a1f867b9a6027709b0704ca2e06065b']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Lagos']), set(['Abuja']))
+ipregion (set(['Lagos']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['2b379b031184e99a648f25fcf152b0181a1f867b9a6027709b0704ca2e06065b']), set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+ipcity (set(['Abuja']), set(['Lagos']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Lagos']))
+browserfingerprint (set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Bonny']))
+browserfingerprint (set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']), set(['7e978585fdf7fa9c4fb75fe1069a76517d48ca75fac0787d07fbb921a1cacc79']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Bonny']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['7e978585fdf7fa9c4fb75fe1069a76517d48ca75fac0787d07fbb921a1cacc79']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Abuja']))
+ipregion (set(['Rivers']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']), set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['8d91ac7772681a6d03f579328434dbf2bb277c187b4d0630c30f592b91fccba0']), set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Abuja']), set(['Asaba']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Delta']))
+browserfingerprint (set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']), set(['98baa59bee57c0511e627c7a6b7d9223e9913a97cee73a52f916476319b05ecd']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['98baa59bee57c0511e627c7a6b7d9223e9913a97cee73a52f916476319b05ecd']), set(['c197f6a68aea57958948c36b16b9ea28ba090b816c5b2443cdd55efdb1023193']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['c197f6a68aea57958948c36b16b9ea28ba090b816c5b2443cdd55efdb1023193']), set(['b9c6a87e50936606f743be9efeaa785da5405a8e4dc499579afb3e5788a75f06']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Asaba']), set(['Lagos']))
+ipregion (set(['Delta']), set(['Lagos']))
+browserfingerprint (set(['b9c6a87e50936606f743be9efeaa785da5405a8e4dc499579afb3e5788a75f06']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']))
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['d8a2dcd54e6fe28179503ae6dce55a49891382e6407296153bc110206196ab3d']), set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Abuja']))
+ipregion (set(['Rivers']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']), set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['4eac386a1040f6f1836eaf547fd1cf9b0dda9fbd776289f34f9fb75a31f0f42e']), set(['8af4de3b82694f862b25841dbe92b96cc2795389026b48c70d3a1226df686b31']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['8af4de3b82694f862b25841dbe92b96cc2795389026b48c70d3a1226df686b31']), set(['237f96bece32409f0028c846874395212dd94a1801e011710d65a522f5e837ce']))
+====================================
+ipcity (set(['Abuja']), set(['Harcourt', 'Port']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Rivers']))
+browserfingerprint (set(['237f96bece32409f0028c846874395212dd94a1801e011710d65a522f5e837ce']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']), set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d92084eb7f6e58ea2548be7397b7987e7c98971f96b0208eb8ee85975609cb7a']), set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['9d9c0fe0b37ae170285970aa231362260a27040c72309702408a0665406ae311']), set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['883f1865d396c932c397784543f611025fe3f8ce2d9e7c500b9e227591fc7118']), set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['02e3482b1067b3f1e0957bcb1731980a4519c51bdbb5e08b82a87c6875eabd6a']), set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']))
+====================================
+agent (set(['rv:58.0)', 'Firefox/58.0']), set(['Firefox/59.0', 'rv:59.0)']))
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Lagos']), set(['Bonny']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['076e9caa9511a4947c121371d084cc573f8d8b10259797d1117ad37b4590744b']), set(['53278353d8079a5f4985e37bdb1817f39833ca8e733626510569252132a8c69b']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['53278353d8079a5f4985e37bdb1817f39833ca8e733626510569252132a8c69b']), set(['5c453b2b4d93ec6517332b83d93392731c6b68a7a0db1433a0e6d3a70ed4e586']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['5c453b2b4d93ec6517332b83d93392731c6b68a7a0db1433a0e6d3a70ed4e586']), set(['fd0b05e5745841ebf5696b22b309afdff2d528230d5d254a1ea92c8f87e3420d']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Bonny']), set(['Abuja']))
+ipregion (set(['Rivers']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['fd0b05e5745841ebf5696b22b309afdff2d528230d5d254a1ea92c8f87e3420d']), set(['2a023c1f710b5d93c482ab69a4086d279c92f7465b0da5a8a228c7d0affdaf9f']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['2a023c1f710b5d93c482ab69a4086d279c92f7465b0da5a8a228c7d0affdaf9f']), set(['c701984260649ae61abf255002aa3d19613aec3e96c6f428b2e244774c5a4a9e']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['c701984260649ae61abf255002aa3d19613aec3e96c6f428b2e244774c5a4a9e']), set(['05e5223ed443b809ad99b9749a662f6c679107c136127dbfe862d467ff5cc2ea']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Abuja']), set(['Harcourt', 'Port']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Rivers']))
+browserfingerprint (set(['05e5223ed443b809ad99b9749a662f6c679107c136127dbfe862d467ff5cc2ea']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']), set(['b6c32890b3d32e8803ff9640e3acd9cba959fc8e0aac3657b13ef05829d894da']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['b6c32890b3d32e8803ff9640e3acd9cba959fc8e0aac3657b13ef05829d894da']), set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+accept (set(['']), set(['*/*']))
+jsFonts (set(['Arial Black', 'Arial Narrow']), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['b6c32890b3d32e8803ff9640e3acd9cba959fc8e0aac3657b13ef05829d894da']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['b6c32890b3d32e8803ff9640e3acd9cba959fc8e0aac3657b13ef05829d894da']), set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']), set(['4322b44b8e409e6045ac98c11eee4753c784ebd62da18e76315d3b539e53bb85']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['4322b44b8e409e6045ac98c11eee4753c784ebd62da18e76315d3b539e53bb85']), set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']))
+====================================
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['85758af1d4772a2ec8ffe406ab8c4705be18e28475095182f14519fd93b0dab2']), set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Lagos']), set(['Abuja']))
+ipregion (set(['Lagos']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']), set(['05e5223ed443b809ad99b9749a662f6c679107c136127dbfe862d467ff5cc2ea']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['05e5223ed443b809ad99b9749a662f6c679107c136127dbfe862d467ff5cc2ea']), set(['4999499c0f03622afdfa55391d27eb9bc7502ff90f941a795f01b83f529ddb3a']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['4999499c0f03622afdfa55391d27eb9bc7502ff90f941a795f01b83f529ddb3a']), set(['05e5223ed443b809ad99b9749a662f6c679107c136127dbfe862d467ff5cc2ea']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+ipcity (set(['Abuja']), set(['Lagos']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Lagos']))
+browserfingerprint (set(['05e5223ed443b809ad99b9749a662f6c679107c136127dbfe862d467ff5cc2ea']), set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']), set(['4322b44b8e409e6045ac98c11eee4753c784ebd62da18e76315d3b539e53bb85']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['4322b44b8e409e6045ac98c11eee4753c784ebd62da18e76315d3b539e53bb85']), set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']))
+====================================
+jsFonts (set([]), set(['Arial Black', 'Arial Narrow']))
+browserfingerprint (set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']), set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']))
+====================================
+ipcity (set(['Lagos']), set(['Abuja']))
+ipregion (set(['Lagos']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']), set(['c701984260649ae61abf255002aa3d19613aec3e96c6f428b2e244774c5a4a9e']))
+====================================
+jsFonts (set(['Arial Black', 'Arial Narrow']), set([]))
+browserfingerprint (set(['c701984260649ae61abf255002aa3d19613aec3e96c6f428b2e244774c5a4a9e']), set(['4999499c0f03622afdfa55391d27eb9bc7502ff90f941a795f01b83f529ddb3a']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Abuja']), set(['Harcourt', 'Port']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Rivers']))
+browserfingerprint (set(['4999499c0f03622afdfa55391d27eb9bc7502ff90f941a795f01b83f529ddb3a']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['d5e663ead1e6569018370f04990d1e18df823a95c5527090c17d403507b66de6']), set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+ipcity (set(['Lagos']), set(['Harcourt', 'Port']))
+ipregion (set(['Lagos']), set(['Rivers']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+ipcity (set(['Harcourt', 'Port']), set(['Lagos']))
+ipregion (set(['Rivers']), set(['Lagos']))
+browserfingerprint (set(['b9155b0759e4e4e1632f1ece95fc96103a8d970de16855602d3148b8ababca52']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+ipcity (set(['Lagos']), set(['Seattle']))
+ipregion (set(['Lagos']), set(['Washington']))
+ipcountry (set(['Nigeria']), set(['States', 'United']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['06373ca54165a0769d07f655355ba810e79b052328c292951d5f95a50b64c1b9']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['06373ca54165a0769d07f655355ba810e79b052328c292951d5f95a50b64c1b9']), set(['c235b85574fa2f945483c85280e78d82429ecb96b57cbf785d02113af7c0d26b']))
+====================================
+jsFonts (set(['Albertus Extra Bold', 'Arial Black', 'Arial Narrow']), set([]))
+ipcity (set(['Seattle']), set(['Lagos']))
+ipregion (set(['Washington']), set(['Lagos']))
+ipcountry (set(['States', 'United']), set(['Nigeria']))
+browserfingerprint (set(['c235b85574fa2f945483c85280e78d82429ecb96b57cbf785d02113af7c0d26b']), set(['4322b44b8e409e6045ac98c11eee4753c784ebd62da18e76315d3b539e53bb85']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['4322b44b8e409e6045ac98c11eee4753c784ebd62da18e76315d3b539e53bb85']), set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set(['Arial Black', 'Arial Narrow']))
+ipcity (set(['Lagos']), set(['Abuja']))
+ipregion (set(['Lagos']), set(['Federal', 'Territory', 'Abuja', 'Capital']))
+browserfingerprint (set(['a221a9da9eb1f51bd7cc2bfc6ac1250b8ef57a1061a1611e6aac1d26ec7ee419']), set(['2a023c1f710b5d93c482ab69a4086d279c92f7465b0da5a8a228c7d0affdaf9f']))
+====================================
+ipcity (set(['Abuja']), set(['Lagos']))
+ipregion (set(['Federal', 'Territory', 'Abuja', 'Capital']), set(['Lagos']))
+browserfingerprint (set(['2a023c1f710b5d93c482ab69a4086d279c92f7465b0da5a8a228c7d0affdaf9f']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']))
+====================================
+jsFonts (set(['Albertus Extra Bold']), set([]))
+browserfingerprint (set(['0b18e35ea56766163f69137c0a61e5e06db06661bdab1ed444ad52c3498a7d31']), set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']))
+====================================
+jsFonts (set([]), set(['Albertus Extra Bold']))
+ipcity (set(['Lagos']), set(['Asaba']))
+ipregion (set(['Lagos']), set(['Delta']))
+browserfingerprint (set(['cab1e06cf68e76e592802783b09736d2f5efd605be4f52aec3bb09e97c9815ac']), set(['d10963c2c92a3243b1b085a9e31e6df9ea60e154718fd185134d52df9f0f5ad3']))
+====================================

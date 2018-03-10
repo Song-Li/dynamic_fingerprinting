@@ -1,0 +1,714 @@
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['6321dd2597916b1fd5f1aa0d997c72cbf5b64c7c6636e9fef14d69df69d8abd5']))
+====================================
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6321dd2597916b1fd5f1aa0d997c72cbf5b64c7c6636e9fef14d69df69d8abd5']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['6321dd2597916b1fd5f1aa0d997c72cbf5b64c7c6636e9fef14d69df69d8abd5']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['6321dd2597916b1fd5f1aa0d997c72cbf5b64c7c6636e9fef14d69df69d8abd5']), set(['3680c397780d984363a4e6b92e2f434aa32ce9b30d0c5274fd44719ce1a7c9f4']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['3680c397780d984363a4e6b92e2f434aa32ce9b30d0c5274fd44719ce1a7c9f4']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Salzburg']))
+ipregion (set(['Vorarlberg']), set(['Salzburg']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']), set(['07744ac3a560c34f3e5ff842cabc7896433ad54bf873f163f0314f7f10042858']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['07744ac3a560c34f3e5ff842cabc7896433ad54bf873f163f0314f7f10042858']), set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Salzburg']), set(['Dornbirn']))
+ipregion (set(['Salzburg']), set(['Vorarlberg']))
+browserfingerprint (set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+ipcity (set(['Dornbirn']), set(['Innsbruck']))
+ipregion (set(['Vorarlberg']), set(['Tirol']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['22aebe60bf32a2f7224e5126859caf18b49d3609a4188e762491461766141a1c']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Innsbruck']), set(['Dornbirn']))
+ipregion (set(['Tirol']), set(['Vorarlberg']))
+browserfingerprint (set(['22aebe60bf32a2f7224e5126859caf18b49d3609a4188e762491461766141a1c']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+language (set(['de-DE,de;q=0.9,en;q=0.8']), set(['en']))
+plugins (set(['Shockwave Flash']), set([]))
+jsFonts (set([]), set(['MYRIAD PRO', 'ADOBE CASLON PRO', 'Minion Pro', 'ADOBE GARAMOND PRO']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']), set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']), set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']), set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']), set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']), set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']), set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']), set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']), set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']), set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['84ca7b8bf27e8dbe90433ea9975e67901b5153510e21d7c619468095284a3089']), set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']))
+====================================
+language (set(['en']), set(['de-DE,de;q=0.9,en;q=0.8']))
+plugins (set([]), set(['Shockwave Flash']))
+jsFonts (set(['MYRIAD PRO', 'ADOBE CASLON PRO', 'Minion Pro', 'ADOBE GARAMOND PRO']), set([]))
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Dallas']))
+ipregion (set(['Vorarlberg']), set(['Texas']))
+ipcountry (set(['Austria']), set(['States', 'United']))
+browserfingerprint (set(['3eb132868e7c4727089ee01b9a492f66722632758634be5056e9fe91d901c439']), set(['744ee2f58e3ea3b35e8b4ac3916f9d8e0d247c6806d3aa0784b482f75fb5565a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+ipcity (set(['Dallas']), set(['Innsbruck']))
+ipregion (set(['Texas']), set(['Tirol']))
+ipcountry (set(['States', 'United']), set(['Austria']))
+browserfingerprint (set(['744ee2f58e3ea3b35e8b4ac3916f9d8e0d247c6806d3aa0784b482f75fb5565a']), set(['1e026e17a68abea5294ec170c2dc1a60b392995b3f995ef90ec7e39b3d6055da']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Innsbruck']), set(['Dornbirn']))
+ipregion (set(['Tirol']), set(['Vorarlberg']))
+browserfingerprint (set(['1e026e17a68abea5294ec170c2dc1a60b392995b3f995ef90ec7e39b3d6055da']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['6321dd2597916b1fd5f1aa0d997c72cbf5b64c7c6636e9fef14d69df69d8abd5']))
+====================================
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['6321dd2597916b1fd5f1aa0d997c72cbf5b64c7c6636e9fef14d69df69d8abd5']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['48697d38412368d6aecefe10f98935aadb5281349b90dbb9265aacb45fd5996f']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+fp2_pixelratio (set(['1']), set(['2']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+ipcity (set(['Dornbirn']), set(['Salzburg']))
+ipregion (set(['Vorarlberg']), set(['Salzburg']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']))
+====================================
+ipcity (set(['Salzburg']), set(['Dornbirn']))
+ipregion (set(['Salzburg']), set(['Vorarlberg']))
+browserfingerprint (set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Innsbruck']))
+ipregion (set(['Vorarlberg']), set(['Tirol']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['22aebe60bf32a2f7224e5126859caf18b49d3609a4188e762491461766141a1c']))
+====================================
+ipcity (set(['Innsbruck']), set(['Salzburg']))
+ipregion (set(['Tirol']), set(['Salzburg']))
+browserfingerprint (set(['22aebe60bf32a2f7224e5126859caf18b49d3609a4188e762491461766141a1c']), set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Salzburg']), set(['Dornbirn']))
+ipregion (set(['Salzburg']), set(['Vorarlberg']))
+browserfingerprint (set(['9b66e6aed111ee01a2684a8ed9de2d6a826231dadea4995bd39ef5eef3cf5c01']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['cc3669aae1a14da0f3de465f7beece6831e993494726d75188378178e04b7a8f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['8b23689bcf11f13b722f33af4cdc56407edc17dc121eebf0f2d1333046731abe']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['8b23689bcf11f13b722f33af4cdc56407edc17dc121eebf0f2d1333046731abe']), set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_480bba8ec15658093d320b330762358ba7cb637c']))
+browserfingerprint (set(['c7c9d39df7eca349516f0cc7b8cfc3f9343a7bc18f99bb4aa3cda6d1e1bb389f']), set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']))
+====================================
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+gpuimgs (set(['0_480bba8ec15658093d320b330762358ba7cb637c']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['5e236e0b665d2a3fb85590901c73d4a37a275efc1c55ca6694a988014df6622a']), set(['5b40bf71a0714d0d00962b29126fd52aa7efbaebdb176721294bdc16af1fa3fd']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['5b40bf71a0714d0d00962b29126fd52aa7efbaebdb176721294bdc16af1fa3fd']), set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']), set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']), set(['5b40bf71a0714d0d00962b29126fd52aa7efbaebdb176721294bdc16af1fa3fd']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['5b40bf71a0714d0d00962b29126fd52aa7efbaebdb176721294bdc16af1fa3fd']), set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']), set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']), set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']), set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']), set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['68300fbeb6d2b538482080fcbf0cc257ff3d6251615ed76cf27243d98efeece5']), set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['71ab4955a2d258001ddcb93f0a666b5573765aef5ff64c69de051c23c20637c6']), set(['47e2eec6a10626db142add15147aada14c57512985ed5b7688f1bf5f37dcec70']))
+====================================
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['47e2eec6a10626db142add15147aada14c57512985ed5b7688f1bf5f37dcec70']), set(['b328c677849fbedee3fd449d5a2e75ee48f7e4ae9f2ace4dd04400604e0cab84']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+ipcity (set(['Vienna']), set(['Salzburg']))
+ipregion (set(['Wien']), set(['Salzburg']))
+browserfingerprint (set(['b328c677849fbedee3fd449d5a2e75ee48f7e4ae9f2ace4dd04400604e0cab84']), set(['9416c51c815a6ce80c63504b5c77125f7e46bc64c715aca012bc35a3b86315b5']))
+====================================
+ipcity (set(['Salzburg']), set(['Vienna']))
+ipregion (set(['Salzburg']), set(['Wien']))
+browserfingerprint (set(['9416c51c815a6ce80c63504b5c77125f7e46bc64c715aca012bc35a3b86315b5']), set(['5b40bf71a0714d0d00962b29126fd52aa7efbaebdb176721294bdc16af1fa3fd']))
+====================================
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['5b40bf71a0714d0d00962b29126fd52aa7efbaebdb176721294bdc16af1fa3fd']), set(['8563ee929fad5b2c086a8b3836ba24301ce532bc59c1401fa27f606efa37d577']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['8563ee929fad5b2c086a8b3836ba24301ce532bc59c1401fa27f606efa37d577']), set(['b57ee644dd47894affe4f7938fb3c5a011b4d5e1783cc3ab0bb318439cf3abf0']))
+====================================
+agent (set(['10_13_1)']), set(['10_13_2)']))
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['b57ee644dd47894affe4f7938fb3c5a011b4d5e1783cc3ab0bb318439cf3abf0']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['4281775c5718269bab8d94203921b0b05019c5772dd50ec1db367d4e14c57e81']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['4281775c5718269bab8d94203921b0b05019c5772dd50ec1db367d4e14c57e81']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['f0043f0a76d0ea6736e656c2792a9cd9d0113b848cb7f5642644944e298f8675']))
+====================================
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1']), set(['2']))
+browserfingerprint (set(['f0043f0a76d0ea6736e656c2792a9cd9d0113b848cb7f5642644944e298f8675']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['f0043f0a76d0ea6736e656c2792a9cd9d0113b848cb7f5642644944e298f8675']))
+====================================
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+browserfingerprint (set(['f0043f0a76d0ea6736e656c2792a9cd9d0113b848cb7f5642644944e298f8675']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+accept (set(['']), set(['*/*']))
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1']), set(['2']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['31610d71d727731ccdb6daf5be005e7de90b8a5d4b30c8f59cc6046a01c7afa7']), set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']))
+====================================
+language (set(['de-DE,de;q=0.9,en;q=0.8']), set(['en']))
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['2']), set(['1']))
+browserfingerprint (set(['82489fc4e6ef7bb15ceb474db4f7d638826979ca23672b23710bd0b6bf816dfd']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['cd0785e060978f4ff16ea6d7505aceeea0d33030c9fb441f692e4793a1b48528']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['cd0785e060978f4ff16ea6d7505aceeea0d33030c9fb441f692e4793a1b48528']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Innsbruck']))
+ipregion (set(['Vorarlberg']), set(['Tirol']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['8a4d2c2e9fd1fae97bfe0bf0bd6504cc363f29a929d0f4cbd3f4a621e57d124c']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Innsbruck']), set(['Dornbirn']))
+ipregion (set(['Tirol']), set(['Vorarlberg']))
+browserfingerprint (set(['8a4d2c2e9fd1fae97bfe0bf0bd6504cc363f29a929d0f4cbd3f4a621e57d124c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['cd0785e060978f4ff16ea6d7505aceeea0d33030c9fb441f692e4793a1b48528']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['cd0785e060978f4ff16ea6d7505aceeea0d33030c9fb441f692e4793a1b48528']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+gpuimgs (set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['acdd12f69560f8b8686430147f907056e156a33c93f1cd081d9ec3cb210e7e2b']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))
+browserfingerprint (set(['acdd12f69560f8b8686430147f907056e156a33c93f1cd081d9ec3cb210e7e2b']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Salzburg']))
+ipregion (set(['Vorarlberg']), set(['Salzburg']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['db7b483a308348aff410b67a3c9c81127ba3e656b5e352d78d82a3e3e0fbc382']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Salzburg']), set(['Dornbirn']))
+ipregion (set(['Salzburg']), set(['Vorarlberg']))
+browserfingerprint (set(['db7b483a308348aff410b67a3c9c81127ba3e656b5e352d78d82a3e3e0fbc382']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['cd0785e060978f4ff16ea6d7505aceeea0d33030c9fb441f692e4793a1b48528']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['cd0785e060978f4ff16ea6d7505aceeea0d33030c9fb441f692e4793a1b48528']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Salzburg']))
+ipregion (set(['Vorarlberg']), set(['Salzburg']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['db7b483a308348aff410b67a3c9c81127ba3e656b5e352d78d82a3e3e0fbc382']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Salzburg']), set(['Dornbirn']))
+ipregion (set(['Salzburg']), set(['Vorarlberg']))
+browserfingerprint (set(['db7b483a308348aff410b67a3c9c81127ba3e656b5e352d78d82a3e3e0fbc382']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['53c0b4d9bc423d40daae6bc18c8cdbf0ae60af1e09f02510025aa67e6d67093c']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+gpuimgs (set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']), set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['acdd12f69560f8b8686430147f907056e156a33c93f1cd081d9ec3cb210e7e2b']))
+====================================
+gpuimgs (set(['0_a9cf5bafc1f76d86dee7085a3d2ab1f80e61324d']), set(['0_ac77440ae797eee9bc47c83574d976ff72baa16b']))
+browserfingerprint (set(['acdd12f69560f8b8686430147f907056e156a33c93f1cd081d9ec3cb210e7e2b']), set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']))
+====================================
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.140']))
+browserfingerprint (set(['d19b4ef3f70f484557157b16475bba8bd6ed7459d4c05f8552042b8fc881d54b']), set(['7cd6b30edb3b13e5d91da34ed53c577d5d0825efa6cbb58f1fe7022c7ef48bd0']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['7cd6b30edb3b13e5d91da34ed53c577d5d0825efa6cbb58f1fe7022c7ef48bd0']), set(['05f5d175a3685169ebd0f99926435a06b9da376f301fd46c80d927c222f2c010']))
+====================================
+agent (set(['10_13_2)']), set(['10_13_3)']))
+browserfingerprint (set(['05f5d175a3685169ebd0f99926435a06b9da376f301fd46c80d927c222f2c010']), set(['91bf70f56669db6da6c2ca155914cbb440bdc35055689898ed0b260d1130dc58']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['91bf70f56669db6da6c2ca155914cbb440bdc35055689898ed0b260d1130dc58']), set(['271a93a0fd6a6fe42181dff7f47632c3793f51deca0e6484a6269039da108489']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['271a93a0fd6a6fe42181dff7f47632c3793f51deca0e6484a6269039da108489']), set(['66e423b9ac1a4ce889ebb9cae5b523352c2fa02fac2e4ba58b030e4542b24bbe']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['66e423b9ac1a4ce889ebb9cae5b523352c2fa02fac2e4ba58b030e4542b24bbe']), set(['271a93a0fd6a6fe42181dff7f47632c3793f51deca0e6484a6269039da108489']))
+====================================
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
+browserfingerprint (set(['271a93a0fd6a6fe42181dff7f47632c3793f51deca0e6484a6269039da108489']), set(['b9f663ea76f12d6bfa86515cc7592ab68430ec858d7fb4623be89e0fcd4b6a62']))
+====================================
+agent (set(['Intel', '(Macintosh;', '10_13_3)', 'Mac', 'X', 'OS']), set(['(Linux;', '6.0;', 'Nexus', 'Mobile', '5', 'Build/MRA58N)', 'Android']))
+plugins (set(['Shockwave Flash', 'Chrome PDF Viewer', 'Chrome PDF Plugin', 'Native Client', 'Widevine Content Decryption Module']), set(['']))
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+fp2_pixelratio (set(['1']), set(['2.625']))
+fp2_liedos (set(['False']), set(['True']))
+browserfingerprint (set(['b9f663ea76f12d6bfa86515cc7592ab68430ec858d7fb4623be89e0fcd4b6a62']), set(['837e135c87a0ef2a84bdad5468886f879af7297626b227302fa5a60e01b03097']))
+====================================
+agent (set(['(Linux;', '6.0;', 'Nexus', 'Mobile', '5', 'Build/MRA58N)', 'Android']), set(['Intel', '(Macintosh;', '10_13_3)', 'Mac', 'X', 'OS']))
+plugins (set(['']), set(['Shockwave Flash', 'Chrome PDF Viewer', 'Chrome PDF Plugin', 'Native Client', 'Widevine Content Decryption Module']))
+fp2_pixelratio (set(['2.625']), set(['1']))
+fp2_liedos (set(['True']), set(['False']))
+browserfingerprint (set(['837e135c87a0ef2a84bdad5468886f879af7297626b227302fa5a60e01b03097']), set(['271a93a0fd6a6fe42181dff7f47632c3793f51deca0e6484a6269039da108489']))
+====================================
+agent (set(['Intel', '(Macintosh;', '10_13_3)', 'Mac', 'X', 'OS']), set(['(Linux;', '6.0;', 'Nexus', 'Mobile', '5', 'Build/MRA58N)', 'Android']))
+plugins (set(['Shockwave Flash', 'Chrome PDF Viewer', 'Chrome PDF Plugin', 'Native Client', 'Widevine Content Decryption Module']), set(['']))
+fp2_pixelratio (set(['1']), set(['2.625']))
+fp2_liedos (set(['False']), set(['True']))
+browserfingerprint (set(['271a93a0fd6a6fe42181dff7f47632c3793f51deca0e6484a6269039da108489']), set(['837e135c87a0ef2a84bdad5468886f879af7297626b227302fa5a60e01b03097']))
+====================================
+agent (set(['(Linux;', '6.0;', 'Nexus', 'Mobile', '5', 'Build/MRA58N)', 'Android', 'Chrome/64.0.3282.140']), set(['Chrome/64.0.3282.167', 'Intel', '(Macintosh;', '10_13_3)', 'Mac', 'X', 'OS']))
+plugins (set(['']), set(['Shockwave Flash', 'Chrome PDF Viewer', 'Chrome PDF Plugin', 'Native Client', 'Widevine Content Decryption Module']))
+fp2_pixelratio (set(['2.625']), set(['1']))
+fp2_liedos (set(['True']), set(['False']))
+browserfingerprint (set(['837e135c87a0ef2a84bdad5468886f879af7297626b227302fa5a60e01b03097']), set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']), set(['32e0aaf8398713963e8af7d9ca0f01e30b6e89db0846be5ecff869fa699f53e3']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['32e0aaf8398713963e8af7d9ca0f01e30b6e89db0846be5ecff869fa699f53e3']), set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']))
+====================================
+fp2_pixelratio (set(['1']), set(['2']))
+ipcity (set(['Dornbirn']), set(['Vienna']))
+ipregion (set(['Vorarlberg']), set(['Wien']))
+browserfingerprint (set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']), set(['b307463a3958ae8a12ada5f589e245ef20420c5b75ddf0c43a7a94239638b47e']))
+====================================
+fp2_pixelratio (set(['2']), set(['1']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['b307463a3958ae8a12ada5f589e245ef20420c5b75ddf0c43a7a94239638b47e']), set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']))
+====================================
+plugins (set(['Shockwave Flash']), set([]))
+browserfingerprint (set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']), set(['32e0aaf8398713963e8af7d9ca0f01e30b6e89db0846be5ecff869fa699f53e3']))
+====================================
+plugins (set([]), set(['Shockwave Flash']))
+browserfingerprint (set(['32e0aaf8398713963e8af7d9ca0f01e30b6e89db0846be5ecff869fa699f53e3']), set(['4dfce85d5b004652a20989621151e63d7ad6d2f5d5e71c27452b37a31129f66c']))
+====================================

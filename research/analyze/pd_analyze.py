@@ -584,7 +584,7 @@ def get_device(row):
         pass
 
     #print ("error getting platform: ", row['agent'])
-    keys = ['clientid', 'cpucores', 'fp2_platform', 'audio', 'fp2_pixelratio']
+    keys = ['clientid', 'cpucores', 'fp2_platform']
     for key in keys:
         # we assume that all of the keys are not null
         try:
@@ -607,7 +607,7 @@ def get_browserid(row):
         pass
 
     #print ("error getting platform: ", row['agent'])
-    keys = ['clientid', 'cpucores', 'fp2_platform', 'audio', 'fp2_pixelratio']
+    keys = ['clientid', 'cpucores', 'fp2_platform']
     for key in keys:
         # we assume that all of the keys are not null
         try:
@@ -624,7 +624,7 @@ def get_browserid(row):
 
 
 def load_data(load = True, db = None, file_path = None, table_name = "features", 
-        feature_list = ['*'], limit = -1):
+        feature_list = ['*'], limit = -1, other = ""):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
         #"fp2_colordepth",
@@ -675,12 +675,12 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         else:
             limit_str = ' limit {}'.format(limit)
         #df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set" {};'.format(feature_str, table_name, limit_str), con=db.get_db())    
-        df = pd.read_sql('select {} from {} {};'.format(feature_str, table_name, limit_str), con=db.get_db())    
+        df = pd.read_sql('select {} from {} {} {};'.format(feature_str, table_name, other ,limit_str), con=db.get_db())    
         print ("data loaded")
     else:
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         print ("ip2location data loaded")
-        df = pd.read_sql('select * from {} where jsFonts is not NULL;'.format(table_name),
+        df = pd.read_sql('select * from {} where jsFonts is not NULL {};'.format(table_name),
                 con=db.get_db())    
         print ("data loaded")
         # delete the null clientid rows
@@ -1109,7 +1109,7 @@ def agent_changes_of_date(count_feature, client, df):
     for feature in features:
         for idx in range(length + 1):
             num_browserids_that_day[feature][idx] = float(len(num_browserids_that_day[feature][idx]))
-    print num_browserids_that_day
+    #print num_browserids_that_day
     '''
 #=================================================
     res = {}
@@ -1137,7 +1137,7 @@ def agent_changes_of_date(count_feature, client, df):
         "WebGL", 
         "inc", 
         "gpu", 
-        #"gpuimgs", 
+        "gpuimgs", 
         "timezone", 
         "plugins", 
         "cookie", 
@@ -1186,7 +1186,7 @@ def agent_changes_of_date(count_feature, client, df):
                     break
                 pre = row
     res = {}
-    print changes
+    #print changes
     '''
     print '============================'
     for browser in total_change:
@@ -1201,7 +1201,7 @@ def agent_changes_of_date(count_feature, client, df):
                 res[cur_date][feature] = 0.0
             else:
                 res[cur_date][feature] = 100 * changes[feature][date] / num_browserids_that_day[feature][date]
-            print feature, cur_date, num_browserids_that_day[feature][date], changes[feature][date], res[cur_date][feature]
+    #        print feature, cur_date, num_browserids_that_day[feature][date], changes[feature][date], res[cur_date][feature]
 #total_num_ids_that_day[date]
     print 'finished the percentage of changes on that date'
     return res, features 
@@ -1278,14 +1278,14 @@ def get_mapping_back(df, canvas_mapping, gpuimgs_mapping, back_name, null_val = 
         #users[userid] &= gpuimgs_mapping[gpu_value]['aim']
     return users
 
-def draw_browser_change_by_date(df):
+def draw_browser_change_by_date_paper(df):
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
     clientid = df.groupby('browserid')
     small_features = [ 
-        "browserfingerprint"
         "gpuimgs",
+        "browserfingerprint",
         "agent",
         "jsFonts",
         "canvastest",
@@ -1297,7 +1297,7 @@ def draw_browser_change_by_date(df):
         "WebGL", 
         "inc", 
         "gpu", 
-        #"gpuimgs", 
+        "gpuimgs", 
         "timezone", 
         "plugins", 
         "cookie", 
@@ -1308,13 +1308,15 @@ def draw_browser_change_by_date(df):
         ]
     for feature in small_features: 
         changes, features = agent_changes_of_date(feature, clientid, df)
-        f = open('./pics/{}changebydate.dat'.format(feature), 'w')
+        #f = open('./pics/{}changebydate.dat'.format(feature), 'w')
+        f = open('./changebydate/{}changebydate.dat'.format(feature), 'w')
         for date in sorted(changes):
             f.write('{}-{}-{}'.format(date.year, date.month, date.day))
             for feature in features:
                 f.write(' {:.2f}'.format(changes[date][feature]))
             f.write('\n')
         f.close()
+        break;
 
 def feature_latex_table_paper(df):
     value_set = {}
@@ -1900,9 +1902,9 @@ def main():
         "cpucores", 
         "audio"
         ]
-    db = Database('uniquemachine')
-    df = load_data(load = False, feature_list = ['*'], table_name = "features", db = db)
     '''
+    db = Database('uniquemachine')
+    df = load_data(load = False, feature_list = ['*'], table_name = "longfeatures", db = db)
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -2016,12 +2018,12 @@ def main():
     print 'tolerance: ', tolerance
     df = load_data(load = True, feature_list = ['clientid','inc', 'gpu', 'canvastest', 'gpuimgs', 'browser', 'browserid', 'browserfingerprint'], table_name = 'pandas_features', db = db)
     gpu_mapback_paper(df)
-    '''
+    feature_delta_paper(df)
     '''
     db = Database('uniquemachine')
-    df = load_data(load = True, feature_list = ['*'], table_name = "pandas_longfeatures", db = db)
-    feature_delta_paper(df)
+    df = load_data(load = True, feature_list = ['*'], table_name = "pandas_features", db = db, other = ' where gpuimgs is not NULL ')
     draw_browser_change_by_date_paper(df)
+    '''
     life_time_distribution_paper(df)
     feature_latex_table_paper(df)
     db = Database('uniquemachine')
