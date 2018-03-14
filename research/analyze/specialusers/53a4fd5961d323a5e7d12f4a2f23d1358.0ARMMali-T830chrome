@@ -1,0 +1,21 @@
+browserfingerprint (set(['1b74f2b467c9f8d35b9d1ec24101e49fcbbb57103cd64030d7dfb0d37397e8dc']), set(['500b559a87a3c292760c63f9d34ec67c080907cf43e123e065323a1d0c7d2d82']))
+====================================
+ipcity (set(['Isenburg']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['500b559a87a3c292760c63f9d34ec67c080907cf43e123e065323a1d0c7d2d82']), set(['a9b2e5ec14508af91bc17edb70e483e66774638429c19c3624628a931351eb59']))
+====================================
+browserfingerprint (set(['a9b2e5ec14508af91bc17edb70e483e66774638429c19c3624628a931351eb59']), set(['97e59a5e548e40f7e6ab70c20221bcaa7261945f9a7bfae3d87e25575279cd21']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Isenburg']))
+ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['97e59a5e548e40f7e6ab70c20221bcaa7261945f9a7bfae3d87e25575279cd21']), set(['a50dbe9afa13e718f20339cf4696765f5c5aa4f4dfe085e3cf3d0749015d656c']))
+====================================
+ipcity (set(['Isenburg']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['a50dbe9afa13e718f20339cf4696765f5c5aa4f4dfe085e3cf3d0749015d656c']), set(['f49fddfc578ff98ec1ce50d86a761befcec1fac5aac8e2b594560278efcb4b3d']))
+====================================
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Bonn']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f49fddfc578ff98ec1ce50d86a761befcec1fac5aac8e2b594560278efcb4b3d']), set(['6e70cd2362843c3eb2d62f6e6c5f47533fbf3ab159c2a26e6e2e82f9cf9fd989']))
+====================================

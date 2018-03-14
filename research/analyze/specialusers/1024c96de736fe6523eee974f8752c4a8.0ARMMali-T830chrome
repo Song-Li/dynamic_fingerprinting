@@ -1,0 +1,12 @@
+timezone (set(['-120.0']), set(['-60.0']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Ghardaqah', 'Al']), set(['Dusseldorf']))
+ipregion (set(['Ahmar', 'Bahr', 'Al', 'al']), set(['Nordrhein-Westfalen']))
+ipcountry (set(['Egypt']), set(['Germany']))
+browserfingerprint (set(['59a39a5b4786478a6d3039d8e59731bea7a6fe11059a63e5e30d625c11c2f19f']), set(['7f134b37a0a93936bcd0765ee976440535d202ea595d87927ccaa602f4745eb0']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['7f134b37a0a93936bcd0765ee976440535d202ea595d87927ccaa602f4745eb0']), set(['ad1dcff5bbdb7690fde37b9326e732e48afe8aaf2f1c832d2b89f5b24bc3fdc4']))
+====================================
+browserfingerprint (set(['ad1dcff5bbdb7690fde37b9326e732e48afe8aaf2f1c832d2b89f5b24bc3fdc4']), set(['c4b5017bccd23c42aa171178f21f5a3df4dad3bd909c88549627b8d22b0fa540']))
+====================================

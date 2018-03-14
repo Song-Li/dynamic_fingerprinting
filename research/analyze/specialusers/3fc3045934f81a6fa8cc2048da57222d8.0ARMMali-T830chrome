@@ -1,0 +1,8 @@
+ipcity (set(['Gorlitz']), set(['Dresden']))
+browserfingerprint (set(['24c6cbe602c5560be0637fe85c9d3c9a2e07147b0964a3e4d2146448b73f035d']), set(['54bd096115490de4fd00b879907b8cf0cb7ede47999eb17978c0a14a9974cbb0']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dresden']), set(['Dusseldorf']))
+ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['54bd096115490de4fd00b879907b8cf0cb7ede47999eb17978c0a14a9974cbb0']), set(['7f134b37a0a93936bcd0765ee976440535d202ea595d87927ccaa602f4745eb0']))
+====================================

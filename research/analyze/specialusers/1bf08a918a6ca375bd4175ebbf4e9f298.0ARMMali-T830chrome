@@ -1,0 +1,32 @@
+browserfingerprint (set(['97e2aab67f0a3335c0bdaa732b02b008e7276d750b9ca6e8a4e35003a6f4ef0c']), set(['ff2d200e10d18dbb230993bddb7c7eb6662d8723365020b84be08f4ef97d2c97']))
+====================================
+browserfingerprint (set(['ff2d200e10d18dbb230993bddb7c7eb6662d8723365020b84be08f4ef97d2c97']), set(['8d91cabe706457b78a900254293bc53962476633cc97b23f27c3cfe2daeb3285']))
+====================================
+browserfingerprint (set(['8d91cabe706457b78a900254293bc53962476633cc97b23f27c3cfe2daeb3285']), set(['ff2d200e10d18dbb230993bddb7c7eb6662d8723365020b84be08f4ef97d2c97']))
+====================================
+browserfingerprint (set(['ff2d200e10d18dbb230993bddb7c7eb6662d8723365020b84be08f4ef97d2c97']), set(['8d91cabe706457b78a900254293bc53962476633cc97b23f27c3cfe2daeb3285']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['8d91cabe706457b78a900254293bc53962476633cc97b23f27c3cfe2daeb3285']), set(['381b9645d00976919f4c2a375fc9c15a7552d027a36f0d5a9b5496800d94f721']))
+====================================
+ipcity (set(['Mainz']), set(['Wiesbaden']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['381b9645d00976919f4c2a375fc9c15a7552d027a36f0d5a9b5496800d94f721']), set(['ce5e784d307439a2e0f6e013a84e81c1af1b3ba11b4110e6f2a2755e25b4dd99']))
+====================================
+browserfingerprint (set(['ce5e784d307439a2e0f6e013a84e81c1af1b3ba11b4110e6f2a2755e25b4dd99']), set(['f3415adccd8ec230f25b11f68ccf7cfa9b398a1672e755b1e2fcd5a13b9ad044']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Wiesbaden']), set(['Butjadingen']))
+ipregion (set(['Hessen']), set(['Niedersachsen']))
+browserfingerprint (set(['f3415adccd8ec230f25b11f68ccf7cfa9b398a1672e755b1e2fcd5a13b9ad044']), set(['4ee798551cd044c5f2753ff6b788f0d6150d7d3f01f6b6eaeb9141d5c16b27a7']))
+====================================
+browserfingerprint (set(['4ee798551cd044c5f2753ff6b788f0d6150d7d3f01f6b6eaeb9141d5c16b27a7']), set(['5d30c42de26fb2a6b9e62b9bd03a96ed29acca99f85c6501520c1e0dd5c6e2ad']))
+====================================
+ipcity (set(['Butjadingen']), set(['Saarbrucken']))
+ipregion (set(['Niedersachsen']), set(['Saarland']))
+browserfingerprint (set(['5d30c42de26fb2a6b9e62b9bd03a96ed29acca99f85c6501520c1e0dd5c6e2ad']), set(['1499d0c4cbf442cc53bbd9b5d3eda8b0447c7bcab2d3ecc57349feb7b42589f9']))
+====================================
+ipcity (set(['Saarbrucken']), set(['Mainz']))
+ipregion (set(['Saarland']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['1499d0c4cbf442cc53bbd9b5d3eda8b0447c7bcab2d3ecc57349feb7b42589f9']), set(['8fbcd87beb9bab9fd19b28f3e1673033ccebcaaaed4e87b520a9d9d4957054a9']))
+====================================

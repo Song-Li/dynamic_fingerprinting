@@ -1,0 +1,15 @@
+browserfingerprint (set(['afdfba993728a3ca25b971add8bff42500a56d5effafd723f46b91823cef0217']), set(['bd93549d1ba4342465e14f22d59d0d1e04a07ebe917521ff2b4686d094382f73']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Freinsheim']), set(['Bad', 'Kreuznach']))
+browserfingerprint (set(['bd93549d1ba4342465e14f22d59d0d1e04a07ebe917521ff2b4686d094382f73']), set(['e585d6bec06cbd51f03d354c2f3a14534d78e7f092294c238d17faad81e5e8db']))
+====================================
+ipcity (set(['Bad', 'Kreuznach']), set(['Nuremberg']))
+ipregion (set(['Rheinland-Pfalz']), set(['Bayern']))
+browserfingerprint (set(['e585d6bec06cbd51f03d354c2f3a14534d78e7f092294c238d17faad81e5e8db']), set(['594bb0d52e6b1ba3244bc5ec0d136a6845bd5aedaf8ccbdf897c12948eb04acc']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+browserfingerprint (set(['594bb0d52e6b1ba3244bc5ec0d136a6845bd5aedaf8ccbdf897c12948eb04acc']), set(['e75d347688d3e4fa826448c59d649cf1ca66f1b991abeb0fc69f3eda01618cb1']))
+====================================

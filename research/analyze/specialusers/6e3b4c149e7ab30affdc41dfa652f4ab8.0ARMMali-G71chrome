@@ -1,0 +1,14 @@
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Vienna']))
+ipregion (set(['Hessen']), set(['Wien']))
+ipcountry (set(['Germany']), set(['Austria']))
+browserfingerprint (set(['2a79b866fe0bb139d455f47a629de560aa80a0b61caad8668d7675cfca65938a']), set(['493b18025cc875ac5b5c2173ef754c3746378dd615b5f2f3349d3a8eaaab322e']))
+====================================
+browserfingerprint (set(['493b18025cc875ac5b5c2173ef754c3746378dd615b5f2f3349d3a8eaaab322e']), set(['67e8f93c6927e8ad728f4d11aa4d090a62af81fbded1c61570dc55042f587c92']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Vienna']), set(['Haar']))
+ipregion (set(['Wien']), set(['Niedersachsen']))
+ipcountry (set(['Austria']), set(['Germany']))
+browserfingerprint (set(['67e8f93c6927e8ad728f4d11aa4d090a62af81fbded1c61570dc55042f587c92']), set(['a0e9b87d5ea7393da326690003d8cdb09ceff8c71874f793c1161a8545fdb778']))
+====================================

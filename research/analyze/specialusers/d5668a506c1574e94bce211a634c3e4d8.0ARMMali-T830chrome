@@ -1,0 +1,54 @@
+ipcity (set(['Munich']), set(['Saarbrucken']))
+ipregion (set(['Bayern']), set(['Saarland']))
+browserfingerprint (set(['0053ab303025ee88b00c51d5505c6da712228ba8a9a8664dc5574783a63ca9bc']), set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']))
+====================================
+browserfingerprint (set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']), set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']))
+====================================
+browserfingerprint (set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']), set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']))
+====================================
+browserfingerprint (set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']), set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']))
+====================================
+browserfingerprint (set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']), set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']))
+====================================
+browserfingerprint (set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']), set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']))
+====================================
+browserfingerprint (set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']), set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']))
+====================================
+browserfingerprint (set(['412675dbaca870658c93684195cbc766b935f94ac621d778314368680a3b1fab']), set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+browserfingerprint (set(['de7ae455bdde8b7c085f4dfcabf3b4ad102b7f6ad1fe0ec6fe5bcc2f7ca7c6a9']), set(['4fc429c4ba1e4d7678419a5c528fa9dad7d70d5c5fe87080a5dc2180db046988']))
+====================================
+browserfingerprint (set(['4fc429c4ba1e4d7678419a5c528fa9dad7d70d5c5fe87080a5dc2180db046988']), set(['5e02a39dd98fbaa167b5cb1b8f51f59e59fa8ba48968306d1bf58aaf99b48168']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Saarbrucken']), set(['Bayreuth']))
+ipregion (set(['Saarland']), set(['Bayern']))
+browserfingerprint (set(['5e02a39dd98fbaa167b5cb1b8f51f59e59fa8ba48968306d1bf58aaf99b48168']), set(['e93c6789d2f7e61e72648714314af8b77a32b010cf89273797ea3e1c2bfdd211']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['e93c6789d2f7e61e72648714314af8b77a32b010cf89273797ea3e1c2bfdd211']), set(['50ac4a8ea9381eccf9fb4910b2f16f9841eb4cd4a1b512f2f69535bc4171aa92']))
+====================================
+browserfingerprint (set(['50ac4a8ea9381eccf9fb4910b2f16f9841eb4cd4a1b512f2f69535bc4171aa92']), set(['2e3d91205622a7e3caf2dda7c56dc989a794bb62444c9ecd2a7999eaa62e1a8e']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Bayreuth']), set(['Petzmannsberg']))
+browserfingerprint (set(['2e3d91205622a7e3caf2dda7c56dc989a794bb62444c9ecd2a7999eaa62e1a8e']), set(['019e7e22c8cbf06de6a2c3f13048b6144422771b2c33316dff17dfbb4e1fd1af']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['019e7e22c8cbf06de6a2c3f13048b6144422771b2c33316dff17dfbb4e1fd1af']), set(['94bbe75325ec531e5929ab317a9731d2fde3cd36ba5b50370c9502cee2b4ad21']))
+====================================
+browserfingerprint (set(['94bbe75325ec531e5929ab317a9731d2fde3cd36ba5b50370c9502cee2b4ad21']), set(['068bfa703fa81844564436f2d595cf0dd5b29a995e074584c9eb393eca6675dd']))
+====================================
+browserfingerprint (set(['068bfa703fa81844564436f2d595cf0dd5b29a995e074584c9eb393eca6675dd']), set(['94bbe75325ec531e5929ab317a9731d2fde3cd36ba5b50370c9502cee2b4ad21']))
+====================================
+browserfingerprint (set(['94bbe75325ec531e5929ab317a9731d2fde3cd36ba5b50370c9502cee2b4ad21']), set(['068bfa703fa81844564436f2d595cf0dd5b29a995e074584c9eb393eca6675dd']))
+====================================
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+ipcity (set(['Petzmannsberg']), set(['Munich']))
+browserfingerprint (set(['068bfa703fa81844564436f2d595cf0dd5b29a995e074584c9eb393eca6675dd']), set(['53cdc2cdaf566c36c0923c63def9dc0a7f2bc73d0b7a3474b41077a95217afcb']))
+====================================
+ipcity (set(['Munich']), set(['Petzmannsberg']))
+browserfingerprint (set(['53cdc2cdaf566c36c0923c63def9dc0a7f2bc73d0b7a3474b41077a95217afcb']), set(['78ca087328696b2cce2e5e32619e1848dfbecb43ec45716ff377eb08db692490']))
+====================================

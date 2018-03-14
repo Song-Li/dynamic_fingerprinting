@@ -1,0 +1,29 @@
+browserfingerprint (set(['04cb2c845598d80969fcce63f382e19f8e323ae8a72dd3028d66d67600d28f2c']), set(['5d67d4e88b2ea5eae7204c6dd7c4b1d9c21974e4f5049f7066d4f1ae620ba142']))
+====================================
+browserfingerprint (set(['5d67d4e88b2ea5eae7204c6dd7c4b1d9c21974e4f5049f7066d4f1ae620ba142']), set(['7c5a9efdf08439b2544a11d31103752e3448639b1918ea704f9fdc4218a4bbf2']))
+====================================
+ipcity (set(['Wieseck']), set(['Isenburg']))
+ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['7c5a9efdf08439b2544a11d31103752e3448639b1918ea704f9fdc4218a4bbf2']), set(['25659319487d234a13355de132ee59a4bbc81dadd308bed3bd32e527057b43f7']))
+====================================
+ipcity (set(['Isenburg']), set(['Wieseck']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['25659319487d234a13355de132ee59a4bbc81dadd308bed3bd32e527057b43f7']), set(['7c5a9efdf08439b2544a11d31103752e3448639b1918ea704f9fdc4218a4bbf2']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+browserfingerprint (set(['7c5a9efdf08439b2544a11d31103752e3448639b1918ea704f9fdc4218a4bbf2']), set(['d80f7f56d37d1fb3b30ad081cd985bc603423c125a11c280f831511b41c0fea1']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['d80f7f56d37d1fb3b30ad081cd985bc603423c125a11c280f831511b41c0fea1']), set(['25d082ecb1ee1ca1fcfb5ebf63961dbce9e5d8834b67ba3bdd323d384f2c6585']))
+====================================
+browserfingerprint (set(['25d082ecb1ee1ca1fcfb5ebf63961dbce9e5d8834b67ba3bdd323d384f2c6585']), set(['65459261a405275eaef7bd7ca48ef6bb1b34b302eaa80eab3c4ef6e8964e3780']))
+====================================
+browserfingerprint (set(['65459261a405275eaef7bd7ca48ef6bb1b34b302eaa80eab3c4ef6e8964e3780']), set(['25d082ecb1ee1ca1fcfb5ebf63961dbce9e5d8834b67ba3bdd323d384f2c6585']))
+====================================
+browserfingerprint (set(['25d082ecb1ee1ca1fcfb5ebf63961dbce9e5d8834b67ba3bdd323d384f2c6585']), set(['65459261a405275eaef7bd7ca48ef6bb1b34b302eaa80eab3c4ef6e8964e3780']))
+====================================
+browserfingerprint (set(['65459261a405275eaef7bd7ca48ef6bb1b34b302eaa80eab3c4ef6e8964e3780']), set(['25d082ecb1ee1ca1fcfb5ebf63961dbce9e5d8834b67ba3bdd323d384f2c6585']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['25d082ecb1ee1ca1fcfb5ebf63961dbce9e5d8834b67ba3bdd323d384f2c6585']), set(['82520ba4745977a48b0c4ec5d23b2c9f3c88e1cfc4d4017f7992da2d934dc31c']))
+====================================

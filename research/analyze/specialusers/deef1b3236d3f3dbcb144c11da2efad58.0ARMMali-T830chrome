@@ -1,0 +1,45 @@
+browserfingerprint (set(['be493ce1dbf121fd7caec754e25f96eaa3c7b75c30e76d94f5edc54ceffd9a87']), set(['5f458abb2a7478d6efac1825fb7e0d5a2f9485785651961105cd5b7b1fda2a06']))
+====================================
+ipcity (set(['Munich']), set(['Mobile']))
+ipregion (set(['Bayern']), set(['Alabama']))
+ipcountry (set(['Germany']), set(['States', 'United']))
+browserfingerprint (set(['5f458abb2a7478d6efac1825fb7e0d5a2f9485785651961105cd5b7b1fda2a06']), set(['ba75b8c24450ece6d3149d37771fd23011fdb528f9f7f8f197b843517aff7116']))
+====================================
+browserfingerprint (set(['ba75b8c24450ece6d3149d37771fd23011fdb528f9f7f8f197b843517aff7116']), set(['e128cba87939e52ea055cb8b2c5be9d08bb32054b00f0ee16a0c333292c4f3ae']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+timezone (set(['-60.0']), set(['360.0']))
+ipcity (set(['Mobile']), set(['Munich']))
+ipregion (set(['Alabama']), set(['Bayern']))
+ipcountry (set(['States', 'United']), set(['Germany']))
+browserfingerprint (set(['e128cba87939e52ea055cb8b2c5be9d08bb32054b00f0ee16a0c333292c4f3ae']), set(['91a5472c0004cede1d8a6d840d7e86747498e562a1e5b4016c818ca45f1d7f52']))
+====================================
+ipcity (set(['Munich']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Bayern']), set(['Hessen']))
+browserfingerprint (set(['91a5472c0004cede1d8a6d840d7e86747498e562a1e5b4016c818ca45f1d7f52']), set(['43b35b6c697460166adee6feb0358f242a93a028a4670aa7ad4038140275f4da']))
+====================================
+timezone (set(['360.0']), set(['-60.0']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Deggendorf']))
+ipregion (set(['Hessen']), set(['Bayern']))
+browserfingerprint (set(['43b35b6c697460166adee6feb0358f242a93a028a4670aa7ad4038140275f4da']), set(['30ff4c78741583d9d91bb0535a5bd93fc37fa2cb6b94f778c3a7e37fd76aa814']))
+====================================
+browserfingerprint (set(['30ff4c78741583d9d91bb0535a5bd93fc37fa2cb6b94f778c3a7e37fd76aa814']), set(['e1b13eacb752bf37e05208bb1b676af1b8f75d808d7a9888cabfa1ccbe7228fb']))
+====================================
+ipcity (set(['Deggendorf']), set(['Mobile']))
+ipregion (set(['Bayern']), set(['Alabama']))
+ipcountry (set(['Germany']), set(['States', 'United']))
+browserfingerprint (set(['e1b13eacb752bf37e05208bb1b676af1b8f75d808d7a9888cabfa1ccbe7228fb']), set(['a4ba8786cc572dff501e87332853af7ae24765cab922db500cc9d40523d45aa5']))
+====================================
+browserfingerprint (set(['a4ba8786cc572dff501e87332853af7ae24765cab922db500cc9d40523d45aa5']), set(['6631c1f336d3eda23da3cdc418705b0ba829a4d6fddfeec40745df5558204a36']))
+====================================
+browserfingerprint (set(['6631c1f336d3eda23da3cdc418705b0ba829a4d6fddfeec40745df5558204a36']), set(['a4ba8786cc572dff501e87332853af7ae24765cab922db500cc9d40523d45aa5']))
+====================================
+timezone (set(['-60.0']), set(['360.0']))
+ipcity (set(['Mobile']), set(['Fritzlar']))
+ipregion (set(['Alabama']), set(['Hessen']))
+ipcountry (set(['States', 'United']), set(['Germany']))
+browserfingerprint (set(['a4ba8786cc572dff501e87332853af7ae24765cab922db500cc9d40523d45aa5']), set(['b41eb8d3ed3bbc99bfabc11a0ade9c9228d1d3406727c485cc157369eda3700f']))
+====================================
+browserfingerprint (set(['b41eb8d3ed3bbc99bfabc11a0ade9c9228d1d3406727c485cc157369eda3700f']), set(['9b933381fddc308064cd962005dc3879abcae898ed1ea36b3fd5335926fba8ac']))
+====================================

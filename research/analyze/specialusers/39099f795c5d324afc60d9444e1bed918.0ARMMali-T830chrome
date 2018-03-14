@@ -1,0 +1,11 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+ipcity (set(['Kerpen']), set(['Haar']))
+ipregion (set(['Rheinland-Pfalz']), set(['Niedersachsen']))
+browserfingerprint (set(['62f5c1cb35fa3dc9fb875e2e790d049f4bc529afa98de0a910d208264e5a718e']), set(['401f479e3c7d848e6800ffe0054a80669ec9800ea1141df8138ca7ce6b5b5803']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Haar']), set(['Bonn']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['401f479e3c7d848e6800ffe0054a80669ec9800ea1141df8138ca7ce6b5b5803']), set(['bd2746bfa6d7589cb8c36d9b76f49bd386b12c9c30cf335aabf4294b2396ea6f']))
+====================================

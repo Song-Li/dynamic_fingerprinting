@@ -1,0 +1,19 @@
+ipcity (set(['Dusseldorf']), set(['Schneizlreuth']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['1dcec83daa7801e7dcf2e83aec891447ef3e0b4bcf5cd4bc75e8406116bc3a5a']), set(['c2c3de6fc3dac98a1fb96b2e38cd96562ffb797519cfbedce36435397acc087e']))
+====================================
+ipcity (set(['Schneizlreuth']), set(['Siegen']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['c2c3de6fc3dac98a1fb96b2e38cd96562ffb797519cfbedce36435397acc087e']), set(['b5f9e6382677678e647471d51aa2b371701bc0869cf6635be66cd88a1c818921']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Siegen']), set(['Schnellenbach']))
+browserfingerprint (set(['b5f9e6382677678e647471d51aa2b371701bc0869cf6635be66cd88a1c818921']), set(['a6f289e21a17880311ae3c05879e275d7d1d0da809981c59b01cc003c8415f0c']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Schnellenbach']), set(['Recklinghausen']))
+browserfingerprint (set(['a6f289e21a17880311ae3c05879e275d7d1d0da809981c59b01cc003c8415f0c']), set(['fa779600d65172c1d497813d957c4577753322aaa4d3bcae697990079110df8a']))
+====================================
+browserfingerprint (set(['fa779600d65172c1d497813d957c4577753322aaa4d3bcae697990079110df8a']), set(['b0dc7bfe6aec66e778cd77b6f3e55c0736382c7fdfa0624521151bf74ec4096e']))
+====================================

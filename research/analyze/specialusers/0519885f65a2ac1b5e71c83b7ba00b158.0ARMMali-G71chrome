@@ -1,0 +1,6 @@
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Hamburg']), set(['Buxtehude']))
+ipregion (set(['Hamburg']), set(['Niedersachsen']))
+browserfingerprint (set(['7f4118810f8422d2c316fd0679bc739ea0b3b06a8dc65b6784752b8e4408a68c']), set(['bbc25d2a82a0e9f1b2e795b9a334d9a1c7dcc2fcc6838481e65c2afdb0fc7b4a']))
+====================================

@@ -1,0 +1,26 @@
+browserfingerprint (set(['a3204919935dd10024f181a8491104414442cff2742978862cb9234012e1b8c5']), set(['5cc1110ed340eca8203b83747cdda6bc17e151f4058e3f5e4a86576735fd9d12']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,fr;q=0.2']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,fr;q=0.6']))
+browserfingerprint (set(['5cc1110ed340eca8203b83747cdda6bc17e151f4058e3f5e4a86576735fd9d12']), set(['8e7a88a3265763a1ffd41198ad9a14521d154a2b0c1ea39b14f1d05a286534c2']))
+====================================
+ipcity (set(['Pirmasens']), set(['Wiesbaden']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['8e7a88a3265763a1ffd41198ad9a14521d154a2b0c1ea39b14f1d05a286534c2']), set(['dd8249580b489391f5477e0f018ec00136bfa47bf1cfc5930890e8cd7c33dd4e']))
+====================================
+browserfingerprint (set(['dd8249580b489391f5477e0f018ec00136bfa47bf1cfc5930890e8cd7c33dd4e']), set(['dcbe782d6e11cd066ca00015c0dc5f2891fb82f0ef2a915f928485a1bcc61188']))
+====================================
+ipcity (set(['Wiesbaden']), set(['Berlin']))
+ipregion (set(['Hessen']), set(['Berlin']))
+browserfingerprint (set(['dcbe782d6e11cd066ca00015c0dc5f2891fb82f0ef2a915f928485a1bcc61188']), set(['4bb632558cc48645ff65d1075f500cdef592fc72ae4f201838fc06554253fe82']))
+====================================
+browserfingerprint (set(['4bb632558cc48645ff65d1075f500cdef592fc72ae4f201838fc06554253fe82']), set(['6238861233cd9f8161c1d6bbdefbffe844968e739c43fd255540433f0451e17e']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Berlin']), set(['Wommen']))
+ipregion (set(['Berlin']), set(['Hessen']))
+browserfingerprint (set(['6238861233cd9f8161c1d6bbdefbffe844968e739c43fd255540433f0451e17e']), set(['7dae7dc6e3df1a59ef5ae1ba86cb9c9dd61649fa06d3fc3b37e92cf86db488c5']))
+====================================
+browserfingerprint (set(['7dae7dc6e3df1a59ef5ae1ba86cb9c9dd61649fa06d3fc3b37e92cf86db488c5']), set(['cf96e9804f80524a95d1dc3ab6c6a356c41e3e8dbddbe668bea8b4e36e3e6d4d']))
+====================================

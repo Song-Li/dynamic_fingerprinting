@@ -1,0 +1,10 @@
+agent (set(['Chrome/62.0.3202.84', 'Build/HUAWEIWAS-LX1A)']), set(['Version/4.0', 'Chrome/44.0.2403.119', 'Build/HUAWEIWAS-LX1A;', 'wv)', 'ACHEETAHI/1']))
+encoding (set(['br', 'deflate,']), set(['deflate']))
+language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Minden']), set(['Weeze']))
+ipregion (set(['Rheinland-Pfalz']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['216f86730a3509fd5dc13d4156f4c277ef24833448caccc468b1a3c80ea12ab2']), set(['c18c0c39eb9eabef79039965de8356fe3e6a2a229355ef821f221848c4896dad']))
+====================================
+browserfingerprint (set(['c18c0c39eb9eabef79039965de8356fe3e6a2a229355ef821f221848c4896dad']), set(['dfed430e2ffb9694d7604b0b36416985cb48a6bec92deb34d6c35421a627fec5']))
+====================================

@@ -1,0 +1,12 @@
+browserfingerprint (set(['ac4f7c5fa2a36bf3540730f01bc2e44e275e053e40bd0e12e7f7634a3ea1e395']), set(['6c2bae3ff6c3f316f0d816b9c14a9cd1aadb72ceed85c460145af98c20d391e2']))
+====================================
+browserfingerprint (set(['6c2bae3ff6c3f316f0d816b9c14a9cd1aadb72ceed85c460145af98c20d391e2']), set(['ac4f7c5fa2a36bf3540730f01bc2e44e275e053e40bd0e12e7f7634a3ea1e395']))
+====================================
+browserfingerprint (set(['ac4f7c5fa2a36bf3540730f01bc2e44e275e053e40bd0e12e7f7634a3ea1e395']), set(['6c2bae3ff6c3f316f0d816b9c14a9cd1aadb72ceed85c460145af98c20d391e2']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Berlin']), set(['Santo', 'Domingo']))
+ipregion (set(['Berlin']), set(['Domingo)', '(Santo', 'Distrito', 'Nacional']))
+ipcountry (set(['Germany']), set(['Republic', 'Dominican']))
+browserfingerprint (set(['6c2bae3ff6c3f316f0d816b9c14a9cd1aadb72ceed85c460145af98c20d391e2']), set(['2c94a278412b864e9223f528bda8bc2727a33f59ad7b73d1cda94c1a21d5f231']))
+====================================

@@ -1,0 +1,15 @@
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.83']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Potsdam']), set(['Noschenrode']))
+ipregion (set(['Brandenburg']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['1b37c2fe920709b00fb1e3c241a4457d896f5ca2e56843f05fe84f6616df71f5']), set(['5ac468fcb283f94368b672e885f9fcdb462dd4d294e7aaff6cd8dd5764120054']))
+====================================
+browserfingerprint (set(['5ac468fcb283f94368b672e885f9fcdb462dd4d294e7aaff6cd8dd5764120054']), set(['1cae6be65586cf58bdf0265c8089ebcd751bc4cb0fb7cd6e0579c06c008fa838']))
+====================================
+browserfingerprint (set(['1cae6be65586cf58bdf0265c8089ebcd751bc4cb0fb7cd6e0579c06c008fa838']), set(['5ac468fcb283f94368b672e885f9fcdb462dd4d294e7aaff6cd8dd5764120054']))
+====================================
+ipcity (set(['Noschenrode']), set(['Berlin']))
+ipregion (set(['Sachsen-Anhalt']), set(['Berlin']))
+browserfingerprint (set(['5ac468fcb283f94368b672e885f9fcdb462dd4d294e7aaff6cd8dd5764120054']), set(['805474e3614edbc2fd9583c28a039e62b8d8327a7c9050dd6c3432281020bcb2']))
+====================================

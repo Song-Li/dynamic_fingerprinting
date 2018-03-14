@@ -1,0 +1,16 @@
+ipcity (set(['Duderstadt']), set(['Witzenhausen']))
+ipregion (set(['Niedersachsen']), set(['Hessen']))
+browserfingerprint (set(['66f3dfd0e28b791792ea74bac3b7bbce2c326e70c861568f0b5e12e4c17d47c6']), set(['b9602dcdf9c07614e7d7dc072e397132545c98990e5e2b9d331b3148e0a8a58b']))
+====================================
+ipcity (set(['Witzenhausen']), set(['Bad', 'Sachsa']))
+ipregion (set(['Hessen']), set(['Niedersachsen']))
+browserfingerprint (set(['b9602dcdf9c07614e7d7dc072e397132545c98990e5e2b9d331b3148e0a8a58b']), set(['d2b81ed301808e7079d719a8463da2bb0c5b26a005aa02767f63d6a101e11ce5']))
+====================================
+browserfingerprint (set(['d2b81ed301808e7079d719a8463da2bb0c5b26a005aa02767f63d6a101e11ce5']), set(['882fa5b413942776c80c42ba747633a5a89f4dce7c0e6bb941b0e6842b495b38']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Bad', 'Sachsa']), set(['Witzenhausen']))
+ipregion (set(['Niedersachsen']), set(['Hessen']))
+browserfingerprint (set(['882fa5b413942776c80c42ba747633a5a89f4dce7c0e6bb941b0e6842b495b38']), set(['8c81fb86cf1d30f7d37d0bb53c3420fdd870f7131372d49fcf66bac0aab7d94f']))
+====================================

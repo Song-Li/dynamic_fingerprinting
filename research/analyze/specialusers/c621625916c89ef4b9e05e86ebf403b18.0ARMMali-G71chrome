@@ -1,0 +1,28 @@
+browserfingerprint (set(['714d809d1d1724a238e789c84301795f991e006821dc91425d2e05bb8786ea09']), set(['b9d4a248b33bd9ab62baa6d9e09dcf75b40735850542b7d66b023a7188538162']))
+====================================
+ipcity (set(['Stadthagen']), set(['Northeim']))
+browserfingerprint (set(['b9d4a248b33bd9ab62baa6d9e09dcf75b40735850542b7d66b023a7188538162']), set(['4d8d276f4fe2de422a835d89b1a73fc437635b8a0a47661e7cd27fbebdcb1791']))
+====================================
+browserfingerprint (set(['4d8d276f4fe2de422a835d89b1a73fc437635b8a0a47661e7cd27fbebdcb1791']), set(['6200e5b045c5ea400a1055a36518c193616f9beaf313b243dde68ac37810656c']))
+====================================
+ipcity (set(['Northeim']), set(['Dortmund']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['6200e5b045c5ea400a1055a36518c193616f9beaf313b243dde68ac37810656c']), set(['5817cf7d4c3d18e3d47831c61815a5f807343b4e34659339fbbbf1365f182516']))
+====================================
+browserfingerprint (set(['5817cf7d4c3d18e3d47831c61815a5f807343b4e34659339fbbbf1365f182516']), set(['248185439c78465bb052a3ad77535e00f52c969444193ffcf741603aab1d5829']))
+====================================
+ipcity (set(['Dortmund']), set(['Papenburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['248185439c78465bb052a3ad77535e00f52c969444193ffcf741603aab1d5829']), set(['f647aa6d5cd58ffcad7fe498a39a855111c6f21ed75dfa6ac3750bd71a0555ec']))
+====================================
+browserfingerprint (set(['f647aa6d5cd58ffcad7fe498a39a855111c6f21ed75dfa6ac3750bd71a0555ec']), set(['9d5ea1ad310ffd0c77d614fae277abaa3bf7b0600b773ef63f8d69d32db99ef0']))
+====================================
+browserfingerprint (set(['9d5ea1ad310ffd0c77d614fae277abaa3bf7b0600b773ef63f8d69d32db99ef0']), set(['f647aa6d5cd58ffcad7fe498a39a855111c6f21ed75dfa6ac3750bd71a0555ec']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Papenburg']), set(['Stadthagen']))
+browserfingerprint (set(['f647aa6d5cd58ffcad7fe498a39a855111c6f21ed75dfa6ac3750bd71a0555ec']), set(['a7f47e925a6859936d9e0b679f05fdd4e166422c497c10037ec9d08b7e207b9b']))
+====================================
+browserfingerprint (set(['a7f47e925a6859936d9e0b679f05fdd4e166422c497c10037ec9d08b7e207b9b']), set(['4fba69a1c5807e49ba91f441e9235f4b5f3ff129a7b0bd84c193d37bb8b00ff3']))
+====================================

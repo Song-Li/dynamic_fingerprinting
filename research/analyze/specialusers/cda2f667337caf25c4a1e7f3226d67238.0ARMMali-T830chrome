@@ -1,0 +1,18 @@
+browserfingerprint (set(['65b3ac4e1bcde13b03e794f7aadaffe3f219f531ee97bfa1d7c7d1028805dd62']), set(['ced7603ebcdfbe71d83ef215f42e79809fc19f98429bb62195253e45fdc2a8bc']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Platschow']), set(['Karlsruhe']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Brandenburg']))
+browserfingerprint (set(['ced7603ebcdfbe71d83ef215f42e79809fc19f98429bb62195253e45fdc2a8bc']), set(['0fec929457c51300bad2e6525dcf3e0b5e6b680dd74b06942243e044504a733a']))
+====================================
+browserfingerprint (set(['0fec929457c51300bad2e6525dcf3e0b5e6b680dd74b06942243e044504a733a']), set(['b3a6428a393d06ae86dd7f9a685e9ed2fa1c373d21fd20a91b88fada764b4d83']))
+====================================
+ipcity (set(['Karlsruhe']), set(['Siegen']))
+ipregion (set(['Brandenburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['b3a6428a393d06ae86dd7f9a685e9ed2fa1c373d21fd20a91b88fada764b4d83']), set(['0e871ba9e93b8adf71ed3e348f85a03b61d2a20225a00b7e92a7cdae8ef8323d']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Siegen']), set(['Platschow']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['0e871ba9e93b8adf71ed3e348f85a03b61d2a20225a00b7e92a7cdae8ef8323d']), set(['ed1d23342f8e54122e2411519208792072ba6bee8cc6a52a7705ef1456301729']))
+====================================

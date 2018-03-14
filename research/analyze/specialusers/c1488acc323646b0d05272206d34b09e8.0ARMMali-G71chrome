@@ -1,0 +1,8 @@
+browserfingerprint (set(['d07aef06d3481c2d48dedb97e416d731fdae21060081e5487464532c57bebc80']), set(['34efb2d73ca9f10b8760c44eac818c4983e28d3a7af922e0a20b0c0628fd4379']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['34efb2d73ca9f10b8760c44eac818c4983e28d3a7af922e0a20b0c0628fd4379']), set(['7b3dce5510bffb9a1e5fab7894421a7d55149d6741e5d94d7e0e0446c8c2ee8d']))
+====================================
+ipcity (set(['Bielefeld']), set(['Dortmund']))
+browserfingerprint (set(['7b3dce5510bffb9a1e5fab7894421a7d55149d6741e5d94d7e0e0446c8c2ee8d']), set(['aecb3749ea712fd59c9c56b83c0569ea86214fdcde3eb8c3a5985e8963b666c8']))
+====================================

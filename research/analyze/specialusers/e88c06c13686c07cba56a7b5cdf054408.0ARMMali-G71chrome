@@ -1,0 +1,8 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['b5f9e6382677678e647471d51aa2b371701bc0869cf6635be66cd88a1c818921']), set(['0057f7d41c20234b7ab70b4d054345c55b8c99f47861069d27553b772f11d3d8']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Siegen']), set(['Dortmund']))
+browserfingerprint (set(['0057f7d41c20234b7ab70b4d054345c55b8c99f47861069d27553b772f11d3d8']), set(['0ecd6e33c34c9f8f3a525915ef9d90c5ae632359e3c0c27e675dbf560fdc53df']))
+====================================

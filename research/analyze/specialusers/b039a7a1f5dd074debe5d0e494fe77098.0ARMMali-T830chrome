@@ -1,0 +1,28 @@
+ipcity (set(['Dusseldorf']), set(['Dortmund']))
+browserfingerprint (set(['6a336d550a745c8bae227fcc80dcd24ea6160810d955df70f088019f56c1c4ee']), set(['027b9c2a1bbbd49bd40cbf8aae77a43f82fd3f140fa262d3ae71be921e0ece0e']))
+====================================
+browserfingerprint (set(['027b9c2a1bbbd49bd40cbf8aae77a43f82fd3f140fa262d3ae71be921e0ece0e']), set(['5f4e90556b626cc34987cea0fb35dcd69690bae9cdccf0a07409d2ae57ef7998']))
+====================================
+ipcity (set(['Dortmund']), set(['Osnabruck']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['5f4e90556b626cc34987cea0fb35dcd69690bae9cdccf0a07409d2ae57ef7998']), set(['705ab4d2d9c15c286e858e890f6ea56df25141045d4b1273e0554411f65c2ad4']))
+====================================
+browserfingerprint (set(['705ab4d2d9c15c286e858e890f6ea56df25141045d4b1273e0554411f65c2ad4']), set(['4ab5f869b8a248f7920f554ac684d6b22ce3fdcff1cc119d98f20cbd0d8fe839']))
+====================================
+ipcity (set(['Osnabruck']), set(['Dusseldorf']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['4ab5f869b8a248f7920f554ac684d6b22ce3fdcff1cc119d98f20cbd0d8fe839']), set(['6a336d550a745c8bae227fcc80dcd24ea6160810d955df70f088019f56c1c4ee']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dusseldorf']), set(['Steyerberg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['6a336d550a745c8bae227fcc80dcd24ea6160810d955df70f088019f56c1c4ee']), set(['e33181702943b3a0cfd44b24a73e48ddddd53ef6dbb17ec0da666c233d1aa282']))
+====================================
+browserfingerprint (set(['e33181702943b3a0cfd44b24a73e48ddddd53ef6dbb17ec0da666c233d1aa282']), set(['c70830d87d326880a57ac9e936770a9ce10a0f2421b822a001deeb970d951f4d']))
+====================================
+ipcity (set(['Steyerberg']), set(['Dusseldorf']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['c70830d87d326880a57ac9e936770a9ce10a0f2421b822a001deeb970d951f4d']), set(['799858d831dd3e603ca14aca7a3431c6cc39da72f1bd69878b7c1600d94be757']))
+====================================
+browserfingerprint (set(['799858d831dd3e603ca14aca7a3431c6cc39da72f1bd69878b7c1600d94be757']), set(['7f134b37a0a93936bcd0765ee976440535d202ea595d87927ccaa602f4745eb0']))
+====================================

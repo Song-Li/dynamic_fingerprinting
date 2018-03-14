@@ -1,0 +1,16 @@
+browserfingerprint (set(['03e4131cd22dd572e0d34237fc621afa59371c2c72c299f83f795ac5d544afa1']), set(['ec05be6c0a77534e2e426767f42c7844fe5b977fb7679636e09578c7a2bd3bca']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Furstenwalde-West']), set(['Dusseldorf']))
+ipregion (set(['Brandenburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['ec05be6c0a77534e2e426767f42c7844fe5b977fb7679636e09578c7a2bd3bca']), set(['0664789aeaa245a88da12a2d047891d47f7b8976afd205efda54406e6ff2a0b2']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dusseldorf']), set(['Geesow']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Brandenburg']))
+browserfingerprint (set(['0664789aeaa245a88da12a2d047891d47f7b8976afd205efda54406e6ff2a0b2']), set(['d21e1b9ffa6ed4a44fdc599c95c9e3f436b93caf775658a1199429a4d3317104']))
+====================================
+ipcity (set(['Geesow']), set(['Dortmund']))
+ipregion (set(['Brandenburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['d21e1b9ffa6ed4a44fdc599c95c9e3f436b93caf775658a1199429a4d3317104']), set(['a774dcea42a80536b8bcbf71379fe3fc7e04e262f8a2a3cbc3543ce797d35dcc']))
+====================================

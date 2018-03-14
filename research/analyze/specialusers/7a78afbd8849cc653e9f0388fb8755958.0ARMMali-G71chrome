@@ -1,0 +1,62 @@
+ipcity (set(['Waldkraiburg']), set(['Zeitz']))
+ipregion (set(['Bayern']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['032177957068287a3b54a269aed51750bb160fd1d41941668248b79b1d05a2bc']), set(['a241117068d27990b23c2c27f442bc4ea2e32e644fd7279e9213188458e39b2f']))
+====================================
+browserfingerprint (set(['a241117068d27990b23c2c27f442bc4ea2e32e644fd7279e9213188458e39b2f']), set(['23645102ca429da816f7aa16cc6974c0e6b1004a6e80580f7d4ba25b93d52911']))
+====================================
+browserfingerprint (set(['23645102ca429da816f7aa16cc6974c0e6b1004a6e80580f7d4ba25b93d52911']), set(['a241117068d27990b23c2c27f442bc4ea2e32e644fd7279e9213188458e39b2f']))
+====================================
+ipcity (set(['Zeitz']), set(['Halle', '(Saale)']))
+browserfingerprint (set(['a241117068d27990b23c2c27f442bc4ea2e32e644fd7279e9213188458e39b2f']), set(['e68c2718df241d10403156cd65a35b843cdad460fc7e87a39fc929abf135017f']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.107']))
+ipcity (set(['Halle', '(Saale)']), set(['Ramstein-Miesenbach']))
+ipregion (set(['Sachsen-Anhalt']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['e68c2718df241d10403156cd65a35b843cdad460fc7e87a39fc929abf135017f']), set(['222113996e58c8d5a81bcdc750e4ab5b686e071bc7a5df46d8da40feda74440d']))
+====================================
+browserfingerprint (set(['222113996e58c8d5a81bcdc750e4ab5b686e071bc7a5df46d8da40feda74440d']), set(['09f78520c6e9deac154617d9515ca4dd5082fdb0c06c6685251ab6828ecc44c1']))
+====================================
+browserfingerprint (set(['09f78520c6e9deac154617d9515ca4dd5082fdb0c06c6685251ab6828ecc44c1']), set(['222113996e58c8d5a81bcdc750e4ab5b686e071bc7a5df46d8da40feda74440d']))
+====================================
+browserfingerprint (set(['222113996e58c8d5a81bcdc750e4ab5b686e071bc7a5df46d8da40feda74440d']), set(['09f78520c6e9deac154617d9515ca4dd5082fdb0c06c6685251ab6828ecc44c1']))
+====================================
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Ramstein-Miesenbach']), set(['Karlsruhe']))
+ipregion (set(['Rheinland-Pfalz']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['09f78520c6e9deac154617d9515ca4dd5082fdb0c06c6685251ab6828ecc44c1']), set(['025d35daa7ad3e405f24bcd676fac97fc34a4838b3814e385070c07dad3c8578']))
+====================================
+browserfingerprint (set(['025d35daa7ad3e405f24bcd676fac97fc34a4838b3814e385070c07dad3c8578']), set(['95a7cefa86d333136579c0d402fd4bf0e63eb9bc5a56ad4dd91a50562f1445bb']))
+====================================
+ipcity (set(['Karlsruhe']), set(['Leipzig']))
+ipregion (set(['Baden-Wurttemberg']), set(['Sachsen']))
+browserfingerprint (set(['95a7cefa86d333136579c0d402fd4bf0e63eb9bc5a56ad4dd91a50562f1445bb']), set(['eb1fe02dd5db226e0a26ae38461c796bb42cc3eac2d30cc89e22e685456c8689']))
+====================================
+browserfingerprint (set(['eb1fe02dd5db226e0a26ae38461c796bb42cc3eac2d30cc89e22e685456c8689']), set(['77b2828bad775c50bce951c74faca1696fef2d3823a6470b4278649f21029422']))
+====================================
+browserfingerprint (set(['77b2828bad775c50bce951c74faca1696fef2d3823a6470b4278649f21029422']), set(['eb1fe02dd5db226e0a26ae38461c796bb42cc3eac2d30cc89e22e685456c8689']))
+====================================
+ipcity (set(['Leipzig']), set(['Zeitz']))
+ipregion (set(['Sachsen']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['eb1fe02dd5db226e0a26ae38461c796bb42cc3eac2d30cc89e22e685456c8689']), set(['a5dca103fd6f88edf3d6b9525e68451907daaac1a5660d1c9e0b8fc363e932f5']))
+====================================
+browserfingerprint (set(['a5dca103fd6f88edf3d6b9525e68451907daaac1a5660d1c9e0b8fc363e932f5']), set(['5da3c26d2a50ca9f75166f1c2c016b6b732af73e96ef17155c569fa7708f9d2c']))
+====================================
+browserfingerprint (set(['5da3c26d2a50ca9f75166f1c2c016b6b732af73e96ef17155c569fa7708f9d2c']), set(['a5dca103fd6f88edf3d6b9525e68451907daaac1a5660d1c9e0b8fc363e932f5']))
+====================================
+ipcity (set(['Zeitz']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Sachsen-Anhalt']), set(['Hessen']))
+browserfingerprint (set(['a5dca103fd6f88edf3d6b9525e68451907daaac1a5660d1c9e0b8fc363e932f5']), set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']))
+====================================
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Zeitz']))
+ipregion (set(['Hessen']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']), set(['a5dca103fd6f88edf3d6b9525e68451907daaac1a5660d1c9e0b8fc363e932f5']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['a5dca103fd6f88edf3d6b9525e68451907daaac1a5660d1c9e0b8fc363e932f5']), set(['f4d920c1ecd43954b166f16a6e3e5204b1eef1a3827857d3fdda7026b75e3737']))
+====================================
+browserfingerprint (set(['f4d920c1ecd43954b166f16a6e3e5204b1eef1a3827857d3fdda7026b75e3737']), set(['c5312379e92bd9b86d9aee661b97727c69a9e8d0a81efb1ab0311dcccbb9a0d4']))
+====================================
+ipcity (set(['Zeitz']), set(['Karlsruhe']))
+ipregion (set(['Sachsen-Anhalt']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['c5312379e92bd9b86d9aee661b97727c69a9e8d0a81efb1ab0311dcccbb9a0d4']), set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']))
+====================================

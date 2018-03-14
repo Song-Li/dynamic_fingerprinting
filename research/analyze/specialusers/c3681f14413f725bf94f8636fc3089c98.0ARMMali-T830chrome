@@ -1,0 +1,12 @@
+browserfingerprint (set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']), set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']))
+====================================
+browserfingerprint (set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']), set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']))
+====================================
+browserfingerprint (set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']), set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Potsdam']), set(['Noschenrode']))
+ipregion (set(['Brandenburg']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']), set(['97d0ca708cd6909a4d6099992fd9d2b1f054792d3bc410132292c888dcd7ed79']))
+====================================

@@ -1,0 +1,44 @@
+browserfingerprint (set(['8418b8fc555f485988f69f23f54f523be33a7cc5eb974f4bad8137c7f30d23a5']), set(['c85bc44c790c859e833ea157bd8a267bc7c71ac9d1fdc319dab7a304d0192034']))
+====================================
+browserfingerprint (set(['c85bc44c790c859e833ea157bd8a267bc7c71ac9d1fdc319dab7a304d0192034']), set(['8418b8fc555f485988f69f23f54f523be33a7cc5eb974f4bad8137c7f30d23a5']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Aachen']))
+browserfingerprint (set(['8418b8fc555f485988f69f23f54f523be33a7cc5eb974f4bad8137c7f30d23a5']), set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']))
+====================================
+ipcity (set(['Aachen']), set(['Nettetal']))
+browserfingerprint (set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']), set(['06ae25dd8a58c99ec825a2f61fbd5d31de7ab79f347315c4f52bdabc8fa7801a']))
+====================================
+browserfingerprint (set(['06ae25dd8a58c99ec825a2f61fbd5d31de7ab79f347315c4f52bdabc8fa7801a']), set(['04e91b4dac2931a7dc2b000f75f936d30986623accd694dbdc0f499360ac5a9b']))
+====================================
+browserfingerprint (set(['04e91b4dac2931a7dc2b000f75f936d30986623accd694dbdc0f499360ac5a9b']), set(['06ae25dd8a58c99ec825a2f61fbd5d31de7ab79f347315c4f52bdabc8fa7801a']))
+====================================
+ipcity (set(['Nettetal']), set(['Stuttgart']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['06ae25dd8a58c99ec825a2f61fbd5d31de7ab79f347315c4f52bdabc8fa7801a']), set(['a1f162aa5f3ed4bdc43c8ffa2cdd984bbd4f6fb7e77682a6325896c3df9d18c9']))
+====================================
+ipcity (set(['Stuttgart']), set(['Aachen']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['a1f162aa5f3ed4bdc43c8ffa2cdd984bbd4f6fb7e77682a6325896c3df9d18c9']), set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']))
+====================================
+browserfingerprint (set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']), set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']))
+====================================
+browserfingerprint (set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']), set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']))
+====================================
+browserfingerprint (set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']), set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']))
+====================================
+browserfingerprint (set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']), set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']))
+====================================
+browserfingerprint (set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']), set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']))
+====================================
+browserfingerprint (set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']), set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']))
+====================================
+browserfingerprint (set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']), set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']))
+====================================
+browserfingerprint (set(['6635933a48aa0d8528679eec0dea37f05267ac87bc5c9bba914158d5f7e001d5']), set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Aachen']), set(['Isenburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['557663899344bf6ed66c5cf28fc33eed9f46caf931b9aba9496316811b2165b0']), set(['b38e1148093b639e4599a97b2aeb0cae01a01cfce85688b9bfecc57d2e10f0c2']))
+====================================

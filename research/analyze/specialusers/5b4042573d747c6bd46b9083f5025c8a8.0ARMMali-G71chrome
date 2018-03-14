@@ -1,0 +1,25 @@
+browserfingerprint (set(['b4b60fe0eaca355e1b1782b64c9367d8ba77dc60c00042b600e22fa9bc6ded44']), set(['ea413d13bea2d9fdbdbb7b43a83f92dc05f16506265f579c5d72ebcc3f7b1927']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dusseldorf']), set(['Dortmund']))
+browserfingerprint (set(['ea413d13bea2d9fdbdbb7b43a83f92dc05f16506265f579c5d72ebcc3f7b1927']), set(['3e04832ea1fcc5518aab50cc81cebdbdc2ee8d1ea7349e24f553267384384613']))
+====================================
+browserfingerprint (set(['3e04832ea1fcc5518aab50cc81cebdbdc2ee8d1ea7349e24f553267384384613']), set(['5b1a36bb52533a6b70a0e6ecfc5376c30b61ca0f0236708c65dbc8c44036d1ed']))
+====================================
+browserfingerprint (set(['5b1a36bb52533a6b70a0e6ecfc5376c30b61ca0f0236708c65dbc8c44036d1ed']), set(['3e04832ea1fcc5518aab50cc81cebdbdc2ee8d1ea7349e24f553267384384613']))
+====================================
+browserfingerprint (set(['3e04832ea1fcc5518aab50cc81cebdbdc2ee8d1ea7349e24f553267384384613']), set(['5b1a36bb52533a6b70a0e6ecfc5376c30b61ca0f0236708c65dbc8c44036d1ed']))
+====================================
+browserfingerprint (set(['5b1a36bb52533a6b70a0e6ecfc5376c30b61ca0f0236708c65dbc8c44036d1ed']), set(['3e04832ea1fcc5518aab50cc81cebdbdc2ee8d1ea7349e24f553267384384613']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Dortmund']), set(['Bonn']))
+browserfingerprint (set(['3e04832ea1fcc5518aab50cc81cebdbdc2ee8d1ea7349e24f553267384384613']), set(['a2542930d635d5ddaac73a139c850773beb65f1c489ae5f08ca4ccd12db7d1de']))
+====================================
+browserfingerprint (set(['a2542930d635d5ddaac73a139c850773beb65f1c489ae5f08ca4ccd12db7d1de']), set(['8009f4faef5937c3cb77b0cf0818aae909551454cdeb51afbe83f18a09793019']))
+====================================
+browserfingerprint (set(['8009f4faef5937c3cb77b0cf0818aae909551454cdeb51afbe83f18a09793019']), set(['a2542930d635d5ddaac73a139c850773beb65f1c489ae5f08ca4ccd12db7d1de']))
+====================================
+browserfingerprint (set(['a2542930d635d5ddaac73a139c850773beb65f1c489ae5f08ca4ccd12db7d1de']), set(['8009f4faef5937c3cb77b0cf0818aae909551454cdeb51afbe83f18a09793019']))
+====================================

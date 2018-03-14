@@ -1,0 +1,22 @@
+browserfingerprint (set(['a0162bb3edb6b7eabfd4833eafe391258da6a9be8ffe7762d2e09691efcf30c1']), set(['43785b39cf98519624afbc6ed0bb5b65294786c80ef33f8620437941622ef195']))
+====================================
+browserfingerprint (set(['43785b39cf98519624afbc6ed0bb5b65294786c80ef33f8620437941622ef195']), set(['4bf2b059d5f3efb1511dcdda7ddfa8a37ee18138195f241f409c59d8641639cc']))
+====================================
+browserfingerprint (set(['4bf2b059d5f3efb1511dcdda7ddfa8a37ee18138195f241f409c59d8641639cc']), set(['43785b39cf98519624afbc6ed0bb5b65294786c80ef33f8620437941622ef195']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+browserfingerprint (set(['43785b39cf98519624afbc6ed0bb5b65294786c80ef33f8620437941622ef195']), set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']))
+====================================
+browserfingerprint (set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']), set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']), set(['771eed07bc42f890041bf45633bf9845593024f11ac9ed3e959acc2709b1e6d8']))
+====================================
+browserfingerprint (set(['771eed07bc42f890041bf45633bf9845593024f11ac9ed3e959acc2709b1e6d8']), set(['c945ceb6430ea1d8016751bc7816fc5b4510bc00bc9d867762def8296d7b3cbc']))
+====================================
+browserfingerprint (set(['c945ceb6430ea1d8016751bc7816fc5b4510bc00bc9d867762def8296d7b3cbc']), set(['771eed07bc42f890041bf45633bf9845593024f11ac9ed3e959acc2709b1e6d8']))
+====================================
+browserfingerprint (set(['771eed07bc42f890041bf45633bf9845593024f11ac9ed3e959acc2709b1e6d8']), set(['c945ceb6430ea1d8016751bc7816fc5b4510bc00bc9d867762def8296d7b3cbc']))
+====================================

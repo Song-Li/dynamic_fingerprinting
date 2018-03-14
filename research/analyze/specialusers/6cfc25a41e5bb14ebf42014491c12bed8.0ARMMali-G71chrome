@@ -1,0 +1,13 @@
+browserfingerprint (set(['3365c8a8d3f351517520041d2875b362a3f233ea860ccc4c6e773ec91dccf7a4']), set(['ce166829656b5c531ec1e2185490b8131749b8f34ab5b4c2c56ab778083347b2']))
+====================================
+ipcity (set(['Mainz']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['ce166829656b5c531ec1e2185490b8131749b8f34ab5b4c2c56ab778083347b2']), set(['0beccb3137758b39cc717f8b0e8fafc18c1ea151616c6eb6fed56001e4e5f0cb']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Straas']))
+ipregion (set(['Hessen']), set(['Bayern']))
+browserfingerprint (set(['0beccb3137758b39cc717f8b0e8fafc18c1ea151616c6eb6fed56001e4e5f0cb']), set(['cac805ec04b26a24ba5da216de04a3f99f4c499b3c2609daeb7aace6a4f382bc']))
+====================================
+browserfingerprint (set(['cac805ec04b26a24ba5da216de04a3f99f4c499b3c2609daeb7aace6a4f382bc']), set(['873eb2bd035be80acb3363fdfe757300cc393949969f66e01ee0de309f62eb88']))
+====================================

@@ -1,0 +1,10 @@
+ipcity (set(['Enzersdorf', 'Maria']), set(['Vienna']))
+ipregion (set(['Niederosterreich']), set(['Wien']))
+browserfingerprint (set(['e7f5f44035ff7cdb92d8836e03eae406302a79560d629c836211c53509206b16']), set(['a483829b9e07f83a38bc5049542a816b8dd21b87e39fae0ab4db00aaac826e25']))
+====================================
+browserfingerprint (set(['a483829b9e07f83a38bc5049542a816b8dd21b87e39fae0ab4db00aaac826e25']), set(['caf00e8cc6b3d2a5ea6a412cac793904f1506eb685f133742b9efa843e6c7f42']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['caf00e8cc6b3d2a5ea6a412cac793904f1506eb685f133742b9efa843e6c7f42']), set(['f7b059775e1d5bf4a607f52f2649b471079d158cfd83f6036728ed766a16d41c']))
+====================================

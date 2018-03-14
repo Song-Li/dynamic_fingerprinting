@@ -1,0 +1,27 @@
+browserfingerprint (set(['edf7395a9fd8c56647e23485a08debdb67ec7a0a776f4f1bd3f97856d8fba230']), set(['b107492b4b2e54628a25ec2247b8df81e0c51bd5ed026ca9ef1a4c688006ec6d']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+ipcity (set(['Wiesbaden']), set(['Nienburg']))
+ipregion (set(['Hessen']), set(['Niedersachsen']))
+browserfingerprint (set(['b107492b4b2e54628a25ec2247b8df81e0c51bd5ed026ca9ef1a4c688006ec6d']), set(['bf9328cbe53447ad4c01c8544c3bfe73c615acbe0aed7554e2db86dd21f3ddd9']))
+====================================
+browserfingerprint (set(['bf9328cbe53447ad4c01c8544c3bfe73c615acbe0aed7554e2db86dd21f3ddd9']), set(['ae17791bcefed1eac3a3b5a4cf57c6d49775ef54002011e0e88dcb490c32237a']))
+====================================
+ipcity (set(['Nienburg']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Niedersachsen']), set(['Hessen']))
+browserfingerprint (set(['ae17791bcefed1eac3a3b5a4cf57c6d49775ef54002011e0e88dcb490c32237a']), set(['8bc28f957e904dadc28d59ccc0ac4099261668c93d22f43496797a1bf0831175']))
+====================================
+browserfingerprint (set(['8bc28f957e904dadc28d59ccc0ac4099261668c93d22f43496797a1bf0831175']), set(['5f7fc6cf2abe6d0f44d3b8f2ec1d93014f0fc74f3ec1d606d3ee7b67a5787d30']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Dortmund']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['5f7fc6cf2abe6d0f44d3b8f2ec1d93014f0fc74f3ec1d606d3ee7b67a5787d30']), set(['7a4408f2cd9d19b58c46b6559a198d0a5d6387b5ba30c6a338ee0c639befbca7']))
+====================================
+browserfingerprint (set(['7a4408f2cd9d19b58c46b6559a198d0a5d6387b5ba30c6a338ee0c639befbca7']), set(['7b87225cfcb2961fac9af8dae54abef107e8f672c3ac69bf71ec827b2c2566b6']))
+====================================
+ipcity (set(['Dortmund']), set(['Dusseldorf']))
+browserfingerprint (set(['7b87225cfcb2961fac9af8dae54abef107e8f672c3ac69bf71ec827b2c2566b6']), set(['7f134b37a0a93936bcd0765ee976440535d202ea595d87927ccaa602f4745eb0']))
+====================================

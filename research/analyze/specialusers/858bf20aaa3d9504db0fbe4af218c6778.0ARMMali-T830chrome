@@ -1,0 +1,17 @@
+ipcity (set(['Wuerzburg']), set(['Munich']))
+browserfingerprint (set(['6cf31f0796e02be2b79578ef5cdd3d26f04417b8bf6fb3197b0097be44358246']), set(['be493ce1dbf121fd7caec754e25f96eaa3c7b75c30e76d94f5edc54ceffd9a87']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Munich']), set(['Berlin']))
+ipregion (set(['Bayern']), set(['Berlin']))
+browserfingerprint (set(['be493ce1dbf121fd7caec754e25f96eaa3c7b75c30e76d94f5edc54ceffd9a87']), set(['fdad0356291553ec8d1fd3d06d118205e17c599b5013fc27cfbba126aaf5f216']))
+====================================
+ipcity (set(['Berlin']), set(['Saarbrucken']))
+ipregion (set(['Berlin']), set(['Saarland']))
+browserfingerprint (set(['fdad0356291553ec8d1fd3d06d118205e17c599b5013fc27cfbba126aaf5f216']), set(['9f4f1a6377d3d665d7e081fc69a560fd387af7f538461c7b7c4a3b7039d348da']))
+====================================
+ipcity (set(['Saarbrucken']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Saarland']), set(['Hessen']))
+browserfingerprint (set(['9f4f1a6377d3d665d7e081fc69a560fd387af7f538461c7b7c4a3b7039d348da']), set(['f49fddfc578ff98ec1ce50d86a761befcec1fac5aac8e2b594560278efcb4b3d']))
+====================================

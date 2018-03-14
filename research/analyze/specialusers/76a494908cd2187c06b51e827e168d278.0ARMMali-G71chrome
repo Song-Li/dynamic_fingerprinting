@@ -1,0 +1,11 @@
+ipcity (set(['Dusseldorf']), set(['Siegen']))
+browserfingerprint (set(['be6095c0ed4e055bee432949cc24fea1d0a19d15030efaf760eb8a56cd4bd422']), set(['81db283cb0896153f0947a4305db73dfbc0e51ebd1ee2d81ff4fb16e892b0caa']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Siegen']), set(['Dusseldorf']))
+browserfingerprint (set(['81db283cb0896153f0947a4305db73dfbc0e51ebd1ee2d81ff4fb16e892b0caa']), set(['b00fe1fa03b9f0e11bb89a0355c593b7addcb069519fe2e353e01ac770fe1bb2']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dusseldorf']), set(['Nettetal']))
+browserfingerprint (set(['b00fe1fa03b9f0e11bb89a0355c593b7addcb069519fe2e353e01ac770fe1bb2']), set(['88edd5ce8680c8edefb64b06e906c37823372caa9028a1b592c39529506fdced']))
+====================================

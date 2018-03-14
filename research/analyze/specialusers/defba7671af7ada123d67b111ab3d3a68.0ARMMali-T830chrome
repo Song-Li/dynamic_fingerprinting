@@ -1,0 +1,7 @@
+ipcity (set(['Siegen']), set(['Kerpen']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['864346fe6d05cbca4baaa172409d985aec9fcbdfdec6bddb27dab938f9a272c2']), set(['1a7895c4601c5f7979faf6de79078e6d54bd08770aded994c3dc002b73687500']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['1a7895c4601c5f7979faf6de79078e6d54bd08770aded994c3dc002b73687500']), set(['1c82f40ab213493442a4f74ef8f8f3d88ce9487d486c60e9106962c2734903bb']))
+====================================

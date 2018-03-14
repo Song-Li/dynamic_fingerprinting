@@ -1,0 +1,35 @@
+browserfingerprint (set(['0660b81eea96ea2c492397fab7bdcd4cce94ad42bef748d6c00475bbe88633bd']), set(['b6b8631b1293b1e14e8d17faf5268a189d17c7ad0e522de0c09923b1d6ecac7a']))
+====================================
+ipcity (set(['Vocklabruck']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['b6b8631b1293b1e14e8d17faf5268a189d17c7ad0e522de0c09923b1d6ecac7a']), set(['b802c743444107411e47adaf42f070d0f67d379108a3148d89fe0b0914a8ee54']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Grafenworth']))
+browserfingerprint (set(['b802c743444107411e47adaf42f070d0f67d379108a3148d89fe0b0914a8ee54']), set(['e099be72cde3c94f1c9e2fbfefda21fa8a5ef1540825777bf49417bfe5bd5257']))
+====================================
+ipcity (set(['Grafenworth']), set(['Vocklabruck']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['e099be72cde3c94f1c9e2fbfefda21fa8a5ef1540825777bf49417bfe5bd5257']), set(['0660b81eea96ea2c492397fab7bdcd4cce94ad42bef748d6c00475bbe88633bd']))
+====================================
+browserfingerprint (set(['0660b81eea96ea2c492397fab7bdcd4cce94ad42bef748d6c00475bbe88633bd']), set(['b6b8631b1293b1e14e8d17faf5268a189d17c7ad0e522de0c09923b1d6ecac7a']))
+====================================
+browserfingerprint (set(['b6b8631b1293b1e14e8d17faf5268a189d17c7ad0e522de0c09923b1d6ecac7a']), set(['0660b81eea96ea2c492397fab7bdcd4cce94ad42bef748d6c00475bbe88633bd']))
+====================================
+browserfingerprint (set(['0660b81eea96ea2c492397fab7bdcd4cce94ad42bef748d6c00475bbe88633bd']), set(['b6b8631b1293b1e14e8d17faf5268a189d17c7ad0e522de0c09923b1d6ecac7a']))
+====================================
+ipcity (set(['Vocklabruck']), set(['Vienna']))
+ipregion (set(['Oberosterreich']), set(['Wien']))
+browserfingerprint (set(['b6b8631b1293b1e14e8d17faf5268a189d17c7ad0e522de0c09923b1d6ecac7a']), set(['b0e7ee048073dafe082613d3fd3a10979c603d911c0fb9caa6c6be0319bfc527']))
+====================================
+browserfingerprint (set(['b0e7ee048073dafe082613d3fd3a10979c603d911c0fb9caa6c6be0319bfc527']), set(['db955ba4d23fbdf083414ca798b8327650b212fea17e259bac7f5e15ac5a0828']))
+====================================
+ipcity (set(['Vienna']), set(['Vocklabruck']))
+ipregion (set(['Wien']), set(['Oberosterreich']))
+browserfingerprint (set(['db955ba4d23fbdf083414ca798b8327650b212fea17e259bac7f5e15ac5a0828']), set(['b7133bb9ed071bb53de737524990fcde38207aa0cff94fb949822f701b52052e']))
+====================================
+browserfingerprint (set(['b7133bb9ed071bb53de737524990fcde38207aa0cff94fb949822f701b52052e']), set(['445a6bfb8c370204fb55692f41e921ef2c87b68ae0a86de02844f2055b985662']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['445a6bfb8c370204fb55692f41e921ef2c87b68ae0a86de02844f2055b985662']), set(['c64b8c2b9fadae21091b3d3af9860c1ba20d0829a88b00441e15cb868e09e70e']))
+====================================

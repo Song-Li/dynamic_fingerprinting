@@ -1,0 +1,15 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Oldenburg']), set(['Quellen']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Niedersachsen']))
+browserfingerprint (set(['cb20880fb07ab43537213b5e919cf286d5cabb1beffa10a7fa33fbab6d890efd']), set(['415999652472ec07b505a94af5d46407d6d278c73305db0facbef73903dc1826']))
+====================================
+browserfingerprint (set(['415999652472ec07b505a94af5d46407d6d278c73305db0facbef73903dc1826']), set(['1c5ae17774e01909bfc5abfc5ab9e3c379f15f9bbce545cbda45ab7d9e37c046']))
+====================================
+browserfingerprint (set(['1c5ae17774e01909bfc5abfc5ab9e3c379f15f9bbce545cbda45ab7d9e37c046']), set(['415999652472ec07b505a94af5d46407d6d278c73305db0facbef73903dc1826']))
+====================================
+ipcity (set(['Quellen']), set(['Buxtehude']))
+browserfingerprint (set(['415999652472ec07b505a94af5d46407d6d278c73305db0facbef73903dc1826']), set(['1895377aac97cbdfd84566d67690aa9886ecbe919acb45e42d34fe8426b71b22']))
+====================================
+browserfingerprint (set(['1895377aac97cbdfd84566d67690aa9886ecbe919acb45e42d34fe8426b71b22']), set(['bbc25d2a82a0e9f1b2e795b9a334d9a1c7dcc2fcc6838481e65c2afdb0fc7b4a']))
+====================================

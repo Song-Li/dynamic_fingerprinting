@@ -1,0 +1,15 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Karl']), set(['Kliesberg']))
+ipregion (set(['Rheinland-Pfalz']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['bba17e4811881e0c640423a435a217ab124f8fdb07600f604e698da70c8009e3']), set(['4bd1b06f9256955b8e3dcc1c9fc765640a1cc8b43a37f62d638bc21147235b8c']))
+====================================
+ipcity (set(['Kliesberg']), set(['Nuremberg']))
+ipregion (set(['Sachsen-Anhalt']), set(['Bayern']))
+browserfingerprint (set(['4bd1b06f9256955b8e3dcc1c9fc765640a1cc8b43a37f62d638bc21147235b8c']), set(['76a73cf777aa64f2813d5c23a34b0bff56da3a97189c0b571ce7c7bea38f8580']))
+====================================
+ipcity (set(['Nuremberg']), set(['Kliesberg']))
+ipregion (set(['Bayern']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['76a73cf777aa64f2813d5c23a34b0bff56da3a97189c0b571ce7c7bea38f8580']), set(['4bd1b06f9256955b8e3dcc1c9fc765640a1cc8b43a37f62d638bc21147235b8c']))
+====================================
+browserfingerprint (set(['4bd1b06f9256955b8e3dcc1c9fc765640a1cc8b43a37f62d638bc21147235b8c']), set(['ba6a07afdf45ee4df257b1aa70fc5acd7262bc26e60f09bccbcb9e888ba338d6']))
+====================================

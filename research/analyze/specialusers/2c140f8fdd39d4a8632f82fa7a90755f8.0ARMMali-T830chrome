@@ -1,0 +1,28 @@
+browserfingerprint (set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']), set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']))
+====================================
+ipcity (set(['Stuttgart']), set(['Ingolstadt']))
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+browserfingerprint (set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']), set(['021fc127ebf3af165faf4768bc98a47f0d798e2b4a241261d9e53288549b0dd5']))
+====================================
+ipcity (set(['Ingolstadt']), set(['Stuttgart']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['021fc127ebf3af165faf4768bc98a47f0d798e2b4a241261d9e53288549b0dd5']), set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']))
+====================================
+browserfingerprint (set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']), set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']))
+====================================
+browserfingerprint (set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']), set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']))
+====================================
+ipcity (set(['Stuttgart']), set(['Hanover']))
+ipregion (set(['Baden-Wurttemberg']), set(['Niedersachsen']))
+browserfingerprint (set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']), set(['c6d50e3705fcb8c19ef52719a80c3247f93f800b3b09c0bd4a329dc063213575']))
+====================================
+ipcity (set(['Hanover']), set(['Stuttgart']))
+ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['c6d50e3705fcb8c19ef52719a80c3247f93f800b3b09c0bd4a329dc063213575']), set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']))
+====================================
+browserfingerprint (set(['c8d8785c37cff0964eb3c4898c5129ef01f563cf554c6384284f329c276b2482']), set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Stuttgart']), set(['Ludwigshafen']))
+browserfingerprint (set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']), set(['44cb90eda58b9182e54b121209b732085f822d196e3862083d0424b627c2352e']))
+====================================

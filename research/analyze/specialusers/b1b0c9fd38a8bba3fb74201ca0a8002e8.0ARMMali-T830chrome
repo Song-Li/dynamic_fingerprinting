@@ -1,0 +1,16 @@
+browserfingerprint (set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']), set(['16fa54c947c9e1eada43e094eb9d894c00d9ef86bcee281d26d5ee2f554cda2b']))
+====================================
+ipcity (set(['Halle', '(Saale)']), set(['Potsdam']))
+ipregion (set(['Sachsen-Anhalt']), set(['Brandenburg']))
+browserfingerprint (set(['16fa54c947c9e1eada43e094eb9d894c00d9ef86bcee281d26d5ee2f554cda2b']), set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']))
+====================================
+browserfingerprint (set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']), set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Potsdam']), set(['Nuremberg']))
+ipregion (set(['Brandenburg']), set(['Bayern']))
+browserfingerprint (set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']), set(['d8ba819e3b2bb85b9d6e26b8acd878ec811c8b0771320f878f0dd4e35df6e130']))
+====================================
+browserfingerprint (set(['d8ba819e3b2bb85b9d6e26b8acd878ec811c8b0771320f878f0dd4e35df6e130']), set(['9d23fa070570cb0318c4efa79fce6dec40a27e72f863c25db008e7924a8c3435']))
+====================================

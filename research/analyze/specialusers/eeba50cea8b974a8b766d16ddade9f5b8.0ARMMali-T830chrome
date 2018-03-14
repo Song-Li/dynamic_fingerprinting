@@ -1,0 +1,23 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Luebeck']), set(['Karlsruhe']))
+ipregion (set(['Schleswig-Holstein']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['af060ebe29e3fa37b58057190e0f2e50cd241c3329aa1b786b640f9c62a160b0']), set(['92ae98a047b42b5ee928d32eec7b26b26a19d60786bd4e258df934a0446c8583']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Karlsruhe']), set(['Hanover']))
+ipregion (set(['Baden-Wurttemberg']), set(['Niedersachsen']))
+browserfingerprint (set(['92ae98a047b42b5ee928d32eec7b26b26a19d60786bd4e258df934a0446c8583']), set(['0d33d486f6b93aff9e3522d6bd5792bae2dd5c939bf9c62ed086c110e0a0f828']))
+====================================
+ipcity (set(['Hanover']), set(['Karlsruhe']))
+ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['0d33d486f6b93aff9e3522d6bd5792bae2dd5c939bf9c62ed086c110e0a0f828']), set(['065e3dcdd9e09a585e7bf4a9c24338eb7935610f8ad4aaa03a146af425d0c532']))
+====================================
+ipcity (set(['Karlsruhe']), set(['Stuttgart']))
+browserfingerprint (set(['065e3dcdd9e09a585e7bf4a9c24338eb7935610f8ad4aaa03a146af425d0c532']), set(['20758788d6ddde7bff7a39039621111d734b31dea8fc855dbc5eb08bbc809009']))
+====================================
+browserfingerprint (set(['20758788d6ddde7bff7a39039621111d734b31dea8fc855dbc5eb08bbc809009']), set(['7fced779151ba090e49b43bba3d3d7ab1112d840e99db20aa7bae49c0c25e8c5']))
+====================================
+ipcity (set(['Stuttgart']), set(['Karlsruhe']))
+browserfingerprint (set(['7fced779151ba090e49b43bba3d3d7ab1112d840e99db20aa7bae49c0c25e8c5']), set(['065e3dcdd9e09a585e7bf4a9c24338eb7935610f8ad4aaa03a146af425d0c532']))
+====================================

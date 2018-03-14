@@ -14,8 +14,6 @@ long_feature_list = [
         "cookie", 
         "WebGL", 
         "localstorage", 
-        "fp2_addbehavior",
-        "fp2_opendatabase",
 
         "langsdetected",
         "jsFonts",
@@ -25,18 +23,10 @@ long_feature_list = [
         "gpu", 
         "cpucores", 
         "audio",
-        "fp2_cpuclass",
-        "fp2_colordepth",
-        "fp2_pixelratio",
 
         "ipcity",
         "ipregion",
         "ipcountry",
-
-        "fp2_liedlanguages",
-        "fp2_liedresolution",
-        "fp2_liedos",
-        "fp2_liedbrowser",
 
         "browserfingerprint"
         ]
@@ -80,13 +70,14 @@ feature_list = [
         "browserfingerprint"
         ]
 
+
 def feature_delta_paper(db):
     df = load_data(load = True, feature_list = ["*"], 
             table_name = "pandas_longfeatures", db = db)
-    df = filter_less_than_n(df, 2)
+    df = filter_less_than_n(df, 7)
     maps = {} 
     for feature in long_feature_list:
-        maps[feature] = {"browserid":[], "from":[], "to":[], "fromtime":[], "totime":[]}
+        maps[feature] = {"browserid":[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[]}
 
     grouped = df.groupby('browserid')
     pre_fingerprint = ""
@@ -105,13 +96,14 @@ def feature_delta_paper(db):
                     continue
                 if pre_row[feature] != row[feature]:
                     maps[feature]['browserid'].append(row['browserid'])
+                    maps[feature]['IP'].append(row['IP'])
                     maps[feature]["from"].append(pre_row[feature])
                     maps[feature]['to'].append(row[feature])
                     maps[feature]['fromtime'].append(pre_row['time'])
                     maps[feature]['totime'].append(row['time'])
             pre_row = row
 
-    db = Database('changes')
+    db = Database('filteredchanges')
     for feature in long_feature_list:
         print feature
         try:
@@ -122,8 +114,43 @@ def feature_delta_paper(db):
             print len(maps[feature]['from']), len(maps[feature]['to']), len(maps[feature]['fromtime']), len(maps[feature]['totime'])
     return maps
 
+def check_flip_changes(group):
+    appeared = set()
+    for idx, row in group.iterrows():
+        # if to value is used to be from
+        # its fliped
+        if row['to'] in appeared:
+            return True
+        appeared.add(row['from'])
+    return False
+
+def check_flip_browserid(group, feature):
+    appeared = set()
+    pre_feature = ""
+    for idx, row in group.iterrows():
+        if pre_feature != row[feature]:
+            # appeared before
+            if row[feature] in appeared:
+                return True 
+            pre_feature = row[feature]
+            appeared.add(row[feature])
+    return False 
+
+
+def remove_flip_users(df):
+    flip_list = []
+    grouped = df.groupby('browserid')
+    print('remove flip users')
+    for key, cur_group in tqdm(grouped):
+        if check_flip_changes(cur_group):
+            flip_list.append(key)
+
+    return df[~df['browserid'].isin(flip_list)] 
+
+
 def feature_change_by_date_paper(feature_name, df):
-    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
+    df = remove_flip_users(df)
+    print ("{} users remain".format(df['browserid'].nunique()))
     try:
         min_date = min(df['fromtime'])
     except:
@@ -132,7 +159,7 @@ def feature_change_by_date_paper(feature_name, df):
     max_date = max(df['totime'])
     lendate = (max_date - min_date).days
     grouped = df.groupby(['from', 'to'])
-    sorted_group = collections.OrderedDict(grouped.size().sort_values(ascending=False))
+    sorted_group = collections.OrderedDict(grouped['browserid'].nunique().sort_values(ascending=False))
     sorted_keys = sorted_group.keys()
     total_len = len(grouped)
     output_length = 5
@@ -196,7 +223,7 @@ def get_key_from_agent(agent, key_type = 'browser'):
     return ret
 
 # TODO this function is not tested
-def check_flipping(df, feature, key_words, sep = ' '):
+def check_df_flipping(df, feature, key_words, sep = ' '):
     grouped = df.groupby('browserid')
     total_flipping = 0
     key_words_contained = 0
@@ -321,10 +348,11 @@ def feature_by_date_paper(feature, df):
 
 
 def get_all_feature_change_by_date_paper(db):
-    for feature in feature_list:
+    for feature in long_feature_list:
         print 'generating {}'.format(feature)
         df = load_data(load = True, feature_list = ["*"], 
                 table_name = "{}changes".format(feature), db = db)
+        print ("{} users changed in total".format(df['browserid'].nunique()))
         feature_change_by_date_paper(feature, df)
 
 def get_unique_fingerprint_list(df):
@@ -454,7 +482,7 @@ def get_browserid_change_id(df, browserid):
             pre_row = row
             continue
         if row['browserfingerprint'] != pre_row['browserfingerprint']:
-            for feature in feature_list:
+            for feature in long_feature_list:
                 if row[feature] != pre_row[feature]:
                     sep = get_sep(feature)
                     if feature == 'agent':
@@ -467,12 +495,8 @@ def get_browserid_change_id(df, browserid):
 # input the feature name, two different feature value
 # return the basic info of these features
 def check_diff_feature_value(db, feature, from_val, to_val):
-    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
-    grouped = df.groupby('browserid')
-    browserid_list = []
-    for key, cur_group in tqdm(grouped):
-        if from_val in cur_group[feature] and to_val in cur_group[feature]:
-            browserid_list.append(key)
+    df = load_data(load = True, feature_list = ["browserid"], table_name = "{}changes".format(feature), db = db, other = ' where `from` = "{}" and `to` = "{}"'.format(from_val, to_val))
+    browserid_list = list(df['browserid'])
     return browserid_list
 
 
@@ -488,13 +512,14 @@ def round_time_to_day(df):
 
 def main():
     #db = Database('uniquemachine')
-    db = Database('changes')
-    get_all_feature_change_by_date_paper(db)
     #maps = feature_delta_paper(db)
-    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
+    db = Database('filteredchanges')
+    #browserid_list = check_diff_feature_value(db, 'canvastest', '391219fe2b4ddd613eda0abc5de071cd17af7bab', 'c3692f002eccf8a1740d73ff02db43885b36e31d')
     #get_browserid_change_id(df, "f4ce016af1e96e71ddcd0bde3f78869f2iPhoneImagination TechnologiesPowerVR SGX 543safari")
+   # db = Database('changes')
+    get_all_feature_change_by_date_paper(db)
+    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #db = Database('changes')
-    #browserid_list = check_diff_feature_value(db, 'canvastest', '0b8855214c07f309dcdab1540352acab9fe6212a', '5bf70d8119b0953b10bef0fa2fdd62c33f92a971')
     #for browserid in browserid_list:
     #    print browserid
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db, other = ' where jsFonts is not NULL and gpuimgs is not NULL')
@@ -503,8 +528,9 @@ def main():
     #    feature_by_date_paper(feature, df)
     #check_browser_become_unique(db)
     #num_fingerprints_distribution(db)
-    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
-    #get_browserid_change(df,'./res/num_bf_distribution')
+    #db = Database('uniquemachine')
+    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
+    #get_browserid_change(df,'./tmpout')
     #check_browser_become_unique(db)
     #change_to_unique, change_feature = check_browser_become_unique(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)

@@ -1,0 +1,18 @@
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+browserfingerprint (set(['e6cb2d1cd8aa13053f3bdac666b59f0813ca911e20a8de5e69de9a2a7ad4177d']), set(['30e2c9e952e3fc4151d6a2efca023942e124a3c0fdcfd7e19d072c24006df004']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.107']))
+ipcity (set(['Augsburg']), set(['Sudermitteldeich']))
+browserfingerprint (set(['30e2c9e952e3fc4151d6a2efca023942e124a3c0fdcfd7e19d072c24006df004']), set(['01efbe7a20c9e09283d451985fe5b8135f62cb478da7ae842d597ad531224d8d']))
+====================================
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Sudermitteldeich']), set(['Augsburg']))
+browserfingerprint (set(['01efbe7a20c9e09283d451985fe5b8135f62cb478da7ae842d597ad531224d8d']), set(['a80e07c095e3e2a720a3c2fc9488d9a1567d7e9d06cc12846ef2ed412d697fef']))
+====================================
+browserfingerprint (set(['a80e07c095e3e2a720a3c2fc9488d9a1567d7e9d06cc12846ef2ed412d697fef']), set(['516ad3918d51fe108f01066d4aa99c85864d4f72bff73d1f38bf98dfb99117c0']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Augsburg']), set(['Haar']))
+ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
+browserfingerprint (set(['516ad3918d51fe108f01066d4aa99c85864d4f72bff73d1f38bf98dfb99117c0']), set(['c87ab85816ceeaabd8a56130544f64b94252b67c2c16fbb19dffbf1338993228']))
+====================================

@@ -1,0 +1,15 @@
+browserfingerprint (set(['3fd6e93281d571dc774409e8ce8730d117d9c842758992a9a8d1cf3d99e1cc6c']), set(['ef1909846c25052b32c69170a8fc36e4ff546d800711f1bfb9983181410d7b8c']))
+====================================
+browserfingerprint (set(['ef1909846c25052b32c69170a8fc36e4ff546d800711f1bfb9983181410d7b8c']), set(['a5c80d5cadc5b9d77d916d45a4bc656a05cf9e90fdb197b825bc2ea421084c5b']))
+====================================
+browserfingerprint (set(['a5c80d5cadc5b9d77d916d45a4bc656a05cf9e90fdb197b825bc2ea421084c5b']), set(['ef1909846c25052b32c69170a8fc36e4ff546d800711f1bfb9983181410d7b8c']))
+====================================
+browserfingerprint (set(['ef1909846c25052b32c69170a8fc36e4ff546d800711f1bfb9983181410d7b8c']), set(['a5c80d5cadc5b9d77d916d45a4bc656a05cf9e90fdb197b825bc2ea421084c5b']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/64.0.3282.137']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Nienburg']), set(['Zwickau']))
+ipregion (set(['Niedersachsen']), set(['Sachsen']))
+browserfingerprint (set(['a5c80d5cadc5b9d77d916d45a4bc656a05cf9e90fdb197b825bc2ea421084c5b']), set(['f29ff5a43dff5aa0ff52ff95e3c68e944d93b0170e9e1c262c336e12312d57f5']))
+====================================

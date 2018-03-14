@@ -1,0 +1,10 @@
+browserfingerprint (set(['6ce20111a60c8180069aac6acf243f5e8ebdbe92999f7fc906667e4329f82478']), set(['ee658d4e76e589fe2ddb491428cfa62af613f2e455c1bef4f25fa0b1a77770d9']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Friedrichshafen']), set(['Munich']))
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+browserfingerprint (set(['ee658d4e76e589fe2ddb491428cfa62af613f2e455c1bef4f25fa0b1a77770d9']), set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']))
+====================================
+ipcity (set(['Munich']), set(['Grafling']))
+browserfingerprint (set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']), set(['199963b1f3f51a4e6dde7c710e7232d5841f091e52fa378c017080cb24e9da87']))
+====================================

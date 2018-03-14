@@ -1,0 +1,5 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Wommen']), set(['Frankfurt', 'Main', 'am']))
+browserfingerprint (set(['7ed8a177e2ea4a6bf406aafe9524cb95dd960234811b7c4bab7111daf1565374']), set(['50937e3c3c8aa1e38646e48b765b2f3fc3063b3366a2050cd7338447c1960cbc']))
+====================================

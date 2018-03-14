@@ -1,0 +1,21 @@
+browserfingerprint (set(['d1504759a1d018cb42ff856379b98194d089ef6ecee34e7ea6da322b5de3d93d']), set(['323e1d5d8c3261f11ae0c8d1c5d2a52d4f046ecdbbb419b2dce588c4757e8c31']))
+====================================
+ipcity (set(['Pirmasens']), set(['Mardorf']))
+ipregion (set(['Rheinland-Pfalz']), set(['Niedersachsen']))
+browserfingerprint (set(['323e1d5d8c3261f11ae0c8d1c5d2a52d4f046ecdbbb419b2dce588c4757e8c31']), set(['51c57eb537b913e971d0174e78022def739e40467d1a425061389e6164734590']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Mardorf']), set(['Augsburg-Lechviertel']))
+ipregion (set(['Niedersachsen']), set(['Bayern']))
+browserfingerprint (set(['51c57eb537b913e971d0174e78022def739e40467d1a425061389e6164734590']), set(['c324409d53d7b41a71683e6027685ba0f575ec302359d29ff7124fc192e42751']))
+====================================
+browserfingerprint (set(['c324409d53d7b41a71683e6027685ba0f575ec302359d29ff7124fc192e42751']), set(['9555177f0cccf5c6005a9549b339f4d5972b8f9e5136adaa99a0a48c67d016ba']))
+====================================
+browserfingerprint (set(['9555177f0cccf5c6005a9549b339f4d5972b8f9e5136adaa99a0a48c67d016ba']), set(['c324409d53d7b41a71683e6027685ba0f575ec302359d29ff7124fc192e42751']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Augsburg-Lechviertel']), set(['Pirmasens']))
+ipregion (set(['Bayern']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['c324409d53d7b41a71683e6027685ba0f575ec302359d29ff7124fc192e42751']), set(['ad70a78e9230c0f76c72b0bd48a38d762c10f1a7345bfa19670913402662543c']))
+====================================

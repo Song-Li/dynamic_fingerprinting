@@ -1,0 +1,13 @@
+browserfingerprint (set(['cf01e5bd6555fe2d8abb292f1a7c6e9a59daadc893aacab18d7085f380c73593']), set(['6c871719c76c856b48afd2b0f60c1dbf95844e3889fcd389ba055e37b5c3f1bc']))
+====================================
+ipcity (set(['Hanover']), set(['Hamburg']))
+ipregion (set(['Niedersachsen']), set(['Hamburg']))
+browserfingerprint (set(['6c871719c76c856b48afd2b0f60c1dbf95844e3889fcd389ba055e37b5c3f1bc']), set(['b88aff70616e4763cd0aee837714330525d4fb6a07f85a4092f5e8e9f99b46ef']))
+====================================
+browserfingerprint (set(['b88aff70616e4763cd0aee837714330525d4fb6a07f85a4092f5e8e9f99b46ef']), set(['9a9e8265e77150c0924e532d93dc81d0ae2b45424c5da46d84d0f36fdd7fbc35']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['9a9e8265e77150c0924e532d93dc81d0ae2b45424c5da46d84d0f36fdd7fbc35']), set(['aa28ebb925f003b37c29f04989f4d3ebaacf5dbe601a4415caae0efb6fe45b1b']))
+====================================

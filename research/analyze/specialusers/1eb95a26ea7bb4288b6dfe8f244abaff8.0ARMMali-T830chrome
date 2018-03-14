@@ -1,0 +1,15 @@
+browserfingerprint (set(['c2892d59f315117c4155e9c12cfcb3c764b12bd8c5bc6fa9fd8d46e24eb55b1f']), set(['0dd4e4602b9cccb4b9b0848aa4132f35963dc03514e7e38304b364c7070fb993']))
+====================================
+browserfingerprint (set(['0dd4e4602b9cccb4b9b0848aa4132f35963dc03514e7e38304b364c7070fb993']), set(['a6aa11e1be6d929d7f69441b8cf7453a3ae26ea71c62c4fc6ff5b9c7d29f340f']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Wieseck']))
+browserfingerprint (set(['a6aa11e1be6d929d7f69441b8cf7453a3ae26ea71c62c4fc6ff5b9c7d29f340f']), set(['dce7d01bc6c9e0f4a78561d790ad4bfce5d40c73be0ec726d58d2cf1a550bbf2']))
+====================================
+browserfingerprint (set(['dce7d01bc6c9e0f4a78561d790ad4bfce5d40c73be0ec726d58d2cf1a550bbf2']), set(['ae2ac9ff566af3c7e914033785ffbc54615bf8277e6fdcdd1811e7691207191e']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['ae2ac9ff566af3c7e914033785ffbc54615bf8277e6fdcdd1811e7691207191e']), set(['8c96b14f779ddbdd89b2f8613f5f04a50034119a921ccebda28e8fd207b80121']))
+====================================

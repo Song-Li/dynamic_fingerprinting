@@ -1,0 +1,22 @@
+browserfingerprint (set(['a50f2c01b0451fb403b26f7ff56433e52f2f811b8ecae40f43463455e57d872b']), set(['6adaeb3ab3bb6d539a6cb0f0035950e6c0a48ab769a80f72bf85937ea0064ea9']))
+====================================
+browserfingerprint (set(['6adaeb3ab3bb6d539a6cb0f0035950e6c0a48ab769a80f72bf85937ea0064ea9']), set(['a50f2c01b0451fb403b26f7ff56433e52f2f811b8ecae40f43463455e57d872b']))
+====================================
+browserfingerprint (set(['a50f2c01b0451fb403b26f7ff56433e52f2f811b8ecae40f43463455e57d872b']), set(['6adaeb3ab3bb6d539a6cb0f0035950e6c0a48ab769a80f72bf85937ea0064ea9']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['6adaeb3ab3bb6d539a6cb0f0035950e6c0a48ab769a80f72bf85937ea0064ea9']), set(['07192ec7d99060becffce97d0475694fc91040c528f3904b61f30de304b73824']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Kerpen']), set(['Dortmund']))
+ipregion (set(['Rheinland-Pfalz']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['07192ec7d99060becffce97d0475694fc91040c528f3904b61f30de304b73824']), set(['437618893621988dd11a68e6cc5bf42421005d59c42c5488b5b2f8a28df5e1c2']))
+====================================
+browserfingerprint (set(['437618893621988dd11a68e6cc5bf42421005d59c42c5488b5b2f8a28df5e1c2']), set(['ac60b6fde0c017b4b655fe3cf8c40876074aa65c719761c82c342a59a9d43d88']))
+====================================
+agent (set(['7.0;']), set(['8.0.0;']))
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['986de49816a287410582339197e77f7fea2460ca']))
+ipcity (set(['Dortmund']), set(['Kerpen']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['ac60b6fde0c017b4b655fe3cf8c40876074aa65c719761c82c342a59a9d43d88']), set(['5cb030ba69dfc7e65f8d4654d08ebefa3860537718b007efb36b299aee92a917']))
+====================================

@@ -1,0 +1,21 @@
+ipcity (set(['Stuttgart']), set(['Freiburg']))
+browserfingerprint (set(['ebb2f45df430f3273af04e8bfec535a403343a571465609bd14ac87200927b21']), set(['d4c489e8c3328cc18589fe7e8b1772989bac5eadd86a6c133e3ff12886a55772']))
+====================================
+browserfingerprint (set(['d4c489e8c3328cc18589fe7e8b1772989bac5eadd86a6c133e3ff12886a55772']), set(['47f216c81535c4cee12bd17ffbbee41830a2e7e2c60272883360caa340aec5b3']))
+====================================
+ipcity (set(['Freiburg']), set(['Stuttgart']))
+browserfingerprint (set(['47f216c81535c4cee12bd17ffbbee41830a2e7e2c60272883360caa340aec5b3']), set(['ebb2f45df430f3273af04e8bfec535a403343a571465609bd14ac87200927b21']))
+====================================
+browserfingerprint (set(['ebb2f45df430f3273af04e8bfec535a403343a571465609bd14ac87200927b21']), set(['0b16b669cb0dc44ad6e3d1b9f2d2bd62f002d6c717c8a379b164cd49b524685e']))
+====================================
+browserfingerprint (set(['0b16b669cb0dc44ad6e3d1b9f2d2bd62f002d6c717c8a379b164cd49b524685e']), set(['ebb2f45df430f3273af04e8bfec535a403343a571465609bd14ac87200927b21']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['ebb2f45df430f3273af04e8bfec535a403343a571465609bd14ac87200927b21']), set(['f286ecee5ce48dc5ecb9c83ae3bdc3d830e0c5de2c98f3cc074433be8cf2ae55']))
+====================================
+browserfingerprint (set(['f286ecee5ce48dc5ecb9c83ae3bdc3d830e0c5de2c98f3cc074433be8cf2ae55']), set(['ca9094523c62a4f56f0ec4c0140a8bbe03a2257eb728ce0b1fe2705dd39f3748']))
+====================================
+browserfingerprint (set(['ca9094523c62a4f56f0ec4c0140a8bbe03a2257eb728ce0b1fe2705dd39f3748']), set(['f286ecee5ce48dc5ecb9c83ae3bdc3d830e0c5de2c98f3cc074433be8cf2ae55']))
+====================================
+browserfingerprint (set(['f286ecee5ce48dc5ecb9c83ae3bdc3d830e0c5de2c98f3cc074433be8cf2ae55']), set(['ca9094523c62a4f56f0ec4c0140a8bbe03a2257eb728ce0b1fe2705dd39f3748']))
+====================================

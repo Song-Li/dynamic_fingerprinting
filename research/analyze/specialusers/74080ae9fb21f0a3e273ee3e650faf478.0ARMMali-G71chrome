@@ -1,0 +1,20 @@
+browserfingerprint (set(['133667e29ad66c1072cec80437e4def3aab9fd1a573126953f59543924185497']), set(['82e386c928d1e6e1f69dec727992323862c4a666d3b972113a75e52a2118610b']))
+====================================
+browserfingerprint (set(['82e386c928d1e6e1f69dec727992323862c4a666d3b972113a75e52a2118610b']), set(['133667e29ad66c1072cec80437e4def3aab9fd1a573126953f59543924185497']))
+====================================
+browserfingerprint (set(['133667e29ad66c1072cec80437e4def3aab9fd1a573126953f59543924185497']), set(['82e386c928d1e6e1f69dec727992323862c4a666d3b972113a75e52a2118610b']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['82e386c928d1e6e1f69dec727992323862c4a666d3b972113a75e52a2118610b']), set(['025d35daa7ad3e405f24bcd676fac97fc34a4838b3814e385070c07dad3c8578']))
+====================================
+browserfingerprint (set(['025d35daa7ad3e405f24bcd676fac97fc34a4838b3814e385070c07dad3c8578']), set(['95a7cefa86d333136579c0d402fd4bf0e63eb9bc5a56ad4dd91a50562f1445bb']))
+====================================
+browserfingerprint (set(['95a7cefa86d333136579c0d402fd4bf0e63eb9bc5a56ad4dd91a50562f1445bb']), set(['025d35daa7ad3e405f24bcd676fac97fc34a4838b3814e385070c07dad3c8578']))
+====================================
+browserfingerprint (set(['025d35daa7ad3e405f24bcd676fac97fc34a4838b3814e385070c07dad3c8578']), set(['95a7cefa86d333136579c0d402fd4bf0e63eb9bc5a56ad4dd91a50562f1445bb']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['95a7cefa86d333136579c0d402fd4bf0e63eb9bc5a56ad4dd91a50562f1445bb']), set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']))
+====================================
+browserfingerprint (set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']), set(['5f4a301b1be45a9941079f2042fd05845c590e736a48a98a1fa2228b2ea77ecb']))
+====================================

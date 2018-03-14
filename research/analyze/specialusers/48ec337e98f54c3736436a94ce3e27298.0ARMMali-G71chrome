@@ -1,0 +1,26 @@
+browserfingerprint (set(['9d5ea1ad310ffd0c77d614fae277abaa3bf7b0600b773ef63f8d69d32db99ef0']), set(['f647aa6d5cd58ffcad7fe498a39a855111c6f21ed75dfa6ac3750bd71a0555ec']))
+====================================
+ipcity (set(['Papenburg']), set(['Mecklenburg']))
+ipregion (set(['Niedersachsen']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['f647aa6d5cd58ffcad7fe498a39a855111c6f21ed75dfa6ac3750bd71a0555ec']), set(['bbbde00e6f6c8039ffcb4eed52646bad869b4a417fdfe7cac5353bdb8ea7382f']))
+====================================
+browserfingerprint (set(['bbbde00e6f6c8039ffcb4eed52646bad869b4a417fdfe7cac5353bdb8ea7382f']), set(['66dc2a549446cbc88be170c05a77e4465d91784eb79552144e9fd4525615f3a2']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Mecklenburg']), set(['Munich']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Bayern']))
+browserfingerprint (set(['66dc2a549446cbc88be170c05a77e4465d91784eb79552144e9fd4525615f3a2']), set(['2a0b1a5ead9ab5e9e7f4cefa22948bb90a059caf76559fce8e79c1e97fa928de']))
+====================================
+browserfingerprint (set(['2a0b1a5ead9ab5e9e7f4cefa22948bb90a059caf76559fce8e79c1e97fa928de']), set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']))
+====================================
+ipcity (set(['Munich']), set(['Bonn']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']), set(['897b51d6ffde3eaf2590b13a5c385e7b6cafa023600b58f69124fa60fe69f5ee']))
+====================================
+ipcity (set(['Bonn']), set(['Sachsen']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['897b51d6ffde3eaf2590b13a5c385e7b6cafa023600b58f69124fa60fe69f5ee']), set(['1f8b203472844d3f76e57754f0ea0fc3c6015ea10c1bcdfca06039ce147a8fc9']))
+====================================
+browserfingerprint (set(['1f8b203472844d3f76e57754f0ea0fc3c6015ea10c1bcdfca06039ce147a8fc9']), set(['f30bb26d7592f680efa288d1a610e33653c398b8ed03a72e0427d761ee4a3502']))
+====================================

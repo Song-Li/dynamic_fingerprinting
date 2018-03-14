@@ -1,0 +1,39 @@
+ipcity (set(['Zurich']), set(['Lausanne']))
+ipregion (set(['Zurich']), set(['Vaud']))
+browserfingerprint (set(['773b1da72e7d05bf1ef7273f65a46d52b4f2550364fb1621cfaaf16c35559c28']), set(['10b807a802538d5f1738b418fcb95428202e9c5fdd62ab078250add919a09b77']))
+====================================
+ipcity (set(['Lausanne']), set(['Davor']))
+ipregion (set(['Vaud']), set(['zupanija', 'Brodsko-posavska']))
+ipcountry (set(['Switzerland']), set(['Croatia']))
+browserfingerprint (set(['10b807a802538d5f1738b418fcb95428202e9c5fdd62ab078250add919a09b77']), set(['2faeb76ebb90e97bf5c342f8edfba4f0e4345da1b27f0b45af46710f719e7248']))
+====================================
+browserfingerprint (set(['2faeb76ebb90e97bf5c342f8edfba4f0e4345da1b27f0b45af46710f719e7248']), set(['bc5fe78496c74572f36d57bc46ae4e2e1f22d2e7f4ce376cd4e94bc7d25fb44f']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Davor']), set(['Okucani']))
+browserfingerprint (set(['bc5fe78496c74572f36d57bc46ae4e2e1f22d2e7f4ce376cd4e94bc7d25fb44f']), set(['0e25ee62b13deeb79ecd6be3fdc8f6d066781332b4ac2e74a23a2dfc5b862996']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Okucani']), set(['Lausanne']))
+ipregion (set(['zupanija', 'Brodsko-posavska']), set(['Vaud']))
+ipcountry (set(['Croatia']), set(['Switzerland']))
+browserfingerprint (set(['0e25ee62b13deeb79ecd6be3fdc8f6d066781332b4ac2e74a23a2dfc5b862996']), set(['5b010ab1981139fa1aea0b5015dd9f8c040194257563a876e68f894fc6a7afd5']))
+====================================
+browserfingerprint (set(['5b010ab1981139fa1aea0b5015dd9f8c040194257563a876e68f894fc6a7afd5']), set(['415e613c3f653199a9e675b85449946e4ae61fb1841309fe7efd86f7c2c7a56d']))
+====================================
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+browserfingerprint (set(['415e613c3f653199a9e675b85449946e4ae61fb1841309fe7efd86f7c2c7a56d']), set(['ffd0bfb4db424ef34386811238015903b5b716f434173b3130e3cf5b1688d326']))
+====================================
+ipcity (set(['Lausanne']), set(['Zurich']))
+ipregion (set(['Vaud']), set(['Zurich']))
+browserfingerprint (set(['ffd0bfb4db424ef34386811238015903b5b716f434173b3130e3cf5b1688d326']), set(['c00e84bc4a0a1eaeff6682c79bcb1f093951c835be96dd9c969cb9b42fc88856']))
+====================================
+browserfingerprint (set(['c00e84bc4a0a1eaeff6682c79bcb1f093951c835be96dd9c969cb9b42fc88856']), set(['7574ae585bf28f2376aa43fa4ffc7395455672e689e60c83900b9ea297495eae']))
+====================================
+canvastest (set(['42fd669ef3da98f7376ed9e942762255a009dc79']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Zurich']), set(['Lausanne']))
+ipregion (set(['Zurich']), set(['Vaud']))
+browserfingerprint (set(['7574ae585bf28f2376aa43fa4ffc7395455672e689e60c83900b9ea297495eae']), set(['415e613c3f653199a9e675b85449946e4ae61fb1841309fe7efd86f7c2c7a56d']))
+====================================
+browserfingerprint (set(['415e613c3f653199a9e675b85449946e4ae61fb1841309fe7efd86f7c2c7a56d']), set(['5b010ab1981139fa1aea0b5015dd9f8c040194257563a876e68f894fc6a7afd5']))
+====================================

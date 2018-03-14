@@ -1,0 +1,13 @@
+agent (set(['Chrome/59.0.3071.125']), set(['Chrome/60.0.3112.107']))
+cookie (set(['False']), set(['True']))
+localstorage (set(['False']), set(['True']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Leipzig']), set(['Freital']))
+browserfingerprint (set(['89a9963ba48fac7bb2af7b995cd49ec0253fc5b08d548c58e2c49bbc11a6ab81']), set(['507ee1f8bed4b01d270e0ba624b9c3573eca9f010006e67a1fd3dafb1949ddbc']))
+====================================
+browserfingerprint (set(['507ee1f8bed4b01d270e0ba624b9c3573eca9f010006e67a1fd3dafb1949ddbc']), set(['6328b5032818c267f1b347e9114aadfa5a0f860d48d1e5957a814b147a9aa9ce']))
+====================================
+browserfingerprint (set(['6328b5032818c267f1b347e9114aadfa5a0f860d48d1e5957a814b147a9aa9ce']), set(['507ee1f8bed4b01d270e0ba624b9c3573eca9f010006e67a1fd3dafb1949ddbc']))
+====================================
+browserfingerprint (set(['507ee1f8bed4b01d270e0ba624b9c3573eca9f010006e67a1fd3dafb1949ddbc']), set(['6328b5032818c267f1b347e9114aadfa5a0f860d48d1e5957a814b147a9aa9ce']))
+====================================

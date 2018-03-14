@@ -1,0 +1,6 @@
+browserfingerprint (set(['7839e5f2dd03f6b92cf871d2caa650692fa69ebcf0a51d42279cf8148869875f']), set(['ea3d994d303d1bb823578f64414620371af272315c143cc1aaff2fc79710bbaa']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['ea3d994d303d1bb823578f64414620371af272315c143cc1aaff2fc79710bbaa']), set(['4cfed4d09f87156dba6c7b6affa5ebac5b33199ac7c9cf08d4afdd2b32c70c0c']))
+====================================

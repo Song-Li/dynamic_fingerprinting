@@ -1,0 +1,42 @@
+browserfingerprint (set(['54ef44774211772fcaa74ed40f0891c20e7b2cbd02976154f00cd33cb59cb6ba']), set(['0255a85137840b11d0bde1170801c091b8d9b7d78c408ad9e91b50269a7ccbf3']))
+====================================
+browserfingerprint (set(['0255a85137840b11d0bde1170801c091b8d9b7d78c408ad9e91b50269a7ccbf3']), set(['54ef44774211772fcaa74ed40f0891c20e7b2cbd02976154f00cd33cb59cb6ba']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Hamburg']), set(['Siegen']))
+ipregion (set(['Hamburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['54ef44774211772fcaa74ed40f0891c20e7b2cbd02976154f00cd33cb59cb6ba']), set(['0057f7d41c20234b7ab70b4d054345c55b8c99f47861069d27553b772f11d3d8']))
+====================================
+ipcity (set(['Siegen']), set(['Hamburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Hamburg']))
+browserfingerprint (set(['0057f7d41c20234b7ab70b4d054345c55b8c99f47861069d27553b772f11d3d8']), set(['54c5f166c1e8047faa6bc686a21a4d75f45ee15c330f5228b93d81fc08100429']))
+====================================
+browserfingerprint (set(['54c5f166c1e8047faa6bc686a21a4d75f45ee15c330f5228b93d81fc08100429']), set(['5cf886417e837e3cabb9c71dd9480244b535cfa44fc6de66ac08112a11650a70']))
+====================================
+browserfingerprint (set(['5cf886417e837e3cabb9c71dd9480244b535cfa44fc6de66ac08112a11650a70']), set(['54c5f166c1e8047faa6bc686a21a4d75f45ee15c330f5228b93d81fc08100429']))
+====================================
+browserfingerprint (set(['54c5f166c1e8047faa6bc686a21a4d75f45ee15c330f5228b93d81fc08100429']), set(['5cf886417e837e3cabb9c71dd9480244b535cfa44fc6de66ac08112a11650a70']))
+====================================
+ipcity (set(['Hamburg']), set(['Hacklingen', 'Neu']))
+ipregion (set(['Hamburg']), set(['Niedersachsen']))
+browserfingerprint (set(['5cf886417e837e3cabb9c71dd9480244b535cfa44fc6de66ac08112a11650a70']), set(['07205881e8ac5eb1a6f37f212cdaf97d402917b2f88d84e1b2ec31c35577f440']))
+====================================
+browserfingerprint (set(['07205881e8ac5eb1a6f37f212cdaf97d402917b2f88d84e1b2ec31c35577f440']), set(['2775b932cfa5375138ac2f9e5b19df10ef48bb9057f2b29e24d1b5ea5d241b90']))
+====================================
+browserfingerprint (set(['2775b932cfa5375138ac2f9e5b19df10ef48bb9057f2b29e24d1b5ea5d241b90']), set(['07205881e8ac5eb1a6f37f212cdaf97d402917b2f88d84e1b2ec31c35577f440']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Hacklingen', 'Neu']), set(['Hamburg']))
+ipregion (set(['Niedersachsen']), set(['Hamburg']))
+browserfingerprint (set(['07205881e8ac5eb1a6f37f212cdaf97d402917b2f88d84e1b2ec31c35577f440']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
+====================================
+ipcity (set(['Hamburg']), set(['Siegen']))
+ipregion (set(['Hamburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']), set(['44d22f48655405bbd74644c89f22a64947e6f2de1da447289005244bccbc5433']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+ipcity (set(['Siegen']), set(['Westergellersen']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['44d22f48655405bbd74644c89f22a64947e6f2de1da447289005244bccbc5433']), set(['514576c5c7adcdaf862c0bef9b7014929572a3d8e44504f67f09b8784ce04c9d']))
+====================================

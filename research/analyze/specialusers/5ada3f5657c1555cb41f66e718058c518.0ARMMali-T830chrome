@@ -1,0 +1,16 @@
+browserfingerprint (set(['a9333591d343ac7f8dd1e92e5e989c381bfdd0d47e870b3e02320dddc219eabd']), set(['5292783a452f725344c4f1f71c89087033fa04129c20ded15b1909ebef725f4f']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6']))
+browserfingerprint (set(['5292783a452f725344c4f1f71c89087033fa04129c20ded15b1909ebef725f4f']), set(['be2b7eea6e7369853955a925d9730df748e279bb03cdbf7247c2f728c2f8d13e']))
+====================================
+browserfingerprint (set(['be2b7eea6e7369853955a925d9730df748e279bb03cdbf7247c2f728c2f8d13e']), set(['48a3153290559f516f1b0338eaf6ebb1771d09ba57cda5707cde557cda5ec40f']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['48a3153290559f516f1b0338eaf6ebb1771d09ba57cda5707cde557cda5ec40f']), set(['a185685f41dbd9a143e3bcef2840056ec79fd983ae6bec402f6b3c7c7c7aa9f6']))
+====================================
+ipcity (set(['Berlin']), set(['Karlsruhe']))
+ipregion (set(['Berlin']), set(['Brandenburg']))
+browserfingerprint (set(['a185685f41dbd9a143e3bcef2840056ec79fd983ae6bec402f6b3c7c7c7aa9f6']), set(['f3f8f4bebf72f2163e53973eaf83f1a8731ff85316af8acf7cdb0cd38e9a7186']))
+====================================

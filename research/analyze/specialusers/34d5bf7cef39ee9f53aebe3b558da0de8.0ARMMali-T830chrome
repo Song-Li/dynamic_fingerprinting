@@ -1,0 +1,19 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Saarbrucken']), set(['Mainz']))
+ipregion (set(['Saarland']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['eaedfd64a7025186125bd940caae66c75db67527b29031214a0f1ba15a66a7a0']), set(['75f1b5f45e418d493d0d356bdf6f33f2a491a3727fcaf89de76e298e4dec2b98']))
+====================================
+browserfingerprint (set(['75f1b5f45e418d493d0d356bdf6f33f2a491a3727fcaf89de76e298e4dec2b98']), set(['5ec6420b759762a6c0afe42b47c96e845513cee39769f8f784cc2988efdd9153']))
+====================================
+ipcity (set(['Mainz']), set(['Isenburg']))
+browserfingerprint (set(['5ec6420b759762a6c0afe42b47c96e845513cee39769f8f784cc2988efdd9153']), set(['751cc158f3f23c57e1a63bdd739a6a2584189b0a862ac30ba644b6b5f7cbf40e']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Isenburg']), set(['Trier']))
+browserfingerprint (set(['751cc158f3f23c57e1a63bdd739a6a2584189b0a862ac30ba644b6b5f7cbf40e']), set(['81003c294bdecec31b6047cffa401e0a34da25975dc9625e90c995dde17aa534']))
+====================================
+browserfingerprint (set(['81003c294bdecec31b6047cffa401e0a34da25975dc9625e90c995dde17aa534']), set(['158b4ac9c394ee7868970ca224e91b94d870a82aec52eb72d810ed64614c3b69']))
+====================================
+browserfingerprint (set(['158b4ac9c394ee7868970ca224e91b94d870a82aec52eb72d810ed64614c3b69']), set(['81003c294bdecec31b6047cffa401e0a34da25975dc9625e90c995dde17aa534']))
+====================================

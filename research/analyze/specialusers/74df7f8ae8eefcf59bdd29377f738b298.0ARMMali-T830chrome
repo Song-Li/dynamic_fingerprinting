@@ -1,0 +1,8 @@
+browserfingerprint (set(['20ed371b4bce328dbe88defed247c451117c7785afa1d283d52a9eccb10191b6']), set(['9a99c3f1203f7a28a8192f012a244a6d34ea4fb290bc705459485e036bf588f0']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Wiesbaden']), set(['Dusseldorf']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['9a99c3f1203f7a28a8192f012a244a6d34ea4fb290bc705459485e036bf588f0']), set(['6a20ab9725d24b5351e945077669a4659e7e57161e6204f6c2f8bb2b7dd0f885']))
+====================================

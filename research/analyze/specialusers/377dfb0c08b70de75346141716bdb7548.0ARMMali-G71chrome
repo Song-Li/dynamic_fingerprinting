@@ -1,0 +1,28 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Munich']), set(['Bonn']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['d6132b94952ed9dcdce4c9d7b93162fdf18c1c310caf6a6287d97378ae624cd6']), set(['32d484f200fcb82c56c4eb9282e87db2f9c3d62a8b294ff148d8eadff5f1b209']))
+====================================
+ipcity (set(['Bonn']), set(['Muenster']))
+browserfingerprint (set(['32d484f200fcb82c56c4eb9282e87db2f9c3d62a8b294ff148d8eadff5f1b209']), set(['081832b27ba308baaa00a3e1675620643b4a214c3b121b66ecf41e5ec889c741']))
+====================================
+ipcity (set(['Muenster']), set(['Straas']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['081832b27ba308baaa00a3e1675620643b4a214c3b121b66ecf41e5ec889c741']), set(['2ed70db84c594134e872c86bbfe61328503d520e13dcf7a3df83413011866738']))
+====================================
+browserfingerprint (set(['2ed70db84c594134e872c86bbfe61328503d520e13dcf7a3df83413011866738']), set(['365bd0fe2ab7b0f6190aee798e5bcbe04f655083f0d6d9d4347aac75bf2c42dd']))
+====================================
+ipcity (set(['Straas']), set(['Muenster']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['365bd0fe2ab7b0f6190aee798e5bcbe04f655083f0d6d9d4347aac75bf2c42dd']), set(['5061d2ac2e28822c715326edead345511624ceaf43bfe7d991bf2c28d731d028']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Muenster']), set(['Munich']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['5061d2ac2e28822c715326edead345511624ceaf43bfe7d991bf2c28d731d028']), set(['2a0b1a5ead9ab5e9e7f4cefa22948bb90a059caf76559fce8e79c1e97fa928de']))
+====================================
+browserfingerprint (set(['2a0b1a5ead9ab5e9e7f4cefa22948bb90a059caf76559fce8e79c1e97fa928de']), set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']), set(['9a6137c90d0421a2371137a422dda3e1147f71e76ed06ca0b115e1654bab33d6']))
+====================================

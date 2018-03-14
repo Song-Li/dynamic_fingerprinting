@@ -1,0 +1,18 @@
+browserfingerprint (set(['eb2e893312bad1fca8a2f5e5edf5eeff21ec8361b532901d21e1bda770011b4b']), set(['5b68deecd98aa79bade42176bd20930a41a17946c2ef430110d6162f3b3420b6']))
+====================================
+ipcity (set(['Friesach']), set(['Graz']))
+ipregion (set(['Karnten']), set(['Steiermark']))
+browserfingerprint (set(['5b68deecd98aa79bade42176bd20930a41a17946c2ef430110d6162f3b3420b6']), set(['aacefca1e4c2142b3226121b200b733529b77870c033e971c209719c70bef6c9']))
+====================================
+browserfingerprint (set(['aacefca1e4c2142b3226121b200b733529b77870c033e971c209719c70bef6c9']), set(['f9ef06400438d3c8ed7283758570bdd5c4ae0531c73ab85658c82014eb0da08e']))
+====================================
+browserfingerprint (set(['f9ef06400438d3c8ed7283758570bdd5c4ae0531c73ab85658c82014eb0da08e']), set(['cdf817a482ac2e6f1d86d7e11dc284ae9804fc12614a4859ad9634b94735e9aa']))
+====================================
+agent (set(['Build/HUAWEIVNS-L31)', 'VNS-L31', 'Chrome/62.0.3202.84', 'HUAWEI']), set(['Chrome/64.0.3282.123', 'Build/HUAWEIWAS-LX1)', 'WAS-LX1']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Graz']), set(['Vienna']))
+ipregion (set(['Steiermark']), set(['Wien']))
+browserfingerprint (set(['cdf817a482ac2e6f1d86d7e11dc284ae9804fc12614a4859ad9634b94735e9aa']), set(['b3e2cf02b8bbe3f36a772dae9a4eeda4329132909a41e7b6fa13129eb7e1addf']))
+====================================
+browserfingerprint (set(['b3e2cf02b8bbe3f36a772dae9a4eeda4329132909a41e7b6fa13129eb7e1addf']), set(['558255bdd515b1a4855b001ec85bacae13822f96aed529651afab954233665db']))
+====================================

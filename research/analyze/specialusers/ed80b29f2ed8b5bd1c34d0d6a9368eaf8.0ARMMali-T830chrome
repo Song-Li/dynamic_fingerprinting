@@ -1,0 +1,10 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Kleve']), set(['Dusseldorf']))
+browserfingerprint (set(['475eb2a33b7ba051787d2ac15fc5beb582fe90844d3e28f884a83c0a3def7130']), set(['c5601e20be7df324911f183452b79e7bd2cb0da47ed9e965a59bdce4d31f205d']))
+====================================
+browserfingerprint (set(['c5601e20be7df324911f183452b79e7bd2cb0da47ed9e965a59bdce4d31f205d']), set(['0c9157a3fb580ac25c70673289c72c5163957895d7409d5a2a1ec1b5d306d214']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Aachen']))
+browserfingerprint (set(['0c9157a3fb580ac25c70673289c72c5163957895d7409d5a2a1ec1b5d306d214']), set(['526f3cdbb10921b449c96860f77f7d14864fb714d075b0d81b48e00eb4725768']))
+====================================

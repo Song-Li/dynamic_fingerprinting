@@ -1,0 +1,9 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Wiesbaden']), set(['Wieseck']))
+browserfingerprint (set(['6df9934fe678e83664e1473e28926533e165dd499fa866309fa7f354d5a47bff']), set(['82520ba4745977a48b0c4ec5d23b2c9f3c88e1cfc4d4017f7992da2d934dc31c']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Wieseck']), set(['Dusseldorf']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['82520ba4745977a48b0c4ec5d23b2c9f3c88e1cfc4d4017f7992da2d934dc31c']), set(['6bb56d153fc59fa29dc78d300dc3232a6071dee476a102daa31717ba3294d6ce']))
+====================================

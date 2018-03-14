@@ -1,0 +1,17 @@
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Traunstein']), set(['Wald', 'der', 'Alz', 'an']))
+browserfingerprint (set(['875cb3b917b7a8451ee13032e01e685c68d00bbf3e0a12e25a1fc90177d55414']), set(['1eb699e6e919619aac1799e064b3250817503272203bd7078d27baea77f3543f']))
+====================================
+browserfingerprint (set(['1eb699e6e919619aac1799e064b3250817503272203bd7078d27baea77f3543f']), set(['ef772a23afa21067bb467ee52e26f69452479b92c9e0823d5315a0e7bd40f9c2']))
+====================================
+ipcity (set(['Wald', 'der', 'Alz', 'an']), set(['Straas']))
+browserfingerprint (set(['ef772a23afa21067bb467ee52e26f69452479b92c9e0823d5315a0e7bd40f9c2']), set(['9cdf81b3d4a8a82d7d2555dedc4d148958b2c3e96b1d676bb1355b29c35ce292']))
+====================================
+ipcity (set(['Straas']), set(['Alzgern']))
+browserfingerprint (set(['9cdf81b3d4a8a82d7d2555dedc4d148958b2c3e96b1d676bb1355b29c35ce292']), set(['6eb245321f4339858afda3a967a05ba48f9bbf5b6178065cec17b19a38464b5f']))
+====================================
+ipcity (set(['Alzgern']), set(['Dortmund']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['6eb245321f4339858afda3a967a05ba48f9bbf5b6178065cec17b19a38464b5f']), set(['c945ceb6430ea1d8016751bc7816fc5b4510bc00bc9d867762def8296d7b3cbc']))
+====================================

@@ -1,0 +1,20 @@
+browserfingerprint (set(['5048ad06d10a24397944fdb835849b26a458f80f726f4ff57e2bb63ee92522d4']), set(['8547875a0e357751467838827eb778c4bf9e04a2ca03fe6dccf04f43b936f51e']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['8547875a0e357751467838827eb778c4bf9e04a2ca03fe6dccf04f43b936f51e']), set(['395c5ee8f29472bb65f20a36c189226167eef25a6d62c34f9b31cb5759aced46']))
+====================================
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+browserfingerprint (set(['395c5ee8f29472bb65f20a36c189226167eef25a6d62c34f9b31cb5759aced46']), set(['4b2533372720ce18ecb746b678715114081fee3ee3f2db05c152d98cdee8e7c9']))
+====================================
+canvastest (set(['42fd669ef3da98f7376ed9e942762255a009dc79']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['4b2533372720ce18ecb746b678715114081fee3ee3f2db05c152d98cdee8e7c9']), set(['73a1bbbbf9abb36d44e63b2e14cc729ecbf674819f36c8efce6517df60d87b02']))
+====================================
+browserfingerprint (set(['73a1bbbbf9abb36d44e63b2e14cc729ecbf674819f36c8efce6517df60d87b02']), set(['395c5ee8f29472bb65f20a36c189226167eef25a6d62c34f9b31cb5759aced46']))
+====================================
+browserfingerprint (set(['395c5ee8f29472bb65f20a36c189226167eef25a6d62c34f9b31cb5759aced46']), set(['73a1bbbbf9abb36d44e63b2e14cc729ecbf674819f36c8efce6517df60d87b02']))
+====================================
+browserfingerprint (set(['73a1bbbbf9abb36d44e63b2e14cc729ecbf674819f36c8efce6517df60d87b02']), set(['395c5ee8f29472bb65f20a36c189226167eef25a6d62c34f9b31cb5759aced46']))
+====================================
+browserfingerprint (set(['395c5ee8f29472bb65f20a36c189226167eef25a6d62c34f9b31cb5759aced46']), set(['73a1bbbbf9abb36d44e63b2e14cc729ecbf674819f36c8efce6517df60d87b02']))
+====================================

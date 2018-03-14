@@ -1,0 +1,21 @@
+browserfingerprint (set(['8acc5d74920b4248b0b99c6e9e89e2382af29218bd5bbd6661a9bf787850b8b8']), set(['f3ac9420c738f61bc94d2a9e662dead0420f0bca0df62c84ed3e8a7396737d35']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['f3ac9420c738f61bc94d2a9e662dead0420f0bca0df62c84ed3e8a7396737d35']), set(['ca48af1cf411121ae4cea6426a7cea6d04a2445e61f26eeac08fdfea32edeb02']))
+====================================
+browserfingerprint (set(['ca48af1cf411121ae4cea6426a7cea6d04a2445e61f26eeac08fdfea32edeb02']), set(['6956e35d127b52769f1123682e1ac93f66059949d5fddd7ceb8c6b9dcf65ca84']))
+====================================
+ipcity (set(['Berlin']), set(['Potsdam']))
+ipregion (set(['Berlin']), set(['Brandenburg']))
+browserfingerprint (set(['6956e35d127b52769f1123682e1ac93f66059949d5fddd7ceb8c6b9dcf65ca84']), set(['e96d5547b492648d6c708b361dd5d6ca1ef03903f62dff934d260b819ab7c51c']))
+====================================
+ipcity (set(['Potsdam']), set(['Berlin']))
+ipregion (set(['Brandenburg']), set(['Berlin']))
+browserfingerprint (set(['e96d5547b492648d6c708b361dd5d6ca1ef03903f62dff934d260b819ab7c51c']), set(['ca48af1cf411121ae4cea6426a7cea6d04a2445e61f26eeac08fdfea32edeb02']))
+====================================
+browserfingerprint (set(['ca48af1cf411121ae4cea6426a7cea6d04a2445e61f26eeac08fdfea32edeb02']), set(['6956e35d127b52769f1123682e1ac93f66059949d5fddd7ceb8c6b9dcf65ca84']))
+====================================
+browserfingerprint (set(['6956e35d127b52769f1123682e1ac93f66059949d5fddd7ceb8c6b9dcf65ca84']), set(['ca48af1cf411121ae4cea6426a7cea6d04a2445e61f26eeac08fdfea32edeb02']))
+====================================
+browserfingerprint (set(['ca48af1cf411121ae4cea6426a7cea6d04a2445e61f26eeac08fdfea32edeb02']), set(['6956e35d127b52769f1123682e1ac93f66059949d5fddd7ceb8c6b9dcf65ca84']))
+====================================

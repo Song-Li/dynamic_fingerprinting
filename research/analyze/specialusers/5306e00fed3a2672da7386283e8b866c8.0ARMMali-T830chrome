@@ -1,0 +1,13 @@
+browserfingerprint (set(['97bd5be0041bbeee0fd91b914dd12908cf4b902e895b9edc5a07a9cf8ab48c68']), set(['84dcc927d76fc76be677f7fbbfb9dfcd6b77eea97a601c001962a12dee6849fa']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Zwickau']), set(['Spreewitz']))
+browserfingerprint (set(['84dcc927d76fc76be677f7fbbfb9dfcd6b77eea97a601c001962a12dee6849fa']), set(['bde2113445591ced4ed1c547428ab75f72b8108e7002a27de6c9d8fcd51573f7']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+ipcity (set(['Spreewitz']), set(['Dusseldorf']))
+ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['bde2113445591ced4ed1c547428ab75f72b8108e7002a27de6c9d8fcd51573f7']), set(['db400dcdac999d40c834a76579c21cf65a40059a2a87c2ca07421cb67226eb55']))
+====================================

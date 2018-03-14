@@ -1,0 +1,14 @@
+browserfingerprint (set(['799f17a51e2a6beb0507a83e9639e93f2915894b3b23d510eeda018e9f846203']), set(['88c2c049d959450af658ec07d708ba4a7d78418c735e65a3165656dddd11a89d']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Eschborn']), set(['Dresden']))
+ipregion (set(['Hessen']), set(['Sachsen']))
+browserfingerprint (set(['88c2c049d959450af658ec07d708ba4a7d78418c735e65a3165656dddd11a89d']), set(['e18a59ee959e6027902db01e754992dcff9409f9bd43f4a3518cf50090f13350']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dresden']), set(['Dusseldorf']))
+ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['e18a59ee959e6027902db01e754992dcff9409f9bd43f4a3518cf50090f13350']), set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']))
+====================================
+browserfingerprint (set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']), set(['7cae2d1f562f96e38764a6d1e0e197d50ad55d28ea1fe0688cabe5206713cbc9']))
+====================================

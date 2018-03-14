@@ -1,0 +1,7 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Nuremberg']), set(['Pegnitz']))
+browserfingerprint (set(['8a01ceb072044560c34a808c52c11c5743613085a1b7432fa86bf24b0985b78a']), set(['b891ac74a388213c7e50c0dd0469890fc8b4199ed9a25e619bb1c43561c8b3ea']))
+====================================
+browserfingerprint (set(['b891ac74a388213c7e50c0dd0469890fc8b4199ed9a25e619bb1c43561c8b3ea']), set(['9d0a08d315eaccda9d3b0ed9d3fbca953056500cb23acc7a29276ac82caad005']))
+====================================
