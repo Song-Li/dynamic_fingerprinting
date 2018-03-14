@@ -77,7 +77,7 @@ def feature_delta_paper(db):
     df = filter_less_than_n(df, 7)
     maps = {} 
     for feature in long_feature_list:
-        maps[feature] = {"browserid":[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[]}
+        maps[feature] = {"browserid":[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
 
     grouped = df.groupby('browserid')
     pre_fingerprint = ""
@@ -101,6 +101,8 @@ def feature_delta_paper(db):
                     maps[feature]['to'].append(row[feature])
                     maps[feature]['fromtime'].append(pre_row['time'])
                     maps[feature]['totime'].append(row['time'])
+                    maps[feature]['browser'].append(row['browser'])
+                    maps[feature]['os'].append(get_os_from_agent(row['agent']))
             pre_row = row
 
     db = Database('filteredchanges')
@@ -147,6 +149,19 @@ def remove_flip_users(df):
 
     return df[~df['browserid'].isin(flip_list)] 
 
+def get_feature_percentage(group, key):
+    users = {} 
+    num_users = group['browserid'].nunique()
+    for idx, row in group.iterrows():
+        if row[key] not in users:
+            users[row[key]] = set() 
+        users[row[key]].add(row['browserid'])
+    sorted_dict = sorted(users.iteritems(), key=lambda (k,v): (-len(v),k))
+    res = []
+    for cur in sorted_dict:
+        res.append((cur[0], float(len(cur[1])) / float(num_users)))
+    return res 
+
 
 def feature_change_by_date_paper(feature_name, df):
     df = remove_flip_users(df)
@@ -159,6 +174,7 @@ def feature_change_by_date_paper(feature_name, df):
     max_date = max(df['totime'])
     lendate = (max_date - min_date).days
     grouped = df.groupby(['from', 'to'])
+    # how many browserids 
     sorted_group = collections.OrderedDict(grouped['browserid'].nunique().sort_values(ascending=False))
     sorted_keys = sorted_group.keys()
     total_len = len(grouped)
@@ -174,8 +190,11 @@ def feature_change_by_date_paper(feature_name, df):
             sep = '_'
         elif feature_name == 'plugins':
             sep = '~'
+        counts = get_feature_percentage(grouped.get_group(group), 'browser')
+        os_counts = get_feature_percentage(grouped.get_group(group), 'os')
+        
         try:
-            print group, get_change_strs(group[0], group[1], sep=sep), sorted_group[group]
+            print group, get_change_strs(group[0], group[1], sep=sep), sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]
         except:
             pass
         cnt += 1
@@ -514,10 +533,10 @@ def main():
     #db = Database('uniquemachine')
     #maps = feature_delta_paper(db)
     db = Database('filteredchanges')
+    get_all_feature_change_by_date_paper(db)
     #browserid_list = check_diff_feature_value(db, 'canvastest', '391219fe2b4ddd613eda0abc5de071cd17af7bab', 'c3692f002eccf8a1740d73ff02db43885b36e31d')
     #get_browserid_change_id(df, "f4ce016af1e96e71ddcd0bde3f78869f2iPhoneImagination TechnologiesPowerVR SGX 543safari")
    # db = Database('changes')
-    get_all_feature_change_by_date_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #db = Database('changes')
     #for browserid in browserid_list:
