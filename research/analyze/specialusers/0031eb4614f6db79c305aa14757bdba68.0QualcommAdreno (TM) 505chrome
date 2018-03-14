@@ -1,0 +1,12 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Simbach']), set(['Ludwigshafen']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['d2e2be4310f9006013c661d2a09bdfaea5730dcc933aec92f7d5f3733e1e6fb1']), set(['7fb8d3c1ac10d21cb4fa6f14b42827f74610af149190944a18a31dde762cdb83']))
+====================================
+browserfingerprint (set(['7fb8d3c1ac10d21cb4fa6f14b42827f74610af149190944a18a31dde762cdb83']), set(['b59ca02eb0e184aeb1ecdfce94839b854b98ba8162be3297ef173d1fb507c4a2']))
+====================================
+ipcity (set(['Ludwigshafen']), set(['Munich']))
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+browserfingerprint (set(['b59ca02eb0e184aeb1ecdfce94839b854b98ba8162be3297ef173d1fb507c4a2']), set(['f60b17ace5bca3e9c1d34b0e2e8828ce6870141df0dc817e7327b7ac7090b64e']))
+====================================

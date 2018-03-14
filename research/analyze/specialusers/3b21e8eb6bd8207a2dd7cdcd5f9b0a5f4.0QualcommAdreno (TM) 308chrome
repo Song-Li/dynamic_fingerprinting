@@ -1,0 +1,19 @@
+browserfingerprint (set(['a75ff07a2a8049eb0dc69891c841887896b15c0f8e6c3437b0fb8bb83bfb2a36']), set(['6db54e34731bab673089b49c05d61a41bb2946f2b988b24aa813d4cc7041124c']))
+====================================
+browserfingerprint (set(['6db54e34731bab673089b49c05d61a41bb2946f2b988b24aa813d4cc7041124c']), set(['652524dbe15707ef9f4968f9416c39e25411e251d139de806a2422329f471931']))
+====================================
+agent (set(['Chrome/62.0.3202.73']), set(['Chrome/62.0.3202.84']))
+ipcity (set(['Bulten', 'den', 'Auf']), set(['Oldenburg']))
+browserfingerprint (set(['652524dbe15707ef9f4968f9416c39e25411e251d139de806a2422329f471931']), set(['07786d6bbd2f6b88f3dcf1330e0062ba36c2d5fd53b79a4ad5bdc61d6aefa977']))
+====================================
+browserfingerprint (set(['07786d6bbd2f6b88f3dcf1330e0062ba36c2d5fd53b79a4ad5bdc61d6aefa977']), set(['cb57aad49d049c5a3343551c6049434abc1b11b42c5d48498ffe1a3f57a03866']))
+====================================
+browserfingerprint (set(['cb57aad49d049c5a3343551c6049434abc1b11b42c5d48498ffe1a3f57a03866']), set(['07786d6bbd2f6b88f3dcf1330e0062ba36c2d5fd53b79a4ad5bdc61d6aefa977']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Oldenburg']), set(['Harpstedt']))
+browserfingerprint (set(['07786d6bbd2f6b88f3dcf1330e0062ba36c2d5fd53b79a4ad5bdc61d6aefa977']), set(['421c22d6abb69ff5c826274531c393716e683613afd2775b402d630f2fdd2342']))
+====================================
+browserfingerprint (set(['421c22d6abb69ff5c826274531c393716e683613afd2775b402d630f2fdd2342']), set(['1d063e4adf79b06c87a44694bf94e92504a417fb5076ff102852132801e45b42']))
+====================================

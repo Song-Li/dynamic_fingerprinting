@@ -1,0 +1,10 @@
+ipcity (set(['Stuttgart']), set(['Nuremberg']))
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+browserfingerprint (set(['2a35c6152f92fdff72571c5bac8133323944b05d157b217ff2fe3f8d37f85386']), set(['6bb463bed9bf8d7bdb2059dfb432d93775085069cef686112e0248ae0ec0c20b']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['6bb463bed9bf8d7bdb2059dfb432d93775085069cef686112e0248ae0ec0c20b']), set(['61e72804a27dfbd50772cb568da34e8c282abb8df9466d90e374cb6be198b11a']))
+====================================
+browserfingerprint (set(['61e72804a27dfbd50772cb568da34e8c282abb8df9466d90e374cb6be198b11a']), set(['caa08bc7d8d88854b294003ae44800a79cc4d19a9438d26b7664f138f80c8384']))
+====================================

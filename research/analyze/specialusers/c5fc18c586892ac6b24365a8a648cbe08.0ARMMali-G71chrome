@@ -1,0 +1,13 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Munich']), set(['Erfurt']))
+ipregion (set(['Bayern']), set(['Thuringen']))
+browserfingerprint (set(['2ef4f8999f5695ed3d43a7bbb09148bad6c98d81f1ff93a6c988e8595e7225fe']), set(['ddb33e16a751c9062b0c91f899b62cc8c99518abe81741d5cd386b67fcb562de']))
+====================================
+ipcity (set(['Erfurt']), set(['Karl']))
+ipregion (set(['Thuringen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['ddb33e16a751c9062b0c91f899b62cc8c99518abe81741d5cd386b67fcb562de']), set(['3efe68d308861fc89e578e5c6fa762410b695e43fd35e55f8fd185eb57b21de8']))
+====================================
+ipcity (set(['Karl']), set(['Erfurt']))
+ipregion (set(['Rheinland-Pfalz']), set(['Thuringen']))
+browserfingerprint (set(['3efe68d308861fc89e578e5c6fa762410b695e43fd35e55f8fd185eb57b21de8']), set(['ddb33e16a751c9062b0c91f899b62cc8c99518abe81741d5cd386b67fcb562de']))
+====================================

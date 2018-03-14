@@ -1,0 +1,87 @@
+browserfingerprint (set(['9fce8ab0d81407b309919d3f20f994438c5a956e4924f261860dc4d417e31909']), set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']))
+====================================
+browserfingerprint (set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']), set(['343ffc8babbda8e342b3a21dd45d792feea779105de1acd13ad288d49d0825d8']))
+====================================
+browserfingerprint (set(['343ffc8babbda8e342b3a21dd45d792feea779105de1acd13ad288d49d0825d8']), set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']))
+====================================
+browserfingerprint (set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']), set(['343ffc8babbda8e342b3a21dd45d792feea779105de1acd13ad288d49d0825d8']))
+====================================
+browserfingerprint (set(['343ffc8babbda8e342b3a21dd45d792feea779105de1acd13ad288d49d0825d8']), set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']))
+====================================
+ipcity (set(['Vienna']), set(['Linz']))
+ipregion (set(['Wien']), set(['Oberosterreich']))
+browserfingerprint (set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']), set(['92b1e61b1aee4e90328d8f3d0f7f767e219e88fb21f2646b4013a61d95adc129']))
+====================================
+ipcity (set(['Linz']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['92b1e61b1aee4e90328d8f3d0f7f767e219e88fb21f2646b4013a61d95adc129']), set(['5c3ebfc0b4bd11cae1ecd9f26a2fc85de54ba6b8db95f333a5d154b6bcbbf495']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Bezau']))
+ipregion (set(['Niederosterreich']), set(['Vorarlberg']))
+browserfingerprint (set(['5c3ebfc0b4bd11cae1ecd9f26a2fc85de54ba6b8db95f333a5d154b6bcbbf495']), set(['b2ef98e61fd7555eb85942f26360d4218d1c89647f4445b4155d5a6c90289820']))
+====================================
+ipcity (set(['Bezau']), set(['Graz']))
+ipregion (set(['Vorarlberg']), set(['Steiermark']))
+browserfingerprint (set(['b2ef98e61fd7555eb85942f26360d4218d1c89647f4445b4155d5a6c90289820']), set(['9a33ec60e22fe05c6e21be4f965e5e066ce314ca70702ad38b9f973d83ecd52b']))
+====================================
+ipcity (set(['Graz']), set(['Linz']))
+ipregion (set(['Steiermark']), set(['Oberosterreich']))
+browserfingerprint (set(['9a33ec60e22fe05c6e21be4f965e5e066ce314ca70702ad38b9f973d83ecd52b']), set(['753247e943bf77cfa444a162ddb5e5241c974e28593c0e09cc5be3728f9e64e9']))
+====================================
+ipcity (set(['Linz']), set(['Thaya']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['753247e943bf77cfa444a162ddb5e5241c974e28593c0e09cc5be3728f9e64e9']), set(['87657a0763c76d5a2cb633cc2a9e6923163bbd4bc2c708828c53d95a01d94b9f']))
+====================================
+ipcity (set(['Thaya']), set(['Enzersdorf', 'Maria']))
+browserfingerprint (set(['87657a0763c76d5a2cb633cc2a9e6923163bbd4bc2c708828c53d95a01d94b9f']), set(['54f56b357334a9872fb02dec663dda14ff30407aa4175b9eae9487cb482444f5']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Vienna']))
+ipregion (set(['Niederosterreich']), set(['Wien']))
+browserfingerprint (set(['54f56b357334a9872fb02dec663dda14ff30407aa4175b9eae9487cb482444f5']), set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']))
+====================================
+ipcity (set(['Vienna']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Wien']), set(['Niederosterreich']))
+browserfingerprint (set(['6f51887af625944c1f428897485f67cf10fed7969791e5ba61c53f3ce45e59d9']), set(['54f56b357334a9872fb02dec663dda14ff30407aa4175b9eae9487cb482444f5']))
+====================================
+browserfingerprint (set(['54f56b357334a9872fb02dec663dda14ff30407aa4175b9eae9487cb482444f5']), set(['34fb2365e4c8b7c3f12c45af50f9b2d9a1f6b478c5420740e3b276ba4e081cd3']))
+====================================
+browserfingerprint (set(['34fb2365e4c8b7c3f12c45af50f9b2d9a1f6b478c5420740e3b276ba4e081cd3']), set(['54f56b357334a9872fb02dec663dda14ff30407aa4175b9eae9487cb482444f5']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Graz']))
+ipregion (set(['Niederosterreich']), set(['Steiermark']))
+browserfingerprint (set(['54f56b357334a9872fb02dec663dda14ff30407aa4175b9eae9487cb482444f5']), set(['9a33ec60e22fe05c6e21be4f965e5e066ce314ca70702ad38b9f973d83ecd52b']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Graz']), set(['Thaya']))
+ipregion (set(['Steiermark']), set(['Niederosterreich']))
+browserfingerprint (set(['9a33ec60e22fe05c6e21be4f965e5e066ce314ca70702ad38b9f973d83ecd52b']), set(['146f648f8983ca4008018fce03cf6b23d7d898446fc6ab62d371792f1d80c8bb']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Thaya']), set(['Vienna']))
+ipregion (set(['Niederosterreich']), set(['Wien']))
+browserfingerprint (set(['146f648f8983ca4008018fce03cf6b23d7d898446fc6ab62d371792f1d80c8bb']), set(['94038866a8b432cbc89e70346b3e0da161f2eb7d8b7b4d5feee655faa46d2096']))
+====================================
+browserfingerprint (set(['94038866a8b432cbc89e70346b3e0da161f2eb7d8b7b4d5feee655faa46d2096']), set(['11ce6135e725296fc8b20be54c135fb79368995a676f947f0f113a0468c8b8ac']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Vienna']), set(['Bludenz']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['11ce6135e725296fc8b20be54c135fb79368995a676f947f0f113a0468c8b8ac']), set(['ef0f2dd1cd33cb6fe64eedc2e72bac3cdaf495465e474fb9df4652a2102b7955']))
+====================================
+browserfingerprint (set(['ef0f2dd1cd33cb6fe64eedc2e72bac3cdaf495465e474fb9df4652a2102b7955']), set(['8a8bab7eb53fb5da35dfb607947fa354d670a68b1d25825a903b8a35eef0f952']))
+====================================
+ipcity (set(['Bludenz']), set(['Graz']))
+ipregion (set(['Vorarlberg']), set(['Steiermark']))
+browserfingerprint (set(['8a8bab7eb53fb5da35dfb607947fa354d670a68b1d25825a903b8a35eef0f952']), set(['c11f67639fa188576768795a168ccb3abd7d1957d96b777f4feeb1d688dfec5e']))
+====================================
+ipcity (set(['Graz']), set(['Eisenstadt']))
+ipregion (set(['Steiermark']), set(['Burgenland']))
+browserfingerprint (set(['c11f67639fa188576768795a168ccb3abd7d1957d96b777f4feeb1d688dfec5e']), set(['cd7acb645264c030b090d3dcd98a6463e59d555c560cbf25230fe03ae26cd2c1']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['cd7acb645264c030b090d3dcd98a6463e59d555c560cbf25230fe03ae26cd2c1']), set(['a37c2e9ee8d7857fee3d779f2133395ebf348141764b473d57b7630d97d05324']))
+====================================
+ipcity (set(['Eisenstadt']), set(['Linz']))
+ipregion (set(['Burgenland']), set(['Oberosterreich']))
+browserfingerprint (set(['a37c2e9ee8d7857fee3d779f2133395ebf348141764b473d57b7630d97d05324']), set(['653f1af96ff7a0dc9d32fdb008b133513ef32e93ec98a76ac94c126052b63ff5']))
+====================================

@@ -1,0 +1,6 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Ahaus']), set(['Straas']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['2d3cd0ae1eb8062a9d0418af7b0f8b8a4f23a1a25685bacf05b817782706de7f']), set(['c0647feb2c30e6c62320033b5c500e5a32c4f31484cc38b2fe2eabdada603f5f']))
+====================================

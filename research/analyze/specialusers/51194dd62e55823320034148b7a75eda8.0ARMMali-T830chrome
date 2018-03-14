@@ -1,0 +1,8 @@
+browserfingerprint (set(['d0d087b58231565ce289e943b91db66f07e3f9b767b224887dbb72b98d3b85ea']), set(['f0bbfe1bf55f57db471be8ec293929a53e8757215a41059881f37a1d4e0bf9ee']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Nuremberg']), set(['Kiel']))
+ipregion (set(['Bayern']), set(['Schleswig-Holstein']))
+browserfingerprint (set(['f0bbfe1bf55f57db471be8ec293929a53e8757215a41059881f37a1d4e0bf9ee']), set(['b4f4cb9c95dfd184e094559b11fd5afb18bc4450ff569c33ec2cdee7136e0c44']))
+====================================

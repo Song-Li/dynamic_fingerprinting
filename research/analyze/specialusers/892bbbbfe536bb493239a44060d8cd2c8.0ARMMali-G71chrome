@@ -1,0 +1,9 @@
+browserfingerprint (set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']), set(['16ffe3914dcd1368e94c8ac588ce1868451d505d78ee688c98461280a4dbfe51']))
+====================================
+browserfingerprint (set(['16ffe3914dcd1368e94c8ac588ce1868451d505d78ee688c98461280a4dbfe51']), set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Munich']), set(['Hamburg']))
+ipregion (set(['Bayern']), set(['Hamburg']))
+browserfingerprint (set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']), set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']))
+====================================

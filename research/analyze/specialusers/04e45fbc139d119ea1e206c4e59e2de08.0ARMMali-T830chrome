@@ -1,0 +1,20 @@
+browserfingerprint (set(['06d5b2c7d209ed05784e141aa25aab8e3d098bfba269b54f3b7789ff2b2f732c']), set(['1f80401a620c9c3a1bebcee1e953e482ce5bde101653e362e33f6f433c6ecd8f']))
+====================================
+ipcity (set(['Wommen']), set(['Bodigheim']))
+ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['1f80401a620c9c3a1bebcee1e953e482ce5bde101653e362e33f6f433c6ecd8f']), set(['d03553e77eb9945eb1b77d3d618285fd47d24cee1bc450318d534efbd0dc3e6e']))
+====================================
+browserfingerprint (set(['d03553e77eb9945eb1b77d3d618285fd47d24cee1bc450318d534efbd0dc3e6e']), set(['13b8c90561b55b08be684cae7dd2606739c5ded706b1be46c8c3607a45789e83']))
+====================================
+ipcity (set(['Bodigheim']), set(['Wommen']))
+ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
+browserfingerprint (set(['13b8c90561b55b08be684cae7dd2606739c5ded706b1be46c8c3607a45789e83']), set(['1f80401a620c9c3a1bebcee1e953e482ce5bde101653e362e33f6f433c6ecd8f']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Wommen']), set(['Hainstadt']))
+ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['1f80401a620c9c3a1bebcee1e953e482ce5bde101653e362e33f6f433c6ecd8f']), set(['31602001198f0002a87159d80c6a99853db17f3b7fedddd852cd0b31d82b2bc6']))
+====================================
+ipcity (set(['Hainstadt']), set(['Sinsheim']))
+browserfingerprint (set(['31602001198f0002a87159d80c6a99853db17f3b7fedddd852cd0b31d82b2bc6']), set(['9b2f06041610468d2d898491eae84e8fd7718d91837c6b7e4d6dbae024595108']))
+====================================

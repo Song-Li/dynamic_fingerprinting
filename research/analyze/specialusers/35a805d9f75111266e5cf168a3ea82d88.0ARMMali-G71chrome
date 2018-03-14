@@ -1,0 +1,18 @@
+browserfingerprint (set(['155d0646a14bf20c3ff88f752ec1c57391f4d31fb502c6323effd6ae9d62d52d']), set(['ddd22f23add7ae98f008dafb1e1b2e604e6e62061e6fdaa5f8afbb5fa088d8d6']))
+====================================
+browserfingerprint (set(['ddd22f23add7ae98f008dafb1e1b2e604e6e62061e6fdaa5f8afbb5fa088d8d6']), set(['5a8c6c99574349713cfff6a0e71e5d8a24219bd7656ed12491626d1537672a77']))
+====================================
+browserfingerprint (set(['5a8c6c99574349713cfff6a0e71e5d8a24219bd7656ed12491626d1537672a77']), set(['a28226893028199c2d25c6398e34630bab043b567b1da8b2850e4881d76275a5']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['a28226893028199c2d25c6398e34630bab043b567b1da8b2850e4881d76275a5']), set(['31a0abfd95021791c8cb00f4079ba6dc9f426119fe76422bb12582e75766c4fe']))
+====================================
+browserfingerprint (set(['31a0abfd95021791c8cb00f4079ba6dc9f426119fe76422bb12582e75766c4fe']), set(['e0d0a0df8a1a93dbfd6b4139c2a903cc36b4166ff4786b2133289a6cfccfea66']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Linz']), set(['Hausruck', 'am', 'Wolfsegg']))
+browserfingerprint (set(['e0d0a0df8a1a93dbfd6b4139c2a903cc36b4166ff4786b2133289a6cfccfea66']), set(['12b185be24f84ebf9827d7660084cefef55f108881e8fb5f6622edbb111c933a']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['12b185be24f84ebf9827d7660084cefef55f108881e8fb5f6622edbb111c933a']), set(['c129318f21e62b553faf53c8763c3091abada0cf4fde16e6d1c8f26d52dfd762']))
+====================================

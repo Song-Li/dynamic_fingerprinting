@@ -1,0 +1,37 @@
+browserfingerprint (set(['c054198977673a6935ab4a0bbc2b33e65ef29eec6bd4d76c28bd19133b0ee26c']), set(['a636b00164408fad68023aa9cbb441d3a24d10c01e18b89b07374fadb79a0cab']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['a636b00164408fad68023aa9cbb441d3a24d10c01e18b89b07374fadb79a0cab']), set(['9c9e0015cec91d02e547dcb5a0405e524ed27f6b1179fdcbdb7398c707e1385f']))
+====================================
+ipcity (set(['Berlin']), set(['Dusseldorf']))
+ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['9c9e0015cec91d02e547dcb5a0405e524ed27f6b1179fdcbdb7398c707e1385f']), set(['a636b00164408fad68023aa9cbb441d3a24d10c01e18b89b07374fadb79a0cab']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Dusseldorf']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['a636b00164408fad68023aa9cbb441d3a24d10c01e18b89b07374fadb79a0cab']), set(['fe4dd126755405b91dda37eb87ae16f1425fd88ba23c2a0db9079c31aad3d7b4']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['fe4dd126755405b91dda37eb87ae16f1425fd88ba23c2a0db9079c31aad3d7b4']), set(['34818caca8fcbce56e449ba4f3e88383cad2f4dbfb13b8f2586d91de25f17413']))
+====================================
+ipcity (set(['Berlin']), set(['Bonn']))
+ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['34818caca8fcbce56e449ba4f3e88383cad2f4dbfb13b8f2586d91de25f17413']), set(['d55df03a61b1344d009c3d054b307c1455ccfa3f379f9c6845b061ac3e7fcee6']))
+====================================
+ipcity (set(['Bonn']), set(['Wesel']))
+browserfingerprint (set(['d55df03a61b1344d009c3d054b307c1455ccfa3f379f9c6845b061ac3e7fcee6']), set(['f09cb82c247ab3cd040668c3371db59647433753e049daa107822bec8c38919a']))
+====================================
+ipcity (set(['Wesel']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['f09cb82c247ab3cd040668c3371db59647433753e049daa107822bec8c38919a']), set(['34818caca8fcbce56e449ba4f3e88383cad2f4dbfb13b8f2586d91de25f17413']))
+====================================
+ipcity (set(['Berlin']), set(['Dusseldorf']))
+ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['34818caca8fcbce56e449ba4f3e88383cad2f4dbfb13b8f2586d91de25f17413']), set(['71299749cc0282074bca43e39823014a84581bedd6ca7a4e4b4f8b7904791e8a']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['71299749cc0282074bca43e39823014a84581bedd6ca7a4e4b4f8b7904791e8a']), set(['34818caca8fcbce56e449ba4f3e88383cad2f4dbfb13b8f2586d91de25f17413']))
+====================================

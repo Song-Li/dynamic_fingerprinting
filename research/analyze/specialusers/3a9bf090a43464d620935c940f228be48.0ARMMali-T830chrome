@@ -1,0 +1,9 @@
+browserfingerprint (set(['fc9059c15d817c5c878e5906a0727212df8db0ca2a4a0dd2abf68c8360476607']), set(['49853f2dfd5452271a0da0637746f0b7b01f7d60b418854c316d3971580b6ea4']))
+====================================
+agent (set(['Chrome/60.0.3112.116']), set(['Chrome/63.0.3239.111']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Pohlitz']))
+ipregion (set(['Hessen']), set(['Brandenburg']))
+browserfingerprint (set(['49853f2dfd5452271a0da0637746f0b7b01f7d60b418854c316d3971580b6ea4']), set(['a91d382b2d3fd7a1b4c90c6e72c5947d1db28bc86f6514c5a3c3246a3b1127bf']))
+====================================

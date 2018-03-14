@@ -1,0 +1,8 @@
+browserfingerprint (set(['6ce20111a60c8180069aac6acf243f5e8ebdbe92999f7fc906667e4329f82478']), set(['ee658d4e76e589fe2ddb491428cfa62af613f2e455c1bef4f25fa0b1a77770d9']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Friedrichshafen']), set(['Diezmanning']))
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+browserfingerprint (set(['ee658d4e76e589fe2ddb491428cfa62af613f2e455c1bef4f25fa0b1a77770d9']), set(['2dfe0c5f436a008c21b58a2c5e35825f8eef9e2f5acb15bf4e7198cc0e642774']))
+====================================

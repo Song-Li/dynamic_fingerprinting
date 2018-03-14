@@ -1,0 +1,16 @@
+browserfingerprint (set(['c38917183ef18164d7ff4ed228b7a5719192bd73d0a92b85348adaa594be4091']), set(['d91d226aff10ed467fc4688241e36436cd36b28c172469a2ac2beb2d4706d221']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Freinsheim']), set(['Wiesbaden']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['d91d226aff10ed467fc4688241e36436cd36b28c172469a2ac2beb2d4706d221']), set(['3295e180cdc74b8a3bf9760278be519a43544f05be1ee14393bcb770f4981681']))
+====================================
+ipcity (set(['Wiesbaden']), set(['Trier']))
+ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['3295e180cdc74b8a3bf9760278be519a43544f05be1ee14393bcb770f4981681']), set(['b3c4db1dd3671a1d06a3c37e6f5222c8e2bdd25c0abc37d514a916e303d27c2c']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Trier']), set(['Baunatal']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['b3c4db1dd3671a1d06a3c37e6f5222c8e2bdd25c0abc37d514a916e303d27c2c']), set(['f32e03ef9c19da6cd6d178399d138a79041d42653a5a2d49cb3d8ce9374e8a90']))
+====================================

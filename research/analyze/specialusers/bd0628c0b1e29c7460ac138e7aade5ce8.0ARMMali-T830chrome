@@ -1,0 +1,12 @@
+browserfingerprint (set(['68c362c4a354748d959486945c9d098cc15a10c054b1db7189e531c44fbd5c0f']), set(['09cf27861064d3303b9414ad7a306a3bfbcdb8e19cfbf6ed0b5fb79c3317280a']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Luebeck']), set(['Dohle']))
+ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
+browserfingerprint (set(['09cf27861064d3303b9414ad7a306a3bfbcdb8e19cfbf6ed0b5fb79c3317280a']), set(['2f68bfddcc83e0aa9c3968f6a1e5cae5b99bd41834637f4afb69bee3acb2a8df']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['2f68bfddcc83e0aa9c3968f6a1e5cae5b99bd41834637f4afb69bee3acb2a8df']), set(['f503374666a6731ee4c95e2152608ad80d331043f4d1baa06f0ef0354e228e7f']))
+====================================
+browserfingerprint (set(['f503374666a6731ee4c95e2152608ad80d331043f4d1baa06f0ef0354e228e7f']), set(['5c1f948180494bb5ea2359274985fd6ffbef50ae08e60415062a506313e88609']))
+====================================

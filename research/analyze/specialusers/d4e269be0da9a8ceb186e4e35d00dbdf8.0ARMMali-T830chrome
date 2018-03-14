@@ -1,0 +1,19 @@
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['b9d6f16766c0b4246dc36bc781f3fb51bba232045ef57d771ee508a3f2ed77b3']), set(['71457e288bd4fe6405f8c1b4981a7bc1b2c03273158970112b3b48aeb846962c']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Gera']), set(['Gorlitz']))
+ipregion (set(['Thuringen']), set(['Sachsen']))
+browserfingerprint (set(['71457e288bd4fe6405f8c1b4981a7bc1b2c03273158970112b3b48aeb846962c']), set(['cdc6e828aff6934c5a84105dd1bfee08a3e1e581c0ab7f226f3a157bb9c25f29']))
+====================================
+ipcity (set(['Gorlitz']), set(['Erfurt']))
+ipregion (set(['Sachsen']), set(['Thuringen']))
+browserfingerprint (set(['cdc6e828aff6934c5a84105dd1bfee08a3e1e581c0ab7f226f3a157bb9c25f29']), set(['9b5a46a47a578055302738c0b3c8404684700f27eec78ac90e786ef09a00fe97']))
+====================================
+ipcity (set(['Erfurt']), set(['Gorlitz']))
+ipregion (set(['Thuringen']), set(['Sachsen']))
+browserfingerprint (set(['9b5a46a47a578055302738c0b3c8404684700f27eec78ac90e786ef09a00fe97']), set(['cc6e69aeece9a659aac595171275c2348d4cca6a52c3b229eaff2643258d65d1']))
+====================================
+ipcity (set(['Gorlitz']), set(['Zwickau']))
+browserfingerprint (set(['cc6e69aeece9a659aac595171275c2348d4cca6a52c3b229eaff2643258d65d1']), set(['5f52aa1fbecf411da98374b19c8dd7570eade68654980568b50e53642066d84b']))
+====================================

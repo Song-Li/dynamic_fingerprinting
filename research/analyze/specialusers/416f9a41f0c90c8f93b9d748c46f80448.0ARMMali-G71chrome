@@ -1,0 +1,14 @@
+browserfingerprint (set(['5863a1dede229ef1b01fc6c29b3ec68fd95b2115a7e91517a5e37c79b7afcb8a']), set(['e343f7e36d218dc4386c854558d26b13cb490a936963f3ce3c02d5d468f1dacc']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Wommen']), set(['Karlsruhe']))
+ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['e343f7e36d218dc4386c854558d26b13cb490a936963f3ce3c02d5d468f1dacc']), set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+ipcity (set(['Karlsruhe']), set(['Isenburg']))
+ipregion (set(['Baden-Wurttemberg']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']), set(['f2cdc45cc19e7806fde8d942317eb70f3bd943a55fc335c63027c575056407f8']))
+====================================

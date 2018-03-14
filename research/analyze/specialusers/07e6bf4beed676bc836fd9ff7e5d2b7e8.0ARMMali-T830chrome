@@ -1,0 +1,23 @@
+ipcity (set(['Dusseldorf']), set(['Isenburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']), set(['db334cec44fc542a6927184be91adb414975139db2e1f41e0eec923f9d0ab3dc']))
+====================================
+ipcity (set(['Isenburg']), set(['Dusseldorf']))
+ipregion (set(['Rheinland-Pfalz']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['db334cec44fc542a6927184be91adb414975139db2e1f41e0eec923f9d0ab3dc']), set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Kleve']))
+browserfingerprint (set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']), set(['b20a05ae5c7cd97612b88b2e8be06973422af3b69a2695b91f7778a538a1497d']))
+====================================
+browserfingerprint (set(['b20a05ae5c7cd97612b88b2e8be06973422af3b69a2695b91f7778a538a1497d']), set(['9b052f5f14a5022250844046bf3b14d0389bc78e57f0198186e74bfae2534248']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['9b052f5f14a5022250844046bf3b14d0389bc78e57f0198186e74bfae2534248']), set(['4304e977a79171fd0da77e022ca9729857804ed9f9e0d0dde714e5eb76c967e8']))
+====================================
+browserfingerprint (set(['4304e977a79171fd0da77e022ca9729857804ed9f9e0d0dde714e5eb76c967e8']), set(['7cd6a2d81ed65a40d612e1ff305a20d4071648bd3cde4b5f342f4ab825354403']))
+====================================
+ipcity (set(['Kleve']), set(['Braunschweig']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['7cd6a2d81ed65a40d612e1ff305a20d4071648bd3cde4b5f342f4ab825354403']), set(['a1940a662d1d924a328abdcfbbcb96df675f4e043c09deea45b235e30f84437d']))
+====================================

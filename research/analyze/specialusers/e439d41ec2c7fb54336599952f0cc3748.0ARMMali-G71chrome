@@ -1,0 +1,6 @@
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Osterholz-Scharmbeck']), set(['Nuremberg']))
+ipregion (set(['Niedersachsen']), set(['Bayern']))
+browserfingerprint (set(['cddab7b0467aa236320353ceab65cf2719128139cb3aa7e1ad34f9a0f5c776ec']), set(['c4177bd751e20e6a69c2eaf1fef82c8615c93ce478fe9acd9ad725f1d2751824']))
+====================================

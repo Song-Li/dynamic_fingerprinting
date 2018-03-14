@@ -1,0 +1,8 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Vienna']), set(['Dornbirn']))
+ipregion (set(['Wien']), set(['Vorarlberg']))
+browserfingerprint (set(['b2fd887076f27d1dbc257c34f96a72138f7110fa4da2d9845cf5e2b243091f31']), set(['648f6ff5c1e33d305470ad1ac5a20fefbc679ebcfc2b2db2baa459e5e5fd0473']))
+====================================
+browserfingerprint (set(['648f6ff5c1e33d305470ad1ac5a20fefbc679ebcfc2b2db2baa459e5e5fd0473']), set(['68201657775cac10047d386afbe9a1e24d9fdb47d548decc5b1054d402a9dcbf']))
+====================================

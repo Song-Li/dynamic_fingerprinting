@@ -1,0 +1,31 @@
+ipcity (set(['Heidelberg']), set(['Freiburg']))
+browserfingerprint (set(['925214acdc086ba92d79b4556e5da438aaf5d8e73cdc8bfb64093188089ff28b']), set(['14aca2f332720768ae685af0015ac569f52a1ce69d5010962095f0584d081838']))
+====================================
+browserfingerprint (set(['14aca2f332720768ae685af0015ac569f52a1ce69d5010962095f0584d081838']), set(['5ba5fe53d94800460d1e3d31eb418cafcca7bb470cda77fcb199b3a37ec46bac']))
+====================================
+browserfingerprint (set(['5ba5fe53d94800460d1e3d31eb418cafcca7bb470cda77fcb199b3a37ec46bac']), set(['14aca2f332720768ae685af0015ac569f52a1ce69d5010962095f0584d081838']))
+====================================
+ipcity (set(['Freiburg']), set(['Heidelberg']))
+browserfingerprint (set(['14aca2f332720768ae685af0015ac569f52a1ce69d5010962095f0584d081838']), set(['925214acdc086ba92d79b4556e5da438aaf5d8e73cdc8bfb64093188089ff28b']))
+====================================
+browserfingerprint (set(['925214acdc086ba92d79b4556e5da438aaf5d8e73cdc8bfb64093188089ff28b']), set(['e759bb7812b7bc6633481275286c3c630acfdd1cddabba2f4c06708c6921850c']))
+====================================
+browserfingerprint (set(['e759bb7812b7bc6633481275286c3c630acfdd1cddabba2f4c06708c6921850c']), set(['925214acdc086ba92d79b4556e5da438aaf5d8e73cdc8bfb64093188089ff28b']))
+====================================
+browserfingerprint (set(['925214acdc086ba92d79b4556e5da438aaf5d8e73cdc8bfb64093188089ff28b']), set(['e759bb7812b7bc6633481275286c3c630acfdd1cddabba2f4c06708c6921850c']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['e759bb7812b7bc6633481275286c3c630acfdd1cddabba2f4c06708c6921850c']), set(['32dc41d006bdc7eae9e431b4f5212eda4b80fe684ad0dc5c7d61177bbf7f4a84']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['32dc41d006bdc7eae9e431b4f5212eda4b80fe684ad0dc5c7d61177bbf7f4a84']), set(['c6af5123927c3ac46a5146ae018b7af5314c09d1900a50f41795b96f8fdf3876']))
+====================================
+ipcity (set(['Heidelberg']), set(['Friedrichshafen']))
+browserfingerprint (set(['c6af5123927c3ac46a5146ae018b7af5314c09d1900a50f41795b96f8fdf3876']), set(['36c0c08b7a4e10b12daa3bcd330c3d323e9e2268a398e3b19d7605b282c68975']))
+====================================
+ipcity (set(['Friedrichshafen']), set(['Freiburg']))
+browserfingerprint (set(['36c0c08b7a4e10b12daa3bcd330c3d323e9e2268a398e3b19d7605b282c68975']), set(['1a1b590f09ce9cf1b7d1fae3db87cdf1d9f509f7c41db44508e11e256cce9e96']))
+====================================
+ipcity (set(['Freiburg']), set(['Mannheim']))
+browserfingerprint (set(['1a1b590f09ce9cf1b7d1fae3db87cdf1d9f509f7c41db44508e11e256cce9e96']), set(['c322f08d5021e848004dcf57c373e1bfca33b5b7e20fabb198affb16dea7dd81']))
+====================================

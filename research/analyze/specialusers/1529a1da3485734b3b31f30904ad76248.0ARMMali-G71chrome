@@ -1,0 +1,14 @@
+browserfingerprint (set(['09f78520c6e9deac154617d9515ca4dd5082fdb0c06c6685251ab6828ecc44c1']), set(['222113996e58c8d5a81bcdc750e4ab5b686e071bc7a5df46d8da40feda74440d']))
+====================================
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Ramstein-Miesenbach']), set(['Zeitz']))
+ipregion (set(['Rheinland-Pfalz']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['222113996e58c8d5a81bcdc750e4ab5b686e071bc7a5df46d8da40feda74440d']), set(['c5312379e92bd9b86d9aee661b97727c69a9e8d0a81efb1ab0311dcccbb9a0d4']))
+====================================
+ipcity (set(['Zeitz']), set(['Karlsruhe']))
+ipregion (set(['Sachsen-Anhalt']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['c5312379e92bd9b86d9aee661b97727c69a9e8d0a81efb1ab0311dcccbb9a0d4']), set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']))
+====================================
+browserfingerprint (set(['fc4ad2e1737f4be44b37b011887da0b52d2e3f31178b3f01c5fee64f52636bd9']), set(['5f4a301b1be45a9941079f2042fd05845c590e736a48a98a1fa2228b2ea77ecb']))
+====================================

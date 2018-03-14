@@ -1,0 +1,20 @@
+browserfingerprint (set(['956cab8a473a8f44d05d75fa4f7f91eb5c54920f719058747d6fbd58b32de236']), set(['395dd0eb713000a8fda819228b6c345ad23fc1b80774292bf0ac6c8bb912e7f4']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Minden']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['395dd0eb713000a8fda819228b6c345ad23fc1b80774292bf0ac6c8bb912e7f4']), set(['f664aa6615363e0f9c0a12f82e75f02b8cb539f32d83d92d4f8c9c2314df6330']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/64.0.3282.137']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Minden']), set(['Bielefeld']))
+ipregion (set(['Rheinland-Pfalz']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f664aa6615363e0f9c0a12f82e75f02b8cb539f32d83d92d4f8c9c2314df6330']), set(['eaa065e87f926817fe541a7dcbea79a86675f3e5494d810758d6f49c795d3df6']))
+====================================
+ipcity (set(['Bielefeld']), set(['Darmstadt']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
+browserfingerprint (set(['eaa065e87f926817fe541a7dcbea79a86675f3e5494d810758d6f49c795d3df6']), set(['f6f10f644e53c46513585ab688340f44a25fe2917be7eabe400c8d0050eedd2e']))
+====================================
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+browserfingerprint (set(['f6f10f644e53c46513585ab688340f44a25fe2917be7eabe400c8d0050eedd2e']), set(['12ac78796d5c1b959ee6331fe348a67b6bdec0d2ab2c23f0fd313d39dadad5dc']))
+====================================

@@ -1,0 +1,8 @@
+browserfingerprint (set(['309ed380602d39519b6f4a2a57a1925370efebe196e9089d92b098222c13bddd']), set(['0aa20060bb11c3c6ed0c00456c6175da6e0d7842a0847d4c8e0bd08a88f3d7f4']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Regensburg']), set(['Nienburg']))
+ipregion (set(['Bayern']), set(['Niedersachsen']))
+browserfingerprint (set(['0aa20060bb11c3c6ed0c00456c6175da6e0d7842a0847d4c8e0bd08a88f3d7f4']), set(['76108870cc21e92e05fac22df74a875088b943a2c039e157ab9242150c1391e8']))
+====================================

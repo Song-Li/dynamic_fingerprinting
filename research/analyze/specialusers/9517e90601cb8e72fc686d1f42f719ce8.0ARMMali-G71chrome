@@ -1,0 +1,21 @@
+browserfingerprint (set(['340508771db4b47e550149de7e439a68dc6d3c6e7df14e9d94814eb839c1d03b']), set(['0cfa53ceca2e63219dbec0cf6ac49b7585e6b3a5bfd11fa560ba9087a2273867']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+ipcity (set(['Isenburg']), set(['Haar']))
+ipregion (set(['Rheinland-Pfalz']), set(['Niedersachsen']))
+browserfingerprint (set(['0cfa53ceca2e63219dbec0cf6ac49b7585e6b3a5bfd11fa560ba9087a2273867']), set(['a53a5d4c9275df81c144b0476c0a639fec299c66717e63ea0366c536010ef3fe']))
+====================================
+browserfingerprint (set(['a53a5d4c9275df81c144b0476c0a639fec299c66717e63ea0366c536010ef3fe']), set(['cdb808e0c154088cc423f73f0291680164c41df41c053485118533270661c1f9']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Haar']), set(['Siegen']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['cdb808e0c154088cc423f73f0291680164c41df41c053485118533270661c1f9']), set(['5035359a109846e091e8539b5d7c826204b5f3dcab2a1a70756ece7a5d18d53a']))
+====================================
+browserfingerprint (set(['5035359a109846e091e8539b5d7c826204b5f3dcab2a1a70756ece7a5d18d53a']), set(['fb1e09798efea83088a207e6f15ddd3211a56225561b74eda7540b44aa224aaa']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['fb1e09798efea83088a207e6f15ddd3211a56225561b74eda7540b44aa224aaa']), set(['84ed8103da54a56e521c63478ccc54bda870e67b2fcaff9d5b1d1b8882851814']))
+====================================
+browserfingerprint (set(['84ed8103da54a56e521c63478ccc54bda870e67b2fcaff9d5b1d1b8882851814']), set(['0ecc8a27e1f6a0fbdb8d8a29c62859b1451a099f47acb338175ec499bd14d0d5']))
+====================================

@@ -1,0 +1,10 @@
+browserfingerprint (set(['2d0f3001c328cc6e4a5b607c4e26260b0bd2e9c87cddf8bcc53d436f4d84fe7e']), set(['9109f69f6c7632e5fcefd74c794a3dd04e1b4f5932a64d1cb3d76c59d567735e']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['9109f69f6c7632e5fcefd74c794a3dd04e1b4f5932a64d1cb3d76c59d567735e']), set(['9d514b2c67b5f357f8768ce661e31ec02dacb4d54629380ec3bde2df911c70db']))
+====================================
+ipcity (set(['Hanover']), set(['Wesel']))
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['9d514b2c67b5f357f8768ce661e31ec02dacb4d54629380ec3bde2df911c70db']), set(['fa869720cf23351dc7b7e11087d776790c87110037a0d2e483ea3e39dec95d70']))
+====================================

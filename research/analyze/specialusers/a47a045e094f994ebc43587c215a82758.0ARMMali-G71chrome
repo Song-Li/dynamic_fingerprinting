@@ -1,0 +1,41 @@
+ipcity (set(['Schramberg']), set(['Saarbrucken']))
+ipregion (set(['Baden-Wurttemberg']), set(['Saarland']))
+browserfingerprint (set(['1f4dd3fc90dc23d1efbb2e64b22388f4efc8b37c3cd4e9e1510a7c4451384c49']), set(['aaa28ed7b60aecf11f4ad011021fb365e6bd738088efc3f897350bb6dbbb84b0']))
+====================================
+ipcity (set(['Saarbrucken']), set(['Chemnitz']))
+ipregion (set(['Saarland']), set(['Sachsen']))
+browserfingerprint (set(['aaa28ed7b60aecf11f4ad011021fb365e6bd738088efc3f897350bb6dbbb84b0']), set(['971d21fc41141a0558a6ab87b3e3f8f5a480b59d87d0657692dee5dae060c69f']))
+====================================
+ipcity (set(['Chemnitz']), set(['Stuttgart']))
+ipregion (set(['Sachsen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['971d21fc41141a0558a6ab87b3e3f8f5a480b59d87d0657692dee5dae060c69f']), set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']))
+====================================
+browserfingerprint (set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']), set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']))
+====================================
+ipcity (set(['Stuttgart']), set(['Saarbrucken']))
+ipregion (set(['Baden-Wurttemberg']), set(['Saarland']))
+browserfingerprint (set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']), set(['4941dce6cc4110b7a6c34bab730bf06d54413d7b53c603d787b029ba6d254dab']))
+====================================
+ipcity (set(['Saarbrucken']), set(['Stuttgart']))
+ipregion (set(['Saarland']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['4941dce6cc4110b7a6c34bab730bf06d54413d7b53c603d787b029ba6d254dab']), set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']))
+====================================
+browserfingerprint (set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']), set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']))
+====================================
+browserfingerprint (set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']), set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Stuttgart']), set(['Berlin']))
+ipregion (set(['Baden-Wurttemberg']), set(['Berlin']))
+browserfingerprint (set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']), set(['13b0a8b1a5cc88a872ae54afb6e66c4d7e48ea0cfed51571de332452554e4298']))
+====================================
+ipcity (set(['Berlin']), set(['Saarbrucken']))
+ipregion (set(['Berlin']), set(['Saarland']))
+browserfingerprint (set(['13b0a8b1a5cc88a872ae54afb6e66c4d7e48ea0cfed51571de332452554e4298']), set(['5ebabc99bc83a920c707b80626025ae5c642dc86655997b5a39a2feab3df5637']))
+====================================
+browserfingerprint (set(['5ebabc99bc83a920c707b80626025ae5c642dc86655997b5a39a2feab3df5637']), set(['f68c319f592111825df290f525c6546f233ec66bcab7e09c5f50dca7b967c61d']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['f68c319f592111825df290f525c6546f233ec66bcab7e09c5f50dca7b967c61d']), set(['88a3d0946e0931791a8af4934b989c8f04f649f742fc72f0640568e99d4f16f2']))
+====================================

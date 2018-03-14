@@ -1,0 +1,24 @@
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Osnabruck']))
+ipregion (set(['Hessen']), set(['Niedersachsen']))
+browserfingerprint (set(['2a79b866fe0bb139d455f47a629de560aa80a0b61caad8668d7675cfca65938a']), set(['8cc4d5f0805687f586ce6e7db1ffc24b3a553107b746044f6cdedfa97c6af7d5']))
+====================================
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Osnabruck']), set(['Kiel']))
+ipregion (set(['Niedersachsen']), set(['Schleswig-Holstein']))
+browserfingerprint (set(['8cc4d5f0805687f586ce6e7db1ffc24b3a553107b746044f6cdedfa97c6af7d5']), set(['e090a980066b1a19c80a38674375a8835fd2aca1fe41016d32d5a6e5d1b93ddd']))
+====================================
+browserfingerprint (set(['e090a980066b1a19c80a38674375a8835fd2aca1fe41016d32d5a6e5d1b93ddd']), set(['d5dec55a5135dd7cdb9246f6fa1aafc87f020ebadaab2835c044670b46b35395']))
+====================================
+ipcity (set(['Kiel']), set(['Isenburg']))
+ipregion (set(['Schleswig-Holstein']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['d5dec55a5135dd7cdb9246f6fa1aafc87f020ebadaab2835c044670b46b35395']), set(['64b67781d78bb2417255126ef3a9233851e435dc54343e5177fa49b6c8be8c34']))
+====================================
+ipcity (set(['Isenburg']), set(['Wiesbaden']))
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+browserfingerprint (set(['64b67781d78bb2417255126ef3a9233851e435dc54343e5177fa49b6c8be8c34']), set(['549ce071bb09c79c7f729e8457aac4c90907e4d957ba6b6e2bdcea09a401f704']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Wiesbaden']), set(['Nuremberg']))
+ipregion (set(['Hessen']), set(['Bayern']))
+browserfingerprint (set(['549ce071bb09c79c7f729e8457aac4c90907e4d957ba6b6e2bdcea09a401f704']), set(['e565b36b4bd6e824085e692fc4d76d2aa606451b0972c6669922231c3c64ccf3']))
+====================================

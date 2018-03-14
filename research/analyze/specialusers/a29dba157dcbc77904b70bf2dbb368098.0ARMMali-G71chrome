@@ -1,0 +1,26 @@
+browserfingerprint (set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']), set(['2157ae864f4847f5cf8d4f6d231730e4a9ffe23f58c39d87f128781ee26e1d08']))
+====================================
+browserfingerprint (set(['2157ae864f4847f5cf8d4f6d231730e4a9ffe23f58c39d87f128781ee26e1d08']), set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']))
+====================================
+browserfingerprint (set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']), set(['2157ae864f4847f5cf8d4f6d231730e4a9ffe23f58c39d87f128781ee26e1d08']))
+====================================
+browserfingerprint (set(['2157ae864f4847f5cf8d4f6d231730e4a9ffe23f58c39d87f128781ee26e1d08']), set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']))
+====================================
+browserfingerprint (set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']), set(['2157ae864f4847f5cf8d4f6d231730e4a9ffe23f58c39d87f128781ee26e1d08']))
+====================================
+browserfingerprint (set(['2157ae864f4847f5cf8d4f6d231730e4a9ffe23f58c39d87f128781ee26e1d08']), set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['88d4f8de9ca098c0c4df62efa782120ddf45f51683d62e68d090dc48f473c90a']), set(['0399d1bea59d223e04c039fce4f97ed68b62695383c786ffa500aa6638828726']))
+====================================
+browserfingerprint (set(['0399d1bea59d223e04c039fce4f97ed68b62695383c786ffa500aa6638828726']), set(['e1c2a742ce29b2c594ccddf962adedeba9686dc6567742305fd829df69f7055a']))
+====================================
+browserfingerprint (set(['e1c2a742ce29b2c594ccddf962adedeba9686dc6567742305fd829df69f7055a']), set(['0399d1bea59d223e04c039fce4f97ed68b62695383c786ffa500aa6638828726']))
+====================================
+browserfingerprint (set(['0399d1bea59d223e04c039fce4f97ed68b62695383c786ffa500aa6638828726']), set(['e1c2a742ce29b2c594ccddf962adedeba9686dc6567742305fd829df69f7055a']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Nuremberg']), set(['Schluchtern']))
+ipregion (set(['Bayern']), set(['Hessen']))
+browserfingerprint (set(['e1c2a742ce29b2c594ccddf962adedeba9686dc6567742305fd829df69f7055a']), set(['ddba58f055b79f326b140571cde8f20df04f2c0f0092b059b69b400d799d34e4']))
+====================================

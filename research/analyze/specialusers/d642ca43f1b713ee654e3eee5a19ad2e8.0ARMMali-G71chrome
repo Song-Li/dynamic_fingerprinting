@@ -1,0 +1,16 @@
+browserfingerprint (set(['98ca2439e654b96b8885a1b653daf2e3909077bfd342df6cffe918781bc99e12']), set(['c6d9509fa7c575af3265dabd42c72a74ede00151e37f31c1dc226f205b00f29a']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Potsdam']), set(['Noschenrode']))
+ipregion (set(['Brandenburg']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['c6d9509fa7c575af3265dabd42c72a74ede00151e37f31c1dc226f205b00f29a']), set(['cd91050911d5f16d8df46e0de59afee409563b88a980606d32597bc6567ee1a4']))
+====================================
+ipcity (set(['Noschenrode']), set(['Zwickau']))
+ipregion (set(['Sachsen-Anhalt']), set(['Sachsen']))
+browserfingerprint (set(['cd91050911d5f16d8df46e0de59afee409563b88a980606d32597bc6567ee1a4']), set(['0189dd2247db565a5c590a86e5dd3cab40bca9c54053c13665aec49563cb7d9d']))
+====================================
+ipcity (set(['Zwickau']), set(['Dortmund']))
+ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['0189dd2247db565a5c590a86e5dd3cab40bca9c54053c13665aec49563cb7d9d']), set(['8f38f360846b85c192ec374bec616c0ffe043928a2bb61bf4608d6dcf2cecbdc']))
+====================================

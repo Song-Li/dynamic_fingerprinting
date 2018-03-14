@@ -1,0 +1,25 @@
+browserfingerprint (set(['e18a59ee959e6027902db01e754992dcff9409f9bd43f4a3518cf50090f13350']), set(['63cf15312d29ef926b67e988c95eb5efa1491c32ef3a1246f4531c212b72d9b4']))
+====================================
+ipcity (set(['Dresden']), set(['Viechtach']))
+ipregion (set(['Sachsen']), set(['Bayern']))
+browserfingerprint (set(['63cf15312d29ef926b67e988c95eb5efa1491c32ef3a1246f4531c212b72d9b4']), set(['273a902beb8531f56fcce845a4b61b075487b992c0dfe4b36845617db051953f']))
+====================================
+browserfingerprint (set(['273a902beb8531f56fcce845a4b61b075487b992c0dfe4b36845617db051953f']), set(['efd042ffcd9649b747aaba1505597a5ec50264c40a344d1c63e1f99aac12f282']))
+====================================
+browserfingerprint (set(['efd042ffcd9649b747aaba1505597a5ec50264c40a344d1c63e1f99aac12f282']), set(['273a902beb8531f56fcce845a4b61b075487b992c0dfe4b36845617db051953f']))
+====================================
+browserfingerprint (set(['273a902beb8531f56fcce845a4b61b075487b992c0dfe4b36845617db051953f']), set(['efd042ffcd9649b747aaba1505597a5ec50264c40a344d1c63e1f99aac12f282']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Viechtach']), set(['Dresden']))
+ipregion (set(['Bayern']), set(['Sachsen']))
+browserfingerprint (set(['efd042ffcd9649b747aaba1505597a5ec50264c40a344d1c63e1f99aac12f282']), set(['a5788f3ff0db75feebfc25eb6edfabdacfb98b3e2db0b7f1feafe7932a5299d7']))
+====================================
+ipcity (set(['Dresden']), set(['Munich']))
+ipregion (set(['Sachsen']), set(['Bayern']))
+browserfingerprint (set(['a5788f3ff0db75feebfc25eb6edfabdacfb98b3e2db0b7f1feafe7932a5299d7']), set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']))
+====================================
+ipcity (set(['Munich']), set(['Eschborn']))
+ipregion (set(['Bayern']), set(['Hessen']))
+browserfingerprint (set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']), set(['0e9485f317fb01583117899ac1447a90a6f26d6c164fd5dd1021ef7214869ec6']))
+====================================

@@ -1,0 +1,11 @@
+browserfingerprint (set(['fdfa3a66defabe3c9e99091f2ac9d9afd1dd76feac97f11dcc1fab57d5b9ce1b']), set(['6b20dd199eee85bb0df4271e450653bd6e8c4cd85f4f1fec6da9f96e4aaa18e4']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/64.0.3282.137']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Rendsburg']), set(['Bonn']))
+ipregion (set(['Schleswig-Holstein']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['6b20dd199eee85bb0df4271e450653bd6e8c4cd85f4f1fec6da9f96e4aaa18e4']), set(['d1eb6f8a00d0497199750f568d91a55e58ca95d1a8687e1a5a46e85ad3b5d066']))
+====================================
+browserfingerprint (set(['d1eb6f8a00d0497199750f568d91a55e58ca95d1a8687e1a5a46e85ad3b5d066']), set(['5efc11f246f9ea5bc723d6f916f8c45f577b6c2fe5c4017af28c1a57ae62d6d1']))
+====================================

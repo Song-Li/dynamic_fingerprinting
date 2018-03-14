@@ -627,18 +627,18 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
         feature_list = ['*'], limit = -1, other = ""):
 # clean the sql regenerate the fingerprint
 # without the gpuimgs, ccaudio and hybridaudio
-        #"fp2_colordepth",
-        #"fp2_addbehavior",
-        #"fp2_opendatabase",
-        #"fp2_cpuclass",
-        #"fp2_liedlanguages",
-        #"fp2_liedresolution",
-        #"fp2_liedos",
-        #"fp2_pixelratio",
-        #"fp2_liedbrowser"
     small_features = [ 
+        "fp2_colordepth",
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+        "fp2_cpuclass",
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_pixelratio",
+        "fp2_liedbrowser"
         "agent",
-        #"accept",
+        "accept",
         "encoding",
         "language",
         "langsdetected",
@@ -680,7 +680,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
     else:
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         print ("ip2location data loaded")
-        df = pd.read_sql('select * from {} where jsFonts is not NULL {};'.format(table_name),
+        df = pd.read_sql('select * from {} where jsFonts is not NULL {};'.format(table_name, other),
                 con=db.get_db())    
         print ("data loaded")
         # delete the null clientid rows
@@ -1902,9 +1902,9 @@ def main():
         "cpucores", 
         "audio"
         ]
-    '''
     db = Database('uniquemachine')
     df = load_data(load = False, feature_list = ['*'], table_name = "longfeatures", db = db)
+    '''
     feature_names = list(df.columns.values)
     df = df[pd.notnull(df['clientid'])]
     df = df.reset_index(drop = True)
@@ -2020,10 +2020,10 @@ def main():
     gpu_mapback_paper(df)
     feature_delta_paper(df)
     '''
+    '''
     db = Database('uniquemachine')
     df = load_data(load = True, feature_list = ['*'], table_name = "pandas_features", db = db, other = ' where gpuimgs is not NULL ')
     draw_browser_change_by_date_paper(df)
-    '''
     life_time_distribution_paper(df)
     feature_latex_table_paper(df)
     db = Database('uniquemachine')

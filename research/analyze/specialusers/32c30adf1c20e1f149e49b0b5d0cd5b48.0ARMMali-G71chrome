@@ -1,0 +1,22 @@
+browserfingerprint (set(['0ddb72f3586d054f870a77a9037b7742515189a85a56fa7875541a8d988d5302']), set(['296f2397c76f35f78febbb1afdf0aa1ddd65c26d8dbf366eabeeb80f6761bcc1']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Delmenhorst']), set(['Stuttgart']))
+ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['296f2397c76f35f78febbb1afdf0aa1ddd65c26d8dbf366eabeeb80f6761bcc1']), set(['88ad045ac3625926867ec9f6dba7a7b1ce7ec678e6bddeac8fdcf307208febf9']))
+====================================
+ipcity (set(['Stuttgart']), set(['Hamburg']))
+ipregion (set(['Baden-Wurttemberg']), set(['Hamburg']))
+browserfingerprint (set(['88ad045ac3625926867ec9f6dba7a7b1ce7ec678e6bddeac8fdcf307208febf9']), set(['966d7cc6a0182f4784568e8eebefdef32295fb8123c0f41be8532aa0d903632d']))
+====================================
+browserfingerprint (set(['966d7cc6a0182f4784568e8eebefdef32295fb8123c0f41be8532aa0d903632d']), set(['2b1bec388a5eff910359d4f77a51d4f6c202018a33672405665fc2fcd5bd137d']))
+====================================
+browserfingerprint (set(['2b1bec388a5eff910359d4f77a51d4f6c202018a33672405665fc2fcd5bd137d']), set(['966d7cc6a0182f4784568e8eebefdef32295fb8123c0f41be8532aa0d903632d']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Hamburg']), set(['Ingolstadt']))
+ipregion (set(['Hamburg']), set(['Bayern']))
+browserfingerprint (set(['966d7cc6a0182f4784568e8eebefdef32295fb8123c0f41be8532aa0d903632d']), set(['75073a3f0ad93fe7f56ebbb30563224d561c4fb265fa6848e356904c9dde788f']))
+====================================
+browserfingerprint (set(['75073a3f0ad93fe7f56ebbb30563224d561c4fb265fa6848e356904c9dde788f']), set(['17ce335fe6016ebfd07b6cdb243b140d52d503f3a60963201030ad6dff25b202']))
+====================================

@@ -1,0 +1,6 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Halle', '(Saale)']), set(['Dusseldorf']))
+ipregion (set(['Sachsen-Anhalt']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['fb6d4dbb7991cdd4ebb1136b35a483f50e9dd3d74b60fcb049158bf50b4ea139']), set(['6bb56d153fc59fa29dc78d300dc3232a6071dee476a102daa31717ba3294d6ce']))
+====================================

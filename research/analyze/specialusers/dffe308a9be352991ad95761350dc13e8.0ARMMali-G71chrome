@@ -1,0 +1,29 @@
+browserfingerprint (set(['02fe72657ebaf3983a4b8944698e734a4855ebcbccc357f1511cbc992c8a5cd5']), set(['20618dbe815173f2ebce706d1614874ffa81c762ea758cb446f1313e7ca556cd']))
+====================================
+ipcity (set(['Nuremberg']), set(['Dortmund']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['20618dbe815173f2ebce706d1614874ffa81c762ea758cb446f1313e7ca556cd']), set(['2c57f92fc59a90476251a9e0ac628d673a8fd395dd362ad04ab71fd22c7daac0']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dortmund']), set(['Nuremberg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['2c57f92fc59a90476251a9e0ac628d673a8fd395dd362ad04ab71fd22c7daac0']), set(['e565b36b4bd6e824085e692fc4d76d2aa606451b0972c6669922231c3c64ccf3']))
+====================================
+browserfingerprint (set(['e565b36b4bd6e824085e692fc4d76d2aa606451b0972c6669922231c3c64ccf3']), set(['56d9abf24500a49cfbdf041dbfdce821a241f038ed180d720c2732fff9c3ecb6']))
+====================================
+ipcity (set(['Nuremberg']), set(['Ingolstadt']))
+browserfingerprint (set(['56d9abf24500a49cfbdf041dbfdce821a241f038ed180d720c2732fff9c3ecb6']), set(['042e768b278d606c0aeab21510739a2975291b5f067bc25106597621b7b4558c']))
+====================================
+browserfingerprint (set(['042e768b278d606c0aeab21510739a2975291b5f067bc25106597621b7b4558c']), set(['d97175a8775b93a3dde4057b8f5619828741de25febbc8c12783c634cb7e716c']))
+====================================
+browserfingerprint (set(['d97175a8775b93a3dde4057b8f5619828741de25febbc8c12783c634cb7e716c']), set(['042e768b278d606c0aeab21510739a2975291b5f067bc25106597621b7b4558c']))
+====================================
+ipcity (set(['Ingolstadt']), set(['Augsburg-Lechviertel']))
+browserfingerprint (set(['042e768b278d606c0aeab21510739a2975291b5f067bc25106597621b7b4558c']), set(['2831b3f417004f374e7c5a1501dc250a45bbae193bf439db1433d4ffd1100ed1']))
+====================================
+ipcity (set(['Augsburg-Lechviertel']), set(['Nuremberg']))
+browserfingerprint (set(['2831b3f417004f374e7c5a1501dc250a45bbae193bf439db1433d4ffd1100ed1']), set(['56d9abf24500a49cfbdf041dbfdce821a241f038ed180d720c2732fff9c3ecb6']))
+====================================
+ipcity (set(['Nuremberg']), set(['Ingolstadt']))
+browserfingerprint (set(['56d9abf24500a49cfbdf041dbfdce821a241f038ed180d720c2732fff9c3ecb6']), set(['042e768b278d606c0aeab21510739a2975291b5f067bc25106597621b7b4558c']))
+====================================

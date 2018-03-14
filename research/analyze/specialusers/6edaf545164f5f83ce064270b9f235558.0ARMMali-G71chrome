@@ -1,0 +1,11 @@
+browserfingerprint (set(['e5209b666582785e0d5d9e0259f1251b63b89d6fd493ceddcf5fdb1b7bcde6d7']), set(['c3c9ddfe1497c480d921f7fdf4e4fcc938b69c98e214cd7894bc9792ae91f8c4']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Vienna']), set(['Graz']))
+ipregion (set(['Wien']), set(['Steiermark']))
+browserfingerprint (set(['c3c9ddfe1497c480d921f7fdf4e4fcc938b69c98e214cd7894bc9792ae91f8c4']), set(['b5000e83f2203717011ad977ae0b4a25b7c322ced0f009b66efc4472b308398f']))
+====================================
+ipcity (set(['Graz']), set(['Langschlag']))
+ipregion (set(['Steiermark']), set(['Niederosterreich']))
+browserfingerprint (set(['b5000e83f2203717011ad977ae0b4a25b7c322ced0f009b66efc4472b308398f']), set(['0c32ceac33a36091872099a2bc601617cc765bbdbe25ce059b7ca931e9bb7906']))
+====================================

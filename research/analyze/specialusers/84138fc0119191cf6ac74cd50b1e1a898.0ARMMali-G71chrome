@@ -1,0 +1,34 @@
+browserfingerprint (set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']), set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']))
+====================================
+browserfingerprint (set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']), set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']))
+====================================
+browserfingerprint (set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']), set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']))
+====================================
+browserfingerprint (set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']), set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']))
+====================================
+browserfingerprint (set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']), set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']))
+====================================
+browserfingerprint (set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']), set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']))
+====================================
+browserfingerprint (set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']), set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']))
+====================================
+browserfingerprint (set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']), set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']))
+====================================
+browserfingerprint (set(['30dc61bf4459b2c66405dc12319eb6a02ff48fda77335776286f5a38ca9af8db']), set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']))
+====================================
+ipcity (set(['Neuersdorf']), set(['Schwabisch', 'Hall']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['6fed48a69489a77eb4978ed75e0e314dc01247b40d813151a9466355314a9d3a']), set(['25710d7917a0ae72a172a303af3e8045c8db37a4713048794675040cf45926bc']))
+====================================
+browserfingerprint (set(['25710d7917a0ae72a172a303af3e8045c8db37a4713048794675040cf45926bc']), set(['086c78d4ae8cec6886d4a641aa7a4c2d2848b6963e4a544c3fc85cd4ecfe3f44']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Schwabisch', 'Hall']), set(['Neuersdorf']))
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+browserfingerprint (set(['086c78d4ae8cec6886d4a641aa7a4c2d2848b6963e4a544c3fc85cd4ecfe3f44']), set(['08de222bdf3c5d6ed28108a92b9e0ba97659349a118aa86182759d7f992df782']))
+====================================
+ipcity (set(['Neuersdorf']), set(['Erfurt']))
+ipregion (set(['Bayern']), set(['Thuringen']))
+browserfingerprint (set(['08de222bdf3c5d6ed28108a92b9e0ba97659349a118aa86182759d7f992df782']), set(['66f7aed0d0880b4c0fc5a5ce66b6030b1198b908b5ea5f6f6c15e12b5eff023b']))
+====================================

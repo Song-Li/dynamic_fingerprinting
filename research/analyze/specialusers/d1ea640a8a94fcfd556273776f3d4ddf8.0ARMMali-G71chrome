@@ -1,0 +1,7 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Graz']), set(['Nuremberg']))
+ipregion (set(['Steiermark']), set(['Bayern']))
+ipcountry (set(['Austria']), set(['Germany']))
+browserfingerprint (set(['d59533584586c623a0810e3e57fe4c78f46c45c9b5eedff56d55b8e68fc075ab']), set(['e565b36b4bd6e824085e692fc4d76d2aa606451b0972c6669922231c3c64ccf3']))
+====================================

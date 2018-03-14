@@ -1,0 +1,17 @@
+ipcity (set(['Nuremberg']), set(['Karlsruhe']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['74c4f10e09be1675c2f3dcc535cce8ae865219d10336e018616cb98f027d0663']), set(['1840e5a69184a373cb6df0db3557e620ee643c36b03ff75415d6094e29cd7bb2']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Karlsruhe']), set(['Chemnitz']))
+ipregion (set(['Baden-Wurttemberg']), set(['Sachsen']))
+browserfingerprint (set(['1840e5a69184a373cb6df0db3557e620ee643c36b03ff75415d6094e29cd7bb2']), set(['d2c704de663a0906f639afe96f773c554c0b46ca4f040e98180f0e34f04bfd4d']))
+====================================
+language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,pl;q=0.6']))
+ipcity (set(['Chemnitz']), set(['Munich']))
+ipregion (set(['Sachsen']), set(['Bayern']))
+browserfingerprint (set(['d2c704de663a0906f639afe96f773c554c0b46ca4f040e98180f0e34f04bfd4d']), set(['302445e891f4916a46780d1ce9b9be67f90d7888151a465e025766e6536f43b6']))
+====================================
+browserfingerprint (set(['302445e891f4916a46780d1ce9b9be67f90d7888151a465e025766e6536f43b6']), set(['930c5ceb86c50885c94d6738058b7a4a54350b024a5b3898005519a366b09b10']))
+====================================

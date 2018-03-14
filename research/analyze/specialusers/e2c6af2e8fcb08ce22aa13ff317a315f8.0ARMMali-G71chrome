@@ -1,0 +1,15 @@
+browserfingerprint (set(['3fa557d137d6468ae81e413151e515c7f37df13e97791500d533345576131965']), set(['d96c4967092d4584e1a9c5caca9ffbd5fc6673f13614100666e3c105297cd5e0']))
+====================================
+browserfingerprint (set(['d96c4967092d4584e1a9c5caca9ffbd5fc6673f13614100666e3c105297cd5e0']), set(['3fa557d137d6468ae81e413151e515c7f37df13e97791500d533345576131965']))
+====================================
+ipcity (set(['Pohlitz']), set(['Waldkraiburg']))
+ipregion (set(['Brandenburg']), set(['Bayern']))
+browserfingerprint (set(['3fa557d137d6468ae81e413151e515c7f37df13e97791500d533345576131965']), set(['5fe68d4e765fefa1f804d3cc0203d5450c02822810e76e57ddcaf51098487611']))
+====================================
+browserfingerprint (set(['5fe68d4e765fefa1f804d3cc0203d5450c02822810e76e57ddcaf51098487611']), set(['52ae5ae54d18db7b8bf8144b805ccfc934752b985851f560d4c071f1c27028dc']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Waldkraiburg']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Bayern']), set(['Hessen']))
+browserfingerprint (set(['52ae5ae54d18db7b8bf8144b805ccfc934752b985851f560d4c071f1c27028dc']), set(['beb26a9882524d724f9b4a4b871ebcf608ee38aa45773c3606844c204bd83d5f']))
+====================================

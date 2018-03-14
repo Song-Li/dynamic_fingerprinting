@@ -1,0 +1,53 @@
+ipcity (set(['Fehmarn']), set(['Chemnitz']))
+ipregion (set(['Schleswig-Holstein']), set(['Sachsen']))
+browserfingerprint (set(['572ad2b48bc4de78752fd448a70bcb3f10545a2923abd4b817a39938cf1d962b']), set(['5db5a1313315bed60972f703585d5b56e668599c4ed67f2ab3b6956bb8eaad5a']))
+====================================
+ipcity (set(['Chemnitz']), set(['Sandstedt']))
+ipregion (set(['Sachsen']), set(['Niedersachsen']))
+browserfingerprint (set(['5db5a1313315bed60972f703585d5b56e668599c4ed67f2ab3b6956bb8eaad5a']), set(['251c14c4d605282505ddd9a310e3c9e727be91e847ee1ed3caf6a19b9024a2fd']))
+====================================
+ipcity (set(['Sandstedt']), set(['Bremerhaven']))
+ipregion (set(['Niedersachsen']), set(['Bremen']))
+browserfingerprint (set(['251c14c4d605282505ddd9a310e3c9e727be91e847ee1ed3caf6a19b9024a2fd']), set(['91e8da5f907c305447a10abac6b4437564f21a7a01a8d97c92f845fa4e5cd80e']))
+====================================
+browserfingerprint (set(['91e8da5f907c305447a10abac6b4437564f21a7a01a8d97c92f845fa4e5cd80e']), set(['b9b3b1edcb2b1aab9ad9ddce85a91be980dc9fcc2ac9323253323f28cad6bc73']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Bremerhaven']), set(['Otterndorf']))
+ipregion (set(['Bremen']), set(['Niedersachsen']))
+browserfingerprint (set(['b9b3b1edcb2b1aab9ad9ddce85a91be980dc9fcc2ac9323253323f28cad6bc73']), set(['9c0f05f2d923c8cb44c3b88da0752be986d0c733addcf9ae4d7239c0cbd85d63']))
+====================================
+ipcity (set(['Otterndorf']), set(['Wremen']))
+browserfingerprint (set(['9c0f05f2d923c8cb44c3b88da0752be986d0c733addcf9ae4d7239c0cbd85d63']), set(['b510c8bc488dfc2d2f8c310ded480b31925a8797f32fd2431bb84d0e50692102']))
+====================================
+browserfingerprint (set(['b510c8bc488dfc2d2f8c310ded480b31925a8797f32fd2431bb84d0e50692102']), set(['80ad9f494928525f83f9adaa32ce31936c6bbf0fa5f8bd135e30ba032374a223']))
+====================================
+browserfingerprint (set(['80ad9f494928525f83f9adaa32ce31936c6bbf0fa5f8bd135e30ba032374a223']), set(['b510c8bc488dfc2d2f8c310ded480b31925a8797f32fd2431bb84d0e50692102']))
+====================================
+ipcity (set(['Wremen']), set(['Sandstedt']))
+browserfingerprint (set(['b510c8bc488dfc2d2f8c310ded480b31925a8797f32fd2431bb84d0e50692102']), set(['0d5771e1a93a9175539812291d6a5fcc50819eb6477effa7d08f6c32e2e65728']))
+====================================
+ipcity (set(['Sandstedt']), set(['Schwanewede']))
+browserfingerprint (set(['0d5771e1a93a9175539812291d6a5fcc50819eb6477effa7d08f6c32e2e65728']), set(['4c361e359c49dce192427356db0fdaf8ed05fea7e3c05a7f254addcc25bfa4cf']))
+====================================
+ipcity (set(['Schwanewede']), set(['Ramstein-Miesenbach']))
+ipregion (set(['Niedersachsen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['4c361e359c49dce192427356db0fdaf8ed05fea7e3c05a7f254addcc25bfa4cf']), set(['2239ec4f8d1a6251340a150425f50865ffaf82cabffa8bd4eba14c3e22be98c6']))
+====================================
+ipcity (set(['Ramstein-Miesenbach']), set(['Sandstedt']))
+ipregion (set(['Rheinland-Pfalz']), set(['Niedersachsen']))
+browserfingerprint (set(['2239ec4f8d1a6251340a150425f50865ffaf82cabffa8bd4eba14c3e22be98c6']), set(['0d5771e1a93a9175539812291d6a5fcc50819eb6477effa7d08f6c32e2e65728']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Sandstedt']), set(['Marschkamp']))
+browserfingerprint (set(['0d5771e1a93a9175539812291d6a5fcc50819eb6477effa7d08f6c32e2e65728']), set(['23a4a88706e22b9f8e1d98bd4064a9b003e3e4d943b6f5f492e5d8b7822700a3']))
+====================================
+browserfingerprint (set(['23a4a88706e22b9f8e1d98bd4064a9b003e3e4d943b6f5f492e5d8b7822700a3']), set(['9aa67c5e1c21f95577aa31fc9a06dbd61def2da7b905b6270bdbd19e6445227f']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Marschkamp']), set(['Sandstedt']))
+browserfingerprint (set(['9aa67c5e1c21f95577aa31fc9a06dbd61def2da7b905b6270bdbd19e6445227f']), set(['fc2b41add04ea9f37a67949592869a0eca63c4a5c91535f57481c432f3cf217f']))
+====================================
+browserfingerprint (set(['fc2b41add04ea9f37a67949592869a0eca63c4a5c91535f57481c432f3cf217f']), set(['615f515d193badf94e81468434d3633acaef67d786e34f95f3ee40dee3227909']))
+====================================

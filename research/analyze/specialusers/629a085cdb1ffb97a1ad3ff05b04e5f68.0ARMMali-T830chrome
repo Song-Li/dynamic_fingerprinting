@@ -1,0 +1,12 @@
+browserfingerprint (set(['33eb464e33f4b51ada31f3c09def7a484b78d8476e79cb7e35713d8e1485f0f8']), set(['5f57749429ea155a04f5d3e124d99380ec5147c6bf6dcb0e0e1dde65c36edeb3']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Bremen']), set(['Hamburg']))
+ipregion (set(['Bremen']), set(['Hamburg']))
+browserfingerprint (set(['5f57749429ea155a04f5d3e124d99380ec5147c6bf6dcb0e0e1dde65c36edeb3']), set(['fd2abb1849e7dfaa0357273b0fc36493052f59e62679744fc69844b154344982']))
+====================================
+ipcity (set(['Hamburg']), set(['Rendsburg']))
+ipregion (set(['Hamburg']), set(['Schleswig-Holstein']))
+browserfingerprint (set(['fd2abb1849e7dfaa0357273b0fc36493052f59e62679744fc69844b154344982']), set(['49b558b9be3402f6fc48e9da5b2350633460fd8662ed671828e44c3580c28f05']))
+====================================

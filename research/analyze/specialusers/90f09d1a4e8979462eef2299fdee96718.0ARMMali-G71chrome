@@ -1,0 +1,7 @@
+browserfingerprint (set(['ef182e3663c52529e8b088f92a36ee73bb29018f2538a94ac07fb63dabdcd646']), set(['43f12b934cace0e3993521ee941a0dd97832f8259b64fc7ce92fe49e77070ea1']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Elmshorn']), set(['Luebeck']))
+browserfingerprint (set(['43f12b934cace0e3993521ee941a0dd97832f8259b64fc7ce92fe49e77070ea1']), set(['c4aac3d6b6f7bc1080b961ef9d3dfd844febae4dadd426bec5263061ecb4202d']))
+====================================

@@ -1,0 +1,19 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Freiburg']), set(['Hanover']))
+ipregion (set(['Baden-Wurttemberg']), set(['Niedersachsen']))
+browserfingerprint (set(['fa7f5fca21a6a5b3ca8ca8094bd3ee889a18002876b7f682b93b64d1fca0ae8c']), set(['ca167c669bfccd955a18cf4dc5c7bacbf029c2ad57d0085c9a0629b0ee377768']))
+====================================
+browserfingerprint (set(['ca167c669bfccd955a18cf4dc5c7bacbf029c2ad57d0085c9a0629b0ee377768']), set(['a36a32c153bcebc36b25bde67c56e5e1a405ca9255608571e55bde5cba814147']))
+====================================
+browserfingerprint (set(['a36a32c153bcebc36b25bde67c56e5e1a405ca9255608571e55bde5cba814147']), set(['ca167c669bfccd955a18cf4dc5c7bacbf029c2ad57d0085c9a0629b0ee377768']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/60.0.3112.116']))
+language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+ipcity (set(['Hanover']), set(['Hamburg']))
+ipregion (set(['Niedersachsen']), set(['Hamburg']))
+browserfingerprint (set(['ca167c669bfccd955a18cf4dc5c7bacbf029c2ad57d0085c9a0629b0ee377768']), set(['a969e59481f3233a7d2fc3d61dcb03224bbe3a5dd4d05a963ba1cabf4912f555']))
+====================================
+ipcity (set(['Hamburg']), set(['Hanover']))
+ipregion (set(['Hamburg']), set(['Niedersachsen']))
+browserfingerprint (set(['a969e59481f3233a7d2fc3d61dcb03224bbe3a5dd4d05a963ba1cabf4912f555']), set(['1f2f905947feeffcf54344e9c2353faf3fddc4d404214dad4250773a188b8573']))
+====================================

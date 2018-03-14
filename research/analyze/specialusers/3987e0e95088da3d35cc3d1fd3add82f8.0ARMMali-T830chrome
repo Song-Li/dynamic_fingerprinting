@@ -1,0 +1,36 @@
+ipcity (set(['Halle', '(Saale)']), set(['Berlin']))
+ipregion (set(['Sachsen-Anhalt']), set(['Berlin']))
+browserfingerprint (set(['16fa54c947c9e1eada43e094eb9d894c00d9ef86bcee281d26d5ee2f554cda2b']), set(['5a5f4b474880c60303a2d5e2645b84a2a7854c4c746e9281957e7e1a25ad4fe5']))
+====================================
+browserfingerprint (set(['5a5f4b474880c60303a2d5e2645b84a2a7854c4c746e9281957e7e1a25ad4fe5']), set(['c2889be2af8b9156eae2973b589608de87df85a584a55d44d4b3d62a3ac5f56a']))
+====================================
+ipcity (set(['Berlin']), set(['Halle', '(Saale)']))
+ipregion (set(['Berlin']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['c2889be2af8b9156eae2973b589608de87df85a584a55d44d4b3d62a3ac5f56a']), set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']))
+====================================
+ipcity (set(['Halle', '(Saale)']), set(['Berlin']))
+ipregion (set(['Sachsen-Anhalt']), set(['Berlin']))
+browserfingerprint (set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']), set(['c2889be2af8b9156eae2973b589608de87df85a584a55d44d4b3d62a3ac5f56a']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Berlin']), set(['Waldkraiburg']))
+ipregion (set(['Berlin']), set(['Bayern']))
+browserfingerprint (set(['c2889be2af8b9156eae2973b589608de87df85a584a55d44d4b3d62a3ac5f56a']), set(['f06fd69da666bb18ce823dabf67c7171b0de508b71d77f6a7ead8ee437573460']))
+====================================
+ipcity (set(['Waldkraiburg']), set(['Leipzig']))
+ipregion (set(['Bayern']), set(['Sachsen']))
+browserfingerprint (set(['f06fd69da666bb18ce823dabf67c7171b0de508b71d77f6a7ead8ee437573460']), set(['8a5b238893885b9028a471716f4535dff0d77b1f56c28f76d7ee65e54ef9195e']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Leipzig']), set(['Berlin']))
+ipregion (set(['Sachsen']), set(['Berlin']))
+browserfingerprint (set(['8a5b238893885b9028a471716f4535dff0d77b1f56c28f76d7ee65e54ef9195e']), set(['4f454133800bdd547b6af035990cd880f4560ccc422a3464e7a5688951e17fa0']))
+====================================
+browserfingerprint (set(['4f454133800bdd547b6af035990cd880f4560ccc422a3464e7a5688951e17fa0']), set(['828e705025a8efeb5bbc2ba16741ab4b449ba3fa818889b4dbec34f49422a40d']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Berlin']), set(['Chemnitz']))
+ipregion (set(['Berlin']), set(['Sachsen']))
+browserfingerprint (set(['828e705025a8efeb5bbc2ba16741ab4b449ba3fa818889b4dbec34f49422a40d']), set(['c34dd2baa3679feba7512f4ea7145ba2cc240fded5277791e825c1ed412249bf']))
+====================================

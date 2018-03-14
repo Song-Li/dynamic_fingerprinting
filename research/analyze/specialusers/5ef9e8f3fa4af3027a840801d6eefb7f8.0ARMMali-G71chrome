@@ -1,0 +1,34 @@
+browserfingerprint (set(['6aca42dccf69f07a4588283524d9b6cc0e1830d5eff688f526238ebabe4aa48b']), set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']))
+====================================
+agent (set(['(X11;', 'x86_64)', 'Linux']), set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Android', 'VTR-L09']))
+browserfingerprint (set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']), set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']))
+====================================
+browserfingerprint (set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']), set(['ec583bddfffc28ae76434c6c06bcd038cb5a3d545655af4e2c002f6164caccc8']))
+====================================
+browserfingerprint (set(['ec583bddfffc28ae76434c6c06bcd038cb5a3d545655af4e2c002f6164caccc8']), set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']))
+====================================
+agent (set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Android', 'VTR-L09']), set(['(X11;', 'x86_64)', 'Linux']))
+browserfingerprint (set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']), set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']))
+====================================
+browserfingerprint (set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']), set(['6aca42dccf69f07a4588283524d9b6cc0e1830d5eff688f526238ebabe4aa48b']))
+====================================
+browserfingerprint (set(['6aca42dccf69f07a4588283524d9b6cc0e1830d5eff688f526238ebabe4aa48b']), set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']))
+====================================
+agent (set(['(X11;', 'x86_64)', 'Linux']), set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Android', 'VTR-L09']))
+browserfingerprint (set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']), set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']))
+====================================
+agent (set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Android', 'VTR-L09']), set(['(X11;', 'x86_64)', 'Linux']))
+browserfingerprint (set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']), set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']))
+====================================
+agent (set(['(X11;', 'x86_64)', 'Linux']), set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Android', 'VTR-L09']))
+browserfingerprint (set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']), set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']))
+====================================
+agent (set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Android', 'VTR-L09']), set(['(X11;', 'x86_64)', 'Linux']))
+browserfingerprint (set(['be710cda21684b41bf751d72605b71e7f35909e5b37dcc00febecac2bfb1e344']), set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']))
+====================================
+agent (set(['(X11;', 'Linux', 'x86_64)', 'Chrome/61.0.3163.98']), set(['(Linux;', 'Mobile', 'Build/HUAWEIVTR-L09)', '7.0;', 'Chrome/63.0.3239.111', 'Android', 'VTR-L09']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Augsburg-Lechviertel']), set(['Munich']))
+browserfingerprint (set(['a7ebd7f425b65aef8f2ce7a086d1ff84e731a6a1afdc287e23a5715583eff248']), set(['2a0b1a5ead9ab5e9e7f4cefa22948bb90a059caf76559fce8e79c1e97fa928de']))
+====================================

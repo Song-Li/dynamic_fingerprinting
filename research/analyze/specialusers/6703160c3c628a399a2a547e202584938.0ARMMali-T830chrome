@@ -1,0 +1,18 @@
+ipcity (set(['Trendelburg']), set(['Nuremberg']))
+ipregion (set(['Hessen']), set(['Bayern']))
+browserfingerprint (set(['0ed062e72b253103a7d2b3eaa352cb1aff1ccab40dd130f19a9e2a24e039c88e']), set(['d033e207993e4a855ea25b122eec8dd63d3afb9d38e86a4a66cce30ef6ee05dd']))
+====================================
+ipcity (set(['Nuremberg']), set(['Halle', '(Saale)']))
+ipregion (set(['Bayern']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['d033e207993e4a855ea25b122eec8dd63d3afb9d38e86a4a66cce30ef6ee05dd']), set(['16fa54c947c9e1eada43e094eb9d894c00d9ef86bcee281d26d5ee2f554cda2b']))
+====================================
+browserfingerprint (set(['16fa54c947c9e1eada43e094eb9d894c00d9ef86bcee281d26d5ee2f554cda2b']), set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']), set(['de3a5d251bd4bdaca25fc58cb0270de8394414288a84f3512509d042a2f2efae']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Halle', '(Saale)']), set(['Eschwege']))
+ipregion (set(['Sachsen-Anhalt']), set(['Hessen']))
+browserfingerprint (set(['de3a5d251bd4bdaca25fc58cb0270de8394414288a84f3512509d042a2f2efae']), set(['9a2098a27e3406e1512402bd57626486e1940e09f1004130f4061167dd51695c']))
+====================================

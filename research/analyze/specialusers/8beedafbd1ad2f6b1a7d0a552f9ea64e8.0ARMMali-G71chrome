@@ -1,0 +1,6 @@
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Bielefeld']), set(['Saarbrucken']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Saarland']))
+browserfingerprint (set(['540849b7824f530f1126f2e196a52de5d65a8ce5b78032e63fd038aa243bdf07']), set(['168f140176f6c0c6042b4e833cd1de16c233db24ec5fb8a5612d18d97a9dae9e']))
+====================================

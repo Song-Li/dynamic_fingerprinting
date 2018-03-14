@@ -1,0 +1,21 @@
+browserfingerprint (set(['fa3ef6190e77369a991945b962cc5abb469188189c92eea71eb1bccb3589db39']), set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']), set(['6a336d550a745c8bae227fcc80dcd24ea6160810d955df70f088019f56c1c4ee']))
+====================================
+browserfingerprint (set(['6a336d550a745c8bae227fcc80dcd24ea6160810d955df70f088019f56c1c4ee']), set(['fa75b97729bf3fe7a7222c1cf19a6cb531b00bedb596951a044d3a85b29dc272']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Kittendorf']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['fa75b97729bf3fe7a7222c1cf19a6cb531b00bedb596951a044d3a85b29dc272']), set(['514d08e7d571c5f5a47f5e01051a122c210f5f12d17f502b079ac839b5f0b2e2']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['514d08e7d571c5f5a47f5e01051a122c210f5f12d17f502b079ac839b5f0b2e2']), set(['7e20b3c4a7555b6effc218ab50ee567c427039190b13ae49a660d0ae90f51e06']))
+====================================
+browserfingerprint (set(['7e20b3c4a7555b6effc218ab50ee567c427039190b13ae49a660d0ae90f51e06']), set(['4e9f289ef349626838718e2df1434b982909673090764856045d391460e148d1']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Kittendorf']), set(['Oschatz']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Sachsen']))
+browserfingerprint (set(['4e9f289ef349626838718e2df1434b982909673090764856045d391460e148d1']), set(['7f85c5cbaf5ac6c90b3e8c26368839c3f98c491d582a3613104fb8cf5fd148b9']))
+====================================

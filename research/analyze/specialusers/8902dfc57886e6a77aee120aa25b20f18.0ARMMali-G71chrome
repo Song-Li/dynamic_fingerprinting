@@ -1,0 +1,15 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Augsburg-Lechviertel']), set(['Dusseldorf']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['78a3cc36aa354d18736fb7f37ceb4cc29532c6758ed7eeafeb5d61ceffdb9f4b']), set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']))
+====================================
+browserfingerprint (set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']), set(['7cae2d1f562f96e38764a6d1e0e197d50ad55d28ea1fe0688cabe5206713cbc9']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Berlin']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+browserfingerprint (set(['7cae2d1f562f96e38764a6d1e0e197d50ad55d28ea1fe0688cabe5206713cbc9']), set(['3df88d05f8ecb44dacb71d18c5f4a3904399fc8a4f5e597f86ecd8d8ad142425']))
+====================================
+ipcity (set(['Berlin']), set(['Ingolstadt']))
+ipregion (set(['Berlin']), set(['Bayern']))
+browserfingerprint (set(['3df88d05f8ecb44dacb71d18c5f4a3904399fc8a4f5e597f86ecd8d8ad142425']), set(['d97175a8775b93a3dde4057b8f5619828741de25febbc8c12783c634cb7e716c']))
+====================================

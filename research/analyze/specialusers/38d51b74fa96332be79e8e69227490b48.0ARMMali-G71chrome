@@ -1,0 +1,15 @@
+ipcity (set(['Berlin']), set(['Mecklenburg']))
+ipregion (set(['Berlin']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['37d65f801ff6097bd82f19da180e73e0797d9fa9a5a72b881213c1bf2aae6871']), set(['00d621878a169deac467df33ec3cf3901feca2000d75c1954064eaddf506ae7b']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Mecklenburg']), set(['Berlin']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Berlin']))
+browserfingerprint (set(['00d621878a169deac467df33ec3cf3901feca2000d75c1954064eaddf506ae7b']), set(['13b0a8b1a5cc88a872ae54afb6e66c4d7e48ea0cfed51571de332452554e4298']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['13b0a8b1a5cc88a872ae54afb6e66c4d7e48ea0cfed51571de332452554e4298']), set(['202c6d04dbc8144b193d30d7ff1fc7bdd3ccd5f38bad5203e96f35af169d7eb9']))
+====================================
+browserfingerprint (set(['202c6d04dbc8144b193d30d7ff1fc7bdd3ccd5f38bad5203e96f35af169d7eb9']), set(['9cdac62599986f9bdb162856ba7d6989a93f801b0a515229107871642c7969de']))
+====================================

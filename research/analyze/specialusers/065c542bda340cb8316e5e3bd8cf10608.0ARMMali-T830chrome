@@ -1,0 +1,42 @@
+browserfingerprint (set(['f22f34ecaedcf490e1d0a7f2d3b2083e69e26d867002de62eb3e69dd921f4af5']), set(['437ea0fde5e0c3ffcd98ca905207ba48e7fcc5bbe0c19a76dae714268237d085']))
+====================================
+ipcity (set(['Neugarten']), set(['Allrode']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['437ea0fde5e0c3ffcd98ca905207ba48e7fcc5bbe0c19a76dae714268237d085']), set(['83e5e805da867814f5a1515e4aa4771c0e8c0501bcecb84a90b1d9d970fe71a8']))
+====================================
+browserfingerprint (set(['83e5e805da867814f5a1515e4aa4771c0e8c0501bcecb84a90b1d9d970fe71a8']), set(['4a3a4ce292a9b41762ef297c9eb5d53b5c3746b854264f7d85bad370fe3c2a57']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+ipcity (set(['Allrode']), set(['Dresden']))
+ipregion (set(['Sachsen-Anhalt']), set(['Sachsen']))
+browserfingerprint (set(['4a3a4ce292a9b41762ef297c9eb5d53b5c3746b854264f7d85bad370fe3c2a57']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dresden']), set(['Berlin']))
+ipregion (set(['Sachsen']), set(['Berlin']))
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['e7f452df4611a1202961d69e67e46c14229e3cb393e356d841ebb115c0e4d02e']))
+====================================

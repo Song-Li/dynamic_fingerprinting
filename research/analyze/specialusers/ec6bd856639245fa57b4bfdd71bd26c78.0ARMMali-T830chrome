@@ -1,0 +1,16 @@
+browserfingerprint (set(['5b3a522e11a11d218db7b47758684504f166dcd0f94afc6d4370be7a4995b6ad']), set(['003858fe9ef03753d21e6c652cec5e38aeb09e0ac0053a9f6fbb9a7576114c29']))
+====================================
+browserfingerprint (set(['003858fe9ef03753d21e6c652cec5e38aeb09e0ac0053a9f6fbb9a7576114c29']), set(['b608ba3c6a8b335b3e9c866366c139f91a7bef5347ca389dcd1a4a42ba051835']))
+====================================
+browserfingerprint (set(['b608ba3c6a8b335b3e9c866366c139f91a7bef5347ca389dcd1a4a42ba051835']), set(['febf1e6e3fed2441e59487b609ad022f7af98b432676cdee358434b34cd604fa']))
+====================================
+browserfingerprint (set(['febf1e6e3fed2441e59487b609ad022f7af98b432676cdee358434b34cd604fa']), set(['5b3a522e11a11d218db7b47758684504f166dcd0f94afc6d4370be7a4995b6ad']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Werl']), set(['Aachen']))
+browserfingerprint (set(['5b3a522e11a11d218db7b47758684504f166dcd0f94afc6d4370be7a4995b6ad']), set(['0136d546c3479f970bface7abb84398bcca20d81c43479d926c8d558950522dd']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['0136d546c3479f970bface7abb84398bcca20d81c43479d926c8d558950522dd']), set(['b0907c2f57879f26180965f293357d31672b31ab336ca449ce1ddcb341655fe3']))
+====================================

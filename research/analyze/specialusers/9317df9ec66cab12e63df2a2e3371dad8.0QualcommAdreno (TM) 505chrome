@@ -1,0 +1,12 @@
+browserfingerprint (set(['6b3ac7a638125fb8a44d9bf61fc6e00e164c9063111551cd5eda7b931c6060c0']), set(['b7a1f5ea01fc169d552b6bf3d7f2d943160725559bcaaf7ef6cfecb163451d07']))
+====================================
+ipcity (set(['Erfurt']), set(['Siemerode']))
+browserfingerprint (set(['b7a1f5ea01fc169d552b6bf3d7f2d943160725559bcaaf7ef6cfecb163451d07']), set(['3d8638c6a300337a555e8c0bef0e80752ca27192275d19fb133ba6c5ccdcc926']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Siemerode']), set(['Eschborn']))
+ipregion (set(['Thuringen']), set(['Hessen']))
+browserfingerprint (set(['3d8638c6a300337a555e8c0bef0e80752ca27192275d19fb133ba6c5ccdcc926']), set(['7d1410501e6a5b6ae887732418a1f8eb53929ed9a06450402d2ac499b2fcc203']))
+====================================
+browserfingerprint (set(['7d1410501e6a5b6ae887732418a1f8eb53929ed9a06450402d2ac499b2fcc203']), set(['97d3ebab89d48c295bd37f29ff79a39da85d05c6f18218c1f68a24a10b11b1e7']))
+====================================

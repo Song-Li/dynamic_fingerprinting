@@ -1,0 +1,32 @@
+browserfingerprint (set(['4ba9ae1a99c368757470514ee792f979bee15dd928738f37ccf5f5b963044e20']), set(['58c087fa5bfe7a4ef9b788be65455101b7aa63db11f4a15ac4f17e0f471e87b2']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+timezone (set(['0.0']), set(['-60.0']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dortmund']), set(['Hamburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Hamburg']))
+browserfingerprint (set(['58c087fa5bfe7a4ef9b788be65455101b7aa63db11f4a15ac4f17e0f471e87b2']), set(['f46a6c9a057d1051ccc3f563ff2c34026b055d630acde7865444009f14ab5cc7']))
+====================================
+ipcity (set(['Hamburg']), set(['Siegen']))
+ipregion (set(['Hamburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['f46a6c9a057d1051ccc3f563ff2c34026b055d630acde7865444009f14ab5cc7']), set(['c9a645067bdccc8de9517785c7c4997b0265ee64bb18a517419cd075db802a34']))
+====================================
+browserfingerprint (set(['c9a645067bdccc8de9517785c7c4997b0265ee64bb18a517419cd075db802a34']), set(['0489383a0a53211e130b756edadc09b196fd27dea7c0da15f1e87911b7cfaffc']))
+====================================
+ipcity (set(['Siegen']), set(['Hamburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Hamburg']))
+browserfingerprint (set(['0489383a0a53211e130b756edadc09b196fd27dea7c0da15f1e87911b7cfaffc']), set(['f46a6c9a057d1051ccc3f563ff2c34026b055d630acde7865444009f14ab5cc7']))
+====================================
+browserfingerprint (set(['f46a6c9a057d1051ccc3f563ff2c34026b055d630acde7865444009f14ab5cc7']), set(['6cff49dafa78b86abea973f8f0adff9351b4eee69da38a36a2e0f14ee106423d']))
+====================================
+ipcity (set(['Hamburg']), set(['Dortmund']))
+ipregion (set(['Hamburg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['6cff49dafa78b86abea973f8f0adff9351b4eee69da38a36a2e0f14ee106423d']), set(['2705920ede48e33f08926cc4cf60b9d80b4c9e2b0e30e42119604e3d44d4e8cb']))
+====================================
+browserfingerprint (set(['2705920ede48e33f08926cc4cf60b9d80b4c9e2b0e30e42119604e3d44d4e8cb']), set(['4fd16e6dca61f40665891b14489faaaf0aaf1be52a603cfdc907193548a97622']))
+====================================
+ipcity (set(['Dortmund']), set(['Muenster']))
+browserfingerprint (set(['4fd16e6dca61f40665891b14489faaaf0aaf1be52a603cfdc907193548a97622']), set(['5bc1abffb74482df8c762cb0e5aa48197d6ccb481d14d3c004ca2520d2a29723']))
+====================================
+browserfingerprint (set(['5bc1abffb74482df8c762cb0e5aa48197d6ccb481d14d3c004ca2520d2a29723']), set(['ad82de9635eeb879f7ebb20ef082288be3fd1cc8150978bae22ac2db3fd10208']))
+====================================

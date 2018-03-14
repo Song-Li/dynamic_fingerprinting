@@ -1,0 +1,42 @@
+ipcity (set(['Enzersdorf', 'Maria']), set(['der', 'Donau', 'Krems', 'an']))
+browserfingerprint (set(['fd2f4c96f618e913c0c8e8b70f579b469448d071b824439211ee7e0e38e61bc5']), set(['635b74aa7428db9074dcc5765ec715cba87c4ee1a6757e50df6c785ef3c268be']))
+====================================
+ipcity (set(['der', 'Donau', 'Krems', 'an']), set(['Linz']))
+ipregion (set(['Niederosterreich']), set(['Oberosterreich']))
+browserfingerprint (set(['635b74aa7428db9074dcc5765ec715cba87c4ee1a6757e50df6c785ef3c268be']), set(['9832f8b4482033cd5c3498f09e5ffb1f330e0b5741eacdf5e1a8cf72e483f42e']))
+====================================
+ipcity (set(['Linz']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['9832f8b4482033cd5c3498f09e5ffb1f330e0b5741eacdf5e1a8cf72e483f42e']), set(['55a950cea854ca484b50e06847e865c684af3602544bc187d831ad9d87f9bcd3']))
+====================================
+browserfingerprint (set(['55a950cea854ca484b50e06847e865c684af3602544bc187d831ad9d87f9bcd3']), set(['fd2f4c96f618e913c0c8e8b70f579b469448d071b824439211ee7e0e38e61bc5']))
+====================================
+browserfingerprint (set(['fd2f4c96f618e913c0c8e8b70f579b469448d071b824439211ee7e0e38e61bc5']), set(['55a950cea854ca484b50e06847e865c684af3602544bc187d831ad9d87f9bcd3']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['der', 'Donau', 'Krems', 'an']))
+browserfingerprint (set(['55a950cea854ca484b50e06847e865c684af3602544bc187d831ad9d87f9bcd3']), set(['f1797b51ecc71e53686bbc0fa30260d3b7ad369531de9df964cd927db5c34b5a']))
+====================================
+ipcity (set(['der', 'Donau', 'Krems', 'an']), set(['Graz']))
+ipregion (set(['Niederosterreich']), set(['Steiermark']))
+browserfingerprint (set(['f1797b51ecc71e53686bbc0fa30260d3b7ad369531de9df964cd927db5c34b5a']), set(['cce9ec70f2c5d2b95ca173b87cba64a02c172ff8f63ee7ae344b37ebf9dea07b']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Graz']), set(['Thomasberg']))
+ipregion (set(['Steiermark']), set(['Niederosterreich']))
+browserfingerprint (set(['cce9ec70f2c5d2b95ca173b87cba64a02c172ff8f63ee7ae344b37ebf9dea07b']), set(['3f6955f411f82abe7a95f2f0dcf8e62e96b75534fb6e21c8a925a1277f48aa6c']))
+====================================
+browserfingerprint (set(['3f6955f411f82abe7a95f2f0dcf8e62e96b75534fb6e21c8a925a1277f48aa6c']), set(['2c443ad05efc8a0ae3e9c346f82808b0d3bd9609864c48f3f2d5a8e967e81ee8']))
+====================================
+ipcity (set(['Thomasberg']), set(['Salzburg']))
+ipregion (set(['Niederosterreich']), set(['Salzburg']))
+browserfingerprint (set(['2c443ad05efc8a0ae3e9c346f82808b0d3bd9609864c48f3f2d5a8e967e81ee8']), set(['c2ce8b2884e84776889451d2f6289dbd7c51a9be93f6472cb10693598e29438e']))
+====================================
+browserfingerprint (set(['c2ce8b2884e84776889451d2f6289dbd7c51a9be93f6472cb10693598e29438e']), set(['05261f71002167e0ddf07798c4ff745980593fbfdcf62ed34fa1e734bc03f834']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+ipcity (set(['Salzburg']), set(['Enzersdorf', 'Maria']))
+ipregion (set(['Salzburg']), set(['Niederosterreich']))
+browserfingerprint (set(['05261f71002167e0ddf07798c4ff745980593fbfdcf62ed34fa1e734bc03f834']), set(['d9d7a8d2d9748bbcc6bd0a5f0ece3a4594f139da2840f6f93dc77d35de5b2f9d']))
+====================================

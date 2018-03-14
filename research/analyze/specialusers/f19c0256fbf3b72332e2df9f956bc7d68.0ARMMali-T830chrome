@@ -1,0 +1,9 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dresden']), set(['Marsberg']))
+ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['2cd068003ac33a39f859f336d7ee28a97273ba4e2135791d87fac51507447934']), set(['ef17ed531f1ec1f0bce3a1dc2bd4da4483635a5537ec0e892b916e8d1a107476']))
+====================================
+ipcity (set(['Marsberg']), set(['Dresden']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
+browserfingerprint (set(['ef17ed531f1ec1f0bce3a1dc2bd4da4483635a5537ec0e892b916e8d1a107476']), set(['a90ee85dcea49c79983f828977d120ba340abcdaa50866d2ce8ecc96dfb2f964']))
+====================================

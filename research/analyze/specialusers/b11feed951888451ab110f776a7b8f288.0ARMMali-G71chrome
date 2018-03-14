@@ -1,0 +1,34 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+ipcity (set(['Mecklenburg']), set(['Ingolstadt']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Bayern']))
+browserfingerprint (set(['bbbde00e6f6c8039ffcb4eed52646bad869b4a417fdfe7cac5353bdb8ea7382f']), set(['088632fdd7dd6fb825d65473399c662c71972de54c5ca1d44cb7ad9c53b44b0c']))
+====================================
+browserfingerprint (set(['088632fdd7dd6fb825d65473399c662c71972de54c5ca1d44cb7ad9c53b44b0c']), set(['239c4a773ad879662d9db1401cb2a125260331a1b9c082edf2959b8143d96227']))
+====================================
+ipcity (set(['Ingolstadt']), set(['Oldenburg']))
+ipregion (set(['Bayern']), set(['Niedersachsen']))
+browserfingerprint (set(['239c4a773ad879662d9db1401cb2a125260331a1b9c082edf2959b8143d96227']), set(['760a69638c382f15aa452153ee97489297f4fe6d66ece343c2d0d050b3f05c18']))
+====================================
+browserfingerprint (set(['760a69638c382f15aa452153ee97489297f4fe6d66ece343c2d0d050b3f05c18']), set(['cdfc86ba05b2c91f1622727ae8c950bf3a5ced8ffb5f39283cf1cd856cac33c5']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Oldenburg']), set(['Ingolstadt']))
+ipregion (set(['Niedersachsen']), set(['Bayern']))
+browserfingerprint (set(['cdfc86ba05b2c91f1622727ae8c950bf3a5ced8ffb5f39283cf1cd856cac33c5']), set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']))
+====================================
+browserfingerprint (set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']), set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']))
+====================================
+browserfingerprint (set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']), set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']))
+====================================
+browserfingerprint (set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']), set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']))
+====================================
+browserfingerprint (set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']), set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Ingolstadt']), set(['Wesel']))
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']), set(['50285e646992d1b52e3cfe5db9ed8f0ac19a296c2fa057d2172769009b2f5563']))
+====================================
+ipcity (set(['Wesel']), set(['Dusseldorf']))
+browserfingerprint (set(['50285e646992d1b52e3cfe5db9ed8f0ac19a296c2fa057d2172769009b2f5563']), set(['7cae2d1f562f96e38764a6d1e0e197d50ad55d28ea1fe0688cabe5206713cbc9']))
+====================================

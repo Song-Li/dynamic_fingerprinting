@@ -1,0 +1,41 @@
+browserfingerprint (set(['a566477ed8752a64c1c7f253b6a2fac9be39c71c3fab14defd4e592b84c227a6']), set(['cc7ba5cdb8ce3cf0223b58631f629da8155172d965e53af2a7f999250043fdfa']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Graz']))
+ipregion (set(['Niederosterreich']), set(['Steiermark']))
+browserfingerprint (set(['cc7ba5cdb8ce3cf0223b58631f629da8155172d965e53af2a7f999250043fdfa']), set(['0610d31a63a010005ee514ade52cc2c82d22abc59b93ff887339ad3bb8b75ebc']))
+====================================
+browserfingerprint (set(['0610d31a63a010005ee514ade52cc2c82d22abc59b93ff887339ad3bb8b75ebc']), set(['41a38a683ba86723370977392d92318e7b072691cc14539566fcc5247a9c699e']))
+====================================
+browserfingerprint (set(['41a38a683ba86723370977392d92318e7b072691cc14539566fcc5247a9c699e']), set(['0610d31a63a010005ee514ade52cc2c82d22abc59b93ff887339ad3bb8b75ebc']))
+====================================
+browserfingerprint (set(['0610d31a63a010005ee514ade52cc2c82d22abc59b93ff887339ad3bb8b75ebc']), set(['41a38a683ba86723370977392d92318e7b072691cc14539566fcc5247a9c699e']))
+====================================
+ipcity (set(['Graz']), set(['Mondsee']))
+ipregion (set(['Steiermark']), set(['Oberosterreich']))
+browserfingerprint (set(['41a38a683ba86723370977392d92318e7b072691cc14539566fcc5247a9c699e']), set(['de2943a202d52c0289a8e8f1c6ce3d0b460b3a1428360a6b98108d37b1e697e9']))
+====================================
+browserfingerprint (set(['de2943a202d52c0289a8e8f1c6ce3d0b460b3a1428360a6b98108d37b1e697e9']), set(['761ce82e477271d3e041c7ef66f74ef42873d884827a46cb8a694a6c819aeb55']))
+====================================
+ipcity (set(['Mondsee']), set(['Graz']))
+ipregion (set(['Oberosterreich']), set(['Steiermark']))
+browserfingerprint (set(['761ce82e477271d3e041c7ef66f74ef42873d884827a46cb8a694a6c819aeb55']), set(['cce9ec70f2c5d2b95ca173b87cba64a02c172ff8f63ee7ae344b37ebf9dea07b']))
+====================================
+timezone (set(['-60.0']), set(['-420.0']))
+ipcity (set(['Graz']), set(['Bangkok']))
+ipregion (set(['Steiermark']), set(['Maha', 'Krung', 'Thep', 'Nakhon']))
+ipcountry (set(['Austria']), set(['Thailand']))
+browserfingerprint (set(['cce9ec70f2c5d2b95ca173b87cba64a02c172ff8f63ee7ae344b37ebf9dea07b']), set(['5a6ec2f709f752d5c8a2c22c10ed571a3cbed7319e8658a8e2d2b515cd855695']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+ipcity (set(['Bangkok']), set(['Melk']))
+ipregion (set(['Maha', 'Krung', 'Thep', 'Nakhon']), set(['Niederosterreich']))
+ipcountry (set(['Thailand']), set(['Austria']))
+browserfingerprint (set(['5a6ec2f709f752d5c8a2c22c10ed571a3cbed7319e8658a8e2d2b515cd855695']), set(['2c20d026cf65862cf01fea677c986f7b8e41f856b14066fafa8acf0d1fbada86']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+timezone (set(['-420.0']), set(['-60.0']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Melk']), set(['Woerthersee', 'Klagenfurt', 'am']))
+ipregion (set(['Niederosterreich']), set(['Karnten']))
+browserfingerprint (set(['2c20d026cf65862cf01fea677c986f7b8e41f856b14066fafa8acf0d1fbada86']), set(['b77b0576b7473e0875dcf3f6e1bd18fdf4791a883b0fc74c9fd627fe131ba143']))
+====================================

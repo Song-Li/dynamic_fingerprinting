@@ -1,0 +1,12 @@
+agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Dortmund']))
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['528aa16e5b8f4bd79793b91cc4937cfdc7d32bd1474466a605b6df824085ba37']), set(['de77d40d536e67788a04af6f2295debcdb1146a11c634cf931391f166d4ad451']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Dortmund']), set(['Isenburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['de77d40d536e67788a04af6f2295debcdb1146a11c634cf931391f166d4ad451']), set(['33f72845034ff8a784ed6b5092dd2b13148842ea4e2a7fa29cfbccd5d3a4fea4']))
+====================================
+browserfingerprint (set(['33f72845034ff8a784ed6b5092dd2b13148842ea4e2a7fa29cfbccd5d3a4fea4']), set(['dbf9a8efb62d2d9c7f097caefa8e91bff9fd9a7e18844a7aca1151851f798e57']))
+====================================

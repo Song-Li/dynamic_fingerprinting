@@ -1,0 +1,27 @@
+browserfingerprint (set(['c3c2c8548286165ad3af6841ea1d0b4968250008ce75a2693590c58b77dd7dbe']), set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']))
+====================================
+browserfingerprint (set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']), set(['c3c2c8548286165ad3af6841ea1d0b4968250008ce75a2693590c58b77dd7dbe']))
+====================================
+ipcity (set(['Potsdam']), set(['Berlin']))
+ipregion (set(['Brandenburg']), set(['Berlin']))
+browserfingerprint (set(['c3c2c8548286165ad3af6841ea1d0b4968250008ce75a2693590c58b77dd7dbe']), set(['5a5f4b474880c60303a2d5e2645b84a2a7854c4c746e9281957e7e1a25ad4fe5']))
+====================================
+browserfingerprint (set(['5a5f4b474880c60303a2d5e2645b84a2a7854c4c746e9281957e7e1a25ad4fe5']), set(['c2889be2af8b9156eae2973b589608de87df85a584a55d44d4b3d62a3ac5f56a']))
+====================================
+ipcity (set(['Berlin']), set(['Potsdam']))
+ipregion (set(['Berlin']), set(['Brandenburg']))
+browserfingerprint (set(['c2889be2af8b9156eae2973b589608de87df85a584a55d44d4b3d62a3ac5f56a']), set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']))
+====================================
+browserfingerprint (set(['423d4098730db6ec9c51aa2cb0eb365474ed775e506f1ea3e5d01c603ac8b6b6']), set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']))
+====================================
+ipcity (set(['Potsdam']), set(['Berlin']))
+ipregion (set(['Brandenburg']), set(['Berlin']))
+browserfingerprint (set(['dad1856cf0ee20268410a400bc25df6bb47d4fe96097db1bf6ef97598e127164']), set(['5a5f4b474880c60303a2d5e2645b84a2a7854c4c746e9281957e7e1a25ad4fe5']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['5a5f4b474880c60303a2d5e2645b84a2a7854c4c746e9281957e7e1a25ad4fe5']), set(['828e705025a8efeb5bbc2ba16741ab4b449ba3fa818889b4dbec34f49422a40d']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+browserfingerprint (set(['828e705025a8efeb5bbc2ba16741ab4b449ba3fa818889b4dbec34f49422a40d']), set(['e7f452df4611a1202961d69e67e46c14229e3cb393e356d841ebb115c0e4d02e']))
+====================================

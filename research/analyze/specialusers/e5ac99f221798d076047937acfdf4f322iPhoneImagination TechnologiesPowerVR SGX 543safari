@@ -1,9 +1,0 @@
-canvastest (set(['d34b694e17b527817870d13567134c96856dace0']), set(['946d8d375868fd2f5acaf2e56c9b8222d12e7e26']))
-browserfingerprint (set(['b5d64550b920cce7371a682374b573abeb6d9ab74f00213dd0abac9be4514cb3']), set(['023e55551dd8cd1f145a3771ace20a8ea713ad620412e3935fd2b2e5fdc8f97d']))
-====================================
-canvastest (set(['946d8d375868fd2f5acaf2e56c9b8222d12e7e26']), set(['d34b694e17b527817870d13567134c96856dace0']))
-browserfingerprint (set(['023e55551dd8cd1f145a3771ace20a8ea713ad620412e3935fd2b2e5fdc8f97d']), set(['b5d64550b920cce7371a682374b573abeb6d9ab74f00213dd0abac9be4514cb3']))
-====================================
-canvastest (set(['d34b694e17b527817870d13567134c96856dace0']), set(['946d8d375868fd2f5acaf2e56c9b8222d12e7e26']))
-browserfingerprint (set(['b5d64550b920cce7371a682374b573abeb6d9ab74f00213dd0abac9be4514cb3']), set(['023e55551dd8cd1f145a3771ace20a8ea713ad620412e3935fd2b2e5fdc8f97d']))
-====================================

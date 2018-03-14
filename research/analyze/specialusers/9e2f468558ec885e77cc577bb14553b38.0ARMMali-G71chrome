@@ -1,0 +1,15 @@
+ipcity (set(['Karlsruhe']), set(['Freiburg']))
+browserfingerprint (set(['4d0f1aee7c7ae9f397550dbe6f9f8da53c5052937df62f459b42b6f1029b02bd']), set(['666be721e1def07a27cf4f2d23f31420d4d7d6f7d05bef897ad3880d4b40101c']))
+====================================
+ipcity (set(['Freiburg']), set(['Karlsruhe']))
+browserfingerprint (set(['666be721e1def07a27cf4f2d23f31420d4d7d6f7d05bef897ad3880d4b40101c']), set(['f9c6769a9fc9603c35f1857b53082003f901bc8e0e7196b2109076c43644af57']))
+====================================
+browserfingerprint (set(['f9c6769a9fc9603c35f1857b53082003f901bc8e0e7196b2109076c43644af57']), set(['4d0f1aee7c7ae9f397550dbe6f9f8da53c5052937df62f459b42b6f1029b02bd']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Karlsruhe']), set(['Mursewiek']))
+ipregion (set(['Baden-Wurttemberg']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['4d0f1aee7c7ae9f397550dbe6f9f8da53c5052937df62f459b42b6f1029b02bd']), set(['b539dac23741f8c1e9b49cb4b1cba6bbb6ceec63e96e75980935a4e521ff2359']))
+====================================
+browserfingerprint (set(['b539dac23741f8c1e9b49cb4b1cba6bbb6ceec63e96e75980935a4e521ff2359']), set(['e9145890fb98097ff91eba3ad2e4c998aae25cba27491f0601f56a74e8b111d7']))
+====================================

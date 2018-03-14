@@ -1,0 +1,15 @@
+browserfingerprint (set(['aeeffca45dbf629a8e1589cced0399caa365bb8ce5818bb634be91f6c842daf1']), set(['93a5d7d4a8607dc722f8b66b89596c1a881aff3edadb121c0f850e5c556f92ec']))
+====================================
+browserfingerprint (set(['93a5d7d4a8607dc722f8b66b89596c1a881aff3edadb121c0f850e5c556f92ec']), set(['aeeffca45dbf629a8e1589cced0399caa365bb8ce5818bb634be91f6c842daf1']))
+====================================
+browserfingerprint (set(['aeeffca45dbf629a8e1589cced0399caa365bb8ce5818bb634be91f6c842daf1']), set(['93a5d7d4a8607dc722f8b66b89596c1a881aff3edadb121c0f850e5c556f92ec']))
+====================================
+ipcity (set(['Dortmund']), set(['Kleve']))
+browserfingerprint (set(['93a5d7d4a8607dc722f8b66b89596c1a881aff3edadb121c0f850e5c556f92ec']), set(['941e7ddd3c3f6b0f5e14d6ad8f353f7a6f4651d46844aae00d572c526c71f3f9']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
+language (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Kleve']), set(['Dortmund']))
+browserfingerprint (set(['941e7ddd3c3f6b0f5e14d6ad8f353f7a6f4651d46844aae00d572c526c71f3f9']), set(['45a66432cb289125135306ecf6b997f56a5366aa729f5cea8d95dab76d07ad15']))
+====================================

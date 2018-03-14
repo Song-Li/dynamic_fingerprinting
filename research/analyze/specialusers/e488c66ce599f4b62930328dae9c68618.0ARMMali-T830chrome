@@ -1,0 +1,37 @@
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Istanbul']), set(['Heidelberg']))
+ipregion (set(['Istanbul']), set(['Baden-Wurttemberg']))
+ipcountry (set(['Turkey']), set(['Germany']))
+browserfingerprint (set(['9ea4bcc05353fa8e70e9655dcfe53ce21e2b7dce73511087660d690e66913c14']), set(['757f896678cf5de9a0ef38ef4fd441c6a885f01a78d63aa232f908d33c83e177']))
+====================================
+ipcity (set(['Heidelberg']), set(['Ulm']))
+browserfingerprint (set(['757f896678cf5de9a0ef38ef4fd441c6a885f01a78d63aa232f908d33c83e177']), set(['97eeb3a09e31ca617813602984327cc056318a7a7c1d0d343d9e16a9d4d5a665']))
+====================================
+ipcity (set(['Ulm']), set(['Freiburg']))
+browserfingerprint (set(['97eeb3a09e31ca617813602984327cc056318a7a7c1d0d343d9e16a9d4d5a665']), set(['c41221d6d51e56423ba8df5dd88bb8e0b69ae188a0b7bd8c1e58ef3049b71889']))
+====================================
+agent (set(['Build/HUAWEIPIC-LX9)', 'Chrome/63.0.3239.111']), set(['Version/4.0', 'Build/HUAWEIPIC-LX9;', 'Chrome/44.0.2403.119', 'wv)']))
+encoding (set(['br', 'deflate,']), set(['deflate']))
+language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
+cookie (set(['True']), set(['False']))
+browserfingerprint (set(['c41221d6d51e56423ba8df5dd88bb8e0b69ae188a0b7bd8c1e58ef3049b71889']), set(['5f3b259879603f399e6ef2a8c7e94845a1965c3eef7550008838c9cd81a876f2']))
+====================================
+ipcity (set(['Freiburg']), set(['Freinsheim']))
+ipregion (set(['Baden-Wurttemberg']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['5f3b259879603f399e6ef2a8c7e94845a1965c3eef7550008838c9cd81a876f2']), set(['955a94b2c56db402bfeada7b22513d0f3755531013a5c1aa1c65287c65b8b4f3']))
+====================================
+browserfingerprint (set(['955a94b2c56db402bfeada7b22513d0f3755531013a5c1aa1c65287c65b8b4f3']), set(['939c3a0cb8334ac4d0616b029960707a1b7be6c783bff19dda8292e4c5103080']))
+====================================
+ipcity (set(['Freinsheim']), set(['Mannheim']))
+ipregion (set(['Rheinland-Pfalz']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['939c3a0cb8334ac4d0616b029960707a1b7be6c783bff19dda8292e4c5103080']), set(['d397eab310551dfaffb026d3d321c958ed7a9151b718c23c78d03309cf813d63']))
+====================================
+agent (set(['Version/4.0', 'Build/HUAWEIPIC-LX9;', 'Chrome/44.0.2403.119', 'wv)']), set(['Build/HUAWEIPIC-LX9)', 'Chrome/63.0.3239.111']))
+encoding (set(['deflate']), set(['br', 'deflate,']))
+language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+cookie (set(['False']), set(['True']))
+ipcity (set(['Mannheim']), set(['Heidelberg']))
+browserfingerprint (set(['d397eab310551dfaffb026d3d321c958ed7a9151b718c23c78d03309cf813d63']), set(['757f896678cf5de9a0ef38ef4fd441c6a885f01a78d63aa232f908d33c83e177']))
+====================================

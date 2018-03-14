@@ -1,0 +1,83 @@
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,th-TH;q=0.8,th;q=0.6,de;q=0.4,en-US;q=0.2,en;q=0.2']), set(['de-DE,de;q=0.9,th-TH;q=0.8,th;q=0.7,en-US;q=0.6,en;q=0.5']))
+ipcity (set(['Bangkok']), set(['Pa', 'Takua']))
+ipregion (set(['Maha', 'Krung', 'Thep', 'Nakhon']), set(['Phangnga']))
+browserfingerprint (set(['2b7ebfb474af9a448dc9b4a19d18b9a88c204637fda4632009ee716a7a0a01ad']), set(['eca5c12b7abc8672a821d621e7dabf2d093f5e9733a3d217ae6f460af397bacb']))
+====================================
+browserfingerprint (set(['eca5c12b7abc8672a821d621e7dabf2d093f5e9733a3d217ae6f460af397bacb']), set(['873e1575f0ae64e5a13464b437ef44a98ea4b699a3d1f06681410be73e4aab7d']))
+====================================
+browserfingerprint (set(['873e1575f0ae64e5a13464b437ef44a98ea4b699a3d1f06681410be73e4aab7d']), set(['eca5c12b7abc8672a821d621e7dabf2d093f5e9733a3d217ae6f460af397bacb']))
+====================================
+ipcity (set(['Pa', 'Takua']), set(['Munich']))
+ipregion (set(['Phangnga']), set(['Bayern']))
+ipcountry (set(['Thailand']), set(['Germany']))
+browserfingerprint (set(['eca5c12b7abc8672a821d621e7dabf2d093f5e9733a3d217ae6f460af397bacb']), set(['c4929067be30ecaaf2c3a939b1087dd51a3d15fb6533ad87e040ee067030a249']))
+====================================
+browserfingerprint (set(['c4929067be30ecaaf2c3a939b1087dd51a3d15fb6533ad87e040ee067030a249']), set(['004fdafca324541eeeba06333aa5dbe90e59824f062cf5de761dd5fa05f1d144']))
+====================================
+browserfingerprint (set(['004fdafca324541eeeba06333aa5dbe90e59824f062cf5de761dd5fa05f1d144']), set(['c4929067be30ecaaf2c3a939b1087dd51a3d15fb6533ad87e040ee067030a249']))
+====================================
+browserfingerprint (set(['c4929067be30ecaaf2c3a939b1087dd51a3d15fb6533ad87e040ee067030a249']), set(['004fdafca324541eeeba06333aa5dbe90e59824f062cf5de761dd5fa05f1d144']))
+====================================
+browserfingerprint (set(['004fdafca324541eeeba06333aa5dbe90e59824f062cf5de761dd5fa05f1d144']), set(['c4929067be30ecaaf2c3a939b1087dd51a3d15fb6533ad87e040ee067030a249']))
+====================================
+timezone (set(['-420.0']), set(['-60.0']))
+ipcity (set(['Munich']), set(['Freiburg']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['c4929067be30ecaaf2c3a939b1087dd51a3d15fb6533ad87e040ee067030a249']), set(['638cf7cfa3f2bd9fb0417f50f5ea8cf875433686c94ca49d98ea48298c95f6b5']))
+====================================
+ipcity (set(['Freiburg']), set(['Mannheim']))
+browserfingerprint (set(['638cf7cfa3f2bd9fb0417f50f5ea8cf875433686c94ca49d98ea48298c95f6b5']), set(['a05df74fd8d9708a8ab51774f30bc50bc59acb5b16b051f1afc750c4ab48d63d']))
+====================================
+browserfingerprint (set(['a05df74fd8d9708a8ab51774f30bc50bc59acb5b16b051f1afc750c4ab48d63d']), set(['54f854511d3ea28f5dae1a45fb70bee5e0cdb6aa4fae51e5a5a89b0c206457ff']))
+====================================
+ipcity (set(['Mannheim']), set(['Erfurt']))
+ipregion (set(['Baden-Wurttemberg']), set(['Thuringen']))
+browserfingerprint (set(['54f854511d3ea28f5dae1a45fb70bee5e0cdb6aa4fae51e5a5a89b0c206457ff']), set(['7cb034fe479b85eb86a425b1ebbcc66ad56349be9d9caad9f92a632367953dfa']))
+====================================
+browserfingerprint (set(['7cb034fe479b85eb86a425b1ebbcc66ad56349be9d9caad9f92a632367953dfa']), set(['ac319d3e243e0aa51d2880ee09d9d28225369cbbe448341f70a43e93f1250d49']))
+====================================
+browserfingerprint (set(['ac319d3e243e0aa51d2880ee09d9d28225369cbbe448341f70a43e93f1250d49']), set(['7cb034fe479b85eb86a425b1ebbcc66ad56349be9d9caad9f92a632367953dfa']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+language (set(['de-DE,de;q=0.9,th-TH;q=0.8,th;q=0.7,en-US;q=0.6,en;q=0.5']), set(['de-DE,de;q=0.9,th-TH;q=0.8,th;q=0.7,lo-LA;q=0.6,lo;q=0.5,en-US;q=0.4,en;q=0.3']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Erfurt']), set(['Flensburg']))
+ipregion (set(['Thuringen']), set(['Schleswig-Holstein']))
+browserfingerprint (set(['7cb034fe479b85eb86a425b1ebbcc66ad56349be9d9caad9f92a632367953dfa']), set(['57f3dc57a20a28f645441e526e936bfc1c3350a6022312050f62e9cdddc6067f']))
+====================================
+browserfingerprint (set(['57f3dc57a20a28f645441e526e936bfc1c3350a6022312050f62e9cdddc6067f']), set(['fee64087175f6643ea321d2c1760e5f8304f68ea6fdd139a76e6cfad3b9f6a21']))
+====================================
+ipcity (set(['Flensburg']), set(['Norderstedt']))
+browserfingerprint (set(['fee64087175f6643ea321d2c1760e5f8304f68ea6fdd139a76e6cfad3b9f6a21']), set(['60250e25e42c54ac21264801e96324df963dfbfb23e635a4760bc88e0395ab88']))
+====================================
+ipcity (set(['Norderstedt']), set(['Erfurt']))
+ipregion (set(['Schleswig-Holstein']), set(['Thuringen']))
+browserfingerprint (set(['60250e25e42c54ac21264801e96324df963dfbfb23e635a4760bc88e0395ab88']), set(['1207f5dac518a35e6574065d49b0a0c1284ba97ce74d17f1a6ef29e07c838a53']))
+====================================
+ipcity (set(['Erfurt']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Thuringen']), set(['Hessen']))
+browserfingerprint (set(['1207f5dac518a35e6574065d49b0a0c1284ba97ce74d17f1a6ef29e07c838a53']), set(['61d05626cc3662a25b0ca2cc5e0469c35650975255c9ef5c722fbd81a8e70a5d']))
+====================================
+browserfingerprint (set(['61d05626cc3662a25b0ca2cc5e0469c35650975255c9ef5c722fbd81a8e70a5d']), set(['4615747e18980c7d4e41736fc18591b22119b8013daca9765001673e9fbb495e']))
+====================================
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Freinsheim']))
+ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['4615747e18980c7d4e41736fc18591b22119b8013daca9765001673e9fbb495e']), set(['9ad7774521ba4ac68b98b884817dadd573aabbf5b372f1e4ef322e74115662de']))
+====================================
+browserfingerprint (set(['9ad7774521ba4ac68b98b884817dadd573aabbf5b372f1e4ef322e74115662de']), set(['05292ccab45287bd739daeed79dcdd31b69b35ce821a7cd18cace159c9ee6b3a']))
+====================================
+ipcity (set(['Freinsheim']), set(['Eichenbuhl']))
+ipregion (set(['Rheinland-Pfalz']), set(['Bayern']))
+browserfingerprint (set(['05292ccab45287bd739daeed79dcdd31b69b35ce821a7cd18cace159c9ee6b3a']), set(['46bfa560311d6d62789a1b571b8c8637d1e4485f3f9c27d773a95ed6ce0896f1']))
+====================================
+browserfingerprint (set(['46bfa560311d6d62789a1b571b8c8637d1e4485f3f9c27d773a95ed6ce0896f1']), set(['680455c93c7a068a58f88fe4ff42612da91e458ad702959d9957b86c21b9e702']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Eichenbuhl']), set(['Karlsruhe']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['680455c93c7a068a58f88fe4ff42612da91e458ad702959d9957b86c21b9e702']), set(['3be6cbbcdba290e02d4e27eb78722ae8cf78f04d785ea2b4b7680a0e9898c113']))
+====================================
+ipcity (set(['Karlsruhe']), set(['Stuttgart']))
+browserfingerprint (set(['3be6cbbcdba290e02d4e27eb78722ae8cf78f04d785ea2b4b7680a0e9898c113']), set(['773489a4254dc1f8e9ba5122ff804f202fe4d8c5495bb9207e9a04abd47ae61c']))
+====================================

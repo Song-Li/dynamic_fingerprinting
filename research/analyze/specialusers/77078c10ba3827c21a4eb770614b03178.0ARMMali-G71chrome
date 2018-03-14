@@ -1,0 +1,19 @@
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Nuremberg']))
+ipregion (set(['Hessen']), set(['Bayern']))
+browserfingerprint (set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']), set(['e565b36b4bd6e824085e692fc4d76d2aa606451b0972c6669922231c3c64ccf3']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Nuremberg']), set(['Frankfurt', 'Main', 'am']))
+ipregion (set(['Bayern']), set(['Hessen']))
+browserfingerprint (set(['e565b36b4bd6e824085e692fc4d76d2aa606451b0972c6669922231c3c64ccf3']), set(['749f032b0c1031c6b6c5c02770f3a5e13d3e1d07c463355f20703d62416b8267']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Allee']))
+ipregion (set(['Hessen']), set(['Schleswig-Holstein']))
+browserfingerprint (set(['749f032b0c1031c6b6c5c02770f3a5e13d3e1d07c463355f20703d62416b8267']), set(['cbaba024cfcbc80ef4251ffcb711bd1cb28e2b47caf3fa2c3ae9145e0805ce94']))
+====================================
+ipcity (set(['Allee']), set(['Stuttgart']))
+ipregion (set(['Schleswig-Holstein']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['cbaba024cfcbc80ef4251ffcb711bd1cb28e2b47caf3fa2c3ae9145e0805ce94']), set(['d92084d052d061946a258fe048e515344c19995e689cb443e3b73270d9a67a8d']))
+====================================

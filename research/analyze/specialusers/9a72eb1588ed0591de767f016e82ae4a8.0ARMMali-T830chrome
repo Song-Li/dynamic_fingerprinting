@@ -1,0 +1,27 @@
+browserfingerprint (set(['20397e766d904538500e20df12b7d76a2904778f7b53728304d685d7a8f72daa']), set(['01cc34905d207d68b7ccb7a7c8a557de5662a7688f5827f403efdb3230ba5432']))
+====================================
+browserfingerprint (set(['01cc34905d207d68b7ccb7a7c8a557de5662a7688f5827f403efdb3230ba5432']), set(['20397e766d904538500e20df12b7d76a2904778f7b53728304d685d7a8f72daa']))
+====================================
+ipcity (set(['Stuttgart']), set(['Dortmund']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['20397e766d904538500e20df12b7d76a2904778f7b53728304d685d7a8f72daa']), set(['68a5f259d026c62995549652d8721125c7d0750b72da9ff5a01dda490b171018']))
+====================================
+browserfingerprint (set(['68a5f259d026c62995549652d8721125c7d0750b72da9ff5a01dda490b171018']), set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']))
+====================================
+ipcity (set(['Dortmund']), set(['Dusseldorf']))
+browserfingerprint (set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']), set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']))
+====================================
+browserfingerprint (set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']), set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']))
+====================================
+browserfingerprint (set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']), set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']))
+====================================
+ipcity (set(['Dusseldorf']), set(['Ramstein-Miesenbach']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+browserfingerprint (set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']), set(['b054ac9f7ef9bc3be8d99a953279e664d0a2d1e07108cd577bb06209e2662033']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Ramstein-Miesenbach']), set(['Bielefeld']))
+ipregion (set(['Rheinland-Pfalz']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['b054ac9f7ef9bc3be8d99a953279e664d0a2d1e07108cd577bb06209e2662033']), set(['5adab3c9d50d872aef9b3cbe1c8c0d497f2d13d493166969d3d91c9e8a9d5af1']))
+====================================

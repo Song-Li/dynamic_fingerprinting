@@ -1,0 +1,25 @@
+browserfingerprint (set(['d82ca892cc63d115362754c99093e5ac6a32c7ccc0b8635d1c668e41003d3c94']), set(['ff9b91855f2dc13735f8f5c57daf6cd48e6d88bed8753360a88a9ca28ed4cb05']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Suderneuland', 'Eins']), set(['Oldenburg']))
+ipregion (set(['Niedersachsen']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['ff9b91855f2dc13735f8f5c57daf6cd48e6d88bed8753360a88a9ca28ed4cb05']), set(['b2e3f8412a2816437a800e3643af61aa3bd66216172790fa6afe55f7904d6d89']))
+====================================
+ipcity (set(['Oldenburg']), set(['Dusseldorf']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['b2e3f8412a2816437a800e3643af61aa3bd66216172790fa6afe55f7904d6d89']), set(['fa011aab4edb91c1e567d36c8ccd22f5dc040e93e9a2bb49e951ca06500e797c']))
+====================================
+agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Dusseldorf']), set(['Oldenburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Mecklenburg-Vorpommern']))
+browserfingerprint (set(['fa011aab4edb91c1e567d36c8ccd22f5dc040e93e9a2bb49e951ca06500e797c']), set(['feef3a08ae2f63e2ff71ce2635fcfb93f709c58311f07d3168eb2e850204584a']))
+====================================
+ipcity (set(['Oldenburg']), set(['Dortmund']))
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['feef3a08ae2f63e2ff71ce2635fcfb93f709c58311f07d3168eb2e850204584a']), set(['c945ceb6430ea1d8016751bc7816fc5b4510bc00bc9d867762def8296d7b3cbc']))
+====================================
+ipcity (set(['Dortmund']), set(['Oldersum']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+browserfingerprint (set(['c945ceb6430ea1d8016751bc7816fc5b4510bc00bc9d867762def8296d7b3cbc']), set(['340171679c3fb10dcf1ebffce044059356fb471b87a2124867430dd7ab834a6c']))
+====================================

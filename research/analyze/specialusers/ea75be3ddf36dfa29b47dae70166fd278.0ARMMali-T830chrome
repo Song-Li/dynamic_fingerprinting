@@ -1,0 +1,25 @@
+browserfingerprint (set(['1c70229c21e8107e0d4ce2fbdc8e2de1e62622540dd92dc448983b1601222d8c']), set(['b56a1ca0de727874bf18f88587765365c3e9963ea879358c21f571556769344e']))
+====================================
+ipcity (set(['Enzersdorf', 'Maria']), set(['Salzburg']))
+ipregion (set(['Niederosterreich']), set(['Salzburg']))
+browserfingerprint (set(['b56a1ca0de727874bf18f88587765365c3e9963ea879358c21f571556769344e']), set(['e12664868dd6d132ad5cf93ede5584fe07a3a70c70148656e51193c60fa296d5']))
+====================================
+agent (set(['Chrome/59.0.3071.125', 'HUAWEI', 'Build/HUAWEIVNS-L21)', 'VNS-L21']), set(['Build/HUAWEIRNE-L21)', 'RNE-L21', 'Chrome/60.0.3112.116']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Salzburg']), set(['Vienna']))
+ipregion (set(['Salzburg']), set(['Wien']))
+browserfingerprint (set(['e12664868dd6d132ad5cf93ede5584fe07a3a70c70148656e51193c60fa296d5']), set(['6cc987f93bf1d91239bd33d5764e50834968ba29f3b4d38f8d6ca63c26a39786']))
+====================================
+agent (set(['Chrome/60.0.3112.116']), set(['Chrome/63.0.3239.111']))
+language (set(['de-AT,de-DE;q=0.8,de;q=0.6,en-US;q=0.4,en;q=0.2']), set(['de-AT,de-DE;q=0.9,de;q=0.8,en-US;q=0.7,en;q=0.6']))
+ipcity (set(['Vienna']), set(['Salzburg']))
+ipregion (set(['Wien']), set(['Salzburg']))
+browserfingerprint (set(['6cc987f93bf1d91239bd33d5764e50834968ba29f3b4d38f8d6ca63c26a39786']), set(['4ec5a3d01f3d1fbc3e0453e88b5dd9c31db879a9e32916df1fc786c10bbd9aa2']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+ipcity (set(['Salzburg']), set(['Graz']))
+ipregion (set(['Salzburg']), set(['Steiermark']))
+browserfingerprint (set(['4ec5a3d01f3d1fbc3e0453e88b5dd9c31db879a9e32916df1fc786c10bbd9aa2']), set(['13874d5b983d0db21a29d02c0ddfed494e82bf10160027b860bd42c886b4d9e5']))
+====================================
+browserfingerprint (set(['13874d5b983d0db21a29d02c0ddfed494e82bf10160027b860bd42c886b4d9e5']), set(['719031d3a674146c7869e35a0fe7f9a3e379cff58c0305f7560e706e2c323389']))
+====================================

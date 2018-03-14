@@ -1,0 +1,9 @@
+browserfingerprint (set(['3d8a7584e03ae88c4fe5f310f1564f17d0054de15e69efdaf9738922d1f6f665']), set(['d30b5cbd364389d92fca39cb49731fd7493dab309826bcac6d7c7ed191e0a11f']))
+====================================
+browserfingerprint (set(['d30b5cbd364389d92fca39cb49731fd7493dab309826bcac6d7c7ed191e0a11f']), set(['b6162178f1d56f7d06e9a24f4cbd8bf2b33da47c14b3d21641f6dd31f2fb9c35']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Kleve']), set(['Dortmund']))
+browserfingerprint (set(['b6162178f1d56f7d06e9a24f4cbd8bf2b33da47c14b3d21641f6dd31f2fb9c35']), set(['80936ade1365fcb904f7a4b735c2c492645ec777c9750741e8e0ccdf8d2c56ff']))
+====================================

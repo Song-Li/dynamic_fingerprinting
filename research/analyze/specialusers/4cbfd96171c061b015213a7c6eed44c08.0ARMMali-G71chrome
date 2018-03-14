@@ -1,0 +1,17 @@
+browserfingerprint (set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']), set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+cookie (set(['True']), set(['False']))
+localstorage (set(['True']), set(['False']))
+ipcity (set(['Stuttgart']), set(['Saarbrucken']))
+ipregion (set(['Baden-Wurttemberg']), set(['Saarland']))
+browserfingerprint (set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']), set(['3ece679cc73e029a7c6d6ca9e86b4c4badd5b105c4cf9c27cebd58fe41ea05aa']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Saarbrucken']), set(['Stuttgart']))
+ipregion (set(['Saarland']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['3ece679cc73e029a7c6d6ca9e86b4c4badd5b105c4cf9c27cebd58fe41ea05aa']), set(['aaaf0b0f13379778ae882904e38203b5852abb50bae8a8f5663f95d1cb9eac0d']))
+====================================
+browserfingerprint (set(['aaaf0b0f13379778ae882904e38203b5852abb50bae8a8f5663f95d1cb9eac0d']), set(['e06c5c219c11623dbbab35256b57df5955ca1664e3404cfc4475a16034ffb7fe']))
+====================================

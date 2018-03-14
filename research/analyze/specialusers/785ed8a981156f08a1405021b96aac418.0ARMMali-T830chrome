@@ -1,0 +1,15 @@
+browserfingerprint (set(['a94b846ea961816c5d41dffe494045aeb94dbd8bd238584548a654e7f28b48a1']), set(['29562325a4d6fb0961cb9eb48d0ce0dfb20b7de89056eb99b6b283a7720ae8ce']))
+====================================
+browserfingerprint (set(['29562325a4d6fb0961cb9eb48d0ce0dfb20b7de89056eb99b6b283a7720ae8ce']), set(['420aa8ac4d6252fdc7ddac8056cae5af130b6ea02c00f1b9283a88df504fc6c9']))
+====================================
+browserfingerprint (set(['420aa8ac4d6252fdc7ddac8056cae5af130b6ea02c00f1b9283a88df504fc6c9']), set(['29562325a4d6fb0961cb9eb48d0ce0dfb20b7de89056eb99b6b283a7720ae8ce']))
+====================================
+agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
+language (set(['de-DE,en-US;q=0.8,ro-RO;q=0.6,ro;q=0.4,de;q=0.2,en;q=0.2']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,ro-RO;q=0.6,ro;q=0.5']))
+browserfingerprint (set(['29562325a4d6fb0961cb9eb48d0ce0dfb20b7de89056eb99b6b283a7720ae8ce']), set(['72588c3c4ec2ac8572e1c8966ad876e27a5548872494ead2fc794fa501083f24']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,ro-RO;q=0.6,ro;q=0.5']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,ro-RO;q=0.6,ro;q=0.5,hu-HU;q=0.4,hu;q=0.3']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['72588c3c4ec2ac8572e1c8966ad876e27a5548872494ead2fc794fa501083f24']), set(['abecb8252ee49819e73c96fc2b04630ffea7cfbaa45846778076efc4e43cef44']))
+====================================

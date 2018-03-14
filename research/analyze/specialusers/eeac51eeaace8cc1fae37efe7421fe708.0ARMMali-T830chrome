@@ -1,0 +1,10 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Freinsheim']), set(['Stuttgart']))
+ipregion (set(['Rheinland-Pfalz']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['4a4bbaaf6c074d5a66b61d71e0a96015009dd4306a3c6c46f0c72ab8f7f2afb5']), set(['0f848fec97786eb5f512ba32fa71c6e19f72748e75d4d9b0d8d719c8488d3999']))
+====================================
+browserfingerprint (set(['0f848fec97786eb5f512ba32fa71c6e19f72748e75d4d9b0d8d719c8488d3999']), set(['38620eef3978c0eb1d2222bb24a3a10cf28fdd0d99da2fb3f48b00eb28d94251']))
+====================================
+browserfingerprint (set(['38620eef3978c0eb1d2222bb24a3a10cf28fdd0d99da2fb3f48b00eb28d94251']), set(['0f848fec97786eb5f512ba32fa71c6e19f72748e75d4d9b0d8d719c8488d3999']))
+====================================

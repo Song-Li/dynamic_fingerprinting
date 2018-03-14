@@ -1,0 +1,11 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+browserfingerprint (set(['8affd08d3a364df114561101db2bdf2422dea1322502ba1a1f08b80807e24823']), set(['c49f5e7a2ccbcd28ee2f2bc3b7bb518c8a2e009accc333f6849aa133c134ea77']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['c49f5e7a2ccbcd28ee2f2bc3b7bb518c8a2e009accc333f6849aa133c134ea77']), set(['14492d9bf7bd227aa314a5def207accd5204b94c1d6e05572aa3820cde038207']))
+====================================
+browserfingerprint (set(['14492d9bf7bd227aa314a5def207accd5204b94c1d6e05572aa3820cde038207']), set(['1bf5f3ff2e985dbe6e84623e6511b115ea49987d225273ebed0017309771820e']))
+====================================
+ipcity (set(['Wieseck']), set(['Darmstadt']))
+browserfingerprint (set(['1bf5f3ff2e985dbe6e84623e6511b115ea49987d225273ebed0017309771820e']), set(['7ce75f6d244b5daba9610c1d2b099e9bc9f7abaa94074f40edd1d46f88d35dc2']))
+====================================

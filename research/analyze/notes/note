@@ -2,3 +2,7 @@
 Abelssoft ano
 
 eef17c2548744daf9d0a5fc0f10057c5ca2c9c33 is shared by chrome and samsungbrowser when update to 6.2, becomes to be170c6399fc45c991f409261c723fbbcadc6222, no chrome anymore
+
+when filter visit us twice or more, and remove fliping, we get something new. canvas from 391219fe2b4ddd613eda0abc5de071cd17af7bab to c3692f002eccf8a1740d73ff02db43885b36e31d, the emoji changed siginificately. Basically from HUAWEI phone, chrome 62 to 63
+
+for huawei, chrome 63 to 64 the text changed. We also observed text change in samsung phones. This maybe lead by chrome update

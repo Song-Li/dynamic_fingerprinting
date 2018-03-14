@@ -1,0 +1,22 @@
+browserfingerprint (set(['e9849c16b2263d1b2f89b003a6a9bf36919685244956056b2939950f03755cd5']), set(['72d606b1b49f4e3cd91d73b2e7c11e4ed83bf363ce04446e78eb84217b141bcd']))
+====================================
+ipcity (set(['Niederstraubing']), set(['Altweg']))
+browserfingerprint (set(['72d606b1b49f4e3cd91d73b2e7c11e4ed83bf363ce04446e78eb84217b141bcd']), set(['af0eeae09c2f0c76f84e5ece2558953be55e837b75efbcbe3cdc8386950e9bb4']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+ipcity (set(['Altweg']), set(['Bensheim']))
+ipregion (set(['Bayern']), set(['Hessen']))
+browserfingerprint (set(['af0eeae09c2f0c76f84e5ece2558953be55e837b75efbcbe3cdc8386950e9bb4']), set(['98db79c447e18f309e110854f6202863b86e56b5822b19509ebb55ea2f0be8dc']))
+====================================
+browserfingerprint (set(['98db79c447e18f309e110854f6202863b86e56b5822b19509ebb55ea2f0be8dc']), set(['928629fe25177f4931483f07a1d891aa7c5163533dca3aa3116cce206e2cc148']))
+====================================
+browserfingerprint (set(['928629fe25177f4931483f07a1d891aa7c5163533dca3aa3116cce206e2cc148']), set(['98db79c447e18f309e110854f6202863b86e56b5822b19509ebb55ea2f0be8dc']))
+====================================
+agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+ipcity (set(['Bensheim']), set(['Nuremberg']))
+ipregion (set(['Hessen']), set(['Bayern']))
+browserfingerprint (set(['98db79c447e18f309e110854f6202863b86e56b5822b19509ebb55ea2f0be8dc']), set(['9c0f9addb3c3c4b1cc16efcbd8175f86ad4814b264669ed5d98b5cf8fab4ac17']))
+====================================
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['9c0f9addb3c3c4b1cc16efcbd8175f86ad4814b264669ed5d98b5cf8fab4ac17']), set(['f1c7c54821689e76028558b3562778b671bd6617df95c8ace2da850190d3cfea']))
+====================================

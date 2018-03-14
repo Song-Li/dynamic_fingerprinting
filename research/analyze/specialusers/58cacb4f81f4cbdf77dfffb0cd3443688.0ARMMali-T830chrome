@@ -1,0 +1,26 @@
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Salzburg']), set(['Vienna']))
+ipregion (set(['Salzburg']), set(['Wien']))
+browserfingerprint (set(['b434209b8095495ec5896032380a3730e73d7050913d6d63530a95500385cb39']), set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']))
+====================================
+browserfingerprint (set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']), set(['7b704ea3dbdd0851f1f3927ab077410adc8970af3a646744f191a0f5aec41e18']))
+====================================
+browserfingerprint (set(['7b704ea3dbdd0851f1f3927ab077410adc8970af3a646744f191a0f5aec41e18']), set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']))
+====================================
+browserfingerprint (set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']), set(['7b704ea3dbdd0851f1f3927ab077410adc8970af3a646744f191a0f5aec41e18']))
+====================================
+browserfingerprint (set(['7b704ea3dbdd0851f1f3927ab077410adc8970af3a646744f191a0f5aec41e18']), set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']))
+====================================
+ipcity (set(['Vienna']), set(['Frankenburg']))
+ipregion (set(['Wien']), set(['Oberosterreich']))
+browserfingerprint (set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']), set(['61e7a93ed2195aaa2f556f4d0626f2569b39a5339d2e0323eb81ed9ce5451e97']))
+====================================
+ipcity (set(['Frankenburg']), set(['Polten', 'Sankt']))
+ipregion (set(['Oberosterreich']), set(['Niederosterreich']))
+browserfingerprint (set(['61e7a93ed2195aaa2f556f4d0626f2569b39a5339d2e0323eb81ed9ce5451e97']), set(['fecb134f15df47e6eaf04b93ca075f9d7c131776a74f568ae076710f6fb69de8']))
+====================================
+ipcity (set(['Polten', 'Sankt']), set(['Graz']))
+ipregion (set(['Niederosterreich']), set(['Steiermark']))
+browserfingerprint (set(['fecb134f15df47e6eaf04b93ca075f9d7c131776a74f568ae076710f6fb69de8']), set(['7c02367a1ae764e7e38ebfb771dda72e53efe753d13423704fef987bdd1f5971']))
+====================================

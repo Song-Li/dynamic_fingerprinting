@@ -1,0 +1,14 @@
+browserfingerprint (set(['eb959a78e4d059e6bea021f2ca232903ddb5d2c64be6d4ef8dc380a55c93dd48']), set(['397443aef5cd218702d8ab87b8fc9345cf5727e83ed586ce6aff67e65d3ddae1']))
+====================================
+agent (set(['Build/NRD90M)', 'SM-T580']), set(['Mobile', 'Build/HUAWEIRNE-L21)', 'RNE-L21']))
+canvastest (set(['88f9a35438201f34381be6425fc61c58c31b5fc1']), set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']))
+browserfingerprint (set(['397443aef5cd218702d8ab87b8fc9345cf5727e83ed586ce6aff67e65d3ddae1']), set(['37466da0a6945cabcbd7d83d5ac0e47f42d3f165b2ea655fa900c78d061ba346']))
+====================================
+browserfingerprint (set(['37466da0a6945cabcbd7d83d5ac0e47f42d3f165b2ea655fa900c78d061ba346']), set(['1f1f85cd2fd6beca6cfd7846c7303db6f0ea35caadbc62845f1d19aa0e9405f7']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['1f1f85cd2fd6beca6cfd7846c7303db6f0ea35caadbc62845f1d19aa0e9405f7']), set(['cdcd4dd17b52241016ce5331ed774de5addf4035ca7ab8a4eb74f5b40f9df5de']))
+====================================
+browserfingerprint (set(['cdcd4dd17b52241016ce5331ed774de5addf4035ca7ab8a4eb74f5b40f9df5de']), set(['a56336da9358d33da02401b4ecba8686fdc0d3ed1855602a39e3c7e4c31b4714']))
+====================================

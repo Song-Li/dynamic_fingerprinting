@@ -1,0 +1,16 @@
+browserfingerprint (set(['2a35c6152f92fdff72571c5bac8133323944b05d157b217ff2fe3f8d37f85386']), set(['01cc34905d207d68b7ccb7a7c8a557de5662a7688f5827f403efdb3230ba5432']))
+====================================
+ipcity (set(['Stuttgart']), set(['Dresden']))
+ipregion (set(['Baden-Wurttemberg']), set(['Sachsen']))
+browserfingerprint (set(['01cc34905d207d68b7ccb7a7c8a557de5662a7688f5827f403efdb3230ba5432']), set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']))
+====================================
+browserfingerprint (set(['1305c181a08a95f98668b8d35d4062521e21ecedcfe24d690e81a0df373bbff3']), set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+browserfingerprint (set(['1b3ea2355dbfa626a92f77180878584f1115755bc9675f5d0277a30f25307c42']), set(['9a948f5931b71de7a3bb575e7335cb45fda3d1d44e4e2a6327e16ebd4b99d907']))
+====================================
+browserfingerprint (set(['9a948f5931b71de7a3bb575e7335cb45fda3d1d44e4e2a6327e16ebd4b99d907']), set(['a90ee85dcea49c79983f828977d120ba340abcdaa50866d2ce8ecc96dfb2f964']))
+====================================
+browserfingerprint (set(['a90ee85dcea49c79983f828977d120ba340abcdaa50866d2ce8ecc96dfb2f964']), set(['9a948f5931b71de7a3bb575e7335cb45fda3d1d44e4e2a6327e16ebd4b99d907']))
+====================================

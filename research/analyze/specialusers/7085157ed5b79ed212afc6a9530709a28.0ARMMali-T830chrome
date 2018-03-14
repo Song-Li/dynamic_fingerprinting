@@ -1,0 +1,19 @@
+ipcity (set(['Dortmund']), set(['Hamburg']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Hamburg']))
+browserfingerprint (set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']), set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Hamburg']), set(['Sargstedter', 'Siedlung']))
+ipregion (set(['Hamburg']), set(['Sachsen-Anhalt']))
+browserfingerprint (set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']), set(['ab6cbb0d6239209e276f85f791620717d534657c4299c8af07cb8fef222e1ff2']))
+====================================
+browserfingerprint (set(['ab6cbb0d6239209e276f85f791620717d534657c4299c8af07cb8fef222e1ff2']), set(['cb120a01bd092aa07e7059a52b135d2110cc788412dbea21f5c4cd465c5d261b']))
+====================================
+browserfingerprint (set(['cb120a01bd092aa07e7059a52b135d2110cc788412dbea21f5c4cd465c5d261b']), set(['ab6cbb0d6239209e276f85f791620717d534657c4299c8af07cb8fef222e1ff2']))
+====================================
+agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+ipcity (set(['Sargstedter', 'Siedlung']), set(['Hamburg']))
+ipregion (set(['Sachsen-Anhalt']), set(['Hamburg']))
+browserfingerprint (set(['ab6cbb0d6239209e276f85f791620717d534657c4299c8af07cb8fef222e1ff2']), set(['c15e97b7acfc769973fdb237899ed24d5b0ebaacf7a98e92e55e9991d58eb4e8']))
+====================================

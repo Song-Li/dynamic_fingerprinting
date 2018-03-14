@@ -1,0 +1,20 @@
+ipcity (set(['Koeln']), set(['Munich']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+browserfingerprint (set(['8c67617a4281decc4fb30e67d6d12fb1b12d7a20f026ce9f86c960204fb41bbf']), set(['a27ca9b44578e5908bcac093ebab8fbcef645a8af5f58ca45d741d254e835b9a']))
+====================================
+ipcity (set(['Munich']), set(['Karlsruhe']))
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['a27ca9b44578e5908bcac093ebab8fbcef645a8af5f58ca45d741d254e835b9a']), set(['a6a1e16be99734e9489a7ffb2ebe3a0b37494ea5dcafaf8c2108a974f5d5282a']))
+====================================
+ipcity (set(['Karlsruhe']), set(['Koeln']))
+ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+browserfingerprint (set(['a6a1e16be99734e9489a7ffb2ebe3a0b37494ea5dcafaf8c2108a974f5d5282a']), set(['8c67617a4281decc4fb30e67d6d12fb1b12d7a20f026ce9f86c960204fb41bbf']))
+====================================
+browserfingerprint (set(['8c67617a4281decc4fb30e67d6d12fb1b12d7a20f026ce9f86c960204fb41bbf']), set(['001b00ed04bc7448d8216022996e2dd258621ebf188c744293d65cf9312d3ffc']))
+====================================
+agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+ipcity (set(['Koeln']), set(['Karlsruhe']))
+ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
+browserfingerprint (set(['001b00ed04bc7448d8216022996e2dd258621ebf188c744293d65cf9312d3ffc']), set(['4690774825dd04239b0b5a758ae76b50ffffda7ced01108a69b94af81d754295']))
+====================================
