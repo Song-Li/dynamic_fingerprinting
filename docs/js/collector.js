@@ -1,6 +1,10 @@
 // this is the record ID of this visit
 // always same as collector.unique_label
 // updated when cookie was handelled
+// for ad block
+ad_element = document.createElement("script");
+ad_element.src = "./test-adv.js";
+document.appendChild(ad_element);
 var recordID = "";
 console.log=function() {}
 console.error=function() {}
@@ -776,7 +780,7 @@ var Collector = function() {
     this.postData['fp2_liedbrowserdetails'] = this.getHasLiedBrowser().split('~')[0];
     this.postData['fp2_webgl'] = calcSHA1(this.getWebglFp());
     this.postData['fp2_webglvendoe'] = this.getWebglVendorAndRenderer();
-    this.postData['adBlock'] = document.getElementById('ad') == null ? 'Yes' : 'No';
+    this.postData['adBlock'] = document.getElementById('RYHmaVMTFnOE') == null ? 'Yes' : 'No';
     this.postData['audio'] = this.audioFingerPrinting(); 
     this.postData['doNotTrack'] = this.getDoNotTrack();
     cvs_test = CanvasTest();
