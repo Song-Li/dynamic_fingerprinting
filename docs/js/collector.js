@@ -4,7 +4,7 @@
 // for ad block
 ad_element = document.createElement("script");
 ad_element.src = "./test-adv.js";
-document.appendChild(ad_element);
+document.body.appendChild(ad_element);
 var recordID = "";
 console.log=function() {}
 console.error=function() {}
