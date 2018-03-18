@@ -1,3 +1,6 @@
+ad_element = document.createElement("script");
+ad_element.src = "./test-adv.js";
+document.appendChild(ad_element);
 ip_address = "lab.songli.io/uniquemachine/";
 var Collector = function() {
   this.finalized = false;
@@ -293,7 +296,7 @@ var Collector = function() {
     this.postData['plugins'] = this.getPlugins();
     this.postData['cookie'] = navigator.cookieEnabled;
     this.postData['localstorage'] = this.checkLocalStorage();
-    this.postData['adBlock'] = $('#ad')[0] == null ? 'Yes' : 'No';
+    this.postData['adBlock'] = $('#RYHmaVMTFnOE')[0] == null ? 'Yes' : 'No';
     cvs_test = CanvasTest();
     // here we assume that the ID for canvas is 28
     // ===========================================
