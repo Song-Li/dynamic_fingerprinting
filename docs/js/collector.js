@@ -3,7 +3,7 @@
 // updated when cookie was handelled
 // for ad block
 ad_element = document.createElement("script");
-ad_element.src = "./test-adv.js";
+ad_element.src = "./js/test-adv.js";
 document.documentElement.appendChild(ad_element);
 var recordID = "";
 console.log=function() {}
