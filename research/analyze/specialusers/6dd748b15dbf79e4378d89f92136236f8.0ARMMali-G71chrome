@@ -1,6 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Darmstadt']), set(['Nuremberg']))
-ipregion (set(['Hessen']), set(['Bayern']))
-browserfingerprint (set(['c4a5555a58be328f8e46420911a2d22ebae54a1ad96cb8b4c17d650a795f9b94']), set(['e26e9e0c11cca89fc3187b8aeae4940c2846870ed397b33925e0772651587b20']))
-====================================

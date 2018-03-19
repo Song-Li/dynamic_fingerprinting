@@ -1,11 +1,10 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Potsdam']), set(['Berlin']))
-ipregion (set(['Brandenburg']), set(['Berlin']))
-browserfingerprint (set(['c046032c3e5cbb0ac6e9dd6f92d589e394b35e4146978da4d86604daad71bc56']), set(['ae1e0df847dae6d86700b99564d399d2e3e29df5ec4db65939d95ec48e74cee0']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Potsdam']), set(['Berlin']))
+
+ipregion ipregion (set(['Brandenburg']), set(['Berlin']))
+
 ====================================
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Berlin']), set(['Potsdam']))
-ipregion (set(['Berlin']), set(['Brandenburg']))
-browserfingerprint (set(['ae1e0df847dae6d86700b99564d399d2e3e29df5ec4db65939d95ec48e74cee0']), set(['e9a1eee0ac20abca939ef24be5103e75e670f8914c146a8c23fe285099f55122']))
 ====================================

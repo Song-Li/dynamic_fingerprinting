@@ -1,22 +1,17 @@
-browserfingerprint (set(['293aee4e8f776a54f499e55ab54b27e5042ae8e9707c5c3ab1b37b660273c3a3']), set(['687219d8591b548e6e1dd3ca7ea91399aa4d65b56edfd64179dba1a9037c6476']))
 ====================================
-browserfingerprint (set(['687219d8591b548e6e1dd3ca7ea91399aa4d65b56edfd64179dba1a9037c6476']), set(['487d691c6985547bbb8a67dbeb92ab017b3f2d1fcc8cf73caadd06f6929ff37c']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Siegen']), set(['Landeck']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Tirol']))
-ipcountry (set(['Germany']), set(['Austria']))
-browserfingerprint (set(['487d691c6985547bbb8a67dbeb92ab017b3f2d1fcc8cf73caadd06f6929ff37c']), set(['49b1d416521b3715105edb65c9afca8fd1c9ef3180c5aec0c309242b0f8fbc59']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Siegen']), set(['Landeck']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Tirol']))
+
+ipcountry ipcountry (set(['Germany']), set(['Austria']))
+
 ====================================
-browserfingerprint (set(['49b1d416521b3715105edb65c9afca8fd1c9ef3180c5aec0c309242b0f8fbc59']), set(['c0fec3b7923ad6297b7e96fce2f064f18bed67dd19d304bb77fc12cf17b2833f']))
 ====================================
-browserfingerprint (set(['c0fec3b7923ad6297b7e96fce2f064f18bed67dd19d304bb77fc12cf17b2833f']), set(['49b1d416521b3715105edb65c9afca8fd1c9ef3180c5aec0c309242b0f8fbc59']))
 ====================================
-ipcity (set(['Landeck']), set(['Siegen']))
-ipregion (set(['Tirol']), set(['Nordrhein-Westfalen']))
-ipcountry (set(['Austria']), set(['Germany']))
-browserfingerprint (set(['49b1d416521b3715105edb65c9afca8fd1c9ef3180c5aec0c309242b0f8fbc59']), set(['0e871ba9e93b8adf71ed3e348f85a03b61d2a20225a00b7e92a7cdae8ef8323d']))
 ====================================
-browserfingerprint (set(['0e871ba9e93b8adf71ed3e348f85a03b61d2a20225a00b7e92a7cdae8ef8323d']), set(['d93108695081389df81fa57834de3533c9ec67800f486551c19f3607f184c795']))
 ====================================

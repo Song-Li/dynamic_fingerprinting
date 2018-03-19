@@ -1,0 +1,9 @@
+plugins plugins (set(['Module~Widevine']), set([]))
+
+jsFonts jsFonts (set(['Gothic_Mangal_Marlett_Meiryo_Meiryo', '7_Browallia', 'Cherokee_PMingLiU_PMingLiU-ExtB_Raavi_Rod_Sakkal', 'New_AngsanaUPC_Aparajita_Arabic', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Humanst', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Medium_Utsaah_Vani_Vijaya_Vrinda_ZWAdobeF', 'Typesetting_Batang_BatangChe_Bauhaus', 'Baiti_MoolBoran_MS', 'Majalla_Shonar', 'Condensed_Constantia_Corbel_Cordia', 'UI_Microsoft', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'Bangla_Shruti_SimHei_Simplified', 'UI_KodchiangUPC_Kokila_Lao', 'BT_IrisUPC_Iskoola', 'UI_Latha_Leelawadee_Levenim', 'FB_Aharoni_Andalus_Angsana', 'Boli_Narkisim_NSimSun_Nyala_Plantagenet', 'BT_EucrosiaUPC_Euphemia_FangSong_FrankRuehl_FreesiaUPC_Gabriola_Gautami_GeoSlab', 'Arabic_Simplified', 'Pro_Miriam_Miriam', 'New_BrowalliaUPC_Candara_Clarendon_Clarendon', 'MT_LilyUPC_Malgun', 'PMincho_MS', 'Uighur_Microsoft', 'Pota_JasmineUPC_KaiTi_Kalinga_Kartika_Khmer', 'Mincho_MS', 'Fixed_Modern', 'Arabic_Tunga_Univers', 'Arabic', 'Fixed_SimSun_SimSun-ExtB_Sylfaen_Traditional']), set(['BT_Malgun', 'Pro_Modern', 'BT_Humanst', 'Medium_ZWAdobeF', 'Boli_NSimSun_PMingLiU-ExtB_SimSun_SimSun-ExtB_Sylfaen_Univers', 'Condensed_Constantia_Corbel_Ebrima_English', 'Gothic_Marlett_Microsoft', 'FB_Bauhaus', '7_Candara_Clarendon_Clarendon', 'Baiti_MS', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'BT_Gabriola_GeoSlab']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Stuttgart']), set(['Ulm']))
+
+====================================

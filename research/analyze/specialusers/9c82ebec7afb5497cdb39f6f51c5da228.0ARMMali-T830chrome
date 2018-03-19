@@ -1,77 +1,37 @@
-browserfingerprint (set(['c210bb15459d496c92c30e6354a3a6b2d77a3fdcc7090ad0eadd5b95890651b6']), set(['7570f1a5af9eb1154e4065b417518bbad6622cb9ad22dce097eb7f658b81bf11']))
 ====================================
-browserfingerprint (set(['7570f1a5af9eb1154e4065b417518bbad6622cb9ad22dce097eb7f658b81bf11']), set(['32fab63fcf4ab3cf26ee991f0cc1364b4faac84573418d6124cbc326ecab08ab']))
 ====================================
-browserfingerprint (set(['32fab63fcf4ab3cf26ee991f0cc1364b4faac84573418d6124cbc326ecab08ab']), set(['7570f1a5af9eb1154e4065b417518bbad6622cb9ad22dce097eb7f658b81bf11']))
 ====================================
-browserfingerprint (set(['7570f1a5af9eb1154e4065b417518bbad6622cb9ad22dce097eb7f658b81bf11']), set(['32fab63fcf4ab3cf26ee991f0cc1364b4faac84573418d6124cbc326ecab08ab']))
 ====================================
-ipcity (set(['Dortmund']), set(['Kassel']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
-browserfingerprint (set(['32fab63fcf4ab3cf26ee991f0cc1364b4faac84573418d6124cbc326ecab08ab']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']))
 ====================================
-ipcity (set(['Kassel']), set(['Erfurt']))
-ipregion (set(['Hessen']), set(['Thuringen']))
-browserfingerprint (set(['f80b19a4ab9e6f8b1066b1cd74bdd722c9cba6efe0e149657d456b8f449951ee']), set(['477cbb347015938e907de7d68f960922d8ea03c9e9ecc46fd42665f510a1e77f']))
 ====================================
-browserfingerprint (set(['477cbb347015938e907de7d68f960922d8ea03c9e9ecc46fd42665f510a1e77f']), set(['daf88f955f47e16b128a44a25b08c925906394ea9d5db1b7bd50713c77023c28']))
 ====================================
-ipcity (set(['Erfurt']), set(['Kassel']))
-ipregion (set(['Thuringen']), set(['Hessen']))
-browserfingerprint (set(['daf88f955f47e16b128a44a25b08c925906394ea9d5db1b7bd50713c77023c28']), set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['a302c0e35f5dd193aa1ef2b3d68defddafb290060baeb0b82d111cfadc8059ba']), set(['a6f002be7148d236be94fc28d8e15473555e8d2e0141899f4e0b708c60277841']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['a6f002be7148d236be94fc28d8e15473555e8d2e0141899f4e0b708c60277841']), set(['978dd9e5ed1adcb28bfa87c76c97b98b0083a0a8892f36d00f4452f9712bcb59']))
 ====================================
-browserfingerprint (set(['978dd9e5ed1adcb28bfa87c76c97b98b0083a0a8892f36d00f4452f9712bcb59']), set(['a6f002be7148d236be94fc28d8e15473555e8d2e0141899f4e0b708c60277841']))
 ====================================
-browserfingerprint (set(['a6f002be7148d236be94fc28d8e15473555e8d2e0141899f4e0b708c60277841']), set(['978dd9e5ed1adcb28bfa87c76c97b98b0083a0a8892f36d00f4452f9712bcb59']))
 ====================================

@@ -1,23 +1,10 @@
-browserfingerprint (set(['dd926630b0aa32479b192ee56a4f27522e90a77e97d02c3e5663f78811aa43f8']), set(['5f4e90556b626cc34987cea0fb35dcd69690bae9cdccf0a07409d2ae57ef7998']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['5f4e90556b626cc34987cea0fb35dcd69690bae9cdccf0a07409d2ae57ef7998']), set(['61a84df6d1032d4235d131bcb6461e246f8ad873bd9854794d0f7d3c50c3b5c9']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-ipcity (set(['Dortmund']), set(['Bad', 'Steben']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
-browserfingerprint (set(['61a84df6d1032d4235d131bcb6461e246f8ad873bd9854794d0f7d3c50c3b5c9']), set(['fb3463f8cf36c03846a8ed5095c574a33b4966195d1700b35868e9a363f4e2e4']))
 ====================================
-ipcity (set(['Bad', 'Steben']), set(['Magdeburg']))
-ipregion (set(['Bayern']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['fb3463f8cf36c03846a8ed5095c574a33b4966195d1700b35868e9a363f4e2e4']), set(['8d69532800d9378b8a425fe3cd237cd8f20c36d7dcacb2c55583bb8149379b4f']))
 ====================================
-browserfingerprint (set(['8d69532800d9378b8a425fe3cd237cd8f20c36d7dcacb2c55583bb8149379b4f']), set(['36e98f56d4e63e37579a340ad76393d0bb47f90c036d0557d0234a0c5227880e']))
 ====================================
-browserfingerprint (set(['36e98f56d4e63e37579a340ad76393d0bb47f90c036d0557d0234a0c5227880e']), set(['664e5916b60a39cf8a8bd86f6059d8b669634f1d117aceeaf2d3a9c85df198e9']))
 ====================================
-browserfingerprint (set(['664e5916b60a39cf8a8bd86f6059d8b669634f1d117aceeaf2d3a9c85df198e9']), set(['36e98f56d4e63e37579a340ad76393d0bb47f90c036d0557d0234a0c5227880e']))
 ====================================
-ipcity (set(['Magdeburg']), set(['Bad', 'Steben']))
-ipregion (set(['Sachsen-Anhalt']), set(['Bayern']))
-browserfingerprint (set(['36e98f56d4e63e37579a340ad76393d0bb47f90c036d0557d0234a0c5227880e']), set(['a940e6c2a6c784a4d30e9170048500045ee0026a3fdd2db0f0ff5c828f13ac47']))
 ====================================

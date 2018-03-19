@@ -1,21 +1,16 @@
-browserfingerprint (set(['3b93a489dac433024d6e0c26beaba514d8c65aebcd62760916a2cac5d4983e3b']), set(['bb614d55c2ae5837adb8f9fa954468edff67215fd1761603a5b7ae134fbbac23']))
 ====================================
-browserfingerprint (set(['bb614d55c2ae5837adb8f9fa954468edff67215fd1761603a5b7ae134fbbac23']), set(['3b93a489dac433024d6e0c26beaba514d8c65aebcd62760916a2cac5d4983e3b']))
 ====================================
-browserfingerprint (set(['3b93a489dac433024d6e0c26beaba514d8c65aebcd62760916a2cac5d4983e3b']), set(['bb614d55c2ae5837adb8f9fa954468edff67215fd1761603a5b7ae134fbbac23']))
 ====================================
-browserfingerprint (set(['bb614d55c2ae5837adb8f9fa954468edff67215fd1761603a5b7ae134fbbac23']), set(['3b93a489dac433024d6e0c26beaba514d8c65aebcd62760916a2cac5d4983e3b']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['3b93a489dac433024d6e0c26beaba514d8c65aebcd62760916a2cac5d4983e3b']), set(['356540961fec010376394ea5757d08576ad0603963728d670b6986b1e5323d47']))
 ====================================
-browserfingerprint (set(['356540961fec010376394ea5757d08576ad0603963728d670b6986b1e5323d47']), set(['00fa5a6a8b8c72c0245f9adc285776ffba61e8947db9e94376634cde927d12d7']))
 ====================================
-browserfingerprint (set(['00fa5a6a8b8c72c0245f9adc285776ffba61e8947db9e94376634cde927d12d7']), set(['356540961fec010376394ea5757d08576ad0603963728d670b6986b1e5323d47']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Rostock']), set(['Vienna']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Wien']))
-ipcountry (set(['Germany']), set(['Austria']))
-browserfingerprint (set(['356540961fec010376394ea5757d08576ad0603963728d670b6986b1e5323d47']), set(['b8b9c264cb34e0f461294e379d4b03e73777c5e2a9a2fbabde2342ea485d356b']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Rostock']), set(['Vienna']))
+
+ipregion ipregion (set(['Mecklenburg-Vorpommern']), set(['Wien']))
+
+ipcountry ipcountry (set(['Germany']), set(['Austria']))
+
 ====================================

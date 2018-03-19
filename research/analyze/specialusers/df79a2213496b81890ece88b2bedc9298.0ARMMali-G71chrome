@@ -1,15 +1,13 @@
-browserfingerprint (set(['67f8c28aa237da2f71673ae28e056a6fe972834a067cd483f09cd19a14721ef7']), set(['6dcea61eec4b393396b1e7ca720c00f52dda0466a8457b6c806fd66554543392']))
 ====================================
-browserfingerprint (set(['6dcea61eec4b393396b1e7ca720c00f52dda0466a8457b6c806fd66554543392']), set(['67f8c28aa237da2f71673ae28e056a6fe972834a067cd483f09cd19a14721ef7']))
 ====================================
-browserfingerprint (set(['67f8c28aa237da2f71673ae28e056a6fe972834a067cd483f09cd19a14721ef7']), set(['6dcea61eec4b393396b1e7ca720c00f52dda0466a8457b6c806fd66554543392']))
 ====================================
-ipcity (set(['Quellen']), set(['Knick']))
-browserfingerprint (set(['6dcea61eec4b393396b1e7ca720c00f52dda0466a8457b6c806fd66554543392']), set(['84dffd2a8fe65bbbad3e5633c8944c277b605df6ca2130ecffb22aefae7d1a04']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Knick']), set(['Hamburg']))
-ipregion (set(['Niedersachsen']), set(['Hamburg']))
-browserfingerprint (set(['84dffd2a8fe65bbbad3e5633c8944c277b605df6ca2130ecffb22aefae7d1a04']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Knick']), set(['Hamburg']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Hamburg']))
+
 ====================================

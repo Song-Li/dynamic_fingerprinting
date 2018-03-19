@@ -1,17 +1,8 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['a3245cebab7e63533f10d463fcafa7605f999c2d56b71bcf3c7c59fbae3d77a4']), set(['46d2e6164564416f76597c2ac623e90e2ba92933db4f78cdfb95c2bdab2b6342']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['46d2e6164564416f76597c2ac623e90e2ba92933db4f78cdfb95c2bdab2b6342']), set(['eec2caf1f8a9de247fd458cee9da3348aff6661d76c972bac3212a3780aa9b4f']))
 ====================================
-browserfingerprint (set(['eec2caf1f8a9de247fd458cee9da3348aff6661d76c972bac3212a3780aa9b4f']), set(['46d2e6164564416f76597c2ac623e90e2ba92933db4f78cdfb95c2bdab2b6342']))
 ====================================
-ipcity (set(['Stuttgart']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
-browserfingerprint (set(['46d2e6164564416f76597c2ac623e90e2ba92933db4f78cdfb95c2bdab2b6342']), set(['50937e3c3c8aa1e38646e48b765b2f3fc3063b3366a2050cd7338447c1960cbc']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Stuttgart']))
-ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['50937e3c3c8aa1e38646e48b765b2f3fc3063b3366a2050cd7338447c1960cbc']), set(['eec2caf1f8a9de247fd458cee9da3348aff6661d76c972bac3212a3780aa9b4f']))
 ====================================
-browserfingerprint (set(['eec2caf1f8a9de247fd458cee9da3348aff6661d76c972bac3212a3780aa9b4f']), set(['46d2e6164564416f76597c2ac623e90e2ba92933db4f78cdfb95c2bdab2b6342']))
 ====================================

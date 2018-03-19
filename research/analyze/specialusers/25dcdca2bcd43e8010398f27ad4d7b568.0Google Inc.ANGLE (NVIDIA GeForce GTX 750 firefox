@@ -1,0 +1,7 @@
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+jsFonts jsFonts (set(['Narrow_Arial', 'Black_Arial']), set([]))
+
+ipcity ipcity (set(['Bernhausen']), set(['Ulm']))
+
+====================================

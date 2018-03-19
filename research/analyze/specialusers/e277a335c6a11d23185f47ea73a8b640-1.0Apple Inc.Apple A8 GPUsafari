@@ -1,0 +1,9 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+language language (set(['de-de']), set(['it-it']))
+
+ipcity ipcity (set(['Enzersdorf', 'Maria']), set(['Vienna']))
+
+ipregion ipregion (set(['Niederosterreich']), set(['Wien']))
+
+====================================

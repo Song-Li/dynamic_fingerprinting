@@ -1,35 +1,15 @@
-ipcity (set(['Paris']), set(['del', 'Carmen', 'Playa']))
-ipregion (set(['Ile-de-France']), set(['Quintana', 'Roo']))
-ipcountry (set(['France']), set(['Mexico']))
-browserfingerprint (set(['becd32070cb3cab56dfc75b51ace6477bd425be9691ae08d37dcdd78e6452d1c']), set(['c5456e141b4435a45ae4cad72212c1af2a24022d82829823254863a116be0e3e']))
 ====================================
-ipcity (set(['del', 'Carmen', 'Playa']), set(['Cancun']))
-browserfingerprint (set(['c5456e141b4435a45ae4cad72212c1af2a24022d82829823254863a116be0e3e']), set(['e760afa5346d281a636270e933a7e2c25631901e111caf91813e4f8efc36d678']))
 ====================================
-browserfingerprint (set(['e760afa5346d281a636270e933a7e2c25631901e111caf91813e4f8efc36d678']), set(['eb57faf9d18340a846f68d9456c8bd862372cef689fb51fa796002e93b07492f']))
 ====================================
-ipcity (set(['Cancun']), set(['del', 'Carmen', 'Playa']))
-browserfingerprint (set(['eb57faf9d18340a846f68d9456c8bd862372cef689fb51fa796002e93b07492f']), set(['c03843b46590a7f7a07872ebffd27733c23d7ff8b6c2ed04f5910a80281fbce2']))
 ====================================
-browserfingerprint (set(['c03843b46590a7f7a07872ebffd27733c23d7ff8b6c2ed04f5910a80281fbce2']), set(['c5456e141b4435a45ae4cad72212c1af2a24022d82829823254863a116be0e3e']))
 ====================================
-timezone (set(['-60.0']), set(['300.0']))
-ipcity (set(['del', 'Carmen', 'Playa']), set(['Chetumal']))
-browserfingerprint (set(['c5456e141b4435a45ae4cad72212c1af2a24022d82829823254863a116be0e3e']), set(['183152bcc8b404a4e389ecbc961d7173628aa5c9daf5fd5bc58bb3c93c270b39']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Chetumal']), set(['del', 'Carmen', 'Playa']))
-browserfingerprint (set(['183152bcc8b404a4e389ecbc961d7173628aa5c9daf5fd5bc58bb3c93c270b39']), set(['c92c2ff24d9ebe155aaf86af29951f5f5fd8d416f8ca0d13e91d95bc6c7cc53a']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Chetumal']), set(['del', 'Carmen', 'Playa']))
+
 ====================================
-browserfingerprint (set(['c92c2ff24d9ebe155aaf86af29951f5f5fd8d416f8ca0d13e91d95bc6c7cc53a']), set(['75bc54101ab13bf561e0d5b797707782581dc103cc14569ddbade40bd7b41e82']))
 ====================================
-timezone (set(['300.0']), set(['-60.0']))
-ipcity (set(['del', 'Carmen', 'Playa']), set(['Ramstein-Miesenbach']))
-ipregion (set(['Quintana', 'Roo']), set(['Rheinland-Pfalz']))
-ipcountry (set(['Mexico']), set(['Germany']))
-browserfingerprint (set(['75bc54101ab13bf561e0d5b797707782581dc103cc14569ddbade40bd7b41e82']), set(['b4549c3c5df0ced83a094a2c2abed22d9a1d80b555afb9d7408c41972ed39f9a']))
 ====================================
-browserfingerprint (set(['b4549c3c5df0ced83a094a2c2abed22d9a1d80b555afb9d7408c41972ed39f9a']), set(['af52d828bd9b7ac2d108815ca5de341584013e286d8ea27e71fe63f8ae9c4b57']))
 ====================================
-browserfingerprint (set(['af52d828bd9b7ac2d108815ca5de341584013e286d8ea27e71fe63f8ae9c4b57']), set(['b4549c3c5df0ced83a094a2c2abed22d9a1d80b555afb9d7408c41972ed39f9a']))
 ====================================

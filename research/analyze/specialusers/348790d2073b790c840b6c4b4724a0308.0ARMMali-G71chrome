@@ -1,9 +1,0 @@
-browserfingerprint (set(['cb887c00ad67292a01e326037f2290b004910304066929ecf707fe627abc212a']), set(['9397e47401e9a9a3d36c45b63463860062825aa7363a65914677c33ecb7f9c0b']))
-====================================
-browserfingerprint (set(['9397e47401e9a9a3d36c45b63463860062825aa7363a65914677c33ecb7f9c0b']), set(['cb887c00ad67292a01e326037f2290b004910304066929ecf707fe627abc212a']))
-====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hanover']), set(['Dortmund']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['cb887c00ad67292a01e326037f2290b004910304066929ecf707fe627abc212a']), set(['be73c6397f92b5d9455629f1185c30669279d3bc22311bd56da73932786ebfd1']))
-====================================

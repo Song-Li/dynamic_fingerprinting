@@ -1,10 +1,8 @@
-browserfingerprint (set(['f707d5370f1b97308188144be873a18a9dc83a1fdddfc1e681eaf5d4067d7067']), set(['3285ef904cf10e1c8e84ea5b1a0711b654a14f2e45a8ec96060c3ba0fc89a330']))
 ====================================
-browserfingerprint (set(['3285ef904cf10e1c8e84ea5b1a0711b654a14f2e45a8ec96060c3ba0fc89a330']), set(['f707d5370f1b97308188144be873a18a9dc83a1fdddfc1e681eaf5d4067d7067']))
 ====================================
-browserfingerprint (set(['f707d5370f1b97308188144be873a18a9dc83a1fdddfc1e681eaf5d4067d7067']), set(['0106fb45263bad02a9caee8ed0974b15b76ecfdff49f8def6c6a5d180b2aa297']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['0106fb45263bad02a9caee8ed0974b15b76ecfdff49f8def6c6a5d180b2aa297']), set(['21359b194711bc5df8b3f6f2cf833e233fc0b81deaa5739768fe8154e48f25be']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

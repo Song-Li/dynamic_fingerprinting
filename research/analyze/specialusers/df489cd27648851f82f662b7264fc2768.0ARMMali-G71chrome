@@ -1,5 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Mainz']), set(['Bad', 'Kreuznach']))
-browserfingerprint (set(['629c7d2e8ffeb61d4f1b9781eb54fb6847521e505e9debdcc5e1b0fe567918e5']), set(['bf7c69c70186f8b88fe9061d08d970620f40ff608627ba4bf8657de007ef3f3a']))
-====================================

@@ -1,0 +1,9 @@
+agent agent (set(['Version/4.0', 'Build/HUAWEIVNS-L31;', 'wv)']), set(['Build/HUAWEIVNS-L31)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+ipcity ipcity (set(['Karlsruhe']), set(['Freiburg']))
+
+====================================

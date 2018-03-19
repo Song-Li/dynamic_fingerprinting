@@ -1,15 +1,12 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nuremberg']), set(['Darmstadt']))
-ipregion (set(['Bayern']), set(['Hessen']))
-browserfingerprint (set(['02fe72657ebaf3983a4b8944698e734a4855ebcbccc357f1511cbc992c8a5cd5']), set(['b34d1966f67c83b40e7fe290625a5c92a9ad9c7d7c912f0e6ffd07c1934cc0d5']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Darmstadt']))
+
+ipregion ipregion (set(['Bayern']), set(['Hessen']))
+
 ====================================
-browserfingerprint (set(['b34d1966f67c83b40e7fe290625a5c92a9ad9c7d7c912f0e6ffd07c1934cc0d5']), set(['483deed779e69ff77828e3a7624d74d5cfe4c2f311dc7d9215aa7461889ddc9a']))
 ====================================
-browserfingerprint (set(['483deed779e69ff77828e3a7624d74d5cfe4c2f311dc7d9215aa7461889ddc9a']), set(['b34d1966f67c83b40e7fe290625a5c92a9ad9c7d7c912f0e6ffd07c1934cc0d5']))
 ====================================
-browserfingerprint (set(['b34d1966f67c83b40e7fe290625a5c92a9ad9c7d7c912f0e6ffd07c1934cc0d5']), set(['483deed779e69ff77828e3a7624d74d5cfe4c2f311dc7d9215aa7461889ddc9a']))
 ====================================
-browserfingerprint (set(['483deed779e69ff77828e3a7624d74d5cfe4c2f311dc7d9215aa7461889ddc9a']), set(['b34d1966f67c83b40e7fe290625a5c92a9ad9c7d7c912f0e6ffd07c1934cc0d5']))
 ====================================
-browserfingerprint (set(['b34d1966f67c83b40e7fe290625a5c92a9ad9c7d7c912f0e6ffd07c1934cc0d5']), set(['483deed779e69ff77828e3a7624d74d5cfe4c2f311dc7d9215aa7461889ddc9a']))
 ====================================

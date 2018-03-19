@@ -1,13 +1,13 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dusseldorf']), set(['Loffingen']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['0664789aeaa245a88da12a2d047891d47f7b8976afd205efda54406e6ff2a0b2']), set(['16687750a757b97ea9d9409bb1850c900b49175775b3be116b98393804012183']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Loffingen']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
+
 ====================================
-ipcity (set(['Loffingen']), set(['Augsburg-Lechviertel']))
-ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
-browserfingerprint (set(['16687750a757b97ea9d9409bb1850c900b49175775b3be116b98393804012183']), set(['c653976de90f5abf263651fc2a80b96b222a0e2233f0cf14a23d705bc00f762f']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
-browserfingerprint (set(['c653976de90f5abf263651fc2a80b96b222a0e2233f0cf14a23d705bc00f762f']), set(['3406ae11d7fa209e343de76d4791a1bcd52ab5abf19e1e69748d4cdecddf2057']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+
 ====================================

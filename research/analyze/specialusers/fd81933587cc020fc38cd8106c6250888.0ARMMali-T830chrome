@@ -1,14 +1,13 @@
-browserfingerprint (set(['923f02bcfb60c66345c28232ce8ea28ae8ecaef6e14b05f6d0a21b6d29b10e38']), set(['02cf720591af5e8fa0e5635c117f636b274c3f0c20210658edcd3b3d15cd3950']))
 ====================================
-browserfingerprint (set(['02cf720591af5e8fa0e5635c117f636b274c3f0c20210658edcd3b3d15cd3950']), set(['923f02bcfb60c66345c28232ce8ea28ae8ecaef6e14b05f6d0a21b6d29b10e38']))
 ====================================
-browserfingerprint (set(['923f02bcfb60c66345c28232ce8ea28ae8ecaef6e14b05f6d0a21b6d29b10e38']), set(['02cf720591af5e8fa0e5635c117f636b274c3f0c20210658edcd3b3d15cd3950']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Graz']), set(['Gmunden']))
-ipregion (set(['Steiermark']), set(['Oberosterreich']))
-browserfingerprint (set(['02cf720591af5e8fa0e5635c117f636b274c3f0c20210658edcd3b3d15cd3950']), set(['4b504685a68ee011f68b22d435b7cbc724cecdf589bdeff75f9e522cbd92e348']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Graz']), set(['Gmunden']))
+
+ipregion ipregion (set(['Steiermark']), set(['Oberosterreich']))
+
 ====================================
-browserfingerprint (set(['4b504685a68ee011f68b22d435b7cbc724cecdf589bdeff75f9e522cbd92e348']), set(['dea8e7759eb3c91a73f1226681724a0aef64a483a66e84504392e524def008ee']))
 ====================================

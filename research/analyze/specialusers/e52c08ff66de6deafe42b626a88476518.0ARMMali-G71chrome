@@ -1,9 +1,9 @@
-browserfingerprint (set(['7fa9784199f0867cdb5f358aedda23650f0f0b75e4db051f3888cd2f94f40db7']), set(['29220656b4d2b32c620a1198a87428d88aa5cd79395b6f58348f2ed95804fe32']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Freiburg']), set(['Dusseldorf']))
-ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['29220656b4d2b32c620a1198a87428d88aa5cd79395b6f58348f2ed95804fe32']), set(['058f31792cd3e8c9750cb44025c7e97ca12dcf93122177be6f793d912298e742']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Freiburg']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+
 ====================================
-browserfingerprint (set(['058f31792cd3e8c9750cb44025c7e97ca12dcf93122177be6f793d912298e742']), set(['ad6b73dadeff25ffd201ad1a85356a66f68b50c8f06e755973b54ab349ba8452']))
 ====================================

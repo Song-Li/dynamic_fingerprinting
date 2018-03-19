@@ -1,13 +1,9 @@
-browserfingerprint (set(['c64c831302509c8403e7a6476c71898853c0c16d36ed0d0890ec2dc8809578ea']), set(['085b6ce855f78764cc1ad74694fcb87bd1ba647c352f1f5af1849fe4011cda6e']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Wuerzburg']), set(['Vorderreuth']))
-browserfingerprint (set(['085b6ce855f78764cc1ad74694fcb87bd1ba647c352f1f5af1849fe4011cda6e']), set(['b7a4e026e42d81e5c35bc49fa1158f59edf84633cc22967648e77c704c696691']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Wuerzburg']), set(['Vorderreuth']))
+
 ====================================
-browserfingerprint (set(['b7a4e026e42d81e5c35bc49fa1158f59edf84633cc22967648e77c704c696691']), set(['ff4a0889c0dc6428d51c1391fa5862e0b0694782bb43d735eb37a2ceebbea44e']))
 ====================================
-browserfingerprint (set(['ff4a0889c0dc6428d51c1391fa5862e0b0694782bb43d735eb37a2ceebbea44e']), set(['b7a4e026e42d81e5c35bc49fa1158f59edf84633cc22967648e77c704c696691']))
 ====================================
-ipcity (set(['Vorderreuth']), set(['Wuerzburg']))
-browserfingerprint (set(['b7a4e026e42d81e5c35bc49fa1158f59edf84633cc22967648e77c704c696691']), set(['13bb4b5b6dbeb294d44afcaab84122228e73f735d23053cd1bd9ea46d6702555']))
 ====================================

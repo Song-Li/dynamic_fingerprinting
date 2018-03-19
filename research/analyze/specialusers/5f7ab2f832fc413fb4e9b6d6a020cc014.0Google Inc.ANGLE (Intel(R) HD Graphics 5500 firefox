@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria', 'Boli_NSimSun_PMingLiU-ExtB_Roman_SimSun_SimSun-ExtB_Small']), set(['Light_Segoe', 'Semibold_Segoe', 'Bold_SimSun_SimSun-ExtB_Small', 'Arial_Arial', 'Boli_NSimSun_PMingLiU-ExtB_Roman_Script', 'MT', 'Black_Calibri_Cambria_Cambria']))
+
+ipcity ipcity (set(['Karlsruhe']), set(['Freudenstadt']))
+
+====================================

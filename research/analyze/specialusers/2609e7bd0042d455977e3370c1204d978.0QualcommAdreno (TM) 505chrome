@@ -1,27 +1,13 @@
-browserfingerprint (set(['99b941749084ebdf65ac651a411f72fff1c31c19124652bb9c937258594364d9']), set(['3974f0452c55334b87e503bdc9adbba445eb592b97566ca30d56a56ed279f91b']))
 ====================================
-browserfingerprint (set(['3974f0452c55334b87e503bdc9adbba445eb592b97566ca30d56a56ed279f91b']), set(['a6b75fde64b96655fb16fafbb7e2cfa0094d4f8ce34911e200dce7853c938d05']))
 ====================================
-browserfingerprint (set(['a6b75fde64b96655fb16fafbb7e2cfa0094d4f8ce34911e200dce7853c938d05']), set(['99b941749084ebdf65ac651a411f72fff1c31c19124652bb9c937258594364d9']))
 ====================================
-browserfingerprint (set(['99b941749084ebdf65ac651a411f72fff1c31c19124652bb9c937258594364d9']), set(['3974f0452c55334b87e503bdc9adbba445eb592b97566ca30d56a56ed279f91b']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Aachen']), set(['Dusseldorf']))
-browserfingerprint (set(['3974f0452c55334b87e503bdc9adbba445eb592b97566ca30d56a56ed279f91b']), set(['18638e2d5efd77e31c997135f7d6b25e196f88dfef2fbe6d9b18ff9007f06a0b']))
 ====================================
-browserfingerprint (set(['18638e2d5efd77e31c997135f7d6b25e196f88dfef2fbe6d9b18ff9007f06a0b']), set(['a33a1364e93cd88b7c3f2f5c554bc97a4fa01ff504bd350dbeea085bd82ff864']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dusseldorf']), set(['Kleve']))
-browserfingerprint (set(['a33a1364e93cd88b7c3f2f5c554bc97a4fa01ff504bd350dbeea085bd82ff864']), set(['154681aaa62dc984a37cba04a175f7ab6c8ae9024ad2d71166d2fe380ba36e96']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Kleve']))
+
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-ipcity (set(['Kleve']), set(['Aachen']))
-browserfingerprint (set(['154681aaa62dc984a37cba04a175f7ab6c8ae9024ad2d71166d2fe380ba36e96']), set(['ebbaa2ec36bc521216792b26966798245a2995bf3f0adc5b413ee39ffdfaa450']))
 ====================================
-agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Aachen']), set(['Osnabruck']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['ebbaa2ec36bc521216792b26966798245a2995bf3f0adc5b413ee39ffdfaa450']), set(['bf09b590bb12bc7e1b82373b9fc5d34e7773901e52559b2f5c659a08edfeb7b9']))
 ====================================

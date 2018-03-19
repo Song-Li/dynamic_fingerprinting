@@ -1,7 +1,0 @@
-browserfingerprint (set(['ac80293249b44a0d912a8006dc93d5fabb41b0b96a0a12f99ac8d07de77d0c6f']), set(['97e2fa7bdb86f62c99ddc1654057319d30f5f3f38dbf5b02fb6fd1911e39f106']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Augsburg-Lechviertel']), set(['Nuremberg']))
-browserfingerprint (set(['97e2fa7bdb86f62c99ddc1654057319d30f5f3f38dbf5b02fb6fd1911e39f106']), set(['b533c56ea2fb696292875db1116cbda8cc71305fda8e648963b1b870d467a1aa']))
-====================================

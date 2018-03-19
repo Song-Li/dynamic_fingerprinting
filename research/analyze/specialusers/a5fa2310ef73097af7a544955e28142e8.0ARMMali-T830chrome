@@ -1,11 +1,10 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hameln']), set(['Hanover']))
-browserfingerprint (set(['4cb0b94ad74630631968b9896d48d0f7399612944580029c1ae94ed0146fdb8a']), set(['380a06d2fee5c04bb412b395f06b94b5aaa3ddbe0edf5c8b417c16682c77127a']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Hameln']), set(['Hanover']))
+
 ====================================
-browserfingerprint (set(['380a06d2fee5c04bb412b395f06b94b5aaa3ddbe0edf5c8b417c16682c77127a']), set(['75e3fcbdd4529cbbd69c4bd32841f27fb877b31a8d4599387ca005971b0310a4']))
 ====================================
-browserfingerprint (set(['75e3fcbdd4529cbbd69c4bd32841f27fb877b31a8d4599387ca005971b0310a4']), set(['380a06d2fee5c04bb412b395f06b94b5aaa3ddbe0edf5c8b417c16682c77127a']))
 ====================================
-browserfingerprint (set(['380a06d2fee5c04bb412b395f06b94b5aaa3ddbe0edf5c8b417c16682c77127a']), set(['75e3fcbdd4529cbbd69c4bd32841f27fb877b31a8d4599387ca005971b0310a4']))
 ====================================

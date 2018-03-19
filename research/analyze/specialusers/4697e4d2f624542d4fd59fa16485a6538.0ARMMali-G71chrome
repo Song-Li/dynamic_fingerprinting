@@ -1,4 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['14aca2f332720768ae685af0015ac569f52a1ce69d5010962095f0584d081838']), set(['85a1d87b722bd425344272b41e295e2ef0b115c8ee2659b1f68e811b91a8dd1f']))
-====================================

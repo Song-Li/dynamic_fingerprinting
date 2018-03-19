@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Black_Calibri_Cambria_Cambria']))
+
+canvastest canvastest (set(['168b580e80f296d2a5ebcbca843b4f4f4412c0c5']), set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']))
+
+====================================

@@ -1,17 +1,10 @@
-browserfingerprint (set(['f031048927920742f00c041f171f7677efa115aad133ae82713b09d5fea50352']), set(['8505827f854f179da380a13f8a32107075cb0abe332adb94a09e536913edbd2d']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Spreewitz']), set(['Dresden']))
-browserfingerprint (set(['8505827f854f179da380a13f8a32107075cb0abe332adb94a09e536913edbd2d']), set(['d070d546e8c3c66cca58fbe46de92ec3936b39e8a658b68126b8a7c1cfbd2e54']))
 ====================================
-browserfingerprint (set(['d070d546e8c3c66cca58fbe46de92ec3936b39e8a658b68126b8a7c1cfbd2e54']), set(['6c26ecbe98016a47bb06f2a10e2ae7871c11e7ae939935daefdafde233e5cd84']))
 ====================================
-ipcity (set(['Dresden']), set(['Zwickau']))
-browserfingerprint (set(['6c26ecbe98016a47bb06f2a10e2ae7871c11e7ae939935daefdafde233e5cd84']), set(['09137a98ddbd4ec487e0245122f0a1270d9b243dcd5858008b474b9caf0e38e3']))
 ====================================
-browserfingerprint (set(['09137a98ddbd4ec487e0245122f0a1270d9b243dcd5858008b474b9caf0e38e3']), set(['8f1313142ff1379f092c14d36d474da5ddd03f3a96a265ef4e625b782c4a7162']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Zwickau']), set(['Dresden']))
-browserfingerprint (set(['8f1313142ff1379f092c14d36d474da5ddd03f3a96a265ef4e625b782c4a7162']), set(['9e96a46b92cd088b790483e2aa3cc6577283c35809313c17bad100122b1a9cce']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Zwickau']), set(['Dresden']))
+
 ====================================

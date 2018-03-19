@@ -1,18 +1,11 @@
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-timezone (set(['-120.0']), set(['-60.0']))
-ipcity (set(['Chemnitz']), set(['Gera']))
-ipregion (set(['Sachsen']), set(['Thuringen']))
-browserfingerprint (set(['ce7cf3648ab31ec681bfda61829f994ac3de1a9178cbe4b0ed6e31f2b56faa3d']), set(['65c7a7438aa298f238574bcb863feb72bf011d0285319d614ac02a7b3993077c']))
 ====================================
-browserfingerprint (set(['65c7a7438aa298f238574bcb863feb72bf011d0285319d614ac02a7b3993077c']), set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']))
 ====================================
-browserfingerprint (set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']), set(['65c7a7438aa298f238574bcb863feb72bf011d0285319d614ac02a7b3993077c']))
 ====================================
-browserfingerprint (set(['65c7a7438aa298f238574bcb863feb72bf011d0285319d614ac02a7b3993077c']), set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Gera']), set(['Siemerode']))
-browserfingerprint (set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']), set(['4c7df55e706c7832eafd3339231274678f4555a91997ca25aeda01dacd43dc94']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Gera']), set(['Siemerode']))
+
 ====================================

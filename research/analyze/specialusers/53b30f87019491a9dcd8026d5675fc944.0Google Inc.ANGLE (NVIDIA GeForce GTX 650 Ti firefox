@@ -1,0 +1,5 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['BT_Harrington_Humanst', 'Richard_Pristina_Ravie_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small', 'MT_Goudy', '93_Blackadder', 'ITC_Broadway_Brush', 'Boli_NSimSun_Old', 'Arial_Book', 'Gothic_Corbel_Curlz', 'MT_Candara_Castellar_Charlesworth_Chiller_Clarendon_Constantia_Copperplate']), set(['Light_Segoe', 'Bold_SimSun_SimSun-ExtB_Small', 'Light_Corbel_Curlz', 'Italic_Harrington_Humanst', 'Extended_Old', 'A', 'Narrow_Arial', 'Richard_Pristina_Rage', 'Bold_Roman_Script_Script', 'Condensed_Gill', 'Italic_Ravie_Rockwell_Rockwell', 'MT_Candara_Castellar_Charlesworth_Chiller_Clarendon_Constantia_Cooper', 'Black_Copperplate', 'Bold_Broadway_Brush', 'ITC_Britannic', 'Bold_Book', 'Gothic_Copperplate', 'Boli_NSimSun_OCR', 'Condensed_Blackadder', 'Arial_Arial', 'Solid', 'Bold_Goudy', 'Black_Arial', 'Ultra', 'Bold_Copperplate', 'BT_Harlow', 'MT_Gill', 'Semibold_Segoe', 'Rounded', '93_Bernard', 'Extra', 'Gothic']))
+
+====================================

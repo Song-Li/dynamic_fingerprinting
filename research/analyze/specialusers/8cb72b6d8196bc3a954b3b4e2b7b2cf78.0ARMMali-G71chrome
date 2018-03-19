@@ -1,13 +1,9 @@
-browserfingerprint (set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']), set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']))
 ====================================
-browserfingerprint (set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']), set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']))
 ====================================
-browserfingerprint (set(['41d0f43db792f5eb7c884e712df66feeccac4d926857085199750c1865958e6c']), set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']))
 ====================================
-ipcity (set(['Ingolstadt']), set(['Munich']))
-browserfingerprint (set(['45b353ac9a1be3778a93ef4b144357baccf5e05cc9e5e362caf8fba6ea2e3294']), set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Munich']), set(['Ingolstadt']))
-browserfingerprint (set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']), set(['042e768b278d606c0aeab21510739a2975291b5f067bc25106597621b7b4558c']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Munich']), set(['Ingolstadt']))
+
 ====================================

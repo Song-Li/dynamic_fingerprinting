@@ -1,17 +1,13 @@
-browserfingerprint (set(['21ff7af65c900760410dfc699ba9823b7324ce40d86a214a7d95c6ee9af4de96']), set(['f25e4e6cc3b5176bde9f07431256597d04daa1dfd7e9bbb9e55503eba8cf1c3c']))
 ====================================
-agent (set(['Chrome/62.0.3202.73']), set(['Chrome/62.0.3202.84']))
-browserfingerprint (set(['f25e4e6cc3b5176bde9f07431256597d04daa1dfd7e9bbb9e55503eba8cf1c3c']), set(['6ff410fe4d3f6b1b12b1e5c9546a9a92a77ae214e929fbac0c63267d5f363579']))
 ====================================
-browserfingerprint (set(['6ff410fe4d3f6b1b12b1e5c9546a9a92a77ae214e929fbac0c63267d5f363579']), set(['0451c5ea338cd488932c831cd9d05646b33bbacdb6de5d52068872f6c11f0dac']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Dikjendeel']), set(['Augsburg']))
-browserfingerprint (set(['0451c5ea338cd488932c831cd9d05646b33bbacdb6de5d52068872f6c11f0dac']), set(['a70ba2e6232c102b97facdf6342592c9ac1cb5a040c178b7fe2ec5477d26e5c0']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Augsburg']), set(['Rostock']))
-ipregion (set(['Schleswig-Holstein']), set(['Mecklenburg-Vorpommern']))
-browserfingerprint (set(['a70ba2e6232c102b97facdf6342592c9ac1cb5a040c178b7fe2ec5477d26e5c0']), set(['291fb7acd5800d2e502f0885451ec3dfd5c89d0cd4dbf0d95227e50d490c0647']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Augsburg']), set(['Rostock']))
+
+ipregion ipregion (set(['Schleswig-Holstein']), set(['Mecklenburg-Vorpommern']))
+
 ====================================

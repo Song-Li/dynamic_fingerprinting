@@ -1,0 +1,5 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Gothic_Corbel_Ebrima_English', 'Arial_Calibri_Cambria_Cambria']), set(['Gothic_Copperplate', 'Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Light_Corbel_Ebrima_English', 'Gothic', 'Black_Calibri_Cambria_Cambria', 'Bold_Copperplate']))
+
+====================================

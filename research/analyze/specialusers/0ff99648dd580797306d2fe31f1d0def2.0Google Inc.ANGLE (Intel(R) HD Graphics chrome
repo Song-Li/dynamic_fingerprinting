@@ -1,0 +1,13 @@
+agent agent (set(['Chrome/55.0.2883.75', 'Maxthon/5.1.3.2000', 'WOW64)']), set(['Win64;', 'Chrome/63.0.3239.132', 'x64)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['hu-HU']), set(['en-US,en;q=0.9']))
+
+plugins plugins (set(['Update~MXPDFVIEWERPLUGIN~Mx', 'Google', 'Viewer~Shockwave', 'Flash~Widevine']), set(['Viewer~Native', 'Chrome', 'Client~Widevine', 'Plugin~Chrome']))
+
+jsFonts jsFonts (set(['Sans_Gill']), set([]))
+
+canvastest canvastest (set(['63c485b5561fcc7017e7ba76e33da23c0b027f13']), set(['14578bcaee87ff6fe7fee38ddfa2306a7e3b0a0a']))
+
+====================================

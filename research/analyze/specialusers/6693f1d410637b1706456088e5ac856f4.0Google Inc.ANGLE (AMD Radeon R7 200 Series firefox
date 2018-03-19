@@ -1,0 +1,11 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Solid_NSimSun_Old', 'Stout_Haettenschweiler_Harrington_High', 'FB_Blackadder', 'MT_Constantia_Copperplate', 'MT_Goudy', 'Serif_Palatino', 'MT_Bookshelf', 'ITC_Tw', 'Titling_Forte_Freestyle', 'MT_Univers', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'ITC_Broadway_Brush', 'Arial_Book', 'Richard_Pristina_Ravie_Rockwell_Roman_Script_Showcard', 'Gothic_Corbel_Curlz']), set(['Light_Segoe', 'Condensed_Rockwell', 'Demi_Bernard', 'PRO_Palatino', 'Light_Corbel_Curlz', 'Extended_Old', 'FB', 'A', 'Narrow_Arial', 'Condensed_Bodoni', 'Bold_Showcard', 'Richard_Pristina_Rage', 'Bold_Roman_Script_Script', 'Arial_Arial', 'Italic_Harrington_High', 'Condensed', 'Bold', 'Italic_Ravie_Rockwell_Rockwell', 'Pro_Mistral_Modern', 'Poster', 'Black_Copperplate', 'Bold_Copperplate', 'ITC_TRAJAN', 'Bold_Gill', 'Compressed_Bookshelf', 'ITC_Britannic', 'Light_Forte_Freestyle', 'FB_Berlin', 'Solid_NSimSun_OCR', 'Gothic_Copperplate', 'Condensed_Gill', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'Solid', 'MT_Constantia_Cooper', 'Serif_MYRIAD', 'Bold_Broadway_Brush', 'Stout_Haettenschweiler_Harlow', 'PRO_Tw', 'Condensed_Tw', 'Ext', 'Semibold_Segoe', 'Black_Arial', 'Ultra', 'Bold_Univers', 'Bold_Book', 'MT_Tw', 'Black_Bodoni', 'Titling_Footlight', 'Rounded', 'Extra', 'Condensed_Goudy', 'Gothic', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion']))
+
+audio audio (set(['192000_2_1_0_2_explicit_speakers']), set(['48000_8_1_0_8_explicit_speakers']))
+
+ipcity ipcity (set(['Hanover']), set(['Bremerhaven']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Bremen']))
+
+====================================

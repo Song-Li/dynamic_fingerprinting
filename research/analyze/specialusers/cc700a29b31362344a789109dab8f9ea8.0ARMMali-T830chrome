@@ -1,6 +1,0 @@
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Helmstedt']), set(['Hamburg']))
-ipregion (set(['Niedersachsen']), set(['Hamburg']))
-browserfingerprint (set(['b1337b6b3debd1204e1db96c5ec632a0671f18ba236d4354d9e840457706a48f']), set(['b81ce71524a0a5037b3fd2a7637ec5622f811981ee84f8eaba0eca18dc96717e']))
-====================================

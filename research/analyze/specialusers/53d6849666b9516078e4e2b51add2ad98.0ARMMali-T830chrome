@@ -1,28 +1,16 @@
-browserfingerprint (set(['638f57ceec02b16da334b87896833482ec651b67dde062dd7ed1e275c1be0c84']), set(['283a9e145317ee13ba9a5baeecdc33454fe960e70bc0413952689fedeeaefd32']))
 ====================================
-ipcity (set(['Graz']), set(['Enzersdorf', 'Maria']))
-ipregion (set(['Steiermark']), set(['Niederosterreich']))
-browserfingerprint (set(['283a9e145317ee13ba9a5baeecdc33454fe960e70bc0413952689fedeeaefd32']), set(['61583382bded03b9d15733e3a0b4b0cf1cd7a826df2ced748852f2c63729eeac']))
 ====================================
-browserfingerprint (set(['61583382bded03b9d15733e3a0b4b0cf1cd7a826df2ced748852f2c63729eeac']), set(['9c71848e9f6ee60d77fd4a3b42a38421d1d34cefba7503a8fdd43fc8c1b940bc']))
 ====================================
-browserfingerprint (set(['9c71848e9f6ee60d77fd4a3b42a38421d1d34cefba7503a8fdd43fc8c1b940bc']), set(['61583382bded03b9d15733e3a0b4b0cf1cd7a826df2ced748852f2c63729eeac']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-AT,de-DE;q=0.8,de;q=0.6,en-US;q=0.4,en;q=0.2']), set(['de-AT,de-DE;q=0.9,de;q=0.8,en-US;q=0.7,en;q=0.6']))
-ipcity (set(['Enzersdorf', 'Maria']), set(['Friesach']))
-ipregion (set(['Niederosterreich']), set(['Karnten']))
-browserfingerprint (set(['61583382bded03b9d15733e3a0b4b0cf1cd7a826df2ced748852f2c63729eeac']), set(['b62c50465a687081a77764ef04a240f39ec7ea9f29564104a7e75ddcbc01361b']))
 ====================================
-browserfingerprint (set(['b62c50465a687081a77764ef04a240f39ec7ea9f29564104a7e75ddcbc01361b']), set(['2ee1f8d7872c0bc13fc18e07ce59380222d73058f7b654016bf20acfd8a0e06c']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Friesach']), set(['Graz']))
-ipregion (set(['Karnten']), set(['Steiermark']))
-browserfingerprint (set(['2ee1f8d7872c0bc13fc18e07ce59380222d73058f7b654016bf20acfd8a0e06c']), set(['fdade06b985895e05f05412318c579291535031a5135e8c905f800e1045f07fd']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Friesach']), set(['Graz']))
+
+ipregion ipregion (set(['Karnten']), set(['Steiermark']))
+
 ====================================
-ipcity (set(['Graz']), set(['Grafenworth']))
-ipregion (set(['Steiermark']), set(['Niederosterreich']))
-browserfingerprint (set(['fdade06b985895e05f05412318c579291535031a5135e8c905f800e1045f07fd']), set(['2fa544b5098c302d29b00d26d8dfb33d5ece9c3844482daf77d8f00dea68db0d']))
 ====================================

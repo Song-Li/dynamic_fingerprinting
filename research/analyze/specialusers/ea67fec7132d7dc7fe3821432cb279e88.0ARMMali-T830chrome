@@ -1,30 +1,14 @@
-ipcity (set(['Mannheim']), set(['Freiburg']))
-browserfingerprint (set(['e939ac41a3e584885ed4bae598058d9b0d56f0daa9a89f13bf380bf308aa0685']), set(['9302da147d0c5c777320c8b2ec66924c9a177feb51ebf1b623fb07e7031c23e2']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Freiburg']), set(['Mannheim']))
-browserfingerprint (set(['9302da147d0c5c777320c8b2ec66924c9a177feb51ebf1b623fb07e7031c23e2']), set(['cf0bc45818065c930c383388c86fd4ef74cb4754cc1d24c4deab6fa49dd780e2']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Freiburg']), set(['Mannheim']))
+
 ====================================
-browserfingerprint (set(['cf0bc45818065c930c383388c86fd4ef74cb4754cc1d24c4deab6fa49dd780e2']), set(['d12fe653a5315a16d9fb823a81a8123bdb88319ddaa0e1a481de1bf65e009004']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Mannheim']), set(['Heidelberg']))
-browserfingerprint (set(['d12fe653a5315a16d9fb823a81a8123bdb88319ddaa0e1a481de1bf65e009004']), set(['5b3cdc8874a193de2e7719c3e37fdf90cd344e2360b8ca777b32ef983121da15']))
 ====================================
-browserfingerprint (set(['5b3cdc8874a193de2e7719c3e37fdf90cd344e2360b8ca777b32ef983121da15']), set(['11530f9aa6d951a666e9b8b4119e33a356eb0c078ff4d17718c041fb1df09984']))
 ====================================
-browserfingerprint (set(['11530f9aa6d951a666e9b8b4119e33a356eb0c078ff4d17718c041fb1df09984']), set(['5b3cdc8874a193de2e7719c3e37fdf90cd344e2360b8ca777b32ef983121da15']))
 ====================================
-ipcity (set(['Heidelberg']), set(['Ulm']))
-browserfingerprint (set(['5b3cdc8874a193de2e7719c3e37fdf90cd344e2360b8ca777b32ef983121da15']), set(['9e73b92a52465dd234f73a7c41f0215dde489852312ea6027c8b03c9feb68aa6']))
 ====================================
-browserfingerprint (set(['9e73b92a52465dd234f73a7c41f0215dde489852312ea6027c8b03c9feb68aa6']), set(['4177f0085ef58f3f807672faeaacf906479a42793faf86318640fa602cc582af']))
 ====================================
-ipcity (set(['Ulm']), set(['Warstein']))
-ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['4177f0085ef58f3f807672faeaacf906479a42793faf86318640fa602cc582af']), set(['50acde42bcda582b1a006a0ea20931c388c14a0b179d631ff08d5d7a24162f79']))
 ====================================
-ipcity (set(['Warstein']), set(['Heidelberg']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['50acde42bcda582b1a006a0ea20931c388c14a0b179d631ff08d5d7a24162f79']), set(['11530f9aa6d951a666e9b8b4119e33a356eb0c078ff4d17718c041fb1df09984']))
 ====================================

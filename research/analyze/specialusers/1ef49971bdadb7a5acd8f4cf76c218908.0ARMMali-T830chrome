@@ -1,6 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Linz']), set(['Vienna']))
-ipregion (set(['Oberosterreich']), set(['Wien']))
-browserfingerprint (set(['d2ec6565dbc4f40d4cc5ad976b6c1c792da4561c5264458486aabc603ee25c2e']), set(['cf88450e3306f73f603cd8392660756224e6362429f03ac124ed339341acb3fa']))
-====================================

@@ -1,19 +1,11 @@
-browserfingerprint (set(['d1cea7ed36a702199f5e0a94ac1ebde2736c8dc2d80cfca1d036fbb992ea6009']), set(['94c922110af8337b416c62ae24d6197d968a92db3052e064ab4400875c5bb2d4']))
 ====================================
-ipcity (set(['Hagen']), set(['Mecklenburg']))
-ipregion (set(['Sachsen-Anhalt']), set(['Mecklenburg-Vorpommern']))
-browserfingerprint (set(['94c922110af8337b416c62ae24d6197d968a92db3052e064ab4400875c5bb2d4']), set(['0177974ee6fadbc2a8f026cf23c98db528687f87dbc9855d54760a5820404ea7']))
 ====================================
-ipcity (set(['Mecklenburg']), set(['Berlin']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Berlin']))
-browserfingerprint (set(['0177974ee6fadbc2a8f026cf23c98db528687f87dbc9855d54760a5820404ea7']), set(['b0d004c22137942e6e5e25582628eb3294367b94420dad0392bc843ce9ec1992']))
 ====================================
-ipcity (set(['Berlin']), set(['Hagen']))
-ipregion (set(['Berlin']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['b0d004c22137942e6e5e25582628eb3294367b94420dad0392bc843ce9ec1992']), set(['d1cea7ed36a702199f5e0a94ac1ebde2736c8dc2d80cfca1d036fbb992ea6009']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hagen']), set(['Bonn']))
-ipregion (set(['Sachsen-Anhalt']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['d1cea7ed36a702199f5e0a94ac1ebde2736c8dc2d80cfca1d036fbb992ea6009']), set(['ec6977a81be47228681966a8bf04225a9026192b9ce396cd49f94e469488f4f9']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Hagen']), set(['Bonn']))
+
+ipregion ipregion (set(['Sachsen-Anhalt']), set(['Nordrhein-Westfalen']))
+
 ====================================

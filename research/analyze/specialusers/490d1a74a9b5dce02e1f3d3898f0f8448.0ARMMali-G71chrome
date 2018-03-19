@@ -1,8 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Lausanne']), set(['Basel']))
-ipregion (set(['Vaud']), set(['Basel-Stadt']))
-browserfingerprint (set(['c585b42f60594496eda1536988d9287c10ba6f91e5f58dbe0ab219c9102063ac']), set(['cf20d073d082d9663b108b30a72a41b93175d5f96d318fda522e402c44131341']))
-====================================
-browserfingerprint (set(['cf20d073d082d9663b108b30a72a41b93175d5f96d318fda522e402c44131341']), set(['df5224d71b8cd12c9f9f7f6dfa6f40ad509146cef37d1cfaf78f39c77be26c2e']))
-====================================

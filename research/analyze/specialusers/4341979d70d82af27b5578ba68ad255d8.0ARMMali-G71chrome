@@ -1,17 +1,9 @@
-browserfingerprint (set(['9e235413d77e5a952c481d446e326e2992e47938dc1fbee46a159a698e356878']), set(['e1b390210de6afecc3de60d596e1509cc4663d32e5fecaf6fd1afa70052f87d1']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Clausthal']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['e1b390210de6afecc3de60d596e1509cc4663d32e5fecaf6fd1afa70052f87d1']), set(['f97251552eead7ed32cace56edcc3caaa0a91c2745200bcf97119ddccaeeb80f']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['f97251552eead7ed32cace56edcc3caaa0a91c2745200bcf97119ddccaeeb80f']), set(['63aae0bb92d0f3f4636cca743ff0d8bfb061c5c99bbc43139e6372fd0c99ff2c']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Clausthal']), set(['Bartolfelde']))
-browserfingerprint (set(['63aae0bb92d0f3f4636cca743ff0d8bfb061c5c99bbc43139e6372fd0c99ff2c']), set(['fc2f27f2a69929276ead909e3d68060ed53b1c43baecf53b47131c89dcfbbe46']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Clausthal']), set(['Bartolfelde']))
+
 ====================================
-ipcity (set(['Bartolfelde']), set(['Heidelberg']))
-ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['fc2f27f2a69929276ead909e3d68060ed53b1c43baecf53b47131c89dcfbbe46']), set(['7cdbec4d8072906144c76ef0a8fa8d53eff709d4736514b8da44f77beb0d4953']))
 ====================================

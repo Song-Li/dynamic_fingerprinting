@@ -1,0 +1,21 @@
+agent agent (set(['6.3;', 'Chrome/39.0.2171.71', 'WOW64)']), set(['10.0;', 'Chrome/63.0.3239.132', 'Win64;', 'x64)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+plugins plugins (set(['~Native', 'Receiver~Google', 'Remote', 'Update~Microsoft', 'Office', 'Desktop', 'Viewer~Citrix', '~Microsoft', 'Viewer~Chrome', 'Flash~Silverlight', 'PlugIn~Widevine', 'Client~Shockwave']), set(['Viewer~Native', 'Client~Widevine', 'Plugin~Chrome']))
+
+langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Thaana']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+
+jsFonts jsFonts (set(['Gothic_Matura', 'Sans_Gill']), set(['Gothic_Marlett_Matura']))
+
+canvastest canvastest (set(['645a623ddf53f89b20f9d4399a67ad9c7d71bd71']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+audio audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+
+ipcity ipcity (set(['Enzersdorf', 'Maria']), set(['Graz']))
+
+ipregion ipregion (set(['Niederosterreich']), set(['Steiermark']))
+
+====================================

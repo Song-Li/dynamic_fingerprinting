@@ -1,0 +1,7 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+ipcity ipcity (set(['Osnabruck']), set(['Aachen']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+
+====================================

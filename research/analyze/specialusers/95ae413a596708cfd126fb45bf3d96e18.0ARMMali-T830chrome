@@ -1,39 +1,14 @@
-ipcity (set(['Stuttgart']), set(['Pultusk']))
-ipregion (set(['Baden-Wurttemberg']), set(['Mazowieckie']))
-ipcountry (set(['Germany']), set(['Poland']))
-browserfingerprint (set(['e5ef2d286dd06cf95556a35541d48d78332c657c51b6aa9cadafb8c5d3955265']), set(['5a2269d19aff9f79c27d8a8c32ab321b9d27550cb816eaf3693cb93c18a0b0ae']))
 ====================================
-ipcity (set(['Pultusk']), set(['Stuttgart']))
-ipregion (set(['Mazowieckie']), set(['Baden-Wurttemberg']))
-ipcountry (set(['Poland']), set(['Germany']))
-browserfingerprint (set(['5a2269d19aff9f79c27d8a8c32ab321b9d27550cb816eaf3693cb93c18a0b0ae']), set(['e5ef2d286dd06cf95556a35541d48d78332c657c51b6aa9cadafb8c5d3955265']))
 ====================================
-browserfingerprint (set(['e5ef2d286dd06cf95556a35541d48d78332c657c51b6aa9cadafb8c5d3955265']), set(['4c8853c1203fa04572cf4f02aaec7fb4707bdbdb572fd45c9662c50d10caf1a3']))
 ====================================
-browserfingerprint (set(['4c8853c1203fa04572cf4f02aaec7fb4707bdbdb572fd45c9662c50d10caf1a3']), set(['e5ef2d286dd06cf95556a35541d48d78332c657c51b6aa9cadafb8c5d3955265']))
 ====================================
-browserfingerprint (set(['e5ef2d286dd06cf95556a35541d48d78332c657c51b6aa9cadafb8c5d3955265']), set(['4c8853c1203fa04572cf4f02aaec7fb4707bdbdb572fd45c9662c50d10caf1a3']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.107']))
-browserfingerprint (set(['4c8853c1203fa04572cf4f02aaec7fb4707bdbdb572fd45c9662c50d10caf1a3']), set(['84f63a7e8c9ff1b9a0e0f34dbd18bb208d7cd3199f2314cef6e6b81bf32bc999']))
 ====================================
-agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Stuttgart']), set(['Dusseldorf']))
-ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['84f63a7e8c9ff1b9a0e0f34dbd18bb208d7cd3199f2314cef6e6b81bf32bc999']), set(['41c2a819583e01e584abe8e61dee36006b5a9d6107a52c7b30196fb49fd60270']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Stuttgart']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['41c2a819583e01e584abe8e61dee36006b5a9d6107a52c7b30196fb49fd60270']), set(['8b30b9081dc7bef8cfd1e95b6d2c04fc160da207e4f72af42512f55e502e4a3d']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['8b30b9081dc7bef8cfd1e95b6d2c04fc160da207e4f72af42512f55e502e4a3d']), set(['5b3e8b8f5dda9a25a840849b92d07476ec3089b197dc51b574c9fcdb6a2dabb7']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-ipcity (set(['Stuttgart']), set(['Freiburg']))
-browserfingerprint (set(['5b3e8b8f5dda9a25a840849b92d07476ec3089b197dc51b574c9fcdb6a2dabb7']), set(['ab30bc0b7b20ee345019d2cae1b1f32983f233a658f8a7d66dd36f5046892423']))
 ====================================
-ipcity (set(['Freiburg']), set(['Stuttgart']))
-browserfingerprint (set(['ab30bc0b7b20ee345019d2cae1b1f32983f233a658f8a7d66dd36f5046892423']), set(['5b3e8b8f5dda9a25a840849b92d07476ec3089b197dc51b574c9fcdb6a2dabb7']))
 ====================================
-browserfingerprint (set(['5b3e8b8f5dda9a25a840849b92d07476ec3089b197dc51b574c9fcdb6a2dabb7']), set(['a289261840d806a21be280e9e9c746f53c1c5f48c8a178b7a2a5eda0a8d4ebde']))
 ====================================

@@ -1,15 +1,7 @@
-browserfingerprint (set(['dcaeeb5cc3f265f0d569593ceee4915a3beb1ec4c8e559b1e12956ae0d9b6090']), set(['d57f11beb9e9c2a3a26c9bfc0eed0b073a49aea1f45015cc8aac04aa8a3a2c39']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Ingolstadt']), set(['Munich']))
-browserfingerprint (set(['d57f11beb9e9c2a3a26c9bfc0eed0b073a49aea1f45015cc8aac04aa8a3a2c39']), set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']))
 ====================================
-ipcity (set(['Munich']), set(['Nuremberg']))
-browserfingerprint (set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']), set(['02fe72657ebaf3983a4b8944698e734a4855ebcbccc357f1511cbc992c8a5cd5']))
 ====================================
-ipcity (set(['Nuremberg']), set(['Munich']))
-browserfingerprint (set(['02fe72657ebaf3983a4b8944698e734a4855ebcbccc357f1511cbc992c8a5cd5']), set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['6fa14c74f82e0d2c326c59e20ead239e262c120280037626843bc5adc040d177']), set(['893e099b64e617565d723fab7661becc8490cb14d2b7e7784d6da12e08494e97']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

@@ -1,9 +1,0 @@
-browserfingerprint (set(['44213a8ce03cc9c74a612d5f4cc2ffac76e2d220fab6748787db8b001c3c811a']), set(['6aca37f217677a21eb738f8054a5177bce08bd0da35db9a89c74c3c766bb6e8b']))
-====================================
-browserfingerprint (set(['6aca37f217677a21eb738f8054a5177bce08bd0da35db9a89c74c3c766bb6e8b']), set(['5fb64d9309a8c664395ecd8bf4ce9076265f5ae8b490055b7452bb1c9ebfd63e']))
-====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['5fb64d9309a8c664395ecd8bf4ce9076265f5ae8b490055b7452bb1c9ebfd63e']), set(['68812559aaece1b1ca16eead640a340624fd54d50fd470fd388401b51d350d5e']))
-====================================

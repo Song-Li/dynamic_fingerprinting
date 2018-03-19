@@ -1,27 +1,15 @@
-browserfingerprint (set(['1e126b404e8a920a75419251d6dbb09584945cdb72e278ab7cc346fd47924a62']), set(['f9a037c1e7ab0b023298494ed40b5ab5fbea800f5247257f1fb0b6f6702cf32d']))
 ====================================
-browserfingerprint (set(['f9a037c1e7ab0b023298494ed40b5ab5fbea800f5247257f1fb0b6f6702cf32d']), set(['1e126b404e8a920a75419251d6dbb09584945cdb72e278ab7cc346fd47924a62']))
 ====================================
-browserfingerprint (set(['1e126b404e8a920a75419251d6dbb09584945cdb72e278ab7cc346fd47924a62']), set(['f9a037c1e7ab0b023298494ed40b5ab5fbea800f5247257f1fb0b6f6702cf32d']))
 ====================================
-ipcity (set(['Hameln']), set(['im', 'Allgau', 'Isny']))
-ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['f9a037c1e7ab0b023298494ed40b5ab5fbea800f5247257f1fb0b6f6702cf32d']), set(['e2c6bbfb47dd229be453b04240fc1fa398c0897b9e79cb7af3a3714aaadabfea']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['im', 'Allgau', 'Isny']), set(['Nuremberg']))
-ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
-browserfingerprint (set(['e2c6bbfb47dd229be453b04240fc1fa398c0897b9e79cb7af3a3714aaadabfea']), set(['2cd26236a05e59d60434fba21b575a266afca46da61d616b95072a8f17dced71']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['im', 'Allgau', 'Isny']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+
 ====================================
-ipcity (set(['Nuremberg']), set(['Hanover']))
-ipregion (set(['Bayern']), set(['Niedersachsen']))
-browserfingerprint (set(['2cd26236a05e59d60434fba21b575a266afca46da61d616b95072a8f17dced71']), set(['92d62d6265c3b79a106597e6a20d461095b9eac203f3d95faf62ef0c145f92f8']))
 ====================================
-ipcity (set(['Hanover']), set(['Truschwende']))
-ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['92d62d6265c3b79a106597e6a20d461095b9eac203f3d95faf62ef0c145f92f8']), set(['7dc00a28d4f5c74fb4492ad1c7c4cc376336fbbaf9b8353d73bdd230b558c7cc']))
 ====================================
-browserfingerprint (set(['7dc00a28d4f5c74fb4492ad1c7c4cc376336fbbaf9b8353d73bdd230b558c7cc']), set(['1e5b7f2763c764655556fbf8b8c53987831583b99ed0f5bc459e8129db04ff13']))
 ====================================
-browserfingerprint (set(['1e5b7f2763c764655556fbf8b8c53987831583b99ed0f5bc459e8129db04ff13']), set(['7dc00a28d4f5c74fb4492ad1c7c4cc376336fbbaf9b8353d73bdd230b558c7cc']))
 ====================================

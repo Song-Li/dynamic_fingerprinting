@@ -1,8 +1,0 @@
-browserfingerprint (set(['3d722cb379839d5b78cfdb69abedef97e1c8e2c12518ad34850f2136df491afd']), set(['a521aaffc81597e2aa0ae4691bbe9d9ede44d5e175cd75e9925c0daa65049d19']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Potsdam']), set(['Kassel']))
-ipregion (set(['Brandenburg']), set(['Hessen']))
-browserfingerprint (set(['a521aaffc81597e2aa0ae4691bbe9d9ede44d5e175cd75e9925c0daa65049d19']), set(['8781f44d09a055151b13f74d43b318055f273d13257af7feeea6cffbb43b4d96']))
-====================================

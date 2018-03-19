@@ -1,15 +1,13 @@
-browserfingerprint (set(['157ba5cbb63e14467797a16b2044a9ba4d6f06e0f59bc8454ca43cc4a9aa9398']), set(['8616be784af9ca77f38b0a64a4f3b1b9e2a1b39adfcacf4cb2e1f43a1663863d']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Rendsburg']), set(['Oldenburg']))
-ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
-browserfingerprint (set(['8616be784af9ca77f38b0a64a4f3b1b9e2a1b39adfcacf4cb2e1f43a1663863d']), set(['ebecc607cb25b904634c5a0b5917aa31b89115f5f729dded62c7ee57a2702dd4']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Rendsburg']), set(['Oldenburg']))
+
+ipregion ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
+
 ====================================
-ipcity (set(['Oldenburg']), set(['Syke']))
-browserfingerprint (set(['ebecc607cb25b904634c5a0b5917aa31b89115f5f729dded62c7ee57a2702dd4']), set(['df6be94fe5393c88f6e3c873efd46f82603f5c643feed63cc93447b2fe1aae40']))
 ====================================
-browserfingerprint (set(['df6be94fe5393c88f6e3c873efd46f82603f5c643feed63cc93447b2fe1aae40']), set(['9212ed231bee44fd3490dea3be78481f660ff1cada0d82b51b62ece647e4dc7f']))
 ====================================
-browserfingerprint (set(['9212ed231bee44fd3490dea3be78481f660ff1cada0d82b51b62ece647e4dc7f']), set(['df6be94fe5393c88f6e3c873efd46f82603f5c643feed63cc93447b2fe1aae40']))
 ====================================

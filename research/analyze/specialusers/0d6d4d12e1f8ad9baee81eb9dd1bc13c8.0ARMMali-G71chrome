@@ -1,18 +1,11 @@
-ipcity (set(['Oldenburg']), set(['Delmenhorst']))
-browserfingerprint (set(['3241f6bedc2fc90541f45e2a9b40af26a5895a1208c7007f7dfebcd3816ed085']), set(['a8f89b3d3fb9a96f0184a14243319348a3d0868f9df454c8f08f61ac63d19157']))
-====================================
-agent (set(['Version/4.0', 'Build/HUAWEIVTR-L09;', 'wv)']), set(['Build/HUAWEIVTR-L09)']))
-encoding (set(['deflate']), set(['br', 'deflate,']))
-language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-cookie (set(['False']), set(['True']))
-localstorage (set(['False']), set(['True']))
-browserfingerprint (set(['a8f89b3d3fb9a96f0184a14243319348a3d0868f9df454c8f08f61ac63d19157']), set(['cc7d59b412c2fef2a9b2ee8d14834987fb4c8b92f1811e480bccd38cc028f831']))
-====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Delmenhorst']), set(['Kohren', 'Klein']))
-browserfingerprint (set(['cc7d59b412c2fef2a9b2ee8d14834987fb4c8b92f1811e480bccd38cc028f831']), set(['81f55d7095916fd69eca5634552adc5ade76be482f02a435d9bd3d37724da8cb']))
-====================================
-ipcity (set(['Kohren', 'Klein']), set(['Bonn']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['81f55d7095916fd69eca5634552adc5ade76be482f02a435d9bd3d37724da8cb']), set(['cc7099617ab8dd6074e50042775f64197b534e0dd348821c947020cc780df591']))
+agent agent (set(['Version/4.0', 'Build/HUAWEIVTR-L09;', 'wv)']), set(['Build/HUAWEIVTR-L09)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+cookie cookie (set(['False']), set(['True']))
+
+localstorage localstorage (set(['False']), set(['True']))
+
 ====================================

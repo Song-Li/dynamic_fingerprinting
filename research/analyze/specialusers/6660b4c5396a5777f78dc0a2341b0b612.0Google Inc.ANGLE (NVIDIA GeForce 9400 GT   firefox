@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Gothic_Corbel_Coronet_Curlz', 'FB_Antique', 'MT_Bookshelf', 'MT_Goudy', 'Times_Clarendon_Constantia_Copperplate', 'Medium', 'Boli_NSimSun_OPTIMA_Palace', 'MT_PMingLiU-ExtB_Pristina_Rockwell_Roman_SimSun_SimSun-ExtB_Small', 'Arial_Book', 'MT_Univers_Univers']), set(['Light_Segoe', 'Condensed_Rockwell', 'Arial_Arial', 'Bold_SimSun_SimSun-ExtB_Small', 'Bold_Gill', 'Medium_Univers', 'A', 'Condensed_Gill', 'Bold_Univers_Univers', 'Condensed', 'Bold', 'Condensed_Bookshelf', 'Times_Clarendon_Clarendon', 'Black_Copperplate', 'Condensed_Constantia_Cooper', 'MT_PMingLiU-ExtB_Pristina_Rage', 'Bold_Albertus', 'Bold_Book', 'Gothic_Copperplate', 'Boli_NSimSun_OCR', 'Extended_OPTIMA_Palace', 'MT_Bodoni', 'MT_Gill', 'FB_Albertus', 'Condensed_Tw', 'Ext', 'Italic_Rockwell_Rockwell', 'Medium_Antique', 'Ultra', 'Bold_Copperplate', 'MT_Tw', 'Black_Bodoni', 'Semibold_Segoe', 'Rounded', 'Extra', 'Bold_Roman_Script', 'Condensed_Goudy', 'Gothic', 'Light_Corbel_Coronet_Curlz']))
+
+ipcity ipcity (set(['Erfurt']), set(['Weingarten']))
+
+====================================

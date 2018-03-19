@@ -1,0 +1,13 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Black_Calibri_Cambria_Cambria']))
+
+canvastest canvastest (set(['6aa56b5df10eb95cf5495265c1a11366ea43fd72']), set(['429945286c435b1e8c4a3e5daab8496f7028f5c5']))
+
+gpu gpu (set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']), set(['vs_5_0', 'ps_5_0)', 'Direct3D11']))
+
+ipcity ipcity (set(['Verden']), set(['Bremen']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Bremen']))
+
+====================================

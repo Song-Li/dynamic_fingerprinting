@@ -1,20 +1,14 @@
-browserfingerprint (set(['64d56337ff76b793a7c45e83be52ddee66d99554bad17cad808e3d98ce37f8d1']), set(['05064ebe8868a441a0573c513ca81921be70a2b51ec527c17c5084b478e3896a']))
 ====================================
-ipcity (set(['Feldkirch']), set(['Ebenthal']))
-ipregion (set(['Vorarlberg']), set(['Niederosterreich']))
-browserfingerprint (set(['05064ebe8868a441a0573c513ca81921be70a2b51ec527c17c5084b478e3896a']), set(['dc7adb48304eae82dd59de0ee1a6967f41aa430837f177d89ee09a7ff9ab33d8']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Ebenthal']), set(['Graz']))
-ipregion (set(['Niederosterreich']), set(['Steiermark']))
-browserfingerprint (set(['dc7adb48304eae82dd59de0ee1a6967f41aa430837f177d89ee09a7ff9ab33d8']), set(['fdade06b985895e05f05412318c579291535031a5135e8c905f800e1045f07fd']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Ebenthal']), set(['Graz']))
+
+ipregion ipregion (set(['Niederosterreich']), set(['Steiermark']))
+
 ====================================
-browserfingerprint (set(['fdade06b985895e05f05412318c579291535031a5135e8c905f800e1045f07fd']), set(['673b3833a2f6832e7ee91a5a9d1cfde572fd6e22a01e8812e8ede56e0dde8922']))
 ====================================
-ipcity (set(['Graz']), set(['Salzburg']))
-ipregion (set(['Steiermark']), set(['Salzburg']))
-browserfingerprint (set(['673b3833a2f6832e7ee91a5a9d1cfde572fd6e22a01e8812e8ede56e0dde8922']), set(['c2ce8b2884e84776889451d2f6289dbd7c51a9be93f6472cb10693598e29438e']))
 ====================================
-browserfingerprint (set(['c2ce8b2884e84776889451d2f6289dbd7c51a9be93f6472cb10693598e29438e']), set(['05261f71002167e0ddf07798c4ff745980593fbfdcf62ed34fa1e734bc03f834']))
 ====================================

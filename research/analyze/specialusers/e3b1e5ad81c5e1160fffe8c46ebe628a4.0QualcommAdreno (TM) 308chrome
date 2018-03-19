@@ -1,19 +1,12 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['08a03665cec0926fb725df539c9ed7903683ba3f6cbb0dd6f6809cec3d0a22fa']), set(['a978a08931292d6b5322a6135da87aa20ab86bf803ee2a54398824b9c097298c']))
 ====================================
-browserfingerprint (set(['a978a08931292d6b5322a6135da87aa20ab86bf803ee2a54398824b9c097298c']), set(['5a44cc800420b117dc866456e34e0b7480044e177802923233460021e9f6314b']))
 ====================================
-browserfingerprint (set(['5a44cc800420b117dc866456e34e0b7480044e177802923233460021e9f6314b']), set(['a978a08931292d6b5322a6135da87aa20ab86bf803ee2a54398824b9c097298c']))
 ====================================
-browserfingerprint (set(['a978a08931292d6b5322a6135da87aa20ab86bf803ee2a54398824b9c097298c']), set(['5a44cc800420b117dc866456e34e0b7480044e177802923233460021e9f6314b']))
 ====================================
-browserfingerprint (set(['5a44cc800420b117dc866456e34e0b7480044e177802923233460021e9f6314b']), set(['a978a08931292d6b5322a6135da87aa20ab86bf803ee2a54398824b9c097298c']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['a978a08931292d6b5322a6135da87aa20ab86bf803ee2a54398824b9c097298c']), set(['80a7184ce0539d610d0037823c22f8f69614eb4e8aa14114bdf08e36968ab791']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['80a7184ce0539d610d0037823c22f8f69614eb4e8aa14114bdf08e36968ab791']), set(['99480f501eb6d8fc88285817d57b8fdc9f5aaff87f8b848faa01b4c221d2022a']))
 ====================================
-browserfingerprint (set(['99480f501eb6d8fc88285817d57b8fdc9f5aaff87f8b848faa01b4c221d2022a']), set(['80a7184ce0539d610d0037823c22f8f69614eb4e8aa14114bdf08e36968ab791']))
 ====================================

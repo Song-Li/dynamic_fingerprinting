@@ -1,27 +1,16 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dresden']), set(['Gorlitz']))
-browserfingerprint (set(['9981efb5a6f5ebf486ca70edaef2e42cf6538513fd50ba63db5a05e050b1d65a']), set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dresden']), set(['Gorlitz']))
+
 ====================================
-browserfingerprint (set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']), set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']))
 ====================================
-browserfingerprint (set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']), set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']))
 ====================================
-browserfingerprint (set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']), set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']))
 ====================================
-browserfingerprint (set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']), set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']))
 ====================================
-browserfingerprint (set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']), set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']))
 ====================================
-browserfingerprint (set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']), set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']))
 ====================================
-browserfingerprint (set(['5b8ef63e6f4d680fc96630060ed74f142633725e3016836610fede265870e13f']), set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-browserfingerprint (set(['82c3ee7ced5a721bb16480cb73af38164b3cdb5c625333472b2d2859b64d5181']), set(['65712553aa7ef1a700a2e65e394a76b536b7778bbec7db805b0fd8f5692e2434']))
 ====================================
-agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Gorlitz']), set(['Marsberg']))
-ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['65712553aa7ef1a700a2e65e394a76b536b7778bbec7db805b0fd8f5692e2434']), set(['92af2651f3caa136dd97ffb1685ed2c98e409129d1603b43ac4495dc7bb9245f']))
 ====================================

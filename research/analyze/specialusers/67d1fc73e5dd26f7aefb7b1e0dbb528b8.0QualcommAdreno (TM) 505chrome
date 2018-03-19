@@ -1,39 +1,22 @@
-agent (set(['Chrome/55.0.2883.91']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['2a2765e4e558e2d0d17dff1638a88e43e5dbd73f']), set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']))
-browserfingerprint (set(['2088139241ecfdb8cc9c98915d55bcc941500c796a0c7c81e9e46a7c0bfd4c37']), set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']))
+agent agent (set(['Chrome/55.0.2883.91']), set(['Chrome/62.0.3202.84']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+canvastest canvastest (set(['2a2765e4e558e2d0d17dff1638a88e43e5dbd73f']), set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']))
+
 ====================================
-browserfingerprint (set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']), set(['91781c4d58b23a3a55dcb19997ab3e0cdb427979c6bc0b2f6024c6e6e1f55aa3']))
 ====================================
-browserfingerprint (set(['91781c4d58b23a3a55dcb19997ab3e0cdb427979c6bc0b2f6024c6e6e1f55aa3']), set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Kleve']))
-browserfingerprint (set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']), set(['3aee92f8545bd1d8c360e3ba1aa5478a443925343674c0190c527ee9c5df9249']))
 ====================================
-ipcity (set(['Kleve']), set(['Dusseldorf']))
-browserfingerprint (set(['3aee92f8545bd1d8c360e3ba1aa5478a443925343674c0190c527ee9c5df9249']), set(['91781c4d58b23a3a55dcb19997ab3e0cdb427979c6bc0b2f6024c6e6e1f55aa3']))
 ====================================
-browserfingerprint (set(['91781c4d58b23a3a55dcb19997ab3e0cdb427979c6bc0b2f6024c6e6e1f55aa3']), set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']))
 ====================================
-browserfingerprint (set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']), set(['91781c4d58b23a3a55dcb19997ab3e0cdb427979c6bc0b2f6024c6e6e1f55aa3']))
 ====================================
-browserfingerprint (set(['91781c4d58b23a3a55dcb19997ab3e0cdb427979c6bc0b2f6024c6e6e1f55aa3']), set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Aachen']))
-browserfingerprint (set(['1e87cfc5a7cabed32dddec11fb8ca5e2e95d90601afaddeb4a331a266f071780']), set(['1664a61cb248309ceeb15950d38066db379e04f52145061619dec1d3cba70d5b']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
-ipcity (set(['Aachen']), set(['Dortmund']))
-browserfingerprint (set(['1664a61cb248309ceeb15950d38066db379e04f52145061619dec1d3cba70d5b']), set(['148a38da95b49781a88758f6b93c2b70304f37c1ca2072803d96521880808ea0']))
 ====================================
-ipcity (set(['Dortmund']), set(['Dusseldorf']))
-browserfingerprint (set(['148a38da95b49781a88758f6b93c2b70304f37c1ca2072803d96521880808ea0']), set(['8333f1ac7a80546240e3859edbeb73bb676cef033776dc4cc4d20ac37d4f3ef7']))
 ====================================
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['8333f1ac7a80546240e3859edbeb73bb676cef033776dc4cc4d20ac37d4f3ef7']), set(['20f4e5fd6c70e5eec87f1469bad80abffb4b191e6cebed4c625b8f6942e083e0']))
 ====================================
-browserfingerprint (set(['20f4e5fd6c70e5eec87f1469bad80abffb4b191e6cebed4c625b8f6942e083e0']), set(['fa3df8256eb9d6aed3502cd5cf1770222d39b44734365ccfbba57deedeec4a35']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['fa3df8256eb9d6aed3502cd5cf1770222d39b44734365ccfbba57deedeec4a35']), set(['c6573ca6b70e9f71432825c812a12c90ac8c16f188014d707d81bf105ab1984c']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

@@ -1,0 +1,9 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+language language (set(['en-gb']), set(['de-de']))
+
+ipcity ipcity (set(['Isenburg']), set(['Frankfurt', 'Main', 'am']))
+
+ipregion ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+
+====================================

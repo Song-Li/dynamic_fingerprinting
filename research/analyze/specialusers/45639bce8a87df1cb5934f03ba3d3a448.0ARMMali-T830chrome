@@ -1,20 +1,12 @@
-browserfingerprint (set(['94386b51d96dcbcd3f01df06b939d73d18893f2842dec5536bfb327febeaea5e']), set(['d70007e8a2732b2902e43d86c67fbf71a220475bab4592d6a5a5c95aac85f144']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Herl']), set(['Hameln']))
-ipregion (set(['Rheinland-Pfalz']), set(['Niedersachsen']))
-browserfingerprint (set(['d70007e8a2732b2902e43d86c67fbf71a220475bab4592d6a5a5c95aac85f144']), set(['7806dc0cd2313cf322549fbe9df37576d94911a76a66b2a600fc80792a783e60']))
 ====================================
-browserfingerprint (set(['7806dc0cd2313cf322549fbe9df37576d94911a76a66b2a600fc80792a783e60']), set(['7c798bcc979143a93b8169b1bac462d2cf337021c3804da824cd91c73a9dac17']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hameln']), set(['Saarbrucken']))
-ipregion (set(['Niedersachsen']), set(['Saarland']))
-browserfingerprint (set(['7c798bcc979143a93b8169b1bac462d2cf337021c3804da824cd91c73a9dac17']), set(['9f4f1a6377d3d665d7e081fc69a560fd387af7f538461c7b7c4a3b7039d348da']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Hameln']), set(['Saarbrucken']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Saarland']))
+
 ====================================
-ipcity (set(['Saarbrucken']), set(['Ingolstadt']))
-ipregion (set(['Saarland']), set(['Bayern']))
-browserfingerprint (set(['9f4f1a6377d3d665d7e081fc69a560fd387af7f538461c7b7c4a3b7039d348da']), set(['2bb055e524f2d601409a0ca1a7b88fea6382a17b8de4612a31695b8697303e5d']))
 ====================================
-browserfingerprint (set(['2bb055e524f2d601409a0ca1a7b88fea6382a17b8de4612a31695b8697303e5d']), set(['dc269307f04b4a2e7849edb2ceeaa91d3d1e2f17854a8f71075624ea2065b489']))
 ====================================

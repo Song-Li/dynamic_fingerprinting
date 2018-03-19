@@ -1,0 +1,9 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Medium', '3_Antique', 'Arial_Calibri_Cambria_Cambria', 'Times_Clarendon_Constantia_Corbel_Coronet_Ebrima_English']), set(['Light_Segoe', 'Condensed', 'Semibold_Segoe', 'Arial_Arial', 'Extra', 'Times_Clarendon_Clarendon', '3_Albertus', 'Condensed_Constantia_Cooper', 'Medium_Univers', 'Bold_Albertus', 'Black_Corbel_Coronet_Ebrima_English', 'Medium_Antique', 'Black_Calibri_Cambria_Cambria']))
+
+ipcity ipcity (set(['Bonn']), set(['Frankfurt', 'Main', 'am']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
+
+====================================

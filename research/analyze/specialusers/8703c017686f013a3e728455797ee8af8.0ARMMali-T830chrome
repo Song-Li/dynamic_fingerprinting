@@ -1,13 +1,10 @@
-ipcity (set(['Dusseldorf']), set(['Stadtoldendorf']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['fa75b97729bf3fe7a7222c1cf19a6cb531b00bedb596951a044d3a85b29dc272']), set(['605d131d2b449213f1950bc022eef3f70a36d24b450be48ff2cda75c7b8144fa']))
 ====================================
-browserfingerprint (set(['605d131d2b449213f1950bc022eef3f70a36d24b450be48ff2cda75c7b8144fa']), set(['398d7c6e5931b366ba2a282fab77b746aa815e72532d496b8db01083ca46c0a8']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Stadtoldendorf']), set(['Proseken']))
-ipregion (set(['Niedersachsen']), set(['Mecklenburg-Vorpommern']))
-browserfingerprint (set(['398d7c6e5931b366ba2a282fab77b746aa815e72532d496b8db01083ca46c0a8']), set(['af67196f5c85a901b6e413ca3b7e157ca96c02d733dda06438988453746d8dfb']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Stadtoldendorf']), set(['Proseken']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Mecklenburg-Vorpommern']))
+
 ====================================
-browserfingerprint (set(['af67196f5c85a901b6e413ca3b7e157ca96c02d733dda06438988453746d8dfb']), set(['8672850e3725f19b1355ad9035a1f96d8f5bcf3160907369dabc96d75ddd8cf2']))
 ====================================

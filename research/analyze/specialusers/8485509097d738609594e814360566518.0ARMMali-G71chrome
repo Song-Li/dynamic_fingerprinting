@@ -1,14 +1,11 @@
-ipcity (set(['Rohrmoos']), set(['Augsburg-Lechviertel']))
-browserfingerprint (set(['92b2440f7a729dc53c72b80b516304ac4063054d04fd9ca56f79559edcedc97f']), set(['0e98077b73f8f77fb093298cf43c6e46cfb0bef509768cfcc67c883accfe8171']))
 ====================================
-browserfingerprint (set(['0e98077b73f8f77fb093298cf43c6e46cfb0bef509768cfcc67c883accfe8171']), set(['78a3cc36aa354d18736fb7f37ceb4cc29532c6758ed7eeafeb5d61ceffdb9f4b']))
 ====================================
-browserfingerprint (set(['78a3cc36aa354d18736fb7f37ceb4cc29532c6758ed7eeafeb5d61ceffdb9f4b']), set(['0e98077b73f8f77fb093298cf43c6e46cfb0bef509768cfcc67c883accfe8171']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Augsburg-Lechviertel']), set(['Dusseldorf']))
-ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['0e98077b73f8f77fb093298cf43c6e46cfb0bef509768cfcc67c883accfe8171']), set(['7cae2d1f562f96e38764a6d1e0e197d50ad55d28ea1fe0688cabe5206713cbc9']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Augsburg-Lechviertel']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+
 ====================================
-browserfingerprint (set(['7cae2d1f562f96e38764a6d1e0e197d50ad55d28ea1fe0688cabe5206713cbc9']), set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']))
 ====================================

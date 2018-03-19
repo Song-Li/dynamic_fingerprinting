@@ -1,13 +1,13 @@
-browserfingerprint (set(['cdef2f7e7f146de1ac8ea572707fab97934d4c9d64073f9d39d50d66b5656a29']), set(['9b3e85d9dca3014bb9656efb781b53c6712b780d40a65885e8c55ea2934dd9c5']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Wommen']), set(['Gneve']))
-ipregion (set(['Hessen']), set(['Mecklenburg-Vorpommern']))
-browserfingerprint (set(['9b3e85d9dca3014bb9656efb781b53c6712b780d40a65885e8c55ea2934dd9c5']), set(['626737d2da8e3b92359895cc32375ae618d18fa2b045aa20affa2d45d8ddfe9f']))
+agent agent (set(['Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Wommen']), set(['Gneve']))
+
+ipregion ipregion (set(['Hessen']), set(['Mecklenburg-Vorpommern']))
+
 ====================================
-ipcity (set(['Gneve']), set(['Mannheim']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['626737d2da8e3b92359895cc32375ae618d18fa2b045aa20affa2d45d8ddfe9f']), set(['c322f08d5021e848004dcf57c373e1bfca33b5b7e20fabb198affb16dea7dd81']))
 ====================================

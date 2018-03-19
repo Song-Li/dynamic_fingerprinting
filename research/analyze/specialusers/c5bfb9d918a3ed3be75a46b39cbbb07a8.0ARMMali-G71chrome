@@ -1,9 +1,0 @@
-browserfingerprint (set(['595334e3c775f5c0ca71af19e60a4ad2246790536f3c8c05aba0096e2098b2bf']), set(['5fef4c0dc0f76c24560e8458b77728e87f0924152ba68bba9045bc5613d03afd']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['5fef4c0dc0f76c24560e8458b77728e87f0924152ba68bba9045bc5613d03afd']), set(['b00fe1fa03b9f0e11bb89a0355c593b7addcb069519fe2e353e01ac770fe1bb2']))
-====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dusseldorf']), set(['Siegen']))
-browserfingerprint (set(['b00fe1fa03b9f0e11bb89a0355c593b7addcb069519fe2e353e01ac770fe1bb2']), set(['74a61da3c43fa600917221d0ff27635ac8bcd9c67e61fbe3ab693ae19fba6e1a']))
-====================================

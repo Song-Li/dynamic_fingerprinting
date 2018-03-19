@@ -1,9 +1,0 @@
-ipcity (set(['Nienburg']), set(['Beerfelden']))
-ipregion (set(['Niedersachsen']), set(['Hessen']))
-browserfingerprint (set(['6abe43a19ad86c7a1ad3c6ba6ef075d7eda6777731265470ac48b5697e529885']), set(['794aaea6566610e425185a97decab32d883e3591b8766d58e158a05001a34b6d']))
-====================================
-browserfingerprint (set(['794aaea6566610e425185a97decab32d883e3591b8766d58e158a05001a34b6d']), set(['edeede7a6d488c8d507efc89ebc55e67eae93e7178cd71e99393051c64a9d248']))
-====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['edeede7a6d488c8d507efc89ebc55e67eae93e7178cd71e99393051c64a9d248']), set(['0872bc92a77b26deee0fbed1b0acae5b11168f23b0fee0255f99da1fa0503e26']))
-====================================

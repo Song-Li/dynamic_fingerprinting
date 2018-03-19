@@ -1,0 +1,9 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Black_Calibri_Cambria_Cambria']))
+
+canvastest canvastest (set(['716b83473587f626ed8324ce5d70524e750cf14d']), set(['4fff544f44e3f937f247ed3f50b90171dd798315']))
+
+ipcity ipcity (set(['Schwabisch', 'Hall']), set(['Stuttgart']))
+
+====================================

@@ -1,11 +1,10 @@
-browserfingerprint (set(['f582bd7a14455d422d567c8c6626f5798544014b2a0c7ba77ca14f8a91e2fa32']), set(['0572102c40713d30f80e44ec0bd5896614de7a478f3d7c55347945b72ff55248']))
 ====================================
-browserfingerprint (set(['0572102c40713d30f80e44ec0bd5896614de7a478f3d7c55347945b72ff55248']), set(['f582bd7a14455d422d567c8c6626f5798544014b2a0c7ba77ca14f8a91e2fa32']))
 ====================================
-browserfingerprint (set(['f582bd7a14455d422d567c8c6626f5798544014b2a0c7ba77ca14f8a91e2fa32']), set(['0572102c40713d30f80e44ec0bd5896614de7a478f3d7c55347945b72ff55248']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Geldern']), set(['Aachen']))
-browserfingerprint (set(['0572102c40713d30f80e44ec0bd5896614de7a478f3d7c55347945b72ff55248']), set(['3568150056926cd4a44d0b67a266aa6af1e28011963bd2d4ce7e0d80a595f6e1']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Geldern']), set(['Aachen']))
+
 ====================================

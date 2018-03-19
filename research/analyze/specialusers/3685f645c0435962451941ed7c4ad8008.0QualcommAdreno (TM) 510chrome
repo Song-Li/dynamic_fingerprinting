@@ -1,0 +1,13 @@
+agent agent (set(['Version/4.0', '6.0.1)', 'Chrome/62.0.3202.84', 'Focus/2.5']), set(['Chrome/64.0.3282.137', 'YT-X703F', 'Lenovo', 'Build/S100)', '7.1.1;']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+cookie cookie (set(['False']), set(['True']))
+
+langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']), set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+
+canvastest canvastest (set(['c2180979cf40bef7c627598e1e903a53ed5751da']), set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']))
+
+====================================

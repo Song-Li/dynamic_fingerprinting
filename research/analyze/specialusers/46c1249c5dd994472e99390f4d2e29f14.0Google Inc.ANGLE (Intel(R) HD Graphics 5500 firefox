@@ -1,0 +1,5 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['ITC_Malgun']), set(['ITC_Leelawadee_Malgun', 'Light_Segoe', 'Semibold_Segoe', 'Uighur_Microsoft']))
+
+====================================

@@ -1,0 +1,11 @@
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['ea43685f8cc4aa2ca85f22d08f50b2ab3f79b984']), set(['a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71']))
+
+ipcity ipcity (set(['Dortmund']), set(['Muenster']))
+
+====================================

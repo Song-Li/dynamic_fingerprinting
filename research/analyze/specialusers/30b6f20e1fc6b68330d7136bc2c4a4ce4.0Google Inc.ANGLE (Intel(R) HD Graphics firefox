@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Book', 'Boli_NSimSun_PMingLiU-ExtB_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small']), set(['A', 'Light_Segoe', 'Boli_NSimSun_OCR', 'Narrow_Book', 'Arial_Arial', 'Semibold_Segoe', 'Black_Arial', 'Extended_PMingLiU-ExtB_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small']))
+
+audio audio (set(['44100_0_1_0_2_explicit_speakers']), set(['44100_0_1_0_0_explicit_speakers']))
+
+====================================

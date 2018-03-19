@@ -1,14 +1,13 @@
-browserfingerprint (set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']), set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']))
 ====================================
-browserfingerprint (set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']), set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']))
 ====================================
-browserfingerprint (set(['b8bf419df27b964fa803cdd350a95a24084ae731089139307b9b56fa5682ffbf']), set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Stuttgart']), set(['Bielefeld']))
-ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['db0452b19c07608bf654dd0617222d07aacec13c2da43b2ea4dbbbb0d6a07fd4']), set(['cf2e775dcba157ace2d4c3dc08ee7a25e301524c21c3a234d2a841aea6b6d3a9']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Stuttgart']), set(['Bielefeld']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+
 ====================================
-browserfingerprint (set(['cf2e775dcba157ace2d4c3dc08ee7a25e301524c21c3a234d2a841aea6b6d3a9']), set(['e469667a333d3f1021b62ef41143445773e8ff38dd2e58d4aa5960641a2d6d83']))
 ====================================

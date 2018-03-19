@@ -1,18 +1,10 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Berlin']))
-ipregion (set(['Hessen']), set(['Berlin']))
-browserfingerprint (set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']), set(['3df88d05f8ecb44dacb71d18c5f4a3904399fc8a4f5e597f86ecd8d8ad142425']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Frankfurt', 'Main', 'am']), set(['Berlin']))
+
+ipregion ipregion (set(['Hessen']), set(['Berlin']))
+
 ====================================
-ipcity (set(['Berlin']), set(['Bielefeld']))
-ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['3df88d05f8ecb44dacb71d18c5f4a3904399fc8a4f5e597f86ecd8d8ad142425']), set(['8fcc506900e61835b61708c2c6089c5e3f33522a74fc10f408ed57b230307d97']))
 ====================================
-ipcity (set(['Bielefeld']), set(['Wiesbaden']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
-browserfingerprint (set(['8fcc506900e61835b61708c2c6089c5e3f33522a74fc10f408ed57b230307d97']), set(['4abb73e04dde8218ff14f83e4a5ac4ad37b483a3ed82b377a83130231db1d823']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Wiesbaden']), set(['Berlin']))
-ipregion (set(['Hessen']), set(['Berlin']))
-browserfingerprint (set(['4abb73e04dde8218ff14f83e4a5ac4ad37b483a3ed82b377a83130231db1d823']), set(['202c6d04dbc8144b193d30d7ff1fc7bdd3ccd5f38bad5203e96f35af169d7eb9']))
 ====================================

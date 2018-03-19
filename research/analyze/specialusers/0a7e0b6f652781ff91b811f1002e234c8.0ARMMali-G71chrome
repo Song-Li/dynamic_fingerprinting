@@ -1,16 +1,10 @@
-browserfingerprint (set(['c019ab052ccbdba0d97c700522c0c3e123d7f5454a219506c76cc2b82a3a2c13']), set(['6ca42776288f3ee72ffc32042ef30757bad87da381717a3a2a8b5c5560562b7c']))
 ====================================
-ipcity (set(['Ludwigshafen']), set(['Heidelberg']))
-browserfingerprint (set(['6ca42776288f3ee72ffc32042ef30757bad87da381717a3a2a8b5c5560562b7c']), set(['7555c8680049272f6f68c55ee9cc3143007501f23239fdb8ba8a6dc4a4257abb']))
 ====================================
-browserfingerprint (set(['7555c8680049272f6f68c55ee9cc3143007501f23239fdb8ba8a6dc4a4257abb']), set(['d8f4e73a6097e6bb6027f5d1b921f5611f48d2be4e47f688dbf7a210255d2017']))
 ====================================
-browserfingerprint (set(['d8f4e73a6097e6bb6027f5d1b921f5611f48d2be4e47f688dbf7a210255d2017']), set(['d26b4802e18f2a7681c436d17121c2cdfe124c58a455a3919abb7add61490cb7']))
 ====================================
-ipcity (set(['Heidelberg']), set(['Ludwigshafen']))
-browserfingerprint (set(['d26b4802e18f2a7681c436d17121c2cdfe124c58a455a3919abb7add61490cb7']), set(['617583184e728750d6360ded00b2e1ec4093178db5254d34681cdb608f390207']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['617583184e728750d6360ded00b2e1ec4093178db5254d34681cdb608f390207']), set(['3df5be0ac24c31e41fb884e6a878039d8dec0bb78ad109b545e0ed94300ad7c6']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

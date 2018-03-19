@@ -1,31 +1,18 @@
-browserfingerprint (set(['e450bad61aa49738ff4d4efc5daa640fdaf96c8bea2b9a54d99f3c2e7752f894']), set(['244538ab78fdf30326287799f2ef89703ecdedae2e36a54f1db7a5f9de8117a0']))
 ====================================
-ipcity (set(['Wiesbaden']), set(['Freinsheim']))
-ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['244538ab78fdf30326287799f2ef89703ecdedae2e36a54f1db7a5f9de8117a0']), set(['eff58edf3125dce57a9c9613ac0a08bb3541e3ce0a5bd60e44f991d6a9892bc5']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Freinsheim']), set(['Wiesbaden']))
-ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
-browserfingerprint (set(['eff58edf3125dce57a9c9613ac0a08bb3541e3ce0a5bd60e44f991d6a9892bc5']), set(['961843cd9b5a91a065feb795bbd307d3ed431f353bc015e97039a07da676f299']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Freinsheim']), set(['Wiesbaden']))
+
+ipregion ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+
 ====================================
-browserfingerprint (set(['961843cd9b5a91a065feb795bbd307d3ed431f353bc015e97039a07da676f299']), set(['4202df5287539bb8a0dfed2513d58934d6cdbc9a2c9a0df455c12107ff7ed19b']))
 ====================================
-browserfingerprint (set(['4202df5287539bb8a0dfed2513d58934d6cdbc9a2c9a0df455c12107ff7ed19b']), set(['961843cd9b5a91a065feb795bbd307d3ed431f353bc015e97039a07da676f299']))
 ====================================
-ipcity (set(['Wiesbaden']), set(['Gau-Algesheim']))
-ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['961843cd9b5a91a065feb795bbd307d3ed431f353bc015e97039a07da676f299']), set(['dc991a5bd900e931f430fffc8fa55844bea370b839a1821c45d445ca14b14346']))
 ====================================
-browserfingerprint (set(['dc991a5bd900e931f430fffc8fa55844bea370b839a1821c45d445ca14b14346']), set(['4280c33939df9c6517658928bbd71c46a6167619a7db7f1e96fe68d10656eada']))
 ====================================
-browserfingerprint (set(['4280c33939df9c6517658928bbd71c46a6167619a7db7f1e96fe68d10656eada']), set(['dc991a5bd900e931f430fffc8fa55844bea370b839a1821c45d445ca14b14346']))
 ====================================
-browserfingerprint (set(['dc991a5bd900e931f430fffc8fa55844bea370b839a1821c45d445ca14b14346']), set(['4280c33939df9c6517658928bbd71c46a6167619a7db7f1e96fe68d10656eada']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Gau-Algesheim']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
-browserfingerprint (set(['4280c33939df9c6517658928bbd71c46a6167619a7db7f1e96fe68d10656eada']), set(['da47b81cae602ccb8e0eb1457ba23a910d72524cbb39fdefb109c422630adcee']))
 ====================================

@@ -1,23 +1,17 @@
-browserfingerprint (set(['cc6e8ef60c98c30058449f11979a31de327004a9eb1643b0d47e174d45fd944d']), set(['c5573636f8b836d93fce8edda379220cc6e2fac431b6faa511198ea58b095014']))
 ====================================
-browserfingerprint (set(['c5573636f8b836d93fce8edda379220cc6e2fac431b6faa511198ea58b095014']), set(['cc6e8ef60c98c30058449f11979a31de327004a9eb1643b0d47e174d45fd944d']))
 ====================================
-browserfingerprint (set(['cc6e8ef60c98c30058449f11979a31de327004a9eb1643b0d47e174d45fd944d']), set(['c5573636f8b836d93fce8edda379220cc6e2fac431b6faa511198ea58b095014']))
 ====================================
-browserfingerprint (set(['c5573636f8b836d93fce8edda379220cc6e2fac431b6faa511198ea58b095014']), set(['cc6e8ef60c98c30058449f11979a31de327004a9eb1643b0d47e174d45fd944d']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Rendsburg']), set(['Norden-Neustadt']))
-ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
-browserfingerprint (set(['cc6e8ef60c98c30058449f11979a31de327004a9eb1643b0d47e174d45fd944d']), set(['e47f1946af2e9b4625c9bbb38e4be9499c6eb5af4fb000b35b1cf5f8ab687c7d']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Rendsburg']), set(['Norden-Neustadt']))
+
+ipregion ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
+
 ====================================
-browserfingerprint (set(['e47f1946af2e9b4625c9bbb38e4be9499c6eb5af4fb000b35b1cf5f8ab687c7d']), set(['977b93fd1f3e1e7c3e9c6c21ee6267cfc2b4e9bafc481e4621f7cf33b0d51d95']))
 ====================================
-browserfingerprint (set(['977b93fd1f3e1e7c3e9c6c21ee6267cfc2b4e9bafc481e4621f7cf33b0d51d95']), set(['e47f1946af2e9b4625c9bbb38e4be9499c6eb5af4fb000b35b1cf5f8ab687c7d']))
 ====================================
-browserfingerprint (set(['e47f1946af2e9b4625c9bbb38e4be9499c6eb5af4fb000b35b1cf5f8ab687c7d']), set(['977b93fd1f3e1e7c3e9c6c21ee6267cfc2b4e9bafc481e4621f7cf33b0d51d95']))
 ====================================
-ipcity (set(['Norden-Neustadt']), set(['Dornum']))
-browserfingerprint (set(['977b93fd1f3e1e7c3e9c6c21ee6267cfc2b4e9bafc481e4621f7cf33b0d51d95']), set(['75731ed62b4a84aa1f07221cc22cab60c38abfc53b22c508d25873d735d324ca']))
 ====================================

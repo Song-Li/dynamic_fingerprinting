@@ -1,19 +1,16 @@
-ipcity (set(['Augsburg']), set(['Noschenrode']))
-ipregion (set(['Schleswig-Holstein']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['906e6172177715b8380f3ea00ecad22c0343600acd080bcfcd9917f5fc6887ba']), set(['0dff8dfe27bf58010010dcf6f266b5b75e4519aaa90f5c455c2507486c189c5e']))
 ====================================
-agent (set(['Chrome/59.0.3071.125']), set(['Chrome/63.0.3239.111']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Noschenrode']), set(['Buxtehude']))
-ipregion (set(['Sachsen-Anhalt']), set(['Niedersachsen']))
-browserfingerprint (set(['0dff8dfe27bf58010010dcf6f266b5b75e4519aaa90f5c455c2507486c189c5e']), set(['a7814659cce526d5d5fbcf9eb39dace7f7a2412ee53c5e7fe06ad898ce4c276c']))
+agent agent (set(['Chrome/59.0.3071.125']), set(['Chrome/63.0.3239.111']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Noschenrode']), set(['Buxtehude']))
+
+ipregion ipregion (set(['Sachsen-Anhalt']), set(['Niedersachsen']))
+
 ====================================
-browserfingerprint (set(['a7814659cce526d5d5fbcf9eb39dace7f7a2412ee53c5e7fe06ad898ce4c276c']), set(['557268c69f8a18e3ac26fe35933ea854c8b8d61980ea8f68bff54678fb2bbb34']))
 ====================================
-browserfingerprint (set(['557268c69f8a18e3ac26fe35933ea854c8b8d61980ea8f68bff54678fb2bbb34']), set(['a7814659cce526d5d5fbcf9eb39dace7f7a2412ee53c5e7fe06ad898ce4c276c']))
 ====================================
-browserfingerprint (set(['a7814659cce526d5d5fbcf9eb39dace7f7a2412ee53c5e7fe06ad898ce4c276c']), set(['557268c69f8a18e3ac26fe35933ea854c8b8d61980ea8f68bff54678fb2bbb34']))
 ====================================
-browserfingerprint (set(['557268c69f8a18e3ac26fe35933ea854c8b8d61980ea8f68bff54678fb2bbb34']), set(['a7814659cce526d5d5fbcf9eb39dace7f7a2412ee53c5e7fe06ad898ce4c276c']))
 ====================================

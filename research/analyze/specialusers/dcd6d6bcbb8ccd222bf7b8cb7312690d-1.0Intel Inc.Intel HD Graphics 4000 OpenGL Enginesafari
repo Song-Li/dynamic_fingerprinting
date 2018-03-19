@@ -1,0 +1,13 @@
+agent agent (set(['10_12_6)']), set(['10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+langsdetected langsdetected (set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee']))
+
+jsFonts jsFonts (set(['Narrow_Courier_Courier', '3_Apple', 'Arial_Arial', 'Bold_Roman_Savoye', 'Neo_AVENIR_Bauhaus', '7_English', 'BT_Futura_Gabriola_Geeza', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', '93_Bodoni']), set(['UCAS_Futura_Gabriola_Geeza', 'Hand_Brush', '3_American', 'MS_Comic', 'Narrow_Arial', 'New_Geneva_Georgia_Helvetica_Helvetica', 'MT_Chalkboard_Chalkboard', 'MN_Baskerville_Bauhaus', 'BT_Euphemia', 'Neo_AVENIR_Ayuthaya_Bangla', 'Andale', 'Caslon_Bodoni', 'Typewriter_Apple', '93_Big', '7_Bradley', 'SE_Chalkduster_Cochin_Copperplate_Didot_English', 'Bold_Savoye', 'Rounded', 'Bold_Arial', 'Unicode', 'MS_Courier_Courier', 'Mono_Arial_Arial']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Aachen']), set(['Dusseldorf']))
+
+====================================

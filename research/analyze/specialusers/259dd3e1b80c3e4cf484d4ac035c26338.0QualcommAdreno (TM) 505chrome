@@ -1,6 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dusseldorf']), set(['Baunatal']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
-browserfingerprint (set(['7b30f689af7baab6f02e651f0cf04a2e0b90b5e0c3751d79d71cab28ee1b2113']), set(['484e3bf5c062ab101098d2b1e198523f1d2bf5a79bbda61cb7b07829f678a124']))
-====================================

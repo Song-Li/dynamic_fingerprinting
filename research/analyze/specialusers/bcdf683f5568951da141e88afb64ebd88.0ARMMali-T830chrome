@@ -1,12 +1,12 @@
-browserfingerprint (set(['e30696dc390ce3ea114c56d5d219fb33ecb7aef3b5374d1d42ef447fab0fb187']), set(['8d2472bd031a00d5086da3b1a8e99dd8817ff27fbafcfffd99d4ec00ba20e0cb']))
 ====================================
-browserfingerprint (set(['8d2472bd031a00d5086da3b1a8e99dd8817ff27fbafcfffd99d4ec00ba20e0cb']), set(['653ba443d84c85897ed794ca704805d175893cc1387d754ea59aa4e19f6e443d']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Magdeburg']), set(['Dusseldorf']))
-ipregion (set(['Sachsen-Anhalt']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['653ba443d84c85897ed794ca704805d175893cc1387d754ea59aa4e19f6e443d']), set(['bc458ef854dc3e636522cb3dbd8ae9001c6c98db95b8497a2ca1304ef0ebbae0']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Magdeburg']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Sachsen-Anhalt']), set(['Nordrhein-Westfalen']))
+
 ====================================
-browserfingerprint (set(['bc458ef854dc3e636522cb3dbd8ae9001c6c98db95b8497a2ca1304ef0ebbae0']), set(['f66af84f60b3f5adf8b628dd6f1bab135fe63e51d0eb4f0f8ab90117df5b189b']))
 ====================================

@@ -1,12 +1,9 @@
-browserfingerprint (set(['ab6082c8af60452af8220f291f3a309504660fb59954d2d5c62233094b3de6e1']), set(['3bdbe7d2a2ee071088b231a25aca0deadb48d36cd108a0e6524cab54045975ee']))
 ====================================
-browserfingerprint (set(['3bdbe7d2a2ee071088b231a25aca0deadb48d36cd108a0e6524cab54045975ee']), set(['ab6082c8af60452af8220f291f3a309504660fb59954d2d5c62233094b3de6e1']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Osnabruck']), set(['Melle']))
-browserfingerprint (set(['ab6082c8af60452af8220f291f3a309504660fb59954d2d5c62233094b3de6e1']), set(['81c1c0c2438afd7572e9b7a15c3f50006696b5fe2d393d65e7d2ff2cb3c84d16']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Osnabruck']), set(['Melle']))
+
 ====================================
-browserfingerprint (set(['81c1c0c2438afd7572e9b7a15c3f50006696b5fe2d393d65e7d2ff2cb3c84d16']), set(['71e4edf92423db284a0f2a5b546730d3f5d5d9b09f9e8f1926d4d1d36f680d49']))
 ====================================
-browserfingerprint (set(['71e4edf92423db284a0f2a5b546730d3f5d5d9b09f9e8f1926d4d1d36f680d49']), set(['81c1c0c2438afd7572e9b7a15c3f50006696b5fe2d393d65e7d2ff2cb3c84d16']))
 ====================================

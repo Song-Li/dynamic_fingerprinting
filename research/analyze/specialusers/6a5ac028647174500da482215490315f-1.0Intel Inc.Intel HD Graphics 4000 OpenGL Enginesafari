@@ -1,0 +1,9 @@
+agent agent (set(['Safari/604.4.7', '10_12_6)', 'AppleWebKit/604.4.7', 'Version/11.0.2']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6', '10_13_3)']))
+
+encoding encoding (set([]), set(['br,']))
+
+jsFonts jsFonts (set(['Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'Pro_Mistral_Modern', 'Typewriter_American', 'PRO_Palatino_Palatino', 'Serif_MYRIAD', 'Bold_Roman_Savoye', 'Condensed_Apple', 'Typewriter']), set(['Typewriter_Apple', 'Bold_Savoye', 'Serif_Palatino_Palatino', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+====================================

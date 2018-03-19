@@ -1,22 +1,16 @@
-browserfingerprint (set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']), set(['cb44ce97c14186920703fbe14a901417d2c53c08e802899e3dd6a16e5449923f']))
 ====================================
-browserfingerprint (set(['cb44ce97c14186920703fbe14a901417d2c53c08e802899e3dd6a16e5449923f']), set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']))
 ====================================
-browserfingerprint (set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']), set(['cb44ce97c14186920703fbe14a901417d2c53c08e802899e3dd6a16e5449923f']))
 ====================================
-browserfingerprint (set(['cb44ce97c14186920703fbe14a901417d2c53c08e802899e3dd6a16e5449923f']), set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hamburg']), set(['Braunschweig']))
-ipregion (set(['Hamburg']), set(['Niedersachsen']))
-browserfingerprint (set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']), set(['a1940a662d1d924a328abdcfbbcb96df675f4e043c09deea45b235e30f84437d']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Hamburg']), set(['Braunschweig']))
+
+ipregion ipregion (set(['Hamburg']), set(['Niedersachsen']))
+
 ====================================
-browserfingerprint (set(['a1940a662d1d924a328abdcfbbcb96df675f4e043c09deea45b235e30f84437d']), set(['186b0eaab0c1054554ad81fbc9919aa902b0f1101ae8e382f3a2c3d3be5f95c4']))
 ====================================
-ipcity (set(['Braunschweig']), set(['Hamburg']))
-ipregion (set(['Niedersachsen']), set(['Hamburg']))
-browserfingerprint (set(['186b0eaab0c1054554ad81fbc9919aa902b0f1101ae8e382f3a2c3d3be5f95c4']), set(['aa28ebb925f003b37c29f04989f4d3ebaacf5dbe601a4415caae0efb6fe45b1b']))
 ====================================
-browserfingerprint (set(['aa28ebb925f003b37c29f04989f4d3ebaacf5dbe601a4415caae0efb6fe45b1b']), set(['fd2abb1849e7dfaa0357273b0fc36493052f59e62679744fc69844b154344982']))
 ====================================

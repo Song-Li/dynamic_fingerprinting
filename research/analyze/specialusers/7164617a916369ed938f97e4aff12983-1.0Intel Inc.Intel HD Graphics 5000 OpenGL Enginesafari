@@ -1,0 +1,13 @@
+agent agent (set(['Version/11.0', 'Safari/604.1.38', 'AppleWebKit/604.1.38', '10_12_6)']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6', '10_13_3)']))
+
+encoding encoding (set([]), set(['br,']))
+
+jsFonts jsFonts (set(['Typewriter_American', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Roman_Savoye', 'Condensed_Apple', 'Typewriter']), set(['Typewriter_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Savoye']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Muenster']), set(['Berlin']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+
+====================================

@@ -1,17 +1,16 @@
-browserfingerprint (set(['f2516a5f3e6ccf9bf45add4ad8e5d5c3d9e5e00bd61523926088859140e79764']), set(['9da8d84d5e6a568aedf083e211f3f14a6fa98f9922b57175c3d89e5fa1695515']))
 ====================================
-browserfingerprint (set(['9da8d84d5e6a568aedf083e211f3f14a6fa98f9922b57175c3d89e5fa1695515']), set(['f2516a5f3e6ccf9bf45add4ad8e5d5c3d9e5e00bd61523926088859140e79764']))
 ====================================
-language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['en-AU,en;q=0.9,de-DE;q=0.8,de;q=0.7,en-GB;q=0.6,en-US;q=0.5']))
-ipcity (set(['Friedrichshafen']), set(['Bamberg']))
-ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
-browserfingerprint (set(['f2516a5f3e6ccf9bf45add4ad8e5d5c3d9e5e00bd61523926088859140e79764']), set(['d0c6c5be951b78c4e5be8c030bbb16caa08146a5283b0ed138d68fed218fc2b1']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-timezone (set(['-60.0']), set(['-420.0']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Bamberg']), set(['Ban', 'Ao', 'Nang']))
-ipregion (set(['Bayern']), set(['Phangnga']))
-ipcountry (set(['Germany']), set(['Thailand']))
-browserfingerprint (set(['d0c6c5be951b78c4e5be8c030bbb16caa08146a5283b0ed138d68fed218fc2b1']), set(['557bb3c935ba739a0919fea83af36e2021ba21b011e450a499b3be757b95c6ad']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+timezone timezone (set(['-60.0']), set(['-420.0']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Bamberg']), set(['Ban', 'Ao', 'Nang']))
+
+ipregion ipregion (set(['Bayern']), set(['Phangnga']))
+
+ipcountry ipcountry (set(['Germany']), set(['Thailand']))
+
 ====================================

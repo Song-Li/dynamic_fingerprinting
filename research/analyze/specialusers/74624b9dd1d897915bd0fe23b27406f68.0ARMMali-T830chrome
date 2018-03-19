@@ -1,20 +1,10 @@
-browserfingerprint (set(['372490aba3b89a83a166a9f9a4e4fa58ccef05d863b0842134f44a280b11bd7e']), set(['81a21fed8adbbe2ee7fa5412226946dea7ccf97b10b4fb84b0e770b4ac8e6f63']))
 ====================================
-ipcity (set(['Linz']), set(['Vienna']))
-ipregion (set(['Oberosterreich']), set(['Wien']))
-browserfingerprint (set(['81a21fed8adbbe2ee7fa5412226946dea7ccf97b10b4fb84b0e770b4ac8e6f63']), set(['f501e7a8fac9247e9fc587d6f822688143cc18f1756cbb236bfb21572b683525']))
 ====================================
-ipcity (set(['Vienna']), set(['Linz']))
-ipregion (set(['Wien']), set(['Oberosterreich']))
-browserfingerprint (set(['f501e7a8fac9247e9fc587d6f822688143cc18f1756cbb236bfb21572b683525']), set(['372490aba3b89a83a166a9f9a4e4fa58ccef05d863b0842134f44a280b11bd7e']))
 ====================================
-browserfingerprint (set(['372490aba3b89a83a166a9f9a4e4fa58ccef05d863b0842134f44a280b11bd7e']), set(['81a21fed8adbbe2ee7fa5412226946dea7ccf97b10b4fb84b0e770b4ac8e6f63']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-browserfingerprint (set(['81a21fed8adbbe2ee7fa5412226946dea7ccf97b10b4fb84b0e770b4ac8e6f63']), set(['c2187358535317cf4142b01773f79d541e173dda7b621094707f10e6072485ce']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['c2187358535317cf4142b01773f79d541e173dda7b621094707f10e6072485ce']), set(['5bc745f1a9faa0bffe162c831e71eada6b389d36b39206fcc6384a651359681f']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

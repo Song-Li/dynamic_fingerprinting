@@ -1,0 +1,11 @@
+agent agent (set(['Chrome/61.0.3163.100']), set(['Chrome/63.0.3239.132']))
+
+language language (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9']))
+
+jsFonts jsFonts (set(['Roman_Iskoola', 'Pota_Jokerman_Juice', 'Solid_NSimSun_Nyala_Old', 'Script_Leelawadee_Letter', 'Condensed_Utsaah_Vani_Viner', 'ITC_Kokila_Kristen', 'Olive_Aparajita_ARNO', 'Uighur_Microsoft']), set(['Solid_NSimSun_Old', 'ITC_Kristen', 'Condensed_Viner', 'Olive_ARNO', 'Roman_Jokerman_Juice', 'Script_Letter']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['West', 'Beach', 'Palm']), set(['Miami']))
+
+====================================

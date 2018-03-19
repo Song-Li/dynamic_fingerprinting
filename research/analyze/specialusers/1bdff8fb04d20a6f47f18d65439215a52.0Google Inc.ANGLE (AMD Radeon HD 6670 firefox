@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:58.0)', 'Firefox/58.0']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+canvastest canvastest (set(['14948e87619f0dbe98d22a801430a23f8bf3852b']), set(['b50a6849d9c6ae330992abb5189cc539fcb4c978']))
+
+====================================

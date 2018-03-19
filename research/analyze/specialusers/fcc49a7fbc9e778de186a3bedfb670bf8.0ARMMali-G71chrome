@@ -1,9 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hanover']), set(['Saarbrucken']))
-ipregion (set(['Niedersachsen']), set(['Saarland']))
-browserfingerprint (set(['9109f69f6c7632e5fcefd74c794a3dd04e1b4f5932a64d1cb3d76c59d567735e']), set(['044a2408f45565f57e34a798deef49c54662cdf9ae0275ea0340f690f791f703']))
-====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-browserfingerprint (set(['044a2408f45565f57e34a798deef49c54662cdf9ae0275ea0340f690f791f703']), set(['9e8f5613337c7520db0b9dc88967944c72af9f98ac4ef8e28fa03b3707be420c']))
-====================================

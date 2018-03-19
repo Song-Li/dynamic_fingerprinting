@@ -1,39 +1,21 @@
-browserfingerprint (set(['7d6aeb7398046c6949f5588210079fb74a5631b9b3de1cf1811a55782f809972']), set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']))
 ====================================
-browserfingerprint (set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']), set(['6645427243b6d9621186294da463c65b8c2e889a883dab14b6c58667aec5670f']))
 ====================================
-browserfingerprint (set(['6645427243b6d9621186294da463c65b8c2e889a883dab14b6c58667aec5670f']), set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']))
 ====================================
-ipcity (set(['Gera']), set(['Hamburg']))
-ipregion (set(['Thuringen']), set(['Hamburg']))
-browserfingerprint (set(['9d2154bfb7dc0e12b7fc73667c5aaea5d54a753b392f9b50f213822fe0ac73d9']), set(['651099161d6a5b57041115e7106edbf86811bbd8fd4719f3777820d5aa0be049']))
 ====================================
-browserfingerprint (set(['651099161d6a5b57041115e7106edbf86811bbd8fd4719f3777820d5aa0be049']), set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']))
 ====================================
-browserfingerprint (set(['e9a46475a94466bb50692a52797f1acc0bfd207ab8e660a348269415a0ed7e57']), set(['651099161d6a5b57041115e7106edbf86811bbd8fd4719f3777820d5aa0be049']))
 ====================================
-browserfingerprint (set(['651099161d6a5b57041115e7106edbf86811bbd8fd4719f3777820d5aa0be049']), set(['568706d25b78e1024968371122643ba4217ee7930b13940a5659df46574bf3ac']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hamburg']), set(['Halle', '(Saale)']))
-ipregion (set(['Hamburg']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['568706d25b78e1024968371122643ba4217ee7930b13940a5659df46574bf3ac']), set(['5ff4c3e3249b8c3e667b3fbf51e4020a9e2a9ef5b1857890d1c1a6ee2f990b50']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.123']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Hamburg']), set(['Halle', '(Saale)']))
+
+ipregion ipregion (set(['Hamburg']), set(['Sachsen-Anhalt']))
+
 ====================================
-ipcity (set(['Halle', '(Saale)']), set(['Warenshof']))
-ipregion (set(['Sachsen-Anhalt']), set(['Mecklenburg-Vorpommern']))
-browserfingerprint (set(['5ff4c3e3249b8c3e667b3fbf51e4020a9e2a9ef5b1857890d1c1a6ee2f990b50']), set(['931139cdaf7d5620b1279cfe4df97cc37be362a15b92d8e8f4d23871c32aebec']))
 ====================================
-ipcity (set(['Warenshof']), set(['Chemnitz']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Sachsen']))
-browserfingerprint (set(['931139cdaf7d5620b1279cfe4df97cc37be362a15b92d8e8f4d23871c32aebec']), set(['c0d86470352b4e634831602b361d6693bb2ca57312b47ed0f0addee48c56a01c']))
 ====================================
-agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Chemnitz']), set(['Noschenrode']))
-ipregion (set(['Sachsen']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['c0d86470352b4e634831602b361d6693bb2ca57312b47ed0f0addee48c56a01c']), set(['8d8f23fffb4f7f54ac5196ed6197a6ba26c8090e3ddc5ea8eba77fab9309257d']))
 ====================================
-browserfingerprint (set(['8d8f23fffb4f7f54ac5196ed6197a6ba26c8090e3ddc5ea8eba77fab9309257d']), set(['b94615f72f24f023e2cc356dab18c2cd035a730ad2944880a76a72c947eefcb8']))
 ====================================
-browserfingerprint (set(['b94615f72f24f023e2cc356dab18c2cd035a730ad2944880a76a72c947eefcb8']), set(['8d8f23fffb4f7f54ac5196ed6197a6ba26c8090e3ddc5ea8eba77fab9309257d']))
 ====================================

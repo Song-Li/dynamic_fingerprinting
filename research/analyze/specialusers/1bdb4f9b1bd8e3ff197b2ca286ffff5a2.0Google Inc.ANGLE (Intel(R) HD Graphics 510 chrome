@@ -1,0 +1,30 @@
+agent agent (set(['Chrome/44.0.2403.125']), set(['coc_coc_browser/60.4.136', 'Chrome/54.4.2840.136']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['en-US,en;q=0.8,vi;q=0.6']), set(['vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2']))
+
+plugins plugins (set(['PlugIn~Unity', 'Plugin~Shockwave', 'Viewer~Google', 'Chrome', 'Client~PDFXChange', 'Update~Native', 'Player~Widevine', 'Desktop', 'Presenter', 'Viewer~Chrome', 'Remote', 'Flash~Silverlight', 'Viewer~Photodex', 'Flash~Shockwave']), set(['Viewer~Native', 'Flash~Widevine', 'Chromium', 'Client~Shockwave', 'Viewer~Chromium']))
+
+langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern']))
+
+jsFonts jsFonts (set(['MS_Verdana_Wingdings', 'BT_Gisha_Humanst', 'New_AngsanaUPC_Aparajita_Bauhaus', 'Gothic_Mangal_Meiryo_Meiryo', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Ebrima_English']), set(['Gothic_Mangal_Marlett_Meiryo_Meiryo', 'New_AngsanaUPC_Aparajita_Arabic', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'MS_Verdana_Wingdings_Wingdings', 'Typesetting_Batang_BatangChe_Bauhaus', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Humanst']))
+
+canvastest canvastest (set(['6b3cd55696ddd92ef7a64680ea791e16c12e99e3']), set(['4ae230f11be50db77fc4f093b9ad11a5beda5399']))
+
+====================================
+agent agent (set(['Chrome/44.0.2403.125']), set(['coc_coc_browser/60.4.136', 'Chrome/54.4.2840.136']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['en-US,en;q=0.8,vi;q=0.6']), set(['vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2']))
+
+plugins plugins (set(['PlugIn~Unity', 'Plugin~Shockwave', 'Viewer~Google', 'Chrome', 'Client~PDFXChange', 'Update~Native', 'Player~Widevine', 'Desktop', 'Presenter', 'Viewer~Chrome', 'Remote', 'Flash~Silverlight', 'Viewer~Photodex', 'Flash~Shockwave']), set(['Viewer~Native', 'Flash~Widevine', 'Chromium', 'Client~Shockwave', 'Viewer~Chromium']))
+
+langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern']))
+
+jsFonts jsFonts (set(['MS_Verdana_Wingdings', 'BT_Gisha_Humanst', 'New_AngsanaUPC_Aparajita_Bauhaus', 'Gothic_Mangal_Meiryo_Meiryo', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Ebrima_English']), set(['Gothic_Mangal_Marlett_Meiryo_Meiryo', 'New_AngsanaUPC_Aparajita_Arabic', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'MS_Verdana_Wingdings_Wingdings', 'Typesetting_Batang_BatangChe_Bauhaus', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Humanst']))
+
+canvastest canvastest (set(['6b3cd55696ddd92ef7a64680ea791e16c12e99e3']), set(['4ae230f11be50db77fc4f093b9ad11a5beda5399']))
+
+====================================

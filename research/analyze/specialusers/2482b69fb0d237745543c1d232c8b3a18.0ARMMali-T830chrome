@@ -1,48 +1,21 @@
-browserfingerprint (set(['594315795fcd913ae0f1c292577bf47f6b7c0b00027e1402f8d7986d6de89b49']), set(['d987030783d11c1567bbfba5c4f30bee0d2f9b887db524be7a0f85fe6594adb4']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-ipcity (set(['Potsdam']), set(['Noschenrode']))
-ipregion (set(['Brandenburg']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['d987030783d11c1567bbfba5c4f30bee0d2f9b887db524be7a0f85fe6594adb4']), set(['ce799db6dd28dc567184eedf827038948dfe883de99ce62af674e50a10743056']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Noschenrode']), set(['Lubbenau']))
-ipregion (set(['Sachsen-Anhalt']), set(['Brandenburg']))
-browserfingerprint (set(['ce799db6dd28dc567184eedf827038948dfe883de99ce62af674e50a10743056']), set(['ebb570f660f04055f0dd65e0b6f42957cb0e187fed543ee59338d0671a40858a']))
 ====================================
-browserfingerprint (set(['ebb570f660f04055f0dd65e0b6f42957cb0e187fed543ee59338d0671a40858a']), set(['def6537f37936e09ac8e9c1849087140c14696b26e1dc5f2f71daf0bb9b1e7a4']))
 ====================================
-browserfingerprint (set(['def6537f37936e09ac8e9c1849087140c14696b26e1dc5f2f71daf0bb9b1e7a4']), set(['ebb570f660f04055f0dd65e0b6f42957cb0e187fed543ee59338d0671a40858a']))
 ====================================
-browserfingerprint (set(['ebb570f660f04055f0dd65e0b6f42957cb0e187fed543ee59338d0671a40858a']), set(['def6537f37936e09ac8e9c1849087140c14696b26e1dc5f2f71daf0bb9b1e7a4']))
 ====================================
-ipcity (set(['Lubbenau']), set(['Berlin']))
-ipregion (set(['Brandenburg']), set(['Berlin']))
-browserfingerprint (set(['def6537f37936e09ac8e9c1849087140c14696b26e1dc5f2f71daf0bb9b1e7a4']), set(['b0e83129a49f5a48077993c12da9a8717a123698783217c636d6ef4dc1a97283']))
 ====================================
-ipcity (set(['Berlin']), set(['Noschenrode']))
-ipregion (set(['Berlin']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['b0e83129a49f5a48077993c12da9a8717a123698783217c636d6ef4dc1a97283']), set(['b451c92d891bdfa3ff2d4ca2868b140fd55d42850d49ab9e0fed2786b6cf363d']))
 ====================================
-browserfingerprint (set(['b451c92d891bdfa3ff2d4ca2868b140fd55d42850d49ab9e0fed2786b6cf363d']), set(['e31fa9edde348b13d96be94d172e55e57b4169ae53101a03916da71b012d42ac']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Noschenrode']), set(['Potsdam']))
-ipregion (set(['Sachsen-Anhalt']), set(['Brandenburg']))
-browserfingerprint (set(['e31fa9edde348b13d96be94d172e55e57b4169ae53101a03916da71b012d42ac']), set(['70c62a3e8b10dd31dbfae242bfeb2219f84f6e9dc1076a51057bc1e48499aee5']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Noschenrode']), set(['Potsdam']))
+
+ipregion ipregion (set(['Sachsen-Anhalt']), set(['Brandenburg']))
+
 ====================================
-ipcity (set(['Potsdam']), set(['Berlin']))
-ipregion (set(['Brandenburg']), set(['Berlin']))
-browserfingerprint (set(['70c62a3e8b10dd31dbfae242bfeb2219f84f6e9dc1076a51057bc1e48499aee5']), set(['de4be883d91078173ea9664f9b0d05bf232c41ffc86216119a5cb06be1aeba26']))
 ====================================
-browserfingerprint (set(['de4be883d91078173ea9664f9b0d05bf232c41ffc86216119a5cb06be1aeba26']), set(['fdad0356291553ec8d1fd3d06d118205e17c599b5013fc27cfbba126aaf5f216']))
 ====================================
-browserfingerprint (set(['fdad0356291553ec8d1fd3d06d118205e17c599b5013fc27cfbba126aaf5f216']), set(['de4be883d91078173ea9664f9b0d05bf232c41ffc86216119a5cb06be1aeba26']))
 ====================================
-browserfingerprint (set(['de4be883d91078173ea9664f9b0d05bf232c41ffc86216119a5cb06be1aeba26']), set(['fdad0356291553ec8d1fd3d06d118205e17c599b5013fc27cfbba126aaf5f216']))
 ====================================
-ipcity (set(['Berlin']), set(['Zeuthen']))
-ipregion (set(['Berlin']), set(['Brandenburg']))
-browserfingerprint (set(['fdad0356291553ec8d1fd3d06d118205e17c599b5013fc27cfbba126aaf5f216']), set(['959595736be95ff6e2002c900d629feb23fe380b89ce380c1b9dc1559c73a178']))
 ====================================

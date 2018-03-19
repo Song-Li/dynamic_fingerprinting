@@ -1,13 +1,8 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['4ee13df421b61ea0a69848eb5a2adbb4fdbf37a6ad3e949e032e6dac67d61d70']), set(['18e8022b79e03aa59ebf6ef173400caed616aa5c6e93c3cef1d3402c41d48e59']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nuremberg']), set(['Wuerzburg']))
-browserfingerprint (set(['18e8022b79e03aa59ebf6ef173400caed616aa5c6e93c3cef1d3402c41d48e59']), set(['5bb76570794cdee189f3bd0459065cd4e5ef0bf1e71166491697f0ef575ab463']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Wuerzburg']))
+
 ====================================
-browserfingerprint (set(['5bb76570794cdee189f3bd0459065cd4e5ef0bf1e71166491697f0ef575ab463']), set(['9e281be10f467b8c5b5927a1222228e80773d8c31f3b81097068188a0c45837c']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-ipcity (set(['Wuerzburg']), set(['Nuremberg']))
-browserfingerprint (set(['9e281be10f467b8c5b5927a1222228e80773d8c31f3b81097068188a0c45837c']), set(['f9ffcf3cb66ddb6b79d8b6c0eb3a51d35d88243712c10033006d91db3d397d89']))
 ====================================

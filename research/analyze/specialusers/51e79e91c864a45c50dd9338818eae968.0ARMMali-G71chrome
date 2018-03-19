@@ -1,24 +1,12 @@
-ipcity (set(['Munich']), set(['Grafling']))
-browserfingerprint (set(['f2fa5c57269036509855cb37596f3a5f2e05a8ace3d4d7c1a6ac3e029050616f']), set(['51074618582dc7b4f3293d4e1a3f0a0494af755ffca4195cf426cf40310e3b82']))
 ====================================
-browserfingerprint (set(['51074618582dc7b4f3293d4e1a3f0a0494af755ffca4195cf426cf40310e3b82']), set(['9878f27baeffb93d45700de6fde9a00af3fedb46c7e9f57f93f581dd8f3837de']))
 ====================================
-browserfingerprint (set(['9878f27baeffb93d45700de6fde9a00af3fedb46c7e9f57f93f581dd8f3837de']), set(['51074618582dc7b4f3293d4e1a3f0a0494af755ffca4195cf426cf40310e3b82']))
 ====================================
-ipcity (set(['Grafling']), set(['Munich']))
-browserfingerprint (set(['51074618582dc7b4f3293d4e1a3f0a0494af755ffca4195cf426cf40310e3b82']), set(['d2ddd237493a7d9fa981851e6e3ab98c8f77ab74d35b9898375b88383aaa5f0c']))
 ====================================
-browserfingerprint (set(['d2ddd237493a7d9fa981851e6e3ab98c8f77ab74d35b9898375b88383aaa5f0c']), set(['f2fa5c57269036509855cb37596f3a5f2e05a8ace3d4d7c1a6ac3e029050616f']))
 ====================================
-ipcity (set(['Munich']), set(['Lappersdorf']))
-browserfingerprint (set(['f2fa5c57269036509855cb37596f3a5f2e05a8ace3d4d7c1a6ac3e029050616f']), set(['37c4f7cced8c8a0d4903c4479bfaf2e72ec34d7a12980b66be2a9e991230146d']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-ipcity (set(['Lappersdorf']), set(['Nuremberg']))
-browserfingerprint (set(['37c4f7cced8c8a0d4903c4479bfaf2e72ec34d7a12980b66be2a9e991230146d']), set(['d538953f65993f7520fd17c423eb3c7efda0b5c1008566288421d033e74796eb']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nuremberg']), set(['Lappersdorf']))
-browserfingerprint (set(['d538953f65993f7520fd17c423eb3c7efda0b5c1008566288421d033e74796eb']), set(['6396613dd36b2e51bd17c62a11682d8eba8c2d4a1bd3dfbccf3b9e56244b317a']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Lappersdorf']))
+
 ====================================

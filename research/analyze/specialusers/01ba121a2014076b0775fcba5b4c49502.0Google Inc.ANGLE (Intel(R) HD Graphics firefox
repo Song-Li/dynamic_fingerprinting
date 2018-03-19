@@ -1,0 +1,11 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set([]), set(['Light_Segoe', 'Semibold_Segoe']))
+
+ipcity ipcity (set(['London']), set(['Bielefeld']))
+
+ipregion ipregion (set(['England']), set(['Nordrhein-Westfalen']))
+
+ipcountry ipcountry (set(['Kingdom', 'United']), set(['Germany']))
+
+====================================

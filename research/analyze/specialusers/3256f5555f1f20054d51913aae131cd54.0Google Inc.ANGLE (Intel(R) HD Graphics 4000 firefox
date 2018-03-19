@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['BT_EucrosiaUPC_FreesiaUPC_Freestyle', 'ITC_Broadway_Browallia', 'BT_Harrington_High', 'MT_Constantia_Corbel_Cordia', 'Smallcaps_Bookshelf', 'FB_Bodoni']), set(['Light_Segoe', 'Poster', 'Semibold_Segoe', 'Demi_Bernard', 'Italic_Harrington_High', 'Black_Corbel_Cordia', 'Solid', 'MT_Constantia_Cooper', 'Smallcaps_Bodoni', 'BT_EucrosiaUPC_FONTIN_Footlight', 'FB', 'ITC_Britannic', 'Condensed_Bodoni', 'FB_Berlin', 'Compressed_Bookshelf', 'BT_GOTHAM_Harlow', 'Bold_Broadway_Browallia', 'Light_FreesiaUPC_Freestyle']))
+
+ipcity ipcity (set(['Aulendorf']), set(['Ulm']))
+
+====================================

@@ -1,14 +1,7 @@
-browserfingerprint (set(['ade8d3624ff6ae110347dc5ad827b28a586af99c00f0f17248bd5c904504c847']), set(['0c53e62da07a10f48626b96d294dfe87963eb0f4e904a847b28025ef752a4e2d']))
 ====================================
-ipcity (set(['Berlin']), set(['Zwickau']))
-ipregion (set(['Berlin']), set(['Sachsen']))
-browserfingerprint (set(['0c53e62da07a10f48626b96d294dfe87963eb0f4e904a847b28025ef752a4e2d']), set(['d563dc204676b152618f3c845760bbe82770828726ad2abc1dc7f5a2f0088d6a']))
 ====================================
-browserfingerprint (set(['d563dc204676b152618f3c845760bbe82770828726ad2abc1dc7f5a2f0088d6a']), set(['85122103dbd5ebad975607c65587a0865a06f754a4e615df5048f62c66019243']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['85122103dbd5ebad975607c65587a0865a06f754a4e615df5048f62c66019243']), set(['407961866ab1f316df0f5059d58c1eed7eb210858a859b3d3b3bfa8d125a7bd9']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-browserfingerprint (set(['407961866ab1f316df0f5059d58c1eed7eb210858a859b3d3b3bfa8d125a7bd9']), set(['f14d209a0444bf92bfb02fcd906aef9a8223944fa113ec6d5977cf87dc05bea0']))
 ====================================

@@ -1,0 +1,5 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['BT_Freestyle', 'BT_Haettenschweiler_Harrington_High', 'Smallcaps_Bookshelf', 'ITC_Broadway_Brush', 'MT_Constantia_Corbel_Ebrima_English', 'FB_Bodoni']), set(['Light_Segoe', 'BT_Footlight', 'Demi_Bernard', 'ITC_Britannic', 'Italic_Harrington_High', 'Solid', 'MT_Constantia_Cooper', 'Black_Corbel_Ebrima_English', 'Smallcaps_Bodoni', 'Bold_Broadway_Brush', 'FB', 'Semibold_Segoe', 'Narrow_Arial', 'Black_Arial', 'Condensed_Bodoni', 'BT_Haettenschweiler_Harlow', 'FB_Berlin', 'Compressed_Bookshelf', 'Poster', 'Light_Freestyle']))
+
+====================================
