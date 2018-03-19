@@ -1,9 +1,0 @@
-browserfingerprint (set(['d087760a5821212108172f2eee75cdc6f4a09c1b2edf8d4dc3754878c50ded79']), set(['c0a0bfb757a93feeda607a655449b111e6af924712ac8eb599034bd129942a3d']))
-====================================
-browserfingerprint (set(['c0a0bfb757a93feeda607a655449b111e6af924712ac8eb599034bd129942a3d']), set(['57e01c1b57584bc04aa10509fff81f934a927c4d690d7796b9f90fc1a45e91f8']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Uelzen']), set(['Bad', 'Bevensen']))
-browserfingerprint (set(['57e01c1b57584bc04aa10509fff81f934a927c4d690d7796b9f90fc1a45e91f8']), set(['ad1ea01c3a66a47c39007e6e31952856b705a123c3a7b78b7025b18a4e6398d6']))
-====================================

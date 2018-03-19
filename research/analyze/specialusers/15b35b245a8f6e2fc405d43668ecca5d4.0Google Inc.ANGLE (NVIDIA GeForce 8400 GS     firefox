@@ -1,0 +1,9 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['ITC_Leelawadee_Malgun', 'Arial_Book', 'Uighur_Microsoft']), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Book', 'Arial_Arial', 'ITC_Malgun', 'Black_Arial']))
+
+ipcity ipcity (set(['Wiesbaden']), set(['Isenburg']))
+
+ipregion ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
+
+====================================

@@ -1,9 +1,10 @@
-ipcity (set(['der', 'Brandenburg', 'an', 'Havel']), set(['Potsdam']))
-browserfingerprint (set(['a949e8140f1ecf968bc7827a68fb08b0a75e58409ed868ea038a422c51dd96ca']), set(['22f14f167df2d92b6708a8e51e5eea26236b689257fc476ffa172967881e3aee']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Potsdam']), set(['Wesel']))
-ipregion (set(['Brandenburg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['22f14f167df2d92b6708a8e51e5eea26236b689257fc476ffa172967881e3aee']), set(['16c1b235ee537cf8ae0f9a1e1932dd12a4cced40478ba212d5b2a0bf33350b8a']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Potsdam']), set(['Wesel']))
+
+ipregion ipregion (set(['Brandenburg']), set(['Nordrhein-Westfalen']))
+
 ====================================

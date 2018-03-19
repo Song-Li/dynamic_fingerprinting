@@ -1,9 +1,0 @@
-browserfingerprint (set(['705ab4d2d9c15c286e858e890f6ea56df25141045d4b1273e0554411f65c2ad4']), set(['4ab5f869b8a248f7920f554ac684d6b22ce3fdcff1cc119d98f20cbd0d8fe839']))
-====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['4ab5f869b8a248f7920f554ac684d6b22ce3fdcff1cc119d98f20cbd0d8fe839']), set(['7e8eca6ec1d89f96ec0078a1165bb00f97ca0b027ebeaaeca99b87580aa6adb0']))
-====================================
-ipcity (set(['Osnabruck']), set(['Bonn']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['7e8eca6ec1d89f96ec0078a1165bb00f97ca0b027ebeaaeca99b87580aa6adb0']), set(['bd2746bfa6d7589cb8c36d9b76f49bd386b12c9c30cf335aabf4294b2396ea6f']))
-====================================

@@ -1,9 +1,7 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Augsburg-Lechviertel']), set(['Nuremberg']))
-browserfingerprint (set(['ed5fdddd766b07b079013b07d2da0eb610a07947f685e12aff5e1f390aca8291']), set(['d8941db2bd54748f67033622f01fa50653ef8e1e6225e5802d515c96a3878549']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Augsburg-Lechviertel']), set(['Nuremberg']))
+
 ====================================
-browserfingerprint (set(['d8941db2bd54748f67033622f01fa50653ef8e1e6225e5802d515c96a3878549']), set(['6c4711da59188bf91f288b6c3affe2e44a465880443cec80fdc2d93447681eb1']))
 ====================================
-ipcity (set(['Nuremberg']), set(['Bamberg']))
-browserfingerprint (set(['6c4711da59188bf91f288b6c3affe2e44a465880443cec80fdc2d93447681eb1']), set(['fcae6f49753daab58be8fbe914064fc14b29a3dc4a1044eb63576bb0a5912907']))
 ====================================

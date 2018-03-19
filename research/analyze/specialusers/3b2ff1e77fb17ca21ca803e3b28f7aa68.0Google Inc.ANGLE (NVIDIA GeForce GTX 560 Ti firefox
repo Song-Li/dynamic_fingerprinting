@@ -1,0 +1,9 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Book']), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Book', 'Black_Arial', 'Arial_Arial']))
+
+audio audio (set(['48000_8_1_0_2_explicit_speakers']), set(['48000_8_1_0_8_explicit_speakers']))
+
+ipcity ipcity (set(['Munich']), set(['Ingolstadt']))
+
+====================================

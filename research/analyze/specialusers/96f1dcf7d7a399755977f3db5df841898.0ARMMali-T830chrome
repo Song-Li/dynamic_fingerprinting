@@ -1,9 +1,0 @@
-browserfingerprint (set(['283aa3bccfe5fe0afb20e31f93156939d1f19305890938c9a49cc9519cf10d9f']), set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['85f1a7cc6a2e559ca877935891ab32ae4de11ac32fe21d57d42399b6aeb6d527']), set(['fb974e5ad239803ba1e9c116fe33b747e244e3d2a2e4c9aa3eed36ba4adf2867']))
-====================================
-ipcity (set(['Stuttgart']), set(['Ulm']))
-browserfingerprint (set(['fb974e5ad239803ba1e9c116fe33b747e244e3d2a2e4c9aa3eed36ba4adf2867']), set(['c5d63829360b4782690f56c4bce3abd2367ed2fa48c914c2350d505d9b3285cd']))
-====================================

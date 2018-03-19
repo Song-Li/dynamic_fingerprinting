@@ -1,0 +1,11 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+language language (set(['en-US,en;q=0.5']), set(['de']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Black_Calibri_Cambria_Cambria']))
+
+ipcity ipcity (set(['Darmstadt']), set(['Aachen']))
+
+ipregion ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+
+====================================

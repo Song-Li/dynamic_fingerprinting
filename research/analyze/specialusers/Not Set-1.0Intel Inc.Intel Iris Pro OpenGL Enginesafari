@@ -1,0 +1,26 @@
+agent agent (set(['10_12_6)']), set(['10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+jsFonts jsFonts (set(['GARAMOND', 'MN_Thonburi_TRAJAN', 'PRO_Univers', 'Typewriter_American', '3_ADOBE', 'Cherokee_Roman_Savoye', 'CASLON', 'Pro_Modern', 'Condensed_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Serif_Monaco_MYRIAD', 'PRO_Palatino_Tahoma_Times_Times', 'PRO_American', 'PRO_ADOBE', 'JhengHei_Minion', 'Typewriter']), set(['JhengHei_Modern', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', '3_American', 'MN_Thonburi_Univers', 'Typewriter_Apple', 'Serif_Monaco_Palatino_Tahoma_Times_Times', 'Cherokee_Savoye']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Hanover']), set(['Frankfurt', 'Main', 'am']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Hessen']))
+
+====================================
+agent agent (set(['10_12_6)']), set(['10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+jsFonts jsFonts (set(['GARAMOND', 'CASLON', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'MN_Tempus', 'Pro_Mistral_Modern', 'Typewriter_American', 'PRO_Palatino_Palatino', 'Serif_MYRIAD', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'Bold_Roman_Savoye', 'ITC_Thonburi_TRAJAN', 'Condensed_Apple', 'PRO_Tw', 'PRO_American', 'Light_ADOBE', 'PRO_ADOBE', 'Typewriter']), set(['MN_Papyrus_Perpetua_Perpetua', 'Bold_Savoye', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Light_American', 'Typewriter_Apple', 'Serif_Palatino_Palatino', 'MN_Thonburi_Tw']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Berlin']), set(['Bonn']))
+
+ipregion ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
+
+====================================

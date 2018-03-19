@@ -1,35 +1,14 @@
-browserfingerprint (set(['df358795043835ecdd46a260e1cf79e529e60506422f72ceb872f16a621406d3']), set(['283a9e145317ee13ba9a5baeecdc33454fe960e70bc0413952689fedeeaefd32']))
 ====================================
-ipcity (set(['Graz']), set(['Linz']))
-ipregion (set(['Steiermark']), set(['Oberosterreich']))
-browserfingerprint (set(['283a9e145317ee13ba9a5baeecdc33454fe960e70bc0413952689fedeeaefd32']), set(['f6b9cab959e4d457db0e9505a9afe6c5fee12c55428558542bcfdfa5e2103291']))
 ====================================
-ipcity (set(['Linz']), set(['Salzburg']))
-ipregion (set(['Oberosterreich']), set(['Salzburg']))
-browserfingerprint (set(['f6b9cab959e4d457db0e9505a9afe6c5fee12c55428558542bcfdfa5e2103291']), set(['9a473a0a617323e1c9ff246d11e43aef2a970b9ed913c815aa05095e0b244653']))
 ====================================
-browserfingerprint (set(['9a473a0a617323e1c9ff246d11e43aef2a970b9ed913c815aa05095e0b244653']), set(['265c6ee96a407e36a5fd2b67528da5d537466520c5eef0a8af26632a5b2061d5']))
 ====================================
-ipcity (set(['Salzburg']), set(['Enzersdorf', 'Maria']))
-ipregion (set(['Salzburg']), set(['Niederosterreich']))
-browserfingerprint (set(['265c6ee96a407e36a5fd2b67528da5d537466520c5eef0a8af26632a5b2061d5']), set(['9c71848e9f6ee60d77fd4a3b42a38421d1d34cefba7503a8fdd43fc8c1b940bc']))
 ====================================
-ipcity (set(['Enzersdorf', 'Maria']), set(['Vienna']))
-ipregion (set(['Niederosterreich']), set(['Wien']))
-browserfingerprint (set(['9c71848e9f6ee60d77fd4a3b42a38421d1d34cefba7503a8fdd43fc8c1b940bc']), set(['84292eff96585b00bebca3c500a1fae400ce5e4ea520f361dcb0896c5caab324']))
 ====================================
-browserfingerprint (set(['84292eff96585b00bebca3c500a1fae400ce5e4ea520f361dcb0896c5caab324']), set(['f91d522cd78fb309eb7c4286f2278b23e1ef8734ea14fb207588eb9a6d826e61']))
 ====================================
-ipcity (set(['Vienna']), set(['Enzersdorf', 'Maria']))
-ipregion (set(['Wien']), set(['Niederosterreich']))
-browserfingerprint (set(['f91d522cd78fb309eb7c4286f2278b23e1ef8734ea14fb207588eb9a6d826e61']), set(['61583382bded03b9d15733e3a0b4b0cf1cd7a826df2ced748852f2c63729eeac']))
 ====================================
-browserfingerprint (set(['61583382bded03b9d15733e3a0b4b0cf1cd7a826df2ced748852f2c63729eeac']), set(['9c71848e9f6ee60d77fd4a3b42a38421d1d34cefba7503a8fdd43fc8c1b940bc']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['9c71848e9f6ee60d77fd4a3b42a38421d1d34cefba7503a8fdd43fc8c1b940bc']), set(['4ad8da90c8224703f7ecfcf3f86b493e3e7e433a093a6a818c58bbfd76ef4133']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['4ad8da90c8224703f7ecfcf3f86b493e3e7e433a093a6a818c58bbfd76ef4133']), set(['a5ea0fc323cc4629f97bd708263aa7b0d8bfb7d04fc54c112bdbd2a9ae241148']))
 ====================================
-browserfingerprint (set(['a5ea0fc323cc4629f97bd708263aa7b0d8bfb7d04fc54c112bdbd2a9ae241148']), set(['4ad8da90c8224703f7ecfcf3f86b493e3e7e433a093a6a818c58bbfd76ef4133']))
 ====================================

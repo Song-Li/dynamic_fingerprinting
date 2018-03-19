@@ -1,0 +1,11 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+timezone timezone (set(['-120.0']), set(['-60.0']))
+
+ipcity ipcity (set(['Daraya']), set(['Hamburg']))
+
+ipregion ipregion (set(['Rif', 'Dimashq']), set(['Hamburg']))
+
+ipcountry ipcountry (set(['Arab', 'Syrian', 'Republic']), set(['Germany']))
+
+====================================

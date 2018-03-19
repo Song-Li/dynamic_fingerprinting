@@ -1,0 +1,17 @@
+agent agent (set(['Chrome/51.0.2680.0', 'WOW64)']), set(['Win64;', 'Chrome/62.0.3202.89', 'x64)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9']))
+
+timezone timezone (set(['420.0']), set(['480.0']))
+
+plugins plugins (set(['Flash', 'Chromium', 'Client~Shockwave', 'Viewer~Chromium']), set(['Decryption', 'Chrome', 'Client~Widevine', 'Module', 'Content', 'Plugin~Chrome']))
+
+langsdetected langsdetected (set(['Yi_Mongolian_Tifinagh_Thaana_Inuktitut_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee']))
+
+jsFonts jsFonts (set(['Gothic_Matura', 'Gothic_MV']), set(['Gothic_Marlett_Matura', 'Extra_MV', 'Gothic_MT']))
+
+canvastest canvastest (set(['33d4739778585f6b08d86273b5aa9cf8fdf78054']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+====================================

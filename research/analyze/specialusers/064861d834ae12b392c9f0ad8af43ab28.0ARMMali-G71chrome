@@ -1,10 +1,7 @@
-browserfingerprint (set(['8eb4055c5037ee70337a93675017f35b34dd3b5aca46e192dd2d3a3d6ae09565']), set(['699adfbda4e90cc12912699fd0bb84656adc60a33ebb1e5118dbc4d296ccbf5c']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,lb;q=0.6']))
-browserfingerprint (set(['699adfbda4e90cc12912699fd0bb84656adc60a33ebb1e5118dbc4d296ccbf5c']), set(['60bb8c529288d0e135b774009457da02707870cd79c673f30237ace8ee2df9c1']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Helmstedt']), set(['Hanover']))
-browserfingerprint (set(['60bb8c529288d0e135b774009457da02707870cd79c673f30237ace8ee2df9c1']), set(['8ea2c852e84fada5d0118b7f643286e62cc9e2e61cfdeccb11e77506b1008193']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Helmstedt']), set(['Hanover']))
+
 ====================================

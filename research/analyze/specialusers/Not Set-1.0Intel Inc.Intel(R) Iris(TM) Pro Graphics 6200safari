@@ -1,0 +1,28 @@
+agent agent (set(['10_12_6)']), set(['10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+jsFonts jsFonts (set(['Hand_Brush', 'GRANDE_Microsoft', 'MN_Papyrus_Plantagenet', 'BT_Kailasa_Kannada', '3_American', 'Sans_Gujarati', 'Medium_Zapfino', 'MS_Comic', 'Condensed_Apple', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'Typewriter', 'Typewriter_American', 'MN_Baskerville_Bauhaus', 'Roundhand_Tamil', 'Cherokee_Roman_Savoye', 'BT_Euphemia', 'Caslon_Bodoni', 'MN_Heiti', '93_Big', 'MN_Gurmukhi', 'Serif_Monaco_Palatino_Tahoma_Times_Times', 'SE_Chalkduster_Cochin_Copperplate_Didot_English', 'JhengHei_Modern', 'Felt_Microsoft', 'UCAS_Futura_Geeza', 'Neue_Impact_LUCIDA']), set(['JhengHei_Mistral_Modern', 'LET_Tamil', 'Extra_Nadeem_Noteworthy_Onyx_OPTIMA_Oriya', 'Gothic_Baskerville_Baskerville', 'MT_Cooper', 'LET_Rockwell_Rockwell', 'Schoolbook_Comic', 'Neue_Impact_Lucida', 'MN_Haettenschweiler_Harrington_Heiti', 'TT_Bodoni', 'Lisa', 'Gothic_MS', 'Gothic_Century', 'ITC_English', 'Medium_Wide', 'MT_Euphemia', 'Typewriter_Microsoft', 'Felt_Matura', 'Condensed', 'Bright_Lucida', 'TT_MS', 'Style_Century_Century', 'MN_Gulim_Gurmukhi', 'Titling', 'Bold_Santa', 'Cherokee_Playbill_PMingLiU_PRINCETOWN', '3_Abadi', 'Light_Futura_Geeza', 'Capitals_Microsoft', 'MT_Plantagenet', 'Face_Batang_Bauhaus', 'LET_Perpetua', 'Fax_LUCIDA', '93_Bell', 'LET_American', 'Light_Academy', 'Fe', 'Black_Copperplate_Copperplate', 'Light_Curlz', 'Solid', 'Condensed_Big', 'GRANDE_Lucida', 'UCAS_EUROSTILE_Footlight', 'Latin_Zapfino', 'Typewriter_Apple', '20_Mona', 'Sans_Gloucester', 'Bold_Brush', 'MT_Calisto', 'SE_Chalkduster_Cochin_Colonna', 'Roundhand_Stencil_Synchro', 'Bold_Copperplate', 'LET_Savoye', 'Engraved', 'MT_Bernard', 'PMincho_MT', 'Shadow_Jazz', 'MN_Bank', 'Serif_Monaco_Monotype', 'MS_Book', 'Corsiva_MS', 'Calligraphy_Lucida', 'Extra', 'Old', 'Mincho_MS', 'MN_Papyrus_Party', 'Hand_Britannic', 'ITC', 'Condensed_Goudy', 'Handwriting_Lucida', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'Style_Gujarati', 'PGothic_Palatino_Tahoma_Times_Times', 'MT_Didot_Edwardian', 'BT_Engravers', 'Sans_Lucida', 'Antiqua_Bookman', 'BT_Imprint']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Berlin']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Berlin']), set(['Bayern']))
+
+====================================
+agent agent (set(['10_12_6)']), set(['10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+plugins plugins (set(['WebKitintegrierte']), set(['Shockwave', 'Flash~WebKitintegrierte']))
+
+jsFonts jsFonts (set(['MN_OSAKA_Papyrus_Plantagenet', 'Typewriter_American', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Roman_Savoye', 'Condensed_Apple', 'Typewriter']), set(['MN_Papyrus_Plantagenet', 'Typewriter_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Savoye']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Cottbus']), set(['Bremen']))
+
+ipregion ipregion (set(['Brandenburg']), set(['Thuringen']))
+
+====================================

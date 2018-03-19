@@ -1,0 +1,15 @@
+agent agent (set(['Version/4.0', 'wv)', 'Build/NMF26X;']), set(['Build/NMF26X)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+cookie cookie (set(['False']), set(['True']))
+
+canvastest canvastest (set(['1a26806c3a82ec72cf21e9869b099097235f2647']), set(['88f9a35438201f34381be6425fc61c58c31b5fc1']))
+
+ipcity ipcity (set(['Papenburg']), set(['Rendsburg']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Schleswig-Holstein']))
+
+====================================

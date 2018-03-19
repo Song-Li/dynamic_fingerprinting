@@ -1,18 +1,8 @@
-browserfingerprint (set(['d78d8a8b451e3a6cf175c4c9f9df80f99fdfed5caed3d32d39b9de7f5814945a']), set(['5f57749429ea155a04f5d3e124d99380ec5147c6bf6dcb0e0e1dde65c36edeb3']))
 ====================================
-ipcity (set(['Bremen']), set(['Oldenburg']))
-ipregion (set(['Bremen']), set(['Niedersachsen']))
-browserfingerprint (set(['5f57749429ea155a04f5d3e124d99380ec5147c6bf6dcb0e0e1dde65c36edeb3']), set(['fc018886cf4b83bd95154edf362414bc8acd566aa53d84b6e789dd77d97eddcc']))
 ====================================
-ipcity (set(['Oldenburg']), set(['Bremen']))
-ipregion (set(['Niedersachsen']), set(['Bremen']))
-browserfingerprint (set(['fc018886cf4b83bd95154edf362414bc8acd566aa53d84b6e789dd77d97eddcc']), set(['d78d8a8b451e3a6cf175c4c9f9df80f99fdfed5caed3d32d39b9de7f5814945a']))
 ====================================
-browserfingerprint (set(['d78d8a8b451e3a6cf175c4c9f9df80f99fdfed5caed3d32d39b9de7f5814945a']), set(['5f57749429ea155a04f5d3e124d99380ec5147c6bf6dcb0e0e1dde65c36edeb3']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['5f57749429ea155a04f5d3e124d99380ec5147c6bf6dcb0e0e1dde65c36edeb3']), set(['ddae272df14ece202436b8806c7a539cd068734523a83dfb94a1b407ef088f2c']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['ddae272df14ece202436b8806c7a539cd068734523a83dfb94a1b407ef088f2c']), set(['19f049b59770981d54292fa0e90f0bdfeaca2a9ad08feeea4ecbe0ba6fd30c48']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

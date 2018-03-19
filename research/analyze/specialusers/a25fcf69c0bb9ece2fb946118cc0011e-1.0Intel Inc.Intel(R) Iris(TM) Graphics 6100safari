@@ -1,0 +1,17 @@
+agent agent (set(['Version/11.0', 'Safari/604.1.38', 'AppleWebKit/604.1.38', '10_12_6)']), set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+timezone timezone (set(['420.0']), set(['480.0']))
+
+plugins plugins (set(['Shockwave', 'Flash~WebKit']), set(['WebKit']))
+
+jsFonts jsFonts (set(['MN_OSAKA_Papyrus_Plantagenet', 'JhengHei_Modern', 'GARAMOND', 'Typewriter_American', '3_ADOBE', 'Sans_GOTHAM_Gujarati', 'Cherokee_Roman_Savoye', 'CASLON', 'Condensed_Apple', 'Serif_Monaco_MYRIAD', 'PRO_Palatino_Tahoma_Times_Times', 'PRO_American', 'PRO_ADOBE', 'Typewriter']), set(['Old', 'MN_Papyrus_Plantagenet', 'Sans_GOTHAM_Goudy', '3_American', 'Typewriter_Apple', 'Style_Gujarati', 'Pro_Modern', 'Serif_Monaco_Palatino_Tahoma_Times_Times', 'JhengHei_Minion', 'Cherokee_Savoye']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Richardson']), set(['Park', 'Rohnert']))
+
+ipregion ipregion (set(['Texas']), set(['California']))
+
+====================================

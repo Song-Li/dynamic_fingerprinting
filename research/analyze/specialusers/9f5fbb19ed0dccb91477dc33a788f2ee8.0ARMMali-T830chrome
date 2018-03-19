@@ -1,27 +1,14 @@
-ipcity (set(['Saarbrucken']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Saarland']), set(['Hessen']))
-browserfingerprint (set(['95cd91e0e91bef3c043a22770fad5db5c2699a1176617334af25cdadf0951049']), set(['0e6b4334be5e3c87fe7eabd2e0d7d6bfbaff60b6276c81ead616330ec6499bb7']))
 ====================================
-browserfingerprint (set(['0e6b4334be5e3c87fe7eabd2e0d7d6bfbaff60b6276c81ead616330ec6499bb7']), set(['9817b89f0b209f6287f73bd68810cf1e7dc0c55acbc7db914da2700733e4ff3c']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Ingolstadt']))
-ipregion (set(['Hessen']), set(['Bayern']))
-browserfingerprint (set(['9817b89f0b209f6287f73bd68810cf1e7dc0c55acbc7db914da2700733e4ff3c']), set(['f95757e78d80fc9aedac22f690d49688bd9c77d7e5155c1598a2c8e80588fd64']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Frankfurt', 'Main', 'am']), set(['Ingolstadt']))
+
+ipregion ipregion (set(['Hessen']), set(['Bayern']))
+
 ====================================
-browserfingerprint (set(['f95757e78d80fc9aedac22f690d49688bd9c77d7e5155c1598a2c8e80588fd64']), set(['0cfabdfb709163bf85a7f8f61acd808b194f2a0e9a186531a831ab9e55c42ed5']))
 ====================================
-ipcity (set(['Ingolstadt']), set(['Saarbrucken']))
-ipregion (set(['Bayern']), set(['Saarland']))
-browserfingerprint (set(['0cfabdfb709163bf85a7f8f61acd808b194f2a0e9a186531a831ab9e55c42ed5']), set(['5e0d9d695d6ced0e1d7a6fd23b0308b29ba925615234897c00ecd36792b20887']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
-browserfingerprint (set(['5e0d9d695d6ced0e1d7a6fd23b0308b29ba925615234897c00ecd36792b20887']), set(['55ce8775b3a3b365c82445f247bd83e13fc2861f31ebf7c7bb701b5af3c499ee']))
 ====================================
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Saarbrucken']), set(['Wommen']))
-ipregion (set(['Saarland']), set(['Hessen']))
-browserfingerprint (set(['55ce8775b3a3b365c82445f247bd83e13fc2861f31ebf7c7bb701b5af3c499ee']), set(['0dbc8445e8ca604b24bbf54b0a4d9e8f57cd7cae7b46b6e65e28e6aaa2aa56e1']))
 ====================================
-browserfingerprint (set(['0dbc8445e8ca604b24bbf54b0a4d9e8f57cd7cae7b46b6e65e28e6aaa2aa56e1']), set(['cbcdfdd8cbede875392e662fe2cb5f6f23132632d35dc36078003b917c2f2150']))
 ====================================

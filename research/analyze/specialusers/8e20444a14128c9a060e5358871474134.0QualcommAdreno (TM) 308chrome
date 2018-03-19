@@ -1,9 +1,9 @@
-browserfingerprint (set(['77f8f5de07553a19a3f86a7fd26b2c3c61240be77e68e58dd506e183ffa6e298']), set(['93d3edbd5a79c90880d21aa8af990be430bfb8c20627300bd6580942ba93d204']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Neu-Ulm']), set(['Ravensburg']))
-ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['93d3edbd5a79c90880d21aa8af990be430bfb8c20627300bd6580942ba93d204']), set(['14d5b77a3d0c7ae77356308096c8e793ac2cee28e5be2a157545a859c8cd5938']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Neu-Ulm']), set(['Ravensburg']))
+
+ipregion ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+
 ====================================
-browserfingerprint (set(['14d5b77a3d0c7ae77356308096c8e793ac2cee28e5be2a157545a859c8cd5938']), set(['bab7b5ba1895b7d68656998bb9a7c684b67e7b7ecccbb94ce72ef937483de714']))
 ====================================

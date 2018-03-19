@@ -1,26 +1,15 @@
-browserfingerprint (set(['6e01cfb89047672797962185f8085087bb8c22eb7ded49053fc8c344020ea400']), set(['604505486fafc46cc5e9d9f2e339db4248ea5e61807da95fcaf03659121237a1']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['604505486fafc46cc5e9d9f2e339db4248ea5e61807da95fcaf03659121237a1']), set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']), set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']))
 ====================================
-browserfingerprint (set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']), set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']))
 ====================================
-browserfingerprint (set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']), set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']))
 ====================================
-ipcity (set(['Winterberg']), set(['Bonn']))
-browserfingerprint (set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']), set(['d1eb6f8a00d0497199750f568d91a55e58ca95d1a8687e1a5a46e85ad3b5d066']))
 ====================================
-ipcity (set(['Bonn']), set(['Winterberg']))
-browserfingerprint (set(['d1eb6f8a00d0497199750f568d91a55e58ca95d1a8687e1a5a46e85ad3b5d066']), set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']))
 ====================================
-browserfingerprint (set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']), set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']))
 ====================================
-browserfingerprint (set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']), set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']))
 ====================================
-browserfingerprint (set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']), set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']))
 ====================================
-browserfingerprint (set(['cddb9d43a248c458bdaeae680482679a68c4440399cda928d34700f79fa8220f']), set(['c41232d36a823d39b0cd54da0e76ed52b26319a0d9c0526084df57446fcd2f99']))
 ====================================

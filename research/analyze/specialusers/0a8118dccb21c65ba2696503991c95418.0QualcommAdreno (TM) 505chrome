@@ -1,63 +1,32 @@
-ipcity (set(['Isenburg']), set(['Dusseldorf']))
-ipregion (set(['Rheinland-Pfalz']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['e4fd73df3d6bdeb87c086f9932c5bb1cdc2ec2dd8fe90cb9281b9d7b3f9df87e']), set(['f0586b4bf7edb798ee5a640a77d266b5ee55859bccef34c6cd5ed26a17501fb1']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['f0586b4bf7edb798ee5a640a77d266b5ee55859bccef34c6cd5ed26a17501fb1']), set(['8e795ba94bb8733b39a5641a0a8a5ddb5893e6d70bd1060ea0710e1b6e229c59']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['8e795ba94bb8733b39a5641a0a8a5ddb5893e6d70bd1060ea0710e1b6e229c59']), set(['05ec08b4087f25a20a5646b617b0624d0954756973f0846e378a56259591c92e']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Aachen']))
-browserfingerprint (set(['05ec08b4087f25a20a5646b617b0624d0954756973f0846e378a56259591c92e']), set(['a214f71d929141a4460024e79ea01face245eee15d80a631bc967c2b75456746']))
 ====================================
-agent (set(['Build/HUAWEIBAH-W09)']), set(['Version/4.0', 'wv)', 'Build/HUAWEIBAH-W09;']))
-encoding (set(['br', 'deflate,']), set(['deflate']))
-language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
-canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['745fe5d2db2434718c2aa84894fc9fb9323c3565']))
-ipcity (set(['Aachen']), set(['Dusseldorf']))
-browserfingerprint (set(['a214f71d929141a4460024e79ea01face245eee15d80a631bc967c2b75456746']), set(['f3f018f8585226b4cab397ec5bf8018fa27196047f5d4872af08cf278d7e08b1']))
+agent agent (set(['Build/HUAWEIBAH-W09)']), set(['Version/4.0', 'wv)', 'Build/HUAWEIBAH-W09;']))
+
+encoding encoding (set(['br', 'deflate,']), set(['deflate']))
+
+language language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
+
+canvastest canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['745fe5d2db2434718c2aa84894fc9fb9323c3565']))
+
+ipcity ipcity (set(['Aachen']), set(['Dusseldorf']))
+
 ====================================
-browserfingerprint (set(['f3f018f8585226b4cab397ec5bf8018fa27196047f5d4872af08cf278d7e08b1']), set(['4cc21bcfd69b9aea037b801e6f558e1c181d3e1facbe965c09741d36111cd9d7']))
 ====================================
-browserfingerprint (set(['4cc21bcfd69b9aea037b801e6f558e1c181d3e1facbe965c09741d36111cd9d7']), set(['f3f018f8585226b4cab397ec5bf8018fa27196047f5d4872af08cf278d7e08b1']))
 ====================================
-audio (set(['48000_2_1_0_2_explicit_speakers']), set(['not', 'supported']))
-browserfingerprint (set(['f3f018f8585226b4cab397ec5bf8018fa27196047f5d4872af08cf278d7e08b1']), set(['b17b4d69d0f68dbfc01512e3759245df6b1434fbb9949025b5d7b0ba9f5678a9']))
 ====================================
-audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
-browserfingerprint (set(['b17b4d69d0f68dbfc01512e3759245df6b1434fbb9949025b5d7b0ba9f5678a9']), set(['f3f018f8585226b4cab397ec5bf8018fa27196047f5d4872af08cf278d7e08b1']))
 ====================================
-browserfingerprint (set(['f3f018f8585226b4cab397ec5bf8018fa27196047f5d4872af08cf278d7e08b1']), set(['4cc21bcfd69b9aea037b801e6f558e1c181d3e1facbe965c09741d36111cd9d7']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Isenburg']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['4cc21bcfd69b9aea037b801e6f558e1c181d3e1facbe965c09741d36111cd9d7']), set(['76cbe71abc3a9e83e22d1f7b821f122beff8e5f85531bea1053de497db0dc5f4']))
 ====================================
-browserfingerprint (set(['76cbe71abc3a9e83e22d1f7b821f122beff8e5f85531bea1053de497db0dc5f4']), set(['aa720ca5a58aaa22319730e7bd1240af330748e2c9ac207e99783f8d9e4a0ab5']))
 ====================================
-browserfingerprint (set(['aa720ca5a58aaa22319730e7bd1240af330748e2c9ac207e99783f8d9e4a0ab5']), set(['76cbe71abc3a9e83e22d1f7b821f122beff8e5f85531bea1053de497db0dc5f4']))
 ====================================
-browserfingerprint (set(['76cbe71abc3a9e83e22d1f7b821f122beff8e5f85531bea1053de497db0dc5f4']), set(['aa720ca5a58aaa22319730e7bd1240af330748e2c9ac207e99783f8d9e4a0ab5']))
 ====================================
-browserfingerprint (set(['aa720ca5a58aaa22319730e7bd1240af330748e2c9ac207e99783f8d9e4a0ab5']), set(['76cbe71abc3a9e83e22d1f7b821f122beff8e5f85531bea1053de497db0dc5f4']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-ipcity (set(['Isenburg']), set(['Goppingen']))
-ipregion (set(['Rheinland-Pfalz']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['76cbe71abc3a9e83e22d1f7b821f122beff8e5f85531bea1053de497db0dc5f4']), set(['e7192d3483c7d57eed0c1664f9ad7a55bbe3471eee99dbde3ef64fc051d84207']))
 ====================================
-agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Goppingen']), set(['Isenburg']))
-ipregion (set(['Baden-Wurttemberg']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['e7192d3483c7d57eed0c1664f9ad7a55bbe3471eee99dbde3ef64fc051d84207']), set(['dc6fb0de9a371435c21d4efd619777e1876d9e6c5710a620cc45455beb21aab8']))
 ====================================
-ipcity (set(['Isenburg']), set(['Nuremberg']))
-ipregion (set(['Rheinland-Pfalz']), set(['Bayern']))
-browserfingerprint (set(['dc6fb0de9a371435c21d4efd619777e1876d9e6c5710a620cc45455beb21aab8']), set(['bf31ad78856ceedc314eae4a284f23cfb1e0fc170cf5168c9784e299c85865d0']))
 ====================================
-ipcity (set(['Nuremberg']), set(['Isenburg']))
-ipregion (set(['Bayern']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['bf31ad78856ceedc314eae4a284f23cfb1e0fc170cf5168c9784e299c85865d0']), set(['dc6fb0de9a371435c21d4efd619777e1876d9e6c5710a620cc45455beb21aab8']))
 ====================================
-browserfingerprint (set(['dc6fb0de9a371435c21d4efd619777e1876d9e6c5710a620cc45455beb21aab8']), set(['e1ba378c78fe5edb53506fae68b9540ce890fdfa3432dd23e25922ecb09697ee']))
 ====================================

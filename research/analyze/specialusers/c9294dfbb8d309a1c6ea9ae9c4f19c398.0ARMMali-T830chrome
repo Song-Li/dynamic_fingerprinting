@@ -1,14 +1,13 @@
-browserfingerprint (set(['770b3444d94c52c32099727e4a1d604e6c0ae0923f991734027b863aa0f34c41']), set(['da9dc8579c0a8782bbd7c9148dd643924d734ac3c51bb9580d0f3c785c79dfc4']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Mecklenburg']), set(['Hamburg']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Hamburg']))
-browserfingerprint (set(['da9dc8579c0a8782bbd7c9148dd643924d734ac3c51bb9580d0f3c785c79dfc4']), set(['113523c7c2dd69c7fc808b910cfb1404a810215decfe094e90bae228f5186f73']))
 ====================================
-language (set(['en-US,en;q=0.9,de;q=0.8']), set(['en-US,en;q=0.9,de;q=0.8,es;q=0.7']))
-timezone (set(['0.0']), set(['-60.0']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Hamburg']), set(['Luebeck']))
-ipregion (set(['Hamburg']), set(['Schleswig-Holstein']))
-browserfingerprint (set(['113523c7c2dd69c7fc808b910cfb1404a810215decfe094e90bae228f5186f73']), set(['ae2da2bb5d36eb4f326e2d5cd7c8703ee3734664572ece9ac93e4739f33cc412']))
+language language (set(['en-US,en;q=0.9,de;q=0.8']), set(['en-US,en;q=0.9,de;q=0.8,es;q=0.7']))
+
+timezone timezone (set(['0.0']), set(['-60.0']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Hamburg']), set(['Luebeck']))
+
+ipregion ipregion (set(['Hamburg']), set(['Schleswig-Holstein']))
+
 ====================================

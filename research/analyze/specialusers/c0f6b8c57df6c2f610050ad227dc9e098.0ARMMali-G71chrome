@@ -1,20 +1,11 @@
-browserfingerprint (set(['54ef44774211772fcaa74ed40f0891c20e7b2cbd02976154f00cd33cb59cb6ba']), set(['0255a85137840b11d0bde1170801c091b8d9b7d78c408ad9e91b50269a7ccbf3']))
 ====================================
-browserfingerprint (set(['0255a85137840b11d0bde1170801c091b8d9b7d78c408ad9e91b50269a7ccbf3']), set(['54ef44774211772fcaa74ed40f0891c20e7b2cbd02976154f00cd33cb59cb6ba']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['54ef44774211772fcaa74ed40f0891c20e7b2cbd02976154f00cd33cb59cb6ba']), set(['54c5f166c1e8047faa6bc686a21a4d75f45ee15c330f5228b93d81fc08100429']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['54c5f166c1e8047faa6bc686a21a4d75f45ee15c330f5228b93d81fc08100429']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']), set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']))
 ====================================
-browserfingerprint (set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
 ====================================
-browserfingerprint (set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']), set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']))
 ====================================
-browserfingerprint (set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
 ====================================
-browserfingerprint (set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']), set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']))
 ====================================

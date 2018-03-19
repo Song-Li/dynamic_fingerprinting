@@ -1,11 +1,6 @@
-browserfingerprint (set(['29a6e519ea43ff899d218413e7522db4978bfcf0e21237f004ee7caeb9a5ca89']), set(['d5dec55a5135dd7cdb9246f6fa1aafc87f020ebadaab2835c044670b46b35395']))
 ====================================
-ipcity (set(['Kiel']), set(['Berlin']))
-ipregion (set(['Schleswig-Holstein']), set(['Berlin']))
-browserfingerprint (set(['d5dec55a5135dd7cdb9246f6fa1aafc87f020ebadaab2835c044670b46b35395']), set(['b0d004c22137942e6e5e25582628eb3294367b94420dad0392bc843ce9ec1992']))
 ====================================
-browserfingerprint (set(['b0d004c22137942e6e5e25582628eb3294367b94420dad0392bc843ce9ec1992']), set(['5532f21b977c87d7f8338a03f7085e28f1596d083cf0f26d510e2dd9fe6f4d92']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['5532f21b977c87d7f8338a03f7085e28f1596d083cf0f26d510e2dd9fe6f4d92']), set(['1154800b17c6699c96dd56bdbab865e54acda042398fccb5464b242cb48121c6']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

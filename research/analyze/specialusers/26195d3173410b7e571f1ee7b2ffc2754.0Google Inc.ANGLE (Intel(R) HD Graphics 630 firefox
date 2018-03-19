@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+language language (set(['cs,en-US;q=0.7,en;q=0.3']), set(['cs,sk;q=0.8,en-US;q=0.5,en;q=0.3']))
+
+jsFonts jsFonts (set(['Arial_Book']), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Book', 'Black_Arial', 'Arial_Arial']))
+
+====================================

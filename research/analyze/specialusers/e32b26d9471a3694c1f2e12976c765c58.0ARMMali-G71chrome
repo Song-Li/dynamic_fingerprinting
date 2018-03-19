@@ -1,45 +1,17 @@
-ipcity (set(['Boeckelt']), set(['Hanover']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['667600ebc6e16eab9296d4a98132f2a809e552189c8d0ebeb494c6f0fa3054ca']), set(['9109f69f6c7632e5fcefd74c794a3dd04e1b4f5932a64d1cb3d76c59d567735e']))
 ====================================
-ipcity (set(['Hanover']), set(['Geldern']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['9109f69f6c7632e5fcefd74c794a3dd04e1b4f5932a64d1cb3d76c59d567735e']), set(['f582bd7a14455d422d567c8c6626f5798544014b2a0c7ba77ca14f8a91e2fa32']))
 ====================================
-browserfingerprint (set(['f582bd7a14455d422d567c8c6626f5798544014b2a0c7ba77ca14f8a91e2fa32']), set(['0572102c40713d30f80e44ec0bd5896614de7a478f3d7c55347945b72ff55248']))
 ====================================
-ipcity (set(['Geldern']), set(['Hanover']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['0572102c40713d30f80e44ec0bd5896614de7a478f3d7c55347945b72ff55248']), set(['2d0f3001c328cc6e4a5b607c4e26260b0bd2e9c87cddf8bcc53d436f4d84fe7e']))
 ====================================
-ipcity (set(['Hanover']), set(['Hameln']))
-browserfingerprint (set(['2d0f3001c328cc6e4a5b607c4e26260b0bd2e9c87cddf8bcc53d436f4d84fe7e']), set(['19e8761c5ecb5d4f2109f4169559d23b372a8e75ab90e02af97361d329ac347c']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['19e8761c5ecb5d4f2109f4169559d23b372a8e75ab90e02af97361d329ac347c']), set(['a9e13c5435ec9a63a26c9119d338748ddbee7c90c347b308eabb5bc8527fef6a']))
 ====================================
-browserfingerprint (set(['a9e13c5435ec9a63a26c9119d338748ddbee7c90c347b308eabb5bc8527fef6a']), set(['17d90d7ba491635db0722b4d7f14ca58dbd586f310d6d8e54440eb7e6b7606a9']))
 ====================================
-browserfingerprint (set(['17d90d7ba491635db0722b4d7f14ca58dbd586f310d6d8e54440eb7e6b7606a9']), set(['a9e13c5435ec9a63a26c9119d338748ddbee7c90c347b308eabb5bc8527fef6a']))
 ====================================
-browserfingerprint (set(['a9e13c5435ec9a63a26c9119d338748ddbee7c90c347b308eabb5bc8527fef6a']), set(['17d90d7ba491635db0722b4d7f14ca58dbd586f310d6d8e54440eb7e6b7606a9']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['17d90d7ba491635db0722b4d7f14ca58dbd586f310d6d8e54440eb7e6b7606a9']), set(['93a50dc2f52cde0d77d652698d0db0cfcd2c1eec88f51cdc24379130c88a8291']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-ipcity (set(['Hameln']), set(['Geldern']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['93a50dc2f52cde0d77d652698d0db0cfcd2c1eec88f51cdc24379130c88a8291']), set(['e4e510dc21025e027b11cfdf1e627b90113ffaac15450d4e90d8a0c96b2323aa']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-browserfingerprint (set(['e4e510dc21025e027b11cfdf1e627b90113ffaac15450d4e90d8a0c96b2323aa']), set(['bba987ed74758eb14345804e8c13eecc2b217fc130cb8a0a4d0c63dcced5a33b']))
 ====================================
-browserfingerprint (set(['bba987ed74758eb14345804e8c13eecc2b217fc130cb8a0a4d0c63dcced5a33b']), set(['bbef749492e08ba3930919df71c2572f818b20c0b57ee0d22f84b1cbc33d1a70']))
 ====================================
-ipcity (set(['Geldern']), set(['Dortmund']))
-browserfingerprint (set(['bbef749492e08ba3930919df71c2572f818b20c0b57ee0d22f84b1cbc33d1a70']), set(['0ecd6e33c34c9f8f3a525915ef9d90c5ae632359e3c0c27e675dbf560fdc53df']))
 ====================================
-ipcity (set(['Dortmund']), set(['Hanover']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['0ecd6e33c34c9f8f3a525915ef9d90c5ae632359e3c0c27e675dbf560fdc53df']), set(['463efe6e9e400ea94da80141bebc4f716e6cf174b78707b63787dbba55b7f7d1']))
 ====================================

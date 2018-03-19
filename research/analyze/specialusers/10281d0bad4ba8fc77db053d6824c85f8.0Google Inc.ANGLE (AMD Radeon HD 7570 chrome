@@ -1,0 +1,7 @@
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+ipcity ipcity (set(['Erfurt']), set(['Plaue']))
+
+ipregion ipregion (set(['Thuringen']), set(['Sachsen']))
+
+====================================

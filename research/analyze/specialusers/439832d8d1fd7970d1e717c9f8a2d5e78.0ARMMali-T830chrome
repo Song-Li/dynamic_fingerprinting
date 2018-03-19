@@ -1,25 +1,17 @@
-browserfingerprint (set(['d8b04e7fd79858d269a3fabe294d0bd935dbdb7f2600113ca57298950c53d4fa']), set(['938d7c88ddd92b181e0615243967e211de44ae9b91f3b03131b3e9d01b72dc96']))
 ====================================
-ipcity (set(['Salzburg']), set(['Innsbruck']))
-ipregion (set(['Salzburg']), set(['Tirol']))
-browserfingerprint (set(['938d7c88ddd92b181e0615243967e211de44ae9b91f3b03131b3e9d01b72dc96']), set(['34cd30a3cadc986fbb6fcb186478b2525ae07b9cc35d0157dc979cb1e29a3337']))
 ====================================
-browserfingerprint (set(['34cd30a3cadc986fbb6fcb186478b2525ae07b9cc35d0157dc979cb1e29a3337']), set(['ade5a6ec5406cf5309bc524c9d294e03e9f3e7219ee9fc5c3b681f7312102cce']))
 ====================================
-ipcity (set(['Innsbruck']), set(['Salzburg']))
-ipregion (set(['Tirol']), set(['Salzburg']))
-browserfingerprint (set(['ade5a6ec5406cf5309bc524c9d294e03e9f3e7219ee9fc5c3b681f7312102cce']), set(['ad81568debcdbf98b6f69eab18e1f50e6a3a75a9f082d9fc7b536198c2172f34']))
 ====================================
-browserfingerprint (set(['ad81568debcdbf98b6f69eab18e1f50e6a3a75a9f082d9fc7b536198c2172f34']), set(['938d7c88ddd92b181e0615243967e211de44ae9b91f3b03131b3e9d01b72dc96']))
 ====================================
-ipcity (set(['Salzburg']), set(['Scharnstein']))
-ipregion (set(['Salzburg']), set(['Oberosterreich']))
-browserfingerprint (set(['938d7c88ddd92b181e0615243967e211de44ae9b91f3b03131b3e9d01b72dc96']), set(['dd0979b7126e730c0668fd043dd5ff39770c2ca70000b5622ff96d06b882e999']))
 ====================================
-agent (set(['Chrome/59.0.3071.125']), set(['Chrome/63.0.3239.111']))
-language (set(['de-AT,de-DE;q=0.8,de;q=0.6,en-US;q=0.4,en;q=0.2']), set(['de-AT,de-DE;q=0.9,de;q=0.8,en-US;q=0.7,en;q=0.6']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Scharnstein']), set(['Vienna']))
-ipregion (set(['Oberosterreich']), set(['Wien']))
-browserfingerprint (set(['dd0979b7126e730c0668fd043dd5ff39770c2ca70000b5622ff96d06b882e999']), set(['3c4cedb416050a76f81aea5507a3f09edf675ee54572e52a58f4d955fb20502d']))
+agent agent (set(['Chrome/59.0.3071.125']), set(['Chrome/63.0.3239.111']))
+
+language language (set(['de-AT,de-DE;q=0.8,de;q=0.6,en-US;q=0.4,en;q=0.2']), set(['de-AT,de-DE;q=0.9,de;q=0.8,en-US;q=0.7,en;q=0.6']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Scharnstein']), set(['Vienna']))
+
+ipregion ipregion (set(['Oberosterreich']), set(['Wien']))
+
 ====================================

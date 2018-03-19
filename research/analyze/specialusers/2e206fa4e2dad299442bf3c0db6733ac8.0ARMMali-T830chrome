@@ -1,10 +1,11 @@
-browserfingerprint (set(['79cebb2f66f9cd675fe149647f9e56ec9c623b7faab16eb89134a29c7af1d0bf']), set(['c9af4a1c4eaee6b66dbee655e68164a2a9be5ac8028591ee2404a56168f66dcc']))
 ====================================
-browserfingerprint (set(['c9af4a1c4eaee6b66dbee655e68164a2a9be5ac8028591ee2404a56168f66dcc']), set(['79cebb2f66f9cd675fe149647f9e56ec9c623b7faab16eb89134a29c7af1d0bf']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nuremberg']), set(['Hanover']))
-ipregion (set(['Bayern']), set(['Niedersachsen']))
-browserfingerprint (set(['79cebb2f66f9cd675fe149647f9e56ec9c623b7faab16eb89134a29c7af1d0bf']), set(['4926aa3a4988d7211d052c7d4b9649ac83badae25db06056e7cfccc1a3b9663a']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Hanover']))
+
+ipregion ipregion (set(['Bayern']), set(['Niedersachsen']))
+
 ====================================

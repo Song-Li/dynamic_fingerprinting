@@ -1,28 +1,18 @@
-agent (set(['Version/4.0', 'Build/HUAWEIVTR-L09;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']), set(['Chrome/59.0.3071.125', 'Build/HUAWEIVTR-L09)']))
-encoding (set(['deflate']), set(['br', 'deflate,']))
-language (set(['de-DE,en-US;q=0.8']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
-ipcity (set(['Mecklenburg']), set(['Dusseldorf']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['40ddd6f6fa3d31051ff81958019ac87e2923ecf8b4d5a64eb7e45233828840b6']), set(['a9c11e7bb923dd8a375d109905da6f0f4605531da81624a1dcb04599f26e1a1f']))
 ====================================
-browserfingerprint (set(['a9c11e7bb923dd8a375d109905da6f0f4605531da81624a1dcb04599f26e1a1f']), set(['69553c5b9661405e2e671e96a02c56fc79d506c49f6b0a0332c836b109131e0a']))
 ====================================
-agent (set(['Chrome/59.0.3071.125']), set(['Chrome/60.0.3112.116']))
-ipcity (set(['Dusseldorf']), set(['Berlin']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
-browserfingerprint (set(['69553c5b9661405e2e671e96a02c56fc79d506c49f6b0a0332c836b109131e0a']), set(['294c72b96b011577ac4caf0984806364140b64d91def6d2267139b039accd698']))
 ====================================
-ipcity (set(['Berlin']), set(['Grambzow']))
-ipregion (set(['Berlin']), set(['Mecklenburg-Vorpommern']))
-browserfingerprint (set(['294c72b96b011577ac4caf0984806364140b64d91def6d2267139b039accd698']), set(['06f1df2004052c7b2bba83f441a1d9391c7651575caf3c33df5dc6baab6c6258']))
 ====================================
-browserfingerprint (set(['06f1df2004052c7b2bba83f441a1d9391c7651575caf3c33df5dc6baab6c6258']), set(['fdc724c5b614fc501cb23a90b27f78dda9b00d61019761a27095e8988f0f86c8']))
 ====================================
-agent (set(['Build/HUAWEIVTR-L09)', 'Chrome/60.0.3112.116']), set(['Version/4.0', 'Build/HUAWEIVTR-L09;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']))
-encoding (set(['br', 'deflate,']), set(['deflate']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,en-US;q=0.8']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Grambzow']), set(['Dusseldorf']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['fdc724c5b614fc501cb23a90b27f78dda9b00d61019761a27095e8988f0f86c8']), set(['bd938c05fdc1297d2bf357589642849c76499e78a8e0e65e3f11cec14840ed4c']))
+agent agent (set(['Build/HUAWEIVTR-L09)', 'Chrome/60.0.3112.116']), set(['Version/4.0', 'Build/HUAWEIVTR-L09;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']))
+
+encoding encoding (set(['br', 'deflate,']), set(['deflate']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,en-US;q=0.8']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Grambzow']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Mecklenburg-Vorpommern']), set(['Nordrhein-Westfalen']))
+
 ====================================

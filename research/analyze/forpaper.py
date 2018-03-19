@@ -194,7 +194,7 @@ def feature_change_by_date_paper(feature_name, df):
         os_counts = get_feature_percentage(grouped.get_group(group), 'os')
         
         try:
-            print group, get_change_strs(group[0], group[1], sep=sep), sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]
+            print '$$', '$$'.join(group), '$$', get_change_strs(group[0], group[1], sep=sep), sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]
         except:
             pass
         cnt += 1
@@ -477,39 +477,65 @@ def num_fingerprints_distribution(db):
     print change_time
     return change_time
 
-def get_browserid_change(df, file_name):
+def get_browserid_change(df, file_name, change_from, change_to, output_file_name, change_feature_name = ""):
+    print ("doing {} -> {}".format(change_from, change_to))
     f = open(file_name, 'r')
     content = f.readlines()
     users = [x.strip() for x in content] 
-    for user in users:
-        get_browserid_change_id(df, user)
+    changes = {} 
+    for user in tqdm(users):
+        changes = get_browserid_change_id(df, user, changes, change_from, change_to, change_feature_name = change_feature_name)
 
-def get_browserid_change_id(df, browserid):
-    print browserid
-    try:
-        f = open('./specialusers/{}'.format(browserid), 'w')
-    except:
-        return
+    sorted_dict = sorted(changes.iteritems(), key=lambda (k,v): (-v,k))
+    total = sorted_dict[0][1]
+
+    output_file_name = output_file_name.replace('/', '_')
+    output_file_name = output_file_name.replace(' ', '_')
+
+    output_file = safeopen('./changeres/{}/{}'.format(change_feature_name, output_file_name), 'w')
+    for pair in sorted_dict:
+        output_file.write('{} {}\n'.format(pair[0], float(pair[1]) / float(total)))
+    output_file.close()
+
+def get_browserid_change_id(df, browserid, changes, change_from, change_to , change_feature_name = ""):
+    #try:
+    #    f = open('./specialusers/{}'.format(browserid), 'w')
+    #except:
+    #    return changes
     aim_df = df[df['browserid'] == browserid]
+    #aim_df = aim_df[(aim_df[change_feature_name] == change_from) | (aim_df[change_feature_name] == change_to)]
     aim_df = aim_df.reset_index(drop = True)
     pre_row = {}
     sep = ' '
-    for idx in tqdm(aim_df.index):
+    for idx in aim_df.index:
         sep = ' '
         row = aim_df.iloc[idx]
         if len(pre_row) == 0:
             pre_row = row
             continue
-        if row['browserfingerprint'] != pre_row['browserfingerprint']:
+        if pre_row[change_feature_name] == change_from and row[change_feature_name] == change_to:
             for feature in long_feature_list:
-                if row[feature] != pre_row[feature]:
+                if feature == 'browserfingerprint':
+                    continue
+                if row[feature] == pre_row[feature]:
+                    continue
+                if change_feature_name == "": 
                     sep = get_sep(feature)
-                    if feature == 'agent':
-                        print ('{} {}\n'.format(pre_row[feature], row[feature]))
-                    f.write('{} {}\n'.format(feature, get_change_strs(pre_row[feature], row[feature], sep = sep)))
-            f.write('====================================\n')
+                    #f.write('{} {}\n'.format(feature, get_change_strs(pre_row[feature], row[feature], sep = sep)))
+                else:
+                    if row[change_feature_name] == pre_row[change_feature_name]:
+                        continue
+
+                    cur_str = '{} {}\n'.format(feature, get_change_strs(pre_row[feature], row[feature], sep=sep))
+                    if cur_str not in changes:
+                        changes[cur_str] = 0
+                    changes[cur_str] += 1
+                    #f.write('{} {}\n'.format(feature, cur_str))
+            #f.write('====================================\n')
         pre_row = row
-    f.close()
+
+    #f.close()
+    return changes
 
 # input the feature name, two different feature value
 # return the basic info of these features
@@ -528,19 +554,44 @@ def round_time_to_day(df):
         df.at[idx, 'time'] = df.at[idx, 'time'].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
     return df
 
+def get_change_details(change_feature_name, change_from, change_to, df):
+    db = Database('filteredchanges')
+    browserid_list = check_diff_feature_value(db, change_feature_name, change_from, change_to)
+    f = safeopen('./tmpout', 'w')
+    for browserid in browserid_list:
+        f.write(browserid + '\n')
+    f.close()
+    get_browserid_change(df,'./tmpout', change_from, change_to, '{}_{} -> {}'.format(change_feature_name,change_from,change_to), change_feature_name = change_feature_name)
+
+def get_all_change_details(file_name):
+    db = Database('uniquemachine')
+    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
+
+    f = open(file_name, 'r')
+    content = f.readlines()
+    feature_name = ""
+    for line in content:
+        if line.find('generating') != -1:
+            feature_name = line.split(' ')[1].strip()
+        elif line.find('$$') != -1:
+            change_from = line.split('$$')[1].strip()
+            change_to = line.split('$$')[2].strip()
+            if feature_name == 'agent':
+                continue
+            get_change_details(feature_name, change_from, change_to, df)
+
+
+
 
 def main():
-    #db = Database('uniquemachine')
+    get_all_change_details('./res/all_changes_by_date_filtered')
+    #db = Database('filteredchanges')
+    #get_all_feature_change_by_date_paper(db)
     #maps = feature_delta_paper(db)
-    db = Database('filteredchanges')
-    get_all_feature_change_by_date_paper(db)
-    #browserid_list = check_diff_feature_value(db, 'canvastest', '391219fe2b4ddd613eda0abc5de071cd17af7bab', 'c3692f002eccf8a1740d73ff02db43885b36e31d')
     #get_browserid_change_id(df, "f4ce016af1e96e71ddcd0bde3f78869f2iPhoneImagination TechnologiesPowerVR SGX 543safari")
    # db = Database('changes')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #db = Database('changes')
-    #for browserid in browserid_list:
-    #    print browserid
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db, other = ' where jsFonts is not NULL and gpuimgs is not NULL')
     #df = round_time_to_day(df)
     #for feature in feature_list:
@@ -549,7 +600,6 @@ def main():
     #num_fingerprints_distribution(db)
     #db = Database('uniquemachine')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
-    #get_browserid_change(df,'./tmpout')
     #check_browser_become_unique(db)
     #change_to_unique, change_feature = check_browser_become_unique(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)

@@ -1,22 +1,12 @@
-browserfingerprint (set(['bc167475f276fcdcf049da7698947de9d76ef62a817431d16883cf04735a9c20']), set(['8d6c6a3a35e6f446d0d191572adf9494b92987eecbf3bc554601fcb27541a488']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Wismar']), set(['Quedlinburg']))
-browserfingerprint (set(['8d6c6a3a35e6f446d0d191572adf9494b92987eecbf3bc554601fcb27541a488']), set(['58ecd3b4f1d5ddd48c4972253c5b2cf184b260a241e39c61b3433d91bf9eeb2f']))
 ====================================
-ipcity (set(['Quedlinburg']), set(['Hasselfelde']))
-browserfingerprint (set(['58ecd3b4f1d5ddd48c4972253c5b2cf184b260a241e39c61b3433d91bf9eeb2f']), set(['2835ddcbb5673e9ea164736764dc9bd5e85d20e8dccd8065e118063a893b276c']))
 ====================================
-browserfingerprint (set(['2835ddcbb5673e9ea164736764dc9bd5e85d20e8dccd8065e118063a893b276c']), set(['a627a1e52600f329abca8e65d91dcf4cb73f6691dbbc4b1f0108ba5649a5e9b4']))
 ====================================
-ipcity (set(['Hasselfelde']), set(['Zerbst']))
-browserfingerprint (set(['a627a1e52600f329abca8e65d91dcf4cb73f6691dbbc4b1f0108ba5649a5e9b4']), set(['ab1da407e32da17331d0df5ddea60d65c5eb8fd37ecc0614c0aaf379f2efbbfa']))
 ====================================
-browserfingerprint (set(['ab1da407e32da17331d0df5ddea60d65c5eb8fd37ecc0614c0aaf379f2efbbfa']), set(['c35e2f9c2d479b20fc0aa6cefc013829f75ea7e218541f8f9d739e5695794f22']))
 ====================================
-browserfingerprint (set(['c35e2f9c2d479b20fc0aa6cefc013829f75ea7e218541f8f9d739e5695794f22']), set(['ab1da407e32da17331d0df5ddea60d65c5eb8fd37ecc0614c0aaf379f2efbbfa']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Zerbst']), set(['Allrode']))
-browserfingerprint (set(['ab1da407e32da17331d0df5ddea60d65c5eb8fd37ecc0614c0aaf379f2efbbfa']), set(['972e49767d559dbbb64df23a78acbdba3a28fd628af25e431d1cbd2b0a57e7ac']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Zerbst']), set(['Allrode']))
+
 ====================================

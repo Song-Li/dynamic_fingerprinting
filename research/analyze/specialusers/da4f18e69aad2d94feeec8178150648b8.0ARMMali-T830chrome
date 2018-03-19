@@ -1,37 +1,18 @@
-agent (set(['Build/HUAWEIRNE-L21)', 'Chrome/62.0.3202.84']), set(['Version/4.0', 'Build/HUAWEIRNE-L21;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']))
-encoding (set(['br', 'deflate,']), set(['deflate']))
-language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
-browserfingerprint (set(['83b581735f5c1772fdadb340bfc997f4518388a64e7fb0778c7af1769abbdc5a']), set(['765f92b6a2ef7ceffb8c35cf8061514b18c8e8836e236abc8d8327ad613d7146']))
 ====================================
-agent (set(['Version/4.0', 'Build/HUAWEIRNE-L21;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']), set(['Build/HUAWEIRNE-L21)', 'Chrome/62.0.3202.84']))
-encoding (set(['deflate']), set(['br', 'deflate,']))
-language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-browserfingerprint (set(['765f92b6a2ef7ceffb8c35cf8061514b18c8e8836e236abc8d8327ad613d7146']), set(['efdf96b7b7396d59373d6ccf92796a6062a97563e571d200d63484b265ab9fc1']))
 ====================================
-agent (set(['Build/HUAWEIRNE-L21)', 'Chrome/62.0.3202.84']), set(['Version/4.0', 'Build/HUAWEIRNE-L21;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']))
-encoding (set(['br', 'deflate,']), set(['deflate']))
-language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
-ipcity (set(['Dresden']), set(['Lutherstadt', 'Eisleben']))
-ipregion (set(['Sachsen']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['efdf96b7b7396d59373d6ccf92796a6062a97563e571d200d63484b265ab9fc1']), set(['1caa5be06f400e18c8ceb8ea11be786724417ae730cfe516356550284c98dbc0']))
 ====================================
-browserfingerprint (set(['1caa5be06f400e18c8ceb8ea11be786724417ae730cfe516356550284c98dbc0']), set(['06a5f5081a1e684df074ee5980be995f3ce647f302fd09bc285892d41f3589fa']))
 ====================================
-browserfingerprint (set(['06a5f5081a1e684df074ee5980be995f3ce647f302fd09bc285892d41f3589fa']), set(['1caa5be06f400e18c8ceb8ea11be786724417ae730cfe516356550284c98dbc0']))
 ====================================
-browserfingerprint (set(['1caa5be06f400e18c8ceb8ea11be786724417ae730cfe516356550284c98dbc0']), set(['06a5f5081a1e684df074ee5980be995f3ce647f302fd09bc285892d41f3589fa']))
 ====================================
-agent (set(['Version/4.0', 'Build/HUAWEIRNE-L21;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']), set(['Build/HUAWEIRNE-L21)', 'Chrome/63.0.3239.107']))
-encoding (set(['deflate']), set(['br', 'deflate,']))
-language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-ipcity (set(['Lutherstadt', 'Eisleben']), set(['Leipzig']))
-ipregion (set(['Sachsen-Anhalt']), set(['Sachsen']))
-browserfingerprint (set(['06a5f5081a1e684df074ee5980be995f3ce647f302fd09bc285892d41f3589fa']), set(['67efb16eb6de5fb97d075ffcaa55a421a542229f57f1f562f271281a6de24a41']))
 ====================================
-agent (set(['Build/HUAWEIRNE-L21)', 'Chrome/63.0.3239.107']), set(['Version/4.0', 'Build/HUAWEIRNE-L21;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']))
-encoding (set(['br', 'deflate,']), set(['deflate']))
-language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Leipzig']), set(['Grubnitz']))
-browserfingerprint (set(['67efb16eb6de5fb97d075ffcaa55a421a542229f57f1f562f271281a6de24a41']), set(['1c23075e8a2e59b5818c159eb4fd9f3182d8b3edce264c1a0ef46c220bc6ae17']))
+agent agent (set(['Build/HUAWEIRNE-L21)', 'Chrome/63.0.3239.107']), set(['Version/4.0', 'Build/HUAWEIRNE-L21;', 'Chrome/44.0.2403.119', 'wv)', 'ACHEETAHI/1']))
+
+encoding encoding (set(['br', 'deflate,']), set(['deflate']))
+
+language language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,en-US;q=0.9']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Leipzig']), set(['Grubnitz']))
+
 ====================================

@@ -1,17 +1,17 @@
-browserfingerprint (set(['854d8c66dca35cd97615b014d87a57b1ab96c656ec18f71a3c96b70c02995ded']), set(['2c55dd9627316357c6c54672ac006942f11429b4abe606ce5d01224ac9af4a28']))
 ====================================
-agent (set(['Version/4.0', 'de-de;', 'Hawk/QuickBrowser/2.0.9.19532', 'U;', 'Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
-encoding (set(['deflate']), set(['br', 'deflate,']))
-language (set(['de-DE,en-US;q=0.8']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Berlin']), set(['Oberviechtach']))
-ipregion (set(['Berlin']), set(['Bayern']))
-browserfingerprint (set(['2c55dd9627316357c6c54672ac006942f11429b4abe606ce5d01224ac9af4a28']), set(['efadbca5c4594d864baf9490b75023003cef38da813a854c428c929c9d80eff3']))
+agent agent (set(['Version/4.0', 'de-de;', 'Hawk/QuickBrowser/2.0.9.19532', 'U;', 'Chrome/61.0.3163.98']), set(['Chrome/63.0.3239.111']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,en-US;q=0.8']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Berlin']), set(['Oberviechtach']))
+
+ipregion ipregion (set(['Berlin']), set(['Bayern']))
+
 ====================================
-browserfingerprint (set(['efadbca5c4594d864baf9490b75023003cef38da813a854c428c929c9d80eff3']), set(['0fc27acda4c0b8bd50e3aca34729f35d05515202ca5282af16e8d9115db09afc']))
 ====================================
-ipcity (set(['Oberviechtach']), set(['Munich']))
-browserfingerprint (set(['0fc27acda4c0b8bd50e3aca34729f35d05515202ca5282af16e8d9115db09afc']), set(['d3f92bb70dffbce71637ecd7f887971e9233ad61cae03eee60ac2dc8602aa090']))
 ====================================
-browserfingerprint (set(['d3f92bb70dffbce71637ecd7f887971e9233ad61cae03eee60ac2dc8602aa090']), set(['d0603d635dd72310fa290855405c771510b8bd4f14032a7912e778de5b0b7bd9']))
 ====================================

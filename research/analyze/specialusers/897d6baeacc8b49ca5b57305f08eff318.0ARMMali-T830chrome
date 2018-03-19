@@ -1,6 +1,0 @@
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Luebeck']), set(['Wieseck']))
-ipregion (set(['Schleswig-Holstein']), set(['Hessen']))
-browserfingerprint (set(['f133b2c45085676286be6f7259389ac39c99e8febec0f361e9c3bfdb151a9728']), set(['5b25b317f0b973ec6f8a61f6d0fc1dc7689682d1e5882eccfaaa1f9cea102ee2']))
-====================================

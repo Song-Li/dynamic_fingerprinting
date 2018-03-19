@@ -1,0 +1,13 @@
+agent agent (set(['SamsungBrowser/5.0', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['6c2222cb5f186b03b7b8e50d1f289375a3073757']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Osnabruck']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+
+====================================

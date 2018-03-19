@@ -1,0 +1,13 @@
+agent agent (set(['Chrome/49.0.2623.112', '10_8_5)']), set(['Chrome/62.0.3202.94', '10_12_0)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4']), set(['fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+plugins plugins (set(['Viewer~Chrome']), set(['Plugin~Chrome']))
+
+jsFonts jsFonts (set(['MT_Gill', 'Bold_Gloucester', 'MN_Skia_Stencil_Tamil', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'Bold_SimSun_Sinhala', 'Ultra', '7_Britannic']), set(['MN_Papyrus_Perpetua_Perpetua', 'MN_Skia_Snell', 'Roundhand_Stencil_Tamil', 'MT_Gloucester', 'Hand_Britannic', 'Bold_Savoye', '7_Bradley', 'LET_SimSun_Sinhala']))
+
+canvastest canvastest (set(['8527f09ab4aaee8391b29294a167a9b6f89a100b']), set(['095be95cc3171d0d52607cfc57a4c305e758b788']))
+
+====================================

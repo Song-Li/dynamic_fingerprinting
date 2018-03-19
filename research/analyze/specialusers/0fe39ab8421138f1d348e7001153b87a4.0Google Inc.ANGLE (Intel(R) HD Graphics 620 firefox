@@ -1,0 +1,11 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['3_Candara_Constantia_Corbel_Ebrima_Gabriola_Malgun', 'Boli_NSimSun_PMingLiU-ExtB_Roman_SimSun_SimSun-ExtB_Sylfaen', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mongolian', 'New_Georgia_Impact_Lucida', 'Calibri_Cambria_Cambria']), set(['Light_Segoe', 'BT_Humanst', '72_Bodoni', '703', '7_Candara_Constantia_Corbel_Ebrima_English', 'Lt', '111', 'Smallcaps_Bookshelf', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Modern', '93_Bodoni', 'BT_Gabriola_GeoSlab', 'Medium', 'New_Georgia_Helvetica_Impact_Lucida', 'Symbol', 'Vivace', '3_Bauhaus', '521', 'BT_GeoSlab', 'XBd', 'Boli_NSimSun_PMingLiU-ExtB_Roman_SimSun_SimSun-ExtB_Small', 'Arial_Arial', 'CE', '72', 'Oldstyle_Bodoni', 'Fonts_Sylfaen_Univers', '20_Mongolian', 'BT_Malgun', 'No.', 'Semibold_Segoe', 'Cn', '55', 'Black_Calibri_Cambria_Cambria']))
+
+canvastest canvastest (set(['429945286c435b1e8c4a3e5daab8496f7028f5c5']), set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']))
+
+ipcity ipcity (set(['Isenburg']), set(['Frankfurt', 'Main', 'am']))
+
+ipregion ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+
+====================================

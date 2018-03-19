@@ -1,37 +1,18 @@
-ipcity (set(['Sandstedt']), set(['Oldenburg']))
-browserfingerprint (set(['0d113abf8caefb2ef420bf60c7649e8a57bd417cbdcfc1f7ddaa0fd3f357f319']), set(['3d449743cd07a345b74baef1ededb5f4dc043a68efad0eeb630dc971c8d8779a']))
 ====================================
-browserfingerprint (set(['3d449743cd07a345b74baef1ededb5f4dc043a68efad0eeb630dc971c8d8779a']), set(['29e30798c33788b2c207e70a7e54af662f6a56199069bdd6359aa0d6cf9bab35']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
-ipcity (set(['Oldenburg']), set(['Syke']))
-browserfingerprint (set(['29e30798c33788b2c207e70a7e54af662f6a56199069bdd6359aa0d6cf9bab35']), set(['b8f9aa089e9fb1982cbff4d05ff486cfbcd2854a6f2f50c383655cc04fee05da']))
 ====================================
-browserfingerprint (set(['b8f9aa089e9fb1982cbff4d05ff486cfbcd2854a6f2f50c383655cc04fee05da']), set(['f44c83156d5767db4890dc894e1f32bede9f46bfdb1a9fa59234d4ef80f2a3f5']))
 ====================================
-ipcity (set(['Syke']), set(['Hamburg']))
-ipregion (set(['Niedersachsen']), set(['Hamburg']))
-browserfingerprint (set(['f44c83156d5767db4890dc894e1f32bede9f46bfdb1a9fa59234d4ef80f2a3f5']), set(['830d9aaad058cf364877a2c6949e3ad706f530ce4ffc0a0d0a0353ef5b7b0ab3']))
 ====================================
-ipcity (set(['Hamburg']), set(['Delmenhorst']))
-ipregion (set(['Hamburg']), set(['Niedersachsen']))
-browserfingerprint (set(['830d9aaad058cf364877a2c6949e3ad706f530ce4ffc0a0d0a0353ef5b7b0ab3']), set(['7888d6441e00a64c54490528bc785be0cf6c6ad6c3f8644321135ac57bf4f27c']))
 ====================================
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
-timezone (set(['-240.0']), set(['-60.0']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['7888d6441e00a64c54490528bc785be0cf6c6ad6c3f8644321135ac57bf4f27c']), set(['fa73c045267aca6ca2dc864f21fb2113d8d83e9da29caf80b9f2ee5fa34ea160']))
+agent agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+
+timezone timezone (set(['-240.0']), set(['-60.0']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['fa73c045267aca6ca2dc864f21fb2113d8d83e9da29caf80b9f2ee5fa34ea160']), set(['a101a11cf4c7c44e3131864d409cfb1c96a97593c0e1e283ffff2a7cd283aa56']))
 ====================================
-ipcity (set(['Delmenhorst']), set(['Oldenburg']))
-browserfingerprint (set(['a101a11cf4c7c44e3131864d409cfb1c96a97593c0e1e283ffff2a7cd283aa56']), set(['5a8519e34b59c028b2af323ff6a3ac5b7e73d534200b1e4f23ab61fe7c189040']))
 ====================================
-ipcity (set(['Oldenburg']), set(['Sandstedt']))
-browserfingerprint (set(['5a8519e34b59c028b2af323ff6a3ac5b7e73d534200b1e4f23ab61fe7c189040']), set(['04c2f76112730ee97e4d406e50f89aace8b39674e2437da3ac6fe7121b5f04fa']))
 ====================================
-ipcity (set(['Sandstedt']), set(['Delmenhorst']))
-browserfingerprint (set(['04c2f76112730ee97e4d406e50f89aace8b39674e2437da3ac6fe7121b5f04fa']), set(['fa73c045267aca6ca2dc864f21fb2113d8d83e9da29caf80b9f2ee5fa34ea160']))
 ====================================
-browserfingerprint (set(['fa73c045267aca6ca2dc864f21fb2113d8d83e9da29caf80b9f2ee5fa34ea160']), set(['a101a11cf4c7c44e3131864d409cfb1c96a97593c0e1e283ffff2a7cd283aa56']))
 ====================================

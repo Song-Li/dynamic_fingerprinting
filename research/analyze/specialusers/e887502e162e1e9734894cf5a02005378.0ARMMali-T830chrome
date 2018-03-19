@@ -1,7 +1,6 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.83']))
-browserfingerprint (set(['b1a14238736301335924e54efdd2a51cb7ef09ae1d15169603dbcf5a770e21e9']), set(['f140f5e864c2bba696ffa49cf1e53d317b0923ee11a0590e1145ae0ce7a0fbe8']))
 ====================================
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['f140f5e864c2bba696ffa49cf1e53d317b0923ee11a0590e1145ae0ce7a0fbe8']), set(['1ee335e391f27cad3a2f729edbd87e7236ac529792427483654cce588ae9080a']))
+agent agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

@@ -1,0 +1,15 @@
+agent agent (set(['Chrome/61.0.3163.100']), set(['Chrome/64.0.3282.119']))
+
+language language (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9']))
+
+plugins plugins (set(['Client~Shockwave', 'Flash~Widevine']), set(['Client~Widevine']))
+
+jsFonts jsFonts (set(['ITC_Leelawadee_Malgun', 'Uighur_Microsoft', 'Extra_MV', 'Gothic_MT']), set(['Sans_Lucida', 'Gothic_MV', 'ITC_Malgun']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Mumbai']), set(['Bilaspur']))
+
+ipregion ipregion (set(['Maharashtra']), set(['Chhattisgarh']))
+
+====================================

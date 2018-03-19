@@ -1,7 +1,0 @@
-browserfingerprint (set(['01ff85071c87df83ab8fdf56d95351873cc9b59fe2ce25b5999fff3d34ba9f4d']), set(['0e95fcfe414060f1215065b3d830289d990d41cf15e5e5943cceca3699742761']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Geesthacht']), set(['Rendsburg']))
-browserfingerprint (set(['0e95fcfe414060f1215065b3d830289d990d41cf15e5e5943cceca3699742761']), set(['e75496214770f1b018cc9a906a69b3e39ed64553d393dd3cfb30aacb605c6a97']))
-====================================

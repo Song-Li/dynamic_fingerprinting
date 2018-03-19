@@ -1,9 +1,9 @@
-browserfingerprint (set(['2d88e691a050de21190f109f85c9d5e2c4456431a9e3a0170e7878d5f510e27e']), set(['d5524b8019446ec1ec665454229ee3c3e09c9533294a89a2f13d4fbe09c2b3c4']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Chemnitz']), set(['Ramstein-Miesenbach']))
-ipregion (set(['Sachsen']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['d5524b8019446ec1ec665454229ee3c3e09c9533294a89a2f13d4fbe09c2b3c4']), set(['a8bf999c2e1a4200f1a8aa99623132ae687a910631415833949f15767a6ebf56']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Chemnitz']), set(['Ramstein-Miesenbach']))
+
+ipregion ipregion (set(['Sachsen']), set(['Rheinland-Pfalz']))
+
 ====================================
-browserfingerprint (set(['a8bf999c2e1a4200f1a8aa99623132ae687a910631415833949f15767a6ebf56']), set(['5ef0bb59159c660340a7e0418957159f18c12dd8298a2eb1cbfca8f2a300c021']))
 ====================================

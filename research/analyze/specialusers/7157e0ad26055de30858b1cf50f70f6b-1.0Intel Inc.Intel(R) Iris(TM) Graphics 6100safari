@@ -1,0 +1,11 @@
+agent agent (set(['10_12_6)']), set(['10_13_1)']))
+
+encoding encoding (set([]), set(['br,']))
+
+plugins plugins (set(['WebKit']), set(['Shockwave', 'Flash~WebKit']))
+
+jsFonts jsFonts (set(['MS_Book', 'Old', 'Style_Century', 'MN_Thonburi_Tw', 'Typewriter_American', 'Schoolbook_Comic', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'MT_Univers', 'Condensed_Apple', 'Cen', 'Gothic_Century', 'Cherokee_Roman_Savoye', 'Antiqua_Bookman', 'Typewriter']), set(['Typewriter_Apple', 'MS_Comic', 'MN_Thonburi_Univers', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Savoye']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+====================================

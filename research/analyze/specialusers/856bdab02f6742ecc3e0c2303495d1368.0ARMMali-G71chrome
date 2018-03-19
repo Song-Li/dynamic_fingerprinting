@@ -1,50 +1,26 @@
-browserfingerprint (set(['eab4418a3ecd2363a30c578fc942bf7d0f8fb7e1b4f35408b0851bf731c31989']), set(['2944e00617a78db8bb82074beb0588c38b731ef073f414d028186402b506e2d1']))
 ====================================
-browserfingerprint (set(['2944e00617a78db8bb82074beb0588c38b731ef073f414d028186402b506e2d1']), set(['eab4418a3ecd2363a30c578fc942bf7d0f8fb7e1b4f35408b0851bf731c31989']))
 ====================================
-ipcity (set(['Karlsruhe']), set(['Dingolfing']))
-ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
-browserfingerprint (set(['eab4418a3ecd2363a30c578fc942bf7d0f8fb7e1b4f35408b0851bf731c31989']), set(['66ce1436158d11337ce814af1db670c16e1bea7900241dc6618867a141de6163']))
 ====================================
-ipcity (set(['Dingolfing']), set(['Hanover']))
-ipregion (set(['Bayern']), set(['Niedersachsen']))
-browserfingerprint (set(['66ce1436158d11337ce814af1db670c16e1bea7900241dc6618867a141de6163']), set(['d477624bbea2c3b0457ec4dbb0904a88f2bc18dd5e3d866bb28dba060397dd1c']))
 ====================================
-ipcity (set(['Hanover']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Niedersachsen']), set(['Hessen']))
-browserfingerprint (set(['d477624bbea2c3b0457ec4dbb0904a88f2bc18dd5e3d866bb28dba060397dd1c']), set(['15a4769f34500eebbde97ae8e905e682e1f34e61b0ef5edebcae95d438a3fcbe']))
 ====================================
-browserfingerprint (set(['15a4769f34500eebbde97ae8e905e682e1f34e61b0ef5edebcae95d438a3fcbe']), set(['6f47392474de8606758bb9c589ce093fe4104c2173b24bcdde05c5d63a45d6e4']))
 ====================================
-browserfingerprint (set(['6f47392474de8606758bb9c589ce093fe4104c2173b24bcdde05c5d63a45d6e4']), set(['15a4769f34500eebbde97ae8e905e682e1f34e61b0ef5edebcae95d438a3fcbe']))
 ====================================
-timezone (set(['-60.0']), set(['-120.0']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Lusaka']))
-ipregion (set(['Hessen']), set(['Lusaka']))
-ipcountry (set(['Germany']), set(['Zambia']))
-browserfingerprint (set(['15a4769f34500eebbde97ae8e905e682e1f34e61b0ef5edebcae95d438a3fcbe']), set(['664d4f9f7ca467d653e4987173fbef44089947db85d612520fc4d7d0afabd6f3']))
 ====================================
-browserfingerprint (set(['664d4f9f7ca467d653e4987173fbef44089947db85d612520fc4d7d0afabd6f3']), set(['f40d64673a84bc1fa115a987c462d6a1db487dbb29254f83f7f7254ffbd80db1']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-timezone (set(['-120.0']), set(['-60.0']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Lusaka']), set(['Novo', 'Mesto']))
-ipregion (set(['Lusaka']), set(['Novo', 'Mesto']))
-ipcountry (set(['Zambia']), set(['Slovenia']))
-browserfingerprint (set(['f40d64673a84bc1fa115a987c462d6a1db487dbb29254f83f7f7254ffbd80db1']), set(['b44cd1e24adf9eeb7dfb1175c5d2ab41398290859b26ba001f538f0122b276e6']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+timezone timezone (set(['-120.0']), set(['-60.0']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Lusaka']), set(['Novo', 'Mesto']))
+
+ipregion ipregion (set(['Lusaka']), set(['Novo', 'Mesto']))
+
+ipcountry ipcountry (set(['Zambia']), set(['Slovenia']))
+
 ====================================
-browserfingerprint (set(['b44cd1e24adf9eeb7dfb1175c5d2ab41398290859b26ba001f538f0122b276e6']), set(['2c0943f11182fc84a76f77306a4a86f93a837f80d3a9774afe73620b094d689f']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Novo', 'Mesto']), set(['Stuttgart']))
-ipregion (set(['Novo', 'Mesto']), set(['Baden-Wurttemberg']))
-ipcountry (set(['Slovenia']), set(['Germany']))
-browserfingerprint (set(['2c0943f11182fc84a76f77306a4a86f93a837f80d3a9774afe73620b094d689f']), set(['167550c1c0dbf0fc762392d03c64f5e518cbcce4ea259f2dd0612b566898d95c']))
 ====================================
-browserfingerprint (set(['167550c1c0dbf0fc762392d03c64f5e518cbcce4ea259f2dd0612b566898d95c']), set(['69441b63dc202addca8e3f91d9e190028842dd556ea6e1df5946d55e1b3ded49']))
 ====================================
-ipcity (set(['Stuttgart']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
-browserfingerprint (set(['69441b63dc202addca8e3f91d9e190028842dd556ea6e1df5946d55e1b3ded49']), set(['f2bf7763a521389464e455a435444ccc7054ba4ff4135727a16af3a8793f88f0']))
 ====================================

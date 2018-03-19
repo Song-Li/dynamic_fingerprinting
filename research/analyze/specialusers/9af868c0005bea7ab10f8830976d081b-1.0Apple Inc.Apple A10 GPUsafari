@@ -1,0 +1,11 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+timezone timezone (set(['-420.0']), set(['-60.0']))
+
+ipcity ipcity (set(['Phuket']), set(['Freinsheim']))
+
+ipregion ipregion (set(['Phuket']), set(['Rheinland-Pfalz']))
+
+ipcountry ipcountry (set(['Thailand']), set(['Germany']))
+
+====================================

@@ -1,7 +1,6 @@
-ipcity (set(['Dortmund']), set(['Bielefeld']))
-browserfingerprint (set(['2c57f92fc59a90476251a9e0ac628d673a8fd395dd362ad04ab71fd22c7daac0']), set(['7952565fdfffeb1c69a09e5359ce4fddfe2617b3ffc526dbd7bf6596ae6c8396']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Bielefeld']), set(['Dortmund']))
-browserfingerprint (set(['7952565fdfffeb1c69a09e5359ce4fddfe2617b3ffc526dbd7bf6596ae6c8396']), set(['80936ade1365fcb904f7a4b735c2c492645ec777c9750741e8e0ccdf8d2c56ff']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Bielefeld']), set(['Dortmund']))
+
 ====================================

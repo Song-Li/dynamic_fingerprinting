@@ -1,0 +1,9 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Stout_Haettenschweiler_Harrington_High', 'FB_Blackadder', 'Solid_NSimSun_Nyala_Old', 'MT_Constantia_Copperplate', 'MT_Bookshelf', 'Richard_Pristina_Ravie_Rockwell_Roman_Sakkal', 'Titling_Forte_Freestyle', 'MT_Univers', 'Majalla_Script_Showcard', 'ITC_Broadway_Brush', 'Arial_Book', 'Gothic_Corbel_Curlz', 'MT_Gisha_Goudy']), set(['Light_Segoe', 'Condensed_Rockwell', 'Demi_Bernard', 'Light_Corbel_Curlz', 'Extended_Old', 'FB', 'A', 'Narrow_Arial', 'Condensed_Bodoni', 'Bold_Showcard', 'Richard_Pristina_Rage', 'Arial_Arial', 'Italic_Harrington_High', 'Condensed', 'Bold', 'Italic_Ravie_Rockwell_Rockwell', 'Poster', 'Black_Copperplate', 'Bold_Copperplate', 'Bold_Gill', 'Compressed_Bookshelf', 'ITC_Britannic', 'Gothic', 'FB_Berlin', 'Titling_Footlight', 'Gothic_Copperplate', 'Condensed_Gill', 'Bold_Roman_Sakkal', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'Solid', 'MT_Constantia_Cooper', 'Bold_Broadway_Brush', 'Stout_Haettenschweiler_Harlow', 'Condensed_Tw', 'Ext', 'Black_Arial', 'Ultra', 'Bold_Univers', 'Bold_Book', 'MT_Tw', 'Black_Bodoni', 'Semibold_Segoe', 'Rounded', 'Condensed_Gisha_Goudy', 'Extra', 'Majalla_Script_Script', 'Light_Forte_Freestyle', 'Solid_NSimSun_Nyala_OCR']))
+
+canvastest canvastest (set(['518126f92e1140964f7dfd0fd1f564343bf73d39']), set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Wilhelm']))
+
+====================================

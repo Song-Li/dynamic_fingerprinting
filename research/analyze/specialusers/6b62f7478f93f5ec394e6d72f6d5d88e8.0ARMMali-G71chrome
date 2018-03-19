@@ -1,5 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dortmund']), set(['Bielefeld']))
-browserfingerprint (set(['3a300909e5bc3503181d991f5ba0834da0a9b7051324decb942aff65ddfa9ca4']), set(['7b3dce5510bffb9a1e5fab7894421a7d55149d6741e5d94d7e0e0446c8c2ee8d']))
-====================================

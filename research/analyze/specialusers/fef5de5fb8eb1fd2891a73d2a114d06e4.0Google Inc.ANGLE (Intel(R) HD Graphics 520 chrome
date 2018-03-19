@@ -1,0 +1,9 @@
+agent agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+
+jsFonts jsFonts (set(['MT_Felix', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'ITC_Kristen', 'MT_Ebrima_Edwardian', 'MT_Playbill_PMingLiU-ExtB_Poor', 'Gothic_SimSun_SimSun-ExtB_Snap']), set(['MT_FangSong_Felix', 'ITC_KaiTi_Kristen', 'MT_Playbill_PMingLiU_PMingLiU-ExtB_Poor', 'MT_DFKai-SB_Ebrima_Edwardian', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Gothic_SimHei_SimSun_SimSun-ExtB_Snap']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Broadheath']), set(['Trafford', 'Centre']))
+
+====================================

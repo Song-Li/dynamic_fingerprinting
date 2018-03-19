@@ -1,0 +1,9 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Light_Segoe', 'Black_Calibri_Cambria_Cambria', 'Semibold_Segoe', 'Arial_Arial']))
+
+ipcity ipcity (set(['Munich']), set(['Leer']))
+
+ipregion ipregion (set(['Bayern']), set(['Niedersachsen']))
+
+====================================

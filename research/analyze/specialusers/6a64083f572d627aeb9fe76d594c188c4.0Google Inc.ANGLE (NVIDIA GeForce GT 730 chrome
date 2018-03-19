@@ -1,0 +1,13 @@
+agent agent (set(['Chrome/61.0.3163.100']), set(['Chrome/62.0.3202.94']))
+
+language language (set(['it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4']), set(['it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+jsFonts jsFonts (set(['Baiti_MoolBoran_MS', 'Gothic_Mangal_Marlett_Matura', 'New_AngsanaUPC_Aparajita_Arabic', 'Fixed_SimSun_SimSun-ExtB_Snap', 'Gothic_Shruti_SimHei_Simplified', 'Roman_IrisUPC_Iskoola', 'Medium_Utsaah_Vani_Vijaya_Viner', 'PMincho_MS', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'ITC_Broadway_Browallia', 'Majalla_Shonar', 'Typesetting_BankGothic', 'UI_Microsoft', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'FB_Aharoni_Algerian_Andalus_Angsana', 'New_BrowalliaUPC_Brush', 'Face_Batang_BatangChe_Bauhaus', 'UI_Latha_Leelawadee_Levenim', 'MT_Plantagenet', 'New_CordiaUPC_Curlz', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DIN_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Capitals_Meiryo_Meiryo', 'ITC_Traditional', 'Bangla_Showcard', 'Pro_Miriam_Miriam', 'Pota_JasmineUPC_Jokerman_Juice', 'UI_KodchiangUPC_Kokila_Kristen', 'PRO_Tunga_Tw', 'Arabic_TRAJAN', 'Condensed_Rod_Sakkal', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', 'Script_Lao', 'Light_Corbel_Cordia', 'Script_Vrinda_Wide', 'Arabic_Simplified', 'Solid_NSimSun_Nyala_Old', 'Condensed_Gisha_Goudy', 'Cherokee_Playbill_PMingLiU_PMingLiU-ExtB_Poor', 'MT_Gabriola_Gautami_GeoSlab', 'Fixed_Mistral_Modern', 'Boli_Narkisim_Niagara', 'MT_LilyUPC_Magneto_Maiandra', 'Arabic', 'ITC_KaiTi_Kalinga_Kartika_Khmer']), set(['Richard_Pristina_Ravie_Rockwell_Rockwell', 'ITC_Kristen', 'Gothic_Marlett_Matura', 'MT_Gabriola_GeoSlab', 'Roman_Jokerman_Juice', 'Light_Corbel_Curlz', 'Script_Leelawadee_Magneto_Maiandra', 'Baiti_MS', 'PRO_Tw', 'FB_Algerian_BankGothic', 'Face_Bauhaus', 'Solid_NSimSun_Old', 'Pro_Mistral_Modern', 'MT_DIN_Ebrima_Edwardian', 'ITC_TRAJAN', 'Capitals_Microsoft', 'Gothic_SimSun_SimSun-ExtB_Snap', 'MT_Playbill_PMingLiU-ExtB_Poor', 'Medium_Viner', 'Stout_Haettenschweiler_Harrington_High', 'Script_Wide', 'MT_Felix', 'Boli_Niagara', 'Condensed_Goudy', 'Condensed_Showcard', 'Light_Forte_Freestyle', 'ITC_Broadway_Brush', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Bologna']), set(['Rome']))
+
+ipregion ipregion (set(['Emilia-Romagna']), set(['Lazio']))
+
+====================================

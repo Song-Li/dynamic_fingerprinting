@@ -1,28 +1,13 @@
-browserfingerprint (set(['530e31ee55d844131e71ad64e36875b8348c665a4ab8ebe9c6dc89a03fb4cbe4']), set(['016005f2305fda26020eb7abee77823a4821cea44db3964253e1ceb551bfa6ab']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Dortmund']))
-browserfingerprint (set(['016005f2305fda26020eb7abee77823a4821cea44db3964253e1ceb551bfa6ab']), set(['8030cce48d7510d7764f9bb4ad059b36586f857ad55cbca9d310c2aa395d32f2']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-timezone (set(['-120.0']), set(['-60.0']))
-ipcity (set(['Dortmund']), set(['Zittau']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
-browserfingerprint (set(['8030cce48d7510d7764f9bb4ad059b36586f857ad55cbca9d310c2aa395d32f2']), set(['2c5e4862f5ed349f45db3ac3fbe0bbfea55c05986587d463c9f91bc69d8efb6d']))
 ====================================
-browserfingerprint (set(['2c5e4862f5ed349f45db3ac3fbe0bbfea55c05986587d463c9f91bc69d8efb6d']), set(['0af2513b41c97a12fcc604ab832e43bb751032ffd0c068136f8560a2352e2cb1']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Zittau']), set(['Dresden']))
-browserfingerprint (set(['0af2513b41c97a12fcc604ab832e43bb751032ffd0c068136f8560a2352e2cb1']), set(['7a76dc08261cf309793fc1e930d7f2f2b6e2d7ee4a0df27d27d5259859a38ab0']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Zittau']), set(['Dresden']))
+
 ====================================
-ipcity (set(['Dresden']), set(['Dusseldorf']))
-ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['7a76dc08261cf309793fc1e930d7f2f2b6e2d7ee4a0df27d27d5259859a38ab0']), set(['047b8d9e83ef6796355882d4dda150e19c9e516b3844b49af3192fd1475de232']))
 ====================================
-browserfingerprint (set(['047b8d9e83ef6796355882d4dda150e19c9e516b3844b49af3192fd1475de232']), set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']))
 ====================================
-ipcity (set(['Dusseldorf']), set(['Marsberg']))
-browserfingerprint (set(['4768d8951504cefce72bd7630d7bcd7cc230e8a3900918b0c651a9649de064d5']), set(['0ff59a6af38bad7a6bc4cc2029bf6b4e13facc71b4e336433bd44f4120e2244f']))
 ====================================
-browserfingerprint (set(['0ff59a6af38bad7a6bc4cc2029bf6b4e13facc71b4e336433bd44f4120e2244f']), set(['0a2fa21af526c2c62e38934d9dbcf768bbfeb3b927914a383f4558a38542dd2c']))
 ====================================

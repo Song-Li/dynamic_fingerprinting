@@ -1,16 +1,11 @@
-browserfingerprint (set(['efc9de89a341881540fcccc0a82f8ecda359b7ab8ef4a95e68d43901e3645b71']), set(['fce1a68b9221e8a61bdd0c4d4e0f2087caac1e598aca50e48db807abde98b194']))
 ====================================
-browserfingerprint (set(['fce1a68b9221e8a61bdd0c4d4e0f2087caac1e598aca50e48db807abde98b194']), set(['f200f90e178bf93ae1ab527671bbb77f238436adfde4015ba69f9d75dd95d9ce']))
 ====================================
-ipcity (set(['Innsbruck']), set(['Salzburg']))
-ipregion (set(['Tirol']), set(['Salzburg']))
-browserfingerprint (set(['f200f90e178bf93ae1ab527671bbb77f238436adfde4015ba69f9d75dd95d9ce']), set(['912232312f3e0d2ecf01bf41d0d9e1f20efb7e2d6bda02530044bbb545f55582']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['912232312f3e0d2ecf01bf41d0d9e1f20efb7e2d6bda02530044bbb545f55582']), set(['b9cc2ecb83311b4636c52ad57ea2a58d3f46335d1f20b3379a984b72fbca977b']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Salzburg']), set(['Vienna']))
-ipregion (set(['Salzburg']), set(['Wien']))
-browserfingerprint (set(['b9cc2ecb83311b4636c52ad57ea2a58d3f46335d1f20b3379a984b72fbca977b']), set(['ef1603c9218edc061798079189e5bb2a4dd0c8e5d60328b4203fc388919f685a']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Salzburg']), set(['Vienna']))
+
+ipregion ipregion (set(['Salzburg']), set(['Wien']))
+
 ====================================

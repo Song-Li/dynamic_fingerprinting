@@ -1,0 +1,492 @@
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Hanover']), set(['Dortmund']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQH5']), set(['Chrome/56.0.2924.87', 'SM-G935F/G935FXXU1DQH5', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Freinsheim']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Rheinland-Pfalz']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G935F/XXS1DQIN']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Jandelsbrunn']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'SM-G935F', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Papenburg']), set(['Spreewitz']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Sachsen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'SM-G935F', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Ottersberg']), set(['Dortmund']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Hamburg']), set(['Munich']))
+
+ipregion ipregion (set(['Hamburg']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQH5']), set(['SM-G930F/XXS1DQIN', 'Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Berlin']), set(['Freiburg']))
+
+ipregion ipregion (set(['Berlin']), set(['Baden-Wurttemberg']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Ording']), set(['Jubberde']))
+
+ipregion ipregion (set(['Schleswig-Holstein']), set(['Niedersachsen']))
+
+====================================
+agent agent (set(['SM-G930F/XXS1DQIN', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Bonn']), set(['Wuerzburg']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+
+====================================
+agent agent (set(['SM-G930F/XXS1DQIN', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Bonn']), set(['Dortmund']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQH5']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Schramberg']), set(['Saarbrucken']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Saarland']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'SM-G935F', 'Chrome/51.0.2704.106']), set(['SM-G930F/XXS1DQIN', 'Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Blume']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Hanover']), set(['Haselunne']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQH5']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Wichte']), set(['Bonn']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F/XXS1DQIN']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Ruckasing']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+timezone timezone (set(['-60.0']), set(['0.0']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Gera']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Thuringen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'SM-G935F', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SM-G935F/G935FXXU1DQH5', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Hameln']), set(['Ludwigshafen']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Baden-Wurttemberg']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Magdeburg']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Sachsen-Anhalt']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'SM-G935F', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F/XXS1DQIN']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Berlin']), set(['Hofgeismar']))
+
+ipregion ipregion (set(['Berlin']), set(['Hessen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G935F/XXS1DQIN']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Wiesbaden']), set(['Leipzig']))
+
+ipregion ipregion (set(['Hessen']), set(['Sachsen']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['SM-G930F/XXS1DQIN', 'Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Kiel']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Schleswig-Holstein']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G935F/XXS1DQIN']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Hamburg']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Hamburg']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dresden']), set(['Zinna']))
+
+====================================
+agent agent (set(['SM-G930F/XXS1DQIN', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Munich']), set(['Zinna']))
+
+ipregion ipregion (set(['Bayern']), set(['Sachsen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQIC']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G930F/G930FXXU1DQH5']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Zwickau']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Berlin']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Berlin']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Leipzig']), set(['Kleve']))
+
+ipregion ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'SM-G935F', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F/XXS1DQIN']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Hamburg']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Hamburg']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQH5']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dresden']), set(['Berlin']))
+
+ipregion ipregion (set(['Sachsen']), set(['Berlin']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Bamberg']), set(['Frohnreuth']))
+
+====================================
+agent agent (set(['SM-G930F/XXS1DQIN', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Chemnitz']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Sachsen']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Freiburg']), set(['Zwickau']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Sachsen']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Erfurt']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Thuringen']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F/XXS1DQIN']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Baunatal']), set(['Dusseldorf']))
+
+ipregion ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Otterndorf']), set(['Nuremberg']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Bayern']))
+
+====================================
+agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+timezone timezone (set(['0.0']), set(['-60.0']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['del', 'Playa', 'Ingles']), set(['Karlsruhe']))
+
+ipregion ipregion (set(['Canarias']), set(['Baden-Wurttemberg']))
+
+ipcountry ipcountry (set(['Spain']), set(['Germany']))
+
+====================================
+agent agent (set(['SM-G930F', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2', 'SM-G935F']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Ravensbruck']), set(['Berlin']))
+
+ipregion ipregion (set(['Brandenburg']), set(['Berlin']))
+
+====================================
+agent agent (set(['SM-G935F/G935FXXU1DQH5', 'SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SM-G930F', 'SamsungBrowser/6.2']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
+
+ipcity ipcity (set(['Spreewitz']), set(['Halle', '(Saale)']))
+
+ipregion ipregion (set(['Sachsen']), set(['Sachsen-Anhalt']))
+
+====================================

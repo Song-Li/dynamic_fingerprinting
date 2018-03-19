@@ -1,20 +1,13 @@
-browserfingerprint (set(['b51cf64afb3e1963c165344458b8d62e294548f47244de6a387e4ca3e7ddcc59']), set(['f418b89a0be84a99b57ae1dd654ace0866aa44470d4ed7de96d6b1c454f9adfa']))
 ====================================
-browserfingerprint (set(['f418b89a0be84a99b57ae1dd654ace0866aa44470d4ed7de96d6b1c454f9adfa']), set(['b51cf64afb3e1963c165344458b8d62e294548f47244de6a387e4ca3e7ddcc59']))
 ====================================
-ipcity (set(['Kleve']), set(['Dortmund']))
-browserfingerprint (set(['b51cf64afb3e1963c165344458b8d62e294548f47244de6a387e4ca3e7ddcc59']), set(['2c57f92fc59a90476251a9e0ac628d673a8fd395dd362ad04ab71fd22c7daac0']))
 ====================================
-browserfingerprint (set(['2c57f92fc59a90476251a9e0ac628d673a8fd395dd362ad04ab71fd22c7daac0']), set(['33dea8c255c4a05102c7b50eb699d9565edf323bf8b96cc9f53222baf2e54b49']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dortmund']), set(['Osnabruck']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['33dea8c255c4a05102c7b50eb699d9565edf323bf8b96cc9f53222baf2e54b49']), set(['d1ac5547b6d777a45b6b4a7b51850bf3f166d5360a67fb8ba4f6810c6ff84752']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dortmund']), set(['Osnabruck']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+
 ====================================
-ipcity (set(['Osnabruck']), set(['Dortmund']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['d1ac5547b6d777a45b6b4a7b51850bf3f166d5360a67fb8ba4f6810c6ff84752']), set(['80936ade1365fcb904f7a4b735c2c492645ec777c9750741e8e0ccdf8d2c56ff']))
 ====================================
-browserfingerprint (set(['80936ade1365fcb904f7a4b735c2c492645ec777c9750741e8e0ccdf8d2c56ff']), set(['a774dcea42a80536b8bcbf71379fe3fc7e04e262f8a2a3cbc3543ce797d35dcc']))
 ====================================

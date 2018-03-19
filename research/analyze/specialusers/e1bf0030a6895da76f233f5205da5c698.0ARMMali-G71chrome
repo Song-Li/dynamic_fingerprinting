@@ -1,8 +1,0 @@
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Mecklenburg']), set(['Meyenburg']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Brandenburg']))
-browserfingerprint (set(['22c7ba61a8be29a13412476524702434ea2a8fa984daa5a70e53e43860b4f0f4']), set(['80776cc2ba202224c0d0a8d1d40fa7ef9f975a0cc88c6ca11c123427a6a7ee3d']))
-====================================
-browserfingerprint (set(['80776cc2ba202224c0d0a8d1d40fa7ef9f975a0cc88c6ca11c123427a6a7ee3d']), set(['abba0fa1d757b299a417fad60b0f4be771525235ccbf1fa6171776cbef4125a3']))
-====================================

@@ -1,22 +1,13 @@
-browserfingerprint (set(['2347e18d40e59a21d9e9386ab2501c4e7a34dc6dd75d7026ee0272598fe0c8a3']), set(['3c0ecf3afa7a81a624b91143dd9903e8631b798cbef4f90bee370d9ab1d8fe0a']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Ahaus']), set(['Dresden']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
-browserfingerprint (set(['3c0ecf3afa7a81a624b91143dd9903e8631b798cbef4f90bee370d9ab1d8fe0a']), set(['69b553ef87dc7d74d67a5638af29e9195caac4adeae511280861265c772881e5']))
 ====================================
-browserfingerprint (set(['69b553ef87dc7d74d67a5638af29e9195caac4adeae511280861265c772881e5']), set(['771b124bdfa16d19ca712763e538a3f3c7b609893655e9bd54b6605b6a853c46']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dresden']), set(['Leipzig']))
-browserfingerprint (set(['771b124bdfa16d19ca712763e538a3f3c7b609893655e9bd54b6605b6a853c46']), set(['02c9a83646b0e91e1fc6ca20826cd59fe60f09dd99a403da4969b9ffd43ff137']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.123']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dresden']), set(['Leipzig']))
+
 ====================================
-browserfingerprint (set(['02c9a83646b0e91e1fc6ca20826cd59fe60f09dd99a403da4969b9ffd43ff137']), set(['8a0261eb4b1666e1b46827680c64fd3da664817332670d7f30b62936f29e59b9']))
 ====================================
-agent (set(['Chrome/64.0.3282.123']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Leipzig']), set(['Dresden']))
-browserfingerprint (set(['8a0261eb4b1666e1b46827680c64fd3da664817332670d7f30b62936f29e59b9']), set(['8a104db69ae4b8920090b9af5c09cb0f0a3307cf23502413ccbf4b9a012adad0']))
 ====================================
-browserfingerprint (set(['8a104db69ae4b8920090b9af5c09cb0f0a3307cf23502413ccbf4b9a012adad0']), set(['21dd82b4f296e640ae7a4ea2bf0820fae85836ce286f80a968d45fa7bf2acc78']))
 ====================================

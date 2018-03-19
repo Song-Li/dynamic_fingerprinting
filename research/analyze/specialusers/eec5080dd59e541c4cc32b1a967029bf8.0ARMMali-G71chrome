@@ -1,31 +1,16 @@
-browserfingerprint (set(['94edb505c1ffa7797d297276e621ecbfc2650870de0273a2b7a1f69f7a65a27f']), set(['c94d36eb294939e3f0292601e662d9432f720ce28ddc67d6ad92f00da6a43d3e']))
 ====================================
-browserfingerprint (set(['c94d36eb294939e3f0292601e662d9432f720ce28ddc67d6ad92f00da6a43d3e']), set(['94edb505c1ffa7797d297276e621ecbfc2650870de0273a2b7a1f69f7a65a27f']))
 ====================================
-browserfingerprint (set(['94edb505c1ffa7797d297276e621ecbfc2650870de0273a2b7a1f69f7a65a27f']), set(['c94d36eb294939e3f0292601e662d9432f720ce28ddc67d6ad92f00da6a43d3e']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Zwickau']), set(['Dresden']))
-browserfingerprint (set(['c94d36eb294939e3f0292601e662d9432f720ce28ddc67d6ad92f00da6a43d3e']), set(['63cf15312d29ef926b67e988c95eb5efa1491c32ef3a1246f4531c212b72d9b4']))
 ====================================
-browserfingerprint (set(['63cf15312d29ef926b67e988c95eb5efa1491c32ef3a1246f4531c212b72d9b4']), set(['e18a59ee959e6027902db01e754992dcff9409f9bd43f4a3518cf50090f13350']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dresden']), set(['Zwickau']))
-browserfingerprint (set(['e18a59ee959e6027902db01e754992dcff9409f9bd43f4a3518cf50090f13350']), set(['185d61e6e42a65d013503b1c326cfefbe4882133de8d6b85ded1ba99a7da4a2b']))
+agent agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dresden']), set(['Zwickau']))
+
 ====================================
-browserfingerprint (set(['185d61e6e42a65d013503b1c326cfefbe4882133de8d6b85ded1ba99a7da4a2b']), set(['94bcf272775a19c356bec0bbdcb0dee52a60748511a76079489542712309d1a7']))
 ====================================
-ipcity (set(['Zwickau']), set(['Uelzen']))
-ipregion (set(['Sachsen']), set(['Niedersachsen']))
-browserfingerprint (set(['94bcf272775a19c356bec0bbdcb0dee52a60748511a76079489542712309d1a7']), set(['695efaaff73ed2b303f516033e54eae5d3fffc9a9e0e3e02b98ef1e3155216ea']))
 ====================================
-ipcity (set(['Uelzen']), set(['Zwickau']))
-ipregion (set(['Niedersachsen']), set(['Sachsen']))
-browserfingerprint (set(['695efaaff73ed2b303f516033e54eae5d3fffc9a9e0e3e02b98ef1e3155216ea']), set(['94bcf272775a19c356bec0bbdcb0dee52a60748511a76079489542712309d1a7']))
 ====================================
-ipcity (set(['Zwickau']), set(['Braunschweig']))
-ipregion (set(['Sachsen']), set(['Niedersachsen']))
-browserfingerprint (set(['94bcf272775a19c356bec0bbdcb0dee52a60748511a76079489542712309d1a7']), set(['e3ba5039aa0af6e5d1e551ae932274161e89253b483b5113f12a51609c9d2a9d']))
 ====================================

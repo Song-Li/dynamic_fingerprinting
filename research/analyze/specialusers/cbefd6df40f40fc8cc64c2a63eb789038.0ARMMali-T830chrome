@@ -1,8 +1,0 @@
-browserfingerprint (set(['ca9b4b17724bc4fd491d8440a7b8cb69df1f10b27fcf70f003bf8619cce44dc7']), set(['8c575a5383d08d3f434556c54be6b28666e7f0795a186a8edc541e9c132e6937']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Sankt', 'Gallen']), set(['Zurich']))
-ipregion (set(['Sankt', 'Gallen']), set(['Zurich']))
-browserfingerprint (set(['8c575a5383d08d3f434556c54be6b28666e7f0795a186a8edc541e9c132e6937']), set(['8e855c2ddc664989f1060daabd17654fd55ae9c9b0e7493a5b946e5e151653fa']))
-====================================

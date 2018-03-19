@@ -1,0 +1,15 @@
+agent agent (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', '10_12_6)', 'Version/11.0.1']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+
+encoding encoding (set([]), set(['br,']))
+
+plugins plugins (set(['Applet', 'Java', 'Plugin~Shockwave']), set(['Shockwave']))
+
+jsFonts jsFonts (set(['Typewriter_American', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Roman_Savoye', 'Condensed_Apple', 'Typewriter']), set(['Typewriter_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Savoye']))
+
+canvastest canvastest (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+
+ipcity ipcity (set(['Isenburg']), set(['Reinhardshausen']))
+
+ipregion ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+
+====================================

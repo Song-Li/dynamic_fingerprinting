@@ -1,32 +1,19 @@
-browserfingerprint (set(['bc7d83cf4a4b98bbda84254f6c32300803cbc7379e090479702fdcf518916014']), set(['e2817b0041405b5c5d32c23e0df9eef1702576f96a5844e71a784405900ff02e']))
 ====================================
-browserfingerprint (set(['e2817b0041405b5c5d32c23e0df9eef1702576f96a5844e71a784405900ff02e']), set(['bc7d83cf4a4b98bbda84254f6c32300803cbc7379e090479702fdcf518916014']))
 ====================================
-browserfingerprint (set(['bc7d83cf4a4b98bbda84254f6c32300803cbc7379e090479702fdcf518916014']), set(['e2817b0041405b5c5d32c23e0df9eef1702576f96a5844e71a784405900ff02e']))
 ====================================
-browserfingerprint (set(['e2817b0041405b5c5d32c23e0df9eef1702576f96a5844e71a784405900ff02e']), set(['bc7d83cf4a4b98bbda84254f6c32300803cbc7379e090479702fdcf518916014']))
 ====================================
-browserfingerprint (set(['bc7d83cf4a4b98bbda84254f6c32300803cbc7379e090479702fdcf518916014']), set(['e2817b0041405b5c5d32c23e0df9eef1702576f96a5844e71a784405900ff02e']))
 ====================================
-ipcity (set(['Villingen-Schwenningen']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
-browserfingerprint (set(['e2817b0041405b5c5d32c23e0df9eef1702576f96a5844e71a784405900ff02e']), set(['ea78e3fd4c82f7ca247a28a2812f8644609e708d579fba7da0f4eaab648b6218']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Villingen-Schwenningen']))
-ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['ea78e3fd4c82f7ca247a28a2812f8644609e708d579fba7da0f4eaab648b6218']), set(['1b0ce2e81694eb71a2a4f9d2fd3fe7fa1329166a23ab026b0db96659cf7b7131']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Villingen-Schwenningen']), set(['Dortmund']))
-ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['1b0ce2e81694eb71a2a4f9d2fd3fe7fa1329166a23ab026b0db96659cf7b7131']), set(['7b87225cfcb2961fac9af8dae54abef107e8f672c3ac69bf71ec827b2c2566b6']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Villingen-Schwenningen']), set(['Dortmund']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+
 ====================================
-browserfingerprint (set(['7b87225cfcb2961fac9af8dae54abef107e8f672c3ac69bf71ec827b2c2566b6']), set(['7a4408f2cd9d19b58c46b6559a198d0a5d6387b5ba30c6a338ee0c639befbca7']))
 ====================================
-ipcity (set(['Dortmund']), set(['Villingen-Schwenningen']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['7a4408f2cd9d19b58c46b6559a198d0a5d6387b5ba30c6a338ee0c639befbca7']), set(['eb60214b76c74a7066acd42f46309789ae71c869c90071046c05df88de1dc229']))
 ====================================
-browserfingerprint (set(['eb60214b76c74a7066acd42f46309789ae71c869c90071046c05df88de1dc229']), set(['cb9452ce569c230b0353313f23fd282e0a4f188ea400f5b55450c48f3c6a3650']))
 ====================================

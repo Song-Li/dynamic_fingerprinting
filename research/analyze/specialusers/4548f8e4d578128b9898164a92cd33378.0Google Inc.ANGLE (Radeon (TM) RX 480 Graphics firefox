@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['BT_Freestyle', 'BT_Haettenschweiler_Harrington_High', 'Smallcaps_Bookshelf', 'ITC_Broadway_Brush', 'Arial_Book', 'FB_Bodoni', 'MT_Constantia_Corbel_Ebrima_English']), set(['Light_Segoe', 'BT_Footlight', 'Demi_Bernard', 'ITC_Britannic', 'Italic_Harrington_High', 'Solid', 'MT_Constantia_Cooper', 'Black_Corbel_Ebrima_English', 'Smallcaps_Bodoni', 'Bold_Broadway_Brush', 'FB', 'Semibold_Segoe', 'Compressed_Bookshelf', 'Black_Arial', 'Condensed_Bodoni', 'BT_Haettenschweiler_Harlow', 'FB_Berlin', 'Arial_Arial', 'Narrow_Book', 'Poster', 'Light_Freestyle']))
+
+ipcity ipcity (set(['Muenster']), set(['Dortmund']))
+
+====================================

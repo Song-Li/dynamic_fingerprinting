@@ -1,19 +1,13 @@
-browserfingerprint (set(['094f35aad782edef916954860101850dfd440aa7689a0169dc3ebe549aec79e4']), set(['cec76c3ccbe230589185e51a6896ee1dd48fcbc4a4ff5bfb312ad6f3336b4314']))
 ====================================
-browserfingerprint (set(['cec76c3ccbe230589185e51a6896ee1dd48fcbc4a4ff5bfb312ad6f3336b4314']), set(['82b3bb06e993d4b4221c6023c2252655639a0689bcc10ec7f6eccf7c724a6151']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,ru-RU;q=0.8,ru;q=0.6,de;q=0.4,en-US;q=0.2,en;q=0.2']), set(['de-DE,de;q=0.9,ru-RU;q=0.8,ru;q=0.7,en-US;q=0.6,en;q=0.5']))
-browserfingerprint (set(['82b3bb06e993d4b4221c6023c2252655639a0689bcc10ec7f6eccf7c724a6151']), set(['fd93bbff15cde2137292d21557f643395928acadc84ba61e930282f527c17ca3']))
 ====================================
-browserfingerprint (set(['fd93bbff15cde2137292d21557f643395928acadc84ba61e930282f527c17ca3']), set(['5b3da4793c2aeb60f52acfb48a2c20c47fed7cdccf2609cef95223c645c3175d']))
 ====================================
-browserfingerprint (set(['5b3da4793c2aeb60f52acfb48a2c20c47fed7cdccf2609cef95223c645c3175d']), set(['a48fc011bd2914adff34aa62dd70855cf8bcabb9bc0fc2fa887e134f94fe6624']))
 ====================================
-browserfingerprint (set(['a48fc011bd2914adff34aa62dd70855cf8bcabb9bc0fc2fa887e134f94fe6624']), set(['5b3da4793c2aeb60f52acfb48a2c20c47fed7cdccf2609cef95223c645c3175d']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-language (set(['de-DE,de;q=0.9,ru-RU;q=0.8,ru;q=0.7,en-US;q=0.6,en;q=0.5']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['5b3da4793c2aeb60f52acfb48a2c20c47fed7cdccf2609cef95223c645c3175d']), set(['9cdac62599986f9bdb162856ba7d6989a93f801b0a515229107871642c7969de']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+
+language language (set(['de-DE,de;q=0.9,ru-RU;q=0.8,ru;q=0.7,en-US;q=0.6,en;q=0.5']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================

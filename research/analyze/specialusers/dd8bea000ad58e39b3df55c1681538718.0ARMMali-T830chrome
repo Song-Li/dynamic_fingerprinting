@@ -1,27 +1,15 @@
-browserfingerprint (set(['864346fe6d05cbca4baaa172409d985aec9fcbdfdec6bddb27dab938f9a272c2']), set(['2d632a29e7c0a45a63a7590ed3eb73dc9fbae0cd79452d66d9667bf7e38323bc']))
 ====================================
-ipcity (set(['Siegen']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
-browserfingerprint (set(['2d632a29e7c0a45a63a7590ed3eb73dc9fbae0cd79452d66d9667bf7e38323bc']), set(['a9b2e5ec14508af91bc17edb70e483e66774638429c19c3624628a931351eb59']))
 ====================================
-browserfingerprint (set(['a9b2e5ec14508af91bc17edb70e483e66774638429c19c3624628a931351eb59']), set(['97e59a5e548e40f7e6ab70c20221bcaa7261945f9a7bfae3d87e25575279cd21']))
 ====================================
-browserfingerprint (set(['97e59a5e548e40f7e6ab70c20221bcaa7261945f9a7bfae3d87e25575279cd21']), set(['a9b2e5ec14508af91bc17edb70e483e66774638429c19c3624628a931351eb59']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Siegen']))
-ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['a9b2e5ec14508af91bc17edb70e483e66774638429c19c3624628a931351eb59']), set(['864346fe6d05cbca4baaa172409d985aec9fcbdfdec6bddb27dab938f9a272c2']))
 ====================================
-browserfingerprint (set(['864346fe6d05cbca4baaa172409d985aec9fcbdfdec6bddb27dab938f9a272c2']), set(['2d632a29e7c0a45a63a7590ed3eb73dc9fbae0cd79452d66d9667bf7e38323bc']))
 ====================================
-browserfingerprint (set(['2d632a29e7c0a45a63a7590ed3eb73dc9fbae0cd79452d66d9667bf7e38323bc']), set(['864346fe6d05cbca4baaa172409d985aec9fcbdfdec6bddb27dab938f9a272c2']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Siegen']), set(['Osnabruck']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
-browserfingerprint (set(['864346fe6d05cbca4baaa172409d985aec9fcbdfdec6bddb27dab938f9a272c2']), set(['084489c808e6ab4c2958f0fcae7db96f5d02869fac64d613462028183b871afd']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Siegen']), set(['Osnabruck']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+
 ====================================
-ipcity (set(['Osnabruck']), set(['Siegen']))
-ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['084489c808e6ab4c2958f0fcae7db96f5d02869fac64d613462028183b871afd']), set(['0e871ba9e93b8adf71ed3e348f85a03b61d2a20225a00b7e92a7cdae8ef8323d']))
 ====================================

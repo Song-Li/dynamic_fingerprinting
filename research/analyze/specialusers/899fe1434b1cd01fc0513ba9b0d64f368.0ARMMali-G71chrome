@@ -1,33 +1,16 @@
-ipcity (set(['Dresden']), set(['Sulzbach']))
-ipregion (set(['Sachsen']), set(['Thuringen']))
-browserfingerprint (set(['aae763ed8a4ee30be6465698336e0ab5133fb9e047130f71b541aa7b3d1f8ae0']), set(['92478e333537f67ff548e736c158d82051cd753135d6b31aa2bf794018d9fc5b']))
 ====================================
-browserfingerprint (set(['92478e333537f67ff548e736c158d82051cd753135d6b31aa2bf794018d9fc5b']), set(['447b98f4ce19b49989c5a616f529c2a73dc6b30dd0774b25d34d351673555c3c']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.107']))
-browserfingerprint (set(['447b98f4ce19b49989c5a616f529c2a73dc6b30dd0774b25d34d351673555c3c']), set(['d18abcf996fd3c3f038ca36303cdcca1b2a015395e3d8875c9b1c3c282cc378f']))
 ====================================
-agent (set(['Chrome/63.0.3239.107']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Sulzbach']), set(['Halle', '(Saale)']))
-ipregion (set(['Thuringen']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['d18abcf996fd3c3f038ca36303cdcca1b2a015395e3d8875c9b1c3c282cc378f']), set(['fcce70660833bb5cd0d513599de150624d0154cbead9d580d70c669b87b995e7']))
 ====================================
-browserfingerprint (set(['fcce70660833bb5cd0d513599de150624d0154cbead9d580d70c669b87b995e7']), set(['e85c7df531245dcf132b446bbb9d0f79fee838c821d091d0ca25f96f5345d394']))
 ====================================
-ipcity (set(['Halle', '(Saale)']), set(['Sulzbach']))
-ipregion (set(['Sachsen-Anhalt']), set(['Thuringen']))
-browserfingerprint (set(['e85c7df531245dcf132b446bbb9d0f79fee838c821d091d0ca25f96f5345d394']), set(['de5ca71020cc19c9af644a2b324fc92b7d091b510aefcc5801d4b85adb856cf6']))
 ====================================
-browserfingerprint (set(['de5ca71020cc19c9af644a2b324fc92b7d091b510aefcc5801d4b85adb856cf6']), set(['d74108adc2d16ed8cf40a22d74d5709c0c49374aabb326d0490c40e17404f2d6']))
 ====================================
-browserfingerprint (set(['d74108adc2d16ed8cf40a22d74d5709c0c49374aabb326d0490c40e17404f2d6']), set(['de5ca71020cc19c9af644a2b324fc92b7d091b510aefcc5801d4b85adb856cf6']))
 ====================================
-ipcity (set(['Sulzbach']), set(['Zwickau']))
-ipregion (set(['Thuringen']), set(['Sachsen']))
-browserfingerprint (set(['de5ca71020cc19c9af644a2b324fc92b7d091b510aefcc5801d4b85adb856cf6']), set(['4172abf9384fc87f818ef8294eabc1550a8347565a9a5821fc63719bd5176cb3']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Zwickau']), set(['Halle', '(Saale)']))
-ipregion (set(['Sachsen']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['4172abf9384fc87f818ef8294eabc1550a8347565a9a5821fc63719bd5176cb3']), set(['5e2466dc1598a60d2c8f0342c86e8188557732d9609ebb0372ec6b879f2bbed8']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Zwickau']), set(['Halle', '(Saale)']))
+
+ipregion ipregion (set(['Sachsen']), set(['Sachsen-Anhalt']))
+
 ====================================

@@ -1,0 +1,7 @@
+agent agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+
+jsFonts jsFonts (set(['Baiti_MoolBoran_MS']), set(['Baiti_MS']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+====================================

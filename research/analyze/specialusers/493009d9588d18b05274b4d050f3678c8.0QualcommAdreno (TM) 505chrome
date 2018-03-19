@@ -1,8 +1,0 @@
-browserfingerprint (set(['e097f8ce99090079dd44120fb20f3376368fbe55e8d851b0f83d1f02daa4b8ce']), set(['aace944c5105008f3f1f19a67ffb3bee547ef3a8c0973f65b9c3bbc7b1dcfee2']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Heidelberg']), set(['Vollmarshausen']))
-ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
-browserfingerprint (set(['aace944c5105008f3f1f19a67ffb3bee547ef3a8c0973f65b9c3bbc7b1dcfee2']), set(['660fd2c069fff5f990be69eb10460f963d6f1da5134930a073cf48cc98e9f966']))
-====================================

@@ -1,5 +1,0 @@
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nossen']), set(['Dresden']))
-browserfingerprint (set(['4a697ba74b42054f8727ca11ef7ba2743ad1a2ae69b5d691b3aadc0830dfa8b1']), set(['26cc9e4fcef2296e9f8bfca845c11b57607cb32aa85377a9d15df7246999d032']))
-====================================

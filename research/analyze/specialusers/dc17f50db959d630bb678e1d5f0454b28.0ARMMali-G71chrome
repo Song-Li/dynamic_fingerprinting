@@ -1,13 +1,10 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Bielefeld']), set(['Regensburg']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
-browserfingerprint (set(['681785e100e4bae05c1dad9dfc814724bd0295c5e94d265252da01b55240c351']), set(['0f2a6fecff83348d1f41440a1dc47b02a24ffd92c5f652c020be2bf88a8a25a5']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Bielefeld']), set(['Regensburg']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+
 ====================================
-ipcity (set(['Regensburg']), set(['Bielefeld']))
-ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['0f2a6fecff83348d1f41440a1dc47b02a24ffd92c5f652c020be2bf88a8a25a5']), set(['53511bb67a661bdad70f6f301700a45d085276fe7e0cab97e3ae9c22f95becc8']))
 ====================================
-browserfingerprint (set(['53511bb67a661bdad70f6f301700a45d085276fe7e0cab97e3ae9c22f95becc8']), set(['e1d3ac7c18b4a6493df76882100dcc0005a642d2ba8e17b40d25757e5701dbcc']))
 ====================================
-browserfingerprint (set(['e1d3ac7c18b4a6493df76882100dcc0005a642d2ba8e17b40d25757e5701dbcc']), set(['53511bb67a661bdad70f6f301700a45d085276fe7e0cab97e3ae9c22f95becc8']))
 ====================================

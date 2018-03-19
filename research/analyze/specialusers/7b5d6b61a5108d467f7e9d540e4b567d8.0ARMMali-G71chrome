@@ -1,6 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nienburg']), set(['Berlin']))
-ipregion (set(['Niedersachsen']), set(['Berlin']))
-browserfingerprint (set(['85804bdf97f3b5427da69314e627a4a5db237a3e9348d1d903d5a84b9e2d4cb5']), set(['de1fa61c4580923bf4d33f6826f2b91cb3a304b594240f53ac9fca0e94c79fd5']))
-====================================

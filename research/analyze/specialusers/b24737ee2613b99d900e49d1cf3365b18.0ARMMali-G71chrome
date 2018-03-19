@@ -1,27 +1,13 @@
-ipcity (set(['Polten', 'Sankt']), set(['der', 'Donau', 'Krems', 'an']))
-browserfingerprint (set(['b29ddd0a61d323def8f51186bde3808873073e441fd31d0f12e8b1bb6a0a31db']), set(['445ba1e19f1de6c705d8369938fb5173464cf1d6e8d81b5a06b36c59a6655dfe']))
 ====================================
-browserfingerprint (set(['445ba1e19f1de6c705d8369938fb5173464cf1d6e8d81b5a06b36c59a6655dfe']), set(['211b6c3bb8da8a51d15dae206d867c7902b46fc2b6b7a3728a11989a8f1b0e2f']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['der', 'Donau', 'Krems', 'an']), set(['Vienna']))
-ipregion (set(['Niederosterreich']), set(['Wien']))
-browserfingerprint (set(['211b6c3bb8da8a51d15dae206d867c7902b46fc2b6b7a3728a11989a8f1b0e2f']), set(['1f96f06c2562874a10d1c7136a4ba9674d6a2edf41c1de818b625db410d13fc5']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['der', 'Donau', 'Krems', 'an']), set(['Vienna']))
+
+ipregion ipregion (set(['Niederosterreich']), set(['Wien']))
+
 ====================================
-ipcity (set(['Vienna']), set(['Graz']))
-ipregion (set(['Wien']), set(['Steiermark']))
-browserfingerprint (set(['1f96f06c2562874a10d1c7136a4ba9674d6a2edf41c1de818b625db410d13fc5']), set(['ebfb30f89b43ce0a1492ee501a7ee0eff4c852b3c4444af71690f17845008ec0']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Graz']), set(['Linz']))
-ipregion (set(['Steiermark']), set(['Oberosterreich']))
-browserfingerprint (set(['ebfb30f89b43ce0a1492ee501a7ee0eff4c852b3c4444af71690f17845008ec0']), set(['7683b1d479612390f4d1df3bf84d646480c9524899dea0034999f337f7be1182']))
 ====================================
-ipcity (set(['Linz']), set(['Salzburg']))
-ipregion (set(['Oberosterreich']), set(['Salzburg']))
-browserfingerprint (set(['7683b1d479612390f4d1df3bf84d646480c9524899dea0034999f337f7be1182']), set(['8a8e832c53ce860ae9e9857c65bd8acab87f0a24c0469e31bde3bf4599a75e3a']))
 ====================================
-ipcity (set(['Salzburg']), set(['Enzersdorf', 'Maria']))
-ipregion (set(['Salzburg']), set(['Niederosterreich']))
-browserfingerprint (set(['8a8e832c53ce860ae9e9857c65bd8acab87f0a24c0469e31bde3bf4599a75e3a']), set(['08322d366e40ff6a6eb477cd99ee16af2c129eca2aa6c304f2119bd4dfdf5df5']))
 ====================================

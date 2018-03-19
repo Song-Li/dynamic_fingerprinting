@@ -1,14 +1,10 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Karlsruhe']), set(['Buchelberg']))
-ipregion (set(['Baden-Wurttemberg']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['93d7173c49fc961b7cacd0c553d74e46a8117905182bb2d8da779d4bed97075d']), set(['d341bfd7a2d1847f798a913653c07212cb875366629976f56df517c79cd305dc']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Karlsruhe']), set(['Buchelberg']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Rheinland-Pfalz']))
+
 ====================================
-ipcity (set(['Buchelberg']), set(['Freiburg']))
-ipregion (set(['Rheinland-Pfalz']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['d341bfd7a2d1847f798a913653c07212cb875366629976f56df517c79cd305dc']), set(['e39406e1f1adb7fb042b9316f69420ccd2153ab5839b11d34fff96c9bdfd43ef']))
 ====================================
-browserfingerprint (set(['e39406e1f1adb7fb042b9316f69420ccd2153ab5839b11d34fff96c9bdfd43ef']), set(['fd4fd7c6f792c6c1cf91bdc5ffae2f9e614925c887a6103d1bbd177f2f216cb7']))
 ====================================
-ipcity (set(['Freiburg']), set(['Schwabisch', 'Hall']))
-browserfingerprint (set(['fd4fd7c6f792c6c1cf91bdc5ffae2f9e614925c887a6103d1bbd177f2f216cb7']), set(['b062f587a2f74118e18b9ff411dc7f3e0b0d8faec09aead549fe59d54ed75fb0']))
 ====================================

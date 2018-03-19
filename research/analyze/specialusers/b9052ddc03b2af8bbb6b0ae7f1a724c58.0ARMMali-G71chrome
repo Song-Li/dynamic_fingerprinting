@@ -1,5 +1,0 @@
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Karlsruhe']), set(['Potsdam']))
-browserfingerprint (set(['62f157723dc387a7d37d509922fc3cd043bcc0aa26ab41e0197df0ce165a6a89']), set(['cbd0d9a2878a83ec26e6c91cc29e97b73de5b7d66f24abbee935c44663e21605']))
-====================================

@@ -1,27 +1,25 @@
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nuremberg']), set(['Wommen']))
-ipregion (set(['Bayern']), set(['Hessen']))
-browserfingerprint (set(['f3d250fb0b4ee194a514de9ca258c4977814fb9e393e15a1cdd96a3e2c97cfd6']), set(['c7ec3520c85d868646cabd83a0b3547de9e4a47daeb75778ce51f5978f3d79fe']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Wommen']))
+
+ipregion ipregion (set(['Bayern']), set(['Hessen']))
+
 ====================================
-browserfingerprint (set(['c7ec3520c85d868646cabd83a0b3547de9e4a47daeb75778ce51f5978f3d79fe']), set(['cbfd2ffcab77d5a8ffe00c58616d044ec5630422df8b5146e22bbdf1cfce4def']))
 ====================================
-audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
-ipcity (set(['Wommen']), set(['Frankfurt', 'Main', 'am']))
-browserfingerprint (set(['cbfd2ffcab77d5a8ffe00c58616d044ec5630422df8b5146e22bbdf1cfce4def']), set(['a3333bdf14ec871d67a257e2f7b4f7355183ea8097900730541b851e55e6722c']))
 ====================================
-browserfingerprint (set(['a3333bdf14ec871d67a257e2f7b4f7355183ea8097900730541b851e55e6722c']), set(['5acc555f18c67a3081a6dbb1ce7274bf6cfec77fa74525869eab6f0e018486fa']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
-browserfingerprint (set(['5acc555f18c67a3081a6dbb1ce7274bf6cfec77fa74525869eab6f0e018486fa']), set(['93bb2595bd463851a0bae1d96a6603bc582c4162c7c2d9e9c7fa7f608e151a90']))
 ====================================
-canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Schnepke']))
-ipregion (set(['Hessen']), set(['Niedersachsen']))
-browserfingerprint (set(['93bb2595bd463851a0bae1d96a6603bc582c4162c7c2d9e9c7fa7f608e151a90']), set(['0aa07967a7129a669b91c9bc6706eddc0aeed94814b73e6544621ff2798192ca']))
+canvastest canvastest (set(['c3692f002eccf8a1740d73ff02db43885b36e31d']), set(['42fd669ef3da98f7376ed9e942762255a009dc79']))
+
+ipcity ipcity (set(['Frankfurt', 'Main', 'am']), set(['Schnepke']))
+
+ipregion ipregion (set(['Hessen']), set(['Niedersachsen']))
+
 ====================================
-canvastest (set(['42fd669ef3da98f7376ed9e942762255a009dc79']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Schnepke']), set(['Erfurt']))
-ipregion (set(['Niedersachsen']), set(['Thuringen']))
-browserfingerprint (set(['0aa07967a7129a669b91c9bc6706eddc0aeed94814b73e6544621ff2798192ca']), set(['74d3a7aef3293823e8cbac7cabb66808a72bbf76ff3e5a7a28215de4c942ff31']))
+canvastest canvastest (set(['42fd669ef3da98f7376ed9e942762255a009dc79']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Schnepke']), set(['Erfurt']))
+
+ipregion ipregion (set(['Niedersachsen']), set(['Thuringen']))
+
 ====================================

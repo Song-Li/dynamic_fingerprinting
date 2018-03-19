@@ -1,0 +1,5 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Boli_NSimSun_Papyrus_Perpetua_PMingLiU-ExtB_Pristina_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small', 'Extra_MV', 'Gothic_Corbel_Curlz', 'Gothic_MT']), set(['Gothic_Copperplate', 'Light_Segoe', 'Semibold_Segoe', 'A', 'Extra', 'Light_Corbel_Curlz', 'Bold_Copperplate', 'Extended_Papyrus_Perpetua_PMingLiU-ExtB_Pristina_Rockwell_Rockwell', 'Boli_NSimSun_OCR', 'Gothic', 'Bold_Roman_Script_SimSun_SimSun-ExtB_Small', 'Gothic_MV']))
+
+====================================

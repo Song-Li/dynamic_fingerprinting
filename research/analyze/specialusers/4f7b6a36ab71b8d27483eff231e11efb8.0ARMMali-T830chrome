@@ -1,11 +1,8 @@
-ipcity (set(['Geldern']), set(['Dusseldorf']))
-browserfingerprint (set(['7f9f02f020cadbe519a61e1384aec7c4547cf88a6fd3d4773d1b400ed4adae59']), set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']))
 ====================================
-browserfingerprint (set(['be61db67c24365caf636bb36582e125a815c12a19db41a281bc8a9beafe46164']), set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['f39d7726102b72540acaf93c1c7594b63b3b30e5474bbc6e76bfd95831a8469f']), set(['c4b5017bccd23c42aa171178f21f5a3df4dad3bd909c88549627b8d22b0fa540']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/64.0.3282.137']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['c4b5017bccd23c42aa171178f21f5a3df4dad3bd909c88549627b8d22b0fa540']), set(['ad1dcff5bbdb7690fde37b9326e732e48afe8aaf2f1c832d2b89f5b24bc3fdc4']))
 ====================================

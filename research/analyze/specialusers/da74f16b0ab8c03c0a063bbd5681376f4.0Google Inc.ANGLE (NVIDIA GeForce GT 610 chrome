@@ -1,0 +1,13 @@
+agent agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+
+jsFonts jsFonts (set(['MS_Book', 'Condensed_Colonna', 'Mincho_MS', 'MT_Candara_Castellar_Centaur_Chiller_Clarendon_Clarendon', 'Narrow_Arial', 'Unicode', 'Script_Magneto_Maiandra', 'Gothic_MV']), set(['Narrow_Book', 'Extra_MV', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Script_Leelawadee_Magneto_Maiandra', 'Uighur_Microsoft', 'Gothic_MT']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+audio audio (set(['48000_4_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+
+ipcity ipcity (set(['Frankfurt', 'Main', 'am']), set(['Leipzig']))
+
+ipregion ipregion (set(['Hessen']), set(['Sachsen']))
+
+====================================

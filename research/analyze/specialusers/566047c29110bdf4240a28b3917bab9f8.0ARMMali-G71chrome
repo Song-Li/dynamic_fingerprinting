@@ -1,50 +1,23 @@
-browserfingerprint (set(['6bada3ebd72cd44519499434fe7cfc60654cbfc54aeeb7d913e304acfaa25938']), set(['7b353f67600057f73d527cdf098807abb3d6425d11a16ff3490063e63fa536a9']))
 ====================================
-ipcity (set(['Freinsheim']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
-browserfingerprint (set(['7b353f67600057f73d527cdf098807abb3d6425d11a16ff3490063e63fa536a9']), set(['bfeadbddf7ff777fde28dd9974a0dcbe2853bbb6d930b5d0bf229c94dd14e64f']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Wiesbaden']))
-browserfingerprint (set(['bfeadbddf7ff777fde28dd9974a0dcbe2853bbb6d930b5d0bf229c94dd14e64f']), set(['e176218a902f59ef437d6b32451cda68d3eef2703ab5e8db085773e551a8b896']))
 ====================================
-browserfingerprint (set(['e176218a902f59ef437d6b32451cda68d3eef2703ab5e8db085773e551a8b896']), set(['4360256f015c25b6369a5c6278761baaa94685bbb62fb16241c777e9f436c992']))
 ====================================
-agent (set(['Chrome/61.0.3163.98']), set(['Chrome/62.0.3202.84']))
-language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-ipcity (set(['Wiesbaden']), set(['Frankfurt', 'Main', 'am']))
-browserfingerprint (set(['4360256f015c25b6369a5c6278761baaa94685bbb62fb16241c777e9f436c992']), set(['74607836c80bbb47a63a1abaae97dd898c1a6a4e1d8e9aef8e6a7f39742bffa2']))
 ====================================
-browserfingerprint (set(['74607836c80bbb47a63a1abaae97dd898c1a6a4e1d8e9aef8e6a7f39742bffa2']), set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']))
 ====================================
-browserfingerprint (set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']), set(['74607836c80bbb47a63a1abaae97dd898c1a6a4e1d8e9aef8e6a7f39742bffa2']))
 ====================================
-browserfingerprint (set(['74607836c80bbb47a63a1abaae97dd898c1a6a4e1d8e9aef8e6a7f39742bffa2']), set(['b806a3564f53ec669fd1bbca9c065f06d9af656d055200160347e03cd5864883']))
 ====================================
-browserfingerprint (set(['b806a3564f53ec669fd1bbca9c065f06d9af656d055200160347e03cd5864883']), set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Freinsheim']))
-ipregion (set(['Hessen']), set(['Rheinland-Pfalz']))
-browserfingerprint (set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']), set(['c4cb64285a8a9742d5894e517a2511784600085f66745d71a9843d42dd5aa0b0']))
 ====================================
-ipcity (set(['Freinsheim']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
-browserfingerprint (set(['c4cb64285a8a9742d5894e517a2511784600085f66745d71a9843d42dd5aa0b0']), set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']))
 ====================================
-browserfingerprint (set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']), set(['99dbd03d47e0bba6f258dcb46639156c8073de6504b57d024f4ee4e649840221']))
 ====================================
-browserfingerprint (set(['99dbd03d47e0bba6f258dcb46639156c8073de6504b57d024f4ee4e649840221']), set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Nuremberg']))
-ipregion (set(['Hessen']), set(['Bayern']))
-browserfingerprint (set(['a56ed5dbc2580da59e1786b68e1231b5f43e3796f92b9c960810d91b80978d59']), set(['0cc14d5e98627627632485cc2983770fc6fa8282ac09c7ae9821e542ca288100']))
 ====================================
-browserfingerprint (set(['0cc14d5e98627627632485cc2983770fc6fa8282ac09c7ae9821e542ca288100']), set(['3ec7e7790cb144b09d2700d994b33e6a3e51ea48ad17968acf6e747d34af81e6']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-browserfingerprint (set(['3ec7e7790cb144b09d2700d994b33e6a3e51ea48ad17968acf6e747d34af81e6']), set(['20618dbe815173f2ebce706d1614874ffa81c762ea758cb446f1313e7ca556cd']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Nuremberg']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Bayern']), set(['Hessen']))
-browserfingerprint (set(['20618dbe815173f2ebce706d1614874ffa81c762ea758cb446f1313e7ca556cd']), set(['db4177e895a1d698858fafa32e03132ec9d34cc11318cc54f669119854aea95b']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Nuremberg']), set(['Frankfurt', 'Main', 'am']))
+
+ipregion ipregion (set(['Bayern']), set(['Hessen']))
+
 ====================================

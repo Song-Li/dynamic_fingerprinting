@@ -1,0 +1,11 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Black_Calibri_Cambria_Cambria']))
+
+canvastest canvastest (set(['ff9c8727d4f9b124f2659e7de0206f1468f75674']), set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']))
+
+ipcity ipcity (set(['Ingolstadt']), set(['Sulzbach']))
+
+ipregion ipregion (set(['Bayern']), set(['Thuringen']))
+
+====================================

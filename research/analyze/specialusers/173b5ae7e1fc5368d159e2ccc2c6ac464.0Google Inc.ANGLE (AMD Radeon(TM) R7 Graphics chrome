@@ -1,0 +1,15 @@
+agent agent (set(['Chrome/49.0.2623.110', 'WOW64)']), set(['Win64;', 'Chrome/64.0.3282.167', 'x64)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9']))
+
+plugins plugins (set(['Flash', 'Client~Shockwave', 'Viewer~Chrome']), set(['Content', 'Decryption', 'Client~Widevine', 'Module', 'Plugin~Chrome']))
+
+langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Tifinagh_Thaana_Inuktitut_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+
+jsFonts jsFonts (set(['Gothic_Matura', 'Gothic_MV']), set(['Gothic_Marlett_Matura', 'Extra_MV', 'Gothic_MT']))
+
+canvastest canvastest (set(['0b8855214c07f309dcdab1540352acab9fe6212a']), set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']))
+
+====================================

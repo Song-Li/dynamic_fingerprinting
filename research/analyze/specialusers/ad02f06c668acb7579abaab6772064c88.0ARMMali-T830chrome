@@ -1,34 +1,19 @@
-browserfingerprint (set(['374341509d445c24b9ed94a85ead2adfb2f6219fc301bbfcfac69b52ce92350b']), set(['ce603ad6560cba2bc8730e02ca82c734730e492edec8599dc8121251f78070b1']))
 ====================================
-browserfingerprint (set(['ce603ad6560cba2bc8730e02ca82c734730e492edec8599dc8121251f78070b1']), set(['374341509d445c24b9ed94a85ead2adfb2f6219fc301bbfcfac69b52ce92350b']))
 ====================================
-browserfingerprint (set(['374341509d445c24b9ed94a85ead2adfb2f6219fc301bbfcfac69b52ce92350b']), set(['ce603ad6560cba2bc8730e02ca82c734730e492edec8599dc8121251f78070b1']))
 ====================================
-browserfingerprint (set(['ce603ad6560cba2bc8730e02ca82c734730e492edec8599dc8121251f78070b1']), set(['374341509d445c24b9ed94a85ead2adfb2f6219fc301bbfcfac69b52ce92350b']))
 ====================================
-browserfingerprint (set(['374341509d445c24b9ed94a85ead2adfb2f6219fc301bbfcfac69b52ce92350b']), set(['ce603ad6560cba2bc8730e02ca82c734730e492edec8599dc8121251f78070b1']))
 ====================================
-browserfingerprint (set(['ce603ad6560cba2bc8730e02ca82c734730e492edec8599dc8121251f78070b1']), set(['f561414c80c335a397cf6db0cbb326973e48d83a6e9050cf8a41fbb62cfed3fe']))
 ====================================
-browserfingerprint (set(['f561414c80c335a397cf6db0cbb326973e48d83a6e9050cf8a41fbb62cfed3fe']), set(['cb8fdc1ba946d4a12748761e4fdbe5aa6c5609eb933a1669a9a2d6e48e6bde80']))
 ====================================
-browserfingerprint (set(['cb8fdc1ba946d4a12748761e4fdbe5aa6c5609eb933a1669a9a2d6e48e6bde80']), set(['f561414c80c335a397cf6db0cbb326973e48d83a6e9050cf8a41fbb62cfed3fe']))
 ====================================
-browserfingerprint (set(['f561414c80c335a397cf6db0cbb326973e48d83a6e9050cf8a41fbb62cfed3fe']), set(['cb8fdc1ba946d4a12748761e4fdbe5aa6c5609eb933a1669a9a2d6e48e6bde80']))
 ====================================
-browserfingerprint (set(['cb8fdc1ba946d4a12748761e4fdbe5aa6c5609eb933a1669a9a2d6e48e6bde80']), set(['f561414c80c335a397cf6db0cbb326973e48d83a6e9050cf8a41fbb62cfed3fe']))
 ====================================
-ipcity (set(['Berlin', 'bei', 'Bernau']), set(['Monchengladbach']))
-ipregion (set(['Brandenburg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['f561414c80c335a397cf6db0cbb326973e48d83a6e9050cf8a41fbb62cfed3fe']), set(['740272302cda3b9a9b718d10862c3c2a1cf8e3be92cd78be01f465aafaaf2b8b']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-ipcity (set(['Monchengladbach']), set(['Berlin']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
-browserfingerprint (set(['740272302cda3b9a9b718d10862c3c2a1cf8e3be92cd78be01f465aafaaf2b8b']), set(['90f55561a00e721a6977202b07da25a446d33d4644811540074c6673ceccf532']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set([]), set(['bei', 'Bernau']))
-ipregion (set(['Berlin']), set(['Brandenburg']))
-browserfingerprint (set(['90f55561a00e721a6977202b07da25a446d33d4644811540074c6673ceccf532']), set(['f555806b9f5331855ee9a206ded503ea9dfb8f7abc6adb93b23488735d2152fa']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set([]), set(['bei', 'Bernau']))
+
+ipregion ipregion (set(['Berlin']), set(['Brandenburg']))
+
 ====================================

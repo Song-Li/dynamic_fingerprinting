@@ -1,8 +1,0 @@
-browserfingerprint (set(['f3661d3cca12702c69e9c98dfb5e6102bf614e5544212ed3d69189904620c5b5']), set(['c79a54e2de77ab855f5696922d3bafe7c4968e65cf6f54d62793e82627bfbca5']))
-====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Freinsheim']), set(['Lampertheim']))
-ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
-browserfingerprint (set(['c79a54e2de77ab855f5696922d3bafe7c4968e65cf6f54d62793e82627bfbca5']), set(['91651c2a1cb91b613d51a941f110b5db3dc61e42fa159e3e8cd67e60325caeaf']))
-====================================

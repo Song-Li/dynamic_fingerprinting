@@ -1,0 +1,9 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+ipcity ipcity (set(['Petersburg', 'Saint']), set(['Hamburg']))
+
+ipregion ipregion (set(['Sankt-Peterburg']), set(['Hamburg']))
+
+ipcountry ipcountry (set(['Russian', 'Federation']), set(['Germany']))
+
+====================================

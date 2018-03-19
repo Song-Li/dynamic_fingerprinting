@@ -1,23 +1,16 @@
-browserfingerprint (set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']), set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']))
 ====================================
-browserfingerprint (set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']), set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']))
 ====================================
-browserfingerprint (set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']), set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']))
 ====================================
-browserfingerprint (set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']), set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']))
 ====================================
-browserfingerprint (set(['95a2e4917b3e1a15cf3e540cb7156b801b1da821525b23e08f7c7fe7fa794b94']), set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Dortmund']), set(['Dresden']))
-ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
-browserfingerprint (set(['1fafa9d5be1a3d97c6d42040aec87e56c6b1fd9068d1325bfb6de4e8432e9029']), set(['9a948f5931b71de7a3bb575e7335cb45fda3d1d44e4e2a6327e16ebd4b99d907']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Dortmund']), set(['Dresden']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen']))
+
 ====================================
-browserfingerprint (set(['9a948f5931b71de7a3bb575e7335cb45fda3d1d44e4e2a6327e16ebd4b99d907']), set(['a90ee85dcea49c79983f828977d120ba340abcdaa50866d2ce8ecc96dfb2f964']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-ipcity (set(['Dresden']), set(['Dortmund']))
-ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['a90ee85dcea49c79983f828977d120ba340abcdaa50866d2ce8ecc96dfb2f964']), set(['771eed07bc42f890041bf45633bf9845593024f11ac9ed3e959acc2709b1e6d8']))
 ====================================

@@ -1,16 +1,10 @@
-browserfingerprint (set(['23f70b7f8b6b171a2e4e718ed890941862f3c9f326931209768c77ceede2e5b3']), set(['2ae0cadcd4944cbe38a6c9a0353699a046c6eb31a511e7736db9cd3f3ad638b8']))
 ====================================
-agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-browserfingerprint (set(['2ae0cadcd4944cbe38a6c9a0353699a046c6eb31a511e7736db9cd3f3ad638b8']), set(['1266092927bb4f782698065b1ed609a817489feeaa14cf902dd14104ae603889']))
+agent agent (set(['Chrome/63.0.3239.83']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
 ====================================
-browserfingerprint (set(['1266092927bb4f782698065b1ed609a817489feeaa14cf902dd14104ae603889']), set(['b42451f51875835439f11e590e72e0384840dd5c0fd01b7fd2dac634d63e8712']))
 ====================================
-ipcity (set(['Proseken']), set(['Hamburg']))
-ipregion (set(['Mecklenburg-Vorpommern']), set(['Hamburg']))
-browserfingerprint (set(['b42451f51875835439f11e590e72e0384840dd5c0fd01b7fd2dac634d63e8712']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
 ====================================
-browserfingerprint (set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']), set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']))
 ====================================
-browserfingerprint (set(['6239e60fcc08d55c7a1ed91d2dcc60f581373e63141a1ddb4beaf91a44055765']), set(['c716420337fed9f21601c9be4148d996a97bcc750d04eace95f1b96f682e0146']))
 ====================================

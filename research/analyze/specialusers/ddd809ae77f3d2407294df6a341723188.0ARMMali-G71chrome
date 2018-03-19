@@ -1,14 +1,11 @@
-browserfingerprint (set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']), set(['0beccb3137758b39cc717f8b0e8fafc18c1ea151616c6eb6fed56001e4e5f0cb']))
 ====================================
-browserfingerprint (set(['0beccb3137758b39cc717f8b0e8fafc18c1ea151616c6eb6fed56001e4e5f0cb']), set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']))
 ====================================
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Magdeburg']))
-ipregion (set(['Hessen']), set(['Sachsen-Anhalt']))
-browserfingerprint (set(['867ebb042757725dff4c1039ecd5155fa9f2050efbd6a29a92e7187f154f0d67']), set(['8b1c7dc7dbce919764b045746deac1611d14bf7ac2b706eedeecb6fa0942db91']))
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Frankfurt', 'Main', 'am']), set(['Magdeburg']))
+
+ipregion ipregion (set(['Hessen']), set(['Sachsen-Anhalt']))
+
 ====================================
-browserfingerprint (set(['8b1c7dc7dbce919764b045746deac1611d14bf7ac2b706eedeecb6fa0942db91']), set(['0a7b154fdece05b0becc11b6b830555fcf2c7c2be7dd5cef1c269845841cc66f']))
 ====================================
-agent (set(['Chrome/63.0.3239.111']), set(['Chrome/64.0.3282.137']))
-browserfingerprint (set(['0a7b154fdece05b0becc11b6b830555fcf2c7c2be7dd5cef1c269845841cc66f']), set(['9b68f709a0c289be1a6050a11be7b8aa7e62dcc63a5cb300c40eee22d6b3cff2']))
 ====================================

@@ -1,0 +1,13 @@
+agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
+
+cookie cookie (set(['False']), set(['True']))
+
+localstorage localstorage (set(['False']), set(['True']))
+
+audio audio (set(['44100_0_1_0_2_explicit_speakers']), set(['48000_0_1_0_2_explicit_speakers']))
+
+ipcity ipcity (set(['Karlsruhe']), set(['Leipzig']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Sachsen']))
+
+====================================

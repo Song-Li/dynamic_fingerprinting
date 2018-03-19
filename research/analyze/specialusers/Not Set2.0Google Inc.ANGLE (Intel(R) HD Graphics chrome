@@ -1,0 +1,63 @@
+jsFonts jsFonts (set(['3_Algerian_Baskerville', 'ITC_Kristen', 'Medium_Viner', 'Script', 'Gothic_Marlett_Matura', 'Engraved_Niagara', 'ITC_Vivaldi_Vladimir', 'Roman_Jokerman_Juice', 'Text_Humanst', 'FB_Bernard', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Condensed_Bodoni', 'Script_Gabriola_GeoSlab', 'Tower', '93_Bell', 'Solid_NSimSun_Old', 'Latin', 'Capitals_Microsoft', 'MT_Californian', 'Style_Calibri_Cambria_Cambria', 'Black_Corbel_Ebrima_English', 'Gothic_Comic', 'ITC_Kunstler', 'Hand', 'Narrow_Arial', 'ITC_Univers', 'MT_Constantia_Cooper', 'Script_Magneto_Malgun', 'Gothic_SimSun_SimSun-ExtB_Snap', 'MT_Berlin', 'Face_Bauhaus', 'Richard_Ravie_Showcard', 'Unicode', 'Bright_Lucida', 'New_Garamond_Georgia_Helvetica_Impact_Lucida', 'BT_Harrington_High', 'MT_Onyx_Parchment_Playbill_PMingLiU-ExtB_Poor', 'MS_Book', 'Outlook_MS', '7_Broadway_Brush', 'English', 'Old', 'Fax_Lucida', 'Gothic_MT', 'Calligraphy_Lucida', 'Script_Wide', 'Specialty_MS', 'Corsiva_MS', 'Reference', 'Text', 'BT_Informal', 'Extra_MV', 'FB_Candara_Centaur_Chiller_Colonna', 'Boli_Niagara', 'MT', 'Handwriting_Lucida', 'Math_Century_Century', 'BT_Footlight', 'ITC_Stencil_Sylfaen_Tempus', 'Antiqua_Bookman', 'Serif_Monotype', 'Light_Freestyle']), set(['BT_Malgun', 'Math_Comic', 'Medium', 'BT_Humanst', 'New_Georgia_Helvetica_Impact_Lucida', 'Boli_NSimSun_PMingLiU-ExtB_SimSun_SimSun-ExtB_Sylfaen_Univers', 'Gothic_MV', '7_Candara_Constantia_Corbel_Ebrima_English', '3_Bauhaus', 'Gothic_Marlett_Microsoft', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Modern', '93_Bodoni', 'Narrow_Calibri_Cambria_Cambria', 'BT_Gabriola_GeoSlab']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+gpu gpu (set(['vs_5_0', 'ps_5_0)', 'Direct3D11']), set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']))
+
+ipcity ipcity (set(['Aachen']), set(['Dusseldorf']))
+
+====================================
+agent agent (set(['Chrome/62.0.3202.75']), set(['Chrome/61.0.3163.100']))
+
+language language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+
+jsFonts jsFonts (set(['ITC_Kristen', 'PRO_Palatino', 'MT_Gabriola_GeoSlab', 'Schoolbook_Comic', 'Text_Humanst', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'FB_Calisto', 'Tower', 'Style_Calibri_Cambria_Cambria', 'Titling', 'Gothic_MT', 'MT_Playbill_PMingLiU-ExtB_Poor', 'Gothic_Copperplate', 'MT_Bodoni', 'New_Garamond_Georgia_Helvetica_Impact_Lucida', 'Fax_Lucida', 'Script_Wide', 'MS_Book', 'Corsiva_MS', 'Reference', 'Extra_MV', 'Condensed_Showcard', 'Math_Century_Century', 'Condensed_Univers', 'Antiqua_Bookman', 'Script', 'ITC_Vivaldi_Vladimir', 'Roman_Jokerman_Juice', '93_Bell', 'Solid_NSimSun_Old', 'Latin', 'Script_French', 'MT_Californian', 'Black_Copperplate', 'MT_Onyx_Palace', 'Face_Bauhaus', 'MT_Berlin', 'Medium_Viner', 'English', '7_Bradley', 'Stout_Haettenschweiler_Harrington_High', 'MT_Felix', 'ITC_Bodoni', 'MT', 'Handwriting_Lucida', 'Light_Forte_Freestyle', 'Unicode', 'Sans_Lucida', 'BT_Imprint', 'Style_Goudy', 'BT_Engravers', 'Narrow_Arial', 'Light_Corbel_Curlz', 'Outlook_MS', 'Gothic_Century', 'Typewriter_Lucida', 'MT_Ebrima_Edwardian', 'Cen', 'ITC_Kunstler', 'Hand', 'Capitals_Microsoft', 'Titling_Footlight', 'Condensed_Blackadder', 'Bright_Lucida', 'Black_Bodoni', 'MT_Constantia_Cooper', 'Serif_MYRIAD', 'Shadow_Informal', 'Calligraphy_Lucida', 'MT_Tw', 'MT_Gill', 'Specialty_MS', 'Old', 'GD_Malgun', 'Text', 'BT_Gigi_Gill', 'Condensed_Goudy', 'ITC_Broadway_Brush', 'ITC_Elephant_English', '3_Agency', 'Richard_Pristina_Ravie_Rockwell_Rockwell', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'Gothic_Marlett_Matura', 'Engraved_Niagara', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Boli_Niagara', 'Condensed_Bookshelf', 'ITC_Tw', 'Script_Magneto_Maiandra', 'Gothic', 'Gothic_SimSun_SimSun-ExtB_Snap', 'Smallcaps_Bodoni', 'FB_Bernard', 'FB_Algerian_Baskerville', 'Serif_Monotype', 'ITC_Stencil_Sylfaen_Tempus']), set(['BT_Malgun', 'Math_Comic', 'Medium', 'BT_Humanst', 'New_Georgia_Helvetica_Impact_Lucida', 'Serif_Palatino', 'Boli_NSimSun_PMingLiU-ExtB_SimSun_SimSun-ExtB_Sylfaen_Univers', 'Gothic_MV', '7_Candara_Constantia_Corbel_Ebrima_English', '3_Bauhaus', 'Gothic_Marlett_Microsoft', 'Smallcaps_Bookshelf', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Modern', '93_Bodoni', 'Narrow_Calibri_Cambria_Cambria', 'BT_Gabriola_GeoSlab']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Heidelberg']), set(['Straubing']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+
+====================================
+agent agent (set(['Chrome/61.0.3163.100']), set(['Chrome/62.0.3202.62']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+
+jsFonts jsFonts (set(['Narrow_Book']), set(['MS_Book', 'Narrow_Arial', 'Unicode']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Dortmund']), set(['Naila']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+
+====================================
+agent agent (set(['Chrome/61.0.3163.100']), set(['Chrome/62.0.3202.89']))
+
+language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['el-GR,el;q=0.9,de;q=0.8']))
+
+jsFonts jsFonts (set(['Boli_NSimSun_PMingLiU-ExtB_Ravie_SimSun_SimSun-ExtB_Sylfaen_Univers']), set(['Boli_NSimSun_PMingLiU-ExtB_SimSun_SimSun-ExtB_Sylfaen_Univers']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Stuttgart']), set(['Muenster']))
+
+ipregion ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
+
+====================================
+language language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,it-IT;q=0.6,it;q=0.5']))
+
+plugins plugins (set(['Client~Widevine']), set(['Client~Shockwave', 'Flash~Widevine']))
+
+cookie cookie (set(['True']), set(['False']))
+
+localstorage localstorage (set(['True']), set(['False']))
+
+canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+
+ipcity ipcity (set(['Dusseldorf']), set(['Berlin']))
+
+ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Berlin']))
+
+====================================

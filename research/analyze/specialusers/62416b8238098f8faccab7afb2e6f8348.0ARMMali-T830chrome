@@ -1,24 +1,15 @@
-browserfingerprint (set(['16fa54c947c9e1eada43e094eb9d894c00d9ef86bcee281d26d5ee2f554cda2b']), set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']))
 ====================================
-ipcity (set(['Halle', '(Saale)']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Sachsen-Anhalt']), set(['Hessen']))
-browserfingerprint (set(['f3d89b5752bba9481f5794b4613d0d5d2e7531c9c49af5f94c6aec5dd85c4f89']), set(['8a1d2d948c7499bb8f3eb5867051cbc1a37f132272e230f7f8b4befa2a9fa3c4']))
 ====================================
-browserfingerprint (set(['8a1d2d948c7499bb8f3eb5867051cbc1a37f132272e230f7f8b4befa2a9fa3c4']), set(['ea78e3fd4c82f7ca247a28a2812f8644609e708d579fba7da0f4eaab648b6218']))
 ====================================
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Karlsruhe']))
-ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['ea78e3fd4c82f7ca247a28a2812f8644609e708d579fba7da0f4eaab648b6218']), set(['e3bad9f9385b330af4bdebe6ad56a2d0bcb296f70842dfd3330f94bff4213e11']))
 ====================================
-ipcity (set(['Karlsruhe']), set(['Frankfurt', 'Main', 'am']))
-ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
-browserfingerprint (set(['e3bad9f9385b330af4bdebe6ad56a2d0bcb296f70842dfd3330f94bff4213e11']), set(['ea78e3fd4c82f7ca247a28a2812f8644609e708d579fba7da0f4eaab648b6218']))
 ====================================
-browserfingerprint (set(['ea78e3fd4c82f7ca247a28a2812f8644609e708d579fba7da0f4eaab648b6218']), set(['8a1d2d948c7499bb8f3eb5867051cbc1a37f132272e230f7f8b4befa2a9fa3c4']))
 ====================================
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Erfurt']))
-ipregion (set(['Hessen']), set(['Thuringen']))
-browserfingerprint (set(['8a1d2d948c7499bb8f3eb5867051cbc1a37f132272e230f7f8b4befa2a9fa3c4']), set(['72caa3b9de248dbf4cb073c58be069ba059e8a9f9976ed4e45bbdf1f444e9277']))
+agent agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
+
+canvastest canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
+
+ipcity ipcity (set(['Frankfurt', 'Main', 'am']), set(['Erfurt']))
+
+ipregion ipregion (set(['Hessen']), set(['Thuringen']))
+
 ====================================

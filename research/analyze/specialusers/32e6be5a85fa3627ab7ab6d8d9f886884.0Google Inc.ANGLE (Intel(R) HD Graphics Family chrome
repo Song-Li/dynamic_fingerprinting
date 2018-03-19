@@ -1,0 +1,17 @@
+agent agent (set(['Maxthon/5.0.4.2000', 'Chrome/47.0.2526.73', 'WOW64)']), set(['Chrome/61.0.3163.100', 'Win64;', 'x64)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+language language (set(['en-US']), set(['en-US,en;q=0.8']))
+
+plugins plugins (set(['Security', 'Flash~Silverlight', 'Office', 'Update~HP', 'Manager~Intel', 'PlugIn~iTunes', '~Microsoft', 'Technology~MXPDFVIEWERPLUGIN~McAfee', 'SecurityCenter~Microsoft', 'Application', 'Protection', 'Technology~Intel', 'Identity', 'Gallery~Shockwave', 'Adobe', 'Detector', 'Acrobat~Google', 'Viewer~Photo', 'Client', '~Mx']), set(['Viewer~Native', 'Decryption', 'Chrome', 'Client~Widevine', 'Plugin~Chrome', 'Content', 'Module']))
+
+langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern']))
+
+jsFonts jsFonts (set(['Sans_Gill']), set([]))
+
+canvastest canvastest (set(['4ae230f11be50db77fc4f093b9ad11a5beda5399']), set(['de847cd2dc29c4ad126fd2dc70b850e449768ed9']))
+
+audio audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+
+====================================

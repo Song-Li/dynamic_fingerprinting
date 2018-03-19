@@ -1,0 +1,5 @@
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+jsFonts jsFonts (set(['Capitals_Microsoft']), set(['Capitals_Meiryo_Meiryo', 'UI_Microsoft']))
+
+====================================

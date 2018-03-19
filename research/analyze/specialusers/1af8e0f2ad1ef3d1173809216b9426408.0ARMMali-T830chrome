@@ -1,8 +1,0 @@
-browserfingerprint (set(['4b9fdeca2f15d28438009b567d2ff97ef633b40339afd85871eabe16462fc222']), set(['f6bd12edf193a1e8de37880f198f23cf476e8b4f0107dc552cf81f33459fd7d8']))
-====================================
-agent (set(['Chrome/62.0.3202.73']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Ingolstadt']), set(['Stuttgart']))
-ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
-browserfingerprint (set(['f6bd12edf193a1e8de37880f198f23cf476e8b4f0107dc552cf81f33459fd7d8']), set(['0f848fec97786eb5f512ba32fa71c6e19f72748e75d4d9b0d8d719c8488d3999']))
-====================================

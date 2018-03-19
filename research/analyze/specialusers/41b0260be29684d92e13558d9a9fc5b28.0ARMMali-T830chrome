@@ -1,6 +1,0 @@
-agent (set(['Chrome/62.0.3202.84']), set(['Chrome/63.0.3239.111']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Frankfurt', 'Main', 'am']), set(['Augsburg']))
-ipregion (set(['Hessen']), set(['Schleswig-Holstein']))
-browserfingerprint (set(['8a1d2d948c7499bb8f3eb5867051cbc1a37f132272e230f7f8b4befa2a9fa3c4']), set(['7f1d7e8b9dcf10b6681a18c47e1dcd9b58c2a19e35d79eada82ded42a9c4a4aa']))
-====================================

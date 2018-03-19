@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+jsFonts jsFonts (set(['UI_Microsoft', 'Boli_NSimSun_Papyrus_Perpetua_PMingLiU-ExtB_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small', 'Gothic_Corbel_Curlz', 'ITC_Meiryo_Meiryo']), set(['Gothic_Copperplate', 'Light_Segoe', 'Semibold_Segoe', 'A', 'Extra', 'Extended_Papyrus_Perpetua_PMingLiU-ExtB_Rockwell_Rockwell', 'Light_Corbel_Curlz', 'Boli_NSimSun_OCR', 'Gothic', 'Narrow_Arial', 'Black_Arial', 'Bold_Roman_Script_SimSun_SimSun-ExtB_Small', 'ITC_Microsoft', 'Bold_Copperplate']))
+
+ipcity ipcity (set(['Dortmund']), set(['Dusseldorf']))
+
+====================================

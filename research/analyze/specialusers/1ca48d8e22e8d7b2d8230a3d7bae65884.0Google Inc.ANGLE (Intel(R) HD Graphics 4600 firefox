@@ -1,0 +1,7 @@
+agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+
+encoding encoding (set(['deflate']), set(['br', 'deflate,']))
+
+jsFonts jsFonts (set(['ITC_Broadway_Browallia', 'Solid_NSimSun_Nyala_Old', 'Majalla_Script_Shonar', 'Titling_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'MT_Bookshelf', 'MT_Constantia_Copperplate', 'MT_Univers', 'MT_Gisha_Goudy', 'FB_Blackadder', 'Gothic_Corbel_Cordia', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rod_Roman_Sakkal']), set(['Light_Segoe', 'Condensed_Rockwell', 'Demi_Bernard', 'Extended_Old', 'FB', 'A', 'Richard_Pristina_Raavi_Rage', 'Condensed_Bodoni', 'Bold_Shonar', 'Condensed', 'Bold', 'Italic_Ravie_Rockwell_Rockwell', 'Poster', 'Black_Copperplate', 'Bold_Copperplate', 'Bold_Gill', 'ITC_Britannic', 'Bold_Rod_Roman_Sakkal', 'FB_Berlin', 'Titling_Footlight', 'Bold_Broadway_Browallia', 'Gothic_Copperplate', 'Condensed_Gill', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'Solid', 'MT_Constantia_Cooper', 'Italic_Harrington_High', 'Condensed_Tw', 'Ext', 'Black_Arial', 'Ultra', 'Bold_Univers', 'Compressed_Bookshelf', 'MT_Tw', 'Black_Bodoni', 'Semibold_Segoe', 'Rounded', 'Condensed_Gisha_Goudy', 'Extra', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harlow', 'Bold_Arial', 'Majalla_Script_Script', 'Gothic', 'Light_Corbel_Cordia', 'Solid_NSimSun_Nyala_OCR', 'Narrow_Arial']))
+
+====================================

@@ -1,8 +1,0 @@
-agent (set(['Version/4.0', 'Build/HUAWEIVKY-L09;', 'wv)']), set(['Build/HUAWEIVKY-L09)']))
-encoding (set(['deflate']), set(['br', 'deflate,']))
-language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-canvastest (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d']))
-ipcity (set(['Freiburg']), set(['Muenster']))
-ipregion (set(['Baden-Wurttemberg']), set(['Nordrhein-Westfalen']))
-browserfingerprint (set(['ee9229ed96251c7218a850165bec819512b521c9daab96159685b8e30f816645']), set(['1fbac20731c788676ca5defe5d3c7dde69cd576437526ad1e1ff747d050f75ad']))
-====================================
