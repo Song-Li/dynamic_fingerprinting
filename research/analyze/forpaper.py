@@ -1,4 +1,5 @@
 import pandas as pd
+import hashlib
 import os
 from pd_analyze import *
 from database import Database
@@ -194,9 +195,9 @@ def feature_change_by_date_paper(feature_name, df):
         os_counts = get_feature_percentage(grouped.get_group(group), 'os')
         
         try:
-            print '$$', '$$'.join(group), '$$', get_change_strs(group[0], group[1], sep=sep), sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]
+            print '$$'.join(group), '$$', get_change_strs(group[0], group[1], sep=sep), sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]
         except:
-            pass
+            print '$$'.join(str(e) for e in group)
         cnt += 1
         if cnt > 10:
             break
@@ -487,12 +488,18 @@ def get_browserid_change(df, file_name, change_from, change_to, output_file_name
         changes = get_browserid_change_id(df, user, changes, change_from, change_to, change_feature_name = change_feature_name)
 
     sorted_dict = sorted(changes.iteritems(), key=lambda (k,v): (-v,k))
+    if len(changes) == 0:
+        return 
+
     total = sorted_dict[0][1]
 
     output_file_name = output_file_name.replace('/', '_')
     output_file_name = output_file_name.replace(' ', '_')
+    if len(output_file_name) > 100:
+        output_file_name = hashlib.sha256(output_file_name).hexdigest()
 
     output_file = safeopen('./changeres/{}/{}'.format(change_feature_name, output_file_name), 'w')
+    output_file.write("doing {} -> {}\n".format(change_from, change_to))
     for pair in sorted_dict:
         output_file.write('{} {}\n'.format(pair[0], float(pair[1]) / float(total)))
     output_file.close()
@@ -570,15 +577,17 @@ def get_all_change_details(file_name):
     f = open(file_name, 'r')
     content = f.readlines()
     feature_name = ""
+    start = False
     for line in content:
         if line.find('generating') != -1:
             feature_name = line.split(' ')[1].strip()
         elif line.find('$$') != -1:
-            change_from = line.split('$$')[1].strip()
-            change_to = line.split('$$')[2].strip()
-            if feature_name == 'agent':
-                continue
-            get_change_details(feature_name, change_from, change_to, df)
+            change_from = line.split('$$')[0].strip()
+            change_to = line.split('$$')[1].strip()
+            if feature_name == 'langsdetected':
+                start = True
+            if start:
+                get_change_details(feature_name, change_from, change_to, df)
 
 
 
