@@ -10,7 +10,11 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36$$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 $$ (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132'])) 2442 chrome 1.0 win 1.0
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0$$Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 $$ (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:58.0)', 'Firefox/58.0'])) 2315 firefox 1.0 win 1.0
 Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0$$Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 $$ (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)'])) 2239 firefox 1.0 win 1.0
-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36$$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 $$ (set(['Chrome/61.0.3163.100']), set(['Chrome/62.0.3202.94'])) 2111 chrome 1.0 win 1.0
+==============================================
+highly related to language, change the q order
+
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36$$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 $$ (set(['Chrome/61.0.3163.100']), set(['Chrome/62.0.3202.94'])) 2111 chrome 1.0 win 1.0 
+==============================================
 Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0 Mobile/15C202 Safari/604.1$$Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 Mobile/15D60 Safari/604.1 $$ (set(['11_2_2', 'AppleWebKit/604.4.7', 'Mobile/15C202']), set(['AppleWebKit/604.5.6', 'Mobile/15D60', '11_2_5'])) 1964 safari 1.0 iphone 1.0
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063$$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 $$ (set(['Edge/15.15063', 'Chrome/52.0.2743.116']), set(['Chrome/58.0.3029.110', 'Edge/16.16299'])) 1936 chrome 1.0 win 1.0
 Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B150 Safari/604.1$$Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 Mobile/15B202 Safari/604.1 $$ (set(['11_1_1', 'Mobile/15B150']), set(['Mobile/15B202', '11_1_2'])) 1668 safari 1.0 iphone 1.0
@@ -134,16 +138,44 @@ data loaded
 13907 users changed in total
 remove flip users
 9118 users remain
+==================================
+add encoding br
+related to samsung browser 6.2
 eef17c2548744daf9d0a5fc0f10057c5ca2c9c33$$be170c6399fc45c991f409261c723fbbcadc6222 $$ (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222'])) 846 samsungbrowser 1.0 android 1.0
+==================================
+update to mac 10_13_1
+add encoding br
 ed579c296984057264338158645478eab110a54b$$607518100f6e678ef0e81b90bd481ffb78bfedc8 $$ (set(['ed579c296984057264338158645478eab110a54b']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8'])) 381 safari 1.0 mac 1.0
+==================================
+interesting for add language es-419
+but not highly related
 5bf70d8119b0953b10bef0fa2fdd62c33f92a971$$bd554a7d5da9293cf3fed52d2052b2b948a14b77 $$ (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77'])) 358 chrome 0.921787709497 win 0.997206703911
+==================================
+chrome update to more than 63.111
 391219fe2b4ddd613eda0abc5de071cd17af7bab$$c3692f002eccf8a1740d73ff02db43885b36e31d $$ (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['c3692f002eccf8a1740d73ff02db43885b36e31d'])) 304 chrome 0.993421052632 android 1.0
+==================================
+
+==================================
+update to mac 10_13_1
 c3f882c8e13ddb020b41bb567944d110d6cc1787$$f4ffb1ba5146eab3e9de7dca805835a02e159cb3 $$ (set(['c3f882c8e13ddb020b41bb567944d110d6cc1787']), set(['f4ffb1ba5146eab3e9de7dca805835a02e159cb3'])) 295 chrome 0.969491525424 mac 1.0
+===================================
+related to chrome update to version 64
 88f9a35438201f34381be6425fc61c58c31b5fc1$$36632f75b903bca305bcd02a56840abd40442e13 $$ (set(['88f9a35438201f34381be6425fc61c58c31b5fc1']), set(['36632f75b903bca305bcd02a56840abd40442e13'])) 261 chrome 1.0 android 1.0
+==================================
+add encoding br
+update to samsung browser 6.2
 ea43685f8cc4aa2ca85f22d08f50b2ab3f79b984$$a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71 $$ (set(['ea43685f8cc4aa2ca85f22d08f50b2ab3f79b984']), set(['a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71'])) 211 samsungbrowser 1.0 android 1.0
-391219fe2b4ddd613eda0abc5de071cd17af7bab$$986de49816a287410582339197e77f7fea2460ca $$ (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['986de49816a287410582339197e77f7fea2460ca'])) 174 chrome 0.988505747126 android 1.0
+===================================
+related to update from android 7.1.1 to 8.0.0
+391219fe2b4ddd613eda0abc5de071cd17af7bab$$986de49816a287410582339197e77f7fea2460ca $$ (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['986de49816a287410582339197e77f7fea2460ca'])) 174 chrome 0.988505747126 android 1.0 
+===================================
+===================================
+update to android version 7.0
 a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71$$be170c6399fc45c991f409261c723fbbcadc6222 $$ (set(['a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71']), set(['be170c6399fc45c991f409261c723fbbcadc6222'])) 158 samsungbrowser 1.0 android 1.0
+===================================
+hightly realted to android update to more than 7.0
 6c05988260a2b2df059c972e0b82a8f13f0c7388$$88f9a35438201f34381be6425fc61c58c31b5fc1 $$ (set(['6c05988260a2b2df059c972e0b82a8f13f0c7388']), set(['88f9a35438201f34381be6425fc61c58c31b5fc1'])) 138 chrome 0.992753623188 android 1.0
+===================================
 391219fe2b4ddd613eda0abc5de071cd17af7bab$$57a5df3cdae99a3bf175b81511c48715a0a68b5c $$ (set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']), set(['57a5df3cdae99a3bf175b81511c48715a0a68b5c'])) 89 chrome 1.0 android 1.0
 generating inc
 data loaded

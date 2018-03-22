@@ -584,9 +584,7 @@ def get_all_change_details(file_name):
         elif line.find('$$') != -1:
             change_from = line.split('$$')[0].strip()
             change_to = line.split('$$')[1].strip()
-            if feature_name == 'langsdetected':
-                start = True
-            if start:
+            if feature_name == 'agent':
                 get_change_details(feature_name, change_from, change_to, df)
 
 
