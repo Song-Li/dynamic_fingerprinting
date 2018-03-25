@@ -522,8 +522,8 @@ def get_browserid_change_id(df, browserid, changes, change_from, change_to , cha
             continue
         if pre_row[change_feature_name] == change_from and row[change_feature_name] == change_to:
             for feature in long_feature_list:
-                if feature == 'browserfingerprint':
-                    continue
+                #if feature == 'browserfingerprint':
+                #    continue
                 if row[feature] == pre_row[feature]:
                     continue
                 if change_feature_name == "": 
@@ -584,14 +584,91 @@ def get_all_change_details(file_name):
         elif line.find('$$') != -1:
             change_from = line.split('$$')[0].strip()
             change_to = line.split('$$')[1].strip()
-            if feature_name == 'agent':
+            if feature_name == 'browserfingerprint':
                 get_change_details(feature_name, change_from, change_to, df)
 
+def life_time_distribution_paper(db):
+    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
+    df = filter_less_than_n(df, 7)
+    feature_list = [ 
+        "agent",
+        "accept",
+        "encoding",
+        "language",
+        "timezone", 
 
+        "plugins", 
+        "cookie", 
+        "WebGL", 
+        "localstorage", 
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+
+        "langsdetected",
+        "jsFonts",
+        "canvastest", 
+
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "cpucores", 
+        "audio",
+        "fp2_cpuclass",
+        "fp2_colordepth",
+        "fp2_pixelratio",
+
+        "ipcity",
+        "ipregion",
+        "ipcountry",
+
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser"
+        ]
+
+    grouped = df.groupby('browserid')
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    length = (max_date - min_date).days + 3
+    life_time = {}
+    for feature in feature_list:
+        life_time[feature] = [0 for i in range(length + 10)]
+
+    for browserid, cur_group in tqdm(grouped):
+        pre_feature = {}
+        pre_time = {}
+        for idx, row in cur_group.iterrows():
+            for feature in feature_list:
+                if feature in pre_feature:
+                    if pre_feature[feature] != row[feature]:
+                        cur_delt = (row['time'] - pre_time[feature]).days
+                        life_time[feature][cur_delt] += 1
+                pre_feature[feature] = row[feature]
+                pre_time[feature] = row['time']
+
+    medians = {}
+    for feature in tqdm(feature_list):
+        cur = 0
+        print feature, life_time[feature]
+        total_change = sum(life_time[feature])
+        half = total_change / 2
+        for i in range(length + 1):
+            cur += life_time[feature][i]
+            if cur > half:
+                medians[feature] = i + 1
+                break
+
+    for feature in medians:
+        print feature + ' ' + str(medians[feature])
 
 
 def main():
-    get_all_change_details('./res/all_changes_by_date_filtered')
+    db = Database('uniquemachine')
+    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
+    df = filter_less_than_n(df, 7)
+    feature_latex_table_paper(df)
+    #get_all_change_details('./res/all_changes_by_date_filtered')
     #db = Database('filteredchanges')
     #get_all_feature_change_by_date_paper(db)
     #maps = feature_delta_paper(db)
@@ -605,7 +682,7 @@ def main():
     #    feature_by_date_paper(feature, df)
     #check_browser_become_unique(db)
     #num_fingerprints_distribution(db)
-    #db = Database('uniquemachine')
+    #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
     #check_browser_become_unique(db)
     #change_to_unique, change_feature = check_browser_become_unique(db)
