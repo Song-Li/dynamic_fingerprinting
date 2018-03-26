@@ -665,6 +665,7 @@ def life_time_distribution_paper(db):
 
 def main():
     db = Database('uniquemachine')
+    #life_time_distribution_paper(db)
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     df = filter_less_than_n(df, 7)
     feature_latex_table_paper(df)
@@ -682,7 +683,6 @@ def main():
     #    feature_by_date_paper(feature, df)
     #check_browser_become_unique(db)
     #num_fingerprints_distribution(db)
-    #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
     #check_browser_become_unique(db)
     #change_to_unique, change_feature = check_browser_become_unique(db)

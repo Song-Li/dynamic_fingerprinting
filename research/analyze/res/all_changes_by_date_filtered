@@ -36,12 +36,27 @@ data loaded
 2886 users changed in total
 remove flip users
 2650 users remain
+============================================
 gzip, deflate$$gzip, deflate, br $$ (set(['deflate']), set(['br', 'deflate,'])) 1477 samsungbrowser 0.883547731889 android 0.925524712255
+79% language add q value
+update of samsung browser
+============================================
 gzip, deflate$$br, gzip, deflate $$ (set([]), set(['br,'])) 933 safari 1.0 mac 0.864951768489
-gzip, deflate, br$$gzip, deflate $$ (set(['br', 'deflate,']), set(['deflate'])) 157 chrome 0.770700636943 win 0.554140127389
+14% mac update 10_12_6 to 10_13_1
+related to iphone, mac update
+============================================
+gzip, deflate, br$$gzip, deflate $$ (set(['br', 'deflate,']), set(['deflate'])) 157 chrome 0.770700636943 win 0.554140127389 
+76% language remove q value
+Samsung downgrade 6.2 to 5.4
+============================================
 gzip,deflate$$gzip, deflate, br $$ (set(['gzip,deflate']), set(['gzip,', 'br', 'deflate,'])) 47 samsungbrowser 0.702127659574 android 1.0
+31.4% to language remove en-US and q value
+============================================
 gzip,deflate$$gzip, deflate $$ (set(['gzip,deflate']), set(['gzip,', 'deflate'])) 7 chrome 1.0 win 0.857142857143
+============================================
 gzip, deflate, br$$gzip,deflate $$ (set(['gzip,', 'br', 'deflate,']), set(['gzip,deflate'])) 6 chrome 1.0 android 1.0
+cookie 58%
+============================================
 gzip, deflate, br$$gzip $$ (set(['gzip,', 'br', 'deflate,']), set(['gzip'])) 5 chrome 1.0 win 0.8
 br, gzip, deflate$$gzip, deflate $$ (set(['br,']), set([])) 4 safari 1.0 mac 1.0
 gzip, deflate, lzma$$gzip, deflate $$ (set(['lzma', 'deflate,']), set(['deflate'])) 3 opr/ 1.0 android 1.0
@@ -52,17 +67,42 @@ data loaded
 13431 users changed in total
 remove flip users
 12804 users remain
-de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4$$de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7 $$ (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7'])) 6104 chrome 0.937254259502 win 0.558486238532
+============================================
+de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4$$de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7 $$ (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7'])) 6104 chrome 0.937254259502 win 0.558486238532 
+chrome update to more than 62
+============================================
 en-US,en;q=0.8$$en-US,en;q=0.9 $$ (set(['en-US,en;q=0.8']), set(['en-US,en;q=0.9'])) 1285 chrome 0.975097276265 win 0.785992217899
+chrome update to more than 62
+============================================
 de-DE,de,en-US,en$$de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4 $$ (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4'])) 1200 samsungbrowser 1.0 android 1.0
+encoding defalte to br,deflate, 98.8%
+canvas test ee to be 75%
+update from samsung browser 5.4 to 6.2
+============================================
 es-ES,es;q=0.8$$es-ES,es;q=0.9 $$ (set(['es-ES,es;q=0.8']), set(['es-ES,es;q=0.9'])) 287 chrome 0.965156794425 win 0.951219512195
+update from chrome 61 to more than 62
+============================================
 en-GB,en-US;q=0.8,en;q=0.6$$en-GB,en-US;q=0.9,en;q=0.8 $$ (set(['en-GB,en-US;q=0.8,en;q=0.6']), set(['en-GB,en-US;q=0.9,en;q=0.8'])) 187 chrome 0.946524064171 win 0.786096256684
+update from chrome 61 to more than 62
+============================================
 pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4$$pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7 $$ (set(['pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4']), set(['pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'])) 154 chrome 0.980519480519 win 0.954545454545
+update from chrome 61 to more than 62
+============================================
 fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4$$fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7 $$ (set(['fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4']), set(['fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7'])) 119 chrome 0.924369747899 win 0.773109243697
+update from chrome 61 to more than 62
+============================================
 de-AT,de-DE;q=0.8,de;q=0.6,en-US;q=0.4,en;q=0.2$$de-AT,de-DE;q=0.9,de;q=0.8,en-US;q=0.7,en;q=0.6 $$ (set(['de-AT,de-DE;q=0.8,de;q=0.6,en-US;q=0.4,en;q=0.2']), set(['de-AT,de-DE;q=0.9,de;q=0.8,en-US;q=0.7,en;q=0.6'])) 102 chrome 1.0 android 0.950980392157
+update from chrome 61 to more than 62
+============================================
 de-DE,en-US;q=0.8$$de-DE,en-US;q=0.9 $$ (set(['de-DE,en-US;q=0.8']), set(['de-DE,en-US;q=0.9'])) 85 chrome 0.952941176471 android 1.0
+update from chrome 61, 60 to more than 62
+============================================
 nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4$$nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7 $$ (set(['nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4']), set(['nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'])) 77 chrome 0.987012987013 win 0.779220779221
+update from chrome 61 to more than 62
+============================================
 it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4$$it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7 $$ (set(['it-IT,it;q=0.8,en-US;q=0.6,en;q=0.4']), set(['it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7'])) 75 chrome 1.0 win 0.84
+update from chrome 61 to more than 62
+============================================
 generating timezone
 data loaded
 2404 users changed in total
@@ -84,7 +124,10 @@ data loaded
 7256 users changed in total
 remove flip users
 4016 users remain
+=================================================
 Shockwave Flash$$ $$ (set(['Shockwave Flash']), set([''])) 574 firefox 0.970383275261 win 0.95818815331
+not interesting
+=================================================
 Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Widevine Content Decryption Module$$Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Shockwave Flash~Widevine Content Decryption Module $$ (set([]), set(['Shockwave Flash'])) 495 chrome 1.0 win 0.874747474747
 Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Shockwave Flash~Widevine Content Decryption Module$$Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Widevine Content Decryption Module $$ (set(['Shockwave Flash']), set([])) 433 chrome 1.0 win 0.872979214781
 $$Shockwave Flash $$ (set(['']), set(['Shockwave Flash'])) 381 firefox 0.976377952756 win 0.9343832021
@@ -92,9 +135,16 @@ Chromium PDF Plugin~Chromium PDF Viewer~News feed handler~Shockwave Flash~Widevi
 WebKitintegrierte PDF$$Shockwave Flash~WebKitintegrierte PDF $$ (set([]), set(['Shockwave Flash'])) 172 safari 1.0 mac 1.0
 Shockwave Flash~WebKitintegrierte PDF$$WebKitintegrierte PDF $$ (set(['Shockwave Flash']), set([])) 133 safari 1.0 mac 1.0
 Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Widevine Content Decryption Module~Widevine Content Decryption Module$$Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Widevine Content Decryption Module $$ (set([]), set([])) 110 chrome 1.0 mac 0.990909090909
+=================================================
 Chrome PDF Viewer~Chrome PDF Viewer~Native Client~Widevine Content Decryption Module$$Chrome PDF Plugin~Chrome PDF Viewer~Native Client~Widevine Content Decryption Module $$ (set([]), set(['Chrome PDF Plugin'])) 97 chrome 1.0 win 0.659793814433
+lightly related to chrome 60 update 15%
+=================================================
 Shockwave Flash~Shockwave Flash$$Shockwave Flash $$ (set([]), set([])) 92 firefox 1.0 win 0.934782608696
+20+% realted to firefox update, 17% from 56 to 57
+=================================================
 Shockwave Flash$$Shockwave Flash~Shockwave Flash $$ (set([]), set([])) 76 firefox 1.0 win 0.947368421053
+20% related to firefox update
+=================================================
 generating cookie
 data loaded
 674 users changed in total
@@ -223,7 +273,10 @@ data loaded
 480 users changed in total
 remove flip users
 372 users remain
+=================================================
 ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)$$ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0) $$ (set(['vs_4_0', 'ps_4_0)', 'Direct3D11']), set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex'])) 129 firefox 0.992248062016 win 1.0
+related to firefox 58
+=================================================
 ANGLE (Intel(R) HD Graphics 620 Direct3D9Ex vs_3_0 ps_3_0)$$ANGLE (Intel(R) HD Graphics 620 Direct3D11 vs_5_0 ps_5_0) $$ (set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']), set(['vs_5_0', 'ps_5_0)', 'Direct3D11'])) 20 chrome 0.95 win 1.0
 ANGLE (Intel(R) HD Graphics 520 Direct3D9Ex vs_3_0 ps_3_0)$$ANGLE (Intel(R) HD Graphics 520 Direct3D11 vs_5_0 ps_5_0) $$ (set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']), set(['vs_5_0', 'ps_5_0)', 'Direct3D11'])) 19 chrome 0.894736842105 win 1.0
 ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_1 ps_4_1)$$ANGLE (Intel(R) HD Graphics Direct3D11 vs_5_0 ps_5_0) $$ (set(['vs_4_1', 'ps_4_1)']), set(['vs_5_0', 'ps_5_0)'])) 16 firefox 0.6875 win 1.0
