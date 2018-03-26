@@ -1383,7 +1383,7 @@ def feature_latex_table_paper(df):
             back_users.add(browser_id_group.at[idx, 'browserid'])
     print 'num_back:', num_back
     print 'num_size:', len(back_users)
-
+    df = df.reset_index(drop = True)
     for idx in tqdm(df.index):
         row = df.iloc[idx]
         if row['browserid'] not in browser_instance:
@@ -1963,8 +1963,6 @@ def main():
     print (device)
     
     #db.combine_tables(small_feature_list, [df1, df2])
-    
-
     
     cookies = df.groupby('label')
     feature_names = list(df.columns.values)

@@ -4,73 +4,13 @@ import os
 from pd_analyze import *
 from database import Database
 from extractinfo import *
+from feature_lists import *
 import collections
-long_feature_list = [
-        "agent",
-        "encoding",
-        "language",
-        "timezone", 
 
-        "plugins", 
-        "cookie", 
-        "WebGL", 
-        "localstorage", 
-
-        "langsdetected",
-        "jsFonts",
-        "canvastest", 
-
-        "inc", 
-        "gpu", 
-        "cpucores", 
-        "audio",
-
-        "ipcity",
-        "ipregion",
-        "ipcountry",
-
-        "browserfingerprint"
-        ]
-
-feature_list = [ 
-        "agent",
-        "accept",
-        "encoding",
-        "language",
-        "timezone", 
-
-        "plugins", 
-        "cookie", 
-        "WebGL", 
-        "localstorage", 
-        "fp2_addbehavior",
-        "fp2_opendatabase",
-
-        "langsdetected",
-        "jsFonts",
-        "canvastest", 
-
-        "inc", 
-        "gpu", 
-        "gpuimgs", 
-        "cpucores", 
-        "audio",
-        "fp2_cpuclass",
-        "fp2_colordepth",
-        "fp2_pixelratio",
-
-        "ipcity",
-        "ipregion",
-        "ipcountry",
-
-        "fp2_liedlanguages",
-        "fp2_liedresolution",
-        "fp2_liedos",
-        "fp2_liedbrowser",
-
-        "browserfingerprint"
-        ]
-
+long_feature_list = get_long_feature_list()
+feature_list = get_feature_list()
+ori_long_feature_list = get_ori_long_feature_list()
+ori_feature_list = get_ori_feature_list()
 
 def feature_delta_paper(db):
     df = load_data(load = True, feature_list = ["*"], 
@@ -662,13 +602,34 @@ def life_time_distribution_paper(db):
     for feature in medians:
         print feature + ' ' + str(medians[feature])
 
+def generate_databases():
+    #db = Database('round1')
+    #df1 = load_data(load = True, feature_list = long_feature_list, table_name = "features", db = db)
+    db = Database('round2')
+    df2 = load_data(load = True, feature_list = ori_long_feature_list, table_name = "features", db = db)
+    db = Database('round3')
+    df3 = load_data(load = True, feature_list = ori_feature_list, table_name = "features", db = db)
+    db = Database('round4')
+    df4 = load_data(load = True, feature_list = ori_feature_list, table_name = "features", db = db)
+    aim_db = Database('forpaper')
+    aim_db.combine_tables(ori_long_feature_list, [df2, df3, df4], 'longfeatures')
+    aim_db.combine_tables(ori_feature_list, [df3, df4], 'features')
+    df3 = load_data(load = True, feature_list = long_feature_list, table_name = "longfeatures", db = aim_db)
+    db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
+            get_device = get_device, get_browserid = get_browserid,
+            aim_table = 'pandas_longfeatures')
+    df3 = load_data(load = True, feature_list = feature_list, table_name = "features", db = aim_db)
+    db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
+            get_device = get_device, get_browserid = get_browserid,
+            aim_table = 'pandas_features')
+
 
 def main():
-    db = Database('uniquemachine')
+    generate_databases()
     #life_time_distribution_paper(db)
-    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
-    df = filter_less_than_n(df, 7)
-    feature_latex_table_paper(df)
+    #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
+    #df = filter_less_than_n(df, 7)
+    #feature_latex_table_paper(df)
     #get_all_change_details('./res/all_changes_by_date_filtered')
     #db = Database('filteredchanges')
     #get_all_feature_change_by_date_paper(db)

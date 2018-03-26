@@ -61,12 +61,12 @@ class Database():
 
     # we will use the first df as the base df
     # we'd better put the biggest df at the begining
-    def combine_tables(self, feature_list, dfs):
+    def combine_tables(self, feature_list, dfs, aim_table):
         for idx in range(len(dfs)):
             dfs[idx] = dfs[idx][feature_list]
         big_df = pd.concat(dfs)
         print ("Finished calculation, start to put back to csv")
-        big_df.to_sql('longfeatures', self.get_db_engine(), if_exists='replace', chunksize = 1000)
+        big_df.to_sql(aim_table, self.get_db_engine(), if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
     def generate_browserid(self, feature_list, df, get_device = null_generator, get_browserid = null_generator):
