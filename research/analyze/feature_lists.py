@@ -1,4 +1,5 @@
 long_feature_list = [
+        "IP",
         "agent",
         "encoding",
         "language",
@@ -26,6 +27,7 @@ long_feature_list = [
         ]
 
 ori_long_feature_list = [
+        "IP",
         "agent",
         "encoding",
         "language",
@@ -45,11 +47,17 @@ ori_long_feature_list = [
         "cpucores", 
         "audio",
 
+        "clientid",
+        "time",
+        "label",
+        "uniquelabel",
         "browserfingerprint"
         ]
 
 feature_list = [ 
+        "IP",
         "agent",
+        "httpheaders",
         "accept",
         "encoding",
         "language",
@@ -88,7 +96,9 @@ feature_list = [
         ]
 
 ori_feature_list = [ 
+        "IP",
         "agent",
+        "httpheaders",
         "accept",
         "encoding",
         "language",
@@ -119,6 +129,10 @@ ori_feature_list = [
         "fp2_liedos",
         "fp2_liedbrowser",
 
+        "clientid",
+        "label",
+        "uniquelabel",
+        "time",
         "browserfingerprint"
         ]
 
@@ -133,6 +147,3 @@ def get_ori_long_feature_list():
 
 def get_long_feature_list():
     return long_feature_list
-    return ori_feature_list
-    return ori_feature_list
-    return ori_feature_list

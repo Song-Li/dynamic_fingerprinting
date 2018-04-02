@@ -189,3 +189,17 @@ class Database():
 
     def export_sql(self, df, table_name):
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
+
+    def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):
+        feature_str = ""
+        for feature in feature_list:
+            feature_str += feature + ','
+        feature_str = feature_str[:-1]
+        limit_str = {}
+        if limit == -1:
+            limit_str = ""
+        else:
+            limit_str = ' limit {}'.format(limit)
+        df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set" {};'.format(feature_str, table_name, limit_str), con=self.get_db())    
+        print ('finished loading {}'.format(table_name))
+        return df

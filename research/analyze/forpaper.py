@@ -13,11 +13,11 @@ ori_long_feature_list = get_ori_long_feature_list()
 ori_feature_list = get_ori_feature_list()
 
 def feature_delta_paper(db):
-    df = load_data(load = True, feature_list = ["*"], 
-            table_name = "pandas_longfeatures", db = db)
-    df = filter_less_than_n(df, 7)
+    df = db.load_data(feature_list = ["*"], 
+            table_name = "pandas_features")
+    df = filter_less_than_n(df, 5)
     maps = {} 
-    for feature in long_feature_list:
+    for feature in feature_list:
         maps[feature] = {"browserid":[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
 
     grouped = df.groupby('browserid')
@@ -47,7 +47,7 @@ def feature_delta_paper(db):
             pre_row = row
 
     db = Database('filteredchanges')
-    for feature in long_feature_list:
+    for feature in feature_list:
         print feature
         try:
             df = pd.DataFrame.from_dict(maps[feature])
@@ -506,13 +506,14 @@ def get_change_details(change_feature_name, change_from, change_to, df):
     browserid_list = check_diff_feature_value(db, change_feature_name, change_from, change_to)
     f = safeopen('./tmpout', 'w')
     for browserid in browserid_list:
+        print browserid
         f.write(browserid + '\n')
     f.close()
     get_browserid_change(df,'./tmpout', change_from, change_to, '{}_{} -> {}'.format(change_feature_name,change_from,change_to), change_feature_name = change_feature_name)
 
 def get_all_change_details(file_name):
-    db = Database('uniquemachine')
-    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
+    db = Database('forpaper')
+    df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
 
     f = open(file_name, 'r')
     content = f.readlines()
@@ -602,38 +603,90 @@ def life_time_distribution_paper(db):
     for feature in medians:
         print feature + ' ' + str(medians[feature])
 
+global ip2location
+# try to use the ip location
+def get_location_dy_ip(ip):
+    global ip2location
+    int_ip = ip2int(ip)
+    ip_from = ip2location['ip_from']
+    idx = bisect.bisect_left(ip_from, int_ip) - 1
+    city = ip2location.iloc[idx]['city_name']
+    region = ip2location.iloc[idx]['region_name']
+    country = ip2location.iloc[idx]['country_name']
+    latitude = ip2location.iloc[idx]['latitude']
+    longitude = ip2location.iloc[idx]['longitude']
+    return [city, region, country, latitude, longitude]
+
+def get_action(feature_name, value_from, value_to):
+    if feature_name not in feature_list:
+        print ("feature_name not in feature list")
+        return 
+    action = ""
+    if feature_name == 'agent':
+        browser_type = get_browser_from_agent(value_from)
+        from_browser_version = get_browser_version(value_from)
+        to_browser_version = get_browser_version(value_to)
+        if from_browser_version != to_browser_version:
+            action = '{}_{}->{}'.format(browser_type, from_browser_version, to_browser_version)
+            return action
+        from_os_version = get_os_from_agent(value_from)
+        to_os_version = get_os_from_agent(value_to)
+        if from_os_version != to_os_version:
+            action = '{}-{}->{}'.format(browser_type, from_os_version, to_os_version)
+            return action
+    elif feature_name == 'jsFonts':
+        changes = get_change_strs(value_from, value_to, sep = '_')
+        action = '{}->{}'.format(changes[0], changes[1])
+    else:
+        action = '{}->{}'.format(value_from, value_to)
+    return action
+
 def generate_databases():
     #db = Database('round1')
     #df1 = load_data(load = True, feature_list = long_feature_list, table_name = "features", db = db)
+    '''
     db = Database('round2')
-    df2 = load_data(load = True, feature_list = ori_long_feature_list, table_name = "features", db = db)
+    df2 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round3')
-    df3 = load_data(load = True, feature_list = ori_feature_list, table_name = "features", db = db)
+    df3 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round4')
-    df4 = load_data(load = True, feature_list = ori_feature_list, table_name = "features", db = db)
-    aim_db = Database('forpaper')
+    df4 = db.load_data(feature_list = ['*'], table_name = "features")
     aim_db.combine_tables(ori_long_feature_list, [df2, df3, df4], 'longfeatures')
-    aim_db.combine_tables(ori_feature_list, [df3, df4], 'features')
-    df3 = load_data(load = True, feature_list = long_feature_list, table_name = "longfeatures", db = aim_db)
-    db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
-            get_device = get_device, get_browserid = get_browserid,
-            aim_table = 'pandas_longfeatures')
-    df3 = load_data(load = True, feature_list = feature_list, table_name = "features", db = aim_db)
-    db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
+    #aim_db.combine_tables(ori_feature_list, [df3, df4], 'features')
+    return 
+    '''
+    #df2 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
+    db = Database('uniquemachine')
+    global ip2location   
+    ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
+    print ("ip2location data loaded")
+    aim_db = Database('forpaper')
+    df3 = aim_db.load_data(feature_list = ori_feature_list, table_name = "features")
+    aim_db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_features')
 
+    return 
+    df3 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
+    aim_db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
+            get_device = get_device, get_browserid = get_browserid,
+            aim_table = 'pandas_longfeatures')
+    return 
+
 
 def main():
-    generate_databases()
+    #db = Database('forpaper')
+    #maps = feature_delta_paper(db)
+    #df = db.load_data(feature_list = ["encoding", 'browserid'], table_name = "pandas_longfeatures")
+    #get_change_details('encoding', 'gzip, deflate, br', 'gzip, deflate', df)
+    #generate_databases()
     #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #df = filter_less_than_n(df, 7)
     #feature_latex_table_paper(df)
-    #get_all_change_details('./res/all_changes_by_date_filtered')
+    get_all_change_details('./res/all_changes_by_date_filtered')
     #db = Database('filteredchanges')
     #get_all_feature_change_by_date_paper(db)
-    #maps = feature_delta_paper(db)
     #get_browserid_change_id(df, "f4ce016af1e96e71ddcd0bde3f78869f2iPhoneImagination TechnologiesPowerVR SGX 543safari")
    # db = Database('changes')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)

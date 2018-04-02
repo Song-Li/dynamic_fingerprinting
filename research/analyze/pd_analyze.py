@@ -559,20 +559,6 @@ def ip2int(ip):
     res = (16777216 * o[0]) + (65536 * o[1]) + (256 * o[2]) + o[3]
     return res
 
-global ip2location
-# try to use the ip location
-def get_location_dy_ip(ip):
-    global ip2location
-    int_ip = ip2int(ip)
-    ip_from = ip2location['ip_from']
-    idx = bisect.bisect_left(ip_from, int_ip) - 1
-    city = ip2location.iloc[idx]['city_name']
-    region = ip2location.iloc[idx]['region_name']
-    country = ip2location.iloc[idx]['country_name']
-    latitude = ip2location.iloc[idx]['latitude']
-    longitude = ip2location.iloc[idx]['longitude']
-    return [city, region, country, latitude, longitude]
-
 
 def get_device(row):
     id_str = ""
@@ -601,10 +587,7 @@ def get_browserid(row):
     id_str = ""
     # platform is between the first ( and the first ;
     platform = ""
-    try:
-        platform = row['agent'].split(')')[0].split('(')[1].split(';')[0]
-    except:
-        pass
+    platform = get_os_from_agent(row['agent'])
 
     #print ("error getting platform: ", row['agent'])
     keys = ['clientid', 'cpucores', 'fp2_platform']
@@ -615,7 +598,7 @@ def get_browserid(row):
         except:
             pass
 
-    #id_str += platform
+    id_str += platform
     gpu_type = row['gpu'].split('Direct')[0]
     id_str += row['inc']
     id_str += gpu_type
@@ -680,7 +663,7 @@ def load_data(load = True, db = None, file_path = None, table_name = "features",
     else:
         ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
         print ("ip2location data loaded")
-        df = pd.read_sql('select * from {} where jsFonts is not NULL {};'.format(table_name, other),
+        df = pd.read_sql('select * from {} where jsFonts is not NULL and clientid is not "Not Set" {};'.format(table_name, other),
                 con=db.get_db())    
         print ("data loaded")
         # delete the null clientid rows
