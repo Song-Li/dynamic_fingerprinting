@@ -1,0 +1,31 @@
+doing 103.12.132.97 -> 125.63.75.157
+IP (set(['103.12.132.97']), set(['125.63.75.157']))
+ 1.0
+ipcity (set(['Noida']), set(['Delhi']))
+ 1.0
+ipregion (set(['Pradesh', 'Uttar']), set(['Delhi']))
+ 1.0
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ 0.2
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.132']))
+ 0.1
+browserfingerprint (set(['001b284b19ea6d2481e9ad4bd3a76ffb38c1599c8eff64e4b55bc83705638d7d']), set(['108629b8b0f20653cef15e11514d085e93e414c5f3599c387812fac701f8ef25']))
+ 0.1
+browserfingerprint (set(['382982f9989ad7b2f0e7d40c9ab6de59f8d21fc20af2833b85a90410d3bc2a1a']), set(['c0d5ceb6b2bf30da96e9266af4b12cabc176fbfe4ba60e4e6de5badc02ce23e7']))
+ 0.1
+browserfingerprint (set(['392768e7635c077b8cbd07a0702d02da15acd1c90cc05c93580b410f5bb6a897']), set(['abcd404ab2240f73d270e01773b5593fa34cf708bd64a1e9718dc696d7aea24c']))
+ 0.1
+browserfingerprint (set(['8d8877cae55577c9c64f9c78851374ab8e49ab07d65ef414d465ccde24425461']), set(['4a2fc0ef726c93f362fc93c7bd690c2d20d916cce7252383e2327d0dbbd26005']))
+ 0.1
+browserfingerprint (set(['9d9645db0d40e47411745ea3c09a313e59ffccc214e1b91149a106c9edb1d432']), set(['e80f85d2ab2ef155f85cab4fd8338d18b10eb3302f92ca463fce4ec17b05005d']))
+ 0.1
+browserfingerprint (set(['a329ef28d7d6ba3119ee79fdce63a5dfebc4e1da13b4c87d976c98c8ebbd2de7']), set(['d37a687bc60fcb053ae994466536b289523196819cb1a1877198e378ad0ad161']))
+ 0.1
+browserfingerprint (set(['b0e6300421093d0683efd9b29dd1e39f99487447a8bd759040fb299644737eef']), set(['3e6eb15dacd645ac9fcf8d17b7f24e7e31c06d1bc66bd34d17d15e06a6dde2eb']))
+ 0.1
+browserfingerprint (set(['b41cfb6271010f322b0cecebdeb2c7d9e2326fab332400c2709c0ab6e569fdf7']), set(['55854e6e6277076f06bb9a222ddfaf1b84f29cae45292fd0e4c6ec44dafa8ea2']))
+ 0.1
+browserfingerprint (set(['c6ab16bc0dc87472f8ddf0241fac62b0b3ee3f728855a41e2ab18459e09b96e1']), set(['99114b2dff317c5a95d405014209c7a3abd063890b1d2294cd434df99029558a']))
+ 0.1
+browserfingerprint (set(['fac6b88e881bb712f7c588857b4c37c82f16ea66dd38f74df1f958dc0771c792']), set(['1024cc8b674d53c7627117ed8f5873bd687d6b33fb0f970b74fd8b0ee1dab0ea']))
+ 0.1

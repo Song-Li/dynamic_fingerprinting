@@ -1,0 +1,21 @@
+doing 146.196.38.46 -> 146.196.36.63
+IP (set(['146.196.38.46']), set(['146.196.36.63']))
+ 1.0
+browserfingerprint (set(['2d81acf6fb8a179ece4615805a6154b455d6a3088d0619bf59ea2b27140ee6ee']), set(['e358de9bc3ba6a42bd3d66fd567b3d019b38a66276869f872ac75073aa4ee50c']))
+ 0.125
+browserfingerprint (set(['46a9084d08b7fefc40c44c68da4c62be4b18b92a0188c97768d8e259671f0bff']), set(['e358de9bc3ba6a42bd3d66fd567b3d019b38a66276869f872ac75073aa4ee50c']))
+ 0.125
+browserfingerprint (set(['5e744c9d8e7ccec6e2fab63d3ce4d7fb0fd07b33e32f3df7f26d9f789b60309a']), set(['5ddd39f8d267ae407920798fa7b3bc44a580c4fb0302bee781a49751d6e76cdc']))
+ 0.125
+browserfingerprint (set(['8b02c70adadbabbec669c9a366b6a9c8e84e55167fba01f825c4f448d0b7a979']), set(['fce490b7e6f7f26a2237a255c60a4bb26028aec7a6012ebda664b4705b1717af']))
+ 0.125
+browserfingerprint (set(['8ebcc0fd524a2a4aa3d2dfd4d973994e4548390bda41f6e639ee8de2d3df8edc']), set(['43e23b088bae49befbadd0cf97990b76ef38932bd23250c5d6540f7ca6010de3']))
+ 0.125
+browserfingerprint (set(['e27d03cff9ea4743ed3fa83458cd14f7a70db19a90734952ed607382f0a1ae80']), set(['cc1abaae376574bddae384b251aef63d0a4d2cc98aece92963f0963d67073e5e']))
+ 0.125
+browserfingerprint (set(['fe6ac011d1908d03eb54f9ec8a9bb44fd4af935d1f0098a41b6dec749afb773d']), set(['e358de9bc3ba6a42bd3d66fd567b3d019b38a66276869f872ac75073aa4ee50c']))
+ 0.125
+browserfingerprint (set(['fe6ac011d1908d03eb54f9ec8a9bb44fd4af935d1f0098a41b6dec749afb773d']), set(['f7312d60afae5d344e1f11526a183ec5a5e397d80a1284ae1a4f4b51dc6f00c1']))
+ 0.125
+jsFonts (set([]), set(['Narrow_Arial', 'Black_Arial']))
+ 0.125

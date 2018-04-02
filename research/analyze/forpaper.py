@@ -525,8 +525,7 @@ def get_all_change_details(file_name):
         elif line.find('$$') != -1:
             change_from = line.split('$$')[0].strip()
             change_to = line.split('$$')[1].strip()
-            if feature_name == 'browserfingerprint':
-                get_change_details(feature_name, change_from, change_to, df)
+            get_change_details(feature_name, change_from, change_to, df)
 
 def life_time_distribution_paper(db):
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
@@ -666,7 +665,6 @@ def generate_databases():
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_features')
 
-    return 
     df3 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
     aim_db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
@@ -677,17 +675,17 @@ def generate_databases():
 def main():
     #db = Database('forpaper')
     #maps = feature_delta_paper(db)
-    #df = db.load_data(feature_list = ["encoding", 'browserid'], table_name = "pandas_longfeatures")
-    #get_change_details('encoding', 'gzip, deflate, br', 'gzip, deflate', df)
+    #df = db.load_data(feature_list = long_feature_list, table_name = "pandas_longfeatures")
+    #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
     #generate_databases()
     #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #df = filter_less_than_n(df, 7)
     #feature_latex_table_paper(df)
-    get_all_change_details('./res/all_changes_by_date_filtered')
+    #get_all_change_details('./res/all_changes_by_date_filtered')
     #db = Database('filteredchanges')
     #get_all_feature_change_by_date_paper(db)
-    #get_browserid_change_id(df, "f4ce016af1e96e71ddcd0bde3f78869f2iPhoneImagination TechnologiesPowerVR SGX 543safari")
+    #get_browserid_change_id(df, "0093b88be8a7aadf431d8e26c85145464winGoogle Inc.ANGLE (Intel(R) HD Graphics firefox)")
    # db = Database('changes')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #db = Database('changes')

@@ -1,0 +1,33 @@
+doing 122.176.29.46 -> 122.176.29.23
+IP (set(['122.176.29.46']), set(['122.176.29.23']))
+ 1.0
+agent (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.625
+browserfingerprint (set(['884b170cb1c0e4c17cfc43d487f80d406ecdbe9ccefff40f48b49ffc454562af']), set(['352bf80bff42b5dd3f7ca402b80cd214d85c0ab2b0ebab166e9d5f2c8292269f']))
+ 0.1875
+browserfingerprint (set(['58dbd22dc653fbf7a5924c242a356d166ede4798bda9a792655f4e9818b90e22']), set(['1b03fca0e9fb4c3e1396b98cba09f32689721967f93ed43ba9b7d583c0e8302b']))
+ 0.125
+browserfingerprint (set(['58dbd22dc653fbf7a5924c242a356d166ede4798bda9a792655f4e9818b90e22']), set(['352bf80bff42b5dd3f7ca402b80cd214d85c0ab2b0ebab166e9d5f2c8292269f']))
+ 0.125
+jsFonts (set(['Black_Calibri_Cambria_Cambria', 'Arial_Arial']), set(['Arial_Calibri_Cambria_Cambria']))
+ 0.125
+browserfingerprint (set(['087db1efb6a8549d4dbded2a33e9753cea18c204112ae448f9853915e201edb1']), set(['e0c799a38b998edeeaba157263955d00b73867da200dbdab47ec778be3f6fa57']))
+ 0.0625
+browserfingerprint (set(['4f4229a913e236d0a94483442c35fdd36c6eb801b40d03dd689dadc0bb547448']), set(['1853e2dccfa2606d70f4740c245bf1f5058705f3c89aaf368a1b613e87ffbd4a']))
+ 0.0625
+browserfingerprint (set(['4f4229a913e236d0a94483442c35fdd36c6eb801b40d03dd689dadc0bb547448']), set(['d3e7629461f41f0160ae0848d273e7a0ad8a719f3da0a2451a6a9d23f8757b8d']))
+ 0.0625
+browserfingerprint (set(['566ebdf8e83ffe8b21a255e3226728d141bca3ea98085312001a2186c6f5ac03']), set(['2e4479ab9d00aed17d2359c1a04b914d063adaa451f62bf3a25bff5b097116aa']))
+ 0.0625
+browserfingerprint (set(['566ebdf8e83ffe8b21a255e3226728d141bca3ea98085312001a2186c6f5ac03']), set(['352bf80bff42b5dd3f7ca402b80cd214d85c0ab2b0ebab166e9d5f2c8292269f']))
+ 0.0625
+browserfingerprint (set(['58dbd22dc653fbf7a5924c242a356d166ede4798bda9a792655f4e9818b90e22']), set(['2c1c186f28e95608a2f40f9de5a141009b6d22256a9983536152e578093d4d3e']))
+ 0.0625
+browserfingerprint (set(['6a46b2a35c4a422a8e92765f1c9077bb5ec82e1551f0138c71db2cde683d16e0']), set(['352bf80bff42b5dd3f7ca402b80cd214d85c0ab2b0ebab166e9d5f2c8292269f']))
+ 0.0625
+browserfingerprint (set(['7660f190c59fd9e74e72bffece3e392d77783ef8af494ec9824e44c9734771ef']), set(['352bf80bff42b5dd3f7ca402b80cd214d85c0ab2b0ebab166e9d5f2c8292269f']))
+ 0.0625
+browserfingerprint (set(['884b170cb1c0e4c17cfc43d487f80d406ecdbe9ccefff40f48b49ffc454562af']), set(['2c1c186f28e95608a2f40f9de5a141009b6d22256a9983536152e578093d4d3e']))
+ 0.0625
+plugins (set([]), set(['Flash~Shockwave']))
+ 0.0625
