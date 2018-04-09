@@ -640,6 +640,26 @@ def get_action(feature_name, value_from, value_to):
         action = '{}->{}'.format(value_from, value_to)
     return action
 
+def verify_browserid_by_cookie():
+    db = Database('forpaper')
+    df = db.load_data(feature_list = ['browserid', 'label'], table_name = 'pandas_features')
+    grouped = df.groupby('browserid')
+    wrong_browserid = []
+    for key, cur_group in tqdm(grouped):
+        appeared = set()
+        pre_cookie = ""
+        for idx, row in cur_group.iterrows():
+            if pre_cookie != row['label']:
+                pre_cookie = row['label']
+                if row['label'] in appeared:
+                    wrong_browserid.append(row['browserid'])
+                    break
+                appeared.add(row['label'])
+    return wrong_browserid
+
+
+
+
 def generate_databases():
     #db = Database('round1')
     #df1 = load_data(load = True, feature_list = long_feature_list, table_name = "features", db = db)
@@ -665,14 +685,25 @@ def generate_databases():
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_features')
 
+    return 
     df3 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
     aim_db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_longfeatures')
-    return 
 
 
 def main():
+    wrong_browserids = verify_browserid_by_cookie()
+    for browserid in wrong_browserids:
+        print browserid
+    #db = Database('filteredchanges')
+    #get_all_feature_change_by_date_paper(db)
+    #feature = 'agent'
+    #print 'generating {}'.format(feature)
+    #df = load_data(load = True, feature_list = ["*"], 
+    #        table_name = "{}changes".format(feature), db = db)
+    #print ("{} users changed in total".format(df['browserid'].nunique()))
+    #remove_flip_users(df)
     #db = Database('forpaper')
     #maps = feature_delta_paper(db)
     #df = db.load_data(feature_list = long_feature_list, table_name = "pandas_longfeatures")
@@ -683,10 +714,9 @@ def main():
     #df = filter_less_than_n(df, 7)
     #feature_latex_table_paper(df)
     #get_all_change_details('./res/all_changes_by_date_filtered')
-    #db = Database('filteredchanges')
-    #get_all_feature_change_by_date_paper(db)
+    #get_all_change_details('./agentflip')
     #get_browserid_change_id(df, "0093b88be8a7aadf431d8e26c85145464winGoogle Inc.ANGLE (Intel(R) HD Graphics firefox)")
-   # db = Database('changes')
+    #db = Database('changes')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #db = Database('changes')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db, other = ' where jsFonts is not NULL and gpuimgs is not NULL')
@@ -700,8 +730,6 @@ def main():
     #change_to_unique, change_feature = check_browser_become_unique(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_longfeatures", db = db)
     #db = Database('changes')
-
-
 
 if __name__ == "__main__":
     main()

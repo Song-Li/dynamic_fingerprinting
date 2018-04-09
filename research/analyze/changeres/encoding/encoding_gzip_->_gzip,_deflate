@@ -1,0 +1,13 @@
+doing gzip -> gzip, deflate
+encoding (set(['gzip']), set(['gzip,', 'deflate']))
+ 1.0
+IP (set(['77.9.61.82']), set(['77.9.254.81']))
+ 0.333333333333
+browserfingerprint (set(['5f9058f0d54effeeb0f18db32ab40b4857b41e4d436a9b4dea15feb038cd475a']), set(['38f8c9f5abc5aa60c950c82da41b43da9b7e9e0a9485b4ae81682be6b48a7451']))
+ 0.333333333333
+browserfingerprint (set(['736db223e0716287475f05a496decfb5a71b119617eab896c7f19484ec9debff']), set(['f4f1f5df05b1a51d7ca7089cb2bf145aeb0a80bced56705c51b2b8def248e58b']))
+ 0.333333333333
+browserfingerprint (set(['dcf0501ffc02c6c9f4b42272a9fd2aa04c3175164dbd20eb3407fb16155d777a']), set(['d38a66a29bd738975015a3310d6352f5e42345dcd2268dbab0b6d8021744eaac']))
+ 0.333333333333
+ipcity (set(['Kleve']), set(['Dusseldorf']))
+ 0.333333333333

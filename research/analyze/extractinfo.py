@@ -38,6 +38,34 @@ def get_os_fonts(df):
 
     return res_fonts, cnts
 
+# input the agent string
+# return the full os type
+def get_full_os_from_agent(agent):
+    agent = agent.lower()
+    # respect the order of os
+    os_list = [
+            'windows phone',
+            'win',
+            'android',
+            'linux',
+            'iphone',
+            'ipad',
+            'mac'
+            ]
+    os = "other"
+    for cur_os in os_list:
+        if cur_os in agent:
+            os = cur_os
+            break
+    if os != 'win':
+        return os
+    # below this we use the full os for only windows
+    browser_type = get_browser_from_agent(agent)
+    if browser_type == 'chrome' or browser_type == 'opr/':
+        os = agent.split(')')[0].split('(')[1]
+    elif  browser_type == 'firefox':
+        os = agent.split('(')[1].split('rv:')[0]
+    return os
 
 # input the agent string
 # return the os type

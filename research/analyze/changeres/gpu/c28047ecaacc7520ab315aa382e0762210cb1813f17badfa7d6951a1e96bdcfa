@@ -1,0 +1,69 @@
+doing ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_1 ps_4_1) -> ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)
+gpu (set(['vs_4_1', 'ps_4_1)', 'Direct3D11']), set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']))
+ 1.0
+audio (set(['96000_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.666666666667
+jsFonts (set(['Outlook_MS', 'Specialty_MS', 'Latin', 'Reference']), set(['Latin_ZWAdobeF', 'Narrow_Arial', 'Black_Arial']))
+ 0.5
+browserfingerprint (set(['137284f5d50cb48a51bca9e8f853deba575260e0c1290a1e95d0adcdfea76d9b']), set(['3d7c8e3d2dc85b42cdde27d39dbbdfbb07db5954b71ff563fdf1f8bd2c5823b2']))
+ 0.333333333333
+canvastest (set(['de847cd2dc29c4ad126fd2dc70b850e449768ed9']), set(['14578bcaee87ff6fe7fee38ddfa2306a7e3b0a0a']))
+ 0.25
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+ 0.208333333333
+browserfingerprint (set(['137284f5d50cb48a51bca9e8f853deba575260e0c1290a1e95d0adcdfea76d9b']), set(['0bf8481ffb71b6b41faeb6bab3838eb1612bf1a946bc0ef86f7123a6508afbb2']))
+ 0.166666666667
+browserfingerprint (set(['e4b7c05afe30ef80cdea4267465766ff3f2d5bcae5b3f97ee150a81e1e21f006']), set(['1cd37ad18a8cf49ecd6d5a3f8a9cb1da5ba13ccf80d34038ba17846af2a5b302']))
+ 0.166666666667
+jsFonts (set(['Outlook_MS', 'Specialty_MS', 'Latin', 'Reference']), set(['Latin_ZWAdobeF']))
+ 0.166666666667
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.125
+IP (set(['103.245.119.193']), set(['171.61.175.180']))
+ 0.0833333333333
+IP (set(['180.151.194.28']), set(['203.122.32.147']))
+ 0.0416666666667
+IP (set(['191.115.189.174']), set(['191.115.161.0']))
+ 0.0416666666667
+IP (set(['223.190.109.210']), set(['103.245.119.193']))
+ 0.0416666666667
+IP (set(['5.62.43.35']), set(['5.62.43.86']))
+ 0.0416666666667
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ 0.0416666666667
+browserfingerprint (set(['049ff473e9255f55056ba61409b9261bb3a5c454875622c18dfa4e27cb0fe010']), set(['70981f79f4c98b94eecf111430915a961c71923d3258ed60715dc3a292002e67']))
+ 0.0416666666667
+browserfingerprint (set(['49c4199ccf85b75aac8d50d3d1b3be04f3569d57caad300d374344f310204a1b']), set(['f761d7104b2c3bc1415f676af5b9fbbe2b006e537fa488c7021d3e09c9cf0e13']))
+ 0.0416666666667
+browserfingerprint (set(['4e3e54cb4a804ee33db589e381ee438a958045a0a5c3ab59b67d092450e30a09']), set(['ae897d8cc024dbc637dae54a77313eee5a4dce6cd329b2eba7a594a6f9b73de9']))
+ 0.0416666666667
+browserfingerprint (set(['64443ddaf1c2d3973a15e5a86f5d377df0880efd5a4d03c7ad8bfcf245adacde']), set(['a70bd1a36d2d77f9cc69a17e478f8965149a3725cffea34c784701786d1771e8']))
+ 0.0416666666667
+browserfingerprint (set(['7160fc81cf98822fa257cb937820558f9fc53f195a5d2c47b878954fe55d9fd4']), set(['018ea01447572da80c4c93be8ef455ee7465399b0b9552fa266205bb325320e9']))
+ 0.0416666666667
+browserfingerprint (set(['7160fc81cf98822fa257cb937820558f9fc53f195a5d2c47b878954fe55d9fd4']), set(['037e15a2fd77bae5f83388dd9ffb4b4e3576c1d23cd51953432ca76c612c2d3d']))
+ 0.0416666666667
+browserfingerprint (set(['7da744846fadc111f8ac9f69306bf24bbe5c30ac83309c3091c6aea9011dbf8f']), set(['955080827a20fcde77249918c89c55759a635d2cae63a59f6c8fd07f9866473a']))
+ 0.0416666666667
+browserfingerprint (set(['8b7b3cf44453cc879ebbf0642fe597d5b02006b40bc0da35d037b0bef8d0a08e']), set(['23eb34b6f727fe5b879f8879ceac93228ef3198f707ce2d610ed0d4433f7a908']))
+ 0.0416666666667
+canvastest (set(['de847cd2dc29c4ad126fd2dc70b850e449768ed9']), set(['76b2447ccdd04208b9498df1765ae32d741ec4f3']))
+ 0.0416666666667
+ipcity (set(['Delhi']), set(['Noida']))
+ 0.0416666666667
+ipcity (set(['Gurgaon']), set(['Noida']))
+ 0.0416666666667
+ipcity (set(['Melipilla']), set(['Santiago']))
+ 0.0416666666667
+ipregion (set(['Delhi']), set(['Pradesh', 'Uttar']))
+ 0.0416666666667
+ipregion (set(['Haryana']), set(['Pradesh', 'Uttar']))
+ 0.0416666666667
+jsFonts (set(['Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Miriam_Miriam', '3_Agency', 'Serif_Palatino', 'Arabic_Tunga_Tw']), set(['GARAMOND', 'CASLON', 'PRO_Palatino', '3_ADOBE', 'Serif_MYRIAD', 'Pro_Miriam_Miriam', 'PRO_Agency', 'PRO_Tunga_Tw', 'Arabic_TRAJAN', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'PRO_ADOBE']))
+ 0.0416666666667
+jsFonts (set(['Black_Corbel_Cordia', 'MT_Onyx_Parchment_Plantagenet', 'Richard_Raavi_Ravie_Rod_Sakkal', 'BT_Informal', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Gothic_Comic', 'FB_Candara_Centaur_Chiller_Colonna', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', '3_Aharoni_Algerian_Andalus_Angsana', 'Light_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Bodoni', 'Arabic_Tunga_Univers', '7_Broadway_Browallia', 'BT_EucrosiaUPC_Euphemia_FangSong_Footlight', 'Script_Gabriola_Gautami_GeoSlab', 'MT_LilyUPC_Magneto_Malgun', 'Smallcaps_Bookshelf']), set(['BT_Engravers', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Schoolbook_Comic', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'Black_Copperplate', 'FB_Calisto', 'Gothic_Century', 'Typewriter_Lucida', 'ITC_Broadway_Browallia', '3_Agency', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'Condensed_Bookshelf', 'Cen', 'Titling', 'MT_LilyUPC_Magneto_Maiandra', 'MT_Onyx_Palace', 'MT_Plantagenet', 'Titling_Footlight', 'New_CordiaUPC_Curlz', 'Gothic_Copperplate', 'Light_Corbel_Cordia', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'FB_Aharoni_Algerian_Andalus_Angsana', 'Condensed_Rod_Sakkal', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', '7_Bradley', 'Style_Goudy', 'MT_Tw', 'Black_Bodoni', 'ITC_Elephant_English', 'GD_Malgun', 'Condensed_Gisha_Goudy', 'MT_Gabriola_Gautami_GeoSlab', 'BT_Gigi_Gill', 'Smallcaps_Bodoni', 'ITC_Bodoni', 'Script_French', 'Gothic', 'Condensed_Univers', 'Shadow_Informal', 'Sans_Lucida', 'BT_Imprint', 'Arabic_Tunga_Tw']))
+ 0.0416666666667
+language (set(['en-US,en;q=0.9']), set(['en-GB,en-US;q=0.9,en;q=0.8']))
+ 0.0416666666667
+timezone (set(['240']), set(['180']))
+ 0.0416666666667

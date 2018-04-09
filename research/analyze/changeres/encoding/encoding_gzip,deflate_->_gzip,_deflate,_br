@@ -1,0 +1,269 @@
+doing gzip,deflate -> gzip, deflate, br
+encoding (set(['gzip,deflate']), set(['gzip,', 'br', 'deflate,']))
+ 1.0
+language (set(['de-DE,en-US;q=0.8']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.473684210526
+canvastest (set(['c6c1f3cddacf8018708611f8170838a45c40eab4']), set(['2c122ebf0157168bee79b264ecbf184e6d258578']))
+ 0.289473684211
+canvastest (set(['c037718fede3818850dee9b03f6621a133141e76']), set(['a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71']))
+ 0.210526315789
+agent (set(['Chrome/38.0.2125.102', 'SamsungBrowser/3.5']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+ 0.184210526316
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102']), set(['Chrome/63.0.3239.111']))
+ 0.184210526316
+canvastest (set(['857d93d2640fb32d8ae4866590cabf16fd9627b8']), set(['a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71']))
+ 0.131578947368
+agent (set(['Chrome/38.0.2125.102', 'SamsungBrowser/3.3']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
+ 0.105263157895
+agent (set(['Chrome/38.0.2125.102', 'SamsungBrowser/3.3']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.4']))
+ 0.0789473684211
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102']), set(['Chrome/62.0.3202.84']))
+ 0.0526315789474
+canvastest (set(['70c2a08e12439b5cf8b65ca54d1b76dcaf493932']), set(['cf7a14cb84ca3485403b13fa58ec42115622dfdb']))
+ 0.0526315789474
+canvastest (set(['9b8dcdcf976830862d718f5fecc2129b25033f4f']), set(['ec1c33a93dfb572e9a8cb14e19098c2a2a7b511d']))
+ 0.0526315789474
+canvastest (set(['fea5f2c8c9557c6ecbea9be18e9c8bceb689d90f']), set(['477c9bfcd5df661094505c87e5560e45d4543e50']))
+ 0.0526315789474
+cookie (set(['False']), set(['True']))
+ 0.0526315789474
+IP (set(['109.40.128.24']), set(['46.86.24.118']))
+ 0.0263157894737
+IP (set(['109.41.65.101']), set(['109.41.65.90']))
+ 0.0263157894737
+IP (set(['109.42.3.153']), set(['77.190.193.253']))
+ 0.0263157894737
+IP (set(['109.45.2.240']), set(['109.45.1.181']))
+ 0.0263157894737
+IP (set(['178.115.131.14']), set(['213.147.165.174']))
+ 0.0263157894737
+IP (set(['178.162.198.5']), set(['84.16.242.158']))
+ 0.0263157894737
+IP (set(['2.247.249.77']), set(['46.83.49.83']))
+ 0.0263157894737
+IP (set(['37.201.228.177']), set(['37.201.229.187']))
+ 0.0263157894737
+IP (set(['46.5.2.168']), set(['46.5.2.83']))
+ 0.0263157894737
+IP (set(['46.5.2.225']), set(['46.223.128.126']))
+ 0.0263157894737
+IP (set(['5.80.192.62']), set(['86.136.200.4']))
+ 0.0263157894737
+IP (set(['78.48.53.104']), set(['78.53.242.162']))
+ 0.0263157894737
+IP (set(['78.52.19.27']), set(['78.52.240.245']))
+ 0.0263157894737
+IP (set(['79.199.179.183']), set(['84.135.44.129']))
+ 0.0263157894737
+IP (set(['79.214.15.142']), set(['79.214.2.34']))
+ 0.0263157894737
+IP (set(['79.220.110.183']), set(['79.220.112.137']))
+ 0.0263157894737
+IP (set(['84.136.98.231']), set(['2.247.245.32']))
+ 0.0263157894737
+IP (set(['84.150.213.57']), set(['84.150.222.130']))
+ 0.0263157894737
+IP (set(['84.58.1.71']), set(['84.58.4.191']))
+ 0.0263157894737
+IP (set(['87.123.133.195']), set(['88.130.122.45']))
+ 0.0263157894737
+IP (set(['87.155.240.68']), set(['87.155.245.158']))
+ 0.0263157894737
+IP (set(['87.161.235.215']), set(['87.161.228.22']))
+ 0.0263157894737
+IP (set(['89.15.236.217']), set(['89.182.51.193']))
+ 0.0263157894737
+IP (set(['89.15.239.188']), set(['31.18.253.101']))
+ 0.0263157894737
+IP (set(['89.204.154.72']), set(['88.130.52.124']))
+ 0.0263157894737
+IP (set(['91.46.224.243']), set(['91.34.199.119']))
+ 0.0263157894737
+IP (set(['91.46.54.109']), set(['91.46.56.140']))
+ 0.0263157894737
+IP (set(['92.208.17.19']), set(['92.214.182.133']))
+ 0.0263157894737
+IP (set(['92.208.65.246']), set(['178.0.247.39']))
+ 0.0263157894737
+IP (set(['92.72.147.24']), set(['84.63.183.66']))
+ 0.0263157894737
+IP (set(['93.194.68.165']), set(['217.233.231.135']))
+ 0.0263157894737
+IP (set(['95.222.31.149']), set(['95.222.31.91']))
+ 0.0263157894737
+agent (set(['Build/LMY48B)', 'SamsungBrowser/3.3', '5.1.1;', 'Chrome/38.0.2125.102']), set(['6.0.1;', 'Build/MMB29M)', 'SamsungBrowser/6.4', 'Chrome/56.0.2924.87']))
+ 0.0263157894737
+agent (set(['Chrome/38.0.2125.102', 'Build/LMY47X)', 'SamsungBrowser/3.3', '5.1.1;', 'SM-P605']), set(['Mobile', 'SM-N9005/XXSGBPL7', 'SamsungBrowser/6.2', '5.0;', 'Chrome/56.0.2924.87', 'Build/LRX21V)']))
+ 0.0263157894737
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ 0.0263157894737
+agent (set(['Version/4.0', '(Linux;Android', 'likeGecko)', '5.0;HUAWEI', 'Chrome/37.0.0.0', 'ALE-21/ALE-L21C02B140)AppleWebKit/537.36']), set(['(Linux;', '6.0;', 'Gecko)', 'Build/HuaweiALE-L21)', 'Chrome/63.0.3239.111', 'ALE-L21', 'Android', 'AppleWebKit/537.36', 'like']))
+ 0.0263157894737
+agent (set(['Version/4.0', '6.0;', 'Mobile', 'LG-H440n', 'Build/MRA58K)', 'Chrome/38.0.2125.102']), set(['Chrome/62.0.3202.84', '7.1.1;', 'SM-T555', 'Build/NMF26X)']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/37.0.0.0']), set(['Chrome/63.0.3239.111']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/37.0.0.0']), set(['Chrome/64.0.3282.137']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/38.0.0.0', 'HTC_One_M8/6.12.111.4']), set(['One_M8', 'HTC', 'Chrome/63.0.3239.111']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102', 'LG-H815/V20l']), set(['LG-H815', 'Chrome/63.0.3239.111']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102']), set(['Chrome/61.0.3163.98']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102']), set(['Chrome/63.0.3239.83']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102']), set(['Chrome/64.0.3282.123']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'Chrome/38.0.2125.102']), set(['Chrome/64.0.3282.137']))
+ 0.0263157894737
+agent (set(['Version/4.0', 'HTC_One_M8', 'Chrome/38.0.0.0']), set(['One_M8', 'HTC', 'Chrome/63.0.3239.111']))
+ 0.0263157894737
+browserfingerprint (set(['176989ab3ca705dc9ce962a8213e9ab90cde4574f29bd4192bebe0e0336dcd8f']), set(['9aecfedd54358cf99b99f8b7c0a2021ef2293b8938c1781e32782d64bc59cd12']))
+ 0.0263157894737
+browserfingerprint (set(['1ae006d3fa69ebcdc1776cb88c93206e419862f1ccb65e28202311a4f7d8acd1']), set(['5a49b210f327bf7b1034e1fe65cb3418e5256e81538be85044a0bc77bf356ad4']))
+ 0.0263157894737
+browserfingerprint (set(['3253e193cb4356dde449ff8ff68cca057708daced319f94c675ff6ac24de2cb4']), set(['75d2bec4c4ab29eff9a98c18eb45adc118b0ec350399c68e6fc87d2445eef94c']))
+ 0.0263157894737
+browserfingerprint (set(['3754f3cadba858885f6241fdf11fcc48c341bb8ca026c6057c0bba10f6f6b171']), set(['5c20dad07d3ef2d71cf1c2d4224245d38cf12501e4bbe52c6f293335f7fa6d74']))
+ 0.0263157894737
+browserfingerprint (set(['39a83f22e7cf01c12a286d0d91e8de1b1f38d5b2f8550d1adf7d3b691a521c1e']), set(['514930d54dc2870b1b6e3ca2dd241eba24919f8d16473e62048ba70d95778301']))
+ 0.0263157894737
+browserfingerprint (set(['3c36c6c756097467871a5e61adbf538f96b416e3dc53cd4ad5b6450f4b1c7e40']), set(['52dbafbd2a061407a85e0f9599890bd0d5ba25baf4bcc4780349424b860aaf55']))
+ 0.0263157894737
+browserfingerprint (set(['41b2de9ed4c661a55b514809b2522a0309b0fd65e946295abef2e48f648498e2']), set(['c8b81ef06437b1016228e5f914f2ded53b433f04aafdc82400e2d55d7d421c4e']))
+ 0.0263157894737
+browserfingerprint (set(['4d527584c5f1d243e8faf2181471dd2c2de5cb4ae8674490c9a9205e9872e08d']), set(['6115f99e515fc5e35fbb5c6d7e11bb0a1e47f19d12b149759f1a43702dc1404d']))
+ 0.0263157894737
+browserfingerprint (set(['4f535e27ae2a091444781f00911caa1f8da3397f56cf1fb959ba9fd2aea5a19c']), set(['1de36bed44665c3734efa0d48c1f065c1898c63403b57a8d36b3e8abbf402fb4']))
+ 0.0263157894737
+browserfingerprint (set(['594c7d6fd3f84b26fd5c79f4f0452ed7e182ee87c4f801289387040cc7e64c6a']), set(['843cc646b7a6d86ff1aa980594908db3b16489b52a3f39b81dfc6d3f4aa084ec']))
+ 0.0263157894737
+browserfingerprint (set(['5ac6884ee379955f3d61f6a447aeed53404f5474870620adc348250c5d17e6a8']), set(['5f261cc3a9d745cff44af7b53d2f959b94617619af6286f2fd2b370055528cf7']))
+ 0.0263157894737
+browserfingerprint (set(['5d0fe0f6ac76cb2793098928eb2c6b8fa48a0f6d205ef022d29eff26620e14d6']), set(['3b674f92bccd24ae570276dc304582fa8d10c527197fa1d79287c966b6d34a8e']))
+ 0.0263157894737
+browserfingerprint (set(['6e7a56dff267cc2b4e132078fbc76281e0b5f7d269224e4962878a9687c1540b']), set(['cc05fcf365c145aab417b010d5ab1aaca5ecea3f3982611c810bd330e251c41c']))
+ 0.0263157894737
+browserfingerprint (set(['7781ae2a491767be5e6fee4aadd9ac125c8940e0537471b3847384e1a6acce5c']), set(['1f4ba5025b027f9ec64025c8656a4b5b62a0619f20a4f90d7720892faa693e98']))
+ 0.0263157894737
+browserfingerprint (set(['792c54948b1bc1e7c8174c7124e66d4d71a45ca29993d466d241dd7acfd08fe8']), set(['5ed1b64942752f78dcf4a5a0713c612a09e7495070433d0d722dff057a6226f9']))
+ 0.0263157894737
+browserfingerprint (set(['7b1746960ca8871e2d4be5e79bcc64d0d46245a055617c78daaee6d7a88600a0']), set(['50d2dcac48349be2b239e73f64a3eb55e66b87dc97e78afd6fc7450cac2ea5ce']))
+ 0.0263157894737
+browserfingerprint (set(['7ccc5c909ee27074ed4e85d06eef3c1681e4940d2de58450a1f2cb0cc4edf34b']), set(['b3eb6e3d39dd6702262fa989c7aafd4e7b41b12e281f8d7a8875136f2f3ebe42']))
+ 0.0263157894737
+browserfingerprint (set(['8303b374b5c2fd8fe8936c0d0b82189ec9aa2211ce300dbe54d9948bb2cbefc3']), set(['85fae30cbe7f9d107621444c37e56e9c0b0e32fefdbcfe8cd66f7675f5a2dae6']))
+ 0.0263157894737
+browserfingerprint (set(['84dcedfe0fddd3bb27032ec7abd5e67f8fafdddbbbaf0be6a1db8140ef311106']), set(['ac707f49c11602e6c654f56a340bd34e49f1e58f8636b0bff45be9c0e3919ec1']))
+ 0.0263157894737
+browserfingerprint (set(['8c7666176601c4d83dfa901b52b8ae9251a32cd01bac27dcc8faa8d838537800']), set(['c7ddb0b23e24b402e280eb4820651ec36d59d9849a50939037a9cf4457507aee']))
+ 0.0263157894737
+browserfingerprint (set(['8e4e02d0fd258dae2431d50f6ed2fac493b08950de90d4fafed37d80adc0266a']), set(['0f72aaa17de69b879222856705f9a5686bf75981bdd257afe6a128eaee40c9cf']))
+ 0.0263157894737
+browserfingerprint (set(['8f26ad37bfd25947aab27742583c9608e6aa71ee4163936d7da6069c9c8a56b1']), set(['d26604e462bee93b96de1394c1e15b9c46ad435100422cdb1e4f4c0363b1bae0']))
+ 0.0263157894737
+browserfingerprint (set(['98957c82d5842ac2b306daee2883a51b15b27fac57b11567415b91f3ba1ea70c']), set(['0d8c700f7c591b237e1798a35fb79a8fc671a6903584377e36a06fd50d2dff75']))
+ 0.0263157894737
+browserfingerprint (set(['9a366bd9638ecd9f85e2f175cec7315c252a5da5f5098b23b1a29b9a80bbf247']), set(['ce3cc128bae8d0994cca9696e78f60b0d6afe370e357df1eecd5384dc84f25dd']))
+ 0.0263157894737
+browserfingerprint (set(['9cfbe11dcc5406f14ca0b0be4b3f3da19e3509456c6d58abfb4986b71208dffa']), set(['1b91bb89be43f51a470bfcfca152910fdd36e80ecfd8bbbcf5e7d5185f829901']))
+ 0.0263157894737
+browserfingerprint (set(['a027f7555d9eb21442cd9ef55d707b16db0b3400406cd97e31b42528d2559d33']), set(['ab349f27093bb07a767ef0b4004ce860be02d0f37a46ee3460dcded3f0229fbd']))
+ 0.0263157894737
+browserfingerprint (set(['a12d822fd80f9d9d28c43a297fb66eb2c3290a2adfcc9a9f19d1808ac536a4b5']), set(['c968dae78e1fed95064f9bc762bce64461b38d0311f4d31caacaeffe0f8ba125']))
+ 0.0263157894737
+browserfingerprint (set(['ac0baf54e4aae06c1b32925f1147e5e310653f154a23344c03337008d97b1136']), set(['888aa2deeda65e865be8aab8abd8e8f636a4c164382682801763d78e93492c05']))
+ 0.0263157894737
+browserfingerprint (set(['b4dec9f98a8c041360bb435df1d83bbe0cc5d9d409b26e2c3c87a62709197ccb']), set(['5fe9dd9d90ef3f677c5f5f5417296ed4e46c446bee165d86ef8cea6fe19c762c']))
+ 0.0263157894737
+browserfingerprint (set(['b8cef37575bae011ab9fdd2c6ebc21af09bd63775e3bd01d6d18fc58c6cb4964']), set(['ba9cf15e4659bb8db7617c055bd987a4f967510db90fc77f5d01e0de39d49b72']))
+ 0.0263157894737
+browserfingerprint (set(['bc578dd143686fc71d7d7a691b305d2a479b8bfd602a347e9ad6d06d4e389e78']), set(['61d286ca2987fb251bda406c6ca61b8af4ce5588f5e680a2e5da5bf9a50f5d89']))
+ 0.0263157894737
+browserfingerprint (set(['bc789f8164fe3aaafbe084bd88fbbfd530a2173ecdca9489ba7ae5c1edf132f4']), set(['da1197c98cd9032b1eab59eee6e724819bb2178162758dd6f34957832f2fd28e']))
+ 0.0263157894737
+browserfingerprint (set(['bff0e3d2e3bdf3e4073ba438a24b82269aa92bc0dba7bb2143234091c9b4e8f2']), set(['adef4a649cb744e28163c56c717e1e7ce854ea5bebd1df879e0083874a7438a6']))
+ 0.0263157894737
+browserfingerprint (set(['c47579642b0ab697b5578a9c99fecb7867e2bb8524054226af4230311760a47f']), set(['4ec249f501314bc4142e2b8f3824525fe2aa65b284a4a4ae4c3c2cd84d0a14b7']))
+ 0.0263157894737
+browserfingerprint (set(['d7979d391f3cd117677ce8b48f896af987879b91bf5955121bfa600e1ef74836']), set(['9f61868220da034623b2f7add1c5bd15cae08b6bbd234755a580f5a8d30a53d4']))
+ 0.0263157894737
+browserfingerprint (set(['d87899e23bf3340f4f6d8e95cce8848477e7e34c559429acf74e63e9fa4f1ae2']), set(['02390dc739b68a95ca83cf3be2d31252b708957c4d37f83d962e61549c46aa35']))
+ 0.0263157894737
+browserfingerprint (set(['e7d64b999b66504e1dc3c2f21dd9d027ef045c57ac8495ef2f6c3f33ade44f9e']), set(['45237066a1e4fdcc65cb9b379ec31b22748aeb3ff9216b2ef647cc47333a1f54']))
+ 0.0263157894737
+browserfingerprint (set(['fdbcbffc0c17e4e116c19131c13e0b697d49903c120844f65e5223bf8eeac747']), set(['98a6c491eb432c103a9556f9fa32f3cd8e8c90587b5546f2c4094d376e05baac']))
+ 0.0263157894737
+canvastest (set(['7873de14a15d868a8972a39700d88f231d589bac']), set(['2308cf6ee2981c87b915a6f8f23ecb819588112c']))
+ 0.0263157894737
+canvastest (set(['79fd8201222abb27375631debf6151e3875cb545']), set(['a617dcd8d3ec2aac0b3031639a52dbaf5a2c7c71']))
+ 0.0263157894737
+canvastest (set(['857d93d2640fb32d8ae4866590cabf16fd9627b8']), set(['4ed34e40efd9bdb1a18a2bbdcf016ebd3df532e0']))
+ 0.0263157894737
+canvastest (set(['9b8dcdcf976830862d718f5fecc2129b25033f4f']), set(['d5ae700aec6b39fcee5968d1e4481344b07670f2']))
+ 0.0263157894737
+canvastest (set(['f28bb53b8d346d78dea60a698c3cdc62aed712ed']), set(['704982b424c6993c4344f98d18cbd5181316efb9']))
+ 0.0263157894737
+canvastest (set(['fea5f2c8c9557c6ecbea9be18e9c8bceb689d90f']), set(['88f9a35438201f34381be6425fc61c58c31b5fc1']))
+ 0.0263157894737
+ipcity (set(['Aachen']), set(['Dusseldorf']))
+ 0.0263157894737
+ipcity (set(['Bedford']), set(['Preston']))
+ 0.0263157894737
+ipcity (set(['Dusseldorf']), set(['Wieseck']))
+ 0.0263157894737
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Lampertheim']))
+ 0.0263157894737
+ipcity (set(['Freiburg']), set(['Munich']))
+ 0.0263157894737
+ipcity (set(['Hamburg']), set(['Braunschweig']))
+ 0.0263157894737
+ipcity (set(['Hameln']), set(['Braunschweig']))
+ 0.0263157894737
+ipcity (set(['Idar-Oberstein']), set(['Andel']))
+ 0.0263157894737
+ipcity (set(['Mecklenburg']), set(['Berlin']))
+ 0.0263157894737
+ipcity (set(['Munich']), set(['Nuremberg']))
+ 0.0263157894737
+ipcity (set(['Nossen']), set(['Erfurt']))
+ 0.0263157894737
+ipcity (set(['Prenzlau']), set(['Berlin']))
+ 0.0263157894737
+ipcity (set(['Reisen']), set(['Mannheim']))
+ 0.0263157894737
+ipcity (set(['Stuttgart']), set(['Freiburg']))
+ 0.0263157894737
+ipcity (set(['Vienna']), set(['Enzersdorf', 'Maria']))
+ 0.0263157894737
+ipcity (set(['Zwickau']), set(['Bielefeld']))
+ 0.0263157894737
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+ 0.0263157894737
+ipregion (set(['Brandenburg']), set(['Berlin']))
+ 0.0263157894737
+ipregion (set(['Hamburg']), set(['Niedersachsen']))
+ 0.0263157894737
+ipregion (set(['Hessen']), set(['Baden-Wurttemberg']))
+ 0.0263157894737
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Berlin']))
+ 0.0263157894737
+ipregion (set(['Nordrhein-Westfalen']), set(['Hessen']))
+ 0.0263157894737
+ipregion (set(['Sachsen']), set(['Nordrhein-Westfalen']))
+ 0.0263157894737
+ipregion (set(['Sachsen']), set(['Thuringen']))
+ 0.0263157894737
+ipregion (set(['Wien']), set(['Niederosterreich']))
+ 0.0263157894737
+langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Thaana']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+ 0.0263157894737
+langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Lao_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Georgian']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+ 0.0263157894737
+language (set(['de-DE,en-US;q=0.8']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
+ 0.0263157894737
+language (set(['de-DE,en-US;q=0.8']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7,tr;q=0.6']))
+ 0.0263157894737
+localstorage (set(['False']), set(['True']))
+ 0.0263157894737

@@ -1,0 +1,121 @@
+doing Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Syriac_Thaana_Inuktitut_Cherokee -> Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee
+langsdetected (set(['Yi_Mongolian_Syriac_Thaana_Inuktitut_Cherokee']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee']))
+ 1.0
+language (set(['en-US,en;q=0.5']), set(['en-GB,en;q=0.5']))
+ 0.457142857143
+plugins (set(['~AdobeAAMDetect~AdobeExManDetect~Default', 'Plugin~Shockwave', 'Adobe', 'Helper~Google', 'Plugin~SharePoint', 'Talk', 'Plugin', 'Renderer~Java', 'Applet', 'Version', 'Video', 'Plugin~Google', 'NPAPI', 'Flash~Sibelius', 'Acrobat', 'Scorch', 'Browser']), set(['Shockwave', 'Flash']))
+ 0.457142857143
+agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+ 0.371428571429
+agent (set(['Waterfox/56.0.4', 'rv:56.0)', 'Firefox/56.0.4']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.342857142857
+browserfingerprint (set(['5aa98fa1eac8890a3a80c267f9b037c97bdae1b4ef5e76fbf9e9b17adac47603']), set(['e9ea8b1dd80c40be00c401314e166da3014ff4dc1aebfca949a036bb0f40b026']))
+ 0.342857142857
+canvastest (set(['674203286bb0893637b0cbf39e9c0b7953996f5f']), set(['c3c6b11e98796d6910e6875a2b5137cedefffed8']))
+ 0.342857142857
+agent (set(['rv:56.0)', 'Firefox/56.0.2', 'Waterfox/56.0.2']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.114285714286
+browserfingerprint (set(['c38f5e36880760a3d3297bf43c9cba5b9442e51ca922702cc63ade676a586530']), set(['6c241a9f68666f71335ff421902f50ec9d58c2e6cbe73a87b36d8dc0e315470f']))
+ 0.114285714286
+canvastest (set(['c2c2463dd184d8d5e8247b0eb65a94e49c1c9c42']), set(['674203286bb0893637b0cbf39e9c0b7953996f5f']))
+ 0.114285714286
+agent (set(['Firefox/56.0', 'rv:56.0)']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.0857142857143
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+ 0.0571428571429
+IP (set(['144.85.216.110']), set(['144.85.215.79']))
+ 0.0285714285714
+IP (set(['31.17.251.101']), set(['31.17.251.103']))
+ 0.0285714285714
+IP (set(['77.178.26.124']), set(['77.177.99.142']))
+ 0.0285714285714
+IP (set(['77.186.209.95']), set(['77.187.99.82']))
+ 0.0285714285714
+IP (set(['77.190.206.145']), set(['77.179.139.128']))
+ 0.0285714285714
+IP (set(['77.190.33.248']), set(['77.189.143.75']))
+ 0.0285714285714
+IP (set(['79.193.104.175']), set(['37.201.194.210']))
+ 0.0285714285714
+IP (set(['88.217.107.126']), set(['88.217.115.97']))
+ 0.0285714285714
+IP (set(['92.76.141.240']), set(['188.97.185.8']))
+ 0.0285714285714
+IP (set(['93.210.155.46']), set(['87.179.179.39']))
+ 0.0285714285714
+IP (set(['93.219.182.4']), set(['84.186.153.249']))
+ 0.0285714285714
+agent (set(['Firefox/53.0', 'rv:53.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+ 0.0285714285714
+agent (set(['Firefox/53.0', 'rv:53.0)']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.0285714285714
+agent (set(['rv:55.0)', 'Firefox/55.0']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.0285714285714
+browserfingerprint (set(['1cb4664b2771900ddc75b72d1ea24a3a226ac6a336fa38b9253fa591aa84f8d5']), set(['3c02094ffb73abb479a8bcdcd63c0e99442b84ca5df47ab3efe23d3f4f70202e']))
+ 0.0285714285714
+browserfingerprint (set(['31bcd3383cecac28a7e91094c7aac583c1dc2857fbbed9e630fbd86606a92c48']), set(['b162629a16867208341668bd17ba33ba95db9b998c7ca8f01c21603037a8a1c4']))
+ 0.0285714285714
+browserfingerprint (set(['31dd136acc4eb2b9cc6a3495ebc8ab06ffd02d9677ce946fc19ce665ba9d056c']), set(['4753863638febb20ae5dd1bfbe57a7980cd1c0b849758681e497bb463c8bdda1']))
+ 0.0285714285714
+browserfingerprint (set(['332b6da2ef76bd3920bae9d983443b55214c4aa62fc52edbbe89ca82037b32bd']), set(['a79f75eb1f94b1fef77735e970468bee1f25f2afbf922f08b5601539cfb512c3']))
+ 0.0285714285714
+browserfingerprint (set(['515e8975a075de811a756df94c4e39c8ac504df2e56013daa0a8817b5c287476']), set(['ebb307cb7b37d1fe37de7744793b960e3054c81c6089a1ed919d116cbb5ab715']))
+ 0.0285714285714
+browserfingerprint (set(['65cc76b585c01a92963b68382872edb99b7876a7bf87b2dac7db25d986ec951f']), set(['d0cd013de08acd54753a45e84461ea372f12db7614d1d74b0ede2ce30a8ca23b']))
+ 0.0285714285714
+browserfingerprint (set(['7de7434a2722fda3ff77e7c7532b3e7b980a9795727c729edbc424e800430ca7']), set(['e69a908dd24862ccff3a8f92ea00448235e34a1c10cfe450b874dcd476e51c64']))
+ 0.0285714285714
+browserfingerprint (set(['87121da43468f6a2b1c0bc8e68d762e088539bafc73cbc1b2fd44c62cf09361c']), set(['32eef970bd3210a8b994698f0e003dae53e5825dc1cb19041a126890035d1dd3']))
+ 0.0285714285714
+browserfingerprint (set(['9806d996a02eee92cb6fbcafe9534b1eef18fe7f6b254388d27913251cc355cd']), set(['1609a02f11cf98b4c29bb262182f77f613efd41d0522f9845387ecc675b962e8']))
+ 0.0285714285714
+browserfingerprint (set(['98a5b0b93040f6fae7c4c40ad867cac52b8b2fdf4025a50dfb29cdb930a9b810']), set(['95e13e5743bebe38d9d80e957c3f1faa5c43c20ce5c451ad6f6d677443bd5119']))
+ 0.0285714285714
+browserfingerprint (set(['99928e0f666d6b7e825cebe17f403e3f45ce04d893ad74546ad4e3d8fcff0ef2']), set(['e9f34077d3575637116f3c1d9d923c42ac8af31992f5a44b39c7fe75547d1d52']))
+ 0.0285714285714
+browserfingerprint (set(['aa465773dd2b2d5fabf91ab87d3493d041313beeacaa118205ee88879d30ed90']), set(['f0d1443b8aa9195cf7a3f27483821ea7091940178ca35fa0e394bdf91676d3d2']))
+ 0.0285714285714
+browserfingerprint (set(['ad7e862e59cbd0f0a78500126e44aa3606aea56830483ddeebd086cbacab3e5c']), set(['8e07911f9718002fe693ab6a706b94944891696a1e31521e13b7ef2686115b31']))
+ 0.0285714285714
+browserfingerprint (set(['ae94ebeeec96292f43ecebf6034043a675f7a4fa8a67470b87c29fc2fea91a6c']), set(['2adc4688114c9ec70a6dccec7a20aba49dd2c9b34465c2f95803f74889165cd3']))
+ 0.0285714285714
+browserfingerprint (set(['bd354ad1b5f90077a7764de451efb38729f8971c88537ec9dee7e390bdb2a206']), set(['d60235846d240bf3e6a79c960c1f0efd11271e9a70257abc3cbcfe60d589b3dc']))
+ 0.0285714285714
+browserfingerprint (set(['c415b965e0a001653aeb9d9cde849e257d8d8f41c0716d2ba5eedcfd69030f41']), set(['eebd5e3f60183ec1998801dc22b84fe076d95d5a40a4b59d6ecc96d47cbc5e17']))
+ 0.0285714285714
+browserfingerprint (set(['c5d42220ad149262bd224ddd5941466432e4201614ceb2b22a1bc2a6f9e00ccc']), set(['cdab9fdffe6ff365b76eeff2187f63c68e1324fddd9e7e6879e4dac80479301b']))
+ 0.0285714285714
+browserfingerprint (set(['d08578100c74ec1c682fd64ad6a7be24a40f9ae5c16f6cabc6646f7b6c40361c']), set(['ddc42434366855b6d1223445c98100f0389b9d32643badac020efbcd60383631']))
+ 0.0285714285714
+browserfingerprint (set(['ddd50c6fdcd4a858811de10b3dd9db842c254522d0a88ba5280d8616c587ac3d']), set(['64c10505b39c23859d6188edfc624d9514722768cb9f75916114ad9cab52bbf8']))
+ 0.0285714285714
+canvastest (set(['552bea8215028f7a68e50c0cb2706f338743f07f']), set(['c2c2463dd184d8d5e8247b0eb65a94e49c1c9c42']))
+ 0.0285714285714
+ipcity (set(['Berlin']), set(['Freiburg']))
+ 0.0285714285714
+ipcity (set(['Erkenbrechtshofen']), set(['Berlin']))
+ 0.0285714285714
+ipcity (set(['Freinsheim']), set(['Frankfurt', 'Main', 'am']))
+ 0.0285714285714
+ipcity (set(['Hamburg']), set(['Luebeck']))
+ 0.0285714285714
+ipcity (set(['Isenburg']), set(['Nuremberg']))
+ 0.0285714285714
+ipcity (set(['Munich']), set(['Stuttgart']))
+ 0.0285714285714
+ipcity (set(['Nuremberg']), set(['Ulm']))
+ 0.0285714285714
+ipcity (set(['Pully']), set(['Lausanne']))
+ 0.0285714285714
+ipregion (set(['Bayern']), set(['Berlin']))
+ 0.0285714285714
+ipregion (set(['Berlin']), set(['Baden-Wurttemberg']))
+ 0.0285714285714
+ipregion (set(['Hamburg']), set(['Schleswig-Holstein']))
+ 0.0285714285714
+ipregion (set(['Rheinland-Pfalz']), set(['Bayern']))
+ 0.0285714285714
+ipregion (set(['Rheinland-Pfalz']), set(['Hessen']))
+ 0.0285714285714
+language (set(['de,en-US;q=0.7,en;q=0.3']), set(['de-DE,de;q=0.8,en-US;q=0.5,en;q=0.3']))
+ 0.0285714285714

@@ -1,0 +1,33 @@
+doing gzip, deflate -> gzip,deflate
+encoding (set(['gzip,', 'deflate']), set(['gzip,deflate']))
+ 1.0
+IP (set(['188.99.36.205']), set(['188.98.248.80']))
+ 0.5
+agent (set(['Chrome/55.0.2883.75', 'Maxthon/5.1.3.2000']), set(['Maxthon/4.9.5.1000', 'Chrome/39.0.2146.0']))
+ 0.5
+agent (set(['Maxthon/5.0.3.3000', 'Chrome/47.0.2526.73']), set(['Maxthon/4.9.5.1000', 'Chrome/39.0.2146.0']))
+ 0.5
+browserfingerprint (set(['27ebcfda1002d57e20270ef236787620842f68dda52f9bcdba1da7e6853d65c5']), set(['bb9285e5cfe92dd2d4f5b26891c0a1bffa15267aee1076238b90426ac3889c0a']))
+ 0.5
+browserfingerprint (set(['9192f5266747304c44045e2d61ae4b216c4b92c011c26df452a8af47d0caaa85']), set(['2c9e77fb9df5fa0626bab9ad7d99e940c12b496ada0418bd8f8f9ab5c8fa0765']))
+ 0.5
+canvastest (set(['4ae230f11be50db77fc4f093b9ad11a5beda5399']), set(['ab58400b1eb128ca6efff13991cedbe7b65f7354']))
+ 0.5
+canvastest (set(['70f4ef5d547a0e2016cffccb503bdfd65d4fcbad']), set(['08f8ee74b0666ff10aeaa6e604e96583e36f3996']))
+ 0.5
+gpu (set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']), set(['vs_5_0', 'ps_5_0)', 'Direct3D11']))
+ 0.5
+ipcity (set(['bei', 'Neustadt', 'Coburg']), set(['Passau']))
+ 0.5
+jsFonts (set(['Light_Segoe', 'Narrow_Arial', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'Condensed_Bookshelf', 'Black_Copperplate', 'Titling_Footlight', 'Gothic_Copperplate', 'Light_Corbel_Cordia', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'Black_Bodoni', 'MT_Constantia_Cooper', 'Black_Arial', 'Condensed_Rod_Sakkal', 'MT_Tw', 'MT_Gill', 'Semibold_Segoe', 'Condensed_Gisha_Goudy', 'FB_Bernard', 'Gothic', 'Condensed_Univers']), set(['Richard_Pristina_Raavi_Ravie_Rockwell_Rod_Sakkal', 'Titling_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'MT_Bookshelf', 'MT_Constantia_Copperplate', 'MT_Univers', 'MT_Gisha_Goudy', 'FB_Blackadder', 'Gothic_Corbel_Cordia']))
+ 0.5
+jsFonts (set(['Light_Segoe', 'Semibold_Segoe', 'Condensed_Constantia_Corbel_Cordia', 'Arial_Arial', 'New_BrowalliaUPC_Candara_Clarendon_Clarendon', 'Black_Arial', 'Narrow_Calibri_Cambria_Cambria']), set(['Arial_Calibri_Cambria_Cambria', 'New_BrowalliaUPC_Candara_Clarendon_Constantia_Corbel_Cordia']))
+ 0.5
+langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']), set(['Latin_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Gurmukhi_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']))
+ 0.5
+langsdetected (set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']), set(['Latin_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Gurmukhi_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']))
+ 0.5
+plugins (set(['Content', 'Decryption', 'Module', 'U~MXPDFVIEWERPLUGIN~Mx', 'Plugin~Widevine']), set(['U~Maxthon']))
+ 0.5
+plugins (set(['U~MXPDFVIEWERPLUGIN~Microsoft', 'Viewer~Shockwave', '~Mx']), set(['Viewer~Microsoft', '~Shockwave', 'U~Maxthon']))
+ 0.5

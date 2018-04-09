@@ -565,7 +565,7 @@ def get_device(row):
     # platform is between the first ( and the first ;
     platform = ""
     try:
-        platform = row['agent'].split(')')[0].split('(')[1].split(';')[0]
+        platform = get_full_os_from_agent(row['agent'])
     except:
         pass
 
@@ -578,7 +578,7 @@ def get_device(row):
         except:
             pass
 
-    #id_str += platform
+    id_str += platform
     #gpu_type = row['gpu'].split('Direct')[0]
     #id_str += gpu_type
     return id_str
@@ -587,7 +587,7 @@ def get_browserid(row):
     id_str = ""
     # platform is between the first ( and the first ;
     platform = ""
-    platform = get_os_from_agent(row['agent'])
+    platform = get_full_os_from_agent(row['agent'])
 
     #print ("error getting platform: ", row['agent'])
     keys = ['clientid', 'cpucores', 'fp2_platform']

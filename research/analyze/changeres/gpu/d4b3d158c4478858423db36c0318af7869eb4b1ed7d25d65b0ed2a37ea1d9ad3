@@ -1,0 +1,73 @@
+doing ANGLE (Intel(R) HD Graphics 4600 Direct3D9Ex vs_3_0 ps_3_0) -> ANGLE (Intel(R) HD Graphics 4600 Direct3D11 vs_5_0 ps_5_0)
+gpu (set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']), set(['vs_5_0', 'ps_5_0)', 'Direct3D11']))
+ 1.0
+cookie (set(['True']), set(['False']))
+ 0.910112359551
+localstorage (set(['True']), set(['False']))
+ 0.910112359551
+canvastest (set(['420935ea40f8189d1cb22140a80d7f20711efd1b']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+ 0.808988764045
+jsFonts (set(['Latin_ZWAdobeF']), set(['Latin']))
+ 0.505617977528
+language (set(['nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7']), set(['fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.505617977528
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.404494382022
+jsFonts (set(['Capitals_Microsoft']), set(['Capitals_Meiryo_Meiryo', 'UI_Microsoft']))
+ 0.404494382022
+language (set(['nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6,fr;q=0.5,it;q=0.4,es;q=0.3']), set(['fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.404494382022
+IP (set(['91.182.203.233']), set(['194.78.52.130']))
+ 0.101123595506
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.101123595506
+browserfingerprint (set(['02af6227589ee1b11baa2b23b609056d5fad90ae76f5485d4cad19f964bd929a']), set(['d976334cff1d60015074614e4a80e1ca262f7a07979f5721ed6217ccd8aa3cde']))
+ 0.101123595506
+browserfingerprint (set(['36826b3732f587d594a147ed1a9541bb8c9c99983b71dbb561e8a2b8af637d03']), set(['dd220c6482913124e96ff5797adf5f31c120fc600ea222f23bc3297afce7fd48']))
+ 0.101123595506
+browserfingerprint (set(['78183e2007d90ac3410b2d8f88164e602f1d034c08a65ad9dc708ffa890a3a98']), set(['dd220c6482913124e96ff5797adf5f31c120fc600ea222f23bc3297afce7fd48']))
+ 0.101123595506
+browserfingerprint (set(['89673d873f4b897d553d405d7d603b68cdb25320debb6f68f2c6b4c652045697']), set(['d93e309768914ac263c0d54c172ecc2f843aef7afce72ac0c4dc58f0e3ff6294']))
+ 0.101123595506
+browserfingerprint (set(['93a605252bb768fa518ad148392d0a1f737a0849fd2fea5eaecf4baab86e8f5a']), set(['721e2d46fe7f4abff30319a1334238b1b9c973faa3c2f23dd652fde2a7baba9a']))
+ 0.101123595506
+browserfingerprint (set(['e3e1f330fa7d66b4c85e00c62060a0d881e0a74100422cfeaf753dbdfc1b12de']), set(['d976334cff1d60015074614e4a80e1ca262f7a07979f5721ed6217ccd8aa3cde']))
+ 0.101123595506
+browserfingerprint (set(['e585dfcfbdab4f878ca6685ef6b1c0ca7323dd7c8d30133d510f6c14d66bd1d3']), set(['dd220c6482913124e96ff5797adf5f31c120fc600ea222f23bc3297afce7fd48']))
+ 0.101123595506
+browserfingerprint (set(['e807114c56e118c8c5b644adbe5e1dec22954a4cb015f31907be5089a2b9dd59']), set(['e1a59bcb4a70dbca350a263555db50a8dd3327af24de8ba4ce3e8cf7ddb3191a']))
+ 0.101123595506
+browserfingerprint (set(['fd6faa4a390669cc3cdac90d28a5e2acf75f41bf4f825e4fc7f7a029b05a241b']), set(['dd220c6482913124e96ff5797adf5f31c120fc600ea222f23bc3297afce7fd48']))
+ 0.101123595506
+canvastest (set(['6aa56b5df10eb95cf5495265c1a11366ea43fd72']), set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']))
+ 0.0337078651685
+IP (set(['188.107.190.204']), set(['79.218.128.93']))
+ 0.0112359550562
+IP (set(['84.72.143.208']), set(['46.14.64.66']))
+ 0.0112359550562
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ 0.0112359550562
+browserfingerprint (set(['2ad4ec80d7d30c7d6d1f8be47136afc6951ff17295fae07485c7228c01a73aee']), set(['2b74677e33533ac37b4331c6cb7a96fdd8239aa27fd5a4230b5bd7fae459bc6a']))
+ 0.0112359550562
+browserfingerprint (set(['54a308f9ff5ac166c65bfb3062e5a6fd9444784fe59a94ba0c0802382ba9f88c']), set(['6608b0b46b8674e008b7134eb23fd5a62c8b40ed48734177bbbadf2d6cf71612']))
+ 0.0112359550562
+browserfingerprint (set(['69b3d2a335ef0f29f4e2f2ec9dae3cfafb364c5654408c373cb2e3a66810d75e']), set(['40df573d86e4a0e905ba910d8a72af1f1c2082f9fff2966ab2c86234d91f1434']))
+ 0.0112359550562
+browserfingerprint (set(['74dbc87dd5565ed5131d9113b646043fe70f47cfc965bae53f26ed705448b36a']), set(['019a4f7a2e8910ae933790ed9cb673ba477ca30ae88b3ab96c13557e979b1b5d']))
+ 0.0112359550562
+browserfingerprint (set(['7e8ab32841572097524ce7c8992bc6c297031d356de5c44c9852fd27f315df31']), set(['bd95e35c4455b8122ea1219492ad05e426d041618117ae4c82732b7ca9f6b14b']))
+ 0.0112359550562
+browserfingerprint (set(['8fa0fa0434a847f3746a89983a0109954477b54d214e776cc690173e45bbb0b2']), set(['7eca49da22caf308f2bbfcb9c79f20d7b2e1dbb4d46ede2b40e2293b38377982']))
+ 0.0112359550562
+browserfingerprint (set(['94f7faeaf88e54d4fa08afd588f055ddb7b5c78fe2f9e489b2d7dc756d3c0e06']), set(['08b3f1e3fb35e7622f70670ce0417c6b5a5c457bec05f54c425f026002f90087']))
+ 0.0112359550562
+browserfingerprint (set(['a2b7a5e36e238afa0715a5b90b52ef71bf89c79dde6a51a5d2fc6de74cf559b5']), set(['bed6a743ad8a83a279b8bd90c182358e10bf7f6de58585646e294f1672438190']))
+ 0.0112359550562
+canvastest (set(['8ceee20dd82828660e66fa65b304449557da1de6']), set(['c6a619c6b5404b4402aaeeadbc2b28c7806ce0a1']))
+ 0.0112359550562
+ipcity (set(['Troglersricht']), set(['Tauberbischofsheim']))
+ 0.0112359550562
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+ 0.0112359550562
+jsFonts (set(['Black_Corbel_Cordia', 'Latin', 'Richard_Pristina_Raavi_Ravie_Rod_Sakkal', 'BT_Informal', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Gothic_Comic', 'FB_Candara_Centaur_Chiller_Colonna', '3_Aharoni_Algerian_Andalus_Angsana', 'Light_FrankRuehl_FreesiaUPC_Freestyle', 'MT_Onyx_Papyrus_Parchment_Plantagenet', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Harrington_High', 'Smallcaps_Bookshelf', 'Condensed_Bodoni', 'BT_EucrosiaUPC_Euphemia_FangSong_Footlight', 'MT_LilyUPC_Magneto_Malgun', 'Arabic_Tunga_Univers']), set(['BT_Engravers', 'Latin_ZWAdobeF', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Schoolbook_Comic', 'Outlook_MS', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'Black_Copperplate', 'FB_Calisto', 'Gothic_Century', 'Typewriter_Lucida', '3_Agency', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'Condensed_Bookshelf', 'Cen', 'Titling', 'MT_Onyx_Palace', 'MT_Plantagenet', 'Arabic_Tunga_Tw', 'New_CordiaUPC_Curlz', 'Gothic_Copperplate', 'Light_Corbel_Cordia', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'FB_Aharoni_Algerian_Andalus_Angsana', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Condensed_Rod_Sakkal', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', 'Shadow_Informal', 'MT_Tw', 'Black_Bodoni', 'Titling_Footlight', 'GD_Malgun', 'Condensed_Gisha_Goudy', 'MT_LilyUPC_Magneto_Maiandra', 'ITC_Elephant_English', 'BT_Gigi_Gill', 'Smallcaps_Bodoni', 'ITC_Bodoni', 'Gothic', 'Condensed_Univers', 'Sans_Lucida', 'BT_Imprint', 'Style_Goudy']))
+ 0.0112359550562

@@ -1,0 +1,119 @@
+doing Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Inuktitut_Cherokee -> Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee
+encoding (set([]), set(['br,']))
+ 1.0
+jsFonts (set(['Felt_Modern', 'Bold_Arial', 'MS_Courier_Courier', 'Unicode', 'LET_Savoye']), set(['JhengHei_Modern', 'LET_Rockwell_Savoye', 'Bold_Courier_Courier', 'Felt_Microsoft']))
+ 1.0
+langsdetected (set(['Yi_Mongolian_Tifinagh_Syriac_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+ 1.0
+canvastest (set(['6187b19b687e23b532a86c06d062af42c084a30f']), set(['2e02e768da96c8034d4d0a0e38d5921bd71540e3']))
+ 0.571428571429
+canvastest (set(['dab0f5b3065930cf3cce990888a302299dffe95f']), set(['7a6a24f6752a5a123bcc6df63a184217637923fb']))
+ 0.214285714286
+agent (set(['AppleWebKit/601.1.46', '9_3_1', 'Mobile/13E238', 'Safari/601.1', 'Version/9.0']), set(['Mobile/15C114', 'Version/11.0', 'Safari/604.1', '11_2', 'AppleWebKit/604.4.7']))
+ 0.142857142857
+agent (set(['Version/9.0', 'AppleWebKit/601.1.46', 'Safari/601.1', '9_3_5', 'Mobile/13G36']), set(['Version/11.0', 'Mobile/15C153', '11_2_1', 'Safari/604.1', 'AppleWebKit/604.4.7']))
+ 0.142857142857
+canvastest (set(['a0c17885343a83f68e7cccfa6128d2bd3821ddca']), set(['89aec5862cf8db1bc9be69a52c31a169d6182e4c']))
+ 0.142857142857
+localstorage (set(['False']), set(['True']))
+ 0.142857142857
+IP (set(['109.43.3.208']), set(['109.43.1.40']))
+ 0.0714285714286
+IP (set(['109.47.3.224']), set(['109.41.64.228']))
+ 0.0714285714286
+IP (set(['188.107.60.48']), set(['188.110.13.236']))
+ 0.0714285714286
+IP (set(['31.17.251.6']), set(['89.15.238.132']))
+ 0.0714285714286
+IP (set(['62.226.38.169']), set(['84.175.94.165']))
+ 0.0714285714286
+IP (set(['80.139.56.222']), set(['80.139.53.43']))
+ 0.0714285714286
+IP (set(['87.151.1.152']), set(['87.151.15.222']))
+ 0.0714285714286
+IP (set(['88.69.189.155']), set(['80.187.103.3']))
+ 0.0714285714286
+IP (set(['89.245.0.8']), set(['87.123.196.29']))
+ 0.0714285714286
+IP (set(['91.248.128.73']), set(['31.150.53.182']))
+ 0.0714285714286
+IP (set(['92.200.14.18']), set(['2.247.248.16']))
+ 0.0714285714286
+agent (set(['9_3_3', 'AppleWebKit/601.1.46', 'Safari/601.1', 'Mobile/13G34', 'Version/9.0']), set(['AppleWebKit/604.5.6', 'Mobile/15D60', 'Version/11.0', 'Safari/604.1', '11_2_5']))
+ 0.0714285714286
+agent (set(['9_3_3', 'Version/9.0', 'Safari/601.1', 'Mobile/13G34', 'AppleWebKit/601.1.46']), set(['AppleWebKit/604.5.6', 'Mobile/15D60', 'Version/11.0', 'Safari/604.1', '11_2_5']))
+ 0.0714285714286
+agent (set(['AppleWebKit/601.1.46', '9_3_2', 'Safari/601.1', 'Mobile/13F69', 'Version/9.0']), set(['Version/11.0', 'Mobile/15C153', '11_2_1', 'Safari/604.1', 'AppleWebKit/604.4.7']))
+ 0.0714285714286
+agent (set(['AppleWebKit/601.1.46', 'Version/9.0', 'Mobile/13G35', 'Safari/601.1', '9_3_4']), set(['Mobile/15B202', 'Safari/604.1', 'Version/11.0', 'AppleWebKit/604.3.5', '11_1_2']))
+ 0.0714285714286
+agent (set(['AppleWebKit/601.1.46', 'Version/9.0', 'Mobile/13G35', 'Safari/601.1', '9_3_4']), set(['Version/11.0', 'Mobile/15C153', '11_2_1', 'Safari/604.1', 'AppleWebKit/604.4.7']))
+ 0.0714285714286
+agent (set(['AppleWebKit/601.1.46', 'Version/9.0', 'Safari/601.1', '9_3_5', 'Mobile/13G36']), set(['AppleWebKit/604.5.6', 'Mobile/15D60', 'Version/11.0', 'Safari/604.1', '11_2_5']))
+ 0.0714285714286
+agent (set(['Mobile/13E234', 'Version/9.0', '9_3', 'Safari/601.1', 'AppleWebKit/601.1.46']), set(['Version/11.0', 'Mobile/15C153', '11_2_1', 'Safari/604.1', 'AppleWebKit/604.4.7']))
+ 0.0714285714286
+agent (set(['Version/9.0', '9_3_2', 'Safari/601.1', 'Mobile/13F69', 'AppleWebKit/601.1.46']), set(['11_2_2', 'Version/11.0', 'Safari/604.1', 'AppleWebKit/604.4.7', 'Mobile/15C202']))
+ 0.0714285714286
+agent (set(['Version/9.0', '9_3_2', 'Safari/601.1', 'Mobile/13F69', 'AppleWebKit/601.1.46']), set(['Version/11.0', 'Mobile/15C153', '11_2_1', 'Safari/604.1', 'AppleWebKit/604.4.7']))
+ 0.0714285714286
+agent (set(['Version/9.0', 'AppleWebKit/601.1.46', 'Safari/601.1', '9_3_5', 'Mobile/13G36']), set(['11_2_2', 'Version/11.0', 'Safari/604.1', 'AppleWebKit/604.4.7', 'Mobile/15C202']))
+ 0.0714285714286
+browserfingerprint (set(['1032c8251171bc5611b98e33a20c0501635d1a4068533e2f5e4c18248aebed42']), set(['c9a19599ee775299af5887fef02bfd283e757c9d466dc5aec81bd3b382340629']))
+ 0.0714285714286
+browserfingerprint (set(['1ba15cf9c6bd40e2df39fbb07f9cdb59eead1567a809c6dc8b5ca1a63aa0512e']), set(['d262753498cd158d3b404b63dd8877d1e5a5168dc76bc4c9058af18732ad4902']))
+ 0.0714285714286
+browserfingerprint (set(['29609295f56e04aec1f62fcb87f1d2e78a56a990817ff54a41fa567b753f1bc5']), set(['a5b863efc25fd4e6661b36b81d32b80e051b72a52644f6db2e7fa24151e40f04']))
+ 0.0714285714286
+browserfingerprint (set(['4817d194de2c9257b1345d97e0b639a8c97549ec6fa56c308bcde820b7023e47']), set(['a9e8097b69efae90885719c1d0c64c12adac47eb0a238986812f582466be4971']))
+ 0.0714285714286
+browserfingerprint (set(['83a74a8e20339dc9b0c0324eac7085b08fec9d2f2f92363a0368015f4636ad3e']), set(['1c1ede85af89553a78afa4ff30f005dad8c1e3352845c451aa689269445a3b90']))
+ 0.0714285714286
+browserfingerprint (set(['98e2ef4401d1bb45868b467516fcf0820add2a0d954185444dfb593852e8d8d3']), set(['d97ad2d304ded65c367524b2e8a27a9f218e9959e30be54d5a5f140651459553']))
+ 0.0714285714286
+browserfingerprint (set(['9c9a9d58000c44e18d3ca4c5949698e72bcd6ef5695dece69044b086db067ef0']), set(['630e9c3aa9876a838961449573f6c44b6f495d2b99e2060787d937ea21120eed']))
+ 0.0714285714286
+browserfingerprint (set(['ab101406b97d5605cd4d32cf2b7dffa2540140dfea20d4b734b89430218cdc19']), set(['b5736b05e2b1adcb0caa7a4117d4bb2479e05b085f9a0fcace9736b1c56c60ad']))
+ 0.0714285714286
+browserfingerprint (set(['b4000a43cc1b759705234e353f75f15a67c24b9513db8a4bdbf62e0569fa099d']), set(['b9b1292aba3aa9c1a62d7e268c2fbd774585831e3c86f3ccb10a6d76b41e8885']))
+ 0.0714285714286
+browserfingerprint (set(['bc57c9afade9ff93545241643f21a3b5c6f9e2cf3aa0e2d05dd3af47bd1f5b75']), set(['a7fe7824d5fcdccca5c4902b4198978fb5e2ab170cee33d08ba77be5a996a92a']))
+ 0.0714285714286
+browserfingerprint (set(['c05f0bb906126684c7b45e78daaeda360c06d522abda3096cbbe14e14323227e']), set(['582814be230ef4a75b746e3e96f5cd0e167068ceaa00a13c96b78b5e827de6a1']))
+ 0.0714285714286
+browserfingerprint (set(['d0bf8de2ee7ad7f594d775fcbe30f12d07f87b156621fe9841441969ec8e0a53']), set(['4a52bd2d39ed70f7d5bc816fffcd290e6df1ff1db00c790a16060e452b9583d5']))
+ 0.0714285714286
+browserfingerprint (set(['e34fd0b4cec7af442b2eb01cbd22f56f5a8d4cca963298447dcdacb787b7ffdc']), set(['13ac21263f80bbf788172dfb54af91004c87292bc33846504e8ebc9deeb7d3bb']))
+ 0.0714285714286
+browserfingerprint (set(['f732646c435d9f2ad2789d88914498f53b04fac0c9335a0e1928265921b75b12']), set(['65fc87bf03fef81aad8e63687f1303e829eb724b2ac055a0c4f3b197f452db5a']))
+ 0.0714285714286
+canvastest (set(['9e60066dce21e6448790d0fe320441658ee0ae17']), set(['7a6a24f6752a5a123bcc6df63a184217637923fb']))
+ 0.0714285714286
+ipcity (set(['Bruchmuhlbach']), set(['Ramstein-Miesenbach']))
+ 0.0714285714286
+ipcity (set(['Dortmund']), set(['Siegen']))
+ 0.0714285714286
+ipcity (set(['Leipzig']), set(['Karl']))
+ 0.0714285714286
+ipcity (set(['Mariaveen']), set(['Dortmund']))
+ 0.0714285714286
+ipcity (set(['Nuremberg']), set(['Dusseldorf']))
+ 0.0714285714286
+ipcity (set(['Papenburg']), set(['Hamburg']))
+ 0.0714285714286
+ipcity (set(['Rendsburg']), set(['Dusseldorf']))
+ 0.0714285714286
+ipcity (set(['Trier']), set(['Saarbrucken']))
+ 0.0714285714286
+ipcity (set(['Zetel']), set(['Wilhelmshaven']))
+ 0.0714285714286
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+ 0.0714285714286
+ipregion (set(['Niedersachsen']), set(['Hamburg']))
+ 0.0714285714286
+ipregion (set(['Rheinland-Pfalz']), set(['Saarland']))
+ 0.0714285714286
+ipregion (set(['Sachsen']), set(['Rheinland-Pfalz']))
+ 0.0714285714286
+ipregion (set(['Schleswig-Holstein']), set(['Nordrhein-Westfalen']))
+ 0.0714285714286

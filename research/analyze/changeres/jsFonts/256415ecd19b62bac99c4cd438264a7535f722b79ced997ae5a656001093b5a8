@@ -1,0 +1,1113 @@
+doing Arial_Arial Black_Arial Narrow_Arial Unicode MS_Book Antiqua_Bookman Old Style_Calibri_Cambria_Cambria Math_Century_Century Gothic_Century Schoolbook_Comic Sans MS_Consolas_Courier_Courier New_Garamond_Georgia_Helvetica_Impact_Lucida Bright_Lucida Calligraphy_Lucida Console_Lucida Fax_Lucida Handwriting_Lucida Sans_Lucida Sans Typewriter_Lucida Sans Unicode_Microsoft Sans Serif_Monotype Corsiva_MS Gothic_MS Outlook_MS PGothic_MS Reference Sans Serif_MS Sans Serif_MS Serif_Palatino Linotype_Segoe Print_Segoe Script_Segoe UI_Segoe UI Light_Segoe UI Semibold_Segoe UI Symbol_Tahoma_Times_Times New Roman_Trebuchet MS_Verdana_Wingdings_Wingdings 2_Wingdings 3_Agency FB_Algerian_Baskerville Old Face_Bauhaus 93_Bell MT_Berlin Sans FB_Bernard MT Condensed_Blackadder ITC_Bodoni 72_Bodoni 72 Oldstyle_Bodoni 72 Smallcaps_Bodoni MT_Bodoni MT Black_Bodoni MT Condensed_Bookshelf Symbol 7_Bradley Hand ITC_Broadway_Brush Script MT_Californian FB_Calisto MT_Candara_Castellar_Centaur_Chiller_Colonna MT_Constantia_Cooper Black_Copperplate Gothic_Copperplate Gothic Light_Corbel_Curlz MT_Ebrima_Edwardian Script ITC_Elephant_English 111 Vivace BT_Engravers MT_Felix Titling_Footlight MT Light_Forte_Freestyle Script_French Script MT_Gabriola_GeoSlab 703 Lt BT_GeoSlab 703 XBd BT_Gigi_Gill Sans MT_Gill Sans MT Condensed_Goudy Old Style_Goudy Stout_Haettenschweiler_Harrington_High Tower Text_Humanst 521 Cn BT_Imprint MT Shadow_Informal Roman_Jokerman_Juice ITC_Kristen ITC_Kunstler Script_Magneto_Maiandra GD_Malgun Gothic_Marlett_Matura MT Script Capitals_Microsoft Himalaya_Microsoft JhengHei_Microsoft New Tai Lue_Microsoft PhagsPa_Microsoft Tai Le_Microsoft YaHei_Microsoft Yi Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern No. 20_Mongolian Baiti_MS Reference Specialty_MS UI Gothic_MT Extra_MV Boli_Niagara Engraved_Niagara Solid_NSimSun_Old English Text MT_Onyx_Palace Script MT_Papyrus_Parchment_Perpetua_Perpetua Titling MT_Playbill_PMingLiU-ExtB_Poor Richard_Pristina_Ravie_Rockwell_Rockwell Condensed_Showcard Gothic_SimSun_SimSun-ExtB_Snap ITC_Stencil_Sylfaen_Tempus Sans ITC_Tw Cen MT_Tw Cen MT Condensed_Univers CE 55 Medium_Viner Hand ITC_Vivaldi_Vladimir Script_Wide Latin -> Arial_Arial Black_Arial Narrow_Arial Unicode MS_Book Antiqua_Bookman Old Style_Calibri_Cambria_Cambria Math_Century_Century Gothic_Century Schoolbook_Comic Sans MS_Consolas_Courier_Courier New_Garamond_Georgia_Helvetica_Impact_Lucida Bright_Lucida Calligraphy_Lucida Console_Lucida Fax_Lucida Handwriting_Lucida Sans_Lucida Sans Typewriter_Lucida Sans Unicode_Microsoft Sans Serif_Monotype Corsiva_MS Gothic_MS Outlook_MS PGothic_MS Reference Sans Serif_MS Sans Serif_MS Serif_Palatino Linotype_Segoe Print_Segoe Script_Segoe UI_Segoe UI Light_Segoe UI Semibold_Segoe UI Symbol_Tahoma_Times_Times New Roman_Trebuchet MS_Verdana_Wingdings_Wingdings 2_Wingdings 3_Agency FB_Algerian_Baskerville Old Face_Bauhaus 93_Bell MT_Berlin Sans FB_Bernard MT Condensed_Blackadder ITC_Bodoni 72_Bodoni 72 Oldstyle_Bodoni 72 Smallcaps_Bodoni MT_Bodoni MT Black_Bodoni MT Condensed_Bookshelf Symbol 7_Bradley Hand ITC_Broadway_Brush Script MT_Californian FB_Calisto MT_Candara_Castellar_Centaur_Chiller_Colonna MT_Constantia_Cooper Black_Copperplate Gothic_Copperplate Gothic Light_Corbel_Curlz MT_Ebrima_Edwardian Script ITC_Elephant_English 111 Vivace BT_Engravers MT_Felix Titling_Footlight MT Light_Forte_Freestyle Script_French Script MT_Gabriola_GeoSlab 703 Lt BT_GeoSlab 703 XBd BT_Gigi_Gill Sans MT_Gill Sans MT Condensed_Goudy Old Style_Goudy Stout_Haettenschweiler_Harrington_High Tower Text_Humanst 521 Cn BT_Imprint MT Shadow_Informal Roman_Jokerman_Juice ITC_Kristen ITC_Kunstler Script_Magneto_Maiandra GD_Malgun Gothic_Marlett_Matura MT Script Capitals_Microsoft Himalaya_Microsoft JhengHei_Microsoft New Tai Lue_Microsoft PhagsPa_Microsoft Tai Le_Microsoft YaHei_Microsoft Yi Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern No. 20_Mongolian Baiti_MS Reference Specialty_MS UI Gothic_MV Boli_Niagara Engraved_Niagara Solid_NSimSun_Old English Text MT_Onyx_Palace Script MT_Papyrus_Parchment_Perpetua_Perpetua Titling MT_Playbill_PMingLiU-ExtB_Poor Richard_Pristina_Ravie_Rockwell_Rockwell Condensed_Showcard Gothic_SimSun_SimSun-ExtB_Snap ITC_Stencil_Sylfaen_Tempus Sans ITC_Tw Cen MT_Tw Cen MT Condensed_Univers CE 55 Medium_Viner Hand ITC_Vivaldi_Vladimir Script_Wide Latin
+jsFonts (set(['Extra_MV', 'Gothic_MT']), set(['Gothic_MV']))
+ 1.0
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ 0.317596566524
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.132']))
+ 0.163090128755
+agent (set(['Chrome/63.0.3239.108']), set(['Chrome/63.0.3239.132']))
+ 0.0472103004292
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.186']))
+ 0.0343347639485
+agent (set(['Chrome/62.0.3202.94', 'OPR/49.0.2725.64']), set(['OPR/50.0.2762.58', 'Chrome/63.0.3239.132']))
+ 0.0257510729614
+canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+ 0.0257510729614
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/64.0.3282.140']))
+ 0.0214592274678
+agent (set(['Chrome/62.0.3202.89', 'OPR/49.0.2725.47']), set(['OPR/50.0.2762.58', 'Chrome/63.0.3239.132']))
+ 0.0171673819742
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.186']))
+ 0.0171673819742
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/64.0.3282.186']))
+ 0.0171673819742
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.0171673819742
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.167']))
+ 0.0128755364807
+audio (set(['not', 'supported']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.0128755364807
+plugins (set(['handler~Widevine']), set(['handler~Shockwave', 'Flash~Widevine']))
+ 0.0128755364807
+agent (set(['Chrome/62.0.3202.89', 'OPR/49.0.2725.47']), set(['Chrome/62.0.3202.94', 'OPR/49.0.2725.64']))
+ 0.00858369098712
+agent (set(['Chrome/62.0.3202.94', 'OPR/49.0.2725.64']), set(['OPR/50.0.2762.67', 'Chrome/63.0.3239.132']))
+ 0.00858369098712
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.119']))
+ 0.00858369098712
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.140']))
+ 0.00858369098712
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/65.0.3325.146']))
+ 0.00858369098712
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/64.0.3282.167']))
+ 0.00858369098712
+canvastest (set(['b5c300b1b3802231836a9783a9d77a560ef8f71d']), set(['ecbf927c0b4d90d674eebf3a5675c13a717104c4']))
+ 0.00858369098712
+ipcity (set(['Nuremberg']), set(['Obermehler']))
+ 0.00858369098712
+ipcity (set(['Nuremberg']), set(['Wuerzburg']))
+ 0.00858369098712
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+ 0.00858369098712
+ipregion (set(['Baden-Wurttemberg']), set(['Rheinland-Pfalz']))
+ 0.00858369098712
+ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
+ 0.00858369098712
+ipregion (set(['Bayern']), set(['Thuringen']))
+ 0.00858369098712
+ipregion (set(['Berlin']), set(['Hessen']))
+ 0.00858369098712
+ipregion (set(['Hessen']), set(['Berlin']))
+ 0.00858369098712
+language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.00858369098712
+IP (set(['103.12.195.141']), set(['103.12.192.116']))
+ 0.00429184549356
+IP (set(['103.44.118.233']), set(['103.44.118.185']))
+ 0.00429184549356
+IP (set(['103.44.118.233']), set(['43.230.187.139']))
+ 0.00429184549356
+IP (set(['103.44.118.77']), set(['43.230.187.13']))
+ 0.00429184549356
+IP (set(['103.44.118.9']), set(['43.230.187.177']))
+ 0.00429184549356
+IP (set(['109.131.192.157']), set(['94.225.227.16']))
+ 0.00429184549356
+IP (set(['109.192.195.113']), set(['46.5.18.55']))
+ 0.00429184549356
+IP (set(['109.40.2.61']), set(['109.45.3.154']))
+ 0.00429184549356
+IP (set(['129.59.71.36']), set(['99.186.89.68']))
+ 0.00429184549356
+IP (set(['146.110.51.44']), set(['195.16.79.48']))
+ 0.00429184549356
+IP (set(['151.70.25.215']), set(['151.70.48.139']))
+ 0.00429184549356
+IP (set(['173.19.46.176']), set(['173.19.102.245']))
+ 0.00429184549356
+IP (set(['174.206.20.92']), set(['97.107.66.146']))
+ 0.00429184549356
+IP (set(['177.133.199.186']), set(['177.97.181.0']))
+ 0.00429184549356
+IP (set(['178.201.241.211']), set(['89.15.236.203']))
+ 0.00429184549356
+IP (set(['178.213.4.105']), set(['178.213.6.173']))
+ 0.00429184549356
+IP (set(['178.27.248.222']), set(['178.27.248.123']))
+ 0.00429184549356
+IP (set(['181.49.82.229']), set(['181.49.83.229']))
+ 0.00429184549356
+IP (set(['185.17.205.155']), set(['185.17.205.138']))
+ 0.00429184549356
+IP (set(['185.39.90.239']), set(['185.39.88.137']))
+ 0.00429184549356
+IP (set(['185.40.173.4']), set(['185.40.173.137']))
+ 0.00429184549356
+IP (set(['187.162.30.106']), set(['187.160.8.142']))
+ 0.00429184549356
+IP (set(['187.212.18.168']), set(['189.190.71.47']))
+ 0.00429184549356
+IP (set(['188.105.212.108']), set(['188.105.211.108']))
+ 0.00429184549356
+IP (set(['188.118.151.188']), set(['188.118.183.45']))
+ 0.00429184549356
+IP (set(['188.193.27.10']), set(['188.192.237.118']))
+ 0.00429184549356
+IP (set(['188.194.146.204']), set(['188.195.229.7']))
+ 0.00429184549356
+IP (set(['188.195.14.86']), set(['188.194.91.2']))
+ 0.00429184549356
+IP (set(['188.74.53.220']), set(['188.74.51.203']))
+ 0.00429184549356
+IP (set(['189.138.29.130']), set(['189.189.120.122']))
+ 0.00429184549356
+IP (set(['189.211.218.64']), set(['200.38.253.160']))
+ 0.00429184549356
+IP (set(['189.216.198.230']), set(['132.247.17.2']))
+ 0.00429184549356
+IP (set(['189.219.152.27']), set(['187.160.10.137']))
+ 0.00429184549356
+IP (set(['189.237.216.239']), set(['189.140.236.86']))
+ 0.00429184549356
+IP (set(['190.120.23.52']), set(['190.62.244.103']))
+ 0.00429184549356
+IP (set(['190.211.117.56']), set(['190.211.119.244']))
+ 0.00429184549356
+IP (set(['2.243.201.151']), set(['2.243.215.94']))
+ 0.00429184549356
+IP (set(['200.91.151.236']), set(['201.202.66.93']))
+ 0.00429184549356
+IP (set(['204.237.202.66']), set(['68.181.206.76']))
+ 0.00429184549356
+IP (set(['212.60.174.140']), set(['212.60.175.49']))
+ 0.00429184549356
+IP (set(['213.157.157.185']), set(['212.60.175.58']))
+ 0.00429184549356
+IP (set(['217.239.21.170']), set(['93.224.177.194']))
+ 0.00429184549356
+IP (set(['217.82.138.18']), set(['217.82.133.37']))
+ 0.00429184549356
+IP (set(['217.95.10.148']), set(['217.95.12.24']))
+ 0.00429184549356
+IP (set(['31.16.248.121']), set(['31.16.248.169']))
+ 0.00429184549356
+IP (set(['31.17.255.21']), set(['31.17.255.41']))
+ 0.00429184549356
+IP (set(['37.201.4.70']), set(['37.201.4.25']))
+ 0.00429184549356
+IP (set(['37.201.5.11']), set(['37.201.7.151']))
+ 0.00429184549356
+IP (set(['37.4.250.53']), set(['37.4.250.59']))
+ 0.00429184549356
+IP (set(['46.85.147.117']), set(['46.85.147.186']))
+ 0.00429184549356
+IP (set(['46.90.100.54']), set(['46.90.106.79']))
+ 0.00429184549356
+IP (set(['46.94.183.189']), set(['46.94.184.53']))
+ 0.00429184549356
+IP (set(['62.143.90.233']), set(['37.201.42.41']))
+ 0.00429184549356
+IP (set(['62.216.204.78']), set(['62.216.204.104']))
+ 0.00429184549356
+IP (set(['64.121.176.211']), set(['216.164.156.232']))
+ 0.00429184549356
+IP (set(['77.12.199.138']), set(['77.12.224.198']))
+ 0.00429184549356
+IP (set(['77.182.141.134']), set(['78.49.230.128']))
+ 0.00429184549356
+IP (set(['77.187.50.67']), set(['85.176.217.12']))
+ 0.00429184549356
+IP (set(['77.4.196.71']), set(['77.4.255.218']))
+ 0.00429184549356
+IP (set(['78.22.195.249']), set(['78.23.194.143']))
+ 0.00429184549356
+IP (set(['78.43.43.1']), set(['78.43.43.33']))
+ 0.00429184549356
+IP (set(['78.43.64.195']), set(['134.3.31.144']))
+ 0.00429184549356
+IP (set(['78.49.88.192']), set(['92.227.156.54']))
+ 0.00429184549356
+IP (set(['78.55.54.96']), set(['213.39.171.112']))
+ 0.00429184549356
+IP (set(['78.55.68.112']), set(['80.171.201.60']))
+ 0.00429184549356
+IP (set(['79.144.70.182']), set(['80.31.145.73']))
+ 0.00429184549356
+IP (set(['79.202.220.227']), set(['79.202.220.166']))
+ 0.00429184549356
+IP (set(['79.206.97.172']), set(['79.206.109.83']))
+ 0.00429184549356
+IP (set(['79.214.231.141']), set(['79.214.238.154']))
+ 0.00429184549356
+IP (set(['79.214.96.66']), set(['79.214.99.44']))
+ 0.00429184549356
+IP (set(['79.220.207.185']), set(['79.220.232.47']))
+ 0.00429184549356
+IP (set(['79.226.65.41']), set(['79.226.87.227']))
+ 0.00429184549356
+IP (set(['79.229.26.151']), set(['79.229.23.47']))
+ 0.00429184549356
+IP (set(['79.236.128.97']), set(['79.236.130.77']))
+ 0.00429184549356
+IP (set(['79.244.178.129']), set(['79.244.182.73']))
+ 0.00429184549356
+IP (set(['80.129.17.130']), set(['80.129.7.213']))
+ 0.00429184549356
+IP (set(['82.56.200.81']), set(['79.12.60.69']))
+ 0.00429184549356
+IP (set(['84.133.192.194']), set(['84.133.201.109']))
+ 0.00429184549356
+IP (set(['84.135.147.61']), set(['84.135.148.159']))
+ 0.00429184549356
+IP (set(['84.138.103.53']), set(['78.42.82.168']))
+ 0.00429184549356
+IP (set(['84.142.28.110']), set(['93.208.186.249']))
+ 0.00429184549356
+IP (set(['84.142.76.108']), set(['84.142.79.55']))
+ 0.00429184549356
+IP (set(['84.143.42.123']), set(['93.239.81.211']))
+ 0.00429184549356
+IP (set(['84.150.217.171']), set(['84.150.223.105']))
+ 0.00429184549356
+IP (set(['84.151.237.153']), set(['84.151.233.53']))
+ 0.00429184549356
+IP (set(['84.151.45.40']), set(['84.151.42.27']))
+ 0.00429184549356
+IP (set(['84.154.43.20']), set(['84.154.41.20']))
+ 0.00429184549356
+IP (set(['84.156.80.198']), set(['89.247.124.186']))
+ 0.00429184549356
+IP (set(['84.164.149.15']), set(['84.164.153.247']))
+ 0.00429184549356
+IP (set(['84.173.190.78']), set(['84.173.178.102']))
+ 0.00429184549356
+IP (set(['84.173.4.251']), set(['79.222.105.31']))
+ 0.00429184549356
+IP (set(['84.176.52.61']), set(['79.197.150.82']))
+ 0.00429184549356
+IP (set(['86.172.72.182']), set(['86.160.143.236']))
+ 0.00429184549356
+IP (set(['87.123.239.190']), set(['89.247.109.240']))
+ 0.00429184549356
+IP (set(['87.145.69.61']), set(['87.145.69.129']))
+ 0.00429184549356
+IP (set(['87.148.191.140']), set(['87.177.33.43']))
+ 0.00429184549356
+IP (set(['87.150.152.246']), set(['87.150.147.12']))
+ 0.00429184549356
+IP (set(['87.153.147.87']), set(['217.246.131.204']))
+ 0.00429184549356
+IP (set(['87.157.10.174']), set(['87.157.5.142']))
+ 0.00429184549356
+IP (set(['87.168.126.24']), set(['87.156.229.229']))
+ 0.00429184549356
+IP (set(['87.176.191.241']), set(['87.176.177.169']))
+ 0.00429184549356
+IP (set(['87.183.123.223']), set(['91.18.123.125']))
+ 0.00429184549356
+IP (set(['88.130.52.51']), set(['88.130.52.215']))
+ 0.00429184549356
+IP (set(['88.130.62.241']), set(['46.189.28.190']))
+ 0.00429184549356
+IP (set(['88.217.180.121']), set(['88.217.180.68']))
+ 0.00429184549356
+IP (set(['88.217.180.46']), set(['88.217.180.60']))
+ 0.00429184549356
+IP (set(['88.25.252.179']), set(['79.153.55.196']))
+ 0.00429184549356
+IP (set(['88.64.203.157']), set(['88.67.202.92']))
+ 0.00429184549356
+IP (set(['88.78.162.75']), set(['89.245.104.227']))
+ 0.00429184549356
+IP (set(['89.204.138.36']), set(['89.204.139.124']))
+ 0.00429184549356
+IP (set(['89.233.79.184']), set(['89.166.192.203']))
+ 0.00429184549356
+IP (set(['90.118.216.215']), set(['90.118.229.24']))
+ 0.00429184549356
+IP (set(['91.11.251.253']), set(['91.11.250.47']))
+ 0.00429184549356
+IP (set(['91.248.166.35']), set(['91.97.173.44']))
+ 0.00429184549356
+IP (set(['91.39.14.234']), set(['91.39.30.43']))
+ 0.00429184549356
+IP (set(['91.4.189.233']), set(['91.16.209.74']))
+ 0.00429184549356
+IP (set(['91.40.52.200']), set(['217.237.17.173']))
+ 0.00429184549356
+IP (set(['91.42.53.46']), set(['91.42.60.251']))
+ 0.00429184549356
+IP (set(['91.44.255.150']), set(['87.144.141.212']))
+ 0.00429184549356
+IP (set(['91.48.58.31']), set(['91.48.56.168']))
+ 0.00429184549356
+IP (set(['91.54.181.178']), set(['91.54.184.106']))
+ 0.00429184549356
+IP (set(['91.57.115.168']), set(['91.57.114.85']))
+ 0.00429184549356
+IP (set(['91.57.119.179']), set(['91.57.114.85']))
+ 0.00429184549356
+IP (set(['91.61.237.199']), set(['91.61.238.194']))
+ 0.00429184549356
+IP (set(['91.8.47.145']), set(['46.86.68.131']))
+ 0.00429184549356
+IP (set(['91.96.109.168']), set(['90.153.61.53']))
+ 0.00429184549356
+IP (set(['92.210.98.26']), set(['84.59.62.91']))
+ 0.00429184549356
+IP (set(['92.211.17.194']), set(['92.212.16.100']))
+ 0.00429184549356
+IP (set(['92.211.60.156']), set(['88.66.34.93']))
+ 0.00429184549356
+IP (set(['92.213.31.18']), set(['92.214.163.87']))
+ 0.00429184549356
+IP (set(['92.217.149.145']), set(['88.69.184.243']))
+ 0.00429184549356
+IP (set(['92.217.153.171']), set(['94.219.94.50']))
+ 0.00429184549356
+IP (set(['92.230.24.239']), set(['77.187.88.249']))
+ 0.00429184549356
+IP (set(['92.74.28.234']), set(['94.217.111.129']))
+ 0.00429184549356
+IP (set(['92.77.59.214']), set(['178.3.165.235']))
+ 0.00429184549356
+IP (set(['93.143.143.177']), set(['93.141.138.120']))
+ 0.00429184549356
+IP (set(['93.192.146.217']), set(['79.221.95.205']))
+ 0.00429184549356
+IP (set(['93.192.147.216']), set(['93.192.145.218']))
+ 0.00429184549356
+IP (set(['93.205.223.78']), set(['93.205.220.241']))
+ 0.00429184549356
+IP (set(['93.228.244.162']), set(['87.162.222.75']))
+ 0.00429184549356
+IP (set(['93.230.238.88']), set(['93.230.232.162']))
+ 0.00429184549356
+IP (set(['93.232.97.155']), set(['93.232.107.16']))
+ 0.00429184549356
+IP (set(['94.132.128.85']), set(['88.157.167.34']))
+ 0.00429184549356
+IP (set(['94.216.182.143']), set(['188.99.199.87']))
+ 0.00429184549356
+IP (set(['94.217.22.130']), set(['188.105.96.72']))
+ 0.00429184549356
+IP (set(['94.217.38.175']), set(['188.104.210.137']))
+ 0.00429184549356
+IP (set(['95.222.29.128']), set(['95.222.29.250']))
+ 0.00429184549356
+IP (set(['95.70.76.106']), set(['95.70.116.211']))
+ 0.00429184549356
+IP (set(['95.90.192.180']), set(['95.90.192.217']))
+ 0.00429184549356
+IP (set(['95.90.203.52']), set(['95.90.203.37']))
+ 0.00429184549356
+IP (set(['95.90.211.127']), set(['95.90.211.130']))
+ 0.00429184549356
+IP (set(['95.90.215.47']), set(['95.90.215.48']))
+ 0.00429184549356
+IP (set(['95.90.236.195']), set(['95.90.236.236']))
+ 0.00429184549356
+IP (set(['95.90.254.249']), set(['95.90.254.242']))
+ 0.00429184549356
+IP (set(['95.91.244.130']), set(['79.240.56.237']))
+ 0.00429184549356
+IP (set(['95.94.239.3']), set(['109.49.10.71']))
+ 0.00429184549356
+agent (set(['Chrome/61.0.3163.100']), set(['Chrome/63.0.3239.132']))
+ 0.00429184549356
+agent (set(['Chrome/61.0.3163.100']), set(['Chrome/64.0.3282.167']))
+ 0.00429184549356
+agent (set(['Chrome/62.0.3202.89', 'OPR/49.0.2725.47']), set(['Chrome/64.0.3282.168', 'OPR/51.0.2830.40']))
+ 0.00429184549356
+agent (set(['Chrome/62.0.3202.89', 'OPR/49.0.2725.47']), set(['OPR/50.0.2762.67', 'Chrome/63.0.3239.132']))
+ 0.00429184549356
+agent (set(['Chrome/62.0.3202.89', 'OPR/49.0.2725.47']), set(['OPR/51.0.2830.34', 'Chrome/64.0.3282.140']))
+ 0.00429184549356
+agent (set(['Chrome/62.0.3202.94', 'OPR/49.0.2725.64']), set(['Chrome/64.0.3282.119', 'OPR/51.0.2830.26']))
+ 0.00429184549356
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+ 0.00429184549356
+agent (set(['Chrome/63.0.3239.108']), set(['Chrome/64.0.3282.140']))
+ 0.00429184549356
+agent (set(['Chrome/63.0.3239.108']), set(['Chrome/64.0.3282.167']))
+ 0.00429184549356
+agent (set(['Chrome/63.0.3239.108']), set(['Chrome/64.0.3282.186']))
+ 0.00429184549356
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.167']))
+ 0.00429184549356
+agent (set(['Chrome/63.0.3239.59']), set(['Chrome/64.0.3282.71']))
+ 0.00429184549356
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/64.0.3282.119']))
+ 0.00429184549356
+agent (set(['Chrome/64.0.3282.167']), set(['Chrome/64.0.3282.186']))
+ 0.00429184549356
+agent (set(['Chrome/64.0.3282.39']), set(['Chrome/64.0.3282.119']))
+ 0.00429184549356
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+ 0.00429184549356
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+ 0.00429184549356
+browserfingerprint (set(['011cb5be890355e61189de9fa773cbd4421ae32ca18fd46e9b5583574c0380b2']), set(['7065858d4ce0a20be33241a13d9717625a087e4fc2c6ea58132b2f739b2da8fe']))
+ 0.00429184549356
+browserfingerprint (set(['026280bee00d2e4bba75da05e346c5a6c2953e33688a05cb542ae41eaa21c4f6']), set(['b92084b9b51f6dea970cf04af3f9b5c3958f7a7b294c71f62a38b7bc7737d6b8']))
+ 0.00429184549356
+browserfingerprint (set(['03b2b0515656171bb6f33796465905772534a2ee5ee85ced650b084cb5b2c793']), set(['73bd4d3108bfc58d70a3fb1b10bd831fd65952cd0b049e335fb7cbf06d2ef5d2']))
+ 0.00429184549356
+browserfingerprint (set(['056c6e06f991e5bd5f7cae26879b75122d0194654223d417af173f3f3662c024']), set(['952c8b3cf315d06dfa58821cffe8efb6ca21d7432dfd9d6f515e03f494d5d6d5']))
+ 0.00429184549356
+browserfingerprint (set(['07821761b636e781be6fe94f92a6c5954c803ea19982a62c25d0fe15727b2e22']), set(['6840f1d9e4c169f35477d133995149d54877066202509c51ef705618595d8747']))
+ 0.00429184549356
+browserfingerprint (set(['082cd55828467c159c50c78fdbaab51d6ce86dc77ab38c90d38550c2a2f53e06']), set(['ed054ed5f2cafbd33f2fe3b0c334ef78a5a45807983b52066103096d76c28701']))
+ 0.00429184549356
+browserfingerprint (set(['095441d1df1050040f6efaa7f33d928d769f4e4257ccf5e747e370c8686716a8']), set(['a0bcf6ae9169ec31e855f38cb572a526a42746966de301ea004fdd19de05883d']))
+ 0.00429184549356
+browserfingerprint (set(['0a393ae804028c5752e1c3514acf9c76496ca8cfb32492f3737f807b29ca650d']), set(['48f94a9722d9de30346802d3228625b7dd8fb02d08267d022f87eaa429fb9ce4']))
+ 0.00429184549356
+browserfingerprint (set(['0bd0fac49f66de3a044c1cc0515a4bfda66e79c8ccdd1b479692cfde23cd7a07']), set(['1156527d51484f725e801ea1d35a91fce0f8e9c5e41d34a39458da36c1017d9e']))
+ 0.00429184549356
+browserfingerprint (set(['0cfadf1a966cd5baaa7c4774a17725810b0926ed86ee4638eadb6e1957d921c1']), set(['5354c7433bfc3b2fabe33bc9ae631d163cea9e79a2d8f36fa9ecfd87485853af']))
+ 0.00429184549356
+browserfingerprint (set(['0dedd1961507c5d2d2f46047eadf15d14467f8a8a118cc19d0eef11071a453c2']), set(['5f1a39a7b6573f4bc939cf76e44271e5b93714a553e31920de8f803110a92e1f']))
+ 0.00429184549356
+browserfingerprint (set(['10739ff8a800883f3b20e7d69ee577d08baa992164dfe841e1e95301f7e9ee75']), set(['c17b460b5c7e4cd8683e603a0b3a633ee104b4ce760682bc483695e10870e458']))
+ 0.00429184549356
+browserfingerprint (set(['10ba4d4c4086f94032b64708f5ffc8081efd9948c676803f31e7f5065704377e']), set(['450adbe9e05c615f308b60c2d9f6745544ce3aa35ecbedabb832b29b571ccee8']))
+ 0.00429184549356
+browserfingerprint (set(['112e8d48d33454a6a9de6facad717b3b8b4aee62751e8c8d066530b2a2bc08d1']), set(['df707ba6bdd1b39bec76ae0e3050799a74b3258b9153e268650996067652c583']))
+ 0.00429184549356
+browserfingerprint (set(['1219409d438b2e8a90a0bec594d4f7ae1c80231d2cfa44d4ead79b904f3cecf3']), set(['2dcc67eb968b471a4c175654a671df84e6a653ac831264c209e29cd0144db8b4']))
+ 0.00429184549356
+browserfingerprint (set(['12972f007346a40c3ce18d7b9b56dbcd28829c454b961e950d6e35d2c4761a5d']), set(['7e4ef2aa80cb6a014a0c7739d14d293447fb0076df7ba1eb2dc89a96166c8708']))
+ 0.00429184549356
+browserfingerprint (set(['12bec1c8d2f6c1aad821b85cfa3126ea2384e3e7f73af7cf5197923758cc6fe0']), set(['661fdf7d05290874bc5c26cf200675c368983759de1e0f4807f27ca6df752790']))
+ 0.00429184549356
+browserfingerprint (set(['14812d3730eb8f0a7c120fb50d748292318f483d81f9fd51dc600ccf176cbf29']), set(['d393a6c1d50ffc349971727ce858157bdb89f518f97b2d9766e0bcee90da4af0']))
+ 0.00429184549356
+browserfingerprint (set(['17fe8cbdc6551a04630a377d79958df24e4dd7041b21c15d858492b574c3ea12']), set(['839861df8a7e68ac33c216a25af8aa68932660570286f04ccf7b77fe82849866']))
+ 0.00429184549356
+browserfingerprint (set(['19f6b528c388a28e8d47287fd348b239d34c4868a5f8edd993d4c9efd80e8c4b']), set(['337b068a6c78544bd05e13321045924c43be7f0c439f64119bc8653ba03162ff']))
+ 0.00429184549356
+browserfingerprint (set(['1bc8e9a1ce709d59dc81e71f6b063f50b3806dc88598c313e5e32292bad26d8e']), set(['0cd56d6907e3537213bcdb8b7d6be9fb00fa9ce919559bc53494d3f48fa19807']))
+ 0.00429184549356
+browserfingerprint (set(['1be72d759c3fac639d89f23d09ce00976be4da2497219c837fa451024a539346']), set(['efd9875c362c0501501eb0ca0f2c731885e66c7e415cb77c9e3b227aee1a8b26']))
+ 0.00429184549356
+browserfingerprint (set(['1d546d97591e746c570912880f40deaea45ed044875e94301e4159fdbcc52b1b']), set(['d582e9148d9307cc1a49b5140acc1b5354d6d1352491dd3503e565975a60f85f']))
+ 0.00429184549356
+browserfingerprint (set(['1d9458bb9f574012989e778d7dc8848d226424545e3161333f7cd3a46e624086']), set(['9e30ff184e7f7b4ace7d9cec67c0f19d8d25f8adbcf9f5ca032adc80ed44413e']))
+ 0.00429184549356
+browserfingerprint (set(['1d9458bb9f574012989e778d7dc8848d226424545e3161333f7cd3a46e624086']), set(['fb7e9a2d55c87d82130e9be269d5bf43901fc74e1025a3052b0734f401b55a40']))
+ 0.00429184549356
+browserfingerprint (set(['1dd5bc7217511bbe5ea4c2afcfafcaa6a3ef08cb54df294e0d0f4814bc479d21']), set(['9fce3de2a18965909f5eb9424d489e289618d90bb7b205c5d62b9a6e5f8e0f39']))
+ 0.00429184549356
+browserfingerprint (set(['1f21c24d8d592c1fed5c0de5d4ec419e68d1ef6dacf89b56c7c33ba965f6dac8']), set(['7019c3b04410ddcb215330c84cdcc566340010a8838f677e7694c0af3c16d510']))
+ 0.00429184549356
+browserfingerprint (set(['2191bc574466bf09c52ea2385f9bd1f1220ce2666cc1a447e88ebedefb0cf9f2']), set(['766e3c0a35dbbe2343ad8c8110d7afbb55171cc6835d1ecc25c58b21cd27c809']))
+ 0.00429184549356
+browserfingerprint (set(['221a9e5112536b6638d23611d9a383fc8b43e1e7aa26b8d146e10645a842e49a']), set(['dd70a4016ba49170da66286d4e2b672185c13fec869c2be01cccdd1e9adcfb2b']))
+ 0.00429184549356
+browserfingerprint (set(['22763b8b78a5b5236b405281b309cd300d65e737d7ec699d67f638348d7153b8']), set(['d1e4375e94f5123b45c17ebf758e272d329a4c6aa44890d94595adbe16187bd7']))
+ 0.00429184549356
+browserfingerprint (set(['22dd5d3138f337d08775b55ae75619589cb19edb56bad135f843d4ebb05f28cd']), set(['cf8f74dd84c416ded33555baa1f9ae9a6d31da6cf8eae76c35dc6dc6cbb6a0e4']))
+ 0.00429184549356
+browserfingerprint (set(['257520a57e6a75c89144305a7fb12b6db7154cf9169e828ea6de20e8e3db75c4']), set(['fc8eb52ad3d8474fec1f72a62f442a76a3b1c3074fce0ca86070e450cae8026a']))
+ 0.00429184549356
+browserfingerprint (set(['29437c76548129b0a917d5c59b038d00f795beafb70a2c48e51ba54d284c8446']), set(['fc7ec526c5c6e3965ff7405b9c3600f3d84c92f48ff9db4d3fb93111c77c1273']))
+ 0.00429184549356
+browserfingerprint (set(['2a6eadb0c0164bd9c7488a92d001edaa1904301ea3af898bca7aa59a90f7a05c']), set(['027f2ef88c6d9717f065f2fc0e24f7227fdfc2d132dd009eef6d908b08d0a1dc']))
+ 0.00429184549356
+browserfingerprint (set(['2b26c3a43b72e25c3e57052deb021f8b8954fbbfa0f6c3317d0942f3b9d9cc99']), set(['823228c3be7c10051265ba737bd33c8f181238c82dd8b17e37e2c273aaa775ba']))
+ 0.00429184549356
+browserfingerprint (set(['2bbd24933736bc5428505f686dd968b442dfddce45ca22dbe26ddf9666aa25e8']), set(['d816627b65e7604db68edcaf319f2332ce276ec7b9b72bfd4c6ace4f252a445e']))
+ 0.00429184549356
+browserfingerprint (set(['2bd89518ae8fe0fd1c46e2beedcfe8926c052e66eaa2ea2725c70ffe83ae2b34']), set(['5706b1f365b30f89757627674856eef47e05a66c1481dc50958aa6aea25829a4']))
+ 0.00429184549356
+browserfingerprint (set(['2bf5739f6a2905f36d42a1d24d41b24123f2d82298947c506de9a0b45d6d3866']), set(['5ca6fa11657421674cf15ca20334f4eae4aa4b02ccfbeed19bca855fa57b07b2']))
+ 0.00429184549356
+browserfingerprint (set(['2ec482b361aa32fd09035f1799655d2acf9195e276bee04f241a53f4e59784fa']), set(['ec0198111c8d8c088a925e20e400c947248e35c4743a041721a230baf1dd5727']))
+ 0.00429184549356
+browserfingerprint (set(['2ed4ab71f57be5f02ad3cd9dac73dcb38185bf14a921e49734687a512975538a']), set(['8dafd957aa5d872729136ba3d5f2ee4931b873ad3267667865107431c53f67c2']))
+ 0.00429184549356
+browserfingerprint (set(['2f62393efde16e42515b07706b4aeee63b2376e9344fe7c76c541707cf7f3474']), set(['fbd6b032365c4a77c989def95f78f9cfba264db260de1d420f38750aa7b078ef']))
+ 0.00429184549356
+browserfingerprint (set(['309ed6e198348e716dcb1486ffb2d3d72fd7ebaae2fc2d4adf648f7ca82f966f']), set(['3c5a582dd2beb75a364984d292f92ae78f12532f20a06792ba1dc0682e188631']))
+ 0.00429184549356
+browserfingerprint (set(['320939a1e8f0dd0e92f720aa57b5a089913b2a227162d3fd37ed07339731ba19']), set(['128670ab73b2e942b7f621996868896ce1196044baf3f856d268289b1223e3c4']))
+ 0.00429184549356
+browserfingerprint (set(['32337a66ec2925b2742865c6930021d3b131b026568c458116c672f54782a66d']), set(['faf39f0067a4a7367b759e7086e9620a3a8f207f956e206073aa9d9a12cd19eb']))
+ 0.00429184549356
+browserfingerprint (set(['335871b4fb764a2329fc0b6c0b58f061e6f9501a0ace4fce00d6c1223a88fa9c']), set(['ee89069ef7a09997d8b64b210c0eb8705e031696aa733b8f8de0ac32142bd5af']))
+ 0.00429184549356
+browserfingerprint (set(['343e8b9b7698582a5afc6eac1dc04f1612599684830e6bd81b811818d8ece900']), set(['6fc2e32b6e7adb7c75f2fe55fdfee8e42591b287c423e3d326ae2cc0cc20275f']))
+ 0.00429184549356
+browserfingerprint (set(['34d8385791c8a431e3a92531d388f6d13c40cb2675c8cb33f9b81d87b30b23fd']), set(['4a39f9df9f5766a193017c044d19dcb1bb67ffb65782adad7d3564e87857f845']))
+ 0.00429184549356
+browserfingerprint (set(['35556670564a435ffae2c5020a2b7a7ba61345f32ca8e41041b633f2f19900e5']), set(['d04efaedb3205a98be0a549cacfc300386e6f297c514154061423772675fb321']))
+ 0.00429184549356
+browserfingerprint (set(['35da868d2322b2b09845421e768a64166d3636a4476302b42f941ead6ecdb2d9']), set(['3748e4fe55bbfbb90bbaa95e0750f27329aa3135f3099e667780d94816381b6c']))
+ 0.00429184549356
+browserfingerprint (set(['3601bfa8ba9fef9a25fc423355ca4b62a991762f3fa269185b5dbe9540fc7bd4']), set(['001d5f3ea613ec3218d9af915157fcd6c5c84aa4f7c7e38f97c12e85f682bebf']))
+ 0.00429184549356
+browserfingerprint (set(['36616ee0391752b6306a046c50d166de4b94fc70ee7863f4cc1364dc0ddd628d']), set(['ccb56dd9849314a677c437b1829cb06b72d8bf24067301576037920ead1c1c1f']))
+ 0.00429184549356
+browserfingerprint (set(['38f2c55cc875999e7bd345a69744d749f489de254f0198ca6bced89dc6177b3c']), set(['c61bba26ab2be5bce4fb82fca80ed7cc9eaa1044a62242ee728f1420d79c7d88']))
+ 0.00429184549356
+browserfingerprint (set(['3af8e42de4612d10d8aca6b65ec778eb4c51928a028425ffd9f95bc6c918c6e5']), set(['cc49573fb361899dab183ae427cbc031fb1e71e9f977a29b4f4ed4a17e5311b0']))
+ 0.00429184549356
+browserfingerprint (set(['3c4c79f86cf87b552b4a003981c2723c43e18c80b0f6e7141dbd8651a30d5b16']), set(['7c6af7751aa9cbc45a0a2efe5bf863c4f7454045d18da6a7d85cfe53716873c2']))
+ 0.00429184549356
+browserfingerprint (set(['3d9e71e203388f88ba143305b6d2b51a35e775d106618933aca0b90d6bad01c2']), set(['078044bd824c4465302d96482f1e57dd4ec07ff9c048bca5b148cb82722ab45b']))
+ 0.00429184549356
+browserfingerprint (set(['3e7363aa1f616b8105e49e83514cad4b53fcbfdf00c6948107d30e003ff599d3']), set(['8fa1a3673735723bcf8f56db91623dfd1afd66fd30b9cc0ac8058e16647fb008']))
+ 0.00429184549356
+browserfingerprint (set(['400c7ce6d8a871090581a337ae7895d39d79136f52b5b047b42174fda2c45f0c']), set(['f0102674523c750b9e38c7feba772f55eae260134166d7ccae66162d2a54672d']))
+ 0.00429184549356
+browserfingerprint (set(['40d32b9f5e7c78e94f694c3c80f59d051a82a717424a8d86e838fc6a440fb6d4']), set(['0906fa3fa240792ada1683cc3840d4bf0b01e520f45a767ea258a43127a69b6d']))
+ 0.00429184549356
+browserfingerprint (set(['4109376bb4c3cdb19449b193bc41ef318992b0662aa89533b4a3d898b1454096']), set(['963250afc4cc06916a71b76e60d6f0a66df72c3d32a7642b5cd88dc162c0f21c']))
+ 0.00429184549356
+browserfingerprint (set(['41f7e838d75a1f3c88116fd6bc00c5b1afe6b4fee1d54a9b8b506f7f02a8d706']), set(['22b6b07e6b494e255deae6fc465f2303a5f9c01c267f5f45d0151cbc04c27ed2']))
+ 0.00429184549356
+browserfingerprint (set(['44fcbc7b18c50a64dae19a97b851dfb6e8677594e0e4d7c586534bf6ec8ea6d1']), set(['e9fca71c990159d89340471eb764bded200297dd03281aca96f7c2939b4368d6']))
+ 0.00429184549356
+browserfingerprint (set(['4aac308633bdc1cb23fbf6417f6c668f07a59b0d9bb21fc09c00e51b2fc0287d']), set(['57df37b1f363376cda8e1a4a798d48682fae6212d01e15d3671182905e9e0287']))
+ 0.00429184549356
+browserfingerprint (set(['4d98735f504831251b2ab5dfa33cc5e63d365333467d9cdbd7cc6b233c5df208']), set(['aa71585419b0bc1e3d59293710590ff6345b9add04d4ce9e4e1140fada23e2ea']))
+ 0.00429184549356
+browserfingerprint (set(['4d98747b3b515bf73987b8f1651e06bb06852ab834d2e247c2ff52226b02b31e']), set(['e807cb26ac64b5f1b674f548d25bc3c65ac7278cff99a652a1e9e0d24814a2e1']))
+ 0.00429184549356
+browserfingerprint (set(['4ddd156b584f54f3937a1a53efa64995fd0ed07bafddf138170a4a4a0049d625']), set(['abd29e355ba4a94e687cdeebaeb4b28bd173206dde5142974074d5c7bf92f2e3']))
+ 0.00429184549356
+browserfingerprint (set(['4dfb6079bb28ca68be0a5f5c4daaf0f06f512dd710b8fe15017a5dea3577d735']), set(['2b369606ffdeae7c7677b1e63d2f20e0294cfeae662c618fee1d1b21c7b12a28']))
+ 0.00429184549356
+browserfingerprint (set(['4e3f48c9e5ee2defcbde277c2bb3cc9d3826159aa2b60ffd13ba6a6f74661041']), set(['61dcfe85c7718b398a97ac7682d5d32f326c203517e044969a2d71d0643662fc']))
+ 0.00429184549356
+browserfingerprint (set(['5032649215350eb4ec1987f34a51b6c0295ccd2ff414b7eaaa8a02ad558e109f']), set(['7946f910e7bd4aa74c8a15052cf1669fb1e90590cadb5b560fbe9081114b156b']))
+ 0.00429184549356
+browserfingerprint (set(['522038de3a95eb544de431b932617a1e2a5af968a190b6aae4a1ee3726f04188']), set(['ae784f742cc0a714a6e8212ebbc50f83f97bf9e920010f2b63eb40e6b335a267']))
+ 0.00429184549356
+browserfingerprint (set(['5258068568ba6945d65bd10c6e2878549ef308e0834883d97686384c5cc27fb7']), set(['3a4f0778bcad67b84856d7ae4d4534af4fc03cd893c880ee1c9d74f88f474b59']))
+ 0.00429184549356
+browserfingerprint (set(['52a127271969a1c993b2f04ee143a87b8791cac5ef368d4d8d5f1c0fad7d06f1']), set(['dac3bcf60a2081dffa2e20fdaeba4283ddae0d11d1f4e99febc0331726bdd7a1']))
+ 0.00429184549356
+browserfingerprint (set(['533ef9d54671585eba4f282f4ff7a73655a7a50c2f19abd3dad43e48e5aa9a8d']), set(['46c522759827111937c4f21db62473496be1030b7730008e2c4667b3122f7a04']))
+ 0.00429184549356
+browserfingerprint (set(['5364ba49573c0bd399fb49d29d1cc33f7b7f09c5b77fd9d89b4ebc4f5531492b']), set(['8f16c0fda1c9a445f77706f66c32af42f1488c8aa85e902804e5036af9248102']))
+ 0.00429184549356
+browserfingerprint (set(['53bb02796c200c1d0fcfb82a9c7d9ffc5e1e84053e9600959355feb07cf02b68']), set(['808e2c15451f41c2953bf1bfc0227defa3aeeb207e8fe709a779a71146ba41d3']))
+ 0.00429184549356
+browserfingerprint (set(['5504558f581b37194b9008168abb8554e9fdf103d607faac373ac9005060f0a9']), set(['9bb4038c7b716c62517024b479817a571be03a0e849739789484e366d50209b9']))
+ 0.00429184549356
+browserfingerprint (set(['5555b75b7e9a0c36ac2b742de955a43cc0aff0daab1c9c0eda2c31435d907c84']), set(['81139fda6a65dc09da688693d402cbd7d5b2c004829fc6e29432e6cf99ec5709']))
+ 0.00429184549356
+browserfingerprint (set(['574063093c3e54a55dcce6cce555bf4f583a2df5bccc24f8d3b3876c9ee75f1f']), set(['215bc9535a857a52145da2e021292b08beb7ba12c81b8d21e5941464ff479ecd']))
+ 0.00429184549356
+browserfingerprint (set(['5bcecd8c467b373168d82ba6cf2426ac2921d0b8094e2ad1d8a8791376f9c85d']), set(['9fcf54fc95d7eec75420b92c0ef7ae8a36eabda5d288e8fee67469a3721b3332']))
+ 0.00429184549356
+browserfingerprint (set(['5cf59f3d4a5ef7ce638c43a3220cf5d7e6c613822409a6842dc5548ebaff5b37']), set(['9428472776131796b16f5625493c1f53462c48a93ac80abaaf34f247048d6ef0']))
+ 0.00429184549356
+browserfingerprint (set(['5d219918cda8e95e0c0a7dbd95b94fc77f629796b13c766c2f155a7ce4dff1f9']), set(['2cd8fdcc10ce701bf7a5925eb79835a484ae8af20692425b60154c6cdc48e92f']))
+ 0.00429184549356
+browserfingerprint (set(['5d78a51503dc03856e6d41e5e854e2213b40c772c4a59c50ad304fbc172cdfcb']), set(['70136d80a6091a19e81431fd0486135c073fae59e3523994a5120a5047b53659']))
+ 0.00429184549356
+browserfingerprint (set(['60212b6cd3030e23eb61c2ee9682f403b0fcb968cdefab4fdeca1f490d392740']), set(['4a19230b380376c54b803d1d6a0df78b06c0062d2c66922243808cf1dca0ca35']))
+ 0.00429184549356
+browserfingerprint (set(['622838595b655a3a35722bb016537c6de933617a1c8453324361f88ca7054e90']), set(['77d83a24fc616eeb65e70931064e299fb976097dd1f07d8692fb049696c1ca50']))
+ 0.00429184549356
+browserfingerprint (set(['6382ef2b9a7cd29b942e9a11706a1cff6062349644f6392046c671272396874e']), set(['04f962fab4338ed6beca2152d10c1069c3a4c0107059ab22c265e0f96b469041']))
+ 0.00429184549356
+browserfingerprint (set(['64f6cee764e824824a5f3006638f80dee07873f70ab2bb9ad0a77476215c911e']), set(['47e0a5cda0174d6c899091c0df46b904cf25d0554facb2184680eaf3a386f703']))
+ 0.00429184549356
+browserfingerprint (set(['65d9bc77f39e013d3799eb6616497856b62d8ca36dd31cb6a3f8543751f28d7a']), set(['1829dee867ff7476152f0b205240284349a7dca6ffe8624795d130f25c0c4714']))
+ 0.00429184549356
+browserfingerprint (set(['665e4d5006231d0251f7a350bb0dfa265e4e549126df8dfa4beff4053cca2cba']), set(['2d8cff3e704a09d8a07732446539fdece8c4fe63ef7550d86c69db847d145b74']))
+ 0.00429184549356
+browserfingerprint (set(['68afedd850df0c9a7c008fa5cf675cd6507c00a55c8ab1fc7bdbad50e730363a']), set(['97e6feba1fe3f329f39357f615e65bcfacce820985ae510d303b083437cee33a']))
+ 0.00429184549356
+browserfingerprint (set(['6a22c8d54e5ffae85afd31393806cf4149c6128752b354bd2801c58d0347234e']), set(['757ccf561817c767479cb2438c3f9827a90efed929cf42e7c93ecbccf93e615d']))
+ 0.00429184549356
+browserfingerprint (set(['6a96fa126321b17001ce356ae6352509278709babc26f10d179d85644f6f326c']), set(['f03572f2e52ab33e5e93a675cfc986fa40528c54e2f77ac4633b30f83b76d196']))
+ 0.00429184549356
+browserfingerprint (set(['6c20cab9ebac166281045a1d670daa1e814bbfdaa99a7dc43c0d2245817f986c']), set(['b0423b84f1b713c3e677b06b52e312642ab65f097ecf7ed38d29af3f684ec5d4']))
+ 0.00429184549356
+browserfingerprint (set(['6c4f9f4ed244b0f3a298309be764f0f7afeb21770b243431a758c3f61af16d4b']), set(['5ee14e3160a6b9724ea79414d79e8c7ff20d09731c19d4fe81f268cfdf308143']))
+ 0.00429184549356
+browserfingerprint (set(['6d01d85bdf28880b1ec75ca4c447e64447f1f7081f6c3eb3e0bcadad972c6006']), set(['c5059bfbfef5eeacecad8ff3f164da00ae1282986f10634bd02d1c6006642786']))
+ 0.00429184549356
+browserfingerprint (set(['6f18a3572b3114f1744604a8607cef14f2843fe1f813ec10921f69a825f9c540']), set(['dcc46bb13ea538fdd71585249b2cd80a25b41f5bc4cad14a1777430e6708da03']))
+ 0.00429184549356
+browserfingerprint (set(['6fedecfd63f47c7dca2c6e2902f5b47ba556d1a62e25130619f32bb12a1de797']), set(['66a12855f626bc68c25877921844d7cdecc4ad2a9951df998e61f525d219e557']))
+ 0.00429184549356
+browserfingerprint (set(['70e8824b4546ccf2878c5dba1ebdf0077015f7c9a385025cdc47ef9bad8396c0']), set(['abb990a277ff063fa36c92724dc78d28962d739a6be78c76cd6c408e6c65a854']))
+ 0.00429184549356
+browserfingerprint (set(['718aa61cdc2358f106e3aeef9b53fe036faa7492f283ba8fa8d1d66c5b911920']), set(['97019407b1465ed4df63411fa078ff7c0b5a7ee4b81925ab2c60d79740c43938']))
+ 0.00429184549356
+browserfingerprint (set(['7264e024007b3ea862a88f04d9cb5d9431a7fada7ed20c0fffb1b806e734bfef']), set(['f5fa946e01c8e5328c45aa97fe242457392fbafcef17e1fc8f06cc4bc4c3c2a6']))
+ 0.00429184549356
+browserfingerprint (set(['72bfb1b37ca7dd7edfb7a94cb7cde14753feefeb736dc1599327e817f74b75fa']), set(['a66467241bf234b379b6db5fa2dd135f9106980bbaa95f493405fa74226f5f64']))
+ 0.00429184549356
+browserfingerprint (set(['737bd00107fcaa8f7666cb30f363cc3f8a131f6b17e0cefc7c64f59f6fa5aa64']), set(['aba7d1e4093a6d19141d456d18b57c58d8db6dc752694455795d0c33b52a9bef']))
+ 0.00429184549356
+browserfingerprint (set(['7398390ce0a7e06ac1c2ae5cd3e881a159505f684d87dd032a35f5ef7cd73852']), set(['310bfbcde4dfa74b938eddc1e743685453284166d3576045733a291166f151c6']))
+ 0.00429184549356
+browserfingerprint (set(['747e0f9a416bf8d35365c3bde052a4021dae2e63048e41e61a65426c82b09029']), set(['704e216abb27e5ebf2154003a2de79c4923d1944a2dc6ffa44499d80c7a2d060']))
+ 0.00429184549356
+browserfingerprint (set(['757b474de99c5e3deeacc46a54207cb1b6284c253ab4ba6825049c64851a6440']), set(['3841ec0fdf5cc0cf92576b02feb19d839a8314a639ef2c36f29c5ce534634889']))
+ 0.00429184549356
+browserfingerprint (set(['776a12ffa1ca5d179b418e96ad5d2a3466f286548e165f7d027aa693350f0c36']), set(['d653873a0d8284fefd7728bfa8d0363f8c57027df1d75b4a819523246bdb08d4']))
+ 0.00429184549356
+browserfingerprint (set(['795afbed1a5a9f585c5cd74b927b7ce8ebe5d2b9e1e55d5165b2cd4068322756']), set(['d36738ef21b23bdb5664ba20d4bbf4e045f10b70e1d255ef495f56431277ae58']))
+ 0.00429184549356
+browserfingerprint (set(['7a9558936dd11b4567650e1ddf7ee05e9d192e05b7732b863a02a4035773fcc7']), set(['20e78b21c5065d550d0f5799a0878a081b94af749fb48347bde3d79a3cacf05d']))
+ 0.00429184549356
+browserfingerprint (set(['7afe5201e0d6b4ba721dda06446e286e913378d84e511c5a906d23252fe33498']), set(['d7daf16ced131fe66834e2335407c518daebc0e6e05e0dec43f20447c8ab5de8']))
+ 0.00429184549356
+browserfingerprint (set(['7bcb4c91aeaaa1405c75c38d32cd726cdc2de497d1295fd0d2237eb624e94720']), set(['e29a0229e653fc0855cccd879bc8a1b7a7353181631c67fe2a4ef07f62bc3918']))
+ 0.00429184549356
+browserfingerprint (set(['7c6ae80d503c70719c95f331e086d84c590e81054151c2538316fdd770b35168']), set(['d00f3865f29065ce1b20dee256c41f2c7771b3efd7c6e19ee4725b9e12c37a75']))
+ 0.00429184549356
+browserfingerprint (set(['7cb76dac50a1448f9e411b28dd7e48488aadce8d894ea799e1f10239b2b47ec2']), set(['3d81b01136336d3843bbaaf2a7d73385b73742709a6089b87d42e3e1df02791a']))
+ 0.00429184549356
+browserfingerprint (set(['7d6f413d644b5ed69c617214cbf25e34e462dbf018857cf15c3de2e0e161ab31']), set(['397be32a1fd3bc51e1060888d0029fc7abe2769a04f92bc24e8c2198ed0dfd50']))
+ 0.00429184549356
+browserfingerprint (set(['7db9f57f86fae2f4709e06b00f8b3fbe50241db79a02b85152177c64376bbbbb']), set(['346fb7e249018f01936fdde86159c5596a00ec1829f938b3c0a2aad3df0bd8b6']))
+ 0.00429184549356
+browserfingerprint (set(['7edf2c22341d5d7e97d784ac643fa3e8c324ce338394716ed11fc7ef28095c74']), set(['c32ecde7d6807ad1ae411364f637525ee28aa3c2f7a3fe3968a53e7cda217e68']))
+ 0.00429184549356
+browserfingerprint (set(['806aaf9fc2f763d60ec3d5c9740cf475452afb7c7ddf89baa0bc7829c3b8ddf7']), set(['fa3887f5a94c7247be86a9a8e13788d3c3f3a5a289b6b11484d24c5db4982199']))
+ 0.00429184549356
+browserfingerprint (set(['820c7421b37deca483c6deb199604aa586b2e8171f99832e5034faba07ae559d']), set(['a093679d9694ec41e643c799cc804c47e764975bfb23fa51dafcc0a869da01bd']))
+ 0.00429184549356
+browserfingerprint (set(['82be25520b84c423207896bbf6913f7ce0cfd17ad72da045bd1ba4e289338273']), set(['b9575b74b6e1621a1504c3f36292dbe0aceb779a95eb7b184d559f3210e1caa5']))
+ 0.00429184549356
+browserfingerprint (set(['832603424d59fde5a36eafa7b61402fcb2b80cc4bcf457d791f238ff2334f8ec']), set(['87631c27053a2486397c309446f1ad39f3447fa9042343120a71f8f23ed598d1']))
+ 0.00429184549356
+browserfingerprint (set(['845a8edacabd557874234ed84be32e1a033ff7be40d5287614beddcf283c9bb2']), set(['64a4c7d88495ae8d0043daab382fe985e3e8207ac3fd172a7da7633fdd9148c9']))
+ 0.00429184549356
+browserfingerprint (set(['8533c136778ef731dd5adb1b7750b3bc05241ba408b036cfc846100fda61d6c2']), set(['b5f2d75a0bd06e73904bda9ae09081e47871a7fd5f3c57950485e3926c4275fa']))
+ 0.00429184549356
+browserfingerprint (set(['8741591d62a0f2d2a29ff0831af12dc7b48885915cd5de5551054484a833cd17']), set(['4a6dbb6d848c43c5e3c4d4bc633cf2cdc7914d4daf45d67ff641dc3fc30e2e5e']))
+ 0.00429184549356
+browserfingerprint (set(['878891781a0d493d2a3feaacfa5b003ccf53fda24ab21ee3bc4ed89c11928a7f']), set(['ca7e3350d3df6a46f19d8fe64847ceafc0fd9edcb5a0648dcdd5df1c331aafae']))
+ 0.00429184549356
+browserfingerprint (set(['88e7daee5cc16e4846a457fd2de31f0793b1196e92bbc801c1efd2faa77f5e90']), set(['035061d46b868fe50b88ae8121df2ed19e8d1098884b059cb9e1542ab8258fd3']))
+ 0.00429184549356
+browserfingerprint (set(['891a642af225d0ab49698f42ecb942f4a239be9a2adaf8fa730b5455b2231e1e']), set(['dc5bed9c2e8d3599aa8629fe3c79ff561c87f94c0ea6efb71e3d7af5d266446b']))
+ 0.00429184549356
+browserfingerprint (set(['89965c11d82c4eefcd2f386faefd40af03124df893adb530a34a38b4ddc41eff']), set(['136299a7405b5bc76816e9a2d518c207e8a2233115e6265fc4e3f36cf233e04d']))
+ 0.00429184549356
+browserfingerprint (set(['89b69afbf98354a695de980be70012c29914d130096b05595740146ebdd92525']), set(['ff4c19da00902787fbefb6532618c09753df36311d79011bb6ce7f5cf9a61417']))
+ 0.00429184549356
+browserfingerprint (set(['89e51d795dd205b0dbe704f71089f8dfb728d4ed5c2834ec38e124de10ee3798']), set(['e690295254b96f08d64219ac686e5362c5479b64225807d03425ce8426aa32a9']))
+ 0.00429184549356
+browserfingerprint (set(['89f1711493dcda697cfda8234e7c1a0d4113b9837f97a99ba3f7fbd1e62cf35f']), set(['d97e7a48e417639c9d7e0c2f2a62a0f932cd232ad846b4fe2e50cd79dbad9288']))
+ 0.00429184549356
+browserfingerprint (set(['8a8e1814e28d64c485033da9f05bb057c387e2015dccea8dedecab3a612d6f64']), set(['a918a5db5208bb3222fc729c930e5855d48909b612798b8228a0dcada058cddd']))
+ 0.00429184549356
+browserfingerprint (set(['8aeeeeec69a314306725d21986f622bcaf168470e4db58ae06238e850e6bba41']), set(['88304671b485b120f03cd88eadd242b9101f6fe7e3d81b150064b00beebee268']))
+ 0.00429184549356
+browserfingerprint (set(['8bb1cac38f9e159091a75230715dea8e34d90baa854fe287ffc63d0e6ef0867e']), set(['543f1e5249e7fc5ade417731df9a640ff2d53f3a0cd7f58f9b8a561f98aae704']))
+ 0.00429184549356
+browserfingerprint (set(['8cf20ebc0bb7ba8c603cb52fdda4f4608cae1f1e16b130f2fad3dd02654783f5']), set(['bf4a47009d2b6f36bc549edead44e78a968bacf85db3893a144f67cd89016b00']))
+ 0.00429184549356
+browserfingerprint (set(['8e6cf55170914872bb103471acf0f868f9efe6e56d5982ba2c345ead8d108266']), set(['d5860b52068297bfa1e2e3e88da9b835d60b1c1df51774a55c0166f7f8286403']))
+ 0.00429184549356
+browserfingerprint (set(['91cbade0aada8ee93d5fcc61e97615a60c3911b55dacd3710a50193cf1027a68']), set(['5c7b3359eff4cde28431e7fa22b6afab780738637e75848850f91dcc9525b8b9']))
+ 0.00429184549356
+browserfingerprint (set(['9251b83808707525f3a481e774bfb314768f2c619f85b7e7a1554b9b773e0510']), set(['f8bb4756549cf3fa8e4fce908a29ea82f5bb2b0c461aaf73c0003f01c3499384']))
+ 0.00429184549356
+browserfingerprint (set(['9510fad13693dcd11e526fde15a8c932a35dd477f2fabcc0aa6c036d65d32fc4']), set(['723569747fc1cee0dfdc960d870534ab05b8a78bf4dca757b30c2ccd3f975cac']))
+ 0.00429184549356
+browserfingerprint (set(['95acf371342f1bfe7cb45a700dbd6da883031bca7d6b35918db91a94d6fa31ba']), set(['c5b0484e6cb3649df6912b57f1f961a6c0ba3c1f312a6dffdfc6dcc4e8c08a8f']))
+ 0.00429184549356
+browserfingerprint (set(['97a0262e02d261c57842199be2967ff8910a8f36cc8a57e1aed642770bb75496']), set(['e49b05395feeecdada3aa1fbca5cd46bcb5a6b1c3297ef7e9666f479da49b925']))
+ 0.00429184549356
+browserfingerprint (set(['97a90de9e803017c89699d754f729feb51fccfcf84e23d833faa5a9b7b813264']), set(['790527d5c4d1828a556526d9d273b4e00f6c1b687a75d56fcbf8da2c5170e4c5']))
+ 0.00429184549356
+browserfingerprint (set(['98d74387b8c423578dbfbab9d43d890cf4ca0b088bd39fc7bd08cf8eff469baa']), set(['c3f12a2e0f2f932ecb4d14746e7554f9e1975b74a5f6a7f0c6a187a004fe1589']))
+ 0.00429184549356
+browserfingerprint (set(['9977b242b77b0b8a0dcf6c4fc3c1939d43ca3ca98fdedc99717641513f184be9']), set(['3bd3fa41f2a3d6723df37e483c9b4e06c377ceb4916fe02c0863f2de8a5ba040']))
+ 0.00429184549356
+browserfingerprint (set(['99fb6d7522b5ba32180c15cff95fbab887968f4c77eba493bf7673fd6f94f8b5']), set(['66dcfd7862ff67d98a5ddff13c18af33fcae03eb082ca421b7ec1c68f53909aa']))
+ 0.00429184549356
+browserfingerprint (set(['9a56b2919f0db835e194d104fbcbc0744a40320307b86d784258c964a5fad4c3']), set(['cf8db9842e1a7cdc6f6e496205c3629ce4c644e4989aee76f43db17a9ea0e1db']))
+ 0.00429184549356
+browserfingerprint (set(['9bd4eda695b3e40d02191121931ec392bf12632738bc089a4135d3c34bd0bf5f']), set(['fae4325aaee7894389f15214203690776ee9cc5a5697c3b1c45d06f6ad42512c']))
+ 0.00429184549356
+browserfingerprint (set(['9cd7d4e884c61ca94674b3e678c798c17ad5daa8d52a8f285b39a07e9ba07b00']), set(['49e9944fa7e7befb49d4a953532b299d5e35db7c769f2d5ef627a4eeb63284b8']))
+ 0.00429184549356
+browserfingerprint (set(['9d94bcf10f1bcafbe344eea9fe76fc293630ab8c41a7f4711705a78d54a5eec9']), set(['32989841c5ef1e578df3fe6b2303fdb09ba2c191098780dd3654bae155451a49']))
+ 0.00429184549356
+browserfingerprint (set(['a07118e1a38bfc8f8d0ac7c6f5c85e966a569302b7319881579cbc528c866b81']), set(['ac7d5afb04f9235e4ca79875e4767adc190b631f45d5cc1e6b361345c628e174']))
+ 0.00429184549356
+browserfingerprint (set(['a1435eeff21682ad551f8bbd645ccbd0f9140156ca83e8b37285700dc1ad3d75']), set(['38b899582ae665ff0097cabbf0138119ba710fc0febf8463125429a80aeee77a']))
+ 0.00429184549356
+browserfingerprint (set(['a2feca6980a7b50cea4ff966f89f877727b35f5449fd9045703cbe7b13c28295']), set(['2508e5275af2fc302d7930a271c2be0c76c3fb99db84b8106dd9d6b93e03d2cc']))
+ 0.00429184549356
+browserfingerprint (set(['a4995bafde588f3be40aa2e288f8ecf4d205d7a559f53bf447a105c3a606bd60']), set(['c3b23f822be780a602a2c4cf7a476c2274af3f011145e44cbf2f08ebe48874a4']))
+ 0.00429184549356
+browserfingerprint (set(['a49bcee4c903fdf55227d87d9804f4d0b66a6884e1c651bba3ecb4167862883b']), set(['13fc3816ee8b6b9fc467593ef98a855ea96ea25b854dd94dffb0381834e21d5b']))
+ 0.00429184549356
+browserfingerprint (set(['a52944dd4e488eaadb0dfc764485c7ef7ed264b9d687fbda220546346a48fbaa']), set(['59628619c56430ddb71e762329607f40957662611f80862ea7d754371252c09a']))
+ 0.00429184549356
+browserfingerprint (set(['a71044826634cbb46a3ad151aee4587554f4894e2e3d6c99c9265073b60ddc7f']), set(['a0cd3d66cf1093eb73ad1eb43575df609782e953a8f52353c62725b09e68f946']))
+ 0.00429184549356
+browserfingerprint (set(['a76c5a37c19e368949f47c23e09f40d2b0a1c2c2f4f4aac29ca87a69551e9c84']), set(['f37fe30279d738031bc2ee1864ff92a0b3325253f7c552e72cba4d9349a9739f']))
+ 0.00429184549356
+browserfingerprint (set(['a78408bfaf9274d2d346aec1e239724ee2a7d6f84f4efa90ab25052e26a9c53e']), set(['9f2dcbc6ee033ab7a2c4b2aee845d7d1adc9ff6fab39faa47c9bfb23d0a97575']))
+ 0.00429184549356
+browserfingerprint (set(['a8363cbf3abf4fcd4373f3a9c5b84256f47b762b10649bf1e893a2678db40797']), set(['304c6d8fa9f9ea987af0e28010931152e9db35a836828202c911cd7f30b50162']))
+ 0.00429184549356
+browserfingerprint (set(['ab5199dc2fa349ff411aefdbae2c80aed853a23a262432a8e908e8e6fa1044ce']), set(['e16e216008c9392be00ac455b2bf214affdbe9ee862f7a825905d4f987e1e176']))
+ 0.00429184549356
+browserfingerprint (set(['ab9a5a23d66a581353d15b6c81f9d59774a0fc758812129d4599a5db4471a6df']), set(['4c067030a3b5410e78ef478fb55b42ec2edc68e0177cba5ed620abde59b26582']))
+ 0.00429184549356
+browserfingerprint (set(['abb66a60e602679fa55f74f6bd883c8e485d14c854438348aea89ef7b40ba0fa']), set(['c2017e1b0cbcf85d1f902a74d02f6f8918bd2eeac02531c4d437b2009072b5a6']))
+ 0.00429184549356
+browserfingerprint (set(['ae29b7193cde570f6c184fbbce053dc391c0d5f27dd5ca41327be65afd6a5d34']), set(['b8f8c42e92b87df3781ff77dadb34a15978fc0b02cbab3432b015d5e53223b5a']))
+ 0.00429184549356
+browserfingerprint (set(['b035ccacacc96b4d75eca64e047b22159ea6ceca25c6255ea080422d3223fc72']), set(['8a0af1101f9312f9bbc5c7b9bf78b9ce0fc5754a690453a38d60051eba4c123b']))
+ 0.00429184549356
+browserfingerprint (set(['b0ee27f33ae2904b168fbeffba3b72fc6d55ab256b7861150c6d74258ae1cf26']), set(['6522cc07532fba216e5675045a2969a7071d863e2338d6d2d2ca5643da4ded37']))
+ 0.00429184549356
+browserfingerprint (set(['b21d38ebc6f11d1ebd956d2c3380e9307aa6e796b20e95eeff955f253d7cb0ea']), set(['8eab7372578410d497f6dfba7a339ef7bf348e5d67c6e5d2617fb929b018893c']))
+ 0.00429184549356
+browserfingerprint (set(['b26052e87de61f4f459328f1b459004354feb588fd2db3272aafbf57935e0caa']), set(['2733d687de0912d271291e24a628a85b16cb8361a261769ae1ffe966c6379874']))
+ 0.00429184549356
+browserfingerprint (set(['b32a3a9bd59db8af3b83aad863c56c5af799c2e8d519e9a25561360ca0094912']), set(['d22bdd1282675ab6870523aebd18d57919660b61d5ac7e316d37faee00a87321']))
+ 0.00429184549356
+browserfingerprint (set(['b496095d0e5be775788b6860d9e0d2b8c99ddb4385de8fce5f230c66786c5697']), set(['8ee973e175e06b4d16dd057bf891b38155d2fc4b60a0837f9ecdb31233ffa219']))
+ 0.00429184549356
+browserfingerprint (set(['b64792ab59767b5b919805ecaca7c485ebdce37b7bb95c5c25b80d06fca4e4d4']), set(['94e1c05781e90aaf05b5004b7cc9addf79f5e0c2a638ebda34bc8febead1f54d']))
+ 0.00429184549356
+browserfingerprint (set(['b648105c815af047d1e8493aa4b900fc6a7da5f94f857448421d0597e4b2757e']), set(['48f5c7ccf6289f80b59000d0c8c7873b29c28f9d4b18e4060ddc526fcfe4bc0b']))
+ 0.00429184549356
+browserfingerprint (set(['b6a0b14e001815f5b18ab2205d184c32a44d898b7fc37a95cb64076723f81247']), set(['06640b93b2deeadfe19f3f44d4f2389d15eaed632287541a6a04d423029fcedd']))
+ 0.00429184549356
+browserfingerprint (set(['b921bd0275e5ad228154c4d2d54cac973bc71f5bfc287c03db5c6666c7c731da']), set(['d6647a58ebdf56a6fa121b46ab14e5b718b35b8b449521a18730f363fcba60f7']))
+ 0.00429184549356
+browserfingerprint (set(['ba1cf4313866b24727922faf424e4ff4c684896657ce4dfbb5f88d0801be9d50']), set(['ef53be8244ba4420a243de2b24e14d99f38460fcfa51543e5bd2a9966bd5ded3']))
+ 0.00429184549356
+browserfingerprint (set(['ba740c68acdc18bf0163b6c5eb32a11031ac43270263521ac2503179684f0123']), set(['6637c844691093492ce0d68fa48c6fc12f575bece4d66c285e12efc426c78aaa']))
+ 0.00429184549356
+browserfingerprint (set(['ba9d9bb4eeaff858cf54f1c1eb96ae08385c24ebaf7b779f75ee27f3ec5f1db1']), set(['f7c579da301ccc2bff639ecb2d431c39fe02b7657f80a5e0840bf19ed0ea4e87']))
+ 0.00429184549356
+browserfingerprint (set(['bc743b4c2ef72bb0341c01df9c46368503ba75b1a9c2deebeb756726093c0134']), set(['63dd1a4b15501a22716d684ce40479c97d587d33ecf7604a1c9fe8f7485b3124']))
+ 0.00429184549356
+browserfingerprint (set(['bd86a1c722ac4fd485aae6c71f867d7f7ea67992670404a5d7d86a83e9020251']), set(['42e827ff5b5efe876d87f9e8cea9f3cb26c7ba4c6b7c76c36aa3a621e1a35e22']))
+ 0.00429184549356
+browserfingerprint (set(['be011f2cd5e2564e63fc0eecd779b29fe00f29f78846003f3ebb985b63197048']), set(['5a7bc3ac4deae9ee1ae430f6ead20aa33afb32dd34ff1e5be39310d6aaced0dc']))
+ 0.00429184549356
+browserfingerprint (set(['bef9f6d429e600d876b5822a2cc237a268f25d55b1730be50248769aa18fa12c']), set(['415067469a18af2814a04af0cc2f527201c04bd176f98d2c1640cd6d86a65965']))
+ 0.00429184549356
+browserfingerprint (set(['bf8e2804940f40bf1bd40486fb6e64b5fccc355680f02163eaf6ade16a05d64c']), set(['ffd9cfcf33bcafdca18b5aef42851b066e8e919aca9331b381cd7561323d2562']))
+ 0.00429184549356
+browserfingerprint (set(['bfd8107350d7183a4d6d6e46241f46b194d461bfcf89b8c3712207cf58b1fa02']), set(['08b295b627df3a9e0c7b175e0e4aa53636863ee785763a5d9ac2a3104c0a3cd5']))
+ 0.00429184549356
+browserfingerprint (set(['c0019430dcac18f69d41e45ba211a93adf8d5f0bd85e9a0788d6d74377a9bd91']), set(['46724d8ff4dfcb46c053687b6ca4875e6902684fc892476742e39cb54468bbc1']))
+ 0.00429184549356
+browserfingerprint (set(['c024516c1ef9d09aff1216751729db64f113fb6a135fc6f6292d8c886be8fd4b']), set(['97019407b1465ed4df63411fa078ff7c0b5a7ee4b81925ab2c60d79740c43938']))
+ 0.00429184549356
+browserfingerprint (set(['c17479e38d755fc738876e64b75d27380cec2efaf7bcf64d803c7ec915d3c4ef']), set(['86285298256a490c11a1dda7060872b8ce327cbb45ee03151605a104cac8b176']))
+ 0.00429184549356
+browserfingerprint (set(['c19ecc31c1a61e932ca15db32565f27c43c943c47b9e6fee66d0c6ee532b38b0']), set(['404a87dcf5c8b1e584dddc74de611fa7225fde157dc64ce83604984453e9885b']))
+ 0.00429184549356
+browserfingerprint (set(['c302b0f255fb323120b051f084ba4581f74734ce5677160391b16c97696ee79d']), set(['b05cd45fe2b432fb1cb036e0f6a2312af41bb9cdc4c8d970b2b89797d97d146d']))
+ 0.00429184549356
+browserfingerprint (set(['c4bbfd848f19b2916abe1d4e59da90ef821a87c0c95697b40099e93b1dd298ed']), set(['cc2ff4a4ed2876ac9431638b7d837f51ed75ca7142555d155974ee0636663239']))
+ 0.00429184549356
+browserfingerprint (set(['c514b4fd97aba431e44bdad2c9037f655439fd44b03312c980b0ce02ce45dfd2']), set(['f838d97befb04654d85ce2f590cb05c775e7953a8a13f6561940672a7cfc2ffb']))
+ 0.00429184549356
+browserfingerprint (set(['c78c810b1ae3995a8730818c5223f72bde60d07c6df00673c12dae7f6746839a']), set(['b7b13f4694d0fb176d1ca6bbe5cb638bb4285c827475a5f13ca7f1140b776a09']))
+ 0.00429184549356
+browserfingerprint (set(['c9a9b12547a3c33665b408685251731dda44047c128009cde430d30163ac680f']), set(['19cb6556726436be2f5e6378f93e24ccd154bb47b55989eec2548f60fd836e2c']))
+ 0.00429184549356
+browserfingerprint (set(['cdac297a7d3dd58105357601e53ae44f4e14454a9a2d1608b1e75eb08f042975']), set(['2ddb588547a55d4aae63b37756010b08a12966829b7267fb9d62917725c851f7']))
+ 0.00429184549356
+browserfingerprint (set(['ce9308528e320ea585bc5f9e63f8dcdef770fd799c58e47cac378fa122d4331e']), set(['1744dd6ef3029a6986c16a4098e84624c5aa0f27910eff2a6537f8520976a5ae']))
+ 0.00429184549356
+browserfingerprint (set(['cea78d42f4d5563ec2dedf724c54056650fac3d254e33a90ee43b84c6efe7f31']), set(['5e76255d4483676e21bc7ebc0d07393894776dc81ebc064a715b5a1437af0a83']))
+ 0.00429184549356
+browserfingerprint (set(['ceb658591fd2348bec03c77ffc4bdc3ba50c02205bc0f2fe2dd70da78716febf']), set(['d6bb6abcaca791e737bee491c04481be768bcf6906aa1f8aa32aaf7b991155e0']))
+ 0.00429184549356
+browserfingerprint (set(['cf769d4fc4a4d9db129afa0f39170924e8a70e0dbdfeb2e3ad51b2267e8f3f61']), set(['610125f397eef8c049d7231eaa88cc8b7c18ad0bbc38c13f93e596967a952a7e']))
+ 0.00429184549356
+browserfingerprint (set(['cf79bfae2392e3367c25f3c90c8931c07f59e4f9ad4843587eba6aa7bd03b05e']), set(['d87dc7ed5ab7bc465251073f1cdd011b031adedc26943b7d938d2c3840820b56']))
+ 0.00429184549356
+browserfingerprint (set(['d15d35959394a94180a04ca1c921ff0efbb7eafe0702a76f28fe7e31e47f802a']), set(['919e47d0d4bb45f9feee1d6b6952c4ced5d482e01fa53db62f906ca003b13a50']))
+ 0.00429184549356
+browserfingerprint (set(['d22f7d46909576f8bbe38140f0491fdc29fa7cb5468840979872f6369dd89adf']), set(['2625054b57649743c7ca42bd5bc5e50777e493b3a9a21ac8f06e06d8c6ab3560']))
+ 0.00429184549356
+browserfingerprint (set(['d634f85a17c7bad618474ec114435e4825fe1617635a7083dd6db25b75bbe90d']), set(['86a18b6aa0f06400559bee86235854bdb6b040e1866feaed20fd5900f9574b43']))
+ 0.00429184549356
+browserfingerprint (set(['d73840f2838f87a31d43d8df7f3c286bec659544a648896a2ef3a9ad5947e4bd']), set(['2f9887d603d4cc4caf95ef22a135b3542a0de8ec3a291b9de2f57fbb00410406']))
+ 0.00429184549356
+browserfingerprint (set(['d757fc16b702aae7a9a21a0dc28e7cc8344a6b5c4a4d8552fe45f0d4b8278c54']), set(['913a2ffa695f0c9f69b298c8adcc04944189725ba429faeb60fd90a5084bace0']))
+ 0.00429184549356
+browserfingerprint (set(['d9a573a8b2d22ec13cc902c26764561fd29dfe694971abf0ad43b0d1ccf58ce8']), set(['dcd8e85d0040309703862b89a35e7a0a8b507015a3a687a682edf861a53a6407']))
+ 0.00429184549356
+browserfingerprint (set(['da30575caa6c3bddaa573d296deae69b26d10ae6b41bde8c148f65cc8731e8cd']), set(['47c9668aefbbc54481c7cb481d406291589dec7f78d2548bcfb7e5772f05b47a']))
+ 0.00429184549356
+browserfingerprint (set(['db38e6d32df98d1980a776a0a43ccabcb644f6ec1c09ef9e1dd074b1deb319fc']), set(['85981fb5edc9af8b1bf8d378bcbcf4a2489ebfefff4fe7d1ef69010b7b262562']))
+ 0.00429184549356
+browserfingerprint (set(['dca9bb4b808dd3fbb4a6fb366dacb0a79087906166d2281f422af6fdeab9c655']), set(['20a752191af418b363f4c75e8cd60b7972c9a0844a6c1cc0093388c17319ac3a']))
+ 0.00429184549356
+browserfingerprint (set(['ddba6a406fba1a7206a8ca601f32383e7ea90c5c1ded118578d1f30f6ed30d13']), set(['26c54e0019b73380e71279ceeb31ee8c7af5fc24ce6711873171960bbacfa502']))
+ 0.00429184549356
+browserfingerprint (set(['e0499ed0f6aaab8767b7f4614adbc2a20b1362d73fd58ab2202ecce1cd7be46f']), set(['d490e866960068854f5bf8a5abbb7b956876fc213cb2457b5ab1b0eb96bf8830']))
+ 0.00429184549356
+browserfingerprint (set(['e1e8eee25367a9865befef0a80d5a7bcecdd5e0400193500ecb6f0b868dba1c4']), set(['b94ca6ed1c9f0dcbdf7b321e0180264218e97903bec9033c4e0392e84726d829']))
+ 0.00429184549356
+browserfingerprint (set(['e427c840c861534bd6268dbddc677c309330de72c6cd88659adbf93f6947e4b4']), set(['0f9857403b0fbfc349d6d1249e6a7e19f95b1fc80432a730fc41413a4f561a28']))
+ 0.00429184549356
+browserfingerprint (set(['e508918b6aec90c16eddc1b495783827fd1ee77ed4819fce4b9a6d59216800df']), set(['6d9b01f956403c0aa56e1d768552ec1c8977516948e55f30a0640e3d6cbf8b93']))
+ 0.00429184549356
+browserfingerprint (set(['e61f94203e0a0700e2f35a5d6aa98088df395477023ce4e31660600ca2bf1568']), set(['3f72d50e35c6b24134fe73bb4bf63b072af12dee1ca9e28a3d8bf1b75fe52504']))
+ 0.00429184549356
+browserfingerprint (set(['e68de760c141dd461afbc01b390073f943b3a73ecc0072b0c35418124c0385db']), set(['1fcd41732305bd27cfdfbe5a19db6619bc9381e776f791c5ccca5563e645e1ff']))
+ 0.00429184549356
+browserfingerprint (set(['e7d68f7d62c713a0658833831a3363121a49239f30072fc19484bfcb1235cec3']), set(['9345d559e263af2b9c199b9eab33831254187dfb6e306345ccc4b6b1d3b49d04']))
+ 0.00429184549356
+browserfingerprint (set(['e832a87ef05907523bfd0fa1f184e17ae3996484630b408e6a222ee7c6280d25']), set(['f48da7665b80e401cd18c27fee891703e738176d777fb6b5188fb9390c5c95ec']))
+ 0.00429184549356
+browserfingerprint (set(['e93b8f80678b8da653e529bd5e42807a3aa0edebed6a00bed4d7ba56e158f03f']), set(['977010c92abc9994612c62b6cb58a013de4f7cec7b560030c3d88771ba0935fc']))
+ 0.00429184549356
+browserfingerprint (set(['e9fd03cd3a298670289976c3dd7c98524ce73ede46f35ec3f5dac0a14822bf5e']), set(['d0fc4e4be2b55d373f6266242777b4a7fc3635e1ba50cd8b8d35448db3c6bcc1']))
+ 0.00429184549356
+browserfingerprint (set(['ea2580f85519a721fa9fad142aaafb4c44053760156368fa6fa7f26cc4540c4e']), set(['e80cc9d18320b11be78ffb8a8c24517fa4effba1a654c0beec980fc3d1b50a83']))
+ 0.00429184549356
+browserfingerprint (set(['ea61bc04a3b2ac59f9fc8eed49e8f08be4381e3820133283a0771fc588b1a049']), set(['e1b05fb23c19a9a2d1e7e18c018f55c943186ea2ee75bb316ce88296a0aa8438']))
+ 0.00429184549356
+browserfingerprint (set(['ec86cb0514bb4326e67ca7e967b6ceed72816b9ab172c67bfb5c11b2bd1f5959']), set(['fe009b380b0b650896a90a7fb4dedccd01e16bf8bd0f85ed7ed28eb7f8da0d45']))
+ 0.00429184549356
+browserfingerprint (set(['eefc0c86884f242244e906895c2f146789200de075ec52744fec3b3573eb2106']), set(['06197f286a3f08455b1bdd9bc871088db72ae2694bb63468317df5addd229527']))
+ 0.00429184549356
+browserfingerprint (set(['ef545168dd8ecab87fb54c1eddb396f6255e9552891a5c6e5c0f88f93441b370']), set(['dc3c3a3163bae5a3cdf4a00be57e296510c08e37efcd884bf53ac1bfc67e048e']))
+ 0.00429184549356
+browserfingerprint (set(['f00575d94f2dcb38f3504789baac3397a438e79eb14abbf32d6e36d2a3c68c31']), set(['d7f3f61cd69ab39f224a8f80d4934f1994f4db97b2218d10cce9db1cbc877aa2']))
+ 0.00429184549356
+browserfingerprint (set(['f111ab85b632729d36b9dbcc33a9111cc37a5e9776ec3854882bfc4e55c87328']), set(['fa3f6781139c405f1e779cc1509b234ba1c421bcb3fa6b6cde29816bdb593cf6']))
+ 0.00429184549356
+browserfingerprint (set(['f17bb3f2a5f2f86ffa0b7f95a70e24e97493f7bed9face8cecd085d95a5bb2af']), set(['bd9e7f602b77696e91b72c50bab8160e53c4eef6bd14336c09120c5c3a47c643']))
+ 0.00429184549356
+browserfingerprint (set(['f35f61146d690af81798e25b3247832e89b71da31f735a36077903020ffa5a91']), set(['139ad071e1a4d6ccdcc849020da86d2cc8f9322ec750c9a12defabe50cae2e73']))
+ 0.00429184549356
+browserfingerprint (set(['f36d369ecb437280afd952fd9da88b53c06ad029b8867b2cfbeca1319fe2a18d']), set(['f31c7525d5c1e9dd70187de541e33feb25697e1b78d0bef6c30644abb84d65b6']))
+ 0.00429184549356
+browserfingerprint (set(['f40627836f386c62016582702d1de2991787babc1d70c8956b1bdc72eba764c1']), set(['d9c114b0307d9421cfe542c8b8b5a1b20916f4c742bc9fc0c35ccfb49581bd30']))
+ 0.00429184549356
+browserfingerprint (set(['f4e64d20d2ab7e75d6493107e62cb240fe2eada10f8427a4fc5d705554c77a77']), set(['893d507f9d7f8bb355784c5513b69b784c7e45b8a7b9bc3773384e1f4e196f7c']))
+ 0.00429184549356
+browserfingerprint (set(['f614e644f21a262d0cb57f6ea7410c77ee4b3b70b3010679e1bc4eb57091a2d8']), set(['12acbf0e60eca9c1984ce1227d5f40130fbcdd701da44b7344ca578a9355caed']))
+ 0.00429184549356
+browserfingerprint (set(['f705f799b11aa43a3d58d97f704519df8680a499c9ca6b4dd20e08b61e8fa5ab']), set(['3386852314d58841600933cb48642786fa2dd8099969507ff3f41d828281bd18']))
+ 0.00429184549356
+browserfingerprint (set(['f723afc1ba72ec8e37ea887ce93e8c0e2635f9e5b273dd839cfbd711f9cd512d']), set(['1bdce1ff40c56de7d921110e1ed00f618dc2656fed5896de717a43787ea5a79d']))
+ 0.00429184549356
+browserfingerprint (set(['f736d32cb073098f2b4289a6b27657ce5c597b78ac8aacf1fe3fddec1b37f7ec']), set(['9c99b2260a5be2eea4e08ef1f9432ecdd973f59b6730f6ff6fb36738030fe5f7']))
+ 0.00429184549356
+browserfingerprint (set(['f8848ba65c4a200f388119df56432a6eec41fb1390e0244d6cec445516b3b4b2']), set(['4cb5131643fc9b4736551bf11d58bed77debaad397c924b52fa8d137636a63d0']))
+ 0.00429184549356
+browserfingerprint (set(['f9db1200aa824aa84880070d0d19e639b31e99fc6f17bb6eeb3926b0e2023ee8']), set(['f919bfdde8ce41dd151692440436b09528116c70ef05abc8b2a2a02c77aa7eca']))
+ 0.00429184549356
+browserfingerprint (set(['fa759a658688ef3e16e4b3734760a4d6a2c7f84f497e17120170677a2d80623a']), set(['b5a1b33d8c110cdd2c05d023183da7ad2b75d7d3ba5f2290ea093a2c8da170e8']))
+ 0.00429184549356
+browserfingerprint (set(['fff58014b822c691ea13f9ab2497755ff99241c217a3b5bb3d9cd2f228d395ec']), set(['e85f4c6369d04e0188a4ecdc27a239f96ed0caa2b44196b8cb97e0e46b9d1915']))
+ 0.00429184549356
+canvastest (set(['3874af65306b162eababc2f9f596f1bc7ed49c96']), set(['cecabcc28defb6424ec5e694c1ff5cdcaa7b6942']))
+ 0.00429184549356
+canvastest (set(['420935ea40f8189d1cb22140a80d7f20711efd1b']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+ 0.00429184549356
+cookie (set(['False']), set(['True']))
+ 0.00429184549356
+cookie (set(['True']), set(['False']))
+ 0.00429184549356
+encoding (set(['deflate']), set(['br', 'deflate,']))
+ 0.00429184549356
+ipcity (set(['Aachen']), set(['Dusseldorf']))
+ 0.00429184549356
+ipcity (set(['Ahaus']), set(['Magdeburg']))
+ 0.00429184549356
+ipcity (set(['Alajuela']), set(['Cartago']))
+ 0.00429184549356
+ipcity (set(['Augsburg-Lechviertel']), set(['Westerndorf-Sankt', 'Peter']))
+ 0.00429184549356
+ipcity (set(['Bamberg']), set(['Munich']))
+ 0.00429184549356
+ipcity (set(['Baunatal']), set(['Hamburg']))
+ 0.00429184549356
+ipcity (set(['Bedminster']), set(['Fork', 'South']))
+ 0.00429184549356
+ipcity (set(['Bensheim']), set(['Frankfurt', 'Main', 'am']))
+ 0.00429184549356
+ipcity (set(['Beringen']), set(['Zaventem']))
+ 0.00429184549356
+ipcity (set(['Berlin']), set(['Darmstadt']))
+ 0.00429184549356
+ipcity (set(['Berlin']), set(['Frankfurt', 'Main', 'am']))
+ 0.00429184549356
+ipcity (set(['Berlin']), set(['Noschenrode']))
+ 0.00429184549356
+ipcity (set(['Berlin']), set(['Steinfeld']))
+ 0.00429184549356
+ipcity (set(['Berlin']), set(['Stuttgart']))
+ 0.00429184549356
+ipcity (set(['Biesnitz']), set(['Gorlitz']))
+ 0.00429184549356
+ipcity (set(['Bremen']), set(['Frankfurt', 'Main', 'am']))
+ 0.00429184549356
+ipcity (set(['Budapest']), set(['Mukacheve']))
+ 0.00429184549356
+ipcity (set(['Burscheid']), set(['Andel']))
+ 0.00429184549356
+ipcity (set(['Chemnitz']), set(['Zwickau']))
+ 0.00429184549356
+ipcity (set(['Chideock']), set(['Lyme', 'Regis']))
+ 0.00429184549356
+ipcity (set(['Coburg']), set(['Regensburg']))
+ 0.00429184549356
+ipcity (set(['Dortmund']), set(['Bielefeld']))
+ 0.00429184549356
+ipcity (set(['Dortmund']), set(['Dusseldorf']))
+ 0.00429184549356
+ipcity (set(['Drebligar']), set(['Leipzig']))
+ 0.00429184549356
+ipcity (set(['Easton']), set(['Bethlehem']))
+ 0.00429184549356
+ipcity (set(['Falkenhagen']), set(['Barntrup']))
+ 0.00429184549356
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Berlin']))
+ 0.00429184549356
+ipcity (set(['Frankfurt', 'Main', 'am']), set(['Dusseldorf']))
+ 0.00429184549356
+ipcity (set(['Freiburg']), set(['Mannheim']))
+ 0.00429184549356
+ipcity (set(['Freiburg']), set(['Stuttgart']))
+ 0.00429184549356
+ipcity (set(['Gera']), set(['Hamburg']))
+ 0.00429184549356
+ipcity (set(['Hagen']), set(['Dortmund']))
+ 0.00429184549356
+ipcity (set(['Halle', '(Saale)']), set(['Wickers']))
+ 0.00429184549356
+ipcity (set(['Hamburg']), set(['Berlin']))
+ 0.00429184549356
+ipcity (set(['Hamburg']), set(['Verden']))
+ 0.00429184549356
+ipcity (set(['Heidelberg']), set(['Freinsheim']))
+ 0.00429184549356
+ipcity (set(['Herbelhausen']), set(['Schreufa']))
+ 0.00429184549356
+ipcity (set(['Kammern']), set(['Deggendorf']))
+ 0.00429184549356
+ipcity (set(['Karlsruhe']), set(['Freiburg']))
+ 0.00429184549356
+ipcity (set(['Karlsruhe']), set(['Munich']))
+ 0.00429184549356
+ipcity (set(['Kiel']), set(['Mannheim']))
+ 0.00429184549356
+ipcity (set(['Klosterneuland']), set(['Friedeburg']))
+ 0.00429184549356
+ipcity (set(['Koxhausen']), set(['Gondenbrett']))
+ 0.00429184549356
+ipcity (set(['Ladimirevci']), set(['Osijek']))
+ 0.00429184549356
+ipcity (set(['Lampertheim']), set(['Berlin']))
+ 0.00429184549356
+ipcity (set(['Magdeburg']), set(['Buschort']))
+ 0.00429184549356
+ipcity (set(['Manilva']), set(['Malaga']))
+ 0.00429184549356
+ipcity (set(['Milan']), set(['Palermo']))
+ 0.00429184549356
+ipcity (set(['Munich']), set(['Bonn']))
+ 0.00429184549356
+ipcity (set(['Munich']), set(['Hamburg']))
+ 0.00429184549356
+ipcity (set(['Munich']), set(['Staufen']))
+ 0.00429184549356
+ipcity (set(['Neckarwimmersbach']), set(['Freinsheim']))
+ 0.00429184549356
+ipcity (set(['New', 'York', 'City']), set(['Angeles', 'Los']))
+ 0.00429184549356
+ipcity (set(['Nuremberg']), set(['Mannheim']))
+ 0.00429184549356
+ipcity (set(['Nuremberg']), set(['Regensburg']))
+ 0.00429184549356
+ipcity (set(['Oldenburg']), set(['Muenster']))
+ 0.00429184549356
+ipcity (set(['Osnabruck']), set(['Isenburg']))
+ 0.00429184549356
+ipcity (set(['Palma']), set(['Barcelona']))
+ 0.00429184549356
+ipcity (set(['Parchim']), set(['Dusseldorf']))
+ 0.00429184549356
+ipcity (set(['Pfarrkirchen']), set(['Hof']))
+ 0.00429184549356
+ipcity (set(['Quesada']), set(['Pocosol']))
+ 0.00429184549356
+ipcity (set(['Ravensburg']), set(['Ludwigshafen']))
+ 0.00429184549356
+ipcity (set(['Reinsehlen']), set(['Bruttendorf']))
+ 0.00429184549356
+ipcity (set(['Rio', 'Bravo']), set(['Luis', 'San', 'Acatlan']))
+ 0.00429184549356
+ipcity (set(['San', 'Salvador']), set(['Antiguo', 'Cuscatlan']))
+ 0.00429184549356
+ipcity (set(['Siegen']), set(['Dusseldorf']))
+ 0.00429184549356
+ipcity (set(['Sonneberg']), set(['Sulzbach-Rosenberg']))
+ 0.00429184549356
+ipcity (set(['Springfield']), set(['Mount', 'Vernon']))
+ 0.00429184549356
+ipcity (set(['Steufzgen']), set(['Mannheim']))
+ 0.00429184549356
+ipcity (set(['Stuttgart']), set(['Nuremberg']))
+ 0.00429184549356
+ipcity (set(['Stuttgart']), set(['Spagenweiler']))
+ 0.00429184549356
+ipcity (set(['Tlalnepantla']), set(['Ciudad', 'Nezahualcoyotl']))
+ 0.00429184549356
+ipcity (set(['Ubersetzig']), set(['Dusseldorf']))
+ 0.00429184549356
+ipcity (set(['Villingen-Schwenningen']), set(['Berlin']))
+ 0.00429184549356
+ipcity (set(['Vreden']), set(['Aachen']))
+ 0.00429184549356
+ipcity (set(['Wildberg']), set(['Bissenmoor']))
+ 0.00429184549356
+ipcity (set(['Zaragoza', 'de', 'Puebla']), set(['Chapuco']))
+ 0.00429184549356
+ipcity (set(['Zerre']), set(['Hoyerswerda']))
+ 0.00429184549356
+ipcountry (set(['Hungary']), set(['Ukraine']))
+ 0.00429184549356
+ipregion (set(['Alajuela']), set(['Cartago']))
+ 0.00429184549356
+ipregion (set(['Baden-Wurttemberg']), set(['Berlin']))
+ 0.00429184549356
+ipregion (set(['Bayern']), set(['Hamburg']))
+ 0.00429184549356
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+ 0.00429184549356
+ipregion (set(['Berlin']), set(['Baden-Wurttemberg']))
+ 0.00429184549356
+ipregion (set(['Berlin']), set(['Sachsen-Anhalt']))
+ 0.00429184549356
+ipregion (set(['Berlin']), set(['Thuringen']))
+ 0.00429184549356
+ipregion (set(['Bremen']), set(['Hessen']))
+ 0.00429184549356
+ipregion (set(['Budapest']), set(['oblast', 'Zakarpatska']))
+ 0.00429184549356
+ipregion (set(['Hamburg']), set(['Berlin']))
+ 0.00429184549356
+ipregion (set(['Hamburg']), set(['Niedersachsen']))
+ 0.00429184549356
+ipregion (set(['Hessen']), set(['Hamburg']))
+ 0.00429184549356
+ipregion (set(['Hessen']), set(['Nordrhein-Westfalen']))
+ 0.00429184549356
+ipregion (set(['Illes', 'Balears']), set(['Catalunya']))
+ 0.00429184549356
+ipregion (set(['Limburg']), set(['Vlaams-Brabant']))
+ 0.00429184549356
+ipregion (set(['Lombardia']), set(['Sicilia']))
+ 0.00429184549356
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Nordrhein-Westfalen']))
+ 0.00429184549356
+ipregion (set(['Mecklenburg-Vorpommern']), set(['Schleswig-Holstein']))
+ 0.00429184549356
+ipregion (set(['Morelos']), set(['Mexico']))
+ 0.00429184549356
+ipregion (set(['New', 'Jersey']), set(['Colorado']))
+ 0.00429184549356
+ipregion (set(['New', 'York']), set(['California']))
+ 0.00429184549356
+ipregion (set(['Niedersachsen']), set(['Nordrhein-Westfalen']))
+ 0.00429184549356
+ipregion (set(['Niedersachsen']), set(['Rheinland-Pfalz']))
+ 0.00429184549356
+ipregion (set(['Nordrhein-Westfalen']), set(['Sachsen-Anhalt']))
+ 0.00429184549356
+ipregion (set(['Sachsen-Anhalt']), set(['Hessen']))
+ 0.00429184549356
+ipregion (set(['Sachsen-Anhalt']), set(['Niedersachsen']))
+ 0.00429184549356
+ipregion (set(['San', 'Salvador']), set(['La', 'Libertad']))
+ 0.00429184549356
+ipregion (set(['Schleswig-Holstein']), set(['Baden-Wurttemberg']))
+ 0.00429184549356
+ipregion (set(['Tamaulipas']), set(['Guerrero']))
+ 0.00429184549356
+ipregion (set(['Thuringen']), set(['Bayern']))
+ 0.00429184549356
+ipregion (set(['Thuringen']), set(['Hamburg']))
+ 0.00429184549356
+language (set(['de-DE,de;q=0.9,en;q=0.8']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.00429184549356
+localstorage (set(['False']), set(['True']))
+ 0.00429184549356
+localstorage (set(['True']), set(['False']))
+ 0.00429184549356
+timezone (set(['480']), set(['360']))
+ 0.00429184549356

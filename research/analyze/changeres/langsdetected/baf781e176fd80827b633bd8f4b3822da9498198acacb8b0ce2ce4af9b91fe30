@@ -1,0 +1,229 @@
+doing Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Inuktitut_Cherokee -> Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee
+langsdetected (set(['Yi_Mongolian_Tifinagh_Syriac_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+ 1.0
+encoding (set([]), set(['br,']))
+ 0.848484848485
+canvastest (set(['f515f376acd86c105fefd316c926caa35de68962']), set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']))
+ 0.454545454545
+agent (set(['10_11_6)', 'Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+ 0.333333333333
+jsFonts (set(['Schoolbook_Comic', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'LET_American', 'TT_Bodoni', 'ITC', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'MN_Thonburi_Tw', 'Antiqua_Bookman']), set(['Caslon_Bodoni', 'MN_Papyrus_Plantagenet', 'Roundhand_Tamil', 'MN_Baskerville_Bauhaus', 'BT_Kailasa_Kannada', '3_American', 'MS_Comic', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Thonburi_Univers', 'Cherokee_Savoye']))
+ 0.242424242424
+agent (set(['10_11_6)']), set(['10_13_2)']))
+ 0.181818181818
+agent (set(['10_11_6)']), set(['10_13_3)']))
+ 0.121212121212
+canvastest (set(['c0b730650608fbb4883e3d2a03ccb9de9a869141']), set(['8dd3d6d802fd1cf4c8c202d5c5985284db49455b']))
+ 0.121212121212
+jsFonts (set(['Schoolbook_Comic', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'LET_American', 'TT_Bodoni', 'ITC', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'MN_Thonburi_Tw', 'Antiqua_Bookman']), set(['MN_OSAKA_Papyrus_Plantagenet', 'Caslon_Bodoni', 'Roundhand_Tamil', 'MN_Baskerville_Bauhaus', 'BT_Kailasa_Kannada', '3_American', 'MS_Comic', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Thonburi_Univers', 'Cherokee_Savoye']))
+ 0.121212121212
+agent (set(['10_11_6)', 'Safari/604.4.7', 'Version/11.0.2', 'AppleWebKit/604.4.7']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6', '10_13_3)']))
+ 0.0909090909091
+agent (set(['10_11_6)']), set(['10_12_6)']))
+ 0.0909090909091
+canvastest (set(['0798610665fcb780c7ce0aaaf7b551fa90e632d8']), set(['d7ac8be61049a1e172b80b910cddd7ff5770467f']))
+ 0.0909090909091
+jsFonts (set(['MN_Bank', 'LET_Tamil', 'Fe', 'TT_Bodoni', 'Solid', 'LET_Perpetua_Perpetua', 'MN_OSAKA_Papyrus_Party', 'ITC', 'Gothic_Baskerville_Baskerville', 'LET_Savoye', '20_Mona', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'TT_Mongolian', 'Roundhand_Stencil_Synchro', 'Lisa', 'Bold_Santa', 'Engraved', 'LET_American', 'Light_Academy', 'Shadow_Jazz']), set(['Caslon_Bodoni', 'Shadow_Kailasa_Kannada', 'Bold_Savoye', 'Roundhand_Stencil_Tamil', 'MN_Baskerville_Baskerville', '20_Mongolian', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'Light_American']))
+ 0.0909090909091
+language (set(['de-de']), set(['de-at']))
+ 0.0909090909091
+agent (set(['10_11_6)', 'Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1']), set(['AppleWebKit/604.5.6', 'Version/11.0.3', 'Safari/604.5.6', '10_13_3)']))
+ 0.0606060606061
+canvastest (set(['2872a12aa2d33f7cbc90e5c0aefd3f9684506d0c']), set(['36071a03e58dd4c4d73088b1c6931e06810fd612']))
+ 0.0606060606061
+canvastest (set(['f515f376acd86c105fefd316c926caa35de68962']), set(['ed579c296984057264338158645478eab110a54b']))
+ 0.0606060606061
+jsFonts (set(['MN_OSAKA_Papyrus_Party']), set(['MN_Papyrus_Party']))
+ 0.0606060606061
+language (set(['de-de']), set(['de-ch']))
+ 0.0606060606061
+plugins (set(['WebKitintegrierte']), set(['Shockwave', 'Flash~WebKitintegrierte']))
+ 0.0606060606061
+IP (set(['109.91.198.48']), set(['37.24.225.41']))
+ 0.030303030303
+IP (set(['185.17.205.78']), set(['62.216.207.207']))
+ 0.030303030303
+IP (set(['185.53.157.140']), set(['185.53.157.157']))
+ 0.030303030303
+IP (set(['188.98.77.212']), set(['88.66.41.200']))
+ 0.030303030303
+IP (set(['62.201.18.114']), set(['37.120.6.146']))
+ 0.030303030303
+IP (set(['68.205.74.29']), set(['104.136.172.238']))
+ 0.030303030303
+IP (set(['79.210.190.193']), set(['79.210.184.155']))
+ 0.030303030303
+IP (set(['79.220.54.11']), set(['79.220.59.155']))
+ 0.030303030303
+IP (set(['79.225.246.178']), set(['77.187.219.114']))
+ 0.030303030303
+IP (set(['79.237.26.101']), set(['79.237.29.32']))
+ 0.030303030303
+IP (set(['84.73.109.11']), set(['80.218.30.42']))
+ 0.030303030303
+IP (set(['88.153.194.10']), set(['88.153.194.141']))
+ 0.030303030303
+IP (set(['91.114.158.72']), set(['213.240.86.148']))
+ 0.030303030303
+IP (set(['91.15.38.220']), set(['93.207.24.129']))
+ 0.030303030303
+IP (set(['91.46.76.60']), set(['46.59.164.77']))
+ 0.030303030303
+IP (set(['92.76.182.4']), set(['82.83.175.14']))
+ 0.030303030303
+agent (set(['10_11_5)', 'Safari/601.6.17', 'AppleWebKit/601.6.17', 'Version/9.1.1']), set(['Safari/604.4.7', '10_12_6)', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+ 0.030303030303
+agent (set(['10_11_6)', 'AppleWebKit/603.1.30', 'Safari/603.1.30', 'Version/10.1']), set(['Safari/603.3.8', '10_12_6)', 'AppleWebKit/603.3.8', 'Version/10.1.2']))
+ 0.030303030303
+agent (set(['10_11_6)', 'Safari/602.3.12', 'Version/10.0.2', 'AppleWebKit/602.3.12']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+ 0.030303030303
+agent (set(['10_11_6)', 'Version/11.0', 'Safari/604.1.38', 'AppleWebKit/604.1.38']), set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+ 0.030303030303
+browserfingerprint (set(['1697e877d2fcac4258a37117300cda014cd53b93c3df57e5ff36a40d0d57e006']), set(['bf6e7e0975d49cdab0ee55624a9753574fa6305e543dbb8286c5cd434c562675']))
+ 0.030303030303
+browserfingerprint (set(['16a4cc86df92cfe1d1d44a401dd3cd4cc9467b62fad73c03efc390c8201d0aef']), set(['afef36b82251a9d677630647df19196f5f32ba2b9805352e63b81e35f8ba019c']))
+ 0.030303030303
+browserfingerprint (set(['1b2afc2a51c20b3187698e8f4bbb96ae653ce7b7329ed9de842ceb5ef431b146']), set(['1495a925ffbea1b44fd4ccf03915d745bfbb1a940a488c94bb27d7e375a4b8f0']))
+ 0.030303030303
+browserfingerprint (set(['1b63bdae536f0a368cccae196774d6e07372bd3795561e29fa53948f0c33383d']), set(['dab98c253c044da539a4de9ea25e4de3c6384df993652fb818b6b046fe86b64f']))
+ 0.030303030303
+browserfingerprint (set(['1fdc0b9fcd146e6143957e6d70a9964e72584e37ff151fbfdc929e78ddfcfbcc']), set(['99e7f565d60db8f9672c04bb6814900cea825606453e8f756f839e924eae97fc']))
+ 0.030303030303
+browserfingerprint (set(['38a8dc07ca952e67223d28fb5bfb21f65c98de2bcb94cbc7a6480cbdea2da44b']), set(['5b2c07b2f1178b80bbb1f3be4de354a951cf9ca1dc719d0ebed9751d5a22fc45']))
+ 0.030303030303
+browserfingerprint (set(['396099aa05efb12f0aba0074fdf79ddb6841b8b26c53f11d33614832a5c56484']), set(['bc62beb5b770313812362049c0cba31c61ebe0bfbefff72c3496ceb7e385285a']))
+ 0.030303030303
+browserfingerprint (set(['3c3170047333fdcf92eca318e7bf7f13932d30c7c169cb07dc7d828339bc1ec5']), set(['f818cc051de44ee7c55888c5cf3c5b32645482002fb6748bc56763442e387adf']))
+ 0.030303030303
+browserfingerprint (set(['49df70b68295fa56ae86759891f50d046f7f8d5e3d80a23d34e180338d7ed613']), set(['42848865d66a363b5c128b8c5c608c105173af676a8d650b90b7b641ce2db448']))
+ 0.030303030303
+browserfingerprint (set(['4a76d8c028db2695ede3d2b19fabf2667695285a9d6a9747f48b2c99c80c113b']), set(['a93425bb9165f62e2a6c7b7e2c92991f2ac43c371e698e5487f96379d92fd8b4']))
+ 0.030303030303
+browserfingerprint (set(['4ec7c8295a99eeee877cc90c2922dec4571bf12bd7af0f02fccd71532d92b221']), set(['574921300a7c29f3eac055d9daea89abc163254af9b702efc2d6d46a4f41287a']))
+ 0.030303030303
+browserfingerprint (set(['4efb303e90aa0bdc961018425fce139d6321accbe503c64c00716c0527a86c27']), set(['b13439e39e583398eaa287f6dd4264434e6a6de2f1c3b1fa285ae8f1118be1b7']))
+ 0.030303030303
+browserfingerprint (set(['5c2c5328ebb4ceec2aeefd0b8077260946b1ec8352b6bbb7e7135993e5d95051']), set(['ec1474a6a72f5eb1caa410f67e08d0ae44d01e7fe34fec54efecdc0edeca9334']))
+ 0.030303030303
+browserfingerprint (set(['64fc8e3d0790e7c6aa6c6305b4b2c99b0df685dabb403fdada727692d52f080f']), set(['8fca9224e0f2c21630924bbfe9bae690b9e2926343c932bfb81755b0620bc26f']))
+ 0.030303030303
+browserfingerprint (set(['6b4d7711e794651181f44329533b9283f46b8be4a425e23f9932092f6a6747df']), set(['25f3ecdc81c187e84708c35e3e6b96b61d4fea5c2e37584f410ea396447cc3e4']))
+ 0.030303030303
+browserfingerprint (set(['70f5a99bb95883f8ef463583823a9c22c9c5e0d7c982d0545c4c34128dbf4403']), set(['e7e0f3fc7ce87cd7dc99d827167380bf7247e7e72103be2f80598413e5126355']))
+ 0.030303030303
+browserfingerprint (set(['7241acfbab1719aa11ccc7942fb6b35879413094a4415c77c742307b66a12cb9']), set(['e5c12037d7bc2edfddb01b048f5915e171128c43b978cabd0680b34bdfaa6f7f']))
+ 0.030303030303
+browserfingerprint (set(['734506e83daf549e20331f39ae8381d0f069c8fc7545a7d58d9717f864615631']), set(['896c646d708d5066218123aaddae470783c224578d039f0338eca4700a3df996']))
+ 0.030303030303
+browserfingerprint (set(['7ca6f05458d36b1d88885763adcb156852e65fcabbd6d71a7da958c1c978f0e1']), set(['6cc8a439c9e635f04fcb60bed03df56f9da916afd27782c1c96216b76ca50288']))
+ 0.030303030303
+browserfingerprint (set(['7f7b5584f09cd1913440b20a7ce7ed780b70ad33a80ef55298885dd7f99c5875']), set(['3dcc1305afc731e0eb057b4461cda81270243fcad46b0581fe25d308dc1d047c']))
+ 0.030303030303
+browserfingerprint (set(['99de68560b90bf801583869ff463324e3d7660ec858af1dfdd1eab9b77029503']), set(['9aed7b90629e789748b5693f26ed294e20c8c62ce1fd02287afd1415fa62c2c3']))
+ 0.030303030303
+browserfingerprint (set(['9c1ace9ff0721f83693ce0dcbaca8a2f48d099b70ae0fae9956077fa01baea85']), set(['ad657f7d1985d50317fa991ee6fb55d4c5a2bf86185e0b162efc75055afe25d4']))
+ 0.030303030303
+browserfingerprint (set(['a70f32769faa66208fbd76476cde029100d281c21ddf59cdc14c253f2018828a']), set(['165b1bcc4bacf3c23c1da79d0b52b70d0f29ab7eafda2d0894464adc2e54b1ee']))
+ 0.030303030303
+browserfingerprint (set(['b073bea5a46f705a306e4655baeda5009ec36e5a5a61e91ecbb95090e095edb2']), set(['9581cedd3c6204d064b1708fdf73956122afc0ea8653654b77caae7768a2a851']))
+ 0.030303030303
+browserfingerprint (set(['bca8c23dac1d7dee2df357f6f78de7f1b7179c96863fd79aee93aa444ce7c9ea']), set(['6f13c9d77196c533723bf5f002f7d401e6972c6b7be359e6d1488ae7e4f4e75a']))
+ 0.030303030303
+browserfingerprint (set(['c9cec1a59b66278ca99df482e485052702a6405f80624481f413c3aff937ad37']), set(['5507bd3f62c579c0fa1852727fc0a91752215ef92ba2f2106b55e32cc5551d0c']))
+ 0.030303030303
+browserfingerprint (set(['d8cfde16e85a98374e2f35055f8b54d448cb07e5279388b48124147fd2432cd1']), set(['d13641d43498baa4bb2362e262fb5ccb4035be47eb3dbe83a00f59b2051e76af']))
+ 0.030303030303
+browserfingerprint (set(['dba9c40fcbd21b2151a4c13c2391e3f62bd0a5cb1f910e59d38c7ee2e2cb3038']), set(['bbb5d7c1d5864e0d2d1ce8f95dc18b9eb6494b8c78dc056303aedae305392148']))
+ 0.030303030303
+browserfingerprint (set(['e42c47c462486c039ed193895e20fa40d71b093db0b22483e5ef2a3eedcfdff7']), set(['b581b7fc4ed8960cfcb9b28a1f32b8747acc7dd7b6eb5573755169916b29319b']))
+ 0.030303030303
+browserfingerprint (set(['ee7dc92c74fd35d50d6bdaed9ee9506010319f92b32fde9dc413096effdd7cb0']), set(['0cb6bce79b1d34a8b0847532eef29a0ee14683918d69113169a64df616d62975']))
+ 0.030303030303
+browserfingerprint (set(['f6e34069a5b8b8a22664c51d91e97eaffd1382257d42781409771a515d8dbcee']), set(['fbeda145a84be4647c5a6809e1d49043fc7e0facf16123afe05c0de8fcccfda4']))
+ 0.030303030303
+browserfingerprint (set(['f845e2a444a963b09a1dd54ddb8f6477dc99fa53eb9e1ee1ba669c2c1cba9647']), set(['8282e4301ed1903dddd27e1a099701e8b9845bbc33cb97c86242ae5fbe0be45c']))
+ 0.030303030303
+browserfingerprint (set(['fcc09bb7a0114899f89e76e96d1f0d015c11547ed0c5b10a5f6d6cbb84ef6683']), set(['334f8c83bd08351bbdfcd154dcb97a3c506627de8e6dd92ccf63fdff4086a271']))
+ 0.030303030303
+canvastest (set(['123f674ff6ab32b7817403797ffd271a35525ae8']), set(['397d309d262dc2c69e8d52b362a60ff7e0981948']))
+ 0.030303030303
+canvastest (set(['123f674ff6ab32b7817403797ffd271a35525ae8']), set(['4c06aae0af284e7874b8f6b7425ba687b7e753ed']))
+ 0.030303030303
+canvastest (set(['27cb18494cb15199c8039db7c84573583696b991']), set(['c26c9fa029dcdcdf58c0b0bc10fea22278289f83']))
+ 0.030303030303
+canvastest (set(['27cb18494cb15199c8039db7c84573583696b991']), set(['f049b7a9cff7f11ffeb8af9dd97a744271c37b8e']))
+ 0.030303030303
+canvastest (set(['38e428ccefecc2cdb6c7cdae812b36c6cc9268ab']), set(['cce2540ae5ec86838c0acfae59ded45c8923aa95']))
+ 0.030303030303
+canvastest (set(['c0b730650608fbb4883e3d2a03ccb9de9a869141']), set(['c76f447baea8a5f8eb2a468d6e5231e3fb112d5a']))
+ 0.030303030303
+canvastest (set(['ff176b88c565dfbe212398a38736d1c90cb859a4']), set(['a7a06ca20744127078d6356fccd8b0d5d1e1d1b6']))
+ 0.030303030303
+ipcity (set(['Berlin']), set(['Friedrichshafen']))
+ 0.030303030303
+ipcity (set(['Bern']), set(['Zurich']))
+ 0.030303030303
+ipcity (set(['Karlsruhe']), set(['Bendorf']))
+ 0.030303030303
+ipcity (set(['Liberec']), set(['Berlin']))
+ 0.030303030303
+ipcity (set(['Muenster']), set(['Hanover']))
+ 0.030303030303
+ipcity (set(['Nuremberg']), set(['Michelstadt']))
+ 0.030303030303
+ipcity (set(['Ulm']), set(['Noschenrode']))
+ 0.030303030303
+ipcountry (set(['Czech', 'Republic']), set(['Germany']))
+ 0.030303030303
+ipregion (set(['Baden-Wurttemberg']), set(['Sachsen-Anhalt']))
+ 0.030303030303
+ipregion (set(['Bayern']), set(['Hessen']))
+ 0.030303030303
+ipregion (set(['Berlin']), set(['Baden-Wurttemberg']))
+ 0.030303030303
+ipregion (set(['Bern']), set(['Zurich']))
+ 0.030303030303
+ipregion (set(['Brandenburg']), set(['Schleswig-Holstein']))
+ 0.030303030303
+ipregion (set(['Liberecky', 'kraj']), set(['Berlin']))
+ 0.030303030303
+ipregion (set(['Nordrhein-Westfalen']), set(['Niedersachsen']))
+ 0.030303030303
+jsFonts (set(['Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Gothic_Baskerville']), set(['Gothic_Baskerville_Baskerville', 'Pro_Mistral_Modern', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion']))
+ 0.030303030303
+jsFonts (set(['Extra_Nadeem_Noteworthy_Onyx_OPTIMA_Oriya', 'Schoolbook_Comic', 'MN_Haettenschweiler_Harrington_Heiti', 'MS_Consolas_Courier_Courier', 'MT_Euphemia', 'Style_Calibri_Cambria_Cambria', 'Titling', 'Himalaya_Microsoft', 'Linotype_Tahoma_Times_Times', 'Light_Futura_Gabriola_Geeza', 'Solid', 'Serif_Monaco_Monotype', 'Latin_Zapfino', 'Typewriter_Apple', 'Old', 'Serif_Palatino_Palatino', 'LET_Perpetua_Perpetua', 'Shadow_Jazz', 'Unicode_Microsoft', 'UCAS_EUROSTILE_Footlight', 'MS_Book', 'Corsiva_MS', 'Reference', 'Caslon_BlairMdITC', 'Math_Century_Century', 'Antiqua_Bookman', 'Tai', 'Le_Microsoft', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Neue_Impact_Lucida', 'Gothic_MS', 'ITC_English', 'Medium_Wide', '93_Bell', 'Condensed', 'LET_SimHei_SimSun_SimSun-ExtB_Sinhala', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Sans_Gill', '3_Abadi', 'MT_Plantagenet', 'Face_Batang_Bauhaus', 'Console_Lucida', 'Fax_LUCIDA', 'GRANDE_Lucida', 'JhengHei_Microsoft', 'Bold_Brush', 'PMincho_MS', 'Engraved', 'MN_Bank', 'MN_OSAKA_Papyrus_Party', 'TT_Mongolian', 'PGothic_MS', 'Cherokee_Playbill_PMingLiU_PMingLiU-ExtB_Rockwell_Rockwell', 'Handwriting_Lucida', 'Sans_Lucida', 'BT_Imprint', 'BT_Engravers', 'Gothic_Baskerville_Baskerville', 'Light_Corbel_Curlz', 'Gothic_Century', 'Typewriter_Lucida', 'Cen', 'Felt_Marlett_Matura', 'Fe', 'MN_Gulim_Gurmukhi', 'Light_Academy', 'Black_Copperplate_Copperplate', 'Bright_Lucida', 'MT_Constantia_Cooper', 'LET_Savoye', 'MT_Calisto', 'SE_Chalkduster_Cochin_Colonna', 'Calligraphy_Lucida', 'LET_Tamil', 'Specialty_MT', 'TT_Bodoni', 'Mincho_MS', 'Extra', 'Hand_Britannic', 'ITC', 'Condensed_Goudy', 'Baiti_MS', 'MT_Didot_Edwardian', 'Yi', 'MT_Gloucester', 'Bold_Santa', 'MT_Univers', 'Condensed_Big', 'MT_Bernard', '20_Mona', 'MT_Candara_Chalkboard_Chalkboard', 'Lisa', 'Bold_Copperplate', 'Style_Gujarati', 'LET_Kailasa_Kannada', 'Roundhand_Stencil_Synchro', 'Capitals_Meiryo_Microsoft', 'MN_Thonburi_Tw', 'LET_American']), set(['Hand_Brush', 'GRANDE_Microsoft', 'MN_Papyrus_Plantagenet', 'BT_Kailasa_Kannada', '3_American', 'Sans_Gujarati', 'Medium_Zapfino', 'MS_Comic', 'Condensed_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Chalkboard_Chalkboard', 'LET_SimSun_Sinhala', 'Typewriter', 'Typewriter_American', 'MN_Baskerville_Bauhaus', 'Roundhand_Tamil', 'Cherokee_Roman_Savoye', 'BT_Euphemia', 'MN_Thonburi_Univers', 'Caslon_Bodoni', 'MN_Heiti', '93_Big', 'MN_Gurmukhi', 'Serif_Monaco_Palatino_Tahoma_Times_Times', 'SE_Chalkduster_Cochin_Copperplate_Didot_English', 'JhengHei_Modern', 'Felt_Microsoft', 'UCAS_Futura_Geeza', 'Neue_Impact_LUCIDA', 'MS_Courier_Courier']))
+ 0.030303030303
+jsFonts (set(['MN_Bank', 'LET_Tamil', 'Fe', 'TT_Bodoni', 'Solid', 'Engraved', 'MN_OSAKA_Papyrus_Party', 'ITC', 'Gothic_Baskerville_Baskerville', 'LET_Savoye', '20_Mona', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'LET_ADOBE', 'TT_Mongolian', 'Roundhand_Stencil_Synchro', 'Lisa', 'Bold_Santa', 'LET_Perpetua_Perpetua', 'Light_Academy', 'Shadow_Jazz']), set(['Bold_Savoye', 'Shadow_Kailasa_Kannada', 'Roundhand_Stencil_Tamil', 'Caslon_Bodoni', '20_Mongolian', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'MN_Baskerville_Baskerville', 'Light_ADOBE']))
+ 0.030303030303
+jsFonts (set(['MN_Bank', 'LET_Tamil', 'Fe', 'TT_Bodoni', 'Solid', 'LET_Perpetua_Perpetua', 'MN_OSAKA_Papyrus_Party', 'ITC', 'Gothic_Baskerville_Baskerville', 'LET_Savoye', '20_Mona', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'TT_Mongolian', 'Roundhand_Stencil_Synchro', 'Lisa', 'Bold_Santa', 'Engraved', 'LET_American', 'Light_Academy', 'Shadow_Jazz']), set(['MN_Papyrus_Perpetua_Perpetua', 'Caslon_Bodoni', 'Shadow_Kailasa_Kannada', 'Roundhand_Stencil_Tamil', 'MN_Baskerville_Baskerville', '20_Mongolian', 'Bold_Savoye', 'Light_American']))
+ 0.030303030303
+jsFonts (set(['MN_Bank', 'LET_Tamil', 'MN_OSAKA_Papyrus_Party', 'Solid', 'LET_Perpetua_Perpetua', 'ITC', 'Gothic_Baskerville_Baskerville', 'LET_Savoye', '20_Mona', 'LET_Kailasa_Kannada', 'Fe', 'TT_Mongolian', 'Roundhand_Stencil_Synchro', 'Lisa', 'Bold_Santa', 'Engraved', 'LET_American', 'Light_Academy', 'Shadow_Jazz']), set(['MN_Papyrus_Perpetua_Perpetua', 'Shadow_Kailasa_Kannada', 'Roundhand_Stencil_Tamil', 'MN_Baskerville_Baskerville', '20_Mongolian', 'Bold_Savoye', 'Light_American']))
+ 0.030303030303
+jsFonts (set(['MN_Bank', 'MN_OSAKA_Papyrus_Party', 'Gothic_Baskerville_Baskerville', 'LET_ADOBE', 'Engraved', 'Light_Academy']), set(['MN_Papyrus_Party', 'Light_ADOBE', 'MN_Baskerville_Baskerville']))
+ 0.030303030303
+jsFonts (set(['MN_Bank', 'TT_MS', 'LET_Tamil', 'Fe', 'TT_Bodoni', 'Solid', 'Engraved', 'MN_OSAKA_Papyrus_Party', 'ITC', 'Gothic_Baskerville_Baskerville', 'LET_Savoye', '20_Mona', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'LET_ADOBE', 'Roundhand_Stencil_Synchro', 'Lisa', 'Bold_Santa', 'LET_Perpetua_Perpetua', 'Light_Academy', 'Shadow_Jazz']), set(['Bold_Savoye', 'Shadow_Kailasa_Kannada', 'Roundhand_Stencil_Tamil', 'Caslon_Bodoni', '20_MS', 'MN_Baskerville_Baskerville', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'Light_ADOBE']))
+ 0.030303030303
+jsFonts (set(['MN_Bank', 'TT_MS', 'LET_Tamil', 'MN_OSAKA_Papyrus_Party', 'Solid', 'Engraved', 'ITC', 'Gothic_Baskerville_Baskerville', 'LET_Savoye', '20_Mona', 'LET_Kailasa_Kannada', 'Fe', 'Roundhand_Stencil_Synchro', 'Lisa', 'Bold_Santa', 'LET_Perpetua_Perpetua', 'LET_American', 'Light_Academy', 'Shadow_Jazz']), set(['Bold_Savoye', 'Shadow_Kailasa_Kannada', 'Roundhand_Stencil_Tamil', '20_MS', 'Light_American', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'MN_Baskerville_Baskerville']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', '3_Academy', 'Gothic_Century', 'PRO_Tw', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'LET_ADOBE', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'TT_Bodoni', 'ITC', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'Antiqua_Bookman']), set(['Caslon_Bodoni', 'PRO_Univers', 'MN_Papyrus_Plantagenet', 'Roundhand_Tamil', 'MN_Baskerville_Bauhaus', 'Gothic_Comic', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'BT_Kailasa_Kannada', 'MS_Century', '3_ADOBE', 'Cherokee_Savoye']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', 'ITC', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'LET_ADOBE', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'TT_Bodoni', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'MN_Thonburi_Tw', 'Antiqua_Bookman']), set(['Caslon_Bodoni', 'MN_Papyrus_Plantagenet', 'BT_Kailasa_Kannada', 'MN_Baskerville_Bauhaus', 'Roundhand_Tamil', 'MS_Comic', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', '3_ADOBE', 'MN_Thonburi_Univers', 'Cherokee_Savoye']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', 'ITC', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Math_Century', 'Cherokee_Santa', 'Style_Calibri_Cambria_Cambria', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'BT_Jazz', 'Roundhand_Synchro', 'Solid', 'LET_Savoye', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'LET_American', 'TT_Bodoni', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'Cen', 'MN_Thonburi_Tw', 'Antiqua_Bookman']), set(['Caslon_Bodoni', 'Math_Comic', 'MN_Papyrus_Plantagenet', 'BT_Kailasa_Kannada', 'MN_Baskerville_Bauhaus', 'Roundhand_Tamil', '3_American', 'MS_Calibri_Cambria_Cambria', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Thonburi_Univers', 'Cherokee_Savoye']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', 'ITC', '3_Academy', 'Serif_Monaco_MYRIAD', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'LET_ADOBE', 'BT_Jazz', 'Roundhand_Synchro', 'LET_Sinhala', 'Style_Century', 'Solid', 'LET_Savoye', 'Typewriter_Apple', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'Felt_Minion', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'Antiqua_Bookman', 'TT_Bodoni', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Pro_Modern', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'PRO_Palatino_Tahoma_Times_Times', 'CASLON', 'MN_Thonburi_Tw', 'PRO_ADOBE']), set(['Caslon_Bodoni', 'Serif_Monaco_Palatino_Tahoma_Times_Times', 'Roundhand_Tamil', 'MN_Papyrus_Plantagenet', 'Felt_Microsoft', 'MN_Baskerville_Bauhaus', 'JhengHei_Modern', 'BT_Kailasa_Kannada', 'Cherokee_Roman_Savoye', 'MS_Comic', 'Condensed_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Typewriter_American', '20_Nadeem_Noteworthy_OPTIMA_Oriya', '3_ADOBE', 'MN_Thonburi_Univers', 'LET_SimSun_Sinhala', 'Typewriter']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', 'Typewriter_Apple', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'LET_American', 'TT_Bodoni', 'ITC', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'MN_Thonburi_Tw', 'Antiqua_Bookman']), set(['Caslon_Bodoni', 'Roundhand_Tamil', 'MN_Papyrus_Plantagenet', 'Typewriter_American', 'MN_Baskerville_Bauhaus', 'BT_Kailasa_Kannada', '3_American', 'Cherokee_Roman_Savoye', 'MS_Comic', 'Condensed_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Thonburi_Univers', 'Typewriter']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', 'Typewriter_Apple', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'LET_American', 'TT_Bodoni', 'ITC', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'MN_Thonburi_Tw', 'Antiqua_Bookman']), set(['MN_OSAKA_Papyrus_Plantagenet', 'Caslon_Bodoni', 'Roundhand_Tamil', 'Typewriter_American', 'MN_Baskerville_Bauhaus', 'BT_Kailasa_Kannada', '3_American', 'Cherokee_Roman_Savoye', 'MS_Comic', 'Condensed_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Thonburi_Univers', 'Typewriter']))
+ 0.030303030303
+jsFonts (set(['Schoolbook_Comic', 'Sans_GOTHAM_Gujarati', 'ITC', '3_Academy', 'Lisa', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'LET_ADOBE', 'BT_Jazz', 'Style_Century', 'Solid', 'LET_Savoye', 'PRO_Tw', '20_Mona', 'Old', 'Engraved', 'LET_Tamil', 'MN_Bank', 'Roundhand_Stencil_Synchro', 'MN_OSAKA_Papyrus_Party', 'TT_Bodoni', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'LET_Perpetua_Plantagenet', 'Antiqua_Bookman']), set(['Caslon_Bodoni', 'PRO_Univers', 'Roundhand_Stencil_Tamil', '3_ADOBE', 'MN_Baskerville_Bauhaus', 'BT_Kailasa_Kannada', 'BOLD_Gujarati', 'Antiqua_Comic', 'New_Geneva_Georgia_Helvetica_Helvetica', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Papyrus_Perpetua_Plantagenet', 'Sans_GOTHAM_GOTHAM', 'Cherokee_Savoye']))
+ 0.030303030303
+language (set(['en-us']), set(['en-gb']))
+ 0.030303030303
+plugins (set(['AdobeAAMDetect~Default', 'Helper~Shockwave', 'Flash~Silverlight', 'PlugIn~WebKit', 'Browser']), set(['WebKit']))
+ 0.030303030303
+plugins (set(['WebKit']), set(['Shockwave', 'Flash~WebKit']))
+ 0.030303030303
+timezone (set(['480']), set(['-60']))
+ 0.030303030303

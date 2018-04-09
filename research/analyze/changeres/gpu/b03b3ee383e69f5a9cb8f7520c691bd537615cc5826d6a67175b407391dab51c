@@ -1,0 +1,55 @@
+doing ANGLE (Intel(R) Graphics Media Accelerator HD Direct3D11 vs_4_0 ps_4_0) -> ANGLE (Intel(R) Graphics Media Accelerator HD Direct3D9Ex vs_3_0 ps_3_0)
+gpu (set(['vs_4_0', 'ps_4_0)', 'Direct3D11']), set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']))
+ 1.0
+agent (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.875
+IP (set(['217.247.87.152']), set(['217.247.84.85']))
+ 0.125
+IP (set(['79.234.135.218']), set(['79.234.130.234']))
+ 0.125
+IP (set(['79.243.139.209']), set(['79.243.129.55']))
+ 0.125
+IP (set(['87.146.201.206']), set(['84.173.96.1']))
+ 0.125
+IP (set(['87.158.149.103']), set(['93.205.43.45']))
+ 0.125
+IP (set(['87.184.74.215']), set(['87.184.78.57']))
+ 0.125
+IP (set(['93.202.154.77']), set(['91.11.240.193']))
+ 0.125
+agent (set(['Chrome/64.0.3282.186']), set(['Chrome/65.0.3325.162']))
+ 0.125
+browserfingerprint (set(['06b83b58231a888afea4ffe5f64ae13ae8689a4b7e1688cdc56737f1481b2d29']), set(['03ae0e23bf7d382e6219887185515d68eb5efee4923702cff49f0f6399257690']))
+ 0.125
+browserfingerprint (set(['09eb35c32e023387f7f47e07db7b6c98631a10b85346c164c2342e273b27759e']), set(['00928d05afdebaa944245b1ff5a44e877a33395049a585ea1bfde50893f010e8']))
+ 0.125
+browserfingerprint (set(['22d37f89fc86bfa0ea962079dc9a2e07300c99dccbd68ac066d79ac6c6754e9b']), set(['9ed132895be97ca108938993252ee808870396cc4ffa51187e338667eb43a94e']))
+ 0.125
+browserfingerprint (set(['2a70d3920f0cecb878cbffe6c1cb8583e1a667e529c294a4ccd216354a7bcd9e']), set(['3fbcb1a94945b91dbb33b605726373b25039ab525206e085e6dd4ceb11d2eeba']))
+ 0.125
+browserfingerprint (set(['9623af60bc015c16a4fcf3a4fc1755a1bb31ecba0eb9de7efc5d60069a9346e5']), set(['95c5c4285c4100a942c704c48248924e82dfc45421967a8a4d9024c78b493a8f']))
+ 0.125
+browserfingerprint (set(['a235e34ca34f88e11ccac79a071b6e587ed3134eff32e881142fe66b09526325']), set(['b19eb812779bae23c5bd3808e71849dcd6836efcfb1fd5ab9cead0d39e809f69']))
+ 0.125
+browserfingerprint (set(['b303242efde8add48cee811eae8e72f69553a26e41f77cd875458cb53c6e3842']), set(['10ff4a1cb432e6e35545ac5037f292f17d6dca09be416629d1fa6c97ab4893f6']))
+ 0.125
+browserfingerprint (set(['ee7bd787d4bd3f338ff7395ae807709aa9dd524e0886b431c6ac655bbf3338bc']), set(['22e7f09eb95ab420009d35fd0685c208c13b535431761a626048dc2175a8fb46']))
+ 0.125
+ipcity (set(['Freiburg']), set(['Strasse', 'Steinau', 'der', 'an']))
+ 0.125
+ipcity (set(['Muenster']), set(['Dortmund']))
+ 0.125
+ipcity (set(['Munich']), set(['Tirschenreuth']))
+ 0.125
+ipcity (set(['Nuremberg']), set(['Dusseldorf']))
+ 0.125
+ipcity (set(['Olsbrucken']), set(['Zweibrucken']))
+ 0.125
+ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
+ 0.125
+ipregion (set(['Bayern']), set(['Nordrhein-Westfalen']))
+ 0.125
+jsFonts (set(['Extra_MV', 'Gothic_MT']), set(['Gothic_MV']))
+ 0.125
+plugins (set(['Flash~Shockwave']), set([]))
+ 0.125

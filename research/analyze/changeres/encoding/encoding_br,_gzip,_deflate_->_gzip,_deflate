@@ -1,0 +1,101 @@
+doing br, gzip, deflate -> gzip, deflate
+encoding (set(['br,']), set([]))
+ 1.0
+IP (set(['50.92.220.142']), set(['204.191.67.226']))
+ 0.333333333333
+agent (set(['Safari/604.3.5', 'AppleWebKit/604.3.5', 'Version/11.0.1', '10_13_1)']), set(['Safari/604.4.7', '10_12_6)', 'AppleWebKit/604.4.7', 'Version/11.0.2']))
+ 0.333333333333
+canvastest (set(['4c06aae0af284e7874b8f6b7425ba687b7e753ed']), set(['1601b69e7716514c2f08700f0b1a3ceec26b0d8f']))
+ 0.333333333333
+ipcity (set(['Vancouver']), set(['Burnaby']))
+ 0.333333333333
+jsFonts (set(['MN_Papyrus_Plantagenet', 'Typewriter_Apple', 'MS_Comic', 'JhengHei_Modern', 'Cherokee_Savoye']), set(['MN_OSAKA_Papyrus_Plantagenet', 'Typewriter_American', 'Gothic_Comic', 'Cherokee_Roman_Savoye', 'Pro_Modern', 'Condensed_Apple', 'MS_Century', 'JhengHei_Minion', 'Typewriter']))
+ 0.333333333333
+timezone (set(['480']), set(['420']))
+ 0.333333333333
+agent (set(['10_13_3)']), set(['10_12_6)']))
+ 0.25
+agent (set(['10_13_2)']), set(['10_11_6)']))
+ 0.166666666667
+browserfingerprint (set(['2c89ec15bf25667c326236fc01121ae6900bac92d39af5ea9da68db95854b959']), set(['3f9f473f028fe628828ca08ccfca231927df9471cf8d855f53766b02e6cccb3e']))
+ 0.166666666667
+browserfingerprint (set(['e49905cf14e5bba3a3827fce23e6aad7b2bd39b7ae2963e6705d5d6f38a9c518']), set(['55dd92db288d4823f622304c97fe1c1e5a6912163b8f565f2d50b1a7726ed1de']))
+ 0.166666666667
+canvastest (set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']), set(['ed579c296984057264338158645478eab110a54b']))
+ 0.166666666667
+jsFonts (set(['MN_OSAKA_Papyrus_Plantagenet', 'Caslon_Bodoni', 'Roundhand_Tamil', 'MN_Baskerville_Bauhaus', 'BT_Kailasa_Kannada', '3_American', 'MS_Comic', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'MN_Thonburi_Univers', 'Cherokee_Savoye']), set(['Schoolbook_Comic', '3_Academy', 'Gothic_Century', 'Gothic_Baskerville_Bauhaus', 'Cherokee_Santa', 'Cen', 'LET_Plantagenet', 'TT_Nadeem_Noteworthy_OPTIMA_Oriya', 'MT_Univers', 'Fe', 'BT_Jazz', 'Roundhand_Synchro', 'Style_Century', 'Solid', 'LET_Savoye', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'MN_Bank', 'MS_Book', 'Old', 'MN_OSAKA_Papyrus_Party', 'LET_American', 'TT_Bodoni', 'ITC', 'LET_Kailasa_Kannada', 'Caslon_BlairMdITC', 'MN_Thonburi_Tw', 'Antiqua_Bookman']))
+ 0.166666666667
+langsdetected (set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']), set(['Yi_Mongolian_Tifinagh_Syriac_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Modern']))
+ 0.166666666667
+IP (set(['185.23.226.155']), set(['91.46.67.151']))
+ 0.0833333333333
+IP (set(['188.103.17.224']), set(['88.75.176.57']))
+ 0.0833333333333
+IP (set(['46.125.250.72']), set(['46.125.249.89']))
+ 0.0833333333333
+IP (set(['87.78.93.105']), set(['78.35.207.71']))
+ 0.0833333333333
+IP (set(['93.199.240.7']), set(['93.199.234.129']))
+ 0.0833333333333
+agent (set(['10_13_1)']), set(['10_12_6)']))
+ 0.0833333333333
+agent (set(['10_13_2)', 'Safari/604.4.7', 'AppleWebKit/604.4.7', 'Version/11.0.2']), set(['Safari/604.3.5', 'AppleWebKit/604.3.5', '10_12_6)', 'Version/11.0.1']))
+ 0.0833333333333
+audio (set(['not', 'supported']), set(['44100_0_1_0_2_explicit_speakers']))
+ 0.0833333333333
+browserfingerprint (set(['28591c357a8955682d9d372fc46231385032f093c35fc468cb70e96ab4a3673a']), set(['ecf7be876c1594156f6d8065008f11a479e4a6d47b071d41b70c75a80855478f']))
+ 0.0833333333333
+browserfingerprint (set(['3cf5bafd2fb2b86f3f60db5ffaf650a7c328dc59f3c2cf99c9d11cf59af50460']), set(['9b0f414ce9c8599f3936c919b7d5bf0b7b1cea80143607e002afb79f578514cf']))
+ 0.0833333333333
+browserfingerprint (set(['3dcc1305afc731e0eb057b4461cda81270243fcad46b0581fe25d308dc1d047c']), set(['0f07a78636907fdc1d29e12674fba86108175266b056340c34b12c89d3fd43f8']))
+ 0.0833333333333
+browserfingerprint (set(['7e598a7282185e1fae66ccca7bd519ad5fcece86b457879ecaa7bab493af74ad']), set(['89c5dabbb842ca19d0731d49ac8f687d55757e5fcabd6427d2e39c0ee3b9bafd']))
+ 0.0833333333333
+browserfingerprint (set(['8411170b0d7b133da1ed368a294b17058a76db01471a4c191795e69cf1e4eeea']), set(['96eb3bc432776cd93951bee86bdaa063984761119925769d0829461c63bf7d3b']))
+ 0.0833333333333
+browserfingerprint (set(['b8088f996ff8ccdd6cf3e7029bdf8496e7a795d707800aa8029757c328c4baaf']), set(['03d52690ce0198728fcd0a5259df8ab9f8bd34ab86a86966161bd2294ce0d110']))
+ 0.0833333333333
+browserfingerprint (set(['bc8126641e5fe650e748fc6fd2cfc18e7d436e49886c3954a7736b05adf82e00']), set(['48b61054490fc0b0dc47d487e3225c98a7961cc5d897ba2376b6a988d4a92177']))
+ 0.0833333333333
+browserfingerprint (set(['d0ad4dece9f3dcfc277cf9b9938c4dd98050f01d36bd6aa19647a0ca29238da1']), set(['e06570ae9606cea7bd23db5f1ba1d494d46fd13d65444e8c13ff919d612caf8a']))
+ 0.0833333333333
+canvastest (set(['31df1e2f18993b8aafbd0ff851b0128a55b6db20']), set(['397d309d262dc2c69e8d52b362a60ff7e0981948']))
+ 0.0833333333333
+canvastest (set(['607518100f6e678ef0e81b90bd481ffb78bfedc8']), set(['f515f376acd86c105fefd316c926caa35de68962']))
+ 0.0833333333333
+canvastest (set(['7339be08be763f6804f18d224b100b61b872b852']), set(['92e91f814783345c2a98aa5d8daa69400165bc59']))
+ 0.0833333333333
+canvastest (set(['8dd3d6d802fd1cf4c8c202d5c5985284db49455b']), set(['c0b730650608fbb4883e3d2a03ccb9de9a869141']))
+ 0.0833333333333
+canvastest (set(['8dd3d6d802fd1cf4c8c202d5c5985284db49455b']), set(['c76f447baea8a5f8eb2a468d6e5231e3fb112d5a']))
+ 0.0833333333333
+canvastest (set(['cce2540ae5ec86838c0acfae59ded45c8923aa95']), set(['0b23fbfd08618fac283f72692b2260dd6c5d79e3']))
+ 0.0833333333333
+ipcity (set(['Bremen']), set(['Sandbeckerbruch']))
+ 0.0833333333333
+ipcity (set(['Norderstedt']), set(['Nuremberg']))
+ 0.0833333333333
+ipcity (set(['Salzburg']), set(['Innsbruck']))
+ 0.0833333333333
+ipregion (set(['Bremen']), set(['Niedersachsen']))
+ 0.0833333333333
+ipregion (set(['Salzburg']), set(['Tirol']))
+ 0.0833333333333
+ipregion (set(['Schleswig-Holstein']), set(['Bayern']))
+ 0.0833333333333
+jsFonts (set(['3_Agency', 'MN_Thonburi_Unicorn_Univers', 'Gothic_Comic', 'Typewriter_Apple', 'FB_American', 'MS_Century', 'Cherokee_Savoye']), set(['Typewriter_American', '3_American', 'Cherokee_Roman_Savoye', 'MS_Comic', 'Condensed_Apple', 'MN_Thonburi_Univers', 'Typewriter']))
+ 0.0833333333333
+jsFonts (set(['Extra_Nadeem_Noteworthy_Onyx_OPTIMA_Oriya', 'Schoolbook_Comic', 'MS_Consolas_Courier_Courier', 'LET_SimSun_Sinhala', 'MT_Euphemia', 'Style_Calibri_Cambria_Cambria', 'Titling', 'Calligraphy_Lucida', 'MT_Univers', 'Solid', 'UCAS_EUROSTILE_Footlight', 'Latin_Zapfino', 'Typewriter_Apple', 'LET_Perpetua_Perpetua', 'Shadow_Jazz', 'Unicode_Microsoft', 'Serif_Monaco_Monotype', 'Corsiva_MS', 'Reference', 'Caslon_BlairMdITC', 'Math_Century_Century', 'PRO_Palatino_Palatino', 'Light_Freestyle', 'Script_FRUTIGER_Futura_Gabriola_Geeza', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Neue_Impact_Lucida', 'Gothic_MS', 'ITC_English', 'MN_Skia_Stencil_Synchro', 'Medium_Wide', '93_Bell', 'Condensed', 'Bold_Gloucester', 'Cherokee_Playbill_PMingLiU_PRINCETOWN', '3_Abadi', 'MT_Plantagenet', 'Face_Batang_Bauhaus', 'Console_Lucida', 'Neo_ARNO', 'Fax_LUCIDA', 'Bold_Brush', 'PMincho_MS', 'Engraved', 'MN_Bank', 'Style_Gujarati', 'MN_Papyrus_Party', 'Handwriting_Lucida', 'Sans_Lucida', 'BT_Imprint', 'BT_Engravers', 'MT_Constantia_Copperplate_Copperplate', 'Gothic_Baskerville_Baskerville', 'Light_Corbel_Curlz', 'PRO_AVENIR_Ayuthaya_Bangla', 'Gothic_Century', 'Typewriter_Lucida', 'Pro_Mistral_Modern', 'Cen', 'Felt_Marlett_Matura', 'Fe', 'LET_ADOBE', 'MN_Gulim_Gurmukhi', 'Light_Academy', 'Bright_Lucida', 'Serif_MYRIAD', 'LET_Savoye', 'MT_Calisto', 'SE_Chalkduster_Cochin_Colonna', 'Ultra', 'MT_Bernard', 'LET_Tamil', 'MT_Gill', 'Specialty_MT', 'TT_Bodoni', 'Mincho_MS', 'Hand_Britannic', 'ITC', 'MN_Haettenschweiler_Harrington_Heather_Heiti', 'Condensed_Goudy', 'PGothic_MS', 'PRO_Tw', 'MT_Didot_DIN_Edwardian', 'Bold_Santa', 'Linotype_Tahoma_Times_Times', 'TT_MS', 'Condensed_Big', 'GRANDE_Lucida', '20_Mona', 'Lisa', 'Bold_Copperplate', 'LET_Kailasa_Kannada', 'Capitals_Meiryo_Microsoft']), set(['Condensed_Rockwell', 'Hand_Brush', 'GRANDE_Microsoft', 'Cherokee_PRINCETOWN', 'Condensed_Apple', 'Serif_Monaco_MYRIAD', 'BT_Kailasa_Kannada', 'Medium_Zapfino', 'LET_Script', 'New_Geneva_Georgia_Helvetica_Helvetica', 'SE_Chalkduster_Cochin_Copperplate_Didot_DIN_English', '20_Nadeem_Noteworthy_OPTIMA_Oriya', 'Typewriter', 'MN_OSAKA_Papyrus_Plantagenet', 'Roundhand_Stencil_Tamil', 'Typewriter_American', 'MN_Baskerville_Bauhaus', 'MT_Gujarati', 'Neue_Impact_LUCIDA', 'BT_Euphemia', 'Neo_AVENIR_Ayuthaya_Bangla', '3_ADOBE', 'Style_Calibri_Comic', 'UCAS_Freestyle', 'Caslon_Bodoni', 'Script_FRUTIGER_Futura_Geeza', 'MN_Skia_Snell', 'MN_Heiti', '93_Big', 'MN_Gurmukhi', 'PRO_Univers', 'Bold_Roman_Savoye', 'Felt_Microsoft', 'Pro_Modern', 'PRO_Palatino_Tahoma_Times_Times', 'MS_Courier_Courier', 'Bold_SimSun_Sinhala']))
+ 0.0833333333333
+jsFonts (set(['Typewriter_Apple', 'Bold_Santa']), set(['Condensed_Apple', 'Typewriter_American', 'Bold_Roman_Santa', 'Typewriter']))
+ 0.0833333333333
+jsFonts (set(['Typewriter_Apple', 'Bold_Savoye', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Bold_Brush', 'MT_Calisto']), set(['Bold_Calisto', 'Bold_Roman_Savoye', 'Typewriter_American', 'Condensed_Apple', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern_Modern', 'Typewriter']))
+ 0.0833333333333
+jsFonts (set(['Typewriter_Apple', 'New_Garamond_Geneva_Georgia_Helvetica_Helvetica', 'Cherokee_Savoye']), set(['Typewriter_American', 'Cherokee_Roman_Savoye', 'Condensed_Apple', 'New_Geneva_Georgia_Helvetica_Helvetica', 'Typewriter']))
+ 0.0833333333333
+language (set(['de-de']), set(['en-gb']))
+ 0.0833333333333
+plugins (set(['WebKitintegrierte']), set(['Shockwave', 'Flash~WebKitintegrierte']))
+ 0.0833333333333
+plugins (set(['WebKitintegrierte']), set(['WebKit', 'builtin']))
+ 0.0833333333333

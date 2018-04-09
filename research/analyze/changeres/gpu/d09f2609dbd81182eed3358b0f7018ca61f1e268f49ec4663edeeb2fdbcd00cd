@@ -1,0 +1,125 @@
+doing ANGLE (Intel(R) HD Graphics Family Direct3D9Ex vs_3_0 ps_3_0) -> ANGLE (Intel(R) HD Graphics Family Direct3D11 vs_5_0 ps_5_0)
+gpu (set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']), set(['vs_5_0', 'ps_5_0)', 'Direct3D11']))
+ 1.0
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.277777777778
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+ 0.222222222222
+IP (set(['212.95.5.254']), set(['83.65.213.4']))
+ 0.111111111111
+IP (set(['46.125.249.98']), set(['83.65.213.4']))
+ 0.111111111111
+agent (set(['Chrome/64.0.3282.167']), set(['Chrome/64.0.3282.186']))
+ 0.111111111111
+audio (set(['not', 'supported']), set(['44100_2_1_0_2_explicit_speakers']))
+ 0.111111111111
+browserfingerprint (set(['0b5ffd6e264f13a5f244f9a6710bda4c35ad2b069daf17b66353300d26e509d6']), set(['ac9add512092bffdb44457d3bf41c48a4674a2f44def2482c94674f32ea9dd74']))
+ 0.111111111111
+browserfingerprint (set(['293a4e4cbba1600125b6efcb8c0b0e3e39bde59698c1bcd735dc9d78bad83721']), set(['3a19bd4151a64975cb3e528728d8169462c40ef85db8626d467f944281ba014a']))
+ 0.111111111111
+browserfingerprint (set(['97744fe8eca05074c446cf418d9a86dbda0eee2b7cce166d56093e2b15a8505f']), set(['013175eb97af13b538b9300825ffdd455d5d922bda687f01186726524b4c907e']))
+ 0.111111111111
+browserfingerprint (set(['f271739d436f4a65a82e98a1e54a1c525b19588931d94ec266efcb8bf96dee6a']), set(['9f7ee090a0b864e8ce1164e27615335a743432d592a2ea0f19acb9a5285a74ce']))
+ 0.111111111111
+canvastest (set(['6aa56b5df10eb95cf5495265c1a11366ea43fd72']), set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']))
+ 0.111111111111
+ipcity (set(['Innsbruck']), set(['Vienna']))
+ 0.111111111111
+ipregion (set(['Tirol']), set(['Wien']))
+ 0.111111111111
+jsFonts (set(['Gothic_MV']), set(['Extra_MV', 'Gothic_MT']))
+ 0.111111111111
+langsdetected (set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee']))
+ 0.111111111111
+language (set(['en-GB,en-US;q=0.9,en;q=0.8']), set(['en-US,en;q=0.9']))
+ 0.111111111111
+IP (set(['105.98.125.68']), set(['105.98.154.0']))
+ 0.0555555555556
+IP (set(['194.176.105.136']), set(['194.176.105.169']))
+ 0.0555555555556
+IP (set(['78.73.37.67']), set(['37.201.193.63']))
+ 0.0555555555556
+IP (set(['88.130.63.192']), set(['212.210.123.204']))
+ 0.0555555555556
+IP (set(['95.91.201.210']), set(['95.91.201.206']))
+ 0.0555555555556
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.186']))
+ 0.0555555555556
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.140']))
+ 0.0555555555556
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/64.0.3282.167']))
+ 0.0555555555556
+agent (set(['Chrome/64.0.3282.167']), set(['Chrome/65.0.3325.146']))
+ 0.0555555555556
+agent (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:58.0)', 'Firefox/58.0']))
+ 0.0555555555556
+agent (set(['Maxthon/5.0.3.3000', 'Chrome/47.0.2526.73']), set(['Maxthon/4.9.5.1000', 'Chrome/39.0.2146.0']))
+ 0.0555555555556
+browserfingerprint (set(['0c2a7ab6b81c662d46ac571342eeffb4d7d8f75bcb4be64aa794373a06f83cfb']), set(['7a7afc6bf44c43f7584afec5b5ba4ba8df3cb6ee6f83d7f8d5aadc961eabf3d5']))
+ 0.0555555555556
+browserfingerprint (set(['27ebcfda1002d57e20270ef236787620842f68dda52f9bcdba1da7e6853d65c5']), set(['bb9285e5cfe92dd2d4f5b26891c0a1bffa15267aee1076238b90426ac3889c0a']))
+ 0.0555555555556
+browserfingerprint (set(['3de6b05a78edd6a421468c4156bf355337f20b340f8b3d36afbfadf84da89dfc']), set(['144bfaf01e8da72cd0ac33efe98d162e1162acaf7e1e94c235c27acb8cf1c8ca']))
+ 0.0555555555556
+browserfingerprint (set(['6a728d1ba310d175cad2d5234a4db360a444e2de9290c05c9a04dd3ee1c0578e']), set(['8b2064ba9af7316c158e95460aba1b19ee8beeedb6e3f4adb5da5d891fc84fbf']))
+ 0.0555555555556
+browserfingerprint (set(['7f06c37e171dabd74350116bf11002c4d4b0021a97f55cd65d6e385d14eefe2b']), set(['ebec9d6fed95230a88ea678aef9592b72771c9f9f7a70325ce4f966688253241']))
+ 0.0555555555556
+browserfingerprint (set(['b0f17450ac683d0efc2b412500401faf8bc4fac7f9114f3c5af5fe74c5305405']), set(['5748fbc1533fb84d8fefd1d77d38039c59139211577df1c6cf7955dbea8b4b65']))
+ 0.0555555555556
+browserfingerprint (set(['b1f0cbf7b2745b5ab34dfd59d546d56e67d21f0e16421b07fc81372a288ac9e2']), set(['8fde0dfc54702ed638ca75c5940c9067863bc7ef66d01140e0b588fb71b4b702']))
+ 0.0555555555556
+browserfingerprint (set(['cf91a24aa5840fcd1e52368d5d7390c3513f3be26dc03ff30567402938aaf1f0']), set(['68a074216d28d1d08e4cc47d7baf9e8dcc7ccc5783c9c32a667795612c9a44bf']))
+ 0.0555555555556
+browserfingerprint (set(['ddbfc1d9938f86916fe65639c99a6aae2b11c7d0533175905e0aa9504317d2ee']), set(['8b09d8636b7cc0799cce8c0d5900bf98a633a2f750f83e761582156564ce6766']))
+ 0.0555555555556
+browserfingerprint (set(['f5bd293a702d46757c8e5c32b0881365d963fb69b3d6d0c0a46403b5d12e3c6b']), set(['432acfafb5a891bda0415252fba310c1bcd262b1784e871a7a54e54dd06e5f9c']))
+ 0.0555555555556
+canvastest (set(['4ae230f11be50db77fc4f093b9ad11a5beda5399']), set(['ab58400b1eb128ca6efff13991cedbe7b65f7354']))
+ 0.0555555555556
+canvastest (set(['872a32ca4f5a5d1e2cb54d2b245b70c2144193db']), set(['b52d5d57e64069be8ccdaeda3be4e6c0e3f89b8a']))
+ 0.0555555555556
+canvastest (set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']), set(['420935ea40f8189d1cb22140a80d7f20711efd1b']))
+ 0.0555555555556
+canvastest (set(['de847cd2dc29c4ad126fd2dc70b850e449768ed9']), set(['a83450a3115e3d0ad6352a87b01915a27c5c3ba5']))
+ 0.0555555555556
+encoding (set(['gzip,', 'deflate']), set(['gzip,deflate']))
+ 0.0555555555556
+ipcity (set(['Baraki']), set(['Algiers']))
+ 0.0555555555556
+ipcity (set(['Charlottenberg']), set(['Recklinghausen']))
+ 0.0555555555556
+ipcity (set(['Dusseldorf']), set(['Rome']))
+ 0.0555555555556
+ipcountry (set(['Germany']), set(['Italy']))
+ 0.0555555555556
+ipcountry (set(['Sweden']), set(['Germany']))
+ 0.0555555555556
+ipregion (set(['Nordrhein-Westfalen']), set(['Lazio']))
+ 0.0555555555556
+ipregion (set(['Tipaza']), set(['Alger']))
+ 0.0555555555556
+ipregion (set(['lan', 'Varmlands']), set(['Nordrhein-Westfalen']))
+ 0.0555555555556
+jsFonts (set(['Arial_Calibri_Cambria_Cambria']), set(['Black_Calibri_Cambria_Cambria', 'Arial_Arial']))
+ 0.0555555555556
+jsFonts (set(['Extra_MV', 'Gothic_MT']), set(['Gothic_MV']))
+ 0.0555555555556
+jsFonts (set(['GARAMOND', 'CASLON', 'PRO_Palatino', '3_ADOBE', 'Typesetting_ARNO', 'Serif_MYRIAD', 'Pro_Miriam_Miriam', 'PRO_Agency', 'PRO_Tunga_Tw', 'Arabic_TRAJAN', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'PRO_ADOBE', 'PRO_Baskerville']), set(['Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Miriam_Miriam', '3_Agency', 'Serif_Palatino', 'Typesetting_Baskerville', 'Arabic_Tunga_Tw']))
+ 0.0555555555556
+jsFonts (set(['Latin_ZWAdobeF']), set(['Latin']))
+ 0.0555555555556
+jsFonts (set(['Light_Segoe', 'Narrow_Arial', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'Condensed_Bookshelf', 'Black_Copperplate', 'Titling_Footlight', 'Gothic_Copperplate', 'Light_Corbel_Cordia', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'Black_Bodoni', 'MT_Constantia_Cooper', 'Black_Arial', 'Condensed_Rod_Sakkal', 'MT_Tw', 'MT_Gill', 'Semibold_Segoe', 'Condensed_Gisha_Goudy', 'FB_Bernard', 'Gothic', 'Condensed_Univers']), set(['Richard_Pristina_Raavi_Ravie_Rockwell_Rod_Sakkal', 'Titling_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'MT_Bookshelf', 'MT_Constantia_Copperplate', 'MT_Univers', 'MT_Gisha_Goudy', 'FB_Blackadder', 'Gothic_Corbel_Cordia']))
+ 0.0555555555556
+jsFonts (set(['PRO_Palatino', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'Capitals_Microsoft', 'Serif_MYRIAD', 'Pro_Mistral_Modern']), set(['Capitals_Meiryo_Meiryo', 'UI_Microsoft', 'Serif_Palatino', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern']))
+ 0.0555555555556
+langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']), set(['Latin_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Gurmukhi_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Syriac_Thaana_Inuktitut_Cherokee']))
+ 0.0555555555556
+language (set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']), set(['it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.0555555555556
+language (set(['sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
+ 0.0555555555556
+plugins (set(['Client~Shockwave', 'Flash~Widevine']), set(['Client~Widevine']))
+ 0.0555555555556
+plugins (set(['U~MXPDFVIEWERPLUGIN~Microsoft', 'Viewer~Shockwave', '~Mx']), set(['Viewer~Microsoft', '~Shockwave', 'U~Maxthon']))
+ 0.0555555555556

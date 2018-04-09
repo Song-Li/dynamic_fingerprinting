@@ -1,0 +1,121 @@
+doing Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee -> Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee
+langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']), set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+ 1.0
+agent (set(['10.11;']), set(['10.13;']))
+ 0.936507936508
+canvastest (set(['552bea8215028f7a68e50c0cb2706f338743f07f']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac']))
+ 0.666666666667
+jsFonts (set(['MN_OSAKA_Papyrus_Perpetua_Perpetua', 'Serif_Palatino_Palatino', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern']), set(['Pro_Mistral_Modern', 'Serif_MYRIAD', 'PRO_Palatino_Palatino', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'MN_Papyrus_Perpetua_Perpetua']))
+ 0.666666666667
+language (set(['de,en-US;q=0.7,en;q=0.3']), set(['de,en;q=0.7,en-US;q=0.3']))
+ 0.666666666667
+browserfingerprint (set(['8a6c0b23ae41ded1d064ec39d92fe56e7abc27ae8883a0f5868007d34ef119c2']), set(['e7c1ec016457f02f78233808e8e27e2852da8c29a5450f347d5d1a305c6e3273']))
+ 0.222222222222
+jsFonts (set(['MN_OSAKA_Papyrus_Perpetua_Perpetua']), set(['MN_Papyrus_Perpetua_Perpetua']))
+ 0.142857142857
+canvastest (set(['552bea8215028f7a68e50c0cb2706f338743f07f']), set(['d3dbe325d3d47dc3e57c599b274818a24c9f5def']))
+ 0.126984126984
+browserfingerprint (set(['281000d2fe69d38f0530ab3b479a57f6b7066858fe454e191dee7fb6c220f2fe']), set(['e7c1ec016457f02f78233808e8e27e2852da8c29a5450f347d5d1a305c6e3273']))
+ 0.111111111111
+browserfingerprint (set(['587e8a0f94fffd51714f1b5fcabb05e373e328a0cc8732e364f2875289dc9990']), set(['169ca4ae69e93a370b02d60c006eb6fad0d88fd8bd92c31107e47f78655c5850']))
+ 0.111111111111
+browserfingerprint (set(['7317a789b9de7168e15fc16d54f87604d8a341b72c4388ffea016e2c461ec54c']), set(['ea8a210c7eae705ff41375c7278a8e628a021e8542fc47960f88b2dceff65ccb']))
+ 0.111111111111
+browserfingerprint (set(['8a6c0b23ae41ded1d064ec39d92fe56e7abc27ae8883a0f5868007d34ef119c2']), set(['4014da459213e87d2845979ffa494bab685df25fb644a7c2f6d3b0d87a67a66d']))
+ 0.111111111111
+browserfingerprint (set(['a42ff299ef4cfc95dccb62a0801fcbc2b7c2cf3c6a4590586e5d5a428d97a4e8']), set(['724022ea377c17e4289737ec04705dd03d21f8931d0e4a17b0e892fe4d6f57f7']))
+ 0.111111111111
+canvastest (set(['c2c2463dd184d8d5e8247b0eb65a94e49c1c9c42']), set(['b4ebf4195ba70bb0526c3d598816782504ba574f']))
+ 0.047619047619
+jsFonts (set(['MN_OSAKA_Papyrus_Plantagenet']), set(['MN_Papyrus_Plantagenet']))
+ 0.047619047619
+agent (set(['10.11;', 'Firefox/57.0', 'rv:57.0)']), set(['10.13;', 'rv:58.0)', 'Firefox/58.0']))
+ 0.031746031746
+canvastest (set(['cc491e70b221540e18ab43bc3b269ddf315ebf18']), set(['fca53e75042da7a934ccb95af522ddaa2d994f26']))
+ 0.031746031746
+plugins (set(['Shockwave', 'Flash']), set(['']))
+ 0.031746031746
+IP (set(['146.241.214.110']), set(['178.203.235.246']))
+ 0.015873015873
+IP (set(['188.104.203.1']), set(['91.200.111.206']))
+ 0.015873015873
+IP (set(['84.59.240.95']), set(['87.188.247.122']))
+ 0.015873015873
+IP (set(['85.178.62.50']), set(['85.178.62.141']))
+ 0.015873015873
+IP (set(['87.152.104.114']), set(['87.152.108.186']))
+ 0.015873015873
+IP (set(['95.91.242.51']), set(['95.91.245.30']))
+ 0.015873015873
+agent (set(['10.11;', 'Firefox/57.0', 'rv:57.0)']), set(['Firefox/58.0', 'rv:58.0)', '10.12;']))
+ 0.015873015873
+agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
+ 0.015873015873
+browserfingerprint (set(['04ff4ba9249427aa3ef93fadc81d3d8cc80e8cd772d8b9cd9e137e69ed653805']), set(['20dbae6a5ed2d3f0d9f877cb3263b7b6006b39f253135101194b56f5f23a83a9']))
+ 0.015873015873
+browserfingerprint (set(['1492a7dab4879e4ba1ede44c77f8fa2d7baa85d6ec641c4caefccf2b9bbe7bd0']), set(['8b2c28af1fff09948cc28ea341be86bc06ca89417dde4298b7b2ae94fb8a5932']))
+ 0.015873015873
+browserfingerprint (set(['1a4e05fe9e387f2d0e57af435eeff322b43688dd5de0aeeb73bcc0a40f643139']), set(['5fc17a612b376292ad81b250191a64b092f5d583d31c2c5c9d1567b3d227b3f8']))
+ 0.015873015873
+browserfingerprint (set(['6986eb4052bcd59e1026acbb738891349759019149bcb4d316385264b09f8581']), set(['42a37378077080e70e098fb9e10e3dd3288ad11cc4382a11a7db96c5e7a34664']))
+ 0.015873015873
+browserfingerprint (set(['6cb030f0a7fcd55fc30cb5519548ed754fae88fe61a9f3853ebcfa9c4f9b2024']), set(['e45e2e5d888faacd6a54c5a54cdb9de8700fd5f79800eeb63891910b7961bc74']))
+ 0.015873015873
+browserfingerprint (set(['83b4058bde383deeb10bf67f0e5cecc60ac7766c6c33e9682382ff305902cae5']), set(['c08a8ea6bab0f10136a5a3064c545d0ed32d88853da85fb039eab0cbc59beee2']))
+ 0.015873015873
+browserfingerprint (set(['a312bf83817fa3a744760825c3ca9dd18fd48960750360d38e6c19d547f49cc8']), set(['4e408c57637d7954671c18ad075b084856a458336f8299318e432faa89a2a5b3']))
+ 0.015873015873
+browserfingerprint (set(['bccf0f782e49ffb4309146a51dd86786ca33d21d052e2f7f8d3fdda2900d0ca0']), set(['a1984a5b29d3c3dec56d1d18e410173c5276a8e5fc98db0abc58c2b82e9b755e']))
+ 0.015873015873
+browserfingerprint (set(['cc0241c1d839db3248e88e9ef5f6734834aea6bf0104a77e12a4e04cd1263525']), set(['244ff2af4787c8b53a27e4b5a75131153be5b53f36ef5bf8405d95696cb505eb']))
+ 0.015873015873
+browserfingerprint (set(['e0da152a64b001a096f43a2e88e84e601d1410551fc560f6823c3d8b0e9e02db']), set(['78f7d9009df0127fc500e34a98c14b07dc88717995bff269ace50377fbed24fb']))
+ 0.015873015873
+browserfingerprint (set(['e8bd392f60a42f9495db18a51bf9420d5ae52fd1866b771b4803ad40f68e5f31']), set(['b508f8f05baa6f15cbd32313b9e18be73da18e4856ba8e0915043d1b8624c349']))
+ 0.015873015873
+browserfingerprint (set(['f1d3ad7e727744c898a61eb2b3520b3fb682483b83de0309f17679fb74e5a66a']), set(['c570fe9130f98c5ee18d22cd0dd3995662f81cd41e2503662870f3ac34af5163']))
+ 0.015873015873
+browserfingerprint (set(['f276f394960341f6b58ff372b3a347c358965fe8d450dcd02aab6b49a3801b77']), set(['a3726e327af7c5bf4621794f04a3bcb184b82087253115a774e90001cf395efb']))
+ 0.015873015873
+browserfingerprint (set(['f74b3c73db47bb889f14762cc06b737d4dcfb6e3f1187bbe1b50201c1a1eba8d']), set(['f28253bafad3bdc92106202556c7a01c7e51af59383a1f316d58eee1ddbbc587']))
+ 0.015873015873
+canvastest (set(['05be2fcf57390bf6fdbfadc9a39081c0f43e1c80']), set(['0120fcf44bd9336320cc7f6dd6b1078dbe691f89']))
+ 0.015873015873
+canvastest (set(['130200dde4077e4660c9eb54ba0054c0b6d75f96']), set(['7d75393f21f7ee5afa96b8310a3b92bd4fe7b9f6']))
+ 0.015873015873
+canvastest (set(['a2fa512b46497f345b2033bef500a3b2a924d98f']), set(['2775bc41b41171f40731e1ae38da496ebc84453b']))
+ 0.015873015873
+canvastest (set(['ad577b403498877229f6343fe3ba2e89f443a831']), set(['3c65b5356a223267cd2d7735e50ab99e7561ab40']))
+ 0.015873015873
+canvastest (set(['c2c2463dd184d8d5e8247b0eb65a94e49c1c9c42']), set(['43bb4d735d2cc642009880be52a5c90f50d569d8']))
+ 0.015873015873
+canvastest (set(['d5c866ffb622af7d4ab99c645bf38b21b0fde7c6']), set(['b8c6915b30b3925d5948b2a25ed56a75b8dac496']))
+ 0.015873015873
+canvastest (set(['ea4106930847845dc0c7e2bdf2a17bcc751af2a8']), set(['4769c21c32f25a1138a8a591bfe2358a07ea59ac']))
+ 0.015873015873
+ipcity (set(['Busto', 'Arsizio']), set(['Frankfurt', 'Main', 'am']))
+ 0.015873015873
+ipcity (set(['Freiburg']), set(['Frankfurt', 'Main', 'am']))
+ 0.015873015873
+ipcity (set(['Wiesbaden']), set(['Munich']))
+ 0.015873015873
+ipcountry (set(['Italy']), set(['Germany']))
+ 0.015873015873
+ipregion (set(['Baden-Wurttemberg']), set(['Hessen']))
+ 0.015873015873
+ipregion (set(['Hessen']), set(['Bayern']))
+ 0.015873015873
+ipregion (set(['Lombardia']), set(['Hessen']))
+ 0.015873015873
+jsFonts (set(['Cherokee_Playbill_PMingLiU_PMingLiU-ExtB_Rockwell_Rockwell', 'Shadow_Kailasa_Kannada', 'MN_Thonburi_Tw', 'Bold_Savoye', 'Roundhand_Stencil_Tamil', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'MN_Baskerville_Baskerville', 'MN_OSAKA_Papyrus_Perpetua_Perpetua', 'Light_American', 'MT_Univers', 'Face_Batang_Bauhaus', 'Neo_AVENIR_Ayuthaya_Bangla', 'Serif_Palatino_Palatino', '20_Mongolian', 'MT_Bernard']), set(['MT_Bembo_Bernard', 'GARAMOND', 'MN_Thonburi_TRAJAN', 'Gothic_Baskerville_Baskerville', 'LET_Rockwell_Rockwell', 'Cherokee_Playbill_PMingLiU_PMingLiU-ExtB_PRINCETOWN', 'PRO_AVENIR_Ayuthaya_Bangla', 'PRO_Tw', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'Pro_Mistral_Modern', 'LET_Perpetua_Perpetua', 'Bold_Santa', 'Fe', 'LET_ADOBE', 'Face_Batang_Bauer', 'Neo_ARNO', 'PRO_American', 'Light_Academy', 'Solid', 'Serif_MYRIAD', 'LET_Savoye', 'CASLON', '20_Mona', 'Lisa', 'Engraved', 'LET_Tamil', 'Shadow_Jazz', 'MN_Bank', 'Bodoni_Bauhaus', 'Roundhand_Stencil_Synchro', 'MN_OSAKA_Papyrus_Party', 'TT_Mongolian', 'PRO_Palatino_Palatino', 'ITC', 'LET_Kailasa_Kannada', 'PRO_ADOBE', 'MT_Univers_Univers']))
+ 0.015873015873
+jsFonts (set(['MN_OSAKA_Papyrus_Party']), set(['MN_Papyrus_Party']))
+ 0.015873015873
+jsFonts (set(['MN_OSAKA_Papyrus_Perpetua', 'Handwriting_Microsoft']), set(['MN_Papyrus_Perpetua', 'Handwriting_Lucida', 'Sans_Microsoft']))
+ 0.015873015873
+jsFonts (set(['MN_OSAKA_Papyrus_Perpetua']), set(['MN_Papyrus_Perpetua']))
+ 0.015873015873
+jsFonts (set(['MN_OSAKA_Papyrus_Plantagenet', 'Bold_Comic']), set(['MN_Papyrus_Plantagenet', 'MS_Comic', 'Unicode', 'Bold_Arial']))
+ 0.015873015873
+jsFonts (set(['MN_OSAKA_Papyrus_Plantagenet', 'PS_Trebuchet', 'Roman', 'Roman_Times']), set(['MN_Papyrus_Plantagenet', 'Roman_Trebuchet']))
+ 0.015873015873

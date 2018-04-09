@@ -1,0 +1,151 @@
+doing ANGLE (Intel(R) HD Graphics Direct3D11 vs_5_0 ps_5_0) -> ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)
+gpu (set(['vs_5_0', 'ps_5_0)', 'Direct3D11']), set(['vs_3_0', 'ps_3_0)', 'Direct3D9Ex']))
+ 1.0
+audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
+ 0.538461538462
+canvastest (set(['de847cd2dc29c4ad126fd2dc70b850e449768ed9']), set(['76b2447ccdd04208b9498df1765ae32d741ec4f3']))
+ 0.384615384615
+jsFonts (set(['FB_Aharoni_Algerian_Andalus_Angsana', 'MT_Onyx_Parchment_Plantagenet', 'Richard_Raavi_Ravie_Rod_Sakkal', 'MT_LilyUPC_Magneto_Malgun', 'ITC_Kabel', 'Bk', 'BT_KaiTi_Kalinga_Kartika_Khmer', 'BT_EucrosiaUPC_Euphemia_EUROSTILE_FangSong_Footlight', 'Arabic_Tunga_Univers', '7_Broadway_Browallia', 'Script_Gabriola_Gautami_GeoSlab', '3_Agency']), set(['MT_Tw', 'Richard_Pristina_Raavi_Ravie_Rod_Sakkal', 'GD_Malgun', 'ITC_Broadway_Browallia', 'Script_French', 'MT_Gabriola_Gautami_GeoSlab', 'Cen', '3_Aharoni_Algerian_Andalus_Angsana', 'MT_Onyx_Papyrus_Parchment_Plantagenet', 'Condensed_Univers', 'BT_EucrosiaUPC_Euphemia_FangSong_Footlight', 'ITC_KaiTi_Kalinga_Kartika_Khmer', 'MT_LilyUPC_Magneto_Maiandra', '7_Bradley', 'Arabic_Tunga_Tw']))
+ 0.346153846154
+plugins (set(['Client~Shockwave', 'Flash~Widevine']), set(['Client~Widevine']))
+ 0.346153846154
+audio (set(['48000_2_1_0_2_explicit_speakers']), set(['44100_2_1_0_2_explicit_speakers']))
+ 0.192307692308
+canvastest (set(['2443b839f70927ca1366ad26a9cefbf43ecf51db']), set(['b66df9f6b661bdc6f20c3610f74be11f8d04b619']))
+ 0.153846153846
+plugins (set(['Shockwave', 'Flash']), set(['']))
+ 0.153846153846
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.84']))
+ 0.115384615385
+browserfingerprint (set(['89754f904740f81ef4e3bc61e0437e7984c4c00d5594602033c541ff479e8040']), set(['23c0bdd879e113632a1151e931162155a9de9ae0b2921cda63dfdc26b26a838c']))
+ 0.115384615385
+browserfingerprint (set(['cfd0dc3c74c8a020f164637a0b51f6f027a34fe52967fbd44f545eab439d0000']), set(['e9a9d118bc442c1efa568e187a67bf051668e95afad413a515b8dfaad596e9f6']))
+ 0.115384615385
+browserfingerprint (set(['de7719de3f92048ccd2dc3b2c00f5dac0dd8e1a66b3cdfae13fa7912fcc4d2e2']), set(['b84c06c291e1c36c1b125d0f65576f62d157cbcfbf36a4f986ebc67b14eff1e6']))
+ 0.115384615385
+canvastest (set(['de847cd2dc29c4ad126fd2dc70b850e449768ed9']), set(['14578bcaee87ff6fe7fee38ddfa2306a7e3b0a0a']))
+ 0.115384615385
+IP (set(['217.254.35.169']), set(['217.254.36.23']))
+ 0.0769230769231
+IP (set(['217.254.39.113']), set(['79.238.94.48']))
+ 0.0769230769231
+browserfingerprint (set(['5b859230cbcb5c2b084f1d0049985df4fc37c7c956ffd6f0434e69b215d2fb81']), set(['8ba9eb9ed9c0981063c3c88398b92c992a81b3cf99423c167917dd4a719927a3']))
+ 0.0769230769231
+browserfingerprint (set(['e4ec403876ca2f2939583cf0a71151b5edc6b41d1591c5d50e6ae7c0e7fa8545']), set(['72a61ffed4acb2de7552372d7f049afc427eb88b578b39e999c35c00a56f4d7f']))
+ 0.0769230769231
+ipcity (set(['Mainz']), set(['Boos']))
+ 0.0769230769231
+jsFonts (set(['Gothic_Mangal_Marlett_Meiryo_Meiryo', '7_Browallia', 'Medium_Utsaah_Vani_Vijaya_Vrinda', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Fonts_Sylfaen_Traditional', 'Smallcaps_Bookshelf', 'Typesetting_Batang_BatangChe_Bauhaus', '93_Bodoni', '3_Aharoni_Andalus_Angsana', 'Majalla_Shonar', 'Gothic_MV', 'New_Georgia_Helvetica_Impact_Lucida', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Humanst', 'UI_KodchiangUPC_Kokila_Lao', 'BT_IrisUPC_Iskoola', 'Cherokee_PMingLiU_PMingLiU-ExtB_Raavi_Rod_Roman_Sakkal', 'Boli_Narkisim_NSimSun_Nyala_Plantagenet', 'BT_EucrosiaUPC_Euphemia_FangSong_FrankRuehl_FreesiaUPC_Gabriola_Gautami_GeoSlab', 'Arial_Calibri_Cambria_Cambria', 'MT_LilyUPC_Malgun', 'New_BrowalliaUPC_Candara_Constantia_Corbel_Cordia', 'Math_Comic', 'Pota_JasmineUPC_KaiTi_Kalinga_Kartika_Khmer', 'Fixed_Modern', 'Arabic_Tunga_Univers', 'Bangla_Shruti_SimHei_Simplified']), set(['Boli_Narkisim_Niagara', 'Condensed_Rockwell', 'Demi_Bernard', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Schoolbook_Comic', 'Text_Humanst', 'FB_Calisto', 'Tower', 'Bold_Shonar', 'Bold', 'Style_Calibri_Cambria_Cambria', 'Titling', 'Face_Batang_BatangChe_Bauhaus', 'Gothic_Copperplate', 'MT_Bodoni', 'Solid', 'New_Garamond_Georgia_Helvetica_Impact_Lucida', 'ITC_Traditional', 'Fax_Lucida', 'Bold_Univers', 'Script_Lao', 'MS_Book', 'Corsiva_MS', 'Reference', 'Bold_Gill', 'Extra_MV', 'Fixed_Mistral_Modern', 'Script_French', 'Math_Century_Century', 'MT_LilyUPC_Magneto_Maiandra', 'Antiqua_Bookman', 'Arabic_Tunga_Tw', 'Script', 'ITC_Vivaldi_Vladimir', 'Roman_IrisUPC_Iskoola', 'Medium_Utsaah_Vani_Vijaya_Viner', 'Gothic_MT', 'BT_Stencil_Sylfaen_Tempus', 'Condensed', 'Latin', 'MT_Californian', 'Black_Copperplate', 'MT_Onyx_Palace', 'MT_Plantagenet', 'FB_Berlin', 'Bold_Broadway_Browallia', 'MT_Berlin', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Italic_Harrington_High', 'FB_Aharoni_Algerian_Andalus_Angsana', 'Condensed_Tw', 'Ext', 'Black_Arial', 'English', '7_Bradley', 'Compressed_Bookshelf', 'Black_Bodoni', 'Rounded', 'Condensed_Gisha_Goudy', 'Extra', 'MT_Gabriola_Gautami_GeoSlab', 'ITC_Bodoni', 'MT', 'Handwriting_Lucida', 'Gothic', 'Unicode', 'Sans_Lucida', 'BT_Imprint', 'Style_Goudy', 'BT_Engravers', 'Gothic_Shruti_SimHei_Simplified', 'Outlook_MS', 'Extended_Old', 'FB', 'Richard_Pristina_Raavi_Rage', 'Gothic_Century', 'Typewriter_Lucida', 'Italic_Ravie_Rockwell_Rockwell', 'Cen', 'ITC_Kunstler', 'Hand', 'ITC_Britannic', 'Titling_Footlight', 'New_CordiaUPC_Curlz', 'Condensed_Blackadder', 'Bright_Lucida', 'Capitals_Meiryo_Meiryo', 'MT_Constantia_Cooper', 'Bangla_Showcard', 'Script_Vrinda_Wide', 'UI_KodchiangUPC_Kokila_Kristen', 'Ultra', 'Shadow_Informal', 'Calligraphy_Lucida', 'MT_Tw', 'MT_Gill', 'Specialty_MS', 'Old', 'GD_Malgun', 'Cherokee_Playbill_PMingLiU_PMingLiU-ExtB_Poor', 'Text', 'BT_Gigi_Gill', 'Majalla_Script_Script', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harlow', 'ITC_Elephant_English', 'ITC_KaiTi_Kalinga_Kartika_Khmer', '3_Agency', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'Typesetting_Baskerville', 'Fonts_Snap', 'Engraved_Niagara', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Narrow_Arial', 'Condensed_Bodoni', 'Condensed_Gill', 'Arial_Arial', 'Poster', 'New_BrowalliaUPC_Brush', '93_Bell', 'A', 'ITC_Staccato222', 'Pota_JasmineUPC_Jokerman_Juice', 'Bold_Copperplate', 'Light_Corbel_Cordia', 'Bold_Arial', 'Gothic_Mangal_Marlett_Matura', 'Smallcaps_Bodoni', 'Serif_Monotype', 'Bold_Rod_Roman_Sakkal', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'Solid_NSimSun_Nyala_OCR']))
+ 0.0769230769231
+jsFonts (set(['Gothic_Mangal_Marlett_Meiryo_Meiryo', '7_Browallia', 'Medium_Utsaah_Vani_Vijaya_Vrinda', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Fonts_Sylfaen_Traditional', 'Smallcaps_Bookshelf', 'Typesetting_Batang_BatangChe_Bauhaus', '93_Bodoni', '3_Aharoni_Andalus_Angsana', 'Majalla_Shonar', 'New_Georgia_Helvetica_Impact_Lucida', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Humanst', 'UI_KodchiangUPC_Kokila_Lao', 'BT_IrisUPC_Iskoola', 'Cherokee_PMingLiU_PMingLiU-ExtB_Raavi_Rod_Roman_Sakkal', 'Boli_Narkisim_NSimSun_Nyala_Plantagenet', 'BT_EucrosiaUPC_Euphemia_FangSong_FrankRuehl_FreesiaUPC_Gabriola_Gautami_GeoSlab', 'MT_LilyUPC_Malgun', 'New_BrowalliaUPC_Candara_Constantia_Corbel_Cordia', 'Math_Comic', 'Pota_JasmineUPC_KaiTi_Kalinga_Kartika_Khmer', 'Fixed_Modern', 'Arabic_Tunga_Univers', 'Bangla_Shruti_SimHei_Simplified', 'Black_Calibri_Cambria_Cambria']), set(['Boli_Narkisim_Niagara', 'Condensed_Rockwell', 'Demi_Bernard', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Schoolbook_Comic', 'Text_Humanst', 'FB_Calisto', 'Fax_Lucida', 'Bold_Shonar', 'Bold', 'Style_Calibri_Cambria_Cambria', 'Titling', 'Face_Batang_BatangChe_Bauhaus', 'Gothic_Copperplate', 'MT_Bodoni', 'Solid', 'New_Garamond_Georgia_Helvetica_Impact_Lucida', 'ITC_Traditional', 'Tower', 'Bold_Univers', 'Script_Lao', 'MS_Book', 'Corsiva_MS', 'Reference', 'Bold_Gill', 'Fixed_Mistral_Modern', 'Script_French', 'Math_Century_Century', 'MT_LilyUPC_Magneto_Maiandra', 'Antiqua_Bookman', 'Arabic_Tunga_Tw', 'Script', 'ITC_Vivaldi_Vladimir', 'Roman_IrisUPC_Iskoola', 'Medium_Utsaah_Vani_Vijaya_Viner', '93_Bell', 'BT_Stencil_Sylfaen_Tempus', 'Condensed', 'Latin', 'MT_Californian', 'Black_Copperplate', 'MT_Onyx_Palace', 'MT_Plantagenet', 'FB_Berlin', 'Bold_Broadway_Browallia', 'MT_Berlin', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Italic_Harrington_High', 'FB_Aharoni_Algerian_Andalus_Angsana', 'Condensed_Tw', 'Ext', 'Black_Arial', 'English', '7_Bradley', 'Black_Bodoni', 'Rounded', 'Condensed_Gisha_Goudy', 'Extra', 'MT_Gabriola_Gautami_GeoSlab', 'ITC_Bodoni', 'MT', 'Handwriting_Lucida', 'Gothic', 'Unicode', 'Sans_Lucida', 'BT_Imprint', 'Style_Goudy', 'BT_Engravers', 'Gothic_Shruti_SimHei_Simplified', 'Outlook_MS', 'Extended_Old', 'FB', 'Richard_Pristina_Raavi_Rage', 'Gothic_Century', 'Typewriter_Lucida', 'Italic_Ravie_Rockwell_Rockwell', 'Cen', 'ITC_Kunstler', 'Hand', 'ITC_Britannic', 'Titling_Footlight', 'New_CordiaUPC_Curlz', 'Condensed_Blackadder', 'Bright_Lucida', 'Capitals_Meiryo_Meiryo', 'MT_Constantia_Cooper', 'Bangla_Showcard', 'Script_Vrinda_Wide', 'UI_KodchiangUPC_Kokila_Kristen', 'Ultra', 'Shadow_Informal', 'Calligraphy_Lucida', 'MT_Tw', 'MT_Gill', 'Specialty_MS', 'Old', 'GD_Malgun', 'Cherokee_Playbill_PMingLiU_PMingLiU-ExtB_Poor', 'Text', 'BT_Gigi_Gill', 'Majalla_Script_Script', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harlow', 'ITC_Elephant_English', 'ITC_KaiTi_Kalinga_Kartika_Khmer', '3_Agency', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'Typesetting_Baskerville', 'Fonts_Snap', 'Engraved_Niagara', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Narrow_Arial', 'Condensed_Bodoni', 'Condensed_Gill', 'Poster', 'New_BrowalliaUPC_Brush', 'Compressed_Bookshelf', 'A', 'ITC_Staccato222', 'Pota_JasmineUPC_Jokerman_Juice', 'Bold_Copperplate', 'Light_Corbel_Cordia', 'Bold_Arial', 'Gothic_Mangal_Marlett_Matura', 'Smallcaps_Bodoni', 'Serif_Monotype', 'Bold_Rod_Roman_Sakkal', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'Solid_NSimSun_Nyala_OCR']))
+ 0.0769230769231
+IP (set(['103.72.60.113']), set(['117.247.73.88']))
+ 0.0384615384615
+IP (set(['150.107.10.252']), set(['59.98.152.223']))
+ 0.0384615384615
+IP (set(['84.128.255.221']), set(['91.59.78.244']))
+ 0.0384615384615
+IP (set(['87.139.214.237']), set(['93.193.237.6']))
+ 0.0384615384615
+IP (set(['89.183.126.29']), set(['89.183.22.136']))
+ 0.0384615384615
+IP (set(['91.248.13.231']), set(['91.248.161.49']))
+ 0.0384615384615
+IP (set(['92.198.43.71']), set(['79.247.55.28']))
+ 0.0384615384615
+IP (set(['93.143.94.208']), set(['213.202.65.40']))
+ 0.0384615384615
+IP (set(['93.192.172.135']), set(['93.192.161.63']))
+ 0.0384615384615
+agent (set(['Chrome/43.0.2357.130', 'AOL/9.8', 'AOLBuild/4346.2024.US']), set(['AOLBUILD/11.0.1567', 'AOL/11.0', 'Chrome/60.0.3112.90']))
+ 0.0384615384615
+agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.186']))
+ 0.0384615384615
+agent (set(['Chrome/63.0.3239.132']), set(['Chrome/64.0.3282.167']))
+ 0.0384615384615
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.108']))
+ 0.0384615384615
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
+ 0.0384615384615
+agent (set(['Chrome/63.0.3239.84']), set(['Chrome/64.0.3282.167']))
+ 0.0384615384615
+browserfingerprint (set(['1310801f333b0b237eabe4825d6bb4a795153e45675ccb576f91875f8d9faa0e']), set(['f07bdc015af32a81959eeab959d9dc7190c84eb27ca707b5aa9eeb430b359e3d']))
+ 0.0384615384615
+browserfingerprint (set(['2671cb63d32b66ad2a7c50b5b68f4cdf509140dae8be8ae63c29716e081290c4']), set(['c08150b78163b5b5b3b43ea03526014f46824a85ff86dcaaff2e15634ae8ce02']))
+ 0.0384615384615
+browserfingerprint (set(['4797d8b04062a59da72b678a689cbb66b23b549ee15564439a440c367594c4d5']), set(['6d1f02a7ea7d6a32fe49c1e981b45b1903894d7f6f675d55bed00c1f31570f58']))
+ 0.0384615384615
+browserfingerprint (set(['4d8e3eada45000b0bccd470d2a8586031b947924155bd241bda601efaa44b992']), set(['baeb72aa6d0bc414c5d90a593177742908fffbc55b8dc06b92ed27a781021042']))
+ 0.0384615384615
+browserfingerprint (set(['5c180f91284137d7803b12b3b404e1f0e86e2dda4a5e8fba6cab6ce348bb1c3d']), set(['52999e93de31fda75a11e221c77290202337f82d1125a752876c51e430ae6682']))
+ 0.0384615384615
+browserfingerprint (set(['83eea322fd2096b4c71f346aa01b472a882c3371f7ac1d2bd6297cbae51978d8']), set(['13a2bbfeb535fcb25f8a00c4638bb78d7797ca5fa563d51f762dd63e5dbdd571']))
+ 0.0384615384615
+browserfingerprint (set(['9003aa7074c587baee565f8ca4356c65ae218a9e6f60caf7a64c6542699bafe3']), set(['e833359efae52f76bb1e0eb3876fd68fe7d454ba3a029124f7f0a53a26be0ec6']))
+ 0.0384615384615
+browserfingerprint (set(['a2e0f6ee86cbaaf4232c915d6b9261f741c2c6791fa0cfc467aa53078c54c508']), set(['19c1f18644aa70bd21925f578740a976fc10e46b049c507a00840ec7b3dd73b9']))
+ 0.0384615384615
+browserfingerprint (set(['a702e17751fa1adb73779df080761337d05d534e0c02bde2b74cbc60893f5fef']), set(['ebc408ee9844e3d776e396b44148b1f05a5eb305f5e5a5efc8c4c961ad47f5e2']))
+ 0.0384615384615
+browserfingerprint (set(['bebe6bb9a1d2873bd635d5802983bc4096a50038371a740ab6981c6669e56de4']), set(['21d2368838e39411c9d2d5827e182302fc4d100db5d81a4ef93fd705ace377b5']))
+ 0.0384615384615
+browserfingerprint (set(['ceee5584464b4df433aefdf84b51d60438d8c18233a3a2906d96e2391a83ae56']), set(['746453d4226df62c9c013a41a51f4e831fdfea94cb15b666c79b89de46d303fb']))
+ 0.0384615384615
+browserfingerprint (set(['d82f9adab53e0ee5a4d2a45a060cadfaec46774db65cdd23c6bed80f2b97abaf']), set(['4e794a033bf603e43b8eeefddebba4bb3942138c00f714bf895d2b3c5bcc3a2b']))
+ 0.0384615384615
+browserfingerprint (set(['efd612ade7b5d91da783b753e7fbc27c38051ead26ff5585c776c2d066342e07']), set(['476d95d43829a4c46910b9602d5be4f4ca5f6bd927766ccbb0ffe4487e8f6858']))
+ 0.0384615384615
+canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['ecbf927c0b4d90d674eebf3a5675c13a717104c4']))
+ 0.0384615384615
+canvastest (set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']), set(['6aa56b5df10eb95cf5495265c1a11366ea43fd72']))
+ 0.0384615384615
+canvastest (set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']), set(['ecbf927c0b4d90d674eebf3a5675c13a717104c4']))
+ 0.0384615384615
+canvastest (set(['ed1fd0598375a84e6fdf51aef93d202143f3d216']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
+ 0.0384615384615
+ipcity (set(['Bhubaneshwar']), set(['Bangalore']))
+ 0.0384615384615
+ipcity (set(['Koeln']), set(['Munich']))
+ 0.0384615384615
+ipcity (set(['Makarska']), set(['Gradiska', 'Nova']))
+ 0.0384615384615
+ipcity (set(['Patna']), set(['Gaya']))
+ 0.0384615384615
+ipcity (set(['Stuttgart']), set(['Janahof']))
+ 0.0384615384615
+ipcity (set(['Visselhovede']), set(['Nunningen']))
+ 0.0384615384615
+ipregion (set(['Baden-Wurttemberg']), set(['Bayern']))
+ 0.0384615384615
+ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
+ 0.0384615384615
+ipregion (set(['Odisha']), set(['Karnataka']))
+ 0.0384615384615
+ipregion (set(['Splitsko-dalmatinska']), set(['Brodsko-posavska']))
+ 0.0384615384615
+jsFonts (set(['3_Algerian_Baskerville', 'MT_Onyx_Papyrus_Parchment_Playbill_PMingLiU-ExtB_Poor', 'Engraved_Niagara', 'ITC_Vivaldi_Vladimir', 'Roman_Jokerman_Juice', 'Text_Humanst', 'FB_Bernard', 'Narrow_Arial', 'Condensed_Bodoni', 'Richard_Pristina_Ravie_Showcard', 'Tower', '93_Bell', 'Solid_NSimSun_Old', 'Latin', 'MT_Californian', 'Black_Corbel_Ebrima_English', 'ITC_Kunstler', 'Gothic_Marlett_Matura', 'BT_Haettenschweiler_Harrington_High', 'Capitals_Microsoft', 'Script_Magneto_Malgun', 'Gothic_SimSun_SimSun-ExtB_Snap', 'MT_Berlin', 'Face_Bauhaus', 'Bright_Lucida', 'MT_Constantia_Cooper', 'BT_Footlight', 'Medium_Viner', 'English', 'Fax_Lucida', 'Calligraphy_Lucida', 'Script_Wide', 'MS_Book', 'Text', 'BT_Informal', 'FB_Candara_Centaur_Chiller_Colonna', 'Boli_Niagara', 'MT', 'Unicode', 'ITC_Broadway_Brush', 'ITC_Stencil_Sylfaen_Tempus', 'Light_Freestyle']), set(['Medium', 'Narrow_Book', 'BT_Humanst', 'BT_Freestyle', 'ITC_Malgun', '3_Bauhaus', 'Gothic_Marlett_Microsoft', '93_Bodoni', 'ITC_Candara_Constantia_Corbel_Ebrima_English', 'BT_Juice', 'Boli_NSimSun_Papyrus_PMingLiU-ExtB_Pristina_SimSun_SimSun-ExtB_Sylfaen_Tempus']))
+ 0.0384615384615
+jsFonts (set(['BT_Engravers', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Schoolbook_Comic', 'Outlook_MS', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'Black_Copperplate', 'FB_Calisto', 'Gothic_Century', 'Typewriter_Lucida', '3_Agency', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'Condensed_Bookshelf', 'Cen', 'Titling', 'MT_Onyx_Palace', 'MT_Plantagenet', 'Titling_Footlight', 'New_CordiaUPC_Curlz', 'Gothic_Copperplate', 'Light_Corbel_Cordia', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'FB_Aharoni_Algerian_Andalus_Angsana', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'Condensed_Rod_Sakkal', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', 'Shadow_Informal', 'MT_Tw', 'Black_Bodoni', 'ITC_Elephant_English', 'GD_Malgun', 'Condensed_Gisha_Goudy', 'MT_LilyUPC_Magneto_Maiandra', 'BT_Gigi_Gill', 'Smallcaps_Bodoni', 'ITC_Bodoni', 'Gothic', 'Condensed_Univers', 'Arabic_Tunga_Tw', 'BT_Imprint', 'Style_Goudy']), set(['Black_Corbel_Cordia', 'Richard_Pristina_Raavi_Ravie_Rod_Sakkal', 'BT_Informal', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Gothic_Comic', '3_Aharoni_Algerian_Andalus_Angsana', 'Light_FrankRuehl_FreesiaUPC_Freestyle', 'MT_Onyx_Papyrus_Parchment_Plantagenet', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Harrington_High', 'Condensed_Colonna', 'Smallcaps_Bookshelf', 'FB_Candara_Centaur_Chiller_Clarendon_Clarendon', 'Condensed_Bodoni', 'BT_EucrosiaUPC_Euphemia_FangSong_Footlight', 'MT_LilyUPC_Magneto_Malgun', 'Arabic_Tunga_Univers']))
+ 0.0384615384615
+jsFonts (set(['Condensed_Showcard', 'Extra_MV', 'Narrow_Book', 'Gothic_MT']), set(['Condensed_Serifa_Showcard', 'MS_Book', 'Gothic_MV', 'Unicode', 'Narrow_Arial']))
+ 0.0384615384615
+jsFonts (set(['GARAMOND', 'BT_Engravers', 'MT_Papyrus_Parchment_Perpetua_Perpetua', 'PRO_Palatino', 'Titling', 'Schoolbook_Comic', 'Outlook_MS', 'Richard_Pristina_Raavi_Ravie_Rockwell_Rockwell', 'FB_Calisto', 'Gothic_Century', 'Typewriter_Lucida', 'CASLON', 'MT_EucrosiaUPC_Euphemia_FangSong_Felix', 'Condensed_Bookshelf', 'Cen', 'Black_Copperplate', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Minion', 'MT_LilyUPC_Magneto_Maiandra', 'MT_Onyx_Palace', 'MT_Plantagenet', 'Titling_Footlight', '3_ADOBE', 'New_CordiaUPC_Curlz', 'Gothic_Copperplate', 'MT_DaunPenh_David_DFKai-SB_DilleniaUPC_DIN_DokChampa_Dotum_DotumChe_Ebrima_Edwardian', 'Light_Forte_FrankRuehl_FreesiaUPC_Freestyle', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'Condensed_Gisha_GOTHAM_Goudy', 'FB_Aharoni_Algerian_Andalus_Angsana', 'Serif_MYRIAD', 'Pro_Miriam_Miriam', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'PRO_Tunga_Tw', 'Arabic_TRAJAN', 'Condensed_Rod_Sakkal', 'Stout_Gulim_GulimChe_Gungsuh_GungsuhChe_Haettenschweiler_Harrington_High', '7_Bradley', 'MT_Tw', 'Black_Bodoni', 'ITC_Elephant_English', 'GD_Malgun', 'ITC_Broadway_Browallia', 'MT_Gabriola_Gautami_GeoSlab', 'Latin_ZWAdobeF', 'BT_Gigi_Gill', 'Smallcaps_Bodoni', 'ITC_Bodoni', 'Script_French', 'PRO_Agency', 'Gothic', 'Light_Corbel_Cordia', 'Condensed_Univers', 'Shadow_Informal', 'Sans_Lucida', 'PRO_ADOBE', 'BT_Imprint', 'Style_Goudy']), set(['Black_Corbel_Cordia', 'Latin', 'MT_Onyx_Parchment_Plantagenet', 'Richard_Raavi_Ravie_Rod_Sakkal', 'Serif_Palatino', 'BT_Informal', 'New_CordiaUPC_DaunPenh_David_DFKai-SB_DilleniaUPC_DokChampa_Dotum_DotumChe_Ebrima_English', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Miriam_Miriam', 'FB_Candara_Centaur_Chiller_Colonna', '3_Aharoni_Algerian_Andalus_Angsana', 'Light_FrankRuehl_FreesiaUPC_Freestyle', 'BT_Gisha_Gulim_GulimChe_Gungsuh_GungsuhChe_Harrington_High', 'Condensed_Bodoni', 'Smallcaps_Bookshelf', 'Gothic_Comic', '7_Broadway_Browallia', 'BT_EucrosiaUPC_Euphemia_FangSong_Footlight', 'Script_Gabriola_Gautami_GeoSlab', 'MT_LilyUPC_Magneto_Malgun', 'Arabic_Tunga_Univers']))
+ 0.0384615384615
+jsFonts (set(['MT_Candara_Castellar_Centaur_CG', 'New_AngsanaUPC_Antique', 'Olive_Aparajita_Arabic', 'UI_Latha_Leelawadee_Letter', 'Gothic_Levenim', 'Medium_Univers', 'FB_Aharoni_Albertus', 'Medium_Algerian_Andalus_Angsana', 'Omega_CG', 'MT_Onyx_OPTIMA_Palace', 'Condensed_Utsaah_Vani_Vijaya_Viner', 'Times_Chiller_Clarendon_Clarendon', 'Serif_Palatino_Palatino', 'Gothic_Mangal_Marigold_Marlett_Matura', 'New_CordiaUPC_Coronet_Curlz', 'Condensed_Univers_Univers', 'Condensed_Colonna']), set(['New_AngsanaUPC_Aparajita_Arabic', 'Gothic_Mangal_Marlett_Matura', 'FB_Aharoni_Algerian_Andalus_Angsana', 'Serif_Palatino', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'UI_Latha_Leelawadee_Levenim', 'Medium_Utsaah_Vani_Vijaya_Viner', 'MT_Onyx_Palace', 'Condensed_Univers', 'New_CordiaUPC_Curlz']))
+ 0.0384615384615
+jsFonts (set(['Narrow_Book', 'Script_Magneto_Maiandra', 'Extra_MV', 'Gothic_MT']), set(['MS_Book', 'Script_Leelawadee_Magneto_Maiandra', 'Narrow_Arial', 'Unicode', 'Uighur_Microsoft', 'Gothic_MV']))
+ 0.0384615384615
+jsFonts (set(['Sans_Gill']), set([]))
+ 0.0384615384615
+langsdetected (set(['Latin_Chinese_Arabic_Cyrillic_Bengali/Assamese_Kana_Burmese_Thai_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian_Thaana']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
+ 0.0384615384615
+language (set(['en-US']), set(['de-DE,en-US;q=0.8,en;q=0.6']))
+ 0.0384615384615
+language (set(['hr-HR,hr;q=0.9,en-US;q=0.8,en;q=0.7']), set(['en-US,en;q=0.9,hr;q=0.8']))
+ 0.0384615384615
+language (set(['tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7,ru;q=0.6']), set(['en-GB,en;q=0.9,en-US;q=0.8,tr;q=0.7']))
+ 0.0384615384615
+plugins (set(['', 'Web', 'Plugin~Shockwave', 'Adobe', 'Presence', 'Update~Intel', 'App', 'Plugin~WildTangent', 'Protection', 'Technology~Intel', 'Technology~MetaStream', 'V', 'Games', 'Detector', 'Acrobat~Google', 'Flash~VLC', 'Identity']), set(['Decryption', 'Chrome', 'Module', 'Content', 'Viewer~Shockwave', 'Viewer~Chrome', 'PDF', 'Flash~Widevine']))
+ 0.0384615384615
+timezone (set(['-120']), set(['-180']))
+ 0.0384615384615
