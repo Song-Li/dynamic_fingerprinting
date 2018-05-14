@@ -588,8 +588,6 @@ def get_browserid(row):
     # platform is between the first ( and the first ;
     platform = ""
     platform = get_full_os_from_agent(row['agent'])
-
-    #print ("error getting platform: ", row['agent'])
     keys = ['clientid', 'cpucores', 'fp2_platform']
     for key in keys:
         # we assume that all of the keys are not null
@@ -603,9 +601,11 @@ def get_browserid(row):
     id_str += row['inc']
     id_str += gpu_type
     return id_str
+
+def get_fine_browserid(row):
+    browserid = get_browserid(row)
+
     
-
-
 def load_data(load = True, db = None, file_path = None, table_name = "features", 
         feature_list = ['*'], limit = -1, other = ""):
 # clean the sql regenerate the fingerprint

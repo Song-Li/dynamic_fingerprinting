@@ -191,6 +191,11 @@ class Database():
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
     def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):
+        column_names = self.get_column_names(table_name)
+        feature_list = [item for item in feature_list if item in column_names]
+        for feature in feature_list:
+            if feature not in column_names:
+                print 'feature name {} do not exsit in table {}'
         feature_str = ""
         for feature in feature_list:
             feature_str += feature + ','
@@ -203,3 +208,9 @@ class Database():
         df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set" {};'.format(feature_str, table_name, limit_str), con=self.get_db())    
         print ('finished loading {}'.format(table_name))
         return df
+
+    def get_column_names(self, table_name):
+        query = 'select * from ' + table_name + ' limit 1'
+        self.__cursor.execute(query)
+        self.__field_names = [i[0] for i in self.__cursor.description]
+        return self.__field_names

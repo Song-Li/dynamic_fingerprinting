@@ -445,10 +445,6 @@ def get_browserid_change(df, file_name, change_from, change_to, output_file_name
     output_file.close()
 
 def get_browserid_change_id(df, browserid, changes, change_from, change_to , change_feature_name = ""):
-    #try:
-    #    f = open('./specialusers/{}'.format(browserid), 'w')
-    #except:
-    #    return changes
     aim_df = df[df['browserid'] == browserid]
     #aim_df = aim_df[(aim_df[change_feature_name] == change_from) | (aim_df[change_feature_name] == change_to)]
     aim_df = aim_df.reset_index(drop = True)
@@ -462,13 +458,10 @@ def get_browserid_change_id(df, browserid, changes, change_from, change_to , cha
             continue
         if pre_row[change_feature_name] == change_from and row[change_feature_name] == change_to:
             for feature in long_feature_list:
-                #if feature == 'browserfingerprint':
-                #    continue
                 if row[feature] == pre_row[feature]:
                     continue
                 if change_feature_name == "": 
                     sep = get_sep(feature)
-                    #f.write('{} {}\n'.format(feature, get_change_strs(pre_row[feature], row[feature], sep = sep)))
                 else:
                     if row[change_feature_name] == pre_row[change_feature_name]:
                         continue
@@ -477,11 +470,8 @@ def get_browserid_change_id(df, browserid, changes, change_from, change_to , cha
                     if cur_str not in changes:
                         changes[cur_str] = 0
                     changes[cur_str] += 1
-                    #f.write('{} {}\n'.format(feature, cur_str))
-            #f.write('====================================\n')
         pre_row = row
 
-    #f.close()
     return changes
 
 # input the feature name, two different feature value
@@ -644,20 +634,23 @@ def verify_browserid_by_cookie():
     db = Database('forpaper')
     df = db.load_data(feature_list = ['browserid', 'label'], table_name = 'pandas_features')
     grouped = df.groupby('browserid')
-    wrong_browserid = []
+    lower_wrong_browserid = []
+    upper_wrong_browserid = []
+    total_number = df['browserid'].nunique()
+
     for key, cur_group in tqdm(grouped):
         appeared = set()
         pre_cookie = ""
+        if cur_group['label'].nunique() > 1:
+            upper_wrong_browserid.append(key)
         for idx, row in cur_group.iterrows():
             if pre_cookie != row['label']:
                 pre_cookie = row['label']
                 if row['label'] in appeared:
-                    wrong_browserid.append(row['browserid'])
+                    lower_wrong_browserid.append(row['browserid'])
                     break
                 appeared.add(row['label'])
-    return wrong_browserid
-
-
+    return lower_wrong_browserid, upper_wrong_browserid, total_number
 
 
 def generate_databases():
@@ -670,16 +663,19 @@ def generate_databases():
     df3 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round4')
     df4 = db.load_data(feature_list = ['*'], table_name = "features")
-    aim_db.combine_tables(ori_long_feature_list, [df2, df3, df4], 'longfeatures')
-    #aim_db.combine_tables(ori_feature_list, [df3, df4], 'features')
+    db = Database('round5')
+    df5 = db.load_data(feature_list = ['*'], table_name = "features")
+    #aim_db.combine_tables(ori_long_feature_list, [df2, df3, df4], 'longfeatures')
+    aim_db = Database('forpaper')
+    aim_db.combine_tables(ori_feature_list, [df3, df4, df5], 'features')
     return 
     '''
     #df2 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
     db = Database('uniquemachine')
+    aim_db = Database('forpaper')
     global ip2location   
     ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
     print ("ip2location data loaded")
-    aim_db = Database('forpaper')
     df3 = aim_db.load_data(feature_list = ori_feature_list, table_name = "features")
     aim_db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
@@ -692,10 +688,86 @@ def generate_databases():
             aim_table = 'pandas_longfeatures')
 
 
+#=====================================================================
+#this function will take a file which contains a list of browserids
+#and two features
+#return if from feature changes, the percentage of to_feature changes
+#=====================================================================
+def one_change2other_change(from_feature, to_feature, file_name):
+    db = Database('forpaper')
+    df = db.load_data(feature_list = ['browserid', from_feature, to_feature], table_name = "pandas_features")
+    grouped = df.groupby('browserid')
+    f = open(file_name, 'r')
+    content = f.readlines()
+    users = [x.strip() for x in content] 
+    changed_browserid = []
+    for user in tqdm(users):
+        cur_group = grouped.get_group(user)
+        pre_from = ''
+        pre_to = ''
+        for idx, row in cur_group.iterrows():
+            if pre_from == '':
+                pre_from = row[from_feature]
+                pre_to = row[to_feature]
+                continue
+            if row[from_feature] != pre_from and row[to_feature] != pre_to:
+                changed_browserid.append(user)
+                break
+            pre_from = row[from_feature]
+            pre_to = row[to_feature]
+    return float(len(changed_browserid)) / float(len(users))
+
+#================================================================
+# this function will take a file which has a list of browserids
+# return the common values of feature in feature list
+#================================================================
+def find_common(file_name, feature_list = feature_list):
+    db = Database('forpaper')
+    if 'browserid' not in feature_list:
+        feature_list.append('browserid')
+    df = db.load_data(feature_list = feature_list, table_name = "pandas_features")
+    grouped = df.groupby('browserid')
+    f = open(file_name, 'r')
+    content = f.readlines()
+    users = [x.strip() for x in content] 
+    num_users = len(users)
+    res = {}
+    # remove the browserid value
+    feature_list.remove('browserid')
+    for user in tqdm(users):
+        cur_group = grouped.get_group(user)
+        for feature in feature_list:
+            vals = []
+            if feature == 'os':
+                cur_res = set()
+                vals = cur_group['agent'].unique()
+                for val in vals:
+                    cur_res.add(get_os_from_agent(str(val)))
+                vals = cur_res
+            else:
+                vals = cur_group[feature].unique()
+            for val in vals:
+                val = str(val) + '-' + feature
+                if val not in res:
+                    res[val] = 0
+                res[val] += 1
+
+    sorted_dict = sorted(res.iteritems(), key=lambda (k,v): (-v,k))
+    res = []
+    for cur in sorted_dict:
+        res.append([cur[0], float(cur[1]) / float(num_users)])
+    return res
+
 def main():
-    wrong_browserids = verify_browserid_by_cookie()
-    for browserid in wrong_browserids:
-        print browserid
+    #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
+    #print (len(lower_wrong_browserids), len(upper_wrong_browserid), total_number)
+    #for browserid in upper_wrong_browserid:
+    #    print browserid
+    #percentage = one_change2other_change('label', 'agent', './tmpout')
+    #print percentage
+    res = find_common('./tmpout', feature_list = ['os', 'agent', 'browser', 'gpu', 'inc'])
+    for val in res:
+        print val
     #db = Database('filteredchanges')
     #get_all_feature_change_by_date_paper(db)
     #feature = 'agent'
