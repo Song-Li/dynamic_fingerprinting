@@ -192,10 +192,11 @@ class Database():
 
     def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):
         column_names = self.get_column_names(table_name)
-        feature_list = [item for item in feature_list if item in column_names]
+        if (feature_list[0] != '*'):
+            feature_list = [item for item in feature_list if item in column_names]
         for feature in feature_list:
             if feature not in column_names:
-                print 'feature name {} do not exsit in table {}'
+                print 'feature name {} do not exsit in table {}'.format(feature, table_name)
         feature_str = ""
         for feature in feature_list:
             feature_str += feature + ','

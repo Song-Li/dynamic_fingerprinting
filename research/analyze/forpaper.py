@@ -12,15 +12,16 @@ feature_list = get_feature_list()
 ori_long_feature_list = get_ori_long_feature_list()
 ori_feature_list = get_ori_feature_list()
 
-def feature_delta_paper(db):
+def generate_changes_database(db):
+    browserid = 'browserid'
     df = db.load_data(feature_list = ["*"], 
             table_name = "pandas_features")
     df = filter_less_than_n(df, 5)
     maps = {} 
     for feature in feature_list:
-        maps[feature] = {"browserid":[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
+        maps[feature] = {'browserid':[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
 
-    grouped = df.groupby('browserid')
+    grouped = df.groupby(browserid)
     pre_fingerprint = ""
     pre_row = []
     for cur_key, cur_group in tqdm(grouped):
@@ -36,7 +37,7 @@ def feature_delta_paper(db):
                 if feature not in row:
                     continue
                 if pre_row[feature] != row[feature]:
-                    maps[feature]['browserid'].append(row['browserid'])
+                    maps[feature]['browserid'].append(row[browserid])
                     maps[feature]['IP'].append(row['IP'])
                     maps[feature]["from"].append(pre_row[feature])
                     maps[feature]['to'].append(row[feature])
@@ -46,7 +47,7 @@ def feature_delta_paper(db):
                     maps[feature]['os'].append(get_os_from_agent(row['agent']))
             pre_row = row
 
-    db = Database('filteredchanges')
+    db = Database('filteredchanges{}'.format(browserid))
     for feature in feature_list:
         print feature
         try:
@@ -717,11 +718,11 @@ def one_change2other_change(from_feature, to_feature, file_name):
             pre_to = row[to_feature]
     return float(len(changed_browserid)) / float(len(users))
 
-#================================================================
-# this function will take a file which has a list of browserids
-# return the common values of feature in feature list
-#================================================================
 def find_common(file_name, feature_list = feature_list):
+    """
+    this function will take a file as file_name which has a list of browserids
+    return the common values of feature in feature list
+    """
     db = Database('forpaper')
     if 'browserid' not in feature_list:
         feature_list.append('browserid')
@@ -758,16 +759,59 @@ def find_common(file_name, feature_list = feature_list):
         res.append([cur[0], float(cur[1]) / float(num_users)])
     return res
 
+
+def feature_flip_checking(df, feature_name):
+    """
+    this function will output a list of users with flipping of 
+    a specific feature
+    """
+    flip_list = []
+    grouped = df.groupby('browserid')
+    print ('Checking {}.'.format(feature_name))
+    for key, cur_group in tqdm(grouped):
+        if check_flip_changes(cur_group):
+            flip_list.append(key)
+
+    f = open('./flipusers/flip_users{}.dat'.format(feature_name), 'w')
+    for user in flip_list:
+        f.write(user + '\n')
+    f.close()
+
+def all_flip_checking(db, feature_list):
+    """
+    this function will loop the a list of feature
+    generate a list of files with user
+    """
+    for feature in feature_list:
+        df = load_data(load = True, feature_list = ["*"], 
+                table_name = "{}changes".format(feature), db = db)
+        feature_flip_checking(df, feature)
+
+def find_all_common(feature_list): 
+    """
+    this function will take a list of features
+    then output the result to the findcommon res folder
+    """
+    for feature in feature_list:
+        res = find_common('./flipusers/flip_user{}.dat'.format(feature), feature_list = ['browserid', 'gpu', 'inc', 'agent', 'os', 'browser'])
+        f.open('./findcommonres/{}.res'.format(feature))
+        for val in res:
+            f.write(str(val) + '\n')
+        f.close()
+
+
 def main():
+    #db = Database('filteredchanges')
+    #all_flip_checking(db, feature_list)
     #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
     #print (len(lower_wrong_browserids), len(upper_wrong_browserid), total_number)
     #for browserid in upper_wrong_browserid:
     #    print browserid
     #percentage = one_change2other_change('label', 'agent', './tmpout')
     #print percentage
-    res = find_common('./tmpout', feature_list = ['os', 'agent', 'browser', 'gpu', 'inc'])
-    for val in res:
-        print val
+    #res = find_common('./tmpout', feature_list = ['os', 'agent', 'browser', 'gpu', 'inc'])
+    #for val in res:
+    #    print val
     #db = Database('filteredchanges')
     #get_all_feature_change_by_date_paper(db)
     #feature = 'agent'
@@ -777,7 +821,7 @@ def main():
     #print ("{} users changed in total".format(df['browserid'].nunique()))
     #remove_flip_users(df)
     #db = Database('forpaper')
-    #maps = feature_delta_paper(db)
+    #maps = generate_changes_database(db)
     #df = db.load_data(feature_list = long_feature_list, table_name = "pandas_longfeatures")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
     #generate_databases()
