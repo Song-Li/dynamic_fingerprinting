@@ -1,87 +1,427 @@
-0473d45238e75364917f1891f970a84293ec94b4
-0aa037241b68569c845a474cbf7b73a26b958af3
-148a14832f702b1f34125666bf1f5fda415fec1d
-1654bf7f360a77bb371829ec1d4359cbc730a151
-166ccac8052c60e8cea8f648516119060da8906b
-19caec53d11fd35c43cba2552a3144bf3863cc0f
-1bc48e67378d49f92d1143a33e36603e4c5ec30f
-1d2c28022b221e6104f0f42b0b5101466665a1ec
-232c2b793f7c09ae3cb3376fd1911507d102a8d4
-24caab58330e26bdbe60b81e61da5353af487008
-24d7bad83560a770eea6935f46a254133bb41dda
-26c0a544489a1b557696bb5361e9c8179b36f58c
-2ed3b835bf41f772585662638e25efc63efc612d
-318df589edb78ad12a059e256b7ebba0f97da7b3
-32180d00cd9fd00a4ff4637bd503d58eaae58f2c
-350b0d8005e5a8e58b40ec5739be6738b4b0b372
-35ec647d4d58a3adcb11005aae1cad340e41b002
-37e7fbb51dd1f6bfde872ef7303d1313267e6f70
-39c1f140e93e5d5b34479d0dc430a8a91a443750
-3ae0e1569cc0fab3f9d1960788359899b4dc1699
-3cc9eab75952972cf8b95794f901284ff96ec884
-3e3eb450174993d2bded90ae2bf45401530ca93a
-4068eeb7e6b79efe29da61840241ee6a272407d5
-425be9c9300e7f007ca39d4236d29277e9f5863d
-43a5395aaf159408f5321e9f87bbf5dd31a3dd4b
-483f0102ba887321558721d27c709b02b777641a
-4c1ca44d7fdb6dedd24a949c7320b68f0d18bde3
-4f707e2e63fbb3cc8077cc492009c03805fb30b3
-50f1f5e24be1b1f42bb5ce639233692c6921bf85
-5476cab0c1cc8c423949e24b2920e3b6ab182159
-54ef2a74bf51dde740d87a59f88bb582d595d1c2
-557c97c3169a7a4c6779ed5293080713dc77774f
-57d6d29bb9cb2fd42d2fc6bdaf3b20d90fdda4d2
-5c18c97a2f0d752a7a3621c7980f32066713aed1
-61cda744f5be359ba848e1510fe264ef993426ae
-66f065d6c07b4806e6aabdabfc924c44e8879a0d
-68f63469e6fbd7183e8e30a79c0c7299f45009b9
-69fbcfa9979f000dfa8767f4c510c132e03fc5b4
-6dfc8d705ed45315731af13317189e4cb8f2d310
-70196e284a21f9d23d0e3ee1bfe665a32df2cfe2
-7418675bcdab22b8ae7da250e424ce5a1cbd4fa3
-769b39d09de0e6b43d52a0863d0440cd3c5c4fa2
-7926e7d9a13abf79aded98a01e15361cd9b6d876
-795b97269f05d040a33e0227b989525c0e0f0c96
-84ad9515b14690d5a20b8a157503d31071228578
-864f940c161f89b9fd6071c7b9aa34e7cc94b5c9
-8865aad1ac7f89c491e7b57fd619f7aee6c95ebd
-8ec3c36245fa72e56e0b615c3f35776231ca4471
-8ffad93b3ef4ddc267870fbbf958598977ac2da3
-93095b06e987062eb050a3602e25849ac0bb7ba1
-96da4b91dfb6ba3fc4dbc2937fc9b98629641a7a
-9a211b2e144b53cc6546a75e35bb0e523d7b64dc
-a03911c61c1ba1d996b4e5ef53ef3469dd89a84e
-a0758a020026f55fc1ba35598dcd2acd33cb2195
-a2e0db94f106a2aa03e11616fb6e7a8271ba15db
-a7fa3044ef0db14aecb3d0761c6b90a907d852a6
-aadf565c8c0fd81940c96cf9f87f73fac8939859
-ad36597b34374a7c7c78cb5d399640dd6921cf0f
-b3758a149dccd44c5a7c8b0f8f9d5beeb29a4bae
-b7663178828b25d1cea8c88c5e58ddf2a30a0dd6
-bcbba007f17b3915458b19118bfe2e7754252700
-be87bf1ebd6a3a89abbac22d6aa9d1ceccc89447
-c0b56d9a6177657269f8a1daeeee38bc631de5e2
-c458ee2ca4cc60fa9c8341841a1190cdfcd3bc98
-c7c0f9a3b376684dec9ac33665da271d019db645
-cd21b27d84ac727eeb7a94e283cf579fff6f539f
-d499202d6358b468f682dd98247883a8cdb2f024
-d5e4f385b6d8a4e66b4c7cc1379dc7c29c103387
-d908c1ab450ae9ca31bddd91eb927dfd20e80954
-d977027efe1ed32ca9bd6c979d3a9e8aec2d4bc7
-db87469ba80afc4606c339b36ec4c6fe6e6e662f
-e2294849b8142aa55401c114de4671694738a39f
-e70158712ae134f79baac4bc4eb8b5232d2f0cb4
-eac9f91b75c272188a89bfd5b4a233a7181cdd53
-ebd27c74da66a936f2487ec6011a98ed1dd22cc1
-ef7d17ef8f60d762c56418c6bcd989e76e3896f4
-f16195dc30d146095bdaeb7faab6ac04ec9b8e1d
-f39ae8632f7119abf4c1268a3b153aac47fe47ea
-f589be60f021e37b1125ff6cc7ca2b33f77822ee
-f5a116c4377641aa62fbc6213c06dc136d5ac1ad
-f5a2ff2ee6dd3688635bb562ad1e91e450488fec
-f5d5821ef495f2ab5d7019fc5f3e1ee8445cefc0
-f6d780d58f43b14652e77c32f5c6fd4d1f24ca98
-f875ac585fdad1c8d0c1fa7f5ba4bc051d9e9c24
-fc67a1a91e78e20ff16db04591b9277bb3934f7f
-fd851c1285a8030f9236d32907d72c0511756f17
-fdf23c7d14806f23913110359f2894a435e5db22
+001f5aca895e21aa1912eb8fc797751d4macIntel Inc.Intel HD Graphics 4000 OpenGL Enginesafari
+00bec83ce6ae8b02a2fa4971fd4ef5bf8androidARMMali-T860chrome
+014289c2f41d85d5d3d1a9ea99d1751b4androidARMMali-400 MPchrome
+01d4d8e6118e8134c4e5de9d224b070d6androidQualcommAdreno (TM) 418chrome
+026a73257cc5a556335501c9c7ef65194windows nt 10.0; win64; x64; Google Inc.ANGLE (NVIDIA GeForce GTX 750 Ti firefox
+02a08416a93a8b351bbaa1ce9daf65744windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics Family chrome
+03232619dec4dd81b4b80c5cbbe3320a4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+039b6dfe661cb045c804d1f6d83607f04linuxX.OrgGallium 0.4 on AMD ARUBAfirefox
+03d5a1f51d025cd4bf4d888b62ff54bc4windows nt 10.0; wow64; No Debug InfoNo Debug Infofirefox
+04ddc107466414bfc6ec81792b426a0e4androidQualcommAdreno (TM) 330firefox
+0516485d2830dabe23a0ca58298130384windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+05237d9e7c814d12189b1298ec904d434macATI Technologies Inc.AMD Radeon R9 M290X OpenGL Enginechrome
+06c75460b9746cd8d57953d13065135f-1iphoneApple Inc.Apple A10 GPUsafari
+0772d213d6a1fe83a1a818904d6fee5d4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+09bef0221eb0ecfdae228cdc3446a6b52windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+0a3ff0ccb41fda3286803b460975734a8androidQualcommAdreno (TM) 540chrome
+0a7b39858887bb3027a5b9593a3cba674androidARMMali-T720chrome
+0a8118dccb21c65ba2696503991c95418androidQualcommAdreno (TM) 505chrome
+0afb154d1e05213d3d6311515cfca0426androidQualcommAdreno (TM) 418firefox
+0b4bc63b3b20a79e6c0dc8f8ff47ff384windows nt 6.3; win64; x64Google Inc.Google SwiftShaderchrome
+0bf43f8819a9173a5fa60365702bf41a4androidQualcommAdreno (TM) 330chrome
+0c7a2085021d8993fb17562cbaad97e08androidQualcommAdreno (TM) 506chrome
+0cf27efa09f6cd7dafd72fad7ea1675f2windows nt 6.1; Google Inc.ANGLE (Software Adapter firefox
+0cf740114ba22bd03d00f4eb881eaa3c8androidARMMali-T880chrome
+0d04044b79997bf1ebca4cff4cb540318androidARMMali-T720samsungbrowser
+0d1a3d6c4662454f65cb4eba7ff228f38androidARMMali-T760firefox
+0d654602fae87b5b26cd6d77a8eb5c158androidQualcommAdreno (TM) 505chrome
+0e58678ab4bf1e21724e3d4e309961db4androidARMMali-T720samsungbrowser
+0e6f95e7f0a44049bfef5f30c6bfa26b2windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 510 chrome
+0e8cabde2ff99f20fad9068954b2ed314macATI Technologies Inc.ATI Radeon HD 5670 OpenGL Enginechrome
+0f0e1820a0e215256976e996956935d24windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+0f7f43ef289f1adff401d1cc13583b7a4androidARMMali-400 MPchrome
+0ff2cc79ca21d6c799658a8b9ff37b008androidARMMali-T830chrome
+1136527b028cfae05c1a662adea593828windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+1206e1dd068550a0412d721a739845c74windows nt 10.0; win64; x64Google Inc.Google SwiftShaderchrome
+1264bb4b40ed4a2f7cb2046417cf11d92linuxNVIDIA CorporationGeForce 6150SE nForce 430/integrated/SSE2/3DNOW!firefox
+14eb30a81f7644f18537099193df2ec68macATI Technologies Inc.AMD Radeon Pro 460 OpenGL Enginechrome
+156de2b9d7f3623d1959cbf276770f0c8windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+16505895246937281496bef44ac503428androidARMMali-T830chrome
+1650b35b0ce83783aba51d9ce7a6ab514windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics Family chrome
+16bb984c369f8c7de26cff24d50cb8644windows nt 6.3; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+16d94a2893811ca30f46d8f147486d278androidARMMali-T720chrome
+1868003c7b2be9d57424673aa19e94fc-1androidNo Debug InfoNo Debug Infochrome
+1900863f67e82641b9dbcb9fb9e79fb98windows nt 6.1; win64; x64Google Inc.ANGLE (AMD FirePro W4300 chrome
+190ccdea966e27853fc323ec19ef262c8androidARMMali-T830samsungbrowser
+1997e6ccdff2e3b973d6dde00a36ae3c8androidARMMali-G71samsungbrowser
+19e8b7ae3ecc1cbbb7766e3f8bf82fa94windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+1a1d75166ff06f2a29d061321047bca0-1iphoneApple Inc.Apple A11 GPUsafari
+1a787f0f75f4cc8f002c2165385cde114androidARMMali-400 MPsamsungbrowser
+1bde300988576cfeb46aed6d738519234windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+1bde300988576cfeb46aed6d738519234windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+1c35831a9a0c5149a5a0f1c064d62e168windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics 530 firefox
+1d0dcc922b55a0d0b376751e906edd7e4windows nt 6.3; wow64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+1dc788af271912655368bf132366a3384macIntel Inc.Intel(R) Iris(TM) Pro Graphics 6200chrome
+1dc788af271912655368bf132366a3384macIntel Inc.Intel(R) Iris(TM) Pro Graphics 6200firefox
+1e0b1d37f5b240b079a1b4e16ff7c5584androidQualcommAdreno (TM) 304chrome
+1ed0d460db486f361bc8ecdc99d243c48androidARMMali-T880samsungbrowser
+1f22287212de43b93233dc6778c6663f4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+203fc9fcf67686df55922e086c0f178c8macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+214adc0e38b00b0675160c34c0e688ee4windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics Family chrome
+219eeb4d96e9cecaabbdff8682d8ef924androidARMMali-400 MPchrome
+2285c1e87e9cf5788dca80c1420085b14windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 630 chrome
+234750aaa53b45ff7cee419934acc9748androidARMMali-T624chrome
+23a23ddc695124db8d5ac7191ef21dda4windows nt 10.0; win64; x64Google Inc.Google SwiftShaderchrome
+24ecfa35b5ac38f5814eff73f3127d6a4androidARMMali-T720samsungbrowser
+25694b1924b77b5e135025c857a5c56e8windows nt 10.0; win64; x64Google Inc.ANGLE (NVIDIA Quadro M1000M chrome
+260e9118a21590d2e50546f1ef8bbea84windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+2715af1943bd07b8af4fa22b3287b01f4androidQualcommAdreno (TM) 330chrome
+271787303b984d7773ba1083224dd2df4windows nt 6.1; wow64; No Debug InfoNo Debug Infofirefox
+297da0c203c98c76955c53e5cb12cb82-1windows nt 10.0; No Debug InfoNo Debug Infofirefox
+2a807f90494a1ef4daa21ed7fd327b1f8windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 630 chrome
+2a983171f18797e67bfc513d1d699f594windows nt 6.1Google Inc.ANGLE (Intel(R) HD Graphics chrome
+2c1f00bf2a98a114e7a53fbb8bd0edc54windows nt 10.0; win64; x64MicrosoftIntel(R) HD Graphics 4000chrome
+2cd9d77aa74071499ef0f550240610498macATI Technologies Inc.AMD Radeon HD - FirePro D300 OpenGL Enginefirefox
+2d889026384700b6f053c03135d9d7aa6androidQualcommAdreno (TM) 418chrome
+2dbcd7df8fd24e694b567412384500058androidARMMali-T720samsungbrowser
+2e3d59419e4b9272454dc73232b3b4634androidQualcommAdreno (TM) 306chrome
+2ecb2f6738eb854a3dc578b8d480134a4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+301f703a0e1e50d9d8557f0ff983497e8androidQualcommAdreno (TM) 505chrome
+3122641f5bdb0837c84564c277bdf76a2linuxIntel Open Source Technology CenterMesa DRI Intel(R) HD Graphics 510 (Skylake GT1) chrome
+315db776f2e21f73b8504d46979fdb0b8androidQualcommAdreno (TM) 506chrome
+31d5eb61f1f4cf44b839d1e39dcf6fd3-1iphoneApple Inc.Apple A10 GPUsafari
+3202a0dfc0dbac552453c38d6625354f2windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 510 chrome
+333a5efc481b9a65fb85b62e87a3a1d54windows nt 6.1; win64; x64; Google Inc.ANGLE (NVIDIA GeForce 210  firefox
+3345e642ef43d48f1bb1b310044640ca2windows nt 6.1; win64; x64; Google Inc.ANGLE (ATI Radeon HD 4350 firefox
+3349561dbe07301b8a64d8a4b57e15348androidARMMali-G71samsungbrowser
+34bd014a05a1fb45680eaac0d75cd7168windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 630 chrome
+36522b0eacb7bb576241a79f0f0c25928windows nt 10.0; wow64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+37481ebefc909a0a64c3bd4432b359e44windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+375ea76af88af6706dfe2c3776282d814windows nt 10.0; win64; x64MicrosoftNVIDIA GeForce GTX 760chrome
+37cb061dfa0b7872c40f706b00b50bb6-1iphoneApple Inc.Apple A9 GPUsafari
+37f443f646faf20ea5d5e0c882d8505e4windows nt 6.3; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics 530 firefox
+386601044d95207e6344e98645c599998androidQualcommAdreno (TM) 506chrome
+391e0dfb7438d2bd7efae50d7794f08f4linuxIntel Open Source Technology CenterMesa DRI Intel(R) Ironlake Mobile firefox
+39d289af7750434759608d13d4d55dd58androidQualcommAdreno (TM) 506chrome
+3a3ee00def99311c4793055ebfa427798androidARMMali-G71samsungbrowser
+3bd375e6607fb1a508f234a1657346644windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+3c3f85896dcd6c97e2ccda5359d4d96a4androidQualcommAdreno (TM) 306chrome
+3cccd8515281f3b7b4e4bbb24d353c018androidARMMali-T720chrome
+3cdbf55c085cbdfa7402c1b98cd387ff2windows nt 6.1Google Inc.Google SwiftShaderchrome
+3cfe12195bd496312b445427d6cc8e4e4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+3dd93fb2837f7150ee09a7448f2ed63b8androidARMMali-T760samsungbrowser
+3e4f3f86decd45976212ece93be6f5624androidARMMali-400 MPchrome
+3f0e09c4992e8936c787c5617e0c01882windows nt 6.1Google Inc.ANGLE (Mobile Intel(R) 965 Express Chipset Family chrome
+3f291d18723f1f8343255209361039fe8androidARMMali-T760samsungbrowser
+4019ebb62f3379de285a0159f8c2238d-1iphoneApple Inc.Apple A9 GPUsafari
+416b2d5b0b2062fa4fd38d73aea0f3138macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+41a5b292fb99271d8ff60dea3319d4d44windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4000 chrome
+41a5b292fb99271d8ff60dea3319d4d44windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+41ad13400b76241d54edc25c69a361984windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 630 chrome
+41b56438bef190a367162324340735474windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+42bd194d3df93066b42b04cf03d3bb7d8androidARMMali-T830chrome
+434a4874d141ba3d879dd2478bdd1c2c4macIntel Inc.Intel(R) HD Graphics 6000chrome
+44a52f6aab0ad68eebeb23afeb450b24-1iphoneApple Inc.Apple A10 GPUsafari
+44d85fbfea0fb5c2db72de7a9cca1da84windows nt 6.1; win64; x64; Google Inc.ANGLE (NVIDIA GeForce GTX 570 firefox
+44e67390b4c88c08213f2775e6dca8834windows nt 6.2; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+4529db0f8059a5b866793bfa7a8681328androidARMMali-T760chrome
+45308ec4811bd7a2a6d9638050a412754windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+45b2e19c66162d7006ced43fbfeae7b32windows nt 6.1Google Inc.Google SwiftShaderchrome
+463c0dba95868efe1579f1289828892e8linuxNVIDIA CorporationGeForce GTX 960M/PCIe/SSE2firefox
+464efa87b4a391ba9026d7f12e22c3e24macATI Technologies Inc.AMD Radeon HD 6750M OpenGL Enginefirefox
+4780be279d4be195e5f3f41ac8cb6a2a4macIntel Inc.Intel(R) Iris(TM) Graphics 6100chrome
+4780be279d4be195e5f3f41ac8cb6a2a4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics Family chrome
+487eb388de619ee7b10772f10104cc79-1iphoneApple Inc.Apple A8 GPUsafari
+488693c1001231a3f9ac8fb2a35b4f3b4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+489e122855d468e160b08a9bd7c0df474windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+49d04e96b1c9235eae28fc13345cfb608androidARMMali-T830firefox
+4a39f4414d160b15ce9ce1eef35615ef4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+4a4713424318085417c3cc5328ed03c54androidARMMali-400 MPchrome
+4a7edec125fea7f1bfa3c91232f3b34a2windows nt 6.1Google Inc.ANGLE (AMD Radeon HD 6310 Graphics chrome
+4b04aee5f7ff50f54b4beaa26064c2374windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+4c3659a7e5c2a8e4db1e8b682017f9e24windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+4c739f7ebfb6e82b26022c3388d3c56f4windows nt 6.1Google Inc.ANGLE (Intel(R) HD Graphics 4400 chrome
+4c78c50c624482d404e906d3c8afd6614windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+4c88cfcc408cd00354292d623ea5ee688androidARMMali-T880samsungbrowser
+4ca3a34b1f5ec5c1841cf24a2421324f4windows nt 6.3; wow64Google Inc.ANGLE (NVIDIA GeForce GT 520  chrome
+4ca68cdfdb64ca5b1559006b57ef124e8windows nt 10.0; win64; x64MicrosoftNVIDIA Quadro K2100Mchrome
+4ceedf452d5bd6de54d1b26db324dead4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+4de2848a582cda2b354c2b7764e992658androidARMMali-T760chrome
+4feebefdca1c537eca12d6cad2d88bb28androidQualcommAdreno (TM) 506chrome
+502c5491f4358d9a2b9367e111269e088androidQualcommAdreno (TM) 405chrome
+506c6c35e0be1a3b96e14cf1bc06dd598windows nt 6.1; win64; x64Google Inc.Google SwiftShaderchrome
+507178f84396d13c0f2a1d48546e1e1d4androidARMMali-400 MPchrome
+51900536154239f21a3858bbe49e25128androidQualcommAdreno (TM) 405chrome
+532f8ea0547507408f3561b97bc22dc72windows nt 6.1; win64; x64Google Inc.Google SwiftShaderchrome
+53783eeb736226acb521b14fd042ea508androidQualcommAdreno (TM) 540firefox
+5379d7e3bc3ea1f7fa48479312854952-1iphoneApple Inc.Apple A10 GPUsafari
+551ac6e0b829b3af28a0fbc26dbe37548androidQualcommAdreno (TM) 405chrome
+5584d4597d9725d9085b199064c79b0f8androidARMMali-T830samsungbrowser
+55946e74e1cefa8f6465a02a4a26855c4macIntel Inc.Intel Iris OpenGL Enginechrome
+55a27b3ceb18e6eebf3cafb7cc3632e62windows nt 6.1Google Inc.ANGLE (Mobile Intel(R) 965 Express Chipset Family chrome
+574bb3d4e9ddb6cce08922f3cda6506c4androidQualcommAdreno (TM) 306chrome
+57b3ff9e7859a2e8909abe96ce95790b8androidQualcommAdreno (TM) 505chrome
+5821614310be801e75594e480e03ee268windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+58d10aacb33f1137cc4918d133b4204e2linuxIntel Open Source Technology CenterMesa DRI Intel(R) HD Graphics 510 (Skylake GT1) chrome
+5a0fcb8a59d39818358a78e4b83f4ace8androidARMMali-T830chrome
+5ac8c2da5ff1c56b4735cce1a7e93f682windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+5ad6afea57f67adf44a843a3c4647e864windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+5aff2309ae1f0a929074e5241ffffe604linuxNo Debug InfoNo Debug Infofirefox
+5b720230dfbe566d641b83574e8450532windows nt 6.1Google Inc.Google SwiftShaderchrome
+5bb098a3e2335960c15962c7f1affd728androidQualcommAdreno (TM) 506chrome
+5bd5e6a7dc221f470ac31f942d9105684windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+5cf7825e2099cebb35ee9bfd7d10f6824windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+5df9da561559c8f61d832f73e9490c918androidARMMali-G71chrome
+5f9394c957e0e378f0eaacd586274cb54windows nt 6.1; win64; x64; Google Inc.ANGLE (NVIDIA GeForce G100 firefox
+5fc11fd014a144d53e3459b01f46d45e2windows nt 10.0; win64; x64Google Inc.Google SwiftShaderchrome
+602eb2fa5e8c3bd8110a6c62e295006c4macATI Technologies Inc.ATI Radeon HD 5670 OpenGL Enginechrome
+60dccba9ceeddf3d54c1407f770d13858androidARMMali-T880chrome
+6140993eefa282840d12dc7907249f9f8androidARMMali-T830chrome
+61b668ec639e84fe48d809d30bd305874windows nt 10.0Google Inc.ANGLE (Intel(R) HD Graphics chrome
+61e141417612ee16898b0600227d8ff52windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 510 chrome
+61e141417612ee16898b0600227d8ff52windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+61f79e5b1a935a76a88cf5ad76b4a046-1iphoneNo Debug InfoNo Debug Infosafari
+62ae8cdf4fc4912a9a98b8ec07e3f89b8androidARMMali-T760chrome
+62b1c9bfae671cc6780fde730a5d7f1b4macATI Technologies Inc.ATI Radeon HD 5670 OpenGL Enginechrome
+63686909fe1672aefa82f49f8a520e984windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics 5500 firefox
+63c33286de89c1d58ff521e21d1ca0e38androidQualcommAdreno (TM) 506chrome
+6490b61a1faee5107db948aa7b1e43f54windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+64b8d6bbc03c1bcf45f17be1e60a56128androidARMMali-T624chrome
+64e668778b564cd4016cd593f5a981294windows nt 10.0; win64; x64MicrosoftIntel(R) HD Graphicschrome
+6771c28bbf460ddab6187b813e9129c58macATI Technologies Inc.AMD Radeon HD 6970M OpenGL Enginechrome
+67b2a2ba41a16138e2bcb05ac4daa5ae2macATI Technologies Inc.ATI Radeon HD 4670 OpenGL Enginechrome
+68fcdfd478da4451d6f3bd2e757526482linuxGoogle Inc.Google SwiftShaderchrome
+68fcdfd478da4451d6f3bd2e757526482linuxIntel Open Source Technology CenterMesa DRI Intel(R) G41 chrome
+690fcc3d054761cac8c87770a9a37a178androidARMMali-T880samsungbrowser
+69bcf61bf02c277c25c78ff63a0098584windows nt 10.0; wow64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+6a4754f0fb3513b73062b35234ac163d4windows nt 10.0; win64; x64MicrosoftANGLE (Intel(R) HD Graphics Family chrome
+6b62e3cfd763b6cffb00dd61fbdbbbdc4windows nt 6.3; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+6d5caa1e19965cadd634c7f874e50bb9-1iphoneApple Inc.Apple A10 GPUsafari
+6f268cef86a1acad4903240d1d3933c94macATI Technologies Inc.AMD Radeon HD 6750M OpenGL Enginefirefox
+6f543557c07131ed1feaa055388f7ca14windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 630 chrome
+7074334ac82027e55b583e0e76d8f6844windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+7099747ccc51811586023baf75305e164windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+70a542a0158f37a45c719d4aac636ef82windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+70aa383c343b50bc2fc051d59d0b00e62windows nt 10.0; win64; x64; Google Inc.ANGLE (AMD Radeon HD 7310 Graphics firefox
+70bbad50c1a23347fa7cf7578c7c2fce4androidIntelIntel(R) HD Graphics for BayTrailchrome
+70fade7c566c2001ac88235e65c030c18androidQualcommAdreno (TM) 506chrome
+713452e1dd4011ca67dec720ea9c8bad4androidQualcommAdreno (TM) 330chrome
+723a86f9acf40a0fba848cf72d277a0e4androidQualcommAdreno (TM) 320chrome
+726ff819c3d2b684e92e27ce5b06e6f98windows nt 10.0; win64; x64MicrosoftIntel(R) HD Graphics 4000chrome
+72707589b230fe2f5a4f65ea00acf2af-1iphoneApple Inc.Apple A10 GPUsafari
+734c776005493c840f62df3233e9d2a24windows nt 10.0; win64; x64; Google Inc.ANGLE (NVIDIA Quadro K2200 firefox
+739d487ae0aee247d62d957f3b96eb008windows nt 10.0; win64; x64Google Inc.ANGLE (NVIDIA GeForce GTX 550 Ti chrome
+740d8dd99923140d5b62a84fdb94bbc2-1iphoneApple Inc.Apple A11 GPUsafari
+75300fffecad428753a37da6fcec27264windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+757483aeb230b9e62eac871d816981394androidARMMali-400 MPchrome
+76032d8ce9d34f9b84285643df383c654androidQualcommAdreno (TM) 330chrome
+78bfa8bdc3916a3d2a9343c0234859974windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+78d2efc2c26d2b395eb5517536ba6ede-1macATI Technologies Inc.ATI Radeon HD 4670 OpenGL Enginesafari
+79122b151569059bb344501ee92235d38androidQualcommAdreno (TM) 506chrome
+79d097791799119b6f948276b6e9d6314windows nt 6.1; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics Family firefox
+7cb7c18271948384b373fef39a7d46e84windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics 520 firefox
+7d1f5c4be5ae008e1e3038307d6fa30f2windows nt 6.1Google Inc.Google SwiftShaderchrome
+7d5234914b7b6e70ff0bc990a6a383dd8androidQualcommAdreno (TM) 430chrome
+7d965e21e956643c18c854cf81b472612linuxIntel Open Source Technology CenterMesa DRI Intel(R) HD Graphics 510 (Skylake GT1) chrome
+7da7c66d0e3596cd0152f030bb60ebdb6androidQualcommAdreno (TM) 510chrome
+7f15ceae4f03b76c5e2b563d2b4158a7-1winMicrosoftIntel(R) HD Graphicstrident
+7ff54560344dd99c6f615992ac90e89e4windows nt 10.0; win64; x64MicrosoftIntel(R) HD Graphics 520chrome
+80d6ad628805aa4ba75ea823b9fce6918androidARMMali-T880samsungbrowser
+814960c207429bee86715754fb7390a88androidQualcommAdreno (TM) 405chrome
+816466214e7a09fe9427df6a71cb05b58androidQualcommAdreno (TM) 540chrome
+81f634c6fe66f0b803b8c01245a048054windows nt 10.0; win64; x64Google Inc.ANGLE (NVIDIA GeForce GT 520 chrome
+827960548b15937d2be87832e963f2e24windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+82b14fb34d91064edeaffa03e6c12e6d8androidQualcommAdreno (TM) 505chrome
+836a0d3e61e9e055a530058c9555c7dd8macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+83ac2a447953da8fa527526edf8fdf9d8macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+83f81a3dda939b3fe21a0c4a44bc569e4androidQualcommAdreno (TM) 305chrome
+853b1afcac8f8b4c22f007ebc6c779ea8androidQualcommAdreno (TM) 505chrome
+85eb95998950a46cb181b0dace1644534windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+86cf22aa5af3529289ff67043291f7944linuxIntel Open Source Technology CenterMesa DRI Intel(R) Sandybridge Desktop chrome
+870589b32c5f4e99ba0f862330344aac-1iphoneApple Inc.Apple A8 GPUsafari
+8708fbd6212ce3fd24e90abbaa4c32598androidARMMali-T720samsungbrowser
+87c25c69bd4924976ab4ee8e2686d4558androidARMMali-T830chrome
+88421e53a73a6a79e5be9b6ddd0d343a4androidARMMali-T720chrome
+88a613db22931cb3977767f1ad994c948windows nt 10.0; win64; x64Google Inc.ANGLE (AMD Radeon HD 6570 chrome
+890e1ffe6e18bf26a2c726efed0553be8windows nt 6.1; win64; x64Google Inc.ANGLE (ATI Radeon HD 5450 chrome
+8a07e7ece86567ed21ba993bbc534f824androidARMMali-T720chrome
+8aae5c6eca0d83c3fb7292c8387332454windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+8b1a328b44b604c91247c55a7e9ac1d88macATI Technologies Inc.AMD Radeon Pro 555 OpenGL Enginechrome
+8b1a328b44b604c91247c55a7e9ac1d88macIntel Inc.Intel(R) HD Graphics 630chrome
+8b3affdbf14a2a9f9787a7514979ab954windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+8ba5660e9ae328f96467c0ed38b728118androidQualcommAdreno (TM) 506chrome
+8c0d1fd162bba8f60c81e67366e098928androidARMMali-T830chrome
+8c7b6714857c3c1c6fdde053bd85e67c8androidQualcommAdreno (TM) 540chrome
+8e5aebaccf5e81bb07a1c98947a0bbe14windows nt 10.0; wow64Google Inc.ANGLE (AMD Radeon(TM) R5 Graphics chrome
+8ea25ee875c56965255f6a6abed0394b4windows nt 10.0; win64; x64Google Inc.Google SwiftShaderchrome
+8f8c7586098c77778cdb2658ce1e7f754windows nt 10.0; wow64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+8fa4334f4ebfd02a0e8cb6e3ae95e7c7-1iphoneApple Inc.Apple A10 GPUsafari
+8fd8b11e6b5c197b1ec967f9cbee09fb8androidARMMali-T830chrome
+9042fca8b19c2eeb8eda960a3752a5554windows nt 6.3; wow64Google Inc.ANGLE (AMD Radeon(TM) R4 Graphics chrome
+92cfef807dcb2066aaef6c30ba9731224windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics firefox
+93b95f1895c4f954b4e62ffb3c6a7e362windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 510 chrome
+93b95f1895c4f954b4e62ffb3c6a7e362windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+93e0c96d647b240d86d4dc5604b1857c2windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+949a131640b3f12d9011b85a864d110a4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+95ed84ed77101b34a2dcc58eb1d5aa1b4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+96c2ac7dc348c93b6669815d3be0cc124linuxIntel Open Source Technology CenterMesa DRI Intel(R) Ironlake Mobile firefox
+96df1690afe35fe2270748551ed3eb9c4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4000 chrome
+973834977d1198bc6215e4f62a3b6ca38androidARMMali-T880chrome
+98fa724d600b8263307005fc5e31dc544linuxGoogle Inc.Google SwiftShaderchrome
+99925c9c0c1897933c8da1b98edb022c4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4000 chrome
+99deffb725fc27759bc739189624b1114androidQualcommAdreno (TM) 308chrome
+9a9a5c1fd24164b6b4e715254f0b0ecc8androidARMMali-T830chrome
+9bff4f64be24b4b4ea79f06f0339b46c8windows nt 6.1; win64; x64Google Inc.ANGLE (NVIDIA NVS 4200M chrome
+9c25546d2145bf799b2db64bbabf1f268androidImagination TechnologiesPowerVR Rogue G6200chrome
+9c4de2b70924e0479fea53903e75054d-1macIntel Inc.Intel(R) HD Graphics 6000safari
+9dc4d09ba811d41966367ac48d0d072c4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4000 chrome
+9ddd407fbe2d5d21f3f6a958d7f2598a4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+9e48ff09d84aac60babbb8c844ad93854windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+9f69079be6c1dc2e8cfa890f6b0d93144windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+9f8db1f6f576b673d05c13aaf6cc80d38androidARMMali-T720chrome
+9fd4294999b8c2af10988ef6345622a4-1winMicrosoftIntel(R) HD Graphics 5500trident
+a06ebf7a5208b2592edbc6482f5d791d8androidQualcommAdreno (TM) 505chrome
+a16921df394b3251a5bddfddeee118c78androidARMMali-G71samsungbrowser
+a21fdd9cf0f110ff29d8c6e3c01a348a8androidQualcommAdreno (TM) 510chrome
+a2acafba3eef2b7aee6d7f805bc107b14androidQualcommAdreno (TM) 330chrome
+a2ee43f20c86abfb20f8095a4dcd175f4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+a41b519a3136748ec1a7604eeb1835346androidQualcommAdreno (TM) 510chrome
+a4d306be77e9371579d0390b0fc685d38windows nt 6.1; win64; x64Google Inc.ANGLE (NVIDIA Quadro K2200 chrome
+a5191a4ddd714b5f2d49dc491186d2f04androidQualcommAdreno (TM) 306samsungbrowser
+a542742cf94be96bf0b3e1d0c18aa6438macARMMali-T760safari
+a55cc5c7bd198ebec1d4084798b0fdff8windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4000 chrome
+a571e5f12b58596fefeb8ab97b0ec4768androidARMMali-G71chrome
+a5f6dad00961ab19cd7124e68ac383c84windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+a6182e02fee81dc36576b1a830aec95c4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+a64d751ab07cf9381e119748d3c4fdc04windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+a669ce90c75837450d96a5cbd9ab12964windows nt 10.0MicrosoftIntel(R) HD Graphicschrome
+a6e39283bb922aea21abcfb83bacbe808androidQualcommAdreno (TM) 506chrome
+a75fdedc0a6d31ff6a000c908a732f008androidARMMali-T880firefox
+a90730f695d21c2f87220462e0ed76f98androidARMMali-T830samsungbrowser
+aa3abb38497cc3add00973b6b49b213f4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+aa4b9893526f385b0d2f9d501b2aca81-1winMicrosoftIntel(R) HD Graphicstrident
+aa7f6e0731c3c139b6685f8e81d953264windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+aab608d3fc56fb0ec460002413abbf404macNVIDIA CorporationNVIDIA GeForce GT 640M OpenGL Enginechrome
+ab76169b9ada5fbdd066ee761ec159ab4androidARMMali-T720chrome
+ab88bee4dc30cdafafd9cc561a6b09f54windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+ac4269589d4f0fc55b333f1186b850d38androidARMMali-T760samsungbrowser
+acc3ed5f36e456a00e58387b1355683a8androidARMMali-T830firefox
+acd4e2f8ed36ed704d54cc5e0e5f24344androidQualcommAdreno (TM) 330firefox
+ad35c02c45fced322931a4e50875d82f4windows nt 6.3; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+ade62c676c398956ecb033499732f42c4androidQualcommAdreno (TM) 330firefox
+ae0bf60b25390e05f64ef827ac8c202a4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 630 chrome
+ae925b2fbda25305d02c342d04ef76ba2windows nt 10.0; win64; x64Google Inc.ANGLE (NVIDIA GeForce 9300M GS chrome
+aea1ef2c9ef9f803707ba3860e1880064windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+aea1ef2c9ef9f803707ba3860e1880068macATI Technologies Inc.AMD Radeon Pro 450 OpenGL Enginechrome
+af1e4ddc4507b5b5bf2dd30966069aad-1iphoneApple Inc.Apple A8 GPUsafari
+b001db3397c541ee544ef7fe58a8f4404windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+b08404cfdfda52f45dd7980c9e3cee894windows nt 10.0; win64; x64MicrosoftNVIDIA GeForce GT 530chrome
+b0cb339f87fd0752f0bd6fbb2b6ae9024macIntel Inc.Intel(R) HD Graphics 5300chrome
+b102470009cd4cef8b770304bc9fe6958androidQualcommAdreno (TM) 506chrome
+b1bf343719b052d9a0122dcb731d96ff-1iphoneApple Inc.Apple A9 GPUsafari
+b24dff055d998381a1f62c84a54f70258androidARMMali-T880firefox
+b2fbdfcdff51f225fba2bd1573b818624androidQualcommAdreno (TM) 306chrome
+b367b0fcab660d2c445de472d017b8558windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+b3cad2a4885ea7ea6a51cfada09fa5f44windows nt 10.0; wow64Google Inc.ANGLE (AMD Radeon HD 8330 chrome
+b49e5eeccb347b9d61f89bb13721a2a74windows nt 10.0; win64; x64MicrosoftIntel(R) HD Graphics 4600chrome
+b4cb1385b3f8679e7e12aef10d134ed48macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+b4dfed31951cc6c8f9d46b9900472ad68windows nt 10.0; win64; x64MicrosoftNVIDIA GeForce GTX 645chrome
+b6208a9eb1bb901c135df6c16543c9e38androidARMMali-G71chrome
+b63bb297c73d00799e3bc028612ea5818androidARMMali-T880samsungbrowser
+b68623faa50c3a547acd7f03822ef5014windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+b68715eef09557c5f4e5cad2c24c398b4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 5500 chrome
+b71d3fcc4b6c2bfc67012135ab062adf8androidARMMali-T880chrome
+b75d62af9aa44b7e4567a5351cfcf8f28androidARMMali-G71samsungbrowser
+b8dfba6876e63f6f3085761435b9735f8androidARMMali-T624chrome
+b9155c9e523abd3e357f7a2c0cfe2b114androidQualcommAdreno (TM) 306firefox
+b94b866d61d8022df6dcfe45b6a7833a8macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+ba4980f18bbce93ae44155d2549b035e2windows nt 6.3; win64; x64; Google Inc.ANGLE (AMD Radeon HD 7480D firefox
+bb001b7ff850cbf3221fc8796d9631798androidQualcommAdreno (TM) 506chrome
+bb6658b4785bddfd5c0e375c3da533564windows nt 6.3; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+bc216bebc0052271c5884aa2302b31634windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+bc2f086cdf9218f593cbf0de585f366e8androidImagination TechnologiesPowerVR Rogue G6200chrome
+bcb7a4bef8f3c0c28e22ec497d6b910b32windows nt 6.1; win64; x64Google Inc.Google SwiftShaderchrome
+bceaedb8288921fbaca65e2cd60d4de24windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+be846d6e1c8d2b6bad650c83f972494e4windows nt 6.1; win64; x64; Google Inc.ANGLE (Software Adapter firefox
+bebc29fdfd16e7548003921c8b54cc338windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 opr/
+bf8d493f828b302276b306ace66ab08b2windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics 4000 firefox
+bfae8e6c5470aa61d3c9caad5c49a2058androidARMMali-T760samsungbrowser
+c077bd89bea8db8c7b2a942979aa41582windows nt 10.0Google Inc.ANGLE (NVIDIA GeForce G210M  chrome
+c0cfead47fb3f0f0e28612105b9ca67b-1iphoneApple Inc.Apple A9 GPUsafari
+c0e5a247f6f3e8edc725efcb43c23a774windows nt 6.1; win64; x64; Google Inc.ANGLE (NVIDIA GeForce GTX 960 firefox
+c26761f55bc6b9f3b76dcaf321a5b56b8androidARMMali-T830chrome
+c4c32acdd8ab968ddd878ca9d97491a68androidARMMali-T830chrome
+c4cdfc7b5fa51e1c7f38f71f7e6c4def4windows nt 6.1; win64; x64Google Inc.ANGLE (AMD Radeon HD 6350 chrome
+c5a51ab1a17e74712b2c1865849aec028androidQualcommAdreno (TM) 430firefox
+c6497ff9e389ad25a44ea233511029164androidARMMali-T720chrome
+c96b3382865282f3e0c4c5618f9a5d1b8windows nt 6.1; wow64; Google Inc.ANGLE (AMD Radeon HD 6800 Series firefox
+c9ce39bb598e31e9a28c09508c852f7c4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+ca4615953d8e952df1f6f80fb6dc9cd74androidARMMali-T720firefox
+ca53d41e7f77171f47fd44d3b58a4dcd8androidImagination TechnologiesPowerVR Rogue G6200chrome
+cac8ce0c639454861b6fe0e040b7e2ae4androidARMMali-400 MPsamsungbrowser
+cadd6835e7cd751b9e39af96dd5907854windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics Family chrome
+cb177c97b3c6af46a387c9118ad8fc158androidARMMali-T830samsungbrowser
+cbb31b35e2759e29428250691eac8f548androidQualcommAdreno (TM) 506chrome
+ccd340651e30aa39a5322fa7af079fa28macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+ce056f86e4246bab3824b0043a71f1014windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+ce09d8dc1383b50aea48204872ae900a8androidARMMali-T830samsungbrowser
+ce2ad17945b92f8bbe41f2046723d27e4macATI Technologies Inc.AMD Radeon R9 M380 OpenGL Enginechrome
+cfcc38cd0d6b553ab121c8d93c8ca7b48androidARMMali-T830chrome
+d0c7ecf6277e74e6096a3fcf01e87742-1iphoneApple Inc.Apple A8 GPUsafari
+d18ebd88ef194de68520ade5e66d01848androidQualcommAdreno (TM) 506chrome
+d1b3a452ec0b8ba883b13285ec3a635f8androidARMMali-T860chrome
+d2a83d4509d57b725df4fd686be639158androidQualcommAdreno (TM) 506chrome
+d3a519031dddf260a880b4b41e5c0b848androidARMMali-T760samsungbrowser
+d3cc66bb7c3895872d850f2e6c87da792windows nt 6.1Google Inc.ANGLE (Mobile Intel(R) 965 Express Chipset Family chrome
+d44fbd1522cbe102852c3c79cea60df98androidQualcommAdreno (TM) 506chrome
+d54855632637dae27e4cad83e418b4604androidQualcommAdreno (TM) 530chrome
+d5be8d64a4b7bdc5b50a9ee30145e1b94windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+d5d06a77aeaac6b773002bc915dd25c04windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+d5f834bf8072dc986b6461f55420eb20-1iphoneApple Inc.Apple A10 GPUsafari
+d619240baca53d7f2380ade1aa644f264windows nt 6.3; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics Family chrome
+d6278c89fba86aed7e5390b4b35677d92windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 510 chrome
+d6581c153734f77ec0490a534d78ed64-1iphoneApple Inc.Apple A8 GPUsafari
+d67f753178d55fe58013c077278f81f84androidARMMali-400 MPsamsungbrowser
+d6a79fa9122f257074039c053621b3e98androidARMMali-T880samsungbrowser
+d8830d9689a62b28c5b4f79441553f508windows nt 10.0; wow64; Google Inc.ANGLE (Intel(R) HD Graphics 4600 firefox
+d89879f47aac1aee65c0ea15fa8cd8d14androidARMMali-400 MPchrome
+d9493fa8bb95f85e3ab65484f7c59def8androidQualcommAdreno (TM) 505chrome
+da4f18e69aad2d94feeec8178150648b8androidARMMali-T830chrome
+dc020bebf84e56bb7d3f27305a6b23a84androidQualcommAdreno (TM) 330firefox
+dc200d82d8b6794abab564cb4f9ca4e04macATI Technologies Inc.AMD Radeon Pro 555 OpenGL Enginechrome
+dd462be3ca48d10d64b1ba2f8b1a0f4d8androidARMMali-T830chrome
+dd880cd524b0cb27d72b538be568084c4windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics firefox
+ddc18804fc385ef1c8c03dd0730eb3274windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+def3ef290d74b0ca9aae032f1ee1f8728androidQualcommAdreno (TM) 505chrome
+df59cb922432e47a15413f0411deec268windows nt 6.1; win64; x64Google Inc.ANGLE (ATI Radeon HD 5450 chrome
+e104a5076a948e28c70a21fc7afb5a794macATI Technologies Inc.ATI Radeon HD 5670 OpenGL Enginechrome
+e1ecabb596d6fad3cdbae6d81b2e20848androidQualcommAdreno (TM) 405chrome
+e209252fd194968a08091c40a0d90f758macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+e21b9dd87319ed5523db167599661e954androidQualcommAdreno (TM) 306chrome
+e2f0c0dbbecaa9ec2d46a5c5b5c51d1f4windows nt 6.1; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+e3d25e1f45586686e15f1443884323148androidARMMali-T830firefox
+e47d624884312213ec016ac25814dae74androidQualcommAdreno (TM) 420firefox
+e47e45ea96e6b6bcc5daeb8cf6c441658macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+e488c66ce599f4b62930328dae9c68618androidARMMali-T830chrome
+e4d45f0c6c75bc61b31edbc4d806f40a4windows nt 10.0; wow64; No Debug InfoNo Debug Infofirefox
+e58e3548b27a7614582dcdf2a440ec244windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+e673be4094989bcd63f7c919382796008androidARMMali-T830firefox
+e6bb24df055d0abe0997e445ac4f77164androidARMMali-400 MPchrome
+e832699ac6f2458c8f5c127a69d643c58windows nt 10.0; win64; x64; Google Inc.ANGLE (NVIDIA GeForce GT 425M firefox
+e8408b6ba03a5cc4de9faa24e16a059d8windows nt 6.1; win64; x64Google Inc.ANGLE (NVIDIA NVS 315 chrome
+e9ae16d78f1d61238cef0d9637f4e40a10androidARMMali-T880chrome
+ea75be3ddf36dfa29b47dae70166fd278androidARMMali-T830chrome
+ebbedb00fb392abf1d2bdab83819e2c64windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 530 chrome
+ec799a66944d2159931abc1ba6f343534windows nt 10.0; win64; x64; Google Inc.ANGLE (Intel(R) HD Graphics 630 firefox
+ed0f6f4bd140b1ba59a8b84a46fd32fa8androidQualcommAdreno (TM) 405chrome
+ee0656ca543feba529c0086172dce6d08androidARMMali-T830chrome
+ef53dc719d17f566ed73c66c75936dd58macNVIDIA CorporationNVIDIA GeForce GT 120 OpenGL Enginefirefox
+efa667c42e18b9c3e7866849d2d8134f8androidARMMali-T880chrome
+f389686be1dc30767008f7062124069b4windows nt 6.1; wow64Google Inc.ANGLE (Intel(R) HD Graphics 520 chrome
+f42399c197a258b59bbca500e3506d468androidARMMali-450 MPchrome
+f4239f35676fd0b1d9d57c16f95d5f6f8macIntel Inc.Intel Iris Pro OpenGL Enginechrome
+f4ea8aafb145ce8572fa601e92fa2ae84windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 620 chrome
+f585d3c1964c4d6510d3f507bc52d90d4androidQualcommAdreno (TM) 306samsungbrowser
+f729fe899f72bba8e51a0e37e09e9ed88androidARMMali-T860chrome
+f78fbc5826264e077b61810a24493b954windows nt 6.1; wow64; No Debug InfoNo Debug Infofirefox
+f837a80634c519781b20e7e213fabfcc4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics 4600 chrome
+f8ed5b5989999df45e22df2607f78ffb2linuxIntel Open Source Technology CenterMesa DRI Intel(R) Q45/Q43 chrome
+fa2630fff16d90099449bf6dde792d8d4windows nt 10.0; win64; x64Google Inc.ANGLE (Intel(R) HD Graphics chrome
+fbe3552153826bed2938b237552325734otherNVIDIA CorporationGeForce GT 710/PCIe/SSE2firefox
+fe50dce0dbc1d9b297ae1c41ea2ef6234windows nt 10.0; win64; x64MicrosoftIntel(R) HD Graphics 3000chrome
+fe812d7836dd45a424c4f3ba2b47b62d4androidARMMali-400 MPchrome
+ff19a786fabf3dd0f07de70a9edc5c264macATI Technologies Inc.AMD Radeon HD 6750M OpenGL Enginefirefox
+ff419cbccb5951ec5244188793c7f7068androidARMMali-T830firefox
+ff6355670de99031b3e95c4c4b2f6c788androidARMMali-T860chrome
+ff79d0a4ff57ba868069a6cf32ec390e4macIntel Inc.Intel(R) Iris(TM) Graphics 650chrome
+ffd1ad289262ee3d711a5cd41f3afd8c-1iphoneApple Inc.Apple A8 GPUsafari

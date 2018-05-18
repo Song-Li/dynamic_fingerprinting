@@ -718,17 +718,20 @@ def one_change2other_change(from_feature, to_feature, file_name):
             pre_to = row[to_feature]
     return float(len(changed_browserid)) / float(len(users))
 
-def find_common(file_name, feature_list = feature_list):
+def find_common(df, file_name, feature_list = feature_list):
     """
     this function will take a file as file_name which has a list of browserids
     return the common values of feature in feature list
     """
-    db = Database('forpaper')
     if 'browserid' not in feature_list:
         feature_list.append('browserid')
-    df = db.load_data(feature_list = feature_list, table_name = "pandas_features")
     grouped = df.groupby('browserid')
-    f = open(file_name, 'r')
+    f = ""
+    try:
+        f = open(file_name, 'r')
+    except:
+        print ('open {} failed'.format(file_name))
+        return 
     content = f.readlines()
     users = [x.strip() for x in content] 
     num_users = len(users)
@@ -792,16 +795,21 @@ def find_all_common(feature_list):
     this function will take a list of features
     then output the result to the findcommon res folder
     """
+    db = Database('forpaper')
+    df = db.load_data(feature_list = ['*'], table_name = "pandas_features")
     for feature in feature_list:
-        res = find_common('./flipusers/flip_user{}.dat'.format(feature), feature_list = ['browserid', 'gpu', 'inc', 'agent', 'os', 'browser'])
-        f.open('./findcommonres/{}.res'.format(feature))
+        res = find_common(df, './flipusers/flip_users{}.dat'.format(feature), ['gpu', 'inc', 'agent', 'os', 'browser'])
+        if not res:
+            continue
+        f = open('./findcommonres/{}.res'.format(feature), 'w')
         for val in res:
             f.write(str(val) + '\n')
         f.close()
 
 
 def main():
-    #db = Database('filteredchanges')
+    find_all_common(feature_list)
+    #db = Database('filteredchangesbrowserid')
     #all_flip_checking(db, feature_list)
     #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
     #print (len(lower_wrong_browserids), len(upper_wrong_browserid), total_number)
