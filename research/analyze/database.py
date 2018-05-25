@@ -119,6 +119,7 @@ class Database():
         df['deviceid'] = 'deviceid'
         df['browserid'] = 'browserid'
         df['browser'] = 'browser'
+        df['os'] = 'os'
         # regenerate ip realted features
         # and generate the browser finergrpint
         df = df.reset_index()
@@ -142,6 +143,8 @@ class Database():
             df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
             browser_str = get_browserid(df.iloc[idx]) + df.at[idx, 'browser']
             df.at[idx, 'browserid'] = browser_str
+            # add os value to pandas table
+            df.at[idx, 'os'] = get_os_from_agent(df.at[idx, 'agent'])
 
             res_str = ""
             for feature in feature_list:
@@ -191,12 +194,18 @@ class Database():
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
     def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):
+        """
+        this function will take a feature list, a table name and a limit
+        if the feature list do not include browserid, the browserid will be loaded also
+        """
+        if feature_list[0] != '*' and 'browserid' not in feature_list:
+            feature_list.append('browserid')
         column_names = self.get_column_names(table_name)
-        if (feature_list[0] != '*'):
-            feature_list = [item for item in feature_list if item in column_names]
         for feature in feature_list:
             if feature not in column_names:
                 print 'feature name {} do not exsit in table {}'.format(feature, table_name)
+        if (feature_list[0] != '*'):
+            feature_list = [item for item in feature_list if item in column_names]
         feature_str = ""
         for feature in feature_list:
             feature_str += feature + ','
@@ -206,7 +215,7 @@ class Database():
             limit_str = ""
         else:
             limit_str = ' limit {}'.format(limit)
-        df = pd.read_sql('select {} from {} where jsFonts is not NULL and clientid <> "Not Set" {};'.format(feature_str, table_name, limit_str), con=self.get_db())    
+        df = pd.read_sql('select {} from {} {};'.format(feature_str, table_name, limit_str), con=self.get_db())    
         print ('finished loading {}'.format(table_name))
         return df
 

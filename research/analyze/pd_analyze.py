@@ -583,24 +583,6 @@ def get_device(row):
     #id_str += gpu_type
     return id_str
 
-def get_browserid(row):
-    id_str = ""
-    # platform is between the first ( and the first ;
-    platform = ""
-    platform = get_full_os_from_agent(row['agent'])
-    keys = ['clientid', 'cpucores', 'fp2_platform']
-    for key in keys:
-        # we assume that all of the keys are not null
-        try:
-            id_str += str(row[key])
-        except:
-            pass
-
-    id_str += platform
-    gpu_type = row['gpu'].split('Direct')[0]
-    id_str += row['inc']
-    id_str += gpu_type
-    return id_str
 
 def get_fine_browserid(row):
     browserid = get_browserid(row)

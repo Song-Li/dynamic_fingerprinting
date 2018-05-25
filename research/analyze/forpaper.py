@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 import hashlib
 import os
 from pd_analyze import *
@@ -12,9 +13,13 @@ feature_list = get_feature_list()
 ori_long_feature_list = get_ori_long_feature_list()
 ori_feature_list = get_ori_feature_list()
 
-def generate_changes_database(db):
+def generate_changes_database(db, feature_list = feature_list):
+    """
+    this function will generate the changes database
+    the database should be generated before the call of this function
+    """
     browserid = 'browserid'
-    df = db.load_data(feature_list = ["*"], 
+    df = db.load_data(feature_list = ["IP", "browserid", "label", "agent", "time", "browser", "browserfingerprint", "test"], 
             table_name = "pandas_features")
     df = filter_less_than_n(df, 5)
     maps = {} 
@@ -33,7 +38,7 @@ def generate_changes_database(db):
                 pre_fingerprint = row['browserfingerprint']
                 pre_row = row
                 continue
-            for feature in long_feature_list:
+            for feature in feature_list:
                 if feature not in row:
                     continue
                 if pre_row[feature] != row[feature]:
@@ -395,11 +400,15 @@ def check_browser_become_unique(db):
 
 
 def filter_less_than_n(df, n):
+    """
+    this function should be used as 
+    remove the users who have less than n records
+    """
     grouped = df.groupby('browserid')
     filtered = set()
     print 'filtering'
     for key, cur_group in tqdm(grouped):
-        length = len(cur_group['IP'])
+        length = len(cur_group['browserid'])
         if length >= n:
             filtered.add(str(key))
 
@@ -631,9 +640,31 @@ def get_action(feature_name, value_from, value_to):
         action = '{}->{}'.format(value_from, value_to)
     return action
 
+def filter_df(df, feature_name, filtered_list = ['iphone', 'ipad', 'mac']):
+    df = df[~df[feature_name].isin(filtered_list)] 
+    return df
+
+
 def verify_browserid_by_cookie():
+    """
+    this function will return the lower bound and upper bound of browserid accuracy
+    the upper bound is the percentage of browserids with more than one cookies
+    the lower bound is the percentage of browserids with fliped cookies
+    """
     db = Database('forpaper')
-    df = db.load_data(feature_list = ['browserid', 'label'], table_name = 'pandas_features')
+    df = db.load_data(feature_list = ['browserid', 'label', 'os'], table_name = 'pandas_features')
+
+    #we can add filter here
+    df = filter_less_than_n(df, 5)
+
+    #here we can filter the unrelated os
+    filtered_list = [
+            'iphone',
+            'ipad',
+            'mac'
+            ]
+    df = df[~df['os'].isin(filtered_list)] 
+
     grouped = df.groupby('browserid')
     lower_wrong_browserid = []
     upper_wrong_browserid = []
@@ -652,7 +683,6 @@ def verify_browserid_by_cookie():
                     break
                 appeared.add(row['label'])
     return lower_wrong_browserid, upper_wrong_browserid, total_number
-
 
 def generate_databases():
     #db = Database('round1')
@@ -689,12 +719,12 @@ def generate_databases():
             aim_table = 'pandas_longfeatures')
 
 
-#=====================================================================
-#this function will take a file which contains a list of browserids
-#and two features
-#return if from feature changes, the percentage of to_feature changes
-#=====================================================================
 def one_change2other_change(from_feature, to_feature, file_name):
+    """
+    this function will take a file which contains a list of browserids
+    and two features
+    return if from feature changes, the percentage of to_feature changes
+    """
     db = Database('forpaper')
     df = db.load_data(feature_list = ['browserid', from_feature, to_feature], table_name = "pandas_features")
     grouped = df.groupby('browserid')
@@ -718,28 +748,52 @@ def one_change2other_change(from_feature, to_feature, file_name):
             pre_to = row[to_feature]
     return float(len(changed_browserid)) / float(len(users))
 
-def find_common(df, file_name, feature_list = feature_list):
+def load_list_from_file(file_name, line_type = 'normal', sep = '!@#'):
     """
-    this function will take a file as file_name which has a list of browserids
-    return the common values of feature in feature list
+    this function will load a list from a file
+    the format of the file is separated by lines
+    which is userd by most of my code
     """
-    if 'browserid' not in feature_list:
-        feature_list.append('browserid')
-    grouped = df.groupby('browserid')
     f = ""
     try:
         f = open(file_name, 'r')
     except:
         print ('open {} failed'.format(file_name))
         return 
+
     content = f.readlines()
-    users = [x.strip() for x in content] 
+    users = []
+    if line_type == 'list':
+        for cont in content:
+            users.append(cont.split(sep))
+    else:
+        users = [x.strip() for x in content] 
+    return users
+
+def find_common(df, file_name = None, feature_list = feature_list, user_list = None):
+    """
+    this function will take a file as file_name which has a list of browserids
+    return the common values of feature in feature list
+    this function will take a file name or a user list
+    if user list is None, this function will use file name
+    """
+    if user_list is None:
+        users = load_list_from_file(file_name)
+    else:
+        users = user_list
+
+    #if 'browserid' not in feature_list:
+    #    feature_list.append('browserid')
+    # remove the browserid value
+    #feature_list.remove('browserid')
+    grouped = df.groupby('browserid')
     num_users = len(users)
     res = {}
-    # remove the browserid value
-    feature_list.remove('browserid')
     for user in tqdm(users):
-        cur_group = grouped.get_group(user)
+        try:
+            cur_group = grouped.get_group(user)
+        except:
+            continue
         for feature in feature_list:
             vals = []
             if feature == 'os':
@@ -763,11 +817,13 @@ def find_common(df, file_name, feature_list = feature_list):
     return res
 
 
-def feature_flip_checking(df, feature_name):
+def feature_flip_checking(db, feature_name):
     """
     this function will output a list of users with flipping of 
     a specific feature
+    the db is a changes db
     """
+    df = db.load_data(table_name = 'labelchanges')
     flip_list = []
     grouped = df.groupby('browserid')
     print ('Checking {}.'.format(feature_name))
@@ -806,18 +862,124 @@ def find_all_common(feature_list):
             f.write(str(val) + '\n')
         f.close()
 
+def get_browserid(row):
+    """
+    this function will take a row of data
+    and return the generated browserid
+    this function will generate browserid based on the os
+    """
+    id_str = ""
+    # platform is between the first ( and the first ;
+    platform = ""
+    platform = get_full_os_from_agent(row['agent'])
+    os = get_os_from_agent(row['agent'])
+    keys = ['clientid', 'cpucores', 'fp2_platform']
+    for key in keys:
+        # we assume that all of the keys are not null
+        try:
+            id_str += str(row[key])
+        except:
+            pass
+
+    # if this is a apple device, just use the browserid
+    # if os == 'iphone' or os == 'ipad' or os == 'mac'
+    id_str += platform
+    gpu_type = row['gpu'].split('Direct')[0]
+    id_str += row['inc']
+    id_str += gpu_type
+    return id_str
+
+def list2file(aim_list, aim_file, limit = -1, line_type = 'normal', sep = '!@#'):
+    """
+    this function will output a list to a file
+    one item a lie
+    """
+    f = open(aim_file, 'w')
+    cnt = 0
+    for item in aim_list:
+        if cnt == limit:
+            break
+        if line_type == 'list':
+            cur_line = sep.join([str(i) for i in item])
+        else:
+            cur_line = item
+        f.write('{}\n'.format(cur_line))
+        cnt += 1
+    f.close()
+
+
+def check_list_diff(list1, list2):
+    """
+    this function will take two lists
+    the format is [[key1, val1], [key2, val2]...]
+    compare the item in list1 with list2
+    the item will keep the sequence of list1
+    return the [item, index_diff, value_diff]
+    """
+    index1 = {}
+    index2 = {}
+    res = []
+    cur_idx = 0
+    # get the item index in list1
+    for item in list1:
+        index1[item[0]] = cur_idx 
+        cur_idx += 1
+
+    #get the item index in list2
+    cur_idx = 0
+    for item in list2:
+        index2[item[0]] = cur_idx
+        cur_idx += 1
+
+    for item in list1:
+        key = item[0]
+        if key not in index2:
+            res.append([key, None, None])
+        else:
+            index_1 = index1[key]
+            index_2 = index2[key]
+            index_diff = index_2 - index_1
+            value_diff = list2[index_2][1] - list1[index_1][1]
+            res.append([key, index_diff, value_diff])
+    return res
+
 
 def main():
-    find_all_common(feature_list)
+    #find_all_common(feature_list)
     #db = Database('filteredchangesbrowserid')
     #all_flip_checking(db, feature_list)
     #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
-    #print (len(lower_wrong_browserids), len(upper_wrong_browserid), total_number)
-    #for browserid in upper_wrong_browserid:
-    #    print browserid
+    #print ('lower: {}, upper: {}, total: {}'.format(len(lower_wrong_browserids), len(upper_wrong_browserid), total_number))
+    #db = Database('forpaper')
+    #generate_changes_database(db, feature_list = ['label'])
+    #db = Database('filteredchangesbrowserid')
+    #feature_flip_checking(db, 'label')
     #percentage = one_change2other_change('label', 'agent', './tmpout')
     #print percentage
-    #res = find_common('./tmpout', feature_list = ['os', 'agent', 'browser', 'gpu', 'inc'])
+
+    db = Database('forpaper')
+    df = db.load_data(feature_list = ['browserid', 'os'], table_name = "pandas_features")
+    print ('filter users from {} users'.format(df['browserid'].nunique()))
+    df = filter_df(df, 'os', filtered_list = ['iphone', 'ipad', 'mac'])
+    print ('number of filtered users {}'.format(df['browserid'].nunique()))
+    df = db.load_data(feature_list = feature_list, table_name = "pandas_features")
+
+    #res_1 = find_common(df, file_name = './tmpout')
+    #list2file(res_1, './no_apple_mul_cookie_common', limit = 1000, line_type = 'list')
+
+    #this part is used for generate all no apple common
+    users = df['browserid'].unique()
+    print ('number of total users: {}'.format(len(users)))
+    res_2 = find_common(df, user_list = users, file_name = None)
+    list2file(res_2, './all_no_apple_common', limit = 1000, line_type = 'list')
+
+    #this part is userd for generate flip common
+    res_3 = find_common(df, file_name = './flipusers/flip_userslabel.dat')
+    list2file(res_3, './flip_no_apple_common', line_type = 'list', limit = 1000)
+
+    list_diff = check_list_diff(res_2, res_3)
+    list2file(list_diff, './list_diff_allnoapple2flipnoapple', limit = 1000)
+
     #for val in res:
     #    print val
     #db = Database('filteredchanges')
