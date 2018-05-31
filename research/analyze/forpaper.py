@@ -18,10 +18,15 @@ def generate_changes_database(db, feature_list = feature_list):
     this function will generate the changes database
     the database should be generated before the call of this function
     """
-    browserid = 'browserid'
-    df = db.load_data(feature_list = ["IP", "browserid", "label", "agent", "time", "browser", "browserfingerprint", "test"], 
+    browserid = 'dybrowserid'
+    df = db.load_data(feature_list = ["*"], 
             table_name = "pandas_features")
     df = filter_less_than_n(df, 5)
+
+    # add label changes to database
+    if 'label' not in feature_list:
+        feature_list.append('label')
+
     maps = {} 
     for feature in feature_list:
         maps[feature] = {'browserid':[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
@@ -85,7 +90,6 @@ def check_flip_browserid(group, feature):
             appeared.add(row[feature])
     return False 
 
-
 def remove_flip_users(df):
     flip_list = []
     grouped = df.groupby('browserid')
@@ -109,7 +113,6 @@ def get_feature_percentage(group, key):
         res.append((cur[0], float(len(cur[1])) / float(num_users)))
     return res 
 
-
 def feature_change_by_date_paper(feature_name, df):
     df = remove_flip_users(df)
     print ("{} users remain".format(df['browserid'].nunique()))
@@ -132,6 +135,8 @@ def feature_change_by_date_paper(feature_name, df):
 
     cnt = 0
     sep = ' '
+
+    """
     for group in sorted_group:
         if feature_name == 'langsdetected' or feature_name == 'jsFonts':
             sep = '_'
@@ -149,6 +154,7 @@ def feature_change_by_date_paper(feature_name, df):
             break
 
     return 
+    """
 
     for date in datelist:
         dates_data[date] = {}
@@ -156,25 +162,34 @@ def feature_change_by_date_paper(feature_name, df):
             dates_data[date][t] = 0
 
     for i in tqdm(range(11)):
-        cur_key = sorted_keys[i]
+        try:
+            cur_key = sorted_keys[i]
+        except:
+            break
         cur_group = grouped.get_group(cur_key)
         for idx, row in cur_group.iterrows():
             # round to day
             cur_time = row['totime'].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
             dates_data[cur_time][cur_key] += 1
     first = True
-    f = open('./dat/{}changebydate.dat'.format(feature_name),'w')
+    f = safeopen('./dat/{}changebydate.dat'.format(feature_name),'w')
     for date in datelist:
         if first:
             first = False
             for idx in range(10):
-                key = sorted_keys[idx]
+                try:
+                    key = sorted_keys[idx]
+                except:
+                    break
                 f.write('{} '.format(str(get_change_strs(key[0], key[1], sep = ' ')).replace(' ','_')))
             f.write('\n')
         f.write('{}-{}-{} '.format(date.year, date.month, date.day))
         sumup = 0
         for idx in range(10):
-            key = sorted_keys[idx]
+            try:
+                key = sorted_keys[idx]
+            except:
+                break
             f.write('{} '.format(dates_data[date][key]))
             sumup += dates_data[date][key]
             f.write('{} '.format(sum(dates_data[date].values()) - sumup))
@@ -188,7 +203,7 @@ def get_key_from_agent(agent, key_type = 'browser'):
         ret = get_browser_version(agent).split('.')[0]
     return ret
 
-# TODO this function is not tested
+# NOTE this function is not tested
 def check_df_flipping(df, feature, key_words, sep = ' '):
     grouped = df.groupby('browserid')
     total_flipping = 0
@@ -228,22 +243,85 @@ def get_key_from_feature(value, feature):
     else:
         return value
 
+def draw_feature_number_by_date(feature_name):
+    """
+    draw total number of a feature by date
+    """
+    show_number = 5
+    db = Database('forpaper')
+    df = db.load_data(feature_list = ['time', 'browserid', feature_name], table_name = 'pandas_features')
+    min_date = min(df['time'])
+    min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
+    max_date = max(df['time'])
+    lendate = (max_date - min_date).days
+    datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
+    # round time to day
+    df = round_time_to_day(df)
+    df = df.drop_duplicates(subset = [feature_name, 'time', 'browserid'])
+    grouped = df.groupby([feature_name, 'time'])
+    res = {}
+    total_numbers = {}
+    daily_all_numbers = {}
+    for date in datelist:
+        res[date] = {}
+        daily_all_numbers[date] = 0
 
-def feature_by_date_paper(feature, df):
+    for key, group in tqdm(grouped):
+        cur_number = group['browserid'].nunique()
+
+        daily_all_numbers[key[1]] += cur_number
+        if key[0] not in res[key[1]]:
+            res[key[1]][key[0]] = 0
+        res[key[1]][key[0]] += cur_number
+
+        if key[0] not in total_numbers:
+            total_numbers[key[0]] = 0
+        total_numbers[key[0]] += cur_number
+
+
+    f = safeopen('./featureNumberByDate/{}'.format(feature_name), 'w')
+    total_numbers = sorted(total_numbers.iteritems(), key=lambda (k,v): (-v,k))
+    total_numbers = total_numbers[:show_number]
+    # print feature names
+    for val in total_numbers:
+        f.write('{} '.format(val[0]))
+    f.write('others\n')
+
+    for date in datelist:
+        print res[date]
+        cur_sum = 0
+        f.write('{}-{}-{}'.format(date.year, date.month, date.day))
+        for feature in total_numbers:
+            if feature[0] not in res[date]:
+                f.write(' 0')
+                continue
+            cur_sum += res[date][feature[0]]
+            f.write(' {}'.format(res[date][feature[0]]))
+        f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
+    f.close()
+
+def draw_feature_number_by_browser_date_paper(feature, df):
+    """
+    draw number of feature by browser and date
+    currently this function will output a stacked picture data
+    """
     # here we put the keys of each features
+    browserid = 'browserid'
     maps = {}
     browser_options = ['chrome', 'firefox', 'safari']
     print "round time to days"
-    df = df.drop_duplicates(subset = [feature, 'time', 'browserid'])
+    df = round_time_to_day(df)
+    df = df.drop_duplicates(subset = [feature, 'time', browserid])
     
     min_date = min(df['time'])
+    min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
     max_date = max(df['time'])
     lendate = (max_date - min_date).days
     datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
     for date in datelist:
         maps[date] = {}
 
-    grouped = df.groupby('browserid')
+    grouped = df.groupby(browserid)
     browser_version_all = {browser: {} for browser in browser_options}
 
     for key, group in tqdm(grouped):
@@ -311,13 +389,11 @@ def feature_by_date_paper(feature, df):
     for browser in f:
         f[browser].close()
     
-
-
 def get_all_feature_change_by_date_paper(db):
-    for feature in long_feature_list:
+    for feature in feature_list:
         print 'generating {}'.format(feature)
-        df = load_data(load = True, feature_list = ["*"], 
-                table_name = "{}changes".format(feature), db = db)
+        df = db.load_data(feature_list = ["*"], 
+                table_name = "{}changes".format(feature))
         print ("{} users changed in total".format(df['browserid'].nunique()))
         feature_change_by_date_paper(feature, df)
 
@@ -337,7 +413,6 @@ def get_sep(feature):
     elif feature == 'plugins':
         sep = '~'
     return sep
-
 
 def check_browser_become_unique(db):
     df = load_data(load = True, feature_list = ["*"], 
@@ -397,7 +472,6 @@ def check_browser_become_unique(db):
     #for uniquefp in ret:
     #    print uniquefp, ret[uniquefp]
     return ret, change_feature
-
 
 def filter_less_than_n(df, n):
     """
@@ -490,7 +564,6 @@ def check_diff_feature_value(db, feature, from_val, to_val):
     df = load_data(load = True, feature_list = ["browserid"], table_name = "{}changes".format(feature), db = db, other = ' where `from` = "{}" and `to` = "{}"'.format(from_val, to_val))
     browserid_list = list(df['browserid'])
     return browserid_list
-
 
 def draw_feature_change_by_date(db):
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
@@ -644,7 +717,6 @@ def filter_df(df, feature_name, filtered_list = ['iphone', 'ipad', 'mac']):
     df = df[~df[feature_name].isin(filtered_list)] 
     return df
 
-
 def verify_browserid_by_cookie():
     """
     this function will return the lower bound and upper bound of browserid accuracy
@@ -652,18 +724,24 @@ def verify_browserid_by_cookie():
     the lower bound is the percentage of browserids with fliped cookies
     """
     db = Database('forpaper')
-    df = db.load_data(feature_list = ['browserid', 'label', 'os'], table_name = 'pandas_features')
+    df = db.load_data(feature_list = ['browserid', 'label', 'os', 'browser'], table_name = 'pandas_features')
 
     #we can add filter here
     df = filter_less_than_n(df, 5)
 
     #here we can filter the unrelated os
+    """
     filtered_list = [
             'iphone',
             'ipad',
             'mac'
             ]
     df = df[~df['os'].isin(filtered_list)] 
+    """
+    filtered_list = [
+            'safari'
+            ]
+    df = df[~df['browser'].isin(filtered_list)]
 
     grouped = df.groupby('browserid')
     lower_wrong_browserid = []
@@ -717,7 +795,6 @@ def generate_databases():
     aim_db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_longfeatures')
-
 
 def one_change2other_change(from_feature, to_feature, file_name):
     """
@@ -816,7 +893,6 @@ def find_common(df, file_name = None, feature_list = feature_list, user_list = N
         res.append([cur[0], float(cur[1]) / float(num_users)])
     return res
 
-
 def feature_flip_checking(db, feature_name):
     """
     this function will output a list of users with flipping of 
@@ -887,6 +963,7 @@ def get_browserid(row):
     gpu_type = row['gpu'].split('Direct')[0]
     id_str += row['inc']
     id_str += gpu_type
+
     return id_str
 
 def list2file(aim_list, aim_file, limit = -1, line_type = 'normal', sep = '!@#'):
@@ -906,7 +983,6 @@ def list2file(aim_list, aim_file, limit = -1, line_type = 'normal', sep = '!@#')
         f.write('{}\n'.format(cur_line))
         cnt += 1
     f.close()
-
 
 def check_list_diff(list1, list2):
     """
@@ -943,20 +1019,215 @@ def check_list_diff(list1, list2):
             res.append([key, index_diff, value_diff])
     return res
 
+def get_all_user_list(df):
+    """
+    this function will take a df
+    return the user list based on this df
+    """
+    browserid = 'browserid'
+    return df[browserid].unique()
+
+def change_together(db, from_feature, user_list = None, to_feature_list = feature_list):
+    """
+    userd for analyze change together
+    this function will take a user_list, a from feature and a to feature list
+    return when from feature changes, the percentage of to feature list 
+    also changes at the same time
+    """
+
+    df = db.load_data(feature_list = ['*'], table_name = "pandas_features")
+    if user_list == None:
+        user_list = get_all_user_list(df)
+
+    grouped = df.groupby('browserid')
+    res = {}
+    for to_feature in to_feature_list:
+        changed_browserid = []
+        for user in tqdm(user_list):
+            cur_group = grouped.get_group(user)
+            pre_from = ''
+            pre_to = ''
+            for idx, row in cur_group.iterrows():
+                if pre_from == '':
+                    pre_from = row[from_feature]
+                    pre_to = row[to_feature]
+                    continue
+                if row[from_feature] != pre_from and row[to_feature] != pre_to:
+                    changed_browserid.append(user)
+                    break
+                pre_from = row[from_feature]
+                pre_to = row[to_feature]
+        res[to_feature] = float(len(changed_browserid)) / float(len(user_list))
+    return res
+
+def load_list_from_file(file_name, line_type = 'normal', sep = '!@#'):
+    """
+    this function will load a list from a file
+    the format of the file is separated by lines
+    which is userd by most of my code
+    """
+    f = ""
+    try:
+        f = open(file_name, 'r')
+    except:
+        print ('open {} failed'.format(file_name))
+        return 
+
+    content = f.readlines()
+    users = []
+    if line_type == 'list':
+        for cont in content:
+            users.append(cont.split(sep))
+    else:
+        users = [x.strip() for x in content] 
+    return users
+
+def find_common(df, file_name = None, feature_list = feature_list, user_list = None):
+    """
+    this function will take a file as file_name which has a list of browserids
+    return the common values of feature in feature list
+    this function will take a file name or a user list
+    if user list is None, this function will use file name
+    """
+    if user_list is None:
+        users = load_list_from_file(file_name)
+    else:
+        users = user_list
+
+    #if 'browserid' not in feature_list:
+    #    feature_list.append('browserid')
+    # remove the browserid value
+    #feature_list.remove('browserid')
+    grouped = df.groupby('browserid')
+    num_users = len(users)
+    res = {}
+    for user in tqdm(users):
+        try:
+            cur_group = grouped.get_group(user)
+        except:
+            continue
+        for feature in feature_list:
+            vals = []
+            if feature == 'os':
+                cur_res = set()
+                vals = cur_group['agent'].unique()
+                for val in vals:
+                    cur_res.add(get_os_from_agent(str(val)))
+                vals = cur_res
+            else:
+                vals = cur_group[feature].unique()
+            for val in vals:
+                val = str(val) + '-' + feature
+                if val not in res:
+                    res[val] = 0
+                res[val] += 1
+
+    sorted_dict = sorted(res.iteritems(), key=lambda (k,v): (-v,k))
+    res = []
+    for cur in sorted_dict:
+        res.append([cur[0], float(cur[1]) / float(num_users)])
+    return res
+
+def feature_flip_checking(db, feature_name):
+    """
+    this function will output a list of users with flipping of 
+    a specific feature
+    the db is a changes db
+    """
+    df = db.load_data(table_name = 'labelchanges')
+    flip_list = []
+    grouped = df.groupby('browserid')
+    print ('Checking {}.'.format(feature_name))
+    for key, cur_group in tqdm(grouped):
+        if check_flip_changes(cur_group):
+            flip_list.append(key)
+
+    f = open('./flipusers/flip_users{}.dat'.format(feature_name), 'w')
+    for user in flip_list:
+        f.write(user + '\n')
+    f.close()
+
+def all_flip_checking(db, feature_list):
+    """
+    this function will loop the a list of feature
+    generate a list of files with user
+    """
+    for feature in feature_list:
+        df = load_data(load = True, feature_list = ["*"], 
+                table_name = "{}changes".format(feature), db = db)
+        feature_flip_checking(df, feature)
+
+def find_all_common(feature_list): 
+    """
+    this function will take a list of features
+    then output the result to the findcommon res folder
+    """
+    db = Database('forpaper')
+    df = db.load_data(feature_list = ['*'], table_name = "pandas_features")
+    for feature in feature_list:
+        res = find_common(df, './flipusers/flip_users{}.dat'.format(feature), ['gpu', 'inc', 'agent', 'os', 'browser'])
+        if not res:
+            continue
+        f = open('./findcommonres/{}.res'.format(feature), 'w')
+        for val in res:
+            f.write(str(val) + '\n')
+        f.close()
+
+
+def new_vs_return_by_date(db):
+    """
+    return the number of returned users and new users in each day
+    the result will be written into newVsReturn
+    """
+    df = db.load_data(feature_list = ['browserid', 'time'], table_name = 'pandas_features')
+    df = round_time_to_day(df)
+    df = df.drop_duplicates(subset = ['time', 'browserid'])
+    grouped = df.groupby('browserid')
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    lendate = (max_date - min_date).days
+    datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
+    # round time to day
+    return_user = {}
+    new_user = {} 
+    for date in datelist:
+        return_user[date] = 0
+        new_user[date] = 0
+
+    #here we already removed the multiple visites for same user in same day
+    for key, group in tqdm(grouped):
+        first = True
+        for idx, row in group.iterrows():
+            if first:
+                first = False
+                new_user[row['time']] += 1
+            else:
+                return_user[row['time']] += 1
+
+    f = safeopen('./newVsReturn.dat', 'w')
+    f.write('{} {}\n'.format('new-user', 'return-user'))
+    for date in new_user:
+        f.write('{}-{}-{} {} {}\n'.format(date.year, date.month, date.day, new_user[date], return_user[date]))
+    f.close()
+
 
 def main():
+    #draw_feature_number_by_date('browser')
+    db = Database('forpaper')
+    new_vs_return_by_date(db)
     #find_all_common(feature_list)
     #db = Database('filteredchangesbrowserid')
     #all_flip_checking(db, feature_list)
     #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
     #print ('lower: {}, upper: {}, total: {}'.format(len(lower_wrong_browserids), len(upper_wrong_browserid), total_number))
     #db = Database('forpaper')
-    #generate_changes_database(db, feature_list = ['label'])
+    #generate_changes_database(db)
     #db = Database('filteredchangesbrowserid')
     #feature_flip_checking(db, 'label')
     #percentage = one_change2other_change('label', 'agent', './tmpout')
     #print percentage
 
+    """
     db = Database('forpaper')
     df = db.load_data(feature_list = ['browserid', 'os'], table_name = "pandas_features")
     print ('filter users from {} users'.format(df['browserid'].nunique()))
@@ -980,9 +1251,14 @@ def main():
     list_diff = check_list_diff(res_2, res_3)
     list2file(list_diff, './list_diff_allnoapple2flipnoapple', limit = 1000)
 
+    db = Database('forpaper')
+    res = change_together(db, 'label', user_list = None, to_feature_list = feature_list)
+    for r in res:
+        print '{}: {}'.format(r, res[r])
+    """
     #for val in res:
     #    print val
-    #db = Database('filteredchanges')
+    #db = Database('filteredchangesdybrowserid')
     #get_all_feature_change_by_date_paper(db)
     #feature = 'agent'
     #print 'generating {}'.format(feature)
@@ -1007,6 +1283,7 @@ def main():
     #db = Database('changes')
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db, other = ' where jsFonts is not NULL and gpuimgs is not NULL')
     #df = round_time_to_day(df)
+    #df = db.load_data(feature_list = feature_list, table_name = "pandas_features")
     #for feature in feature_list:
     #    feature_by_date_paper(feature, df)
     #check_browser_become_unique(db)

@@ -118,6 +118,7 @@ class Database():
         df['longitude'] = 'longitude'
         df['deviceid'] = 'deviceid'
         df['browserid'] = 'browserid'
+        df['dybrowserid'] = 'dybrowserid'
         df['browser'] = 'browser'
         df['os'] = 'os'
         # regenerate ip realted features
@@ -143,6 +144,15 @@ class Database():
             df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
             browser_str = get_browserid(df.iloc[idx]) + df.at[idx, 'browser']
             df.at[idx, 'browserid'] = browser_str
+
+            # here we need to generate the dybrowserid
+            # for safari user,we use browserid as dybrowserid
+            # for other users, we use label(cookie)
+            if df.at[idx, 'browser'] == 'safari':
+                df.at[idx, 'dybrowserid'] = df.at[idx, 'browserid']
+            else:
+                df.at[idx, 'dybrowserid'] = df.at[idx, 'label']
+
             # add os value to pandas table
             df.at[idx, 'os'] = get_os_from_agent(df.at[idx, 'agent'])
 
