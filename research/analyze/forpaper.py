@@ -243,9 +243,10 @@ def get_key_from_feature(value, feature):
     else:
         return value
 
-def draw_feature_number_by_date(feature_name):
+def draw_feature_number_by_date(feature_name, percentage = False):
     """
     draw total number of a feature by date
+    this function will return a stacked dat file
     """
     show_number = 5
     db = Database('forpaper')
@@ -287,8 +288,13 @@ def draw_feature_number_by_date(feature_name):
         f.write('{} '.format(val[0]))
     f.write('others\n')
 
+    if percentage:
+        for date in datelist:
+            for feature in res[date]:
+                res[date][feature] = float(res[date][feature]) / float(daily_all_numbers[date])
+
+
     for date in datelist:
-        print res[date]
         cur_sum = 0
         f.write('{}-{}-{}'.format(date.year, date.month, date.day))
         for feature in total_numbers:
@@ -1174,10 +1180,12 @@ def find_all_common(feature_list):
         f.close()
 
 
-def new_vs_return_by_date(db):
+def new_vs_return_by_date(db, percentage = False):
     """
     return the number of returned users and new users in each day
     the result will be written into newVsReturn
+    if the percentage key is set to True
+    the function will return the percentage instead of the real number
     """
     df = db.load_data(feature_list = ['browserid', 'time'], table_name = 'pandas_features')
     df = round_time_to_day(df)
@@ -1204,17 +1212,23 @@ def new_vs_return_by_date(db):
             else:
                 return_user[row['time']] += 1
 
+    if percentage:
+        for date in datelist:
+            cur_total = new_user[date] + return_user[date]
+            new_user[date] = float(new_user[date]) / float(cur_total)
+            return_user[date] = float(return_user[date]) / float(cur_total)
+
     f = safeopen('./newVsReturn.dat', 'w')
     f.write('{} {}\n'.format('new-user', 'return-user'))
-    for date in new_user:
+    for date in datelist:
         f.write('{}-{}-{} {} {}\n'.format(date.year, date.month, date.day, new_user[date], return_user[date]))
     f.close()
 
 
 def main():
-    #draw_feature_number_by_date('browser')
-    db = Database('forpaper')
-    new_vs_return_by_date(db)
+    #db = Database('forpaper')
+    draw_feature_number_by_date('browser')
+    #new_vs_return_by_date(db, percentage = True)
     #find_all_common(feature_list)
     #db = Database('filteredchangesbrowserid')
     #all_flip_checking(db, feature_list)
