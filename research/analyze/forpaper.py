@@ -291,6 +291,9 @@ def draw_feature_number_by_date(feature_name, percentage = False):
     if percentage:
         for date in datelist:
             for feature in res[date]:
+                # avoid divide by zero
+                if daily_all_numbers[date] == 0:
+                    daily_all_numbers[date] = 1
                 res[date][feature] = float(res[date][feature]) / float(daily_all_numbers[date])
 
 
@@ -303,7 +306,10 @@ def draw_feature_number_by_date(feature_name, percentage = False):
                 continue
             cur_sum += res[date][feature[0]]
             f.write(' {}'.format(res[date][feature[0]]))
-        f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
+        if percentage:
+            f.write(' {}\n'.format(1.0 - cur_sum))
+        else:
+            f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
     f.close()
 
 def draw_feature_number_by_browser_date_paper(feature, df):
@@ -575,6 +581,7 @@ def draw_feature_change_by_date(db):
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
 
 def round_time_to_day(df):
+    print ('Rounding time to days')
     # round time to days
     for idx in tqdm(df.index):
         df.at[idx, 'time'] = df.at[idx, 'time'].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
@@ -972,10 +979,10 @@ def get_browserid(row):
 
     return id_str
 
-def list2file(aim_list, aim_file, limit = -1, line_type = 'normal', sep = '!@#'):
+def list2file(aim_list, aim_file, limit = -1, index = False, line_type = 'normal', sep = '!@#'):
     """
     this function will output a list to a file
-    one item a lie
+    one item a line
     """
     f = open(aim_file, 'w')
     cnt = 0
@@ -986,7 +993,10 @@ def list2file(aim_list, aim_file, limit = -1, line_type = 'normal', sep = '!@#')
             cur_line = sep.join([str(i) for i in item])
         else:
             cur_line = item
-        f.write('{}\n'.format(cur_line))
+        if index:
+            f.write('{} {}\n'.format(cnt, cur_line))
+        else:
+            f.write('{}\n'.format(cur_line))
         cnt += 1
     f.close()
 
@@ -1046,6 +1056,7 @@ def change_together(db, from_feature, user_list = None, to_feature_list = featur
         user_list = get_all_user_list(df)
 
     grouped = df.groupby('browserid')
+    all_changed_users = 0
     res = {}
     for to_feature in to_feature_list:
         changed_browserid = []
@@ -1179,7 +1190,6 @@ def find_all_common(feature_list):
             f.write(str(val) + '\n')
         f.close()
 
-
 def new_vs_return_by_date(db, percentage = False):
     """
     return the number of returned users and new users in each day
@@ -1215,6 +1225,9 @@ def new_vs_return_by_date(db, percentage = False):
     if percentage:
         for date in datelist:
             cur_total = new_user[date] + return_user[date]
+            # avoid divide by zero
+            if cur_total == 0:
+                cur_total = 1
             new_user[date] = float(new_user[date]) / float(cur_total)
             return_user[date] = float(return_user[date]) / float(cur_total)
 
@@ -1224,15 +1237,49 @@ def new_vs_return_by_date(db, percentage = False):
         f.write('{}-{}-{} {} {}\n'.format(date.year, date.month, date.day, new_user[date], return_user[date]))
     f.close()
 
+def feature2feature_distribution(feature1, feature2, db, percentage = True):
+    """
+    return how many feature1 has 1 feature2, 2 feature2 etc..
+    we assume the max number is 499
+    """
+    df = db.load_data(feature_list = [feature1, feature2], table_name = 'pandas_features')
+    grouped = df.groupby(feature1)
+    # we assume the max number is 499
+    res = [0 for i in range(500)]
+    total_num = df[feature1].nunique()
+    for key, group in tqdm(grouped):
+        cur_cnt = group[feature2].nunique()
+        res[cur_cnt] += 1
+        if cur_cnt > 100:
+            print key, cur_cnt
+    # remove the upper 0
+    max_idx = -1
+    for i in range(500):
+        if percentage:
+            res[i] = float(res[i]) / float(total_num)
+        if res[i] != 0:
+            max_idx = i
+    res = res[:max_idx + 1]
+    return res
 
 def main():
-    #db = Database('forpaper')
-    draw_feature_number_by_date('browser')
+    db = Database('forpaper')
+    res = feature2feature_distribution('label', 'browserid', db)
+    list2file(res, './label2browserid.distribution', index = True)
+    """
+    all_column_names = db.get_column_names('pandas_features')
+    res = change_together(db, 'label', user_list = None, to_feature_list = all_column_names)
+    for r in res:
+        print '{}: {}'.format(r, res[r])
+    """
+    #df = db.load_data(feature_list = [])
+    #draw_feature_number_by_date('browser', percentage = True)
     #new_vs_return_by_date(db, percentage = True)
     #find_all_common(feature_list)
     #db = Database('filteredchangesbrowserid')
     #all_flip_checking(db, feature_list)
     #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
+    #list2file(upper_wrong_browserid, './cookiechanged.dat', line_type = 'item')
     #print ('lower: {}, upper: {}, total: {}'.format(len(lower_wrong_browserids), len(upper_wrong_browserid), total_number))
     #db = Database('forpaper')
     #generate_changes_database(db)

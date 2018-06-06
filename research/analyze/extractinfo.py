@@ -88,9 +88,15 @@ def get_os_from_agent(agent):
     return 'other'
 
 def get_browser_from_agent(agent):
+    """
+    return the browser type by the input agent
+    from mar 20 2018, the format of Edge changed
+    """
     agent = agent.lower()
     # respect the order of browser
     browser_list = [
+            # assume edge will not by incuded by any other browsers
+            'edge',
             'firefox',
             'opera',
             # opr just like opera
