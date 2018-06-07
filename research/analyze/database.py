@@ -103,7 +103,6 @@ class Database():
         df.to_sql('pandas_longfeatures', self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-
     def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator, get_browserid =  null_generator, aim_table = 'pandas_features'):
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]

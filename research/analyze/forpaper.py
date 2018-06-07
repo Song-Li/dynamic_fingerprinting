@@ -7,6 +7,7 @@ from database import Database
 from extractinfo import *
 from feature_lists import *
 import collections
+import user_agents
 
 long_feature_list = get_long_feature_list()
 feature_list = get_feature_list()
@@ -688,6 +689,33 @@ def life_time_distribution_paper(db):
     for feature in medians:
         print feature + ' ' + str(medians[feature])
 
+def get_device(row):
+    id_str = ""
+    # platform is between the first ( and the first ;
+    platform = ""
+    parsed = user_agents.parse(row['agent'])
+    os = parsed.os.family
+    device = parsed.device.family
+    browser = parsed.browser.family
+    full_os = '{} {}'.format(parsed.os.family, parsed.os.version_string)
+    full_device = '{} {}'.format(parsed.device.family, parsed.device.brand)
+    full_browser = '{} {}'.format(parsed.browser.family, parsed.browser.version_string)
+    keys = ['clientid', 'cpucores']
+    for key in keys:
+        # we assume that all of the keys are not null
+        try:
+            id_str += str(row[key])
+        except:
+            pass
+
+    id_str += os 
+    id_str += full_device
+    #gpu_type = row['gpu'].split('Direct')[0]
+    #id_str += row['inc']
+    #id_str += gpu_type
+    return id_str
+
+
 global ip2location
 # try to use the ip location
 def get_location_dy_ip(ip):
@@ -960,9 +988,14 @@ def get_browserid(row):
     id_str = ""
     # platform is between the first ( and the first ;
     platform = ""
-    platform = get_full_os_from_agent(row['agent'])
-    os = get_os_from_agent(row['agent'])
-    keys = ['clientid', 'cpucores', 'fp2_platform']
+    parsed = user_agents.parse(row['agent'])
+    os = parsed.os.family
+    device = parsed.device.family
+    browser = parsed.browser.family
+    full_os = '{} {}'.format(parsed.os.family, parsed.os.version_string)
+    full_device = '{} {}'.format(parsed.device.family, parsed.device.brand)
+    full_browser = '{} {}'.format(parsed.browser.family, parsed.browser.version_string)
+    keys = ['clientid', 'cpucores']
     for key in keys:
         # we assume that all of the keys are not null
         try:
@@ -970,13 +1003,12 @@ def get_browserid(row):
         except:
             pass
 
-    # if this is a apple device, just use the browserid
-    # if os == 'iphone' or os == 'ipad' or os == 'mac'
-    id_str += platform
+    id_str += full_os 
+    id_str += full_device
+    id_str += browser
     gpu_type = row['gpu'].split('Direct')[0]
     id_str += row['inc']
     id_str += gpu_type
-
     return id_str
 
 def list2file(aim_list, aim_file, limit = -1, index = False, line_type = 'normal', sep = '!@#'):
@@ -1268,7 +1300,6 @@ def main():
     #db = Database('forpaper')
     #res = feature2feature_distribution('clientid', 'deviceid', db)
     #list2file(res, './clientid2deviceid.distribution', index = True)
-    print (get_browser_from_agent('Mozilla/5.0 (iPad; CPU OS 11_2_6 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) CriOS/64.0.3282.112 Mobile/15D100 Safari/604.1'))
     """
     all_column_names = db.get_column_names('pandas_features')
     res = change_together(db, 'label', user_list = None, to_feature_list = all_column_names)
@@ -1334,7 +1365,7 @@ def main():
     #maps = generate_changes_database(db)
     #df = db.load_data(feature_list = long_feature_list, table_name = "pandas_longfeatures")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
-    #generate_databases()
+    generate_databases()
     #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #df = filter_less_than_n(df, 7)
