@@ -1,5 +1,6 @@
 from tqdm import *
 import re
+import user_agents
 def mobile_or_not(agent):
     mobile_str = 'Mobile|iPhone|iPod|iPad|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|hpwOS|webOS|Fennec|Minimo|Opera Mobi|Mini|Blazer|Dolfin|Dolphin|Skyfire|Zune'
     test_str = mobile_str.split('|')
@@ -41,105 +42,31 @@ def get_os_fonts(df):
 # input the agent string
 # return the full os type
 def get_full_os_from_agent(agent):
-    agent = agent.lower()
-    # respect the order of os
-    os_list = [
-            'windows phone',
-            'win',
-            'android',
-            'linux',
-            'iphone',
-            'ipad',
-            'mac'
-            ]
-    os = "other"
-    for cur_os in os_list:
-        if cur_os in agent:
-            os = cur_os
-            break
-    if os != 'win':
-        return os
-    # below this we use the full os for only windows
-    browser_type = get_browser_from_agent(agent)
-    if browser_type == 'chrome' or browser_type == 'opr/':
-        os = agent.split(')')[0].split('(')[1]
-    elif  browser_type == 'firefox':
-        os = agent.split('(')[1].split('rv:')[0]
-    return os
+    return get_os_version(agent)
 
 # input the agent string
 # return the os type
 def get_os_from_agent(agent):
-    agent = agent.lower()
-    # respect the order of os
-    os_list = [
-            'windows phone',
-            'win',
-            'android',
-            'linux',
-            'iphone',
-            'ipad',
-            'mac'
-            ]
-    os = ""
-    for os in os_list:
-        if os in agent:
-            return os
-    return 'other'
+    parsed = user_agents.parse(agent)
+    return parsed.os.family
 
 def get_browser_from_agent(agent):
     """
     return the browser type by the input agent
     from mar 20 2018, the format of Edge changed
     """
-    agent = agent.lower()
-    # respect the order of browser
-    browser_list = [
-            # assume edge will not by incuded by any other browsers
-            'edge',
-            'firefox',
-            'opera',
-            # opr just like opera
-            # use space and / to make it stable
-            'opr/',
-            # added samsung browser
-            'samsungbrowser',
-            'chrome',
-            'safari',
-            'trident'
-            ]
-    for browser in browser_list:
-        if browser in agent:
-            return browser
-    return 'other'
+    return user_agents.parse(agent).browser.family
 
 def get_browser_version(agent):
     # return the string of browser and version number
     # if it's others, just return other
-    agent = agent.lower()
-    browser = get_browser_from_agent(agent)
-    if browser == 'other':
-        return 'other'
-    idx = agent.index(browser)
-    res = agent[idx:].split(' ')[0]
-    return res
+    parsed = user_agents.parse(agent)
+    return parsed.browser.family + ' ' + parsed.browser.version_string
 
 def get_os_version(agent):
     # return the string of os and version number
-    agent = agent.lower()
-    os = get_os_from_agent(agent)
-    idx = 0
-    if os == 'other':
-        return 'other'
-    if os == 'iphone' or os == 'ipad' or os == 'mac':
-        os = '; '
-        idx = agent.index(os) + 2
-    else:
-        idx = agent.index(os)
-    # in case that the os is the last part inside the ()
-    res = agent[idx:].split(')')[0]
-    res = res.split(';')[0]
-    return res
+    parsed = user_agents.parse(agent)
+    return parsed.os.family + ' ' + parsed.os.version_string
 
 def get_browser_change(agent_1, agent_2):
     browser_1 = get_browser_from_agent(agent_1)

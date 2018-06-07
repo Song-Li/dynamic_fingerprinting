@@ -1242,10 +1242,12 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
     return how many feature1 has 1 feature2, 2 feature2 etc..
     we assume the max number is 499
     """
-    df = db.load_data(feature_list = [feature1, feature2], table_name = 'pandas_features')
+    df = db.load_data(feature_list = [feature1, feature2, 'browser'], table_name = 'pandas_features')
+    # we filter sth
+    #df = filter_df(df, 'browser', filtered_list = ['safari'])
     grouped = df.groupby(feature1)
     # we assume the max number is 499
-    res = [0 for i in range(500)]
+    res = [0 for i in range(5000)]
     total_num = df[feature1].nunique()
     for key, group in tqdm(grouped):
         cur_cnt = group[feature2].nunique()
@@ -1254,7 +1256,7 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
             print key, cur_cnt
     # remove the upper 0
     max_idx = -1
-    for i in range(500):
+    for i in range(5000):
         if percentage:
             res[i] = float(res[i]) / float(total_num)
         if res[i] != 0:
@@ -1263,9 +1265,10 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
     return res
 
 def main():
-    db = Database('forpaper')
-    res = feature2feature_distribution('label', 'browserid', db)
-    list2file(res, './label2browserid.distribution', index = True)
+    #db = Database('forpaper')
+    #res = feature2feature_distribution('clientid', 'deviceid', db)
+    #list2file(res, './clientid2deviceid.distribution', index = True)
+    print (get_browser_from_agent('Mozilla/5.0 (iPad; CPU OS 11_2_6 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) CriOS/64.0.3282.112 Mobile/15D100 Safari/604.1'))
     """
     all_column_names = db.get_column_names('pandas_features')
     res = change_together(db, 'label', user_list = None, to_feature_list = all_column_names)
