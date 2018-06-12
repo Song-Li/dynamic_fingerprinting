@@ -13,6 +13,7 @@ long_feature_list = get_long_feature_list()
 feature_list = get_feature_list()
 ori_long_feature_list = get_ori_long_feature_list()
 ori_feature_list = get_ori_feature_list()
+global ip2location
 
 def generate_changes_database(db, feature_list = feature_list):
     """
@@ -571,9 +572,11 @@ def get_browserid_change_id(df, browserid, changes, change_from, change_to , cha
 
     return changes
 
-# input the feature name, two different feature value
-# return the basic info of these features
 def check_diff_feature_value(db, feature, from_val, to_val):
+    """
+    input the feature name, two different feature value
+    return the basic info of these features
+    """
     df = load_data(load = True, feature_list = ["browserid"], table_name = "{}changes".format(feature), db = db, other = ' where `from` = "{}" and `to` = "{}"'.format(from_val, to_val))
     browserid_list = list(df['browserid'])
     return browserid_list
@@ -614,45 +617,51 @@ def get_all_change_details(file_name):
             change_to = line.split('$$')[1].strip()
             get_change_details(feature_name, change_from, change_to, df)
 
-def life_time_distribution_paper(db):
+def round_time_to_hour(df):
+    print ('Rounding time to hours')
+    # round time to days
+    for idx in tqdm(df.index):
+        df.at[idx, 'time'] = df.at[idx, 'time'].replace(microsecond = 0, second = 0, minute = 0)
+    return df
+
+#NOTE not tested
+def life_time_distribution(df, feature_name = 'IP'):
+    """
+    get the life time distribution of a feature in hours
+    input the df and feature name
+    output a list with number of related life time
+    """
+    # for research, filter less than 5
+    df = filter_less_than_n(df, 5)
+    
+    # we use the browserid as current ground truth
+    grouped = df.groupby('browserid')
+    round_time_to_hour(df)
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    length = (max_date - min_date).hours + 3
+    life_time = [0 for i in range(length + 10)]
+    
+    for browserid, cur_group in tqdm(grouped):
+        pre_feature = ""
+        pre_time = -1
+        for idx, row in cur_group.iterrows():
+            if pre_feature == "":
+                pre_feature = row[feature_name]
+                pre_time = row['time']
+                continue
+
+            if pre_feature != row[feature_name]:
+                cur_delt = (row['time'] - pre_time).hours
+                life_time[cur_delt] += 1
+                pre_feature[feature_name] = row[feature_name]
+                pre_time[feature_name] = row['time']
+
+    return life_time
+
+def life_time_median_paper(db):
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     df = filter_less_than_n(df, 7)
-    feature_list = [ 
-        "agent",
-        "accept",
-        "encoding",
-        "language",
-        "timezone", 
-
-        "plugins", 
-        "cookie", 
-        "WebGL", 
-        "localstorage", 
-        "fp2_addbehavior",
-        "fp2_opendatabase",
-
-        "langsdetected",
-        "jsFonts",
-        "canvastest", 
-
-        "inc", 
-        "gpu", 
-        "gpuimgs", 
-        "cpucores", 
-        "audio",
-        "fp2_cpuclass",
-        "fp2_colordepth",
-        "fp2_pixelratio",
-
-        "ipcity",
-        "ipregion",
-        "ipcountry",
-
-        "fp2_liedlanguages",
-        "fp2_liedresolution",
-        "fp2_liedos",
-        "fp2_liedbrowser"
-        ]
 
     grouped = df.groupby('browserid')
     min_date = min(df['time'])
@@ -694,12 +703,12 @@ def get_device(row):
     # platform is between the first ( and the first ;
     platform = ""
     parsed = user_agents.parse(row['agent'])
-    os = parsed.os.family
-    device = parsed.device.family
-    browser = parsed.browser.family
-    full_os = '{} {}'.format(parsed.os.family, parsed.os.version_string)
-    full_device = '{} {}'.format(parsed.device.family, parsed.device.brand)
-    full_browser = '{} {}'.format(parsed.browser.family, parsed.browser.version_string)
+    os = ignore_non_ascii(parsed.os.family)
+    device = ignore_non_ascii(parsed.device.family)
+    browser = ignore_non_ascii(parsed.browser.family)
+    full_os = '{} {}'.format(ignore_non_ascii(parsed.os.family), ignore_non_ascii(parsed.os.version_string))
+    full_device = '{} {}'.format(ignore_non_ascii(parsed.device.family), ignore_non_ascii(parsed.device.brand))
+    full_browser = '{} {}'.format(ignore_non_ascii(parsed.browser.family), ignore_non_ascii(parsed.browser.version_string))
     keys = ['clientid', 'cpucores']
     for key in keys:
         # we assume that all of the keys are not null
@@ -710,15 +719,10 @@ def get_device(row):
 
     id_str += os 
     id_str += full_device
-    #gpu_type = row['gpu'].split('Direct')[0]
-    #id_str += row['inc']
-    #id_str += gpu_type
     return id_str
 
-
-global ip2location
-# try to use the ip location
 def get_location_dy_ip(ip):
+    # try to use the ip location
     global ip2location
     int_ip = ip2int(ip)
     ip_from = ip2location['ip_from']
@@ -989,12 +993,12 @@ def get_browserid(row):
     # platform is between the first ( and the first ;
     platform = ""
     parsed = user_agents.parse(row['agent'])
-    os = parsed.os.family
-    device = parsed.device.family
-    browser = parsed.browser.family
-    full_os = '{} {}'.format(parsed.os.family, parsed.os.version_string)
-    full_device = '{} {}'.format(parsed.device.family, parsed.device.brand)
-    full_browser = '{} {}'.format(parsed.browser.family, parsed.browser.version_string)
+    os = ignore_non_ascii(parsed.os.family)
+    device = ignore_non_ascii(parsed.device.family)
+    browser = ignore_non_ascii(parsed.browser.family)
+    full_os = '{} {}'.format(os, ignore_non_ascii(parsed.os.version_string))
+    full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
+    full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
     keys = ['clientid', 'cpucores']
     for key in keys:
         # we assume that all of the keys are not null

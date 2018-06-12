@@ -9,6 +9,15 @@ def mobile_or_not(agent):
             return 1
     return 0 
 
+def ignore_non_ascii(str1):
+    """
+    this function will ignore the non ascii and non latin-1 chars
+    """
+    if not str1:
+        return 'None'
+    str1 = str1.encode('latin-1', errors = 'ignore').decode('latin-1')
+    str1 = str1.encode('ascii', errors = 'ignore').decode('ascii')
+    return str1
 # return the os fonts and the conts of the 
 # contributors
 def get_os_fonts(df):
@@ -48,25 +57,25 @@ def get_full_os_from_agent(agent):
 # return the os type
 def get_os_from_agent(agent):
     parsed = user_agents.parse(agent)
-    return parsed.os.family
+    return ignore_non_ascii(parsed.os.family)
 
 def get_browser_from_agent(agent):
     """
     return the browser type by the input agent
     from mar 20 2018, the format of Edge changed
     """
-    return user_agents.parse(agent).browser.family
+    return ignore_non_ascii(user_agents.parse(agent).browser.family)
 
 def get_browser_version(agent):
     # return the string of browser and version number
     # if it's others, just return other
     parsed = user_agents.parse(agent)
-    return parsed.browser.family + ' ' + parsed.browser.version_string
+    return ignore_non_ascii(parsed.browser.family) + ' ' + ignore_non_ascii(parsed.browser.version_string)
 
 def get_os_version(agent):
     # return the string of os and version number
     parsed = user_agents.parse(agent)
-    return parsed.os.family + ' ' + parsed.os.version_string
+    return ignore_non_ascii(parsed.os.family) + ' ' + ignore_non_ascii(parsed.os.version_string)
 
 def get_browser_change(agent_1, agent_2):
     browser_1 = get_browser_from_agent(agent_1)
@@ -79,7 +88,6 @@ def get_browser_change(agent_1, agent_2):
         return 2
     return 0 
 
-
 def get_os_change(agent_1, agent_2):
     os_1 = get_os_from_agent(agent_1)
     os_2 = get_os_from_agent(agent_2)
@@ -90,7 +98,6 @@ def get_os_change(agent_1, agent_2):
     if os_1 != os_2:
         return 2
     return 0
-
 
 def get_agent_change(agent_1, agent_2):
     browser_change = get_browser_change(agent_1, agent_2)

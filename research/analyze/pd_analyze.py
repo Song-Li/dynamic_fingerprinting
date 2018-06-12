@@ -559,9 +559,6 @@ def ip2int(ip):
     res = (16777216 * o[0]) + (65536 * o[1]) + (256 * o[2]) + o[3]
     return res
 
-
-
-
 def get_fine_browserid(row):
     browserid = get_browserid(row)
 

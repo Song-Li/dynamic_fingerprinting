@@ -7,7 +7,6 @@ from django.utils.encoding import smart_str, smart_unicode
 from sqlalchemy import create_engine
 from tqdm import *
 
-
 class Database():
 
     def __init__(self, database_name):
@@ -40,7 +39,6 @@ class Database():
         # return only the first value
         return self.run_sql(sql_str)[0]
 
-
     def run_sql(self, sql_str):
         self.__cursor.execute(sql_str)
         self.__db.commit()
@@ -55,13 +53,14 @@ class Database():
             except:
                 pass
 
-
     def null_generator(string):
         pass
 
-    # we will use the first df as the base df
-    # we'd better put the biggest df at the begining
     def combine_tables(self, feature_list, dfs, aim_table):
+        """
+        we will use the first df as the base df
+        we'd better put the biggest df at the begining
+        """
         for idx in range(len(dfs)):
             dfs[idx] = dfs[idx][feature_list]
         big_df = pd.concat(dfs)
@@ -136,8 +135,6 @@ class Database():
                 device_str = get_device(df.iloc[idx])
                 df.at[idx, 'deviceid'] = device_str 
             except:
-                print (idx)
-                print (df.at[idx, 'id'])
                 print (df.iloc[idx])
             # hashlib.sha256(device_str).hexdigest()
             df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
@@ -147,7 +144,7 @@ class Database():
             # here we need to generate the dybrowserid
             # for safari user,we use browserid as dybrowserid
             # for other users, we use label(cookie)
-            if df.at[idx, 'browser'] == 'safari':
+            if 'Safari' in df.at[idx, 'browser']:
                 df.at[idx, 'dybrowserid'] = df.at[idx, 'browserid']
             else:
                 df.at[idx, 'dybrowserid'] = df.at[idx, 'label']
@@ -200,6 +197,7 @@ class Database():
         return map_res
 
     def export_sql(self, df, table_name):
+        df.to_csv('./textout.csv', encoding = 'utf-8')
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
     def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):
@@ -224,7 +222,7 @@ class Database():
             limit_str = ""
         else:
             limit_str = ' limit {}'.format(limit)
-        df = pd.read_sql('select {} from {} {};'.format(feature_str, table_name, limit_str), con=self.get_db())    
+        df = pd.read_sql('select {} from {} {};'.format(feature_str, table_name, limit_str), con=self.get_db())
         print ('finished loading {}'.format(table_name))
         return df
 
