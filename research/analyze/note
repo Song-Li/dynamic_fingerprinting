@@ -1,3 +1,8 @@
 change browser detection
 change os detection
 combine IP, time, label and browserid
+
+1521 changed because of IP and label
+non_mac_dybrowserid: lower: 1083, upper: 61320, total: 255092
+non_mac_browserid: lower: 1113, upper: 61367, total: 255058
+1hr_non_mac_dybrowserid: lower: 1049, upper: 61244, total: 255297

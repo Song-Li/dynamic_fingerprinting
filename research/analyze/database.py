@@ -102,7 +102,7 @@ class Database():
         df.to_sql('pandas_longfeatures', self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-    def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator, get_browserid =  null_generator, aim_table = 'pandas_features'):
+    def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator, get_browserid =  null_generator, get_dybrowserid = null_generator, aim_table = 'pandas_features'):
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]
         #df = df[pd.notnull(df['gpuimgs'])]
@@ -197,7 +197,6 @@ class Database():
         return map_res
 
     def export_sql(self, df, table_name):
-        df.to_csv('./textout.csv', encoding = 'utf-8')
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
     def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):

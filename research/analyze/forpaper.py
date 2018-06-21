@@ -22,7 +22,7 @@ def generate_changes_database(db, feature_list = feature_list):
     """
     browserid = 'dybrowserid'
     df = db.load_data(feature_list = ["*"], 
-            table_name = "pandas_features")
+            table_name = "pandas_features_split")
     df = filter_less_than_n(df, 5)
 
     # add label changes to database
@@ -59,7 +59,7 @@ def generate_changes_database(db, feature_list = feature_list):
                     maps[feature]['os'].append(get_os_from_agent(row['agent']))
             pre_row = row
 
-    db = Database('filteredchanges{}'.format(browserid))
+    db = Database('filteredchanges{}_split'.format(browserid))
     for feature in feature_list:
         print feature
         try:
@@ -624,40 +624,65 @@ def round_time_to_hour(df):
         df.at[idx, 'time'] = df.at[idx, 'time'].replace(microsecond = 0, second = 0, minute = 0)
     return df
 
+def tdhours(td):
+    """
+    return the timedelta hours
+    """
+    return td.days * 24 + td.seconds//3600
+
 #NOTE not tested
-def life_time_distribution(df, feature_name = 'IP'):
+def life_time_distribution(db, feature_name = 'IP'):
     """
     get the life time distribution of a feature in hours
     input the df and feature name
     output a list with number of related life time
     """
     # for research, filter less than 5
-    df = filter_less_than_n(df, 5)
+    df = db.load_data(feature_list = ['os', 'label', 'IP', 'time', 'browserid'], table_name = 'pandas_features')
+    # CONSIDER NON mac only
+    df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
+
+    min_date = min(df['time'])
+    max_date = max(df['time'])
+    df = filter_less_than_n(df, 4)
     
     # we use the browserid as current ground truth
+    # try to use label as ground truth
     grouped = df.groupby('browserid')
     round_time_to_hour(df)
     min_date = min(df['time'])
     max_date = max(df['time'])
-    length = (max_date - min_date).hours + 3
+    length = tdhours(max_date - min_date) + 3
     life_time = [0 for i in range(length + 10)]
+
+    #this part is userd for change together with label
+    together_life_time = [0 for i in range(length + 10)]
+    all_visit = [0 for i in range(length + 10)]
+
     
     for browserid, cur_group in tqdm(grouped):
         pre_feature = ""
+        pre_label = ""
         pre_time = -1
         for idx, row in cur_group.iterrows():
             if pre_feature == "":
                 pre_feature = row[feature_name]
                 pre_time = row['time']
+                pre_label = row['label']
                 continue
 
+            cur_delt = tdhours(row['time'] - pre_time)
             if pre_feature != row[feature_name]:
-                cur_delt = (row['time'] - pre_time).hours
                 life_time[cur_delt] += 1
-                pre_feature[feature_name] = row[feature_name]
-                pre_time[feature_name] = row['time']
+                if row['label'] != pre_label:
+                    together_life_time[cur_delt] += 1
 
-    return life_time
+            pre_feature = row[feature_name]
+            pre_time = row['time']
+            pre_label = row['label']
+            all_visit[cur_delt] += 1
+
+    return all_visit, life_time, together_life_time
 
 def life_time_median_paper(db):
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
@@ -768,30 +793,26 @@ def verify_browserid_by_cookie():
     the upper bound is the percentage of browserids with more than one cookies
     the lower bound is the percentage of browserids with fliped cookies
     """
+    browserid = 'dybrowserid'
     db = Database('forpaper')
-    df = db.load_data(feature_list = ['browserid', 'label', 'os', 'browser'], table_name = 'pandas_features')
+    df = db.load_data(feature_list = [browserid, 'label', 'os', 'browser'], table_name = 'pandas_features_split')
 
     #we can add filter here
     df = filter_less_than_n(df, 5)
 
     #here we can filter the unrelated os
-    """
-    filtered_list = [
-            'iphone',
-            'ipad',
-            'mac'
-            ]
-    df = df[~df['os'].isin(filtered_list)] 
+    df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
     """
     filtered_list = [
             'safari'
             ]
     df = df[~df['browser'].isin(filtered_list)]
+    """
 
-    grouped = df.groupby('browserid')
+    grouped = df.groupby(browserid)
     lower_wrong_browserid = []
     upper_wrong_browserid = []
-    total_number = df['browserid'].nunique()
+    total_number = df[browserid].nunique()
 
     for key, cur_group in tqdm(grouped):
         appeared = set()
@@ -802,7 +823,7 @@ def verify_browserid_by_cookie():
             if pre_cookie != row['label']:
                 pre_cookie = row['label']
                 if row['label'] in appeared:
-                    lower_wrong_browserid.append(row['browserid'])
+                    lower_wrong_browserid.append(row[browserid])
                     break
                 appeared.add(row['label'])
     return lower_wrong_browserid, upper_wrong_browserid, total_number
@@ -815,15 +836,15 @@ def generate_databases():
     df2 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round3')
     df3 = db.load_data(feature_list = ['*'], table_name = "features")
+    '''
     db = Database('round4')
     df4 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round5')
     df5 = db.load_data(feature_list = ['*'], table_name = "features")
     #aim_db.combine_tables(ori_long_feature_list, [df2, df3, df4], 'longfeatures')
     aim_db = Database('forpaper')
-    aim_db.combine_tables(ori_feature_list, [df3, df4, df5], 'features')
+    aim_db.combine_tables(ori_feature_list, [df4, df5, df6], 'features')
     return 
-    '''
     #df2 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
     db = Database('uniquemachine')
     aim_db = Database('forpaper')
@@ -1278,9 +1299,9 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
     return how many feature1 has 1 feature2, 2 feature2 etc..
     we assume the max number is 499
     """
-    df = db.load_data(feature_list = [feature1, feature2, 'browser'], table_name = 'pandas_features')
+    df = db.load_data(feature_list = [feature1, feature2, 'os'], table_name = 'pandas_features_split')
     # we filter sth
-    #df = filter_df(df, 'browser', filtered_list = ['safari'])
+    df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
     grouped = df.groupby(feature1)
     # we assume the max number is 499
     res = [0 for i in range(5000)]
@@ -1300,16 +1321,62 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
     res = res[:max_idx + 1]
     return res
 
+def rebuild_browserid():
+    """
+    this function will rebuild the database based on IP
+    if IP and label changes in a sort time 
+    split a browserid into multiple browserids
+    """
+    db = Database('forpaper')
+    df = db.load_data(table_name = 'pandas_features')
+    # after_map will store the changed dybrowserid
+    after_map = set()
+    grouped = df.groupby('browserid')
+    for key, group in tqdm(grouped):
+        pre_time = ""
+        pre_label = ""
+        pre_IP = ""
+        for idx, row in group.iterrows():
+            if pre_time == "":
+                pre_time = row['time']
+                pre_label = row['label']
+                pre_IP = row['IP']
+                continue
+            if row['label'] != pre_label and row['IP'] != pre_IP:
+                timedelta = row['time'] - pre_time
+                # here we use 1 hour 
+                if timedelta.days == 0 and timedelta.seconds < 3600:
+                    after_map.add(row['label'])
+            pre_time = row['time']
+            pre_label = row['label']
+            pre_IP = row['IP']
+    print("generating dybrowserid")
+    print ("{} changed browserid".format(len(after_map)))
+
+    for idx in tqdm(df.index):
+        if df.at[idx, 'label'] in after_map:
+            df.at[idx, 'dybrowserid'] = df.at[idx, 'label']
+        else:
+            df.at[idx, 'dybrowserid'] = df.at[idx, 'browserid']
+
+    db.export_sql(df, 'pandas_features_split')
+
 def main():
-    #db = Database('forpaper')
-    #res = feature2feature_distribution('clientid', 'deviceid', db)
-    #list2file(res, './clientid2deviceid.distribution', index = True)
+    #rebuild_browserid()
+    db = Database('forpaper')
+    #all_visit, res, together_res = life_time_distribution(db, feature_name = 'label')
+    res = feature2feature_distribution('dybrowserid', 'label', db)
+    list2file(res, './distributions/1hr_dybrowserid_label.distribution', index = True)
+    #list2file(together_res, './distributions/browserid_IPlifetimelabel.distribution', index = True)
+    #list2file(all_visit, './distributions/browserid_all_visit_lifetime.distribution', index = True)
     """
     all_column_names = db.get_column_names('pandas_features')
     res = change_together(db, 'label', user_list = None, to_feature_list = all_column_names)
     for r in res:
         print '{}: {}'.format(r, res[r])
     """
+    #db = Database('forpaper')
+   # generate_changes_database(db)
     #df = db.load_data(feature_list = [])
     #draw_feature_number_by_date('browser', percentage = True)
     #new_vs_return_by_date(db, percentage = True)
@@ -1369,7 +1436,7 @@ def main():
     #maps = generate_changes_database(db)
     #df = db.load_data(feature_list = long_feature_list, table_name = "pandas_longfeatures")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
-    generate_databases()
+    #generate_databases()
     #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #df = filter_less_than_n(df, 7)
