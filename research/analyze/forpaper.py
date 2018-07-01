@@ -103,6 +103,9 @@ def remove_flip_users(df):
     return df[~df['browserid'].isin(flip_list)] 
 
 def get_feature_percentage(group, key):
+    """
+    get the number of users of each value of the key
+    """
     users = {} 
     num_users = group['browserid'].nunique()
     for idx, row in group.iterrows():
@@ -798,7 +801,7 @@ def verify_browserid_by_cookie():
     df = db.load_data(feature_list = [browserid, 'label', 'os', 'browser'], table_name = 'pandas_features_split')
 
     #we can add filter here
-    df = filter_less_than_n(df, 5)
+    df = filter_less_than_n(df, 2)
 
     #here we can filter the unrelated os
     df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
@@ -1300,6 +1303,8 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
     we assume the max number is 499
     """
     df = db.load_data(feature_list = [feature1, feature2, 'os'], table_name = 'pandas_features_split')
+    df = filter_less_than_n(df, 2)
+    df = keep_success_installed_cookie(df)
     # we filter sth
     df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
     grouped = df.groupby(feature1)
@@ -1315,7 +1320,7 @@ def feature2feature_distribution(feature1, feature2, db, percentage = True):
     max_idx = -1
     for i in range(5000):
         if percentage:
-            res[i] = float(res[i]) / float(total_num)
+            res[i] = [float(res[i]) / float(total_num), res[i], total_num]
         if res[i] != 0:
             max_idx = i
     res = res[:max_idx + 1]
@@ -1344,8 +1349,9 @@ def rebuild_browserid():
                 continue
             if row['label'] != pre_label and row['IP'] != pre_IP:
                 timedelta = row['time'] - pre_time
-                # here we use 1 hour 
-                if timedelta.days == 0 and timedelta.seconds < 3600:
+                # here we use 1 day 
+                if timedelta.days == 0:
+#and timedelta.seconds < 3600:
                     after_map.add(row['label'])
             pre_time = row['time']
             pre_label = row['label']
@@ -1361,12 +1367,90 @@ def rebuild_browserid():
 
     db.export_sql(df, 'pandas_features_split')
 
+def keep_success_installed_cookie(df):
+    """
+    this function will keep the browserids which successfully installed cookie
+    if same cookie appears more tha twice, we will keep this browserid
+    """
+
+    print ("keeping success installed cookie")
+    before_size = df.size
+    browserid = 'browserid'
+    # get the cookie that appears more than 1 times
+    vc = df.label.value_counts()
+    vc = vc[vc > 1].index
+
+    accepted_browserid = []
+
+    grouped = df.groupby(browserid)
+    for key, group in tqdm(grouped):
+        for idx, row in group.iterrows():
+            if row['label'] in vc:
+                accepted_browserid.append(key)
+                break
+
+    df = df[df[browserid].isin(accepted_browserid)]
+    print ("keep {} records out of {} records".format(df.size, before_size))
+    return df
+
+def keep_df(df, feature_name, keep_list = ['']):
+    """
+    this function will keep the records that with the value in the keep list
+    """
+    df = df[df[feature_name].isin(keep_list)] 
+    return df
+
+def get_feature_distribution(df, feature_name):
+    """
+    this function will get the number of different value of a feature
+    return a map
+    """
+    res = df.groupby(feature_name).count()
+    print res
+
+def morethan2_vs_success_installed(df):
+    """
+    return the size of visit more than once and the successfully installed cookie users
+    """
+    #df = keep_df(df, 'os', keep_list = ['iOS'])
+    # this function will keep the users who have more than one cookie
+
+    df = filter_df(df, 'os', filtered_list= ['iOS', 'Mac OS X'])
+    multi_cookie = keep_multi_cookie(df)
+    print ("multi cookie: {}".format(multi_cookie['browserid'].nunique()))
+    res = get_feature_percentage(multi_cookie, 'browser')
+    print res
+    #df = keep_df(df, 'os', keep_list = ['Mac OS X'])
+    #df = keep_df(df, 'browser', keep_list = ['Safari'])
+    #df = filter_df(df, 'browser', filtered_list= ['Safari'])
+
+    df = filter_less_than_n(df, 2)
+    morethan2_size = df['browserid'].nunique()
+    df = keep_success_installed_cookie(df)
+    success = df['browserid'].nunique()
+    return morethan2_size, success
+
+def keep_multi_cookie(df):
+    """
+    this function will erase keep the users who has more than one cookie
+    """
+    keeped = []
+    grouped = df.groupby('browserid')
+    for key, group in tqdm(grouped):
+        if group['label'].nunique() > 1:
+            keeped.append(key)
+    return df[df['browserid'].isin(keeped)] 
+
 def main():
     #rebuild_browserid()
     db = Database('forpaper')
+    df = db.load_data(feature_list = ['agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
+    size1, size2 = morethan2_vs_success_installed(df)
+    print ("more than 2 size: {} success size: {}".format(size1, size2))
     #all_visit, res, together_res = life_time_distribution(db, feature_name = 'label')
-    res = feature2feature_distribution('dybrowserid', 'label', db)
-    list2file(res, './distributions/1hr_dybrowserid_label.distribution', index = True)
+    #res = feature2feature_distribution('browserid', 'label', db)
+    #list2file(res, './distributions/truelabel_browserid_label.distribution', index = True)
+    #list2file(res, './distributions/clientid_label.distribution', index = True)
     #list2file(together_res, './distributions/browserid_IPlifetimelabel.distribution', index = True)
     #list2file(all_visit, './distributions/browserid_all_visit_lifetime.distribution', index = True)
     """
@@ -1376,7 +1460,7 @@ def main():
         print '{}: {}'.format(r, res[r])
     """
     #db = Database('forpaper')
-   # generate_changes_database(db)
+    #generate_changes_database(db)
     #df = db.load_data(feature_list = [])
     #draw_feature_number_by_date('browser', percentage = True)
     #new_vs_return_by_date(db, percentage = True)
@@ -1384,7 +1468,7 @@ def main():
     #db = Database('filteredchangesbrowserid')
     #all_flip_checking(db, feature_list)
     #lower_wrong_browserids,upper_wrong_browserid, total_number = verify_browserid_by_cookie()
-    #list2file(upper_wrong_browserid, './cookiechanged.dat', line_type = 'item')
+    #list2file(lower_wrong_browserids, './cookieflipped.dat', line_type = 'item')
     #print ('lower: {}, upper: {}, total: {}'.format(len(lower_wrong_browserids), len(upper_wrong_browserid), total_number))
     #db = Database('forpaper')
     #generate_changes_database(db)
