@@ -1066,7 +1066,7 @@ def check_list_diff(list1, list2):
     the format is [[key1, val1], [key2, val2]...]
     compare the item in list1 with list2
     the item will keep the sequence of list1
-    return the [item, index_diff, value_diff]
+    return the [item, index_diff, value_diff, value_diff / list1_value]
     """
     index1 = {}
     index2 = {}
@@ -1092,7 +1092,9 @@ def check_list_diff(list1, list2):
             index_2 = index2[key]
             index_diff = index_2 - index_1
             value_diff = list2[index_2][1] - list1[index_1][1]
-            res.append([key, index_diff, value_diff])
+            if list1[index_1][1] == 0:
+                continue
+            res.append([key, list1[index_1][1], list2[index_2][1], index_diff, value_diff, float(value_diff) / float(list1[index_1][1])])
     return res
 
 def get_all_user_list(df):
@@ -1400,14 +1402,6 @@ def keep_df(df, feature_name, keep_list = ['']):
     df = df[df[feature_name].isin(keep_list)] 
     return df
 
-def get_feature_distribution(df, feature_name):
-    """
-    this function will get the number of different value of a feature
-    return a map
-    """
-    res = df.groupby(feature_name).count()
-    print res
-
 def morethan2_vs_success_installed(df):
     """
     return the size of visit more than once and the successfully installed cookie users
@@ -1416,10 +1410,55 @@ def morethan2_vs_success_installed(df):
     # this function will keep the users who have more than one cookie
 
     df = filter_df(df, 'os', filtered_list= ['iOS', 'Mac OS X'])
+    #df = keep_df(df, 'os', keep_list = ['iOS'])
+    browsername = 'Firefox'
+    df = keep_df(df, 'browser', keep_list = [browsername])
+    # filter the none plugin records
+    df = filter_df(df, 'plugins', filtered_list = [''])
+
+    total_size = len(df.index)
     multi_cookie = keep_multi_cookie(df)
-    print ("multi cookie: {}".format(multi_cookie['browserid'].nunique()))
+    multi_size = len(multi_cookie.index)
+    
+    #print ("multi cookie: {}".format(multi_cookie['browserid'].nunique()))
+    """
+    res = get_feature_distribution(df, 'agent', func = get_browser_version)
+    all_res = []
+    for item in res:
+        all_res.append([item[0], float(item[1]) / float(total_size), item[1]])
+        list2file(all_res, './cookieanly/{}_sys_version.distribution'.format(browsername))
+    """
+    res = get_feature_distribution(multi_cookie, 'plugins', func = split_func_by_sep)
+    multi_res = []
+    for item in res:
+        multi_res.append([item[0], float(item[1]) / float(multi_size), item[1]])
+        list2file(multi_res, './cookieanly/{}_noset_delete_plugin.distribution'.format(browsername))
+
+    res = get_feature_distribution(df, 'plugins', func = split_func_by_sep)
+    all_res = []
+    for item in res:
+        all_res.append([item[0], float(item[1]) / float(total_size), item[1]])
+        list2file(all_res, './cookieanly/{}_noset_all_plugin.distribution'.format(browsername))
+
+
+    res = check_list_diff(all_res, multi_res)
+    list2file(res, './cookieanly/{}_noset_all2delete.diff'.format(browsername))
+
+    """
+    success_installed_df = keep_success_installed_cookie(df)
+    res = get_feature_distribution(success_installed_df, 'agent', func = get_browser_version)
+    installed_res = []
+    installed_size = len(success_installed_df.index)
+    for item in res:
+        installed_res.append([item[0], float(item[1]) / float(installed_size), item[1]])
+        list2file(installed_res, './cookieanly/{}_installed_os_version.distribution'.format(browsername))
+    res = check_list_diff(all_res, installed_res)
+    list2file(res, './cookieanly/{}_all2install.diff'.format(browsername))
+    """
+    return 
+
     res = get_feature_percentage(multi_cookie, 'browser')
-    print res
+
     #df = keep_df(df, 'os', keep_list = ['Mac OS X'])
     #df = keep_df(df, 'browser', keep_list = ['Safari'])
     #df = filter_df(df, 'browser', filtered_list= ['Safari'])
@@ -1441,10 +1480,48 @@ def keep_multi_cookie(df):
             keeped.append(key)
     return df[df['browserid'].isin(keeped)] 
 
+def split_func_by_sep(string, sep = '~'):
+    return string.split(sep) 
+
+def get_feature_distribution(df, feature_name, func = None):
+    """
+    this function will get the number of different value of a feature
+    return a map
+    """
+    if func == None:
+        res = df.groupby(feature_name).count()
+        return res
+
+    res = {}
+    num = 0
+    for idx, row in df.iterrows():
+        num += 1
+        cur_list = func(row[feature_name])
+
+        # if this is a string
+        if type(cur_list) != type([]):
+            if cur_list in res:
+                res[cur_list] += 1
+            else:
+                res[cur_list] = 0
+            continue
+
+        # make sure every plugin only appear once
+        # if not a string, it should be a list
+        #cur_list = set(cur_list)
+
+        for item in cur_list:
+            if item in res:
+                res[item] += 1
+            else:
+                res[item] = 0
+    sorted_dict = sorted(res.iteritems(), key=lambda (k,v): (-v,k))
+    return sorted_dict
+
 def main():
     #rebuild_browserid()
     db = Database('forpaper')
-    df = db.load_data(feature_list = ['agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
+    df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
     size1, size2 = morethan2_vs_success_installed(df)
     print ("more than 2 size: {} success size: {}".format(size1, size2))
     #all_visit, res, together_res = life_time_distribution(db, feature_name = 'label')
