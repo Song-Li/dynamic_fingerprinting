@@ -6,3 +6,9 @@ combine IP, time, label and browserid
 non_mac_dybrowserid: lower: 1083, upper: 61320, total: 255092
 non_mac_browserid: lower: 1113, upper: 61367, total: 255058
 1hr_non_mac_dybrowserid: lower: 1049, upper: 61244, total: 255297
+
+
+07/26/2018:
+combine database
+read paper: Fp-Scanner: The Privacy Implications of Browser Fingerprint Inconsistencies
+

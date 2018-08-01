@@ -77,6 +77,19 @@ def get_os_version(agent):
     parsed = user_agents.parse(agent)
     return ignore_non_ascii(parsed.os.family) + ' ' + ignore_non_ascii(parsed.os.version_string)
 
+def get_all_info(agent):
+    """
+    return all info including: os, os_version, browser, browser_version, device
+    """
+    parsed = user_agents.parse(agent)
+    os = ignore_non_ascii(parsed.os.family)
+    device = ignore_non_ascii(parsed.device.family)
+    browser = ignore_non_ascii(parsed.browser.family)
+    os_version = ignore_non_ascii(parsed.os.version_string)
+    browser_version = ignore_non_ascii(parsed.browser.version_string)
+    return os, os_version, browser, browser_version, device
+
+
 def get_browser_change(agent_1, agent_2):
     browser_1 = get_browser_from_agent(agent_1)
     browser_2 = get_browser_from_agent(agent_2)

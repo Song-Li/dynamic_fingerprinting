@@ -19,11 +19,12 @@ def generate_changes_database(db, feature_list = feature_list):
     """
     this function will generate the changes database
     the database should be generated before the call of this function
+    we will keep users who visit more than 3 times
     """
-    browserid = 'dybrowserid'
+    browserid = 'browserid'
     df = db.load_data(feature_list = ["*"], 
-            table_name = "pandas_features_split")
-    df = filter_less_than_n(df, 5)
+            table_name = "pandas_features")
+    df = filter_less_than_n(df, 3)
 
     # add label changes to database
     if 'label' not in feature_list:
@@ -59,7 +60,7 @@ def generate_changes_database(db, feature_list = feature_list):
                     maps[feature]['os'].append(get_os_from_agent(row['agent']))
             pre_row = row
 
-    db = Database('filteredchanges{}_split'.format(browserid))
+    db = Database('filteredchanges{}'.format(browserid))
     for feature in feature_list:
         print feature
         try:
@@ -119,6 +120,9 @@ def get_feature_percentage(group, key):
     return res 
 
 def feature_change_by_date_paper(feature_name, df):
+    """
+    take the name of the feature and the changes df
+    """
     df = remove_flip_users(df)
     print ("{} users remain".format(df['browserid'].nunique()))
     try:
@@ -141,7 +145,6 @@ def feature_change_by_date_paper(feature_name, df):
     cnt = 0
     sep = ' '
 
-    """
     for group in sorted_group:
         if feature_name == 'langsdetected' or feature_name == 'jsFonts':
             sep = '_'
@@ -158,8 +161,7 @@ def feature_change_by_date_paper(feature_name, df):
         if cnt > 10:
             break
 
-    return 
-    """
+    print ('all changes finished')
 
     for date in datelist:
         dates_data[date] = {}
@@ -832,38 +834,30 @@ def verify_browserid_by_cookie():
     return lower_wrong_browserid, upper_wrong_browserid, total_number
 
 def generate_databases():
-    #db = Database('round1')
-    #df1 = load_data(load = True, feature_list = long_feature_list, table_name = "features", db = db)
-    '''
-    db = Database('round2')
-    df2 = db.load_data(feature_list = ['*'], table_name = "features")
-    db = Database('round3')
-    df3 = db.load_data(feature_list = ['*'], table_name = "features")
-    '''
+    """
+    generate forpaper database based on round4 and round5 database
+    """
+    """
     db = Database('round4')
     df4 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round5')
     df5 = db.load_data(feature_list = ['*'], table_name = "features")
-    #aim_db.combine_tables(ori_long_feature_list, [df2, df3, df4], 'longfeatures')
+
     aim_db = Database('forpaper')
-    aim_db.combine_tables(ori_feature_list, [df4, df5, df6], 'features')
+    aim_db.combine_tables(db.get_column_names('features'), [df4, df5], 'features')
     return 
-    #df2 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
+    """
     db = Database('uniquemachine')
     aim_db = Database('forpaper')
     global ip2location   
     ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
     print ("ip2location data loaded")
-    df3 = aim_db.load_data(feature_list = ori_feature_list, table_name = "features")
+    df3 = aim_db.load_data(table_name = "features")
     aim_db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_features')
 
     return 
-    df3 = aim_db.load_data(feature_list = ori_long_feature_list, table_name = "longfeatures")
-    aim_db.clean_sql(long_feature_list, df3, generator = get_location_dy_ip, 
-            get_device = get_device, get_browserid = get_browserid,
-            aim_table = 'pandas_longfeatures')
 
 def one_change2other_change(from_feature, to_feature, file_name):
     """
@@ -1031,7 +1025,7 @@ def get_browserid(row):
         except:
             pass
 
-    id_str += full_os 
+    id_str += os#full_os 
     id_str += full_device
     id_str += browser
     gpu_type = row['gpu'].split('Direct')[0]
@@ -1367,7 +1361,7 @@ def rebuild_browserid():
         else:
             df.at[idx, 'dybrowserid'] = df.at[idx, 'browserid']
 
-    db.export_sql(df, 'pandas_features_split')
+    db.export_sql(df, 'pandas_features')
 
 def keep_success_installed_cookie(df):
     """
@@ -1518,12 +1512,64 @@ def get_feature_distribution(df, feature_name, func = None):
     sorted_dict = sorted(res.iteritems(), key=lambda (k,v): (-v,k))
     return sorted_dict
 
+def get_plugin_of_browserid(df):
+    """
+    get the total list of installed plugin of each browserid
+    """
+    plugins = set()
+    for idx, row in df.iterrows():
+        plugins.update(row['plugins'].split('~'))
+    return plugins
+
+def plugin2cookie_delete(df): 
+    """
+    get the cookie deleting percentage of each plugin
+    """
+    plug_res = {}
+
+    multi_cookie = keep_multi_cookie(df)
+    browserids = multi_cookie['browserid'].unique()
+    single_cookie = filter_df(df, 'browserid', filtered_list = browserids)
+
+    grouped = multi_cookie.groupby('browserid')
+    for key, cur_group in tqdm(grouped):
+        cur_plug = get_plugin_of_browserid(cur_group)
+        for plug in cur_plug:
+            if plug not in plug_res:
+                # single, multi, total, deleting percentage
+                plug_res[plug] = [0, 0, 0, 0.0]
+
+            plug_res[plug][1] += 1
+            plug_res[plug][2] += 1
+
+
+    grouped = single_cookie.groupby('browserid')
+    for key, cur_group in tqdm(grouped):
+        cur_plug = get_plugin_of_browserid(cur_group)
+        for plug in cur_plug:
+            if plug not in plug_res:
+                # single, multi, total
+                plug_res[plug] = [0, 0, 0, 0.0]
+
+            plug_res[plug][0] += 1
+            plug_res[plug][2] += 1
+
+    for plug in plug_res:
+        plug_res[plug][3] = float(plug_res[plug][1]) / float(plug_res[plug][2])
+
+    # sort dict by percentage
+    sorted_dict = sorted(plug_res.iteritems(), key=lambda (k,v): (-v[3],k))
+    return sorted_dict 
+
 def main():
-    #rebuild_browserid()
-    db = Database('forpaper')
-    df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
-    size1, size2 = morethan2_vs_success_installed(df)
-    print ("more than 2 size: {} success size: {}".format(size1, size2))
+    #generate_databases()
+    #db = Database('forpaper')
+    #db.generate_new_column('browserid','pandas_features', get_browserid, generator_feature = 'all_features')
+    #df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
+    #plug2cookie = plugin2cookie_delete(df)
+    #list2file(plug2cookie, './plugin2cookie_deleting', index = True)
+    #size1, size2 = morethan2_vs_success_installed(df)
+    #print ("more than 2 size: {} success size: {}".format(size1, size2))
     #all_visit, res, together_res = life_time_distribution(db, feature_name = 'label')
     #res = feature2feature_distribution('browserid', 'label', db)
     #list2file(res, './distributions/truelabel_browserid_label.distribution', index = True)
@@ -1536,8 +1582,8 @@ def main():
     for r in res:
         print '{}: {}'.format(r, res[r])
     """
-    #db = Database('forpaper')
-    #generate_changes_database(db)
+    db = Database('forpaper')
+    generate_changes_database(db)
     #df = db.load_data(feature_list = [])
     #draw_feature_number_by_date('browser', percentage = True)
     #new_vs_return_by_date(db, percentage = True)
@@ -1585,7 +1631,7 @@ def main():
     """
     #for val in res:
     #    print val
-    #db = Database('filteredchangesdybrowserid')
+    #db = Database('filteredchangesbrowserid')
     #get_all_feature_change_by_date_paper(db)
     #feature = 'agent'
     #print 'generating {}'.format(feature)
@@ -1595,7 +1641,7 @@ def main():
     #remove_flip_users(df)
     #db = Database('forpaper')
     #maps = generate_changes_database(db)
-    #df = db.load_data(feature_list = long_feature_list, table_name = "pandas_longfeatures")
+    #df = db.load_data(table_name = "pandas_features_split")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
     #generate_databases()
     #life_time_distribution_paper(db)

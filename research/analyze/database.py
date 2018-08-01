@@ -68,46 +68,48 @@ class Database():
         big_df.to_sql(aim_table, self.get_db_engine(), if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-    def generate_browserid(self, feature_list, df, get_device = null_generator, get_browserid = null_generator):
-        df['deviceid'] = 'deviceid'
+    def generate_browserid(self, df, get_browserid = null_generator, aim_table = 'pandas_features'):
+        """
+        generate the browserid of a df
+        """
         df['browserid'] = 'browserid'
-        df['browser'] = 'browser'
-        # remove the null rows
-        df = df[pd.notnull(df['jsFonts'])]
-        #df = df[pd.notnull(df['gpuimgs'])]
-        df = df[df.jsFonts != '']
-        df = df[df.langsdetected != '']
-        df = df.reset_index()
         for idx in tqdm(df.index):
-            try:
-                device_str = get_device(df.iloc[idx])
-                df.at[idx, 'deviceid'] = device_str 
-            except:
-                print (idx)
-                print (df.at[idx, 'id'])
-                print (df.iloc[idx])
-            # hashlib.sha256(device_str).hexdigest()
-            df.at[idx, 'browser'] = get_browser_from_agent(df.at[idx, 'agent'])
-            browser_str = get_browserid(df.iloc[idx]) + df.at[idx, 'browser']
+            browser_str = get_browserid(df.iloc[idx])
             df.at[idx, 'browserid'] = browser_str
 
-            res_str = ""
-            for feature in feature_list:
-                res_str += str(df.at[idx, feature] )
-
-            hash_str = hashlib.sha256(res_str).hexdigest()
-            df.at[idx, 'browserfingerprint'] = hash_str
-
         print ("Finished calculation, start to put back to csv")
-        df.to_sql('pandas_longfeatures', self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
+        df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
+    def generate_new_column(self, column_name, table_name, generator, generator_feature = 'agent'):
+        """
+        input the generator of the column_name, add a new column to the table
+        """
+        df = self.load_data(table_name = table_name)
+        df[column_name] = column_name
+        if generator_feature == 'all_features':
+            for idx in tqdm(df.index):
+                df.at[idx, column_name] = generator(df.iloc[idx])
+        else:
+            for idx in tqdm(df.index):
+                df.at[idx, column_name] = generator(df.at[idx, generator_feature])
+        print ("Finished calculation, start to put back to sql")
+        df.to_sql(table_name, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
+        print ("Finished push to sql")
+
     def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator, get_browserid =  null_generator, get_dybrowserid = null_generator, aim_table = 'pandas_features'):
+        """
+        input the methods to generate browserid, deviceid and dybrowserid
+        generate all needed info of each row
+        including: ipcity, ipregion, ipcountry, latitude, longitude, os, os version, 
+        browser, browser version,
+        """
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]
         #df = df[pd.notnull(df['gpuimgs'])]
         df = df[df.jsFonts != '']
         df = df[df.langsdetected != '']
+        df = df[df.clientid != 'Not Set']
         # add columns
         df['ipcity'] = 'ipcity'
         df['ipregion'] = 'ipregion'
@@ -119,6 +121,9 @@ class Database():
         df['dybrowserid'] = 'dybrowserid'
         df['browser'] = 'browser'
         df['os'] = 'os'
+        df['device'] = 'device'
+        df['osversion'] = 'osversion'
+        df['browserversion'] = 'browserversion'
         # regenerate ip realted features
         # and generate the browser finergrpint
         df = df.reset_index()
@@ -149,8 +154,8 @@ class Database():
             else:
                 df.at[idx, 'dybrowserid'] = df.at[idx, 'label']
 
-            # add os value to pandas table
-            df.at[idx, 'os'] = get_os_from_agent(df.at[idx, 'agent'])
+            # add other value to pandas table
+            df.at[idx, 'os'], df.at[idx, 'osversion'], df.at[idx, 'browser'], df.at[idx, 'browserversion'], df.at[idx, 'device'] = get_all_info(df.at[idx, 'agent'])
 
             res_str = ""
             for feature in feature_list:
