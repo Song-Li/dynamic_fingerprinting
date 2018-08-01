@@ -1565,6 +1565,8 @@ def main():
     #generate_databases()
     #db = Database('forpaper')
     #db.generate_new_column('browserid','pandas_features', get_browserid, generator_feature = 'all_features')
+    db = Database('filteredchangesbrowserid')
+    get_all_feature_change_by_date_paper(db)
     #df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
     #plug2cookie = plugin2cookie_delete(df)
     #list2file(plug2cookie, './plugin2cookie_deleting', index = True)
@@ -1582,8 +1584,8 @@ def main():
     for r in res:
         print '{}: {}'.format(r, res[r])
     """
-    db = Database('forpaper')
-    generate_changes_database(db)
+    #db = Database('forpaper')
+    #generate_changes_database(db)
     #df = db.load_data(feature_list = [])
     #draw_feature_number_by_date('browser', percentage = True)
     #new_vs_return_by_date(db, percentage = True)
@@ -1631,8 +1633,6 @@ def main():
     """
     #for val in res:
     #    print val
-    #db = Database('filteredchangesbrowserid')
-    #get_all_feature_change_by_date_paper(db)
     #feature = 'agent'
     #print 'generating {}'.format(feature)
     #df = load_data(load = True, feature_list = ["*"], 
