@@ -1,9 +1,0 @@
-agent agent (set(['Version/4.0', 'wv)', 'Build/NRD90M;']), set(['Build/NRD90M)']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-language language (set(['de-DE,en-US;q=0.9']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-
-canvastest canvastest (set(['b7704ec9aace7c3b5115e757a88f87bc2200e143']), set(['391219fe2b4ddd613eda0abc5de071cd17af7bab']))
-
-====================================

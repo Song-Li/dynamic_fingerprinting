@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-plugins plugins (set(['Flash~Shockwave']), set([]))
-
-jsFonts jsFonts (set(['Medium', '3_Antique', 'Arial_Calibri_Cambria_Cambria', 'Times_Clarendon_Constantia_Corbel_Coronet_Ebrima_English']), set(['Light_Segoe', 'Condensed', 'Semibold_Segoe', 'Arial_Arial', 'Condensed_Constantia_Corbel_Coronet_Ebrima_English', 'Times_Clarendon_Clarendon', '3_Albertus', 'Medium_Univers', 'Medium_Antique', 'Black_Calibri_Cambria_Cambria']))
-
-ipcity ipcity (set(['Dusseldorf']), set(['Dortmund']))
-
-====================================

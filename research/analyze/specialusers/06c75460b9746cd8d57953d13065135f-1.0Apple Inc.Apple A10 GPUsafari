@@ -1,9 +1,0 @@
-agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
-
-language language (set(['tr-tr']), set(['de-de']))
-
-ipcity ipcity (set(['Dusseldorf']), set(['Mannheim']))
-
-ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Baden-Wurttemberg']))
-
-====================================

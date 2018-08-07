@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Boli_NSimSun_Papyrus_Perpetua_PMingLiU-ExtB_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small', 'Gothic_Corbel_Curlz']), set(['Gothic_Copperplate', 'Light_Segoe', 'Semibold_Segoe', 'Extra', 'Light_Corbel_Curlz', 'Boli_NSimSun_Papyrus_Perpetua_PMingLiU-ExtB_Rockwell_Rockwell', 'Gothic', 'Bold_Roman_Script_SimSun_SimSun-ExtB_Small', 'Bold_Copperplate']))
-
-ipcity ipcity (set(['Bielefeld']), set(['Marktleuthen']))
-
-ipregion ipregion (set(['Nordrhein-Westfalen']), set(['Bayern']))
-
-====================================

@@ -1,7 +1,0 @@
-agent agent (set(['Chrome/63.0.3239.84']), set(['Chrome/63.0.3239.132']))
-
-jsFonts jsFonts (set(['Capitals_Microsoft', 'Extra_MV', 'Gothic_MT']), set(['Capitals_Meiryo_Meiryo', 'UI_Microsoft', 'Gothic_MV']))
-
-canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
-
-====================================

@@ -1,7 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['ITC_Leelawadee_Malgun', 'Uighur_Microsoft']), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Arial', 'Black_Arial', 'ITC_Malgun']))
-
-audio audio (set(['48000_4_1_0_2_explicit_speakers']), set(['48000_4_1_0_4_explicit_speakers']))
-
-====================================

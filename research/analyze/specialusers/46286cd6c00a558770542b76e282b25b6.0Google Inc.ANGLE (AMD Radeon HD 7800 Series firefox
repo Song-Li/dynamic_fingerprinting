@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Capitals_Meiryo_Meiryo', 'FB_Bodoni', 'UI_Microsoft', 'BT_Harrington_High', 'BT_Freestyle', 'Extra_MV', 'Smallcaps_Bookshelf', 'ITC_Broadway_Brush', 'Gothic_MT', 'MT_Constantia_Corbel_Ebrima_English']), set(['Light_Segoe', 'Demi_Bernard', 'FB', 'Narrow_Arial', 'Condensed_Bodoni', 'Gothic_MV', 'Poster', 'Black_Corbel_Ebrima_English', 'Bold_Broadway_Brush', 'Capitals_Microsoft', 'ITC_Britannic', 'FB_Berlin', 'Compressed_Bookshelf', 'Italic_Harrington_High', 'Solid', 'MT_Constantia_Cooper', 'Semibold_Segoe', 'Black_Arial', 'BT_Footlight', 'BT_Harlow', 'Smallcaps_Bodoni', 'Light_Freestyle']))
-
-ipcity ipcity (set(['Nuremberg']), set(['Uslar']))
-
-ipregion ipregion (set(['Bayern']), set(['Niedersachsen']))
-
-====================================

@@ -1,9 +1,0 @@
-agent agent (set(['6.0.1;', 'Build/MMB29K)', 'SamsungBrowser/4.0', 'Chrome/44.0.2403.133']), set(['Chrome/56.0.2924.87', '7.0;', 'SamsungBrowser/6.2', 'Build/NRD90M)']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-canvastest canvastest (set(['c582ac8d357a19087edb286d854c37cc4fcac418']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
-
-ipcity ipcity (set(['Ingolstadt']), set(['Memmingen']))
-
-====================================

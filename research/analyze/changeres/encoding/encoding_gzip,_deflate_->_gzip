@@ -1,7 +1,0 @@
-doing gzip, deflate -> gzip
-encoding (set(['gzip,', 'deflate']), set(['gzip']))
- 1.0
-browserfingerprint (set(['38f8c9f5abc5aa60c950c82da41b43da9b7e9e0a9485b4ae81682be6b48a7451']), set(['0cf7954e0da434f73579d699070a613415fc67d29596158a6b6522b0672762f9']))
- 0.5
-browserfingerprint (set(['424d4d6813a9403f8b302215446c31a33ec14a0f18e8941c8e37563d2f7140c1']), set(['946522f7b8e437a0a2a0711fc68787a6f926e2869f8eb1c1e67a99f43f6e80ec']))
- 0.5

@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Solid_NSimSun_Old', 'BT_Haettenschweiler_Harrington_Heather_High', 'MT_TypoUpright', 'MT_Constantia_Copperplate', 'Richard_Pristina_Ravie_Rockwell_Roman_Script_SCRIPTINA_Showcard', 'MT_Bookshelf', 'MT_Goudy', 'Titling_Forte_Freestyle', 'ITC_Broadway_Brush', 'FB_Blackadder', 'Gothic_Corbel_Curlz']), set(['Light_Segoe', 'Condensed_Rockwell', 'Demi_Bernard', 'Bold_TypoUpright', 'Condensed_Bodoni', 'Light_Corbel_Curlz', 'Extended_Old', 'FB', 'Italic_Harrington_Heather_High', 'Richard_Pristina_Rage', 'BT_Haettenschweiler_Harlow', 'Bold_Roman_Script_Script', 'Condensed_Gill', 'Condensed', 'Bold', 'Italic_Ravie_Rockwell_Rockwell', 'Poster', 'Black_Copperplate', 'A', 'Bold_Copperplate', 'Bold_Broadway_Brush', 'ITC_Britannic', 'Gothic', 'FB_Berlin', 'Solid_NSimSun_OCR', 'Bold_SCRIPTINA_Showcard', 'Gothic_Copperplate', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'Solid', 'MT_Constantia_Cooper', 'Condensed_Tw', 'Ext', 'Semibold_Segoe', 'Ultra', 'Bold_Gill', 'Compressed_Bookshelf', 'MT_Tw', 'Black_Bodoni', 'Titling_Footlight', 'Rounded', 'Extra', 'Bold_Arial', 'Condensed_Goudy', 'Light_Forte_Freestyle']))
-
-ipcity ipcity (set(['Saarbrucken']), set(['Chemnitz']))
-
-ipregion ipregion (set(['Saarland']), set(['Sachsen']))
-
-====================================

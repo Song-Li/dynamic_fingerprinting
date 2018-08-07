@@ -1,9 +1,0 @@
-agent agent (set(['Chrome/49.0.2623.91']), set(['Chrome/63.0.3239.111']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-language language (set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']), set(['de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7']))
-
-canvastest canvastest (set(['0b9478c5688b275d8de8345f005868b18da9ed63']), set(['cf7a14cb84ca3485403b13fa58ec42115622dfdb']))
-
-====================================

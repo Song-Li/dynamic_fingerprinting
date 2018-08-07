@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-localstorage localstorage (set(['True']), set(['False']))
-
-jsFonts jsFonts (set(['Gothic_Corbel_Ebrima_Edwardian', 'Engraved_NSimSun_Papyrus_Parchment_Playbill_PMingLiU-ExtB_Roman_Script_SCRIPTINA_Showcard', 'Arial_Calibri_Cambria_Cambria', 'MT_Univers', 'Stout_Harrington_Humanst', 'FB_Bodoni']), set(['Gothic_Copperplate', 'Light_Segoe', 'Condensed', 'Semibold_Segoe', 'A', 'Arial_Arial', 'Extra', 'Solid', 'Demi_Bodoni', 'Stout_Harlow', 'MT_Tw', 'FB', 'Italic_Harrington_Humanst', 'Bold_Corbel_Ebrima_Edwardian', 'Extended_Papyrus_Parchment_Playbill_PMingLiU-ExtB_Roman_Script_Script', 'Gothic', 'FB_Berlin', 'Black_Calibri_Cambria_Cambria', 'Bold_Univers', 'Bold_SCRIPTINA_Showcard', 'Engraved_NSimSun_OCR']))
-
-audio audio (set(['192000_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
-
-====================================

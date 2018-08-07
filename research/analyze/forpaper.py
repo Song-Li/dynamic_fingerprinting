@@ -837,18 +837,19 @@ def generate_databases():
     """
     generate forpaper database based on round4 and round5 database
     """
-    """
+    db3 = Database('round3')
+    df3 = db3.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round4')
     df4 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round5')
     df5 = db.load_data(feature_list = ['*'], table_name = "features")
 
-    aim_db = Database('forpaper')
-    aim_db.combine_tables(db.get_column_names('features'), [df4, df5], 'features')
+    aim_db = Database('forpaper345')
+    aim_db.combine_tables(db3.get_column_names('features'), [df3, df4, df5], 'features')
     return 
     """
     db = Database('uniquemachine')
-    aim_db = Database('forpaper')
+    aim_db = Database('forpaper345')
     global ip2location   
     ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
     print ("ip2location data loaded")
@@ -858,6 +859,7 @@ def generate_databases():
             aim_table = 'pandas_features')
 
     return 
+    """
 
 def one_change2other_change(from_feature, to_feature, file_name):
     """
@@ -1562,11 +1564,11 @@ def plugin2cookie_delete(df):
     return sorted_dict 
 
 def main():
-    #generate_databases()
+    generate_databases()
     #db = Database('forpaper')
     #db.generate_new_column('browserid','pandas_features', get_browserid, generator_feature = 'all_features')
-    db = Database('filteredchangesbrowserid')
-    get_all_feature_change_by_date_paper(db)
+    #db = Database('filteredchangesbrowserid')
+    #get_all_feature_change_by_date_paper(db)
     #df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
     #plug2cookie = plugin2cookie_delete(df)
     #list2file(plug2cookie, './plugin2cookie_deleting', index = True)

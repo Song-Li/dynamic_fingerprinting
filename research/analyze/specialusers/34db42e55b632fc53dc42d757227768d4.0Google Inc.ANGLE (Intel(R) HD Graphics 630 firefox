@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['7_Candara_Constantia_Corbel_Ebrima_English', 'Arial_Book']), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Book', 'Arial_Arial', '7_Candara_Clarendon_Constantia_Corbel_Ebrima_English', 'Black_Arial']))
-
-ipcity ipcity (set(['Saarbrucken']), set(['Freinsheim']))
-
-ipregion ipregion (set(['Saarland']), set(['Rheinland-Pfalz']))
-
-====================================

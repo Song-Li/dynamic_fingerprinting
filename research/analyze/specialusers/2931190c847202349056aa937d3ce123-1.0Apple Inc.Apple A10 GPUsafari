@@ -1,9 +1,0 @@
-agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
-
-ipcity ipcity (set(['Stockholm']), set(['Kampen']))
-
-ipregion ipregion (set(['lan', 'Stockholms']), set(['Schleswig-Holstein']))
-
-ipcountry ipcountry (set(['Sweden']), set(['Germany']))
-
-====================================

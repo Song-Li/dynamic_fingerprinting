@@ -1,9 +1,0 @@
-agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106', 'SM-G930F/G930FXXU1DQH5']), set(['SM-G930F/G930FXXS1DQKH', 'Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
-
-canvastest canvastest (set(['eef17c2548744daf9d0a5fc0f10057c5ca2c9c33']), set(['be170c6399fc45c991f409261c723fbbcadc6222']))
-
-====================================

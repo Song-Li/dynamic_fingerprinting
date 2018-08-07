@@ -1,9 +1,0 @@
-jsFonts jsFonts (set(['Narrow_Book', 'Condensed_Colonna', 'ITC_Broadway_Browallia', 'MT_Playbill_PMingLiU_PMingLiU-ExtB_Poor', 'Stout_Gulim_GulimChe_Haettenschweiler_Harrington_High', 'Baiti_MingLiU_MingLiU_HKSCS_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'MT_Dotum_DotumChe_Ebrima_Edwardian', 'New_BrowalliaUPC_Brush', 'Script_Leelawadee_Magneto_Maiandra', 'Capitals_Microsoft', 'MT_Candara_Castellar_Centaur_Chiller_Clarendon_Clarendon', 'Uighur_Microsoft', 'ITC_Stencil_Sylfaen_Tempus']), set(['BT_Stencil_Sylfaen_Tempus', 'Capitals_Meiryo_Meiryo', 'UI_Microsoft', 'Stout_Haettenschweiler_Harrington_High', 'Narrow_Arial', 'ITC_Staccato222', 'MT_Candara_Castellar_Centaur_Chiller_Colonna', 'MS_Book', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'Unicode', 'ITC_Broadway_Brush', 'Script_Magneto_Maiandra', 'MT_Playbill_PMingLiU-ExtB_Poor', 'MT_Ebrima_Edwardian']))
-
-canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
-
-ipcity ipcity (set(['Berlin']), set(['Brenkhausen']))
-
-ipregion ipregion (set(['Berlin']), set(['Nordrhein-Westfalen']))
-
-====================================

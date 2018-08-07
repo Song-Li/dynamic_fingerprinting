@@ -1,9 +1,0 @@
-jsFonts jsFonts (set(['Typesetting_BankGothic', 'Uighur_Microsoft', 'Arabic_Simplified', 'Fixed_SimSun_SimSun-ExtB_Snap', 'ITC_Traditional', 'Majalla_Showcard', 'FB_Algerian_Andalus_Arabic', 'Script_Leelawadee_Magneto_Maiandra', 'Gothic_Simplified', 'Arabic_TRAJAN', 'Arabic', 'Condensed_Sakkal']), set(['FB_Algerian_BankGothic', 'Condensed_Showcard', 'Script_Magneto_Maiandra', 'Gothic_SimSun_SimSun-ExtB_Snap', 'ITC_TRAJAN']))
-
-canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
-
-ipcity ipcity (set(["M'Sila"]), set(['Setif']))
-
-ipregion ipregion (set(["M'sila"]), set(['Setif']))
-
-====================================

@@ -1,5 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Arial_Book', 'Medium', '3_Antique', 'Times_Clarendon_Constantia_Corbel_Coronet_Ebrima_English']), set(['Light_Segoe', 'Condensed', 'Semibold_Segoe', 'Narrow_Book', 'Arial_Arial', 'Condensed_Constantia_Corbel_Coronet_Ebrima_English', 'Times_Clarendon_Clarendon', '3_Albertus', 'Medium_Univers', 'Black_Arial', 'Medium_Antique']))
-
-====================================

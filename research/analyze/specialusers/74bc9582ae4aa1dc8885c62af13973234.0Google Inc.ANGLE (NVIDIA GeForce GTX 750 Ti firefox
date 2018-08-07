@@ -1,7 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['MT_Constantia_Copperplate', 'MT_Playbill_PMingLiU-ExtB_Pristina_Rockwell_Roman_Script_SCRIPTINA_SimSun_SimSun-ExtB_Small', 'ITC_Broadway_Calisto', 'Boli_NSimSun_Onyx_Palace', 'MT_Bookshelf', 'MT_Goudy', 'Titling_Forte_Freestyle', 'MT_Blackadder', 'Gothic_Corbel_Curlz', 'MT_Univers', 'Stout_Haettenschweiler_Harrington_Humanst']), set(['Light_Segoe', 'Condensed_Rockwell', 'Light_Corbel_Curlz', 'Italic_Harrington_Humanst', 'Bold_Gill', 'A', 'Narrow_Arial', 'Bold_Roman_Script_Script', 'Condensed_Gill', 'Condensed', 'Bold', 'Condensed_Bookshelf', 'Black_Copperplate', 'Bold_Copperplate', 'ITC_Britannic', 'Bold_SCRIPTINA_SimSun_SimSun-ExtB_Small', 'Light_Forte_Freestyle', 'MT_Bernard', 'Titling_Footlight', 'Gothic_Copperplate', 'Boli_NSimSun_OCR', 'Condensed_Blackadder', 'MT_Bodoni', 'MT_Gill', 'Solid', 'MT_Constantia_Cooper', 'Stout_Haettenschweiler_Harlow', 'Condensed_Tw', 'Ext', 'Black_Arial', 'Italic_Rockwell_Rockwell', 'MT_Playbill_PMingLiU-ExtB_Pristina_Rage', 'Ultra', 'Bold_Univers', 'Bold_Broadway_Calisto', 'MT_Tw', 'Black_Bodoni', 'Semibold_Segoe', 'Rounded', 'Extra', 'Bold_Arial', 'Condensed_Goudy', 'Extended_Onyx_Palace', 'Gothic']))
-
-ipcity ipcity (set(['Nuremberg']), set(['Augsburg-Lechviertel']))
-
-====================================

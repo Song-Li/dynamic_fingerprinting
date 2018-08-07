@@ -1,7 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Boli_NSimSun_Palace', 'MT_Bookshelf', 'MT_Goudy', 'MT_Univers', 'MT_PMingLiU-ExtB_Pristina_Rockwell_Roman_SimSun_SimSun-ExtB_Small', 'Arial_Book', 'Gothic_Corbel_Curlz']), set(['Light_Segoe', 'Condensed_Rockwell', 'Bold_SimSun_SimSun-ExtB_Small', 'Light_Corbel_Curlz', 'Bold_Gill', 'Bold_Roman_Script', 'A', 'Extended_Palace', 'MT_Bodoni', 'Condensed_Gill', 'Condensed', 'Bold', 'Condensed_Bookshelf', 'MT_PMingLiU-ExtB_Pristina_Rage', 'Bold_Book', 'Gothic_Copperplate', 'Boli_NSimSun_OCR', 'Arial_Arial', 'MT_Gill', 'Condensed_Tw', 'Ext', 'Black_Arial', 'Italic_Rockwell_Rockwell', 'Ultra', 'Bold_Univers', 'Bold_Copperplate', 'MT_Tw', 'Black_Bodoni', 'Semibold_Segoe', 'Rounded', 'Extra', 'Condensed_Goudy', 'Gothic', 'Narrow_Arial']))
-
-ipcity ipcity (set(['Magdeburg']), set(['Halberstadt']))
-
-====================================

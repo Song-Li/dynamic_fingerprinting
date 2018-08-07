@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-plugins plugins (set(['Shockwave', 'Flash']), set(['']))
-
-jsFonts jsFonts (set(['Md', 'BT_Sylfaen_Univers', 'Fonts_Swis721', 'BT_Bauhaus', '3_BankGothic', 'BlkEx', 'Arial_Book']), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Book', 'Arial_Arial', '3_Bauhaus', 'Black_Arial', 'Fonts_Sylfaen_Univers']))
-
-canvastest canvastest (set(['795c0ecf151c07b0742329633af4f7d4adb813f1']), set(['6b5f21eb272bb5215085f0de0aaade746bd52868']))
-
-====================================

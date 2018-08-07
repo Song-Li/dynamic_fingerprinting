@@ -1,5 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Boli_NSimSun_OzHandicraft', 'Gothic_Corbel_Curlz', 'BT_Rockwell_Roman_Script_Serifa']), set(['Gothic_Copperplate', 'Light_Segoe', 'Boli_NSimSun_OCR', 'A', 'Extended_OzHandicraft', 'Extra', 'BT_Rockwell_Rockwell', 'Light_Corbel_Curlz', 'Semibold_Segoe', 'Gothic', 'Narrow_Arial', 'Black_Arial', 'Bold_Copperplate', 'Bold_Roman_Script_Serifa']))
-
-====================================

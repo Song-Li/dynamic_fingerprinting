@@ -1,9 +1,0 @@
-jsFonts jsFonts (set(['MT_David_Ebrima_Edwardian', 'Uighur_Microsoft', 'MT_Magneto_Maiandra', 'Condensed_Gisha_Goudy', 'Light_Forte_FrankRuehl_Freestyle', 'Fixed_Mistral_Modern', 'Pro_Miriam_Miriam', 'Boli_Narkisim_Niagara', 'Condensed_Rod_Showcard', 'FB_Aharoni_Algerian_BankGothic', 'Script_Leelawadee_Levenim']), set(['Pro_Mistral_Modern', 'Boli_Niagara', 'Condensed_Goudy', 'Condensed_Showcard', 'Light_Forte_Freestyle', 'Script_Magneto_Maiandra', 'FB_Algerian_BankGothic', 'MT_Ebrima_Edwardian']))
-
-canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
-
-ipcity ipcity (set(['Haifa']), set(['Aviv', 'Tel']))
-
-ipregion ipregion (set(['Hefa']), set(['Aviv', 'Tel']))
-
-====================================

@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-plugins plugins (set(['Flash~Shockwave']), set([]))
-
-jsFonts jsFonts (set(['ITC_Kristen', 'Script', 'MT_Gabriola_GeoSlab', 'Gothic_Comic', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Mistral_Modern', 'ITC_Malgun', 'Style_Calibri_Cambria_Cambria', 'BT_Freestyle', 'Hand', 'ITC_Univers', 'BT_Juice', 'Math_Century_Century', 'New_Garamond_Georgia_Helvetica_Impact_Lucida', 'MS_Book', 'ITC_Candara_Constantia_Corbel_Ebrima_English', 'Corsiva_MS', '7_Bradley', 'Specialty_MS', 'Old', 'Reference', 'Mincho_MS', 'Script_French', 'Handwriting_Lucida', 'Boli_NSimSun_Papyrus_PMingLiU-ExtB_Pristina_Roman_Script_SimSun_SimSun-ExtB_Small', 'Unicode', 'Antiqua_Bookman', 'Serif_Monotype', 'Fonts_Sylfaen_Tempus']), set(['BT_Malgun', 'Light_Segoe', 'Math_Comic', 'Semibold_Segoe', 'New_Georgia_Helvetica_Impact_Lucida', 'BT_Gabriola_GeoSlab', '7_Candara_Constantia_Corbel_Ebrima_English', 'Baiti_MingLiU_HKSCS-ExtB_MingLiU-ExtB_Modern', 'Fonts_Sylfaen_Univers', 'Black_Calibri_Cambria_Cambria', 'Boli_NSimSun_PMingLiU-ExtB_Roman_SimSun_SimSun-ExtB_Small']))
-
-audio audio (set(['44100_2_1_0_2_explicit_speakers']), set(['48000_2_1_0_2_explicit_speakers']))
-
-====================================

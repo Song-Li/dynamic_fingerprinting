@@ -1,7 +1,0 @@
-agent agent (set(['Mobile/15C153', '11_2_1']), set(['11_2_2', 'Mobile/15C202']))
-
-audio audio (set(['48000_0_1_0_2_explicit_speakers']), set(['44100_0_1_0_2_explicit_speakers']))
-
-ipcity ipcity (set(['Freeport']), set(['New', 'York', 'City']))
-
-====================================

@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set([]), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Arial', 'Black_Arial']))
-
-canvastest canvastest (set(['6989e28b170e64cc9b5558924ac9cc975e09ccd9']), set(['9204a541c4d90cd0af5e92990f2c2a3a41027e06']))
-
-ipcity ipcity (set(['Westerndorf-Sankt', 'Peter']), set(['Munich']))
-
-====================================

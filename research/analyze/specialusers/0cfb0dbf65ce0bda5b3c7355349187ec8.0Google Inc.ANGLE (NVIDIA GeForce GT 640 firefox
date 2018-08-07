@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-timezone timezone (set(['240.0']), set(['300.0']))
-
-plugins plugins (set(['']), set(['Shockwave', 'Flash']))
-
-jsFonts jsFonts (set(['BT_Ravie_Rockwell_Roman_Script_SimSun_SimSun-ExtB_Small', 'Boli_NSimSun_Papyrus_Perpetua_PMingLiU-ExtB_Pristina_PTBarnum', 'Gothic_Corbel_Curlz', 'FB_Blackadder']), set(['Gothic_Copperplate', 'Light_Segoe', 'Boli_NSimSun_OCR', 'Demi_Bernard', 'Condensed_Blackadder', 'Bold_SimSun_SimSun-ExtB_Small', 'Extra', 'Bold_Roman_Script_Script', 'Light_Corbel_Curlz', 'MT', 'FB', 'Extended_Papyrus_Perpetua_PMingLiU-ExtB_Pristina_PTBarnum', 'Gothic', 'A', 'FB_Berlin', 'Semibold_Segoe', 'BT_Ravie_Rockwell_Rockwell', 'Bold_Copperplate']))
-
-====================================

@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Arial_Book']), set(['Light_Segoe', 'Semibold_Segoe', 'Corsiva_MS', 'Arial_Arial', 'Black_Arial', 'Narrow_Book', 'Serif_Monotype']))
-
-ipcity ipcity (set(['Kragujevac']), set(['Belgrade']))
-
-ipregion ipregion (set(['Sumadijski', 'okrug']), set(['Beograd']))
-
-====================================

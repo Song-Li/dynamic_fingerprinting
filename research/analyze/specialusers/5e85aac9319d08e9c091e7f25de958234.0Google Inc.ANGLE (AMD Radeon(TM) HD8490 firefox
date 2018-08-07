@@ -1,7 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set([]), set(['Light_Segoe', 'Semibold_Segoe', 'Narrow_Arial', 'Black_Arial']))
-
-canvastest canvastest (set(['716b83473587f626ed8324ce5d70524e750cf14d']), set(['cff8b4cba33dca0c97b6fcb18f2b8a0cca7af2ce']))
-
-====================================

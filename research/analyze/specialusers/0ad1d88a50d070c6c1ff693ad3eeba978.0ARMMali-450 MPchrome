@@ -1,9 +1,0 @@
-agent agent (set(['5.0.1;', 'Chrome/46.0.2490.76']), set(['6.0;', 'Chrome/50.0.2661.89']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-langsdetected langsdetected (set(['Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Kannada_Lao_Ge-ez_Sinhala_Armenian_Khmer_Greek_Hebrew_Tibetan_Georgian']), set(['Yi_Mongolian_Tifinagh_Syriac_Thaana_Inuktitut_Cherokee', 'Latin_Chinese_Arabic_Devanagari_Cyrillic_Bengali/Assamese_Kana_Gurmukhi_Javanese_Hangul_Telugu_Tamil_Malayalam_Burmese_Thai_Sundanese_Kannada_Gujarati_Lao_Odia_Ge-ez_Sinhala_Armenian_Khmer_Greek_Lontara_Hebrew_Tibetan_Georgian_Modern']))
-
-canvastest canvastest (set(['9b21396880ed36770b73ba318c2eb6cf7a3aedd6']), set(['8db28b94b9a1c6bbadd257cdd1936beaaca9acb3']))
-
-====================================

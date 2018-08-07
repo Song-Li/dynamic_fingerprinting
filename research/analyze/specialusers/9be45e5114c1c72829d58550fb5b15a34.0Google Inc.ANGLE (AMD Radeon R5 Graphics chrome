@@ -1,7 +1,0 @@
-agent agent (set(['Chrome/62.0.3202.94']), set(['Chrome/63.0.3239.132']))
-
-jsFonts jsFonts (set(['FB_Algerian_BankGothic', 'Script_Leelawadee_Magneto_Maiandra', 'Gothic_SimSun_SimSun-ExtB_Snap', 'ITC_Tw', 'Condensed_Showcard']), set(['Arabic_Tw', 'Uighur_Microsoft', 'Arabic_Simplified', 'Fixed_SimSun_SimSun-ExtB_Snap', 'ITC_Traditional', 'Majalla_Showcard', 'FB_Algerian_Andalus_Arabic', 'Gothic_Simplified', 'Typesetting_AVENIR_BankGothic', 'Arabic', 'Condensed_Sakkal', 'Script_Magneto_Maiandra']))
-
-canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
-
-====================================

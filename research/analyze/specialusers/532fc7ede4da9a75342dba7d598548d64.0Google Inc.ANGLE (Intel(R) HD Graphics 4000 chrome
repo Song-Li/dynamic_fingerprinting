@@ -1,5 +1,0 @@
-agent agent (set(['Chrome/62.0.3202.94']), set(['Chrome/64.0.3282.140']))
-
-canvastest canvastest (set(['5bf70d8119b0953b10bef0fa2fdd62c33f92a971']), set(['bd554a7d5da9293cf3fed52d2052b2b948a14b77']))
-
-====================================

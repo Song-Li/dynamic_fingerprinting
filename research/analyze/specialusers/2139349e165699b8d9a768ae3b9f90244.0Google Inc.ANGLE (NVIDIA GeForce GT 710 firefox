@@ -1,5 +1,0 @@
-agent agent (set(['Firefox/57.0', 'rv:57.0)']), set(['rv:58.0)', 'Firefox/58.0']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-====================================

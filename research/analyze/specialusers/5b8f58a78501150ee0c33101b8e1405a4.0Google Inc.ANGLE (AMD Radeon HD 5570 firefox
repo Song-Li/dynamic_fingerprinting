@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Solid_NSimSun_Old', 'MT_Goudy', 'Gothic_Corbel_Coronet_Curlz', 'MT_TypoUpright', 'Times_Charlesworth_Chiller_Clarendon_Colonna', 'BT_Pristina_Ravie_Rockwell_Roman_Script_Serifa', 'FB_Algerian_Antique', 'MT_Bookshelf', 'BT_Broadway_Brush', 'Titling_Forte_Freestyle', 'BT_Haettenschweiler_Harrington_High', 'Medium_Viner', 'FB_BernhardFashion', 'MT_Constantia_Copperplate_Copperplate']), set(['Light_Segoe', 'Condensed_Rockwell', 'Demi_Bernard', 'Bold_TypoUpright', 'BT_Pristina_Rage', 'Extended_Old', 'Medium_Univers', 'A', 'Narrow_Arial', 'Condensed_Bodoni', 'BT_Haettenschweiler_Harlow', 'Bold_Roman_Script_Script', 'Italic_Harrington_High', 'Condensed', 'Bold', 'Italic_Ravie_Rockwell_Rockwell', 'Poster', 'Condensed_Viner', 'Bold_Copperplate', 'Medium_Algerian_Antique', 'Bold_Broadway_Brush', 'Bold_Serifa', 'Gothic', 'FB_Berlin', 'Solid_NSimSun_OCR', 'Gothic_Copperplate', 'Condensed_Gill', 'BT_Britannic', 'Black_Copperplate_Copperplate', 'MT_Bodoni', 'MT_Gill', 'Solid', 'MT_Constantia_Cooper', 'FB_Albertus', 'Condensed_Tw', 'Ext', 'Semibold_Segoe', 'Black_Arial', 'Times_Charlesworth_Chiller_Clarendon_Clarendon', 'Ultra', 'Bold_Gill', 'Compressed_Bookshelf', 'MT_Tw', 'Black_Bodoni', 'Titling_Footlight', 'Rounded', 'Condensed_Colonna', 'Extra', 'Bold_Arial', 'FB', 'Condensed_Goudy', 'Condensed_BernhardFashion', 'Light_Forte_Freestyle', 'Light_Corbel_Coronet_Curlz']))
-
-ipcity ipcity (set(['Regensburg']), set(['Karlsruhe']))
-
-ipregion ipregion (set(['Bayern']), set(['Baden-Wurttemberg']))
-
-====================================

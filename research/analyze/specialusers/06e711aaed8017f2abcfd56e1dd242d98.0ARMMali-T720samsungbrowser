@@ -1,9 +1,0 @@
-agent agent (set(['SamsungBrowser/5.4', 'Chrome/51.0.2704.106']), set(['Chrome/56.0.2924.87', 'SamsungBrowser/6.2']))
-
-encoding encoding (set(['deflate']), set(['br', 'deflate,']))
-
-language language (set(['de-DE,de,en-US,en']), set(['de-DE,de;q=0.8,en-US;q=0.6,en;q=0.4']))
-
-canvastest canvastest (set(['c3058fef063bc385facd344d43ce8ee4282ed76a']), set(['f2d7a0dc71bf0848cae310175d3c1d67b157f381']))
-
-====================================

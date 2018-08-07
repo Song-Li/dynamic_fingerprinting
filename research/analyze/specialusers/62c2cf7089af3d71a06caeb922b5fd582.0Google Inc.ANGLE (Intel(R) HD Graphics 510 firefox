@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Gothic_Corbel_Ebrima_English', 'Arial_Calibri_Cambria_Cambria']), set(['Gothic_Copperplate', 'Light_Segoe', 'Light_Corbel_Ebrima_English', 'Arial_Arial', 'Semibold_Segoe', 'Gothic', 'Black_Calibri_Cambria_Cambria']))
-
-ipcity ipcity (set(['Delmenhorst']), set(['Elmshorn']))
-
-ipregion ipregion (set(['Niedersachsen']), set(['Schleswig-Holstein']))
-
-====================================

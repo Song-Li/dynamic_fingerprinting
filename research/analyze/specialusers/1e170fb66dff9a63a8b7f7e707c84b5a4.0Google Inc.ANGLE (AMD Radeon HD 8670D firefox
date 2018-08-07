@@ -1,9 +1,0 @@
-agent agent (set(['Firefox/56.0', 'rv:56.0)']), set(['Firefox/57.0', 'rv:57.0)']))
-
-jsFonts jsFonts (set(['Arial_Book']), set(['Light_Segoe', 'Semibold_Segoe', 'Arial_Arial', 'Black_Book']))
-
-ipcity ipcity (set(['Proseken']), set(['Luebeck']))
-
-ipregion ipregion (set(['Mecklenburg-Vorpommern']), set(['Schleswig-Holstein']))
-
-====================================
