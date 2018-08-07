@@ -7,8 +7,5 @@ non_mac_dybrowserid: lower: 1083, upper: 61320, total: 255092
 non_mac_browserid: lower: 1113, upper: 61367, total: 255058
 1hr_non_mac_dybrowserid: lower: 1049, upper: 61244, total: 255297
 
-
-07/26/2018:
-combine database
-read paper: Fp-Scanner: The Privacy Implications of Browser Fingerprint Inconsistencies
-
+#TODO
+jsFonts is not NULL rate drop from round 3 4436059/6816625 to 1614845/6319147

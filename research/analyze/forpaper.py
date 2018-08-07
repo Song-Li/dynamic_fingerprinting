@@ -838,11 +838,14 @@ def generate_databases():
     generate forpaper database based on round4 and round5 database
     """
     db3 = Database('round3')
-    df3 = db3.load_data(feature_list = ['*'], table_name = "features")
+    df3 = db3.load_data(feature_list = ['*'], table_name = "features", 
+            where = 'jsFonts is not NULL')
     db = Database('round4')
-    df4 = db.load_data(feature_list = ['*'], table_name = "features")
+    df4 = db.load_data(feature_list = ['*'], table_name = "features",
+            where = 'jsFonts is not NULL')
     db = Database('round5')
-    df5 = db.load_data(feature_list = ['*'], table_name = "features")
+    df5 = db.load_data(feature_list = ['*'], table_name = "features",
+            where = 'jsFonts is not NULL')
 
     aim_db = Database('forpaper345')
     aim_db.combine_tables(db3.get_column_names('features'), [df3, df4, df5], 'features')

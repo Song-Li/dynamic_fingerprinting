@@ -61,6 +61,7 @@ class Database():
         we will use the first df as the base df
         we'd better put the biggest df at the begining
         """
+        print ("start to combine tables")
         for idx in range(len(dfs)):
             dfs[idx] = dfs[idx][feature_list]
         big_df = pd.concat(dfs)
@@ -204,7 +205,7 @@ class Database():
     def export_sql(self, df, table_name):
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
-    def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1):
+    def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1, where = None):
         """
         this function will take a feature list, a table name and a limit
         if the feature list do not include browserid, the browserid will be loaded also
@@ -226,7 +227,12 @@ class Database():
             limit_str = ""
         else:
             limit_str = ' limit {}'.format(limit)
-        df = pd.read_sql('select {} from {} {};'.format(feature_str, table_name, limit_str), con=self.get_db())
+
+        if where == None:
+            where_str = ""
+        else:
+            where_str = ' where {}'.format(where)
+        df = pd.read_sql('select {} from {} {} {};'.format(feature_str, table_name, where_str, limit_str), con=self.get_db())
         print ('finished loading {}'.format(table_name))
         return df
 
