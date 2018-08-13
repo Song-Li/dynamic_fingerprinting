@@ -64,7 +64,10 @@ def get_browser_from_agent(agent):
     return the browser type by the input agent
     from mar 20 2018, the format of Edge changed
     """
-    return ignore_non_ascii(user_agents.parse(agent).browser.family)
+    try:
+        return ignore_non_ascii(user_agents.parse(agent).browser.family)
+    except:
+        return "agent error"
 
 def get_browser_version(agent):
     # return the string of browser and version number

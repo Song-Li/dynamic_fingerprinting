@@ -82,7 +82,7 @@ class Database():
         df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-    def generate_new_column(self, column_name, table_name, generator, generator_feature = 'agent'):
+    def generate_new_column(self, column_name, table_name, generator, generator_feature = 'agent', aim_table = None):
         """
         input the generator of the column_name, add a new column to the table
         """
@@ -95,7 +95,9 @@ class Database():
             for idx in tqdm(df.index):
                 df.at[idx, column_name] = generator(df.at[idx, generator_feature])
         print ("Finished calculation, start to put back to sql")
-        df.to_sql(table_name, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
+        if aim_table == None:
+            aim_table = table_name
+        df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to sql")
 
     def clean_sql(self, feature_list, df, generator = null_generator, get_device = null_generator, get_browserid =  null_generator, get_dybrowserid = null_generator, aim_table = 'pandas_features'):

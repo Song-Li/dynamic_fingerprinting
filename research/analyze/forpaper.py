@@ -250,7 +250,7 @@ def get_key_from_feature(value, feature):
     else:
         return value
 
-def draw_feature_number_by_date(feature_name, percentage = False):
+def feature_distribution_by_date(feature_name, percentage = False):
     """
     draw total number of a feature by date
     this function will return a stacked dat file
@@ -837,15 +837,14 @@ def generate_databases():
     """
     generate forpaper database based on round4 and round5 database
     """
+    """
     db3 = Database('round3')
-    df3 = db3.load_data(feature_list = ['*'], table_name = "features", 
-            where = 'jsFonts is not NULL')
+    df3 = db3.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round4')
-    df4 = db.load_data(feature_list = ['*'], table_name = "features",
-            where = 'jsFonts is not NULL')
+    df4 = db.load_data(feature_list = ['*'], table_name = "features")
     db = Database('round5')
-    df5 = db.load_data(feature_list = ['*'], table_name = "features",
-            where = 'jsFonts is not NULL')
+    df5 = db.load_data(feature_list = ['*'], table_name = "features")
+            #where = 'jsFonts is not NULL')
 
     aim_db = Database('forpaper345')
     aim_db.combine_tables(db3.get_column_names('features'), [df3, df4, df5], 'features')
@@ -862,7 +861,6 @@ def generate_databases():
             aim_table = 'pandas_features')
 
     return 
-    """
 
 def one_change2other_change(from_feature, to_feature, file_name):
     """
