@@ -58,7 +58,7 @@ def get_success_rate(db_name, by_feature_name = 'browser'):
                 total = item[1] + item[0]
                 if total != 0:
                     percentage = float(item[0]) / float(total)
-            f.write('{}\t'.format(percentage))
+            f.write('{0:.3f}\t'.format(percentage))
         f.write('\n')
     f.close()
 
