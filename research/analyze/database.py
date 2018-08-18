@@ -82,18 +82,23 @@ class Database():
         df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-    def generate_new_column(self, column_name, table_name, generator, generator_feature = 'agent', aim_table = None):
+    def generate_new_column(self, column_names, table_name, generators, generator_feature = 'agent', aim_table = None):
         """
-        input the generator of the column_name, add a new column to the table
+        input the generators of the column_names, add new columns to the table
+        if different column names need different generator, the code need to be updated
         """
         df = self.load_data(table_name = table_name)
-        df[column_name] = column_name
+        for column_name in column_names:
+            df[column_name] = column_name
         if generator_feature == 'all_features':
             for idx in tqdm(df.index):
                 df.at[idx, column_name] = generator(df.iloc[idx])
         else:
             for idx in tqdm(df.index):
-                df.at[idx, column_name] = generator(df.at[idx, generator_feature])
+                for index in range(len(column_names)):
+                    column_name = column_names[index]
+                    generator = generators[index]
+                    df.at[idx, column_name] = generator(df.at[idx, generator_feature])
         print ("Finished calculation, start to put back to sql")
         if aim_table == None:
             aim_table = table_name

@@ -56,8 +56,11 @@ def get_full_os_from_agent(agent):
 # input the agent string
 # return the os type
 def get_os_from_agent(agent):
-    parsed = user_agents.parse(agent)
-    return ignore_non_ascii(parsed.os.family)
+    try:
+        parsed = user_agents.parse(agent)
+        return ignore_non_ascii(parsed.os.family)
+    except:
+        return "os error"
 
 def get_browser_from_agent(agent):
     """

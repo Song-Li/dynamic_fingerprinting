@@ -21,10 +21,19 @@ def get_success_rate(db_name, by_feature_name = 'browser'):
 
     # get the success fail rate for every val in feature
     # and for every day
+    # we get the number of feature val
+    # sort them by the number of appearance
+    feature_val_list = {}
     for row in tqdm(df.itertuples()):
         jsFonts = getattr(row, 'jsFonts')
         time = getattr(row, 'time')
         feature_val = getattr(row, by_feature_name)
+
+        if feature_val in feature_val_list:
+            feature_val_list[feature_val] += 1
+        else:
+            feature_val_list[feature_val] = 1
+
         if feature_val not in success_fail[time]:
             success_fail[time][feature_val] = [0,0]
         if pd.notnull(jsFonts):
@@ -33,18 +42,12 @@ def get_success_rate(db_name, by_feature_name = 'browser'):
             success_fail[time][feature_val][1] += 1
 
 
-    # get the feature value list
-    feature_val_list = []
-    for time in success_fail:
-        for feature_val in success_fail[time]:
-            if feature_val not in feature_val_list:
-                feature_val_list.append(feature_val)
-
+    feature_val_list = sorted(feature_val_list.iteritems(), key = lambda(k, v): (-v, k))
 
     f = safeopen('./res/success_rate_{}.dat'.format(by_feature_name), 'w')
     f.write('Date\t')
     for feature_val in feature_val_list:
-        f.write('{}\t'.format(feature_val.replace(' ', '_')))
+        f.write('{}({})\t'.format(feature_val[0].replace(' ', '_'), feature_val[1]))
     f.write('\n')
     
     res = sorted(success_fail.iteritems())
@@ -52,6 +55,10 @@ def get_success_rate(db_name, by_feature_name = 'browser'):
         cur_date = row[0]
         f.write('{}-{}-{}\t'.format(cur_date.year, cur_date.month, cur_date.day))
         for feature_val in feature_val_list:
+            # here we just keep the value of feature
+            # ignore the detailed number of appearance
+            feature_val = feature_val[0]
+
             percentage = 0
             if feature_val in row[1]:
                 item = row[1][feature_val]
@@ -131,10 +138,10 @@ def feature_distribution_by_date(feature_name, percentage = False):
     f.close()
 
 def main():
-    #db = Database('forpaper345')
-    #db.generate_new_column('browser', 'features', get_browser_from_agent, aim_table = 'handled_features')
+    db = Database('forpaper345')
+    db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')
     #feature_distribution_by_date('browser', percentage = True)
-    get_success_rate(db_name = 'forpaper345')
+    #get_success_rate(db_name = 'forpaper345', by_feature_name = 'os')
 
 if __name__ == '__main__':
     main()

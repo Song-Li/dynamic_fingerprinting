@@ -1565,7 +1565,7 @@ def plugin2cookie_delete(df):
     return sorted_dict 
 
 def main():
-    generate_databases()
+    #generate_databases()
     #db = Database('forpaper')
     #db.generate_new_column('browserid','pandas_features', get_browserid, generator_feature = 'all_features')
     #db = Database('filteredchangesbrowserid')
@@ -1642,8 +1642,8 @@ def main():
     #        table_name = "{}changes".format(feature), db = db)
     #print ("{} users changed in total".format(df['browserid'].nunique()))
     #remove_flip_users(df)
-    #db = Database('forpaper')
-    #maps = generate_changes_database(db)
+    db = Database('forpaper345')
+    maps = generate_changes_database(db)
     #df = db.load_data(table_name = "pandas_features_split")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
     #generate_databases()

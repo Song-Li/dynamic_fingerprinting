@@ -184,3 +184,10 @@ class Paperlib():
             f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature]))
             f.write('\n')
         f.close()
+
+    def get_all_feature_change_by_date(self, change_db):
+        """
+        get the part of the big table
+        """
+        get_all_feature_change_by_date_paper(change_db)
+
