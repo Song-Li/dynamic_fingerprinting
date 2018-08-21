@@ -140,7 +140,7 @@ def feature_distribution_by_date(feature_name, percentage = False):
 def main():
     db = Database('forpaper345')
     db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')
-    #feature_distribution_by_date('browser', percentage = True)
+    #feature_distribution_by_date('os', percentage = True)
     #get_success_rate(db_name = 'forpaper345', by_feature_name = 'os')
 
 if __name__ == '__main__':

@@ -51,7 +51,7 @@ class Paperlib():
                 'consistency' : [25, 26, 27, 28]
                 }
 
-    def life_time_median(self, db = None, filter_less_than = 5, output_file = './res/life_time_median.dat'):
+    def life_time_median(self, db = None, filter_less_than = 3, output_file = './res/life_time_median.dat'):
         """
         calculate the median life time of each feature
         output to output_file
@@ -97,7 +97,7 @@ class Paperlib():
         f = safeopen(output_file, 'w')
         for feature in medians:
             f.write(feature + ' ' + str(medians[feature]))
-            f.write('/n')
+            f.write('\n')
         f.close()
 
     def feature_latex_table_paper(self, output_file = './res/feature_table_1.dat'):
@@ -136,8 +136,8 @@ class Paperlib():
             group_vals = {}
             for i in range(len(feature_list)):
                 feature = feature_list[i]
-
                 group_key = group_map[i]
+
                 if group_key not in group_vals:
                     group_vals[group_key] = ""
                 group_vals[group_key] += str(row[feature])
@@ -169,6 +169,9 @@ class Paperlib():
         f = open(output_file, 'w')
         for feature in value_set:
             distinct[feature] = len(value_set[feature])
+            if feature == 'fp2_liedos':
+                for key in value_set[feature]:
+                    print key
             cnt = 0
             for val in value_set[feature]:
                 if len(value_set[feature][val]) == 1:
@@ -185,9 +188,11 @@ class Paperlib():
             f.write('\n')
         f.close()
 
-    def get_all_feature_change_by_date(self, change_db):
+    def get_all_feature_change_by_date(self):
         """
         get the part of the big table
         """
+        change_db = Database('filteredchangesbrowserid')
         get_all_feature_change_by_date_paper(change_db)
+
 

@@ -145,6 +145,7 @@ def feature_change_by_date_paper(feature_name, df):
     cnt = 0
     sep = ' '
 
+    f = safeopen('./res/topchanges.dat', 'a')
     for group in sorted_group:
         if feature_name == 'langsdetected' or feature_name == 'jsFonts':
             sep = '_'
@@ -154,12 +155,15 @@ def feature_change_by_date_paper(feature_name, df):
         os_counts = get_feature_percentage(grouped.get_group(group), 'os')
         
         try:
-            print '$$'.join(group), '$$', get_change_strs(group[0], group[1], sep=sep), sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]
+            f.write('{} {} {} {} {} {} {} {}\n'.format('$$'.join(group), 
+                '$$', get_change_strs(group[0], group[1], sep=sep), 
+                sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]))
         except:
             print '$$'.join(str(e) for e in group)
         cnt += 1
         if cnt > 10:
             break
+    f.close()
 
     print ('all changes finished')
 
@@ -409,6 +413,12 @@ def draw_feature_number_by_browser_date_paper(feature, df):
         f[browser].close()
     
 def get_all_feature_change_by_date_paper(db):
+    """
+    clear the file first and generate the top changes
+    """
+    f = safeopen('./res/topchanges.dat', 'w')
+    f.write('\n')
+    f.close()
     for feature in feature_list:
         print 'generating {}'.format(feature)
         df = db.load_data(feature_list = ["*"], 
