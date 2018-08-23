@@ -11,3 +11,23 @@ non_mac_browserid: lower: 1113, upper: 61367, total: 255058
 jsFonts is not NULL rate drop from round 3 4436059/6816625 to 1614845/6319147
 from 04/08, success rate drop
 from 07/12, main site failed
+
+paper:
+0, how we handle ground truth
+  1, how we generate IDs
+  2, the upper and lower bound of browserid accuracy
+1, statics
+  1, new vs return users
+  2, desktop vs phone users
+    success and unsuccess compare
+  3, browser compare
+  4, os compare
+    both 3 and 4 introduce security compare based on success rate and fingerprinting rate
+2, dynamics
+  1, all meaningful features
+  2, analyse main reason of changing
+    browser os or social
+3, privacy leak
+4, "browser and os security"
+  merge with 1 or new section
+

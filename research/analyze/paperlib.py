@@ -137,20 +137,27 @@ class Paperlib():
             for i in range(len(feature_list)):
                 feature = feature_list[i]
                 group_key = group_map[i]
+                cur_feature = row[feature]
+                # some times ture and True is different
+                # unknown reason, just put a patch here
+                if cur_feature == 'true':
+                    cur_feature = 'True'
+                elif cur_feature == 'false':
+                    cur_feature = 'False'
 
                 if group_key not in group_vals:
                     group_vals[group_key] = ""
-                group_vals[group_key] += str(row[feature])
+                group_vals[group_key] += str(cur_feature)
                 
                 if feature not in value_set:
                     value_set[feature] = {}
-                if row[feature] not in value_set[feature]:
-                    value_set[feature][row[feature]] = set()
-                value_set[feature][row[feature]].add(row['browserid'])
+                if cur_feature not in value_set[feature]:
+                    value_set[feature][cur_feature] = set()
+                value_set[feature][cur_feature].add(row['browserid'])
 
                 if feature not in browser_instance[row['browserid']]:
                     browser_instance[row['browserid']][feature] = set()
-                browser_instance[row['browserid']][feature].add(row[feature])
+                browser_instance[row['browserid']][feature].add(cur_feature)
 
             for group_key in group_vals:
                 if group_key not in value_set:
@@ -169,9 +176,6 @@ class Paperlib():
         f = open(output_file, 'w')
         for feature in value_set:
             distinct[feature] = len(value_set[feature])
-            if feature == 'fp2_liedos':
-                for key in value_set[feature]:
-                    print key
             cnt = 0
             for val in value_set[feature]:
                 if len(value_set[feature][val]) == 1:
