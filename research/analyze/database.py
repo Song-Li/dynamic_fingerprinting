@@ -74,9 +74,15 @@ class Database():
         generate the browserid of a df
         """
         df['browserid'] = 'browserid'
+        drop_list = []
         for idx in tqdm(df.index):
+            if pd.isna(df.at[idx, 'agent']):
+                drop_list.append(idx)
+                continue
             browser_str = get_browserid(df.iloc[idx])
             df.at[idx, 'browserid'] = browser_str
+
+        df.drop(drop_list, inplace = True)
 
         print ("Finished calculation, start to put back to csv")
         df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)

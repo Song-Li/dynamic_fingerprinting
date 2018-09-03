@@ -22,6 +22,8 @@ def generate_changes_database(db, feature_list = feature_list):
     we will keep users who visit more than 3 times
     """
     browserid = 'browserid'
+
+    feature_list = db.get_column_names('pandas_features')
     df = db.load_data(feature_list = ["*"], 
             table_name = "pandas_features")
     df = filter_less_than_n(df, 3)
@@ -32,7 +34,7 @@ def generate_changes_database(db, feature_list = feature_list):
 
     maps = {} 
     for feature in feature_list:
-        maps[feature] = {'browserid':[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
+        maps[feature] = {'browserid':[], "clientid":[], "IP":[], "from":[], "to":[], "fromtime":[], "totime":[], "browser":[], "os":[]}
 
     grouped = df.groupby(browserid)
     pre_fingerprint = ""
@@ -51,6 +53,7 @@ def generate_changes_database(db, feature_list = feature_list):
                     continue
                 if pre_row[feature] != row[feature]:
                     maps[feature]['browserid'].append(row[browserid])
+                    maps[feature]['clientid'].append(row['clientid'])
                     maps[feature]['IP'].append(row['IP'])
                     maps[feature]["from"].append(pre_row[feature])
                     maps[feature]['to'].append(row[feature])
@@ -1030,7 +1033,9 @@ def get_browserid(row):
     full_os = '{} {}'.format(os, ignore_non_ascii(parsed.os.version_string))
     full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
     full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
-    keys = ['clientid', 'cpucores']
+    #TODO for tmp use only
+   # keys = ['clientid', 'cpucores']
+    keys = ['clientid']
     for key in keys:
         # we assume that all of the keys are not null
         try:
@@ -1041,9 +1046,10 @@ def get_browserid(row):
     id_str += os#full_os 
     id_str += full_device
     id_str += browser
-    gpu_type = row['gpu'].split('Direct')[0]
-    id_str += row['inc']
-    id_str += gpu_type
+    #TODO for tmp use only
+    #gpu_type = row['gpu'].split('Direct')[0]
+    #id_str += row['inc']
+    #id_str += gpu_type
     return id_str
 
 def list2file(aim_list, aim_file, limit = -1, index = False, line_type = 'normal', sep = '!@#'):
@@ -1576,8 +1582,12 @@ def plugin2cookie_delete(df):
 
 def main():
     #generate_databases()
-    #db = Database('forpaper')
-    #db.generate_new_column('browserid','pandas_features', get_browserid, generator_feature = 'all_features')
+    db = Database('forpaper345')
+    generate_changes_database(db)
+    #df = db.load_data()
+    #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'browserid')
+    return 
+    #db.generate_new_column('browserid', 'features', get_browserid, generator_feature = 'all_features')
     #db = Database('filteredchangesbrowserid')
     #get_all_feature_change_by_date_paper(db)
     #df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
@@ -1652,8 +1662,8 @@ def main():
     #        table_name = "{}changes".format(feature), db = db)
     #print ("{} users changed in total".format(df['browserid'].nunique()))
     #remove_flip_users(df)
-    db = Database('forpaper345')
-    maps = generate_changes_database(db)
+    #db = Database('forpaper345')
+    #maps = generate_changes_database(db)
     #df = db.load_data(table_name = "pandas_features_split")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
     #generate_databases()

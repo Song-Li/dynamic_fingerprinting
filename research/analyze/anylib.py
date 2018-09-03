@@ -137,9 +137,17 @@ def feature_distribution_by_date(feature_name, percentage = False):
             f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
     f.close()
 
+def cookie_distribution(df):
+    #TODO not sure how to write this
+    """
+    anylise the cookie, for multi cookie single browserid
+    """
+    pass
+
+
 def main():
     db = Database('forpaper345')
-    db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')
+    #db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')
     #feature_distribution_by_date('os', percentage = True)
     #get_success_rate(db_name = 'forpaper345', by_feature_name = 'os')
 

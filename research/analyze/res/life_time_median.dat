@@ -1,1 +1,24 @@
-fp2_colordepth 71/nencoding 42/njsFonts 1/naccept 68/nlocalstorage 35/nplugins 1/ngpuimgs 1/nfp2_pixelratio 1/nlangsdetected 14/ntimezone 70/nfp2_cpuclass 5/ngpu 33/nfp2_liedbrowser 70/nipcity 8/nagent 33/nipregion 9/ncanvastest 9/nlanguage 27/nfp2_liedresolution 65/nfp2_liedlanguages 59/ncookie 31/naudio 1/nfp2_liedos 68/nipcountry 12/n
+fp2_colordepth 71
+encoding 42
+jsFonts 1
+accept 68
+localstorage 35
+plugins 1
+gpuimgs 1
+fp2_pixelratio 1
+langsdetected 14
+timezone 70
+fp2_cpuclass 5
+gpu 33
+fp2_liedbrowser 70
+ipcity 8
+agent 33
+ipregion 9
+canvastest 9
+language 27
+fp2_liedresolution 65
+fp2_liedlanguages 59
+cookie 31
+audio 1
+fp2_liedos 68
+ipcountry 12

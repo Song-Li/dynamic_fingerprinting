@@ -1483,7 +1483,6 @@ def get_num_visits_paper(df):
     fp.close()
 
 
-
 def for_paper_jsFonts_diff(db):
     df = pd.read_sql('select jsFonts, clientid from features where clientid like "[final_test%]";', 
             con=db.get_db())    
