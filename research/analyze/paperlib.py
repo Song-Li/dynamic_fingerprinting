@@ -393,24 +393,36 @@ class Paperlib():
             cur_time = cur_group[0][0]
             cur_browser = cur_group[0][1]
             cur_number = cur_group[1]['browserid'].nunique()
+
             if cur_browser not in res:
                 res[cur_browser] = {}
+
             if total_number[cur_time][cur_browser] == 0:
                 res[cur_browser][cur_time] = 0
             else:
                 res[cur_browser][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser])
 
+        f = safeopen('./change_dats/{}.dat'.format(feature), 'w')
+        f.write('Browser ')
+        cnt = 1
+        browser_list = []
         for browser in res:
+            cnt += 1
+            browser_list.append(browser)
+            f.write('{}_{} '.format(cnt, browser.replace(' ', '_')))
+        f.write('\n')
+
+        for date in datelist:
             # here we replace the space of browsers with _
-            f = safeopen('./change_dats/{}/{}'.format(feature, browser.replace(' ', '_')), 'w')
-            cur_res = res[browser]
-            for date in datelist:
-                if date in cur_res:
-                    cur_num = cur_res[date]
+            f.write('{}-{}-{} '.format(date.year, date.month, date.day))
+            for browser in browser_list:
+                if date in res[browser]:
+                    cur_num = res[browser][date]
                 else:
                     cur_num = 0
-                f.write('{}-{}-{} {}\n'.format(date.year, date.month, date.day, cur_num))
-            f.close()
+                f.write('{} '.format(cur_num))
+            f.write('\n')
+        f.close()
 
                     
 
