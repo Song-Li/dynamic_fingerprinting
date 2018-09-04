@@ -355,7 +355,7 @@ class Paperlib():
                 f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
         f.close()
 
-    def draw_feature_number_by_browser_date_paper(self, feature, df):
+    def draw_feature_number_by_browser_date_paper(self, feature):
         """
         draw number of feature by browser and date
         currently this function will output a stacked picture data
