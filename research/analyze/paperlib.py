@@ -424,9 +424,6 @@ class Paperlib():
             f.write('\n')
         f.close()
 
-                    
-
-
     def feature_change_by_date_paper(self, feature_name):
         """
         take the name of the feature and the changes df
