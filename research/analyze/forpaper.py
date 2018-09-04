@@ -602,11 +602,11 @@ def check_diff_feature_value(db, feature, from_val, to_val):
 def draw_feature_change_by_date(db):
     df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
 
-def round_time_to_day(df):
+def round_time_to_day(df, timekey = 'time'):
     print ('Rounding time to days')
     # round time to days
     for idx in tqdm(df.index):
-        df.at[idx, 'time'] = df.at[idx, 'time'].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
+        df.at[idx, timekey] = df.at[idx, timekey].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
     return df
 
 def get_change_details(change_feature_name, change_from, change_to, df):

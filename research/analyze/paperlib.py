@@ -355,96 +355,65 @@ class Paperlib():
                 f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
         f.close()
 
-    def draw_feature_number_by_browser_date_paper(self, feature):
+    def feature_change_by_browser_date_paper(self, feature):
         """
-        draw number of feature by browser and date
-        currently this function will output a stacked picture data
+        return the number of changed browserid of the feature in each day
         """
-        # here we put the keys of each features
-        browserid = 'browserid'
-        df = self.db.load_data(table_name = 'pandas_features')
-        maps = {}
-        browser_options = ['chrome', 'firefox', 'safari']
-        print "round time to days"
+        #TODO discuss number of browserid or number of changes
+        print ("generating each day's number")
+        db = Database('forpaper345')
+        df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'pandas_features')
         df = round_time_to_day(df)
-        df = df.drop_duplicates(subset = [feature, 'time', browserid])
+        grouped = df.groupby(['time', 'browser'])
+        total_number = {}
+        for cur_group in tqdm(grouped):
+            cur_time = cur_group[0][0]
+            cur_browser = cur_group[0][1]
+            if cur_time not in total_number:
+                total_number[cur_time] = {}
+            total_number[cur_time][cur_browser] = cur_group[1]['browserid'].nunique()
         
-        min_date = min(df['time'])
+        print ("generating real data")
+        db = Database('filteredchangesbrowserid')
+        df = db.load_data(table_name = '{}changes'.format(feature))
+        df = round_time_to_day(df, timekey = 'totime')
+        min_date = min(df['fromtime'])
         min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
-        max_date = max(df['time'])
+        max_date = max(df['totime'])
+
         lendate = (max_date - min_date).days
         datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
-        for date in datelist:
-            maps[date] = {}
 
-        grouped = df.groupby(browserid)
-        browser_version_all = {browser: {} for browser in browser_options}
+        # to time is the day that this feature changes
+        grouped = df.groupby(['totime', 'browser'])
 
-        for key, group in tqdm(grouped):
-            for idx, row in group.iterrows():
-                browser_version = get_key_from_agent(row['agent'])
-                value_key = get_key_from_feature(row[feature], feature)
-                for browser in browser_options:
-                    if browser_version.lower().find(browser) != -1:
-                        if value_key not in browser_version_all[browser]:
-                            browser_version_all[browser][value_key] =0
-                        browser_version_all[browser][value_key] += 1
+        res = {}
 
-                date = row['time']
-                if value_key not in maps[date]:
-                    maps[date][value_key] = 0
-                maps[date][value_key] += 1
+        for cur_group in tqdm(grouped):
+            cur_time = cur_group[0][0]
+            cur_browser = cur_group[0][1]
+            cur_number = cur_group[1]['browserid'].nunique()
+            if cur_browser not in res:
+                res[cur_browser] = {}
+            if total_number[cur_time][cur_browser] == 0:
+                res[cur_browser][cur_time] = 0
+            else:
+                res[cur_browser][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser])
 
-        #sort browser versions
-        for browser in browser_version_all:
-            browser_version_all[browser] = sorted(browser_version_all[browser].iteritems(), key=lambda (k,v): (-v,k))
-            for date in maps:
-                for browser_version, value in browser_version_all[browser]:
-                    if browser_version not in maps[date]:
-                        maps[date][browser_version] = 0
-
-        f = {}
-        f['chrome'] = safeopen('./stackednumberbydate/{}/chrome.dat'.format(feature), 'w')
-        f['firefox'] = safeopen('./stackednumberbydate/{}/firefox.dat'.format(feature), 'w')
-        f['safari'] = safeopen('./stackednumberbydate/{}/safari.dat'.format(feature), 'w')
-
-        # write titles
-        for browser in f:
-            cur_cnt = 0
-            for browser_version, value in browser_version_all[browser]:
-                cur_cnt += 1
-                if cur_cnt >= 5:
-                    break
-                f[browser].write('{} '.format(str(browser_version).replace(' ', '_')))
-            f[browser].write('others\n')
-
-        # chrome version 58 check
-        for date in datelist:
-            for browser in browser_options:
-                f[browser].write('{}-{}-{} '.format(date.year, date.month, date.day))
-                sum_all = 0
-                other = 0
-                cur_cnt = 0
-                for browser_version, cnt in browser_version_all[browser]:
-                    sum_all += maps[date][browser_version]
-                    if sum_all == 0:
-                        sum_all = 1
-                for browser_version, cnt in browser_version_all[browser]:
-                    cur_cnt += 1
-                    if cur_cnt >= 5:
-                        break
-                    else:   
-                        cur_value = float(maps[date][browser_version]) / float(sum_all)
-                        f[browser].write('{0:.3f} '.format(cur_value * 100))
-                        other += cur_value
-
-                f[browser].write('{0:.3f} '.format(100 * (1.0 - float(other))))
-                f[browser].write('\n')
+        for browser in res:
+            # here we replace the space of browsers with _
+            f = safeopen('./change_dats/{}/{}'.format(feature, browser.replace(' ', '_')), 'w')
+            cur_res = res[browser]
+            for date in datelist:
+                if date in cur_res:
+                    cur_num = cur_res[date]
+                else:
+                    cur_num = 0
+                f.write('{}-{}-{} {}\n'.format(date.year, date.month, date.day, cur_num))
+            f.close()
 
                     
-        for browser in f:
-            f[browser].close()
-    
+
 
     def feature_change_by_date_paper(self, feature_name):
         """
