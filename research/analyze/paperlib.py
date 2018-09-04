@@ -151,10 +151,14 @@ class Paperlib():
                 cur_feature = row[feature]
                 # some times ture and True is different
                 # unknown reason, just put a patch here
+                # the reason is known, because of the update of 
+                # adding value of lied value, fixed in clean_sql, patch not needed
+                """
                 if cur_feature == 'true':
                     cur_feature = 'True'
                 elif cur_feature == 'false':
                     cur_feature = 'False'
+                """
 
                 if group_key not in group_vals:
                     group_vals[group_key] = ""

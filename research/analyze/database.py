@@ -174,6 +174,12 @@ class Database():
 
             res_str = ""
             for feature in feature_list:
+                # update the false to False
+                if df.at[idx, feature] == 'true':
+                    df.at[idx, feature] = 'True'
+                elif df.at[idx, feature] == 'false':
+                    df.at[idx, feature] = 'False'
+
                 res_str += str(df.at[idx, feature] )
 
             hash_str = hashlib.sha256(res_str).hexdigest()
