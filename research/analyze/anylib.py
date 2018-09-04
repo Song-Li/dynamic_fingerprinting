@@ -144,7 +144,6 @@ def cookie_distribution(df):
     """
     pass
 
-
 def main():
     db = Database('forpaper345')
     #db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')

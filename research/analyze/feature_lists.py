@@ -76,7 +76,7 @@ feature_list = [
 
         "inc", 
         "gpu", 
-        "gpuimgs", 
+#        "gpuimgs", 
         "cpucores", 
         "audio",
         "fp2_cpuclass",

@@ -869,6 +869,7 @@ def generate_databases():
     ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
     print ("ip2location data loaded")
     df3 = aim_db.load_data(table_name = "features")
+    print ('feature_list: ' + '\n'.join(feature_list))
     aim_db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_features')
@@ -1034,7 +1035,7 @@ def get_browserid(row):
     full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
     full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
     #TODO for tmp use only
-   # keys = ['clientid', 'cpucores']
+    #keys = ['clientid', 'cpucores']
     keys = ['clientid']
     for key in keys:
         # we assume that all of the keys are not null
@@ -1581,12 +1582,12 @@ def plugin2cookie_delete(df):
     return sorted_dict 
 
 def main():
-    #generate_databases()
-    db = Database('forpaper345')
-    generate_changes_database(db)
+    #db = Database('forpaper345')
+    generate_databases()
+    #generate_changes_database(db)
     #df = db.load_data()
     #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'browserid')
-    return 
+    #return 
     #db.generate_new_column('browserid', 'features', get_browserid, generator_feature = 'all_features')
     #db = Database('filteredchangesbrowserid')
     #get_all_feature_change_by_date_paper(db)
@@ -1666,7 +1667,6 @@ def main():
     #maps = generate_changes_database(db)
     #df = db.load_data(table_name = "pandas_features_split")
     #get_change_details('gpu', 'ANGLE (Intel(R) HD Graphics Direct3D11 vs_4_0 ps_4_0)', 'ANGLE (Intel(R) HD Graphics Direct3D9Ex vs_3_0 ps_3_0)', df)
-    #generate_databases()
     #life_time_distribution_paper(db)
     #df = load_data(load = True, feature_list = ["*"], table_name = "pandas_features", db = db)
     #df = filter_less_than_n(df, 7)

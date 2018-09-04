@@ -71,16 +71,27 @@ class Paperlib():
             life_time[feature] = [0 for i in range(length + 10)]
 
         for browserid, cur_group in tqdm(grouped):
+            # cur_group is the df of this group
             pre_feature = {}
             pre_time = {}
+            changed = {}
             for idx, row in cur_group.iterrows():
                 for feature in feature_list:
                     if feature in pre_feature:
                         if pre_feature[feature] != row[feature]:
                             cur_delt = (row['time'] - pre_time[feature]).days
                             life_time[feature][cur_delt] += 1
-                    pre_feature[feature] = row[feature]
-                    pre_time[feature] = row['time']
+                            pre_feature[feature] = row[feature]
+                            pre_time[feature] = row['time']
+                            changed[feature] = True
+                    else:
+                        pre_feature[feature] = row[feature]
+                        pre_time[feature] = row['time']
+                        changed[feature] = False 
+
+            for feature in feature_list:
+                if not changed[feature]:
+                    life_time[feature][max_date - pre_time[feature]] += 1
 
         medians = {}
         for feature in tqdm(feature_list):
