@@ -375,6 +375,9 @@ class Paperlib():
         db = Database('forpaper345')
         df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'pandas_features')
         df = round_time_to_day(df)
+
+        # keep the same df as changes database
+        df = filter_less_than_n(df, 3)
         grouped = df.groupby(['time', 'browser'])
         total_number = {}
         for cur_group in tqdm(grouped):

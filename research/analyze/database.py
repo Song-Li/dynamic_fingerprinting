@@ -118,6 +118,7 @@ class Database():
         including: ipcity, ipregion, ipcountry, latitude, longitude, os, os version, 
         browser, browser version,
         """
+        print ("fingerprint feature list: {}".format('\n'.join(feature_list)))
         # remove the null rows
         df = df[pd.notnull(df['jsFonts'])]
         #df = df[pd.notnull(df['gpuimgs'])]

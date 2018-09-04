@@ -13,6 +13,7 @@ long_feature_list = get_long_feature_list()
 feature_list = get_feature_list()
 ori_long_feature_list = get_ori_long_feature_list()
 ori_feature_list = get_ori_feature_list()
+fingerprint_feature_list = get_fingerprint_feature_list()
 global ip2location
 
 def generate_changes_database(db, feature_list = feature_list):
@@ -869,8 +870,8 @@ def generate_databases():
     ip2location = pd.read_sql('select * from ip2location_db5;', con=db.get_db())    
     print ("ip2location data loaded")
     df3 = aim_db.load_data(table_name = "features")
-    print ('feature_list: ' + '\n'.join(feature_list))
-    aim_db.clean_sql(feature_list, df3, generator = get_location_dy_ip, 
+    aim_db.clean_sql(fingerprint_feature_list, df3, 
+            generator = get_location_dy_ip, 
             get_device = get_device, get_browserid = get_browserid,
             aim_table = 'pandas_features')
 
