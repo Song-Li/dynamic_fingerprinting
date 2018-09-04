@@ -323,7 +323,7 @@ class Paperlib():
             total_numbers[key[0]] += cur_number
 
 
-        f = safeopen('./res/featureNumberByDate/{}'.format(feature_name), 'w')
+        f = safeopen('./res/featureNumberByDate/{}.dat'.format(feature_name), 'w')
         total_numbers = sorted(total_numbers.iteritems(), key=lambda (k,v): (-v,k))
         total_numbers = total_numbers[:show_number]
         # print feature names
@@ -400,7 +400,7 @@ class Paperlib():
             if total_number[cur_time][cur_browser] == 0:
                 res[cur_browser][cur_time] = 0
             else:
-                res[cur_browser][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser])
+                res[cur_browser][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
 
         f = safeopen('./change_dats/{}.dat'.format(feature), 'w')
         f.write('Browser ')
