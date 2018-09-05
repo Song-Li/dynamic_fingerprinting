@@ -1583,9 +1583,10 @@ def plugin2cookie_delete(df):
     return sorted_dict 
 
 def main():
-    #db = Database('forpaper345')
-    generate_databases()
-    #generate_changes_database(db)
+    db = Database('forpaper345')
+    #generate_databases()
+    generate_changes_database(db)
+    return 
     #df = db.load_data()
     #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'browserid')
     #return 

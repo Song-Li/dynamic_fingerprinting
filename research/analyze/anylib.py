@@ -142,6 +142,8 @@ def cookie_distribution(df):
     """
     anylise the cookie, for multi cookie single browserid
     """
+    grouped = df.groupby('browserid')
+
     pass
 
 def main():
