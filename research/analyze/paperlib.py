@@ -89,9 +89,11 @@ class Paperlib():
                         pre_time[feature] = row['time']
                         changed[feature] = False 
 
+            # if not changed, we assume the life time is maxmium till the 
+            # end date of our database
             for feature in feature_list:
                 if not changed[feature]:
-                    life_time[feature][max_date - pre_time[feature]] += 1
+                    life_time[feature][(max_date - pre_time[feature]).days] += 1
 
         medians = {}
         for feature in tqdm(feature_list):
