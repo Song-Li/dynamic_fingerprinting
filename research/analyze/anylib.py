@@ -146,8 +146,27 @@ def cookie_distribution(df):
 
     pass
 
+def get_feature_change_browserids(db, feature_name):
+    """
+    get a list of browserids that changes this feature
+    used for table 1 anylise 
+    """
+    df = db.load_data(feature_list = ['browserid', feature_name], 
+            table_name = 'pandas_features')
+    grouped = df.groupby('browserid') 
+    res = []
+    for key, cur_group in tqdm(grouped):
+        if cur_group[feature_name].nunique() > 1:
+            res.append(key)
+    for r in res:
+        print r
+    return res
+
 def main():
     db = Database('forpaper345')
+    get_feature_change_browserids(db, 'cpucores')
+    #lower, upper, total = verify_browserid_by_cookie(db)
+    #print ("lower: {}, upper: {}, total: {}".format(len(lower), len(upper), total))
     #db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')
     #feature_distribution_by_date('os', percentage = True)
     #get_success_rate(db_name = 'forpaper345', by_feature_name = 'os')

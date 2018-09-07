@@ -149,6 +149,9 @@ class Paperlib():
             group_vals = {}
             for i in range(len(feature_list)):
                 feature = feature_list[i]
+                # get ride of gpuimgs
+                if feature == 'gpuimgs':
+                    continue
                 group_key = group_map[i]
                 cur_feature = row[feature]
                 # some times ture and True is different
@@ -386,13 +389,18 @@ class Paperlib():
         df = filter_less_than_n(df, 3)
         grouped = df.groupby(['time', 'browser'])
         total_number = {}
+        cur_total = {}
         for cur_group in tqdm(grouped):
+            # here we assume time is sorted
             cur_time = cur_group[0][0]
             cur_browser = cur_group[0][1]
             if cur_time not in total_number:
                 total_number[cur_time] = {}
-            total_number[cur_time][cur_browser] = cur_group[1]['browserid'].nunique()
-        
+            if cur_browser not in cur_total:
+                cur_total[cur_browser] = 0
+            cur_total[cur_browser] += cur_group[1]['browserid'].nunique()
+            total_number[cur_time][cur_browser] = cur_total[cur_browser]
+
         print ("generating real data")
         db = Database('filteredchangesbrowserid')
         df = db.load_data(table_name = '{}changes'.format(feature))

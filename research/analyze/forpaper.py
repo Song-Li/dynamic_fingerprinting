@@ -150,6 +150,7 @@ def feature_change_by_date_paper(feature_name, df):
     sep = ' '
 
     f = safeopen('./res/topchanges.dat', 'a')
+    f.write('{}\n'.format(feature_name))
     for group in sorted_group:
         if feature_name == 'langsdetected' or feature_name == 'jsFonts':
             sep = '_'
@@ -806,18 +807,17 @@ def filter_df(df, feature_name, filtered_list = ['iphone', 'ipad', 'mac']):
     df = df[~df[feature_name].isin(filtered_list)] 
     return df
 
-def verify_browserid_by_cookie():
+def verify_browserid_by_cookie(db):
     """
     this function will return the lower bound and upper bound of browserid accuracy
     the upper bound is the percentage of browserids with more than one cookies
     the lower bound is the percentage of browserids with fliped cookies
     """
-    browserid = 'dybrowserid'
-    db = Database('forpaper')
-    df = db.load_data(feature_list = [browserid, 'label', 'os', 'browser'], table_name = 'pandas_features_split')
+    browserid = 'browserid'
+    df = db.load_data(feature_list = [browserid, 'label', 'os', 'browser'], table_name = 'pandas_features')
 
     #we can add filter here
-    df = filter_less_than_n(df, 2)
+    #df = filter_less_than_n(df, 2)
 
     #here we can filter the unrelated os
     df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
@@ -1036,8 +1036,8 @@ def get_browserid(row):
     full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
     full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
     #TODO for tmp use only
-    #keys = ['clientid', 'cpucores']
-    keys = ['clientid']
+    keys = ['clientid', 'cpucores']
+    #keys = ['clientid']
     for key in keys:
         # we assume that all of the keys are not null
         try:
@@ -1583,16 +1583,17 @@ def plugin2cookie_delete(df):
     return sorted_dict 
 
 def main():
-    db = Database('forpaper345')
+    #db = Database('forpaper345')
+    db = Database('filteredchangesbrowserid')
+    get_all_feature_change_by_date_paper(db)
+    #df = db.load_data(table_name = 'pandas_features')
+    #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features')
     #generate_databases()
-    generate_changes_database(db)
+    #generate_changes_database(db)
     return 
-    #df = db.load_data()
-    #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'browserid')
     #return 
     #db.generate_new_column('browserid', 'features', get_browserid, generator_feature = 'all_features')
     #db = Database('filteredchangesbrowserid')
-    #get_all_feature_change_by_date_paper(db)
     #df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
     #plug2cookie = plugin2cookie_delete(df)
     #list2file(plug2cookie, './plugin2cookie_deleting', index = True)
