@@ -1,6 +1,7 @@
 from database import Database
 from tqdm import *
 from forpaper import *
+import collections
 
 class Paperlib():
     def __init__(self, db):
@@ -375,9 +376,10 @@ class Paperlib():
                 f.write(' {}\n'.format(daily_all_numbers[date] - cur_sum))
         f.close()
 
-    def feature_change_by_browser_date_paper(self, feature):
+    def feature_change_by_browser_date_paper(self, feature, method = 'window'):
         """
         return the number of changed browserid of the feature in each day
+        method options: window, accu, day 
         """
         #TODO discuss number of browserid or number of changes
         print ("generating each day's number")
@@ -389,17 +391,32 @@ class Paperlib():
         df = filter_less_than_n(df, 3)
         grouped = df.groupby(['time', 'browser'])
         total_number = {}
+
+        if method == 'window':
+            max_size = 10
+        elif method == 'accu':
+            max_size = 10000000
+        elif method == 'day':
+            max_size = 1
+
         cur_total = {}
         for cur_group in tqdm(grouped):
             # here we assume time is sorted
             cur_time = cur_group[0][0]
             cur_browser = cur_group[0][1]
+            cur_number = cur_group[1]['browserid'].nunique()
+
             if cur_time not in total_number:
                 total_number[cur_time] = {}
             if cur_browser not in cur_total:
-                cur_total[cur_browser] = 0
-            cur_total[cur_browser] += cur_group[1]['browserid'].nunique()
-            total_number[cur_time][cur_browser] = cur_total[cur_browser]
+                cur_total[cur_browser] = collections.deque() 
+
+            # assume every day we have data for this browser
+            cur_total[cur_browser].append(cur_number)
+            while len(cur_total[cur_browser]) > 10:
+                cur_total[cur_browser].popleft()
+
+            total_number[cur_time][cur_browser] = sum(cur_total[cur_browser])
 
         print ("generating real data")
         db = Database('filteredchangesbrowserid')
