@@ -394,7 +394,7 @@ class Paperlib():
         max_size = 0
 
         if method == 'window':
-            max_size = 10
+            max_size = 5
         elif method == 'accu':
             max_size = 10000000
         elif method == 'day':
