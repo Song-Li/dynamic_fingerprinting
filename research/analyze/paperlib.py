@@ -391,6 +391,7 @@ class Paperlib():
         df = filter_less_than_n(df, 3)
         grouped = df.groupby(['time', 'browser'])
         total_number = {}
+        max_size = 0
 
         if method == 'window':
             max_size = 10
@@ -413,7 +414,7 @@ class Paperlib():
 
             # assume every day we have data for this browser
             cur_total[cur_browser].append(cur_number)
-            while len(cur_total[cur_browser]) > 10:
+            while len(cur_total[cur_browser]) > max_size:
                 cur_total[cur_browser].popleft()
 
             total_number[cur_time][cur_browser] = sum(cur_total[cur_browser])
@@ -447,7 +448,7 @@ class Paperlib():
             else:
                 res[cur_browser][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
 
-        f = safeopen('./change_dats/{}.dat'.format(feature), 'w')
+        f = safeopen('./change_dats/{}_{}.dat'.format(feature, max_size), 'w')
         f.write('Browser ')
         cnt = 1
         browser_list = []
