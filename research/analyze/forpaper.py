@@ -1036,7 +1036,7 @@ def get_browserid(row):
     full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
     full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
     #TODO for tmp use only
-    keys = ['clientid', 'cpucores']
+    keys = ['clientid', 'cpucores', 'gpu', 'fp2_cpuclass']
     #keys = ['clientid']
     for key in keys:
         # we assume that all of the keys are not null
@@ -1583,11 +1583,12 @@ def plugin2cookie_delete(df):
     return sorted_dict 
 
 def main():
-    #db = Database('forpaper345')
-    db = Database('filteredchangesbrowserid')
-    get_all_feature_change_by_date_paper(db)
-    #df = db.load_data(table_name = 'pandas_features')
-    #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features')
+    #db = Database('filteredchangesbrowserid')
+    #get_all_feature_change_by_date_paper(db)
+    db = Database('forpaper345')
+    df = db.load_data(table_name = 'pandas_features')
+    db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features', browserid_name = 'browserid')
+    return 
     #generate_databases()
     #generate_changes_database(db)
     return 

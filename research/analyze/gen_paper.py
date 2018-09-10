@@ -5,7 +5,7 @@ def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
     #paperlib.feature_distribution_by_date('os')
-    paperlib.feature_change_by_browser_date_paper('browserfingerprint')
+    paperlib.feature_change_by_browser_date_paper('browserfingerprint', method = 'day')
     #paperlib.feature_change_by_date_paper('agent')
     #paperlib.new_return_user_by_date()
     #paperlib.get_all_feature_change_by_date()

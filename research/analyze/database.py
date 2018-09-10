@@ -69,18 +69,18 @@ class Database():
         big_df.to_sql(aim_table, self.get_db_engine(), if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-    def generate_browserid(self, df, get_browserid = null_generator, aim_table = 'pandas_features'):
+    def generate_browserid(self, df, get_browserid = null_generator, aim_table = 'pandas_features', browserid_name = 'browserid'):
         """
         generate the browserid of a df
         """
-        df['browserid'] = 'browserid'
+        df[browserid_name] = 'browserid'
         drop_list = []
         for idx in tqdm(df.index):
             if pd.isna(df.at[idx, 'agent']):
                 drop_list.append(idx)
                 continue
             browser_str = get_browserid(df.iloc[idx])
-            df.at[idx, 'browserid'] = browser_str
+            df.at[idx, browserid_name] = browser_str
 
         df.drop(drop_list, inplace = True)
 

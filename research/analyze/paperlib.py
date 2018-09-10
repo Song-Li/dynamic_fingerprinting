@@ -378,8 +378,7 @@ class Paperlib():
 
     def feature_change_by_browser_date_paper(self, feature, method = 'window'):
         """
-        return the number of changed browserid of the feature in each day
-        method options: window, accu, day 
+        return the number of changed browserid of the feature in each day, method options: window, accu, day 
         """
         #TODO discuss number of browserid or number of changes
         print ("generating each day's number")
