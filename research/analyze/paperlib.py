@@ -559,3 +559,45 @@ class Paperlib():
             f.write('\n')
         f.close()
 
+    def feature_minus(self, feature_name, val1, val2):
+        if feature_name == 'agent':
+
+
+
+    def generate_overall_change_database(self):
+        """
+        generate the delta database of overall fingerprint.
+        this table will be genereated in self database
+        """
+        db = self.db
+        df = db.load_data(table_name = 'pandas_features')
+        grouped = df.groupby('browserid')
+        res = {'IP':[], 'browserid':[]}
+        for feature in self.feature_list:
+            res[feature] = []
+
+        pre_row = []
+        for cur_key, cur_group in tqdm(grouped):
+            if cur_group['browserfingerprint'].nunique() == 1:
+                continue
+            pre_fingerprint = ""
+            for idx, row in cur_group.iterrows():
+                if pre_fingerprint == "":
+                    pre_fingerprint = row['browserfingerprint']
+                    pre_row = row
+                    continue
+                if row['browserfingerprint'] == pre_fingerprint:
+                    continue
+                for feature in self.feature_list:
+                    if feature not in row:
+                        continue
+                    if row[feature] != pre_row[feature]:
+                        res[feature].append( feature, self.feature_minus(row[feature], 
+                            pre_row[feature]) )
+                res['browserid'].append('browserid')
+                pre_fingerprint = row['browserfingerprint']
+                pre_row = row
+
+        df = pd.DataFrame.from_dict(res)
+        db.export_sql(df, 'fingerprintchanges')
+

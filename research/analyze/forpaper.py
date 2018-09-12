@@ -63,6 +63,8 @@ def generate_changes_database(db, feature_list = feature_list):
                     maps[feature]['browser'].append(row['browser'])
                     maps[feature]['os'].append(get_os_from_agent(row['agent']))
             pre_row = row
+            # why previously we dont have this update
+            pre_fingerprint = row['browserfingerprint']
 
     db = Database('filteredchanges{}'.format(browserid))
     for feature in feature_list:
@@ -1036,7 +1038,7 @@ def get_browserid(row):
     full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
     full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
     #TODO for tmp use only
-    keys = ['clientid', 'cpucores', 'gpu', 'fp2_cpuclass']
+    keys = ['clientid', 'cpucores', 'fp2_cpuclass']
     #keys = ['clientid']
     for key in keys:
         # we assume that all of the keys are not null
@@ -1048,10 +1050,10 @@ def get_browserid(row):
     id_str += os#full_os 
     id_str += full_device
     id_str += browser
+    gpu_type = row['gpu'].split('Direct')[0]
     #TODO for tmp use only
-    #gpu_type = row['gpu'].split('Direct')[0]
     #id_str += row['inc']
-    #id_str += gpu_type
+    id_str += gpu_type
     return id_str
 
 def list2file(aim_list, aim_file, limit = -1, index = False, line_type = 'normal', sep = '!@#'):
@@ -1588,7 +1590,6 @@ def main():
     db = Database('forpaper345')
     df = db.load_data(table_name = 'pandas_features')
     db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features', browserid_name = 'browserid')
-    return 
     #generate_databases()
     #generate_changes_database(db)
     return 

@@ -123,13 +123,14 @@ def get_agent_change(agent_1, agent_2):
     # 3 is the number of state of browser change
     os_change = 3 + get_os_change(agent_1, agent_2) 
     return browser_change, os_change
-    
 
-# the two strs put in this function is separated by _
-# if it's separated by ' ', trans them before this function
-# or use the sep param
-# return the diff of str1 to str2 and str2 to str1 
 def get_change_strs(str1, str2, sep = '_'):
+    """
+    the two strs put in this function is separated by _
+    if it's separated by ' ', trans them before this function
+    or use the sep param
+    return the diff of str1 to str2 and str2 to str1 
+    """
     str1 = str(str1)
     str2 = str(str2)
     if str1 == None:
