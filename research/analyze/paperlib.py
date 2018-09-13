@@ -390,7 +390,7 @@ class Paperlib():
         df = round_time_to_day(df)
 
         # keep the same df as changes database
-        df = filter_less_than_n(df, 2)
+        df = filter_less_than_n(df, 3)
         grouped = df.groupby(['time', 'browser'])
         total_number = {}
         max_size = 0
@@ -589,6 +589,9 @@ class Paperlib():
         db = self.db
         browserfingerprint = 'noipfingerprint'
         df = db.load_data(table_name = 'pandas_features')
+
+        df = filter_less_than_n(df, 3)
+
         grouped = df.groupby('browserid')
         res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 'browser': [], 'os': [], 'browserversion': [], 'osversion': []}
         for feature in self.feature_list:

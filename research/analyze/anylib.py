@@ -1,6 +1,7 @@
 from database import Database
 from forpaper import *
 from extractinfo import *
+from feature_lists import *
 
 def get_success_rate(db_name, by_feature_name = 'browser'):
     """
@@ -162,9 +163,34 @@ def get_feature_change_browserids(db, feature_name):
         print r
     return res
 
+def feature_stability_based_on_cookie(db):
+    """
+    evaluate feature stability by cookie
+    """
+    df = db.load_data(table_name = 'pandas_features')
+    feature_list = get_feature_list()
+    grouped = df.groupby('label')
+
+    total_size = len(grouped)
+
+    res = {}
+    for feature in feature_list:
+        res[feature] = 0
+    for key, cur_group in tqdm(grouped):
+        for feature in feature_list:
+            if cur_group[feature].nunique() > 1:
+                res[feature] += 1
+
+    sorted_dict = sorted(res.iteritems(), key = lambda (k, v): (v, k))
+
+    print 'we have {} users in total'.format(total_size)
+    for item in sorted_dict:
+        print item[0], float(total_size - item[1]) / float(total_size)
+
 def main():
     db = Database('forpaper345')
-    get_feature_change_browserids(db, 'cpucores')
+    feature_stability_based_on_cookie(db)
+    #get_feature_change_browserids(db, 'cpucores')
     #lower, upper, total = verify_browserid_by_cookie(db)
     #print ("lower: {}, upper: {}, total: {}".format(len(lower), len(upper), total))
     #db.generate_new_column(['os', 'browser'], 'features', [get_os_from_agent, get_browser_from_agent], aim_table = 'handled_features')
