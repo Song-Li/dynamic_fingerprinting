@@ -173,6 +173,7 @@ class Database():
             df.at[idx, 'os'], df.at[idx, 'osversion'], df.at[idx, 'browser'], df.at[idx, 'browserversion'], df.at[idx, 'device'] = get_all_info(df.at[idx, 'agent'])
 
             res_str = ""
+            noipfingerprint_str = ''
             for feature in feature_list:
                 # update the false to False
                 if df.at[idx, feature] == 'true':
@@ -181,9 +182,13 @@ class Database():
                     df.at[idx, feature] = 'False'
 
                 res_str += str(df.at[idx, feature] )
+                if 'ip' not in feature:
+                    noipfingerprint_str += str(df.at[idx, feature] )
 
             hash_str = hashlib.sha256(res_str).hexdigest()
             df.at[idx, 'browserfingerprint'] = hash_str
+            hash_str = hashlib.sha256(noipfingerprint_str).hexdigest()
+            df.at[idx, 'noipfingerprint'] = hash_str
 
         print ("Finished calculation, start to put back to csv")
         self.export_sql(df, aim_table)

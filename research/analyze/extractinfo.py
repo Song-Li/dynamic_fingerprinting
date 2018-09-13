@@ -76,12 +76,12 @@ def get_browser_version(agent):
     # return the string of browser and version number
     # if it's others, just return other
     parsed = user_agents.parse(agent)
-    return ignore_non_ascii(parsed.browser.family) + ' ' + ignore_non_ascii(parsed.browser.version_string)
+    return ignore_non_ascii(parsed.browser.family) + '#%' + ignore_non_ascii(parsed.browser.version_string)
 
 def get_os_version(agent):
     # return the string of os and version number
     parsed = user_agents.parse(agent)
-    return ignore_non_ascii(parsed.os.family) + ' ' + ignore_non_ascii(parsed.os.version_string)
+    return ignore_non_ascii(parsed.os.family) + '#%' + ignore_non_ascii(parsed.os.version_string)
 
 def get_all_info(agent):
     """

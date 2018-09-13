@@ -2,6 +2,8 @@ from database import Database
 from tqdm import *
 from forpaper import *
 import collections
+from paperlib_helper import *
+from paperlib_helper import Paperlib_helper
 
 class Paperlib():
     def __init__(self, db):
@@ -228,13 +230,15 @@ class Paperlib():
         """
         browserid = 'browserid'
         db = self.db
-        df = db.load_data(feature_list = [browserid, 'label', 'os'], table_name = 'pandas_features')
+        df = db.load_data(feature_list = [browserid, 'label', 'os', 'browser'], table_name = 'pandas_features')
 
         #we can add filter here
         df = filter_less_than_n(df, 3)
 
         #here we can filter the unrelated os
-        df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
+        #df = filter_df(df, 'os', filtered_list = ['iOS', 'Mac OS X'])
+        df = keep_df(df, 'browser', keep_list = ['Chrome Mobile iOS'])
+
         """
         filtered_list = [
                 'safari'
@@ -380,14 +384,13 @@ class Paperlib():
         """
         return the number of changed browserid of the feature in each day, method options: window, accu, day 
         """
-        #TODO discuss number of browserid or number of changes
         print ("generating each day's number")
         db = Database('forpaper345')
         df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'pandas_features')
         df = round_time_to_day(df)
 
         # keep the same df as changes database
-        df = filter_less_than_n(df, 3)
+        df = filter_less_than_n(df, 2)
         grouped = df.groupby(['time', 'browser'])
         total_number = {}
         max_size = 0
@@ -419,8 +422,13 @@ class Paperlib():
             total_number[cur_time][cur_browser] = sum(cur_total[cur_browser])
 
         print ("generating real data")
-        db = Database('filteredchangesbrowserid')
-        df = db.load_data(table_name = '{}changes'.format(feature))
+        if feature == 'browserfingerprint':
+            db = Database('forpaper345')
+            df = db.load_data(table_name = 'fingerprintchanges', 
+                    feature_list = ['browser', 'fromtime', 'totime', 'browserid'])
+        else:
+            db = Database('filteredchangesbrowserid')
+            df = db.load_data(table_name = '{}changes'.format(feature))
         df = round_time_to_day(df, timekey = 'totime')
         min_date = min(df['fromtime'])
         min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
@@ -560,44 +568,73 @@ class Paperlib():
         f.close()
 
     def feature_minus(self, feature_name, val1, val2):
+        helper = Paperlib_helper()
         if feature_name == 'agent':
+            return helper.agent_diff(val1, val2)
+        elif feature_name == 'language':
+            return helper.feature_diff(val1, val2, sep = ';')
+        elif feature_name == 'plugins':
+            return helper.feature_diff(val1, val2, sep = '~')
+        elif feature_name == 'accept':
+            return helper.feature_diff(val1, val2, sep = ',')
+        else:
+            return helper.feature_diff(val1, val2, sep = '_')
 
-
-
-    def generate_overall_change_database(self):
+    def generate_overall_change_database(self, keepip = False):
         """
         generate the delta database of overall fingerprint.
         this table will be genereated in self database
+        if keepip is False, we will not include ip related features
         """
         db = self.db
+        browserfingerprint = 'noipfingerprint'
         df = db.load_data(table_name = 'pandas_features')
         grouped = df.groupby('browserid')
-        res = {'IP':[], 'browserid':[]}
+        res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 'browser': [], 'os': [], 'browserversion': [], 'osversion': []}
         for feature in self.feature_list:
             res[feature] = []
 
         pre_row = []
         for cur_key, cur_group in tqdm(grouped):
-            if cur_group['browserfingerprint'].nunique() == 1:
+            if cur_group[browserfingerprint].nunique() == 1:
                 continue
             pre_fingerprint = ""
             for idx, row in cur_group.iterrows():
                 if pre_fingerprint == "":
-                    pre_fingerprint = row['browserfingerprint']
+                    pre_fingerprint = row[browserfingerprint]
                     pre_row = row
                     continue
-                if row['browserfingerprint'] == pre_fingerprint:
+                if row[browserfingerprint] == pre_fingerprint:
                     continue
+
+                res['IP'].append('{}=>{}'.format(pre_row['IP'], row['IP']))
+                res['browserid'].append(row['browserid'])
+                res['fromtime'].append(pre_row['time'])
+                res['totime'].append(row['time'])
+
+                browser_info = get_browser_version(row['agent'])
+                res['browser'].append(browser_info.split('#%')[0])
+                res['browserversion'].append(browser_info.split('#%')[1])
+                os_info = get_os_version(row['agent'])
+                res['os'].append(os_info.split('#%')[0])
+                res['osversion'].append(os_info.split('#%')[1])
+
                 for feature in self.feature_list:
                     if feature not in row:
                         continue
                     if row[feature] != pre_row[feature]:
-                        res[feature].append( feature, self.feature_minus(row[feature], 
-                            pre_row[feature]) )
-                res['browserid'].append('browserid')
-                pre_fingerprint = row['browserfingerprint']
+                        difference = self.feature_minus(feature, 
+                            pre_row[feature], 
+                            row[feature]) 
+                        res[feature].append(difference)
+                    else:
+                        res[feature].append('')
+
+                pre_fingerprint = row[browserfingerprint]
                 pre_row = row
 
         df = pd.DataFrame.from_dict(res)
+        print ('finished generating, exporting to sql')
         db.export_sql(df, 'fingerprintchanges')
+        return 
 

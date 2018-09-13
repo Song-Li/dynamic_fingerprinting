@@ -1588,9 +1588,9 @@ def main():
     #db = Database('filteredchangesbrowserid')
     #get_all_feature_change_by_date_paper(db)
     db = Database('forpaper345')
-    df = db.load_data(table_name = 'pandas_features')
-    db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features', browserid_name = 'browserid')
-    #generate_databases()
+    generate_databases()
+    #df = db.load_data(table_name = 'pandas_features')
+    #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features', browserid_name = 'browserid')
     #generate_changes_database(db)
     return 
     #return 
