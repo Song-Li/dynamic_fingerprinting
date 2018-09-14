@@ -509,20 +509,20 @@ def check_browser_become_unique(db):
     #    print uniquefp, ret[uniquefp]
     return ret, change_feature
 
-def filter_less_than_n(df, n):
+def filter_less_than_n(df, n, filter_key = 'browserid'):
     """
     this function should be used as 
     remove the users who have less than n records
     """
-    grouped = df.groupby('browserid')
+    grouped = df.groupby(filter_key)
     filtered = set()
     print 'filtering'
     for key, cur_group in tqdm(grouped):
-        length = len(cur_group['browserid'])
+        length = len(cur_group[filter_key])
         if length >= n:
-            filtered.add(str(key))
+            filtered.add(str(filter_key))
 
-    df = df[df['browserid'].isin(filtered)]
+    df = df[df[filter_key].isin(filtered)]
     return df
 
 def num_fingerprints_distribution(db):
@@ -1584,17 +1584,20 @@ def plugin2cookie_delete(df):
     sorted_dict = sorted(plug_res.iteritems(), key=lambda (k,v): (-v[3],k))
     return sorted_dict 
 
+def get_part_gpu(gpu):
+    return gpu.split('Direct')[0]
+
 def main():
     #db = Database('filteredchangesbrowserid')
     #get_all_feature_change_by_date_paper(db)
     db = Database('forpaper345')
-    generate_databases()
+    db.generate_new_column(['part_gpu'], 'pandas_features', get_part_gpu, generator_feature = 'gpu')
+    #generate_databases()
     #df = db.load_data(table_name = 'pandas_features')
     #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features', browserid_name = 'browserid')
     #generate_changes_database(db)
     return 
     #return 
-    #db.generate_new_column('browserid', 'features', get_browserid, generator_feature = 'all_features')
     #db = Database('filteredchangesbrowserid')
     #df = db.load_data(feature_list = ['plugins', 'agent', 'label', 'browserid', 'os', 'browser'], table_name = 'pandas_features_split')
     #plug2cookie = plugin2cookie_delete(df)

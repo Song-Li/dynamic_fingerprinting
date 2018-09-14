@@ -168,24 +168,47 @@ def feature_stability_based_on_cookie(db):
     evaluate feature stability by cookie
     """
     df = db.load_data(table_name = 'pandas_features')
+    
+    df = filter_less_than_n(df, 2, filter_key = 'label')
+
     feature_list = get_feature_list()
+    
+    feature_list.append('clientid')
+    feature_list.append('browser')
+    feature_list.append('os')
+    feature_list.append('device')
+    feature_list.append('part_gpu')
+
     grouped = df.groupby('label')
 
     total_size = len(grouped)
-
+    
     res = {}
+    wrong_label = {}
+
     for feature in feature_list:
         res[feature] = 0
+        wrong_label[feature] = []
+
     for key, cur_group in tqdm(grouped):
         for feature in feature_list:
             if cur_group[feature].nunique() > 1:
                 res[feature] += 1
+                wrong_label[feature].append(key)
+
 
     sorted_dict = sorted(res.iteritems(), key = lambda (k, v): (v, k))
 
+    for item in sorted_dict:
+        feature = item[0]
+        f = safeopen('./tmpdat/{}'.format(feature))
+        for label in wrong_label[feature]:
+            f.write('{}\n'.format(label))
+        f.close()
+
     print 'we have {} users in total'.format(total_size)
     for item in sorted_dict:
-        print item[0], float(total_size - item[1]) / float(total_size)
+        print item[0], item[1], float(total_size - item[1]) / float(total_size)
 
 def main():
     db = Database('forpaper345')
