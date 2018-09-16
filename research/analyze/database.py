@@ -88,17 +88,19 @@ class Database():
         df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to csv")
 
-    def generate_new_column(self, column_names, table_name, generators, generator_feature = 'agent', aim_table = None):
+    def generate_new_column(self, column_names, df, generators, generator_feature = 'agent', aim_table = None):
         """
         input the generators of the column_names, add new columns to the table
         if different column names need different generator, the code need to be updated
         """
-        df = self.load_data(table_name = table_name)
         for column_name in column_names:
             df[column_name] = column_name
         if generator_feature == 'all_features':
             for idx in tqdm(df.index):
-                df.at[idx, column_name] = generator(df.iloc[idx])
+                for index in range(len(column_names)):
+                    column_name = column_names[index]
+                    generator = generators[index]
+                    df.at[idx, column_name] = generator(df.iloc[idx])
         else:
             for idx in tqdm(df.index):
                 for index in range(len(column_names)):
@@ -107,7 +109,7 @@ class Database():
                     df.at[idx, column_name] = generator(df.at[idx, generator_feature])
         print ("Finished calculation, start to put back to sql")
         if aim_table == None:
-            aim_table = table_name
+            aim_table = 'tmptable' 
         df.to_sql(aim_table, self.get_db_engine(), index = False, if_exists='replace', chunksize = 1000)
         print ("Finished push to sql")
 
@@ -139,6 +141,8 @@ class Database():
         df['device'] = 'device'
         df['osversion'] = 'osversion'
         df['browserversion'] = 'browserversion'
+        df['fulldevice'] = 'fulldevice'
+        df['partgpu'] = 'partgpu'
         # regenerate ip realted features
         # and generate the browser finergrpint
         df = df.reset_index()
@@ -150,6 +154,10 @@ class Database():
             df.at[idx, 'ipcountry'] = ip_related[2]
             df.at[idx, 'latitude'] = ip_related[3] 
             df.at[idx, 'longitude'] = ip_related[4] 
+
+            row = df.iloc[idx]
+            df.at[idx, 'partgpu'] = row['gpu'].split('Direct')[0]
+            df.at[idx, 'fulldevice'] = get_full_device(row) 
 
             try:
                 device_str = get_device(df.iloc[idx])

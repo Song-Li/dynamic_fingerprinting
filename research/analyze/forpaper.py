@@ -518,9 +518,9 @@ def filter_less_than_n(df, n, filter_key = 'browserid'):
     filtered = set()
     print 'filtering'
     for key, cur_group in tqdm(grouped):
-        length = len(cur_group[filter_key])
+        length = cur_group.shape[0]
         if length >= n:
-            filtered.add(str(filter_key))
+            filtered.add(str(key))
 
     df = df[df[filter_key].isin(filtered)]
     return df
@@ -1584,15 +1584,17 @@ def plugin2cookie_delete(df):
     sorted_dict = sorted(plug_res.iteritems(), key=lambda (k,v): (-v[3],k))
     return sorted_dict 
 
-def get_part_gpu(gpu):
+def get_part_gpu(row):
+    gpu = row['gpu']
     return gpu.split('Direct')[0]
 
 def main():
     #db = Database('filteredchangesbrowserid')
     #get_all_feature_change_by_date_paper(db)
     db = Database('forpaper345')
-    db.generate_new_column(['part_gpu'], 'pandas_features', get_part_gpu, generator_feature = 'gpu')
-    #generate_databases()
+    generate_databases()
+    #df = db.load_data(table_name = 'pandas_features')
+    #db.generate_new_column(['partgpu'], df, [get_part_gpu], generator_feature = 'all_features', aim_table = 'pandas_features')
     #df = db.load_data(table_name = 'pandas_features')
     #db.generate_browserid(df, get_browserid = get_browserid, aim_table = 'pandas_features', browserid_name = 'browserid')
     #generate_changes_database(db)

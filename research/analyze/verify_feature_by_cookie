@@ -1,0 +1,59 @@
+observed apple device cookie sync!!!
+
+
+fp2_addbehavior 0 1.0
+fp2_opendatabase 0 1.0
+fp2_cpuclass 12 0.999984087097
+  mostly because IE update to Edge, x86 or x64 to unknown
+localstorage 90 0.999880653225
+  seems to be really turn on or off this 
+cookie 107 0.999858109945
+  user turn on or off this
+  visit twice within 10s (mostly 5s) lead to a false detection of cookie 
+WebGL 153 0.999797110482
+ mostly flip if visit twice within a short time, like cookie 
+fp2_liedresolution 380 0.999496091393
+inc 551 0.99926933252
+  different rendering company
+  wrong detection(in short time visits)(shown as not supported)
+  firefox update sometime show the inc value
+device 845 0.998879466387
+  0128e8a997de9f546c88fa6725526c221e7a5fad interesting fake
+  mostly android to linux x11
+os 857 0.998863553484
+ go together wih device, fake or linux x11
+cpucores 900 0.998806532247
+ Edge, firefox update from unsupport to support 
+ iOS update from support to not supported
+ known reason
+langsdetected 932 0.998764097838
+  wrong detection
+fp2_liedbrowser 1002 0.998671272568
+browser 1636 0.99783054084
+  wtf?  0053c83144d7f9cf2c404b3361d06df6bff3f436, two different browsers, 12s, same label
+  chrome mobile or chrome, goes together with android and linux x11
+encoding 1646 0.997817280087
+fp2_liedos 2014 0.997329284383
+language 3820 0.994934392425
+partgpu 4375 0.994198420644
+  Edge update (v16 to 17)of ANGLE
+  (to v16) NVIDIA vs Microsoft Basic
+
+gpu 5005 0.993362993217
+ipcountry 7065 0.990631278138
+plugins 9339 0.987615782948
+fp2_liedlanguages 11366 0.984927828353
+fp2_colordepth 12063 0.984003553882
+fp2_pixelratio 12757 0.983083257637
+audio 22884 0.969654093263
+clientid 31008 0.958881057678
+canvastest 34302 0.954512965701
+jsFonts 35825 0.952493353048
+timezone 53690 0.928803018147
+accept 53863 0.928573607124
+httpheaders 58541 0.922370226958
+ipregion 102689 0.863826655439
+agent 114340 0.848376552337
+ipcity 147962 0.803791249229
+IP 199698 0.735185418476
+browserfingerprint 243552 0.67703171309

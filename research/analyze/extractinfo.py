@@ -95,6 +95,13 @@ def get_all_info(agent):
     browser_version = ignore_non_ascii(parsed.browser.version_string)
     return os, os_version, browser, browser_version, device
 
+def get_full_device(row):
+    """
+    get the full device infor including device family and brand
+    """
+    parsed = user_agents.parse(row['agent'])
+    device = ignore_non_ascii(parsed.device.family)
+    return '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
 
 def get_browser_change(agent_1, agent_2):
     browser_1 = get_browser_from_agent(agent_1)
