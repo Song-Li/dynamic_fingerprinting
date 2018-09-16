@@ -1037,9 +1037,7 @@ def get_browserid(row):
     full_os = '{} {}'.format(os, ignore_non_ascii(parsed.os.version_string))
     full_device = '{} {}'.format(device, ignore_non_ascii(parsed.device.brand))
     full_browser = '{} {}'.format(browser, ignore_non_ascii(parsed.browser.version_string))
-    #TODO for tmp use only
     keys = ['clientid', 'cpucores', 'fp2_cpuclass']
-    #keys = ['clientid']
     for key in keys:
         # we assume that all of the keys are not null
         try:
@@ -1051,8 +1049,9 @@ def get_browserid(row):
     id_str += full_device
     id_str += browser
     gpu_type = row['gpu'].split('Direct')[0]
-    #TODO for tmp use only
-    #id_str += row['inc']
+    # patch for Edge update to version 17
+    if browser == 'Edge':
+        gpu_type = gpu_type.replace('ANGLE (', '')
     id_str += gpu_type
     return id_str
 
