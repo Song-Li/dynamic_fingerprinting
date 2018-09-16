@@ -198,6 +198,7 @@ class Database():
             hash_str = hashlib.sha256(noipfingerprint_str).hexdigest()
             df.at[idx, 'noipfingerprint'] = hash_str
 
+        df = rebuild_table(df)
         print ("Finished calculation, start to put back to csv")
         self.export_sql(df, aim_table)
         print ("Finished push to csv")
@@ -274,3 +275,18 @@ class Database():
         self.__cursor.execute(query)
         self.__field_names = [i[0] for i in self.__cursor.description]
         return self.__field_names
+
+    def rebuild_table(self, df, export_table = None):
+        """
+        after generated pandas features, we sometimes need to rebuild the table
+        """
+        for idx in tqdm(df.index):
+            if df.at[idx, 'browser'] == 'Edge':
+                if 'ANGLE (' in df.at[idx, 'browserid']:
+                    df.at[idx, 'browserid'] = df.at[idx, 'browserid'].replace('ANGLE (', '')
+                    df.at[idx, 'partgpu'] = df.at[idx, 'partgpu'].replace('ANGLE (', '')
+
+        if export_table != None:
+            self.export_sql(df, export_table)
+        return df
+

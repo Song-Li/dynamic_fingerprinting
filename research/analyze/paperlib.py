@@ -640,4 +640,3 @@ class Paperlib():
         print ('finished generating, exporting to sql')
         db.export_sql(df, 'fingerprintchanges')
         return 
-
