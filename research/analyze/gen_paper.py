@@ -1,11 +1,12 @@
 from paperlib import Paperlib
+from paperlib_helper import Paperlib_helper
 from database import Database
 
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.draw_change_reason()
-    #df = db.load_data(table_name = 'pandas_features')
+    paperlib.rebuild_fingerprintchanges()
+    #paperlib.draw_change_reason()
     #db.rebuild_table(df, export_table = 'pandas_features')
     #paperlib.generate_overall_change_database()
     #paperlib.feature_distribution_by_date('os')

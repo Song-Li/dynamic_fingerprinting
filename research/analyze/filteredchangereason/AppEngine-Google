@@ -1,0 +1,8 @@
+total 8 1.0
+agent: s~goluke-0003)++=>s~goluke-0001)++, browser: AppEngine-Google,  2 0.25
+agent: s~goluke-0001)++=>s~goluke-0002)++, browser: AppEngine-Google,  1 0.125
+agent: s~goluke-0001)++=>s~goluke-0003)++, browser: AppEngine-Google,  1 0.125
+agent: s~goluke-0002)++=>s~goluke-0003)++, browser: AppEngine-Google,  1 0.125
+agent: s~goluke-0003)++=>s~goluke-0004)++, browser: AppEngine-Google,  1 0.125
+agent: s~goluke-0004)++=>s~goluke-0003)++, browser: AppEngine-Google,  1 0.125
+audio: 44100++2++=>48000++8++, browser: AppEngine-Google,  1 0.125

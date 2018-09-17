@@ -1,0 +1,35 @@
+total 55 1.0
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Puffin,  5 0.0909090909091
+accept: ++=>*/*++, browser: Puffin,  3 0.0545454545455
+browser: Puffin,  3 0.0545454545455
+fp2_liedlanguages: True++=>False++, browser: Puffin,  3 0.0545454545455
+timezone: -60.0++=>-120.0++, browser: Puffin,  3 0.0545454545455
+agent: Chrome/59.0.3071.117++Puffin/7.0.3.17762AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++, timezone: -60.0++=>-120.0++, browser: Puffin,  2 0.0363636363636
+agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++, browser: Puffin,  2 0.0363636363636
+agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++, browser: Puffin,  2 0.0363636363636
+agent: Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++, encoding: gzip, deflate++=>gzip, deflate, br++, browser: Puffin,  2 0.0363636363636
+agent: Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++, browser: Puffin,  2 0.0363636363636
+agent: Puffin/7.0.6.18027AT++=>Puffin/7.1.2.18064AT++, timezone: -60.0++=>-120.0++, browser: Puffin,  2 0.0363636363636
+agent: Puffin/7.1.1.18059AP++=>Puffin/7.1.2.18064AP++, browser: Puffin,  2 0.0363636363636
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  2 0.0363636363636
+encoding: gzip, deflate++=>gzip, deflate, br++, browser: Puffin,  2 0.0363636363636
+accept: ++=>*/*++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  1 0.0181818181818
+accept: ++=>*/*++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
+agent: 7.0;++Build/NRD90M;++Puffin/7.0.6.18027AP++=>8.0.0;++Build/OPR1.170623.026;++Puffin/7.1.1.18059AP++, browser: Puffin,  1 0.0181818181818
+agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
+agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AT++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  1 0.0181818181818
+agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AT++, browser: Puffin,  1 0.0181818181818
+agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.3.20547AT++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++, encoding: gzip, deflate++=>gzip, deflate, br++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++, accept: ++=>*/*++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AP++=>Puffin/7.1.2.18064AP++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AP++=>Puffin/7.1.2.18064AP++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AT++=>Puffin/7.0.6.18027AT++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++, timezone: 60.0++=>0.0++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.6.18027AP++=>Puffin/7.1.2.18064AP++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.0.6.18027AT++=>Puffin/7.1.1.18059AT++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.5.0.20369AP++=>Puffin/7.5.3.20547AP++, browser: Puffin,  1 0.0181818181818
+agent: Puffin/7.5.1.20499AP++=>Puffin/7.5.2.20531AP++, browser: Puffin,  1 0.0181818181818
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818

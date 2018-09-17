@@ -9,51 +9,16 @@ class Paperlib():
 
     def __init__(self, db):
         self.db = db
-        self.feature_list = [
-            "agent",
-            "accept",
-            "encoding",
-            "language",
-            "timezone", 
-
-            "plugins", 
-            "cookie", 
-            "WebGL", 
-            "localstorage", 
-            "fp2_addbehavior",
-            "fp2_opendatabase",
-
-            "langsdetected",
-            "jsFonts",
-            "canvastest", 
-
-            "inc", 
-            "gpu", 
-            "gpuimgs", 
-            "cpucores", 
-            "audio",
-            "fp2_cpuclass",
-            "fp2_colordepth",
-            "fp2_pixelratio",
-
-            "ipcity",
-            "ipregion",
-            "ipcountry",
-
-            "fp2_liedlanguages",
-            "fp2_liedresolution",
-            "fp2_liedos",
-            "fp2_liedbrowser"
-            ]
-
+        self.feature_list = get_fingerprint_feature_list()
         self.group_features = {
-                'headers_features' : [0, 1, 2, 3, 4],
-                'browser_features' : [5, 6, 7, 8, 9, 10],
-                'os_features' : [11, 12, 13],
-                'hardware_feature' : [14, 15, 16, 17, 18, 19, 20, 21],
-                'ip_features': [22, 23, 24],
-                'consistency' : [25, 26, 27, 28]
+                'headers_features' : [0, 1, 2, 3, 4, 5],
+                'browser_features' : [6, 7, 8, 9, 10, 11],
+                'os_features' : [12, 13, 14],
+                'hardware_feature' : [15, 16, 17, 18, 19, 20, 21, 22],
+                'ip_features': [23, 24, 25],
+                'consistency' : [26, 27, 28, 29]
                 }
+        self.paperlib_helper = Paperlib_helper()
 
     def life_time_median(self, db = None, filter_less_than = 3, output_file = './res/life_time_median.dat'):
         """
@@ -604,6 +569,7 @@ class Paperlib():
                 continue
             pre_fingerprint = ""
             for idx, row in cur_group.iterrows():
+
                 if pre_fingerprint == "":
                     pre_fingerprint = row[browserfingerprint]
                     pre_row = row
@@ -647,6 +613,15 @@ class Paperlib():
         draw the fingure of changed reason by browser
         """
         df = self.db.load_data(table_name = 'fingerprintchanges')
+
+        df = self.paperlib_helper.remove_change_only(df, 
+                ['audio', 'jsFonts', 'jsFonts'], 
+                ['Chrome', 'Firefox', 'Safari'])
+        df = self.paperlib_helper.remove_change_only(df, 
+                ['accept', 'audio'], ['Chrome', 'Safari'])
+        df = self.paperlib_helper.remove_change_only(df, 
+                ['plugins', 'plugins'], ['Chrome', 'Safari'])
+
         feature_list = self.feature_list
         feature_list.append('browser')
         grouped = df.groupby(feature_list)
@@ -673,10 +648,30 @@ class Paperlib():
                     key=lambda (k,v): (-v,k))
 
         for browser in sorted_res:
-            f = safeopen('./changereason/{}'.format(browser), 'w')
+            f = safeopen('./filteredchangereason/{}'.format(browser),
+                    'w')
             for string in sorted_res[browser]:
                 f.write('{} {} {}\n'.format(string[0], string[1], 
                     float(string[1]) / float(res[browser]['total'])))
             f.close()
 
+    def rebuild_fingerprintchanges(self, 
+            from_table = 'fingerprintchanges', 
+            aim_table = 'filteredfingerprintchanges'):
+        """
+        this function will remove useless changes
+        """
+        db = Database('forpaper345')
+        df = db.load_data(table_name = from_table)
 
+        df = self.paperlib_helper.remove_change_only(df, 
+                ['audio', 'jsFonts', 'jsFonts'], 
+                ['Chrome', 'Firefox', 'Safari'])
+        df = self.paperlib_helper.remove_change_only(df, 
+                ['accept', 'audio'], ['Chrome', 'Safari'])
+        df = self.paperlib_helper.remove_change_only(df, 
+                ['plugins', 'plugins'], ['Chrome', 'Safari'])
+
+        print ('finished rebuild, storing back to sql')
+        db.export_sql(df, aim_table)
+        return 

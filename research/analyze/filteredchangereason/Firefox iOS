@@ -1,0 +1,79 @@
+total 93 1.0
+fp2_liedresolution: True++=>False++, browser: Firefox iOS,  7 0.0752688172043
+fp2_liedresolution: False++=>True++, browser: Firefox iOS,  5 0.0537634408602
+browser: Firefox iOS,  3 0.0322580645161
+agent: 11_2++FxiOS/10.3b7934++Mobile/15C114++=>11_2_1++FxiOS/10.4b8288++Mobile/15C153++, browser: Firefox iOS,  2 0.0215053763441
+agent: FxiOS/11.0b9935++Mobile/15E216++=>FxiOS/11.1b10377++Mobile/15E302++, browser: Firefox iOS,  2 0.0215053763441
+audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Firefox iOS,  2 0.0215053763441
+accept: ++=>*/*++, fp2_liedresolution: True++=>False++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_1_2++AppleWebKit/604.3.5++FxiOS/10.2b7796++Mobile/15B202++Safari/604.3.5++=>11_2++AppleWebKit/604.4.7++FxiOS/10.3b7934++Mobile/15C114++Safari/604.4.7++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_1_2++AppleWebKit/604.3.5++FxiOS/10.2b7796++Mobile/15B202++Safari/604.3.5++=>11_2_5++AppleWebKit/604.5.6++FxiOS/10.4b8288++Mobile/15D60++Safari/604.5.6++, accept: ++=>*/*++, ipcity: Berlin++=>Potsdam++, ipregion: Berlin++=>Brandenburg++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_1_2++AppleWebKit/604.3.5++FxiOS/10.3b7934++Mobile/15B202++Safari/604.3.5++=>11_2_1++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C153++Safari/604.4.7++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_1_2++AppleWebKit/604.3.5++Mobile/15B202++Safari/604.3.5++=>11_2_1++AppleWebKit/604.4.7++Mobile/15C153++Safari/604.4.7++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_1_2++AppleWebKit/604.3.5++Mobile/15B202++Safari/604.3.5++=>11_2_2++AppleWebKit/604.4.7++Mobile/15C202++Safari/604.4.7++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2++AppleWebKit/604.4.7++FxiOS/10.3b7934++Mobile/15C5110b++Safari/604.4.7++=>11_2_5++AppleWebKit/604.5.2++FxiOS/10.4b8288++Mobile/15D5046b++Safari/604.5.2++, ipcity: Munich++=>Stendal++, ipregion: Bayern++=>Sachsen-Anhalt++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2++FxiOS/10.3b7934++Mobile/15C114++=>11_2_1++FxiOS/10.4b8288++Mobile/15C153++, ipcity: Tespe++=>Hanover++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C153++Safari/604.4.7++=>11_2_6++AppleWebKit/604.5.6++FxiOS/10.6b8836++Mobile/15D100++Safari/604.5.6++, accept: ++=>*/*++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C153++Safari/604.4.7++=>11_3++AppleWebKit/605.1.15++FxiOS/10.6b8836++Mobile/15E216++Safari/605.1.15++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C153++Safari/604.4.7++=>11_3++AppleWebKit/605.1.15++FxiOS/11.0b9935++Mobile/15E302++Safari/605.1.15++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Munich++=>Hamburg++, ipregion: Bayern++=>Hamburg++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C153++Safari/604.4.7++=>11_4++AppleWebKit/605.1.15++FxiOS/12.1b10941++Mobile/15F79++Safari/605.1.15++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>24000++, ipcity: Frankfurt am Main++=>Freiburg++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++AppleWebKit/604.4.7++FxiOS/11.0b9935++Mobile/15C153++Safari/604.4.7++=>11_3++AppleWebKit/605.1.15++FxiOS/11.1b10377++Mobile/15E302++Safari/605.1.15++, ipcity: Munich++=>Waldkraiburg++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, accept: ++=>*/*++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, ipcity: Zeuthen++=>Potsdam++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_2++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C202++Safari/604.4.7++=>11_2_5++AppleWebKit/604.5.6++FxiOS/10.6b8836++Mobile/15D60++Safari/604.5.6++, accept: ++=>*/*++, canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Dusseldorf++=>Schwedt (Oder)++, ipregion: Nordrhein-Westfalen++=>Brandenburg++, fp2_liedresolution: True++=>False++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_2++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C202++Safari/604.4.7++=>11_3++AppleWebKit/605.1.15++FxiOS/11.0b9935++Mobile/15E302++Safari/605.1.15++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Regensburg++=>Bonn++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_2++AppleWebKit/604.4.7++FxiOS/10.4b8288++Mobile/15C202++Safari/604.4.7++=>11_3++AppleWebKit/605.1.15++FxiOS/11.1b10377++Mobile/15E302++Safari/605.1.15++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Mannheim++=>Karlsruhe++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_2++AppleWebKit/604.4.7++Mobile/15C202++Safari/604.4.7++=>11_2_5++AppleWebKit/604.5.6++Mobile/15D60++Safari/604.5.6++, accept: ++=>*/*++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_2++AppleWebKit/604.4.7++Mobile/15C202++Safari/604.4.7++=>11_2_6++AppleWebKit/604.5.6++Mobile/15D100++Safari/604.5.6++, ipcity: Sulzbach++=>Ingolstadt++, ipregion: Thuringen++=>Bayern++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++AppleWebKit/604.5.1++FxiOS/10.4b8288++Mobile/15D5037e++Safari/604.5.1++=>11_4_1++AppleWebKit/605.1.15++FxiOS/12.1b10941++Mobile/15G5054c++Safari/605.1.15++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 48000++=>44100++, ipcity: Karlsruhe++=>Schramberg++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++AppleWebKit/604.5.6++FxiOS/10.4b8288++Mobile/15D60++Safari/604.5.6++=>11_4++AppleWebKit/605.1.15++FxiOS/12.1b10941++Mobile/15F79++Safari/605.1.15++, timezone: -60.0++=>-120.0++, ipcity: Potsdam++=>Dusseldorf++, ipregion: Brandenburg++=>Nordrhein-Westfalen++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++AppleWebKit/604.5.6++Mobile/15D60++Safari/604.5.6++=>11_3++AppleWebKit/605.1.15++Mobile/15E216++Safari/605.1.15++, canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Ahaus++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, ipcity: Geesthacht++=>Amsterdam++, ipregion: Schleswig-Holstein++=>Noord-Holland++, ipcountry: Germany++=>Netherlands++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, ipcity: Goppingen++=>Stuttgart++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_6++AppleWebKit/604.5.6++FxiOS/10.6b8836++Mobile/15D100++Safari/604.5.6++=>11_4++AppleWebKit/605.1.15++FxiOS/12.1b10941++Mobile/15F79++Safari/605.1.15++, timezone: -60.0++=>-120.0++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_6++AppleWebKit/604.5.6++Mobile/15D100++Safari/604.5.6++=>11_3++AppleWebKit/605.1.15++Mobile/15E216++Safari/605.1.15++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_2_6++AppleWebKit/604.5.6++Mobile/15D100++Safari/604.5.6++=>11_3++AppleWebKit/605.1.15++Mobile/15E216++Safari/605.1.15++, timezone: -60.0++=>-120.0++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_3++FxiOS/11.1b10377++Mobile/15E216++=>11_4++FxiOS/12.1b10941++Mobile/15F79++, ipcity: Hanover++=>Neustrelitz++, ipregion: Niedersachsen++=>Mecklenburg-Vorpommern++, browser: Firefox iOS,  1 0.010752688172
+agent: 11_3++FxiOS/11.1b10377++Mobile/15E302++=>11_4++FxiOS/12.1b10941++Mobile/15F79++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/10.3b7934++=>FxiOS/10.4b8288++, ipcity: Magdeburg++=>Mecklenburg++, ipregion: Sachsen-Anhalt++=>Mecklenburg-Vorpommern++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/10.4b8288++=>FxiOS/10.6b8836++, fp2_liedresolution: False++=>True++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/10.6b8836++=>FxiOS/11.0b9935++, canvastest: 41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/10.6b8836++=>FxiOS/11.0b9935++, fp2_liedresolution: False++=>True++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/10.6b8836++=>FxiOS/11.0b9935++, timezone: -60.0++=>-120.0++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/11.0b9935++=>FxiOS/11.1b10377++, ipcity: Hamburg++=>Munich++, ipregion: Hamburg++=>Bayern++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/11.0b9935++=>FxiOS/11.1b10377++, ipcity: Neustrelitz++=>Hanover++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Firefox iOS,  1 0.010752688172
+agent: FxiOS/11.0b9935++Mobile/15E216++=>FxiOS/11.1b10377++Mobile/15E302++, canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, ipcity: Frankfurt am Main++=>Dillenburg++, browser: Firefox iOS,  1 0.010752688172
+audio: 24000++=>44100++, browser: Firefox iOS,  1 0.010752688172
+audio: 44100++=>48000++, browser: Firefox iOS,  1 0.010752688172
+audio: 44100++=>48000++, ipcity: Schramberg++=>Dusseldorf++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Firefox iOS,  1 0.010752688172
+audio: 48000++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: True++=>False++, browser: Firefox iOS,  1 0.010752688172
+audio: 48000++=>44100++, browser: Firefox iOS,  1 0.010752688172
+audio: not supported++=>48000++0++1++0++2++explicit++speakers++, fp2_liedresolution: False++=>True++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 0084f52315f069e4c003170da2f07b3104f6cfc1++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 0084f52315f069e4c003170da2f07b3104f6cfc1++=>e580d72a623d345050b5767a4a42ec6659bcd5cb++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 0bc67d53749d777cade67a0a474f4597be501c48++=>7900b9d60908a6ff3e49a7575ea02de1422c6906++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 15858f4dff86696613d16bbcac0b75613d91d6dd++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 1d69450a218a7ed71430d379c2f1bfc8727b01a5++=>5d19d3dfad6b34770514d9dde40fdb1bba730c74++, audio: 24000++=>44100++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>41ca5b49c36d00c4349bb83f08ef906f0efd8305++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Firefox iOS,  1 0.010752688172
+canvastest: 96a2590803f83acf76972c8603b1f0d314b73583++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Firefox iOS,  1 0.010752688172
+canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Firefox iOS,  1 0.010752688172
+canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Muenster++=>Aslage++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Firefox iOS,  1 0.010752688172
+canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, ipcity: Osnabruck++=>Muenster++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Firefox iOS,  1 0.010752688172
+canvastest: c517ac91f340046384df8c1b0d1cfa3fadd947a8++=>bb44cf9b0d20301486006f6bc9e00c6d9b1748cd++, browser: Firefox iOS,  1 0.010752688172
+canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, ipcity: Wiesbaden++=>Potsdam++, ipregion: Hessen++=>Brandenburg++, browser: Firefox iOS,  1 0.010752688172
+canvastest: e580d72a623d345050b5767a4a42ec6659bcd5cb++=>15858f4dff86696613d16bbcac0b75613d91d6dd++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Firefox iOS,  1 0.010752688172
+canvastest: e580d72a623d345050b5767a4a42ec6659bcd5cb++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Firefox iOS,  1 0.010752688172
+ipcity: Dusseldorf++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, fp2_liedresolution: False++=>True++, browser: Firefox iOS,  1 0.010752688172
+ipcity: Waldkraiburg++=>Munich++, fp2_liedresolution: True++=>False++, browser: Firefox iOS,  1 0.010752688172
+timezone: -60.0++=>-120.0++, browser: Firefox iOS,  1 0.010752688172
+timezone: -60.0++=>-120.0++, ipcity: Ingolstadt++=>Osnabruck++, ipregion: Bayern++=>Niedersachsen++, browser: Firefox iOS,  1 0.010752688172

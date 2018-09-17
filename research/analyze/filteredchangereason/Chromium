@@ -1,0 +1,154 @@
+total 361 1.0
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Chromium,  45 0.124653739612
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Chromium,  37 0.102493074792
+plugins: =>Shockwave Flash++, browser: Chromium,  32 0.0886426592798
+browser: Chromium,  31 0.0858725761773
+plugins: Shockwave Flash++=>, browser: Chromium,  29 0.0803324099723
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, browser: Chromium,  12 0.0332409972299
+accept: ++=>*/*++, browser: Chromium,  10 0.0277008310249
+agent: Chromium/62.0.3202.89++Chrome/62.0.3202.89++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, browser: Chromium,  4 0.01108033241
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, browser: Chromium,  4 0.01108033241
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/63.0.3239.132++Chrome/63.0.3239.132++, browser: Chromium,  3 0.00831024930748
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, browser: Chromium,  3 0.00831024930748
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, browser: Chromium,  3 0.00831024930748
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, browser: Chromium,  2 0.00554016620499
+ipcity: Chennai++=>Coimbatore++, browser: Chromium,  2 0.00554016620499
+ipcity: Coimbatore++=>Chennai++, browser: Chromium,  2 0.00554016620499
+plugins: =>Shockwave Flash++, fp2_pixelratio: 1++=>0.899999976158++, browser: Chromium,  2 0.00554016620499
+plugins: Shockwave Flash++=>, audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Chromium,  2 0.00554016620499
+plugins: Shockwave Flash++=>, fp2_pixelratio: 0.899999976158++=>1++, browser: Chromium,  2 0.00554016620499
+timezone: -60.0++=>-120.0++, browser: Chromium,  2 0.00554016620499
+accept: ++=>*/*++, fp2_pixelratio: 4++=>1.5++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Ahmedabad++=>Mumbai++, ipregion: Gujarat++=>Maharashtra++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Ahmedabad++=>Pune++, ipregion: Gujarat++=>Maharashtra++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Akkarampalle++=>Ahmedabad++, ipregion: Andhra Pradesh++=>Gujarat++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Charkhi Dadri++=>Delhi++, ipregion: Haryana++=>Delhi++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Chennai++=>Hosur++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Chennai++=>Musiri++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Delhi++=>Noida++, ipregion: Delhi++=>Uttar Pradesh++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Gurgaon++=>Delhi++, ipregion: Haryana++=>Delhi++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Vishakhapatnam++=>Ahmedabad++, ipregion: Andhra Pradesh++=>Gujarat++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, ipcity: Vishakhapatnam++=>Tirupati++, browser: Chromium,  1 0.00277008310249
+accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Freinsheim++=>Luebeck++, ipregion: Rheinland-Pfalz++=>Schleswig-Holstein++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/53.0.2785.143++Chrome/53.0.2785.143++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, plugins: Chromium PDF Viewer++Shockwave Flash++=>Chromium PDF Plugin++Widevine Content Decryption Module++, canvastest: af062a3fa011d0fc881bf7c833d81a1627051e18++=>bea417dff3cb905170765ee432764c362460df79++, ipcity: Wolfsegg am Hausruck++=>Ainet++, ipregion: Oberosterreich++=>Tirol++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/58.0.3029.110++Chrome/58.0.3029.110++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, language: q=0.8++=>q=0.9++, plugins: Chromium PDF Viewer++Shockwave Flash++=>Chromium PDF Plugin++Widevine Content Decryption Module++, canvastest: fe3eff68063fabab00ef97bd6c6102edec59c49f++=>4323cf38bf99df7fe6258095282f2922edd04b42++, ipcity: Cuddalore++=>Coimbatore++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/60.0.3112.113++Chrome/60.0.3112.113++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, timezone: -60.0++=>-120.0++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.62++Chrome/62.0.3202.62++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, ipcity: Berlin++=>Hamburg++, ipregion: Berlin++=>Hamburg++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.62++Chrome/62.0.3202.62++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, jsFonts: =>Bitstream Vera Sans Mono++, ipcity: Freinsheim++=>Bad Bergzabern++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.62++Chrome/62.0.3202.62++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, accept: ++=>*/*++, ipcity: Bodigheim++=>Bensheim++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.62++Chrome/62.0.3202.62++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Dresden++=>Schrodershof++, ipregion: Sachsen++=>Mecklenburg-Vorpommern++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.75++Chrome/62.0.3202.75++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, ipcity: Maria Enzersdorf++=>Graz++, ipregion: Niederosterreich++=>Steiermark++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.75++Chrome/62.0.3202.75++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.89++Chrome/62.0.3202.89++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, ipcity: Graz++=>Liezen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.89++Chrome/62.0.3202.89++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, ipcity: Isenburg++=>Freinsheim++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.89++Chrome/62.0.3202.89++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, ipcity: Jabalpur++=>Bhopal++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.89++Chrome/62.0.3202.89++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Nuremberg++=>Born++, ipregion: Bayern++=>Mecklenburg-Vorpommern++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, accept: ++=>*/*++, plugins: =>Widevine Content Decryption Module++, ipcity: Charkhi Dadri++=>Noida++, ipregion: Haryana++=>Uttar Pradesh++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, canvastest: 98cebe042526697e761ded290311ad47b883c6db++=>4e31d675c35b133880c41c1e1dca8367ab8efa4b++, fp2_pixelratio: 1++=>1.29999995232++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Berlin++=>Magdeburg++, ipregion: Berlin++=>Sachsen-Anhalt++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Delhi++=>Charkhi Dadri++, ipregion: Delhi++=>Haryana++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Dortmund++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Dusseldorf++=>Bad Essen++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Liezen++=>Graz++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Moorseite++=>Varel++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Timisoara++=>Vinga++, ipregion: Timis++=>Arad++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, plugins: =>Widevine Content Decryption Module++, ipcity: Wiesbaden++=>Netzbach++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/64.0.3282.119++Chrome/64.0.3282.119++, accept: ++=>*/*++, ipcity: Freinsheim++=>Mannheim++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/64.0.3282.119++Chrome/64.0.3282.119++, accept: ++=>*/*++, plugins: =>Widevine Content Decryption Module++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, accept: ++=>*/*++, langsdetected: Javanese++Sundanese++Modern Yi++Mongolian++=>, canvastest: 98cebe042526697e761ded290311ad47b883c6db++=>923a906de22512862604489426a249ea028b0a9e++, fp2_liedlanguages: True++=>False++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, accept: ++=>*/*++, language: de-DE,de++q=0.9,en-US++q=0.8,en++q=0.7++=>de,de-DE++q=0.9++, timezone: -60.0++=>-120.0++, ipcity: Hamburg++=>Zwickau++, ipregion: Hamburg++=>Sachsen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Maria Enzersdorf++=>Vienna++, ipregion: Niederosterreich++=>Wien++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/62.0.3202.94++Chrome/62.0.3202.94++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, jsFonts: =>MS Gothic++MS PGothic++Segoe UI++MS PMincho++PMingLiU++SimSun++, canvastest: ff9ec337bfc70eb79a1134aebb81cce6309c61dd++=>05c2025082dd0a207f395057557319f36cfcedfa++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.132++Chrome/63.0.3239.132++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.132++Chrome/63.0.3239.132++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, language: de,de-DE++q=0.9,en-US++q=0.8,en++q=0.7++=>de,en-US++q=0.9,en++q=0.8++, plugins: Widevine Content Decryption Module++=>, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.132++Chrome/63.0.3239.132++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, jsFonts: =>Cambria Math++Consolas++Candara++Constantia++Corbel++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/62.0.3202.94++Chrome/62.0.3202.94++, plugins: Widevine Content Decryption Module++=>, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/63.0.3239.132++Chrome/63.0.3239.132++, accept: ++=>*/*++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/63.0.3239.132++Chrome/63.0.3239.132++, accept: ++=>*/*++, language: en-US,en++q=0.9,de++q=0.8,de-DE++q=0.7++=>de,de-DE++q=0.9++, ipcity: Hanover++=>Braunschweig++, fp2_liedlanguages: True++=>False++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.119++Chrome/64.0.3282.119++, accept: ++=>*/*++, language: q=0.3++=>q=0.3,fr++q=0.2++, plugins: Widevine Content Decryption Module++=>++, ipcity: Hoexter++=>Hanover++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.119++Chrome/64.0.3282.119++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, ipcity: Bad Bergzabern++=>Freinsheim++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, ipcity: Graz++=>Vienna++, ipregion: Steiermark++=>Wien++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, language: en-GB,en-US++q=0.9,en++q=0.8++=>en-GB,en++q=0.9,en-US++q=0.8,de++q=0.7++, langsdetected: =>Telugu++Kannada++, ipcity: Delhi++=>Noida++, ipregion: Delhi++=>Uttar Pradesh++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, accept: ++=>*/*++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, ipcity: Snowmass Village++=>Campion++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, plugins: Shockwave Flash++Widevine Content Decryption Module++=>, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Schaffhausen++=>Lausanne++, ipregion: Schaffhausen++=>Vaud++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, plugins: Widevine Content Decryption Module++=>, ipcity: Rees++=>Borken++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, plugins: Widevine Content Decryption Module++=>, cookie: True++=>False++, localstorage: True++=>False++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, plugins: Widevine Content Decryption Module++=>, browser: Chromium,  1 0.00277008310249
+agent: Chromium/63.0.3239.84++Chrome/63.0.3239.84++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, plugins: Widevine Content Decryption Module++=>, jsFonts: =>Bitstream Vera Sans Mono++, ipcity: Dusseldorf++=>Recklinghausen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.119++Chrome/64.0.3282.119++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.119++Chrome/64.0.3282.119++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++, ipcity: Mannheim++=>Wahlen++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.119++Chrome/64.0.3282.119++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, ipcity: Potsdam++=>Bensheim++, ipregion: Brandenburg++=>Hessen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, ipcity: Graz++=>Parschlug++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, ipcity: Noida++=>Charkhi Dadri++, ipregion: Uttar Pradesh++=>Haryana++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, timezone: -60.0++=>-120.0++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/64.0.3282.167++Chrome/64.0.3282.167++, timezone: -60.0++=>-120.0++, ipcity: Freinsheim++=>Kiel++, ipregion: Rheinland-Pfalz++=>Schleswig-Holstein++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, ipcity: Wahlen++=>Heidelberg++, ipregion: Hessen++=>Sachsen++, fp2_liedlanguages: True++=>False++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.140++Chrome/64.0.3282.140++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, timezone: -60.0++=>-120.0++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/63.0.3239.84++Chrome/63.0.3239.84++, language: en-GB,en++q=0.9,en-US++q=0.8,de++q=0.7++=>en-GB,en-US++q=0.9,en++q=0.8++, langsdetected: Telugu++Kannada++=>, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, fp2_liedlanguages: True++=>False++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, ipcity: Kiel++=>Dusseldorf++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, language: en-US,en++q=0.9++=>de-DE,de++q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Hainburg an der Donau++=>Linz++, ipregion: Niederosterreich++=>Oberosterreich++, fp2_liedlanguages: True++=>False++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, plugins: Widevine Content Decryption Module++=>, canvastest: 7caa1ac3c40657876ec964e990a2a0759e5db447++=>c604327a78073eff7ad9081a32445af281a2404d++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, ipcity: Bensheim++=>Mannheim++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, ipcity: Dresden++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, ipcity: Gross Schauen++=>Loipfering++, ipregion: Brandenburg++=>Bayern++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, ipcity: Schwaig++=>Feuchtwangen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/64.0.3282.167++Chrome/64.0.3282.167++=>Chromium/65.0.3325.181++Chrome/65.0.3325.181++, timezone: -60.0++=>-120.0++, ipcity: Sulzbach++=>Frankfurt am Main++, ipregion: Thuringen++=>Hessen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/65.0.3325.181++Chrome/65.0.3325.181++=>Chromium/66.0.3359.139++Chrome/66.0.3359.139++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/65.0.3325.181++Chrome/65.0.3325.181++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/65.0.3325.181++Chrome/65.0.3325.181++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, jsFonts: =>MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++, canvastest: 770fdeb740a3b3efdeb2f34c6646aa22dfc06a0b++=>a5c1d25c39262a90b80e7eeeff813760ddc4dcf3++, ipcity: Munich++=>Rendsburg++, ipregion: Bayern++=>Schleswig-Holstein++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/65.0.3325.181++Chrome/65.0.3325.181++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, jsFonts: =>MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++, canvastest: 9fa4f1e742103c57a853d2cac6cd98789d508570++=>e63a724547eea45e048e77e8a414a47054336fc3++, ipcity: Dortmund++=>Dusseldorf++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/66.0.3359.139++Chrome/66.0.3359.139++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, ipcity: Dortmund++=>Wieseck++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/66.0.3359.139++Chrome/66.0.3359.139++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, langsdetected: =>Chinese++Devanagari++Kana++Gurmukhi++Hangul++Telugu++Tamil++Malayalam++Burmese++Thai++Kannada++Gujarati++Odia++Ge-ez++Sinhala++Khmer++Lontara++Tibetan++Syriac++Thaana++Cherokee++, jsFonts: MONO++=>Arial++Courier++Courier New++Helvetica++MS Gothic++MS PGothic++Times++Times New Roman++MS PMincho++PMingLiU++SimSun++, canvastest: 3ceff23e88a4b648c9e99f5fc1d56f7321dda591++=>52b3e380ef51366669060fa0c6e077b1ef3cbcfc++, ipcity: Villingen-Schwenningen++=>Stuttgart++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/66.0.3359.181++Chrome/66.0.3359.181++=>Chromium/67.0.3396.62++Chrome/67.0.3396.62++, ipcity: Stuttgart++=>Karlsruhe++, browser: Chromium,  1 0.00277008310249
+agent: Chromium/67.0.3396.62++Chrome/67.0.3396.62++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++, jsFonts: =>MONO++, ipcity: Munich++=>Nuremberg++, browser: Chromium,  1 0.00277008310249
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Noida++=>Delhi++, ipregion: Uttar Pradesh++=>Delhi++, browser: Chromium,  1 0.00277008310249
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, ipcity: Vienna++=>Graz++, ipregion: Wien++=>Steiermark++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 0.899999976158++=>2++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 1++=>0.75++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 1++=>1.10000002384++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 1++=>1.25++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 1++=>1.75++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 1.75++=>3++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 2++=>1++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 2.5++=>4++, browser: Chromium,  1 0.00277008310249
+fp2_pixelratio: 3++=>2.5++, browser: Chromium,  1 0.00277008310249
+ipcity: Ahmedabad++=>Vishakhapatnam++, ipregion: Gujarat++=>Andhra Pradesh++, browser: Chromium,  1 0.00277008310249
+ipcity: Charkhi Dadri++=>Delhi++, ipregion: Haryana++=>Delhi++, browser: Chromium,  1 0.00277008310249
+ipcity: Chennai++=>Cuddalore++, browser: Chromium,  1 0.00277008310249
+ipcity: Halle (Saale)++=>Dusseldorf++, ipregion: Sachsen-Anhalt++=>Nordrhein-Westfalen++, browser: Chromium,  1 0.00277008310249
+ipcity: Halle (Saale)++=>Hanover++, ipregion: Sachsen-Anhalt++=>Niedersachsen++, browser: Chromium,  1 0.00277008310249
+ipcity: Hohwacht++=>Kargow++, ipregion: Schleswig-Holstein++=>Mecklenburg-Vorpommern++, browser: Chromium,  1 0.00277008310249
+ipcity: Longthorpe++=>Poynton++, browser: Chromium,  1 0.00277008310249
+ipcity: Muenster++=>Dortmund++, browser: Chromium,  1 0.00277008310249
+ipcity: Mumbai++=>Ahmedabad++, ipregion: Maharashtra++=>Gujarat++, browser: Chromium,  1 0.00277008310249
+ipcity: Noida++=>Delhi++, ipregion: Uttar Pradesh++=>Delhi++, browser: Chromium,  1 0.00277008310249
+ipcity: Nuremberg++=>Schney++, browser: Chromium,  1 0.00277008310249
+ipcity: Nuremberg++=>Sonthofen++, browser: Chromium,  1 0.00277008310249
+ipcity: Ochtrup++=>Muenster++, browser: Chromium,  1 0.00277008310249
+jsFonts: =>Bitstream Vera Sans Mono++, ipcity: Dusseldorf++=>Halle (Saale)++, ipregion: Nordrhein-Westfalen++=>Sachsen-Anhalt++, browser: Chromium,  1 0.00277008310249
+language: en-GB,en++q=0.9,en-US++q=0.8,de++q=0.7++=>en-GB,en-US++q=0.9,en++q=0.8++, langsdetected: Telugu++Kannada++=>, browser: Chromium,  1 0.00277008310249
+language: en-GB,en-US++q=0.8,en++q=0.6++=>en-US,en++q=0.8++, browser: Chromium,  1 0.00277008310249
+language: en-GB,en-US++q=0.9,en++q=0.8++=>en-GB,en++q=0.9,en-US++q=0.8,de++q=0.7++, browser: Chromium,  1 0.00277008310249
+language: q=0.2++=>q=0.2,gl++q=0.1++, ipcity: Hanover++=>Stadthagen++, browser: Chromium,  1 0.00277008310249
+language: q=0.4++=>q=0.4,pl++q=0.3++, ipcity: Stadthagen++=>Hoexter++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Chromium,  1 0.00277008310249
+language: q=0.6++=>q=0.6,la++q=0.5,mt++q=0.4++, ipcity: Gottingen++=>Stadthagen++, browser: Chromium,  1 0.00277008310249
+language: q=0.7++=>q=0.7,id++q=0.6++, ipcity: Bielefeld++=>Gottingen++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Chromium,  1 0.00277008310249
+language: q=0.9++=>q=0.9,ro++q=0.8++, ipcity: Vinga++=>Gataia++, ipregion: Arad++=>Timis++, browser: Chromium,  1 0.00277008310249
+plugins: ++=>Chromium PDF Plugin++Chromium PDF Viewer++Shockwave Flash++Widevine Content Decryption Module++, fp2_pixelratio: 2++=>1++, fp2_liedos: True++=>False++, fp2_liedbrowser: True++=>False++, browser: Chromium,  1 0.00277008310249
+plugins: ++=>Shockwave Flash++, browser: Chromium,  1 0.00277008310249
+plugins: ++=>Widevine Content Decryption Module++, browser: Chromium,  1 0.00277008310249
+plugins: =>Shockwave Flash++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Chromium,  1 0.00277008310249
+plugins: =>Shockwave Flash++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, fp2_pixelratio: 1++=>0.899999976158++, browser: Chromium,  1 0.00277008310249
+plugins: =>Shockwave Flash++, fp2_pixelratio: 1++=>0.75++, browser: Chromium,  1 0.00277008310249
+plugins: =>Shockwave Flash++, ipcity: New Delhi++=>San Jose++, ipregion: Delhi++=>California++, ipcountry: India++=>United States++, browser: Chromium,  1 0.00277008310249
+plugins: Chromium PDF Plugin++Chromium PDF Viewer++=>++, browser: Chromium,  1 0.00277008310249
+plugins: Chromium PDF Plugin++Chromium PDF Viewer++Shockwave Flash++Widevine Content Decryption Module++=>++, fp2_pixelratio: 1++=>2++, fp2_liedos: False++=>True++, fp2_liedbrowser: False++=>True++, browser: Chromium,  1 0.00277008310249
+plugins: Shockwave Flash++=>, fp2_pixelratio: 0.75++=>1++, browser: Chromium,  1 0.00277008310249
+plugins: Shockwave Flash++=>, ipcity: Offenburg++=>Oppenau++, browser: Chromium,  1 0.00277008310249
+plugins: Shockwave Flash++=>, ipcity: San Jose++=>Clifton++, ipregion: California++=>Virginia++, browser: Chromium,  1 0.00277008310249
+timezone: -120.0++=>-60.0++, ipcity: Venice++=>Menzel Bourguiba++, ipregion: Veneto++=>Bizerte++, ipcountry: Italy++=>Tunisia++, browser: Chromium,  1 0.00277008310249
+timezone: -60.0++=>-120.0++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Chromium,  1 0.00277008310249
+timezone: -60.0++=>-120.0++, ipcity: Stadthagen++=>Bielefeld++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Chromium,  1 0.00277008310249

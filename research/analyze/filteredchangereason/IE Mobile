@@ -1,0 +1,102 @@
+total 160 1.0
+browser: IE Mobile,  38 0.2375
+accept: ++=>*/*++, browser: IE Mobile,  23 0.14375
+accept: ++=>*/*++, ipcity: Augsburg-Lechviertel++=>Dortmund++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Augsburg-Lechviertel++=>Munich++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Bahnhof Reken++=>Borken++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Berlin++=>Eberswalde++, ipregion: Berlin++=>Brandenburg++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Berlin++=>Gera++, ipregion: Berlin++=>Thuringen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Bonn++=>Dortmund++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Bramsche++=>Bachem++, ipregion: Niedersachsen++=>Rheinland-Pfalz++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Bremen++=>Dusseldorf++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Butzenbach++=>Luebeck++, ipregion: Bayern++=>Schleswig-Holstein++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Delmenhorst++=>Syke++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Dolldorf++=>Nienburg++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Dortmund++=>Ahaus++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Dortmund++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Dusseldorf++=>Bielefeld++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Freiburg++=>Stuttgart++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Gottingen++=>Saarbrucken++, ipregion: Niedersachsen++=>Saarland++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Halle (Saale)++=>Dresden++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Hanover++=>Dortmund++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Hanover++=>Zinna++, ipregion: Niedersachsen++=>Sachsen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Ingolstadt++=>Neu-Ulm++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Karlsruhe++=>Ering++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Karlsruhe++=>Hagen++, ipregion: Brandenburg++=>Sachsen-Anhalt++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Munich++=>Neu-Ulm++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Munich++=>Sandstedt++, ipregion: Bayern++=>Niedersachsen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Niederaichbach++=>Munich++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Oldenburg++=>Ulm++, ipregion: Mecklenburg-Vorpommern++=>Baden-Wurttemberg++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Parchim++=>Berlin++, ipregion: Mecklenburg-Vorpommern++=>Berlin++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Schwabisch Gmund++=>Munich++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Siegen++=>Munich++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Spreewitz++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Stock++=>Freudenstadt++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Viechtach++=>Dusseldorf++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Viechtach++=>Munich++, browser: IE Mobile,  1 0.00625
+accept: ++=>*/*++, ipcity: Vienna++=>Wommen++, ipregion: Wien++=>Hessen++, ipcountry: Austria++=>Germany++, browser: IE Mobile,  1 0.00625
+canvastest: 774d73900f7bd00f3b38d20a5b839f9c6f7a7994++=>112067c94e3911977e61441811b7c605fd6f86e8++, ipcity: Mannheim++=>Stuttgart++, browser: IE Mobile,  1 0.00625
+ipcity: Aachen++=>Berlin++, ipregion: Nordrhein-Westfalen++=>Berlin++, browser: IE Mobile,  1 0.00625
+ipcity: Aachen++=>Dusseldorf++, browser: IE Mobile,  1 0.00625
+ipcity: Aachen++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: IE Mobile,  1 0.00625
+ipcity: Ahaus++=>Dusseldorf++, browser: IE Mobile,  1 0.00625
+ipcity: Ahaus++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, browser: IE Mobile,  1 0.00625
+ipcity: Altmuhldorf++=>Augsburg-Lechviertel++, browser: IE Mobile,  1 0.00625
+ipcity: Aschaffenburg++=>Frankfurt am Main++, ipregion: Bayern++=>Hessen++, browser: IE Mobile,  1 0.00625
+ipcity: Augsburg++=>Kiel++, browser: IE Mobile,  1 0.00625
+ipcity: Augsburg-Lechviertel++=>Nuremberg++, browser: IE Mobile,  1 0.00625
+ipcity: Bamberg++=>Munich++, browser: IE Mobile,  1 0.00625
+ipcity: Berlin++=>Karlsruhe++, ipregion: Berlin++=>Brandenburg++, browser: IE Mobile,  1 0.00625
+ipcity: Berlin++=>Parchim++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: IE Mobile,  1 0.00625
+ipcity: Berlin++=>Potsdam++, ipregion: Berlin++=>Brandenburg++, browser: IE Mobile,  1 0.00625
+ipcity: Bielefeld++=>Bremerhaven++, ipregion: Nordrhein-Westfalen++=>Bremen++, browser: IE Mobile,  1 0.00625
+ipcity: Bocholt++=>Dortmund++, browser: IE Mobile,  1 0.00625
+ipcity: Braunschweig++=>Dortmund++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+ipcity: Burg++=>Kiel++, browser: IE Mobile,  1 0.00625
+ipcity: Cancun++=>Berlin++, ipregion: Quintana Roo++=>Berlin++, ipcountry: Mexico++=>Germany++, browser: IE Mobile,  1 0.00625
+ipcity: Dresden++=>Cottbus++, ipregion: Sachsen++=>Brandenburg++, browser: IE Mobile,  1 0.00625
+ipcity: Dusseldorf++=>Bad Neuenahr-Ahrweiler++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: IE Mobile,  1 0.00625
+ipcity: Dusseldorf++=>Nettetal++, browser: IE Mobile,  1 0.00625
+ipcity: Eschborn++=>Isenburg++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: IE Mobile,  1 0.00625
+ipcity: Frankfurt am Main++=>Schwabisch Hall++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: IE Mobile,  1 0.00625
+ipcity: Frankfurt am Main++=>Wommen++, browser: IE Mobile,  1 0.00625
+ipcity: Freiburg++=>Bopfingen++, browser: IE Mobile,  1 0.00625
+ipcity: Freinsheim++=>Klingewalde++, ipregion: Rheinland-Pfalz++=>Sachsen++, browser: IE Mobile,  1 0.00625
+ipcity: Freinsheim++=>Mannheim++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: IE Mobile,  1 0.00625
+ipcity: Furstenberg++=>Ahaus++, browser: IE Mobile,  1 0.00625
+ipcity: Gatersleben++=>Halle (Saale)++, browser: IE Mobile,  1 0.00625
+ipcity: Geyersdorf++=>Nettetal++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+ipcity: Gorlitz++=>Hamburg++, ipregion: Sachsen++=>Hamburg++, browser: IE Mobile,  1 0.00625
+ipcity: Hamburg++=>Dortmund++, ipregion: Hamburg++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+ipcity: Hamburg++=>Dresden++, ipregion: Hamburg++=>Sachsen++, browser: IE Mobile,  1 0.00625
+ipcity: Hanover++=>Sosmenhusen++, ipregion: Niedersachsen++=>Schleswig-Holstein++, browser: IE Mobile,  1 0.00625
+ipcity: Hundheim++=>Riedhausen++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: IE Mobile,  1 0.00625
+ipcity: Idar-Oberstein++=>Munich++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: IE Mobile,  1 0.00625
+ipcity: Ingolstadt++=>Munich++, browser: IE Mobile,  1 0.00625
+ipcity: Kiel++=>Geesthacht++, browser: IE Mobile,  1 0.00625
+ipcity: Klagenfurt am Woerthersee++=>Salzburg++, ipregion: Karnten++=>Salzburg++, browser: IE Mobile,  1 0.00625
+ipcity: Leiria++=>Haar++, ipregion: Leiria++=>Niedersachsen++, ipcountry: Portugal++=>Germany++, browser: IE Mobile,  1 0.00625
+ipcity: Magdeburg++=>Gatersleben++, browser: IE Mobile,  1 0.00625
+ipcity: Maria Enzersdorf++=>Gmunden++, ipregion: Niederosterreich++=>Oberosterreich++, browser: IE Mobile,  1 0.00625
+ipcity: Munich++=>Augsburg-Lechviertel++, browser: IE Mobile,  1 0.00625
+ipcity: Munich++=>Dresden++, ipregion: Bayern++=>Sachsen++, browser: IE Mobile,  1 0.00625
+ipcity: Munich++=>Leipzig++, ipregion: Bayern++=>Sachsen++, browser: IE Mobile,  1 0.00625
+ipcity: Munich++=>Nuremberg++, browser: IE Mobile,  1 0.00625
+ipcity: Neheim++=>Vreden++, browser: IE Mobile,  1 0.00625
+ipcity: Nuremberg++=>Butzenbach++, browser: IE Mobile,  1 0.00625
+ipcity: Nuremberg++=>Cottbus++, ipregion: Bayern++=>Brandenburg++, browser: IE Mobile,  1 0.00625
+ipcity: Nuremberg++=>Heilbronn++, browser: IE Mobile,  1 0.00625
+ipcity: Oldenburg++=>Buxtehude++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: IE Mobile,  1 0.00625
+ipcity: Potsdam++=>Bremen++, ipregion: Brandenburg++=>Thuringen++, browser: IE Mobile,  1 0.00625
+ipcity: Potsdam++=>Nuremberg++, ipregion: Brandenburg++=>Bayern++, browser: IE Mobile,  1 0.00625
+ipcity: Saarbrucken++=>Dusseldorf++, ipregion: Saarland++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+ipcity: Schramberg++=>Rheinfelden (Baden)++, browser: IE Mobile,  1 0.00625
+ipcity: Schwabisch Hall++=>Freinsheim++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: IE Mobile,  1 0.00625
+ipcity: Stuttgart++=>Muenster++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+ipcity: Stuttgart++=>Viechtach++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: IE Mobile,  1 0.00625
+ipcity: Ulm++=>Dortmund++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: IE Mobile,  1 0.00625
+ipcity: Wommen++=>Frankfurt am Main++, browser: IE Mobile,  1 0.00625
+ipcity: Zwickau++=>Spreewitz++, browser: IE Mobile,  1 0.00625
+timezone: -120.0++=>-60.0++, ipcity: Valga++=>Hanover++, ipregion: Valgamaa++=>Niedersachsen++, ipcountry: Estonia++=>Germany++, browser: IE Mobile,  1 0.00625
+timezone: -60.0++=>-660.0++, ipcity: Dusseldorf++=>Macquarie++, ipregion: Nordrhein-Westfalen++=>Australian Capital Territory++, ipcountry: Germany++=>Australia++, browser: IE Mobile,  1 0.00625
+timezone: 0.0++=>-60.0++, ipcity: Pontevedra++=>Krems an der Donau++, ipregion: Galicia++=>Niederosterreich++, ipcountry: Spain++=>Austria++, browser: IE Mobile,  1 0.00625

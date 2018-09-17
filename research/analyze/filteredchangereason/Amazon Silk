@@ -1,0 +1,726 @@
+total 1263 1.0
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  52 0.0411718131433
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, browser: Amazon Silk,  40 0.0316706254949
+browser: Amazon Silk,  38 0.0300870942201
+timezone: -60.0++=>-120.0++, browser: Amazon Silk,  30 0.0237529691211
+accept: ++=>*/*++, browser: Amazon Silk,  26 0.0205859065717
+agent: Silk/65.2.3++=>Silk/65.5.3++, browser: Amazon Silk,  26 0.0205859065717
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, browser: Amazon Silk,  24 0.0190023752969
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  24 0.0190023752969
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, browser: Amazon Silk,  23 0.0182106096595
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, browser: Amazon Silk,  22 0.0174188440222
+agent: Silk/62.4.2++=>Silk/62.6.1++, browser: Amazon Silk,  20 0.0158353127474
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, browser: Amazon Silk,  18 0.0142517814727
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  15 0.0118764845606
+agent: Silk/62.5.1++=>Silk/62.6.1++, browser: Amazon Silk,  13 0.0102929532858
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  13 0.0102929532858
+agent: Silk/67.2.1++=>Silk/67.4.1++, browser: Amazon Silk,  12 0.00950118764846
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, browser: Amazon Silk,  11 0.00870942201108
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, browser: Amazon Silk,  11 0.00870942201108
+agent: Silk/62.4.2++=>Silk/62.5.1++, browser: Amazon Silk,  10 0.00791765637371
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Amazon Silk,  10 0.00791765637371
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Amazon Silk,  10 0.00791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, browser: Amazon Silk,  8 0.00633412509897
+agent: Silk/64.1.41++=>Silk/64.3.4++, browser: Amazon Silk,  7 0.0055423594616
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  6 0.00475059382423
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, browser: Amazon Silk,  6 0.00475059382423
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  6 0.00475059382423
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  6 0.00475059382423
+agent: Silk/61.3.1++=>Silk/61.4.2++, browser: Amazon Silk,  5 0.00395882818686
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, browser: Amazon Silk,  5 0.00395882818686
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  5 0.00395882818686
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  5 0.00395882818686
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  5 0.00395882818686
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.1.37++Chrome/67.0.3396.68++, browser: Amazon Silk,  5 0.00395882818686
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/62.7.1++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, browser: Amazon Silk,  4 0.00316706254949
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, browser: Amazon Silk,  4 0.00316706254949
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  4 0.00316706254949
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  4 0.00316706254949
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/67.2.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  4 0.00316706254949
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/62.2.2++Chrome/62.0.3202.73++=>Silk/62.4.2++Chrome/62.0.3202.84++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/62.5.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.1.41++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.1.66++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/65.1.66++=>Silk/65.2.3++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  3 0.00237529691211
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Braunschweig++=>Hanover++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.1.66++Chrome/65.0.3325.144++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, audio: 44100++=>48000++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.2.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/65.4.2++=>Silk/65.5.3++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  2 0.00158353127474
+agent: Silk/67.4.1++=>Silk/67.5.1++, browser: Amazon Silk,  2 0.00158353127474
+canvastest: b9db375bf722cb05ce0b688a60bab51be0e31205++=>d88ac85a9c08810c2fdb1b321e165ea22533391d++, browser: Amazon Silk,  2 0.00158353127474
+timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  2 0.00158353127474
+accept: ++=>*/*++, ipcity: Ahaus++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Berlin++=>Dortmund++, ipregion: Berlin++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Ingolstadt++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Leipzig++=>Magdeburg++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Muenster++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Vreden++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Wedel++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Wuerzburg++=>Frankfurt am Main++, ipregion: Bayern++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+accept: ++=>*/*++, ipcity: Zeuthen++=>Alberthain++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/50.2.1++Chrome/50.0.2661.89++=>Silk/62.6.1++Chrome/62.0.3202.84++, encoding: gzip, deflate++=>gzip, deflate, br++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, canvastest: b0d473180983c7437ab25aff1ff5dd4184470392++=>da08bc781a19ed1e21cd285cd43ef85699511f45++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/50.2.1++Chrome/50.0.2661.89++=>Silk/62.6.1++Chrome/62.0.3202.84++, encoding: gzip, deflate++=>gzip, deflate, br++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, canvastest: b0d473180983c7437ab25aff1ff5dd4184470392++=>da08bc781a19ed1e21cd285cd43ef85699511f45++, ipcity: Magdeburg++=>Halle (Saale)++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.2.1++Chrome/61.0.3163.98++=>Silk/62.4.2++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.2.1++Chrome/61.0.3163.98++=>Silk/62.6.1++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Aschaffenburg++=>Wuerzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.2.1++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.2.1++Chrome/61.0.3163.98++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, fp2_colordepth: 32++=>24++, ipcity: Liebenau++=>Osnabruck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++=>Silk/61.4.2++, ipcity: Dortmund++=>Bielefeld++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++=>Silk/61.4.2++, ipcity: Holzgau++=>Sautens++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++=>Silk/61.4.2++, ipcity: Mingerode++=>Clausthal++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++=>Silk/61.4.2++, ipcity: Stuttgart++=>Ingelfingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++Chrome/61.0.3163.98++=>Silk/62.7.1++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Friesach++=>Graz++, ipregion: Karnten++=>Steiermark++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++Chrome/61.0.3163.98++=>Silk/62.7.1++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Kiel++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Bonn++=>Aachen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++Chrome/61.0.3163.98++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.3.1++Chrome/61.0.3163.98++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Frankfurt am Main++=>Budingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/62.7.1++Chrome/62.0.3202.84++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Rostock++=>Poppendorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/62.7.1++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Karlsruhe++=>Buchelberg++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/62.7.1++Chrome/62.0.3202.84++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Ramsloh++=>Papenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Augsburg++=>Heiligenhafen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Berlin++=>Zeuthen++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Ingelfingen++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Nuremberg++=>Achern++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Sautens++=>Innsbruck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Twistringen++=>Siegen++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Bielefeld++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Freinsheim++=>Freiburg++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Kiel++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Geldern++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/61.4.2++Chrome/61.0.3163.98++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, ipcity: Mannheim++=>Sonneberg++, ipregion: Baden-Wurttemberg++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.2.2++Chrome/62.0.3202.73++=>Silk/62.4.2++Chrome/62.0.3202.84++, ipcity: Berlin++=>Hamburg++, ipregion: Berlin++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.2.2++Chrome/62.0.3202.73++=>Silk/62.5.1++Chrome/62.0.3202.84++, ipcity: Darmstadt++=>Reinbek++, ipregion: Hessen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.2.2++Chrome/62.0.3202.73++=>Silk/62.5.1++Chrome/62.0.3202.84++, ipcity: Goppingen++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.2.2++Chrome/62.0.3202.73++=>Silk/62.6.1++Chrome/62.0.3202.84++, ipcity: Darmstadt++=>Freiburg++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.2.2++Chrome/62.0.3202.73++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Troglersricht++=>Nabburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.3.11++=>Silk/62.4.2++, ipcity: Karlsruhe++=>Wiesbaden++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.3.11++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Regensburg++=>Munich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Berlin++=>Braunschweig++, ipregion: Berlin++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Berlin++=>Karl++, ipregion: Berlin++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Dortmund++=>Stuttgart++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Maukendorf++=>Dresden++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Nuremberg++=>Klutz++, ipregion: Bayern++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Westerndorf-Sankt Peter++=>Weingarten++, ipregion: Bayern++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Wiesbaden++=>Kleinschweidnitz++, ipregion: Hessen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.5.1++, ipcity: Wittichenau++=>Nuremberg++, ipregion: Sachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Attnang-Puchheim++=>Bad Kreuzen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Attnang-Puchheim++=>Ried im Innkreis++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Bad Sachsa++=>Nesselroden++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Berlin++=>Oldenburg++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Bonn++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Deggendorf++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Dortmund++=>Kalksbeck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Dresden++=>Munich++, ipregion: Sachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Hamburg++=>Dusseldorf++, ipregion: Hamburg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Hamburg++=>Potsdam++, ipregion: Hamburg++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Ingolstadt++=>Munich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Kleve++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Neu-Ulm++=>Eschborn++, ipregion: Bayern++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Oebisfelde++=>Magdeburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Potsdam++=>Hagen++, ipregion: Brandenburg++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Strausberg++=>Potsdam++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, ipcity: Waldkraiburg++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++=>Silk/62.6.1++, timezone: -60.0++=>-420.0++, ipcity: Mannheim++=>Hat Yai++, ipregion: Baden-Wurttemberg++=>Songkhla++, ipcountry: Germany++=>Thailand++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, cookie: False++=>True++, localstorage: False++=>True++, ipcity: Bremen++=>Dusseldorf++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Dusseldorf++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Heilbad Heiligenstadt++=>Dresden++, ipregion: Thuringen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Ulm++=>Spagenweiler++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Sulzbach++=>Dittersdorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Gorlitz++=>Heide++, ipregion: Sachsen++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Oberpullendorf++=>Monichkirchen++, ipregion: Burgenland++=>Niederosterreich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.4.2++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Nettetal++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Ammern++=>Dusseldorf++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Dollrottholz++=>Augsburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Klutz++=>Schwerin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Leipzig++=>Munich++, ipregion: Sachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Reinbek++=>Sachsen++, ipregion: Schleswig-Holstein++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Rhede++=>Emden++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Schramberg++=>Freudenstadt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Stuttgart++=>Dortmund++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Weingarten++=>Erfurt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++=>Silk/62.6.1++, ipcity: Wieseck++=>Nuremberg++, ipregion: Hessen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++Chrome/62.0.3202.84++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Stockhausen++=>Erfurt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.5.1++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Halle (Saale)++=>Dresden++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Bad Kosen++=>Obermehler++, ipregion: Sachsen-Anhalt++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Bensheim++=>Frankfurt am Main++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Bensheim++=>Lampertheim++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Berlin++=>Dortmund++, ipregion: Berlin++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Berlin++=>Guhlen Glienicke++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Berlin++=>Schmachtenhagen Ost++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Bremen++=>Dusseldorf++, ipregion: Bremen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Buxtehude++=>Seevetal++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Dusseldorf++=>Bonn++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Erfurt++=>Augsburg-Lechviertel++, ipregion: Thuringen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Freudenstadt++=>Heidelberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Gera++=>Sulzbach++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Halle (Saale)++=>Dresden++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Hamburg++=>Norderstedt++, ipregion: Hamburg++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Hanover++=>Braunschweig++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Ingolstadt++=>Moosburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Jubberde++=>Delmenhorst++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Luebeck++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Magdeburg++=>Ritze++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Ravensburg++=>Friedrichshafen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Regensburg++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Rostock++=>Karlsruhe++, ipregion: Mecklenburg-Vorpommern++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Schwerin++=>Nordhausen++, ipregion: Mecklenburg-Vorpommern++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Stade++=>Ebersdorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Stuttgart++=>Zwickau++, ipregion: Baden-Wurttemberg++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, accept: ++=>*/*++, ipcity: Wilhelmshaven++=>Wuerzburg++, ipregion: Niedersachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Aachen++=>Kellenhusen++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Augsburg++=>Kaltenkirchen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Blume++=>Lippoldshausen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Braunschweig++=>Zeuthen++, ipregion: Niedersachsen++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Dortmund++=>Muenster++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Dusseldorf++=>Ahaus++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Dusseldorf++=>Candelaria++, ipregion: Nordrhein-Westfalen++=>Canarias++, ipcountry: Germany++=>Spain++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Dusseldorf++=>Siegen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Eicha++=>Dresden++, ipregion: Thuringen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Forchheim++=>Zwickau++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Freiburg++=>Wuerzburg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Hamburg++=>Norderstedt++, ipregion: Hamburg++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Leipzig++=>Nuremberg++, ipregion: Sachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Magdeburg++=>Berlin++, ipregion: Sachsen-Anhalt++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Oldenburg++=>Delmenhorst++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Ostseebad Boltenhagen++=>Kothendorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Reinbek++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Schwerin++=>Hanover++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Seebad Bansin++=>Wehrstedt++, ipregion: Mecklenburg-Vorpommern++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Siegen++=>Kulmbach++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Stuttgart++=>Murrhardt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Ulm++=>Freinsheim++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Vienna++=>Maria Enzersdorf++, ipregion: Wien++=>Niederosterreich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Wiesbaden++=>Nuremberg++, ipregion: Hessen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Eschborn++=>Stuttgart++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Schwaan++=>Zehdenick++, ipregion: Mecklenburg-Vorpommern++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Werl++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Wiesbaden++=>Lachendorf++, ipregion: Hessen++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Bad Kissingen++=>Wuerzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Bonn++=>Fehmarn++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Freiburg++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Geesthacht++=>Luebeck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Hohenfliess++=>Hanover++, ipregion: Brandenburg++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Hoyren++=>Kaufbeuren++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Lampertheim++=>Karlsruhe++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Munich++=>Hamburg++, ipregion: Bayern++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Ritterhude++=>Munich++, ipregion: Niedersachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Wilhelmshaven++=>Dortmund++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Darmstadt++=>Halle (Saale)++, ipregion: Hessen++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.1.66++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Bremen++=>Stade++, ipregion: Bremen++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Augsburg-Lechviertel++=>Bernau bei Berlin++, ipregion: Bayern++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Burghaslach++=>Aschaffenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Dusseldorf++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Freiburg++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Munich++=>Dortmund++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Regensburg++=>Aachen++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Sulzbach++=>Hirschbach++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -120.0++=>-180.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Jakobi++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Mittel Horka++, ipregion: Nordrhein-Westfalen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Westerbeck++, ipregion: Hessen++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Hameln++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Ingolstadt++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Reinbek++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Schenefeld++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Siegen++=>Bielefeld++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Wieseck++=>Saarbrucken++, ipregion: Hessen++=>Saarland++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Bonn++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Gorlitz++=>Stuttgart++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Ravensburg++=>Dusseldorf++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, cookie: True++=>False++, localstorage: True++=>False++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Bensheim++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Berlin++, ipregion: Hessen++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Geesthacht++=>Westerstede++, ipregion: Schleswig-Holstein++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Dortmund++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Wieseck++, ipregion: Bayern++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Ramsloh++=>Leer++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/66.3.1++Chrome/66.0.3359.158++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Trier++=>Gross Todtshorn++, ipregion: Rheinland-Pfalz++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.1.37++Chrome/67.0.3396.68++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.1.37++Chrome/67.0.3396.68++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Basauri++=>Barcelona++, ipregion: Pais Vasco++=>Catalunya++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.2.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Buchenberg++=>Schramberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.2.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Mainz++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Erfurt++=>Munich++, ipregion: Thuringen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Bonn++=>Wilhelmshaven++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.6.1++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Rostock++=>Hanover++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Frankfurt am Main++=>Schotten++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Poppendorf++=>Bollhagen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/63.1.34++Chrome/63.0.3239.111++, ipcity: Ulm++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, ipcity: Hamburg++=>Stockte++, ipregion: Hamburg++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Graz++=>Vienna++, ipregion: Steiermark++=>Wien++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Dresden++=>Magdeburg++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/65.2.3++Chrome/65.0.3325.144++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/67.4.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Papenburg++=>Buxtehude++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/62.7.1++Chrome/62.0.3202.84++=>Silk/67.5.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Zwickau++=>Berlin++, ipregion: Sachsen++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.1.41++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Stuttgart++=>Pontevedra++, ipregion: Baden-Wurttemberg++=>Galicia++, ipcountry: Germany++=>Spain++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Aachen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Freiburg++=>Wuerzburg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Hilgartshausen++=>Ulm++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Norderstedt++=>Hanover++, ipregion: Schleswig-Holstein++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Potsdam++=>Magdeburg++, ipregion: Brandenburg++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Augsburg-Lechviertel++=>Munich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Freinsheim++=>Ulm++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Auf den Bulten++=>Deyekamp++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Augsburg-Lechviertel++=>Munich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Chiemsee++=>Bernau am Chiemsee++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Dortmund++=>Coesfeld++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Dortmund++=>Muenster++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Schleswig++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Freinsheim++=>Huffenhardt++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Hanover++=>Vorwerk++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Heidelberg++=>Bonn++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Heidelberg++=>Friedrichshafen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Isenburg++=>Bolingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Kemmen++=>Stade++, ipregion: Brandenburg++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Langschlag++=>Maria Enzersdorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Muncheberg++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Munich++=>Augsburg-Lechviertel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Neuhardenberg++=>Bonn++, ipregion: Brandenburg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Neuwerth++=>Erfurt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Erfurt++, ipregion: Bayern++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Munich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Regensburg++=>Janahof++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Strausberg++=>Potsdam++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Stuttgart++=>Karlsruhe++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Troglersricht++=>Bonn++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, ipcity: Zwickau++=>Lampertheim++, ipregion: Sachsen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, ipcity: Aachen++=>Bonn++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, ipcity: Augsburg-Lechviertel++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, ipcity: Bollhagen++=>Gustrow++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, ipcity: Dillingen an der Donau++=>Augsburg-Lechviertel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, ipcity: Dusseldorf++=>Aachen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, ipcity: Heiligenhafen++=>Kiel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Braunschweig++=>Hanover++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Coburg++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Kleve++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Geesthacht++=>Friedewald++, ipregion: Schleswig-Holstein++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Linz++=>Sankt Florian am Inn++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Munich++=>Leibersdorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Osnabruck++=>Muenster++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Werl++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>-120.0++, ipcity: Munich++=>Ried++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/64.3.4++Chrome/64.0.3282.137++, timezone: -60.0++=>0.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.1.66++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Luebeck++=>Helmstedt++, ipregion: Schleswig-Holstein++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.1.66++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Hanover++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Leipzig++=>Halle (Saale)++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Maria Enzersdorf++=>Salzburg++, ipregion: Niederosterreich++=>Salzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Hamburg++, ipregion: Bayern++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Berlin++=>Schwerin++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Regensburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Baunatal++=>Mannheim++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Bensheim++=>Freinsheim++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Augsburg-Lechviertel++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Ebersdorf++=>Stade++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Bonn++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Geesthacht++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Gormar++=>Erfurt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Hanover++=>Braunschweig++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Nuremberg++=>Wuerzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Rheinfelden (Baden)++=>Freiburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Wuerzburg++=>Wilhelmshaven++, ipregion: Bayern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Innsbruck++=>Kappl++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Stuttgart++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Oldenburg++=>Schwanewede++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Berlin++=>Sulzbach++, ipregion: Berlin++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Nordhausen++=>Erfurt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Siegen++=>Nuremberg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Stuttgart++=>Ingelfingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Kulmbach++=>Nuremberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Pegnitz++=>Achern++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Siegen++=>Nettetal++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, ipcity: Wieseck++=>Bielefeld++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Karlsruhe++=>Potsdam++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Kellenhusen++=>Kiel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Munich++=>Augsburg-Lechviertel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Schmachtenhagen Ost++=>Bodstedt++, ipregion: Brandenburg++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Funchal++, ipregion: Nordrhein-Westfalen++=>Regiao Autonoma da Madeira++, ipcountry: Germany++=>Portugal++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, cookie: True++=>False++, localstorage: True++=>False++, fp2_colordepth: 32++=>24++, ipcity: Berlin++=>Zeuthen++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, cookie: True++=>False++, localstorage: True++=>False++, fp2_colordepth: 32++=>24++, ipcity: Freinsheim++=>Aschaffenburg++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Coesfeld++=>Muenster++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Dortmund++=>Munich++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Kiel++=>Barenklau++, ipregion: Schleswig-Holstein++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Ritze++=>Magdeburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Seevetal++=>Saterland++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Zittau++=>Gorlitz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Zinna++=>Dresden++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/67.2.1++Chrome/67.0.3396.87++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/67.2.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Bonn++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/67.2.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Stuttgart++=>Ulm++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/67.4.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/63.1.34++Chrome/63.0.3239.111++=>Silk/67.5.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, ipcity: Magdeburg++=>Wiesbaden++, ipregion: Sachsen-Anhalt++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++=>Silk/64.3.4++, ipcity: Westenfeld++=>Ulm++, ipregion: Thuringen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++=>Silk/64.3.4++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Dusseldorf++=>Bonn++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Munich++=>Regensburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Bonn++=>Aachen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.41++Chrome/64.0.3282.137++=>Silk/67.1.37++Chrome/67.0.3396.68++, timezone: -60.0++=>-120.0++, ipcity: Frankfurt am Main++=>Wieseck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.1.61++=>Silk/64.2.6++, ipcity: Obermelsungen++=>Melsungen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.1.66++Chrome/65.0.3325.144++, ipcity: Gera++=>Sulzbach++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.1.66++Chrome/65.0.3325.144++, ipcity: Maria Enzersdorf++=>Salzburg++, ipregion: Niederosterreich++=>Salzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.1.66++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Dusseldorf++=>Nettetal++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Blume++=>Koblenz++, ipregion: Niedersachsen++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Cloppenburg++=>Oldenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Dillingen an der Donau++=>Augsburg-Lechviertel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Dingolfing++=>Elsing++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Dusseldorf++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Halle (Saale)++=>Dusseldorf++, ipregion: Sachsen-Anhalt++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Hamburg++=>Wuerzburg++, ipregion: Hamburg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Mainz++=>Freinsheim++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Neckarwimmersbach++=>Waibstadt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Neu Hacklingen++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Osterdamme++=>Chiemsee++, ipregion: Niedersachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Ried++=>Augsburg-Lechviertel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Stuttgart++=>Villingen-Schwenningen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Sulzbach++=>Schwarzwald++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, ipcity: Vorwerk Bohsdorf++=>Gross Beuchow++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Berlin++=>Joachimsthal++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Bolingen++=>Nuremberg++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Diepenhofen++=>Steufzgen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Erfurt++=>Bonn++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Erfurt++=>Borgentreich++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Erfurt++=>Leinefelde++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Hamburg++=>Schmachtenhagen Ost++, ipregion: Hamburg++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Muenster++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Schleswig++=>Dortmund++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Spagenweiler++=>Ulm++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Stuttgart++=>Eppingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.2.3++Chrome/65.0.3325.144++, timezone: 0.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.4.2++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Frankfurt am Main++=>Dusseldorf++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.4.2++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Mainz++=>Freinsheim++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.4.2++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Nuremberg++=>Wuerzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, ipcity: Dortmund++=>Siegen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, ipcity: Dusseldorf++=>Amsterdam++, ipregion: Nordrhein-Westfalen++=>Noord-Holland++, ipcountry: Germany++=>Netherlands++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, ipcity: Kleve++=>Wesel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, ipcity: Munich++=>Raisting++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Ingolstadt++=>Augsburg-Lechviertel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Laer++=>Neheim++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Sosmenhusen++=>Kiel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/65.5.3++Chrome/65.0.3325.144++, timezone: -60.0++=>-120.0++, ipcity: Zeuthen++=>Flensburg++, ipregion: Brandenburg++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Graz++=>Grafenworth++, ipregion: Steiermark++=>Niederosterreich++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, ipcity: Hamburg++=>Bad Vilbel++, ipregion: Hamburg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, ipcity: Wuerzburg++=>Stuttgart++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Bielefeld++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Budingen++=>Kassel++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Stade++=>Oldenburg++, ipregion: Niedersachsen++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Ulm++=>Freinsheim++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Zwickau++=>Dortmund++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, canvastest: da08bc781a19ed1e21cd285cd43ef85699511f45++=>cd97bda90b167e27e481a6a9156e5e6259a7604c++, ipcity: Zeuthen++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Frankfurt am Main++=>Torgau++, ipregion: Hessen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Hameln++=>Hanover++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Ingolstadt++=>Jacobneuharting++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Kiel++=>Dortmund++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Lampertheim++=>Cleversulzbach++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Mannheim++=>Lampertheim++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -60.0++=>-120.0++, ipcity: Ulm++=>Mockmuhl++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/67.2.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Braunschweig++=>Schongau++, ipregion: Niedersachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/67.4.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, ipcity: Munich++=>Ziegelanger++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/64.3.4++Chrome/64.0.3282.137++=>Silk/67.4.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, ipcity: Saarbrucken++=>Wieseck++, ipregion: Saarland++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++=>Silk/65.2.3++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++=>Silk/65.2.3++, ipcity: Fegetasch++=>Crock++, ipregion: Schleswig-Holstein++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++=>Silk/65.2.3++, ipcity: Gera++=>Halle (Saale)++, ipregion: Thuringen++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++=>Silk/65.2.3++, ipcity: Helmstedt++=>Braunschweig++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++=>Silk/65.2.3++, ipcity: Ulm++=>Neu-Ulm++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++=>Silk/65.2.3++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, ipcity: Berlin++=>Leipzig++, ipregion: Berlin++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.1.66++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Stade++=>Worpedorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.4.2++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.4.2++, ipcity: Valletta++=>Dusseldorf++, ipregion: Valletta++=>Nordrhein-Westfalen++, ipcountry: Malta++=>Germany++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, audio: 44100++=>48000++, ipcity: Nuremberg++=>Lebuser Vorstadt++, ipregion: Bayern++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Berlin++=>Nuremberg++, ipregion: Berlin++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Berlin++=>Sulzbach++, ipregion: Berlin++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Bonn++=>Altengottern++, ipregion: Nordrhein-Westfalen++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Braunschweig++=>Zehdenick++, ipregion: Niedersachsen++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Dresden++=>Konigstein++, ipregion: Sachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Dusseldorf++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Dusseldorf++=>Wieseck++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Frankfurt am Main++=>Sulzfeld++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Freiburg++=>Saarbrucken++, ipregion: Baden-Wurttemberg++=>Saarland++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Freinsheim++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Freinsheim++=>Mainz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Freinsheim++=>Mannheim++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Gross Beuchow++=>Cottbus++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Halle (Saale)++=>Sulzbach++, ipregion: Sachsen-Anhalt++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Hamburg++=>Luebeck++, ipregion: Hamburg++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Heiligenhafen++=>Regensburg++, ipregion: Schleswig-Holstein++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Ludwigshafen++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Mannheim++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Nuremberg++=>Regensburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Oldenburg++=>Buxtehude++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Papenburg++=>Norderney++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Saarbrucken++=>Trier++, ipregion: Saarland++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Schwarzwald++=>Nordhausen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Stade++=>Gnarrenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Stuttgart++=>Goppingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++=>Silk/65.5.3++, ipcity: Zedau++=>Spagenweiler++, ipregion: Sachsen-Anhalt++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Aachen++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Berlin++=>Heidelberg++, ipregion: Berlin++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Bonn++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Dortmund++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Dusseldorf++=>Aschaffenburg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Frankfurt am Main++=>Dortmund++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Freinsheim++=>Karlsruhe++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Halberstadt++=>Wolfershausen++, ipregion: Sachsen-Anhalt++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Hamburg++=>Seevetal++, ipregion: Hamburg++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Larrelt++=>Jubberde++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Mannheim++=>Baunatal++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Maria Enzersdorf++=>Langschlag++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Zagreb++=>Alzgern++, ipregion: Grad Zagreb++=>Bayern++, ipcountry: Croatia++=>Germany++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipregion: Niedersachsen++=>Mecklenburg-Vorpommern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Aschaffenburg++=>Wuerzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Bernau bei Berlin++=>Eschborn++, ipregion: Brandenburg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Braunschweig++=>Nuremberg++, ipregion: Niedersachsen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Clemens-August-Dorf++=>Auen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dusseldorf++=>Ludwigshafen++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Hamburg++=>Reinbek++, ipregion: Hamburg++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Lappersdorf++=>Grafling++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Luebeck++=>Allee++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Magdeburg++=>Zwickau++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Munich++=>Suhl++, ipregion: Bayern++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Nuremberg++=>Frankfurt am Main++, ipregion: Bayern++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Nuremberg++=>Saulgrub++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Nuremberg++=>Ulm++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Ulm++=>Friedrichshafen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Waibstadt++=>Bad Sooden-Allendorf++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Diespeck++=>Bielefeld++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Schmachtenhagen Ost++=>Hamburg++, ipregion: Brandenburg++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Hirschbach++=>Bodenrode++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Munich++=>Landshut++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Oldenrode++=>Bielefeld++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Salzburg++=>Graz++, ipregion: Salzburg++=>Steiermark++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.5.1++Chrome/67.0.3396.87++, ipcity: Berlin++=>Dresden++, ipregion: Berlin++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.2.3++Chrome/65.0.3325.144++=>Silk/67.5.1++Chrome/67.0.3396.87++, ipcity: Nuremberg++=>Sonnern++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.4.2++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.4.2++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Amsterdam++=>Dortmund++, ipregion: Noord-Holland++=>Nordrhein-Westfalen++, ipcountry: Netherlands++=>Germany++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Bielefeld++=>Muenster++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Dusseldorf++=>Berlin++, ipregion: Nordrhein-Westfalen++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Frankfurt am Main++=>Dusseldorf++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Freiburg++=>Villingen-Schwenningen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Lebuser Vorstadt++=>Passow++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Mainz++=>Freinsheim++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Mittel Horka++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Munich++=>Berlin++, ipregion: Bayern++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Proseken++=>Prestin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Regensburg++=>Kaufbeuren++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Rinteln++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Siegen++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Sulzbach++=>Leipzig++, ipregion: Thuringen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Sulzfeld++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Westerbeck++=>Freinsheim++, ipregion: Mecklenburg-Vorpommern++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, ipcity: Wieseck++=>Dusseldorf++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.2.1++Chrome/66.0.3359.126++, timezone: -120.0++=>-60.0++, ipcity: Muenster++=>Monkton Heathfield++, ipregion: Nordrhein-Westfalen++=>England++, ipcountry: Germany++=>United Kingdom++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Bielefeld++=>Munich++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dresden++=>Kleinschweidnitz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dusseldorf++=>Berlin++, ipregion: Nordrhein-Westfalen++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Freinsheim++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Goppingen++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Halle (Saale)++=>Zinna++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Hamburg++=>Braunschweig++, ipregion: Hamburg++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Kiel++=>Luebeck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Konigstein++=>Dresden++, ipregion: Bayern++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Luebeck++=>Geesthacht++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Saarbrucken++=>Milan++, ipregion: Saarland++=>Lombardia++, ipcountry: Germany++=>Italy++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Spagenweiler++=>Havelberg++, ipregion: Baden-Wurttemberg++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Straubing++=>Dortmund++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Weingarten++=>Dusseldorf++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Wieseck++=>Darmstadt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/66.3.1++Chrome/66.0.3359.158++, timezone: -120.0++=>-60.0++, ipcity: Copenhagen++=>Lisbon++, ipregion: Hovedstaden++=>Lisboa++, ipcountry: Denmark++=>Portugal++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Mannheim++=>Stuttgart++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Augsburg-Lechviertel++=>Noerdlingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/65.5.3++Chrome/65.0.3325.144++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Nuremberg++=>Ingolstadt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, cookie: True++=>False++, localstorage: True++=>False++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Achern++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Alzgern++=>Stuttgart++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Aschaffenburg++=>Sulzbach++, ipregion: Bayern++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Berlin++=>Dusseldorf++, ipregion: Berlin++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Berlin++=>Heidelberg++, ipregion: Berlin++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Bonn++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dortmund++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dusseldorf++=>Munich++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Dusseldorf++=>Rinteln++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Halle (Saale)++=>Kliesberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Hanover++=>Rendsburg++, ipregion: Niedersachsen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Jubberde++=>Larrelt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Luebeck++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Muenster++=>Munich++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Nuremberg++=>Westerndorf-Sankt Peter++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Passow++=>Steinfurt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Seevetal++=>Kiel++, ipregion: Niedersachsen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Seevetal++=>Norderstedt++, ipregion: Niedersachsen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/66.3.1++Chrome/66.0.3359.158++, ipcity: Villingen-Schwenningen++=>Freiburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.1.37++Chrome/67.0.3396.68++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Aalborg++=>Haar++, ipregion: Nordjylland++=>Niedersachsen++, ipcountry: Denmark++=>Germany++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Elsing++=>Regensburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Kiel++=>Aachen++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.3.2++Chrome/67.0.3396.87++, ipcity: Nuremberg++=>Lichtenfels++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Altengottern++=>Bielefeld++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Berlin++=>Munich++, ipregion: Berlin++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Bodstedt++=>Berlin++, ipregion: Mecklenburg-Vorpommern++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Borgentreich++=>Wormeln++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Eppingen++=>Vetschau++, ipregion: Baden-Wurttemberg++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Leipzig++=>Halle (Saale)++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Oldenburg++=>Syke++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.2.1++Chrome/66.0.3359.126++=>Silk/67.4.1++Chrome/67.0.3396.87++, language: de-DE,de++q=0.9,en-US++q=0.8,en++q=0.7++=>de-AT,de-DE++q=0.9,de++q=0.8,en-US++q=0.7,en++q=0.6++, ipcity: Grafenworth++=>Salzburg++, ipregion: Niederosterreich++=>Salzburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.1.37++Chrome/67.0.3396.68++, ipcity: Aachen++=>Bonn++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.1.37++Chrome/67.0.3396.68++, ipcity: Berlin++=>Saarbrucken++, ipregion: Berlin++=>Saarland++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, cookie: False++=>True++, localstorage: False++=>True++, ipcity: Koeln++=>Bielefeld++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Auen++=>Hengelage++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Dusseldorf++=>Eschwege++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Frankfurt am Main++=>Freinsheim++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Heidelberg++=>Potsdam++, ipregion: Baden-Wurttemberg++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Ludwigshafen++=>Bremen++, ipregion: Baden-Wurttemberg++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Magdeburg++=>Falkenhagen++, ipregion: Sachsen-Anhalt++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Nuremberg++=>Stuttgart++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Prestin++=>Westerbeck++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Wesel++=>Kleve++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Zeuthen++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Berlin++=>Cottbus++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Braunschweig++=>Den Haag++, ipregion: Niedersachsen++=>Zuid-Holland++, ipcountry: Germany++=>Netherlands++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Dortmund++=>Kleve++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Dusseldorf++=>Freinsheim++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Frankfurt am Main++=>Nuremberg++, ipregion: Hessen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Freiburg++=>Hanover++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Gorlitz++=>Dresden++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Havelberg++=>Harpe++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Kleinschweidnitz++=>Dresden++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Monichkirchen++=>Schaffern++, ipregion: Niederosterreich++=>Steiermark++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Nuremberg++=>Dusseldorf++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Ravensburg++=>Heidelberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Stuttgart++=>Dusseldorf++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Sulzbach++=>Dusseldorf++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Ulm++=>Spagenweiler++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, ipcity: Wuerzburg++=>Bad Kissingen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.4.1++Chrome/67.0.3396.87++, timezone: -60.0++=>-120.0++, ipcity: Funchal++=>Dortmund++, ipregion: Regiao Autonoma da Madeira++=>Nordrhein-Westfalen++, ipcountry: Portugal++=>Germany++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.5.1++Chrome/67.0.3396.87++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/66.3.1++Chrome/66.0.3359.158++=>Silk/67.5.1++Chrome/67.0.3396.87++, ipcity: Kassel++=>Frankfurt am Main++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.1.37++Chrome/67.0.3396.68++=>Silk/67.2.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.1.37++Chrome/67.0.3396.68++=>Silk/67.2.1++Chrome/67.0.3396.87++, ipcity: Bebra++=>Frankfurt am Main++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.1.37++Chrome/67.0.3396.68++=>Silk/67.4.1++Chrome/67.0.3396.87++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.3.2++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.3.2++, ipcity: Engelsbach++=>Sonneberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.3.2++, ipcity: Frankfurt am Main++=>Karlsruhe++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.3.2++, ipcity: Geesow++=>Beckum++, ipregion: Brandenburg++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.4.1++, canvastest: d88ac85a9c08810c2fdb1b321e165ea22533391d++=>b9db375bf722cb05ce0b688a60bab51be0e31205++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.4.1++, ipcity: Dortmund++=>Zwickau++, ipregion: Nordrhein-Westfalen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.4.1++, ipcity: Falkenhagen++=>Magdeburg++, ipregion: Brandenburg++=>Sachsen-Anhalt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.4.1++, ipcity: Hengelage++=>Neerstedt++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.4.1++, ipcity: Nuremberg++=>Erfurt++, ipregion: Bayern++=>Thuringen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.2.1++=>Silk/67.4.1++, ipcity: Nuremberg++=>Muenster++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.3.2++=>Silk/67.4.1++, browser: Amazon Silk,  1 0.000791765637371
+agent: Silk/67.3.2++=>Silk/67.4.1++, ipcity: Sonneberg++=>Sulzbach-Rosenberg++, ipregion: Thuringen++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+audio: 44100++=>48000++, browser: Amazon Silk,  1 0.000791765637371
+audio: 44100++=>48000++, ipcity: Bad Kreuznach++=>Nuremberg++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Amazon Silk,  1 0.000791765637371
+audio: 44100++=>48000++, ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+audio: 44100++=>48000++, ipcity: Koblenz++=>Gera++, browser: Amazon Silk,  1 0.000791765637371
+audio: 44100++=>48000++, ipcity: Nettetal++=>Valletta++, ipregion: Nordrhein-Westfalen++=>Valletta++, ipcountry: Germany++=>Malta++, browser: Amazon Silk,  1 0.000791765637371
+canvastest: d88ac85a9c08810c2fdb1b321e165ea22533391d++=>b9db375bf722cb05ce0b688a60bab51be0e31205++, browser: Amazon Silk,  1 0.000791765637371
+canvastest: da08bc781a19ed1e21cd285cd43ef85699511f45++=>cd97bda90b167e27e481a6a9156e5e6259a7604c++, ipcity: Kaufbeuren++=>Regensburg++, browser: Amazon Silk,  1 0.000791765637371
+fp2_liedlanguages: False++=>True++, browser: Amazon Silk,  1 0.000791765637371
+fp2_liedlanguages: True++=>False++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Ahaus++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Augsburg-Lechviertel++=>Ingolstadt++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Augsburg-Lechviertel++=>Isenburg++, ipregion: Bayern++=>Rheinland-Pfalz++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Bad Kreuzen++=>Attnang-Puchheim++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Bad Muskau++=>Schacksdorf++, ipregion: Sachsen++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Bad Neuenahr-Ahrweiler++=>Ravensburg++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Benzin++=>Parchim++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Berlin++=>Braunschweig++, ipregion: Berlin++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Bielefeld++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Braunschweig++=>Stockte++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Dresden++=>Berlin++, ipregion: Sachsen++=>Berlin++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Dusseldorf++=>Bonn++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Dusseldorf++=>Dortmund++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Dusseldorf++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Frankfurt am Main++=>Karlsruhe++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Freiburg++=>Karlsruhe++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Freudenstadt++=>Heidelberg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Gera++=>Dresden++, ipregion: Thuringen++=>Sachsen++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Gladbach++=>Idar-Oberstein++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Hanover++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Heidelberg++=>Freudenstadt++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Leipzig++=>Chemnitz++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Luebeck++=>Kiel++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Mannheim++=>Freiburg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Nuremberg++=>Regensburg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Oldenburg++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Oldenburg++=>Quellen++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Peilstein++=>Wegscheid++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Sachsen++=>Kulmbach++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Siegen++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Sulzbach++=>Eicha++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Syke++=>Oldenburg++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Vocklabruck++=>Attnang-Puchheim++, browser: Amazon Silk,  1 0.000791765637371
+ipcity: Wuerzburg++=>Burghaslach++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -240.0++=>-60.0++, cookie: True++=>False++, localstorage: True++=>False++, ipcity: As Suwayq++=>Freinsheim++, ipregion: Shamal al Batinah++=>Rheinland-Pfalz++, ipcountry: Oman++=>Germany++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Augsburg-Lechviertel++=>Dillingen an der Donau++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Berlin++=>Bonn++, ipregion: Berlin++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Berlin++=>Potsdam++, ipregion: Berlin++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Bernau am Chiemsee++=>Osterdamme++, ipregion: Bayern++=>Niedersachsen++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Deyekamp++=>Cloppenburg++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>Sosmenhusen++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Gera++=>Frankfurt am Main++, ipregion: Thuringen++=>Hessen++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Karlsruhe++=>Freiburg++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Kleve++=>Dusseldorf++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Leipzig++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Lisbon++=>Copenhagen++, ipregion: Lisboa++=>Hovedstaden++, ipcountry: Portugal++=>Denmark++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Magdeburg++=>Schwedt (Oder)++, ipregion: Sachsen-Anhalt++=>Brandenburg++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Regensburg++=>Heiligenhafen++, ipregion: Bayern++=>Schleswig-Holstein++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-120.0++, ipcity: Sulzbach++=>Gera++, browser: Amazon Silk,  1 0.000791765637371
+timezone: -60.0++=>-660.0++, ipcity: Klaus++=>Richmond++, ipregion: Bayern++=>Victoria++, ipcountry: Germany++=>Australia++, browser: Amazon Silk,  1 0.000791765637371

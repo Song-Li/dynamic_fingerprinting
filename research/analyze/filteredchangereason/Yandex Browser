@@ -1,0 +1,254 @@
+total 435 1.0
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Yandex Browser,  52 0.119540229885
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Yandex Browser,  50 0.114942528736
+browser: Yandex Browser,  22 0.0505747126437
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Yandex Browser,  11 0.0252873563218
+agent: YaBrowser/17.10.0.2017++=>YaBrowser/17.10.1.1204++, browser: Yandex Browser,  7 0.016091954023
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.988++, browser: Yandex Browser,  7 0.016091954023
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Yandex Browser,  7 0.016091954023
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, browser: Yandex Browser,  5 0.0114942528736
+agent: YaBrowser/18.2.0.284++=>YaBrowser/18.2.1.174++, browser: Yandex Browser,  5 0.0114942528736
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8++=>q=0.9++, browser: Yandex Browser,  4 0.00919540229885
+fp2_pixelratio: 1++=>1.25++, browser: Yandex Browser,  4 0.00919540229885
+accept: ++=>*/*++, browser: Yandex Browser,  3 0.00689655172414
+audio: 48000++=>44100++, browser: Yandex Browser,  3 0.00689655172414
+fp2_pixelratio: 1++=>1.10000002384++, browser: Yandex Browser,  3 0.00689655172414
+jsFonts: MT Extra++=>, browser: Yandex Browser,  3 0.00689655172414
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, browser: Yandex Browser,  2 0.00459770114943
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.628.00++=>Chrome/63.0.3239.132++YaBrowser/18.1.0.527.00++, browser: Yandex Browser,  2 0.00459770114943
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.988++, accept: ++=>*/*++, browser: Yandex Browser,  2 0.00459770114943
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, browser: Yandex Browser,  2 0.00459770114943
+audio: 192000++4++1++0++2++explicit++speakers++=>not supported++, browser: Yandex Browser,  2 0.00459770114943
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, fp2_pixelratio: 0.899999976158++=>1++, browser: Yandex Browser,  2 0.00459770114943
+audio: not supported++=>192000++4++1++0++2++explicit++speakers++, browser: Yandex Browser,  2 0.00459770114943
+fp2_pixelratio: 1.10000002384++=>0.899999976158++, browser: Yandex Browser,  2 0.00459770114943
+fp2_pixelratio: 1.10000002384++=>1++, browser: Yandex Browser,  2 0.00459770114943
+fp2_pixelratio: 1.25++=>1++, browser: Yandex Browser,  2 0.00459770114943
+plugins: =>Widevine Content Decryption Module++, browser: Yandex Browser,  2 0.00459770114943
+accept: ++=>*/*++, ipcity: Aksu++=>Kentau++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Chelyabinsk++=>Troitsk++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Dresden++=>Sulzbach++, ipregion: Sachsen++=>Thuringen++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Istanbul++=>Canakkale++, ipregion: Istanbul++=>Canakkale++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Khabarovsk++=>Birobidzhan++, ipregion: Khabarovskiy kray++=>Yevreyskaya avtonomnaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Nuremberg++=>Kiel++, ipregion: Bayern++=>Schleswig-Holstein++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Pommlitz++=>Gorschmitz++, browser: Yandex Browser,  1 0.00229885057471
+accept: ++=>*/*++, ipcity: Wald an der Alz++=>Munich++, browser: Yandex Browser,  1 0.00229885057471
+agent: 10.0;++YaBrowser/17.11.1.775++(beta)++=>6.2;++YaBrowser/17.11.1.988++, langsdetected: Javanese++Lontara++=>, jsFonts: =>Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>6d04dcbc2e240bba6b3b6ca238e475858e83bec0++, audio: 48000++=>44100++, ipcity: Oaxaca de Juarez++=>Benito Juarez++, ipregion: Oaxaca++=>Ciudad de Mexico++, browser: Yandex Browser,  1 0.00229885057471
+agent: 10_13_2)++Chrome/61.0.3163.100++YaBrowser/17.10.0.2052++=>10_13_3)++Chrome/62.0.3202.94++YaBrowser/17.11.1.1060++, language: q=0.8++=>q=0.9++, ipcity: Moscow++=>Podol'sk++, ipregion: Moskva++=>Moskovskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+agent: 10_13_3)++Chrome/61.0.3163.100++YaBrowser/17.10.0.2052++=>10_13_4)++Chrome/63.0.3239.132++YaBrowser/18.1.1.841++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, timezone: -60.0++=>-120.0++, jsFonts: =>Rockwell++, browser: Yandex Browser,  1 0.00229885057471
+agent: 6.3;++Chrome/63.0.3239.132++YaBrowser/18.2.0.284++=>10.0;++Chrome/65.0.3325.181++YaBrowser/18.4.0.2080++, cookie: False++=>True++, localstorage: False++=>True++, jsFonts: Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++=>, canvastest: 5a68e79900ee7de1feb46d01879b1634733bf03b++=>bd554a7d5da9293cf3fed52d2052b2b948a14b77++, ipcity: Schleusingen++=>Leipzig++, ipregion: Thuringen++=>Sachsen++, browser: Yandex Browser,  1 0.00229885057471
+agent: 7.1.2;++Build/N2G47H)++YaBrowser/17.11.0.526.00++=>8.0.0;++Build/OPR1.170623.026)++YaBrowser/17.11.1.628.00++, canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>986de49816a287410582339197e77f7fea2460ca++, browser: Yandex Browser,  1 0.00229885057471
+agent: 8.0.0;++Build/OPR6.170623.023)++Chrome/60.0.3112.113++YaBrowser/17.9.0.523.00++=>8.1.0;++Build/OPM3.171019.013)++Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Mannheim++=>Ingelfingen++, browser: Yandex Browser,  1 0.00229885057471
+agent: Build/34.3.A.0.244)++Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Build/34.3.A.0.252)++Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Gera++=>Halle (Saale)++, ipregion: Thuringen++=>Sachsen-Anhalt++, browser: Yandex Browser,  1 0.00229885057471
+agent: Build/NPJS25.93-14-10)++Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Build/NPJS25.93-14-15)++Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Regensburg++=>Cottbus++, ipregion: Bayern++=>Brandenburg++, browser: Yandex Browser,  1 0.00229885057471
+agent: Build/NPJS25.93-14-15)++Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++=>Build/NPJS25.93-14-18)++Chrome/65.0.3325.181++YaBrowser/18.4.1.529.00++, ipcity: Cottbus++=>Regensburg++, ipregion: Brandenburg++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+agent: Build/OPM1.171019.021)++Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++=>Build/OPM2.171019.029)++Chrome/65.0.3325.181++YaBrowser/18.4.1.529.00++, canvastest: 986de49816a287410582339197e77f7fea2460ca++=>e654b060776c075e149fa0ac6e95489797a6e5bf++, fp2_colordepth: 32++=>24++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/60.0.3112.113++YaBrowser/17.9.1.768++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/60.0.3112.113++YaBrowser/17.9.1.797++=>Chrome/61.0.3163.100++YaBrowser/17.10.1.1208++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++Widevine Content Decryption Module++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/60.0.3112.113++YaBrowser/17.9.1.797++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.992++, accept: ++=>*/*++, language: q=0.8,en++q=0.6++=>q=0.9,en++q=0.8++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Primorskoye++=>Mariupol'++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2017++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8++=>q=0.9++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2017++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8++=>q=0.9++, ipcity: Boyabat++=>Sinop++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2017++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8++=>q=0.9++, plugins: =>Widevine Content Decryption Module++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2017++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2260++, language: de,en++q=0.8,ru++q=0.6++=>ru,en++q=0.9++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2017++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2260++, language: q=0.8++=>q=0.9++, plugins: =>Widevine Content Decryption Module++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2017++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, jsFonts: MT Extra++=>, ipcity: Karabuk++=>Seydisehir++, ipregion: Karabuk++=>Konya++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.0.2062++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.1062++, language: q=0.8,en++q=0.6++=>q=0.9,en++q=0.8++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1074++=>Chrome/62.0.3202.89++YaBrowser/17.11.0.1902++, language: q=0.8++=>q=0.9++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8++=>q=0.9++, gpu: ANGLE (Intel(R) HD Graphics 530 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 530 Direct3D11 vs++5++5++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8,de++q=0.6++=>q=0.9,de++q=0.8++, ipcity: Kronach++=>Sulzbach-Rosenberg++, ipregion: Thuringen++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8,kk++q=0.6,la++q=0.4++=>q=0.9,kk++q=0.8,la++q=0.7++, plugins: =>Widevine Content Decryption Module++, ipcity: Temirlanovka++=>Shymkent++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8,pt++q=0.6++=>q=0.9,pt++q=0.8++, ipcity: Sovetskaya Gavan'++=>Komsomol'sk-na-Amure++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++, language: q=0.8,sk++q=0.6++=>q=0.9,sk++q=0.8++, plugins: =>Widevine Content Decryption Module++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.988++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, audio: 48000++=>88200++, fp2_pixelratio: 1.25++=>1++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.988++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.988++, language: q=0.8++=>q=0.9++, ipcity: Kleve++=>Dresden++, ipregion: Nordrhein-Westfalen++=>Sachsen++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.988++, language: q=0.8++=>q=0.9++, jsFonts: MT Extra++=>, ipcity: Kuala Lumpur++=>Shah Alam++, ipregion: Wilayah Persekutuan Kuala Lumpur++=>Selangor++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.988++, language: q=0.8,de++q=0.6++=>q=0.9,de++q=0.8++, ipcity: Augsburg-Lechviertel++=>Wald an der Alz++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.988++, language: q=0.8,de-DE++q=0.6++=>q=0.9,de-DE++q=0.8++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.990++, accept: ++=>*/*++, language: q=0.8,es++q=0.6,et++q=0.4++=>q=0.9,es++q=0.8,et++q=0.7++, jsFonts: MT Extra++=>GOTHAM++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.990++, language: q=0.8++=>q=0.9++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.1204++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++, accept: ++=>*/*++, language: q=0.8,en++q=0.6++=>q=0.9,en++q=0.8++, timezone: -60.0++=>-120.0++, canvastest: ecbf927c0b4d90d674eebf3a5675c13a717104c4++=>5bd9e00b60b2816145c141109c00cb90191a4a01++, ipcity: Bad Kissingen++=>Nuremberg++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.370.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.628.00++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.1.370.00++=>Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++, accept: ++=>*/*++, language: q=0.8++=>q=0.9++, timezone: -60.0++=>-120.0++, ipcity: Munich++=>Hilpolding++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.135.00++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.529.00++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Frankfurt am Main++=>Schwabisch Hall++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8++=>q=0.9++, ipcity: Siegen++=>Dortmund++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Leipzig++=>Aschach bei Freudenberg++, ipregion: Sachsen++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Stuttgart++=>Lampertheim++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Twist++=>Meppen++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -420.0++=>-480.0++, ipcity: Bangkok++=>Singapore++, ipregion: Krung Thep Maha Nakhon++=>Singapore++, ipcountry: Thailand++=>Singapore++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.628.00++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Bielefeld++=>Nuremberg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/62.0.3202.94++YaBrowser/17.11.1.628.00++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Oberhausen++=>Spagenweiler++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.00++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.498.00++, accept: ++=>*/*++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Kiel++=>Berlin++, ipregion: Schleswig-Holstein++=>Berlin++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/61.0.3163.100++YaBrowser/17.10.2.145.01++=>Chrome/62.0.3202.94++YaBrowser/17.11.0.526.01++, language: q=0.8,en-US++q=0.6,en++q=0.4++=>q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Dortmund++=>Reinbek++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, accept: ++=>*/*++, jsFonts: =>Tahoma++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++, canvastest: dcd8c42876309bb903e1b213380e275514b22804++=>76b2447ccdd04208b9498df1765ae32d741ec4f3++, ipcity: Sulzbach++=>Erfurt++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, ipcity: Karlsruhe++=>Freiburg++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.2191++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, accept: ++=>*/*++, timezone: -600.0++=>-660.0++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.2260++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++, accept: ++=>*/*++, timezone: -60.0++=>-180.0++, canvastest: ecbf927c0b4d90d674eebf3a5675c13a717104c4++=>5bd9e00b60b2816145c141109c00cb90191a4a01++, ipcity: Braunschweig++=>Hanover++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.642.00++, accept: ++=>*/*++, timezone: -480.0++=>-60.0++, canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>1f151bbe2cbd1d56864577c4a23704bf4a7c68a1++, ipcity: Singapore++=>Wehe++, ipregion: Singapore++=>Nordrhein-Westfalen++, ipcountry: Singapore++=>Germany++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.526.00++=>Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.0.526.01++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.651.01++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, ipcity: Freiburg++=>Stuttgart++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.1060++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.841++, ipcity: Al'met'yevsk++=>Bugul'ma++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.628.00++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++, fp2_colordepth: 32++=>24++, ipcity: Kanash++=>Yevpatoriya++, ipregion: Chuvashskaya Respublika++=>Avtonomna Respublika Krym++, ipcountry: Russian Federation++=>Ukraine++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, audio: 48000++=>44100++, ipcity: Dusseldorf++=>Zeuthen++, ipregion: Nordrhein-Westfalen++=>Brandenburg++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Moscow++=>Pavlovskiy Posad++, ipregion: Moskva++=>Moskovskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, fp2_pixelratio: 1++=>1.10000002384++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, ipcity: Ankara++=>Didim++, ipregion: Ankara++=>Aydin++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, ipcity: Birobidzhan++=>Khabarovsk++, ipregion: Yevreyskaya avtonomnaya oblast'++=>Khabarovskiy kray++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, ipcity: Borovsk++=>Kaluga++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, ipcity: Kiel++=>Nuremberg++, ipregion: Schleswig-Holstein++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, ipcity: Munich++=>Augsburg-Lechviertel++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, jsFonts: MT Extra++=>, ipcity: Podol'sk++=>Dolgoprudnyy++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, timezone: -60.0++=>-120.0++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, timezone: -60.0++=>-120.0++, cookie: True++=>False++, localstorage: True++=>False++, ipcity: Sulzbach++=>Schleusingen++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.0.284++, timezone: -60.0++=>-120.0++, ipcity: Aschaffenburg++=>Augsburg++, ipregion: Bayern++=>Schleswig-Holstein++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.1.141++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.1.174++, accept: ++=>*/*++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.1.174++, accept: ++=>*/*++, ipcity: Ufa++=>Sterlitamak++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/63.0.3239.132++YaBrowser/18.2.1.174++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.988++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.871++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 48000++=>44100++, ipcity: Freiburg++=>Isenburg++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.989++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.835++, ipcity: Maloye Verevo++=>Luga++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.990++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.839++, ipcity: Shymkent++=>Asykata++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/62.0.3202.94++YaBrowser/17.11.1.992++=>Chrome/63.0.3239.132++YaBrowser/18.1.1.840++, ipcity: Simferopol'++=>Sudak++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.1.1.645.00++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++, fp2_colordepth: 32++=>24++, ipcity: Aachen++=>Prague++, ipregion: Nordrhein-Westfalen++=>Praha, Hlavni mesto++, ipcountry: Germany++=>Czech Republic++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.1.1.839++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.871++, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>53e294b1d062cb845f196c866d8a694594bf503e++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++, fp2_colordepth: 32++=>24++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++, fp2_colordepth: 32++=>24++, ipcity: Solothurn++=>Bern++, ipregion: Solothurn++=>Bern++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.488.00++, fp2_colordepth: 32++=>24++, ipcity: Hilpolding++=>Augsburg-Lechviertel++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.1.2.70.00++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.529.00++, fp2_colordepth: 32++=>24++, fp2_pixelratio: 4++=>3++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.0.284++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++, ipcity: Dresden++=>Noschenrode++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.0.284++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++, ipcity: Glogow++=>Athens++, ipregion: Dolnoslaskie++=>Attiki++, ipcountry: Poland++=>Greece++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.0.284++=>Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++, jsFonts: =>Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++MS Outlook++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.0.284++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.638++, jsFonts: Leelawadee++Microsoft Uighur++=>, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>53e294b1d062cb845f196c866d8a694594bf503e++, ipcity: Regensburg++=>Stamsried++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.0.284++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.871++, ipcity: Muenster++=>Berlin++, ipregion: Nordrhein-Westfalen++=>Berlin++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.1.174++=>Chrome/65.0.3325.181++YaBrowser/18.4.0.2080++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.1.196++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.871++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/63.0.3239.132++YaBrowser/18.2.1.212++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.871++, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>53e294b1d062cb845f196c866d8a694594bf503e++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++=>Chrome/65.0.3325.181++YaBrowser/18.4.0.2080++, ipcity: Neuhardenberg++=>Magdeburg++, ipregion: Brandenburg++=>Sachsen-Anhalt++, fp2_liedlanguages: True++=>False++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/64.0.3282.186++YaBrowser/18.3.1.1232++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.871++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/64.0.3282.186++YaBrowser/18.3.1.651.00++=>Chrome/65.0.3325.181++YaBrowser/18.4.1.529.00++, language: en-IN,en-US++q=0.9,en++q=0.8++=>ru-RU,ru++q=0.9,en-US++q=0.8,en++q=0.7++, ipcity: Bern++=>Baden++, ipregion: Bern++=>Aargau++, fp2_liedlanguages: True++=>False++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/65.0.3325.181++YaBrowser/18.4.1.559++=>Chrome/66.0.3359.181++YaBrowser/18.6.1.392++, canvastest: 5a68e79900ee7de1feb46d01879b1634733bf03b++=>669eef672ff1f52b0b5bd8386cf0e7a7070bec45++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/65.0.3325.181++YaBrowser/18.4.1.638++=>Chrome/66.0.3359.181++YaBrowser/18.6.0.2186++, language: de-DE,de++q=0.9,en++=>de,en++q=0.9,de-DE++, canvastest: 53e294b1d062cb845f196c866d8a694594bf503e++=>6b2f630a93c06a1c7fdf31be5433b7f30e9fd9d2++, ipcity: Stamsried++=>Regensburg++, browser: Yandex Browser,  1 0.00229885057471
+agent: Chrome/65.0.3325.181++YaBrowser/18.4.1.871++=>Chrome/66.0.3359.181++YaBrowser/18.6.0.2186++, canvastest: 53e294b1d062cb845f196c866d8a694594bf503e++=>6b2f630a93c06a1c7fdf31be5433b7f30e9fd9d2++, ipcity: Magdeburg++=>Bindfelde++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.0.2017++=>YaBrowser/17.10.1.1204++, fp2_pixelratio: 1.25++=>1++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.0.2017++=>YaBrowser/17.10.1.1204++, ipcity: Moscow++=>Podol'sk++, ipregion: Moskva++=>Moskovskaya oblast'++, fp2_liedlanguages: True++=>False++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.0.2017++=>YaBrowser/17.10.1.1204++, jsFonts: =>MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++ARNO PRO++Minion Pro++TRAJAN PRO++ZWAdobeF++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.1.370.00++=>YaBrowser/17.10.2.145.00++, ipcity: Dortmund++=>Kleve++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.1.370.00++=>YaBrowser/17.10.2.145.00++, ipcity: Fellhorst++=>Augsburg++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.1.370.01++=>YaBrowser/17.10.2.135.01++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.2.135.00++=>YaBrowser/17.10.2.145.00++, ipcity: Koblenz++=>Gera++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.10.2.135.00++=>YaBrowser/17.10.2.145.00++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.988++, fp2_pixelratio: 1.5++=>1++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.988++, ipcity: Balikesir++=>Keciborlu++, ipregion: Balikesir++=>Isparta++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.988++, ipcity: Komsomol'sk-na-Amure++=>Khabarovsk++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.988++, ipcity: Lipetsk++=>Orenburg++, ipregion: Lipetskaya oblast'++=>Orenburgskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.990++, accept: ++=>*/*++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.990++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.990++, ipcity: Almaty++=>Shymkent++, ipregion: Almaty++=>Ongtustik Qazaqstan oblysy++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2191++=>YaBrowser/17.11.1.990++, jsFonts: =>ZWAdobeF++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2260++=>YaBrowser/17.11.1.988++, accept: ++=>*/*++, plugins: Widevine Content Decryption Module++=>, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.2358++=>YaBrowser/17.11.1.992++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.353.00++=>YaBrowser/17.11.1.549.00++, ipcity: Dusseldorf++=>Dortmund++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.526.00++=>YaBrowser/17.11.1.628.00++, accept: ++=>*/*++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.0.526.00++=>YaBrowser/17.11.1.628.00++, ipcity: Hanover++=>Muenster++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.1.988++=>YaBrowser/17.11.1.990++, accept: ++=>*/*++, jsFonts: Arial Unicode MS++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Minion Pro++Palace Script MT++Papyrus++Perpetua++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++=>Leelawadee++Microsoft Uighur++MT Extra++, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>5bf70d8119b0953b10bef0fa2fdd62c33f92a971++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/17.11.1.988++=>YaBrowser/17.11.1.990++, accept: ++=>*/*++, jsFonts: MT Extra++=>, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.0.527.00++=>YaBrowser/18.1.1.645.00++, ipcity: Gottingen++=>Karlsruhe++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.0.527.00++=>YaBrowser/18.1.1.645.00++, timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>Aachen++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.0.527.00++=>YaBrowser/18.1.2.70.00++, timezone: -330.0++=>-120.0++, ipcity: Delhi++=>Solothurn++, ipregion: Delhi++=>Solothurn++, ipcountry: India++=>Switzerland++, fp2_liedlanguages: False++=>True++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.642.00++=>YaBrowser/18.1.2.70.00++, timezone: -60.0++=>-120.0++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.645.00++=>YaBrowser/18.1.2.70.00++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.835++=>YaBrowser/18.2.0.284++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, ipcity: Khabarovsk++=>Yekaterinburg++, ipregion: Khabarovskiy kray++=>Sverdlovskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, ipcity: Meuselwitz++=>Leipzig++, ipregion: Thuringen++=>Sachsen++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, ipcity: Nuremberg++=>Regensburg++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, ipcity: Zeuthen++=>Kustrinchen++, fp2_liedlanguages: False++=>True++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, jsFonts: MT Extra++=>Arial Unicode MS++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++MS Outlook++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++, canvastest: 0d79b91766fb6733d57bdc86c576dc06cbb6bee2++=>70561d1e864cfe259b163ab3192f0e7c13820f19++, ipcity: Moscow++=>Podol'sk++, ipregion: Moskva++=>Moskovskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.0.284++, language: de,en++q=0.9,ru++q=0.8++=>de-DE,de++q=0.9++, ipcity: Erfurt++=>Heilbad Heiligenstadt++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.1.1.839++=>YaBrowser/18.2.1.212++, ipcity: Dusseldorf++=>Dortmund++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.2.0.284++=>YaBrowser/18.2.1.174++, ipcity: Yekaterinburg++=>Nikolayevsk-na-Amure++, ipregion: Sverdlovskaya oblast'++=>Khabarovskiy kray++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.2.0.284++=>YaBrowser/18.2.1.174++, timezone: -60.0++=>-120.0++, audio: 44100++=>48000++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.2.0.284++=>YaBrowser/18.2.1.196++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.4.0.2080++=>YaBrowser/18.4.1.833++, ipcity: Leipzig++=>Sulzbach++, ipregion: Sachsen++=>Thuringen++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.4.0.2080++=>YaBrowser/18.4.1.833++, jsFonts: Leelawadee++Microsoft Uighur++=>, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>53e294b1d062cb845f196c866d8a694594bf503e++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.4.1.488.00++=>YaBrowser/18.4.1.498.00++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.4.1.498.00++=>YaBrowser/18.4.1.513.00++, ipcity: Dusseldorf++=>Wesel++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.4.1.513.00++=>YaBrowser/18.4.1.529.00++, ipcity: Berlin++=>Saarbrucken++, ipregion: Berlin++=>Saarland++, browser: Yandex Browser,  1 0.00229885057471
+agent: YaBrowser/18.4.1.833++=>YaBrowser/18.4.1.871++, browser: Yandex Browser,  1 0.00229885057471
+audio: 192000++2++1++0++2++explicit++speakers++=>not supported++, browser: Yandex Browser,  1 0.00229885057471
+audio: 192000++2++1++0++2++explicit++speakers++=>not supported++, fp2_pixelratio: 1++=>1.10000002384++, browser: Yandex Browser,  1 0.00229885057471
+audio: 192000++=>44100++, browser: Yandex Browser,  1 0.00229885057471
+audio: 192000++=>96000++, browser: Yandex Browser,  1 0.00229885057471
+audio: 44100++=>192000++, browser: Yandex Browser,  1 0.00229885057471
+audio: 44100++=>48000++, browser: Yandex Browser,  1 0.00229885057471
+audio: 44100++=>48000++, ipcity: Hanover++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Yandex Browser,  1 0.00229885057471
+audio: 44100++=>48000++, ipcity: Isenburg++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Yandex Browser,  1 0.00229885057471
+audio: 44100++=>88200++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, fp2_pixelratio: 1.25++=>1++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, fp2_pixelratio: 1.5++=>1++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Aksu++=>Arys++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Aksu++=>Lenger++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Aksu++=>Saryaghash++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Aksuat++=>Almaty++, ipregion: Shyghys Qazaqstan oblysy++=>Almaty++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Arys++=>Aksu++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Kentau++=>Aksu++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Lenger++=>Temirlanovka++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Shah Alam++=>Roosendaal++, ipregion: Selangor++=>Noord-Brabant++, ipcountry: Malaysia++=>Netherlands++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Shymkent++=>Shayan++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Temirlanovka++=>Atyrau++, ipregion: Ongtustik Qazaqstan oblysy++=>Atyrau oblysy++, browser: Yandex Browser,  1 0.00229885057471
+audio: 48000++=>44100++, ipcity: Schwabisch Hall++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Yandex Browser,  1 0.00229885057471
+audio: 88200++=>44100++, browser: Yandex Browser,  1 0.00229885057471
+audio: not supported++=>192000++2++1++0++2++explicit++speakers++, ipcity: Nal'chik++=>Volodarskiy++, ipregion: Kabardino-Balkarskaya Respublika++=>Astrakhanskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, fp2_pixelratio: 1++=>1.10000002384++, browser: Yandex Browser,  1 0.00229885057471
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Atyrau++=>Shymkent++, ipregion: Atyrau oblysy++=>Ongtustik Qazaqstan oblysy++, browser: Yandex Browser,  1 0.00229885057471
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Roosendaal++=>Shah Alam++, ipregion: Noord-Brabant++=>Selangor++, ipcountry: Netherlands++=>Malaysia++, browser: Yandex Browser,  1 0.00229885057471
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Shymkent++=>Aksu++, browser: Yandex Browser,  1 0.00229885057471
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Temirlanovka++=>Shymkent++, browser: Yandex Browser,  1 0.00229885057471
+canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Yandex Browser,  1 0.00229885057471
+canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Yandex Browser,  1 0.00229885057471
+canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>96a2590803f83acf76972c8603b1f0d314b73583++, browser: Yandex Browser,  1 0.00229885057471
+cookie: False++=>True++, localstorage: False++=>True++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 0.899999976158++=>1++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1++=>0.800000011921++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1++=>0.899999976158++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1++=>1.25++, ipcity: Maracay++=>Calabozo++, ipregion: Aragua++=>Guarico++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1++=>1.5++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1++=>2.5++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1.10000002384++=>0.75++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1.125++=>1.875++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1.25++=>1.875++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1.5++=>1++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1.5++=>1.10000002384++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 1.75++=>1.5++, browser: Yandex Browser,  1 0.00229885057471
+fp2_pixelratio: 3.125++=>1.25++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Arys++=>Temirlanovka++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Halle (Saale)++=>Augsburg-Lechviertel++, ipregion: Sachsen-Anhalt++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Khabarovsk++=>Sovetskaya Gavan'++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Kleve++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Lampertheim++=>Stuttgart++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Memmingen++=>Munich++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Meppen++=>Twist++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Munich++=>Ahaus++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Munich++=>Nuremberg++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Nuremberg++=>Freiburg++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Rostov-na-Donu++=>Novomikhaylovskiy++, ipregion: Rostovskaya oblast'++=>Krasnodarskiy kray++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Saarbrucken++=>Dortmund++, ipregion: Saarland++=>Nordrhein-Westfalen++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Shah Alam++=>Kuala Lumpur++, ipregion: Selangor++=>Wilayah Persekutuan Kuala Lumpur++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Shayan++=>Shymkent++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Shymkent++=>Arys++, browser: Yandex Browser,  1 0.00229885057471
+ipcity: Sinop++=>Boyabat++, browser: Yandex Browser,  1 0.00229885057471
+jsFonts: =>Century++, browser: Yandex Browser,  1 0.00229885057471
+jsFonts: =>ZWAdobeF++, browser: Yandex Browser,  1 0.00229885057471
+language: q=0.6++=>q=0.6,la++q=0.4++, ipcity: Saryaghash++=>Temirlanovka++, browser: Yandex Browser,  1 0.00229885057471
+language: q=0.6,la++q=0.4++=>q=0.6++, jsFonts: Lucida Sans++Lucida Sans Typewriter++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++ARNO PRO++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++Minion Pro++NewsGoth BT++TRAJAN PRO++TypoUpright BT++ZWAdobeF++=>MS Outlook++, browser: Yandex Browser,  1 0.00229885057471
+language: q=0.9++=>q=0.9,ru++q=0.8++, browser: Yandex Browser,  1 0.00229885057471
+language: ru-RU,ru++q=0.9,en-US++q=0.8,en++q=0.7++=>en-IN,en-US++q=0.9,en++q=0.8++, timezone: -60.0++=>-330.0++, ipcity: Bern++=>Delhi++, ipregion: Bern++=>Delhi++, ipcountry: Switzerland++=>India++, browser: Yandex Browser,  1 0.00229885057471
+plugins: Widevine Content Decryption Module++=>, browser: Yandex Browser,  1 0.00229885057471
+plugins: Widevine Content Decryption Module++=>, ipcity: Saint Petersburg++=>Murino++, ipregion: Sankt-Peterburg++=>Leningradskaya oblast'++, browser: Yandex Browser,  1 0.00229885057471
+plugins: Widevine Content Decryption Module++=>, ipcity: Shymkent++=>Aksuat++, ipregion: Ongtustik Qazaqstan oblysy++=>Shyghys Qazaqstan oblysy++, browser: Yandex Browser,  1 0.00229885057471
+timezone: -60.0++=>-120.0++, browser: Yandex Browser,  1 0.00229885057471
+timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>Dusseldorf++, browser: Yandex Browser,  1 0.00229885057471
+timezone: -60.0++=>-120.0++, ipcity: Freiburg++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Yandex Browser,  1 0.00229885057471
+timezone: -60.0++=>-420.0++, ipcity: Dusseldorf++=>Bangkok++, ipregion: Nordrhein-Westfalen++=>Krung Thep Maha Nakhon++, ipcountry: Germany++=>Thailand++, browser: Yandex Browser,  1 0.00229885057471

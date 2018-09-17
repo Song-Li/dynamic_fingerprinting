@@ -1,0 +1,83 @@
+total 82 1.0
+accept: ++=>*/*++, canvastest: 3e9ad09e8305c74d854d944bdc14232c3ce3c0db++=>df45d79f2b43ca092d002bcd4c4ee38cd7baf6ef++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: 43847801378d69b158d9ec06f68e2ae8ab58a7e1++=>5bcdd1f61b47f6e7bb5e1b9d8a3b5c8506831c95++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: 4da85d31ee0f288c080436b102b8eb2f6ed6c5c7++=>de40b2069f675d185d3856b2350b51a2c4bfc79f++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: 5dcb5cba2f49129c088f8aab32ad75daf79923de++=>8e354af9a27150057d14eb463e15f03bffb81f8d++, ipcity: Baunatal++=>Bielefeld++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: 9e7b193f3350d289582581637c45b8ee1dbe123c++=>b06ef2658b33e7735bf350daf74d177175b48cf2++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: a9280e2ab13626182f2ebd3e1b472af6e3ecb531++=>432480a1798003ae08450321eae010c550461882++, ipcity: Villingen-Schwenningen++=>Karlsruhe++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: ac8724650702cc96ae5e49a31bb553800d906f9e++=>429bc099cc81a01e17b11ad46e2e0bf5b09ff107++, ipcity: Potsdam++=>Munich++, ipregion: Brandenburg++=>Bayern++, browser: BlackBerry WebKit,  1 0.0121951219512
+accept: ++=>*/*++, canvastest: aed959850c693d73e50270e76a508a8c24a4fe32++=>afadf4b815c4112059d0ec223a7a2d8bafaa94a1++, ipcity: Frankfurt am Main++=>Trier++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: BlackBerry WebKit,  1 0.0121951219512
+browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 01ac7bca0e324ad80a3fb3927b68b13e513e932e++=>40e6f9af0a1cfe354367c477d2053f423876cc35++, ipcity: Kerpen++=>Osnabruck++, ipregion: Rheinland-Pfalz++=>Niedersachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 03ffdcaf66a6efdcc1dc8d6d37fe63ff539a344c++=>80d4fc93661e6ba514b2db3f90c92e470f008821++, ipcity: Freinsheim++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 06cb086c750602c0cadfa09672a27236edcd8eed++=>db02a61d53ce2b01d7d12ba966e41cfe13ae1cb3++, ipcity: Leipzig++=>Karlsruhe++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 14f5e6ce987b7babb9eb65c996142756cb744bdc++=>98c46d4459b4d49a8881863d2844c663840f8e98++, ipcity: Baunatal++=>Frankfurt am Main++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 1502020ba31e8dbe8b9df4a6fbb0e876bfccfe7f++=>a7e3b06a2cd2ac9cc240553301eb52a68ddbab7e++, ipcity: Ahaus++=>Leipzig++, ipregion: Nordrhein-Westfalen++=>Sachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 24c5ee8677d404c987336d6f7c694b86d317d26d++=>b147a11a0f91c404ab94beb6ad0e614f84c63ebf++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 24c5ee8677d404c987336d6f7c694b86d317d26d++=>f404b61b7b489294a3fdd8b2884e098b9c5a2452++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 26fd9dfeb27c88866e6f5e0cbeb8ee080202494e++=>a104080bee9f26656354c186024be17cc67c575d++, ipcity: Magdeburg++=>Potsdam++, ipregion: Sachsen-Anhalt++=>Brandenburg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 2a57d225177bdb77cfe55de64dee5703490fbf9e++=>dd82908415c1da5a8e4e5831688189e7c9e95597++, ipcity: Hanover++=>Dortmund++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 33226418808091a951c933c93c1bd0357692236a++=>60444f3a1b8a0e180d080344666e115fffd5824f++, ipcity: Hamburg++=>Freinsheim++, ipregion: Hamburg++=>Rheinland-Pfalz++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 3e9ad09e8305c74d854d944bdc14232c3ce3c0db++=>48385eea83dcb0a8039c911580e91f319152bfc3++, ipcity: Spreewitz++=>Dresden++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 3e9ad09e8305c74d854d944bdc14232c3ce3c0db++=>d110c0707e569922841f287684c2a228b104c24d++, ipcity: Dresden++=>Nettetal++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 40e6f9af0a1cfe354367c477d2053f423876cc35++=>45559f95b587339687c5d300c651fe2d8996d0c8++, ipcity: Osnabruck++=>Aachen++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 4221b228d1505f9d9a73e9eceea86b1054c3e930++=>52791f83a36f04cf3b8ef15143be4b9f7d8fd2f2++, ipcity: Jever++=>Nuremberg++, ipregion: Niedersachsen++=>Bayern++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 432480a1798003ae08450321eae010c550461882++=>0d10aab745a4933692ec8a703c76672608d594b7++, ipcity: Karlsruhe++=>Ahaus++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 47574cdf6f78fc1c7b2a93f9ae43c487ac59b9bf++=>acbf823c2231062b846004065c8fe87b118d1553++, ipcity: Graz++=>Dornbirn++, ipregion: Steiermark++=>Vorarlberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 48a656806cfbafd475f207145d1c9b5206222b74++=>90bc8c2232b904e42a93fa22c6b7874d9e528cb7++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 4ad8da2310fb5e50729e4d9eec9ee368dda8cfdb++=>7635f4311d578476e81bf0422075b9a856dec2a6++, ipcity: Nienburg++=>Offenburg++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 4f1ac33555535f044ebeb1633750f4a4f25eb545++=>45c77f001f5d36da5b66b55dfc87ee2b2c4b70bf++, ipcity: Dusseldorf++=>Barntrup++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 52791f83a36f04cf3b8ef15143be4b9f7d8fd2f2++=>590c7f8f5511b81fdc5da8ab4882f7a637580197++, ipcity: Nuremberg++=>Wildeshausen++, ipregion: Bayern++=>Niedersachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 530fcc5cb452fd730b3314028363ac0c0ff8fdf7++=>713b6d48851c7937e5216fb8664bb5329bbb68fc++, ipcity: Berlin++=>Ostseebad Boltenhagen++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 53ba9cbec80e17ae42ee027e8a03d4ce3130d336++=>957eaaf490bddc7f6cf921bf35c3ac9e0b7f48ed++, ipcity: Straas++=>Karlsruhe++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 590c7f8f5511b81fdc5da8ab4882f7a637580197++=>79b8b8af6849211993b92b397820aa23fd1c874a++, ipcity: Schmachtenhagen Ost++=>Zwickau++, ipregion: Brandenburg++=>Sachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 60444f3a1b8a0e180d080344666e115fffd5824f++=>069752624c64ac173c0d4786d8eeddb5d7354d22++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 60444f3a1b8a0e180d080344666e115fffd5824f++=>8816cb3e5c26d17d64f96f77a5066b7d8202e417++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 60444f3a1b8a0e180d080344666e115fffd5824f++=>8d25291e045477ec0d9275f886f00589dd6a47ce++, ipcity: Mannheim++=>Freinsheim++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 65508232b80f228fd7cca413b528b7d2d49ba286++=>f786385c8402f57742ebcfdbb3e12eab3f31c439++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 699ddcfb4ea04d9e375efea3e2a971a9e3dca9c2++=>7511a48b0c38a05cd713a96826faa0b72b0c306e++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 79b8b8af6849211993b92b397820aa23fd1c874a++=>e5b623de3ae38fd7025794c5b99988b79c0e2a39++, ipcity: Zwickau++=>Berlin++, ipregion: Sachsen++=>Berlin++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 7b9947d7888504aa82a74d06c8d6a8dd7254e318++=>4da85d31ee0f288c080436b102b8eb2f6ed6c5c7++, ipcity: Freiburg++=>Bielefeld++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 7e51b1fcd6ce52a51929b5841e39bfb2d40bd032++=>10c0c72ab2cee35f6cf3cde235fe163adfa3914c++, ipcity: Berlin++=>Mecklenburg++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 80d4fc93661e6ba514b2db3f90c92e470f008821++=>54b836c2cd97f760ea563176efaaec5f8a52f108++, ipcity: Frankfurt am Main++=>Freinsheim++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 80dd3e0ed836d0eae50eeba40d18ff5c443a34d4++=>7e51b1fcd6ce52a51929b5841e39bfb2d40bd032++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 80de071f4acda681889cf9644186bde7babdfca6++=>822c25c9d9153e5598f1832297373f7a3246c866++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 822c25c9d9153e5598f1832297373f7a3246c866++=>e2de74ce7a4e18ed8fcebe20dd606a5b3a47abac++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 8816cb3e5c26d17d64f96f77a5066b7d8202e417++=>3e9ad09e8305c74d854d944bdc14232c3ce3c0db++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 89632ce77944f65097219adefda7adaec544b916++=>4ad8da2310fb5e50729e4d9eec9ee368dda8cfdb++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 8d25291e045477ec0d9275f886f00589dd6a47ce++=>33226418808091a951c933c93c1bd0357692236a++, ipcity: Bielefeld++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 90bc8c2232b904e42a93fa22c6b7874d9e528cb7++=>ae8f05e54e2fe238c49905b318b03188b8e1418c++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 9323b5664d5424c9fdc6fc4cdf7a33a57374406a++=>8d25291e045477ec0d9275f886f00589dd6a47ce++, ipcity: Chemnitz++=>Bielefeld++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 94a9a9c7d1fcdc009c1c99263f657ff81a45d949++=>e8694847d1d1e401c91e3845080739cac6b71c8d++, ipcity: Hanover++=>Friedrichshafen++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 957eaaf490bddc7f6cf921bf35c3ac9e0b7f48ed++=>a24351cde30e21d2a4f6d472d7ff93099397156c++, ipcity: Karlsruhe++=>Schramberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: 96e3c524510bc88fcbf916a25200ab58af3e9ddc++=>d5f7308e03aaa0c5bb7c617a04c211ecd662cb32++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a104080bee9f26656354c186024be17cc67c575d++=>b02dc673fc7ab984f32a3e5d896facae4c654a03++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a1ff12ad8b5694000467164a9f5288094eb6e4e8++=>2634bf3235e2734be94bd8a41fc6b39d5bd794eb++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a24351cde30e21d2a4f6d472d7ff93099397156c++=>c29f53565cb4e151443d7b944b0fe56f96c36684++, ipcity: Schramberg++=>Karlsruhe++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a273965ad2aaca53e580a73b5c959ee1b5513ab5++=>24c5ee8677d404c987336d6f7c694b86d317d26d++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a2d3eb248174405074e4569dbe1091803248560f++=>a76d45505c3611d80aaeaccc7f29703875e7a3bb++, ipcity: Etteln++=>Bonn++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a7e3b06a2cd2ac9cc240553301eb52a68ddbab7e++=>3e9ad09e8305c74d854d944bdc14232c3ce3c0db++, ipcity: Spreewitz++=>Dresden++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a7e3b06a2cd2ac9cc240553301eb52a68ddbab7e++=>b147a11a0f91c404ab94beb6ad0e614f84c63ebf++, ipcity: Leipzig++=>Karlsruhe++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: a8db3bfa35c1e90036aa26e38bca01b2039da1cf++=>e56530c705590f1d7b32b7180c862319bb1bf81b++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: ae8f05e54e2fe238c49905b318b03188b8e1418c++=>96e3c524510bc88fcbf916a25200ab58af3e9ddc++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: b147a11a0f91c404ab94beb6ad0e614f84c63ebf++=>5dcb5cba2f49129c088f8aab32ad75daf79923de++, ipcity: Saarbrucken++=>Baunatal++, ipregion: Saarland++=>Hessen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: b407b7eb4d7339cc35da3d1da7af875bc07a19ec++=>33226418808091a951c933c93c1bd0357692236a++, ipcity: Leipzig++=>Spreewitz++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: b8fc21a48629bca36f553b77537caa57445339c5++=>73f3289e5276ab3e1c7846c21780db25e9a235f5++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: bb51112297defaadac6a94c9019aad97f889b0b5++=>43847801378d69b158d9ec06f68e2ae8ab58a7e1++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: cc9bc627536e9f7f06300839f9924ed3b057f928++=>89632ce77944f65097219adefda7adaec544b916++, ipcity: Dusseldorf++=>Nienburg++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: cdb6151a4e66beeff0ceb3ec4bb5e98e2302077a++=>e467508e2ba45d86b60b3fba90a5c83d1c806c98++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: cefec2bf84007ec548efabbec61f4f12c07ec46d++=>99afd20ecb2d7e24fc6f7e2c64090d67c7b6a147++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: cfd1e293c4038b1eec53b447bbad10594a6cec8b++=>a7e3b06a2cd2ac9cc240553301eb52a68ddbab7e++, ipcity: Wiesbaden++=>Spreewitz++, ipregion: Hessen++=>Sachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: d110c0707e569922841f287684c2a228b104c24d++=>99700850036c3cae1d0f00e62584306c4df409c2++, ipcity: Nettetal++=>Leipzig++, ipregion: Nordrhein-Westfalen++=>Sachsen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: d445e34cf0afc694c899ce359f89d0433c860565++=>65508232b80f228fd7cca413b528b7d2d49ba286++, ipcity: Hanover++=>Bonn++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: d51a53804dab83595ae2dff4f3337f90a2cd3046++=>e6ff923bfa522c60f85e2da78109c32de4a94b1d++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: d5f7308e03aaa0c5bb7c617a04c211ecd662cb32++=>530fcc5cb452fd730b3314028363ac0c0ff8fdf7++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: e030972bfbcfa68c5aa4cce9acbc22584236d6c2++=>f8cd99b55a0fa033324714ba46d528b1af86ee90++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: f21e8227e5a696f9dc09b623c54ee6177c8107d0++=>b407b7eb4d7339cc35da3d1da7af875bc07a19ec++, ipcity: Dusseldorf++=>Kleve++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: f2686bf3ce91fe71a5c49f7f19bcdc42c19030d3++=>24c5ee8677d404c987336d6f7c694b86d317d26d++, ipcity: Bonn++=>Dortmund++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: f5d74808a105f1ff858c7ec478d938df63629ac2++=>47574cdf6f78fc1c7b2a93f9ae43c487ac59b9bf++, ipcity: Dornbirn++=>Graz++, ipregion: Vorarlberg++=>Steiermark++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: f8cd99b55a0fa033324714ba46d528b1af86ee90++=>b4a4b3d278d3e633bdeef888561c7734c3c67bbf++, ipcity: Cuxhaven++=>Hanover++, browser: BlackBerry WebKit,  1 0.0121951219512
+canvastest: fd43da2603481aab049e9d02579154346cf03c64++=>e030972bfbcfa68c5aa4cce9acbc22584236d6c2++, ipcity: Hanover++=>Cuxhaven++, browser: BlackBerry WebKit,  1 0.0121951219512
+cookie: False++=>True++, canvastest: e8694847d1d1e401c91e3845080739cac6b71c8d++=>070d9cda476685a6effebec31a49e0e74ac73459++, ipcity: Friedrichshafen++=>Bonn++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: BlackBerry WebKit,  1 0.0121951219512
+localstorage: False++=>True++, canvastest: fb47d021b490c1ec1303a61b986d7a487e38ad77++=>99afd20ecb2d7e24fc6f7e2c64090d67c7b6a147++, browser: BlackBerry WebKit,  1 0.0121951219512
+localstorage: True++=>False++, canvastest: 99afd20ecb2d7e24fc6f7e2c64090d67c7b6a147++=>fb47d021b490c1ec1303a61b986d7a487e38ad77++, browser: BlackBerry WebKit,  1 0.0121951219512

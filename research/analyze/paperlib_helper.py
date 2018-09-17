@@ -1,4 +1,7 @@
 import difflib
+from tqdm import *
+from feature_lists import *
+from database import Database
 
 class Paperlib_helper():
     def __init__(self):
@@ -38,6 +41,33 @@ class Paperlib_helper():
         for sep in seps:
             agent.replace(sep, ' ')
         return agent
+
+    def remove_change_only(self, df, feature_names, browser_names, feature_list = get_fingerprint_feature_list()):
+        """
+        if only one feature changed, remove it
+        """
+        db = Database('forpaper345')
+        columns = db.get_column_names('fingerprintchanges')
+
+        length = len(feature_names)
+        if length != len(browser_names):
+            print ("length of features names and browser names must match")
+        filtered = []
+
+        for feature in feature_names:
+            if feature not in columns:
+                feature_list.remove(feature)
+
+        for idx in tqdm(df.index):
+            for i in range(length):
+                feature = feature_names[i]
+                browser = browser_names[i]
+                row = df.iloc[idx]
+                if browser == row['browser'] and df.at[idx, feature] == ''.join(str(df.at[idx, x]) for x in feature_list):
+                    filtered.append(idx)
+        df = df[~df.index.isin(filtered)]
+        df.reset_index(drop = True, inplace = True)
+        return df
 
     def agent_diff(self, agent1, agent2):
         """

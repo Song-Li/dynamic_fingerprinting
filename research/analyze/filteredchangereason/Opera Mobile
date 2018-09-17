@@ -1,0 +1,318 @@
+total 508 1.0
+browser: Opera Mobile,  74 0.145669291339
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, browser: Opera Mobile,  21 0.0413385826772
+accept: ++=>*/*++, browser: Opera Mobile,  14 0.0275590551181
+agent: OPR/32.0.2254.122976++=>OPR/32.0.2254.123747++, browser: Opera Mobile,  11 0.0216535433071
+agent: OPR/31.0.2254.122029++=>OPR/32.0.2254.122976++, browser: Opera Mobile,  10 0.0196850393701
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Opera Mobile,  10 0.0196850393701
+agent: Chrome/62.0.3202.84++=>Chrome/63.0.3239.111++, browser: Opera Mobile,  6 0.011811023622
+accept: ++=>*/*++image/webp++, browser: Opera Mobile,  5 0.00984251968504
+agent: Chrome/63.0.3239.111++=>Chrome/64.0.3282.137++, accept: ++=>*/*++image/webp++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  5 0.00984251968504
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/66.0.3359.126++OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  4 0.00787401574803
+agent: Chrome/66.0.3359.126++=>Chrome/66.0.3359.158++, browser: Opera Mobile,  4 0.00787401574803
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, browser: Opera Mobile,  4 0.00787401574803
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dortmund++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  3 0.00590551181102
+agent: Chrome/62.0.3202.84++=>Chrome/63.0.3239.83++, browser: Opera Mobile,  3 0.00590551181102
+agent: Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>Chrome/63.0.3239.111++OPR/32.0.2254.122976++, browser: Opera Mobile,  3 0.00590551181102
+agent: Chrome/62.0.3202.84++OPR/32.0.2254.122976++=>Chrome/63.0.3239.111++OPR/32.0.2254.123747++, browser: Opera Mobile,  3 0.00590551181102
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.122976++=>Chrome/64.0.3282.137++OPR/32.0.2254.123747++, accept: ++=>*/*++image/webp++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  3 0.00590551181102
+agent: Chrome/66.0.3359.126++OPR/33.0.2254.125672++=>Chrome/66.0.3359.158++OPR/35.0.2254.127755++, browser: Opera Mobile,  3 0.00590551181102
+audio: 44100++=>48000++, browser: Opera Mobile,  3 0.00590551181102
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Opera Mobile,  3 0.00590551181102
+timezone: -60.0++=>-120.0++, browser: Opera Mobile,  3 0.00590551181102
+agent: Build/NPJS25.93-14-10)++=>Build/NPJS25.93-14-13)++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Potsdam++=>Isenburg++, ipregion: Brandenburg++=>Rheinland-Pfalz++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, accept: ++=>*/*++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>Chrome/63.0.3239.83++OPR/32.0.2254.122976++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/63.0.3239.107++=>Chrome/63.0.3239.111++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/63.0.3239.111++=>Chrome/64.0.3282.137++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.123747++=>Chrome/66.0.3359.158++OPR/33.0.2254.125672++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/64.0.3282.137++=>Chrome/65.0.3325.109++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/65.0.3325.109++OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/65.0.3325.109++OPR/32.0.2254.123747++=>Chrome/66.0.3359.158++OPR/33.0.2254.125672++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/65.0.3325.109++OPR/33.0.2254.125672++=>Chrome/66.0.3359.158++OPR/35.0.2254.127755++, browser: Opera Mobile,  2 0.00393700787402
+agent: Chrome/66.0.3359.158++=>Chrome/67.0.3396.87++, browser: Opera Mobile,  2 0.00393700787402
+agent: OPR/32.0.2254.123747++=>OPR/33.0.2254.125123++, browser: Opera Mobile,  2 0.00393700787402
+agent: OPR/44.0.2246.122883++=>OPR/44.0.2246.123012++, browser: Opera Mobile,  2 0.00393700787402
+audio: 48000++=>44100++, browser: Opera Mobile,  2 0.00393700787402
+fp2_pixelratio: 3++=>2++, browser: Opera Mobile,  2 0.00393700787402
+ipcity: Dortmund++=>Dusseldorf++, browser: Opera Mobile,  2 0.00393700787402
+accept: ++=>*/*++, ipcity: Basel++=>Zurich++, ipregion: Basel-Stadt++=>Zurich++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Baunatal++=>Dusseldorf++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Chiba++=>Naha++, ipregion: Chiba++=>Okinawa++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Dresden++=>Bautzen++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Dusseldorf++=>Wieseck++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Feldbach++=>Salzburg++, ipregion: Steiermark++=>Salzburg++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Frankfurt am Main++=>Bielefeld++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Freinsheim++=>Cottbus++, ipregion: Rheinland-Pfalz++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Haar++=>Fehmarn++, ipregion: Niedersachsen++=>Schleswig-Holstein++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Hanover++=>Bonn++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Isenburg++=>Freiburg++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Leipzig++=>Karlsruhe++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Oldenburg++=>Magdeburg++, ipregion: Mecklenburg-Vorpommern++=>Sachsen-Anhalt++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Seattle++=>Isenburg++, ipregion: Washington++=>Rheinland-Pfalz++, ipcountry: United States++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Senftenberg++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Opera Mobile,  1 0.00196850393701
+accept: ++=>*/*++, ipcity: Wommen++=>Freiburg++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+accept: =>image/webp++, ipcity: Ramstein-Miesenbach++=>Isenburg++, browser: Opera Mobile,  1 0.00196850393701
+accept: None++=>image/webp++*/*++, encoding: gzip,deflate++=>gzip, deflate++, ipcity: Berlin++=>Isenburg++, ipregion: Berlin++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+accept: image/webp++=>, ipcity: Isenburg++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+accept: image/webp++=>, ipcity: Isenburg++=>Ramstein-Miesenbach++, browser: Opera Mobile,  1 0.00196850393701
+agent: 6.0.1;++Build/MMB29M)++=>7.1.1;++Build/NMF26X)++, canvastest: 6c05988260a2b2df059c972e0b82a8f13f0c7388++=>88f9a35438201f34381be6425fc61c58c31b5fc1++, fp2_pixelratio: 2++=>2.25++, browser: Opera Mobile,  1 0.00196850393701
+agent: 6.0.1;++Build/MMB29M)++Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>7.1.1;++Build/NMF26X)++Chrome/61.0.3163.98++OPR/45.0.2246.10++, canvastest: 6c05988260a2b2df059c972e0b82a8f13f0c7388++=>88f9a35438201f34381be6425fc61c58c31b5fc1++, ipcity: Schacksdorf++=>Erfurt++, ipregion: Brandenburg++=>Thuringen++, browser: Opera Mobile,  1 0.00196850393701
+agent: 6.0.1;++Build/MMB29M;++Chrome/55.0.2883.91++OPR/28.0.2254.119213++=>7.1.2;++Build/N2G47H;++Chrome/66.0.3359.126++OPR/33.0.2254.125672++, accept: ++=>*/*++image/webp++, language: q=0.8++=>q=0.9++, timezone: -60.0++=>-120.0++, canvastest: b7251da95affd1a95946f74d9d40e678410f8f6e++=>391219fe2b4ddd613eda0abc5de071cd17af7bab++, fp2_colordepth: 32++=>24++, ipcity: Dortmund++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: 6.0.1;++Build/MPIS24.241-15.3-26;++=>7.1.1;++Build/NPI26.48-36;++, canvastest: d5ae700aec6b39fcee5968d1e4481344b07670f2++=>391219fe2b4ddd613eda0abc5de071cd17af7bab++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90M)++=>8.0.0;++Build/R16NW)++, canvastest: 88f9a35438201f34381be6425fc61c58c31b5fc1++=>8f182b3b9afb58832515da1a210f933d8462f292++, fp2_pixelratio: 2++=>1.75++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90M)++=>8.0;++Build/OPR1.170623.027)++, accept: ++=>*/*++, canvastest: 993256cc97a3db785b26a37e355b93acd6245a0f++=>bdd7ba37c5f2b8bad031b59cd0105e2be2058dcc++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90M;++Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>8.0.0;++Build/R16NW;++Chrome/66.0.3359.158++OPR/33.0.2254.125672++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, canvastest: 1a26806c3a82ec72cf21e9869b099097235f2647++=>8f182b3b9afb58832515da1a210f933d8462f292++, fp2_colordepth: 32++=>24++, ipcity: Isenburg++=>Seattle++, ipregion: Rheinland-Pfalz++=>Washington++, ipcountry: Germany++=>United States++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90M;++Chrome/64.0.3282.137++=>8.0.0;++Build/R16NW;++Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, canvastest: 1a26806c3a82ec72cf21e9869b099097235f2647++=>8f182b3b9afb58832515da1a210f933d8462f292++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90M;++Chrome/64.0.3282.137++OPR/33.0.2254.125123++=>8.0.0;++Build/R16NW;++Chrome/65.0.3325.109++OPR/33.0.2254.125672++, canvastest: 1a26806c3a82ec72cf21e9869b099097235f2647++=>8f182b3b9afb58832515da1a210f933d8462f292++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90M;++Chrome/66.0.3359.158++OPR/33.0.2254.125672++=>8.0.0;++Build/R16NW;++Chrome/67.0.3396.68++OPR/35.0.2254.127755++, accept: image/webp++=>, canvastest: 88f9a35438201f34381be6425fc61c58c31b5fc1++=>8f182b3b9afb58832515da1a210f933d8462f292++, ipcity: Isenburg++=>Munich++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Build/NRD90U;++OPR/33.0.2254.125672++=>8.0.0;++Build/OPR1.170623.032;++OPR/35.0.2254.127755++, canvastest: b7704ec9aace7c3b5115e757a88f87bc2200e143++=>986de49816a287410582339197e77f7fea2460ca++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.0;++Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>8.0.0;++Chrome/60.0.3112.116++OPR/44.1.2246.123029++, canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>986de49816a287410582339197e77f7fea2460ca++, ipcity: Bremen++=>Tespe++, ipregion: Thuringen++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.1.1;++Build/NMF26X)++=>8.0.0;++Build/OPR1.170623.032)++, accept: ++=>*/*++, canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>986de49816a287410582339197e77f7fea2460ca++, ipcity: Freiburg++=>Hanover++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: 7.1.1;++Build/NMF26X)++Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>8.0.0;++Build/OPR6.170623.013)++Chrome/60.0.3112.116++OPR/44.1.2246.123029++, canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>986de49816a287410582339197e77f7fea2460ca++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/34.3.A.0.244)++Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Build/34.3.A.0.252)++Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Chemnitz++=>Bonn++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/34.3.A.0.244)++OPR/44.0.2246.122910++=>Build/34.3.A.0.252)++OPR/44.1.2246.123029++, ipcity: Nuremberg++=>Janahof++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/40.0.A.6.135;++OPR/32.0.2254.122976++=>Build/40.0.A.6.175;++OPR/32.0.2254.123747++, fp2_pixelratio: 2++=>2.25++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/40.0.A.6.175;++Chrome/63.0.3239.111++=>Build/40.0.A.6.189;++Chrome/64.0.3282.137++, accept: ++=>*/*++image/webp++, audio: 44100++=>48000++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/47.1.A.12.34)++Chrome/61.0.3163.98++OPR/45.0.2246.124795++=>Build/47.1.A.12.205)++Chrome/66.0.3359.158++OPR/47.0.2248.128777++, language: q=0.8,en-us++q=0.6,en++q=0.4++=>q=0.9,en-us++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, canvastest: 986de49816a287410582339197e77f7fea2460ca++=>09fa1b14c0e32dee2398403fb578dd4f3d42e141++, fp2_colordepth: 32++=>24++, ipcity: Bielefeld++=>Dusseldorf++, fp2_liedlanguages: True++=>False++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/47.1.A.5.51)++Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Build/47.1.A.12.34)++Chrome/60.0.3112.116++OPR/44.1.2246.123029++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/47.1.A.7.1)++=>Build/47.1.A.8.49)++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/47.1.A.8.49)++=>Build/47.1.A.12.34)++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/NPN25.137-93)++Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Build/NPNS25.137-93-4)++Chrome/61.0.3163.141++OPR/45.0.2246.125120++, ipcity: Stuttgart++=>Dortmund++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/NPPS26.102-49-4;++Chrome/65.0.3325.109++OPR/33.0.2254.125672++=>Build/NPPS26.102-49-8;++Chrome/66.0.3359.158++OPR/35.0.2254.127755++, browser: Opera Mobile,  1 0.00196850393701
+agent: Build/NPPS26.102-49-4;++Chrome/66.0.3359.158++OPR/33.0.2254.125672++=>Build/NPPS26.102-49-11;++Chrome/67.0.3396.87++OPR/35.1.2254.128344++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/55.0.2883.91++OPR/42.7.2246.114996++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, encoding: gzip, deflate, lzma++=>gzip, deflate++, canvastest: b7251da95affd1a95946f74d9d40e678410f8f6e++=>d5ae700aec6b39fcee5968d1e4481344b07670f2++, ipcity: Zwickau++=>Isenburg++, ipregion: Sachsen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.0.2246.122910++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.0.2246.122910++, ipcity: Dusseldorf++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.0.2246.122910++, ipcity: Munich++=>Isenburg++, ipregion: Bayern++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, ipcity: Bremen++=>Bonn++, ipregion: Bremen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, ipcity: Brig++=>Isenburg++, ipregion: Valais++=>Rheinland-Pfalz++, ipcountry: Switzerland++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, ipcity: Dornbirn++=>Isenburg++, ipregion: Vorarlberg++=>Rheinland-Pfalz++, ipcountry: Austria++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, ipcity: Hall in Tirol++=>Vienna++, ipregion: Tirol++=>Wien++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, ipcity: Vienna++=>Isenburg++, ipregion: Wien++=>Rheinland-Pfalz++, ipcountry: Austria++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, accept: ++=>*/*++, ipcity: Vocklabruck++=>Isenburg++, ipregion: Oberosterreich++=>Rheinland-Pfalz++, ipcountry: Austria++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Drammen++=>Arendal++, ipregion: Buskerud++=>Aust-Agder++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Aachen++=>Dortmund++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Berlin++=>Potsdam++, ipregion: Berlin++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Berlin++=>Westerndorf-Sankt Peter++, ipregion: Berlin++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Burghaslach++=>Isenburg++, ipregion: Bayern++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Chemnitz++=>Isenburg++, ipregion: Sachsen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Darmstadt++=>Isenburg++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Darmstadt++=>Osnabruck++, ipregion: Hessen++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dortmund++=>Bielefeld++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dortmund++=>Dusseldorf++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dortmund++=>Kleve++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dortmund++=>Nuremberg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dusseldorf++=>Dortmund++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dusseldorf++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dusseldorf++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Erfurt++=>Dorentrup++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Flensburg++=>Nuremberg++, ipregion: Schleswig-Holstein++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Frankfurt am Main++=>Isenburg++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Freiburg++=>Munich++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Hameln++=>Frankfurt am Main++, ipregion: Niedersachsen++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Hanover++=>Isenburg++, ipregion: Niedersachsen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Hanover++=>Rostock++, ipregion: Niedersachsen++=>Mecklenburg-Vorpommern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Ingolstadt++=>Freinsheim++, ipregion: Bayern++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Isenburg++=>Bonn++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Isenburg++=>Chemnitz++, ipregion: Rheinland-Pfalz++=>Sachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Karl++=>Potsdam++, ipregion: Rheinland-Pfalz++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Kramsach++=>Feldbach++, ipregion: Tirol++=>Steiermark++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Ludwigshafen++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Magdeburg++=>Zehdenick++, ipregion: Sachsen-Anhalt++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Mainz++=>Isenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Muenster++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Munich++=>Dortmund++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Munich++=>Kaufbeuren++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Noschenrode++=>Isenburg++, ipregion: Sachsen-Anhalt++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Nuremberg++=>Alsenberg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Nuremberg++=>Isenburg++, ipregion: Bayern++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Nuremberg++=>Magdeburg++, ipregion: Bayern++=>Sachsen-Anhalt++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Nuremberg++=>Pohlitz++, ipregion: Bayern++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Ravensburg++=>Isenburg++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Regensburg++=>Saarbrucken++, ipregion: Bayern++=>Saarland++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Sandstedt++=>Frankfurt am Main++, ipregion: Niedersachsen++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Spreewitz++=>Dresden++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Spreewitz++=>Halle (Saale)++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Straas++=>Ahaus++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Stuttgart++=>Wuerzburg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Vierde++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Villingen-Schwenningen++=>Berlin++, ipregion: Baden-Wurttemberg++=>Berlin++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Wommen++=>Frankfurt am Main++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, timezone: -120.0++=>-60.0++, ipcity: Johannesburg++=>Seattle++, ipregion: Gauteng++=>Washington++, ipcountry: South Africa++=>United States++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, timezone: -480.0++=>-540.0++, ipcity: Taipei++=>Chiba++, ipregion: Taipei++=>Chiba++, ipcountry: Taiwan, Province of China++=>Japan++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, timezone: 0.0++=>-60.0++, ipcity: Arrecife++=>Bonn++, ipregion: Canarias++=>Nordrhein-Westfalen++, ipcountry: Spain++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, accept: ++=>*/*++, ipcity: Kiel++=>Augsburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/59.0.3071.125++OPR/43.0.2246.121183++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, accept: ++=>*/*++, ipcity: Luebeck++=>Isenburg++, ipregion: Schleswig-Holstein++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++=>Chrome/63.0.3239.111++, language: q=0.8++=>q=0.9++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.122883++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, ipcity: Aachen++=>Dusseldorf++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, ipcity: Dusseldorf++=>Potsdam++, ipregion: Nordrhein-Westfalen++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, ipcity: Eschborn++=>Oldenburg++, ipregion: Hessen++=>Mecklenburg-Vorpommern++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, ipcity: Isenburg++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.10++, ipcity: Noschenrode++=>Frankfurt am Main++, ipregion: Sachsen-Anhalt++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.0.2246.123012++=>Chrome/61.0.3163.98++OPR/45.0.2246.124795++, accept: ++=>*/*++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, accept: ++=>*/*++, ipcity: Dortmund++=>Keddinghausen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, accept: ++=>*/*++, ipcity: Ingolstadt++=>Aachen++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, accept: ++=>*/*++, ipcity: Wesel++=>Bonn++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, ipcity: Dusseldorf++=>Muenster++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, ipcity: Karlsruhe++=>Lieser++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, ipcity: Schramberg++=>Karlsruhe++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/60.0.3112.116++OPR/44.1.2246.123029++=>Chrome/61.0.3163.141++OPR/45.0.2246.125120++, ipcity: Zurich++=>Basel++, ipregion: Zurich++=>Basel-Stadt++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/61.0.3163.141++OPR/45.0.2246.125022++=>Chrome/66.0.3359.158++OPR/47.0.2249.128991++, language: q=0.8,en-us++q=0.6,en++q=0.4++=>q=0.9,en-us++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, canvastest: 88f9a35438201f34381be6425fc61c58c31b5fc1++=>36632f75b903bca305bcd02a56840abd40442e13++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Buxtehude++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, fp2_liedlanguages: True++=>False++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/61.0.3163.98++OPR/45.0.2246.10++=>Chrome/60.0.3112.116++OPR/44.1.2246.123029++, ipcity: Dusseldorf++=>Dortmund++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/61.0.3163.98++OPR/45.0.2246.124795++=>Chrome/66.0.3359.158++OPR/47.0.2246.127999++, language: q=0.8,en-us++q=0.6,en++q=0.4++=>q=0.9,en-us++q=0.8,en++q=0.7++, timezone: -60.0++=>-120.0++, canvastest: d5ae700aec6b39fcee5968d1e4481344b07670f2++=>643e2f8771e0f5a2ae05466df35ee0fe39ea581e++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, fp2_liedlanguages: True++=>False++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++=>Chrome/63.0.3239.83++, cookie: False++=>True++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>Chrome/63.0.3239.111++OPR/32.0.2254.122976++, fp2_pixelratio: 2.25++=>3.375++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>Chrome/63.0.3239.111++OPR/32.0.2254.123747++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>Chrome/63.0.3239.111++OPR/32.0.2254.123747++, canvastest: b7704ec9aace7c3b5115e757a88f87bc2200e143++=>745fe5d2db2434718c2aa84894fc9fb9323c3565++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/31.0.2254.122029++=>Chrome/64.0.3282.137++OPR/32.0.2254.123747++, accept: ++=>*/*++, fp2_colordepth: 32++=>24++, ipcity: Isenburg++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/32.0.2254.122976++=>Chrome/63.0.3239.111++OPR/32.0.2254.123419++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/32.0.2254.122976++=>Chrome/65.0.3325.109++OPR/32.0.2254.123747++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/62.0.3202.84++OPR/32.0.2254.122976++=>Chrome/65.0.3325.109++OPR/33.0.2254.125672++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.107++=>Chrome/63.0.3239.111++, timezone: -60.0++=>0.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++=>Chrome/64.0.3282.123++, accept: ++=>*/*++image/webp++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++=>Chrome/64.0.3282.123++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++=>Chrome/65.0.3325.109++, timezone: -60.0++=>-120.0++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, fp2_colordepth: 32++=>24++, ipcity: Dusseldorf++=>Baunatal++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.122976++=>Chrome/64.0.3282.123++OPR/32.0.2254.123747++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.122976++=>Chrome/66.0.3359.126++OPR/33.0.2254.125672++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.122976++=>Chrome/67.0.3396.68++OPR/35.0.2254.127755++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.123561++=>Chrome/65.0.3325.109++OPR/33.0.2254.125672++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.111++OPR/32.0.2254.123747++=>Chrome/65.0.3325.109++OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, fp2_colordepth: 32++=>24++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.83++=>Chrome/63.0.3239.111++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.83++OPR/32.0.2254.122976++=>Chrome/63.0.3239.111++OPR/32.0.2254.123561++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/63.0.3239.83++OPR/32.0.2254.122976++=>Chrome/63.0.3239.111++OPR/32.0.2254.123747++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++=>Chrome/65.0.3325.109++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++=>Chrome/65.0.3325.109++, timezone: 0.0++=>-60.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/65.0.3325.109++OPR/33.0.2254.125672++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/65.0.3325.109++OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, fp2_pixelratio: 3++=>2++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/65.0.3325.109++OPR/34.0.2254.126584++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/66.0.3359.158++OPR/33.0.2254.125672++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/66.0.3359.158++OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/66.0.3359.158++OPR/35.0.2254.127755++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/64.0.3282.137++OPR/32.0.2254.123747++=>Chrome/67.0.3396.87++OPR/35.0.2254.127755++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/65.0.3325.109++=>Chrome/66.0.3359.106++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/65.0.3325.109++=>Chrome/66.0.3359.126++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/65.0.3325.109++=>Chrome/66.0.3359.126++, timezone: -60.0++=>-120.0++, ipcity: Fulda++=>Bielefeld++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/65.0.3325.109++=>Chrome/66.0.3359.158++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/65.0.3325.109++OPR/32.0.2254.123747++=>Chrome/66.0.3359.106++OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/65.0.3325.109++OPR/32.0.2254.123747++=>Chrome/67.0.3396.87++OPR/35.1.2254.128344++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/66.0.3359.126++OPR/33.0.2254.125672++=>Chrome/67.0.3396.87++OPR/35.1.2254.128344++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/66.0.3359.158++=>Chrome/67.0.3396.87++, accept: image/webp++=>, ipcity: Isenburg++=>Schottjer Dreesche++, ipregion: Rheinland-Pfalz++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/66.0.3359.158++OPR/33.0.2254.125672++=>Chrome/67.0.3396.81++OPR/35.0.2254.127755++, accept: image/webp++=>, ipcity: Isenburg++=>Saarbrucken++, ipregion: Rheinland-Pfalz++=>Saarland++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/66.0.3359.158++OPR/33.0.2254.125672++=>Chrome/67.0.3396.81++OPR/35.0.2254.127755++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/66.0.3359.158++OPR/33.0.2254.125672++=>Chrome/67.0.3396.87++OPR/35.0.2254.127755++, browser: Opera Mobile,  1 0.00196850393701
+agent: Chrome/66.0.3359.158++OPR/35.0.2254.127755++=>Chrome/67.0.3396.87++OPR/35.1.2254.128344++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/28.0.2254.119213++=>OPR/32.0.2254.122976++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/30.0.2254.121224++=>OPR/32.0.2254.122976++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/30.0.2254.121224++=>OPR/32.0.2254.123747++, accept: ++=>*/*++image/webp++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/31.0.2254.122029++=>OPR/32.0.2254.122976++, ipcity: Bocholt++=>Dusseldorf++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/31.0.2254.122029++=>OPR/32.0.2254.122976++, ipcity: Isenburg++=>Karlsruhe++, ipregion: Rheinland-Pfalz++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/31.0.2254.122029++=>OPR/32.0.2254.123747++, ipcity: Bensheim++=>Wieseck++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/32.0.2254.122436++=>OPR/35.0.2254.127408++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/32.0.2254.123419++=>OPR/32.0.2254.123747++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/32.0.2254.123747++=>OPR/33.0.2254.125672++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/32.0.2254.123747++=>OPR/33.0.2254.125672++, timezone: -60.0++=>-120.0++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/33.0.2254.125672++=>OPR/35.0.2254.127755++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/33.0.2254.125672++=>OPR/35.0.2254.127755++, ipcity: Seattle++=>Philadelphia++, ipregion: Washington++=>Pennsylvania++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/33.0.2254.125672++=>OPR/35.1.2254.128344++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/35.0.2254.127755++=>OPR/35.1.2254.128344++, accept: =>image/webp++, ipcity: Schottjer Dreesche++=>Isenburg++, ipregion: Niedersachsen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/35.0.2254.127755++=>OPR/35.1.2254.128344++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.121943++=>OPR/44.0.2246.123012++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122718++=>OPR/44.0.2246.122883++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122718++=>OPR/44.1.2246.123029++, ipcity: Kiel++=>Isenburg++, ipregion: Schleswig-Holstein++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122883++=>OPR/44.0.2246.123012++, ipcity: Dortmund++=>Sandhausen++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122883++=>OPR/44.0.2246.123012++, ipcity: Pohlitz++=>Karlsruhe++, ipregion: Brandenburg++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Achern++=>Stuttgart++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Cuxhaven++=>Nienburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Dusseldorf++=>Ingolstadt++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Isenburg++=>Bonn++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Karlsruhe++=>Augsburg-Lechviertel++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Magdeburg++=>Oldenburg++, ipregion: Sachsen-Anhalt++=>Mecklenburg-Vorpommern++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Munich++=>Friedrichshafen++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.122910++=>OPR/44.1.2246.123029++, ipcity: Nuremberg++=>Regensburg++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/44.0.2246.123012++=>OPR/44.1.2246.123029++, ipcity: Isenburg++=>Bonn++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/45.0.2246.10++=>OPR/45.0.2246.124709++, ipcity: Zinna++=>Berlin++, ipregion: Sachsen++=>Berlin++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/45.0.2246.10++=>OPR/45.0.2246.124795++, accept: ++=>*/*++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/45.0.2246.10++=>OPR/45.0.2246.124795++, ipcity: Dusseldorf++=>Bielefeld++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/47.0.2246.127999++=>OPR/47.0.2246.128221++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/47.0.2246.127999++=>OPR/47.0.2246.128221++, ipcity: Bonn++=>Dusseldorf++, browser: Opera Mobile,  1 0.00196850393701
+agent: OPR/47.0.2246.128221++=>OPR/47.0.2248.128519++, browser: Opera Mobile,  1 0.00196850393701
+audio: 48000++=>44100++, ipcity: Hamburg++=>Vierde++, ipregion: Hamburg++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Arendal++=>Stavanger++, ipregion: Aust-Agder++=>Rogaland++, browser: Opera Mobile,  1 0.00196850393701
+canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>c3692f002eccf8a1740d73ff02db43885b36e31d++, browser: Opera Mobile,  1 0.00196850393701
+canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>c3692f002eccf8a1740d73ff02db43885b36e31d++, ipcity: Haar++=>Sandstedt++, browser: Opera Mobile,  1 0.00196850393701
+cookie: True++=>False++, browser: Opera Mobile,  1 0.00196850393701
+fp2_pixelratio: 2++=>3++, browser: Opera Mobile,  1 0.00196850393701
+fp2_pixelratio: 2.625++=>3.5++, ipcity: Erdek++=>Balikesir++, browser: Opera Mobile,  1 0.00196850393701
+fp2_pixelratio: 3++=>4++, ipcity: Osnabruck++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+fp2_pixelratio: 4++=>3++, browser: Opera Mobile,  1 0.00196850393701
+fp2_pixelratio: 4++=>3++, ipcity: Aachen++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ahaus++=>Baunatal++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ahaus++=>Briesensee++, ipregion: Nordrhein-Westfalen++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Arendal++=>Drammen++, ipregion: Aust-Agder++=>Buskerud++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Bad Kissingen++=>Berlin++, ipregion: Bayern++=>Berlin++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Berlin++=>Isenburg++, ipregion: Berlin++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Bielefeld++=>Kleve++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Bonn++=>Aachen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Bonn++=>Chemnitz++, ipregion: Nordrhein-Westfalen++=>Sachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Bonn++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Braunschweig++=>Fehmarn++, ipregion: Niedersachsen++=>Schleswig-Holstein++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dortmund++=>Bielefeld++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dortmund++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dortmund++=>Lisbon++, ipregion: Nordrhein-Westfalen++=>Lisboa++, ipcountry: Germany++=>Portugal++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dresden++=>Nuremberg++, ipregion: Sachsen++=>Bayern++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dusseldorf++=>Bonn++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dusseldorf++=>Freiburg++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Dusseldorf++=>Ingelheim am Rhein++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Frankfurt am Main++=>Stuttgart++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Frankfurt am Main++=>Wommen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Freinsheim++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Friedrichshafen++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Goppingen++=>Stuttgart++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Halle (Saale)++=>Osnabruck++, ipregion: Sachsen-Anhalt++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Halle (Saale)++=>Spreewitz++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Hamburg++=>Demmin++, ipregion: Hamburg++=>Mecklenburg-Vorpommern++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Hamburg++=>Oldenburg++, ipregion: Hamburg++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ingolstadt++=>Augsburg-Lechviertel++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ingolstadt++=>Straas++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ingolstadt++=>Ulm++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Isenburg++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Isenburg++=>Lingen++, ipregion: Rheinland-Pfalz++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Karlsruhe++=>Isenburg++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Kiel++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Luebeck++=>Rendsburg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Mannheim++=>Freiburg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Monheim++=>Augsburg-Lechviertel++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Muenster++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Noschenrode++=>Potsdam++, ipregion: Sachsen-Anhalt++=>Brandenburg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Nuremberg++=>Memmingen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Nuremberg++=>Sellin++, ipregion: Bayern++=>Mecklenburg-Vorpommern++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Osnabruck++=>Dresden++, ipregion: Niedersachsen++=>Sachsen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Osnabruck++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Port Elizabeth++=>Johannesburg++, ipregion: Eastern Cape++=>Gauteng++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ravensburg++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Rendsburg++=>Kiel++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Ruhland++=>Potsdam++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Sandstedt++=>Schwanewede++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Sibu++=>Segamat++, ipregion: Sarawak++=>Johor++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Siegen++=>Dusseldorf++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Siegen++=>Mannheim++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Stuttgart++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Stuttgart++=>Freiburg++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Stuttgart++=>Luebeck++, ipregion: Baden-Wurttemberg++=>Schleswig-Holstein++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Wroclaw++=>Moszczenica++, ipregion: Dolnoslaskie++=>Malopolskie++, browser: Opera Mobile,  1 0.00196850393701
+ipcity: Zurich++=>Ulm++, ipregion: Zurich++=>Baden-Wurttemberg++, ipcountry: Switzerland++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+timezone: -120.0++=>-60.0++, ipcity: Athens++=>Muenster++, ipregion: Attiki++=>Nordrhein-Westfalen++, ipcountry: Greece++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+timezone: -180.0++=>-60.0++, canvastest: 391219fe2b4ddd613eda0abc5de071cd17af7bab++=>c3692f002eccf8a1740d73ff02db43885b36e31d++, ipcity: Silivri++=>Dusseldorf++, ipregion: Istanbul++=>Nordrhein-Westfalen++, ipcountry: Turkey++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+timezone: -480.0++=>-60.0++, ipcity: Changzhou++=>Koeln++, ipregion: Jiangsu++=>Nordrhein-Westfalen++, ipcountry: China++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+timezone: -480.0++=>-60.0++, ipcity: Philadelphia++=>Isenburg++, ipregion: Pennsylvania++=>Rheinland-Pfalz++, ipcountry: United States++=>Germany++, browser: Opera Mobile,  1 0.00196850393701
+timezone: -60.0++=>-120.0++, ipcity: Muenster++=>Athens++, ipregion: Nordrhein-Westfalen++=>Attiki++, ipcountry: Germany++=>Greece++, browser: Opera Mobile,  1 0.00196850393701
+timezone: -60.0++=>0.0++, browser: Opera Mobile,  1 0.00196850393701
+timezone: 0.0++=>-60.0++, browser: Opera Mobile,  1 0.00196850393701
+timezone: 0.0++=>-60.0++, ipcity: Zwickau++=>Hamburg++, ipregion: Sachsen++=>Hamburg++, browser: Opera Mobile,  1 0.00196850393701

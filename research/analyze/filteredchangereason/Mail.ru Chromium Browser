@@ -1,0 +1,5 @@
+total 4 1.0
+agent: Chrome/58.0.3029.160++Amigo/58.0.3029.160++=>Chrome/61.0.3163.114++Amigo/61.0.3163.114++, accept: ++=>*/*++, plugins: Chrome PDF Viewer++Google Update++Microsoft Office ++Microsoft Office ++Photo Gallery++Shockwave Flash++Silverlight PlugIn++Unity Player++=>Chrome PDF Plugin++, jsFonts: MT Extra++=>, canvastest: 4ae230f11be50db77fc4f093b9ad11a5beda5399++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++, browser: Mail.ru Chromium Browser,  1 0.25
+agent: Chrome/58.0.3029.160++Amigo/58.0.3029.160++=>Chrome/61.0.3163.125++Amigo/61.0.3163.125++, accept: ++=>*/*++, plugins: Adobe Acrobat++Chrome PDF Viewer++Shockwave Flash++Silverlight PlugIn++Unity Player++Windows Live Photo Gallery++=>Chrome PDF Plugin++, canvastest: 02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>ecbf927c0b4d90d674eebf3a5675c13a717104c4++, browser: Mail.ru Chromium Browser,  1 0.25
+agent: Chrome/61.0.3163.114++Amigo/61.0.3163.114++=>Chrome/61.0.3163.125++Amigo/61.0.3163.125++, browser: Mail.ru Chromium Browser,  1 0.25
+jsFonts: PMingLiU-ExtB++SimSun-ExtB++=>, browser: Mail.ru Chromium Browser,  1 0.25

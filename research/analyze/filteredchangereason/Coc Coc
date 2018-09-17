@@ -1,0 +1,76 @@
+total 111 1.0
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Coc Coc,  14 0.126126126126
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Coc Coc,  9 0.0810810810811
+browser: Coc Coc,  6 0.0540540540541
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, browser: Coc Coc,  5 0.045045045045
+accept: ++=>*/*++, browser: Coc Coc,  4 0.036036036036
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, accept: ++=>*/*++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, browser: Coc Coc,  2 0.018018018018
+agent: coc_coc_browser/68.4.114++Chrome/62.4.3202.114++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, plugins: =>Shockwave Flash++, browser: Coc Coc,  2 0.018018018018
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Coc Coc,  2 0.018018018018
+accept: ++=>*/*++, ipcity: Buon Ma Thuot++=>Da Nang++, ipregion: Dak Lak++=>Da Nang++, browser: Coc Coc,  1 0.00900900900901
+accept: ++=>*/*++, ipcity: My Tho++=>Hanoi++, ipregion: Tien Giang++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+accept: ++=>*/*++, ipcity: Vinh++=>Thai Binh++, ipregion: Nghe An++=>Thai Binh++, browser: Coc Coc,  1 0.00900900900901
+accept: ++=>*/*++, ipcity: Vung Tau++=>Bien Hoa++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/50.2.175++Chrome/44.2.2403.175++=>coc_coc_browser/66.4.134++Chrome/60.4.3112.134++, encoding: gzip, deflate++=>gzip, deflate, br++, plugins: Chromoting Viewer++Foxit Reader Plugin for Mozilla++Google Update++Shockwave Flash++=>Widevine Content Decryption Module++, langsdetected: Burmese++Cherokee++=>Modern Yi++Mongolian++Tifinagh++, jsFonts: =>Marlett++, canvastest: 6b3cd55696ddd92ef7a64680ea791e16c12e99e3++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/60.4.136++Chrome/54.4.2840.136++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, accept: ++=>*/*++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, jsFonts: =>Denmark++, canvastest: 4ae230f11be50db77fc4f093b9ad11a5beda5399++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/63.4.150++Chrome/57.4.2987.150++=>coc_coc_browser/68.4.152++Chrome/62.4.3202.152++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, canvastest: 4ae230f11be50db77fc4f093b9ad11a5beda5399++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.104++Chrome/60.4.3112.104++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, gpu: ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.120++Chrome/60.4.3112.120++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, jsFonts: Script++=>Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, accept: ++=>*/*++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Thanh Hoa++=>Hanoi++, ipregion: Thanh Hoa++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, accept: ++=>*/*++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Vinh Yen++=>Viet Tri++, ipregion: Vinh Phuc++=>Phu Tho++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8++=>q=0.9++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, gpu: ANGLE (Intel(R) HD Graphics 520 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 520 Direct3D11 vs++5++5++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8++=>q=0.9++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Thanh Hoa++=>Hanoi++, ipregion: Thanh Hoa++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Hanoi++=>Can Tho++, ipregion: Ha Noi++=>Can Tho++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Hanoi++=>Phu Ly++, ipregion: Ha Noi++=>Ha Nam++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Hanoi++=>Tuyen Quang++, ipregion: Ha Noi++=>Tuyen Quang++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Thanh Hoa++=>Lang Son++, ipregion: Thanh Hoa++=>Lang Son++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, ipcity: Tuy Hoa++=>Hanoi++, ipregion: Phu Yen++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++, language: q=0.8,vi++q=0.6++=>q=0.9,vi++q=0.8++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, accept: ++=>*/*++, language: q=0.8,fr-FR++q=0.6,fr++q=0.4,en-US++q=0.2,en++q=0.2++=>q=0.9,fr-FR++q=0.8,fr++q=0.7,en-US++q=0.6,en++q=0.5++, plugins: Chromium PDF Viewer++=>Chromium PDF Plugin++, gpu: ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, accept: ++=>*/*++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, accept: ++=>*/*++, ipcity: Da Nang++=>Phan Thiet++, ipregion: Da Nang++=>Binh Thuan++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, accept: ++=>*/*++, jsFonts: =>Meiryo++Meiryo UI++Staccato222 BT++, ipcity: Quy Nhon++=>Hanoi++, ipregion: Binh Dinh++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, audio: 44100++=>48000++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, ipcity: Hanoi++=>Bac Giang++, ipregion: Ha Noi++=>Bac Giang++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, ipcity: Hanoi++=>Quy Nhon++, ipregion: Ha Noi++=>Binh Dinh++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, ipcity: Hanoi++=>Thanh Hoa++, ipregion: Ha Noi++=>Thanh Hoa++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, ipcity: Quy Nhon++=>Dong Ha++, ipregion: Binh Dinh++=>Quang Tri++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.126++Chrome/62.4.3202.126++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++, ipcity: Uong Bi++=>Vinh++, ipregion: Quang Ninh++=>Nghe An++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.148++Chrome/62.4.3202.148++=>coc_coc_browser/68.4.174++Chrome/62.4.3202.174++, ipcity: Hanoi++=>Nam Dinh++, ipregion: Ha Noi++=>Nam Dinh++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.154++Chrome/62.4.3202.154++=>coc_coc_browser/68.4.190++Chrome/62.4.3202.190++, browser: Coc Coc,  1 0.00900900900901
+agent: coc_coc_browser/68.4.190++Chrome/62.4.3202.190++=>coc_coc_browser/70.4.236++Chrome/64.4.3282.236++, ipcity: Munich++=>Regensburg++, browser: Coc Coc,  1 0.00900900900901
+audio: 96000++2++1++0++2++explicit++speakers++=>not supported++, browser: Coc Coc,  1 0.00900900900901
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Coc Coc,  1 0.00900900900901
+audio: not supported++=>96000++2++1++0++2++explicit++speakers++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 0.800000011921++=>0.75++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 0.800000011921++=>1.10000002384++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1++=>1.10000002384++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1++=>1.5++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1++=>1.75++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1++=>2++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1.25++=>0.899999976158++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1.25++=>1.10000002384++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1.5++=>1.20000004768++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1.5++=>1.75++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1.5++=>2++, ipcity: Hanoi++=>Vinh++, ipregion: Ha Noi++=>Nghe An++, fp2_liedos: False++=>True++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 1.75++=>2.5++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 2++=>1++, browser: Coc Coc,  1 0.00900900900901
+fp2_pixelratio: 2.5++=>4++, browser: Coc Coc,  1 0.00900900900901
+gpu: ANGLE (Intel(R) HD Graphics Family Direct3D11 vs++5++5++=>ANGLE (Intel(R) HD Graphics Family Direct3D9Ex vs++3++3++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Bim Son++=>Thanh Hoa++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Can Tho++=>Hanoi++, ipregion: Can Tho++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Hanoi++=>Tam Ky++, ipregion: Ha Noi++=>Quang Nam++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Ho Chi Minh City++=>Bien Hoa++, ipregion: Ho Chi Minh++=>Dong Nai++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Lang Son++=>Hanoi++, ipregion: Lang Son++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Thu Dau Mot++=>Dong Xoai++, ipregion: Binh Duong++=>Binh Phuoc++, browser: Coc Coc,  1 0.00900900900901
+ipcity: Vinh++=>Hanoi++, ipregion: Nghe An++=>Ha Noi++, fp2_liedos: True++=>False++, browser: Coc Coc,  1 0.00900900900901
+jsFonts: =>Big Caslon++Mrs Eaves++, browser: Coc Coc,  1 0.00900900900901
+jsFonts: BatangChe++Gungsuh++GungsuhChe++MingLiU++MS PMincho++SimHei++=>, ipcity: Bac Ninh++=>Hanoi++, ipregion: Bac Ninh++=>Ha Noi++, browser: Coc Coc,  1 0.00900900900901
+jsFonts: Leelawadee++Microsoft Uighur++=>, canvastest: 5bf70d8119b0953b10bef0fa2fdd62c33f92a971++=>bd554a7d5da9293cf3fed52d2052b2b948a14b77++, browser: Coc Coc,  1 0.00900900900901
+jsFonts: MT Extra++=>, browser: Coc Coc,  1 0.00900900900901
+jsFonts: Meiryo++Meiryo UI++=>, browser: Coc Coc,  1 0.00900900900901
+jsFonts: Meiryo++Meiryo UI++MT Extra++=>, browser: Coc Coc,  1 0.00900900900901
+jsFonts: Staccato222 BT++=>, browser: Coc Coc,  1 0.00900900900901
+timezone: -60.0++=>-120.0++, browser: Coc Coc,  1 0.00900900900901
+timezone: 480.0++=>420.0++, ipcity: Nha Trang++=>Ben Tre++, ipregion: Khanh Hoa++=>Ben Tre++, browser: Coc Coc,  1 0.00900900900901
