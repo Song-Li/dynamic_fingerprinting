@@ -6,6 +6,7 @@ from paperlib_helper import *
 from paperlib_helper import Paperlib_helper
 
 class Paperlib():
+
     def __init__(self, db):
         self.db = db
         self.feature_list = [
@@ -640,3 +641,4 @@ class Paperlib():
         print ('finished generating, exporting to sql')
         db.export_sql(df, 'fingerprintchanges')
         return 
+
