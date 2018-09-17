@@ -3,9 +3,10 @@ from database import Database
 
 def main():
     db = Database('forpaper345') 
-    df = db.load_data(table_name = 'pandas_features')
-    db.rebuild_table(df, export_table = 'pandas_features')
-    #paperlib = Paperlib(db)
+    paperlib = Paperlib(db)
+    paperlib.draw_change_reason()
+    #df = db.load_data(table_name = 'pandas_features')
+    #db.rebuild_table(df, export_table = 'pandas_features')
     #paperlib.generate_overall_change_database()
     #paperlib.feature_distribution_by_date('os')
     #paperlib.feature_change_by_browser_date_paper('browserfingerprint', method = 'day')

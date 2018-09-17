@@ -1,0 +1,119 @@
+total 183 1.0
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  13 0.0710382513661
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: UC Browser,  12 0.0655737704918
+browser: UC Browser,  8 0.0437158469945
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  7 0.0382513661202
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  7 0.0382513661202
+audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  6 0.0327868852459
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  5 0.0273224043716
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  3 0.016393442623
+agent: 6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  3 0.016393442623
+agent: 10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  2 0.0109289617486
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, browser: UC Browser,  2 0.0109289617486
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  2 0.0109289617486
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, browser: UC Browser,  2 0.0109289617486
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1802++, browser: UC Browser,  2 0.0109289617486
+audio: 44100++=>48000++, browser: UC Browser,  2 0.0109289617486
+gpuimgs: 0++0501de4b07396671fd355b83253947cf383fc4e4++=>, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  2 0.0109289617486
+gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: UC Browser,  2 0.0109289617486
+gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  2 0.0109289617486
+gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, browser: UC Browser,  2 0.0109289617486
+accept: ++=>*/*++, browser: UC Browser,  1 0.00546448087432
+accept: ++=>*/*++, gpuimgs: =>0++d54892e14dbbff87296d381e1927bb4dcc71fd32++, ipcity: Lagos++=>Abuja++, ipregion: Lagos++=>Abuja Federal Capital Territory++, browser: UC Browser,  1 0.00546448087432
+accept: ++=>*/*++, ipcity: Dhanbad++=>Delhi++, ipregion: Jharkhand++=>Delhi++, browser: UC Browser,  1 0.00546448087432
+accept: ++=>text/xml++text/html++application/xhtml+xml++image/png++text/plain++*/*;q=0.8++, gpuimgs: 0++f4dc68ca7b9aa4357530d2573ab83439d7788428++=>, ipcity: Augsburg-Lechviertel++=>Stuttgart++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: UC Browser,  1 0.00546448087432
+agent: 10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: 0++ad3d976fac6f4c25d6d28f2a5a6c0b7ade95696b++=>, browser: UC Browser,  1 0.00546448087432
+agent: 10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++ad3d976fac6f4c25d6d28f2a5a6c0b7ade95696b++, browser: UC Browser,  1 0.00546448087432
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: UC Browser,  1 0.00546448087432
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, accept: ++=>*/*++, browser: UC Browser,  1 0.00546448087432
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++134f4c804c1302a77d1d51e41484fc72a609742a++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, browser: UC Browser,  1 0.00546448087432
+agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++d54892e14dbbff87296d381e1927bb4dcc71fd32++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1802++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++ba62074f167663a3ddc4c05c704c0503defd76c2++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, accept: ++=>*/*++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, gpuimgs: 0++134f4c804c1302a77d1d51e41484fc72a609742a++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, gpuimgs: 0++d54892e14dbbff87296d381e1927bb4dcc71fd32++=>, audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, gpuimgs: 0++d54892e14dbbff87296d381e1927bb4dcc71fd32++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.2;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, fp2_pixelratio: 1++=>1.04999995232++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, gpuimgs: 0++ad3d976fac6f4c25d6d28f2a5a6c0b7ade95696b++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, gpuimgs: =>0++ad3d976fac6f4c25d6d28f2a5a6c0b7ade95696b++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++, gpuimgs: 0++c6ac3d618b2ea1131601f124bf7e6d4aa9177947++=>, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++, gpuimgs: =>0++6adc44157d1b2362d4ecbe8182b4f6468cf675c4++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.69.1022++, browser: UC Browser,  1 0.00546448087432
+agent: 6.2;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, browser: UC Browser,  1 0.00546448087432
+agent: 6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
+agent: 6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/11.5.5.1033++, canvastest: 6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++=>2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++, gpuimgs: 7691c039d4884fb160f619f98d34d76e7eb4cf7f++=>47173b9b12ae110464879cf80f9cf938d2452130++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Kleve++=>Dortmund++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.0.0.1088++, canvastest: a8aea4cec50c49325fcd04290e37704b459cea92++=>b7251da95affd1a95946f74d9d40e678410f8f6e++, gpuimgs: 0++73d889a9677c5af8580435970246373cfb90b0f0++=>, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, ipcity: Kirchberg an der Jagst++=>Hanover++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.0.0.1088++, canvastest: a8aea4cec50c49325fcd04290e37704b459cea92++=>b7251da95affd1a95946f74d9d40e678410f8f6e++, gpuimgs: 0++f824d28a9277ecd295760102b7e535fdd389f489++=>, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.8.0.1120++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, canvastest: 6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++=>2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++, gpuimgs: 0++73d889a9677c5af8580435970246373cfb90b0f0++=>, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Vienna++=>Maria Enzersdorf++, ipregion: Wien++=>Niederosterreich++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/57.0.2987.108++UCBrowser/11.5.5.1033++=>Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++, canvastest: 2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++=>6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++, gpuimgs: 0++47173b9b12ae110464879cf80f9cf938d2452130++=>, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Dortmund++=>Muenster++, fp2_liedlanguages: False++=>True++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, gpuimgs: =>0++ba62074f167663a3ddc4c05c704c0503defd76c2++, browser: UC Browser,  1 0.00546448087432
+agent: Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, ipcity: Colonia Nativitas++=>Colonia del Valle++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/6.2.3831.407++=>UBrowser/6.2.3964.2++, accept: ++=>*/*++, plugins: =>CNKI CAJAX Plugin++CNKI sysinfo Plugin++, ipcity: Dusseldorf++=>Wiehlmunden++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1001++=>UBrowser/7.0.125.1802++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1629++=>UBrowser/7.0.125.1639++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1629++=>UBrowser/7.0.125.1802++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1629++=>UBrowser/7.0.185.1002++, accept: ++=>*/*++, ipcity: Ambon++=>Makassar++, ipregion: Maluku++=>Sulawesi Selatan++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1639++=>UBrowser/7.0.125.1802++, ipcity: Bien Hoa++=>Ho Chi Minh City++, ipregion: Dong Nai++=>Ho Chi Minh++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++, fp2_pixelratio: 0.600000023842++=>1++, browser: UC Browser,  1 0.00546448087432
+agent: UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++, jsFonts: =>Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++, ipcity: Chilaw++=>Ratnapura++, ipregion: North Western Province++=>Sabaragamuwa Province++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/11.8.8.968++=>UCBrowser/11.8.9.969++, encoding: gzip, deflate, br++=>gzip, deflate++, gpuimgs: =>0++070828aec9fd16fb4df8ec466d8c8fc9b5af03d1++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/11.8.9.969++=>UCBrowser/11.9.3.973++, encoding: gzip, deflate, br++=>gzip, deflate++, ipcity: Baotou++=>Beijing++, ipregion: Nei Mongol++=>Beijing++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.0.0.1088++=>UCBrowser/12.2.0.1089++, gpuimgs: 0++08132e56814df94628f4b6d9998fb93057f9b3f1++=>, ipcity: Illescas++=>Pontevedra++, ipregion: Castilla-La Mancha++=>Galicia++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.0.0.1088++=>UCBrowser/12.8.5.1121++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, gpuimgs: =>0++1364b1651ce49240697f5a51572197cc14e2970f++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.2.0.1089++=>UCBrowser/12.2.1.1108++, timezone: -60.0++=>-120.0++, gpuimgs: =>0++47173b9b12ae110464879cf80f9cf938d2452130++, ipcity: Dusseldorf++=>Aachen++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.2.0.1089++=>UCBrowser/12.8.0.1120++, language: es,en-US++=>es-LA,en-US++, timezone: -60.0++=>-120.0++, gpuimgs: =>0++b43993e41bfb412456f772ad5d288928661c31da++, ipcity: Pontevedra++=>Ocana++, ipregion: Galicia++=>Castilla-La Mancha++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.2.1.1108++=>UCBrowser/12.8.0.1120++, timezone: -60.0++=>-120.0++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.8.0.1120++=>UCBrowser/12.8.5.1121++, gpuimgs: 0++b43993e41bfb412456f772ad5d288928661c31da++=>, ipcity: Ocana++=>Madrid++, ipregion: Castilla-La Mancha++=>Madrid, Comunidad de++, browser: UC Browser,  1 0.00546448087432
+agent: UCBrowser/12.8.0.1120++=>UCBrowser/12.8.5.1121++, gpuimgs: =>0++81f1dddab890cb2873e0fad8da7c4f1044cbca83++, browser: UC Browser,  1 0.00546448087432
+audio: 44100++8++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Kediri++=>Madiun++, browser: UC Browser,  1 0.00546448087432
+audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
+audio: not supported++=>44100++8++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Madiun++=>Tulungagung++, browser: UC Browser,  1 0.00546448087432
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Ratnapura++=>Chilaw++, ipregion: Sabaragamuwa Province++=>North Western Province++, browser: UC Browser,  1 0.00546448087432
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Trichur++=>Ernakulam++, browser: UC Browser,  1 0.00546448087432
+canvastest: 41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate++=>gzip, deflate, br++, gpuimgs: 0++98dbd49ab17354c381d531af105b2c59cd70de44++=>, ipcity: Shenzhen++=>Beijing++, ipregion: Guangdong++=>Beijing++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate++=>gzip, deflate, br++, gpuimgs: 070828aec9fd16fb4df8ec466d8c8fc9b5af03d1++=>98dbd49ab17354c381d531af105b2c59cd70de44++, ipcity: Beijing++=>Baotou++, ipregion: Beijing++=>Nei Mongol++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate++=>gzip, deflate, br++, gpuimgs: =>0++98dbd49ab17354c381d531af105b2c59cd70de44++, ipcity: Beijing++=>Wuzhong++, ipregion: Beijing++=>Ningxia++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate++=>gzip, deflate, br++, ipcity: Beijing++=>Baotou++, ipregion: Beijing++=>Nei Mongol++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate++=>gzip, deflate, br++, ipcity: Beijing++=>Wuzhong++, ipregion: Beijing++=>Ningxia++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate, br++=>gzip, deflate++, gpuimgs: 0++98dbd49ab17354c381d531af105b2c59cd70de44++=>, ipcity: Baotou++=>Beijing++, ipregion: Nei Mongol++=>Beijing++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate, br++=>gzip, deflate++, gpuimgs: =>0++98dbd49ab17354c381d531af105b2c59cd70de44++, ipcity: Changsha++=>Shenzhen++, ipregion: Hunan++=>Guangdong++, browser: UC Browser,  1 0.00546448087432
+encoding: gzip, deflate, br++=>gzip, deflate++, ipcity: Changsha++=>Beijing++, ipregion: Hunan++=>Beijing++, browser: UC Browser,  1 0.00546448087432
+fp2_pixelratio: 1++=>0.600000023842++, browser: UC Browser,  1 0.00546448087432
+fp2_pixelratio: 1++=>0.800000011921++, browser: UC Browser,  1 0.00546448087432
+fp2_pixelratio: 1++=>0.899999976158++, browser: UC Browser,  1 0.00546448087432
+fp2_pixelratio: 1++=>1.04999995232++, browser: UC Browser,  1 0.00546448087432
+fp2_pixelratio: 1++=>1.45000004768++, browser: UC Browser,  1 0.00546448087432
+fp2_pixelratio: 1.45000004768++=>1++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++134f4c804c1302a77d1d51e41484fc72a609742a++=>, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, audio: 44100++=>48000++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, fp2_pixelratio: 0.800000011921++=>0.600000023842++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++98dbd49ab17354c381d531af105b2c59cd70de44++=>, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Baotou++=>Changsha++, ipregion: Nei Mongol++=>Hunan++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++98dbd49ab17354c381d531af105b2c59cd70de44++=>, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Wuzhong++=>Changsha++, ipregion: Ningxia++=>Hunan++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++ad3d976fac6f4c25d6d28f2a5a6c0b7ade95696b++=>, audio: 48000++=>44100++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: 0++bcc278c70291f643d39803a1771b2a71bf4c0715++=>, ipcity: Mumbai++=>Kanpur++, ipregion: Maharashtra++=>Uttar Pradesh++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++0501de4b07396671fd355b83253947cf383fc4e4++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++0501de4b07396671fd355b83253947cf383fc4e4++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Ernakulam++=>Kottayam++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Ratnapura++=>Chilaw++, ipregion: Sabaragamuwa Province++=>North Western Province++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, fp2_pixelratio: 0.600000023842++=>1++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++98dbd49ab17354c381d531af105b2c59cd70de44++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
+gpuimgs: =>0++d54892e14dbbff87296d381e1927bb4dcc71fd32++, browser: UC Browser,  1 0.00546448087432
+ipcity: Chilaw++=>Colombo++, ipregion: North Western Province++=>Western Province++, fp2_liedos: False++=>True++, browser: UC Browser,  1 0.00546448087432
+ipcity: Hameln++=>Kirchberg an der Jagst++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: UC Browser,  1 0.00546448087432
+jsFonts: MT Extra++=>, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, fp2_liedos: True++=>False++, browser: UC Browser,  1 0.00546448087432
+plugins: =>VLC Web Plugin++, ipcity: Cuauhtemoc++=>Colonia Nativitas++, browser: UC Browser,  1 0.00546448087432
+timezone: 360.0++=>300.0++, browser: UC Browser,  1 0.00546448087432

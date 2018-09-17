@@ -1,0 +1,3 @@
+total 2 1.0
+accept: ++=>*/*++, ipcity: Ingolstadt++=>Freiburg++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Crosswalk,  1 0.5
+accept: ++=>*/*++, timezone: -60.0++=>-120.0++, ipcity: Quellen++=>Unterstedt++, fp2_liedlanguages: True++=>False++, browser: Crosswalk,  1 0.5

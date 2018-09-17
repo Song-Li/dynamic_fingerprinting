@@ -1,0 +1,15 @@
+total 18 1.0
+accept: ++=>*/*++, browser: Dragon,  2 0.111111111111
+agent: Dragon/60.0.3112.114++=>Dragon/60.0.3112.115++, gpuimgs: =>0++24f161ac7a003f991ca91687e51e90e7592cc7ad++, browser: Dragon,  2 0.111111111111
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Dragon,  2 0.111111111111
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Dragon,  2 0.111111111111
+accept: ++=>*/*++, ipcity: Leipzig++=>Dortmund++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Dragon,  1 0.0555555555556
+agent: Dragon/60.0.3112.114++=>Dragon/60.0.3112.115++, accept: ++=>*/*++, gpuimgs: 0++24f161ac7a003f991ca91687e51e90e7592cc7ad++=>, ipcity: Quellen++=>Papenburg++, browser: Dragon,  1 0.0555555555556
+agent: Dragon/60.0.3112.114++=>Dragon/60.0.3112.115++, gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, ipcity: Dusseldorf++=>Dortmund++, browser: Dragon,  1 0.0555555555556
+agent: WOW64)++AppleWebKit/537.36++(KHTML,++like++Gecko)++Dragon/60.0.3112.114++Chrome/60.0.3112.113++Safari/537.36++=>WOW64;++rv:58.0)++Gecko/20100101++Firefox/58.0++IceDragon/58.0.1++, accept: ++=>*/*++, language: de-DE,de++q=0.8,en-US++q=0.6,en++q=0.4,fr++q=0.2,fr-FR++q=0.2,es++=>de,de-DE++q=0.8,en++q=0.7,fr-FR++q=0.5,es-ES++q=0.3,en-US++, timezone: -60.0++=>-120.0++, plugins: Chromium PDF Viewer++Chromium PDF Viewer++Native Client++Widevine Content Decryption Module++=>, jsFonts: =>Arial Rounded MT Bold++Berlin Sans FB Demi++Bodoni MT Poster Compressed++Britannic Bold++Copperplate Gothic Bold++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Harlow Solid Italic++Leelawadee++Microsoft Uighur++OCR A Extended++Rage Italic++Rockwell Extra Bold++Roman++Script++Script MT Bold++Small Fonts++Tw Cen MT Condensed Extra Bold++, canvastest: bd554a7d5da9293cf3fed52d2052b2b948a14b77++=>51db6bf1278bdc57c5397c06067404801b993223++, gpuimgs: 480bba8ec15658093d320b330762358ba7cb637c++=>f5080aa0a14819586fb4af74fd471660e7858de6++, ipcity: Maria Enzersdorf++=>Munich++, ipregion: Niederosterreich++=>Bayern++, ipcountry: Austria++=>Germany++, browser: Dragon,  1 0.0555555555556
+audio: 44100++=>48000++, browser: Dragon,  1 0.0555555555556
+audio: 96000++2++1++0++2++explicit++speakers++=>not supported++, browser: Dragon,  1 0.0555555555556
+gpuimgs: 0++3a89d4db411aae74128eab8046c07ff887ffef18++=>, fp2_pixelratio: 1++=>1.10000002384++, browser: Dragon,  1 0.0555555555556
+gpuimgs: 0++c6ac3d618b2ea1131601f124bf7e6d4aa9177947++=>, browser: Dragon,  1 0.0555555555556
+gpuimgs: =>0++c6ac3d618b2ea1131601f124bf7e6d4aa9177947++, browser: Dragon,  1 0.0555555555556
+jsFonts: Leelawadee++Microsoft Uighur++=>, fp2_pixelratio: 1.10000002384++=>1++, browser: Dragon,  1 0.0555555555556

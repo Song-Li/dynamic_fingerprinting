@@ -642,3 +642,41 @@ class Paperlib():
         db.export_sql(df, 'fingerprintchanges')
         return 
 
+    def draw_change_reason(self):
+        """
+        draw the fingure of changed reason by browser
+        """
+        df = self.db.load_data(table_name = 'fingerprintchanges')
+        feature_list = self.feature_list
+        feature_list.append('browser')
+        grouped = df.groupby(feature_list)
+
+        res = {}
+        browser_idx = feature_list.index('browser')
+        for key, cur_group in tqdm(grouped):
+            browser = key[browser_idx]
+            cur_key_str = ''
+            if browser not in res:
+                res[browser] = {'total': 0}
+            for i in range(len(feature_list)):
+                if key[i] != "":
+                    cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+
+            cur_len = len(cur_group)
+            res[browser][cur_key_str] = cur_len
+            res[browser]['total'] += cur_len
+
+        
+        sorted_res = {}
+        for browser in res:
+            sorted_res[browser] = sorted(res[browser].iteritems(), 
+                    key=lambda (k,v): (-v,k))
+
+        for browser in sorted_res:
+            f = safeopen('./changereason/{}'.format(browser), 'w')
+            for string in sorted_res[browser]:
+                f.write('{} {} {}\n'.format(string[0], string[1], 
+                    float(string[1]) / float(res[browser]['total'])))
+            f.close()
+
+

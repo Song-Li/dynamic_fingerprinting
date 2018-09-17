@@ -1,0 +1,15 @@
+total 16 1.0
+browser: HeadlessChrome,  3 0.1875
+agent: HeadlessChrome/66.0.3351.0++=>HeadlessChrome/67.0.3363.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/67.0.3363.0++=>HeadlessChrome/67.0.3376.0++, canvastest: ea8eaa39ae22aec4a4ad236443812db2e9365e96++=>1f2eb8d908ee43668771feda0b528028e87f2c2b++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/67.0.3374.0++=>HeadlessChrome/67.0.3376.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/67.0.3376.0++=>HeadlessChrome/67.0.3374.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/67.0.3380.0++=>HeadlessChrome/67.0.3391.0++, gpuimgs: 0++41a1c72ff98e688347d447ff5db232529124150f++=>, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/67.0.3393.0++=>HeadlessChrome/68.0.3401.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/68.0.3401.0++=>HeadlessChrome/68.0.3402.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/68.0.3402.0++=>HeadlessChrome/68.0.3414.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/68.0.3405.0++=>HeadlessChrome/68.0.3414.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/68.0.3414.0++=>HeadlessChrome/68.0.3416.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/68.0.3414.0++=>HeadlessChrome/68.0.3418.0++, browser: HeadlessChrome,  1 0.0625
+agent: HeadlessChrome/68.0.3416.0++=>HeadlessChrome/68.0.3415.0++, browser: HeadlessChrome,  1 0.0625
+gpuimgs: =>0++41a1c72ff98e688347d447ff5db232529124150f++, browser: HeadlessChrome,  1 0.0625

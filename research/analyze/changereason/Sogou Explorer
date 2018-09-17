@@ -1,0 +1,14 @@
+total 20 1.0
+browser: Sogou Explorer,  4 0.2
+gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, browser: Sogou Explorer,  3 0.15
+gpuimgs: 0++a789e58153dc00b81408a0ac864eeec0bd9fcdd7++=>, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Sogou Explorer,  2 0.1
+gpuimgs: =>0++a789e58153dc00b81408a0ac864eeec0bd9fcdd7++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Sogou Explorer,  2 0.1
+accept: ++=>*/*++, plugins: =>Microsoft Office ++, jsFonts: MT Extra++=>Arial Rounded MT Bold++Century Schoolbook++MS Outlook++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic Bold++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++English 111 Vivace BT++Engravers MT++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++OCR A Extended++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rage Italic++Rockwell++Rockwell Condensed++Rockwell Extra Bold++Script MT Bold++Tw Cen MT++Tw Cen MT Condensed++Tw Cen MT Condensed Extra Bold++, gpuimgs: 0++2378fa20fa38a8e140b2b6bd795105fa363bdc12++=>, browser: Sogou Explorer,  1 0.05
+audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Sogou Explorer,  1 0.05
+audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Sogou Explorer,  1 0.05
+fp2_pixelratio: 2.8125++=>2.47500005364++, browser: Sogou Explorer,  1 0.05
+gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: Sogou Explorer,  1 0.05
+gpuimgs: =>0++3a89d4db411aae74128eab8046c07ff887ffef18++, fp2_pixelratio: 1.25++=>1.10000002384++, browser: Sogou Explorer,  1 0.05
+jsFonts: =>Terminal++, fp2_pixelratio: 0.5++=>1.5++, browser: Sogou Explorer,  1 0.05
+jsFonts: Terminal++=>, fp2_pixelratio: 1.10000002384++=>0.5++, browser: Sogou Explorer,  1 0.05
+timezone: -60.0++=>-120.0++, browser: Sogou Explorer,  1 0.05
