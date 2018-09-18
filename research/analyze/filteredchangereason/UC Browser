@@ -1,93 +1,93 @@
 total 183 1.0
-audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  21 0.114754098361
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: UC Browser,  13 0.0710382513661
-browser: UC Browser,  13 0.0710382513661
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  10 0.0546448087432
-agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  8 0.0437158469945
-audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  6 0.0327868852459
-agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  5 0.0273224043716
-agent: 10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  4 0.0218579234973
-agent: 6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  4 0.0218579234973
-agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, browser: UC Browser,  4 0.0218579234973
-agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  3 0.016393442623
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, browser: UC Browser,  3 0.016393442623
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  3 0.016393442623
-audio: 44100++=>48000++, browser: UC Browser,  3 0.016393442623
-agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++, browser: UC Browser,  2 0.0109289617486
-agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1802++, browser: UC Browser,  2 0.0109289617486
-agent: 6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  2 0.0109289617486
-encoding: gzip, deflate++=>gzip, deflate, br++, ipcity: Beijing++=>Baotou++, ipregion: Beijing++=>Nei Mongol++, browser: UC Browser,  2 0.0109289617486
-encoding: gzip, deflate++=>gzip, deflate, br++, ipcity: Beijing++=>Wuzhong++, ipregion: Beijing++=>Ningxia++, browser: UC Browser,  2 0.0109289617486
-accept: ++=>*/*++, browser: UC Browser,  1 0.00546448087432
-accept: ++=>*/*++, ipcity: Dhanbad++=>Delhi++, ipregion: Jharkhand++=>Delhi++, browser: UC Browser,  1 0.00546448087432
-accept: ++=>*/*++, ipcity: Lagos++=>Abuja++, ipregion: Lagos++=>Abuja Federal Capital Territory++, browser: UC Browser,  1 0.00546448087432
-accept: ++=>text/xml++text/html++application/xhtml+xml++image/png++text/plain++*/*;q=0.8++, ipcity: Augsburg-Lechviertel++=>Stuttgart++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: UC Browser,  1 0.00546448087432
-agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
-agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, accept: ++=>*/*++, browser: UC Browser,  1 0.00546448087432
-agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
-agent: 10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1802++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, accept: ++=>*/*++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.2;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++, fp2_pixelratio: 1++=>1.04999995232++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
-agent: 6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.69.1022++, browser: UC Browser,  1 0.00546448087432
-agent: 6.2;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/11.5.5.1033++, canvastest: 6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++=>2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Kleve++=>Dortmund++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.0.0.1088++, canvastest: a8aea4cec50c49325fcd04290e37704b459cea92++=>b7251da95affd1a95946f74d9d40e678410f8f6e++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, ipcity: Kirchberg an der Jagst++=>Hanover++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.0.0.1088++, canvastest: a8aea4cec50c49325fcd04290e37704b459cea92++=>b7251da95affd1a95946f74d9d40e678410f8f6e++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.8.0.1120++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, canvastest: 6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++=>2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Vienna++=>Maria Enzersdorf++, ipregion: Wien++=>Niederosterreich++, fp2_liedlanguages: True++=>False++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>Chrome/60.0.3112.113++UBrowser/7.0.69.1021++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/57.0.2987.108++UCBrowser/11.5.5.1033++=>Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++, canvastest: 2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++=>6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Dortmund++=>Muenster++, fp2_liedlanguages: False++=>True++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, browser: UC Browser,  1 0.00546448087432
-agent: Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>Chrome/55.0.2883.87++UBrowser/7.0.185.1002++, ipcity: Colonia Nativitas++=>Colonia del Valle++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/6.2.3831.407++=>UBrowser/6.2.3964.2++, accept: ++=>*/*++, plugins: =>CNKI CAJAX Plugin++CNKI sysinfo Plugin++, ipcity: Dusseldorf++=>Wiehlmunden++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1001++=>UBrowser/7.0.125.1802++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1629++=>UBrowser/7.0.125.1639++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1629++=>UBrowser/7.0.125.1802++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1629++=>UBrowser/7.0.185.1002++, accept: ++=>*/*++, ipcity: Ambon++=>Makassar++, ipregion: Maluku++=>Sulawesi Selatan++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1639++=>UBrowser/7.0.125.1802++, ipcity: Bien Hoa++=>Ho Chi Minh City++, ipregion: Dong Nai++=>Ho Chi Minh++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++, fp2_pixelratio: 0.600000023842++=>1++, browser: UC Browser,  1 0.00546448087432
-agent: UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++, jsFonts: =>Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++, ipcity: Chilaw++=>Ratnapura++, ipregion: North Western Province++=>Sabaragamuwa Province++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/11.8.8.968++=>UCBrowser/11.8.9.969++, encoding: gzip, deflate, br++=>gzip, deflate++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/11.8.9.969++=>UCBrowser/11.9.3.973++, encoding: gzip, deflate, br++=>gzip, deflate++, ipcity: Baotou++=>Beijing++, ipregion: Nei Mongol++=>Beijing++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.0.0.1088++=>UCBrowser/12.2.0.1089++, ipcity: Illescas++=>Pontevedra++, ipregion: Castilla-La Mancha++=>Galicia++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.0.0.1088++=>UCBrowser/12.8.5.1121++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.2.0.1089++=>UCBrowser/12.2.1.1108++, timezone: -60.0++=>-120.0++, ipcity: Dusseldorf++=>Aachen++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.2.0.1089++=>UCBrowser/12.8.0.1120++, language: es,en-US++=>es-LA,en-US++, timezone: -60.0++=>-120.0++, ipcity: Pontevedra++=>Ocana++, ipregion: Galicia++=>Castilla-La Mancha++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.2.1.1108++=>UCBrowser/12.8.0.1120++, timezone: -60.0++=>-120.0++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.8.0.1120++=>UCBrowser/12.8.5.1121++, browser: UC Browser,  1 0.00546448087432
-agent: UCBrowser/12.8.0.1120++=>UCBrowser/12.8.5.1121++, ipcity: Ocana++=>Madrid++, ipregion: Castilla-La Mancha++=>Madrid, Comunidad de++, browser: UC Browser,  1 0.00546448087432
-audio: 44100++8++1++0++2++explicit++speakers++=>not supported++, browser: UC Browser,  1 0.00546448087432
-audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Kediri++=>Madiun++, browser: UC Browser,  1 0.00546448087432
-audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Ratnapura++=>Chilaw++, ipregion: Sabaragamuwa Province++=>North Western Province++, browser: UC Browser,  1 0.00546448087432
-audio: 48000++=>44100++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>44100++8++1++0++2++explicit++speakers++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Baotou++=>Changsha++, ipregion: Nei Mongol++=>Hunan++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Ernakulam++=>Kottayam++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Madiun++=>Tulungagung++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Ratnapura++=>Chilaw++, ipregion: Sabaragamuwa Province++=>North Western Province++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Trichur++=>Ernakulam++, browser: UC Browser,  1 0.00546448087432
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Wuzhong++=>Changsha++, ipregion: Ningxia++=>Hunan++, browser: UC Browser,  1 0.00546448087432
-canvastest: 41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, browser: UC Browser,  1 0.00546448087432
-encoding: gzip, deflate++=>gzip, deflate, br++, ipcity: Shenzhen++=>Beijing++, ipregion: Guangdong++=>Beijing++, browser: UC Browser,  1 0.00546448087432
-encoding: gzip, deflate, br++=>gzip, deflate++, ipcity: Baotou++=>Beijing++, ipregion: Nei Mongol++=>Beijing++, browser: UC Browser,  1 0.00546448087432
-encoding: gzip, deflate, br++=>gzip, deflate++, ipcity: Changsha++=>Beijing++, ipregion: Hunan++=>Beijing++, browser: UC Browser,  1 0.00546448087432
-encoding: gzip, deflate, br++=>gzip, deflate++, ipcity: Changsha++=>Shenzhen++, ipregion: Hunan++=>Guangdong++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 0.600000023842++=>1++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 0.800000011921++=>0.600000023842++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 1++=>0.600000023842++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 1++=>0.800000011921++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 1++=>0.899999976158++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 1++=>1.04999995232++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 1++=>1.45000004768++, browser: UC Browser,  1 0.00546448087432
-fp2_pixelratio: 1.45000004768++=>1++, browser: UC Browser,  1 0.00546448087432
-ipcity: Chilaw++=>Colombo++, ipregion: North Western Province++=>Western Province++, fp2_liedos: False++=>True++, browser: UC Browser,  1 0.00546448087432
-ipcity: Hameln++=>Kirchberg an der Jagst++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: UC Browser,  1 0.00546448087432
-ipcity: Mumbai++=>Kanpur++, ipregion: Maharashtra++=>Uttar Pradesh++, browser: UC Browser,  1 0.00546448087432
-jsFonts: MT Extra++=>, fp2_liedos: True++=>False++, browser: UC Browser,  1 0.00546448087432
-plugins: =>VLC Web Plugin++, ipcity: Cuauhtemoc++=>Colonia Nativitas++, browser: UC Browser,  1 0.00546448087432
-timezone: 360.0++=>300.0++, browser: UC Browser,  1 0.00546448087432
+audio:_48000++2++1++0++2++explicit++speakers++=>not_supported++,_browser:_UC_Browser,_ 21 0.114754098361
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_browser:_UC_Browser,_ 13 0.0710382513661
+browser:_UC_Browser,_ 13 0.0710382513661
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_browser:_UC_Browser,_ 10 0.0546448087432
+agent:_10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 8 0.0437158469945
+audio:_44100++2++1++0++2++explicit++speakers++=>not_supported++,_browser:_UC_Browser,_ 6 0.0327868852459
+agent:_6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_browser:_UC_Browser,_ 5 0.0273224043716
+agent:_10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 4 0.0218579234973
+agent:_6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 4 0.0218579234973
+agent:_6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0)++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++,_browser:_UC_Browser,_ 4 0.0218579234973
+agent:_10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 3 0.016393442623
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++,_browser:_UC_Browser,_ 3 0.016393442623
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_browser:_UC_Browser,_ 3 0.016393442623
+audio:_44100++=>48000++,_browser:_UC_Browser,_ 3 0.016393442623
+agent:_6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++,_browser:_UC_Browser,_ 2 0.0109289617486
+agent:_6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1802++,_browser:_UC_Browser,_ 2 0.0109289617486
+agent:_6.3;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 2 0.0109289617486
+encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_ipcity:_Beijing++=>Baotou++,_ipregion:_Beijing++=>Nei_Mongol++,_browser:_UC_Browser,_ 2 0.0109289617486
+encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_ipcity:_Beijing++=>Wuzhong++,_ipregion:_Beijing++=>Ningxia++,_browser:_UC_Browser,_ 2 0.0109289617486
+accept:_++=>*/*++,_browser:_UC_Browser,_ 1 0.00546448087432
+accept:_++=>*/*++,_ipcity:_Dhanbad++=>Delhi++,_ipregion:_Jharkhand++=>Delhi++,_browser:_UC_Browser,_ 1 0.00546448087432
+accept:_++=>*/*++,_ipcity:_Lagos++=>Abuja++,_ipregion:_Lagos++=>Abuja_Federal_Capital_Territory++,_browser:_UC_Browser,_ 1 0.00546448087432
+accept:_++=>text/xml++text/html++application/xhtml+xml++image/png++text/plain++*/*;q=0.8++,_ipcity:_Augsburg-Lechviertel++=>Stuttgart++,_ipregion:_Bayern++=>Baden-Wurttemberg++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_accept:_++=>*/*++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_audio:_not_supported++=>44100++2++1++0++2++explicit++speakers++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1)++Chrome/55.0.2883.87++UBrowser/7.0.125.1802++=>6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.125.1001++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_accept:_++=>*/*++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>10.0;++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_audio:_44100++2++1++0++2++explicit++speakers++=>not_supported++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.2;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++,_fp2_pixelratio:_1++=>1.04999995232++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_audio:_48000++2++1++0++2++explicit++speakers++=>not_supported++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.1;++WOW64)++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>6.1)++Chrome/55.0.2883.87++UBrowser/7.0.69.1022++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_6.2;++Chrome/55.0.2883.87++UBrowser/7.0.125.1629++=>6.1;++Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/11.5.5.1033++,_canvastest:_6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++=>2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++,_audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Kleve++=>Dortmund++,_fp2_liedlanguages:_True++=>False++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.0.0.1088++,_canvastest:_a8aea4cec50c49325fcd04290e37704b459cea92++=>b7251da95affd1a95946f74d9d40e678410f8f6e++,_audio:_not_supported++=>44100++2++1++0++2++explicit++speakers++,_ipcity:_Kirchberg_an_der_Jagst++=>Hanover++,_ipregion:_Baden-Wurttemberg++=>Niedersachsen++,_fp2_liedlanguages:_True++=>False++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.0.0.1088++,_canvastest:_a8aea4cec50c49325fcd04290e37704b459cea92++=>b7251da95affd1a95946f74d9d40e678410f8f6e++,_audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_fp2_liedlanguages:_True++=>False++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++=>Chrome/57.0.2987.108++UCBrowser/12.8.0.1120++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_canvastest:_6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++=>2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++,_audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Vienna++=>Maria_Enzersdorf++,_ipregion:_Wien++=>Niederosterreich++,_fp2_liedlanguages:_True++=>False++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>Chrome/60.0.3112.113++UBrowser/7.0.69.1021++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/57.0.2987.108++UCBrowser/11.5.5.1033++=>Chrome/40.0.2214.89++UCBrowser/11.5.0.1015++,_canvastest:_2a2765e4e558e2d0d17dff1638a88e43e5dbd73f++=>6dcb1fe3433cdffe35144fcb69f489f9ae9f0310++,_audio:_48000++2++1++0++2++explicit++speakers++=>not_supported++,_ipcity:_Dortmund++=>Muenster++,_fp2_liedlanguages:_False++=>True++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_Chrome/60.0.3112.113++UBrowser/7.0.69.1021++=>Chrome/55.0.2883.87++UBrowser/7.0.185.1002++,_ipcity:_Colonia_Nativitas++=>Colonia_del_Valle++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/6.2.3831.407++=>UBrowser/6.2.3964.2++,_accept:_++=>*/*++,_plugins:_=>CNKI_CAJAX_Plugin++CNKI_sysinfo_Plugin++,_ipcity:_Dusseldorf++=>Wiehlmunden++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1001++=>UBrowser/7.0.125.1802++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1629++=>UBrowser/7.0.125.1639++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1629++=>UBrowser/7.0.125.1802++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1629++=>UBrowser/7.0.185.1002++,_accept:_++=>*/*++,_ipcity:_Ambon++=>Makassar++,_ipregion:_Maluku++=>Sulawesi_Selatan++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1639++=>UBrowser/7.0.125.1802++,_ipcity:_Bien_Hoa++=>Ho_Chi_Minh_City++,_ipregion:_Dong_Nai++=>Ho_Chi_Minh++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++,_fp2_pixelratio:_0.600000023842++=>1++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UBrowser/7.0.125.1802++=>UBrowser/7.0.185.1002++,_jsFonts:_=>Leelawadee++Meiryo++Meiryo_UI++Microsoft_Uighur++,_ipcity:_Chilaw++=>Ratnapura++,_ipregion:_North_Western_Province++=>Sabaragamuwa_Province++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/11.8.8.968++=>UCBrowser/11.8.9.969++,_encoding:_gzip,_deflate,_br++=>gzip,_deflate++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/11.8.9.969++=>UCBrowser/11.9.3.973++,_encoding:_gzip,_deflate,_br++=>gzip,_deflate++,_ipcity:_Baotou++=>Beijing++,_ipregion:_Nei_Mongol++=>Beijing++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.0.0.1088++=>UCBrowser/12.2.0.1089++,_ipcity:_Illescas++=>Pontevedra++,_ipregion:_Castilla-La_Mancha++=>Galicia++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.0.0.1088++=>UCBrowser/12.8.5.1121++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.2.0.1089++=>UCBrowser/12.2.1.1108++,_timezone:_-60.0++=>-120.0++,_ipcity:_Dusseldorf++=>Aachen++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.2.0.1089++=>UCBrowser/12.8.0.1120++,_language:_es,en-US++=>es-LA,en-US++,_timezone:_-60.0++=>-120.0++,_ipcity:_Pontevedra++=>Ocana++,_ipregion:_Galicia++=>Castilla-La_Mancha++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.2.1.1108++=>UCBrowser/12.8.0.1120++,_timezone:_-60.0++=>-120.0++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.8.0.1120++=>UCBrowser/12.8.5.1121++,_browser:_UC_Browser,_ 1 0.00546448087432
+agent:_UCBrowser/12.8.0.1120++=>UCBrowser/12.8.5.1121++,_ipcity:_Ocana++=>Madrid++,_ipregion:_Castilla-La_Mancha++=>Madrid,_Comunidad_de++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_44100++8++1++0++2++explicit++speakers++=>not_supported++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_48000++2++1++0++2++explicit++speakers++=>not_supported++,_ipcity:_Kediri++=>Madiun++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_48000++2++1++0++2++explicit++speakers++=>not_supported++,_ipcity:_Ratnapura++=>Chilaw++,_ipregion:_Sabaragamuwa_Province++=>North_Western_Province++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_48000++=>44100++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>44100++2++1++0++2++explicit++speakers++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>44100++8++1++0++2++explicit++speakers++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Baotou++=>Changsha++,_ipregion:_Nei_Mongol++=>Hunan++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Ernakulam++=>Kottayam++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Madiun++=>Tulungagung++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Ratnapura++=>Chilaw++,_ipregion:_Sabaragamuwa_Province++=>North_Western_Province++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Trichur++=>Ernakulam++,_browser:_UC_Browser,_ 1 0.00546448087432
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_ipcity:_Wuzhong++=>Changsha++,_ipregion:_Ningxia++=>Hunan++,_browser:_UC_Browser,_ 1 0.00546448087432
+canvastest:_41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>0084f52315f069e4c003170da2f07b3104f6cfc1++,_browser:_UC_Browser,_ 1 0.00546448087432
+encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_ipcity:_Shenzhen++=>Beijing++,_ipregion:_Guangdong++=>Beijing++,_browser:_UC_Browser,_ 1 0.00546448087432
+encoding:_gzip,_deflate,_br++=>gzip,_deflate++,_ipcity:_Baotou++=>Beijing++,_ipregion:_Nei_Mongol++=>Beijing++,_browser:_UC_Browser,_ 1 0.00546448087432
+encoding:_gzip,_deflate,_br++=>gzip,_deflate++,_ipcity:_Changsha++=>Beijing++,_ipregion:_Hunan++=>Beijing++,_browser:_UC_Browser,_ 1 0.00546448087432
+encoding:_gzip,_deflate,_br++=>gzip,_deflate++,_ipcity:_Changsha++=>Shenzhen++,_ipregion:_Hunan++=>Guangdong++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_0.600000023842++=>1++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_0.800000011921++=>0.600000023842++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_1++=>0.600000023842++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_1++=>0.800000011921++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_1++=>0.899999976158++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_1++=>1.04999995232++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_1++=>1.45000004768++,_browser:_UC_Browser,_ 1 0.00546448087432
+fp2_pixelratio:_1.45000004768++=>1++,_browser:_UC_Browser,_ 1 0.00546448087432
+ipcity:_Chilaw++=>Colombo++,_ipregion:_North_Western_Province++=>Western_Province++,_fp2_liedos:_False++=>True++,_browser:_UC_Browser,_ 1 0.00546448087432
+ipcity:_Hameln++=>Kirchberg_an_der_Jagst++,_ipregion:_Niedersachsen++=>Baden-Wurttemberg++,_browser:_UC_Browser,_ 1 0.00546448087432
+ipcity:_Mumbai++=>Kanpur++,_ipregion:_Maharashtra++=>Uttar_Pradesh++,_browser:_UC_Browser,_ 1 0.00546448087432
+jsFonts:_MT_Extra++=>,_fp2_liedos:_True++=>False++,_browser:_UC_Browser,_ 1 0.00546448087432
+plugins:_=>VLC_Web_Plugin++,_ipcity:_Cuauhtemoc++=>Colonia_Nativitas++,_browser:_UC_Browser,_ 1 0.00546448087432
+timezone:_360.0++=>300.0++,_browser:_UC_Browser,_ 1 0.00546448087432

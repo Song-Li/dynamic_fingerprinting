@@ -1,175 +1,175 @@
 total 276 1.0
-browser: Edge Mobile,  52 0.188405797101
-fp2_liedresolution: False++=>True++, browser: Edge Mobile,  19 0.0688405797101
-accept: ++=>*/*++, browser: Edge Mobile,  18 0.0652173913043
-fp2_liedresolution: True++=>False++, browser: Edge Mobile,  14 0.0507246376812
-fp2_pixelratio: 1++=>2++, browser: Edge Mobile,  3 0.0108695652174
-audio: 48000++=>44100++, browser: Edge Mobile,  2 0.00724637681159
-accept: ++=>*/*++, audio: 44100++=>48000++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, audio: 48000++=>44100++, ipcity: Dortmund++=>Freiburg++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Bratislava++=>Munich++, ipregion: Bratislavsky kraj++=>Bayern++, ipcountry: Slovakia++=>Germany++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Dresden++=>Oberberge++, ipregion: Sachsen++=>Sachsen-Anhalt++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Dresden++=>Wieseck++, ipregion: Sachsen++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Frankfurt am Main++=>Baunatal++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Freinsheim++=>Baunatal++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Furstenwalde++=>Potsdam++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Goppingen++=>Braunschweig++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Gross Menow++=>Ravensbruck++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Halle (Saale)++=>Munich++, ipregion: Sachsen-Anhalt++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Hamburg++=>Hameln++, ipregion: Hamburg++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Hanover++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Hanover++=>Stuttgart++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Heidelberg++=>Stuttgart++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Ingolstadt++=>Frankfurt am Main++, ipregion: Bayern++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Isny im Allgau++=>Berlin++, ipregion: Baden-Wurttemberg++=>Berlin++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Karlsruhe++=>Mannheim++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Las Palmas de Gran Canaria++=>Tarragona++, ipregion: Canarias++=>Catalunya++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Magdeburg++=>Dusseldorf++, ipregion: Sachsen-Anhalt++=>Nordrhein-Westfalen++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Magdeburg++=>Wuerzburg++, ipregion: Sachsen-Anhalt++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Saarbrucken++=>Hamburg++, ipregion: Saarland++=>Hamburg++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Salzburg++=>Innsbruck++, ipregion: Salzburg++=>Tirol++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Stuttgart++=>Freiburg++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Stuttgart++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Stuttgart++=>Saarbrucken++, ipregion: Baden-Wurttemberg++=>Saarland++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Thaya++=>Amstetten++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Ulm++=>Neu-Ulm++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Vienna++=>Muenster++, ipregion: Wien++=>Nordrhein-Westfalen++, ipcountry: Austria++=>Germany++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, ipcity: Wommen++=>Wiesbaden++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, timezone: -60.0++=>0.0++, ipcity: Gunzenhausen++=>Munich++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, timezone: -60.0++=>0.0++, ipcity: Sachsen++=>Vigo++, ipregion: Bayern++=>Galicia++, ipcountry: Germany++=>Spain++, browser: Edge Mobile,  1 0.0036231884058
-accept: ++=>*/*++, timezone: 300.0++=>-60.0++, fp2_pixelratio: 1.5++=>2++, ipcity: Montreal++=>Aachen++, ipregion: Quebec++=>Nordrhein-Westfalen++, ipcountry: Canada++=>Germany++, browser: Edge Mobile,  1 0.0036231884058
-agent: Edge/15.15063++=>Edge/15.15254++, accept: ++=>*/*++, browser: Edge Mobile,  1 0.0036231884058
-agent: Edge/15.15063++=>Edge/15.15254++, ipcity: Dusseldorf++=>Dortmund++, browser: Edge Mobile,  1 0.0036231884058
-agent: Edge/15.15063++=>Edge/15.15254++, ipcity: Wiesbaden++=>Freinsheim++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Edge Mobile,  1 0.0036231884058
-audio: 1++1++=>2++2++, browser: Edge Mobile,  1 0.0036231884058
-audio: 44100++=>48000++, browser: Edge Mobile,  1 0.0036231884058
-audio: 44100++=>48000++, ipcity: Bad Kreuznach++=>Straas++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-audio: 44100++=>48000++, ipcity: Berlin++=>Bonn++, ipregion: Berlin++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-audio: 44100++=>48000++, ipcity: Oldenburg++=>Bremen++, ipregion: Niedersachsen++=>Bremen++, browser: Edge Mobile,  1 0.0036231884058
-audio: 44100++=>48000++, ipcity: Papenburg++=>Frankfurt am Main++, ipregion: Niedersachsen++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-audio: 48000++=>44100++, ipcity: Bremen++=>Papenburg++, ipregion: Bremen++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-audio: 48000++=>44100++, ipcity: Delmenhorst++=>Oldenburg++, browser: Edge Mobile,  1 0.0036231884058
-audio: 48000++=>44100++, ipcity: Frankfurt am Main++=>Bielefeld++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-audio: 48000++=>44100++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Edge Mobile,  1 0.0036231884058
-canvastest: 4a4937419e35cdb275bd3a2f3947341151408f59++=>6904f525ea2d08377e24522c3cccca033389dc82++, ipcity: Nuremberg++=>Hamburg++, ipregion: Bayern++=>Hamburg++, browser: Edge Mobile,  1 0.0036231884058
-canvastest: 6904f525ea2d08377e24522c3cccca033389dc82++=>4a4937419e35cdb275bd3a2f3947341151408f59++, ipcity: Hamburg++=>Saarbrucken++, ipregion: Hamburg++=>Saarland++, browser: Edge Mobile,  1 0.0036231884058
-cookie: True++=>False++, ipcity: Ebersdorf++=>Bremen++, ipregion: Niedersachsen++=>Bremen++, browser: Edge Mobile,  1 0.0036231884058
-cookie: True++=>False++, ipcity: Neustrelitz++=>Oldenburg++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 1++=>1.60000002384++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 1++=>3++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 1++=>4++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 1.60000002384++=>1++, ipcity: Graz++=>Linz++, ipregion: Steiermark++=>Oberosterreich++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 2++=>1++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 2++=>1++, ipcity: Berlin++=>Potsdam++, ipregion: Berlin++=>Brandenburg++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 2++=>1++, ipcity: Muenster++=>Aslage++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 3++=>1++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 3++=>4++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 3++=>4++, ipcity: Dusseldorf++=>Dortmund++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 3++=>4++, ipcity: Rendsburg++=>Westerstede++, ipregion: Schleswig-Holstein++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 4++=>1++, browser: Edge Mobile,  1 0.0036231884058
-fp2_pixelratio: 4++=>1++, ipcity: Kleve++=>Dusseldorf++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Aachen++=>Dusseldorf++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Aachen++=>Dusseldorf++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Aslage++=>Osnabruck++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Augsburg-Lechviertel++=>Nuremberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Bad Waldsee++=>Isny im Allgau++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Bamberg++=>Ingolstadt++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Berlin++=>Bielefeld++, ipregion: Berlin++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Berlin++=>Cottbus++, ipregion: Berlin++=>Brandenburg++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Berlin++=>Pohlitz++, ipregion: Berlin++=>Brandenburg++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Berlin++=>Wiesbaden++, ipregion: Berlin++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Bernau bei Berlin++=>Lichtenfels++, ipregion: Brandenburg++=>Bayern++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Bielefeld++=>Dortmund++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Bludenz++=>Vienna++, ipregion: Vorarlberg++=>Wien++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Bonn++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Braunschweig++=>Hanover++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Breitenbach++=>Nuremberg++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Chemnitz++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Delmenhorst++=>Bremen++, ipregion: Niedersachsen++=>Bremen++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dikjendeel++=>Bonn++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dortmund++=>Luebeck++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dresden++=>Freiburg++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dresden++=>Zwickau++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dusseldorf++=>Bonn++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dusseldorf++=>Dortmund++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dusseldorf++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dusseldorf++=>Nuremberg++, ipregion: Nordrhein-Westfalen++=>Bayern++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Dusseldorf++=>Stuttgart++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Elmshorn++=>Norderstedt++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Fockenberg-Limbach++=>Stuttgart++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Frankfurt am Main++=>Hamburg++, ipregion: Hessen++=>Hamburg++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Freiburg++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Freiburg++=>Karlsruhe++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Freiburg++=>Ulm++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Freiburg++=>Villingen-Schwenningen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Friedrichshafen++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Geesthacht++=>Kiel++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Gorlitz++=>Marsberg++, ipregion: Sachsen++=>Nordrhein-Westfalen++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Hamburg++=>Hanover++, ipregion: Hamburg++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Hamburg++=>Hanover++, ipregion: Hamburg++=>Niedersachsen++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Hamburg++=>Nuremberg++, ipregion: Hamburg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Hamburg++=>Osnabruck++, ipregion: Hamburg++=>Niedersachsen++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Hanover++=>Copenhagen++, ipregion: Niedersachsen++=>Hovedstaden++, ipcountry: Germany++=>Denmark++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Hanover++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Ingolstadt++=>Heidelberg++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Isenburg++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Karlsruhe++=>Chemnitz++, ipregion: Baden-Wurttemberg++=>Sachsen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Karlsruhe++=>Dresden++, ipregion: Baden-Wurttemberg++=>Sachsen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Karlsruhe++=>Freiburg++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Karlsruhe++=>Munich++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Koblenz++=>Hamburg++, ipregion: Thuringen++=>Hamburg++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Kramsach++=>Linz++, ipregion: Tirol++=>Oberosterreich++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Langschlag++=>Scharnstein++, ipregion: Niederosterreich++=>Oberosterreich++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Leipzig++=>Ingolstadt++, ipregion: Sachsen++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Mannheim++=>Munich++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Maria Enzersdorf++=>Vienna++, ipregion: Niederosterreich++=>Wien++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Marsberg++=>Gorlitz++, ipregion: Nordrhein-Westfalen++=>Sachsen++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Muenster++=>Dortmund++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Munich++=>Ahaus++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Munich++=>Kiel++, ipregion: Bayern++=>Schleswig-Holstein++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Munich++=>Lauingen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Munich++=>Magdeburg++, ipregion: Bayern++=>Sachsen-Anhalt++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Noschenrode++=>Magdeburg++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Nuremberg++=>Klein Ostiem++, ipregion: Bayern++=>Niedersachsen++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Nuremberg++=>Munich++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Pohlitz++=>Berlin++, ipregion: Brandenburg++=>Berlin++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Pohlitz++=>Straas++, ipregion: Brandenburg++=>Bayern++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Potsdam++=>Munich++, ipregion: Brandenburg++=>Bayern++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Potsdam++=>Schwerin++, ipregion: Brandenburg++=>Mecklenburg-Vorpommern++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Reiff++=>Stuttgart++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Scharnstein++=>Thaya++, ipregion: Oberosterreich++=>Niederosterreich++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Schenefeld++=>Koblenz++, ipregion: Schleswig-Holstein++=>Thuringen++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Schenefeld++=>Munich++, ipregion: Schleswig-Holstein++=>Bayern++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Schwerin++=>Potsdam++, ipregion: Mecklenburg-Vorpommern++=>Brandenburg++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Sinsheim++=>Stuttgart++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Spreedorf++=>Schonau-Berzdorf++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Straas++=>Ludwigshafen++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Straubing++=>Simbach++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Stuttgart++=>Hanover++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Stuttgart++=>Heidelberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Uelzen++=>Braunschweig++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Ulm++=>Linz++, ipregion: Baden-Wurttemberg++=>Oberosterreich++, ipcountry: Germany++=>Austria++, fp2_liedresolution: True++=>False++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Ulm++=>Stuttgart++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Vienna++=>Eisenstadt++, ipregion: Wien++=>Burgenland++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Vienna++=>Maria Enzersdorf++, ipregion: Wien++=>Niederosterreich++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Wiesbaden++=>Wesel++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Wilhelmshaven++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Wommen++=>Saarbrucken++, ipregion: Hessen++=>Saarland++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Worbis++=>Sulzbach++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Wuerzburg++=>Aschaffenburg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Wuerzburg++=>Mannheim++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Wuerzburg++=>Pohlitz++, ipregion: Bayern++=>Brandenburg++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Zeuthen++=>Bratislava++, ipregion: Brandenburg++=>Bratislavsky kraj++, ipcountry: Germany++=>Slovakia++, fp2_liedresolution: False++=>True++, browser: Edge Mobile,  1 0.0036231884058
-ipcity: Zinna++=>Zwickau++, browser: Edge Mobile,  1 0.0036231884058
-language: q=0.5++=>q=0.8,en-GB++q=0.5,en++q=0.3++, browser: Edge Mobile,  1 0.0036231884058
-language: q=0.8,de-DE++q=0.7,de++q=0.5,en-CA++q=0.3,en++q=0.2++=>q=0.5++, canvastest: 370209a91d52d8081c873d9bfbc12baaf6dcb46a++=>affe9e0eba558728a035fc52f1c58c20ad1fbe67++, ipcity: Baden++=>Bonn++, ipregion: Aargau++=>Nordrhein-Westfalen++, ipcountry: Switzerland++=>Germany++, browser: Edge Mobile,  1 0.0036231884058
-language: q=0.8,fr-FR++q=0.7,fr++q=0.5,en-GB++q=0.3,en++=>q=0.8,pl++q=0.6,fr-FR++q=0.4,fr++, ipcity: Siegen++=>Dusseldorf++, browser: Edge Mobile,  1 0.0036231884058
-timezone: -420.0++=>-60.0++, ipcity: Da Nang++=>Magdeburg++, ipregion: Da Nang++=>Sachsen-Anhalt++, ipcountry: Viet Nam++=>Germany++, browser: Edge Mobile,  1 0.0036231884058
-timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>George++, ipregion: Nordrhein-Westfalen++=>Western Cape++, ipcountry: Germany++=>South Africa++, browser: Edge Mobile,  1 0.0036231884058
-timezone: -60.0++=>300.0++, ipcity: Bonn++=>Yallahs++, ipregion: Nordrhein-Westfalen++=>Saint Thomas++, ipcountry: Germany++=>Jamaica++, browser: Edge Mobile,  1 0.0036231884058
-timezone: -60.0++=>480.0++, ipcity: Stuttgart++=>Las Vegas++, ipregion: Baden-Wurttemberg++=>Nevada++, ipcountry: Germany++=>United States++, browser: Edge Mobile,  1 0.0036231884058
-timezone: 0.0++=>-60.0++, ipcity: Dortmund++=>Nunningen++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Edge Mobile,  1 0.0036231884058
-timezone: 0.0++=>-60.0++, ipcity: Marrakech++=>Regensburg++, ipregion: Marrakech-Tensift-Al Haouz++=>Bayern++, ipcountry: Morocco++=>Germany++, browser: Edge Mobile,  1 0.0036231884058
+browser:_Edge_Mobile,_ 52 0.188405797101
+fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 19 0.0688405797101
+accept:_++=>*/*++,_browser:_Edge_Mobile,_ 18 0.0652173913043
+fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 14 0.0507246376812
+fp2_pixelratio:_1++=>2++,_browser:_Edge_Mobile,_ 3 0.0108695652174
+audio:_48000++=>44100++,_browser:_Edge_Mobile,_ 2 0.00724637681159
+accept:_++=>*/*++,_audio:_44100++=>48000++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_audio:_48000++=>44100++,_ipcity:_Dortmund++=>Freiburg++,_ipregion:_Nordrhein-Westfalen++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Bratislava++=>Munich++,_ipregion:_Bratislavsky_kraj++=>Bayern++,_ipcountry:_Slovakia++=>Germany++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Dresden++=>Oberberge++,_ipregion:_Sachsen++=>Sachsen-Anhalt++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Dresden++=>Wieseck++,_ipregion:_Sachsen++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Frankfurt_am_Main++=>Baunatal++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Freinsheim++=>Baunatal++,_ipregion:_Rheinland-Pfalz++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Furstenwalde++=>Potsdam++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Goppingen++=>Braunschweig++,_ipregion:_Baden-Wurttemberg++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Gross_Menow++=>Ravensbruck++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Halle_(Saale)++=>Munich++,_ipregion:_Sachsen-Anhalt++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Hamburg++=>Hameln++,_ipregion:_Hamburg++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Hanover++=>Hamburg++,_ipregion:_Niedersachsen++=>Hamburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Hanover++=>Stuttgart++,_ipregion:_Niedersachsen++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Heidelberg++=>Stuttgart++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Ingolstadt++=>Frankfurt_am_Main++,_ipregion:_Bayern++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Isny_im_Allgau++=>Berlin++,_ipregion:_Baden-Wurttemberg++=>Berlin++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Karlsruhe++=>Mannheim++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Las_Palmas_de_Gran_Canaria++=>Tarragona++,_ipregion:_Canarias++=>Catalunya++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Magdeburg++=>Dusseldorf++,_ipregion:_Sachsen-Anhalt++=>Nordrhein-Westfalen++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Magdeburg++=>Wuerzburg++,_ipregion:_Sachsen-Anhalt++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Potsdam++=>Berlin++,_ipregion:_Brandenburg++=>Berlin++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Saarbrucken++=>Hamburg++,_ipregion:_Saarland++=>Hamburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Salzburg++=>Innsbruck++,_ipregion:_Salzburg++=>Tirol++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Stuttgart++=>Freiburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Stuttgart++=>Nuremberg++,_ipregion:_Baden-Wurttemberg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Stuttgart++=>Saarbrucken++,_ipregion:_Baden-Wurttemberg++=>Saarland++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Thaya++=>Amstetten++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Ulm++=>Neu-Ulm++,_ipregion:_Baden-Wurttemberg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Vienna++=>Muenster++,_ipregion:_Wien++=>Nordrhein-Westfalen++,_ipcountry:_Austria++=>Germany++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_ipcity:_Wommen++=>Wiesbaden++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_timezone:_-60.0++=>0.0++,_ipcity:_Gunzenhausen++=>Munich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_timezone:_-60.0++=>0.0++,_ipcity:_Sachsen++=>Vigo++,_ipregion:_Bayern++=>Galicia++,_ipcountry:_Germany++=>Spain++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+accept:_++=>*/*++,_timezone:_300.0++=>-60.0++,_fp2_pixelratio:_1.5++=>2++,_ipcity:_Montreal++=>Aachen++,_ipregion:_Quebec++=>Nordrhein-Westfalen++,_ipcountry:_Canada++=>Germany++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+agent:_Edge/15.15063++=>Edge/15.15254++,_accept:_++=>*/*++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+agent:_Edge/15.15063++=>Edge/15.15254++,_ipcity:_Dusseldorf++=>Dortmund++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+agent:_Edge/15.15063++=>Edge/15.15254++,_ipcity:_Wiesbaden++=>Freinsheim++,_ipregion:_Hessen++=>Rheinland-Pfalz++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_1++1++=>2++2++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_44100++=>48000++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_44100++=>48000++,_ipcity:_Bad_Kreuznach++=>Straas++,_ipregion:_Rheinland-Pfalz++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_44100++=>48000++,_ipcity:_Berlin++=>Bonn++,_ipregion:_Berlin++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_44100++=>48000++,_ipcity:_Oldenburg++=>Bremen++,_ipregion:_Niedersachsen++=>Bremen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_44100++=>48000++,_ipcity:_Papenburg++=>Frankfurt_am_Main++,_ipregion:_Niedersachsen++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_48000++=>44100++,_ipcity:_Bremen++=>Papenburg++,_ipregion:_Bremen++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_48000++=>44100++,_ipcity:_Delmenhorst++=>Oldenburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_48000++=>44100++,_ipcity:_Frankfurt_am_Main++=>Bielefeld++,_ipregion:_Hessen++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+audio:_48000++=>44100++,_ipcity:_Potsdam++=>Berlin++,_ipregion:_Brandenburg++=>Berlin++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+canvastest:_4a4937419e35cdb275bd3a2f3947341151408f59++=>6904f525ea2d08377e24522c3cccca033389dc82++,_ipcity:_Nuremberg++=>Hamburg++,_ipregion:_Bayern++=>Hamburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+canvastest:_6904f525ea2d08377e24522c3cccca033389dc82++=>4a4937419e35cdb275bd3a2f3947341151408f59++,_ipcity:_Hamburg++=>Saarbrucken++,_ipregion:_Hamburg++=>Saarland++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+cookie:_True++=>False++,_ipcity:_Ebersdorf++=>Bremen++,_ipregion:_Niedersachsen++=>Bremen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+cookie:_True++=>False++,_ipcity:_Neustrelitz++=>Oldenburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_1++=>1.60000002384++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_1++=>3++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_1++=>4++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_1.60000002384++=>1++,_ipcity:_Graz++=>Linz++,_ipregion:_Steiermark++=>Oberosterreich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_2++=>1++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_2++=>1++,_ipcity:_Berlin++=>Potsdam++,_ipregion:_Berlin++=>Brandenburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_2++=>1++,_ipcity:_Muenster++=>Aslage++,_ipregion:_Nordrhein-Westfalen++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_3++=>1++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_3++=>4++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_3++=>4++,_ipcity:_Dusseldorf++=>Dortmund++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_3++=>4++,_ipcity:_Rendsburg++=>Westerstede++,_ipregion:_Schleswig-Holstein++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_4++=>1++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+fp2_pixelratio:_4++=>1++,_ipcity:_Kleve++=>Dusseldorf++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Aachen++=>Dusseldorf++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Aachen++=>Dusseldorf++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Aslage++=>Osnabruck++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Augsburg-Lechviertel++=>Nuremberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Bad_Waldsee++=>Isny_im_Allgau++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Bamberg++=>Ingolstadt++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Berlin++=>Bielefeld++,_ipregion:_Berlin++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Berlin++=>Cottbus++,_ipregion:_Berlin++=>Brandenburg++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Berlin++=>Pohlitz++,_ipregion:_Berlin++=>Brandenburg++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Berlin++=>Wiesbaden++,_ipregion:_Berlin++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Bernau_bei_Berlin++=>Lichtenfels++,_ipregion:_Brandenburg++=>Bayern++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Bielefeld++=>Dortmund++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Bludenz++=>Vienna++,_ipregion:_Vorarlberg++=>Wien++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Bonn++=>Frankfurt_am_Main++,_ipregion:_Nordrhein-Westfalen++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Braunschweig++=>Hanover++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Breitenbach++=>Nuremberg++,_ipregion:_Rheinland-Pfalz++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Chemnitz++=>Dusseldorf++,_ipregion:_Sachsen++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Delmenhorst++=>Bremen++,_ipregion:_Niedersachsen++=>Bremen++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dikjendeel++=>Bonn++,_ipregion:_Schleswig-Holstein++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dortmund++=>Luebeck++,_ipregion:_Nordrhein-Westfalen++=>Schleswig-Holstein++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dresden++=>Freiburg++,_ipregion:_Sachsen++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dresden++=>Zwickau++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dusseldorf++=>Bonn++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dusseldorf++=>Dortmund++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dusseldorf++=>Hamburg++,_ipregion:_Nordrhein-Westfalen++=>Hamburg++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dusseldorf++=>Nuremberg++,_ipregion:_Nordrhein-Westfalen++=>Bayern++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Dusseldorf++=>Stuttgart++,_ipregion:_Nordrhein-Westfalen++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Elmshorn++=>Norderstedt++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Fockenberg-Limbach++=>Stuttgart++,_ipregion:_Rheinland-Pfalz++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Frankfurt_am_Main++=>Hamburg++,_ipregion:_Hessen++=>Hamburg++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Freiburg++=>Frankfurt_am_Main++,_ipregion:_Baden-Wurttemberg++=>Hessen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Freiburg++=>Karlsruhe++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Freiburg++=>Ulm++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Freiburg++=>Villingen-Schwenningen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Friedrichshafen++=>Nuremberg++,_ipregion:_Baden-Wurttemberg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Geesthacht++=>Kiel++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Gorlitz++=>Marsberg++,_ipregion:_Sachsen++=>Nordrhein-Westfalen++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Hamburg++=>Hanover++,_ipregion:_Hamburg++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Hamburg++=>Hanover++,_ipregion:_Hamburg++=>Niedersachsen++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Hamburg++=>Nuremberg++,_ipregion:_Hamburg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Hamburg++=>Osnabruck++,_ipregion:_Hamburg++=>Niedersachsen++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Hanover++=>Copenhagen++,_ipregion:_Niedersachsen++=>Hovedstaden++,_ipcountry:_Germany++=>Denmark++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Hanover++=>Hamburg++,_ipregion:_Niedersachsen++=>Hamburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Ingolstadt++=>Heidelberg++,_ipregion:_Bayern++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Isenburg++=>Dusseldorf++,_ipregion:_Rheinland-Pfalz++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Karlsruhe++=>Chemnitz++,_ipregion:_Baden-Wurttemberg++=>Sachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Karlsruhe++=>Dresden++,_ipregion:_Baden-Wurttemberg++=>Sachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Karlsruhe++=>Freiburg++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Karlsruhe++=>Munich++,_ipregion:_Baden-Wurttemberg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Koblenz++=>Hamburg++,_ipregion:_Thuringen++=>Hamburg++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Kramsach++=>Linz++,_ipregion:_Tirol++=>Oberosterreich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Langschlag++=>Scharnstein++,_ipregion:_Niederosterreich++=>Oberosterreich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Leipzig++=>Ingolstadt++,_ipregion:_Sachsen++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Mannheim++=>Munich++,_ipregion:_Baden-Wurttemberg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Maria_Enzersdorf++=>Vienna++,_ipregion:_Niederosterreich++=>Wien++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Marsberg++=>Gorlitz++,_ipregion:_Nordrhein-Westfalen++=>Sachsen++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Muenster++=>Dortmund++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Munich++=>Ahaus++,_ipregion:_Bayern++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Munich++=>Kiel++,_ipregion:_Bayern++=>Schleswig-Holstein++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Munich++=>Lauingen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Munich++=>Magdeburg++,_ipregion:_Bayern++=>Sachsen-Anhalt++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Noschenrode++=>Magdeburg++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Nuremberg++=>Klein_Ostiem++,_ipregion:_Bayern++=>Niedersachsen++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Nuremberg++=>Munich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Pohlitz++=>Berlin++,_ipregion:_Brandenburg++=>Berlin++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Pohlitz++=>Straas++,_ipregion:_Brandenburg++=>Bayern++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Potsdam++=>Berlin++,_ipregion:_Brandenburg++=>Berlin++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Potsdam++=>Munich++,_ipregion:_Brandenburg++=>Bayern++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Potsdam++=>Schwerin++,_ipregion:_Brandenburg++=>Mecklenburg-Vorpommern++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Reiff++=>Stuttgart++,_ipregion:_Rheinland-Pfalz++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Scharnstein++=>Thaya++,_ipregion:_Oberosterreich++=>Niederosterreich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Schenefeld++=>Koblenz++,_ipregion:_Schleswig-Holstein++=>Thuringen++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Schenefeld++=>Munich++,_ipregion:_Schleswig-Holstein++=>Bayern++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Schwerin++=>Potsdam++,_ipregion:_Mecklenburg-Vorpommern++=>Brandenburg++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Sinsheim++=>Stuttgart++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Spreedorf++=>Schonau-Berzdorf++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Straas++=>Ludwigshafen++,_ipregion:_Bayern++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Straubing++=>Simbach++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Stuttgart++=>Hanover++,_ipregion:_Baden-Wurttemberg++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Stuttgart++=>Heidelberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Uelzen++=>Braunschweig++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Ulm++=>Linz++,_ipregion:_Baden-Wurttemberg++=>Oberosterreich++,_ipcountry:_Germany++=>Austria++,_fp2_liedresolution:_True++=>False++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Ulm++=>Stuttgart++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Vienna++=>Eisenstadt++,_ipregion:_Wien++=>Burgenland++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Vienna++=>Maria_Enzersdorf++,_ipregion:_Wien++=>Niederosterreich++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Wiesbaden++=>Wesel++,_ipregion:_Hessen++=>Nordrhein-Westfalen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Wilhelmshaven++=>Hamburg++,_ipregion:_Niedersachsen++=>Hamburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Wommen++=>Saarbrucken++,_ipregion:_Hessen++=>Saarland++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Worbis++=>Sulzbach++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Wuerzburg++=>Aschaffenburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Wuerzburg++=>Mannheim++,_ipregion:_Bayern++=>Baden-Wurttemberg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Wuerzburg++=>Pohlitz++,_ipregion:_Bayern++=>Brandenburg++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Zeuthen++=>Bratislava++,_ipregion:_Brandenburg++=>Bratislavsky_kraj++,_ipcountry:_Germany++=>Slovakia++,_fp2_liedresolution:_False++=>True++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+ipcity:_Zinna++=>Zwickau++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+language:_q=0.5++=>q=0.8,en-GB++q=0.5,en++q=0.3++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+language:_q=0.8,de-DE++q=0.7,de++q=0.5,en-CA++q=0.3,en++q=0.2++=>q=0.5++,_canvastest:_370209a91d52d8081c873d9bfbc12baaf6dcb46a++=>affe9e0eba558728a035fc52f1c58c20ad1fbe67++,_ipcity:_Baden++=>Bonn++,_ipregion:_Aargau++=>Nordrhein-Westfalen++,_ipcountry:_Switzerland++=>Germany++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+language:_q=0.8,fr-FR++q=0.7,fr++q=0.5,en-GB++q=0.3,en++=>q=0.8,pl++q=0.6,fr-FR++q=0.4,fr++,_ipcity:_Siegen++=>Dusseldorf++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+timezone:_-420.0++=>-60.0++,_ipcity:_Da_Nang++=>Magdeburg++,_ipregion:_Da_Nang++=>Sachsen-Anhalt++,_ipcountry:_Viet_Nam++=>Germany++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+timezone:_-60.0++=>-120.0++,_ipcity:_Dortmund++=>George++,_ipregion:_Nordrhein-Westfalen++=>Western_Cape++,_ipcountry:_Germany++=>South_Africa++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+timezone:_-60.0++=>300.0++,_ipcity:_Bonn++=>Yallahs++,_ipregion:_Nordrhein-Westfalen++=>Saint_Thomas++,_ipcountry:_Germany++=>Jamaica++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+timezone:_-60.0++=>480.0++,_ipcity:_Stuttgart++=>Las_Vegas++,_ipregion:_Baden-Wurttemberg++=>Nevada++,_ipcountry:_Germany++=>United_States++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+timezone:_0.0++=>-60.0++,_ipcity:_Dortmund++=>Nunningen++,_ipregion:_Nordrhein-Westfalen++=>Niedersachsen++,_browser:_Edge_Mobile,_ 1 0.0036231884058
+timezone:_0.0++=>-60.0++,_ipcity:_Marrakech++=>Regensburg++,_ipregion:_Marrakech-Tensift-Al_Haouz++=>Bayern++,_ipcountry:_Morocco++=>Germany++,_browser:_Edge_Mobile,_ 1 0.0036231884058

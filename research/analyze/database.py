@@ -6,6 +6,7 @@ import hashlib
 from django.utils.encoding import smart_str, smart_unicode
 from sqlalchemy import create_engine
 from tqdm import *
+from feature_lists import *
 
 class Database():
 
@@ -21,6 +22,8 @@ class Database():
 
         self.__db_engine = create_engine("mysql+mysqldb://{}:{}@localhost/{}".format(username, password, database_name))
         self.__cursor = self.__db.cursor()
+
+        self.fingerprint_feature_list = get_fingerprint_feature_list()
 
     def get_db(self):
         return self.__db
@@ -198,7 +201,6 @@ class Database():
             hash_str = hashlib.sha256(noipfingerprint_str).hexdigest()
             df.at[idx, 'noipfingerprint'] = hash_str
 
-        df = rebuild_table(df)
         print ("Finished calculation, start to put back to csv")
         self.export_sql(df, aim_table)
         print ("Finished push to csv")
@@ -276,17 +278,117 @@ class Database():
         self.__field_names = [i[0] for i in self.__cursor.description]
         return self.__field_names
 
-    def rebuild_table(self, df, export_table = None):
+    def accept_httpheaders_patch(self, df):
         """
-        after generated pandas features, we sometimes need to rebuild the table
+        some of the accept and httpheader is not collected in the beginning
+        we just assume it haven't change from the beginning
         """
+        grouped = df.groupby('browserid')
+        print ('doing accept patch')
+        for key, cur_group in tqdm(grouped):
+            if cur_group['accept'].nunique() == 1:
+                continue
+            val = ''
+            for idx, row in cur_group.iterrows():
+                print row['accept']
+                if row['accept'] != '':
+                    val = row['accept']
+                    print val
+                    break
+
+            for idx, row in cur_group.iterrows():
+                if row['accept'] == '':
+                    df.at[idx, 'accept'] = val
+
+        print ('doing httpheaders patch')
+        for key, cur_group in tqdm(grouped):
+            if cur_group['httpheaders'].nunique() == 1:
+                continue
+            val = ''
+            for idx, row in cur_group.iterrows():
+                if row['httpheaders'] == None:
+                    continue
+                if row['httpheaders'].find('_') != -1:
+                    val = row['httpheaders']
+                    break
+
+            for idx, row in cur_group.iterrows():
+                if row['httpheaders'] == None or row['httpheaders'].find('_') == -1:
+                    print val
+                    df.at[idx, 'httpheaders'] = val
+                else:
+                    break
+        return df
+
+    def audio_patch(self, df):
+        """
+        if audio is not supported, maybe because of the bug.
+        we will change not supported to a value if belongs to a browserid and same IP and 
+        not supported in the middle of values
+        """
+        patched_num = 0
+        grouped = df.groupby('browserid')
+        for key, cur_group in tqdm(grouped):
+            pre_value = 'pre_value'
+            pre_row = []
+            for idx, row in cur_group.iterrows():
+                if pre_value == 'pre_value':
+                    pre_value = df.at[idx, 'audio']
+                    pre_row = df.iloc[idx]
+                    continue
+                cur_value = df.at[idx, 'audio']
+                if cur_value == 'not supported' and cur_value != pre_value:
+                    df.at[idx, 'audio'] = pre_value
+                    patched_num += 1
+
+            pre_value = df.at[idx, 'audio']
+            pre_row = df.iloc[idx]
+            
+        print '{} number of audio records patched'.format(patched_num)
+        return df
+
+    def partgpu_patch(self, df):
+        """
+        Edge v17 added ANGLE on top of gpu string
+        """
+        patched_num = 0
         for idx in tqdm(df.index):
             if df.at[idx, 'browser'] == 'Edge':
                 if 'ANGLE (' in df.at[idx, 'browserid']:
                     df.at[idx, 'browserid'] = df.at[idx, 'browserid'].replace('ANGLE (', '')
                     df.at[idx, 'partgpu'] = df.at[idx, 'partgpu'].replace('ANGLE (', '')
+            patched_num += 1
+
+        print '{} number of partgpu records patched'.format(patched_num)
+        return df
+
+    def generate_fingerprint(self, df, feature_list):
+        """
+        generate the browserfingerprint of the df
+        """
+        for idx in tqdm(df.index):
+            for feature in feature_list:
+                res_str += str(df.at[idx, feature])
+                if 'ip' not in feature:
+                    noipfingerprint_str += str(df.at[idx, feature] )
+
+            hash_str = hashlib.sha256(res_str).hexdigest()
+            df.at[idx, 'browserfingerprint'] = hash_str
+            hash_str = hashlib.sha256(noipfingerprint_str).hexdigest()
+            df.at[idx, 'noipfingerprint'] = hash_str
+
+        return df
+
+    def pandas_patches(self, df, export_table = None):
+        """
+        after generated pandas features, we sometimes need to rebuild the table
+        """
+        df = self.audio_patch(df)
+        #partgpu_patch(df)
+        #df = self.accept_httpheaders_patch(df)
+        df = generate_fingerprint(df, self.fingerprint_feature_list)
 
         if export_table != None:
             self.export_sql(df, export_table)
-        return df
 
+        return df

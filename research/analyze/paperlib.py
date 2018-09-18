@@ -560,7 +560,8 @@ class Paperlib():
 
         grouped = df.groupby('browserid')
         res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 'browser': [], 'os': [], 'browserversion': [], 'osversion': []}
-        for feature in self.feature_list:
+        feature_list = get_fingerprint_change_feature_list() 
+        for feature in feature_list:
             res[feature] = []
 
         pre_row = []
@@ -577,19 +578,8 @@ class Paperlib():
                 if row[browserfingerprint] == pre_fingerprint:
                     continue
 
-                res['IP'].append('{}=>{}'.format(pre_row['IP'], row['IP']))
-                res['browserid'].append(row['browserid'])
-                res['fromtime'].append(pre_row['time'])
-                res['totime'].append(row['time'])
-
-                browser_info = get_browser_version(row['agent'])
-                res['browser'].append(browser_info.split('#%')[0])
-                res['browserversion'].append(browser_info.split('#%')[1])
-                os_info = get_os_version(row['agent'])
-                res['os'].append(os_info.split('#%')[0])
-                res['osversion'].append(os_info.split('#%')[1])
-
-                for feature in self.feature_list:
+                changed = False
+                for feature in feature_list:
                     if feature not in row:
                         continue
                     if row[feature] != pre_row[feature]:
@@ -597,8 +587,31 @@ class Paperlib():
                             pre_row[feature], 
                             row[feature]) 
                         res[feature].append(difference)
+                        changed = True
                     else:
                         res[feature].append('')
+
+                if changed == False:
+                    for feature in feature_list:
+                        del res[feature][-1]
+                    continue
+
+                res['IP'].append('{}=>{}'.format(pre_row['IP'], row['IP']))
+                res['browserid'].append(row['browserid'])
+                res['fromtime'].append(pre_row['time'])
+                res['totime'].append(row['time'])
+
+                browser_info = get_browser_version(row['agent'])
+                res['browser'].append(browser_info.split('#%')[0])
+                res['tobrowserversion'].append(browser_info.split('#%')[1])
+                browser_info = get_browser_version(pre_row['agent'])
+                res['frombrowserversion'].append(browser_info.split('#%')[1])
+
+                os_info = get_os_version(row['agent'])
+                res['os'].append(os_info.split('#%')[0])
+                res['toosversion'].append(os_info.split('#%')[1])
+                os_info = get_os_version(pre_row['agent'])
+                res['fromosversion'].append(os_info.split('#%')[0])
 
                 pre_fingerprint = row[browserfingerprint]
                 pre_row = row
@@ -626,8 +639,6 @@ class Paperlib():
 
         res = {}
         browser_idx = feature_list.index('browser')
-
-
         for key, cur_group in tqdm(grouped):
             browser = key[browser_idx]
             cur_key_str = ''
@@ -651,9 +662,11 @@ class Paperlib():
             f = safeopen('./filteredchangereason/{}'.format(browser),
                     'w')
             for string in sorted_res[browser]:
-                f.write('{} {} {}\n'.format(string[0], string[1], 
+                f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
+                    string[1], 
                     float(string[1]) / float(res[browser]['total'])))
             f.close()
+
 
     def rebuild_fingerprintchanges(self, 
             from_table = 'fingerprintchanges', 

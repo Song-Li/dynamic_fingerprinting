@@ -1,4 +1,4 @@
 total 3 1.0
-accept: ++=>*/*++, ipcity: Traunstein++=>Wald an der Alz++, browser: Netscape,  1 0.333333333333
-browser: Netscape,  1 0.333333333333
-ipcity: Ingolstadt++=>Traunstein++, browser: Netscape,  1 0.333333333333
+accept:_++=>*/*++,_ipcity:_Traunstein++=>Wald_an_der_Alz++,_browser:_Netscape,_ 1 0.333333333333
+browser:_Netscape,_ 1 0.333333333333
+ipcity:_Ingolstadt++=>Traunstein++,_browser:_Netscape,_ 1 0.333333333333

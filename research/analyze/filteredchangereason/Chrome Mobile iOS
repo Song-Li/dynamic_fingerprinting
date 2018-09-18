@@ -1,382 +1,382 @@
 total 757 1.0
-audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  30 0.0396301188904
-browser: Chrome Mobile iOS,  26 0.0343461030383
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  26 0.0343461030383
-audio: 48000++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  25 0.0330250990753
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  24 0.0317040951123
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, browser: Chrome Mobile iOS,  21 0.0277410832232
-fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  21 0.0277410832232
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  19 0.0250990752972
-audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  17 0.0224570673712
-audio: not supported++=>48000++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  14 0.0184940554822
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  12 0.0158520475561
-fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  12 0.0158520475561
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Chrome Mobile iOS,  9 0.0118890356671
-canvastest: 7572a0f9a1dc005fedbba709f71909743976db0d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  9 0.0118890356671
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, browser: Chrome Mobile iOS,  7 0.00924702774108
-agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, browser: Chrome Mobile iOS,  6 0.00792602377807
-audio: 44100++=>48000++, browser: Chrome Mobile iOS,  6 0.00792602377807
-audio: 48000++=>44100++, browser: Chrome Mobile iOS,  6 0.00792602377807
-audio: not supported++=>44100++0++1++0++2++explicit++speakers++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  6 0.00792602377807
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  6 0.00792602377807
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  6 0.00792602377807
-plugins: ++=>Chrome PDF Plugin++Chrome PDF Viewer++Native Client++Widevine Content Decryption Module++, fp2_pixelratio: 2.00000008941++=>1.75++, fp2_liedbrowser: True++=>False++, browser: Chrome Mobile iOS,  6 0.00792602377807
-accept: ++=>*/*++, browser: Chrome Mobile iOS,  5 0.00660501981506
-audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  5 0.00660501981506
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, browser: Chrome Mobile iOS,  5 0.00660501981506
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  5 0.00660501981506
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, browser: Chrome Mobile iOS,  4 0.00528401585205
-canvastest: 0084f52315f069e4c003170da2f07b3104f6cfc1++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Chrome Mobile iOS,  4 0.00528401585205
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  4 0.00528401585205
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>82272d1456b62fefec63828f1552d6411734fa9d++, browser: Chrome Mobile iOS,  4 0.00528401585205
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  4 0.00528401585205
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>82272d1456b62fefec63828f1552d6411734fa9d++, browser: Chrome Mobile iOS,  4 0.00528401585205
-agent: 11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  3 0.00396301188904
-agent: 11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++, browser: Chrome Mobile iOS,  3 0.00396301188904
-audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  3 0.00396301188904
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  3 0.00396301188904
-canvastest: 22553ac53648bc4f6e67868c0e84e7e74086c39a++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  3 0.00396301188904
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++, browser: Chrome Mobile iOS,  3 0.00396301188904
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  3 0.00396301188904
-canvastest: 7572a0f9a1dc005fedbba709f71909743976db0d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  3 0.00396301188904
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  3 0.00396301188904
-plugins: Chrome PDF Plugin++Chrome PDF Viewer++Native Client++Widevine Content Decryption Module++=>++, fp2_pixelratio: 1.75++=>2.00000008941++, fp2_liedbrowser: False++=>True++, browser: Chrome Mobile iOS,  3 0.00396301188904
-agent: 11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++, browser: Chrome Mobile iOS,  2 0.00264200792602
-agent: 11_1_2++Mobile/15B202++=>11_2++Mobile/15C114++, browser: Chrome Mobile iOS,  2 0.00264200792602
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  2 0.00264200792602
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  2 0.00264200792602
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, browser: Chrome Mobile iOS,  2 0.00264200792602
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  2 0.00264200792602
-agent: CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++, browser: Chrome Mobile iOS,  2 0.00264200792602
-audio: 48000++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 0bc67d53749d777cade67a0a474f4597be501c48++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 15e2c1ef964e1fb0556c20f95d0abb56ab2720d1++=>e60e224e7b49b609516648d2d07721631182d708++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 22553ac53648bc4f6e67868c0e84e7e74086c39a++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>82272d1456b62fefec63828f1552d6411734fa9d++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 557bca43a0e41832d58349a538ccac91ed713ca3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 5d19d3dfad6b34770514d9dde40fdb1bba730c74++=>748d32097001162930bd828457da256b3167ba09++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: 96a2590803f83acf76972c8603b1f0d314b73583++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Chrome Mobile iOS,  2 0.00264200792602
-canvastest: eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++, browser: Chrome Mobile iOS,  2 0.00264200792602
-fp2_pixelratio: 2++=>3++, browser: Chrome Mobile iOS,  2 0.00264200792602
-fp2_pixelratio: 3++=>2++, browser: Chrome Mobile iOS,  2 0.00264200792602
-timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  2 0.00264200792602
-accept: ++=>*/*++, canvastest: 4c47105624de08eeed6bbb53016402d6a7017196++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++, ipcity: Badagry++=>Abuja++, ipregion: Lagos++=>Abuja Federal Capital Territory++, browser: Chrome Mobile iOS,  1 0.00132100396301
-accept: ++=>*/*++, canvastest: 5bf70d8119b0953b10bef0fa2fdd62c33f92a971++=>bd554a7d5da9293cf3fed52d2052b2b948a14b77++, fp2_pixelratio: 3++=>2++, browser: Chrome Mobile iOS,  1 0.00132100396301
-accept: ++=>*/*++, canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Chrome Mobile iOS,  1 0.00132100396301
-accept: ++=>*/*++, ipcity: Aigburth++=>Formby++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_0_3++CriOS/62.0.3202.70++Mobile/15A432++=>11_2_1++CriOS/64.0.3282.112++Mobile/15C153++, accept: ++=>*/*++, timezone: 300.0++=>240.0++, ipcity: Knoxville++=>Columbia++, ipregion: Tennessee++=>South Carolina++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_0_3++Mobile/15A432++=>11_2_5++Mobile/15D60++, accept: ++=>*/*++, ipcity: Venustiano Carranza++=>Gustavo A. Madero++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1++CriOS/63.0.3239.73++Mobile/15B93++=>11_3++CriOS/65.0.3325.152++Mobile/15E216++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_2++CriOS/63.0.3239.73++Mobile/15C114++, canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>b36258e0149a470d6b66d30338495afd31e01d38++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, ipcity: Lagos++=>Ejirin++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++, ipcity: Miguel Hidalgo++=>Leon++, ipregion: Ciudad de Mexico++=>Guanajuato++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++Mobile/15B150++=>11_1_2++Mobile/15B202++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++Mobile/15B150++=>11_1_2++Mobile/15B202++, canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_1++Mobile/15B150++=>11_2_1++Mobile/15C153++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_1++CriOS/64.0.3282.112++Mobile/15C153++, accept: ++=>*/*++, ipcity: Smyrna++=>Atlanta++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 48000++=>16000++, ipcity: Innsbruck++=>Vienna++, ipregion: Tirol++=>Wien++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/63.0.3239.73++Mobile/15B202++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/63.0.3239.73++Mobile/15B202++=>11_2_6++CriOS/64.0.3282.112++Mobile/15D100++, accept: ++=>*/*++, ipcity: Cottbus++=>Potsdam++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/63.0.3239.73++Mobile/15B202++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++, accept: ++=>*/*++, timezone: -60.0++=>-480.0++, ipcity: Siegen++=>Singapore++, ipregion: Nordrhein-Westfalen++=>Singapore++, ipcountry: Germany++=>Singapore++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++CriOS/64.0.3282.112++Mobile/15B202++=>11_2_6++CriOS/66.0.3359.122++Mobile/15D100++, timezone: -60.0++=>-120.0++, ipcity: Nuremberg++=>Stuttgart++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++Mobile/15B202++=>11_2++Mobile/15C114++, ipcity: Amstetten++=>Salzburg++, ipregion: Niederosterreich++=>Salzburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++Mobile/15B202++=>11_2_1++Mobile/15C153++, ipcity: Guadalajara++=>Ciudad Juarez++, ipregion: Jalisco++=>Chihuahua++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++Mobile/15B202++=>11_2_1++Mobile/15C153++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_1_2++Mobile/15B202++=>11_2_1++Mobile/15C153++, timezone: -60.0++=>0.0++, ipcity: Wommen++=>London++, ipregion: Hessen++=>England++, ipcountry: Germany++=>United Kingdom++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++, ipcity: Dusseldorf++=>Dohle++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++, ipcity: Heidelberg++=>Freudenstadt++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_2++CriOS/63.0.3239.73++Mobile/15C202++, ipcity: Dortmund++=>Vechta++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++, accept: ++=>*/*++, ipcity: Salzburg++=>Vienna++, ipregion: Salzburg++=>Wien++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2++Mobile/15C114++=>11_2_1++Mobile/15C153++, ipcity: Nuremberg++=>Geldern++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2++Mobile/15C114++=>11_2_2++Mobile/15C202++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++, ipcity: Vienna++=>Maria Enzersdorf++, ipregion: Wien++=>Niederosterreich++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++, accept: ++=>*/*++, canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>1fe5be4b690e76fc0136786035d193266afa6308++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++, accept: ++=>*/*++, ipcity: Los Angeles++=>Riverside++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++, accept: ++=>*/*++, ipcity: Turku++=>Helsinki++, ipregion: Varsinais-Suomi++=>Uusimaa++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_3_1++CriOS/67.0.3396.59++Mobile/15E302++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, audio: 48000++=>44100++, ipcity: Bielefeld++=>Dusseldorf++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, audio: 48000++=>44100++, ipcity: Schwerin++=>Frankfurt am Main++, ipregion: Mecklenburg-Vorpommern++=>Hessen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Llansantffraid Glan Conwy++=>Toxteth++, ipregion: Wales++=>England++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, ipcity: Ahaus++=>Karlsruhe++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, ipcity: Dusseldorf++=>Bielefeld++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, ipcity: Dusseldorf++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, ipcity: Schortens++=>Bad Zwischenahn++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++, ipcity: Schwalmstadt++=>Erfurt++, ipregion: Hessen++=>Thuringen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_5++Mobile/15D60++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_1++Mobile/15C153++=>11_2_6++Mobile/15D100++, accept: ++=>*/*++, ipcity: Bielefeld++=>Hanover++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++, accept: ++=>*/*++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++, accept: ++=>*/*++, timezone: -60.0++=>-180.0++, audio: 48000++=>44100++, ipcity: Bielefeld++=>Istanbul++, ipregion: Nordrhein-Westfalen++=>Istanbul++, ipcountry: Germany++=>Turkey++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_3++CriOS/66.0.3359.122++Mobile/15E216++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Hanover++=>Kohnsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_3_1++CriOS/67.0.3396.69++Mobile/15E302++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++CriOS/64.0.3282.112++Mobile/15C202++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++, timezone: 360.0++=>300.0++, canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++CriOS/64.0.3282.112++Mobile/15C202++=>11_3_1++CriOS/66.0.3359.122++Mobile/15E302++, timezone: -60.0++=>-120.0++, canvastest: 78c8693544bf2e846da0b2bc134673b95d7d3c72++=>96a2590803f83acf76972c8603b1f0d314b73583++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++, accept: ++=>*/*++, audio: 48000++=>44100++, ipcity: Lansing++=>Akron++, ipregion: Michigan++=>Ohio++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++, audio: 48000++=>44100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++, ipcity: Bielefeld++=>Wiesbaden++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++, timezone: 0.0++=>-60.0++, canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Boxgrove Park++=>Aulla++, ipregion: England++=>Toscana++, ipcountry: United Kingdom++=>Italy++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_2++Mobile/15C202++=>11_2_6++Mobile/15D100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++CriOS/63.0.3239.73++Mobile/15D60++=>11_2_6++CriOS/64.0.3282.112++Mobile/15D100++, timezone: -60.0++=>-480.0++, ipcity: Aulla++=>Hong Kong++, ipregion: Toscana++=>Hong Kong (SAR)++, ipcountry: Italy++=>Hong Kong++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++, ipcity: Vienna++=>Dornbirn++, ipregion: Wien++=>Vorarlberg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_3++CriOS/66.0.3359.122++Mobile/15E216++, timezone: -60.0++=>-120.0++, ipcity: Hanover++=>Frankfurt am Main++, ipregion: Niedersachsen++=>Hessen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_3_1++CriOS/66.0.3359.122++Mobile/15E302++, timezone: -60.0++=>-120.0++, ipcity: Ramstein-Miesenbach++=>Osnabruck++, ipregion: Rheinland-Pfalz++=>Niedersachsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, audio: 44100++=>48000++, ipcity: Akron++=>Grandville++, ipregion: Ohio++=>Michigan++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, ipcity: Aachen++=>Potsdam++, ipregion: Nordrhein-Westfalen++=>Brandenburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, ipcity: Basel++=>Lachen++, ipregion: Basel-Stadt++=>Schwyz++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++, ipcity: Jyvaskyla++=>Helsinki++, ipregion: Keski-Suomi++=>Uusimaa++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++CriOS/64.0.3282.112++Mobile/15D100++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++, timezone: -60.0++=>-120.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++CriOS/64.0.3282.112++Mobile/15D100++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++, timezone: -60.0++=>-120.0++, ipcity: Marsberg++=>Dusseldorf++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++CriOS/65.0.3325.112++Mobile/15D100++=>11_3++CriOS/66.0.3359.106++Mobile/15E216++, timezone: -60.0++=>-120.0++, ipcity: Dresden++=>Leipzig++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++CriOS/65.0.3325.152++Mobile/15D100++=>11_3_1++CriOS/67.0.3396.87++Mobile/15E302++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++, ipcity: Dortmund++=>Isenburg++, ipregion: Nordrhein-Westfalen++=>Rheinland-Pfalz++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++, ipcity: Freiburg++=>Stuttgart++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++, timezone: -60.0++=>-120.0++, ipcity: Dortmund++=>Bielefeld++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++, timezone: -60.0++=>-120.0++, ipcity: Munich++=>Freiburg++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_3++CriOS/65.0.3325.152++Mobile/15E216++=>11_3_1++CriOS/66.0.3359.122++Mobile/15E302++, ipcity: Freiburg++=>Chemnitz++, ipregion: Baden-Wurttemberg++=>Sachsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_3++Mobile/15E216++=>11_3_1++Mobile/15E302++, audio: 48000++=>22050++, ipcity: Leipzig++=>Dresden++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_3_1++CriOS/66.0.3359.122++Mobile/15E302++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_3_1++CriOS/66.0.3359.122++Mobile/15E302++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++, ipcity: Chemnitz++=>Aschaffenburg++, ipregion: Sachsen++=>Bayern++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_3_1++CriOS/66.0.3359.122++Mobile/15E302++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++, ipcity: Rippelbaum++=>Bonn++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: 11_3_1++CriOS/67.0.3396.69++Mobile/15E302++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>7572a0f9a1dc005fedbba709f71909743976db0d++, ipcity: London++=>Saltney++, ipregion: England++=>Wales++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, ipcity: Copenhagen++=>Kolding++, ipregion: Hovedstaden++=>Syddanmark++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, ipcity: Denver++=>Littleton++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, timezone: -240.0++=>-660.0++, ipcity: Dubai++=>Melbourne++, ipregion: Dubayy++=>Victoria++, ipcountry: United Arab Emirates++=>Australia++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++, timezone: 0.0++=>-60.0++, ipcity: Casablanca++=>Waldshut-Tiengen++, ipregion: Grand Casablanca++=>Baden-Wurttemberg++, ipcountry: Morocco++=>Germany++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/64.0.3282.112++, accept: ++=>*/*++, ipcity: Stuttgart++=>Freiburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/64.0.3282.112++, canvastest: 1fe5be4b690e76fc0136786035d193266afa6308++=>78c8693544bf2e846da0b2bc134673b95d7d3c72++, audio: 48000++=>44100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/62.0.3202.70++=>CriOS/66.0.3359.122++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++, accept: ++=>*/*++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, ipcity: Abuja++=>Ibadan++, ipregion: Abuja Federal Capital Territory++=>Oyo++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++, accept: ++=>*/*++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++, accept: ++=>*/*++, timezone: 300.0++=>360.0++, ipcity: Slidell++=>Minneapolis++, ipregion: Louisiana++=>Minnesota++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++, ipcity: East Lansing++=>Lansing++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++, ipcity: Karlsruhe++=>Halle (Saale)++, ipregion: Baden-Wurttemberg++=>Sachsen-Anhalt++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/65.0.3325.152++, accept: ++=>*/*++, canvastest: b3ebec7d00307980098d289471df8d11e548363b++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/63.0.3239.73++=>CriOS/65.0.3325.152++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.112++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.112++, ipcity: Buxtehude++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, ipcity: Helsinki++=>Mellila++, ipregion: Uusimaa++=>Varsinais-Suomi++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Engelsbach++=>Fulda++, ipregion: Thuringen++=>Hessen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, ipcity: Bielefeld++=>Dortmund++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, ipcity: Gustavo A. Madero++=>Colonia Nativitas++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, ipcity: Maastricht++=>Mouscron++, ipregion: Limburg++=>Hainaut++, ipcountry: Netherlands++=>Belgium++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, timezone: -60.0++=>-120.0++, ipcity: Altmuhldorf++=>Murnau am Staffelsee++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, timezone: -60.0++=>-120.0++, ipcity: Potsdam++=>Sulzbach++, ipregion: Brandenburg++=>Thuringen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, timezone: 300.0++=>240.0++, audio: 44100++=>48000++, ipcity: Marietta++=>Murfreesboro++, ipregion: Georgia++=>Tennessee++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, timezone: 360.0++=>240.0++, ipcity: Kansas City++=>Akron++, ipregion: Missouri++=>Ohio++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++, timezone: 480.0++=>420.0++, ipcity: Los Angeles++=>Rohnert Park++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/64.0.3282.112++=>CriOS/66.0.3359.122++, timezone: -60.0++=>-120.0++, ipcity: Ramstein-Miesenbach++=>Augsburg-Lechviertel++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/65.0.3325.112++=>CriOS/65.0.3325.152++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/65.0.3325.112++=>CriOS/65.0.3325.152++, canvastest: 15e2c1ef964e1fb0556c20f95d0abb56ab2720d1++=>104b58373f69ed67cfc8fb3ec7b280de97031233++, ipcity: Steinsfurt++=>Palma++, ipregion: Baden-Wurttemberg++=>Illes Balears++, ipcountry: Germany++=>Spain++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++, canvastest: 2cffaf24a87982340005797c23866a9a0857bb4c++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++, ipcity: Chemnitz++=>Wieseck++, ipregion: Sachsen++=>Hessen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++, ipcity: Klagenfurt am Woerthersee++=>Thaya++, ipregion: Karnten++=>Niederosterreich++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++, timezone: -60.0++=>-120.0++, canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++, ipcity: Fulda++=>Sulzbach++, ipregion: Hessen++=>Thuringen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/66.0.3359.122++=>CriOS/67.0.3396.69++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/66.0.3359.122++=>CriOS/67.0.3396.87++, canvastest: 946d8d375868fd2f5acaf2e56c9b8222d12e7e26++=>d34b694e17b527817870d13567134c96856dace0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/67.0.3396.59++=>CriOS/67.0.3396.69++, audio: 44100++=>48000++, ipcity: Dusseldorf++=>Delmenhorst++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++, ipcity: Aschaffenburg++=>Bielefeld++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++, ipcity: Bonn++=>Rippelbaum++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++, ipcity: Delmenhorst++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: Mobile/15D5037e++=>Mobile/15D5057a++, ipcity: Dortmund++=>Dusseldorf++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: Mobile/15D5057a++=>Mobile/15D60++, browser: Chrome Mobile iOS,  1 0.00132100396301
-agent: Mobile/15F5071a++=>Mobile/15F5079a++, canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++, ipcity: Luebeck++=>Horath++, ipregion: Schleswig-Holstein++=>Rheinland-Pfalz++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 16000++=>48000++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 22050++=>44100++, ipcity: Elmshorn++=>Nuremberg++, ipregion: Schleswig-Holstein++=>Bayern++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 22050++=>48000++, ipcity: Dresden++=>Stuttgart++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, ipcity: Minneapolis++=>Forest Lake++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++=>22050++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++=>48000++, ipcity: Atlanta++=>Birmingham++, ipregion: Georgia++=>Alabama++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++=>48000++, ipcity: Frankfurt am Main++=>Schwerin++, ipregion: Hessen++=>Mecklenburg-Vorpommern++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++=>48000++, ipcity: Lagos++=>Abuja++, ipregion: Lagos++=>Abuja Federal Capital Territory++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 44100++=>48000++, ipcity: Saarbrucken++=>Delmenhorst++, ipregion: Saarland++=>Niedersachsen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++0++1++0++2++explicit++speakers++=>not supported++, ipcity: Mellila++=>Varkaus++, ipregion: Varsinais-Suomi++=>Pohjois-Savo++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++0++1++0++2++explicit++speakers++=>not supported++, ipcity: Tornio++=>Anjala++, ipregion: Lappi++=>Kymenlaakso++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++=>16000++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++=>16000++, ipcity: Braunschweig++=>Berlin++, ipregion: Niedersachsen++=>Berlin++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++=>44100++, ipcity: Birmingham++=>Atlanta++, ipregion: Alabama++=>Georgia++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++=>44100++, ipcity: Hanover++=>Bielefeld++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++=>44100++, ipcity: Ibadan++=>Bonny++, ipregion: Oyo++=>Rivers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: 48000++=>44100++, ipcity: Lexington++=>Marietta++, ipregion: North Carolina++=>Georgia++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>44100++0++1++0++2++explicit++speakers++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>44100++0++1++0++2++explicit++speakers++, ipcity: Ejirin++=>Asaba++, ipregion: Lagos++=>Delta++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>48000++0++1++0++2++explicit++speakers++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>48000++0++1++0++2++explicit++speakers++, ipcity: Anjala++=>Orivesi++, ipregion: Kymenlaakso++=>Pirkanmaa++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>48000++0++1++0++2++explicit++speakers++, ipcity: Helsinki++=>Jyvaskyla++, ipregion: Uusimaa++=>Keski-Suomi++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>48000++0++1++0++2++explicit++speakers++, ipcity: Hollola++=>Imatra++, ipregion: Paijat-Hame++=>Etela-Karjala++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-audio: not supported++=>48000++0++1++0++2++explicit++speakers++, ipcity: Luhanka++=>Turku++, ipregion: Keski-Suomi++=>Varsinais-Suomi++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 0084f52315f069e4c003170da2f07b3104f6cfc1++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 0084f52315f069e4c003170da2f07b3104f6cfc1++=>96a2590803f83acf76972c8603b1f0d314b73583++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 0a2136bba021ffce24044e955669758b0fd4ef4d++=>0bc67d53749d777cade67a0a474f4597be501c48++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 0bc67d53749d777cade67a0a474f4597be501c48++=>4c47105624de08eeed6bbb53016402d6a7017196++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 0bc67d53749d777cade67a0a474f4597be501c48++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 0bc67d53749d777cade67a0a474f4597be501c48++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++, ipcity: Port Harcourt++=>Badagry++, ipregion: Rivers++=>Lagos++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 14141036f0b9aebf696579e4051f4670d624d2e0++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++, ipcity: Abuja++=>Port Harcourt++, ipregion: Abuja Federal Capital Territory++=>Rivers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 199cb0d00b16ce2782cc26c04d4ceec21a6f3a1e++=>c517ac91f340046384df8c1b0d1cfa3fadd947a8++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 22553ac53648bc4f6e67868c0e84e7e74086c39a++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 25f7fa1037d4a3afe8706a130978e3449a07ab70++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2837ac8904cd01c1c0364feda4a786a391ea1151++=>0bc67d53749d777cade67a0a474f4597be501c48++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2bc54ec6fa861dc05a08f97d273cb1096a09e39e++=>15e2c1ef964e1fb0556c20f95d0abb56ab2720d1++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2cffaf24a87982340005797c23866a9a0857bb4c++=>b3ebec7d00307980098d289471df8d11e548363b++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>25f7fa1037d4a3afe8706a130978e3449a07ab70++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>5842be8d5b39775e3dbdcf018342828743927391++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, ipcity: Frankfurt am Main++=>Corlu++, ipregion: Hessen++=>Tekirdag++, ipcountry: Germany++=>Turkey++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, ipcity: Tarporley++=>Childwall++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, audio: 48000++=>44100++, ipcity: Abuja++=>Lagos++, ipregion: Abuja Federal Capital Territory++=>Lagos++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, ipcity: Llandudno Junction++=>Hough Green++, ipregion: Wales++=>England++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, ipcity: Tattenhall++=>London++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++, ipcity: Wervin++=>Halewood++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, audio: 44100++=>48000++, ipcity: Ibadan++=>Bonny++, ipregion: Oyo++=>Rivers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, ipcity: Childwall++=>Penmaenmawr++, ipregion: England++=>Wales++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, ipcity: Hough Green++=>Bodelwyddan++, ipregion: England++=>Wales++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, ipcity: Roby++=>Toxteth++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, ipcity: Toxteth++=>Wervin++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, ipcity: Asaba++=>Abuja++, ipregion: Delta++=>Abuja Federal Capital Territory++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, ipcity: Lagos++=>Port Harcourt++, ipregion: Lagos++=>Rivers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, ipcity: Ritzebuttel++=>Sandstedt++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 4c47105624de08eeed6bbb53016402d6a7017196++=>14141036f0b9aebf696579e4051f4670d624d2e0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Knutsford++=>Huyton Quarry++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>82272d1456b62fefec63828f1552d6411734fa9d++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, audio: 44100++=>48000++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>f1229b291d9f4b63c8e3c14b2c0895f54f1d5468++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 557bca43a0e41832d58349a538ccac91ed713ca3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, ipcity: Bodelwyddan++=>Aigburth++, ipregion: Wales++=>England++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 5842be8d5b39775e3dbdcf018342828743927391++=>82272d1456b62fefec63828f1552d6411734fa9d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 748d32097001162930bd828457da256b3167ba09++=>5d19d3dfad6b34770514d9dde40fdb1bba730c74++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 748d32097001162930bd828457da256b3167ba09++=>b30a385e3d52cc907ad4b3cb9acfbd32b8186c95++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 7572a0f9a1dc005fedbba709f71909743976db0d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Toxteth++=>Llansantffraid Glan Conwy++, ipregion: England++=>Wales++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 7572a0f9a1dc005fedbba709f71909743976db0d++=>557bca43a0e41832d58349a538ccac91ed713ca3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 7572a0f9a1dc005fedbba709f71909743976db0d++=>5842be8d5b39775e3dbdcf018342828743927391++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 7572a0f9a1dc005fedbba709f71909743976db0d++=>ba437f1452ff3b055681cabeeb6bf1437c222dc5++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>557bca43a0e41832d58349a538ccac91ed713ca3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, audio: 44100++=>48000++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, audio: 44100++=>16000++, ipcity: Penmaenmawr++=>Knutsford++, ipregion: Wales++=>England++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, audio: 48000++=>44100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, ipcity: Sandstedt++=>Papenburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Bonny++=>Ibadan++, ipregion: Rivers++=>Oyo++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>82272d1456b62fefec63828f1552d6411734fa9d++, ipcity: Saltney++=>Roby++, ipregion: Wales++=>England++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>ba437f1452ff3b055681cabeeb6bf1437c222dc5++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, ipcity: Richardson++=>Houston++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++, audio: 48000++=>44100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++, ipcity: Maria Enzersdorf++=>Mattersburg++, ipregion: Niederosterreich++=>Burgenland++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>7572a0f9a1dc005fedbba709f71909743976db0d++, audio: 16000++=>44100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>7572a0f9a1dc005fedbba709f71909743976db0d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>82272d1456b62fefec63828f1552d6411734fa9d++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 946d8d375868fd2f5acaf2e56c9b8222d12e7e26++=>23f1b7c80b3e237ed7011f136101bb6b9ec54113++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 946d8d375868fd2f5acaf2e56c9b8222d12e7e26++=>2cffaf24a87982340005797c23866a9a0857bb4c++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 96a2590803f83acf76972c8603b1f0d314b73583++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, ipcity: Houston++=>Richardson++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: 96a2590803f83acf76972c8603b1f0d314b73583++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: a454fe98439b3d4a5c0efaf0004f074337aad04d++=>c517ac91f340046384df8c1b0d1cfa3fadd947a8++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: abf1a3f1d4a2c42ab414e6d8207821d73decd4db++=>0bc67d53749d777cade67a0a474f4597be501c48++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, audio: not supported++=>48000++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Abuja++=>Lagos++, ipregion: Abuja Federal Capital Territory++=>Lagos++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Papenburg++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, ipcity: Port Harcourt++=>Enugu++, ipregion: Rivers++=>Enugu++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>82272d1456b62fefec63828f1552d6411734fa9d++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>bbdfc530dd0d1da974eb829271f17f9e9529a94d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b30a385e3d52cc907ad4b3cb9acfbd32b8186c95++=>c8c745aa31b78fc171667db627e4bceb87572c07++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: b36258e0149a470d6b66d30338495afd31e01d38++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: ba437f1452ff3b055681cabeeb6bf1437c222dc5++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: ba437f1452ff3b055681cabeeb6bf1437c222dc5++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: bbdfc530dd0d1da974eb829271f17f9e9529a94d++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>0084f52315f069e4c003170da2f07b3104f6cfc1++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, ipcity: Jakarta++=>Semarang++, ipregion: Jakarta Raya++=>Jawa Tengah++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: d55f22716b1c29b14aec95ee785ed734a1ed2437++=>4c47105624de08eeed6bbb53016402d6a7017196++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: d55f22716b1c29b14aec95ee785ed734a1ed2437++=>abf1a3f1d4a2c42ab414e6d8207821d73decd4db++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: d55f22716b1c29b14aec95ee785ed734a1ed2437++=>eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: d55f22716b1c29b14aec95ee785ed734a1ed2437++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: d55f22716b1c29b14aec95ee785ed734a1ed2437++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: d55f22716b1c29b14aec95ee785ed734a1ed2437++=>fc1fbbf44a3ef5c9da2623a4397f77fd46109ee7++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: dbc6a079285705c38aa1de01974b65f18f2f82cd++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, audio: 48000++=>44100++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, ipcity: Houston++=>Richardson++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>96a2590803f83acf76972c8603b1f0d314b73583++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: e60e224e7b49b609516648d2d07721631182d708++=>2bc54ec6fa861dc05a08f97d273cb1096a09e39e++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++, audio: 44100++0++1++0++2++explicit++speakers++=>not supported++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: ec9c298d550bca8ccc77d8e7df2a488b6725f76b++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++, ipcity: Hanover++=>Nuremberg++, ipregion: Niedersachsen++=>Bayern++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f1229b291d9f4b63c8e3c14b2c0895f54f1d5468++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>0a2136bba021ffce24044e955669758b0fd4ef4d++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>0bc67d53749d777cade67a0a474f4597be501c48++, audio: not supported++=>44100++0++1++0++2++explicit++speakers++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>2837ac8904cd01c1c0364feda4a786a391ea1151++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: f7fb26cc3e7e6f85e2e019ab8139b2702e270a0e++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++, browser: Chrome Mobile iOS,  1 0.00132100396301
-canvastest: fc1fbbf44a3ef5c9da2623a4397f77fd46109ee7++=>0bc67d53749d777cade67a0a474f4597be501c48++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-fp2_pixelratio: 1.75++=>2.00000008941++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Atlanta++=>Slidell++, ipregion: Georgia++=>Louisiana++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Formby++=>Boxgrove Park++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Frankfurt am Main++=>Dortmund++, ipregion: Hessen++=>Nordrhein-Westfalen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Halewood++=>Haydock++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Haydock++=>Tarporley++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Huyton Quarry++=>Llandudno Junction++, ipregion: England++=>Wales++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Imatra++=>Luhanka++, ipregion: Etela-Karjala++=>Keski-Suomi++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Lagerdorf++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Munich++=>Ahaus++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: New York City++=>Brussels++, ipregion: New York++=>Brussels Hoofdstedelijk Gewest++, ipcountry: United States++=>Belgium++, fp2_liedresolution: True++=>False++, browser: Chrome Mobile iOS,  1 0.00132100396301
-ipcity: Stuttgart++=>Mannheim++, browser: Chrome Mobile iOS,  1 0.00132100396301
-language: en-us++=>en-au++, ipcity: Kalanaur++=>Mumbai++, ipregion: Punjab++=>Maharashtra++, browser: Chrome Mobile iOS,  1 0.00132100396301
-plugins: Chrome PDF Plugin++Chrome PDF Viewer++Native Client++Widevine Content Decryption Module++=>++, fp2_liedos: True++=>False++, fp2_liedbrowser: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: -120.0++=>-180.0++, ipcity: Varkaus++=>Tornio++, ipregion: Pohjois-Savo++=>Lappi++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: -60.0++=>-120.0++, ipcity: Olten++=>Nidau++, ipregion: Solothurn++=>Bern++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: -60.0++=>-120.0++, ipcity: Schwerin++=>Copenhagen++, ipregion: Mecklenburg-Vorpommern++=>Hovedstaden++, ipcountry: Germany++=>Denmark++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: -60.0++=>0.0++, canvastest: 5842be8d5b39775e3dbdcf018342828743927391++=>82272d1456b62fefec63828f1552d6411734fa9d++, ipcity: Milan++=>Tattenhall++, ipregion: Lombardia++=>England++, ipcountry: Italy++=>United Kingdom++, fp2_liedresolution: False++=>True++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: 0.0++=>-60.0++, ipcity: London++=>Schwalmstadt++, ipregion: England++=>Hessen++, ipcountry: United Kingdom++=>Germany++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: 300.0++=>360.0++, ipcity: Grandville++=>Kansas City++, ipregion: Michigan++=>Missouri++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: 360.0++=>300.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: 480.0++=>420.0++, audio: 48000++=>44100++, ipcity: Goleta++=>Fullerton++, browser: Chrome Mobile iOS,  1 0.00132100396301
-timezone: 480.0++=>420.0++, browser: Chrome Mobile iOS,  1 0.00132100396301
+audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 30 0.0396301188904
+browser:_Chrome_Mobile_iOS,_ 26 0.0343461030383
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 26 0.0343461030383
+audio:_48000++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 25 0.0330250990753
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 24 0.0317040951123
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_browser:_Chrome_Mobile_iOS,_ 21 0.0277410832232
+fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 21 0.0277410832232
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 19 0.0250990752972
+audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 17 0.0224570673712
+audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 14 0.0184940554822
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 12 0.0158520475561
+fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 12 0.0158520475561
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++,_browser:_Chrome_Mobile_iOS,_ 9 0.0118890356671
+canvastest:_7572a0f9a1dc005fedbba709f71909743976db0d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 9 0.0118890356671
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_browser:_Chrome_Mobile_iOS,_ 7 0.00924702774108
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+audio:_44100++=>48000++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+audio:_48000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+plugins:_++=>Chrome_PDF_Plugin++Chrome_PDF_Viewer++Native_Client++Widevine_Content_Decryption_Module++,_fp2_pixelratio:_2.00000008941++=>1.75++,_fp2_liedbrowser:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 6 0.00792602377807
+accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 5 0.00660501981506
+audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 5 0.00660501981506
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_browser:_Chrome_Mobile_iOS,_ 5 0.00660501981506
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 5 0.00660501981506
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_browser:_Chrome_Mobile_iOS,_ 4 0.00528401585205
+canvastest:_0084f52315f069e4c003170da2f07b3104f6cfc1++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++,_browser:_Chrome_Mobile_iOS,_ 4 0.00528401585205
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 4 0.00528401585205
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>82272d1456b62fefec63828f1552d6411734fa9d++,_browser:_Chrome_Mobile_iOS,_ 4 0.00528401585205
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 4 0.00528401585205
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>82272d1456b62fefec63828f1552d6411734fa9d++,_browser:_Chrome_Mobile_iOS,_ 4 0.00528401585205
+agent:_11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+agent:_11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+audio:_48000++2++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+canvastest:_22553ac53648bc4f6e67868c0e84e7e74086c39a++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+canvastest:_7572a0f9a1dc005fedbba709f71909743976db0d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+plugins:_Chrome_PDF_Plugin++Chrome_PDF_Viewer++Native_Client++Widevine_Content_Decryption_Module++=>++,_fp2_pixelratio:_1.75++=>2.00000008941++,_fp2_liedbrowser:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 3 0.00396301188904
+agent:_11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+agent:_11_1_2++Mobile/15B202++=>11_2++Mobile/15C114++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+agent:_CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+audio:_48000++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_0bc67d53749d777cade67a0a474f4597be501c48++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_15e2c1ef964e1fb0556c20f95d0abb56ab2720d1++=>e60e224e7b49b609516648d2d07721631182d708++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_22553ac53648bc4f6e67868c0e84e7e74086c39a++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_557bca43a0e41832d58349a538ccac91ed713ca3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_5d19d3dfad6b34770514d9dde40fdb1bba730c74++=>748d32097001162930bd828457da256b3167ba09++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_96a2590803f83acf76972c8603b1f0d314b73583++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>0084f52315f069e4c003170da2f07b3104f6cfc1++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+canvastest:_eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+fp2_pixelratio:_2++=>3++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+fp2_pixelratio:_3++=>2++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 2 0.00264200792602
+accept:_++=>*/*++,_canvastest:_4c47105624de08eeed6bbb53016402d6a7017196++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++,_ipcity:_Badagry++=>Abuja++,_ipregion:_Lagos++=>Abuja_Federal_Capital_Territory++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+accept:_++=>*/*++,_canvastest:_5bf70d8119b0953b10bef0fa2fdd62c33f92a971++=>bd554a7d5da9293cf3fed52d2052b2b948a14b77++,_fp2_pixelratio:_3++=>2++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+accept:_++=>*/*++,_canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+accept:_++=>*/*++,_ipcity:_Aigburth++=>Formby++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_0_3++CriOS/62.0.3202.70++Mobile/15A432++=>11_2_1++CriOS/64.0.3282.112++Mobile/15C153++,_accept:_++=>*/*++,_timezone:_300.0++=>240.0++,_ipcity:_Knoxville++=>Columbia++,_ipregion:_Tennessee++=>South_Carolina++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_0_3++Mobile/15A432++=>11_2_5++Mobile/15D60++,_accept:_++=>*/*++,_ipcity:_Venustiano_Carranza++=>Gustavo_A._Madero++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1++CriOS/63.0.3239.73++Mobile/15B93++=>11_3++CriOS/65.0.3325.152++Mobile/15E216++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_2++CriOS/63.0.3239.73++Mobile/15C114++,_canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>b36258e0149a470d6b66d30338495afd31e01d38++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_ipcity:_Lagos++=>Ejirin++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++,_ipcity:_Miguel_Hidalgo++=>Leon++,_ipregion:_Ciudad_de_Mexico++=>Guanajuato++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++CriOS/62.0.3202.70++Mobile/15B150++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++Mobile/15B150++=>11_1_2++Mobile/15B202++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++Mobile/15B150++=>11_1_2++Mobile/15B202++,_canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_1++Mobile/15B150++=>11_2_1++Mobile/15C153++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_1++CriOS/64.0.3282.112++Mobile/15C153++,_accept:_++=>*/*++,_ipcity:_Smyrna++=>Atlanta++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/62.0.3202.70++Mobile/15B202++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_audio:_48000++=>16000++,_ipcity:_Innsbruck++=>Vienna++,_ipregion:_Tirol++=>Wien++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/63.0.3239.73++Mobile/15B202++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/63.0.3239.73++Mobile/15B202++=>11_2_6++CriOS/64.0.3282.112++Mobile/15D100++,_accept:_++=>*/*++,_ipcity:_Cottbus++=>Potsdam++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/63.0.3239.73++Mobile/15B202++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++,_accept:_++=>*/*++,_timezone:_-60.0++=>-480.0++,_ipcity:_Siegen++=>Singapore++,_ipregion:_Nordrhein-Westfalen++=>Singapore++,_ipcountry:_Germany++=>Singapore++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++CriOS/64.0.3282.112++Mobile/15B202++=>11_2_6++CriOS/66.0.3359.122++Mobile/15D100++,_timezone:_-60.0++=>-120.0++,_ipcity:_Nuremberg++=>Stuttgart++,_ipregion:_Bayern++=>Baden-Wurttemberg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++Mobile/15B202++=>11_2++Mobile/15C114++,_ipcity:_Amstetten++=>Salzburg++,_ipregion:_Niederosterreich++=>Salzburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++Mobile/15B202++=>11_2_1++Mobile/15C153++,_ipcity:_Guadalajara++=>Ciudad_Juarez++,_ipregion:_Jalisco++=>Chihuahua++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++Mobile/15B202++=>11_2_1++Mobile/15C153++,_ipcity:_Potsdam++=>Berlin++,_ipregion:_Brandenburg++=>Berlin++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_1_2++Mobile/15B202++=>11_2_1++Mobile/15C153++,_timezone:_-60.0++=>0.0++,_ipcity:_Wommen++=>London++,_ipregion:_Hessen++=>England++,_ipcountry:_Germany++=>United_Kingdom++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++,_ipcity:_Dusseldorf++=>Dohle++,_ipregion:_Nordrhein-Westfalen++=>Niedersachsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_1++CriOS/63.0.3239.73++Mobile/15C153++,_ipcity:_Heidelberg++=>Freudenstadt++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_2++CriOS/63.0.3239.73++Mobile/15C202++,_ipcity:_Dortmund++=>Vechta++,_ipregion:_Nordrhein-Westfalen++=>Niedersachsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2++CriOS/62.0.3202.70++Mobile/15C114++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++,_accept:_++=>*/*++,_ipcity:_Salzburg++=>Vienna++,_ipregion:_Salzburg++=>Wien++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2++Mobile/15C114++=>11_2_1++Mobile/15C153++,_ipcity:_Nuremberg++=>Geldern++,_ipregion:_Bayern++=>Nordrhein-Westfalen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2++Mobile/15C114++=>11_2_2++Mobile/15C202++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_2++CriOS/64.0.3282.112++Mobile/15C202++,_ipcity:_Vienna++=>Maria_Enzersdorf++,_ipregion:_Wien++=>Niederosterreich++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++,_accept:_++=>*/*++,_canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>1fe5be4b690e76fc0136786035d193266afa6308++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++,_accept:_++=>*/*++,_ipcity:_Los_Angeles++=>Riverside++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++,_accept:_++=>*/*++,_ipcity:_Turku++=>Helsinki++,_ipregion:_Varsinais-Suomi++=>Uusimaa++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_3_1++CriOS/67.0.3396.59++Mobile/15E302++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_audio:_48000++=>44100++,_ipcity:_Bielefeld++=>Dusseldorf++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++CriOS/63.0.3239.73++Mobile/15C153++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_audio:_48000++=>44100++,_ipcity:_Schwerin++=>Frankfurt_am_Main++,_ipregion:_Mecklenburg-Vorpommern++=>Hessen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Llansantffraid_Glan_Conwy++=>Toxteth++,_ipregion:_Wales++=>England++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_ipcity:_Ahaus++=>Karlsruhe++,_ipregion:_Nordrhein-Westfalen++=>Baden-Wurttemberg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_ipcity:_Dusseldorf++=>Bielefeld++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_ipcity:_Dusseldorf++=>Frankfurt_am_Main++,_ipregion:_Nordrhein-Westfalen++=>Hessen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_ipcity:_Schortens++=>Bad_Zwischenahn++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_2++Mobile/15C202++,_ipcity:_Schwalmstadt++=>Erfurt++,_ipregion:_Hessen++=>Thuringen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_5++Mobile/15D60++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_1++Mobile/15C153++=>11_2_6++Mobile/15D100++,_accept:_++=>*/*++,_ipcity:_Bielefeld++=>Hanover++,_ipregion:_Nordrhein-Westfalen++=>Niedersachsen++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++,_accept:_++=>*/*++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_2_5++CriOS/64.0.3282.112++Mobile/15D60++,_accept:_++=>*/*++,_timezone:_-60.0++=>-180.0++,_audio:_48000++=>44100++,_ipcity:_Bielefeld++=>Istanbul++,_ipregion:_Nordrhein-Westfalen++=>Istanbul++,_ipcountry:_Germany++=>Turkey++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_3++CriOS/66.0.3359.122++Mobile/15E216++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Hanover++=>Kohnsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++CriOS/63.0.3239.73++Mobile/15C202++=>11_3_1++CriOS/67.0.3396.69++Mobile/15E302++,_accept:_++=>*/*++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++CriOS/64.0.3282.112++Mobile/15C202++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++,_timezone:_360.0++=>300.0++,_canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++CriOS/64.0.3282.112++Mobile/15C202++=>11_3_1++CriOS/66.0.3359.122++Mobile/15E302++,_timezone:_-60.0++=>-120.0++,_canvastest:_78c8693544bf2e846da0b2bc134673b95d7d3c72++=>96a2590803f83acf76972c8603b1f0d314b73583++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++,_accept:_++=>*/*++,_audio:_48000++=>44100++,_ipcity:_Lansing++=>Akron++,_ipregion:_Michigan++=>Ohio++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++,_audio:_48000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++,_ipcity:_Bielefeld++=>Wiesbaden++,_ipregion:_Nordrhein-Westfalen++=>Hessen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++Mobile/15C202++=>11_2_5++Mobile/15D60++,_timezone:_0.0++=>-60.0++,_canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Boxgrove_Park++=>Aulla++,_ipregion:_England++=>Toscana++,_ipcountry:_United_Kingdom++=>Italy++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_2++Mobile/15C202++=>11_2_6++Mobile/15D100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++CriOS/63.0.3239.73++Mobile/15D60++=>11_2_6++CriOS/64.0.3282.112++Mobile/15D100++,_timezone:_-60.0++=>-480.0++,_ipcity:_Aulla++=>Hong_Kong++,_ipregion:_Toscana++=>Hong_Kong_(SAR)++,_ipcountry:_Italy++=>Hong_Kong++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++,_ipcity:_Vienna++=>Dornbirn++,_ipregion:_Wien++=>Vorarlberg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_2_6++CriOS/65.0.3325.152++Mobile/15D100++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_3++CriOS/66.0.3359.122++Mobile/15E216++,_timezone:_-60.0++=>-120.0++,_ipcity:_Hanover++=>Frankfurt_am_Main++,_ipregion:_Niedersachsen++=>Hessen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_3_1++CriOS/66.0.3359.122++Mobile/15E302++,_timezone:_-60.0++=>-120.0++,_ipcity:_Ramstein-Miesenbach++=>Osnabruck++,_ipregion:_Rheinland-Pfalz++=>Niedersachsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++CriOS/64.0.3282.112++Mobile/15D60++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_audio:_44100++=>48000++,_ipcity:_Akron++=>Grandville++,_ipregion:_Ohio++=>Michigan++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_ipcity:_Aachen++=>Potsdam++,_ipregion:_Nordrhein-Westfalen++=>Brandenburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_ipcity:_Basel++=>Lachen++,_ipregion:_Basel-Stadt++=>Schwyz++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_ipcity:_Jyvaskyla++=>Helsinki++,_ipregion:_Keski-Suomi++=>Uusimaa++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++CriOS/64.0.3282.112++Mobile/15D100++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++,_timezone:_-60.0++=>-120.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++CriOS/64.0.3282.112++Mobile/15D100++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++,_timezone:_-60.0++=>-120.0++,_ipcity:_Marsberg++=>Dusseldorf++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++CriOS/65.0.3325.112++Mobile/15D100++=>11_3++CriOS/66.0.3359.106++Mobile/15E216++,_timezone:_-60.0++=>-120.0++,_ipcity:_Dresden++=>Leipzig++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++CriOS/65.0.3325.152++Mobile/15D100++=>11_3_1++CriOS/67.0.3396.87++Mobile/15E302++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++,_ipcity:_Dortmund++=>Isenburg++,_ipregion:_Nordrhein-Westfalen++=>Rheinland-Pfalz++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++,_ipcity:_Freiburg++=>Stuttgart++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++,_timezone:_-60.0++=>-120.0++,_ipcity:_Dortmund++=>Bielefeld++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_2_6++Mobile/15D100++=>11_3++Mobile/15E216++,_timezone:_-60.0++=>-120.0++,_ipcity:_Munich++=>Freiburg++,_ipregion:_Bayern++=>Baden-Wurttemberg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_3++CriOS/65.0.3325.152++Mobile/15E216++=>11_3_1++CriOS/66.0.3359.122++Mobile/15E302++,_ipcity:_Freiburg++=>Chemnitz++,_ipregion:_Baden-Wurttemberg++=>Sachsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_3++Mobile/15E216++=>11_3_1++Mobile/15E302++,_audio:_48000++=>22050++,_ipcity:_Leipzig++=>Dresden++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_3_1++CriOS/66.0.3359.122++Mobile/15E302++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_3_1++CriOS/66.0.3359.122++Mobile/15E302++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++,_ipcity:_Chemnitz++=>Aschaffenburg++,_ipregion:_Sachsen++=>Bayern++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_3_1++CriOS/66.0.3359.122++Mobile/15E302++=>11_4++CriOS/67.0.3396.69++Mobile/15F79++,_ipcity:_Rippelbaum++=>Bonn++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_11_3_1++CriOS/67.0.3396.69++Mobile/15E302++=>11_4++CriOS/67.0.3396.87++Mobile/15F79++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_ipcity:_London++=>Saltney++,_ipregion:_England++=>Wales++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_ipcity:_Copenhagen++=>Kolding++,_ipregion:_Hovedstaden++=>Syddanmark++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_ipcity:_Denver++=>Littleton++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_timezone:_-240.0++=>-660.0++,_ipcity:_Dubai++=>Melbourne++,_ipregion:_Dubayy++=>Victoria++,_ipcountry:_United_Arab_Emirates++=>Australia++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/63.0.3239.73++,_timezone:_0.0++=>-60.0++,_ipcity:_Casablanca++=>Waldshut-Tiengen++,_ipregion:_Grand_Casablanca++=>Baden-Wurttemberg++,_ipcountry:_Morocco++=>Germany++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/64.0.3282.112++,_accept:_++=>*/*++,_ipcity:_Stuttgart++=>Freiburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/64.0.3282.112++,_canvastest:_1fe5be4b690e76fc0136786035d193266afa6308++=>78c8693544bf2e846da0b2bc134673b95d7d3c72++,_audio:_48000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/62.0.3202.70++=>CriOS/66.0.3359.122++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++,_accept:_++=>*/*++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_ipcity:_Abuja++=>Ibadan++,_ipregion:_Abuja_Federal_Capital_Territory++=>Oyo++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++,_accept:_++=>*/*++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++,_accept:_++=>*/*++,_timezone:_300.0++=>360.0++,_ipcity:_Slidell++=>Minneapolis++,_ipregion:_Louisiana++=>Minnesota++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++,_ipcity:_East_Lansing++=>Lansing++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/64.0.3282.112++,_ipcity:_Karlsruhe++=>Halle_(Saale)++,_ipregion:_Baden-Wurttemberg++=>Sachsen-Anhalt++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/65.0.3325.152++,_accept:_++=>*/*++,_canvastest:_b3ebec7d00307980098d289471df8d11e548363b++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/63.0.3239.73++=>CriOS/65.0.3325.152++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.112++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.112++,_ipcity:_Buxtehude++=>Hamburg++,_ipregion:_Niedersachsen++=>Hamburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_ipcity:_Helsinki++=>Mellila++,_ipregion:_Uusimaa++=>Varsinais-Suomi++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Engelsbach++=>Fulda++,_ipregion:_Thuringen++=>Hessen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_ipcity:_Bielefeld++=>Dortmund++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_ipcity:_Gustavo_A._Madero++=>Colonia_Nativitas++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_ipcity:_Maastricht++=>Mouscron++,_ipregion:_Limburg++=>Hainaut++,_ipcountry:_Netherlands++=>Belgium++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_timezone:_-60.0++=>-120.0++,_ipcity:_Altmuhldorf++=>Murnau_am_Staffelsee++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_timezone:_-60.0++=>-120.0++,_ipcity:_Potsdam++=>Sulzbach++,_ipregion:_Brandenburg++=>Thuringen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_timezone:_300.0++=>240.0++,_audio:_44100++=>48000++,_ipcity:_Marietta++=>Murfreesboro++,_ipregion:_Georgia++=>Tennessee++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_timezone:_360.0++=>240.0++,_ipcity:_Kansas_City++=>Akron++,_ipregion:_Missouri++=>Ohio++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/65.0.3325.152++,_timezone:_480.0++=>420.0++,_ipcity:_Los_Angeles++=>Rohnert_Park++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/64.0.3282.112++=>CriOS/66.0.3359.122++,_timezone:_-60.0++=>-120.0++,_ipcity:_Ramstein-Miesenbach++=>Augsburg-Lechviertel++,_ipregion:_Rheinland-Pfalz++=>Bayern++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/65.0.3325.112++=>CriOS/65.0.3325.152++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/65.0.3325.112++=>CriOS/65.0.3325.152++,_canvastest:_15e2c1ef964e1fb0556c20f95d0abb56ab2720d1++=>104b58373f69ed67cfc8fb3ec7b280de97031233++,_ipcity:_Steinsfurt++=>Palma++,_ipregion:_Baden-Wurttemberg++=>Illes_Balears++,_ipcountry:_Germany++=>Spain++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++,_canvastest:_2cffaf24a87982340005797c23866a9a0857bb4c++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++,_ipcity:_Chemnitz++=>Wieseck++,_ipregion:_Sachsen++=>Hessen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++,_ipcity:_Klagenfurt_am_Woerthersee++=>Thaya++,_ipregion:_Karnten++=>Niederosterreich++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/65.0.3325.152++=>CriOS/66.0.3359.122++,_timezone:_-60.0++=>-120.0++,_canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++,_ipcity:_Fulda++=>Sulzbach++,_ipregion:_Hessen++=>Thuringen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/66.0.3359.122++=>CriOS/67.0.3396.69++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/66.0.3359.122++=>CriOS/67.0.3396.87++,_canvastest:_946d8d375868fd2f5acaf2e56c9b8222d12e7e26++=>d34b694e17b527817870d13567134c96856dace0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/67.0.3396.59++=>CriOS/67.0.3396.69++,_audio:_44100++=>48000++,_ipcity:_Dusseldorf++=>Delmenhorst++,_ipregion:_Nordrhein-Westfalen++=>Niedersachsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++,_ipcity:_Aschaffenburg++=>Bielefeld++,_ipregion:_Bayern++=>Nordrhein-Westfalen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++,_ipcity:_Bonn++=>Rippelbaum++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_CriOS/67.0.3396.69++=>CriOS/67.0.3396.87++,_ipcity:_Delmenhorst++=>Dusseldorf++,_ipregion:_Niedersachsen++=>Nordrhein-Westfalen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_Mobile/15D5037e++=>Mobile/15D5057a++,_ipcity:_Dortmund++=>Dusseldorf++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_Mobile/15D5057a++=>Mobile/15D60++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+agent:_Mobile/15F5071a++=>Mobile/15F5079a++,_canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++,_ipcity:_Luebeck++=>Horath++,_ipregion:_Schleswig-Holstein++=>Rheinland-Pfalz++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_16000++=>48000++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_22050++=>44100++,_ipcity:_Elmshorn++=>Nuremberg++,_ipregion:_Schleswig-Holstein++=>Bayern++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_22050++=>48000++,_ipcity:_Dresden++=>Stuttgart++,_ipregion:_Sachsen++=>Baden-Wurttemberg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_ipcity:_Minneapolis++=>Forest_Lake++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++=>22050++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++=>48000++,_ipcity:_Atlanta++=>Birmingham++,_ipregion:_Georgia++=>Alabama++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++=>48000++,_ipcity:_Frankfurt_am_Main++=>Schwerin++,_ipregion:_Hessen++=>Mecklenburg-Vorpommern++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++=>48000++,_ipcity:_Lagos++=>Abuja++,_ipregion:_Lagos++=>Abuja_Federal_Capital_Territory++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_44100++=>48000++,_ipcity:_Saarbrucken++=>Delmenhorst++,_ipregion:_Saarland++=>Niedersachsen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++0++1++0++2++explicit++speakers++=>not_supported++,_ipcity:_Mellila++=>Varkaus++,_ipregion:_Varsinais-Suomi++=>Pohjois-Savo++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++0++1++0++2++explicit++speakers++=>not_supported++,_ipcity:_Tornio++=>Anjala++,_ipregion:_Lappi++=>Kymenlaakso++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++=>16000++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++=>16000++,_ipcity:_Braunschweig++=>Berlin++,_ipregion:_Niedersachsen++=>Berlin++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++=>44100++,_ipcity:_Birmingham++=>Atlanta++,_ipregion:_Alabama++=>Georgia++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++=>44100++,_ipcity:_Hanover++=>Bielefeld++,_ipregion:_Niedersachsen++=>Nordrhein-Westfalen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++=>44100++,_ipcity:_Ibadan++=>Bonny++,_ipregion:_Oyo++=>Rivers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_48000++=>44100++,_ipcity:_Lexington++=>Marietta++,_ipregion:_North_Carolina++=>Georgia++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_ipcity:_Ejirin++=>Asaba++,_ipregion:_Lagos++=>Delta++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_ipcity:_Anjala++=>Orivesi++,_ipregion:_Kymenlaakso++=>Pirkanmaa++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_ipcity:_Helsinki++=>Jyvaskyla++,_ipregion:_Uusimaa++=>Keski-Suomi++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_ipcity:_Hollola++=>Imatra++,_ipregion:_Paijat-Hame++=>Etela-Karjala++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_ipcity:_Luhanka++=>Turku++,_ipregion:_Keski-Suomi++=>Varsinais-Suomi++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_0084f52315f069e4c003170da2f07b3104f6cfc1++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_0084f52315f069e4c003170da2f07b3104f6cfc1++=>96a2590803f83acf76972c8603b1f0d314b73583++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_0a2136bba021ffce24044e955669758b0fd4ef4d++=>0bc67d53749d777cade67a0a474f4597be501c48++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_0bc67d53749d777cade67a0a474f4597be501c48++=>4c47105624de08eeed6bbb53016402d6a7017196++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_0bc67d53749d777cade67a0a474f4597be501c48++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_0bc67d53749d777cade67a0a474f4597be501c48++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++,_ipcity:_Port_Harcourt++=>Badagry++,_ipregion:_Rivers++=>Lagos++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_14141036f0b9aebf696579e4051f4670d624d2e0++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++,_ipcity:_Abuja++=>Port_Harcourt++,_ipregion:_Abuja_Federal_Capital_Territory++=>Rivers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_199cb0d00b16ce2782cc26c04d4ceec21a6f3a1e++=>c517ac91f340046384df8c1b0d1cfa3fadd947a8++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_22553ac53648bc4f6e67868c0e84e7e74086c39a++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_25f7fa1037d4a3afe8706a130978e3449a07ab70++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2837ac8904cd01c1c0364feda4a786a391ea1151++=>0bc67d53749d777cade67a0a474f4597be501c48++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2bc54ec6fa861dc05a08f97d273cb1096a09e39e++=>15e2c1ef964e1fb0556c20f95d0abb56ab2720d1++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2cffaf24a87982340005797c23866a9a0857bb4c++=>b3ebec7d00307980098d289471df8d11e548363b++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>25f7fa1037d4a3afe8706a130978e3449a07ab70++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>5842be8d5b39775e3dbdcf018342828743927391++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_ipcity:_Frankfurt_am_Main++=>Corlu++,_ipregion:_Hessen++=>Tekirdag++,_ipcountry:_Germany++=>Turkey++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_ipcity:_Tarporley++=>Childwall++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_audio:_48000++=>44100++,_ipcity:_Abuja++=>Lagos++,_ipregion:_Abuja_Federal_Capital_Territory++=>Lagos++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_ipcity:_Llandudno_Junction++=>Hough_Green++,_ipregion:_Wales++=>England++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_ipcity:_Tattenhall++=>London++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_ipcity:_Wervin++=>Halewood++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_audio:_44100++=>48000++,_ipcity:_Ibadan++=>Bonny++,_ipregion:_Oyo++=>Rivers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_ipcity:_Childwall++=>Penmaenmawr++,_ipregion:_England++=>Wales++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_ipcity:_Hough_Green++=>Bodelwyddan++,_ipregion:_England++=>Wales++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_ipcity:_Roby++=>Toxteth++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_ipcity:_Toxteth++=>Wervin++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_ipcity:_Asaba++=>Abuja++,_ipregion:_Delta++=>Abuja_Federal_Capital_Territory++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_ipcity:_Lagos++=>Port_Harcourt++,_ipregion:_Lagos++=>Rivers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_ipcity:_Ritzebuttel++=>Sandstedt++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_4c47105624de08eeed6bbb53016402d6a7017196++=>14141036f0b9aebf696579e4051f4670d624d2e0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Knutsford++=>Huyton_Quarry++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>82272d1456b62fefec63828f1552d6411734fa9d++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_audio:_44100++=>48000++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>f1229b291d9f4b63c8e3c14b2c0895f54f1d5468++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_557bca43a0e41832d58349a538ccac91ed713ca3++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_ipcity:_Bodelwyddan++=>Aigburth++,_ipregion:_Wales++=>England++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_5842be8d5b39775e3dbdcf018342828743927391++=>82272d1456b62fefec63828f1552d6411734fa9d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_748d32097001162930bd828457da256b3167ba09++=>5d19d3dfad6b34770514d9dde40fdb1bba730c74++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_748d32097001162930bd828457da256b3167ba09++=>b30a385e3d52cc907ad4b3cb9acfbd32b8186c95++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_7572a0f9a1dc005fedbba709f71909743976db0d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Toxteth++=>Llansantffraid_Glan_Conwy++,_ipregion:_England++=>Wales++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_7572a0f9a1dc005fedbba709f71909743976db0d++=>557bca43a0e41832d58349a538ccac91ed713ca3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_7572a0f9a1dc005fedbba709f71909743976db0d++=>5842be8d5b39775e3dbdcf018342828743927391++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_7572a0f9a1dc005fedbba709f71909743976db0d++=>ba437f1452ff3b055681cabeeb6bf1437c222dc5++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>557bca43a0e41832d58349a538ccac91ed713ca3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_audio:_44100++=>48000++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_audio:_44100++=>16000++,_ipcity:_Penmaenmawr++=>Knutsford++,_ipregion:_Wales++=>England++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_audio:_48000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_ipcity:_Sandstedt++=>Papenburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Bonny++=>Ibadan++,_ipregion:_Rivers++=>Oyo++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>82272d1456b62fefec63828f1552d6411734fa9d++,_ipcity:_Saltney++=>Roby++,_ipregion:_Wales++=>England++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>ba437f1452ff3b055681cabeeb6bf1437c222dc5++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>0084f52315f069e4c003170da2f07b3104f6cfc1++,_ipcity:_Richardson++=>Houston++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++,_audio:_48000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>96a2590803f83acf76972c8603b1f0d314b73583++,_ipcity:_Maria_Enzersdorf++=>Mattersburg++,_ipregion:_Niederosterreich++=>Burgenland++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_audio:_16000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>7572a0f9a1dc005fedbba709f71909743976db0d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>82272d1456b62fefec63828f1552d6411734fa9d++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_946d8d375868fd2f5acaf2e56c9b8222d12e7e26++=>23f1b7c80b3e237ed7011f136101bb6b9ec54113++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_946d8d375868fd2f5acaf2e56c9b8222d12e7e26++=>2cffaf24a87982340005797c23866a9a0857bb4c++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_96a2590803f83acf76972c8603b1f0d314b73583++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_ipcity:_Houston++=>Richardson++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_96a2590803f83acf76972c8603b1f0d314b73583++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_a454fe98439b3d4a5c0efaf0004f074337aad04d++=>c517ac91f340046384df8c1b0d1cfa3fadd947a8++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_abf1a3f1d4a2c42ab414e6d8207821d73decd4db++=>0bc67d53749d777cade67a0a474f4597be501c48++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_audio:_not_supported++=>48000++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Abuja++=>Lagos++,_ipregion:_Abuja_Federal_Capital_Territory++=>Lagos++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Papenburg++=>Hamburg++,_ipregion:_Niedersachsen++=>Hamburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_ipcity:_Port_Harcourt++=>Enugu++,_ipregion:_Rivers++=>Enugu++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>82272d1456b62fefec63828f1552d6411734fa9d++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>bbdfc530dd0d1da974eb829271f17f9e9529a94d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b30a385e3d52cc907ad4b3cb9acfbd32b8186c95++=>c8c745aa31b78fc171667db627e4bceb87572c07++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_b36258e0149a470d6b66d30338495afd31e01d38++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_ba437f1452ff3b055681cabeeb6bf1437c222dc5++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_ba437f1452ff3b055681cabeeb6bf1437c222dc5++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_bbdfc530dd0d1da974eb829271f17f9e9529a94d++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>0084f52315f069e4c003170da2f07b3104f6cfc1++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_ipcity:_Jakarta++=>Semarang++,_ipregion:_Jakarta_Raya++=>Jawa_Tengah++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_d55f22716b1c29b14aec95ee785ed734a1ed2437++=>4c47105624de08eeed6bbb53016402d6a7017196++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_d55f22716b1c29b14aec95ee785ed734a1ed2437++=>abf1a3f1d4a2c42ab414e6d8207821d73decd4db++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_d55f22716b1c29b14aec95ee785ed734a1ed2437++=>eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_d55f22716b1c29b14aec95ee785ed734a1ed2437++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_d55f22716b1c29b14aec95ee785ed734a1ed2437++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_d55f22716b1c29b14aec95ee785ed734a1ed2437++=>fc1fbbf44a3ef5c9da2623a4397f77fd46109ee7++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_dbc6a079285705c38aa1de01974b65f18f2f82cd++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_audio:_48000++=>44100++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_ipcity:_Houston++=>Richardson++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_e45df7a3ef70022cfdccf2381dc74e9268268fc7++=>96a2590803f83acf76972c8603b1f0d314b73583++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_e60e224e7b49b609516648d2d07721631182d708++=>2bc54ec6fa861dc05a08f97d273cb1096a09e39e++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++=>f4d6bb219cfeda66b97dc64bc11628786d06d9ce++,_audio:_44100++0++1++0++2++explicit++speakers++=>not_supported++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_ec9c298d550bca8ccc77d8e7df2a488b6725f76b++=>946d8d375868fd2f5acaf2e56c9b8222d12e7e26++,_ipcity:_Hanover++=>Nuremberg++,_ipregion:_Niedersachsen++=>Bayern++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f1229b291d9f4b63c8e3c14b2c0895f54f1d5468++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>0a2136bba021ffce24044e955669758b0fd4ef4d++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>0bc67d53749d777cade67a0a474f4597be501c48++,_audio:_not_supported++=>44100++0++1++0++2++explicit++speakers++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>2837ac8904cd01c1c0364feda4a786a391ea1151++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>d55f22716b1c29b14aec95ee785ed734a1ed2437++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f4d6bb219cfeda66b97dc64bc11628786d06d9ce++=>eb44ed79b943a9b54e193c1c26cb2bd60627eb0c++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_f7fb26cc3e7e6f85e2e019ab8139b2702e270a0e++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+canvastest:_fc1fbbf44a3ef5c9da2623a4397f77fd46109ee7++=>0bc67d53749d777cade67a0a474f4597be501c48++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+fp2_pixelratio:_1.75++=>2.00000008941++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Atlanta++=>Slidell++,_ipregion:_Georgia++=>Louisiana++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Formby++=>Boxgrove_Park++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Frankfurt_am_Main++=>Dortmund++,_ipregion:_Hessen++=>Nordrhein-Westfalen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Halewood++=>Haydock++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Haydock++=>Tarporley++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Huyton_Quarry++=>Llandudno_Junction++,_ipregion:_England++=>Wales++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Imatra++=>Luhanka++,_ipregion:_Etela-Karjala++=>Keski-Suomi++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Lagerdorf++=>Hamburg++,_ipregion:_Schleswig-Holstein++=>Hamburg++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Munich++=>Ahaus++,_ipregion:_Bayern++=>Nordrhein-Westfalen++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_New_York_City++=>Brussels++,_ipregion:_New_York++=>Brussels_Hoofdstedelijk_Gewest++,_ipcountry:_United_States++=>Belgium++,_fp2_liedresolution:_True++=>False++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+ipcity:_Stuttgart++=>Mannheim++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+language:_en-us++=>en-au++,_ipcity:_Kalanaur++=>Mumbai++,_ipregion:_Punjab++=>Maharashtra++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+plugins:_Chrome_PDF_Plugin++Chrome_PDF_Viewer++Native_Client++Widevine_Content_Decryption_Module++=>++,_fp2_liedos:_True++=>False++,_fp2_liedbrowser:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_-120.0++=>-180.0++,_ipcity:_Varkaus++=>Tornio++,_ipregion:_Pohjois-Savo++=>Lappi++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_-60.0++=>-120.0++,_ipcity:_Olten++=>Nidau++,_ipregion:_Solothurn++=>Bern++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_-60.0++=>-120.0++,_ipcity:_Schwerin++=>Copenhagen++,_ipregion:_Mecklenburg-Vorpommern++=>Hovedstaden++,_ipcountry:_Germany++=>Denmark++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_-60.0++=>0.0++,_canvastest:_5842be8d5b39775e3dbdcf018342828743927391++=>82272d1456b62fefec63828f1552d6411734fa9d++,_ipcity:_Milan++=>Tattenhall++,_ipregion:_Lombardia++=>England++,_ipcountry:_Italy++=>United_Kingdom++,_fp2_liedresolution:_False++=>True++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_0.0++=>-60.0++,_ipcity:_London++=>Schwalmstadt++,_ipregion:_England++=>Hessen++,_ipcountry:_United_Kingdom++=>Germany++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_300.0++=>360.0++,_ipcity:_Grandville++=>Kansas_City++,_ipregion:_Michigan++=>Missouri++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_360.0++=>300.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_480.0++=>420.0++,_audio:_48000++=>44100++,_ipcity:_Goleta++=>Fullerton++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
+timezone:_480.0++=>420.0++,_browser:_Chrome_Mobile_iOS,_ 1 0.00132100396301
