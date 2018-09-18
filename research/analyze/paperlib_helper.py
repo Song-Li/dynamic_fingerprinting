@@ -54,7 +54,7 @@ class Paperlib_helper():
             print ("length of features names and browser names must match")
         filtered = []
 
-        for feature in feature_names:
+        for feature in feature_list:
             if feature not in columns:
                 feature_list.remove(feature)
 

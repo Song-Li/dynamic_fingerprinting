@@ -390,7 +390,7 @@ class Paperlib():
         print ("generating real data")
         if feature == 'browserfingerprint':
             db = Database('forpaper345')
-            df = db.load_data(table_name = 'fingerprintchanges', 
+            df = db.load_data(table_name = 'filteredfingerprintchanges', 
                     feature_list = ['browser', 'fromtime', 'totime', 'browserid'])
         else:
             db = Database('filteredchangesbrowserid')
@@ -608,26 +608,26 @@ class Paperlib():
         db.export_sql(df, 'fingerprintchanges')
         return 
 
-    def draw_change_reason(self):
+    def draw_change_reason(self, table_name = 'filteredfingerprintchanges'):
         """
         draw the fingure of changed reason by browser
         """
-        df = self.db.load_data(table_name = 'fingerprintchanges')
-
-        df = self.paperlib_helper.remove_change_only(df, 
-                ['audio', 'jsFonts', 'jsFonts'], 
-                ['Chrome', 'Firefox', 'Safari'])
-        df = self.paperlib_helper.remove_change_only(df, 
-                ['accept', 'audio'], ['Chrome', 'Safari'])
-        df = self.paperlib_helper.remove_change_only(df, 
-                ['plugins', 'plugins'], ['Chrome', 'Safari'])
+        df = self.db.load_data(table_name = table_name)
 
         feature_list = self.feature_list
-        feature_list.append('browser')
+
+        columns = self.db.get_column_names(table_name)
+        for feature in feature_list:
+            if feature not in columns:
+                feature_list.remove(feature)
+        if 'browser' not in feature_list:
+            feature_list.append('browser')
         grouped = df.groupby(feature_list)
 
         res = {}
         browser_idx = feature_list.index('browser')
+
+
         for key, cur_group in tqdm(grouped):
             browser = key[browser_idx]
             cur_key_str = ''
