@@ -386,7 +386,7 @@ class Database():
         df = self.audio_patch(df)
         #partgpu_patch(df)
         #df = self.accept_httpheaders_patch(df)
-        df = generate_fingerprint(df, self.fingerprint_feature_list)
+        df = self.generate_fingerprint(df, self.fingerprint_feature_list)
 
         if export_table != None:
             self.export_sql(df, export_table)
