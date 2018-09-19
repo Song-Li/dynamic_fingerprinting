@@ -666,7 +666,7 @@ class Paperlib():
                 'Chrome',
                 'Firefox',
                 'Safari',
-                'Edge',
+                'Edge'
                 ]
 
         mobile_browsers = [
