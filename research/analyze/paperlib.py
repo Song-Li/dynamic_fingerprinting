@@ -751,34 +751,34 @@ class Paperlib():
 
         f_all = safeopen('./changereason/desktopchanges.dat', 'w')
         for update in classes:
-            f_all.write('{} '.format(update))
+            f_all.write('{}#'.format(update))
         f_all.write('\n')
         # write overall to file
-        f_all.write('{} '.format('Overall'))
+        f_all.write('{}#'.format('Overall'))
         for update in classes:
-            f_all.write('{} '.format(float(res['desktopall'][update]) / float(total_number['desktopall'])))
+            f_all.write('{}#'.format(float(res['desktopall'][update]) / float(total_number['desktopall'])))
         f_all.write('\n')
 
         for browser in desktop_browsers:
-            f_all.write('{} '.format(browser.replace(' ','_')))
+            f_all.write('{}#'.format(browser))
             for update in classes:
-                f_all.write('{} '.format(float(res[browser][update]) / float(total_number[browser])))
+                f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
             f_all.write('\n')
         f_all.close()
 
         f_all = safeopen('./changereason/mobilechanges.dat', 'w')
         for update in classes:
-            f_all.write('{} '.format(update))
+            f_all.write('{}#'.format(update))
         f_all.write('\n')
         # write overall to file
-        f_all.write('{} '.format('Overall'))
+        f_all.write('{}#'.format('Overall'))
         for update in classes:
-            f_all.write('{} '.format(float(res['mobileall'][update]) / float(total_number['mobileall'])))
+            f_all.write('{}#'.format(float(res['mobileall'][update]) / float(total_number['mobileall'])))
         f_all.write('\n')
         for browser in mobile_browsers:
-            f_all.write('{} '.format(browser.replace(' ','_')))
+            f_all.write('{}#'.format(browser))
             for update in classes:
-                f_all.write('{} '.format(float(res[browser][update]) / float(total_number[browser])))
+                f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
             f_all.write('\n')
         f_all.close()
 
