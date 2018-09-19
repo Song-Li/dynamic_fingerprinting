@@ -613,7 +613,7 @@ class Paperlib():
                 res['os'].append(os_info.split('#%')[0])
                 res['toosversion'].append(os_info.split('#%')[1])
                 os_info = get_os_version(pre_row['agent'])
-                res['fromosversion'].append(os_info.split('#%')[0])
+                res['fromosversion'].append(os_info.split('#%')[1])
 
                 pre_fingerprint = row[browserfingerprint]
                 pre_row = row
@@ -623,13 +623,13 @@ class Paperlib():
         db.export_sql(df, 'fingerprintchanges')
         return 
 
-    def draw_change_reason(self, table_name = 'filteredfingerprintchanges'):
+    def draw_change_reason(self, table_name =  'fingerprintchanges'):
         """
         draw the fingure of changed reason by browser
         """
-        df = self.db.load_data(table_name = table_name)
+        df = self.db.load_data(table_name = table_name, limit = 10000)
 
-        feature_list = self.feature_list
+        feature_list = get_fingerprint_change_feature_list() 
 
         columns = self.db.get_column_names(table_name)
         for feature in feature_list:
@@ -662,11 +662,13 @@ class Paperlib():
                 ]
 
         classes = ['browser_update', 'os_update', 'user_update', 'environment_update', 'others']
+        
         for feature in added_feature:
             if feature not in feature_list:
                 feature_list.append(feature)
 
         grouped = df.groupby(feature_list)
+
 
         res = {}
         browser_idx = feature_list.index('browser')
@@ -677,10 +679,12 @@ class Paperlib():
             tobrowserversion = key[browser_idx + 2]
             fromosversion = key[browser_idx + 3]
             toosversion = key[browser_idx + 4]
+            print frombrowserversion, tobrowserversion, fromosversion, toosversion
 
             cur_key_str = ''
             cur_len = len(cur_group)
             if browser not in res:
+                res[browser] = {}
                 for update in classes:
                     res[browser][update] = 0
 
@@ -693,7 +697,7 @@ class Paperlib():
                     res[browser]['environment_update'] += cur_len
                 elif feature_list[i] != 'agent':
                     # if not in user and envir update and the change is not agent, it's others
-                    res[browser]['other'] += cur_len
+                    res[browser]['others'] += cur_len
 
             if frombrowserversion != tobrowserversion:
                 res[browser]['browser_update'] += cur_len
