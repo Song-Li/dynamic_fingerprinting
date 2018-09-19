@@ -754,7 +754,7 @@ class Paperlib():
             f_all.write('{} '.format(update))
         f_all.write('\n')
         # write overall to file
-        f_all.write('{} '.format(browser.replace(' ','_')))
+        f_all.write('{} '.format('Overall'))
         for update in classes:
             f_all.write('{} '.format(float(res['desktopall'][update]) / float(total_number['desktopall'])))
         f_all.write('\n')
@@ -771,7 +771,7 @@ class Paperlib():
             f_all.write('{} '.format(update))
         f_all.write('\n')
         # write overall to file
-        f_all.write('{} '.format(browser.replace(' ','_')))
+        f_all.write('{} '.format('Overall'))
         for update in classes:
             f_all.write('{} '.format(float(res['mobileall'][update]) / float(total_number['mobileall'])))
         f_all.write('\n')
