@@ -1,0 +1,11 @@
+user_update 3 0.75
+canvastest:_774d73900f7bd00f3b38d20a5b839f9c6f7a7994++=>112067c94e3911977e61441811b7c605fd6f86e8++,_os:_Windows_Phone,_browser:_IE_Mobile,_frombrowserversion:_11.0,_tobrowserversion:_11.0,_fromosversion:_8.1,_toosversion:_8.1,_ 1 0.25
+environment_update 1 0.25
+timezone:_-120.0++=>-60.0++,_os:_Windows_Phone,_browser:_IE_Mobile,_frombrowserversion:_11.0,_tobrowserversion:_11.0,_fromosversion:_8.1,_toosversion:_8.1,_ 1 0.25
+timezone:_-60.0++=>-660.0++,_os:_Windows_Phone,_browser:_IE_Mobile,_frombrowserversion:_11.0,_tobrowserversion:_11.0,_fromosversion:_8.1,_toosversion:_8.1,_ 1 0.25
+timezone:_0.0++=>-60.0++,_os:_Windows_Phone,_browser:_IE_Mobile,_frombrowserversion:_11.0,_tobrowserversion:_11.0,_fromosversion:_8.1,_toosversion:_8.1,_ 1 0.25
+browser_update 0 0.0
+mac_update 0 0.0
+os_update 0 0.0
+others 0 0.0
+win_update 0 0.0

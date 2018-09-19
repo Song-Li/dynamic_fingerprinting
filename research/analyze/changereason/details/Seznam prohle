@@ -1,0 +1,14 @@
+environment_update 4 0.285714285714
+browser_update 3 0.214285714286
+user_update 3 0.214285714286
+os_update 2 0.142857142857
+others 2 0.142857142857
+agent:_11_2_2++AppleWebKit/604.4.7++Mobile/15C202++Safari/604.4.7++SznProhlizec/5.8i++=>11_3++AppleWebKit/605.1.15++Mobile/15E216++Safari/605.1.15++SznProhlizec/5.11i++,_timezone:_-60.0++=>-120.0++,_canvastest:_82272d1456b62fefec63828f1552d6411734fa9d++=>22553ac53648bc4f6e67868c0e84e7e74086c39a++,_os:_iOS,_browser:_Seznam_prohle,_frombrowserversion:_5.8,_tobrowserversion:_5.11,_fromosversion:_11.2.2,_toosversion:_11.3,_ 1 0.0714285714286
+agent:_11_2_5++Mobile/15D60++=>11_2_6++Mobile/15D100++,_fp2_liedresolution:_True++=>False++,_os:_iOS,_browser:_Seznam_prohle,_frombrowserversion:_5.8,_tobrowserversion:_5.8,_fromosversion:_11.2.5,_toosversion:_11.2.6,_ 1 0.0714285714286
+agent:_Chrome/61.0.3163.98++SznProhlizec/5.1.1a++=>Chrome/62.0.3202.84++SznProhlizec/5.2.1a++,_language:_q=0.8++=>q=0.9++,_os:_Android,_browser:_Seznam_prohle,_frombrowserversion:_5.1.1,_tobrowserversion:_5.2.1,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0714285714286
+agent:_Chrome/62.0.3202.84++=>Chrome/64.0.3282.137++,_fp2_colordepth:_32++=>24++,_os:_Android,_browser:_Seznam_prohle,_frombrowserversion:_5.2.1,_tobrowserversion:_5.2.1,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0714285714286
+agent:_Chrome/64.0.3282.137++SznProhlizec/5.2.1a++=>Chrome/65.0.3325.109++SznProhlizec/5.3.1a++,_timezone:_-60.0++=>-120.0++,_os:_Android,_browser:_Seznam_prohle,_frombrowserversion:_5.2.1,_tobrowserversion:_5.3.1,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0714285714286
+audio:_48000++=>44100++,_os:_Windows,_browser:_Seznam_prohle,_frombrowserversion:_4.3.0,_tobrowserversion:_4.3.0,_fromosversion:_10,_toosversion:_10,_ 1 0.0714285714286
+timezone:_-60.0++=>-120.0++,_audio:_44100++=>48000++,_os:_Windows,_browser:_Seznam_prohle,_frombrowserversion:_4.3.0,_tobrowserversion:_4.3.0,_fromosversion:_10,_toosversion:_10,_ 1 0.0714285714286
+mac_update 0 0.0
+win_update 0 0.0

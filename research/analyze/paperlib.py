@@ -636,6 +636,7 @@ class Paperlib():
             if feature not in columns:
                 feature_list.remove(feature)
         added_feature = [
+                'os',
                 'browser',
                 'frombrowserversion',
                 'tobrowserversion',
@@ -677,6 +678,7 @@ class Paperlib():
                 ]
 
         classes = ['browser_update', 'os_update', 'user_update', 'environment_update', 'others']
+        #classes = ['os_update', 'browser_update', 'win_update', 'mac_update', 'user_update', 'environment_update', 'others']
         
         for feature in added_feature:
             if feature not in feature_list:
@@ -717,7 +719,13 @@ class Paperlib():
             if frombrowserversion != tobrowserversion:
                 res[browser]['browser_update'] += cur_len
             if fromosversion != toosversion:
+                cur_os = key[feature_list.index('os')]
+                #if cur_os == 'Windows':
+                #    res[browser]['win_update']  += cur_len
+                #elif cur_os == 'Mac OS X':
+                #    res[browser]['mac_update'] += cur_len
                 res[browser]['os_update'] += cur_len
+
 
             res[browser][cur_key_str] = cur_len
         
@@ -748,6 +756,17 @@ class Paperlib():
             total_number[browser] = 0
             for update in classes:
                 total_number[browser] += res[browser][update]
+
+        '''
+
+        for browser in sorted_res:
+            f = safeopen('./changereason/details/{}'.format(browser), 'w')
+            for string in sorted_res[browser]:
+                f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
+                    string[1], 
+                    float(string[1]) / float(total_number[browser])))
+            f.close()
+        '''
 
         f_all = safeopen('./changereason/desktopchanges.dat', 'w')
         for update in classes:
