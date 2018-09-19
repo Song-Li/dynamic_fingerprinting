@@ -648,7 +648,8 @@ class Paperlib():
                 'timezone',
                 'cookie',
                 'WebGL',
-                'localstorage'
+                'localstorage', 
+                'plugins'
                 ]
         environment_update_keys = [
                 'jsFonts',
@@ -659,6 +660,20 @@ class Paperlib():
                 'audio', 
                 'fp2_colordepth',
                 'fp2_cpuclass'
+                ]
+
+        desktop_browsers = [
+                'Chrome',
+                'Firefox',
+                'Safari',
+                'Edge',
+                ]
+
+        mobile_browsers = [
+                'Chrome Mobile',
+                'Firefox Mobile',
+                'Mobile Safari',
+                'Samsung Internet'
                 ]
 
         classes = ['browser_update', 'os_update', 'user_update', 'environment_update', 'others']
@@ -706,37 +721,65 @@ class Paperlib():
 
             res[browser][cur_key_str] = cur_len
         
-        total_number = {}
-        for browser in res:
-            total_number[browser] = 0
-            for update in classes:
-                total_number[browser] += res[browser][update]
 
         sorted_res = {}
         for browser in res:
             sorted_res[browser] = sorted(res[browser].iteritems(), 
                     key=lambda (k,v): (-v,k))
 
-        f_all = safeopen('./changereason/allchanges.dat', 'w')
 
-        idx = 0
+        res['overall'] = {}
+        res['desktopall'] = {}
+        res['mobileall'] = {}
         for update in classes:
-            f_all.write('{}_{} '.format(idx, update))
-            idx += 1
+            res['overall'][update] = 0
+            res['desktopall'][update] = 0
+            res['mobileall'][update] = 0
+            for browser in desktop_browsers:
+                res['desktopall'][update] += res[browser][update]
+                res['overall'][update] += res[browser][update]
+            for browser in mobile_browsers:
+                res['mobileall'][update] += res[browser][update]
+                res['overall'][update] += res[browser][update]
+                
+
+        total_number = {}
+        for browser in res:
+            total_number[browser] = 0
+            for update in classes:
+                total_number[browser] += res[browser][update]
+
+        f_all = safeopen('./changereason/desktopchanges.dat', 'w')
+        for update in classes:
+            f_all.write('{} '.format(update))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{} '.format(browser.replace(' ','_')))
+        for update in classes:
+            f_all.write('{} '.format(float(res['desktopall'][update]) / float(total_number['desktopall'])))
         f_all.write('\n')
 
-        for browser in sorted_res:
-            f = safeopen('./changereason/{}'.format(browser),
-                    'w')
-            for string in sorted_res[browser]:
-                f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
-                    string[1], 
-                    float(string[1]) / float(total_number[browser])))
+        for browser in desktop_browsers:
             f_all.write('{} '.format(browser.replace(' ','_')))
             for update in classes:
                 f_all.write('{} '.format(float(res[browser][update]) / float(total_number[browser])))
             f_all.write('\n')
-            f.close()
+        f_all.close()
+
+        f_all = safeopen('./changereason/mobilechanges.dat', 'w')
+        for update in classes:
+            f_all.write('{} '.format(update))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{} '.format(browser.replace(' ','_')))
+        for update in classes:
+            f_all.write('{} '.format(float(res['mobileall'][update]) / float(total_number['mobileall'])))
+        f_all.write('\n')
+        for browser in mobile_browsers:
+            f_all.write('{} '.format(browser.replace(' ','_')))
+            for update in classes:
+                f_all.write('{} '.format(float(res[browser][update]) / float(total_number[browser])))
+            f_all.write('\n')
         f_all.close()
 
     def rebuild_fingerprintchanges(self, 
