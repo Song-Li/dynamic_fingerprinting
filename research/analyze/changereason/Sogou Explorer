@@ -1,14 +1,11 @@
-total 20 1.0
-browser: Sogou Explorer,  4 0.2
-gpuimgs: =>0++480bba8ec15658093d320b330762358ba7cb637c++, browser: Sogou Explorer,  3 0.15
-gpuimgs: 0++a789e58153dc00b81408a0ac864eeec0bd9fcdd7++=>, audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Sogou Explorer,  2 0.1
-gpuimgs: =>0++a789e58153dc00b81408a0ac864eeec0bd9fcdd7++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Sogou Explorer,  2 0.1
-accept: ++=>*/*++, plugins: =>Microsoft Office ++, jsFonts: MT Extra++=>Arial Rounded MT Bold++Century Schoolbook++MS Outlook++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic Bold++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++English 111 Vivace BT++Engravers MT++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++OCR A Extended++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rage Italic++Rockwell++Rockwell Condensed++Rockwell Extra Bold++Script MT Bold++Tw Cen MT++Tw Cen MT Condensed++Tw Cen MT Condensed Extra Bold++, gpuimgs: 0++2378fa20fa38a8e140b2b6bd795105fa363bdc12++=>, browser: Sogou Explorer,  1 0.05
-audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, browser: Sogou Explorer,  1 0.05
-audio: not supported++=>48000++2++1++0++2++explicit++speakers++, browser: Sogou Explorer,  1 0.05
-fp2_pixelratio: 2.8125++=>2.47500005364++, browser: Sogou Explorer,  1 0.05
-gpuimgs: 0++480bba8ec15658093d320b330762358ba7cb637c++=>, browser: Sogou Explorer,  1 0.05
-gpuimgs: =>0++3a89d4db411aae74128eab8046c07ff887ffef18++, fp2_pixelratio: 1.25++=>1.10000002384++, browser: Sogou Explorer,  1 0.05
-jsFonts: =>Terminal++, fp2_pixelratio: 0.5++=>1.5++, browser: Sogou Explorer,  1 0.05
-jsFonts: Terminal++=>, fp2_pixelratio: 1.10000002384++=>0.5++, browser: Sogou Explorer,  1 0.05
-timezone: -60.0++=>-120.0++, browser: Sogou Explorer,  1 0.05
+user_update 5 0.555555555556
+environment_update 3 0.333333333333
+fp2_pixelratio:_1.25++=>1.10000002384++,_browser:_Sogou_Explorer,_frombrowserversion:_1.0,_tobrowserversion:_1.0,_fromosversion:_7,_toosversion:_7,_ 1 0.111111111111
+fp2_pixelratio:_2.8125++=>2.47500005364++,_browser:_Sogou_Explorer,_frombrowserversion:_1.0,_tobrowserversion:_1.0,_fromosversion:_10,_toosversion:_10,_ 1 0.111111111111
+jsFonts:_=>Terminal++,_fp2_pixelratio:_0.5++=>1.5++,_browser:_Sogou_Explorer,_frombrowserversion:_1.0,_tobrowserversion:_1.0,_fromosversion:_7,_toosversion:_7,_ 1 0.111111111111
+jsFonts:_Terminal++=>,_fp2_pixelratio:_1.10000002384++=>0.5++,_browser:_Sogou_Explorer,_frombrowserversion:_1.0,_tobrowserversion:_1.0,_fromosversion:_7,_toosversion:_7,_ 1 0.111111111111
+others 1 0.111111111111
+plugins:_=>Microsoft_Office_++,_jsFonts:_MT_Extra++=>Arial_Rounded_MT_Bold++Century_Schoolbook++MS_Outlook++Agency_FB++Blackadder_ITC++Bodoni_MT++Bodoni_MT_Black++Bodoni_MT_Condensed++Bradley_Hand_ITC++Calisto_MT++Castellar++Copperplate_Gothic_Bold++Copperplate_Gothic_Light++Curlz_MT++Edwardian_Script_ITC++Elephant++English_111_Vivace_BT++Engravers_MT++Eras_Bold_ITC++Eras_Demi_ITC++Eras_Light_ITC++Eras_Medium_ITC++Felix_Titling++Forte++French_Script_MT++Gigi++Gill_Sans_MT++Gill_Sans_MT_Condensed++Gill_Sans_MT_Ext_Condensed_Bold++Gill_Sans_Ultra_Bold++Gill_Sans_Ultra_Bold_Condensed++Gloucester_MT_Extra_Condensed++Goudy_Old_Style++Goudy_Stout++Imprint_MT_Shadow++Maiandra_GD++OCR_A_Extended++Palace_Script_MT++Papyrus++Perpetua++Perpetua_Titling_MT++Pristina++Rage_Italic++Rockwell++Rockwell_Condensed++Rockwell_Extra_Bold++Script_MT_Bold++Tw_Cen_MT++Tw_Cen_MT_Condensed++Tw_Cen_MT_Condensed_Extra_Bold++,_browser:_Sogou_Explorer,_frombrowserversion:_1.0,_tobrowserversion:_1.0,_fromosversion:_7,_toosversion:_7,_ 1 0.111111111111
+timezone:_-60.0++=>-120.0++,_browser:_Sogou_Explorer,_frombrowserversion:_1.0,_tobrowserversion:_1.0,_fromosversion:_7,_toosversion:_7,_ 1 0.111111111111
+browser_update 0 0.0
+os_update 0 0.0

@@ -1,383 +1,55 @@
-total 702 1.0
-browser: Android,  154 0.219373219373
-accept: ++=>*/*++, browser: Android,  64 0.0911680911681
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, browser: Android,  56 0.0797720797721
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, browser: Android,  31 0.0441595441595
-accept: ++=>None++, browser: Android,  4 0.00569800569801
-accept: ++=>*/*++, canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, browser: Android,  2 0.002849002849
-canvastest: 2a42d5b315e9f3a438d522ea32c429f688bf1c36++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++, browser: Android,  2 0.002849002849
-canvastest: 9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>2a42d5b315e9f3a438d522ea32c429f688bf1c36++, browser: Android,  2 0.002849002849
-canvastest: 9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>d73f129197b0ed23e1e51951b3df3884ca0bfd8c++, browser: Android,  2 0.002849002849
-canvastest: b77e763d9e655cb1b80576675e6227f9e054b911++=>0c1c82c6fcb41c4dc198d1e86b570ceae5954718++, browser: Android,  2 0.002849002849
-canvastest: d73f129197b0ed23e1e51951b3df3884ca0bfd8c++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++, browser: Android,  2 0.002849002849
-gpuimgs: =>0++bcc278c70291f643d39803a1771b2a71bf4c0715++, browser: Android,  2 0.002849002849
-ipcity: Berlin++=>Dresden++, ipregion: Berlin++=>Sachsen++, browser: Android,  2 0.002849002849
-ipcity: Bielefeld++=>Dusseldorf++, browser: Android,  2 0.002849002849
-ipcity: Dusseldorf++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Android,  2 0.002849002849
-ipcity: Hanover++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Android,  2 0.002849002849
-ipcity: Kleve++=>Dortmund++, browser: Android,  2 0.002849002849
-ipcity: Mainz++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Android,  2 0.002849002849
-ipcity: Maria Enzersdorf++=>Salzburg++, ipregion: Niederosterreich++=>Salzburg++, browser: Android,  2 0.002849002849
-ipcity: Munich++=>Augsburg-Lechviertel++, browser: Android,  2 0.002849002849
-ipcity: Salzburg++=>Vienna++, ipregion: Salzburg++=>Wien++, browser: Android,  2 0.002849002849
-accept: ++=>*/*++, canvastest: 8b6cf369dcbf67197707174c947131dbe85b9571++=>4c2a4ee8703d56bb5a05b867d1718414914e437c++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: bf1991634e0e7adab91cee1a4cd848ff64fb290a++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Ramstein-Miesenbach++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Delmenhorst++=>Oldenburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Freiburg++=>Achern++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Ottersberg++=>Freinsheim++, ipregion: Niedersachsen++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: d73f129197b0ed23e1e51951b3df3884ca0bfd8c++=>0a2a9a919dbd233791d4cc4ecce047b8feea7464++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Auen++=>Cloppenburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Dortmund++=>Bonn++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Frankfurt am Main++=>Mannheim++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Potsdam++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, cookie: True++=>False++, ipcity: Falkenhain++=>Bonn++, ipregion: Brandenburg++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, gpuimgs: 0++bcc278c70291f643d39803a1771b2a71bf4c0715++=>, ipcity: Bonn++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, gpuimgs: 0++bcc278c70291f643d39803a1771b2a71bf4c0715++=>, ipcity: Wieseck++=>Trier++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, gpuimgs: =>0++d4eed629983adfd66a3e8255a708471356317a01++, ipcity: Dusseldorf++=>Bielefeld++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, gpuimgs: d09c7bced00f361cfd61c74530034077bc6f9c7a++=>2d42a3a5a20ae4088f3ecf24c74e7ad4960eb4cc++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Ahaus++=>Oldenburg++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Altmuhldorf++=>Munich++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Amstetten++=>Salzburg++, ipregion: Niederosterreich++=>Salzburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Augsburg++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Augsburg-Lechviertel++=>Villingen-Schwenningen++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Bad Bramstedt++=>Rendsburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Baden++=>Monthey++, ipregion: Aargau++=>Valais++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Berlin++=>Noschenrode++, ipregion: Berlin++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Berlin++=>Sulzbach++, ipregion: Berlin++=>Thuringen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Bielefeld++=>Dusseldorf++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Bielefeld++=>Porta Westfalica++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Braunau am Inn++=>Vocklabruck++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Braunschweig++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Chemnitz++=>Vechta++, ipregion: Sachsen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dornbirn++=>Maria Enzersdorf++, ipregion: Vorarlberg++=>Niederosterreich++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dornum++=>Oldersum++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dortmund++=>Aachen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dortmund++=>Dusseldorf++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dortmund++=>Greiz++, ipregion: Nordrhein-Westfalen++=>Thuringen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dortmund++=>Neetze++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dortmund++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dresden++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dresden++=>Emseloh++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dusseldorf++=>Berlin++, ipregion: Nordrhein-Westfalen++=>Berlin++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dusseldorf++=>Bocholt++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dusseldorf++=>Stuttgart++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Dusseldorf++=>Wiesbaden++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Freinsheim++=>Bielefeld++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Geldern++=>Dusseldorf++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Geyersdorf++=>Berlin++, ipregion: Sachsen++=>Berlin++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Graz++=>Maria Enzersdorf++, ipregion: Steiermark++=>Niederosterreich++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Halle (Saale)++=>Rasberg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Hamburg++=>Cottbus++, ipregion: Hamburg++=>Brandenburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Hamburg++=>Hanover++, ipregion: Hamburg++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Hamburg++=>Stade++, ipregion: Hamburg++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Hanover++=>Braunschweig++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Hanover++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Heidelberg++=>Berlin++, ipregion: Baden-Wurttemberg++=>Berlin++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Innsbruck++=>Vienna++, ipregion: Tirol++=>Wien++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Johannisthal++=>Munich++, ipregion: Sachsen++=>Bayern++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Karlsruhe++=>Haar++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Karlsruhe++=>Mannheim++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Kaufbeuren++=>Allstedt++, ipregion: Bayern++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Kembach++=>Mannheim++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Kerpen++=>Saarbrucken++, ipregion: Rheinland-Pfalz++=>Saarland++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Kiel++=>Luebeck++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Koblenz++=>Bonn++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Koblenz++=>Sulzbach++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Leipzig++=>Aachen++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Leipzig++=>Ahaus++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Magdeburg++=>Aachen++, ipregion: Sachsen-Anhalt++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Magdeburg++=>Bonn++, ipregion: Sachsen-Anhalt++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Mecklenburg++=>Dusseldorf++, ipregion: Mecklenburg-Vorpommern++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Memmingen++=>Sonthofen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Munich++=>Berlin++, ipregion: Bayern++=>Berlin++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Munich++=>Haar++, ipregion: Bayern++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Nuremberg++=>Berlin++, ipregion: Bayern++=>Berlin++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Nuremberg++=>Berndorf++, ipregion: Bayern++=>Hessen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Nuremberg++=>Frankfurt am Main++, ipregion: Bayern++=>Hessen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Nuremberg++=>Potsdam++, ipregion: Bayern++=>Brandenburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Regensburg++=>Hamburg++, ipregion: Bayern++=>Hamburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Salzwedel++=>Kiel++, ipregion: Sachsen-Anhalt++=>Schleswig-Holstein++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Schottjer Dreesche++=>Oldersum++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Seevetal++=>Buxtehude++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Seevetal++=>Hanover++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Stockheim++=>Pohlitz++, ipregion: Hessen++=>Brandenburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Stuttgart++=>Freiburg++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Stuttgart++=>Hanover++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Sulzbach++=>Leipzig++, ipregion: Thuringen++=>Sachsen++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Tachov++=>Kakau++, ipregion: Plzensky kraj++=>Niedersachsen++, ipcountry: Czech Republic++=>Germany++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, ipcity: Wolfsegg am Hausruck++=>Bad Waltersdorf++, ipregion: Oberosterreich++=>Steiermark++, browser: Android,  1 0.0014245014245
-accept: ++=>*/*++, timezone: -120.0++=>180.0++, ipcity: Pretoria++=>Puerto Natales++, ipregion: Gauteng++=>Magallanes++, ipcountry: South Africa++=>Chile++, browser: Android,  1 0.0014245014245
-accept: ++=>None++, canvastest: fab1b747afad323228a8bd26ef7826803edab49f++=>cc3c3c397bd8d56d3010c29236407f7429d97733++, ipcity: Aachen++=>Dortmund++, browser: Android,  1 0.0014245014245
-accept: ++=>None++, ipcity: Coburg++=>Erfurt++, ipregion: Bayern++=>Thuringen++, browser: Android,  1 0.0014245014245
-accept: ++=>None++, ipcity: Muenster++=>Bonn++, browser: Android,  1 0.0014245014245
-accept: ++=>None++, ipcity: Severinghausen++=>Muenster++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-accept: ++=>None++, ipcity: Sulzbach++=>Schmalkalden++, browser: Android,  1 0.0014245014245
-accept: ++=>None++, ipcity: Sulzbach-Rosenberg++=>Nuremberg++, browser: Android,  1 0.0014245014245
-accept: ++=>text/xml++ text/html++ application/xhtml+xml++ image/png++ text/plain++ */*;q=0.8++, browser: Android,  1 0.0014245014245
-agent: HTC_One++=>HTC++One++, browser: Android,  1 0.0014245014245
-audio: 44100++=>48000++, browser: Android,  1 0.0014245014245
-audio: 48000++2++1++0++2++explicit++speakers++=>not supported++, ipcity: Oldenburg++=>Matawan++, ipregion: Mecklenburg-Vorpommern++=>New Jersey++, ipcountry: Germany++=>United States++, browser: Android,  1 0.0014245014245
-canvastest: 0c1c82c6fcb41c4dc198d1e86b570ceae5954718++=>b77e763d9e655cb1b80576675e6227f9e054b911++, ipcity: Freiburg++=>Stuttgart++, browser: Android,  1 0.0014245014245
-canvastest: 0c1c82c6fcb41c4dc198d1e86b570ceae5954718++=>b77e763d9e655cb1b80576675e6227f9e054b911++, ipcity: Stuttgart++=>Reutlingen++, browser: Android,  1 0.0014245014245
-canvastest: 31ae419d573dd556750beaad54281ab9f7bc8f13++=>54fcb3a39090ea15c935b8d38c365bedf046f296++, browser: Android,  1 0.0014245014245
-canvastest: 37054f46adbef0d5f486103611b7dc437cdf006f++=>f91a15261375df6371294fe946a3923009a999e0++, browser: Android,  1 0.0014245014245
-canvastest: 37054f46adbef0d5f486103611b7dc437cdf006f++=>f91a15261375df6371294fe946a3923009a999e0++, ipcity: Siegen++=>Frankfurt am Main++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Android,  1 0.0014245014245
-canvastest: 371216e8514eb52ae98396f8ff85ead623b3d0f4++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Frankfurt am Main++=>Roth++, ipregion: Hessen++=>Thuringen++, browser: Android,  1 0.0014245014245
-canvastest: 4766e948ba04a6c36802fed02b00e1754db55af5++=>34715db0a142096e6ea35a03f1dae4c8fcff7dc7++, ipcity: Hameln++=>Nunningen++, browser: Android,  1 0.0014245014245
-canvastest: 54fcb3a39090ea15c935b8d38c365bedf046f296++=>3646f984734acb2b240e3a8840cda5e14e638cba++, browser: Android,  1 0.0014245014245
-canvastest: 59c53d6a5f09aef2ddc3cb03275b3ab0ab94f8bf++=>6721ceb364f88a89c8040cacbb53f0dc1f449a51++, ipcity: Mannheim++=>Freiburg++, browser: Android,  1 0.0014245014245
-canvastest: 63c42a50d5ec2ddb6dc0d8a88dcfc746331ffd64++=>05048a388673cea2d4f7899b9dc1cb7aa7613891++, ipcity: Munich++=>Berlin++, ipregion: Bayern++=>Berlin++, browser: Android,  1 0.0014245014245
-canvastest: 6721ceb364f88a89c8040cacbb53f0dc1f449a51++=>59c53d6a5f09aef2ddc3cb03275b3ab0ab94f8bf++, browser: Android,  1 0.0014245014245
-canvastest: 674593dac4a9e9037da843d7f42cf97d38e31121++=>1f919b304b95e5a961a6aa6311588d765a040a5e++, browser: Android,  1 0.0014245014245
-canvastest: 816556c164d08118cf4ea706d69755c626e33e04++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++, browser: Android,  1 0.0014245014245
-canvastest: 8b928df7302c2931f4c1e8ae8d69cbfeed32b5f6++=>d2070087df541ce3dad7ece8890a1083103a5726++, ipcity: Osnabruck++=>Aslage++, browser: Android,  1 0.0014245014245
-canvastest: 9b226f1c181a3fd5c31f784b7a169ad57b1df735++=>371216e8514eb52ae98396f8ff85ead623b3d0f4++, ipcity: Erfurt++=>Frankfurt am Main++, ipregion: Thuringen++=>Hessen++, browser: Android,  1 0.0014245014245
-canvastest: 9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>2a42d5b315e9f3a438d522ea32c429f688bf1c36++, ipcity: Ingolstadt++=>Isenburg++, ipregion: Bayern++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-canvastest: 9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>c3cff1348bf6a83ecdb7a87e4b4ef271f6dde0af++, browser: Android,  1 0.0014245014245
-canvastest: 9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>f91a15261375df6371294fe946a3923009a999e0++, browser: Android,  1 0.0014245014245
-canvastest: a28efcd07ca48aab6e72fc6e992048740ebbe6ed++=>faa2f820e6f1488a791a4d732e290d669468a75e++, gpuimgs: =>0++2d42a3a5a20ae4088f3ecf24c74e7ad4960eb4cc++, browser: Android,  1 0.0014245014245
-canvastest: ad5204988b86cedf412d14a4c458213f697922b0++=>d73f129197b0ed23e1e51951b3df3884ca0bfd8c++, browser: Android,  1 0.0014245014245
-canvastest: bf1991634e0e7adab91cee1a4cd848ff64fb290a++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Lieser++=>Dusseldorf++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-canvastest: bf1991634e0e7adab91cee1a4cd848ff64fb290a++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Berlin++=>Augsburg-Lechviertel++, ipregion: Berlin++=>Bayern++, browser: Android,  1 0.0014245014245
-canvastest: c7a72568cb87eda376f0e4be54551b8ef987aae0++=>91f82f19f3f350fea2608e8c8e841be06004b9b6++, browser: Android,  1 0.0014245014245
-canvastest: cc3c3c397bd8d56d3010c29236407f7429d97733++=>fab1b747afad323228a8bd26ef7826803edab49f++, ipcity: Dortmund++=>Aachen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>bf1991634e0e7adab91cee1a4cd848ff64fb290a++, ipcity: Dusseldorf++=>Malaga++, ipregion: Nordrhein-Westfalen++=>Andalucia++, ipcountry: Germany++=>Spain++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Allstedt++=>Kaufbeuren++, ipregion: Sachsen-Anhalt++=>Bayern++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Augsburg++=>Stuttgart++, ipregion: Schleswig-Holstein++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Clausthal++=>Stadthagen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Dresden++=>Zwickau++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Dusseldorf++=>Baunatal++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Dusseldorf++=>Dortmund++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Freinsheim++=>Mannheim++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Freinsheim++=>Treskowerberg++, ipregion: Rheinland-Pfalz++=>Brandenburg++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Friedrichshafen++=>Saarbrucken++, ipregion: Baden-Wurttemberg++=>Saarland++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Greiz++=>Dortmund++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Ingolstadt++=>Munich++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Itzehoe++=>Dortmund++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Kirchberg++=>Frankfurt am Main++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Magdeburg++=>Kaufbeuren++, ipregion: Sachsen-Anhalt++=>Bayern++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Munich++=>Karlsruhe++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Nuremberg++=>Kulmbach++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Pegnitz++=>Troglersricht++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Regensburg++=>Arnstein++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Sachsen++=>Hanover++, ipregion: Bayern++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Stuttgart++=>Freiburg++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Stuttgart++=>Nuremberg++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Vienna++=>Grafenworth++, ipregion: Wien++=>Niederosterreich++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Westerndorf-Sankt Peter++=>Altmuhldorf++, browser: Android,  1 0.0014245014245
-canvastest: cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++, ipcity: Wildflecken++=>Wuerzburg++, browser: Android,  1 0.0014245014245
-canvastest: d2070087df541ce3dad7ece8890a1083103a5726++=>8b928df7302c2931f4c1e8ae8d69cbfeed32b5f6++, ipcity: Aslage++=>Severinghausen++, browser: Android,  1 0.0014245014245
-canvastest: d2070087df541ce3dad7ece8890a1083103a5726++=>8b928df7302c2931f4c1e8ae8d69cbfeed32b5f6++, ipcity: Muenster++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-canvastest: f91a15261375df6371294fe946a3923009a999e0++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++, browser: Android,  1 0.0014245014245
-canvastest: faa2f820e6f1488a791a4d732e290d669468a75e++=>a28efcd07ca48aab6e72fc6e992048740ebbe6ed++, gpuimgs: 2d42a3a5a20ae4088f3ecf24c74e7ad4960eb4cc++=>d09c7bced00f361cfd61c74530034077bc6f9c7a++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>bf1991634e0e7adab91cee1a4cd848ff64fb290a++, ipcity: Augsburg-Lechviertel++=>Nuremberg++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Aachen++=>Osnabruck++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Aurich++=>Dornum++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Bad Laer++=>Muenster++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Bielefeld++=>Dortmund++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Bielefeld++=>Wieseck++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Bischbrunn++=>Wildflecken++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Bonn++=>Recklinghausen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Dortmund++=>Bielefeld++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Dresden++=>Eberswalde++, ipregion: Sachsen++=>Brandenburg++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Dusseldorf++=>Aachen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Feldkirch++=>Dornbirn++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Freinsheim++=>Wiesbaden++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Ingolstadt++=>Noschenrode++, ipregion: Bayern++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Kakau++=>Wittingen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Karlsruhe++=>Mannheim++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Lahn++=>Versen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Monthey++=>Baden++, ipregion: Valais++=>Aargau++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Munich++=>Bad Pyrmont++, ipregion: Bayern++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Munich++=>Ingolstadt++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Nuremberg++=>Dusseldorf++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Porta Westfalica++=>Regensburg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Zurich++=>Baden++, ipregion: Zurich++=>Aargau++, browser: Android,  1 0.0014245014245
-canvastest: ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++, ipcity: Zwickau++=>Dresden++, browser: Android,  1 0.0014245014245
-gpuimgs: 0++0501de4b07396671fd355b83253947cf383fc4e4++=>, ipcity: Hamburg++=>Reinbek++, ipregion: Hamburg++=>Schleswig-Holstein++, browser: Android,  1 0.0014245014245
-gpuimgs: 0++1364b1651ce49240697f5a51572197cc14e2970f++=>, browser: Android,  1 0.0014245014245
-gpuimgs: 0++8ad8e99d8db4a9339bd90f1e5ac28133a179c358++=>, ipcity: Nuremberg++=>Munich++, browser: Android,  1 0.0014245014245
-gpuimgs: 0++d09c7bced00f361cfd61c74530034077bc6f9c7a++=>, browser: Android,  1 0.0014245014245
-gpuimgs: 0++d09c7bced00f361cfd61c74530034077bc6f9c7a++=>, ipcity: Buxtehude++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-gpuimgs: 0++d09c7bced00f361cfd61c74530034077bc6f9c7a++=>, ipcity: Hamburg++=>Hanover++, ipregion: Hamburg++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-gpuimgs: =>0++1364b1651ce49240697f5a51572197cc14e2970f++, audio: 48000++=>44100++, ipcity: Aschaffenburg++=>Geyersdorf++, ipregion: Bayern++=>Sachsen++, browser: Android,  1 0.0014245014245
-gpuimgs: =>0++bcc278c70291f643d39803a1771b2a71bf4c0715++, ipcity: Dusseldorf++=>Kleve++, browser: Android,  1 0.0014245014245
-gpuimgs: =>0++d09c7bced00f361cfd61c74530034077bc6f9c7a++, ipcity: Frankfurt am Main++=>Weissenstadt++, ipregion: Hessen++=>Bayern++, browser: Android,  1 0.0014245014245
-gpuimgs: =>0++e9600d903e362fc4ef2435b8eafdf46413229c1e++, audio: 44100++=>48000++, browser: Android,  1 0.0014245014245
-ipcity: Aachen++=>Dusseldorf++, browser: Android,  1 0.0014245014245
-ipcity: Aachen++=>Hanover++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Abbenhausen++=>Delmenhorst++, browser: Android,  1 0.0014245014245
-ipcity: Achern++=>Pegnitz++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Ahaus++=>Karlsruhe++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Ahaus++=>Muenster++, browser: Android,  1 0.0014245014245
-ipcity: Ahaus++=>Regensburg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Alsenberg++=>Pegnitz++, browser: Android,  1 0.0014245014245
-ipcity: Altheim++=>Feldbach++, ipregion: Oberosterreich++=>Steiermark++, browser: Android,  1 0.0014245014245
-ipcity: Aschaffenburg++=>Wommen++, ipregion: Bayern++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Augsburg++=>Bad Bramstedt++, browser: Android,  1 0.0014245014245
-ipcity: Augsburg-Lechviertel++=>Hoyren++, browser: Android,  1 0.0014245014245
-ipcity: Augsburg-Lechviertel++=>Westerndorf-Sankt Peter++, browser: Android,  1 0.0014245014245
-ipcity: Avsallar++=>Kiel++, ipregion: Antalya++=>Schleswig-Holstein++, ipcountry: Turkey++=>Germany++, browser: Android,  1 0.0014245014245
-ipcity: Bad Bentheim++=>Haar++, browser: Android,  1 0.0014245014245
-ipcity: Bad Neuenahr-Ahrweiler++=>Isenburg++, browser: Android,  1 0.0014245014245
-ipcity: Basel++=>Bern++, ipregion: Basel-Stadt++=>Bern++, browser: Android,  1 0.0014245014245
-ipcity: Basel++=>Lumino++, ipregion: Basel-Stadt++=>Ticino++, browser: Android,  1 0.0014245014245
-ipcity: Bautzen++=>Spreedorf++, browser: Android,  1 0.0014245014245
-ipcity: Bergen an der Dumme++=>Tachov++, ipregion: Niedersachsen++=>Plzensky kraj++, ipcountry: Germany++=>Czech Republic++, browser: Android,  1 0.0014245014245
-ipcity: Berlin++=>Heide++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: Android,  1 0.0014245014245
-ipcity: Berlin++=>Magdeburg++, ipregion: Berlin++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-ipcity: Berlin++=>Munich++, ipregion: Berlin++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Berlin++=>Noschenrode++, ipregion: Berlin++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-ipcity: Berlin++=>Rostock++, ipregion: Berlin++=>Mecklenburg-Vorpommern++, browser: Android,  1 0.0014245014245
-ipcity: Berlin++=>Ulm++, ipregion: Berlin++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Besenberg++=>Freiburg++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Bielefeld++=>Dortmund++, browser: Android,  1 0.0014245014245
-ipcity: Bielefeld++=>Hamburg++, ipregion: Nordrhein-Westfalen++=>Hamburg++, browser: Android,  1 0.0014245014245
-ipcity: Bonn++=>Freiburg++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Bonn++=>Haar++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Braunschweig++=>Hanover++, browser: Android,  1 0.0014245014245
-ipcity: Braunschweig++=>Nienburg++, browser: Android,  1 0.0014245014245
-ipcity: Braunschweig++=>Weckrieden++, ipregion: Niedersachsen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Bremen++=>Silberhausen++, ipregion: Bremen++=>Thuringen++, browser: Android,  1 0.0014245014245
-ipcity: Bulzig++=>Leipzig++, ipregion: Sachsen-Anhalt++=>Sachsen++, browser: Android,  1 0.0014245014245
-ipcity: Burgebrach++=>Nuremberg++, browser: Android,  1 0.0014245014245
-ipcity: Clausthal++=>Hanover++, browser: Android,  1 0.0014245014245
-ipcity: Cottbus++=>Berlin++, ipregion: Brandenburg++=>Berlin++, browser: Android,  1 0.0014245014245
-ipcity: Cottbus++=>Schwabisch Hall++, ipregion: Brandenburg++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Delmenhorst++=>Abbenhausen++, browser: Android,  1 0.0014245014245
-ipcity: Dortmund++=>Muenster++, browser: Android,  1 0.0014245014245
-ipcity: Dortmund++=>Siegen++, browser: Android,  1 0.0014245014245
-ipcity: Dresden++=>Dusseldorf++, ipregion: Sachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Dresden++=>Leipzig++, browser: Android,  1 0.0014245014245
-ipcity: Dresden++=>Mannheim++, ipregion: Sachsen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Duderstadt++=>Falkenhain++, ipregion: Niedersachsen++=>Brandenburg++, browser: Android,  1 0.0014245014245
-ipcity: Dusseldorf++=>Aachen++, browser: Android,  1 0.0014245014245
-ipcity: Dusseldorf++=>Fehmarn++, ipregion: Nordrhein-Westfalen++=>Schleswig-Holstein++, browser: Android,  1 0.0014245014245
-ipcity: Dusseldorf++=>Magdeburg++, ipregion: Nordrhein-Westfalen++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-ipcity: Dusseldorf++=>Stuttgart++, ipregion: Nordrhein-Westfalen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Erfurt++=>Freiburg++, ipregion: Thuringen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Erfurt++=>Karlsruhe++, ipregion: Thuringen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Fehmarn++=>Nuremberg++, ipregion: Schleswig-Holstein++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Karlsruhe++, ipregion: Hessen++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Munich++, ipregion: Hessen++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Nienburg++, ipregion: Hessen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Nuremberg++, ipregion: Hessen++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Pirmasens++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Saarbrucken++, ipregion: Hessen++=>Saarland++, browser: Android,  1 0.0014245014245
-ipcity: Frankfurt am Main++=>Witzenhausen++, browser: Android,  1 0.0014245014245
-ipcity: Freiburg++=>Aachen++, ipregion: Baden-Wurttemberg++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Freiburg++=>Schluchtern++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Freiburg++=>Stuttgart++, browser: Android,  1 0.0014245014245
-ipcity: Freiburg++=>Ulm++, browser: Android,  1 0.0014245014245
-ipcity: Freinsheim++=>Bielefeld++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Freinsheim++=>Freiburg++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Freinsheim++=>Ulm++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Freital++=>Worin++, ipregion: Sachsen++=>Brandenburg++, browser: Android,  1 0.0014245014245
-ipcity: Friedrichshafen++=>Ludwigshafen++, browser: Android,  1 0.0014245014245
-ipcity: Gamrie++=>London++, ipregion: Scotland++=>England++, browser: Android,  1 0.0014245014245
-ipcity: Geldern++=>Berlin++, ipregion: Nordrhein-Westfalen++=>Berlin++, browser: Android,  1 0.0014245014245
-ipcity: Gottingen++=>Hanover++, browser: Android,  1 0.0014245014245
-ipcity: Graz++=>Neumarkt am Wallersee++, ipregion: Steiermark++=>Salzburg++, browser: Android,  1 0.0014245014245
-ipcity: Gunzburg++=>Ingolstadt++, browser: Android,  1 0.0014245014245
-ipcity: Hamburg++=>Berlin++, ipregion: Hamburg++=>Berlin++, browser: Android,  1 0.0014245014245
-ipcity: Hamburg++=>Bonn++, ipregion: Hamburg++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Hamburg++=>Freiburg++, ipregion: Hamburg++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Hameln++=>Besenberg++, browser: Android,  1 0.0014245014245
-ipcity: Hameln++=>Cottbus++, ipregion: Niedersachsen++=>Brandenburg++, browser: Android,  1 0.0014245014245
-ipcity: Hanover++=>Aachen++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Hanover++=>Braunschweig++, browser: Android,  1 0.0014245014245
-ipcity: Hanover++=>Nuremberg++, ipregion: Niedersachsen++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Hanover++=>Saarbrucken++, ipregion: Niedersachsen++=>Saarland++, browser: Android,  1 0.0014245014245
-ipcity: Hoyren++=>Munich++, browser: Android,  1 0.0014245014245
-ipcity: Ingolstadt++=>Bayreuth++, browser: Android,  1 0.0014245014245
-ipcity: Ingolstadt++=>Bonn++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Ingolstadt++=>Frankfurt am Main++, ipregion: Bayern++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Ingolstadt++=>Potsdam++, ipregion: Bayern++=>Brandenburg++, browser: Android,  1 0.0014245014245
-ipcity: Innsbruck++=>Vienna++, ipregion: Tirol++=>Wien++, browser: Android,  1 0.0014245014245
-ipcity: Isenburg++=>Nuremberg++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Karlsruhe++=>Freiburg++, browser: Android,  1 0.0014245014245
-ipcity: Kerpen++=>Freinsheim++, browser: Android,  1 0.0014245014245
-ipcity: Kleve++=>Nuremberg++, ipregion: Nordrhein-Westfalen++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Landau++=>Halle (Saale)++, ipregion: Hessen++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-ipcity: Leinefelde++=>Suhl++, browser: Android,  1 0.0014245014245
-ipcity: Leipzig++=>Dresden++, browser: Android,  1 0.0014245014245
-ipcity: Lugano++=>Basel++, ipregion: Ticino++=>Basel-Stadt++, browser: Android,  1 0.0014245014245
-ipcity: Magdeburg++=>Dortmund++, ipregion: Sachsen-Anhalt++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Magdeburg++=>Kerpen++, ipregion: Sachsen-Anhalt++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-ipcity: Mainz++=>Bielefeld++, ipregion: Rheinland-Pfalz++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Malaga++=>Nesslbach++, ipregion: Andalucia++=>Bayern++, ipcountry: Spain++=>Germany++, browser: Android,  1 0.0014245014245
-ipcity: Mannheim++=>Ulm++, browser: Android,  1 0.0014245014245
-ipcity: Maria Enzersdorf++=>Amstetten++, browser: Android,  1 0.0014245014245
-ipcity: Mecklenburg++=>Berlin++, ipregion: Mecklenburg-Vorpommern++=>Berlin++, browser: Android,  1 0.0014245014245
-ipcity: Mecklenburg++=>Gorlitz++, ipregion: Mecklenburg-Vorpommern++=>Sachsen++, browser: Android,  1 0.0014245014245
-ipcity: Mockmuhl++=>Ulm++, browser: Android,  1 0.0014245014245
-ipcity: Moosburg++=>Spetzerfehn++, ipregion: Bayern++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Neheim++=>Bielefeld++, browser: Android,  1 0.0014245014245
-ipcity: Neheim++=>Dortmund++, browser: Android,  1 0.0014245014245
-ipcity: Nettetal++=>Dusseldorf++, browser: Android,  1 0.0014245014245
-ipcity: Norderstedt++=>Braunschweig++, ipregion: Schleswig-Holstein++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Norderstedt++=>Hamburg++, ipregion: Schleswig-Holstein++=>Hamburg++, browser: Android,  1 0.0014245014245
-ipcity: Norderstedt++=>Reinbek++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Anholt++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Diemuehle++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Dusseldorf++, ipregion: Bayern++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Friedrichshafen++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Heidelberg++, ipregion: Bayern++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Munich++, browser: Android,  1 0.0014245014245
-ipcity: Nuremberg++=>Schluchtern++, ipregion: Bayern++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Oberpullendorf++=>Eisenstadt++, browser: Android,  1 0.0014245014245
-ipcity: Oldeborger Acker++=>Schottjer Dreesche++, browser: Android,  1 0.0014245014245
-ipcity: Oldenburg++=>Rinteln++, ipregion: Mecklenburg-Vorpommern++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Oldenburg++=>Skanderborg++, ipregion: Mecklenburg-Vorpommern++=>Midtjylland++, ipcountry: Germany++=>Denmark++, browser: Android,  1 0.0014245014245
-ipcity: Olten++=>Zurich++, ipregion: Solothurn++=>Zurich++, browser: Android,  1 0.0014245014245
-ipcity: Osnabruck++=>Dusseldorf++, ipregion: Niedersachsen++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Osnabruck++=>Hamburg++, ipregion: Niedersachsen++=>Hamburg++, browser: Android,  1 0.0014245014245
-ipcity: Osteresch++=>Lahn++, browser: Android,  1 0.0014245014245
-ipcity: Papenburg++=>Hanover++, browser: Android,  1 0.0014245014245
-ipcity: Passow++=>Nuremberg++, ipregion: Brandenburg++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Pirmasens++=>Wieseck++, ipregion: Rheinland-Pfalz++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Quellen++=>Bruttendorf++, browser: Android,  1 0.0014245014245
-ipcity: Ravelsbach++=>Maria Enzersdorf++, browser: Android,  1 0.0014245014245
-ipcity: Regensburg++=>Munich++, browser: Android,  1 0.0014245014245
-ipcity: Riedhausen++=>Westerndorf-Sankt Peter++, browser: Android,  1 0.0014245014245
-ipcity: Rostock++=>Bonn++, ipregion: Mecklenburg-Vorpommern++=>Nordrhein-Westfalen++, browser: Android,  1 0.0014245014245
-ipcity: Saarbrucken++=>Bangkok++, ipregion: Saarland++=>Krung Thep Maha Nakhon++, ipcountry: Germany++=>Thailand++, browser: Android,  1 0.0014245014245
-ipcity: Saarbrucken++=>Wommen++, ipregion: Saarland++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Salzburg++=>Graz++, ipregion: Salzburg++=>Steiermark++, browser: Android,  1 0.0014245014245
-ipcity: Salzburg++=>Seevetal++, ipregion: Salzburg++=>Niedersachsen++, ipcountry: Austria++=>Germany++, browser: Android,  1 0.0014245014245
-ipcity: Schwabisch Hall++=>Munich++, ipregion: Baden-Wurttemberg++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Siegen++=>Aachen++, browser: Android,  1 0.0014245014245
-ipcity: Siegen++=>Wernswig++, ipregion: Nordrhein-Westfalen++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Spreedorf++=>Bautzen++, browser: Android,  1 0.0014245014245
-ipcity: Stade++=>Magdeburg++, ipregion: Niedersachsen++=>Sachsen-Anhalt++, browser: Android,  1 0.0014245014245
-ipcity: Stuttgart++=>Augsburg++, ipregion: Baden-Wurttemberg++=>Schleswig-Holstein++, browser: Android,  1 0.0014245014245
-ipcity: Stuttgart++=>Frankfurt am Main++, ipregion: Baden-Wurttemberg++=>Hessen++, browser: Android,  1 0.0014245014245
-ipcity: Stuttgart++=>Weckrieden++, browser: Android,  1 0.0014245014245
-ipcity: Suhl++=>Bremen++, browser: Android,  1 0.0014245014245
-ipcity: Sulzbach++=>Munich++, ipregion: Thuringen++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Tachov++=>Braunschweig++, ipregion: Plzensky kraj++=>Niedersachsen++, ipcountry: Czech Republic++=>Germany++, browser: Android,  1 0.0014245014245
-ipcity: Trier++=>Buxtehude++, ipregion: Rheinland-Pfalz++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Trier++=>Westerndorf-Sankt Peter++, ipregion: Rheinland-Pfalz++=>Bayern++, browser: Android,  1 0.0014245014245
-ipcity: Ulm++=>Mannheim++, browser: Android,  1 0.0014245014245
-ipcity: Ulm++=>Stuttgart++, browser: Android,  1 0.0014245014245
-ipcity: Wehr++=>Karlsruhe++, ipregion: Rheinland-Pfalz++=>Baden-Wurttemberg++, browser: Android,  1 0.0014245014245
-ipcity: Wesel++=>Hanover++, ipregion: Nordrhein-Westfalen++=>Niedersachsen++, browser: Android,  1 0.0014245014245
-ipcity: Westerndorf-Sankt Peter++=>Munich++, browser: Android,  1 0.0014245014245
-ipcity: Wetschen++=>Cuxhaven++, browser: Android,  1 0.0014245014245
-ipcity: Wiesenfelden++=>Schwerin++, ipregion: Bayern++=>Mecklenburg-Vorpommern++, browser: Android,  1 0.0014245014245
-ipcity: Wittlich++=>Kerpen++, browser: Android,  1 0.0014245014245
-ipcity: Wommen++=>Bremen++, ipregion: Hessen++=>Thuringen++, browser: Android,  1 0.0014245014245
-ipcity: Wommen++=>Ingelheim am Rhein++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-ipcity: Wommen++=>Isenburg++, ipregion: Hessen++=>Rheinland-Pfalz++, browser: Android,  1 0.0014245014245
-ipcity: Wuerzburg++=>Augsburg-Lechviertel++, browser: Android,  1 0.0014245014245
-ipcity: Zwickau++=>Hamburg++, ipregion: Sachsen++=>Hamburg++, browser: Android,  1 0.0014245014245
-ipcity: Zwickau++=>Sulzbach++, ipregion: Sachsen++=>Thuringen++, browser: Android,  1 0.0014245014245
-jsFonts: =>Courier++Courier New++Monaco++Wingdings 2++Wingdings 3++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++, ipcity: Ravensburg++=>Leutkirch im Allgau++, browser: Android,  1 0.0014245014245
-language: en-CA,en-US++q=0.8++=>en-CA,zh-Hans-CN++q=0.8,en-US++q=0.6++, canvastest: 80503b568bb9c11db1f02c85caf1b47be8f44edc++=>f3bd7262517139238b077962cdd6f7adee74250b++, gpuimgs: e7a64d322e685c0953815e4e546f8211aa279cd6++=>ebbf4ec6238d2c64ea2a57d9b072a9b29f369f00++, audio: not supported++=>48000++2++1++0++2++explicit++speakers++, ipcity: Santa Clara++=>Shanghai++, ipregion: Utah++=>Shanghai++, ipcountry: United States++=>China++, browser: Android,  1 0.0014245014245
-timezone: -60.0++=>-120.0++, browser: Android,  1 0.0014245014245
-timezone: -60.0++=>-120.0++, gpuimgs: 0++d7173e115915dfb32e19188a6b12349e1847a21a++=>, browser: Android,  1 0.0014245014245
-timezone: -60.0++=>-120.0++, gpuimgs: =>0++f3065ec8620babec26d7f4d29022b3a9406648c2++, ipcity: Paulinenaue++=>Potsdam++, browser: Android,  1 0.0014245014245
-timezone: -60.0++=>0.0++, ipcity: Hanover++=>Beaconsfield++, ipregion: Niedersachsen++=>England++, ipcountry: Germany++=>United Kingdom++, browser: Android,  1 0.0014245014245
-timezone: -60.0++=>0.0++, ipcity: Idar-Oberstein++=>Lisbon++, ipregion: Rheinland-Pfalz++=>Lisboa++, ipcountry: Germany++=>Portugal++, browser: Android,  1 0.0014245014245
-timezone: 0.0++=>-60.0++, ipcity: Lisbon++=>Kahl am Main++, ipregion: Lisboa++=>Bayern++, ipcountry: Portugal++=>Germany++, browser: Android,  1 0.0014245014245
+environment_update 194 0.955665024631
+canvastest:_ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>cc7ab8be4021d73c59610561b7c6079dba12db34++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 84 0.413793103448
+canvastest:_cc7ab8be4021d73c59610561b7c6079dba12db34++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 60 0.295566502463
+user_update 8 0.0394088669951
+canvastest:_9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>2a42d5b315e9f3a438d522ea32c429f688bf1c36++,_browser:_Android,_frombrowserversion:_4.0.4,_tobrowserversion:_4.0.4,_fromosversion:_4.0.4,_toosversion:_4.0.4,_ 3 0.0147783251232
+canvastest:_0c1c82c6fcb41c4dc198d1e86b570ceae5954718++=>b77e763d9e655cb1b80576675e6227f9e054b911++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 2 0.00985221674877
+canvastest:_2a42d5b315e9f3a438d522ea32c429f688bf1c36++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++,_browser:_Android,_frombrowserversion:_4.0.4,_tobrowserversion:_4.0.4,_fromosversion:_4.0.4,_toosversion:_4.0.4,_ 2 0.00985221674877
+canvastest:_37054f46adbef0d5f486103611b7dc437cdf006f++=>f91a15261375df6371294fe946a3923009a999e0++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 2 0.00985221674877
+canvastest:_9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>d73f129197b0ed23e1e51951b3df3884ca0bfd8c++,_browser:_Android,_frombrowserversion:_4.1.2,_tobrowserversion:_4.1.2,_fromosversion:_4.1.2,_toosversion:_4.1.2,_ 2 0.00985221674877
+canvastest:_b77e763d9e655cb1b80576675e6227f9e054b911++=>0c1c82c6fcb41c4dc198d1e86b570ceae5954718++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 2 0.00985221674877
+canvastest:_bf1991634e0e7adab91cee1a4cd848ff64fb290a++=>cc7ab8be4021d73c59610561b7c6079dba12db34++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 2 0.00985221674877
+canvastest:_d2070087df541ce3dad7ece8890a1083103a5726++=>8b928df7302c2931f4c1e8ae8d69cbfeed32b5f6++,_browser:_Android,_frombrowserversion:_4.2.2,_tobrowserversion:_4.2.2,_fromosversion:_4.2.2,_toosversion:_4.2.2,_ 2 0.00985221674877
+canvastest:_d73f129197b0ed23e1e51951b3df3884ca0bfd8c++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++,_browser:_Android,_frombrowserversion:_4.1.2,_tobrowserversion:_4.1.2,_fromosversion:_4.1.2,_toosversion:_4.1.2,_ 2 0.00985221674877
+agent:_HTC_One++=>HTC++One++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+audio:_44100++=>48000++,_browser:_Android,_frombrowserversion:_4.2,_tobrowserversion:_4.2,_fromosversion:_4.2,_toosversion:_4.2,_ 1 0.00492610837438
+audio:_44100++=>48000++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+audio:_48000++=>44100++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_31ae419d573dd556750beaad54281ab9f7bc8f13++=>54fcb3a39090ea15c935b8d38c365bedf046f296++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 1 0.00492610837438
+canvastest:_371216e8514eb52ae98396f8ff85ead623b3d0f4++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_4766e948ba04a6c36802fed02b00e1754db55af5++=>34715db0a142096e6ea35a03f1dae4c8fcff7dc7++,_browser:_Android,_frombrowserversion:_4.3,_tobrowserversion:_4.3,_fromosversion:_4.3,_toosversion:_4.3,_ 1 0.00492610837438
+canvastest:_54fcb3a39090ea15c935b8d38c365bedf046f296++=>3646f984734acb2b240e3a8840cda5e14e638cba++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 1 0.00492610837438
+canvastest:_59c53d6a5f09aef2ddc3cb03275b3ab0ab94f8bf++=>6721ceb364f88a89c8040cacbb53f0dc1f449a51++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_63c42a50d5ec2ddb6dc0d8a88dcfc746331ffd64++=>05048a388673cea2d4f7899b9dc1cb7aa7613891++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 1 0.00492610837438
+canvastest:_6721ceb364f88a89c8040cacbb53f0dc1f449a51++=>59c53d6a5f09aef2ddc3cb03275b3ab0ab94f8bf++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_674593dac4a9e9037da843d7f42cf97d38e31121++=>1f919b304b95e5a961a6aa6311588d765a040a5e++,_browser:_Android,_frombrowserversion:_4.3,_tobrowserversion:_4.3,_fromosversion:_4.3,_toosversion:_4.3,_ 1 0.00492610837438
+canvastest:_816556c164d08118cf4ea706d69755c626e33e04++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++,_browser:_Android,_frombrowserversion:_4.2.2,_tobrowserversion:_4.2.2,_fromosversion:_4.2.2,_toosversion:_4.2.2,_ 1 0.00492610837438
+canvastest:_8b6cf369dcbf67197707174c947131dbe85b9571++=>4c2a4ee8703d56bb5a05b867d1718414914e437c++,_browser:_Android,_frombrowserversion:_4.2.2,_tobrowserversion:_4.2.2,_fromosversion:_4.2.2,_toosversion:_4.2.2,_ 1 0.00492610837438
+canvastest:_8b928df7302c2931f4c1e8ae8d69cbfeed32b5f6++=>d2070087df541ce3dad7ece8890a1083103a5726++,_browser:_Android,_frombrowserversion:_4.2.2,_tobrowserversion:_4.2.2,_fromosversion:_4.2.2,_toosversion:_4.2.2,_ 1 0.00492610837438
+canvastest:_9b226f1c181a3fd5c31f784b7a169ad57b1df735++=>371216e8514eb52ae98396f8ff85ead623b3d0f4++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>c3cff1348bf6a83ecdb7a87e4b4ef271f6dde0af++,_browser:_Android,_frombrowserversion:_4.0.4,_tobrowserversion:_4.0.4,_fromosversion:_4.0.4,_toosversion:_4.0.4,_ 1 0.00492610837438
+canvastest:_9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++=>f91a15261375df6371294fe946a3923009a999e0++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_a28efcd07ca48aab6e72fc6e992048740ebbe6ed++=>faa2f820e6f1488a791a4d732e290d669468a75e++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_ad5204988b86cedf412d14a4c458213f697922b0++=>d73f129197b0ed23e1e51951b3df3884ca0bfd8c++,_browser:_Android,_frombrowserversion:_4.1.2,_tobrowserversion:_4.1.2,_fromosversion:_4.1.2,_toosversion:_4.1.2,_ 1 0.00492610837438
+canvastest:_bf1991634e0e7adab91cee1a4cd848ff64fb290a++=>ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 1 0.00492610837438
+canvastest:_c7a72568cb87eda376f0e4be54551b8ef987aae0++=>91f82f19f3f350fea2608e8c8e841be06004b9b6++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_cc3c3c397bd8d56d3010c29236407f7429d97733++=>fab1b747afad323228a8bd26ef7826803edab49f++,_browser:_Android,_frombrowserversion:_4.2.2,_tobrowserversion:_4.2.2,_fromosversion:_4.2.2,_toosversion:_4.2.2,_ 1 0.00492610837438
+canvastest:_cc7ab8be4021d73c59610561b7c6079dba12db34++=>bf1991634e0e7adab91cee1a4cd848ff64fb290a++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 1 0.00492610837438
+canvastest:_d73f129197b0ed23e1e51951b3df3884ca0bfd8c++=>0a2a9a919dbd233791d4cc4ecce047b8feea7464++,_browser:_Android,_frombrowserversion:_4.1.2,_tobrowserversion:_4.1.2,_fromosversion:_4.1.2,_toosversion:_4.1.2,_ 1 0.00492610837438
+canvastest:_f91a15261375df6371294fe946a3923009a999e0++=>9be2d5a9a52ee415ac31fa0c01e41b05d969e8c4++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_faa2f820e6f1488a791a4d732e290d669468a75e++=>a28efcd07ca48aab6e72fc6e992048740ebbe6ed++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+canvastest:_fab1b747afad323228a8bd26ef7826803edab49f++=>cc3c3c397bd8d56d3010c29236407f7429d97733++,_browser:_Android,_frombrowserversion:_4.2.2,_tobrowserversion:_4.2.2,_fromosversion:_4.2.2,_toosversion:_4.2.2,_ 1 0.00492610837438
+canvastest:_ffd52ba5cfcee2995cf45de20eccde3bb0d03a70++=>bf1991634e0e7adab91cee1a4cd848ff64fb290a++,_browser:_Android,_frombrowserversion:_4.4.4,_tobrowserversion:_4.4.4,_fromosversion:_4.4.4,_toosversion:_4.4.4,_ 1 0.00492610837438
+cookie:_True++=>False++,_browser:_Android,_frombrowserversion:_4.1.2,_tobrowserversion:_4.1.2,_fromosversion:_4.1.2,_toosversion:_4.1.2,_ 1 0.00492610837438
+jsFonts:_=>Courier++Courier_New++Monaco++Wingdings_2++Wingdings_3++Bauhaus_93++Bodoni_72++Bodoni_72_Oldstyle++Bodoni_72_Smallcaps++Bookshelf_Symbol_7++English_111_Vivace_BT++GeoSlab_703_Lt_BT++GeoSlab_703_XBd_BT++Humanst_521_Cn_BT++Modern_No._20++Univers_CE_55_Medium++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+language:_en-CA,en-US++q=0.8++=>en-CA,zh-Hans-CN++q=0.8,en-US++q=0.6++,_canvastest:_80503b568bb9c11db1f02c85caf1b47be8f44edc++=>f3bd7262517139238b077962cdd6f7adee74250b++,_audio:_not_supported++=>48000++2++1++0++2++explicit++speakers++,_browser:_Android,_frombrowserversion:_8.0.0,_tobrowserversion:_8.0.0,_fromosversion:_8.0.0,_toosversion:_8.0.0,_ 1 0.00492610837438
+others 1 0.00492610837438
+timezone:_-120.0++=>180.0++,_browser:_Android,_frombrowserversion:_4.4.2,_tobrowserversion:_4.4.2,_fromosversion:_4.4.2,_toosversion:_4.4.2,_ 1 0.00492610837438
+timezone:_-60.0++=>-120.0++,_browser:_Android,_frombrowserversion:_4.2,_tobrowserversion:_4.2,_fromosversion:_4.2,_toosversion:_4.2,_ 1 0.00492610837438
+timezone:_-60.0++=>-120.0++,_browser:_Android,_frombrowserversion:_4.4,_tobrowserversion:_4.4,_fromosversion:_4.4,_toosversion:_4.4,_ 1 0.00492610837438
+timezone:_-60.0++=>-120.0++,_browser:_Android,_frombrowserversion:_8.0.0,_tobrowserversion:_8.0.0,_fromosversion:_8.0.0,_toosversion:_8.0.0,_ 1 0.00492610837438
+timezone:_-60.0++=>0.0++,_browser:_Android,_frombrowserversion:_4.1.2,_tobrowserversion:_4.1.2,_fromosversion:_4.1.2,_toosversion:_4.1.2,_ 1 0.00492610837438
+timezone:_-60.0++=>0.0++,_browser:_Android,_frombrowserversion:_4.3,_tobrowserversion:_4.3,_fromosversion:_4.3,_toosversion:_4.3,_ 1 0.00492610837438
+timezone:_0.0++=>-60.0++,_browser:_Android,_frombrowserversion:_4.3,_tobrowserversion:_4.3,_fromosversion:_4.3,_toosversion:_4.3,_ 1 0.00492610837438
+browser_update 0 0.0
+os_update 0 0.0

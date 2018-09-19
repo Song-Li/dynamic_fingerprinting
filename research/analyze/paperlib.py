@@ -627,7 +627,7 @@ class Paperlib():
         """
         draw the fingure of changed reason by browser
         """
-        df = self.db.load_data(table_name = table_name, limit = 10000)
+        df = self.db.load_data(table_name = table_name)
 
         feature_list = get_fingerprint_change_feature_list() 
 
@@ -679,7 +679,6 @@ class Paperlib():
             tobrowserversion = key[browser_idx + 2]
             fromosversion = key[browser_idx + 3]
             toosversion = key[browser_idx + 4]
-            print frombrowserversion, tobrowserversion, fromosversion, toosversion
 
             cur_key_str = ''
             cur_len = len(cur_group)
@@ -689,13 +688,14 @@ class Paperlib():
                     res[browser][update] = 0
 
             for i in range(len(feature_list)):
-                if key[i] != "":
-                    cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+                if key[i] == '':
+                    continue
+                cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
                 if feature_list[i] in user_update_keys:
                     res[browser]['user_update'] += cur_len
                 elif feature_list[i] in environment_update_keys:
                     res[browser]['environment_update'] += cur_len
-                elif feature_list[i] != 'agent':
+                elif feature_list[i] != 'agent' and feature_list[i] not in added_feature:
                     # if not in user and envir update and the change is not agent, it's others
                     res[browser]['others'] += cur_len
 
@@ -708,6 +708,7 @@ class Paperlib():
         
         total_number = {}
         for browser in res:
+            total_number[browser] = 0
             for update in classes:
                 total_number[browser] += res[browser][update]
 
@@ -716,14 +717,27 @@ class Paperlib():
             sorted_res[browser] = sorted(res[browser].iteritems(), 
                     key=lambda (k,v): (-v,k))
 
+        f_all = safeopen('./changereason/allchanges.dat', 'w')
+
+        idx = 0
+        for update in classes:
+            f_all.write('{}_{} '.format(idx, update))
+            idx += 1
+        f_all.write('\n')
+
         for browser in sorted_res:
-            f = safeopen('./filteredchangereason/{}'.format(browser),
+            f = safeopen('./changereason/{}'.format(browser),
                     'w')
             for string in sorted_res[browser]:
                 f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
                     string[1], 
                     float(string[1]) / float(total_number[browser])))
+            f_all.write('{} '.format(browser.replace(' ','_')))
+            for update in classes:
+                f_all.write('{} '.format(float(res[browser][update]) / float(total_number[browser])))
+            f_all.write('\n')
             f.close()
+        f_all.close()
 
     def rebuild_fingerprintchanges(self, 
             from_table = 'fingerprintchanges', 

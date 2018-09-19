@@ -1,5 +1,9 @@
-total 4 1.0
-agent: Chrome/58.0.3029.160++Amigo/58.0.3029.160++=>Chrome/61.0.3163.114++Amigo/61.0.3163.114++, accept: ++=>*/*++, plugins: Chrome PDF Viewer++Google Update++Microsoft Office ++Microsoft Office ++Photo Gallery++Shockwave Flash++Silverlight PlugIn++Unity Player++=>Chrome PDF Plugin++, jsFonts: MT Extra++=>, canvastest: 4ae230f11be50db77fc4f093b9ad11a5beda5399++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++, gpuimgs: =>0++24f161ac7a003f991ca91687e51e90e7592cc7ad++, browser: Mail.ru Chromium Browser,  1 0.25
-agent: Chrome/58.0.3029.160++Amigo/58.0.3029.160++=>Chrome/61.0.3163.125++Amigo/61.0.3163.125++, accept: ++=>*/*++, plugins: Adobe Acrobat++Chrome PDF Viewer++Shockwave Flash++Silverlight PlugIn++Unity Player++Windows Live Photo Gallery++=>Chrome PDF Plugin++, canvastest: 02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>ecbf927c0b4d90d674eebf3a5675c13a717104c4++, browser: Mail.ru Chromium Browser,  1 0.25
-agent: Chrome/61.0.3163.114++Amigo/61.0.3163.114++=>Chrome/61.0.3163.125++Amigo/61.0.3163.125++, gpuimgs: 0++24f161ac7a003f991ca91687e51e90e7592cc7ad++=>, browser: Mail.ru Chromium Browser,  1 0.25
-jsFonts: PMingLiU-ExtB++SimSun-ExtB++=>, gpuimgs: 0++3a89d4db411aae74128eab8046c07ff887ffef18++=>, browser: Mail.ru Chromium Browser,  1 0.25
+environment_update 4 0.5
+browser_update 2 0.25
+others 2 0.25
+agent:_Chrome/58.0.3029.160++Amigo/58.0.3029.160++=>Chrome/61.0.3163.114++Amigo/61.0.3163.114++,_plugins:_Chrome_PDF_Viewer++Google_Update++Microsoft_Office_++Microsoft_Office_++Photo_Gallery++Shockwave_Flash++Silverlight_PlugIn++Unity_Player++=>Chrome_PDF_Plugin++,_jsFonts:_MT_Extra++=>,_canvastest:_4ae230f11be50db77fc4f093b9ad11a5beda5399++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++,_browser:_Mail.ru_Chromium_Browser,_frombrowserversion:_58.0.3029,_tobrowserversion:_61.0.3163,_fromosversion:_7,_toosversion:_7,_ 1 0.125
+agent:_Chrome/58.0.3029.160++Amigo/58.0.3029.160++=>Chrome/61.0.3163.125++Amigo/61.0.3163.125++,_plugins:_Adobe_Acrobat++Chrome_PDF_Viewer++Shockwave_Flash++Silverlight_PlugIn++Unity_Player++Windows_Live_Photo_Gallery++=>Chrome_PDF_Plugin++,_canvastest:_02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>ecbf927c0b4d90d674eebf3a5675c13a717104c4++,_browser:_Mail.ru_Chromium_Browser,_frombrowserversion:_58.0.3029,_tobrowserversion:_61.0.3163,_fromosversion:_10,_toosversion:_10,_ 1 0.125
+agent:_Chrome/61.0.3163.114++Amigo/61.0.3163.114++=>Chrome/61.0.3163.125++Amigo/61.0.3163.125++,_browser:_Mail.ru_Chromium_Browser,_frombrowserversion:_61.0.3163,_tobrowserversion:_61.0.3163,_fromosversion:_7,_toosversion:_7,_ 1 0.125
+jsFonts:_PMingLiU-ExtB++SimSun-ExtB++=>,_browser:_Mail.ru_Chromium_Browser,_frombrowserversion:_58.0.3029,_tobrowserversion:_58.0.3029,_fromosversion:_7,_toosversion:_7,_ 1 0.125
+os_update 0 0.0
+user_update 0 0.0

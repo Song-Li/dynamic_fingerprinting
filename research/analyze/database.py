@@ -239,6 +239,7 @@ class Database():
         return map_res
 
     def export_sql(self, df, table_name):
+        print ('we have {} record to export'.format(df.shape[0]))
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
     def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1, where = None):

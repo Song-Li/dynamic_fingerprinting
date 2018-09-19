@@ -201,9 +201,9 @@ fingerprint_change_feature_list = [
         "fp2_colordepth",
         "fp2_pixelratio",
 
-        "ipcity",
-        "ipregion",
-        "ipcountry",
+        #"ipcity",
+        #"ipregion",
+        #"ipcountry",
 
         "fp2_liedlanguages",
         "fp2_liedresolution",

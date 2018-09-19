@@ -1,15 +1,17 @@
-total 16 1.0
-browser: HeadlessChrome,  3 0.1875
-agent: HeadlessChrome/66.0.3351.0++=>HeadlessChrome/67.0.3363.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/67.0.3363.0++=>HeadlessChrome/67.0.3376.0++, canvastest: ea8eaa39ae22aec4a4ad236443812db2e9365e96++=>1f2eb8d908ee43668771feda0b528028e87f2c2b++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/67.0.3374.0++=>HeadlessChrome/67.0.3376.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/67.0.3376.0++=>HeadlessChrome/67.0.3374.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/67.0.3380.0++=>HeadlessChrome/67.0.3391.0++, gpuimgs: 0++41a1c72ff98e688347d447ff5db232529124150f++=>, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/67.0.3393.0++=>HeadlessChrome/68.0.3401.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/68.0.3401.0++=>HeadlessChrome/68.0.3402.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/68.0.3402.0++=>HeadlessChrome/68.0.3414.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/68.0.3405.0++=>HeadlessChrome/68.0.3414.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/68.0.3414.0++=>HeadlessChrome/68.0.3416.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/68.0.3414.0++=>HeadlessChrome/68.0.3418.0++, browser: HeadlessChrome,  1 0.0625
-agent: HeadlessChrome/68.0.3416.0++=>HeadlessChrome/68.0.3415.0++, browser: HeadlessChrome,  1 0.0625
-gpuimgs: =>0++41a1c72ff98e688347d447ff5db232529124150f++, browser: HeadlessChrome,  1 0.0625
+browser_update 12 0.923076923077
+agent:_HeadlessChrome/66.0.3351.0++=>HeadlessChrome/67.0.3363.0++,_browser:_HeadlessChrome,_frombrowserversion:_66.0.3351,_tobrowserversion:_67.0.3363,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/67.0.3363.0++=>HeadlessChrome/67.0.3376.0++,_canvastest:_ea8eaa39ae22aec4a4ad236443812db2e9365e96++=>1f2eb8d908ee43668771feda0b528028e87f2c2b++,_browser:_HeadlessChrome,_frombrowserversion:_67.0.3363,_tobrowserversion:_67.0.3376,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/67.0.3374.0++=>HeadlessChrome/67.0.3376.0++,_browser:_HeadlessChrome,_frombrowserversion:_67.0.3374,_tobrowserversion:_67.0.3376,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/67.0.3376.0++=>HeadlessChrome/67.0.3374.0++,_browser:_HeadlessChrome,_frombrowserversion:_67.0.3376,_tobrowserversion:_67.0.3374,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/67.0.3380.0++=>HeadlessChrome/67.0.3391.0++,_browser:_HeadlessChrome,_frombrowserversion:_67.0.3380,_tobrowserversion:_67.0.3391,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/67.0.3393.0++=>HeadlessChrome/68.0.3401.0++,_browser:_HeadlessChrome,_frombrowserversion:_67.0.3393,_tobrowserversion:_68.0.3401,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/68.0.3401.0++=>HeadlessChrome/68.0.3402.0++,_browser:_HeadlessChrome,_frombrowserversion:_68.0.3401,_tobrowserversion:_68.0.3402,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/68.0.3402.0++=>HeadlessChrome/68.0.3414.0++,_browser:_HeadlessChrome,_frombrowserversion:_68.0.3402,_tobrowserversion:_68.0.3414,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/68.0.3405.0++=>HeadlessChrome/68.0.3414.0++,_browser:_HeadlessChrome,_frombrowserversion:_68.0.3405,_tobrowserversion:_68.0.3414,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/68.0.3414.0++=>HeadlessChrome/68.0.3416.0++,_browser:_HeadlessChrome,_frombrowserversion:_68.0.3414,_tobrowserversion:_68.0.3416,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/68.0.3414.0++=>HeadlessChrome/68.0.3418.0++,_browser:_HeadlessChrome,_frombrowserversion:_68.0.3414,_tobrowserversion:_68.0.3418,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+agent:_HeadlessChrome/68.0.3416.0++=>HeadlessChrome/68.0.3415.0++,_browser:_HeadlessChrome,_frombrowserversion:_68.0.3416,_tobrowserversion:_68.0.3415,_fromosversion:_None,_toosversion:_None,_ 1 0.0769230769231
+environment_update 1 0.0769230769231
+os_update 0 0.0
+others 0 0.0
+user_update 0 0.0

@@ -1,67 +1,70 @@
-total 66 1.0
-agent: 1069194455++=>312848745++, gpuimgs: 0++f5080aa0a14819586fb4af74fd471660e7858de6++=>, ipcity: Dusseldorf++=>Bonn++, browser: Other,  1 0.0151515151515
-agent: 1185052486++=>1292088883++, ipcity: Bonn++=>Dusseldorf++, browser: Other,  1 0.0151515151515
-agent: 1186951303++=>819498899++, browser: Other,  1 0.0151515151515
-agent: 1242116149++=>1959209576++, gpuimgs: =>0++193aed9db6f7ef4b3f57e90c76561f0abe549088++, browser: Other,  1 0.0151515151515
-agent: 1292088883++=>635688640++, browser: Other,  1 0.0151515151515
-agent: 1313529785++=>1698793569++, gpuimgs: 0++f5080aa0a14819586fb4af74fd471660e7858de6++=>, browser: Other,  1 0.0151515151515
-agent: 1397394576++=>1186951303++, browser: Other,  1 0.0151515151515
-agent: 1450828718++=>1274277502++, ipcity: Aachen++=>Dusseldorf++, browser: Other,  1 0.0151515151515
-agent: 1477629845++=>892643239++, browser: Other,  1 0.0151515151515
-agent: 1482990071++=>1830732277++, gpuimgs: 0++193aed9db6f7ef4b3f57e90c76561f0abe549088++=>, browser: Other,  1 0.0151515151515
-agent: 1631009455++=>1313529785++, browser: Other,  1 0.0151515151515
-agent: 1698793569++=>2108959664++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, ipcity: Dusseldorf++=>Bonn++, browser: Other,  1 0.0151515151515
-agent: 1796840220++=>1482990071++, browser: Other,  1 0.0151515151515
-agent: 1846812954++=>107765697++, gpuimgs: 0++193aed9db6f7ef4b3f57e90c76561f0abe549088++=>, ipcity: Mannheim++=>Freinsheim++, ipregion: Baden-Wurttemberg++=>Rheinland-Pfalz++, browser: Other,  1 0.0151515151515
-agent: 1864624334++=>93583838++, browser: Other,  1 0.0151515151515
-agent: 1887795940++=>1937768674++, canvastest: 429945286c435b1e8c4a3e5daab8496f7028f5c5++=>6989e28b170e64cc9b5558924ac9cc975e09ccd9++, gpuimgs: =>0++99c791ce2f5081e8b862bda97dfcdbeda932ef1d++, browser: Other,  1 0.0151515151515
-agent: 1959209576++=>448416974++, browser: Other,  1 0.0151515151515
-agent: 2076966424++=>864111407++, timezone: -60.0++=>-120.0++, browser: Other,  1 0.0151515151515
-agent: 2108959664++=>57792964++, browser: Other,  1 0.0151515151515
-agent: 21831044++=>27049607++, browser: Other,  1 0.0151515151515
-agent: 27049607++=>60008800++, ipcity: Wuerzburg++=>Zwickau++, ipregion: Bayern++=>Sachsen++, browser: Other,  1 0.0151515151515
-agent: 275495279++=>821229603++, browser: Other,  1 0.0151515151515
-agent: 312848745++=>1450828718++, timezone: -60.0++=>-120.0++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, ipcity: Bonn++=>Aachen++, browser: Other,  1 0.0151515151515
-agent: 32332836++=>37505198++, timezone: -60.0++=>-120.0++, localstorage: False++=>True++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, browser: Other,  1 0.0151515151515
-agent: 3454388++=>63166959++, jsFonts: Arial Black++=>, browser: Other,  1 0.0151515151515
-agent: 35018365++=>36813054++, jsFonts: =>Arial Black++Arial Narrow++, browser: Other,  1 0.0151515151515
-agent: 368181704++=>1397394576++, browser: Other,  1 0.0151515151515
-agent: 40391178++=>67520008++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, plugins: ++=>Shockwave Flash++, canvastest: 2dffa856a6c696771a37c8b72ad5a0ca08335923++=>727946ff44af1b1a3a5ce8762094313f52a34178++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, browser: Other,  1 0.0151515151515
-agent: 43886622++=>75838056++, localstorage: True++=>False++, ipcity: Stuttgart++=>Weckrieden++, browser: Other,  1 0.0151515151515
-agent: 448416974++=>578624977++, gpuimgs: 0++193aed9db6f7ef4b3f57e90c76561f0abe549088++=>, browser: Other,  1 0.0151515151515
-agent: 45006056++=>35018365++, jsFonts: Arial Black++Arial Narrow++=>, ipcity: Isenburg++=>Buchenwalde++, ipregion: Rheinland-Pfalz++=>Mecklenburg-Vorpommern++, browser: Other,  1 0.0151515151515
-agent: 471588580++=>275495279++, browser: Other,  1 0.0151515151515
-agent: 51573915++=>3454388++, canvastest: 6989e28b170e64cc9b5558924ac9cc975e09ccd9++=>ad6bcb1b677df6a81d41328c7a94832a302837ff++, gpuimgs: =>0++99c791ce2f5081e8b862bda97dfcdbeda932ef1d++, browser: Other,  1 0.0151515151515
-agent: 546631737++=>1846812954++, browser: Other,  1 0.0151515151515
-agent: 55723079++=>40497772++, language: en,en-US++q=0.5++=>de,en++q=0.7,en-US++q=0.3++, ipcity: Huttengrund++=>Erfurt++, browser: Other,  1 0.0151515151515
-agent: 5748129++=>51573915++, timezone: -60.0++=>-120.0++, jsFonts: =>Arial Black++, gpuimgs: 0++99c791ce2f5081e8b862bda97dfcdbeda932ef1d++=>, browser: Other,  1 0.0151515151515
-agent: 57792964++=>1185052486++, browser: Other,  1 0.0151515151515
-agent: 578624977++=>1796840220++, gpuimgs: =>0++193aed9db6f7ef4b3f57e90c76561f0abe549088++, browser: Other,  1 0.0151515151515
-agent: 62576317++=>40074860++, accept: ++=>*/*++, jsFonts: MS Outlook++=>Leelawadee++Microsoft Uighur++MT Extra++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, browser: Other,  1 0.0151515151515
-agent: 63064221++=>62576317++, gpuimgs: 0++f5080aa0a14819586fb4af74fd471660e7858de6++=>, ipcity: Zwickau++=>Halle (Saale)++, ipregion: Sachsen++=>Sachsen-Anhalt++, browser: Other,  1 0.0151515151515
-agent: 635688640++=>1069194455++, browser: Other,  1 0.0151515151515
-agent: 63699549++=>63064221++, ipcity: Chemnitz++=>Zwickau++, browser: Other,  1 0.0151515151515
-agent: 65841487++=>44050374++, gpuimgs: 0++f5080aa0a14819586fb4af74fd471660e7858de6++=>, ipcity: Sulzbach++=>Dortmund++, ipregion: Thuringen++=>Nordrhein-Westfalen++, browser: Other,  1 0.0151515151515
-agent: 69618155++=>65841487++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, ipcity: Schwerin++=>Sulzbach++, ipregion: Mecklenburg-Vorpommern++=>Thuringen++, browser: Other,  1 0.0151515151515
-agent: 72719156++=>40391178++, localstorage: True++=>False++, browser: Other,  1 0.0151515151515
-agent: 73343994++=>69869726++, accept: ++=>*/*++, language: de++=>de,en-US++q=0.7,en++q=0.3++, localstorage: False++=>True++, jsFonts: =>Arial Black++Arial Narrow++, browser: Other,  1 0.0151515151515
-agent: 735634108++=>1631009455++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, browser: Other,  1 0.0151515151515
-agent: 75838056++=>73038089++, accept: ++=>*/*++, gpuimgs: =>0++f5080aa0a14819586fb4af74fd471660e7858de6++, browser: Other,  1 0.0151515151515
-agent: 79592894++=>5748129++, accept: ++=>*/*++, browser: Other,  1 0.0151515151515
-agent: 81347599++=>32332836++, gpuimgs: 0++f5080aa0a14819586fb4af74fd471660e7858de6++=>, browser: Other,  1 0.0151515151515
-agent: 819498899++=>4358821++, plugins: Shockwave Flash++=>++, browser: Other,  1 0.0151515151515
-agent: 821229603++=>82863387++, ipcity: Augsburg++=>Neu Hacklingen++, ipregion: Schleswig-Holstein++=>Niedersachsen++, browser: Other,  1 0.0151515151515
-agent: 82506028++=>79592894++, jsFonts: Arial Black++=>, gpuimgs: =>0++99c791ce2f5081e8b862bda97dfcdbeda932ef1d++, browser: Other,  1 0.0151515151515
-agent: 82863387++=>368181704++, browser: Other,  1 0.0151515151515
-agent: 83690736++=>82506028++, gpuimgs: 0++99c791ce2f5081e8b862bda97dfcdbeda932ef1d++=>, ipcity: Stuttgart++=>Ingelfingen++, browser: Other,  1 0.0151515151515
-agent: 856852364++=>1477629845++, browser: Other,  1 0.0151515151515
-agent: 864111407++=>1242116149++, gpuimgs: 0++193aed9db6f7ef4b3f57e90c76561f0abe549088++=>, browser: Other,  1 0.0151515151515
-agent: 892643239++=>1864624334++, accept: ++=>*/*++, localstorage: True++=>False++, audio: 4++4++=>2++2++, browser: Other,  1 0.0151515151515
-agent: 93583838++=>2076966424++, browser: Other,  1 0.0151515151515
-agent: 996050115++=>1194042232++, canvastest: ff9c8727d4f9b124f2659e7de0206f1468f75674++=>51db6bf1278bdc57c5397c06067404801b993223++, gpuimgs: =>0++99c791ce2f5081e8b862bda97dfcdbeda932ef1d++, browser: Other,  1 0.0151515151515
-canvastest: 0d32b57f8afb9779f80ed136b60ea78c723a9c70++=>539e3d78770be38bcc5252456fe3b42665b601fc++, gpuimgs: 319dff5871b15929f751f2ea422cff664da895af++=>fa5f57760d291c1b65250cc29c38f7684ec1783a++, ipcity: Bielefeld++=>Dusseldorf++, browser: Other,  1 0.0151515151515
-canvastest: 539e3d78770be38bcc5252456fe3b42665b601fc++=>8b12678339cebb2e252d720b1a832ad66885ed41++, gpuimgs: fa5f57760d291c1b65250cc29c38f7684ec1783a++=>319dff5871b15929f751f2ea422cff664da895af++, browser: Other,  1 0.0151515151515
-canvastest: 8b12678339cebb2e252d720b1a832ad66885ed41++=>0d32b57f8afb9779f80ed136b60ea78c723a9c70++, ipcity: Dusseldorf++=>Bielefeld++, browser: Other,  1 0.0151515151515
-ipcity: Clausthal++=>Uslar++, browser: Other,  1 0.0151515151515
-jsFonts: MT Extra++=>, gpuimgs: 0++193aed9db6f7ef4b3f57e90c76561f0abe549088++=>, ipcity: Baunatal++=>Erfurt++, ipregion: Hessen++=>Thuringen++, browser: Other,  1 0.0151515151515
-plugins: Shockwave Flash++=>++, gpuimgs: 0++f5080aa0a14819586fb4af74fd471660e7858de6++=>, browser: Other,  1 0.0151515151515
+environment_update 16 0.516129032258
+user_update 10 0.322580645161
+others 5 0.161290322581
+agent:_1069194455++=>312848745++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1185052486++=>1292088883++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1186951303++=>819498899++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1242116149++=>1959209576++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1292088883++=>635688640++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1313529785++=>1698793569++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1397394576++=>1186951303++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1450828718++=>1274277502++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1477629845++=>892643239++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1482990071++=>1830732277++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1631009455++=>1313529785++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1698793569++=>2108959664++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1796840220++=>1482990071++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1846812954++=>107765697++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_7,_toosversion:_7,_ 1 0.0322580645161
+agent:_1864624334++=>93583838++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1887795940++=>1937768674++,_canvastest:_429945286c435b1e8c4a3e5daab8496f7028f5c5++=>6989e28b170e64cc9b5558924ac9cc975e09ccd9++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_1959209576++=>448416974++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_2076966424++=>864111407++,_timezone:_-60.0++=>-120.0++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_2108959664++=>57792964++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_21831044++=>27049607++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_27049607++=>60008800++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_275495279++=>821229603++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_312848745++=>1450828718++,_timezone:_-60.0++=>-120.0++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_32332836++=>37505198++,_timezone:_-60.0++=>-120.0++,_localstorage:_False++=>True++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_3454388++=>63166959++,_jsFonts:_Arial_Black++=>,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_35018365++=>36813054++,_jsFonts:_=>Arial_Black++Arial_Narrow++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_368181704++=>1397394576++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_40391178++=>67520008++,_timezone:_-60.0++=>-120.0++,_plugins:_++=>Shockwave_Flash++,_canvastest:_2dffa856a6c696771a37c8b72ad5a0ca08335923++=>727946ff44af1b1a3a5ce8762094313f52a34178++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_43886622++=>75838056++,_localstorage:_True++=>False++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_448416974++=>578624977++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_45006056++=>35018365++,_jsFonts:_Arial_Black++Arial_Narrow++=>,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_471588580++=>275495279++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_51573915++=>3454388++,_canvastest:_6989e28b170e64cc9b5558924ac9cc975e09ccd9++=>ad6bcb1b677df6a81d41328c7a94832a302837ff++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_546631737++=>1846812954++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_7,_toosversion:_7,_ 1 0.0322580645161
+agent:_55723079++=>40497772++,_language:_en,en-US++q=0.5++=>de,en++q=0.7,en-US++q=0.3++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_5748129++=>51573915++,_timezone:_-60.0++=>-120.0++,_jsFonts:_=>Arial_Black++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_57792964++=>1185052486++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_578624977++=>1796840220++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_62576317++=>40074860++,_jsFonts:_MS_Outlook++=>Leelawadee++Microsoft_Uighur++MT_Extra++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_63064221++=>62576317++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_635688640++=>1069194455++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_63699549++=>63064221++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_65841487++=>44050374++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_69618155++=>65841487++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_72719156++=>40391178++,_localstorage:_True++=>False++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_73343994++=>69869726++,_language:_de++=>de,en-US++q=0.7,en++q=0.3++,_localstorage:_False++=>True++,_jsFonts:_=>Arial_Black++Arial_Narrow++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_7,_toosversion:_7,_ 1 0.0322580645161
+agent:_735634108++=>1631009455++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_75838056++=>73038089++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_79592894++=>5748129++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_81347599++=>32332836++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_819498899++=>4358821++,_plugins:_Shockwave_Flash++=>++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_821229603++=>82863387++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_82506028++=>79592894++,_jsFonts:_Arial_Black++=>,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_82863387++=>368181704++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_83690736++=>82506028++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+agent:_856852364++=>1477629845++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_864111407++=>1242116149++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_892643239++=>1864624334++,_localstorage:_True++=>False++,_audio:_4++4++=>2++2++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_93583838++=>2076966424++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+agent:_996050115++=>1194042232++,_canvastest:_ff9c8727d4f9b124f2659e7de0206f1468f75674++=>51db6bf1278bdc57c5397c06067404801b993223++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+canvastest:_0d32b57f8afb9779f80ed136b60ea78c723a9c70++=>539e3d78770be38bcc5252456fe3b42665b601fc++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+canvastest:_539e3d78770be38bcc5252456fe3b42665b601fc++=>8b12678339cebb2e252d720b1a832ad66885ed41++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+canvastest:_8b12678339cebb2e252d720b1a832ad66885ed41++=>0d32b57f8afb9779f80ed136b60ea78c723a9c70++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+jsFonts:_MT_Extra++=>,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_8,_toosversion:_8,_ 1 0.0322580645161
+plugins:_Shockwave_Flash++=>++,_browser:_Other,_frombrowserversion:_None,_tobrowserversion:_None,_fromosversion:_None,_toosversion:_None,_ 1 0.0322580645161
+browser_update 0 0.0
+os_update 0 0.0

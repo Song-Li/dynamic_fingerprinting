@@ -1,40 +1,45 @@
-total 55 1.0
-audio: 44100++2++1++0++2++explicit++speakers++=>not supported++, browser: Puffin,  5 0.0909090909091
-accept: ++=>*/*++, browser: Puffin,  3 0.0545454545455
-browser: Puffin,  3 0.0545454545455
-fp2_liedlanguages: True++=>False++, browser: Puffin,  3 0.0545454545455
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++, browser: Puffin,  2 0.0363636363636
-agent: Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++, encoding: gzip, deflate++=>gzip, deflate, br++, browser: Puffin,  2 0.0363636363636
-agent: Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++, browser: Puffin,  2 0.0363636363636
-agent: Puffin/7.1.1.18059AP++=>Puffin/7.1.2.18064AP++, browser: Puffin,  2 0.0363636363636
-encoding: gzip, deflate++=>gzip, deflate, br++, browser: Puffin,  2 0.0363636363636
-timezone: -60.0++=>-120.0++, browser: Puffin,  2 0.0363636363636
-accept: ++=>*/*++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  1 0.0181818181818
-accept: ++=>*/*++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
-agent: 7.0;++Build/NRD90M;++Puffin/7.0.6.18027AP++=>8.0.0;++Build/OPR1.170623.026;++Puffin/7.1.1.18059AP++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.0.3.17762AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.0.3.17762AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++, timezone: -60.0++=>-120.0++, gpuimgs: 0++41a1c72ff98e688347d447ff5db232529124150f++=>, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++, gpuimgs: =>0++41a1c72ff98e688347d447ff5db232529124150f++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AT++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AT++, browser: Puffin,  1 0.0181818181818
-agent: Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.3.20547AT++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++, encoding: gzip, deflate++=>gzip, deflate, br++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++, accept: ++=>*/*++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AP++=>Puffin/7.1.2.18064AP++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AP++=>Puffin/7.1.2.18064AP++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AT++=>Puffin/7.0.6.18027AT++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++, accept: ++=>*/*++, timezone: -60.0++=>-120.0++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++, timezone: 60.0++=>0.0++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.6.18027AP++=>Puffin/7.1.2.18064AP++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.6.18027AT++=>Puffin/7.1.1.18059AT++, gpuimgs: 0++41a1c72ff98e688347d447ff5db232529124150f++=>, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.6.18027AT++=>Puffin/7.1.2.18064AT++, timezone: -60.0++=>-120.0++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.0.6.18027AT++=>Puffin/7.1.2.18064AT++, timezone: -60.0++=>-120.0++, gpuimgs: 0++41a1c72ff98e688347d447ff5db232529124150f++=>, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.5.0.20369AP++=>Puffin/7.5.3.20547AP++, browser: Puffin,  1 0.0181818181818
-agent: Puffin/7.5.1.20499AP++=>Puffin/7.5.2.20531AP++, browser: Puffin,  1 0.0181818181818
-audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  1 0.0181818181818
-audio: not supported++=>44100++2++1++0++2++explicit++speakers++, fp2_liedlanguages: True++=>False++, browser: Puffin,  1 0.0181818181818
-gpuimgs: =>0++41a1c72ff98e688347d447ff5db232529124150f++, audio: not supported++=>44100++2++1++0++2++explicit++speakers++, browser: Puffin,  1 0.0181818181818
-timezone: -60.0++=>-120.0++, gpuimgs: 0++41a1c72ff98e688347d447ff5db232529124150f++=>, browser: Puffin,  1 0.0181818181818
+browser_update 31 0.525423728814
+others 13 0.220338983051
+user_update 13 0.220338983051
+fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_6.0.1,_toosversion:_6.0.1,_ 2 0.0338983050847
+timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.1.2,_fromosversion:_8.0.0,_toosversion:_8.0.0,_ 2 0.0338983050847
+agent:_7.0;++Build/NRD90M;++Puffin/7.0.6.18027AP++=>8.0.0;++Build/OPR1.170623.026;++Puffin/7.1.1.18059AP++,_browser:_Puffin,_frombrowserversion:_7.0.6,_tobrowserversion:_7.1.1,_fromosversion:_7.0,_toosversion:_8.0.0,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.0.3.17762AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.5.0,_fromosversion:_5.1,_toosversion:_5.1,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.0.3.17762AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.5.0,_fromosversion:_None,_toosversion:_None,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.0,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AP++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.0,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.1,_fromosversion:_6.0.1,_toosversion:_6.0.1,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.1,_fromosversion:_8.0.0,_toosversion:_8.0.0,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AP++=>Chrome/63.0.3239.111++Puffin/7.5.1.20499AP++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.1,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AT++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.0,_fromosversion:_5.0.2,_toosversion:_5.0.2,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.0.20369AT++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.0,_fromosversion:_7.1.1,_toosversion:_7.1.1,_ 1 0.0169491525424
+agent:_Chrome/59.0.3071.117++Puffin/7.1.2.18064AT++=>Chrome/63.0.3239.111++Puffin/7.5.3.20547AT++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.5.3,_fromosversion:_5.0.2,_toosversion:_5.0.2,_ 1 0.0169491525424
+agent:_Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++,_encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_browser:_Puffin,_frombrowserversion:_7.0.2,_tobrowserversion:_7.0.3,_fromosversion:_6.0.1,_toosversion:_6.0.1,_ 1 0.0169491525424
+agent:_Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++,_encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_browser:_Puffin,_frombrowserversion:_7.0.2,_tobrowserversion:_7.0.3,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Puffin/7.0.2.17719AP++=>Puffin/7.0.3.17762AP++,_encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.2,_tobrowserversion:_7.0.3,_fromosversion:_None,_toosversion:_None,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.6,_fromosversion:_6.0.1,_toosversion:_6.0.1,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.6,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AP++=>Puffin/7.0.6.18027AP++,_fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.6,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AP++=>Puffin/7.1.2.18064AP++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.1.2,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AP++=>Puffin/7.1.2.18064AP++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.1.2,_fromosversion:_None,_toosversion:_None,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AT++=>Puffin/7.0.6.18027AT++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.6,_fromosversion:_5.1,_toosversion:_5.1,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.1.2,_fromosversion:_5.0.2,_toosversion:_5.0.2,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++,_timezone:_-60.0++=>-120.0++,_fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.1.2,_fromosversion:_5.0.2,_toosversion:_5.0.2,_ 1 0.0169491525424
+agent:_Puffin/7.0.3.17762AT++=>Puffin/7.1.2.18064AT++,_timezone:_60.0++=>0.0++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.1.2,_fromosversion:_7.1.1,_toosversion:_7.1.1,_ 1 0.0169491525424
+agent:_Puffin/7.0.6.18027AP++=>Puffin/7.1.2.18064AP++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.6,_tobrowserversion:_7.1.2,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Puffin/7.0.6.18027AT++=>Puffin/7.1.1.18059AT++,_browser:_Puffin,_frombrowserversion:_7.0.6,_tobrowserversion:_7.1.1,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Puffin/7.0.6.18027AT++=>Puffin/7.1.2.18064AT++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.6,_tobrowserversion:_7.1.2,_fromosversion:_4.1.1,_toosversion:_4.1.1,_ 1 0.0169491525424
+agent:_Puffin/7.0.6.18027AT++=>Puffin/7.1.2.18064AT++,_timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.0.6,_tobrowserversion:_7.1.2,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+agent:_Puffin/7.1.1.18059AP++=>Puffin/7.1.2.18064AP++,_browser:_Puffin,_frombrowserversion:_7.1.1,_tobrowserversion:_7.1.2,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424
+agent:_Puffin/7.1.1.18059AP++=>Puffin/7.1.2.18064AP++,_browser:_Puffin,_frombrowserversion:_7.1.1,_tobrowserversion:_7.1.2,_fromosversion:_8.0.0,_toosversion:_8.0.0,_ 1 0.0169491525424
+agent:_Puffin/7.5.0.20369AP++=>Puffin/7.5.3.20547AP++,_browser:_Puffin,_frombrowserversion:_7.5.0,_tobrowserversion:_7.5.3,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424
+agent:_Puffin/7.5.1.20499AP++=>Puffin/7.5.2.20531AP++,_browser:_Puffin,_frombrowserversion:_7.5.1,_tobrowserversion:_7.5.2,_fromosversion:_8.0.0,_toosversion:_8.0.0,_ 1 0.0169491525424
+audio:_not_supported++=>44100++2++1++0++2++explicit++speakers++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_None,_toosversion:_None,_ 1 0.0169491525424
+encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_7.0,_toosversion:_7.0,_ 1 0.0169491525424
+encoding:_gzip,_deflate++=>gzip,_deflate,_br++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_7.1.1,_toosversion:_7.1.1,_ 1 0.0169491525424
+environment_update 1 0.0169491525424
+fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_5.1.1,_toosversion:_5.1.1,_ 1 0.0169491525424
+fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424
+fp2_liedlanguages:_True++=>False++,_browser:_Puffin,_frombrowserversion:_7.0.3,_tobrowserversion:_7.0.3,_fromosversion:_7.1.1,_toosversion:_7.1.1,_ 1 0.0169491525424
+os_update 1 0.0169491525424
+timezone:_-60.0++=>-120.0++,_browser:_Puffin,_frombrowserversion:_7.1.2,_tobrowserversion:_7.1.2,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.0169491525424

@@ -1,4 +1,8 @@
-total 3 1.0
-accept: ++=>*/*++, ipcity: Traunstein++=>Wald an der Alz++, browser: Netscape,  1 0.333333333333
-browser: Netscape,  1 0.333333333333
-ipcity: Ingolstadt++=>Traunstein++, browser: Netscape,  1 0.333333333333
+others 54 0.58064516129
+environment_update 24 0.258064516129
+user_update 15 0.161290322581
+ipcity:_Ingolstadt++=>Wald_an_der_Alz++,_browser:_Netscape,_frombrowserversion:_9.1.285,_tobrowserversion:_9.1.285,_fromosversion:_ME,_toosversion:_ME,_ 1 0.010752688172
+ipcity:_Traunstein++=>Wald_an_der_Alz++,_browser:_Netscape,_frombrowserversion:_9.1.285,_tobrowserversion:_9.1.285,_fromosversion:_ME,_toosversion:_ME,_ 1 0.010752688172
+ipcity:_Wald_an_der_Alz++=>Traunstein++,_browser:_Netscape,_frombrowserversion:_9.1.285,_tobrowserversion:_9.1.285,_fromosversion:_ME,_toosversion:_ME,_ 1 0.010752688172
+browser_update 0 0.0
+os_update 0 0.0

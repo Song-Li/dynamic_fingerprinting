@@ -1,4 +1,7 @@
-total 3 1.0
-gpuimgs: =>0++048dcc0f0ee67e0d119b80dca466913e9cb631f6++, ipcity: Karlsruhe++=>Oldenburg++, ipregion: Baden-Wurttemberg++=>Niedersachsen++, browser: QQ Browser Mobile,  1 0.333333333333
-timezone: -60.0++=>-120.0++, gpuimgs: 0++048dcc0f0ee67e0d119b80dca466913e9cb631f6++=>, ipcity: Geesthacht++=>Bonn++, ipregion: Schleswig-Holstein++=>Nordrhein-Westfalen++, browser: QQ Browser Mobile,  1 0.333333333333
-timezone: -60.0++=>-120.0++, ipcity: Munich++=>Dresden++, ipregion: Bayern++=>Sachsen++, browser: QQ Browser Mobile,  1 0.333333333333
+user_update 2 1.0
+timezone:_-60.0++=>-120.0++,_browser:_QQ_Browser_Mobile,_frombrowserversion:_6.0,_tobrowserversion:_6.0,_fromosversion:_6.0,_toosversion:_6.0,_ 1 0.5
+timezone:_-60.0++=>-120.0++,_browser:_QQ_Browser_Mobile,_frombrowserversion:_6.0,_tobrowserversion:_6.0,_fromosversion:_6.0.1,_toosversion:_6.0.1,_ 1 0.5
+browser_update 0 0.0
+environment_update 0 0.0
+os_update 0 0.0
+others 0 0.0
