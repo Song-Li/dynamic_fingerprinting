@@ -554,12 +554,14 @@ class Paperlib():
         """
         db = self.db
         browserfingerprint = 'noipfingerprint'
-        df = db.load_data(table_name = 'pandas_features')
+        df = db.load_data(table_name = 'patched_pandas')
 
         df = filter_less_than_n(df, 3)
 
         grouped = df.groupby('browserid')
-        res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 'browser': [], 'os': [], 'browserversion': [], 'osversion': []}
+        res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 
+                'browser': [], 'os': [], 'frombrowserversion': [], 'fromosversion': [], 
+                'tobrowserversion': [], 'toosversion': []}
         feature_list = get_fingerprint_change_feature_list() 
         for feature in feature_list:
             res[feature] = []
@@ -633,26 +635,78 @@ class Paperlib():
         for feature in feature_list:
             if feature not in columns:
                 feature_list.remove(feature)
-        if 'browser' not in feature_list:
-            feature_list.append('browser')
+        added_feature = [
+                'browser',
+                'frombrowserversion',
+                'tobrowserversion',
+                'fromosversion',
+                'toosversion'
+                ]
+
+        user_update_keys = [
+                'fp2_pixelratio',
+                'timezone',
+                'cookie',
+                'WebGL',
+                'localstorage'
+                ]
+        environment_update_keys = [
+                'jsFonts',
+                'canvastest',
+                'inc',
+                'gpu',
+                'cpucores',
+                'audio', 
+                'fp2_colordepth',
+                'fp2_cpuclass'
+                ]
+
+        classes = ['browser_update', 'os_update', 'user_update', 'environment_update', 'others']
+        for feature in added_feature:
+            if feature not in feature_list:
+                feature_list.append(feature)
+
         grouped = df.groupby(feature_list)
 
         res = {}
         browser_idx = feature_list.index('browser')
+
         for key, cur_group in tqdm(grouped):
             browser = key[browser_idx]
+            frombrowserversion = key[browser_idx + 1]
+            tobrowserversion = key[browser_idx + 2]
+            fromosversion = key[browser_idx + 3]
+            toosversion = key[browser_idx + 4]
+
             cur_key_str = ''
+            cur_len = len(cur_group)
             if browser not in res:
-                res[browser] = {'total': 0}
+                for update in classes:
+                    res[browser][update] = 0
+
             for i in range(len(feature_list)):
                 if key[i] != "":
                     cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+                if feature_list[i] in user_update_keys:
+                    res[browser]['user_update'] += cur_len
+                elif feature_list[i] in environment_update_keys:
+                    res[browser]['environment_update'] += cur_len
+                elif feature_list[i] != 'agent':
+                    # if not in user and envir update and the change is not agent, it's others
+                    res[browser]['other'] += cur_len
 
-            cur_len = len(cur_group)
+            if frombrowserversion != tobrowserversion:
+                res[browser]['browser_update'] += cur_len
+            if fromosversion != toosversion:
+                res[browser]['os_update'] += cur_len
+
             res[browser][cur_key_str] = cur_len
-            res[browser]['total'] += cur_len
-
         
+        total_number = {}
+        for browser in res:
+            for update in classes:
+                total_number[browser] += res[browser][update]
+
         sorted_res = {}
         for browser in res:
             sorted_res[browser] = sorted(res[browser].iteritems(), 
@@ -664,9 +718,8 @@ class Paperlib():
             for string in sorted_res[browser]:
                 f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
                     string[1], 
-                    float(string[1]) / float(res[browser]['total'])))
+                    float(string[1]) / float(total_number[browser])))
             f.close()
-
 
     def rebuild_fingerprintchanges(self, 
             from_table = 'fingerprintchanges', 
@@ -688,3 +741,4 @@ class Paperlib():
         print ('finished rebuild, storing back to sql')
         db.export_sql(df, aim_table)
         return 
+

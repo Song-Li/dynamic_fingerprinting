@@ -367,6 +367,8 @@ class Database():
         generate the browserfingerprint of the df
         """
         for idx in tqdm(df.index):
+            res_str = ""
+            noipfingerprint_str = ""
             for feature in feature_list:
                 res_str += str(df.at[idx, feature])
                 if 'ip' not in feature:
