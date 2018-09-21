@@ -8,7 +8,7 @@ def main():
     paperlib = Paperlib(db)
     df = db.load_data(table_name = 'patched_pandas')
     #df = db.load_data(table_name = 'allchanges')
-    paperlib.feature_latex_table(get_fingerprint_feature_list(), df)
+    paperlib.feature_latex_table(get_fingerprint_feature_list(), df, output_file = './res/feature_table_1_part1.dat')
     #db.pandas_patches(df, export_table = 'patched_pandas')
     #paperlib.rebuild_fingerprintchanges()
     #paperlib.draw_change_reason()

@@ -103,7 +103,7 @@ class Paperlib():
             grouped = df.groupby(feature)
             for key, cur_group in grouped:
                 distinct[feature] += 1
-                if len(cur_group.index) == 1:
+                if cur_group['label'].nunique() == 1:
                     unique[feature] += 1
 
         print ('generating grouped features')
@@ -114,9 +114,10 @@ class Paperlib():
 
             for key, cur_group in grouped:
                 distinct[feature_group] += 1
-                if len(cur_group.index) == 1:
+                if cur_group['label'].nunique() == 1:
                     unique[feature_group] += 1
         
+        """
         print ('generating stability')
         for feature in feature_list:
             stability[feature] = 0
@@ -149,11 +150,12 @@ class Paperlib():
         for feature in stability:
             stability[feature] = float(stability[feature]) / float(total_user_num)
 
+        """
         f = safeopen(output_file, 'w')
         for feature in unique:
-            f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
-                    unique[feature], stability[feature]))
-            #f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
+            #f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
+            #        unique[feature], stability[feature]))
+            f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
             f.write('\n')
         f.close()
 
