@@ -9,9 +9,7 @@ from feature_lists import *
 import collections
 import user_agents
 
-long_feature_list = get_long_feature_list()
 feature_list = get_feature_list()
-ori_long_feature_list = get_ori_long_feature_list()
 ori_feature_list = get_ori_feature_list()
 fingerprint_feature_list = get_fingerprint_feature_list()
 global ip2location

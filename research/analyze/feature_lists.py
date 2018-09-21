@@ -1,59 +1,3 @@
-long_feature_list = [
-        "IP",
-        "agent",
-        "encoding",
-        "language",
-        "timezone", 
-
-        "plugins", 
-        "cookie", 
-        "WebGL", 
-        "localstorage", 
-
-        "langsdetected",
-        "jsFonts",
-        "canvastest", 
-
-        "inc", 
-        "gpu", 
-        "cpucores", 
-        "audio",
-
-        "ipcity",
-        "ipregion",
-        "ipcountry",
-
-        "browserfingerprint"
-        ]
-
-ori_long_feature_list = [
-        "IP",
-        "agent",
-        "encoding",
-        "language",
-        "timezone", 
-
-        "plugins", 
-        "cookie", 
-        "WebGL", 
-        "localstorage", 
-
-        "langsdetected",
-        "jsFonts",
-        "canvastest", 
-
-        "inc", 
-        "gpu", 
-        "cpucores", 
-        "audio",
-
-        "clientid",
-        "time",
-        "label",
-        "uniquelabel",
-        "browserfingerprint"
-        ]
-
 feature_list = [ 
         "IP",
         "agent",
@@ -157,12 +101,13 @@ fingerprint_feature_list = [
 
         "inc", 
         "gpu", 
-#        "gpuimgs", 
+        "gpuimgs", 
         "cpucores", 
         "audio",
         "fp2_cpuclass",
         "fp2_colordepth",
         "fp2_pixelratio",
+        "resolution",
 
         "ipcity",
         "ipregion",
@@ -216,12 +161,6 @@ def get_ori_feature_list():
 
 def get_feature_list():
     return feature_list
-
-def get_ori_long_feature_list():
-    return ori_long_feature_list
-
-def get_long_feature_list():
-    return long_feature_list
 
 def get_fingerprint_feature_list():
     return fingerprint_feature_list

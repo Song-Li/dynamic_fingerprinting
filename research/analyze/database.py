@@ -367,6 +367,8 @@ class Database():
         """
         generate the browserfingerprint of the df
         """
+        print ('fingerprint feature_list')
+        print (feature_list)
         for idx in tqdm(df.index):
             res_str = ""
             noipfingerprint_str = ""
@@ -379,14 +381,13 @@ class Database():
             df.at[idx, 'browserfingerprint'] = hash_str
             hash_str = hashlib.sha256(noipfingerprint_str).hexdigest()
             df.at[idx, 'noipfingerprint'] = hash_str
-
         return df
 
     def pandas_patches(self, df, export_table = None):
         """
         after generated pandas features, we sometimes need to rebuild the table
         """
-        df = self.audio_patch(df)
+        #df = self.audio_patch(df)
         #partgpu_patch(df)
         #df = self.accept_httpheaders_patch(df)
         df = self.generate_fingerprint(df, self.fingerprint_feature_list)

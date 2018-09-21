@@ -14,9 +14,10 @@ class Paperlib():
                 'headers_features' : [0, 1, 2, 3, 4, 5],
                 'browser_features' : [6, 7, 8, 9, 10, 11],
                 'os_features' : [12, 13, 14],
-                'hardware_feature' : [15, 16, 17, 18, 19, 20, 21, 22],
-                'ip_features': [23, 24, 25],
-                'consistency' : [26, 27, 28, 29]
+                #add gpuimgs or not
+                'hardware_feature' : [15, 16, 18, 19, 20, 21, 22, 23],
+                'ip_features': [24, 25, 26],
+                'consistency' : [27, 28, 29, 30]
                 }
         self.paperlib_helper = Paperlib_helper()
 
@@ -79,6 +80,80 @@ class Paperlib():
         f = safeopen(output_file, 'w')
         for feature in medians:
             f.write(feature + ' ' + str(medians[feature]))
+            f.write('\n')
+        f.close()
+
+    def feature_latex_table(self, feature_list, df, output_file = './res/feature_table_1.dat'):
+        """
+        new version of generate table 1, with changes 
+        """
+        feature_list.append('browserfingerprint')
+        print feature_list
+        print len(feature_list)
+        distinct = {}
+        unique = {}
+        stability = {}
+
+        # generate normal feature first
+        print ('generating normal features')
+        for feature in tqdm(feature_list):
+            unique[feature] = 0
+            distinct[feature] = 0
+
+            grouped = df.groupby(feature)
+            for key, cur_group in grouped:
+                distinct[feature] += 1
+                if len(cur_group.index) == 1:
+                    unique[feature] += 1
+
+        print ('generating grouped features')
+        for feature_group in tqdm(self.group_features):
+            grouped = df.groupby([feature_list[x] for x in self.group_features[feature_group]])
+            unique[feature_group] = 0
+            distinct[feature_group] = 0
+
+            for key, cur_group in grouped:
+                distinct[feature_group] += 1
+                if len(cur_group.index) == 1:
+                    unique[feature_group] += 1
+        
+        print ('generating stability')
+        for feature in feature_list:
+            stability[feature] = 0
+
+        grouped = df.groupby('label')
+        update_mark = {}
+        revert_group_idx = {}
+        for group_name in self.group_features:
+            stability[group_name] = 0
+
+        for feature in self.group_features:
+            update_mark[feature] = True
+            for idx in self.group_features[feature]:
+                revert_group_idx[feature_list[idx]] = feature 
+
+        total_user_num = 0
+        for key, cur_group in tqdm(grouped):
+            total_user_num += 1
+            for feature in feature_list:
+                if cur_group[feature].nunique() == 1:
+                    stability[feature] += 1
+                elif feature in revert_group_idx:
+                    update_mark[revert_group_idx[feature]] = False
+
+            for group_name in self.group_features:
+                if update_mark[group_name]:
+                    stability[group_name] += 1
+                update_mark[group_name] = True
+
+        for feature in stability:
+            stability[feature] = float(stability[feature]) / float(total_user_num)
+
+        f = safeopen(output_file, 'w')
+        for feature in unique:
+            f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
+                    unique[feature], stability[feature]))
+            #f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
             f.write('\n')
         f.close()
 
@@ -180,13 +255,6 @@ class Paperlib():
             f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], unique[feature], per_browser_instance[feature]))
             f.write('\n')
         f.close()
-
-    def get_all_feature_change_by_date(self):
-        """
-        get the part of the big table
-        """
-        change_db = Database('filteredchangesbrowserid')
-        get_all_feature_change_by_date_paper(change_db)
 
     def verify_browserid_by_cookie(self):
         """
@@ -352,7 +420,7 @@ class Paperlib():
         """
         print ("generating each day's number")
         db = Database('forpaper345')
-        df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'pandas_features')
+        df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'patched_pandas', limit = 1000)
         df = round_time_to_day(df)
 
         # keep the same df as changes database
@@ -387,10 +455,11 @@ class Paperlib():
 
             total_number[cur_time][cur_browser] = sum(cur_total[cur_browser])
 
+
         print ("generating real data")
         if feature == 'browserfingerprint':
             db = Database('forpaper345')
-            df = db.load_data(table_name = 'filteredfingerprintchanges', 
+            df = db.load_data(table_name = 'fingerprintchanges', 
                     feature_list = ['browser', 'fromtime', 'totime', 'browserid'])
         else:
             db = Database('filteredchangesbrowserid')
@@ -404,44 +473,47 @@ class Paperlib():
         datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
 
         # to time is the day that this feature changes
-        grouped = df.groupby(['totime', 'browser'])
+        grouped = df.groupby(['totime', 'browser', 'totime'])
 
         res = {}
 
         for cur_group in tqdm(grouped):
             cur_time = cur_group[0][0]
             cur_browser = cur_group[0][1]
+            cur_browser_version = cur_group[0][2]
             cur_number = cur_group[1]['browserid'].nunique()
 
             if cur_browser not in res:
                 res[cur_browser] = {}
+            if cur_browser_version not in res[cur_browser]:
+                res[cur_browser][cur_browser_version] = {}
 
             if total_number[cur_time][cur_browser] == 0:
-                res[cur_browser][cur_time] = 0
+                res[cur_browser][cur_browser_version][cur_time] = 0
             else:
-                res[cur_browser][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
+                res[cur_browser][cur_browser_version][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
 
-        f = safeopen('./change_dats/{}_{}.dat'.format(feature, max_size), 'w')
-        f.write('Browser ')
-        cnt = 1
-        browser_list = []
-        for browser in res:
-            cnt += 1
-            browser_list.append(browser)
-            f.write('{}_{} '.format(cnt, browser.replace(' ', '_')))
-        f.write('\n')
+        aim_browsers = ['Chrome', 'Firefox', 'Safari']
 
-        for date in datelist:
-            # here we replace the space of browsers with _
-            f.write('{}-{}-{} '.format(date.year, date.month, date.day))
-            for browser in browser_list:
-                if date in res[browser]:
-                    cur_num = res[browser][date]
-                else:
-                    cur_num = 0
-                f.write('{} '.format(cur_num))
+        for browser in aim_browsers:
+            f = safeopen('./change_dats/{}/{}.dat'.format(feature, browser), 'w')
+            f.write('Version#')
+            versions = [b for b in res[browser]]
+            for version in versions:
+                f.write('{}#'.format(version))
             f.write('\n')
-        f.close()
+
+            for date in datelist:
+                # here we replace the space of browsers with _
+                f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
+                for browser_version in versions:
+                    if date in res[browser]:
+                        cur_num = res[browser][browser_version][date]
+                    else:
+                        cur_num = 0
+                    f.write('{}#'.format(cur_num))
+                f.write('\n')
+            f.close()
 
     def feature_change_by_date_paper(self, feature_name):
         """
@@ -546,23 +618,31 @@ class Paperlib():
         else:
             return helper.feature_diff(val1, val2, sep = '_')
 
-    def generate_overall_change_database(self, keepip = False):
+    def generate_overall_change_database(self, keepip = False, aim_table_name = 'fingerprintchanges'):
         """
         generate the delta database of overall fingerprint.
         this table will be genereated in self database
         if keepip is False, we will not include ip related features
         """
         db = self.db
-        browserfingerprint = 'noipfingerprint'
-        df = db.load_data(table_name = 'patched_pandas')
+        if keepip == False:
+            browserfingerprint = 'noipfingerprint'
+        else:
+            browserfingerprint = 'browserfingerprint'
 
+        df = db.load_data(table_name = 'patched_pandas')
         df = filter_less_than_n(df, 3)
 
         grouped = df.groupby('browserid')
         res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 
                 'browser': [], 'os': [], 'frombrowserversion': [], 'fromosversion': [], 
                 'tobrowserversion': [], 'toosversion': []}
-        feature_list = get_fingerprint_change_feature_list() 
+
+        if keepip == False:
+            feature_list = get_fingerprint_change_feature_list() 
+        else:
+            feature_list = get_fingerprint_feature_list()
+
         for feature in feature_list:
             res[feature] = []
 
@@ -620,7 +700,7 @@ class Paperlib():
 
         df = pd.DataFrame.from_dict(res)
         print ('finished generating, exporting to sql')
-        db.export_sql(df, 'fingerprintchanges')
+        db.export_sql(df, aim_table_name)
         return 
 
     def draw_change_reason(self, table_name =  'fingerprintchanges'):
@@ -820,5 +900,28 @@ class Paperlib():
 
         print ('finished rebuild, storing back to sql')
         db.export_sql(df, aim_table)
+        return 
+
+    def number_feature_per_feature(self, df, feature_1, feature_2, output_file = None):
+        """
+        get how many feature 1 have 1,2,...n feature_2 values
+        """
+        max_num = 10
+        if output_file == None:
+            output_file = './distribution/{}_{}'.format(feature_1, feature_2)
+
+        res = [0 for x in range(max_num)]
+        grouped = df.groupby(feature_1)
+        for key, cur_group in tqdm(grouped):
+            cur_num = cur_group[feature_2].nunique()
+            if cur_num > max_num - 1:
+                res[max_num - 1] += 1 
+            else:
+                res[cur_num - 1] += 1
+
+        f = safeopen(output_file, 'w')
+        for idx in range(len(res)):
+            f.write('{}#{}\n'.format(idx + 1, res[idx]))
+        f.close()
         return 
 
