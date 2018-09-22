@@ -87,7 +87,6 @@ class Paperlib():
         """
         new version of generate table 1, with changes 
         """
-        feature_list.append('browserfingerprint')
         print feature_list
         print len(feature_list)
         distinct = {}
@@ -117,7 +116,6 @@ class Paperlib():
                 if cur_group['label'].nunique() == 1:
                     unique[feature_group] += 1
         
-        """
         print ('generating stability')
         for feature in feature_list:
             stability[feature] = 0
@@ -150,12 +148,14 @@ class Paperlib():
         for feature in stability:
             stability[feature] = float(stability[feature]) / float(total_user_num)
 
-        """
+        print ("start to output")
+        final_list = feature_list + [k for k in self.group_features]
         f = safeopen(output_file, 'w')
-        for feature in unique:
-            #f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
-            #        unique[feature], stability[feature]))
-            f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
+        for feature in final_list:
+            f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
+                    # change round to floor
+                    unique[feature], float(int(stability[feature] * 10000)) / 10000))
+            #f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
             f.write('\n')
         f.close()
 
@@ -620,7 +620,7 @@ class Paperlib():
         else:
             return helper.feature_diff(val1, val2, sep = '_')
 
-    def generate_overall_change_database(self, keepip = False, aim_table_name = 'fingerprintchanges'):
+    def generate_overall_change_database(self, feature_list = None, keepip = False, aim_table_name = 'fingerprintchanges'):
         """
         generate the delta database of overall fingerprint.
         this table will be genereated in self database
@@ -640,10 +640,11 @@ class Paperlib():
                 'browser': [], 'os': [], 'frombrowserversion': [], 'fromosversion': [], 
                 'tobrowserversion': [], 'toosversion': []}
 
-        if keepip == False:
-            feature_list = get_fingerprint_change_feature_list() 
-        else:
-            feature_list = get_fingerprint_feature_list()
+        if feature_list == None:
+            if keepip == False:
+                feature_list = get_fingerprint_change_feature_list() 
+            else:
+                feature_list = get_fingerprint_feature_list()
 
         for feature in feature_list:
             res[feature] = []
@@ -705,7 +706,7 @@ class Paperlib():
         db.export_sql(df, aim_table_name)
         return 
 
-    def draw_change_reason(self, table_name =  'fingerprintchanges'):
+    def draw_change_reason(self, table_name = 'fingerprintchanges'):
         """
         draw the fingure of changed reason by browser
         """
@@ -734,6 +735,7 @@ class Paperlib():
                 'localstorage', 
                 'plugins'
                 ]
+
         environment_update_keys = [
                 'jsFonts',
                 'canvastest',
@@ -850,6 +852,18 @@ class Paperlib():
             f.close()
         '''
 
+        f_all = safeopen('./changereason/overall.dat', 'w')
+        for update in classes:
+            f_all.write('{}#'.format(update))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{}#'.format('Overall'))
+        for update in classes:
+            f_all.write('{}#'.format(float(res['desktopall'][update] + res['mobileall'][update]) / float(total_number['desktopall'] + total_numer['mobileall'])))
+        f_all.write('\n')
+        f_all.close()
+
+
         f_all = safeopen('./changereason/desktopchanges.dat', 'w')
         for update in classes:
             f_all.write('{}#'.format(update))
@@ -904,17 +918,20 @@ class Paperlib():
         db.export_sql(df, aim_table)
         return 
 
-    def number_feature_per_feature(self, df, feature_1, feature_2, output_file = None):
+    def number_feature_per_feature(self, df, feature_1, feature_2, output_file = None, percentage = False):
         """
         get how many feature 1 have 1,2,...n feature_2 values
+        if percentage is True, the res will be percentage of feature 1
         """
-        max_num = 10
+        max_num = 3
         if output_file == None:
             output_file = './distribution/{}_{}'.format(feature_1, feature_2)
 
         res = [0 for x in range(max_num)]
+        total = 0
         grouped = df.groupby(feature_1)
         for key, cur_group in tqdm(grouped):
+            total += 1
             cur_num = cur_group[feature_2].nunique()
             if cur_num > max_num - 1:
                 res[max_num - 1] += 1 
@@ -923,7 +940,37 @@ class Paperlib():
 
         f = safeopen(output_file, 'w')
         for idx in range(len(res)):
-            f.write('{}#{}\n'.format(idx + 1, res[idx]))
+            if percentage:
+                f.write('{}#'.format(float(res[idx]) / float(total)))
+            else:
+                f.write('{}#'.format(res[idx]))
         f.close()
         return 
 
+    def number_feature_per_feature_with_changes(self, df, feature_1, feature_2, output_file = None, percentage = False):
+        """
+        based on number feature per features, we also output in one bar, the percentage of number of changes
+        """
+        max_num = 10
+        if output_file == None:
+            output_file = './distribution/{}_{}'.format(feature_1, feature_2)
+
+        res = [0 for x in range(max_num)]
+        total = 0
+        grouped = df.groupby(feature_1)
+        for key, cur_group in tqdm(grouped):
+            total += 1
+            cur_num = cur_group[feature_2].nunique()
+            if cur_num > max_num - 1:
+                res[max_num - 1] += 1 
+            else:
+                res[cur_num - 1] += 1
+
+        f = safeopen(output_file, 'w')
+        for idx in range(len(res)):
+            if percentage:
+                f.write('{}#'.format(float(res[idx]) / float(total)))
+            else:
+                f.write('{}#'.format(res[idx]))
+        f.close()
+        return 
