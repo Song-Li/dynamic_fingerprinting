@@ -859,7 +859,7 @@ class Paperlib():
         # write overall to file
         f_all.write('{}#'.format('Overall'))
         for update in classes:
-            f_all.write('{}#'.format(float(res['desktopall'][update] + res['mobileall'][update]) / float(total_number['desktopall'] + total_numer['mobileall'])))
+            f_all.write('{}#'.format(float(res['desktopall'][update] + res['mobileall'][update]) / float(total_number['desktopall'] + total_number['mobileall'])))
         f_all.write('\n')
         f_all.close()
 
