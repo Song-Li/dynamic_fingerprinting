@@ -918,12 +918,11 @@ class Paperlib():
         db.export_sql(df, aim_table)
         return 
 
-    def number_feature_per_feature(self, df, feature_1, feature_2, output_file = None, percentage = False):
+    def number_feature_per_feature(self, df, feature_1, feature_2, output_file = None, percentage = False, max_res = 3):
         """
         get how many feature 1 have 1,2,...n feature_2 values
         if percentage is True, the res will be percentage of feature 1
         """
-        max_num = 3
         if output_file == None:
             output_file = './distribution/{}_{}'.format(feature_1, feature_2)
 
@@ -974,3 +973,4 @@ class Paperlib():
                 f.write('{}#'.format(res[idx]))
         f.close()
         return 
+
