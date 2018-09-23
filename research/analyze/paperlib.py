@@ -687,20 +687,20 @@ class Paperlib():
                 res['totime'].append(row['time'])
 
                 browser_info = get_browser_version(row['agent'])
-                res['browser'].append(browser_info.split('#%')[0])
+                #res['browser'].append(browser_info.split('#%')[0])
                 res['tobrowserversion'].append(browser_info.split('#%')[1])
                 browser_info = get_browser_version(pre_row['agent'])
                 res['frombrowserversion'].append(browser_info.split('#%')[1])
 
                 os_info = get_os_version(row['agent'])
-                res['os'].append(os_info.split('#%')[0])
+                #res['os'].append(os_info.split('#%')[0])
                 res['toosversion'].append(os_info.split('#%')[1])
                 os_info = get_os_version(pre_row['agent'])
                 res['fromosversion'].append(os_info.split('#%')[1])
 
                 pre_fingerprint = row[browserfingerprint]
                 pre_row = row
-
+        
         df = pd.DataFrame.from_dict(res)
         print ('finished generating, exporting to sql')
         db.export_sql(df, aim_table_name)
@@ -946,15 +946,16 @@ class Paperlib():
         f.close()
         return 
 
-    def number_feature_per_feature_with_changes(self, df, feature_1, feature_2, output_file = None, percentage = False):
+    def number_feature_per_feature_with_changes(self, df, feature_1, feature_2, output_file = None, percentage = False, max_num = 6):
         """
         based on number feature per features, we also output in one bar, the percentage of number of changes
         """
-        max_num = 10
         if output_file == None:
             output_file = './distribution/{}_{}'.format(feature_1, feature_2)
 
+        df_c = self.db.load_data(table_name = "allchanges")
         res = [0 for x in range(max_num)]
+        change_times = {}
         total = 0
         grouped = df.groupby(feature_1)
         for key, cur_group in tqdm(grouped):

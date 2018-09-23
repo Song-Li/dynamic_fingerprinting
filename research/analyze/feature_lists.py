@@ -101,7 +101,6 @@ fingerprint_feature_list = [
 
         "inc", 
         "gpu", 
-        "gpuimgs", 
         "cpucores", 
         "audio",
         "fp2_cpuclass",
