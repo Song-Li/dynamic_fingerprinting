@@ -461,7 +461,7 @@ class Paperlib():
         print ("generating real data")
         if feature == 'browserfingerprint':
             db = Database('forpaper345')
-            df = db.load_data(table_name = 'fingerprintchanges', 
+            df = db.load_data(table_name = 'allchanges', 
                     feature_list = ['browser', 'fromtime', 'totime', 'browserid', 'tobrowserversion'])
         else:
             db = Database('filteredchangesbrowserid')
@@ -479,41 +479,70 @@ class Paperlib():
 
         res = {}
 
+
+        aim_browsers = ['Chrome', 'Firefox', 'Safari']
+        total_bversion_number = {}
+        for browser in aim_browsers:
+            total_bversion_number[browser] = {}
+
         for cur_group in tqdm(grouped):
             cur_time = cur_group[0][0]
             cur_browser = cur_group[0][1]
             cur_browser_version = cur_group[0][2]
             cur_number = cur_group[1]['browserid'].nunique()
+            if cur_browser not in aim_browsers:
+                continue
 
             if cur_browser not in res:
                 res[cur_browser] = {}
             if cur_browser_version not in res[cur_browser]:
                 res[cur_browser][cur_browser_version] = {}
-
-            if total_number[cur_time][cur_browser] == 0:
-                res[cur_browser][cur_browser_version][cur_time] = 0
-            else:
-                res[cur_browser][cur_browser_version][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
-
-        aim_browsers = ['Chrome', 'Firefox', 'Safari']
-
+                total_bversion_number[cur_browser][cur_browser_version] = 0
+            
+            try:
+                if total_number[cur_time][cur_browser] == 0:
+                    res[cur_browser][cur_browser_version][cur_time] = 0
+                else:
+                    res[cur_browser][cur_browser_version][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
+                total_bversion_number[cur_browser][cur_browser_version] += cur_number
+            except:
+                print 'Error here'
+                break
+            
+        max_version_number = 5
         for browser in aim_browsers:
+            # sort versions first
+            total_bversion_number[browser] = sorted(total_bversion_number[browser].iteritems(), 
+                    key=lambda (k,v): (-v,k))
+            
             f = safeopen('./change_dats/{}/{}.dat'.format(feature, browser), 'w')
             f.write('Version#')
-            versions = [b for b in res[browser]]
+
+            cur_idx = 0
+            versions = [b[0] for b in total_bversion_number[browser]]
             for version in versions:
+                cur_idx += 1
+                if cur_idx > max_version_number:
+                    f.write('{}#'.format('Others'))
+                    break
                 f.write('{}#'.format(version))
             f.write('\n')
 
             for date in datelist:
-                # here we replace the space of browsers with _
+                cur_idx = 0
+                cur_cnt = 0
                 f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
                 for browser_version in versions:
-                    if date in res[browser]:
+                    cur_idx += 1
+                    if date in res[browser][browser_version]:
                         cur_num = res[browser][browser_version][date]
                     else:
                         cur_num = 0
+                    if cur_idx > max_version_number:
+                        cur_cnt += cur_num
+                        continue
                     f.write('{}#'.format(cur_num))
+                f.write('{}'.format(cur_cnt))
                 f.write('\n')
             f.close()
 
