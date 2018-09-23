@@ -953,25 +953,44 @@ class Paperlib():
         if output_file == None:
             output_file = './distribution/{}_{}'.format(feature_1, feature_2)
 
-        df_c = self.db.load_data(table_name = "allchanges")
+        df_c = self.db.load_data(table_name = "tablefeaturechanges")
+        #df_c = self.db.load_data(table_name = "allchanges")
+        max_num_c = 4
+
         res = [0 for x in range(max_num)]
         change_times = {}
+        for x in range(max_num):
+            change_times[x] = [0 for y in range(max_num_c)]
+
         total = 0
         grouped = df.groupby(feature_1)
+        grouped_c = df_c.groupby(feature_1)
+
         for key, cur_group in tqdm(grouped):
             total += 1
             cur_num = cur_group[feature_2].nunique()
+            try:
+                cur_group_c = grouped_c.get_group(key)
+                cur_num_c = cur_group_c.shape[0]
+            except:
+                cur_num_c = 0
+
+            if cur_num_c >= max_num_c:
+                cur_num_c = max_num_c - 1
             if cur_num > max_num - 1:
-                res[max_num - 1] += 1 
-            else:
-                res[cur_num - 1] += 1
+                cur_num = max_num
+
+            change_times[cur_num - 1][cur_num_c] += 1
 
         f = safeopen(output_file, 'w')
         for idx in range(len(res)):
+            f.write('{}#'.format(idx + 1))
             if percentage:
                 f.write('{}#'.format(float(res[idx]) / float(total)))
             else:
-                f.write('{}#'.format(res[idx]))
+                for cur_num_c in change_times[idx]:
+                    f.write('{}#'.format(cur_num_c))
+            f.write('\n')
         f.close()
         return 
 

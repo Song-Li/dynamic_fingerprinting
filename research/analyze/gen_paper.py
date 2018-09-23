@@ -6,9 +6,9 @@ from feature_lists import *
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.generate_overall_change_database(feature_list = get_table_feature_list(), keepip = True, aim_table_name = 'tablefeaturechanges')
-    #df = db.load_data(table_name = 'patched_pandas')
-    #paperlib.number_feature_per_feature(df, 'browserid', 'browserfingerprint', max_num = 6, percentage = False)
+    #paperlib.generate_overall_change_database(feature_list = get_table_feature_list(), keepip = True, aim_table_name = 'tablefeaturechanges')
+    df = db.load_data(table_name = 'patched_pandas')
+    paperlib.number_feature_per_feature_with_changes(df, 'browserid', 'browserfingerprint', max_num = 6, percentage = False)
     #df = db.load_data(table_name = 'allchanges')
     #paperlib.feature_latex_table(get_table_feature_list(), df, output_file = './res/feature_table_1.dat')
     #db.pandas_patches(df, export_table = 'patched_pandas')
