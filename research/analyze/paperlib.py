@@ -354,7 +354,7 @@ class Paperlib():
         this function will return a stacked dat file
         """
         db = self.db
-        df = db.load_data(feature_list = ['time', 'browserid', feature_name], table_name = 'pandas_features')
+        df = db.load_data(feature_list = ['time', 'browserid', 'browserversion', feature_name], table_name = 'pandas_features', limit = 10000)
         min_date = min(df['time'])
         min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
         max_date = max(df['time'])
@@ -422,7 +422,7 @@ class Paperlib():
         """
         print ("generating each day's number")
         db = Database('forpaper345')
-        df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'patched_pandas', limit = 1000)
+        df = db.load_data(feature_list = ['time', 'browser', 'browserid'], table_name = 'patched_pandas')
         df = round_time_to_day(df)
 
         # keep the same df as changes database
@@ -462,7 +462,7 @@ class Paperlib():
         if feature == 'browserfingerprint':
             db = Database('forpaper345')
             df = db.load_data(table_name = 'fingerprintchanges', 
-                    feature_list = ['browser', 'fromtime', 'totime', 'browserid'])
+                    feature_list = ['browser', 'fromtime', 'totime', 'browserid', 'tobrowserversion'])
         else:
             db = Database('filteredchangesbrowserid')
             df = db.load_data(table_name = '{}changes'.format(feature))
@@ -475,7 +475,7 @@ class Paperlib():
         datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
 
         # to time is the day that this feature changes
-        grouped = df.groupby(['totime', 'browser', 'totime'])
+        grouped = df.groupby(['totime', 'browser', 'tobrowserversion'])
 
         res = {}
 
@@ -955,7 +955,7 @@ class Paperlib():
 
         df_c = self.db.load_data(table_name = "tablefeaturechanges")
         #df_c = self.db.load_data(table_name = "allchanges")
-        max_num_c = 4
+        max_num_c = max_num
 
         res = [0 for x in range(max_num)]
         change_times = {}
