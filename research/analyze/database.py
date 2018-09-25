@@ -271,7 +271,7 @@ class Database():
             where_str = ' where {}'.format(where)
         df = pd.read_sql('select {} from {} {} {};'.format(feature_str, table_name, where_str, limit_str), con=self.get_db())
         print ("filling nan with -9999")
-        df = df.fillna(-9999)
+        df = df.fillna("just used for filling ^")
         print ('finished loading {}'.format(table_name))
         return df
 
@@ -288,20 +288,22 @@ class Database():
         """
         grouped = df.groupby('browserid')
         print ('doing accept patch')
+        patched_num = 0
         for key, cur_group in tqdm(grouped):
             if cur_group['accept'].nunique() == 1:
                 continue
             val = ''
             for idx, row in cur_group.iterrows():
-                print row['accept']
-                if row['accept'] != '':
+                if row['accept'].find('/') != -1:
                     val = row['accept']
-                    print val
                     break
 
             for idx, row in cur_group.iterrows():
-                if row['accept'] == '':
+                if row['accept'].find('/') == -1:
                     df.at[idx, 'accept'] = val
+                    patched_num += 1
+                else:
+                    break
 
         print ('doing httpheaders patch')
         for key, cur_group in tqdm(grouped):
@@ -309,18 +311,18 @@ class Database():
                 continue
             val = ''
             for idx, row in cur_group.iterrows():
-                if row['httpheaders'] == None:
-                    continue
                 if row['httpheaders'].find('_') != -1:
                     val = row['httpheaders']
                     break
 
             for idx, row in cur_group.iterrows():
-                if row['httpheaders'] == None or row['httpheaders'].find('_') == -1:
-                    print val
+                if row['httpheaders'].find('_') == -1:
                     df.at[idx, 'httpheaders'] = val
+                    patched_num += 1
                 else:
                     break
+
+        print ("{} records patched".format(patched_num))
         return df
 
     def audio_patch(self, df):
@@ -391,8 +393,8 @@ class Database():
         """
         #df = self.audio_patch(df)
         #partgpu_patch(df)
-        #df = self.accept_httpheaders_patch(df)
-        df = self.generate_fingerprint(df, self.fingerprint_feature_list)
+        df = self.accept_httpheaders_patch(df)
+        #df = self.generate_fingerprint(df, self.fingerprint_feature_list)
 
         if export_table != None:
             self.export_sql(df, export_table)

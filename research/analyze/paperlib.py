@@ -1266,21 +1266,28 @@ class Paperlib():
         return the percentage of cookie change pattern
         """
         df = self.db.load_data(table_name = 'patched_pandas')
-        grouped = df.groupby('browserid')
-        patterns = ['Cookie change', 'Private mode', 'Two cookie flip']
 
-        pattern_cnt = [0, 0, 0]
+        #df = filter_less_than_n(df, 3)
+
+        grouped = df.groupby('browserid')
+        patterns = ['One cookie', 'Cookie change', 'Private mode', 'Two cookie flip']
+
+        pattern_cnt = [0, 0, 0, 0]
         for key, cur_group in tqdm(grouped):
+            if cur_group['label'].nunique() == 1:
+                pattern_cnt[0] += 1
+                continue
             fliped = self.check_flip_feature(cur_group, 'label')
             if fliped:
                 if cur_group['label'].nunique() > 2:
-                    pattern_cnt[1] += 1
-                else:
                     pattern_cnt[2] += 1
+                else:
+                    pattern_cnt[3] += 1
             else:
-                pattern_cnt[0] += 1
+                pattern_cnt[1] += 1
 
         total = sum(pattern_cnt)
+        print ('Total: {}'.format(total))
         for idx in range(len(pattern_cnt)):
             print ("{}: {}({})".format(patterns[idx], pattern_cnt[idx], float(pattern_cnt[idx]) / float(total)))
 
