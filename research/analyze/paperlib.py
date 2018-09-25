@@ -1171,8 +1171,8 @@ class Paperlib():
         if output_file == None:
             output_file = './distribution/{}_{}'.format(feature_1, feature_2)
 
-        df_c = self.db.load_data(table_name = "tablefeaturechanges")
-        #df_c = self.db.load_data(table_name = "allchanges")
+        #df_c = self.db.load_data(table_name = "tablefeaturechanges")
+        df_c = self.db.load_data(table_name = "allchanges")
         max_num_c = max_num
 
         res = [0 for x in range(max_num)]
@@ -1242,4 +1242,45 @@ class Paperlib():
                             cnt_res[browser][feature][row[feature]] = 0
                         cnt_res[browser][feature][row[feature]][cur_val] += 1
 
+    def check_flip_feature(self, group, feature_name):
+        """
+        check wether a feature fliped in a group
+        """
+        res = set()
+        pre_val = ""
+        for idx, row in group.iterrows():
+            if pre_val == "":
+                pre_val = row[feature_name]
+                res.add(row[feature_name])
+                continue
+            elif pre_val == row[feature_name]:
+                continue
+
+            if row[feature_name] in res:
+                return True
+            res.add(row[feature_name])
+        return False
+
+    def cookie_pattern(self):
+        """
+        return the percentage of cookie change pattern
+        """
+        df = self.db.load_data(table_name = 'patched_pandas')
+        grouped = df.groupby('browserid')
+        patterns = ['Cookie change', 'Private mode', 'Two cookie flip']
+
+        pattern_cnt = [0, 0, 0]
+        for key, cur_group in tqdm(grouped):
+            fliped = self.check_flip_feature(cur_group, 'label')
+            if fliped:
+                if cur_group['label'].nunique() > 2:
+                    pattern_cnt[1] += 1
+                else:
+                    pattern_cnt[2] += 1
+            else:
+                pattern_cnt[0] += 1
+
+        total = sum(pattern_cnt)
+        for idx in range(len(pattern_cnt)):
+            print ("{}: {}({})".format(patterns[idx], pattern_cnt[idx], float(pattern_cnt[idx]) / float(total)))
 
