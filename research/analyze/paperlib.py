@@ -10,6 +10,7 @@ class Paperlib():
     def __init__(self, db):
         self.db = db
         self.feature_list = get_fingerprint_feature_list()
+        self.major_table_list = get_fingerprint_feature_list_include_gpuimgs()
         self.group_features = {
                 'headers_features' : [0, 1, 2, 3, 4, 5],
                 'browser_features' : [6, 7, 8, 9, 10, 11],
@@ -102,19 +103,22 @@ class Paperlib():
             grouped = df.groupby(feature)
             for key, cur_group in grouped:
                 distinct[feature] += 1
-                if cur_group['label'].nunique() == 1:
+                # feature based on label
+                # changes based on browserid
+                if cur_group['browserid'].nunique() == 1:
                     unique[feature] += 1
 
         print ('generating grouped features')
         for feature_group in tqdm(self.group_features):
-            grouped = df.groupby([feature_list[x] for x in self.group_features[feature_group]])
+            grouped = df.groupby([self.major_table_list[x] for x in self.group_features[feature_group]])
             unique[feature_group] = 0
             distinct[feature_group] = 0
 
             for key, cur_group in grouped:
                 distinct[feature_group] += 1
-                if cur_group['label'].nunique() == 1:
+                if cur_group['browserid'].nunique() == 1:
                     unique[feature_group] += 1
+
         
         print ('generating stability')
         for feature in feature_list:
@@ -478,8 +482,6 @@ class Paperlib():
         grouped = df.groupby(['totime', 'browser', 'tobrowserversion'])
 
         res = {}
-
-
         aim_browsers = ['Chrome', 'Firefox', 'Safari']
         total_bversion_number = {}
         for browser in aim_browsers:
@@ -509,7 +511,7 @@ class Paperlib():
                 print 'Error here'
                 break
             
-        max_version_number = 5
+        max_version_number = 6
         for browser in aim_browsers:
             # sort versions first
             total_bversion_number[browser] = sorted(total_bversion_number[browser].iteritems(), 
@@ -666,7 +668,8 @@ class Paperlib():
 
         grouped = df.groupby('browserid')
         res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 
-                'browser': [], 'os': [], 'frombrowserversion': [], 'fromosversion': [], 
+                'const_browser': [], 'const_os': [], 'const_device': [], 'const_IP':[],
+                'frombrowserversion': [], 'fromosversion': [], 
                 'tobrowserversion': [], 'toosversion': []}
 
         if feature_list == None:
@@ -716,16 +719,20 @@ class Paperlib():
                 res['totime'].append(row['time'])
 
                 browser_info = get_browser_version(row['agent'])
-                #res['browser'].append(browser_info.split('#%')[0])
                 res['tobrowserversion'].append(browser_info.split('#%')[1])
                 browser_info = get_browser_version(pre_row['agent'])
                 res['frombrowserversion'].append(browser_info.split('#%')[1])
 
                 os_info = get_os_version(row['agent'])
-                #res['os'].append(os_info.split('#%')[0])
                 res['toosversion'].append(os_info.split('#%')[1])
                 os_info = get_os_version(pre_row['agent'])
                 res['fromosversion'].append(os_info.split('#%')[1])
+
+                res['const_device'].append(row['device'])
+                res['const_browser'].append(row['browser'])
+                res['const_os'].append(row['os'])
+                res['const_IP'].append(row['IP'])
+        
 
                 pre_fingerprint = row[browserfingerprint]
                 pre_row = row
@@ -735,7 +742,7 @@ class Paperlib():
         db.export_sql(df, aim_table_name)
         return 
 
-    def draw_change_reason(self, table_name = 'fingerprintchanges'):
+    def draw_change_reason_by_date(self, table_name = 'tablefeaturechanges'):
         """
         draw the fingure of changed reason by browser
         """
@@ -797,6 +804,193 @@ class Paperlib():
             if feature not in feature_list:
                 feature_list.append(feature)
 
+        df = round_time_to_day(df)
+
+        grouped = df.groupby(feature_list)
+
+        res = {}
+        browser_idx = feature_list.index('browser')
+
+        for key, cur_group in tqdm(grouped):
+            browser = key[browser_idx]
+            frombrowserversion = key[browser_idx + 1]
+            tobrowserversion = key[browser_idx + 2]
+            fromosversion = key[browser_idx + 3]
+            toosversion = key[browser_idx + 4]
+
+            cur_key_str = ''
+            cur_len = len(cur_group)
+            if browser not in res:
+                res[browser] = {}
+                for update in classes:
+                    res[browser][update] = 0
+
+            for i in range(len(feature_list)):
+                if key[i] == '':
+                    continue
+                cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+                if feature_list[i] in user_update_keys:
+                    res[browser]['user_update'] += cur_len
+                elif feature_list[i] in environment_update_keys:
+                    res[browser]['environment_update'] += cur_len
+                elif feature_list[i] != 'agent' and feature_list[i] not in added_feature:
+                    # if not in user and envir update and the change is not agent, it's others
+                    res[browser]['others'] += cur_len
+
+            if frombrowserversion != tobrowserversion:
+                res[browser]['browser_update'] += cur_len
+            if fromosversion != toosversion:
+                cur_os = key[feature_list.index('os')]
+                res[browser]['os_update'] += cur_len
+
+
+            res[browser][cur_key_str] = cur_len
+        
+
+        sorted_res = {}
+        for browser in res:
+            sorted_res[browser] = sorted(res[browser].iteritems(), 
+                    key=lambda (k,v): (-v,k))
+
+
+        res['overall'] = {}
+        res['desktopall'] = {}
+        res['mobileall'] = {}
+        for update in classes:
+            res['overall'][update] = 0
+            res['desktopall'][update] = 0
+            res['mobileall'][update] = 0
+            for browser in desktop_browsers:
+                res['desktopall'][update] += res[browser][update]
+                res['overall'][update] += res[browser][update]
+            for browser in mobile_browsers:
+                res['mobileall'][update] += res[browser][update]
+                res['overall'][update] += res[browser][update]
+                
+
+        total_number = {}
+        for browser in res:
+            total_number[browser] = 0
+            for update in classes:
+                total_number[browser] += res[browser][update]
+
+        '''
+
+        for browser in sorted_res:
+            f = safeopen('./changereason/details/{}'.format(browser), 'w')
+            for string in sorted_res[browser]:
+                f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
+                    string[1], 
+                    float(string[1]) / float(total_number[browser])))
+            f.close()
+        '''
+
+        f_all = safeopen('./changereason/overall.dat', 'w')
+        for update in classes:
+            f_all.write('{}#'.format(update))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{}#'.format('Overall'))
+        for update in classes:
+            f_all.write('{}#'.format(float(res['desktopall'][update] + res['mobileall'][update]) / float(total_number['desktopall'] + total_number['mobileall'])))
+        f_all.write('\n')
+        f_all.close()
+
+
+        f_all = safeopen('./changereason/desktopchanges.dat', 'w')
+        for update in classes:
+            f_all.write('{}#'.format(update))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{}#'.format('Overall'))
+        for update in classes:
+            f_all.write('{}#'.format(float(res['desktopall'][update]) / float(total_number['desktopall'])))
+        f_all.write('\n')
+
+        for browser in desktop_browsers:
+            f_all.write('{}#'.format(browser))
+            for update in classes:
+                f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
+            f_all.write('\n')
+        f_all.close()
+
+        f_all = safeopen('./changereason/mobilechanges.dat', 'w')
+        for update in classes:
+            f_all.write('{}#'.format(update))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{}#'.format('Overall'))
+        for update in classes:
+            f_all.write('{}#'.format(float(res['mobileall'][update]) / float(total_number['mobileall'])))
+        f_all.write('\n')
+        for browser in mobile_browsers:
+            f_all.write('{}#'.format(browser))
+            for update in classes:
+                f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
+            f_all.write('\n')
+        f_all.close()
+
+    def draw_change_reason(self, table_name = 'tablefeaturechanges'):
+        """
+        draw the fingure of changed reason by browser
+        """
+        df = self.db.load_data(table_name = table_name)
+
+        feature_list = get_fingerprint_change_feature_list() 
+
+        columns = self.db.get_column_names(table_name)
+        for feature in feature_list:
+            if feature not in columns:
+                feature_list.remove(feature)
+        added_feature = [
+                'os',
+                'browser',
+                'frombrowserversion',
+                'tobrowserversion',
+                'fromosversion',
+                'toosversion'
+                ]
+
+        user_update_keys = [
+                'fp2_pixelratio',
+                'timezone',
+                'cookie',
+                'WebGL',
+                'localstorage', 
+                'plugins'
+                ]
+
+        environment_update_keys = [
+                'jsFonts',
+                'canvastest',
+                'inc',
+                'gpu',
+                'cpucores',
+                'audio', 
+                'fp2_colordepth',
+                'fp2_cpuclass'
+                ]
+
+        desktop_browsers = [
+                'Chrome',
+                'Firefox',
+                'Safari',
+                'Edge'
+                ]
+
+        mobile_browsers = [
+                'Chrome Mobile',
+                'Firefox Mobile',
+                'Mobile Safari',
+                'Samsung Internet'
+                ]
+
+        classes = ['browser_update', 'os_update', 'user_update', 'environment_update', 'others']
+        
+        for feature in added_feature:
+            if feature not in feature_list:
+                feature_list.append(feature)
+
         grouped = df.groupby(feature_list)
 
 
@@ -833,10 +1027,6 @@ class Paperlib():
                 res[browser]['browser_update'] += cur_len
             if fromosversion != toosversion:
                 cur_os = key[feature_list.index('os')]
-                #if cur_os == 'Windows':
-                #    res[browser]['win_update']  += cur_len
-                #elif cur_os == 'Mac OS X':
-                #    res[browser]['mac_update'] += cur_len
                 res[browser]['os_update'] += cur_len
 
 
@@ -871,7 +1061,6 @@ class Paperlib():
                 total_number[browser] += res[browser][update]
 
         '''
-
         for browser in sorted_res:
             f = safeopen('./changereason/details/{}'.format(browser), 'w')
             for string in sorted_res[browser]:
@@ -997,7 +1186,7 @@ class Paperlib():
 
         for key, cur_group in tqdm(grouped):
             total += 1
-            cur_num = cur_group[feature_2].nunique()
+            cur_num = len(cur_group[feature_2])
             try:
                 cur_group_c = grouped_c.get_group(key)
                 cur_num_c = cur_group_c.shape[0]
@@ -1022,4 +1211,35 @@ class Paperlib():
             f.write('\n')
         f.close()
         return 
+
+    def feature_correlation(self, df, feature_name = 'canvastest'):
+        """
+        df is the changes database. get feature correlation based on browser type
+        """
+        all_feature_list = get_table_feature_list()
+        grouped = df.groupby('const_browser')
+        browser_list = ['Chrome', 'Firefox', 'Safari']
+
+        cnt_res = {}
+        cnt_together_res = {}
+
+        for browser in browser_list:
+            cnt_res[browser] = {}
+            cur_group = grouped.get_group(browser)
+            print ('doing {}'.format(browser))
+            for idx, row in tqdm(cur_group.iterrows()):
+                for feature in all_feature_list:
+                    if feature not in cnt_res[browser]:
+                        cnt_res[browser][feature] = {}
+                    if row[feature] not in cnt_res[browser][feature]:
+                        cnt_res[browser][feature][row[feature]] = {'total': 0}
+                    cnt_res[browser][feature][row[feature]]['total'] += 1
+                    for feature2 in all_feature_list:
+                        if row[feature2] == '':
+                            continue
+                        cur_val = '{}:{}'.format(feature2, row[feature2])
+                        if cur_val not in cnt_res[browser][feature][row[feature]]:
+                            cnt_res[browser][feature][row[feature]] = 0
+                        cnt_res[browser][feature][row[feature]][cur_val] += 1
+
 

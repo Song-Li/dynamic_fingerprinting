@@ -270,6 +270,8 @@ class Database():
         else:
             where_str = ' where {}'.format(where)
         df = pd.read_sql('select {} from {} {} {};'.format(feature_str, table_name, where_str, limit_str), con=self.get_db())
+        print ("filling nan with -9999")
+        df = df.fillna(-9999)
         print ('finished loading {}'.format(table_name))
         return df
 

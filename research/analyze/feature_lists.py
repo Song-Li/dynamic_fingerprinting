@@ -200,6 +200,44 @@ fingerprint_change_feature_list = [
         "fp2_liedbrowser"
         ]
 
+fingerprint_feature_list_include_gpuimgs = [
+        "agent",
+        "httpheaders",
+        "accept",
+        "encoding",
+        "language",
+        "timezone", 
+
+        "plugins", 
+        "cookie", 
+        "WebGL", 
+        "localstorage", 
+        "fp2_addbehavior",
+        "fp2_opendatabase",
+
+        "langsdetected",
+        "jsFonts",
+        "canvastest", 
+
+        "inc", 
+        "gpu", 
+        "gpuimgs", 
+        "cpucores", 
+        "audio",
+        "fp2_cpuclass",
+        "fp2_colordepth",
+        "fp2_pixelratio",
+        "resolution",
+
+        "ipcity",
+        "ipregion",
+        "ipcountry",
+
+        "fp2_liedlanguages",
+        "fp2_liedresolution",
+        "fp2_liedos",
+        "fp2_liedbrowser",
+        ]
 def get_ori_feature_list():
     return ori_feature_list
 
@@ -214,3 +252,6 @@ def get_fingerprint_change_feature_list():
 
 def get_table_feature_list():
     return table_feature_list
+
+def get_fingerprint_feature_list_include_gpuimgs():
+    return fingerprint_feature_list_include_gpuimgs
