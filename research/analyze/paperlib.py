@@ -663,7 +663,7 @@ class Paperlib():
         else:
             browserfingerprint = 'browserfingerprint'
 
-        df = db.load_data(table_name = 'patched_pandas')
+        df = db.load_data(table_name = 'patched_accept_pandas')
         df = filter_less_than_n(df, 3)
 
         grouped = df.groupby('browserid')
@@ -1303,3 +1303,49 @@ class Paperlib():
         for idx in range(len(pattern_cnt)):
             print ("{}: {}({})".format(patterns[idx], pattern_cnt[idx], float(pattern_cnt[idx]) / float(total)))
 
+    def gpu_inference(self):
+        """
+        trying to use gpuimgs result to get the type of gpu
+        """
+        df = self.db.load_data(table_name = 'patched_accept_pandas', 
+                feature_list = ['browserid', 'gpu', 'gpuimgs', 'canvastest'])
+        grouped = df.groupby('gpu')
+        imgs_grouped = df.groupby('gpuimgs')
+
+        map_num = {}
+        print ("preparing imgs number")
+        for key, cur_group in imgs_grouped:
+            cur_res = set()
+            for gpu_type in cur_group['gpu'].unique():
+                if gpu_type == 'No Debug Info':
+                    continue
+                #cur_res.add(gpu_type.split(' ')[0].split('-')[0])
+                cur_res.add(gpu_type)
+            map_num[key] = len(cur_res)
+
+        success = {}
+        overall = {}
+
+        for key, cur_group in tqdm(grouped):
+            if key == 'No Debug Info':
+                continue
+            if key not in overall:
+                overall[key] = 0
+                success[key] = 0
+            gpuimgs = cur_group['gpuimgs'].unique()
+            for gpuimg in gpuimgs:
+                # for None value
+                if gpuimg.find('^') != -1:
+                    continue
+                if map_num[gpuimg] == 1:
+                    success[key] += 1
+                overall[key] += 1
+        
+        overall = sorted(overall.iteritems(), key=lambda (k,v): (-v,k))
+        f = safeopen('./res/gpuinference.dat', 'w')
+        for pair in overall:
+            if pair[1] != 0:
+                f.write('{} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], float(success[pair[0]]) / float(pair[1])))
+            else:
+                f.write('{} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], 0))
+        f.close()
