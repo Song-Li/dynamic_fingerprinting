@@ -1212,11 +1212,11 @@ class Paperlib():
         f.close()
         return 
 
-    def feature_correlation(self, df, feature_name = 'canvastest'):
+    def feature_correlation(self, df):
         """
         df is the changes database. get feature correlation based on browser type
         """
-        all_feature_list = get_table_feature_list()
+        all_feature_list = get_fingerprint_feature_list_include_gpuimgs()
         grouped = df.groupby('const_browser')
         browser_list = ['Chrome', 'Firefox', 'Safari']
 
@@ -1239,8 +1239,20 @@ class Paperlib():
                             continue
                         cur_val = '{}:{}'.format(feature2, row[feature2])
                         if cur_val not in cnt_res[browser][feature][row[feature]]:
-                            cnt_res[browser][feature][row[feature]] = 0
+                            cnt_res[browser][feature][row[feature]][cur_val] = 0
                         cnt_res[browser][feature][row[feature]][cur_val] += 1
+            for feature in cnt_res[browser]:
+                for key_val in cnt_res[browser][feature]:
+                    cnt_res[browser][feature][key_val] = sorted(cnt_res[browser][feature][key_val].iteritems(), key=lambda (k,v): (-v,k))
+                cnt_res[browser][feature] = sorted(cnt_res[browser][feature].iteritems(), key = lambda(k, v): (-v[0][1], k))
+
+            print browser
+            for feature in cnt_res[browser]:
+                print '\t{}'.format(feature)
+                for pair in cnt_res[browser][feature][:10]:
+                    for val in pair[:5]:
+                        print '\t\t\t{}'.format(val[:10])
+
 
     def check_flip_feature(self, group, feature_name):
         """

@@ -6,9 +6,11 @@ from feature_lists import *
 def main():
     db = Database('forpaper345') 
     #df = db.load_data(table_name = 'patched_pandas')
-    #db.pandas_patches(df, export_table = 'patched_accept_pandas')
     paperlib = Paperlib(db)
-    paperlib.cookie_pattern()
+    df = db.load_data(table_name = 'tablefeaturechanges', limit = 10000)
+    #db.pandas_patches(df, export_table = 'patched_accept_pandas')
+    paperlib.feature_correlation(df)
+    #paperlib.cookie_pattern()
     #paperlib.generate_overall_change_database(feature_list = get_table_feature_list(), keepip = True, aim_table_name = 'tablefeaturechanges')
     #paperlib.number_feature_per_feature_with_changes(df, 'browserid', 'browserfingerprint', max_num = 8, percentage = False)
     #df = db.load_data(table_name = 'tablefeaturechanges', limit = 10000)
