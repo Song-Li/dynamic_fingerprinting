@@ -1302,7 +1302,6 @@ class Paperlib():
         for idx in range(len(pattern_cnt)):
             print ("{}: {}({})".format(patterns[idx], pattern_cnt[idx], float(pattern_cnt[idx]) / float(total)))
 
-
     def get_company_from_gpu(self, gpu):
         """
         return the rough value of gpu by all gpu
@@ -1322,7 +1321,6 @@ class Paperlib():
             if gpu.lower().find(gpu_type) != -1:
                 return gpu_type
         return 'others'
-
 
     def gpu_inference(self):
         """
@@ -1404,3 +1402,51 @@ class Paperlib():
         overall = sorted(res.iteritems(), key=lambda (k,v): (-v,k))
         for t in overall:
             print t
+
+    def get_statics(self):
+        """
+        get all the static numbers
+        """
+        
+        num_browserids = 0
+        num_dynamics = 0
+        num_clientids = 0
+        total_fingerprints = 0
+
+        df = self.db.load_data(table_name = 'patched_all_pandas', feature_list = ['browserid', 'clientid', 'browserfingerprint'])
+        df_c = self.db.load_data(table_name = 'patched_tablefeaturechanges', feature_list = ['browserfingerprint'])
+
+        print ("Before filter less than 3:")
+        num_browserids = df['browserid'].nunique()
+        num_clientids = df['clientid'].nunique()
+        print ('Num Browserids: {}\nNum user ids: {}'.format(num_browserids, num_clientids))
+
+
+        print ("After filter less than 3:")
+        df = filter_less_than_n(df, 3)
+        num_browserids = df['browserid'].nunique()
+        num_clientids = df['clientid'].nunique()
+        num_dynamics = df_c.shape[0]
+        print ('Num Browserids: {}\nNum dynamics: {}\nNum user ids: {}'.format(num_browserids, num_dynamics, num_clientids))
+
+    def change_reason_by_cookie(self, feature_name = 'browserid'):
+        """
+        try to anlyse the reason of changes
+        """
+
+        df = self.db.load_data(table_name = 'patched_all_pandas', 
+                feature_list = [feature_name, 'agent', 'label', 'time', 'gpu'], limit = 100000)
+
+        grouped = df.groupby('label')
+
+        f = safeopen('./specialcases/{}'.format(feature_name), 'w')
+        for key, cur_group in tqdm(grouped):
+            if cur_group[feature_name].nunique() == 1:
+                continue
+
+            f.write('{}\n'.format(key))
+            cur_grouped = cur_group.groupby(['agent', 'browserid', 'browser', 'gpu'])
+            for key, value in cur_grouped:
+                f.write('\t{}\n'.format(key))
+
+        f.close()

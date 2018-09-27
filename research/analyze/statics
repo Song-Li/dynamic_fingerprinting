@@ -1,0 +1,16 @@
+Before filter less than 3:
+Num Browserids: 1329927
+Num user ids: 1148864
+After filter less than 3:
+Num Browserids: 661827
+Num user ids: 609179
+Num dynamics: 960853
+
+one cookie multiple browser:
+11 / 13 => fake agent string
+  5 fake to Firefox
+  1 fake to iPad
+  5 fake to iPhone
+1 / 13 => android to linux
+1 / 13 => facebook vs chrome web view
+
