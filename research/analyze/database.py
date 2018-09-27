@@ -24,6 +24,7 @@ class Database():
         self.__cursor = self.__db.cursor()
 
         self.fingerprint_feature_list = get_fingerprint_feature_list()
+        self.filler = '-9999^'
 
     def get_db(self):
         return self.__db
@@ -271,7 +272,7 @@ class Database():
             where_str = ' where {}'.format(where)
         df = pd.read_sql('select {} from {} {} {};'.format(feature_str, table_name, where_str, limit_str), con=self.get_db())
         print ("filling nan with -9999")
-        df = df.fillna("just used for filling ^")
+        df = df.fillna(self.filler)
         print ('finished loading {}'.format(table_name))
         return df
 
@@ -321,6 +322,13 @@ class Database():
                     patched_num += 1
                 else:
                     break
+
+        print ('doing all patches')
+        for idx in tqdm(df.index):
+            if df.at[idx, 'accept'].find('/') == -1:
+                df.at[idx, 'accept'] = self.filler
+            if df.at[idx, 'httpheaders'].find('_') == -1:
+                df.at[idx, 'httpheaders'] = self.filler
 
         print ("{} records patched".format(patched_num))
         return df
@@ -394,7 +402,7 @@ class Database():
         #df = self.audio_patch(df)
         #partgpu_patch(df)
         df = self.accept_httpheaders_patch(df)
-        #df = self.generate_fingerprint(df, self.fingerprint_feature_list)
+        df = self.generate_fingerprint(df, self.fingerprint_feature_list)
 
         if export_table != None:
             self.export_sql(df, export_table)

@@ -663,7 +663,7 @@ class Paperlib():
         else:
             browserfingerprint = 'browserfingerprint'
 
-        df = db.load_data(table_name = 'patched_accept_pandas')
+        df = db.load_data(table_name = 'patched_all_pandas')
         df = filter_less_than_n(df, 3)
 
         grouped = df.groupby('browserid')
@@ -1253,7 +1253,6 @@ class Paperlib():
                     for val in pair[:5]:
                         print '\t\t\t{}'.format(val[:10])
 
-
     def check_flip_feature(self, group, feature_name):
         """
         check wether a feature fliped in a group
@@ -1303,32 +1302,72 @@ class Paperlib():
         for idx in range(len(pattern_cnt)):
             print ("{}: {}({})".format(patterns[idx], pattern_cnt[idx], float(pattern_cnt[idx]) / float(total)))
 
+
+    def get_company_from_gpu(self, gpu):
+        """
+        return the rough value of gpu by all gpu
+        """
+        gpu_types = [
+                'nvidia',
+                'intel',
+                'powervr',
+                'mali',
+                'adreno',
+                'amd',
+                'ati',
+                'mesa'
+                ]
+
+        for gpu_type in gpu_types:
+            if gpu.lower().find(gpu_type) != -1:
+                return gpu_type
+        return 'others'
+
+
     def gpu_inference(self):
         """
         trying to use gpuimgs result to get the type of gpu
         """
-        df = self.db.load_data(table_name = 'patched_accept_pandas', 
+        df = self.db.load_data(table_name = 'patched_all_pandas', 
                 feature_list = ['browserid', 'gpu', 'gpuimgs', 'canvastest'])
         grouped = df.groupby('gpu')
         imgs_grouped = df.groupby('gpuimgs')
 
         map_num = {}
+        total_map = {}
         print ("preparing imgs number")
         for key, cur_group in imgs_grouped:
             cur_res = set()
             for gpu_type in cur_group['gpu'].unique():
                 if gpu_type == 'No Debug Info':
                     continue
-                #cur_res.add(gpu_type.split(' ')[0].split('-')[0])
-                cur_res.add(gpu_type)
+                cur_res.add(self.get_company_from_gpu(gpu_type))
             map_num[key] = len(cur_res)
+            total_map[key] = list(cur_res)
 
         success = {}
         overall = {}
+        mapback = {}
+        possible = {}
+        total_masked = 0
 
         for key, cur_group in tqdm(grouped):
             if key == 'No Debug Info':
+                total_masked = cur_group['gpuimgs'].nunique()
+                gpuimgs = cur_group['gpuimgs'].unique()
+                for gpuimg in gpuimgs:
+                    if map_num[gpuimg] == 1:
+                        if total_map[gpuimg][0] not in mapback:
+                            mapback[total_map[gpuimg][0]] = 0
+                        mapback[total_map[gpuimg][0]] += 1
+                    elif map_num[gpuimg] != 0:
+                        for poss_gpu in total_map[gpuimg]:
+                            if poss_gpu not in possible:
+                                possible[poss_gpu] = 0
+                            possible[poss_gpu] += 1
                 continue
+
+            key = self.get_company_from_gpu(key)
             if key not in overall:
                 overall[key] = 0
                 success[key] = 0
@@ -1340,12 +1379,28 @@ class Paperlib():
                 if map_num[gpuimg] == 1:
                     success[key] += 1
                 overall[key] += 1
+
         
         overall = sorted(overall.iteritems(), key=lambda (k,v): (-v,k))
-        f = safeopen('./res/gpuinference.dat', 'w')
+        f = safeopen('./res/roughgpuinference.dat', 'w')
         for pair in overall:
             if pair[1] != 0:
-                f.write('{} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], float(success[pair[0]]) / float(pair[1])))
+                f.write('{} {} {} {} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], float(success[pair[0]]) / float(pair[1]), mapback[pair[0]], possible[pair[0]], total_masked))
             else:
-                f.write('{} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], 0))
+                f.write('{} {} {} {} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], 0, mapback[pair[0]], possible[pair[0]], total_masked))
         f.close()
+
+    def gpu_type_cnt(self):
+        """
+        for interesting
+        """
+        df = self.db.load_data(table_name = 'patched_all_pandas', 
+                feature_list = ['browserid', 'gpu'])
+        grouped = df.groupby('gpu')
+        res = {}
+        for key, cur_group in tqdm(grouped):
+            res[key] = cur_group['browserid'].nunique()
+
+        overall = sorted(res.iteritems(), key=lambda (k,v): (-v,k))
+        for t in overall:
+            print t

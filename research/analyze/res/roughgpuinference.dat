@@ -1,0 +1,12 @@
+gpu_type unique_imgs total_imgs unique_rate NoDebugInfo_mapback_success_imgs NDI_mapbck_possible_imgs total_NDI_imgs
+nvidia 4110 7386 0.556458164094 28 19 417
+amd 768 3689 0.208186500407 19 31 417
+intel 892 1553 0.574372182872 23 30 417
+ati 364 1483 0.245448415374 12 20 417
+others 230 1113 0.206648697215 22 47 417
+powervr 330 343 0.962099125364 9 4 417
+mali 306 331 0.924471299094 12 4 417
+adreno 268 297 0.902356902357 10 4 417
+total: 
+  accurate: 135 / 417 = 32%
+  possible: 159 / 417 = 38% (not accurate, should be smaller, cause one gpu imgs can be in difference gpu types)
