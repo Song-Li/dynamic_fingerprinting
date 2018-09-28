@@ -102,7 +102,7 @@ class Paperlib():
 
             grouped = df.groupby(feature)
             for key, cur_group in grouped:
-                if key == self.db.filler:
+                if key == self.db.filler or key == '':
                     continue
                 distinct[feature] += 1
                 # feature based on label
@@ -126,6 +126,7 @@ class Paperlib():
         for feature in feature_list:
             stability[feature] = 0
 
+        """
         grouped = df.groupby('label')
         update_mark = {}
         revert_group_idx = {}
@@ -154,14 +155,15 @@ class Paperlib():
         for feature in stability:
             stability[feature] = float(stability[feature]) / float(total_user_num)
 
+        """
         print ("start to output")
         final_list = feature_list + [k for k in self.group_features]
         f = safeopen(output_file, 'w')
         for feature in final_list:
-            f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
+            #f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
                     # change round to floor
-                    unique[feature], float(int(stability[feature] * 10000)) / 10000))
-            #f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
+                    #unique[feature], float(int(stability[feature] * 10000)) / 10000))
+            f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
             f.write('\n')
         f.close()
 
@@ -653,7 +655,7 @@ class Paperlib():
         else:
             return helper.feature_diff(val1, val2, sep = '_')
 
-    def generate_overall_change_database(self, feature_list = None, keepip = False, aim_table_name = 'fingerprintchanges'):
+    def generate_overall_change_database(self, feature_list = None, keepip = False, groupby_key = 'browserid', aim_table_name = 'fingerprintchanges'):
         """
         generate the delta database of overall fingerprint.
         this table will be genereated in self database
@@ -668,7 +670,7 @@ class Paperlib():
         df = db.load_data(table_name = 'patched_all_pandas')
         df = filter_less_than_n(df, 3)
 
-        grouped = df.groupby('browserid')
+        grouped = df.groupby(groupby_key)
         res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 
                 'const_browser': [], 'const_os': [], 'const_device': [], 'const_IP':[], 'const_clientid': [], 
                 'frombrowserversion': [], 'fromosversion': [], 
@@ -1486,36 +1488,39 @@ class Paperlib():
         df = self.db.load_data(table_name = 'final_pandas', feature_list = ['browserfingerprint', 'ispc', 'browser'])
         grouped = df.groupby('browserfingerprint')
 
-        num_cnt = [[0,0], [0,0], [0,0], [0,0]]
+        num_cnt = {}
         for key, cur_group in tqdm(grouped):
             cur_cnt = cur_group.shape[0]
             # the ispc value should be same for
             # all records in this group
-            ispc = cur_group['ispc'][0]
-            browser = cur_group['browser'][0]
+            browser = cur_group['browser'].unique()[0]
+            if browser not in num_cnt:
+                num_cnt[browser] = [0, 0, 0, 0]
             if cur_cnt == 1:
-                num_cnt[browser][0][ispc] += 1
+                num_cnt[browser][0] += 1
             elif cur_cnt < 10:
-                num_cnt[browser][1][ispc] += 1
+                num_cnt[browser][1] += 1
             elif cur_cnt < 50:
-                num_cnt[browser][2][ispc] += 1
+                num_cnt[browser][2] += 1
             else:
-                num_cnt[browser][3][ispc] += 1
+                num_cnt[browser][3] += 1
 
         desktop_browsers = ['Chrome', 'Firefox', 'Safari', 'Edge']
         mobile_browsers = ['Chrome Mobile', 'Firefox Mobile', 'Mobile Safari', 'Samsung Internet']
-        f = safeopen('./fingerprintdistribution/desktop.dat')
+        f = safeopen('./fingerprintdistribution/desktop.dat', 'w')
         for browser in desktop_browsers:
             f.write('{}#'.format(browser))
+            cur_total = sum([num_cnt[browser][n] for n in range(4)])
             for idx in range(4):
-                f.write('{}#'.format(num_cnt[browser][idx][1]))
+                f.write('{}#'.format(float(num_cnt[browser][idx]) / float(cur_total)))
             f.write('\n')
         f.close()
 
-        f = safeopen('./fingerprintdistribution/mobile.dat')
+        f = safeopen('./fingerprintdistribution/mobile.dat', 'w')
         for browser in mobile_browsers:
             f.write('{}#'.format(browser))
+            cur_total = sum([num_cnt[browser][n] for n in range(4)])
             for idx in range(4):
-                f.write('{}#'.format(num_cnt[browser][idx][0]))
+                f.write('{}#'.format(float(num_cnt[browser][idx]) / float(cur_total)))
             f.write('\n')
         f.close()

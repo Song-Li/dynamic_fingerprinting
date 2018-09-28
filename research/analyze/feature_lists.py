@@ -238,6 +238,21 @@ fingerprint_feature_list_include_gpuimgs = [
         "fp2_liedos",
         "fp2_liedbrowser",
         ]
+
+browserid_list = [
+        'clientid',
+        'os',
+        'device',
+        'cpucores',
+        'fp2_cpuclass',
+
+        # SPECIAL FEATURE                   
+        'WebGL',
+
+        'partgpu'
+        ]
+
+
 def get_ori_feature_list():
     return ori_feature_list
 
@@ -255,3 +270,6 @@ def get_table_feature_list():
 
 def get_fingerprint_feature_list_include_gpuimgs():
     return fingerprint_feature_list_include_gpuimgs
+
+def get_browserid_list():
+    return browserid_list
