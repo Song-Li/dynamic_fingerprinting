@@ -7,6 +7,7 @@ from django.utils.encoding import smart_str, smart_unicode
 from sqlalchemy import create_engine
 from tqdm import *
 from feature_lists import *
+from user_agents import parse
 
 class Database():
 
@@ -243,7 +244,7 @@ class Database():
         print ('we have {} record to export'.format(df.shape[0]))
         df.to_sql(table_name, self.get_db_engine(), if_exists='replace', chunksize = 1000, index = False)
 
-    def load_data(self, feature_list = ['*'], table_name = 'features', limit = -1, where = None):
+    def load_data(self, filling = True, feature_list = ['*'], table_name = 'features', limit = -1, where = None):
         """
         this function will take a feature list, a table name and a limit
         if the feature list do not include browserid, the browserid will be loaded also
@@ -271,8 +272,10 @@ class Database():
         else:
             where_str = ' where {}'.format(where)
         df = pd.read_sql('select {} from {} {} {};'.format(feature_str, table_name, where_str, limit_str), con=self.get_db())
-        print ("filling nan with -9999")
-        df = df.fillna(self.filler)
+        if filling:
+            print ("filling nan with -9999")
+            df = df.fillna(self.filler)
+        #df.replace(to_replace = '-9999^', value = '', inplace = True)
         print ('finished loading {}'.format(table_name))
         return df
 
@@ -408,3 +411,10 @@ class Database():
             self.export_sql(df, export_table)
 
         return df
+
+    def ispc(self, agent):
+        """
+        get it's mobile or not by agent
+        """
+        user_agent = parse(agent)
+        return user_agent.is_pc

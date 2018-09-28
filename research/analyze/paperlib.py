@@ -102,6 +102,8 @@ class Paperlib():
 
             grouped = df.groupby(feature)
             for key, cur_group in grouped:
+                if key == self.db.filler:
+                    continue
                 distinct[feature] += 1
                 # feature based on label
                 # changes based on browserid
@@ -668,7 +670,7 @@ class Paperlib():
 
         grouped = df.groupby('browserid')
         res = {'IP':[], 'browserid':[], 'fromtime':[], 'totime':[], 
-                'const_browser': [], 'const_os': [], 'const_device': [], 'const_IP':[],
+                'const_browser': [], 'const_os': [], 'const_device': [], 'const_IP':[], 'const_clientid': [], 
                 'frombrowserversion': [], 'fromosversion': [], 
                 'tobrowserversion': [], 'toosversion': []}
 
@@ -732,8 +734,8 @@ class Paperlib():
                 res['const_browser'].append(row['browser'])
                 res['const_os'].append(row['os'])
                 res['const_IP'].append(row['IP'])
+                res['const_clientid'].append(row['clientid'])
         
-
                 pre_fingerprint = row[browserfingerprint]
                 pre_row = row
         
@@ -1419,6 +1421,7 @@ class Paperlib():
         num_browserids = 0
         num_dynamics = 0
         num_clientids = 0
+        num_fingerprints = 0
         total_fingerprints = 0
 
         df = self.db.load_data(table_name = 'patched_all_pandas', feature_list = ['browserid', 'clientid', 'browserfingerprint'])
@@ -1427,7 +1430,8 @@ class Paperlib():
         print ("Before filter less than 3:")
         num_browserids = df['browserid'].nunique()
         num_clientids = df['clientid'].nunique()
-        print ('Num Browserids: {}\nNum user ids: {}'.format(num_browserids, num_clientids))
+        num_fingerprints = df['browsefingerprint'].nunique()
+        print ('Num Browserids: {}\nNum user ids: {}\nNum fingerprints: {}'.format(num_browserids, num_clientids, num_fingerprints))
 
 
         print ("After filter less than 3:")
@@ -1457,4 +1461,61 @@ class Paperlib():
             for key, value in cur_grouped:
                 f.write('\t{}\n'.format(key))
 
+        f.close()
+
+    def update_influence(self):
+        """
+        anlyse how one update incluence another browser
+        here we based on client id not browser id
+        """
+        df = self.db.load_data(table_name = 'patched_tablefeaturechanges')
+        grouped = df.groupby('const_clientid')
+
+        f = safeopen('./res/differenctbidchangetogether.dat', 'w')
+        for clientid, cur_group in tqdm(grouped):
+            if cur_group['const_browserid'].nunique() == 1:
+                continue
+            f.write('{}\n'.format(clientid))
+        f.close()
+
+    def fingerprint_distribution(self):
+        """
+        get the fingerprint distribution of 1, 2-10, 10-50
+        """
+
+        df = self.db.load_data(table_name = 'final_pandas', feature_list = ['browserfingerprint', 'ispc', 'browser'])
+        grouped = df.groupby('browserfingerprint')
+
+        num_cnt = [[0,0], [0,0], [0,0], [0,0]]
+        for key, cur_group in tqdm(grouped):
+            cur_cnt = cur_group.shape[0]
+            # the ispc value should be same for
+            # all records in this group
+            ispc = cur_group['ispc'][0]
+            browser = cur_group['browser'][0]
+            if cur_cnt == 1:
+                num_cnt[browser][0][ispc] += 1
+            elif cur_cnt < 10:
+                num_cnt[browser][1][ispc] += 1
+            elif cur_cnt < 50:
+                num_cnt[browser][2][ispc] += 1
+            else:
+                num_cnt[browser][3][ispc] += 1
+
+        desktop_browsers = ['Chrome', 'Firefox', 'Safari', 'Edge']
+        mobile_browsers = ['Chrome Mobile', 'Firefox Mobile', 'Mobile Safari', 'Samsung Internet']
+        f = safeopen('./fingerprintdistribution/desktop.dat')
+        for browser in desktop_browsers:
+            f.write('{}#'.format(browser))
+            for idx in range(4):
+                f.write('{}#'.format(num_cnt[browser][idx][1]))
+            f.write('\n')
+        f.close()
+
+        f = safeopen('./fingerprintdistribution/mobile.dat')
+        for browser in mobile_browsers:
+            f.write('{}#'.format(browser))
+            for idx in range(4):
+                f.write('{}#'.format(num_cnt[browser][idx][0]))
+            f.write('\n')
         f.close()
