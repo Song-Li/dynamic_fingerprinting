@@ -1506,8 +1506,27 @@ class Paperlib():
                 num_cnt[browser][3] += 1
 
         desktop_browsers = ['Chrome', 'Firefox', 'Safari', 'Edge']
+        desktop_overall = [0, 0, 0, 0]
         mobile_browsers = ['Chrome Mobile', 'Firefox Mobile', 'Mobile Safari', 'Samsung Internet']
+        mobile_overall = [0, 0, 0, 0]
+        total_overall = [0, 0, 0, 0]
+
+        for idx in range(4):
+            for browser in desktop_browsers:
+                desktop_overall[idx] += num_cnt[browser][idx] 
+            for browser in mobile_browsers:
+                mobile_overall[idx] += num_cnt[browser][idx]
+            total_overall[idx] = desktop_overall[idx] + mobile_overall[idx]
+
+        f = safeopen('./fingerprintdistribution/overall.dat', 'w')
+        for idx in range(4):
+            f.write('{}#'.format(float(total_overall[idx]) / float(sum(total_overall))))
+        f.write('\n')
+
         f = safeopen('./fingerprintdistribution/desktop.dat', 'w')
+        for idx in range(4):
+            f.write('{}#'.format(float(desktop_overall[idx]) / float(sum(desktop_overall))))
+        f.write('\n')
         for browser in desktop_browsers:
             f.write('{}#'.format(browser))
             cur_total = sum([num_cnt[browser][n] for n in range(4)])
@@ -1517,6 +1536,9 @@ class Paperlib():
         f.close()
 
         f = safeopen('./fingerprintdistribution/mobile.dat', 'w')
+        for idx in range(4):
+            f.write('{}#'.format(float(mobile_overall[idx]) / float(sum(mobile_overall))))
+        f.write('\n')
         for browser in mobile_browsers:
             f.write('{}#'.format(browser))
             cur_total = sum([num_cnt[browser][n] for n in range(4)])

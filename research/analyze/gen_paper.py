@@ -6,7 +6,7 @@ from feature_lists import *
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    #paperlib.fingerprint_distribution()
+    paperlib.fingerprint_distribution()
     #df = db.load_data(table_name = 'bylabelchanges')
     #df = db.load_data(filling = False, table_name = 'patched_all_pandas')
     #paperlib.feature_latex_table(get_browserid_list(), df, output_file = './res/table_bylabelchanges.dat')
@@ -20,7 +20,7 @@ def main():
     #paperlib.feature_correlation(df)
     #paperlib.cookie_pattern()
     #paperlib.generate_overall_change_database(feature_list = get_table_feature_list(), keepip = True, groupby_key = 'label', aim_table_name = 'bylabelchanges')
-    paperlib.generate_overall_change_database(feature_list = get_browserid_list(), keepip = True, groupby_key = 'label', aim_table_name = 'bylabelchanges')
+    #paperlib.generate_overall_change_database(feature_list = get_browserid_list(), keepip = True, groupby_key = 'label', aim_table_name = 'bylabelchanges')
     #paperlib.number_feature_per_feature_with_changes(df, 'browserid', 'browserfingerprint', max_num = 8, percentage = False)
     #df = db.load_data(table_name = 'tablefeaturechanges', limit = 10000)
     #paperlib.feature_correlation(df)
