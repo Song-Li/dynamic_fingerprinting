@@ -1332,6 +1332,7 @@ class Paperlib():
         imgs_grouped = df.groupby('gpuimgs')
 
         map_num = {}
+        user_map = {}
         total_map = {}
         print ("preparing imgs number")
         for key, cur_group in imgs_grouped:
@@ -1341,51 +1342,58 @@ class Paperlib():
                     continue
                 cur_res.add(self.get_company_from_gpu(gpu_type))
             map_num[key] = len(cur_res)
+            user_map[key] = set(cur_group['browserid'].unique())
             total_map[key] = list(cur_res)
 
         success = {}
         overall = {}
         mapback = {}
-        possible = {}
+        possible = [set() for i in range(5)]
         total_masked = 0
 
         for key, cur_group in tqdm(grouped):
             if key == 'No Debug Info':
-                total_masked = cur_group['gpuimgs'].nunique()
+                total_masked = cur_group['browserid'].nunique()
                 gpuimgs = cur_group['gpuimgs'].unique()
                 for gpuimg in gpuimgs:
+                    # accurate map back
                     if map_num[gpuimg] == 1:
                         if total_map[gpuimg][0] not in mapback:
-                            mapback[total_map[gpuimg][0]] = 0
-                        mapback[total_map[gpuimg][0]] += 1
-                    elif map_num[gpuimg] != 0:
-                        for poss_gpu in total_map[gpuimg]:
-                            if poss_gpu not in possible:
-                                possible[poss_gpu] = 0
-                            possible[poss_gpu] += 1
+                            mapback[total_map[gpuimg][0]] = set()
+                        cur_accu_group = imgs_grouped.get_group(gpuimg)
+                        small_group = cur_accu_group.groupby('gpu')
+                        mapback[total_map[gpuimg][0]] |= set(small_group.get_group('No Debug Info')['browserid'].unique())
+
+                    if map_num[gpuimg] != 0 and map_num[gpuimg] < 5:
+                        cur_accu_group = imgs_grouped.get_group(gpuimg)
+                        small_group = cur_accu_group.groupby('gpu')
+                        possible[map_num[gpuimg]] |= set(small_group.get_group('No Debug Info')['browserid'].unique())
                 continue
 
             key = self.get_company_from_gpu(key)
+            if key == 'mesa':
+                print key
             if key not in overall:
-                overall[key] = 0
-                success[key] = 0
+                overall[key] = set()
+                success[key] = set()
             gpuimgs = cur_group['gpuimgs'].unique()
             for gpuimg in gpuimgs:
                 # for None value
                 if gpuimg.find('^') != -1:
                     continue
                 if map_num[gpuimg] == 1:
-                    success[key] += 1
-                overall[key] += 1
+                    success[key] |= user_map[gpuimg]
+                overall[key] |= user_map[gpuimg]
 
         
-        overall = sorted(overall.iteritems(), key=lambda (k,v): (-v,k))
         f = safeopen('./res/roughgpuinference.dat', 'w')
-        for pair in overall:
-            if pair[1] != 0:
-                f.write('{} {} {} {} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], float(success[pair[0]]) / float(pair[1]), mapback[pair[0]], possible[pair[0]], total_masked))
-            else:
-                f.write('{} {} {} {} {} {} {}\n'.format(pair[0], success[pair[0]], pair[1], 0, mapback[pair[0]], possible[pair[0]], total_masked))
+        for gpu in overall:
+            f.write('{} {} {} {} {} {}\n'.format(gpu, 
+                len(success[gpu]), len(overall[gpu]), 
+                float(len(success[gpu])) / float(len(overall[gpu])), 
+                len(mapback[gpu]), total_masked))
+        for i in range(5):
+            f.write('{} {}\n'.format(i, len(possible[i])))
         f.close()
 
     def gpu_type_cnt(self):
@@ -1435,7 +1443,7 @@ class Paperlib():
         """
 
         df = self.db.load_data(table_name = 'patched_all_pandas', 
-                feature_list = [feature_name, 'agent', 'label', 'time', 'gpu'], limit = 100000)
+                feature_list = ['browserid', 'browser', 'agent', 'label', 'time', 'gpu'])
 
         grouped = df.groupby('label')
 
