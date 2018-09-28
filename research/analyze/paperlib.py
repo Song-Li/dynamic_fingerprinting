@@ -110,6 +110,7 @@ class Paperlib():
                 if cur_group['browserid'].nunique() == 1:
                     unique[feature] += 1
 
+        """
         print ('generating grouped features')
         for feature_group in tqdm(self.group_features):
             grouped = df.groupby([self.major_table_list[x] for x in self.group_features[feature_group]])
@@ -126,7 +127,6 @@ class Paperlib():
         for feature in feature_list:
             stability[feature] = 0
 
-        """
         grouped = df.groupby('label')
         update_mark = {}
         revert_group_idx = {}

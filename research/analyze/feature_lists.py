@@ -241,6 +241,7 @@ fingerprint_feature_list_include_gpuimgs = [
 
 browserid_list = [
         'clientid',
+        'browser',
         'os',
         'device',
         'cpucores',
