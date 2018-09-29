@@ -102,7 +102,7 @@ class Paperlib():
 
             grouped = df.groupby(feature)
             for key, cur_group in grouped:
-                if key == self.db.filler or key == '':
+                if key.find(self.db.filler) != -1 or key == '':
                     continue
                 distinct[feature] += 1
                 # feature based on label
@@ -110,7 +110,6 @@ class Paperlib():
                 if cur_group['browserid'].nunique() == 1:
                     unique[feature] += 1
 
-        """
         print ('generating grouped features')
         for feature_group in tqdm(self.group_features):
             grouped = df.groupby([self.major_table_list[x] for x in self.group_features[feature_group]])
@@ -118,6 +117,11 @@ class Paperlib():
             distinct[feature_group] = 0
 
             for key, cur_group in grouped:
+                if str(key).find(self.db.filler) != -1:
+                    continue
+                # output for consistant values
+                if feature_group == 'consistency' : 
+                    print key
                 distinct[feature_group] += 1
                 if cur_group['browserid'].nunique() == 1:
                     unique[feature_group] += 1
@@ -155,15 +159,14 @@ class Paperlib():
         for feature in stability:
             stability[feature] = float(stability[feature]) / float(total_user_num)
 
-        """
         print ("start to output")
-        final_list = feature_list# + [k for k in self.group_features]
+        final_list = feature_list + [k for k in self.group_features]
         f = safeopen(output_file, 'w')
         for feature in final_list:
-            #f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
+            f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
                     # change round to floor
-                    #unique[feature], float(int(stability[feature] * 10000)) / 10000))
-            f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
+                    unique[feature], float(int(stability[feature] * 10000)) / 10000))
+            #f.write(r'{} & {} & {} \\'.format(feature, distinct[feature],unique[feature]) )
             f.write('\n')
         f.close()
 
@@ -746,7 +749,7 @@ class Paperlib():
         db.export_sql(df, aim_table_name)
         return 
 
-    def draw_change_reason_by_date(self, table_name = 'tablefeaturechanges'):
+    def draw_change_reason_by_date(self, table_name = 'patched_tablefeaturechanges'):
         """
         draw the fingure of changed reason by browser
         """
@@ -759,12 +762,13 @@ class Paperlib():
             if feature not in columns:
                 feature_list.remove(feature)
         added_feature = [
-                'os',
-                'browser',
+                'const_os',
+                'const_browser',
                 'frombrowserversion',
                 'tobrowserversion',
                 'fromosversion',
-                'toosversion'
+                'toosversion',
+                'totime'
                 ]
 
         user_update_keys = [
@@ -791,29 +795,24 @@ class Paperlib():
                 'Chrome',
                 'Firefox',
                 'Safari',
-                'Edge'
-                ]
-
-        mobile_browsers = [
-                'Chrome Mobile',
-                'Firefox Mobile',
-                'Mobile Safari',
-                'Samsung Internet'
                 ]
 
         classes = ['browser_update', 'os_update', 'user_update', 'environment_update', 'others']
-        #classes = ['os_update', 'browser_update', 'win_update', 'mac_update', 'user_update', 'environment_update', 'others']
         
         for feature in added_feature:
             if feature not in feature_list:
                 feature_list.append(feature)
 
-        df = round_time_to_day(df)
+        df = round_time_to_day(df, timekey = 'totime')
+
+        min_date = min(df['totime'])
+        max_date = max(df['totime'])
+        lendate = (max_date - min_date).days
+        datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
 
         grouped = df.groupby(feature_list)
-
         res = {}
-        browser_idx = feature_list.index('browser')
+        browser_idx = feature_list.index('const_browser')
 
         for key, cur_group in tqdm(grouped):
             browser = key[browser_idx]
@@ -821,118 +820,54 @@ class Paperlib():
             tobrowserversion = key[browser_idx + 2]
             fromosversion = key[browser_idx + 3]
             toosversion = key[browser_idx + 4]
+            cur_date = key[browser_idx + 5]
 
-            cur_key_str = ''
             cur_len = len(cur_group)
             if browser not in res:
                 res[browser] = {}
-                for update in classes:
-                    res[browser][update] = 0
+                for date in datelist:
+                    res[browser][date] = {}
+                    for update in classes:
+                        res[browser][date][update] = 0
 
             for i in range(len(feature_list)):
                 if key[i] == '':
                     continue
-                cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
                 if feature_list[i] in user_update_keys:
-                    res[browser]['user_update'] += cur_len
+                    res[browser][cur_date]['user_update'] += cur_len
                 elif feature_list[i] in environment_update_keys:
-                    res[browser]['environment_update'] += cur_len
+                    res[browser][cur_date]['environment_update'] += cur_len
                 elif feature_list[i] != 'agent' and feature_list[i] not in added_feature:
                     # if not in user and envir update and the change is not agent, it's others
-                    res[browser]['others'] += cur_len
+                    res[browser][cur_date]['others'] += cur_len
 
             if frombrowserversion != tobrowserversion:
-                res[browser]['browser_update'] += cur_len
+                res[browser][cur_date]['browser_update'] += cur_len
             if fromosversion != toosversion:
-                cur_os = key[feature_list.index('os')]
-                res[browser]['os_update'] += cur_len
-
-
-            res[browser][cur_key_str] = cur_len
-        
-
-        sorted_res = {}
-        for browser in res:
-            sorted_res[browser] = sorted(res[browser].iteritems(), 
-                    key=lambda (k,v): (-v,k))
-
-
-        res['overall'] = {}
-        res['desktopall'] = {}
-        res['mobileall'] = {}
-        for update in classes:
-            res['overall'][update] = 0
-            res['desktopall'][update] = 0
-            res['mobileall'][update] = 0
-            for browser in desktop_browsers:
-                res['desktopall'][update] += res[browser][update]
-                res['overall'][update] += res[browser][update]
-            for browser in mobile_browsers:
-                res['mobileall'][update] += res[browser][update]
-                res['overall'][update] += res[browser][update]
-                
-
-        total_number = {}
-        for browser in res:
-            total_number[browser] = 0
-            for update in classes:
-                total_number[browser] += res[browser][update]
-
-        '''
-
-        for browser in sorted_res:
-            f = safeopen('./changereason/details/{}'.format(browser), 'w')
-            for string in sorted_res[browser]:
-                f.write('{} {} {}\n'.format(string[0].replace(' ','_'), 
-                    string[1], 
-                    float(string[1]) / float(total_number[browser])))
-            f.close()
-        '''
-
-        f_all = safeopen('./changereason/overall.dat', 'w')
-        for update in classes:
-            f_all.write('{}#'.format(update))
-        f_all.write('\n')
-        # write overall to file
-        f_all.write('{}#'.format('Overall'))
-        for update in classes:
-            f_all.write('{}#'.format(float(res['desktopall'][update] + res['mobileall'][update]) / float(total_number['desktopall'] + total_number['mobileall'])))
-        f_all.write('\n')
-        f_all.close()
-
-
-        f_all = safeopen('./changereason/desktopchanges.dat', 'w')
-        for update in classes:
-            f_all.write('{}#'.format(update))
-        f_all.write('\n')
-        # write overall to file
-        f_all.write('{}#'.format('Overall'))
-        for update in classes:
-            f_all.write('{}#'.format(float(res['desktopall'][update]) / float(total_number['desktopall'])))
-        f_all.write('\n')
+                res[browser][cur_date]['os_update'] += cur_len
 
         for browser in desktop_browsers:
-            f_all.write('{}#'.format(browser))
-            for update in classes:
-                f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
-            f_all.write('\n')
-        f_all.close()
+            f = safeopen('./changereasonbydate/{}.dat'.format(browser), 'w')
+            f.write('Type#')
 
-        f_all = safeopen('./changereason/mobilechanges.dat', 'w')
-        for update in classes:
-            f_all.write('{}#'.format(update))
-        f_all.write('\n')
-        # write overall to file
-        f_all.write('{}#'.format('Overall'))
-        for update in classes:
-            f_all.write('{}#'.format(float(res['mobileall'][update]) / float(total_number['mobileall'])))
-        f_all.write('\n')
-        for browser in mobile_browsers:
-            f_all.write('{}#'.format(browser))
-            for update in classes:
-                f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
-            f_all.write('\n')
-        f_all.close()
+            for reason in classes:
+                f.write('{}#'.format(reason))
+            f.write('\n')
+
+            for date in datelist:
+                f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
+                cur_date_total = 0
+                for reason in classes:
+                    cur_date_total += res[browser][date][reason]
+
+                for reason in classes:
+                    try:
+                        cur_num = float(res[browser][date][reason]) / float(cur_date_total)
+                    except:
+                        cur_num = 0
+                    f.write('{}#'.format(cur_num))
+                f.write('\n')
+            f.close()
 
     def draw_change_reason(self, table_name = 'tablefeaturechanges'):
         """
@@ -1546,3 +1481,4 @@ class Paperlib():
                 f.write('{}#'.format(float(num_cnt[browser][idx]) / float(cur_total)))
             f.write('\n')
         f.close()
+
