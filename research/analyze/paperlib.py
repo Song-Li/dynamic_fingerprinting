@@ -862,7 +862,7 @@ class Paperlib():
 
                 for reason in classes:
                     try:
-                        cur_num = float(res[browser][date][reason]) / float(cur_date_total)
+                        cur_num = float(res[browser][date][reason]) / float(cur_date_total) * 100
                     except:
                         cur_num = 0
                     f.write('{}#'.format(cur_num))
