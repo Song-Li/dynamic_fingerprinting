@@ -157,7 +157,7 @@ class Paperlib():
 
         """
         print ("start to output")
-        final_list = feature_list + [k for k in self.group_features]
+        final_list = feature_list# + [k for k in self.group_features]
         f = safeopen(output_file, 'w')
         for feature in final_list:
             #f.write(r'{} & {} & {} & {:.4f} \\'.format(feature, distinct[feature], 
