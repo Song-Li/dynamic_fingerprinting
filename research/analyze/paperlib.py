@@ -1482,3 +1482,66 @@ class Paperlib():
             f.write('\n')
         f.close()
 
+    def ip_location_paper(self):
+        """
+        output the location info to distince
+        """
+        df = self.db.load_data(table_name = 'final_pandas', 
+                feature_list = ['browserid', 'time', 'IP'])
+        ip_db = Database('uniquemachine')
+        ip2location = ip_db.load_data(table_name = 'ip2location_db5')
+        ip_from = ip2location['ip_from']
+
+        client = df.groupby('browserid')
+        pre_row = ""
+        cnt = [0 for i in range(2005)] 
+        only_one_ip = 0
+        more_than_one_ip = 0
+        for key, items in tqdm(client):
+            num_ip = items['IP'].nunique()
+            if num_ip == 1:
+                only_one_ip += 1
+            else:
+                more_than_one_ip += 1
+            if num_ip > 1:
+                pre_row = ""
+                for name, row in items.iterrows():
+                    if type(pre_row) != type("") and pre_row['IP'] == row['IP']:
+                        continue
+
+                    ip = row['IP']
+                    int_ip = ip2int(ip)
+                    idx = bisect.bisect_left(ip_from, int_ip) - 1
+                    latitude = ip2location.iloc[idx]['latitude']
+                    longitude = ip2location.iloc[idx]['longitude']
+                    if type(pre_row) == type(""):
+                        pre_row = row
+                        pre_row['latitude'] = latitude
+                        pre_row['longitude'] = longitude
+                        continue
+
+                    seconds_change = float((row['time'] - pre_row['time']).seconds)
+                    distance_change = ip_distance(pre_row['latitude'], pre_row['longitude'],
+                            latitude,
+                            longitude) 
+                    #if distance_change == 0:
+                    #    continue
+
+                    if seconds_change == 0:
+                        seconds_change = 0.1
+
+                    km_per_hour = distance_change / (seconds_change / 3600)
+
+                    pre_row = row
+                    pre_row['latitude'] = latitude
+                    pre_row['longitude'] = longitude
+
+                    if km_per_hour > 1999:
+                        km_per_hour = 1999 
+                    cnt[int(km_per_hour)] += 1
+
+        f = open('./res/ipchange.dat','w')
+        for i in range(2001):
+            f.write('{} {}\n'.format(i, cnt[i]))
+        f.close()
+        print 'only one ip: {}\n more than one ip: {}\n'.format(only_one_ip, more_than_one_ip)

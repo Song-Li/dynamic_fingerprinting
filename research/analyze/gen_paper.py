@@ -6,7 +6,8 @@ from feature_lists import *
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.draw_change_reason_by_date()
+    paperlib.ip_location_paper()
+    #paperlib.draw_change_reason_by_date()
     #df = db.load_data(table_name = 'patched_tablefeaturechanges')
     #paperlib.feature_latex_table(get_table_feature_list(), df, output_file = './tmpout.dat')
     #paperlib.fingerprint_distribution()
