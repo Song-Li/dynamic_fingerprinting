@@ -1539,29 +1539,51 @@ class Paperlib():
         df = pd.DataFrame.from_dict(vpn_browserids)
         self.db.export_sql(df, 'possiblevpnids')
 
-    def get_num_of_feature_changes(self, feature_name, feature_value, include = False, table_name = 'patched_tablefeaturechanges'):
+    def get_num_of_feature_changes(self, feature_name, feature_value, include = False, sep = '_', table_name = 'patched_tablefeaturechanges'):
         """
         return the number of features in change database
         include is not implemented
         """
-        df = self.db.load_data(table_name = table_name, feature_list = ['browserid', feature_name])
+        df = self.db.load_data(table_name = table_name, feature_list = ['browserid', feature_name, 'browser'])
+        # for MT Extra test
+        start_time = datetime.date(2018, 1, 9)
+        end_time = datetime.date(2018, 2, 9)
+
+        #df = df[df['totime'] > start_time]
+        #df = df[df['totime'] < end_time]
+
+
         grouped = df.groupby(feature_name)
         res = 0
+
         if not include:
             value_group = grouped.get_group(feature_value)
             res = value_group['browserid'].nunique()
         else:
             res_set = set()
+            firefox_num = 0
+            edge_num = 0
+            chrome_num = 0
             for key, cur_group in tqdm(grouped):
                 finished = True 
-                for value in feature_value:
-                    if key.find(value) == -1:
-                        finished = False
-                        break
-                if finished:
+                key = key.split('=>')
+                if len(key) > 1:
+                    key = key[1]
+                else:
+                    key = key[0]
+                if len(set(feature_value) - set(key.split(sep))) == 0:
+                    for f in cur_group['browserid'].unique():
+                        if f.lower().find('firefox') != -1:
+                            firefox_num += 1
+                        elif f.lower().find('edge') != -1:
+                            edge_num += 1
+                        elif f.lower().find('chrome') != -1:
+                            chrome_num += 1
+                        else:
+                            print f
                     res_set |= set(cur_group['browserid'].unique())
             res = len(res_set)
-        return res
+        return res, chrome_num, firefox_num, edge_num
 
     def get_vpn_user(self):
         """
@@ -1621,3 +1643,22 @@ class Paperlib():
                 success_browserid |= set(grouped.get_group(ip)['browserid'].unique())
         
         print ('{} of them are VPN users'.format(len(success_browserid)))
+
+    def get_browserid_same_value_order_change(self, feature_name, sep = ','):
+        df = self.db.load_data(table_name = 'final_pandas', feature_list = [feature_name, 'browserid'])
+        grouped = df.groupby('browserid')
+        for key, cur_group in tqdm(grouped):
+            if cur_group[feature_name].nunique() == 1:
+                continue
+            value_list = cur_group[feature_name].unique()
+            for cur_feature in value_list:
+                for f2 in value_list:
+                    if cur_feature == f2:
+                        continue
+                    cur_feature = cur_feature.replace(' ', '')
+                    f2 = f2.replace(' ','')
+                    if cur_feature != f2 and len(cur_feature) == len(f2):
+                        if len(set(cur_feature.split(sep)) ^ set(f2.split(sep))) == 0:
+                            print key
+                            return 
+

@@ -8,6 +8,8 @@ class Fonts():
 
         self.libre_6 = "Miriam Mono CLM_Noto Sans Lisu_Scheherazade_Linux Libertine Display G_EmojiOne Color_Noto Naskh Arabic_Linux Biolinum G_Source Code Pro Black_Noto Sans Light_Frank Ruehl CLM_Caladea_Noto Serif_OpenSymbol_Rubik_Noto Sans Georgian_Noto Sans Lao_Liberation Sans_Source Code Pro Light_Noto Serif Lao_DejaVu Serif Condensed_KacstBook_DejaVu Sans Light_Reem Kufi Regular_Source Code Pro Semibold_Noto Naskh Arabic UI_Source Sans Pro Black_Gentium Basic_DejaVu Math TeX Gyre_Source Code Pro ExtraLight_Noto Kufi Arabic_Noto Sans Hebrew_Amiri_Source Sans Pro Semibold_Miriam CLM_Source Code Pro_Source Sans Pro_Noto Sans Cond_Liberation Serif_KacstOffice_Source Code Pro Medium_DejaVu Sans_Liberation Mono_Noto Serif Armenian_Alef_Gentium Book Basic_David Libre_Noto Sans Armenian_Noto Serif Cond_Linux Libertine G_Liberation Sans Narrow_DejaVu Sans Condensed_Source Sans Pro ExtraLight_DejaVu Sans Mono_Noto Sans Arabic UI_Noto Serif Georgian_Noto Mono_David CLM_Carlito_Amiri Quran_DejaVu Serif_Noto Serif Hebrew_Noto Serif Light_Source Sans Pro Light_Noto Sans_Noto Sans Arabic"
 
+        self.firefox_57 = "Arial_Black++Arial_Narrow++Arial_Rounded_MT_Bold++Segoe_UI_Light++Segoe_UI_Semibold++Berlin_Sans_FB_Demi++Bernard_MT_Condensed++Bodoni_MT_Black++Bodoni_MT_Condensed++Bodoni_MT_Poster_Compressed++Britannic_Bold++Cooper_Black++Copperplate_Gothic_Bold++Copperplate_Gothic_Light++Footlight_MT_Light++Gill_Sans_MT_Condensed++Gill_Sans_MT_Ext_Condensed_Bold++Gill_Sans_Ultra_Bold++Gill_Sans_Ultra_Bold_Condensed++Harlow_Solid_Italic++OCR_A_Extended++Rage_Italic++Rockwell_Condensed++Rockwell_Extra_Bold++Script_MT_Bold++Tw_Cen_MT_Condensed++Tw_Cen_MT_Condensed_Extra_Bold"
+
     def get_office_2013(self):
         return self.office_2013.split('_')
 
@@ -16,4 +18,8 @@ class Fonts():
 
     def get_libre_6(self):
         return self.libre_6.split('_')
+
+    def get_firefox_57(self):
+        cur_list = self.firefox_57.replace('_', ' ')
+        return cur_list.split('++')
 
