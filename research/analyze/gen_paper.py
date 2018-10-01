@@ -6,9 +6,10 @@ from feature_lists import *
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.get_overall_vpn_user()
+    paperlib.get_vpn_user()
+    #paperlib.get_overall_vpn_user()
     #paperlib.update_influence()
-    #print paperlib.get_num_of_feature_changes('jsFonts', ['Bodoni MT Condensed', 'Copperplate'], include = True)
+    #print paperlib.get_num_of_feature_changes('jsFonts', ['Arial Unicode MS', 'Bodoni MT Condensed', 'Stencil', 'Perpetua Titling MT'], include = True, table_name = 'final_pandas')
     #paperlib.ip_location_paper()
     #paperlib.draw_change_reason_by_date()
     #df = db.load_data(table_name = 'patched_tablefeaturechanges')

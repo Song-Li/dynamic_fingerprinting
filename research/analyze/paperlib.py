@@ -1515,7 +1515,7 @@ class Paperlib():
                         pre_row['longitude'] = longitude
                         continue
 
-                    seconds_change = float((row['time'] - pre_row['time']).seconds)
+                    seconds_change = float((row['time'] - pre_row['time']).total_seconds())
                     distance_change = ip_distance(pre_row['latitude'], pre_row['longitude'],
                             latitude,
                             longitude) 
@@ -1539,12 +1539,12 @@ class Paperlib():
         df = pd.DataFrame.from_dict(vpn_browserids)
         self.db.export_sql(df, 'possiblevpnids')
 
-    def get_num_of_feature_changes(self, feature_name, feature_value, include = False):
+    def get_num_of_feature_changes(self, feature_name, feature_value, include = False, table_name = 'patched_tablefeaturechanges'):
         """
         return the number of features in change database
         include is not implemented
         """
-        df = self.db.load_data(table_name = 'patched_tablefeaturechanges', feature_list = ['browserid', feature_name])
+        df = self.db.load_data(table_name = table_name, feature_list = ['browserid', feature_name])
         grouped = df.groupby(feature_name)
         res = 0
         if not include:
@@ -1578,17 +1578,23 @@ class Paperlib():
         df = self.db.load_data(table_name = 'final_pandas', feature_list = ['IP', 'browserid'])
         grouped = df.groupby('browserid')
 
-        success = 0
+        success = set()
         for key, cur_group in tqdm(grouped):
             if key in possible_users:
                 for ip in cur_group['IP'].unique():
                     int_ip = ip2int(ip)
                     idx = bisect.bisect_left(ip_from, int_ip) - 1
                     if int_ip <= vpn_df.at[idx, 'ip_to']:
-                        success += 1
+                        success.add(key)
                         break
+
+        f = safeopen('./res/overspeednotinvpn.dat', 'w')
+        for browserid in possible_users:
+            if browserid not in success:
+                f.write(browserid + '\n')
+        f.close()
         
-        print ('We have {} users in total. {} of them are VPN users'.format(len(possible_users), success))
+        print ('We have {} users in total. {} of them are VPN users'.format(len(possible_users), len(success)))
 
     def get_overall_vpn_user(self):
         db = Database('ip2proxy')
