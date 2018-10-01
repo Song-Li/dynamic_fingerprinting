@@ -1561,7 +1561,6 @@ class Paperlib():
                 if finished:
                     res_set |= set(cur_group['browserid'].unique())
             res = len(res_set)
-
         return res
 
     def get_vpn_user(self):
@@ -1579,6 +1578,7 @@ class Paperlib():
         grouped = df.groupby('browserid')
 
         success = set()
+        vpn_keys = set()
         for key, cur_group in tqdm(grouped):
             if key in possible_users:
                 for ip in cur_group['IP'].unique():
@@ -1586,13 +1586,21 @@ class Paperlib():
                     idx = bisect.bisect_left(ip_from, int_ip) - 1
                     if int_ip <= vpn_df.at[idx, 'ip_to']:
                         success.add(key)
-                        break
+                        vpn_keys.add(ip)
 
         f = safeopen('./res/overspeednotinvpn.dat', 'w')
+        f_s = safeopen('./res/vpnusers.dat','w')
+        f_ip = safeopen('./res/vpnips.dat', 'w')
         for browserid in possible_users:
             if browserid not in success:
                 f.write(browserid + '\n')
+            else:
+                f_s.write(browserid + '\n')
+        for ip in vpn_keys:
+            f_ip.write(ip + '\n')
         f.close()
+        f_s.close()
+        f_ip.close()
         
         print ('We have {} users in total. {} of them are VPN users'.format(len(possible_users), len(success)))
 

@@ -2,14 +2,17 @@ from paperlib import Paperlib
 from paperlib_helper import Paperlib_helper
 from database import Database
 from feature_lists import *
+from fonts import Fonts
 
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.get_vpn_user()
+    fonts = Fonts()
+    print len(set(fonts.get_office_2013()) & set(fonts.get_jsFonts()))
+    #paperlib.get_vpn_user()
     #paperlib.get_overall_vpn_user()
     #paperlib.update_influence()
-    #print paperlib.get_num_of_feature_changes('jsFonts', ['Arial Unicode MS', 'Bodoni MT Condensed', 'Stencil', 'Perpetua Titling MT'], include = True, table_name = 'final_pandas')
+    #print paperlib.get_num_of_feature_changes('canvastest', ['14578bcaee87ff6fe7fee38ddfa2306a7e3b0a0a', 'bd554a7d5da9293cf3fed52d2052b2b948a14b77'], include = True, table_name = 'patched_tablefeaturechanges')
     #paperlib.ip_location_paper()
     #paperlib.draw_change_reason_by_date()
     #df = db.load_data(table_name = 'patched_tablefeaturechanges')
