@@ -641,7 +641,7 @@ class Paperlib():
                     break
                 f.write('{} '.format(dates_data[date][key]))
                 sumup += dates_data[date][key]
-                f.write('{} '.format(sum(dates_data[date].values()) - sumup))
+            f.write('{} '.format(sum(dates_data[date].values()) - sumup))
             f.write('\n')
         f.close()
 
