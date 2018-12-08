@@ -7,8 +7,8 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    fonts = Fonts()
-    paperlib.get_browserid_same_value_order_change(feature_name = 'plugins', sep = '~')
+    #fonts = Fonts()
+    #paperlib.get_browserid_same_value_order_change(feature_name = 'plugins', sep = '~')
     #print set(fonts.get_libre_6()) & set(fonts.get_jsFonts())
     #office_2013 = set(fonts.get_office_2013()) & set(fonts.get_jsFonts())
     #paperlib.get_vpn_user()
@@ -43,8 +43,8 @@ def main():
     #db.rebuild_table(df, export_table = 'pandas_features')
     #paperlib.feature_distribution_by_date('os')
     #paperlib.feature_change_by_browser_date_paper('browserfingerprint', method = 'day')
-    #paperlib.feature_change_by_date_paper('agent')
-    #paperlib.new_return_user_by_date()
+    paperlib.feature_change_by_date_paper('jsFonts')
+    #paperlib.new_return_user_by_date(
     #paperlib.get_all_feature_change_by_date()
     #paperlib.feature_latex_table()
     #paperlib.life_time_median()
