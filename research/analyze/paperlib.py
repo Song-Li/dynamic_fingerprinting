@@ -630,18 +630,21 @@ class Paperlib():
                         key = sorted_keys[idx]
                     except:
                         break
-                    f.write('{} '.format(str(get_change_strs(key[0], key[1], sep = ' ')).replace(' ','_')))
+                    f.write('{} '.format(str(get_change_strs(key[0], key[1], sep = ' ')).replace(' ','=')))
                 f.write('\n')
             f.write('{}-{}-{} '.format(date.year, date.month, date.day))
             sumup = 0
+            total = float(sum(dates_data[date].values()))
+            if total == 0:
+                total = 1
             for idx in range(10):
                 try:
                     key = sorted_keys[idx]
                 except:
                     break
-                f.write('{} '.format(dates_data[date][key]))
+                f.write('{} '.format(float(dates_data[date][key]) / total))
                 sumup += dates_data[date][key]
-            f.write('{} '.format(sum(dates_data[date].values()) - sumup))
+            f.write('{} '.format(float(sum(dates_data[date].values()) - sumup) / total))
             f.write('\n')
         f.close()
 
