@@ -1771,7 +1771,7 @@ def gpu_mapback_paper(df):
 '''
 
 def ip_location_paper(df):
-    client = df.groupby('clientid')
+    client = df.groupby('browserid')
     pre_row = ""
     cnt = [0 for i in range(2005)] 
     for key, items in tqdm(client):

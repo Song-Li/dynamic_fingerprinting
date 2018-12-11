@@ -2,11 +2,23 @@ from paperlib import Paperlib
 from paperlib_helper import Paperlib_helper
 from database import Database
 from feature_lists import *
+from fonts import Fonts
 
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.draw_change_reason_by_date()
+    #fonts = Fonts()
+    #paperlib.get_browserid_same_value_order_change(feature_name = 'plugins', sep = '~')
+    #print set(fonts.get_libre_6()) & set(fonts.get_jsFonts())
+    #office_2013 = set(fonts.get_office_2013()) & set(fonts.get_jsFonts())
+    #paperlib.get_vpn_user()
+    #paperlib.get_overall_vpn_user()
+    #paperlib.update_influence()
+    #print paperlib.get_num_of_feature_changes('canvastest', ['14578bcaee87ff6fe7fee38ddfa2306a7e3b0a0a', 'bd554a7d5da9293cf3fed52d2052b2b948a14b77'], include = True, table_name = 'patched_tablefeaturechanges')
+    #print paperlib.get_num_of_feature_changes('jsFonts', fonts.get_firefox_57(), include = True, sep = '_', table_name = 'final_pandas')
+    #print paperlib.get_num_of_feature_changes('jsFonts', fonts.get_firefox_57(), include = True, sep = '++', table_name = 'patched_tablefeaturechanges')
+    #paperlib.ip_location_paper()
+    #paperlib.draw_change_reason_by_date()
     #df = db.load_data(table_name = 'patched_tablefeaturechanges')
     #paperlib.feature_latex_table(get_table_feature_list(), df, output_file = './tmpout.dat')
     #paperlib.fingerprint_distribution()
@@ -31,8 +43,8 @@ def main():
     #db.rebuild_table(df, export_table = 'pandas_features')
     #paperlib.feature_distribution_by_date('os')
     #paperlib.feature_change_by_browser_date_paper('browserfingerprint', method = 'day')
-    #paperlib.feature_change_by_date_paper('agent')
-    #paperlib.new_return_user_by_date()
+    paperlib.feature_change_by_date_paper('canvastest')
+    #paperlib.new_return_user_by_date(
     #paperlib.get_all_feature_change_by_date()
     #paperlib.feature_latex_table()
     #paperlib.life_time_median()

@@ -630,18 +630,21 @@ class Paperlib():
                         key = sorted_keys[idx]
                     except:
                         break
-                    f.write('{} '.format(str(get_change_strs(key[0], key[1], sep = ' ')).replace(' ','_')))
+                    f.write('{} '.format(str(get_change_strs(key[0], key[1], sep = ' ')).replace(' ','=')))
                 f.write('\n')
             f.write('{}-{}-{} '.format(date.year, date.month, date.day))
             sumup = 0
+            total = float(sum(dates_data[date].values()))
+            if total == 0:
+                total = 1
             for idx in range(10):
                 try:
                     key = sorted_keys[idx]
                 except:
                     break
-                f.write('{} '.format(dates_data[date][key]))
+                f.write('{} '.format(float(dates_data[date][key]) / total))
                 sumup += dates_data[date][key]
-                f.write('{} '.format(sum(dates_data[date].values()) - sumup))
+            f.write('{} '.format(float(sum(dates_data[date].values()) - sumup) / total))
             f.write('\n')
         f.close()
 
@@ -1406,13 +1409,14 @@ class Paperlib():
         here we based on client id not browser id
         """
         df = self.db.load_data(table_name = 'patched_tablefeaturechanges')
-        grouped = df.groupby('const_clientid')
+        grouped = df.groupby('browserid')
 
         f = safeopen('./res/differenctbidchangetogether.dat', 'w')
         for clientid, cur_group in tqdm(grouped):
-            if cur_group['const_browserid'].nunique() == 1:
-                continue
-            f.write('{}\n'.format(clientid))
+            for idx, row in cur_group.iterrows():
+                if row['canvastest'] != '' and row['os'] != '':
+                    f.write('{}\n'.format(clientid))
+                    break
         f.close()
 
     def fingerprint_distribution(self):
@@ -1481,4 +1485,183 @@ class Paperlib():
                 f.write('{}#'.format(float(num_cnt[browser][idx]) / float(cur_total)))
             f.write('\n')
         f.close()
+
+    def ip_location_paper(self):
+        """
+        output the location info to distince
+        """
+        df = self.db.load_data(table_name = 'final_pandas', 
+                feature_list = ['browserid', 'time', 'IP'])
+        ip_db = Database('uniquemachine')
+        ip2location = ip_db.load_data(table_name = 'ip2location_db5')
+        ip_from = ip2location['ip_from']
+
+        client = df.groupby('browserid')
+        pre_row = ""
+        vpn_browserids = {'browserid': [], 'fromip': [], 'toip': []}
+        for key, items in tqdm(client):
+            num_ip = items['IP'].nunique()
+            if num_ip > 1:
+                pre_row = ""
+                for name, row in items.iterrows():
+                    if type(pre_row) != type("") and pre_row['IP'] == row['IP']:
+                        continue
+
+                    ip = row['IP']
+                    int_ip = ip2int(ip)
+                    idx = bisect.bisect_left(ip_from, int_ip) - 1
+                    latitude = ip2location.iloc[idx]['latitude']
+                    longitude = ip2location.iloc[idx]['longitude']
+                    if type(pre_row) == type(""):
+                        pre_row = row
+                        pre_row['latitude'] = latitude
+                        pre_row['longitude'] = longitude
+                        continue
+
+                    seconds_change = float((row['time'] - pre_row['time']).total_seconds())
+                    distance_change = ip_distance(pre_row['latitude'], pre_row['longitude'],
+                            latitude,
+                            longitude) 
+
+                    if seconds_change == 0:
+                        seconds_change = 0.1
+
+                    km_per_hour = distance_change / (seconds_change / 3600)
+
+                    if km_per_hour > 1999:
+                        vpn_browserids['browserid'].append(key) 
+                        vpn_browserids['fromip'].append(pre_row['IP'])
+                        vpn_browserids['toip'].append(row['IP'])
+                        break
+
+                    pre_row = row
+                    pre_row['latitude'] = latitude
+                    pre_row['longitude'] = longitude
+
+
+        df = pd.DataFrame.from_dict(vpn_browserids)
+        self.db.export_sql(df, 'possiblevpnids')
+
+    def get_num_of_feature_changes(self, feature_name, feature_value, include = False, sep = '_', table_name = 'patched_tablefeaturechanges'):
+        """
+        return the number of features in change database
+        include is not implemented
+        """
+        df = self.db.load_data(table_name = table_name, feature_list = ['browserid', feature_name, 'browser'])
+        # for MT Extra test
+        start_time = datetime.date(2018, 1, 9)
+        end_time = datetime.date(2018, 2, 9)
+
+        #df = df[df['totime'] > start_time]
+        #df = df[df['totime'] < end_time]
+
+
+        grouped = df.groupby(feature_name)
+        res = 0
+
+        if not include:
+            value_group = grouped.get_group(feature_value)
+            res = value_group['browserid'].nunique()
+        else:
+            res_set = set()
+            firefox_num = 0
+            edge_num = 0
+            chrome_num = 0
+            for key, cur_group in tqdm(grouped):
+                finished = True 
+                key = key.split('=>')
+                if len(key) > 1:
+                    key = key[1]
+                else:
+                    key = key[0]
+                if len(set(feature_value) - set(key.split(sep))) == 0:
+                    for f in cur_group['browserid'].unique():
+                        if f.lower().find('firefox') != -1:
+                            firefox_num += 1
+                        elif f.lower().find('edge') != -1:
+                            edge_num += 1
+                        elif f.lower().find('chrome') != -1:
+                            chrome_num += 1
+                        else:
+                            print f
+                    res_set |= set(cur_group['browserid'].unique())
+            res = len(res_set)
+        return res, chrome_num, firefox_num, edge_num
+
+    def get_vpn_user(self):
+        """
+        based on speed info and vpn database
+        """
+        db = Database('ip2proxy')
+        vpn_df = db.load_data(table_name = 'ip2proxy_px1')
+        ip_from = vpn_df['ip_from']
+
+        df = self.db.load_data(table_name = 'possiblevpnids')
+        possible_users = df['browserid'].unique()
+
+        df = self.db.load_data(table_name = 'final_pandas', feature_list = ['IP', 'browserid'])
+        grouped = df.groupby('browserid')
+
+        success = set()
+        vpn_keys = set()
+        for key, cur_group in tqdm(grouped):
+            if key in possible_users:
+                for ip in cur_group['IP'].unique():
+                    int_ip = ip2int(ip)
+                    idx = bisect.bisect_left(ip_from, int_ip) - 1
+                    if int_ip <= vpn_df.at[idx, 'ip_to']:
+                        success.add(key)
+                        vpn_keys.add(ip)
+
+        f = safeopen('./res/overspeednotinvpn.dat', 'w')
+        f_s = safeopen('./res/vpnusers.dat','w')
+        f_ip = safeopen('./res/vpnips.dat', 'w')
+        for browserid in possible_users:
+            if browserid not in success:
+                f.write(browserid + '\n')
+            else:
+                f_s.write(browserid + '\n')
+        for ip in vpn_keys:
+            f_ip.write(ip + '\n')
+        f.close()
+        f_s.close()
+        f_ip.close()
+        
+        print ('We have {} users in total. {} of them are VPN users'.format(len(possible_users), len(success)))
+
+    def get_overall_vpn_user(self):
+        db = Database('ip2proxy')
+        vpn_df = db.load_data(table_name = 'ip2proxy_px1')
+        ip_from = vpn_df['ip_from']
+
+        df = self.db.load_data(table_name = 'final_pandas', feature_list = ['IP', 'browserid'])
+        grouped = df.groupby('IP')
+        ip_list = df['IP'].unique()
+
+        success_browserid = set()
+        for ip in ip_list:
+            int_ip = ip2int(ip)
+            idx = bisect.bisect_left(ip_from, int_ip) - 1
+            if int_ip <= vpn_df.at[idx, 'ip_to']:
+                success_browserid |= set(grouped.get_group(ip)['browserid'].unique())
+        
+        print ('{} of them are VPN users'.format(len(success_browserid)))
+
+    def get_browserid_same_value_order_change(self, feature_name, sep = ','):
+        df = self.db.load_data(table_name = 'final_pandas', feature_list = [feature_name, 'browserid'])
+        grouped = df.groupby('browserid')
+        for key, cur_group in tqdm(grouped):
+            if cur_group[feature_name].nunique() == 1:
+                continue
+            value_list = cur_group[feature_name].unique()
+            for cur_feature in value_list:
+                for f2 in value_list:
+                    if cur_feature == f2:
+                        continue
+                    cur_feature = cur_feature.replace(' ', '')
+                    f2 = f2.replace(' ','')
+                    if cur_feature != f2 and len(cur_feature) == len(f2):
+                        if len(set(cur_feature.split(sep)) ^ set(f2.split(sep))) == 0:
+                            print key
+                            return 
 
