@@ -755,6 +755,7 @@ class Paperlib():
     def draw_change_reason_by_date(self, table_name = 'patched_tablefeaturechanges'):
         """
         draw the fingure of changed reason by browser
+
         """
         df = self.db.load_data(table_name = table_name)
 
@@ -938,8 +939,13 @@ class Paperlib():
 
         res = {}
         browser_idx = feature_list.index('browser')
+        detailed_list = {}
 
         for key, cur_group in tqdm(grouped):
+            # in this for loop, we need to order the reason
+            # the order of the reason should be:
+            #   OS update, browser update, 
+            #   user operations, environment changes
             browser = key[browser_idx]
             frombrowserversion = key[browser_idx + 1]
             tobrowserversion = key[browser_idx + 2]
@@ -953,24 +959,29 @@ class Paperlib():
                 for update in classes:
                     res[browser][update] = 0
 
-            for i in range(len(feature_list)):
-                if key[i] == '':
-                    continue
-                cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
-                if feature_list[i] in user_update_keys:
-                    res[browser]['user_update'] += cur_len
-                elif feature_list[i] in environment_update_keys:
-                    res[browser]['environment_update'] += cur_len
-                elif feature_list[i] != 'agent' and feature_list[i] not in added_feature:
-                    # if not in user and envir update and the change is not agent, it's others
-                    res[browser]['others'] += cur_len
-
-            if frombrowserversion != tobrowserversion:
-                res[browser]['browser_update'] += cur_len
             if fromosversion != toosversion:
-                cur_os = key[feature_list.index('os')]
                 res[browser]['os_update'] += cur_len
+            elif frombrowserversion != tobrowserversion:
+                res[browser]['browser_update'] += cur_len
+            else:
+                for i in range(len(feature_list)):
+                    if key[i] == '':
+                        continue
+                    cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
 
+                    if browser not in detailed_list:
+                        detailed_list[browser] = {}
+                    if feature_list[i] not in detailed_list[browser]:
+                        detailed_list[browser][feature_list[i]] = 0
+                    detailed_list[browser][feature_list[i]] += cur_len
+
+                    if feature_list[i] in user_update_keys:
+                        res[browser]['user_update'] += cur_len
+                    elif feature_list[i] in environment_update_keys:
+                        res[browser]['environment_update'] += cur_len
+                    elif feature_list[i] != 'agent' and feature_list[i] not in added_feature:
+                        # if not in user and envir update and the change is not agent, it's others
+                        res[browser]['others'] += cur_len
 
             res[browser][cur_key_str] = cur_len
         
@@ -996,6 +1007,21 @@ class Paperlib():
                 res['overall'][update] += res[browser][update]
                 
 
+        detailed_list['overall'] = {}
+        detailed_list['desktopall'] = {}
+        detailed_list['mobileall'] = {}
+        for feature in feature_list:
+            detailed_list['overall'][feature] = 0
+            detailed_list['desktopall'][feature] = 0
+            detailed_list['mobileall'][feature] = 0
+            for browser in desktop_browsers:
+                detailed_list['overall'][feature] += detailed_list[browser][feature]
+                detailed_list['desktopall'][feature] += detailed_list[browser][feature]
+            for browser in mobile_browsers:
+                detailed_list['overall'][feature] += detailed_list[browser][feature]
+                detailed_list['mobileall'][feature] += detailed_list[browser][feature]
+
+
         total_number = {}
         for browser in res:
             total_number[browser] = 0
@@ -1011,6 +1037,17 @@ class Paperlib():
                     float(string[1]) / float(total_number[browser])))
             f.close()
         '''
+
+        f_all = safeopen('./changereason/overalldetail.dat', 'w')
+        for feature in feature_list:
+            f_all.write('{}#'.format(feature))
+        f_all.write('\n')
+        # write overall to file
+        f_all.write('{}#'.format('Overall'))
+        for feature in feature_list:
+            f_all.write('{}#'.format(float(res['desktopall'][feature] + res['mobileall'][feature])))# / float(total_number['desktopall'] + total_number['mobileall'])))
+        f_all.write('\n')
+        f_all.close()
 
         f_all = safeopen('./changereason/overall.dat', 'w')
         for update in classes:

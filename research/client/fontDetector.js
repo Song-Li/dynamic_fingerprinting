@@ -128,6 +128,13 @@ var showjsFonts = function() {
   var jsFontsDetector = new JsFontsDetector();
   var jsFonts = jsFontsDetector.testAllFonts();
   console.log(jsFonts);
-  document.body.innerHTML = jsFonts;
-  document.body.innerHTML += '<br>' + jsFonts.length;
+  document.body.innerHTML += jsFonts;
+  document.body.innerHTML += '<br>' + jsFonts.length + '<br>';
+  var s = document.createElement("span");
+  s.style.fontSize = '72px';
+  s.innerHTML = 'testString';
+  s.style.fontFamily = 'Arial Black';
+  var h = document.getElementsByTagName("body")[0];
+  h.append(s);
+
 }

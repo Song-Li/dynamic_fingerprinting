@@ -7,6 +7,7 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
+    paperlib.draw_change_reason()
     #fonts = Fonts()
     #paperlib.get_browserid_same_value_order_change(feature_name = 'plugins', sep = '~')
     #print set(fonts.get_libre_6()) & set(fonts.get_jsFonts())
