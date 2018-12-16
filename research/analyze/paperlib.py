@@ -1177,7 +1177,7 @@ class Paperlib():
                 f.write('{}\n'.format(item[1]))
             f.close()
 
-
+        return related
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1275,18 +1275,22 @@ class Paperlib():
             if fromosversion != toosversion:
                 detailed_list[browser]['osUpdate'] += cur_len
 
-            elif frombrowserversion != tobrowserversion:
+            if frombrowserversion != tobrowserversion:
                 detailed_list[browser]['browserUpdate'] += cur_len
 
-            else:
-                for i in range(len(feature_list)):
-                    if feature_list[i] not in match_list:
-                        continue
-                    if key[i] == '':
-                        continue
-                    cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
-                    detailed_list[browser][match_list[feature_list[i]]] += cur_len
+            for i in range(len(feature_list)):
+                if feature_list[i] not in match_list:
+                    continue
+                if key[i] == '':
+                    continue
+                cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+                detailed_list[browser][match_list[feature_list[i]]] += cur_len
 
+        res = {'overall': [], 'desktop': [], 'mobile': []}
+        for browser in desktop_browsers:
+            ''
+
+        
         for feature in detailed_list['Chrome']:
             print feature, detailed_list['Chrome'][feature]
 
