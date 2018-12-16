@@ -1,0 +1,556 @@
+===============ANGLE (Intel(R) HD Graphics Direct3D11 vs++4++4++=>ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++
+[501.0, 503.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++'
+ 'WOW64;++rv:54.0)++Firefox/54.0++=>Win64;++x64;++rv:58.0)++Firefox/58.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++'
+ 'rv:56.0)++Firefox/56.0++=>rv:58.0)++Firefox/58.0++'
+ 'Win64;++x64;++rv:57.0)++Firefox/57.0++=>WOW64;++rv:58.0)++Firefox/58.0++'
+ '5.1)++Chrome/41.0.2224.3++=>6.1;++WOW64)++Chrome/42.0.2311.135++'
+ 'rv:56.0++)++Firefox/56.0++++anonymized++by++Abelssoft++1306438855++=>Win64;++x64;++rv:59.0)++Firefox/59.0++'
+ 'rv:56.0)++Firefox/56.0++=>rv:59.0)++Firefox/59.0++'
+ 'WOW64;++rv:57.0)++Firefox/57.0++=>Win64;++x64;++rv:59.0)++Firefox/59.0++'
+ 'WOW64;++rv:56.0)++Firefox/56.0++=>Win64;++x64;++rv:58.0)++Firefox/58.0++'
+ 'Chrome/42.0.2311.90++=>Chrome/42.0.2311.135++'
+ 'Win64;++x64;++rv:57.0)++Firefox/57.0++=>WOW64;++rv:59.0)++Firefox/59.0++'
+ '6.1;++=>6.3;++'
+ '6.2;++rv:57.0.4)++Firefox/57.0.4++1019221721++=>10.0;++rv:58.0)++Firefox/58.0++1161880879++'
+ 'rv:57.0.4)++Firefox/57.0.4++196990714++=>rv:59.0.1)++Firefox/59.0.1++1916327772++'
+ 'Chrome/41.0.2272.118++=>Chrome/66.0.3359.139++' ''
+ '6.1;++WOW64)++Chrome/42.0.2311.90++=>10.0;++Win64;++x64)++Chrome/66.0.3359.181++'
+ '6.1;++WOW64)++Chrome/42.0.2311.90++=>6.1)++Chrome/41.0.2228.0++']
+===============ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++4++4++
+[218.0, 220.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++'
+ '10.0;++rv:59.0)++Firefox/59.0++=>6.2;++rv:60.0)++Firefox/60.0++' ''
+ '6.1;++rv:59.0)++Firefox/59.0++=>5.1;++rv:60.0)++Firefox/60.0++'
+ 'Win64;++x64;++rv:59.0)++Firefox/59.0++=>WOW64;++rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++
+[130.0, 143.0]
+['' '6.1;++=>6.3;++' '6.1)++=>10.0;++Win64;++x64)++'
+ '6.1)++Chrome/64.0.3282.186++=>10.0;++Win64;++x64)++Chrome/67.0.3396.79++'
+ 'Chrome/62.0.3202.94++=>Chrome/63.0.3239.84++'
+ 'Chrome/59.0.3071.109++=>Chrome/64.0.3282.186++'
+ '10.0;++Win64;++x64;++rv:58.0)++Firefox/58.0++=>6.1;++rv:59.0)++Firefox/59.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++'
+ '6.1)++=>6.3;++WOW64)++' '=>WOW64;++'
+ '6.1;++Chrome/63.0.3239.132++=>10.0;++Chrome/64.0.3282.119++'
+ '6.1;++Win64;++x64)++=>6.3;++WOW64)++'
+ 'Chrome/64.0.3282.186++=>Chrome/65.0.3325.146++'
+ 'Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++'
+ '6.1)++Chrome/64.0.3282.140++=>10.0;++Win64;++x64)++Chrome/63.0.3239.132++'
+ '6.1)++Chrome/64.0.3282.167++=>10.0;++Win64;++x64)++Chrome/63.0.3239.132++'
+ '6.1)++Chrome/64.0.3282.186++=>10.0;++Win64;++x64)++Chrome/63.0.3239.132++'
+ '6.1)++Chrome/65.0.3325.181++=>10.0;++Win64;++x64)++Chrome/64.0.3282.186++'
+ 'Chrome/63.0.3239.132++=>Chrome/65.0.3325.181++'
+ 'Chrome/62.0.3202.94++=>Chrome/63.0.3239.108++'
+ 'Chrome/63.0.3239.132++=>Chrome/64.0.3282.186++'
+ '6.1)++=>6.1;++Win64;++x64)++' '6.1;++=>10.0;++'
+ '6.1;++Win64;++x64)++=>6.1)++'
+ '10.0)++AppleWebKit/537.36++Chrome/65.0.3325.181++Safari/537.36++=>6.2)++AppleWebKit/537.22++Chrome/66.0.3359.181++Safari/537.22++anonymized++by++Abelssoft++1786119769++'
+ '6.1;++Win64;++x64)++Chrome/65.0.3325.181++=>6.1)++Chrome/66.0.3359.139++'
+ '10.0;++rv:58.0)++Firefox/58.0++=>6.1;++rv:59.0)++Firefox/59.0++'
+ 'Chrome/64.0.3282.140++=>Chrome/64.0.3282.186++' '6.1;++=>6.3;++WOW64;++'
+ '6.1;++Chrome/62.0.3202.94++=>10.0;++Chrome/64.0.3282.167++'
+ '6.1;++Chrome/63.0.3239.84++=>10.0;++Chrome/63.0.3239.132++'
+ 'Chrome/62.0.3202.94++=>Chrome/64.0.3282.167++'
+ 'Chrome/62.0.3202.94++=>Chrome/65.0.3325.181++' 'WOW64;++=>'
+ 'coc_coc_browser/66.4.134++Chrome/60.4.3112.134++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++'
+ 'Chrome/63.0.3239.132++=>Chrome/65.0.3325.146++'
+ '6.1;++WOW64)++Chrome/63.0.3239.108++=>6.1)++Chrome/63.0.3239.84++'
+ '6.1)++Chrome/63.0.3239.132++=>10.0)++Chrome/64.0.3282.140++'
+ '6.1)++Chrome/64.0.3282.186++=>10.0)++Chrome/65.0.3325.181++'
+ 'coc_coc_browser/66.4.104++Chrome/60.4.3112.104++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++'
+ 'Chrome/62.0.3202.94++=>Chrome/65.0.3325.146++'
+ 'Chrome/63.0.3239.84++=>Chrome/64.0.3282.186++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++=>ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++
+[117.0, 129.0]
+['Chrome/62.0.3202.94++=>Chrome/64.0.3282.186++'
+ '6.3;++Chrome/63.0.3239.132++=>6.1;++Chrome/64.0.3282.140++' ''
+ 'Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++'
+ '6.1;++rv:57.0)++Firefox/57.0++=>10.0;++Win64;++x64;++rv:58.0)++Firefox/58.0++'
+ '6.3;++WOW64)++Chrome/64.0.3282.186++=>6.1)++Chrome/65.0.3325.181++'
+ '10.0;++Chrome/64.0.3282.119++=>6.1;++Chrome/63.0.3239.132++'
+ '6.3;++WOW64)++Chrome/63.0.3239.132++=>6.1;++Win64;++x64)++Chrome/64.0.3282.167++'
+ '10.0;++Win64;++x64)++Chrome/63.0.3239.84++=>6.1)++Chrome/63.0.3239.132++'
+ '10.0;++Win64;++x64)++=>6.1)++'
+ '10.0;++Win64;++x64)++Chrome/63.0.3239.132++=>6.1)++Chrome/64.0.3282.140++'
+ '10.0;++Win64;++x64)++Chrome/63.0.3239.132++=>6.1)++Chrome/64.0.3282.167++'
+ '10.0;++Win64;++x64)++Chrome/63.0.3239.132++=>6.1)++Chrome/64.0.3282.186++'
+ '10.0;++Win64;++x64)++Chrome/64.0.3282.186++=>6.1)++Chrome/65.0.3325.181++'
+ '6.1;++Win64;++x64)++=>6.1)++' '10.0;++=>6.1;++'
+ '6.1)++=>6.1;++Win64;++x64)++'
+ '6.1)++Chrome/63.0.3239.84++=>6.1;++Win64;++x64)++Chrome/63.0.3239.132++'
+ '6.1)++=>10.0;++Win64;++x64)++'
+ 'Chrome/62.0.3202.94++=>Chrome/66.0.3359.181++'
+ 'Chrome/63.0.3239.84++=>Chrome/64.0.3282.167++'
+ '6.2)++AppleWebKit/537.22++Chrome/65.0.3325.162++Safari/537.22++anonymized++by++Abelssoft++921175071++=>10.0)++AppleWebKit/537.36++Chrome/65.0.3325.181++Safari/537.36++'
+ '10.0;++WOW64)++Chrome/62.0.3202.94++=>6.1)++Chrome/63.0.3239.84++'
+ '6.1;++Win64;++x64)++Chrome/62.0.3202.94++=>6.1)++Chrome/63.0.3239.84++'
+ '6.3;++WOW64)++Chrome/64.0.3282.186++=>6.1;++Win64;++x64)++Chrome/66.0.3359.139++'
+ 'Chrome/63.0.3239.132++=>Chrome/64.0.3282.167++'
+ 'Chrome/63.0.3239.84++=>Chrome/63.0.3239.108++'
+ '10.0;++Win64;++x64)++Chrome/64.0.3282.186++=>6.1)++Chrome/66.0.3359.139++'
+ '10.0)++=>6.1;++Win64;++x64)++' '6.1;++Win64;++x64)++=>10.0;++WOW64)++'
+ 'Win64;++x64)++Chrome/66.0.3359.170++=>WOW64)++Chrome/67.0.3396.99++'
+ 'Chrome/63.0.3239.132++=>Chrome/65.0.3325.181++'
+ '6.3;++Chrome/63.0.3239.84++=>6.1;++Chrome/63.0.3239.132++'
+ '10.0;++Chrome/62.0.3202.94++=>6.1;++Chrome/63.0.3239.84++'
+ '6.1)++Chrome/63.0.3239.84++=>6.1;++WOW64)++Chrome/63.0.3239.108++'
+ '6.1)++Chrome/63.0.3239.84++=>6.1;++WOW64)++Chrome/63.0.3239.132++'
+ 'Chrome/43.0.2357.130++AOL/9.8++AOLBuild/4346.2024.US++=>Chrome/60.0.3112.90++AOL/11.0++AOLBUILD/11.0.1567++'
+ '10.0)++Chrome/64.0.3282.140++=>6.1)++Chrome/64.0.3282.167++'
+ 'Chrome/65.0.3325.146++=>Chrome/65.0.3325.181++'
+ 'rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++']
+===============ANGLE (Mobile Intel(R) 4 Series Express Chipset Family Direct3D9Ex vs++3++3++=>ANGLE (Mobile Intel(R) 4 Series Express Chipset Family Direct3D11 vs++4++4++
+[77.0, 79.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++' ''
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++'
+ 'WOW64;++rv:59.0)++Firefox/59.0++=>Win64;++x64;++rv:60.0)++Firefox/60.0++']
+===============ANGLE (Mobile Intel(R) 4 Series Express Chipset Family (Microsoft Corporation - WDDM 1.1) Direct3D9Ex vs++3++3++=>ANGLE (Mobile Intel(R) 4 Series Express Chipset Family (Microsoft Corporation - WDDM 1.1) Direct3D11 vs++4++4++
+[71.0, 72.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:61.0)++Firefox/61.0++'
+ 'Chrome/42.0.2311.135++=>Chrome/42.0.2311.90++' ''
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ '10.0;++rv:59.0)++Firefox/59.0++=>6.2;++rv:60.0)++Firefox/60.0++'
+ 'Win64;++x64;++rv:58.0)++Firefox/58.0++=>WOW64;++rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (Intel(R) Q45/Q43 Express Chipset (Microsoft Corporation - WDDM 1.1) Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) Q45/Q43 Express Chipset (Microsoft Corporation - WDDM 1.1) Direct3D11 vs++4++4++
+[55.0, 55.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ '6.3;++rv:58.0)++Firefox/58.0++=>10.0;++rv:60.0)++Firefox/60.0++'
+ 'WOW64;++rv:59.0)++Firefox/59.0++=>Win64;++x64;++rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) Q45/Q43 Express Chipset Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) Q45/Q43 Express Chipset Direct3D11 vs++4++4++
+[51.0, 52.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ 'Win64;++x64;++rv:57.0)++Firefox/57.0++=>WOW64;++rv:60.0)++Firefox/60.0++'
+ 'Win64;++x64)++Chrome/61.0.3163.100++=>WOW64)++Chrome/42.0.2311.90++' ''
+ 'WOW64;++rv:56.0)++Firefox/56.0++=>Win64;++x64;++rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (Intel(R) G41 Express Chipset Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) G41 Express Chipset Direct3D11 vs++4++4++
+[40.0, 40.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'Win64;++x64;++rv:58.0)++Firefox/58.0++=>WOW64;++rv:60.0)++Firefox/60.0++'
+ 'Win64;++x64;++rv:57.0)++Firefox/57.0++=>WOW64;++rv:60.0)++Firefox/60.0++'
+ '6.1;++=>6.3;++' 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) Direct3D11 vs++4++4++
+[24.0, 24.0]
+['rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (Intel(R) Graphics Media Accelerator HD Direct3D11 vs++4++4++=>ANGLE (Intel(R) Graphics Media Accelerator HD Direct3D9Ex vs++3++3++
+[20.0, 20.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++'
+ 'rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++'
+ 'Chrome/64.0.3282.186++=>Chrome/65.0.3325.162++']
+===============ANGLE (Intel(R) Graphics Media Accelerator HD Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) Graphics Media Accelerator HD Direct3D11 vs++4++4++
+[12.0, 12.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ 'Chrome/63.0.3239.132++=>Chrome/64.0.3282.186++']
+===============ANGLE (Intel(R) HD Graphics 620 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 620 Direct3D11 vs++5++5++
+[6.0, 6.0]
+['rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++'
+ 'Chrome/61.0.3163.100++=>Chrome/62.0.3202.94++'
+ 'Chrome/61.0.3163.100++=>Chrome/63.0.3239.84++'
+ 'rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) G45/G43 Express Chipset Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) G45/G43 Express Chipset Direct3D11 vs++4++4++
+[5.0, 5.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) UHD Graphics 620 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) UHD Graphics 620 Direct3D11 vs++5++5++
+[4.0, 4.0]
+['WOW64)++Chrome/58.0.2988.0++=>Win64;++x64)++Chrome/64.0.3282.186++'
+ 'WOW64)++Chrome/58.0.2988.0++=>Win64;++x64)++Chrome/65.0.3325.181++']
+===============ANGLE (AMD Radeon(TM) R5 Graphics Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon(TM) R5 Graphics Direct3D11 vs++5++5++
+[3.0, 3.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (Intel(R) 4 Series Internal Chipset Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) 4 Series Internal Chipset Direct3D11 vs++4++4++
+[3.0, 3.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (Intel(R) G45/G43 Express Chipset (Microsoft Corporation - WDDM 1.1) Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) G45/G43 Express Chipset (Microsoft Corporation - WDDM 1.1) Direct3D11 vs++4++4++
+[3.0, 3.0]
+['rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++'
+ 'Win64;++x64;++rv:59.0)++Firefox/59.0++=>WOW64;++rv:60.0)++Firefox/60.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) UHD Graphics 620 Direct3D11 vs++5++5++=>ANGLE (Intel(R) UHD Graphics 620 Direct3D9Ex vs++3++3++
+[3.0, 3.0]
+['Win64;++x64)++Chrome/64.0.3282.186++=>WOW64)++Chrome/58.0.2988.0++'
+ 'Win64;++x64)++Chrome/65.0.3325.181++=>WOW64)++Chrome/58.0.2988.0++']
+===============ANGLE (Mobile Intel(R) 965 Express Chipset Family Direct3D9Ex vs++3++3++=>ANGLE (Mobile Intel(R) 965 Express Chipset Family Direct3D11 vs++4++4++
+[3.0, 3.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 970 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 970 Direct3D11 vs++5++5++
+[3.0, 3.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:61.0)++Firefox/61.0++'
+ 'rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (AMD Radeon (TM) R9 390 Series Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon (TM) R9 390 Series Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (AMD Radeon HD 6450 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 6450 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['Chrome/62.0.3202.94++=>Chrome/63.0.3239.84++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 6800 Series Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 6800 Series Direct3D9Ex vs++3++3++
+[2.0, 2.0]
+['10.0)++Chrome/63.0.3239.132++=>6.1)++Chrome/50.0.2631.0++'
+ 'Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++']
+===============ANGLE (AMD Radeon HD 7480D Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7480D Direct3D11 vs++5++5++
+[2.0, 2.0]
+['Chrome/62.0.3202.89++OPR/49.0.2725.47++=>Chrome/63.0.3239.132++OPR/50.0.2762.58++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 7560D Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7560D Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++'
+ 'Chrome/65.0.3325.181++=>Chrome/66.0.3359.139++']
+===============ANGLE (AMD Radeon HD 8330 Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 8330 Direct3D9Ex vs++3++3++
+[2.0, 2.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++'
+ 'Chrome/64.0.3282.186++=>Chrome/51.0.2683.0++']
+===============ANGLE (AMD Radeon HD 8400 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 8400 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon(TM) HD 6480G Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon(TM) HD 6480G Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++'
+ '6.1)++Chrome/63.0.3239.132++=>6.1;++WOW64)++Chrome/65.0.3325.146++']
+===============ANGLE (ATI Radeon HD 4600 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Radeon HD 4600 Series Direct3D11 vs++4++1 ps++4++1)++
+[2.0, 2.0]
+['WOW64;++rv:55.0)++Firefox/55.0++=>Win64;++x64;++rv:57.0)++Firefox/57.0++'
+ 'Chrome/64.0.3282.186++=>Chrome/66.0.3359.139++']
+===============ANGLE (Intel(R) HD Graphics 510 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 510 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GT 620 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 620 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['WOW64;++rv:53.0)++Firefox/53.0++=>Win64;++x64;++rv:59.0)++Firefox/59.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 580 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 580 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++'
+ 'Chrome/63.0.3239.132++=>Chrome/64.0.3282.186++']
+===============ANGLE (NVIDIA GeForce GTX 650 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 650 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 960 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 960 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['rv:56.0)++Firefox/56.0++=>rv:58.0)++Firefox/58.0++' '6.1;++=>10.0;++']
+===============ANGLE (NVIDIA NVS 4200M Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA NVS 4200M Direct3D11 vs++5++5++
+[2.0, 2.0]
+['Chrome/64.0.3282.119++=>Chrome/64.0.3282.140++'
+ 'Chrome/63.0.3239.132++=>Chrome/64.0.3282.140++']
+===============ANGLE (NVIDIA Quadro M2000 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA Quadro M2000 Direct3D11 vs++5++5++
+[2.0, 2.0]
+['10.0;++rv:57.0)++Firefox/57.0++=>6.1;++rv:58.0)++Firefox/58.0++'
+ 'rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD 760G Direct3D9Ex vs++3++3++=>ANGLE (AMD 760G Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 5450 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 5450 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/62.0.3202.94++=>Chrome/63.0.3239.132++']
+===============ANGLE (AMD Radeon HD 5670 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 5670 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/62.0.3202.94++=>Chrome/63.0.3239.132++']
+===============ANGLE (AMD Radeon HD 6320 Graphics Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 6320 Graphics Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['6.1)++Chrome/62.0.3202.94++=>6.1;++Win64;++x64)++Chrome/66.0.3359.139++']
+===============ANGLE (AMD Radeon HD 6320 Graphics Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 6320 Graphics Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 6410D Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 6410D Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (AMD Radeon HD 6550D Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 6550D Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['Chrome/63.0.3239.132++OPR/50.0.2762.67++=>Chrome/64.0.3282.186++OPR/51.0.2830.55++']
+===============ANGLE (AMD Radeon HD 6550D Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 6550D Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 6900 Series Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 6900 Series Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (AMD Radeon HD 7000 series Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7000 series Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 7310M Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7310M Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/63.0.3239.84++=>Chrome/64.0.3282.186++']
+===============ANGLE (AMD Radeon HD 7400M Series Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7400M Series Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 7450 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7450 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++']
+===============ANGLE (AMD Radeon HD 7550M/7650M Graphics Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7550M/7650M Graphics Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 7640G Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7640G Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 7800 Series Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7800 Series Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 7970M Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 7970M Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:56.0)++Firefox/56.0++=>rv:57.0)++Firefox/57.0++']
+===============ANGLE (AMD Radeon HD 8210 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 8210 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon HD 8330 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 8330 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/51.0.2683.0++=>Chrome/64.0.3282.186++']
+===============ANGLE (AMD Radeon HD 8670D Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 8670D Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (AMD Radeon R7 240 Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon R7 240 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['WOW64;++rv:57.0)++Firefox/57.0++=>Win64;++x64;++rv:59.0)++Firefox/59.0++']
+===============ANGLE (AMD Radeon R7 Series Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon R7 Series Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Win64;++x64;++rv:57.0)++Firefox/57.0++=>WOW64;++rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon(TM) HD 7450A Graphics Direct3D11 vs++5++5++=>ANGLE (AMD Radeon(TM) HD 7450A Graphics Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (AMD Radeon(TM) R3 Graphics Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon(TM) R3 Graphics Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (AMD Radeon(TM) R7 Graphics Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon(TM) R7 Graphics Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI FirePro 2260 Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI FirePro 2260 Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Mobility Radeon HD 3400 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Mobility Radeon HD 3400 Series Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['6.1;++Win64;++x64)++Chrome/63.0.3239.132++=>6.4;++WOW64)++Chrome/41.0.2225.0++']
+===============ANGLE (ATI Mobility Radeon HD 4300 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Mobility Radeon HD 4300 Series Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Mobility Radeon HD 4500/5100 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Mobility Radeon HD 4500/5100 Series Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++']
+===============ANGLE (ATI Mobility Radeon HD 4670 Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Mobility Radeon HD 4670 Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (ATI Mobility Radeon HD 5470     Direct3D11 vs++5++5++=>ANGLE (ATI Mobility Radeon HD 5470     Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['6.1)++Chrome/41.0.2228.0++=>6.1;++Win64;++x64)++Chrome/67.0.3396.99++']
+===============ANGLE (ATI Mobility Radeon HD 5650     Direct3D9Ex vs++3++3++=>ANGLE (ATI Mobility Radeon HD 5650     Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Radeon HD 2600 PRO Direct3D11 vs++4++4++=>ANGLE (ATI Radeon HD 2600 PRO Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++']
+===============ANGLE (ATI Radeon HD 3200 Graphics Direct3D9Ex vs++3++3++=>ANGLE (ATI Radeon HD 3200 Graphics Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Radeon HD 3400 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Radeon HD 3400 Series Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Radeon HD 3600 Series Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (ATI Radeon HD 3600 Series Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['WOW64)++Chrome/41.0.2272.118++=>Win64;++x64)++Chrome/65.0.3325.181++']
+===============ANGLE (ATI Radeon HD 3800 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Radeon HD 3800 Series Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Radeon HD 3870 X2 Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Radeon HD 3870 X2 Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['WOW64;++rv:57.0)++Firefox/57.0++=>Win64;++x64;++rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Radeon HD 4300/4500 Series Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (ATI Radeon HD 4300/4500 Series Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (ATI Radeon HD 5450 Direct3D9Ex vs++3++3++=>ANGLE (ATI Radeon HD 5450 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Intel(R) HD Graphics    Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics    Direct3D11 vs++4++4++
+[1.0, 1.0]
+['Chrome/63.0.3239.132++=>Chrome/64.0.3282.167++']
+===============ANGLE (Intel(R) HD Graphics 620 Direct3D11 vs++5++5++=>ANGLE (Intel(R) HD Graphics 620 Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++']
+===============ANGLE (Intel(R) Q45/Q43 Express Chipset Direct3D11 vs++4++4++=>ANGLE (Intel(R) Q45/Q43 Express Chipset Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:60.0)++Firefox/60.0++=>rv:56.0)++Firefox/56.0++']
+===============ANGLE (Intel(R) Q45/Q43 Express-Chipsatz (Microsoft Corporation - WDDM 1.1) Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) Q45/Q43 Express-Chipsatz (Microsoft Corporation - WDDM 1.1) Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Microsoft Basic Render Driver Direct3D9Ex vs++3++3++=>ANGLE (Microsoft Basic Render Driver Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Mobile Intel(R) 4 Series Express Chipset Family v2 Direct3D9Ex vs++3++3++=>ANGLE (Mobile Intel(R) 4 Series Express Chipset Family v2 Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Mobile Intel(R) 965 Express-Chipsatzfamilie (Microsoft Corporation - WDDM 1.1) Direct3D9Ex vs++3++3++=>ANGLE (Mobile Intel(R) 965 Express-Chipsatzfamilie (Microsoft Corporation - WDDM 1.1) Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce 310 Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA GeForce 310 Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['WOW64)++Chrome/42.0.2311.135++=>Win64;++x64)++Chrome/63.0.3239.132++']
+===============ANGLE (NVIDIA GeForce 310M             Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA GeForce 310M             Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce 315 Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA GeForce 315 Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['Chrome/64.0.3282.140++=>Chrome/65.0.3325.181++']
+===============ANGLE (NVIDIA GeForce 315 Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA GeForce 315 Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['Chrome/65.0.3325.181++=>Chrome/66.0.3359.181++']
+===============ANGLE (NVIDIA GeForce 8200 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce 8200 Direct3D11 vs++4++4++
+[1.0, 1.0]
+['WOW64;++rv:59.0)++Firefox/59.0++=>Win64;++x64;++rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce 840M Direct3D11 vs++5++5++=>ANGLE (NVIDIA GeForce 840M Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:56.0)++Firefox/56.0++=>rv:57.0)++Firefox/57.0++']
+===============ANGLE (NVIDIA GeForce 9100M G  Direct3D11 vs++4++4++=>ANGLE (NVIDIA GeForce 9100M G  Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['Chrome/64.0.3282.186++=>Chrome/65.0.3325.146++']
+===============ANGLE (NVIDIA GeForce 9400 GT  Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce 9400 GT  Direct3D11 vs++4++4++
+[1.0, 1.0]
+['Chrome/62.0.3202.94++=>Chrome/63.0.3239.84++']
+===============ANGLE (NVIDIA GeForce G100 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce G100 Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (NVIDIA GeForce G210 Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA GeForce G210 Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['6.1;++Win64;++x64)++Chrome/65.0.3325.181++=>6.1)++Chrome/66.0.3359.139++']
+===============ANGLE (NVIDIA GeForce G210 Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA GeForce G210 Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['Chrome/66.0.3359.139++=>Chrome/66.0.3359.181++']
+===============ANGLE (NVIDIA GeForce G210M       Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA GeForce G210M       Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['WOW64)++Chrome/42.0.2311.90++=>Win64;++x64)++Chrome/63.0.3239.84++']
+===============ANGLE (NVIDIA GeForce GT 1030 Direct3D11 vs++5++5++=>ANGLE (NVIDIA GeForce GT 1030 Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['Chrome/63.0.3239.132++=>Chrome/64.0.3282.167++']
+===============ANGLE (NVIDIA GeForce GT 220  Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA GeForce GT 220  Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GT 230 Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA GeForce GT 230 Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['10.0;++Chrome/63.0.3239.132++=>6.1;++Chrome/67.0.3396.87++']
+===============ANGLE (NVIDIA GeForce GT 240M        Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA GeForce GT 240M        Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GT 240M     Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA GeForce GT 240M     Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++']
+===============ANGLE (NVIDIA GeForce GT 330M        Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA GeForce GT 330M        Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['Chrome/65.0.3325.146++=>Chrome/65.0.3325.162++']
+===============ANGLE (NVIDIA GeForce GT 420 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 420 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/62.0.3202.94++=>Chrome/63.0.3239.132++']
+===============ANGLE (NVIDIA GeForce GT 440 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 440 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:56.0)++Firefox/56.0++=>rv:57.0)++Firefox/57.0++']
+===============ANGLE (NVIDIA GeForce GT 525M Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 525M Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/63.0.3239.132++=>Chrome/65.0.3325.181++']
+===============ANGLE (NVIDIA GeForce GT 540M   Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 540M   Direct3D11 vs++5++5++
+[1.0, 1.0]
+['6.1;++Chrome/58.0.3029.110++OPR/45.0.2552.882++=>10.0;++Chrome/65.0.3325.181++OPR/52.0.2871.99++']
+===============ANGLE (NVIDIA GeForce GT 610  Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 610  Direct3D11 vs++4++4++
+[1.0, 1.0]
+['Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++']
+===============ANGLE (NVIDIA GeForce GT 610 Direct3D11 vs++5++5++=>ANGLE (NVIDIA GeForce GT 610 Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['Win64;++x64;++=>WOW64;++']
+===============ANGLE (NVIDIA GeForce GT 610 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 610 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/60.0.3112.101++=>Chrome/62.0.3202.94++']
+===============ANGLE (NVIDIA GeForce GT 640 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 640 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (NVIDIA GeForce GT 730 Direct3D11 vs++5++5++=>ANGLE (NVIDIA GeForce GT 730 Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++']
+===============ANGLE (NVIDIA GeForce GTS 250  Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTS 250  Direct3D11 vs++4++4++
+[1.0, 1.0]
+['WOW64;++rv:58.0)++Firefox/58.0++=>Win64;++x64;++rv:56.0)++Firefox/56.0++']
+===============ANGLE (NVIDIA GeForce GTS 450 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTS 450 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/62.0.3202.94++OPR/49.0.2725.64++=>Chrome/63.0.3239.108++OPR/50.0.2762.45++']
+===============ANGLE (NVIDIA GeForce GTX 1060 3GB Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 1060 3GB Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 1070 Direct3D11 vs++5++5++=>ANGLE (NVIDIA GeForce GTX 1070 Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:58.0)++Firefox/58.0++']
+===============ANGLE (NVIDIA GeForce GTX 1070 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 1070 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 550 Ti Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 550 Ti Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 650 Ti Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 650 Ti Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/63.0.3239.132++=>Chrome/67.0.3396.87++']
+===============ANGLE (NVIDIA GeForce GTX 745 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 745 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:56.0)++Firefox/56.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 760 (192-bit) Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 760 (192-bit) Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA GeForce GTX 980M Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTX 980M Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (NVIDIA Quadro 2000 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA Quadro 2000 Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:58.0)++Firefox/58.0++=>rv:59.0)++Firefox/59.0++']
+===============ANGLE (NVIDIA Quadro FX 580 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA Quadro FX 580 Direct3D11 vs++4++4++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:61.0)++Firefox/61.0++']
+===============ANGLE (NVIDIA Quadro FX 880M Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (NVIDIA Quadro FX 880M Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+['Chrome/62.0.3202.94++=>Chrome/64.0.3282.119++']
+===============ANGLE (NVIDIA Quadro FX 880M Direct3D9Ex vs++3++0 ps++3++0)++=>ANGLE (NVIDIA Quadro FX 880M Direct3D11 vs++4++1 ps++4++1)++
+[1.0, 1.0]
+['Chrome/63.0.3239.84++=>Chrome/63.0.3239.132++']
+===============ANGLE (NVIDIA Quadro M2000M Direct3D11 vs++5++5++=>ANGLE (NVIDIA Quadro M2000M Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+['6.3;++rv:36.0)++Firefox/36.04++=>10.0;++WOW64;++rv:56.0)++Firefox/56.0++']
+===============ANGLE (Radeon (TM) HD 6470M Direct3D9Ex vs++3++3++=>ANGLE (Radeon (TM) HD 6470M Direct3D11 vs++5++5++
+[1.0, 1.0]
+['Chrome/41.0.2272.104++AOL/9.8++AOLBuild/4346.1009.de++=>Chrome/63.0.3239.132++AOL/11.0++AOLBUILD/11.0.1761++']
+===============ANGLE (Radeon 550 Series Direct3D9Ex vs++3++3++=>ANGLE (Radeon 550 Series Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:59.0)++Firefox/59.0++=>rv:60.0)++Firefox/60.0++']
+===============ANGLE (Radeon(TM) RX 460 Graphics Direct3D9Ex vs++3++3++=>ANGLE (Radeon(TM) RX 460 Graphics Direct3D11 vs++5++5++
+[1.0, 1.0]
+['rv:57.0)++Firefox/57.0++=>rv:59.0)++Firefox/59.0++']

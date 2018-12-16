@@ -1150,6 +1150,35 @@ class Paperlib():
             df.at[idx, 'plugins'] = sep.join(cur_flist)
         return df
 
+    def relation_detection(self, threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu']):
+        """
+        this function will return all the changes related to 
+            browser update and os update
+        the threshhold means if a value change goes together with browser update or os update
+        the percentage is higher than threshhold, count it as related
+        """
+        df = self.db.load_data(table_name = table_name)
+        related = {}
+        for feature in feature_list:
+            related[feature] = []
+            print ('doing: {}'.format(feature))
+            cur_grouped = df.groupby([feature])
+            for key, cur_group in tqdm(cur_grouped):
+                together_list = cur_group[cur_group['agent'] != '']
+                if float(len(together_list)) / float(len(cur_group)) > threshhold:
+                    related[feature].append([key, cur_group['agent'].unique(), float(len(together_list)), float(len(cur_group))])
+
+        for r in related:
+            f = safeopen('./relations/{}'.format(r), 'w')
+            related[r].sort(key = lambda x: x[2], reverse = True)
+            for item in related[r]:
+                f.write('==============={}\n'.format(item[0]))
+                f.write('{}\n'.format(item[2:]))
+                f.write('{}\n'.format(item[1]))
+            f.close()
+
+
+
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
         this is a newer version of changes reason, including
@@ -1163,7 +1192,8 @@ class Paperlib():
         totalNumOfChanges = 0
         match_list = {
                 'fp2_colordepth': 'colorDepth',
-                'encoding': 'encoding',
+                'encoding': 'header',
+                'language': 'header',
                 'agent': 'agent',
                 'localstorage': 'localStorage',
                 'fp2_pixelratio': 'zoom',
@@ -1176,7 +1206,9 @@ class Paperlib():
                 'fp2_liedresolution': 'lied',
                 'fp2_liedlanguages': 'lied',
                 'fp2_liedos': 'lied',
-                'audio': 'audio'
+                'audio': 'audio',
+                'jsFonts': 'jsFonts',
+                'canvastest': 'canvas'
                 }
 
         added_feature = [
