@@ -7,7 +7,7 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.draw_change_reason()
+    paperlib.draw_detailed_reason(table_name = 'allchanges')
     #fonts = Fonts()
     #paperlib.get_browserid_same_value_order_change(feature_name = 'plugins', sep = '~')
     #print set(fonts.get_libre_6()) & set(fonts.get_jsFonts())
@@ -44,7 +44,7 @@ def main():
     #db.rebuild_table(df, export_table = 'pandas_features')
     #paperlib.feature_distribution_by_date('os')
     #paperlib.feature_change_by_browser_date_paper('browserfingerprint', method = 'day')
-    paperlib.feature_change_by_date_paper('canvastest')
+    #paperlib.feature_change_by_date_paper('canvastest')
     #paperlib.new_return_user_by_date(
     #paperlib.get_all_feature_change_by_date()
     #paperlib.feature_latex_table()

@@ -936,10 +936,10 @@ class Paperlib():
 
         grouped = df.groupby(feature_list)
 
-
         res = {}
         browser_idx = feature_list.index('browser')
         detailed_list = {}
+        total_number = 0
 
         for key, cur_group in tqdm(grouped):
             # in this for loop, we need to order the reason
@@ -954,25 +954,32 @@ class Paperlib():
 
             cur_key_str = ''
             cur_len = len(cur_group)
+            total_number += cur_len
+
             if browser not in res:
                 res[browser] = {}
+                detailed_list[browser] = {}
                 for update in classes:
                     res[browser][update] = 0
+                    detailed_list[browser][update] = 0
+
+                for feature in feature_list:
+                    detailed_list[browser][feature] = 0
 
             if fromosversion != toosversion:
                 res[browser]['os_update'] += cur_len
+                detailed_list[browser]['os_update'] += cur_len
+
             elif frombrowserversion != tobrowserversion:
                 res[browser]['browser_update'] += cur_len
+                detailed_list[browser]['browser_update'] += cur_len
+
             else:
                 for i in range(len(feature_list)):
                     if key[i] == '':
                         continue
                     cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
 
-                    if browser not in detailed_list:
-                        detailed_list[browser] = {}
-                    if feature_list[i] not in detailed_list[browser]:
-                        detailed_list[browser][feature_list[i]] = 0
                     detailed_list[browser][feature_list[i]] += cur_len
 
                     if feature_list[i] in user_update_keys:
@@ -995,21 +1002,29 @@ class Paperlib():
         res['overall'] = {}
         res['desktopall'] = {}
         res['mobileall'] = {}
+        detailed_list['overall'] = {}
+        detailed_list['desktopall'] = {}
+        detailed_list['mobileall'] = {}
+
         for update in classes:
             res['overall'][update] = 0
             res['desktopall'][update] = 0
             res['mobileall'][update] = 0
+            detailed_list['overall'][update] = 0
+            detailed_list['desktopall'][update] = 0
+            detailed_list['mobileall'][update] = 0
             for browser in desktop_browsers:
                 res['desktopall'][update] += res[browser][update]
                 res['overall'][update] += res[browser][update]
+                detailed_list['overall'][update] += detailed_list[browser][update]
+                detailed_list['desktopall'][update] += detailed_list[browser][update]
             for browser in mobile_browsers:
                 res['mobileall'][update] += res[browser][update]
                 res['overall'][update] += res[browser][update]
+                detailed_list['overall'][update] += detailed_list[browser][update]
+                detailed_list['mobileall'][update] += detailed_list[browser][update]
                 
 
-        detailed_list['overall'] = {}
-        detailed_list['desktopall'] = {}
-        detailed_list['mobileall'] = {}
         for feature in feature_list:
             detailed_list['overall'][feature] = 0
             detailed_list['desktopall'][feature] = 0
@@ -1038,14 +1053,26 @@ class Paperlib():
             f.close()
         '''
 
+        print ('total_number', total_number)
+        print 'desktopall'
+        for key in detailed_list['desktopall']:
+            print key, detailed_list['desktopall'][key]
+        print 'mobile'
+        for key in detailed_list['mobileall']:
+            print key, detailed_list['mobileall'][key]
+
         f_all = safeopen('./changereason/overalldetail.dat', 'w')
+        for update in classes:
+            f_all.write('{}#'.format(update))
         for feature in feature_list:
             f_all.write('{}#'.format(feature))
         f_all.write('\n')
         # write overall to file
         f_all.write('{}#'.format('Overall'))
+        for update in classes:
+            f_all.write('{}#'.format(float(detailed_list['desktopall'][update] + detailed_list['mobileall'][update])))
         for feature in feature_list:
-            f_all.write('{}#'.format(float(res['desktopall'][feature] + res['mobileall'][feature])))# / float(total_number['desktopall'] + total_number['mobileall'])))
+            f_all.write('{}#'.format(float(detailed_list['desktopall'][feature] + detailed_list['mobileall'][feature])))
         f_all.write('\n')
         f_all.close()
 
@@ -1093,6 +1120,143 @@ class Paperlib():
                 f_all.write('{}#'.format(float(res[browser][update]) / float(total_number[browser])))
             f_all.write('\n')
         f_all.close()
+
+    def remove_flip_fonts(self, df, sep = '_'):
+        """
+        the df need to have the jsFonts column, if this column has the key words,remove this fonts
+        """
+        flip_fonts_list = set([
+            'MT Extra',
+            'Arial Black',
+            'Arial Narrow',
+            'Garamond'
+            ])
+        for idx in tqdm(df.index):
+            cur_flist = df.at[idx, 'jsFonts'].split(sep)
+            cur_flist = [x for x in cur_flist if x not in flip_fonts_list]
+            df.at[idx, 'jsFonts'] = sep.join(cur_flist)
+        return df
+
+    def remove_flip_plugins(self, df, sep = '_'):
+        """
+        the df need to have the jsFonts column, if this column has the key words,remove this fonts
+        """
+        flip_fonts_list = set([
+            'Shockwave Flash'
+            ])
+        for idx in tqdm(df.index):
+            cur_flist = df.at[idx, 'plugins'].split(sep)
+            cur_flist = [x for x in cur_flist if x not in flip_fonts_list]
+            df.at[idx, 'plugins'] = sep.join(cur_flist)
+        return df
+
+    def draw_detailed_reason(self, table_name = 'allchanges'):
+        """
+        this is a newer version of changes reason, including
+            remove flip jsfonts, flip plugins
+            consider MS fonts
+        TODO: get the desktop request
+        """
+        classes = ['browserUpdate', 'osUpdate', 'userAction', 'evironmentUpdate','timezone', 'zoom', 'plugin', 'cookie', 'localstorage', 'WebGL', 'colorDepth', 'encoding', 'agent']
+        df = self.db.load_data(table_name = table_name)
+        df = self.remove_flip_fonts(df, sep = '++')
+        totalNumOfChanges = 0
+        match_list = {
+                'fp2_colordepth': 'colorDepth',
+                'encoding': 'encoding',
+                'agent': 'agent',
+                'localstorage': 'localStorage',
+                'fp2_pixelratio': 'zoom',
+                'langsdetected': 'detectedLanguages',
+                'timezone': 'timezone',
+                'plugins': 'plugin',
+                'gpu': 'GPU', 
+                'cookie': 'cookie',
+                'fp2_liedbrowser': 'lied',
+                'fp2_liedresolution': 'lied',
+                'fp2_liedlanguages': 'lied',
+                'fp2_liedos': 'lied',
+                'audio': 'audio'
+                }
+
+        added_feature = [
+                'os',
+                'browser',
+                'frombrowserversion',
+                'tobrowserversion',
+                'fromosversion',
+                'toosversion'
+                ]
+
+        desktop_browsers = [
+                'Chrome',
+                'Firefox',
+                'Safari',
+                'Edge'
+                ]
+
+        mobile_browsers = [
+                'Chrome Mobile',
+                'Firefox Mobile',
+                'Mobile Safari',
+                'Samsung Internet'
+                ]
+
+        feature_list = get_fingerprint_change_feature_list() 
+        columns = self.db.get_column_names(table_name)
+        for feature in feature_list:
+            if feature not in columns:
+                feature_list.remove(feature)
+
+        for feature in added_feature:
+            if feature not in feature_list:
+                feature_list.append(feature)
+
+        detailed_list = {}
+        #df = self.(df, sep = '++')
+
+        grouped = df.groupby(feature_list)
+        browser_idx = feature_list.index('browser')
+        total_number = 0
+
+        for key, cur_group in tqdm(grouped):
+            # in this for loop, we need to order the reason
+            # the order of the reason should be:
+            #   OS update, browser update, 
+            browser = key[browser_idx]
+            frombrowserversion = key[browser_idx + 1]
+            tobrowserversion = key[browser_idx + 2]
+            fromosversion = key[browser_idx + 3]
+            toosversion = key[browser_idx + 4]
+
+            cur_key_str = ''
+            cur_len = len(cur_group)
+            total_number += cur_len
+
+            if browser not in detailed_list:
+                detailed_list[browser] = {}
+                detailed_list[browser]['browserUpdate'] = 0
+                detailed_list[browser]['osUpdate'] = 0
+                for update in match_list:
+                    detailed_list[browser][match_list[update]] = 0
+
+            if fromosversion != toosversion:
+                detailed_list[browser]['osUpdate'] += cur_len
+
+            elif frombrowserversion != tobrowserversion:
+                detailed_list[browser]['browserUpdate'] += cur_len
+
+            else:
+                for i in range(len(feature_list)):
+                    if feature_list[i] not in match_list:
+                        continue
+                    if key[i] == '':
+                        continue
+                    cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+                    detailed_list[browser][match_list[feature_list[i]]] += cur_len
+
+        for feature in detailed_list['Chrome']:
+            print feature, detailed_list['Chrome'][feature]
 
     def rebuild_fingerprintchanges(self, 
             from_table = 'fingerprintchanges', 
