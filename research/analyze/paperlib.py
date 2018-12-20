@@ -1125,14 +1125,14 @@ class Paperlib():
         """
         the df need to have the jsFonts column, if this column has the key words,remove this fonts
         """
-        flip_fonts_list = set([
-            '_=>Arial_Black++Arial_Narrow++',
-            '_Arial_Black++Arial_Narrow++=>',
-            '_=>Arial_Black++',
-            '_Arial_Black++=>',
-            '_=>Garamond++',
-            '_Garamond++=>'
-            ])
+        flip_fonts_list = [
+            '=>Arial Black++Arial Narrow++',
+            'Arial Black++Arial Narrow++=>',
+            '=>Arial Black++',
+            'Arial Black++=>',
+            '=>Garamond++',
+            'Garamond++=>'
+            ]
         for idx in tqdm(df.index):
             if df.at[idx, 'jsFonts'] in flip_fonts_list:
                 df.at[idx, 'jsFonts'] = ''
@@ -1143,8 +1143,8 @@ class Paperlib():
         the df need to have the jsFonts column, if this column has the key words,remove this fonts
         """
         flip_fonts_list = set([
-            '_=>Shockwave_Flash++',
-            '_Shockwave_Flash++=>'
+            '=>Shockwave Flash++',
+            'Shockwave Flash++=>'
             ])
         for idx in tqdm(df.index):
             if df.at[idx, 'plugins'] in flip_fonts_list:
@@ -1206,12 +1206,12 @@ class Paperlib():
         TODO: get the desktop request
         """
         df = self.db.load_data(table_name = table_name)
-        #df = self.remove_flip_fonts(df, sep = '++')
+        df = self.remove_flip_fonts(df, sep = '++')
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
         flash_enabled_number = self.count_val_feature(df, val = ['Shockwave Flash'], feature = 'plugins')
         print ('Flash Enabled:', flash_enabled_number)
-        #df = self.remove_flip_plugins(df, sep = '++')
+        df = self.remove_flip_plugins(df, sep = '++')
         totalNumOfChanges = 0
         match_list = {
                 'fp2_colordepth': 'colorDepth',

@@ -1,0 +1,57 @@
+feature name * do not exsit in table allchanges
+filling nan with -9999
+finished loading allchanges
+('Office Fonts:', 1377)
+('Flash Enabled:', 32863)
+{'mobile': 522729, 'overall': 972323, 'desktop': 449594}
+mobile 361375.0
+	canvas 45799.0
+	lied 25978.0
+	localStorage 1772
+	jsFonts 45.0
+	plugin 31.0
+	zoom 1988.0
+	detectedLanguages 52.0
+	timezone 79427.0
+	header 1329.0
+	cookie 1441
+	browserUpdate 65831
+	agent 0.0
+	GPU 0
+	osUpdate 112476
+	colorDepth 6.0
+	audio 25200.0
+overall 703457.0
+	canvas 67329.0
+	lied 31148.0
+	localStorage 3362
+	jsFonts 38094.0
+	plugin 33207.0
+	zoom 45288.0
+	detectedLanguages 1115.0
+	timezone 130937.0
+	header 4914.0
+	cookie 2100
+	browserUpdate 178676
+	agent 0.0
+	GPU 663.0
+	osUpdate 124288
+	colorDepth 281.0
+	audio 42055.0
+desktop 342082.0
+	canvas 21530.0
+	lied 5170
+	localStorage 1590
+	jsFonts 38049.0
+	plugin 33176.0
+	zoom 43300.0
+	detectedLanguages 1063.0
+	timezone 51510.0
+	header 3585.0
+	cookie 659
+	browserUpdate 112845
+	agent 0.0
+	GPU 663.0
+	osUpdate 11812
+	colorDepth 275.0
+	audio 16855.0
