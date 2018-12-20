@@ -1,2 +1,55 @@
-browser_update#os_update#user_update#environment_update#others#agent#encoding#language#timezone#plugins#cookie#WebGL#localstorage#fp2_addbehavior#fp2_opendatabase#langsdetected#jsFonts#canvastest#inc#gpu#cpucores#audio#fp2_cpuclass#fp2_colordepth#fp2_pixelratio#fp2_liedlanguages#fp2_liedresolution#fp2_liedos#fp2_liedbrowser#os#browser#frombrowserversion#tobrowserversion#fromosversion#toosversion#
-Overall#161713.0#124288.0#0.0#0.0#0.0#33356.0#376.0#2464.0#41916.0#29309.0#892.0#0.0#1661.0#0.0#0.0#808.0#100442.0#53620.0#0.0#359.0#0.0#32640.0#0.0#235.0#40823.0#13960.0#5800.0#2034.0#380.0#686322.0#686322.0#686322.0#686322.0#686322.0#686322.0#
+feature name * do not exsit in table allchanges
+filling nan with -9999
+finished loading allchanges
+{'mobile': 522729, 'overall': 1007944, 'desktop': 449594}
+mobile 575840
+	canvas 57995
+	lied 25980
+	localStorage 1772
+	jsFonts 204
+	plugin 32
+	zoom 2250
+	detectedLanguages 170
+	timezone 79582
+	header 4868
+	cookie 1441
+	browserUpdate 65831
+	agent 182626
+	GPU 0
+	osUpdate 112476
+	colorDepth 15410
+	audio 25203
+overall 1171121
+	canvas 91746
+	lied 31150
+	localStorage 3362
+	jsFonts 128024
+	plugin 37439
+	zoom 46060
+	detectedLanguages 3526
+	timezone 131389
+	header 12239
+	cookie 2100
+	browserUpdate 178676
+	agent 319357
+	GPU 2154
+	osUpdate 124288
+	colorDepth 17492
+	audio 42119
+desktop 595281
+	canvas 33751
+	lied 5170
+	localStorage 1590
+	jsFonts 127820
+	plugin 37407
+	zoom 43810
+	detectedLanguages 3356
+	timezone 51807
+	header 7371
+	cookie 659
+	browserUpdate 112845
+	agent 136731
+	GPU 2154
+	osUpdate 11812
+	colorDepth 2082
+	audio 16916

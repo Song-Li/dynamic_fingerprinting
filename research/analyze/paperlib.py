@@ -1126,15 +1126,16 @@ class Paperlib():
         the df need to have the jsFonts column, if this column has the key words,remove this fonts
         """
         flip_fonts_list = set([
-            'MT Extra',
-            'Arial Black',
-            'Arial Narrow',
-            'Garamond'
+            '_=>Arial_Black++Arial_Narrow++',
+            '_Arial_Black++Arial_Narrow++=>',
+            '_=>Arial_Black++',
+            '_Arial_Black++=>',
+            '_=>Garamond++',
+            '_Garamond++=>'
             ])
         for idx in tqdm(df.index):
-            cur_flist = df.at[idx, 'jsFonts'].split(sep)
-            cur_flist = [x for x in cur_flist if x not in flip_fonts_list]
-            df.at[idx, 'jsFonts'] = sep.join(cur_flist)
+            if df.at[idx, 'jsFonts'] in flip_fonts_list:
+                df.at[idx, 'jsFonts'] = ''
         return df
 
     def remove_flip_plugins(self, df, sep = '_'):
@@ -1142,42 +1143,60 @@ class Paperlib():
         the df need to have the jsFonts column, if this column has the key words,remove this fonts
         """
         flip_fonts_list = set([
-            'Shockwave Flash'
+            '_=>Shockwave_Flash++',
+            '_Shockwave_Flash++=>'
             ])
         for idx in tqdm(df.index):
-            cur_flist = df.at[idx, 'plugins'].split(sep)
-            cur_flist = [x for x in cur_flist if x not in flip_fonts_list]
-            df.at[idx, 'plugins'] = sep.join(cur_flist)
+            if df.at[idx, 'plugins'] in flip_fonts_list:
+                df.at[idx, 'plugins'] = ''
         return df
 
-    def relation_detection(self, threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu']):
+    def relation_detection(self, df = [], threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu']):
         """
         this function will return all the changes related to 
             browser update and os update
         the threshhold means if a value change goes together with browser update or os update
         the percentage is higher than threshhold, count it as related
         """
-        df = self.db.load_data(table_name = table_name)
+        if len(df) == 0:
+            df = self.db.load_data(table_name = table_name)
         related = {}
         for feature in feature_list:
-            related[feature] = []
-            print ('doing: {}'.format(feature))
-            cur_grouped = df.groupby([feature])
+            cur_grouped = df.groupby(['browser', feature])
             for key, cur_group in tqdm(cur_grouped):
+                browser = key[0]
+                if browser not in related:
+                    related[browser] = {}
+                if feature not in related[browser]:
+                    related[browser][feature] = {'sumup': 0}
                 together_list = cur_group[cur_group['agent'] != '']
                 if float(len(together_list)) / float(len(cur_group)) > threshhold:
-                    related[feature].append([key, cur_group['agent'].unique(), float(len(together_list)), float(len(cur_group))])
+                    related[browser][feature][key[1]] = [cur_group['agent'].unique(), float(len(together_list)), float(len(cur_group))]
+                    related[browser][feature]['sumup'] += float(len(together_list))
 
-        for r in related:
-            f = safeopen('./relations/{}'.format(r), 'w')
-            related[r].sort(key = lambda x: x[2], reverse = True)
-            for item in related[r]:
-                f.write('==============={}\n'.format(item[0]))
-                f.write('{}\n'.format(item[2:]))
-                f.write('{}\n'.format(item[1]))
+        for b in related:
+            f = safeopen('./relations/{}'.format(b), 'w')
+            for r in related[b]:
+                for cur_key in related[b][r]:
+                    if cur_key == 'sumup':
+                        continue
+                    f.write('==============={}\n'.format(cur_key))
+                    f.write('{}\n'.format(related[b][r][cur_key][1:]))
             f.close()
 
         return related
+
+    def count_val_feature(self, df, val = [], feature = '', sep = '++'):
+        """
+        this function will return the number of changes caused by the val of feature
+        """
+        count = 0
+        for idx in tqdm(df.index):
+            df.at[idx, feature] = df.at[idx, feature].replace('=>', '++')
+            cur_vallist = df.at[idx, feature].split(sep)
+            if set(val).issubset(cur_vallist):
+                count += 1
+        return count
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1186,9 +1205,13 @@ class Paperlib():
             consider MS fonts
         TODO: get the desktop request
         """
-        classes = ['browserUpdate', 'osUpdate', 'userAction', 'evironmentUpdate','timezone', 'zoom', 'plugin', 'cookie', 'localstorage', 'WebGL', 'colorDepth', 'encoding', 'agent']
         df = self.db.load_data(table_name = table_name)
-        df = self.remove_flip_fonts(df, sep = '++')
+        #df = self.remove_flip_fonts(df, sep = '++')
+        ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
+        print ('Office Fonts:', ms_office_number)
+        flash_enabled_number = self.count_val_feature(df, val = ['Shockwave Flash'], feature = 'plugins')
+        print ('Flash Enabled:', flash_enabled_number)
+        #df = self.remove_flip_plugins(df, sep = '++')
         totalNumOfChanges = 0
         match_list = {
                 'fp2_colordepth': 'colorDepth',
@@ -1244,12 +1267,13 @@ class Paperlib():
             if feature not in feature_list:
                 feature_list.append(feature)
 
+        related = self.relation_detection(df = df, feature_list = match_list.keys())
         detailed_list = {}
         #df = self.(df, sep = '++')
 
         grouped = df.groupby(feature_list)
         browser_idx = feature_list.index('browser')
-        total_number = 0
+        total_number = {'overall': 0, 'desktop': 0, 'mobile': 0}
 
         for key, cur_group in tqdm(grouped):
             # in this for loop, we need to order the reason
@@ -1261,9 +1285,13 @@ class Paperlib():
             fromosversion = key[browser_idx + 3]
             toosversion = key[browser_idx + 4]
 
-            cur_key_str = ''
             cur_len = len(cur_group)
-            total_number += cur_len
+            if browser in desktop_browsers:
+                total_number['desktop'] += cur_len
+                total_number['overall'] += cur_len
+            elif browser in mobile_browsers:
+                total_number['mobile'] += cur_len
+                total_number['overall'] += cur_len
 
             if browser not in detailed_list:
                 detailed_list[browser] = {}
@@ -1279,20 +1307,44 @@ class Paperlib():
                 detailed_list[browser]['browserUpdate'] += cur_len
 
             for i in range(len(feature_list)):
+                cur_related = 0
                 if feature_list[i] not in match_list:
                     continue
                 if key[i] == '':
                     continue
-                cur_key_str += '{}: {}, '.format(feature_list[i], key[i])
+                if feature_list[i] in related[browser]:
+                    feature_idx = feature_list.index(feature_list[i])
                 detailed_list[browser][match_list[feature_list[i]]] += cur_len
 
-        res = {'overall': [], 'desktop': [], 'mobile': []}
-        for browser in desktop_browsers:
-            ''
+
+        for browser in related:
+            for feature in related[browser]:
+                detailed_list[browser][match_list[feature]] -= related[browser][feature]['sumup']
 
         
-        for feature in detailed_list['Chrome']:
-            print feature, detailed_list['Chrome'][feature]
+
+        classes = detailed_list['Chrome'].keys()
+        res = {'overall': {}, 'desktop': {}, 'mobile': {}}
+        for action in classes:
+            res['desktop'][action] = 0
+            res['overall'][action] = 0
+            res['mobile'][action] = 0
+            for browser in desktop_browsers:
+                res['overall'][action] += detailed_list[browser][action]
+                res['desktop'][action] += detailed_list[browser][action]
+            for browser in mobile_browsers:
+                res['overall'][action] += detailed_list[browser][action]
+                res['mobile'][action] += detailed_list[browser][action]
+
+        res['desktop']['sum'] = sum(res['desktop'][a] for a in classes)
+        res['overall']['sum'] = sum(res['overall'][a] for a in classes)
+        res['mobile']['sum'] = sum(res['mobile'][a] for a in classes)
+        
+        print total_number
+        for key in res.keys():
+            print key, res[key]['sum']
+            for action in classes:
+                print '\t', action, res[key][action]
 
     def rebuild_fingerprintchanges(self, 
             from_table = 'fingerprintchanges', 
