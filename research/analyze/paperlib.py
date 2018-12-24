@@ -1151,7 +1151,7 @@ class Paperlib():
                 df.at[idx, 'plugins'] = ''
         return df
 
-    def relation_detection(self, df = [], threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu']):
+    def relation_detection(self, df = [], threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']):
         """
         this function will return all the changes related to 
             browser update and os update
@@ -1269,7 +1269,6 @@ class Paperlib():
 
         related = self.relation_detection(df = df, feature_list = match_list.keys())
         detailed_list = {}
-        #df = self.(df, sep = '++')
 
         grouped = df.groupby(feature_list)
         browser_idx = feature_list.index('browser')
