@@ -1267,55 +1267,35 @@ class Paperlib():
             if feature not in feature_list:
                 feature_list.append(feature)
 
-        related = self.relation_detection(df = df, feature_list = match_list.keys())
+        #related = self.relation_detection(df = df, feature_list = match_list.keys())
         detailed_list = {}
 
-        grouped = df.groupby(feature_list)
         browser_idx = feature_list.index('browser')
         total_number = {'overall': 0, 'desktop': 0, 'mobile': 0}
 
-        for key, cur_group in tqdm(grouped):
-            # in this for loop, we need to order the reason
-            # the order of the reason should be:
-            #   OS update, browser update, 
-            browser = key[browser_idx]
-            frombrowserversion = key[browser_idx + 1]
-            tobrowserversion = key[browser_idx + 2]
-            fromosversion = key[browser_idx + 3]
-            toosversion = key[browser_idx + 4]
+        change_ids = {'browserUpdate': set(), 'osUpdate': set()}
+        for key in match_list:
+            change_ids[match_list[key]] = set()
 
-            cur_len = len(cur_group)
-            if browser in desktop_browsers:
-                total_number['desktop'] += cur_len
-                total_number['overall'] += cur_len
-            elif browser in mobile_browsers:
-                total_number['mobile'] += cur_len
-                total_number['overall'] += cur_len
+        cnt = 0
+        for idx, row in tqdm(df.iterrows()):
+            cnt += 1
+            browser = row['browser']
+            if row['frombrowserversion'] != row['tobrowserversion']:
+                change_ids['browserUpdate'].add(cnt)
+            if row['fromosversion'] != row['toosversion']:
+                change_ids['osUpdate'].add(cnt)
 
-            if browser not in detailed_list:
-                detailed_list[browser] = {}
-                detailed_list[browser]['browserUpdate'] = 0
-                detailed_list[browser]['osUpdate'] = 0
-                for update in match_list:
-                    detailed_list[browser][match_list[update]] = 0
+            for feature in match_list:
+                if row[feature] != '':
+                    change_ids[match_list[feature]].add(cnt)
 
-            if fromosversion != toosversion:
-                detailed_list[browser]['osUpdate'] += cur_len
-
-            if frombrowserversion != tobrowserversion:
-                detailed_list[browser]['browserUpdate'] += cur_len
-
-            for i in range(len(feature_list)):
-                cur_related = 0
-                if feature_list[i] not in match_list:
-                    continue
-                if key[i] == '':
-                    continue
-                if feature_list[i] in related[browser]:
-                    feature_idx = feature_list.index(feature_list[i])
-                detailed_list[browser][match_list[feature_list[i]]] += cur_len
+        for key in change_ids:
+            for key2 in change_ids:
+                print key, key2, len(change_ids[key].intersection(change_ids[key2]))
 
 
+        return 
         for browser in related:
             for feature in related[browser]:
                 detailed_list[browser][match_list[feature]] -= related[browser][feature]['sumup']
