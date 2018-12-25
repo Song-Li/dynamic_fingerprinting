@@ -1234,6 +1234,8 @@ class Paperlib():
                 'canvastest': 'canvas'
                 }
 
+        useraction_list = ['localStorage', 'zoom', 'timezone', 'plugin', 'GPU', 'cookie']
+
         added_feature = [
                 'os',
                 'browser',
@@ -1273,26 +1275,67 @@ class Paperlib():
         browser_idx = feature_list.index('browser')
         total_number = {'overall': 0, 'desktop': 0, 'mobile': 0}
 
-        change_ids = {'browserUpdate': set(), 'osUpdate': set()}
+        change_ids = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
         for key in match_list:
             change_ids[match_list[key]] = set()
 
-        cnt = 0
+        browsermap = {}
+        osmap = {}
+        cnt = -1
         for idx, row in tqdm(df.iterrows()):
+
             cnt += 1
             browser = row['browser']
+            os = row['os']
+
+            if browser not in browsermap:
+                browsermap[browser] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
+                for key in match_list:
+                    browsermap[browser][match_list[key]] = set()
+            if os not in osmap:
+                osmap[os] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
+                for key in match_list:
+                    osmap[os][match_list[key]] = set()
+
             if row['frombrowserversion'] != row['tobrowserversion']:
                 change_ids['browserUpdate'].add(cnt)
+                browsermap[browser]['browserUpdate'].add(cnt)
+                osmap[os]['browserUpdate'].add(cnt)
+                
             if row['fromosversion'] != row['toosversion']:
                 change_ids['osUpdate'].add(cnt)
+                browsermap[browser]['osUpdate'].add(cnt)
+                osmap[os]['osUpdate'].add(cnt)
 
             for feature in match_list:
                 if row[feature] != '':
                     change_ids[match_list[feature]].add(cnt)
+                    browsermap[browser][match_list[feature]].add(cnt)
+                    osmap[os][match_list[feature]].add(cnt)
 
-        for key in change_ids:
-            for key2 in change_ids:
-                print key, key2, len(change_ids[key].intersection(change_ids[key2]))
+                    if match_list[feature] in useraction_list:
+                        change_ids['userAction'].add(cnt)
+                        browsermap[browser]['userAction'].add(cnt)
+                        osmap[os]['userAction'].add(cnt)
+                    else:
+                        change_ids['environmentUpdate'].add(cnt)
+                        browsermap[browser]['environmentUpdate'].add(cnt)
+                        osmap[os]['environmentUpdate'].add(cnt)
+
+         
+        for browser in browsermap:
+            f = safeopen('./changereason/bigtable/browser/{}'.format(browser), 'w')
+            for key in browsermap[browser]:
+                for key2 in browsermap[browser]:
+                    f.write('{}\t{}\t{}\n'.format(key, key2, len(browsermap[browser][key].intersection(browsermap[browser][key2]))))
+            f.close()
+
+        for os in osmap:
+            f = safeopen('./changereason/bigtable/os/{}'.format(os), 'w')
+            for key in osmap[os]:
+                for key2 in osmap[os]:
+                    f.write('{}\t{}\t{}\n'.format(key, key2, len(osmap[os][key].intersection(osmap[os][key2]))))
+            f.close()
 
 
         return 
