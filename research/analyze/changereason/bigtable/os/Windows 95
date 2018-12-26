@@ -1,5 +1,5 @@
-environmentUpdate	environmentUpdate	1
-environmentUpdate	canvas	1
+environmentUpdate	environmentUpdate	0
+environmentUpdate	canvas	0
 environmentUpdate	localStorage	0
 environmentUpdate	lied	0
 environmentUpdate	userAction	0
@@ -16,8 +16,8 @@ environmentUpdate	GPU	0
 environmentUpdate	osUpdate	0
 environmentUpdate	colorDepth	0
 environmentUpdate	audio	0
-canvas	environmentUpdate	1
-canvas	canvas	1
+canvas	environmentUpdate	0
+canvas	canvas	0
 canvas	localStorage	0
 canvas	lied	0
 canvas	userAction	0

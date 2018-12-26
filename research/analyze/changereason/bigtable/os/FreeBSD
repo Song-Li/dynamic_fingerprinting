@@ -1,4 +1,4 @@
-environmentUpdate	environmentUpdate	2
+environmentUpdate	environmentUpdate	1
 environmentUpdate	canvas	1
 environmentUpdate	localStorage	0
 environmentUpdate	lied	0
@@ -8,7 +8,7 @@ environmentUpdate	plugin	1
 environmentUpdate	zoom	0
 environmentUpdate	browserUpdate	0
 environmentUpdate	timezone	0
-environmentUpdate	header	2
+environmentUpdate	header	1
 environmentUpdate	cookie	0
 environmentUpdate	detectedLanguages	1
 environmentUpdate	agent	0
@@ -178,7 +178,7 @@ timezone	GPU	0
 timezone	osUpdate	0
 timezone	colorDepth	0
 timezone	audio	0
-header	environmentUpdate	2
+header	environmentUpdate	1
 header	canvas	1
 header	localStorage	0
 header	lied	0

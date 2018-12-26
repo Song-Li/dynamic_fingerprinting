@@ -1,4 +1,4 @@
-environmentUpdate	environmentUpdate	8
+environmentUpdate	environmentUpdate	1
 environmentUpdate	canvas	0
 environmentUpdate	localStorage	0
 environmentUpdate	lied	0
@@ -11,7 +11,7 @@ environmentUpdate	timezone	0
 environmentUpdate	header	0
 environmentUpdate	cookie	0
 environmentUpdate	detectedLanguages	0
-environmentUpdate	agent	7
+environmentUpdate	agent	0
 environmentUpdate	GPU	0
 environmentUpdate	osUpdate	0
 environmentUpdate	colorDepth	0
@@ -232,7 +232,7 @@ detectedLanguages	GPU	0
 detectedLanguages	osUpdate	0
 detectedLanguages	colorDepth	0
 detectedLanguages	audio	0
-agent	environmentUpdate	7
+agent	environmentUpdate	0
 agent	canvas	0
 agent	localStorage	0
 agent	lied	0

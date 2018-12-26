@@ -1,4 +1,4 @@
-environmentUpdate	environmentUpdate	93
+environmentUpdate	environmentUpdate	88
 environmentUpdate	canvas	4
 environmentUpdate	localStorage	0
 environmentUpdate	lied	70
@@ -6,12 +6,12 @@ environmentUpdate	userAction	1
 environmentUpdate	jsFonts	0
 environmentUpdate	plugin	0
 environmentUpdate	zoom	1
-environmentUpdate	browserUpdate	3
+environmentUpdate	browserUpdate	0
 environmentUpdate	timezone	0
-environmentUpdate	header	3
+environmentUpdate	header	1
 environmentUpdate	cookie	0
 environmentUpdate	detectedLanguages	0
-environmentUpdate	agent	3
+environmentUpdate	agent	0
 environmentUpdate	GPU	0
 environmentUpdate	osUpdate	0
 environmentUpdate	colorDepth	0
@@ -142,7 +142,7 @@ zoom	GPU	0
 zoom	osUpdate	0
 zoom	colorDepth	0
 zoom	audio	0
-browserUpdate	environmentUpdate	3
+browserUpdate	environmentUpdate	0
 browserUpdate	canvas	0
 browserUpdate	localStorage	0
 browserUpdate	lied	0
@@ -178,7 +178,7 @@ timezone	GPU	0
 timezone	osUpdate	0
 timezone	colorDepth	0
 timezone	audio	0
-header	environmentUpdate	3
+header	environmentUpdate	1
 header	canvas	1
 header	localStorage	0
 header	lied	0
@@ -232,7 +232,7 @@ detectedLanguages	GPU	0
 detectedLanguages	osUpdate	0
 detectedLanguages	colorDepth	0
 detectedLanguages	audio	0
-agent	environmentUpdate	3
+agent	environmentUpdate	0
 agent	canvas	0
 agent	localStorage	0
 agent	lied	0

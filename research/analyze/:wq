@@ -1237,6 +1237,7 @@ class Paperlib():
 
         useraction_list = ['localStorage', 'zoom', 'timezone', 'plugin', 'GPU', 'cookie']
         environment_list = ['colorDepth', 'detectedLanguages', 'lied', 'audio', 'jsFonts', 'canvas']
+        related = self.relation_detection(df = df)
 
         added_feature = [
                 'os',
@@ -1271,7 +1272,7 @@ class Paperlib():
             if feature not in feature_list:
                 feature_list.append(feature)
 
-        related = self.relation_detection(df = df, feature_list = match_list.keys())
+        #related = self.relation_detection(df = df, feature_list = match_list.keys())
         detailed_list = {}
 
         browser_idx = feature_list.index('browser')
@@ -1284,13 +1285,11 @@ class Paperlib():
         browsermap = {}
         osmap = {}
         cnt = -1
-        classes_numbers = {}
-        others_numbers = {}
         for idx, row in tqdm(df.iterrows()):
+
             cnt += 1
             browser = row['browser']
             os = row['os']
-            cur_classes = ''
 
             if browser not in browsermap:
                 browsermap[browser] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
@@ -1305,22 +1304,13 @@ class Paperlib():
                 change_ids['browserUpdate'].add(cnt)
                 browsermap[browser]['browserUpdate'].add(cnt)
                 osmap[os]['browserUpdate'].add(cnt)
-                cur_classes += 'browserupdate_'
                 
             if row['fromosversion'] != row['toosversion']:
                 change_ids['osUpdate'].add(cnt)
                 browsermap[browser]['osUpdate'].add(cnt)
                 osmap[os]['osUpdate'].add(cnt)
-                cur_classes += 'osupdate_'
 
-            for feature in feature_list:
-                if feature not in useraction_list and feature not in environment_list:
-                    if feature not in others_numbers:
-                        others_numbers[feature] = 0
-                    if row[feature] != '':
-                        others_numbers[feature] += 1
-                    continue
-
+            for feature in match_list:
                 if row[feature] != '':
 
                     # remove related features
@@ -1335,26 +1325,10 @@ class Paperlib():
                         change_ids['userAction'].add(cnt)
                         browsermap[browser]['userAction'].add(cnt)
                         osmap[os]['userAction'].add(cnt)
-                        if 'useraction' not in cur_classes:
-                            cur_classes += 'useraction_'
                     elif match_list[feature] in environment_list:
                         change_ids['environmentUpdate'].add(cnt)
                         browsermap[browser]['environmentUpdate'].add(cnt)
                         osmap[os]['environmentUpdate'].add(cnt)
-                        if 'environment' not in cur_classes:
-                            cur_classes += 'environment_'
-                
-            if cur_classes not in classes_numbers:
-                classes_numbers[cur_classes] = 0
-            classes_numbers[cur_classes] += 1
-
-        sorted_classes_numbers = sorted(classes_numbers.iteritems(), key = lambda (k, v): (-v, k))
-        f = safeopen('./changereason/bigtable/classes', 'w')
-        for item in sorted_classes_numbers:
-            f.write('{}\n'.format(item))
-        for item in others_numbers:
-            f.write('{}\t{}\n'.format(item, others_numbers[item]))
-        f.close()
 
         total_len = cnt + 1
         for browser in browsermap:
