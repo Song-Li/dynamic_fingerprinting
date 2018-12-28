@@ -36,18 +36,18 @@
 [1.0, 1.0]
 ===============q=0.8++=>q=0.9++
 [2.0, 2.0]
-===============Chromium PDF Viewer++++Chromium PDF Plugin++
+===============Chromium PDF Viewer++=>Chromium PDF Plugin++
 [1.0, 1.0]
-===============++Widevine Content Decryption Module++
-[25.0, 25.0]
-===============Chromium PDF Viewer++Shockwave Flash++++Chromium PDF Plugin++Widevine Content Decryption Module++
-[2.0, 2.0]
-===============Widevine Content Decryption Module++++++
-[1.0, 1.0]
-===============Shockwave Flash++Widevine Content Decryption Module++++
-[1.0, 1.0]
-===============Widevine Content Decryption Module++++
+===============Widevine Content Decryption Module++=>
 [16.0, 16.0]
+===============Widevine Content Decryption Module++=>++
+[1.0, 1.0]
+===============flipplugin++Widevine Content Decryption Module++=>
+[1.0, 1.0]
+================>Widevine Content Decryption Module++
+[25.0, 25.0]
+===============Chromium PDF Viewer++flipplugin++=>Chromium PDF Plugin++Widevine Content Decryption Module++
+[2.0, 2.0]
 ===============Chromium/66.0.3359.139++Chrome/66.0.3359.139++=>Chromium/66.0.3359.181++Chrome/66.0.3359.181++
 [2.0, 2.0]
 ===============Chromium/64.0.3282.119++Chrome/64.0.3282.119++=>Chromium/64.0.3282.140++Chrome/64.0.3282.140++
@@ -130,13 +130,13 @@
 [1.0, 1.0]
 ===============1++=>1.29999995232++
 [1.0, 1.0]
-===============++Cambria Math++Consolas++Candara++Constantia++Corbel++
+================>Cambria Math++Consolas++Candara++Constantia++Corbel++
 [1.0, 1.0]
-===============++MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++
+================>MONO++
+[1.0, 1.0]
+================>MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++
 [2.0, 2.0]
-===============++MONO++
+================>MS Gothic++MS PGothic++Segoe UI++MS PMincho++PMingLiU++SimSun++
 [1.0, 1.0]
-===============++MS Gothic++MS PGothic++Segoe UI++MS PMincho++PMingLiU++SimSun++
-[1.0, 1.0]
-===============MONO++++Arial++Courier++Courier New++Helvetica++MS Gothic++MS PGothic++Times++Times New Roman++MS PMincho++PMingLiU++SimSun++
+===============MONO++=>Arial++Courier++Courier New++Helvetica++MS Gothic++MS PGothic++Times++Times New Roman++MS PMincho++PMingLiU++SimSun++
 [1.0, 1.0]

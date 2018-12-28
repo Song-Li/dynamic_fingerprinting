@@ -62,29 +62,29 @@
 [3.0, 3.0]
 ===============gzip, deflate++=>gzip,deflate++
 [2.0, 2.0]
-===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++++Maxthon PDF Viewer++
+===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++=>Maxthon PDF Viewer++
 [1.0, 1.0]
-===============PDFXChange Viewer++Photo Gallery++Shockwave for Director++++CANON iMAGE GATEWAY Album Plugin Utility for IJ++Java Deployment Toolkit ++JavaTM Platform SE  U++PDFXChange Editor++PDFXChange Editor++
+===============Maxthon PDF Viewer++=>Adobe Acrobat++AdobeAAMDetect++MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
 [1.0, 1.0]
-===============Maxthon PDF Viewer++++MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
+===============PDFXChange Viewer++Photo Gallery++Shockwave for Director++=>CANON iMAGE GATEWAY Album Plugin Utility for IJ++Java Deployment Toolkit ++JavaTM Platform SE  U++PDFXChange Editor++PDFXChange Editor++
+[1.0, 1.0]
+===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++=>Maxthon PDF Viewer++
+[1.0, 1.0]
+===============Adobe Acrobat++NVIDIA D VISION++NVIDIA D Vision++RealPlayertm G LiveConnectEnabled PlugIn bit ++RealTimes Download Plugin++=>
+[1.0, 1.0]
+===============Google Update++=>
+[1.0, 1.0]
+===============Adobe Acrobat++AdobeAAMDetect++Alipay Security Control ++Java Deployment Toolkit ++JavaTM Platform SE  U++Unity Player++=>CANON iMAGE GATEWAY Album Plugin Utility for IJ++Foxit Reader Plugin for Mozilla++
+[1.0, 1.0]
+===============Java Deployment Toolkit ++JavaTM Platform SE  U++Microsoft Office Live Plugin for Firefox++NVIDIA D VISION++NVIDIA D Vision++=>Microsoft Office ++Microsoft Office ++Photo Gallery++Photodex Presenter Plugin++
+[1.0, 1.0]
+===============Maxthon PDF Viewer++=>MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
 [2.0, 2.0]
-===============Shockwave Flash++++
+===============flipplugin++=>
 [2.0, 2.0]
-===============Adobe Acrobat++AdobeAAMDetect++Alipay Security Control ++Java Deployment Toolkit ++JavaTM Platform SE  U++Unity Player++++CANON iMAGE GATEWAY Album Plugin Utility for IJ++Foxit Reader Plugin for Mozilla++
+===============Adobe Acrobat++Widevine Content Decryption Module++=>
 [1.0, 1.0]
-===============Maxthon PDF Viewer++++Adobe Acrobat++AdobeAAMDetect++MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
-[1.0, 1.0]
-===============Java Deployment Toolkit ++JavaTM Platform SE  U++Microsoft Office Live Plugin for Firefox++NVIDIA D VISION++NVIDIA D Vision++++Microsoft Office ++Microsoft Office ++Photo Gallery++Photodex Presenter Plugin++
-[1.0, 1.0]
-===============Google Update++++
-[1.0, 1.0]
-===============Adobe Acrobat++NVIDIA D VISION++NVIDIA D Vision++RealPlayertm G LiveConnectEnabled PlugIn bit ++RealTimes Download Plugin++++
-[1.0, 1.0]
-===============Widevine Content Decryption Module++++
-[1.0, 1.0]
-===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++++Maxthon PDF Viewer++
-[1.0, 1.0]
-===============Adobe Acrobat++Widevine Content Decryption Module++++
+===============Widevine Content Decryption Module++=>
 [1.0, 1.0]
 ===============ANGLE (Intel(R) HD Graphics Family Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Family Direct3D11 vs++5++5++
 [1.0, 1.0]
@@ -162,27 +162,25 @@
 [1.0, 1.0]
 ===============0.899999976158++=>0.800000011921++
 [1.0, 1.0]
-===============Arial Unicode MS++Batang++BatangChe++Clarendon++Clarendon Condensed++Dotum++DotumChe++Euphemia++Fixedsys++FreesiaUPC++Gautami++Gulim++GulimChe++Gungsuh++GungsuhChe++HELV++Iskoola Pota++Kalinga++Kartika++Khmer UI++Lao UI++Latha++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Modern++MS Mincho++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Roman++Sakkal Majalla++Script++Shruti++Small Fonts++System++Terminal++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Arial Rounded MT Bold++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Berlin Sans FB Demi++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bodoni MT Poster Compressed++Britannic Bold++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic Bold++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harlow Solid Italic++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Minion Pro++Niagara Engraved++Niagara Solid++OCR A Extended++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Rage Italic++Ravie++Rockwell++Rockwell Condensed++Rockwell Extra Bold++Script MT Bold++Showcard Gothic++Snap ITC++Stencil++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Tw Cen MT Condensed Extra Bold++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+===============MT Extra++=>Helvetica++Fixedsys++Modern++Modern No. 20++Roman++Script++Small Fonts++System++Terminal++
 [1.0, 1.0]
-===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Clarendon Condensed++++
+===============Arial Rounded MT Bold++Berlin Sans FB Demi++Bodoni MT Poster Compressed++Britannic Bold++Copperplate Gothic Bold++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Fixedsys++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Harlow Solid Italic++HELV++Modern++MT Extra++OCR A Extended++Rage Italic++Rockwell Extra Bold++Roman++Script++Script MT Bold++Small Fonts++System++Terminal++Tw Cen MT Condensed Extra Bold++=>Clarendon++Clarendon Condensed++Copperplate Gothic++Gill Sans++
 [1.0, 1.0]
-===============MT Extra++++
+================>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++=>MT Extra++Skia++
+[1.0, 1.0]
+===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++=>
+[1.0, 1.0]
+================>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++
 [2.0, 2.0]
-===============Arial Rounded MT Bold++Berlin Sans FB Demi++Bodoni MT Poster Compressed++Britannic Bold++Copperplate Gothic Bold++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Fixedsys++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Harlow Solid Italic++HELV++Modern++MT Extra++OCR A Extended++Rage Italic++Rockwell Extra Bold++Roman++Script++Script MT Bold++Small Fonts++System++Terminal++Tw Cen MT Condensed Extra Bold++++Clarendon++Clarendon Condensed++Copperplate Gothic++Gill Sans++
+===============MT Extra++=>Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
 [1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++++MT Extra++Skia++
+===============Arial Unicode MS++Batang++BatangChe++Clarendon++Clarendon Condensed++Dotum++DotumChe++Euphemia++Fixedsys++FreesiaUPC++Gautami++Gulim++GulimChe++Gungsuh++GungsuhChe++HELV++Iskoola Pota++Kalinga++Kartika++Khmer UI++Lao UI++Latha++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Modern++MS Mincho++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Roman++Sakkal Majalla++Script++Shruti++Small Fonts++System++Terminal++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++=>Arial Rounded MT Bold++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Berlin Sans FB Demi++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bodoni MT Poster Compressed++Britannic Bold++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic Bold++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harlow Solid Italic++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Minion Pro++Niagara Engraved++Niagara Solid++OCR A Extended++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Rage Italic++Ravie++Rockwell++Rockwell Condensed++Rockwell Extra Bold++Script MT Bold++Showcard Gothic++Snap ITC++Stencil++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Tw Cen MT Condensed Extra Bold++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
 [1.0, 1.0]
-===============++Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
+===============Arial Unicode MS++=>MS Outlook++MS Reference Sans Serif++Leelawadee++Microsoft Uighur++MS Reference Specialty++
 [1.0, 1.0]
-===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++++
+===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Clarendon Condensed++=>
 [1.0, 1.0]
-===============MT Extra++++Helvetica++Fixedsys++Modern++Modern No. 20++Roman++Script++Small Fonts++System++Terminal++
-[1.0, 1.0]
-===============++Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++
-[2.0, 2.0]
-===============Arial Unicode MS++++MS Outlook++MS Reference Sans Serif++Leelawadee++Microsoft Uighur++MS Reference Specialty++
-[1.0, 1.0]
-===============Andale Mono++Monaco++Heiti SC++KaiTi++MingLiU++HKSCS++MingLiU++MONO++PMingLiU++SimHei++++Helvetica++Tahoma++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++
-[1.0, 1.0]
-===============MT Extra++++Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
+===============Andale Mono++Monaco++Heiti SC++KaiTi++MingLiU++HKSCS++MingLiU++MONO++PMingLiU++SimHei++=>Helvetica++Tahoma++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++
 [1.0, 1.0]

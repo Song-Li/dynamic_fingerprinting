@@ -6,7 +6,7 @@
 [2.0, 2.0]
 ===============es,en-US++=>es-LA,en-US++
 [1.0, 1.0]
-===============++CNKI CAJAX Plugin++CNKI sysinfo Plugin++
+================>CNKI CAJAX Plugin++CNKI sysinfo Plugin++
 [1.0, 1.0]
 ===============Chrome/55.0.2883.87++UBrowser/7.0.185.1002++=>Chrome/60.0.3112.113++UBrowser/7.0.69.1021++
 [1.0, 1.0]
@@ -98,5 +98,5 @@
 [1.0, 1.0]
 ===============not supported++=>48000++2++1++0++2++explicit++speakers++
 [3.0, 3.0]
-===============++Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++
+================>Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++
 [1.0, 1.0]

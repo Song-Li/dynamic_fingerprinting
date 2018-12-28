@@ -1121,7 +1121,7 @@ class Paperlib():
             f_all.write('\n')
         f_all.close()
 
-    def remove_flip_fonts(self, df, sep = '_'):
+    def remove_flip_fonts(self, df):
         """
         the df need to have the jsFonts column, if this column has the key words,remove this fonts
         """
@@ -1130,6 +1130,8 @@ class Paperlib():
             'Arial Black++Arial Narrow++=>',
             '=>Arial Black++',
             'Arial Black++=>',
+            'MT Extra++=>',
+            '=>MT Extra++',
             '=>Garamond++',
             'Garamond++=>'
             ]
@@ -1138,17 +1140,13 @@ class Paperlib():
                 df.at[idx, 'jsFonts'] = 'flipFonts'
         return df
 
-    def remove_flip_plugins(self, df, sep = '_'):
+    def remove_flip_plugins(self, df):
         """
         the df need to have the jsFonts column, if this column has the key words,remove this fonts
         """
-        flip_fonts_list = set([
-            '=>Shockwave Flash++',
-            'Shockwave Flash++=>'
-            ])
         for idx in tqdm(df.index):
-            if df.at[idx, 'plugins'] in flip_fonts_list:
-                df.at[idx, 'plugins'] = 'flipplugins'
+            if 'Shockwave Flash' in df.at[idx, 'plugins']:
+                df.at[idx, 'plugins'] = df.at[idx, 'plugins'].replace('Shockwave Flash', 'flipplugin')
         return df
 
     def relation_detection(self, df = [], threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']):
@@ -1193,8 +1191,8 @@ class Paperlib():
         """
         count = 0
         for idx in tqdm(df.index):
-            df.at[idx, feature] = df.at[idx, feature].replace('=>', '++')
-            cur_vallist = df.at[idx, feature].split(sep)
+            cur_vallist = df.at[idx, feature].replace('=>', '++')
+            cur_vallist = cur_vallist.split(sep)
             if set(val).issubset(cur_vallist):
                 count += 1
         return count
@@ -1207,12 +1205,12 @@ class Paperlib():
         TODO: get the desktop request
         """
         df = self.db.load_data(table_name = table_name)
-        df = self.remove_flip_fonts(df, sep = '++')
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
         flash_enabled_number = self.count_val_feature(df, val = ['Shockwave Flash'], feature = 'plugins')
         print ('Flash Enabled:', flash_enabled_number)
-        df = self.remove_flip_plugins(df, sep = '++')
+        df = self.remove_flip_plugins(df)
+        df = self.remove_flip_fonts(df)
         totalNumOfChanges = 0
         match_list = {
                 'WebGL': 'WebGL',
@@ -1241,8 +1239,8 @@ class Paperlib():
                 #'ipcity': 'ipcity'
                 }
 
-        useraction_list = ['localStorage', 'zoom', 'timezone', 'plugin', 'cookie', 'WebGL', 'lied', 'header']
-        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'jsFonts', 'canvas', 'GPU', 'inc', 'resolution']
+        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'lied', 'header', 'private', 'flash']
+        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'canvas', 'GPU', 'inc', 'resolution']
 
         added_feature = [
                 'os',
@@ -1265,6 +1263,12 @@ class Paperlib():
                 'Firefox Mobile',
                 'Mobile Safari',
                 'Samsung Internet'
+                ]
+        os_options = [
+                'Android',
+                'Windows',
+                'iOS',
+                'Mac OS X'
                 ]
 
         feature_list = get_fingerprint_change_feature_list() 
@@ -1297,6 +1301,8 @@ class Paperlib():
             classes_numbers[browser] = {}
         for browser in mobile_browsers:
             classes_numbers[browser] = {}
+        for os in os_options:
+            classes_numbers[os] = {}
         classes_numbers['overall'] = {}
 
         others_numbers = {}
@@ -1307,11 +1313,11 @@ class Paperlib():
             cur_classes = ''
 
             if browser not in browsermap:
-                browsermap[browser] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
+                browsermap[browser] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
                 for key in match_list:
                     browsermap[browser][match_list[key]] = set()
             if os not in osmap:
-                osmap[os] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
+                osmap[os] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
                 for key in match_list:
                     osmap[os][match_list[key]] = set()
 
@@ -1339,8 +1345,17 @@ class Paperlib():
                     browsermap[browser][match_list[feature]].add(cnt)
                     osmap[os][match_list[feature]].add(cnt)
 
+                    if feature == 'jsFonts' and row[feature] == 'flipFonts':
+                        browsermap[browser]['private'].add(cnt)
+                        osmap[os]['private'].add(cnt)
+                    if feature == 'plugins' and 'flipplugin' in row[feature]:
+                        browsermap[browser]['flash'].add(cnt)
+                        osmap[os]['flash'].add(cnt)
+
+
+
                     #jsFonts special
-                    if (match_list[feature] in useraction_list) or (feature =='jsFonts' and row[feature] == 'flipFonts') or (feature == 'plugins' and row[feature] == 'flipplugins'):
+                    if (match_list[feature] in useraction_list) or (feature =='jsFonts' and row[feature] == 'flipFonts') or (feature == 'plugins' and 'flipplugin' in row[feature]):
                         change_ids['userAction'].add(cnt)
                         browsermap[browser]['userAction'].add(cnt)
                         osmap[os]['userAction'].add(cnt)
@@ -1365,6 +1380,11 @@ class Paperlib():
                     if cur_classes not in classes_numbers[browser]:
                         classes_numbers[browser][cur_classes] = set()
                     classes_numbers[browser][cur_classes].add(cnt)
+                if os in classes_numbers:
+                    if cur_classes not in classes_numbers[os]:
+                        classes_numbers[os][cur_classes] = set()
+                    classes_numbers[os][cur_classes].add(cnt)
+
 
             for feature in feature_list:
                 if feature not in useraction_list and feature not in environment_list and cur_classes == '':
@@ -1380,6 +1400,7 @@ class Paperlib():
         f = safeopen('./changereason/bigtable/classes', 'w')
         for cur_type in sorted_classes_numbers:
             cur_total_number = sum([len(v[1]) for v in sorted_classes_numbers[cur_type]])
+            f.write('{}====================\n'.format(cur_type))
             if cur_total_number == 0:
                 cur_total_number = 1
             for item in sorted_classes_numbers[cur_type]:

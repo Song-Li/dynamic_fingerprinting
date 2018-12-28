@@ -1042,11 +1042,11 @@
 [1.0, 1.0]
 ===============22050++=>16000++
 [1.0, 1.0]
-===============++Wingdings++
+================>Wingdings++
 [1.0, 1.0]
-===============Hiragino Kaku Gothic ProN++Marion++++
+===============Hiragino Kaku Gothic ProN++Marion++=>
 [41.0, 41.0]
-===============++Haettenschweiler++
-[1.0, 1.0]
-===============Arial Unicode MS++++Microsoft JhengHei++Rockwell++
+===============Arial Unicode MS++=>Microsoft JhengHei++Rockwell++
 [58.0, 58.0]
+================>Haettenschweiler++
+[1.0, 1.0]

@@ -516,7 +516,7 @@
 [4.0, 4.0]
 ===============zh-CN,zh++q=0.8,zh-TW++q=0.7,zh-HK++q=0.5,en-US++q=0.3,en++q=0.2++=>en-US,zh-CN++q=0.7,en++q=0.3++
 [1.0, 1.0]
-===============Shockwave Flash++++++
+===============flipplugin++=>++
 [1.0, 1.0]
 ===============7.1.1;++=>8.0.0;++
 [15.0, 15.0]
@@ -808,11 +808,11 @@
 [2.0, 2.0]
 ===============3.15789484978++=>2.85714292526++
 [1.0, 1.0]
-===============Arial++Courier New++Tahoma++Times New Roman++Verdana++++
+===============Arial++Courier New++Tahoma++Times New Roman++Verdana++=>Bangla Sangam MN++Gujarati Sangam MN++Kannada Sangam MN++Malayalam Sangam MN++Oriya Sangam MN++Tamil Sangam MN++Telugu Sangam MN++
+[1.0, 1.0]
+===============Arial++Courier New++Tahoma++Times New Roman++Verdana++=>
 [41.0, 42.0]
-===============Arial++Courier New++Tahoma++Times New Roman++Verdana++++Bangla Sangam MN++Gujarati Sangam MN++Kannada Sangam MN++Malayalam Sangam MN++Oriya Sangam MN++Tamil Sangam MN++Telugu Sangam MN++
+===============Bangla Sangam MN++Gujarati Sangam MN++Kannada Sangam MN++Malayalam Sangam MN++Oriya Sangam MN++Tamil Sangam MN++Telugu Sangam MN++=>
 [1.0, 1.0]
-===============Bangla Sangam MN++Gujarati Sangam MN++Kannada Sangam MN++Malayalam Sangam MN++Oriya Sangam MN++Tamil Sangam MN++Telugu Sangam MN++++Arial++Courier New++Tahoma++Times New Roman++Verdana++
+===============Bangla Sangam MN++Gujarati Sangam MN++Kannada Sangam MN++Malayalam Sangam MN++Oriya Sangam MN++Tamil Sangam MN++Telugu Sangam MN++=>Arial++Courier New++Tahoma++Times New Roman++Verdana++
 [2.0, 2.0]
-===============Bangla Sangam MN++Gujarati Sangam MN++Kannada Sangam MN++Malayalam Sangam MN++Oriya Sangam MN++Tamil Sangam MN++Telugu Sangam MN++++
-[1.0, 1.0]

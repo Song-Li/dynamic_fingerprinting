@@ -1,17 +1,19 @@
 useraction
 localStorage	0.0
-zoom	0.13768115942
-timezone	0.202898550725
-plugin	0.572463768116
+zoom	0.139705882353
+timezone	0.205882352941
 cookie	0.0
 WebGL	0.0
-lied	0.0144927536232
-header	0.0724637681159
+lied	0.0147058823529
+header	0.0735294117647
+private	0.0
+flash	0.566176470588
 environment
 colorDepth	0.0
-detectedLanguages	0.4
+detectedLanguages	0.0238095238095
 audio	0.0
-jsFonts	0.6
+plugin	0.940476190476
+jsFonts	0.0357142857143
 canvas	0.0
 GPU	0.0
 inc	0.0

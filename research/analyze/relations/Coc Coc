@@ -12,11 +12,11 @@
 [2.0, 2.0]
 ===============gzip, deflate++=>gzip, deflate, br++
 [1.0, 1.0]
-===============Chromium PDF Viewer++++Chromium PDF Plugin++
-[18.0, 18.0]
-===============Chromoting Viewer++Foxit Reader Plugin for Mozilla++Google Update++Shockwave Flash++++Widevine Content Decryption Module++
+===============Chromoting Viewer++Foxit Reader Plugin for Mozilla++Google Update++flipplugin++=>Widevine Content Decryption Module++
 [1.0, 1.0]
-===============++Shockwave Flash++
+===============Chromium PDF Viewer++=>Chromium PDF Plugin++
+[18.0, 18.0]
+================>flipplugin++
 [2.0, 2.0]
 ===============ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++
 [2.0, 2.0]
@@ -48,11 +48,11 @@
 [1.0, 1.0]
 ===============44100++=>48000++
 [1.0, 1.0]
-===============++Denmark++
+================>Denmark++
 [1.0, 1.0]
-===============Script++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
+===============Script++=>Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
 [1.0, 1.0]
-===============++Meiryo++Meiryo UI++Staccato222 BT++
+================>Marlett++
 [1.0, 1.0]
-===============++Marlett++
+================>Meiryo++Meiryo UI++Staccato222 BT++
 [1.0, 1.0]
