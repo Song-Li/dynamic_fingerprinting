@@ -3,12 +3,16 @@ localStorage	0.0
 zoom	0.0
 timezone	1.0
 plugin	0.0
-GPU	0.0
 cookie	0.0
+WebGL	0.0
+lied	0.0
+header	0.0
 environment
 colorDepth	0.0
 detectedLanguages	0.0
-lied	0.0
 audio	0.0
 jsFonts	0.0
 canvas	1.0
+GPU	0.0
+inc	0.0
+resolution	0.0

@@ -3,12 +3,16 @@ localStorage	0.041095890411
 zoom	0.0684931506849
 timezone	0.547945205479
 plugin	0.328767123288
-GPU	0.0
 cookie	0.013698630137
+WebGL	0.0
+lied	0.0
+header	0.0
 environment
 colorDepth	0.0
-detectedLanguages	0.0188679245283
-lied	0.0
-audio	0.132075471698
-jsFonts	0.547169811321
-canvas	0.301886792453
+detectedLanguages	0.0178571428571
+audio	0.125
+jsFonts	0.517857142857
+canvas	0.285714285714
+GPU	0.0
+inc	0.0
+resolution	0.0535714285714

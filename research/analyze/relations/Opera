@@ -214,390 +214,6 @@
 [3.0, 3.0]
 ===============gzip, deflate, lzma, br++=>gzip, deflate, br++
 [2.0, 2.0]
-===============1.25++=>0.899999976158++
-[1.0, 1.0]
-===============1.5++=>2++
-[1.0, 1.0]
-===============2.12239575386++=>2.01822924614++
-[1.0, 1.0]
-===============1.5++=>1.75++
-[1.0, 1.0]
-===============1.875++=>2.12239575386++
-[1.0, 1.0]
-===============1.875++=>1++
-[1.0, 1.0]
-===============2.5++=>2++
-[1.0, 1.0]
-===============1.25++=>2++
-[2.0, 2.0]
-===============1++=>0.83333337307++
-[1.0, 1.0]
-===============1.25++=>1.19791662693++
-[1.0, 1.0]
-===============1.5++=>1.35416662693++
-[1.0, 1.0]
-===============1.10000002384++=>1.25++
-[2.0, 2.0]
-===============1.10416662693++=>1++
-[1.0, 1.0]
-===============1.375++=>1.10000002384++
-[1.0, 1.0]
-===============1.10416662693++=>1.2145832777++
-[2.0, 2.0]
-===============1.14583337307++=>1.19791662693++
-[2.0, 2.0]
-===============1.60000002384++=>1.5++
-[1.0, 1.0]
-===============1.25++=>1.5625++
-[1.0, 1.0]
-===============1++=>1.10416662693++
-[1.0, 1.0]
-===============1.25++=>1.30208337307++
-[1.0, 1.0]
-===============1++=>1.5625++
-[1.0, 1.0]
-===============1++=>1.14583337307++
-[1.0, 1.0]
-===============1.30208337307++=>1.171875++
-[1.0, 1.0]
-===============MingLiU-ExtB++MS Mincho++MS UI Gothic++NSimSun++Nyala++PMingLiU-ExtB++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++SimSun-ExtB++Sylfaen++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
-[1.0, 1.0]
-===============++Lucida Bright++Lucida Calligraphy++Papyrus++Poor Richard++Viner Hand ITC++
-[1.0, 1.0]
-===============++MingLiU++HKSCS-ExtB++MingLiU-ExtB++PMingLiU++PMingLiU-ExtB++SimHei++SimSun-ExtB++
-[1.0, 1.0]
-===============++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++
-[2.0, 2.0]
-===============Arial Unicode MS++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
-[1.0, 1.0]
-===============++MS Reference Sans Serif++MS Reference Specialty++
-[1.0, 1.0]
-===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Centaur++Chiller++Colonna MT++Cooper Black++Footlight MT Light++Freestyle Script++French Script MT++Harrington++High Tower Text++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Papyrus++Parchment++Playbill++Poor Richard++Pristina++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============++Rockwell++
-[7.0, 7.0]
-===============++SCRIPTINA++
-[1.0, 1.0]
-===============SimSun++SimSun-ExtB++++
-[3.0, 3.0]
-===============++Vivaldi++
-[1.0, 1.0]
-===============++MS UI Gothic++NSimSun++PMingLiU-ExtB++SimHei++
-[1.0, 1.0]
-===============++MYRIAD PRO++Minion Pro++
-[1.0, 1.0]
-===============Haettenschweiler++++MT Extra++
-[1.0, 1.0]
-===============Book Antiqua++Bookman Old Style++Century Gothic++Garamond++++
-[1.0, 1.0]
-===============BankGothic Md BT++++
-[1.0, 1.0]
-===============SimSun++SimSun-ExtB++++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============Batang++Leelawadee++Microsoft Uighur++MS Mincho++++
-[1.0, 1.0]
-===============Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Mangal++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============++MS Outlook++Leelawadee++Microsoft Uighur++
-[2.0, 2.0]
-===============PMingLiU-ExtB++++Papyrus++
-[1.0, 1.0]
-===============Century Gothic++Lucida Sans++MS Reference Sans Serif++Blackadder ITC++Bradley Hand ITC++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Felix Titling++French Script MT++Jokerman++Juice ITC++Kristen ITC++Maiandra GD++Matisse ITC++Mistral++MS Reference Specialty++MT Extra++Papyrus++Perpetua++Rockwell++Rockwell Condensed++Tempus Sans ITC++Vivaldi++++
-[1.0, 1.0]
-===============Letter Gothic++MT Extra++++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============Letter Gothic++++MYRIAD PRO++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============++BankGothic Md BT++Swis721 BlkEx BT++
-[1.0, 1.0]
-===============Dotum++DotumChe++FangSong++GulimChe++Gungsuh++GungsuhChe++KaiTi++Malgun Gothic++Meiryo++Meiryo UI++Microsoft JhengHei++Microsoft YaHei++MingLiU++MingLiU++HKSCS++MingLiU++HKSCS-ExtB++MingLiU-ExtB++MS Mincho++MS PMincho++MS UI Gothic++NSimSun++SimHei++++
-[1.0, 1.0]
-===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Levenim MT++LilyUPC++Mangal++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Marlett++Matura MT Script Capitals++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============++BatangChe++Dotum++DotumChe++FangSong++GulimChe++Gungsuh++GungsuhChe++KaiTi++Meiryo++Meiryo UI++Microsoft JhengHei++Microsoft YaHei++Microsoft Yi Baiti++MingLiU++MingLiU++HKSCS++MingLiU++HKSCS-ExtB++MingLiU-ExtB++Miriam++Miriam Fixed++Mistral++Mongolian Baiti++MoolBoran++MS Mincho++MS PMincho++MS Reference Specialty++MS UI Gothic++MT Extra++MV Boli++Narkisim++Niagara Engraved++Niagara Solid++NSimSun++Nyala++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Plantagenet Cherokee++Playbill++Poor Richard++Pristina++Raavi++Ravie++Rockwell++Rockwell Condensed++Rod++Sakkal Majalla++Shonar Bangla++Showcard Gothic++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++SimSun-ExtB++Snap ITC++Stencil++Sylfaen++Tempus Sans ITC++Traditional Arabic++Tunga++Tw Cen MT++Tw Cen MT Condensed++Utsaah++Vani++Vijaya++Viner Hand ITC++Vivaldi++Vladimir Script++Vrinda++Wide Latin++
-[1.0, 1.0]
-===============MT Extra++++Arial Unicode MS++Meiryo++Meiryo UI++
-[1.0, 1.0]
-===============++Bradley Hand++Rockwell++
-[1.0, 1.0]
-===============++EngraversGothic BT++
-[1.0, 1.0]
-===============PMingLiU++++
-[1.0, 1.0]
-===============++MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++Staccato222 BT++
-[1.0, 1.0]
-===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Vivaldi++Vladimir Script++Wide Latin++
-[2.0, 2.0]
-===============MT Extra++++ZWAdobeF++
-[1.0, 1.0]
-===============Aharoni++Andalus++Batang++BatangChe++Browallia New++BrowalliaUPC++CordiaUPC++Gungsuh++GungsuhChe++Rod++++
-[1.0, 1.0]
-===============MS Reference Sans Serif++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Humanst521 BT++MS Reference Specialty++Staccato222 BT++++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Broadway++Brush Script MT++Californian FB++Centaur++Chiller++Colonna MT++Cooper Black++Footlight MT Light++Freestyle Script++Harrington++High Tower Text++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Matura MT Script Capitals++Mistral++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Parchment++Playbill++Poor Richard++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============Trebuchet MS++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++++
-[1.0, 1.0]
-===============MT Extra++++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Minion Pro++TRAJAN PRO++
-[1.0, 1.0]
-===============Agency FB++++
-[1.0, 1.0]
-===============Book Antiqua++Century Gothic++++
-[1.0, 1.0]
-===============Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++MS Mincho++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Staccato222 BT++Stencil++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============ZWAdobeF++++Leelawadee++Microsoft Uighur++MT Extra++
-[1.0, 1.0]
-===============++Letter Gothic++
-[3.0, 3.0]
-===============Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++++
-[1.0, 1.0]
-===============++Clarendon++Clarendon Condensed++Letter Gothic++ZWAdobeF++
-[1.0, 1.0]
-===============PMingLiU-ExtB++SimSun++SimSun-ExtB++++
-[1.0, 1.0]
-===============MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++++
-[4.0, 4.0]
-===============++Lucida Calligraphy++Poor Richard++Viner Hand ITC++
-[1.0, 1.0]
-===============PMingLiU-ExtB++SimHei++SimSun-ExtB++++
-[1.0, 1.0]
-===============Arial Unicode MS++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Meiryo++Meiryo UI++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++++MS Reference Sans Serif++MS Reference Specialty++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++MT Extra++++
-[2.0, 2.0]
-===============++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++
-[2.0, 2.0]
-===============Book Antiqua++Bookman Old Style++Century++Garamond++Monotype Corsiva++MS Reference Sans Serif++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++MS Reference Specialty++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
-[1.0, 1.0]
-===============++Book Antiqua++Century++Century Gothic++Lucida Handwriting++MS Reference Sans Serif++Bradley Hand ITC++Freestyle Script++French Script MT++Juice ITC++Kristen ITC++Mistral++MS Reference Specialty++Papyrus++Pristina++Tempus Sans ITC++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++MT Extra++++Arial Unicode MS++
-[1.0, 1.0]
-===============Arial Unicode MS++Levenim MT++MT Extra++++
-[1.0, 1.0]
-===============Bitstream Vera Sans Mono++++
-[1.0, 1.0]
-===============++GOTHAM++
-[1.0, 1.0]
-===============++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++ZWAdobeF++
-[1.0, 1.0]
-===============Staccato222 BT++ZWAdobeF++++Leelawadee++Microsoft Uighur++MT Extra++
-[1.0, 1.0]
-===============Lucida Sans++Blackadder ITC++Bradley Hand ITC++Calisto MT++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Matisse ITC++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++Westminster++++Arial Unicode MS++Century++Lucida Bright++Lucida Calligraphy++Lucida Fax++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Brush Script MT++Californian FB++Centaur++Colonna MT++Footlight MT Light++Harrington++High Tower Text++Magneto++Matura MT Script Capitals++MS Mincho++MS Reference Specialty++Niagara Engraved++Niagara Solid++Onyx++Parchment++Ravie++Showcard Gothic++Stencil++Wide Latin++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++MT Extra++++MS Gothic++MS PGothic++MS UI Gothic++
-[1.0, 1.0]
-===============++MS Reference Sans Serif++Verdana++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Leelawadee++Microsoft Uighur++Modern No. 20++Univers CE 55 Medium++
-[1.0, 1.0]
-===============PMingLiU++PMingLiU-ExtB++SimSun++SimSun-ExtB++++
-[2.0, 2.0]
-===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++Lucida Handwriting++Monotype Corsiva++MS Reference Sans Serif++Bradley Hand ITC++Clarendon++Clarendon Condensed++Freestyle Script++French Script MT++Juice ITC++Kristen ITC++Mistral++MS Reference Specialty++Papyrus++Pristina++Tempus Sans ITC++
-[1.0, 1.0]
-===============++Eras Demi ITC++
-[1.0, 1.0]
-===============Batang++EUROSTILE++Matisse ITC++MS Mincho++MT Extra++++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============++Book Antiqua++Bookman Old Style++Century Gothic++Garamond++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++MS Reference Specialty++
-[1.0, 1.0]
-===============Monaco++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++Minion Pro++NewsGoth BT++TRAJAN PRO++TypoUpright BT++++
-[1.0, 1.0]
-===============++Geneva++Monaco++Palatino++Albertus Medium++Antique Olive++Apple Chancery++CG Omega++CG Times++Clarendon++Clarendon Condensed++Cooper Black++Coronet++EUROSTILE++Hoefler Text++Marigold++OPTIMA++Univers++Univers Condensed++
-[1.0, 1.0]
-===============++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Minion Pro++TRAJAN PRO++
-[1.0, 1.0]
-===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Meiryo++Meiryo UI++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============SimSun-ExtB++++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++++ZWAdobeF++
-[1.0, 1.0]
-===============Arial Unicode MS++NewsGoth BT++++ARNO PRO++TRAJAN PRO++
-[1.0, 1.0]
-===============++Century++MS Outlook++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Haettenschweiler++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++
-[1.0, 1.0]
-===============OSAKA++++
-[5.0, 5.0]
-===============MingLiU-ExtB++PMingLiU-ExtB++SimHei++SimSun-ExtB++++
-[1.0, 1.0]
-===============Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Amazone BT++Aurora Cn BT++Bazooka++Boulder++Calligrapher++Cezanne++Chaucer++CloisterBlack BT++Cornerstone++Cuckoo++Denmark++Freefrm721 Blk BT++Geometr231 BT++Geometr231 Hv BT++Geometr231 Lt BT++Heather++Herald++Incised901 Bd BT++Incised901 BT++Incised901 Lt BT++Informal011 BT++Jester++Lydian BT++Market++Marlett++Minion Pro++MT Extra++Pegasus++Pickwick++Poster++Pythagoras++Sceptre++Sherwood++Signboard++Socket++Steamer++Storybook++Subway++Teletype++Tristan++Tubular++Unicorn++Vagabond++ZapfHumnst BT++
-[1.0, 1.0]
-===============++MS Outlook++MS Reference Sans Serif++
-[1.0, 1.0]
-===============++PMingLiU++
-[1.0, 1.0]
-===============MT Extra++++Leelawadee++Microsoft Uighur++
-[8.0, 8.0]
-===============Batang++BatangChe++Browallia New++BrowalliaUPC++Gungsuh++GungsuhChe++Rod++++
-[1.0, 1.0]
-===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============Staccato222 BT++++
-[3.0, 3.0]
-===============Arial Unicode MS++Century Gothic++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Monotype Corsiva++MS Reference Sans Serif++MYRIAD PRO++Blackadder ITC++Edwardian Script ITC++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Parchment++Playbill++Poor Richard++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++TRAJAN PRO++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
-[1.0, 1.0]
-===============++Arial Black++Book Antiqua++Garamond++
-[1.0, 1.0]
-===============Leelawadee++MT Extra++++
-[1.0, 1.0]
-===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============Lucida Bright++++Century Schoolbook++Monotype Corsiva++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Staccato222 BT++Tw Cen MT++Tw Cen MT Condensed++
-[1.0, 1.0]
-===============MT Extra++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++MS Outlook++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Palace Script MT++Perpetua++Perpetua Titling MT++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
-[1.0, 1.0]
-===============MT Extra++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Perpetua++Perpetua Titling MT++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
-[1.0, 1.0]
-===============++MS Outlook++
-[2.0, 2.0]
-===============++Lucida Sans++Blackadder ITC++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Felix Titling++Matisse ITC++Perpetua++Rockwell++Rockwell Condensed++
-[1.0, 1.0]
-===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[3.0, 3.0]
-===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============++MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++
-[1.0, 1.0]
-===============Futura Md BT++++
-[1.0, 1.0]
-===============++Cambria Math++Palatino Linotype++Gabriola++Microsoft Himalaya++Microsoft Tai Le++Microsoft Yi Baiti++MingLiU++MingLiU++HKSCS++MingLiU++HKSCS-ExtB++MingLiU-ExtB++Mongolian Baiti++PMingLiU-ExtB++SimHei++SimSun-ExtB++
-[1.0, 1.0]
-===============MingLiU-ExtB++NSimSun++PMingLiU++SimSun++SimSun-ExtB++++
-[1.0, 1.0]
-===============Broadway++Clarendon++Clarendon Condensed++Script++Serifa++++
-[1.0, 1.0]
-===============MS Reference Sans Serif++MS Reference Specialty++MT Extra++++
-[1.0, 1.0]
-===============++MYRIAD PRO++Andalus++Berlin Sans FB++Bernard MT Condensed++Browallia New++BrowalliaUPC++CordiaUPC++Minion Pro++Ravie++
-[1.0, 1.0]
-===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Gothic++MS Outlook++MS PGothic++MS Reference Sans Serif++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Minion Pro++Mistral++MS Reference Specialty++MS UI Gothic++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============MT Extra++++Arial Unicode MS++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============Book Antiqua++Bookman Old Style++Calibri++Cambria++Century++Century Gothic++Century Schoolbook++Consolas++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Console++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Lucida Sans Unicode++Monotype Corsiva++MS Gothic++MS PGothic++MS Reference Sans Serif++Abadi MT Condensed Light++Baskerville Old Face++Batang++Bell MT++Bernard MT Condensed++Britannic Bold++Calisto MT++Candara++Colonna MT++Constantia++Cooper Black++Copperplate Gothic Bold++Copperplate Gothic Light++Corbel++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Footlight MT Light++Gill Sans MT++Gloucester MT Extra Condensed++Goudy Old Style++Gulim++Haettenschweiler++Harrington++Imprint MT Shadow++Marlett++Matura MT Script Capitals++Meiryo++Mistral++MS Mincho++MS PMincho++MS Reference Specialty++MT Extra++Onyx++Perpetua++Perpetua Titling MT++Playbill++PMingLiU++Rockwell++Rockwell Extra Bold++SimSun++Stencil++Tw Cen MT++Wide Latin++++
-[1.0, 1.0]
-===============++Browallia New++BrowalliaUPC++
-[1.0, 1.0]
-===============Arial Unicode MS++++MS Outlook++MS Reference Sans Serif++Leelawadee++Microsoft Uighur++MS Reference Specialty++MT Extra++
-[1.0, 1.0]
-===============MS UI Gothic++NSimSun++PMingLiU-ExtB++SimHei++SimSun-ExtB++++
-[1.0, 1.0]
-===============Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++MT Extra++++
-[1.0, 1.0]
-===============SimSun++++MingLiU-ExtB++PMingLiU-ExtB++
-[1.0, 1.0]
-===============++MingLiU-ExtB++PMingLiU-ExtB++SimSun-ExtB++
-[1.0, 1.0]
-===============MingLiU-ExtB++NSimSun++PMingLiU-ExtB++SimHei++SimSun-ExtB++++
-[1.0, 1.0]
-===============PMingLiU++PMingLiU-ExtB++++
-[1.0, 1.0]
-===============Meiryo++Meiryo UI++MT Extra++++
-[3.0, 3.0]
-===============++MingLiU-ExtB++MS UI Gothic++NSimSun++PMingLiU++SimHei++SimSun++
-[1.0, 1.0]
-===============Plantagenet Cherokee++++MingLiU-ExtB++MS Mincho++Nyala++
-[1.0, 1.0]
-===============++AvantGarde Bk BT++AvantGarde Md BT++
-[1.0, 1.0]
-===============++Poor Richard++
-[1.0, 1.0]
-===============++Meiryo++Meiryo UI++ZWAdobeF++
-[1.0, 1.0]
-===============MT Extra++++Monaco++
-[1.0, 1.0]
-===============Serifa++++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============++Garamond++Clarendon++Clarendon Condensed++
-[1.0, 1.0]
-===============MT Extra++++Geneva++Monaco++Palatino++Albertus Medium++Antique Olive++Apple Chancery++CG Omega++CG Times++Clarendon++Clarendon Condensed++Coronet++EUROSTILE++Hoefler Text++Letter Gothic++Marigold++OPTIMA++Univers++Univers Condensed++
-[1.0, 1.0]
-===============AvantGarde Bk BT++AvantGarde Md BT++MT Extra++++Lydian BT++PTBarnum BT++
-[1.0, 1.0]
-===============MS Outlook++++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++++MT Extra++
-[1.0, 1.0]
-===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Mincho++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============++GOTHAM++ZWAdobeF++
-[1.0, 1.0]
-===============Bradley Hand ITC++++
-[1.0, 1.0]
-===============Arial Unicode MS++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++Batang++
-[1.0, 1.0]
-===============++Marlett++MT Extra++
-[1.0, 1.0]
-===============++Arial Unicode MS++MS Mincho++
-[1.0, 1.0]
-===============++Arial Unicode MS++Serifa++
-[1.0, 1.0]
-===============++MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++
-[1.0, 1.0]
-===============PMingLiU++PMingLiU-ExtB++++SimSun-ExtB++
-[1.0, 1.0]
-===============++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++
-[1.0, 1.0]
-===============++Script++
-[1.0, 1.0]
-===============++Arial++Courier++Courier New++Helvetica++Times++Times New Roman++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++++Arial Unicode MS++MS Mincho++
-[1.0, 1.0]
-===============Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[2.0, 2.0]
-===============MS Outlook++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
-[1.0, 1.0]
-===============++Arial Unicode MS++Batang++Latha++Mangal++MS Mincho++
-[1.0, 1.0]
-===============++Leelawadee++Microsoft Uighur++MS Mincho++
-[1.0, 1.0]
-===============++MT Extra++Staccato222 BT++
-[1.0, 1.0]
-===============++Andalus++Traditional Arabic++
-[1.0, 1.0]
-===============MingLiU-ExtB++PMingLiU-ExtB++SimSun-ExtB++++
-[2.0, 2.0]
-===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
-[1.0, 1.0]
-===============Aharoni++Leelawadee++Microsoft Uighur++MoolBoran++++
-[1.0, 1.0]
-===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Centaur++Chiller++Colonna MT++Cooper Black++Footlight MT Light++Freestyle Script++French Script MT++Haettenschweiler++Harrington++High Tower Text++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Papyrus++Parchment++Playbill++Poor Richard++Pristina++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++Lucida Sans++Lucida Sans Typewriter++Staccato222 BT++
-[1.0, 1.0]
-===============Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Clarendon++Clarendon Condensed++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============PMingLiU-ExtB++SimSun++++
-[2.0, 2.0]
-===============Staccato222 BT++++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++MS Reference Sans Serif++MS Mincho++MS Reference Specialty++MT Extra++
-[1.0, 1.0]
-===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Maiandra GD++
-[1.0, 1.0]
-===============MT Extra++++Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++
-[1.0, 1.0]
-===============MingLiU-ExtB++PMingLiU++PMingLiU-ExtB++SimSun++SimSun-ExtB++++
-[1.0, 1.0]
-===============++Arial Unicode MS++Century++Batang++Latha++Mangal++MS Mincho++MT Extra++PMingLiU-ExtB++
-[1.0, 1.0]
-===============MYRIAD PRO++++Palatino++Albertus Medium++Antique Olive++CG Omega++CG Times++Clarendon++Clarendon Condensed++Coronet++Marigold++OPTIMA++Univers++Univers Condensed++
-[1.0, 1.0]
-===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Meiryo++Meiryo UI++Minion Pro++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
-[1.0, 1.0]
-===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++MS Outlook++
-[1.0, 1.0]
-===============MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++Staccato222 BT++++
-[1.0, 1.0]
-===============Arial Unicode MS++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++++Leelawadee++Microsoft Uighur++MT Extra++
-[1.0, 1.0]
-===============MS Outlook++++Leelawadee++Microsoft Uighur++
-[1.0, 1.0]
-===============MT Extra++++Meiryo++Meiryo UI++
-[5.0, 5.0]
 ===============Chromium PDF Viewer++++Chromium PDF Plugin++
 [6.0, 6.0]
 ===============Shockwave Flash++++Chromium PDF Plugin++Chromium PDF Viewer++
@@ -631,6 +247,18 @@
 ===============++Shockwave Flash++Widevine Content Decryption Module++
 [10.0, 10.0]
 ===============Chromium PDF Plugin++Chromium PDF Viewer++Shockwave Flash++++
+[1.0, 1.0]
+===============ANGLE (NVIDIA GeForce GTS 450 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTS 450 Direct3D11 vs++5++5++
+[1.0, 1.0]
+===============ANGLE (Intel(R) HD Graphics 3000 Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (Intel(R) HD Graphics 3000 Direct3D9Ex vs++3++0 ps++3++0)++
+[1.0, 1.0]
+===============ANGLE (Intel(R) HD Graphics 520 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 520 Direct3D11 vs++5++5++
+[1.0, 1.0]
+===============ANGLE (AMD Radeon HD 7480D Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7480D Direct3D11 vs++5++5++
+[1.0, 1.0]
+===============ANGLE (AMD Radeon HD 6550D Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 6550D Direct3D9Ex vs++3++3++
+[1.0, 1.0]
+===============ANGLE (NVIDIA GeForce GT 540M   Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 540M   Direct3D11 vs++5++5++
 [1.0, 1.0]
 ===============40046923++=>65023328++
 [1.0, 1.0]
@@ -1580,24 +1208,12 @@
 [1.0, 1.0]
 ===============True++=>False++
 [36.0, 37.0]
-===============True++=>False++
-[36.0, 37.0]
 ===============False++=>True++
 [1.0, 1.0]
 ===============True++=>False++
 [4.0, 4.0]
-===============ANGLE (NVIDIA GeForce GTS 450 Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GTS 450 Direct3D11 vs++5++5++
-[1.0, 1.0]
-===============ANGLE (Intel(R) HD Graphics 3000 Direct3D11 vs++4++1 ps++4++1)++=>ANGLE (Intel(R) HD Graphics 3000 Direct3D9Ex vs++3++0 ps++3++0)++
-[1.0, 1.0]
-===============ANGLE (Intel(R) HD Graphics 520 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 520 Direct3D11 vs++5++5++
-[1.0, 1.0]
-===============ANGLE (AMD Radeon HD 7480D Direct3D9Ex vs++3++3++=>ANGLE (AMD Radeon HD 7480D Direct3D11 vs++5++5++
-[1.0, 1.0]
-===============ANGLE (AMD Radeon HD 6550D Direct3D11 vs++5++5++=>ANGLE (AMD Radeon HD 6550D Direct3D9Ex vs++3++3++
-[1.0, 1.0]
-===============ANGLE (NVIDIA GeForce GT 540M   Direct3D9Ex vs++3++3++=>ANGLE (NVIDIA GeForce GT 540M   Direct3D11 vs++5++5++
-[1.0, 1.0]
+===============True++=>False++
+[36.0, 37.0]
 ===============44100++2++=>48000++6++
 [1.0, 1.0]
 ===============8++=>2++
@@ -1616,3 +1232,387 @@
 [1.0, 1.0]
 ===============44100++8++=>48000++2++
 [2.0, 2.0]
+===============1.25++=>0.899999976158++
+[1.0, 1.0]
+===============1.5++=>2++
+[1.0, 1.0]
+===============2.12239575386++=>2.01822924614++
+[1.0, 1.0]
+===============1.5++=>1.75++
+[1.0, 1.0]
+===============1.875++=>2.12239575386++
+[1.0, 1.0]
+===============1.875++=>1++
+[1.0, 1.0]
+===============2.5++=>2++
+[1.0, 1.0]
+===============1.25++=>2++
+[2.0, 2.0]
+===============1++=>0.83333337307++
+[1.0, 1.0]
+===============1.25++=>1.19791662693++
+[1.0, 1.0]
+===============1.5++=>1.35416662693++
+[1.0, 1.0]
+===============1.10000002384++=>1.25++
+[2.0, 2.0]
+===============1.10416662693++=>1++
+[1.0, 1.0]
+===============1.375++=>1.10000002384++
+[1.0, 1.0]
+===============1.10416662693++=>1.2145832777++
+[2.0, 2.0]
+===============1.14583337307++=>1.19791662693++
+[2.0, 2.0]
+===============1.60000002384++=>1.5++
+[1.0, 1.0]
+===============1.25++=>1.5625++
+[1.0, 1.0]
+===============1++=>1.10416662693++
+[1.0, 1.0]
+===============1.25++=>1.30208337307++
+[1.0, 1.0]
+===============1++=>1.5625++
+[1.0, 1.0]
+===============1++=>1.14583337307++
+[1.0, 1.0]
+===============1.30208337307++=>1.171875++
+[1.0, 1.0]
+===============MingLiU-ExtB++MS Mincho++MS UI Gothic++NSimSun++Nyala++PMingLiU-ExtB++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++SimSun-ExtB++Sylfaen++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
+[1.0, 1.0]
+===============++Lucida Bright++Lucida Calligraphy++Papyrus++Poor Richard++Viner Hand ITC++
+[1.0, 1.0]
+===============++MingLiU++HKSCS-ExtB++MingLiU-ExtB++PMingLiU++PMingLiU-ExtB++SimHei++SimSun-ExtB++
+[1.0, 1.0]
+===============++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++
+[2.0, 2.0]
+===============Arial Unicode MS++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
+[1.0, 1.0]
+===============++MS Reference Sans Serif++MS Reference Specialty++
+[1.0, 1.0]
+===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Centaur++Chiller++Colonna MT++Cooper Black++Footlight MT Light++Freestyle Script++French Script MT++Harrington++High Tower Text++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Papyrus++Parchment++Playbill++Poor Richard++Pristina++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============++Rockwell++
+[7.0, 7.0]
+===============++SCRIPTINA++
+[1.0, 1.0]
+===============SimSun++SimSun-ExtB++++
+[3.0, 3.0]
+===============++Vivaldi++
+[1.0, 1.0]
+===============++MS UI Gothic++NSimSun++PMingLiU-ExtB++SimHei++
+[1.0, 1.0]
+===============++MYRIAD PRO++Minion Pro++
+[1.0, 1.0]
+===============Haettenschweiler++++MT Extra++
+[1.0, 1.0]
+===============Book Antiqua++Bookman Old Style++Century Gothic++Garamond++++
+[1.0, 1.0]
+===============BankGothic Md BT++++
+[1.0, 1.0]
+===============SimSun++SimSun-ExtB++++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============Batang++Leelawadee++Microsoft Uighur++MS Mincho++++
+[1.0, 1.0]
+===============Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Mangal++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============++MS Outlook++Leelawadee++Microsoft Uighur++
+[2.0, 2.0]
+===============PMingLiU-ExtB++++Papyrus++
+[1.0, 1.0]
+===============Century Gothic++Lucida Sans++MS Reference Sans Serif++Blackadder ITC++Bradley Hand ITC++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Felix Titling++French Script MT++Jokerman++Juice ITC++Kristen ITC++Maiandra GD++Matisse ITC++Mistral++MS Reference Specialty++MT Extra++Papyrus++Perpetua++Rockwell++Rockwell Condensed++Tempus Sans ITC++Vivaldi++++
+[1.0, 1.0]
+===============Letter Gothic++MT Extra++++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============Letter Gothic++++MYRIAD PRO++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============++BankGothic Md BT++Swis721 BlkEx BT++
+[1.0, 1.0]
+===============Dotum++DotumChe++FangSong++GulimChe++Gungsuh++GungsuhChe++KaiTi++Malgun Gothic++Meiryo++Meiryo UI++Microsoft JhengHei++Microsoft YaHei++MingLiU++MingLiU++HKSCS++MingLiU++HKSCS-ExtB++MingLiU-ExtB++MS Mincho++MS PMincho++MS UI Gothic++NSimSun++SimHei++++
+[1.0, 1.0]
+===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Levenim MT++LilyUPC++Mangal++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Marlett++Matura MT Script Capitals++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============++BatangChe++Dotum++DotumChe++FangSong++GulimChe++Gungsuh++GungsuhChe++KaiTi++Meiryo++Meiryo UI++Microsoft JhengHei++Microsoft YaHei++Microsoft Yi Baiti++MingLiU++MingLiU++HKSCS++MingLiU++HKSCS-ExtB++MingLiU-ExtB++Miriam++Miriam Fixed++Mistral++Mongolian Baiti++MoolBoran++MS Mincho++MS PMincho++MS Reference Specialty++MS UI Gothic++MT Extra++MV Boli++Narkisim++Niagara Engraved++Niagara Solid++NSimSun++Nyala++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Plantagenet Cherokee++Playbill++Poor Richard++Pristina++Raavi++Ravie++Rockwell++Rockwell Condensed++Rod++Sakkal Majalla++Shonar Bangla++Showcard Gothic++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++SimSun-ExtB++Snap ITC++Stencil++Sylfaen++Tempus Sans ITC++Traditional Arabic++Tunga++Tw Cen MT++Tw Cen MT Condensed++Utsaah++Vani++Vijaya++Viner Hand ITC++Vivaldi++Vladimir Script++Vrinda++Wide Latin++
+[1.0, 1.0]
+===============MT Extra++++Arial Unicode MS++Meiryo++Meiryo UI++
+[1.0, 1.0]
+===============++Bradley Hand++Rockwell++
+[1.0, 1.0]
+===============++EngraversGothic BT++
+[1.0, 1.0]
+===============PMingLiU++++
+[1.0, 1.0]
+===============++MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++Staccato222 BT++
+[1.0, 1.0]
+===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Vivaldi++Vladimir Script++Wide Latin++
+[2.0, 2.0]
+===============MT Extra++++ZWAdobeF++
+[1.0, 1.0]
+===============Aharoni++Andalus++Batang++BatangChe++Browallia New++BrowalliaUPC++CordiaUPC++Gungsuh++GungsuhChe++Rod++++
+[1.0, 1.0]
+===============MS Reference Sans Serif++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Humanst521 BT++MS Reference Specialty++Staccato222 BT++++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Broadway++Brush Script MT++Californian FB++Centaur++Chiller++Colonna MT++Cooper Black++Footlight MT Light++Freestyle Script++Harrington++High Tower Text++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Matura MT Script Capitals++Mistral++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Parchment++Playbill++Poor Richard++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============Trebuchet MS++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++++
+[1.0, 1.0]
+===============MT Extra++++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Minion Pro++TRAJAN PRO++
+[1.0, 1.0]
+===============Agency FB++++
+[1.0, 1.0]
+===============Book Antiqua++Century Gothic++++
+[1.0, 1.0]
+===============Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++MS Mincho++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Staccato222 BT++Stencil++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============ZWAdobeF++++Leelawadee++Microsoft Uighur++MT Extra++
+[1.0, 1.0]
+===============++Letter Gothic++
+[3.0, 3.0]
+===============Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++++
+[1.0, 1.0]
+===============++Clarendon++Clarendon Condensed++Letter Gothic++ZWAdobeF++
+[1.0, 1.0]
+===============PMingLiU-ExtB++SimSun++SimSun-ExtB++++
+[1.0, 1.0]
+===============MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++++
+[4.0, 4.0]
+===============++Lucida Calligraphy++Poor Richard++Viner Hand ITC++
+[1.0, 1.0]
+===============PMingLiU-ExtB++SimHei++SimSun-ExtB++++
+[1.0, 1.0]
+===============Arial Unicode MS++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Meiryo++Meiryo UI++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++++MS Reference Sans Serif++MS Reference Specialty++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++MT Extra++++
+[2.0, 2.0]
+===============++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++
+[2.0, 2.0]
+===============Book Antiqua++Bookman Old Style++Century++Garamond++Monotype Corsiva++MS Reference Sans Serif++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++MS Reference Specialty++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
+[1.0, 1.0]
+===============++Book Antiqua++Century++Century Gothic++Lucida Handwriting++MS Reference Sans Serif++Bradley Hand ITC++Freestyle Script++French Script MT++Juice ITC++Kristen ITC++Mistral++MS Reference Specialty++Papyrus++Pristina++Tempus Sans ITC++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++MT Extra++++Arial Unicode MS++
+[1.0, 1.0]
+===============Arial Unicode MS++Levenim MT++MT Extra++++
+[1.0, 1.0]
+===============Bitstream Vera Sans Mono++++
+[1.0, 1.0]
+===============++GOTHAM++
+[1.0, 1.0]
+===============++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++ZWAdobeF++
+[1.0, 1.0]
+===============Staccato222 BT++ZWAdobeF++++Leelawadee++Microsoft Uighur++MT Extra++
+[1.0, 1.0]
+===============Lucida Sans++Blackadder ITC++Bradley Hand ITC++Calisto MT++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Matisse ITC++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++Westminster++++Arial Unicode MS++Century++Lucida Bright++Lucida Calligraphy++Lucida Fax++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Brush Script MT++Californian FB++Centaur++Colonna MT++Footlight MT Light++Harrington++High Tower Text++Magneto++Matura MT Script Capitals++MS Mincho++MS Reference Specialty++Niagara Engraved++Niagara Solid++Onyx++Parchment++Ravie++Showcard Gothic++Stencil++Wide Latin++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++MT Extra++++MS Gothic++MS PGothic++MS UI Gothic++
+[1.0, 1.0]
+===============++MS Reference Sans Serif++Verdana++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Leelawadee++Microsoft Uighur++Modern No. 20++Univers CE 55 Medium++
+[1.0, 1.0]
+===============PMingLiU++PMingLiU-ExtB++SimSun++SimSun-ExtB++++
+[2.0, 2.0]
+===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++Lucida Handwriting++Monotype Corsiva++MS Reference Sans Serif++Bradley Hand ITC++Clarendon++Clarendon Condensed++Freestyle Script++French Script MT++Juice ITC++Kristen ITC++Mistral++MS Reference Specialty++Papyrus++Pristina++Tempus Sans ITC++
+[1.0, 1.0]
+===============++Eras Demi ITC++
+[1.0, 1.0]
+===============Batang++EUROSTILE++Matisse ITC++MS Mincho++MT Extra++++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============++Book Antiqua++Bookman Old Style++Century Gothic++Garamond++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++MS Reference Specialty++
+[1.0, 1.0]
+===============Monaco++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++Minion Pro++NewsGoth BT++TRAJAN PRO++TypoUpright BT++++
+[1.0, 1.0]
+===============++Geneva++Monaco++Palatino++Albertus Medium++Antique Olive++Apple Chancery++CG Omega++CG Times++Clarendon++Clarendon Condensed++Cooper Black++Coronet++EUROSTILE++Hoefler Text++Marigold++OPTIMA++Univers++Univers Condensed++
+[1.0, 1.0]
+===============++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Minion Pro++TRAJAN PRO++
+[1.0, 1.0]
+===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Meiryo++Meiryo UI++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============SimSun-ExtB++++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++++ZWAdobeF++
+[1.0, 1.0]
+===============Arial Unicode MS++NewsGoth BT++++ARNO PRO++TRAJAN PRO++
+[1.0, 1.0]
+===============++Century++MS Outlook++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Haettenschweiler++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++
+[1.0, 1.0]
+===============OSAKA++++
+[5.0, 5.0]
+===============MingLiU-ExtB++PMingLiU-ExtB++SimHei++SimSun-ExtB++++
+[1.0, 1.0]
+===============Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Amazone BT++Aurora Cn BT++Bazooka++Boulder++Calligrapher++Cezanne++Chaucer++CloisterBlack BT++Cornerstone++Cuckoo++Denmark++Freefrm721 Blk BT++Geometr231 BT++Geometr231 Hv BT++Geometr231 Lt BT++Heather++Herald++Incised901 Bd BT++Incised901 BT++Incised901 Lt BT++Informal011 BT++Jester++Lydian BT++Market++Marlett++Minion Pro++MT Extra++Pegasus++Pickwick++Poster++Pythagoras++Sceptre++Sherwood++Signboard++Socket++Steamer++Storybook++Subway++Teletype++Tristan++Tubular++Unicorn++Vagabond++ZapfHumnst BT++
+[1.0, 1.0]
+===============++MS Outlook++MS Reference Sans Serif++
+[1.0, 1.0]
+===============++PMingLiU++
+[1.0, 1.0]
+===============MT Extra++++Leelawadee++Microsoft Uighur++
+[8.0, 8.0]
+===============Batang++BatangChe++Browallia New++BrowalliaUPC++Gungsuh++GungsuhChe++Rod++++
+[1.0, 1.0]
+===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============Staccato222 BT++++
+[3.0, 3.0]
+===============Arial Unicode MS++Century Gothic++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Monotype Corsiva++MS Reference Sans Serif++MYRIAD PRO++Blackadder ITC++Edwardian Script ITC++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Parchment++Playbill++Poor Richard++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++TRAJAN PRO++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
+[1.0, 1.0]
+===============++Arial Black++Book Antiqua++Garamond++
+[1.0, 1.0]
+===============Leelawadee++MT Extra++++
+[1.0, 1.0]
+===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============Lucida Bright++++Century Schoolbook++Monotype Corsiva++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Staccato222 BT++Tw Cen MT++Tw Cen MT Condensed++
+[1.0, 1.0]
+===============MT Extra++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++MS Outlook++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Imprint MT Shadow++Maiandra GD++Palace Script MT++Perpetua++Perpetua Titling MT++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
+[1.0, 1.0]
+===============MT Extra++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Perpetua++Perpetua Titling MT++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
+[1.0, 1.0]
+===============++MS Outlook++
+[2.0, 2.0]
+===============++Lucida Sans++Blackadder ITC++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Felix Titling++Matisse ITC++Perpetua++Rockwell++Rockwell Condensed++
+[1.0, 1.0]
+===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[3.0, 3.0]
+===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============++MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++
+[1.0, 1.0]
+===============Futura Md BT++++
+[1.0, 1.0]
+===============++Cambria Math++Palatino Linotype++Gabriola++Microsoft Himalaya++Microsoft Tai Le++Microsoft Yi Baiti++MingLiU++MingLiU++HKSCS++MingLiU++HKSCS-ExtB++MingLiU-ExtB++Mongolian Baiti++PMingLiU-ExtB++SimHei++SimSun-ExtB++
+[1.0, 1.0]
+===============MingLiU-ExtB++NSimSun++PMingLiU++SimSun++SimSun-ExtB++++
+[1.0, 1.0]
+===============Broadway++Clarendon++Clarendon Condensed++Script++Serifa++++
+[1.0, 1.0]
+===============MS Reference Sans Serif++MS Reference Specialty++MT Extra++++
+[1.0, 1.0]
+===============++MYRIAD PRO++Andalus++Berlin Sans FB++Bernard MT Condensed++Browallia New++BrowalliaUPC++CordiaUPC++Minion Pro++Ravie++
+[1.0, 1.0]
+===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Gothic++MS Outlook++MS PGothic++MS Reference Sans Serif++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Leelawadee++Magneto++Maiandra GD++Matura MT Script Capitals++Microsoft Uighur++Minion Pro++Mistral++MS Reference Specialty++MS UI Gothic++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============MT Extra++++Arial Unicode MS++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============Book Antiqua++Bookman Old Style++Calibri++Cambria++Century++Century Gothic++Century Schoolbook++Consolas++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Console++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Lucida Sans Unicode++Monotype Corsiva++MS Gothic++MS PGothic++MS Reference Sans Serif++Abadi MT Condensed Light++Baskerville Old Face++Batang++Bell MT++Bernard MT Condensed++Britannic Bold++Calisto MT++Candara++Colonna MT++Constantia++Cooper Black++Copperplate Gothic Bold++Copperplate Gothic Light++Corbel++Curlz MT++Edwardian Script ITC++Engravers MT++EUROSTILE++Footlight MT Light++Gill Sans MT++Gloucester MT Extra Condensed++Goudy Old Style++Gulim++Haettenschweiler++Harrington++Imprint MT Shadow++Marlett++Matura MT Script Capitals++Meiryo++Mistral++MS Mincho++MS PMincho++MS Reference Specialty++MT Extra++Onyx++Perpetua++Perpetua Titling MT++Playbill++PMingLiU++Rockwell++Rockwell Extra Bold++SimSun++Stencil++Tw Cen MT++Wide Latin++++
+[1.0, 1.0]
+===============++Browallia New++BrowalliaUPC++
+[1.0, 1.0]
+===============Arial Unicode MS++++MS Outlook++MS Reference Sans Serif++Leelawadee++Microsoft Uighur++MS Reference Specialty++MT Extra++
+[1.0, 1.0]
+===============MS UI Gothic++NSimSun++PMingLiU-ExtB++SimHei++SimSun-ExtB++++
+[1.0, 1.0]
+===============Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++MT Extra++++
+[1.0, 1.0]
+===============SimSun++++MingLiU-ExtB++PMingLiU-ExtB++
+[1.0, 1.0]
+===============++MingLiU-ExtB++PMingLiU-ExtB++SimSun-ExtB++
+[1.0, 1.0]
+===============MingLiU-ExtB++NSimSun++PMingLiU-ExtB++SimHei++SimSun-ExtB++++
+[1.0, 1.0]
+===============PMingLiU++PMingLiU-ExtB++++
+[1.0, 1.0]
+===============Meiryo++Meiryo UI++MT Extra++++
+[3.0, 3.0]
+===============++MingLiU-ExtB++MS UI Gothic++NSimSun++PMingLiU++SimHei++SimSun++
+[1.0, 1.0]
+===============Plantagenet Cherokee++++MingLiU-ExtB++MS Mincho++Nyala++
+[1.0, 1.0]
+===============++AvantGarde Bk BT++AvantGarde Md BT++
+[1.0, 1.0]
+===============++Poor Richard++
+[1.0, 1.0]
+===============++Meiryo++Meiryo UI++ZWAdobeF++
+[1.0, 1.0]
+===============MT Extra++++Monaco++
+[1.0, 1.0]
+===============Serifa++++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============++Garamond++Clarendon++Clarendon Condensed++
+[1.0, 1.0]
+===============MT Extra++++Geneva++Monaco++Palatino++Albertus Medium++Antique Olive++Apple Chancery++CG Omega++CG Times++Clarendon++Clarendon Condensed++Coronet++EUROSTILE++Hoefler Text++Letter Gothic++Marigold++OPTIMA++Univers++Univers Condensed++
+[1.0, 1.0]
+===============AvantGarde Bk BT++AvantGarde Md BT++MT Extra++++Lydian BT++PTBarnum BT++
+[1.0, 1.0]
+===============MS Outlook++++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++++MT Extra++
+[1.0, 1.0]
+===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Mincho++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============++GOTHAM++ZWAdobeF++
+[1.0, 1.0]
+===============Bradley Hand ITC++++
+[1.0, 1.0]
+===============Arial Unicode MS++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++Batang++
+[1.0, 1.0]
+===============++Marlett++MT Extra++
+[1.0, 1.0]
+===============++Arial Unicode MS++MS Mincho++
+[1.0, 1.0]
+===============++Arial Unicode MS++Serifa++
+[1.0, 1.0]
+===============++MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++
+[1.0, 1.0]
+===============PMingLiU++PMingLiU-ExtB++++SimSun-ExtB++
+[1.0, 1.0]
+===============++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++
+[1.0, 1.0]
+===============++Script++
+[1.0, 1.0]
+===============++Arial++Courier++Courier New++Helvetica++Times++Times New Roman++
+[1.0, 1.0]
+===============Leelawadee++Microsoft Uighur++++Arial Unicode MS++MS Mincho++
+[1.0, 1.0]
+===============Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[2.0, 2.0]
+===============MS Outlook++Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++
+[1.0, 1.0]
+===============++Arial Unicode MS++Batang++Latha++Mangal++MS Mincho++
+[1.0, 1.0]
+===============++Leelawadee++Microsoft Uighur++MS Mincho++
+[1.0, 1.0]
+===============++MT Extra++Staccato222 BT++
+[1.0, 1.0]
+===============++Andalus++Traditional Arabic++
+[1.0, 1.0]
+===============MingLiU-ExtB++PMingLiU-ExtB++SimSun-ExtB++++
+[2.0, 2.0]
+===============++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+[1.0, 1.0]
+===============Aharoni++Leelawadee++Microsoft Uighur++MoolBoran++++
+[1.0, 1.0]
+===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Centaur++Chiller++Colonna MT++Cooper Black++Footlight MT Light++Freestyle Script++French Script MT++Haettenschweiler++Harrington++High Tower Text++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Papyrus++Parchment++Playbill++Poor Richard++Pristina++Ravie++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++Lucida Sans++Lucida Sans Typewriter++Staccato222 BT++
+[1.0, 1.0]
+===============Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Clarendon++Clarendon Condensed++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============PMingLiU-ExtB++SimSun++++
+[2.0, 2.0]
+===============Staccato222 BT++++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============++Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Garamond++MS Reference Sans Serif++MS Mincho++MS Reference Specialty++MT Extra++
+[1.0, 1.0]
+===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS Mincho++MS PMincho++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++Maiandra GD++
+[1.0, 1.0]
+===============MT Extra++++Leelawadee++Meiryo++Meiryo UI++Microsoft Uighur++
+[1.0, 1.0]
+===============MingLiU-ExtB++PMingLiU++PMingLiU-ExtB++SimSun++SimSun-ExtB++++
+[1.0, 1.0]
+===============++Arial Unicode MS++Century++Batang++Latha++Mangal++MS Mincho++MT Extra++PMingLiU-ExtB++
+[1.0, 1.0]
+===============MYRIAD PRO++++Palatino++Albertus Medium++Antique Olive++CG Omega++CG Times++Clarendon++Clarendon Condensed++Coronet++Marigold++OPTIMA++Univers++Univers Condensed++
+[1.0, 1.0]
+===============Arial Unicode MS++Book Antiqua++Bookman Old Style++Century++Century Gothic++Century Schoolbook++Garamond++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Handwriting++Lucida Sans++Lucida Sans Typewriter++Monotype Corsiva++MS Outlook++MS Reference Sans Serif++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Footlight MT Light++Forte++Freestyle Script++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Juice ITC++Kristen ITC++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Meiryo++Meiryo UI++Minion Pro++Mistral++MS Reference Specialty++MT Extra++Niagara Engraved++Niagara Solid++Old English Text MT++Onyx++Palace Script MT++Papyrus++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Pristina++Ravie++Rockwell++Rockwell Condensed++Showcard Gothic++Snap ITC++Stencil++Tempus Sans ITC++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++++
+[1.0, 1.0]
+===============Aharoni++Andalus++Angsana New++AngsanaUPC++Aparajita++Arabic Typesetting++Batang++BatangChe++Browallia New++BrowalliaUPC++Cordia New++CordiaUPC++DaunPenh++David++DFKai-SB++DilleniaUPC++DokChampa++Dotum++DotumChe++EucrosiaUPC++Euphemia++FangSong++FrankRuehl++FreesiaUPC++Gautami++Gisha++Gulim++GulimChe++Gungsuh++GungsuhChe++IrisUPC++Iskoola Pota++JasmineUPC++KaiTi++Kalinga++Kartika++Khmer UI++KodchiangUPC++Kokila++Lao UI++Latha++Leelawadee++Levenim MT++LilyUPC++Mangal++Meiryo++Meiryo UI++Microsoft Uighur++MingLiU++HKSCS++MingLiU++Miriam++Miriam Fixed++MoolBoran++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Sakkal Majalla++Shonar Bangla++Shruti++SimHei++Simplified Arabic++Simplified Arabic Fixed++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++++MS Outlook++
+[1.0, 1.0]
+===============MS Outlook++MS Reference Sans Serif++MS Reference Specialty++MT Extra++Staccato222 BT++++
+[1.0, 1.0]
+===============Arial Unicode MS++EngraversGothic BT++Exotc350 Bd BT++Futura Bk BT++Futura Md BT++Humanst521 BT++Humanst521 Lt BT++Kaufmann BT++NewsGoth BT++TypoUpright BT++++Leelawadee++Microsoft Uighur++MT Extra++
+[1.0, 1.0]
+===============MS Outlook++++Leelawadee++Microsoft Uighur++
+[1.0, 1.0]
+===============MT Extra++++Meiryo++Meiryo UI++
+[5.0, 5.0]

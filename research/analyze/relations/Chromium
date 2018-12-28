@@ -36,18 +36,6 @@
 [1.0, 1.0]
 ===============q=0.8++=>q=0.9++
 [2.0, 2.0]
-===============1++=>1.29999995232++
-[1.0, 1.0]
-===============++Cambria Math++Consolas++Candara++Constantia++Corbel++
-[1.0, 1.0]
-===============++MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++
-[2.0, 2.0]
-===============++MONO++
-[1.0, 1.0]
-===============++MS Gothic++MS PGothic++Segoe UI++MS PMincho++PMingLiU++SimSun++
-[1.0, 1.0]
-===============MONO++++Arial++Courier++Courier New++Helvetica++MS Gothic++MS PGothic++Times++Times New Roman++MS PMincho++PMingLiU++SimSun++
-[1.0, 1.0]
 ===============Chromium PDF Viewer++++Chromium PDF Plugin++
 [1.0, 1.0]
 ===============++Widevine Content Decryption Module++
@@ -137,6 +125,18 @@
 ===============True++=>False++
 [1.0, 1.0]
 ===============True++=>False++
-[1.0, 1.0]
-===============True++=>False++
 [5.0, 5.0]
+===============True++=>False++
+[1.0, 1.0]
+===============1++=>1.29999995232++
+[1.0, 1.0]
+===============++Cambria Math++Consolas++Candara++Constantia++Corbel++
+[1.0, 1.0]
+===============++MS Gothic++MS PGothic++MS PMincho++PMingLiU++SimSun++
+[2.0, 2.0]
+===============++MONO++
+[1.0, 1.0]
+===============++MS Gothic++MS PGothic++Segoe UI++MS PMincho++PMingLiU++SimSun++
+[1.0, 1.0]
+===============MONO++++Arial++Courier++Courier New++Helvetica++MS Gothic++MS PGothic++Times++Times New Roman++MS PMincho++PMingLiU++SimSun++
+[1.0, 1.0]

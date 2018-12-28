@@ -1215,16 +1215,21 @@ class Paperlib():
         df = self.remove_flip_plugins(df, sep = '++')
         totalNumOfChanges = 0
         match_list = {
+                'WebGL': 'WebGL',
+                'inc': 'inc',
+                'gpu': 'GPU', 
                 'fp2_colordepth': 'colorDepth',
+                #'accept': 'header',
                 'encoding': 'header',
                 'language': 'header',
+                #'httpheaders': 'header',
                 'agent': 'agent',
+                'resolution': 'resolution',
                 'localstorage': 'localStorage',
                 'fp2_pixelratio': 'zoom',
                 'langsdetected': 'detectedLanguages',
                 'timezone': 'timezone',
                 'plugins': 'plugin',
-                'gpu': 'GPU', 
                 'cookie': 'cookie',
                 'fp2_liedbrowser': 'lied',
                 'fp2_liedresolution': 'lied',
@@ -1236,8 +1241,8 @@ class Paperlib():
                 #'ipcity': 'ipcity'
                 }
 
-        useraction_list = ['localStorage', 'zoom', 'timezone', 'plugin', 'GPU', 'cookie']
-        environment_list = ['colorDepth', 'detectedLanguages', 'lied', 'audio', 'jsFonts', 'canvas']
+        useraction_list = ['localStorage', 'zoom', 'timezone', 'plugin', 'cookie', 'WebGL', 'lied', 'header']
+        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'jsFonts', 'canvas', 'GPU', 'inc', 'resolution']
 
         added_feature = [
                 'os',
@@ -1287,6 +1292,13 @@ class Paperlib():
         cnt = -1
         total_change = 0
         classes_numbers = {}
+
+        for browser in desktop_browsers:
+            classes_numbers[browser] = {}
+        for browser in mobile_browsers:
+            classes_numbers[browser] = {}
+        classes_numbers['overall'] = {}
+
         others_numbers = {}
         for idx, row in tqdm(df.iterrows()):
             cnt += 1
@@ -1342,13 +1354,17 @@ class Paperlib():
                         if 'environment' not in cur_classes:
                             cur_classes += 'environment_'
                 
-            if len(cur_classes) > 0 and cur_classes not in classes_numbers:
-                classes_numbers[cur_classes] = set()
-            if len(cur_classes) > 0:
-                classes_numbers[cur_classes].add(cnt)
 
             if len(cur_classes) > 0:
                 total_change += 1
+                if cur_classes not in classes_numbers['overall']:
+                    classes_numbers['overall'][cur_classes] = set()
+                classes_numbers['overall'][cur_classes].add(cnt)
+
+                if browser in classes_numbers:
+                    if cur_classes not in classes_numbers[browser]:
+                        classes_numbers[browser][cur_classes] = set()
+                    classes_numbers[browser][cur_classes].add(cnt)
 
             for feature in feature_list:
                 if feature not in useraction_list and feature not in environment_list and cur_classes == '':
@@ -1357,10 +1373,17 @@ class Paperlib():
                     if row[feature] != '':
                         others_numbers[feature] += 1
 
-        sorted_classes_numbers = sorted(classes_numbers.iteritems(), key = lambda (k, v): (-len(v), k))
+        sorted_classes_numbers = {}
+        for cur_type in classes_numbers:
+            sorted_classes_numbers[cur_type] = sorted(classes_numbers[cur_type].iteritems(), key = lambda (k, v): (-len(v), k))
+
         f = safeopen('./changereason/bigtable/classes', 'w')
-        for item in sorted_classes_numbers:
-            f.write('{}\t{}\n'.format(item[0], float(len(item[1])) / float(total_change)))
+        for cur_type in sorted_classes_numbers:
+            cur_total_number = sum([len(v[1]) for v in sorted_classes_numbers[cur_type]])
+            if cur_total_number == 0:
+                cur_total_number = 1
+            for item in sorted_classes_numbers[cur_type]:
+                f.write('{}\t{}\n'.format(item[0], float(len(item[1])) / float(cur_total_number)))
         for item in others_numbers:
             f.write('{}\t{}\n'.format(item, others_numbers[item]))
         f.close()

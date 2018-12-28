@@ -12,20 +12,16 @@
 [2.0, 2.0]
 ===============gzip, deflate++=>gzip, deflate, br++
 [1.0, 1.0]
-===============++Denmark++
-[1.0, 1.0]
-===============Script++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
-[1.0, 1.0]
-===============++Meiryo++Meiryo UI++Staccato222 BT++
-[1.0, 1.0]
-===============++Marlett++
-[1.0, 1.0]
 ===============Chromium PDF Viewer++++Chromium PDF Plugin++
 [18.0, 18.0]
 ===============Chromoting Viewer++Foxit Reader Plugin for Mozilla++Google Update++Shockwave Flash++++Widevine Content Decryption Module++
 [1.0, 1.0]
 ===============++Shockwave Flash++
 [2.0, 2.0]
+===============ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++
+[2.0, 2.0]
+===============ANGLE (Intel(R) HD Graphics 520 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 520 Direct3D11 vs++5++5++
+[1.0, 1.0]
 ===============coc_coc_browser/66.4.104++Chrome/60.4.3112.104++=>coc_coc_browser/68.4.154++Chrome/62.4.3202.154++
 [1.0, 1.0]
 ===============coc_coc_browser/68.4.190++Chrome/62.4.3202.190++=>coc_coc_browser/70.4.236++Chrome/64.4.3282.236++
@@ -50,9 +46,13 @@
 [3.0, 3.0]
 ===============coc_coc_browser/66.4.120++Chrome/60.4.3112.120++=>coc_coc_browser/68.4.126++Chrome/62.4.3202.126++
 [1.0, 1.0]
-===============ANGLE (Intel(R) HD Graphics Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Direct3D11 vs++5++5++
-[2.0, 2.0]
-===============ANGLE (Intel(R) HD Graphics 520 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 520 Direct3D11 vs++5++5++
-[1.0, 1.0]
 ===============44100++=>48000++
+[1.0, 1.0]
+===============++Denmark++
+[1.0, 1.0]
+===============Script++++Century Schoolbook++Lucida Sans++Lucida Sans Typewriter++Agency FB++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bradley Hand ITC++Calisto MT++Castellar++Copperplate Gothic++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Felix Titling++Forte++French Script MT++Gigi++Gill Sans MT++Gill Sans MT Condensed++Goudy Old Style++Goudy Stout++Imprint MT Shadow++Maiandra GD++Palace Script MT++Papyrus++Perpetua++Perpetua Titling MT++Pristina++Rockwell++Rockwell Condensed++Tw Cen MT++Tw Cen MT Condensed++
+[1.0, 1.0]
+===============++Meiryo++Meiryo UI++Staccato222 BT++
+[1.0, 1.0]
+===============++Marlett++
 [1.0, 1.0]

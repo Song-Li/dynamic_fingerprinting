@@ -146,14 +146,6 @@
 [2.0, 2.0]
 ===============gzip, deflate++=>br, gzip, deflate++
 [411.0, 412.0]
-===============++Wingdings++
-[1.0, 1.0]
-===============Hiragino Kaku Gothic ProN++Marion++++
-[41.0, 41.0]
-===============++Haettenschweiler++
-[1.0, 1.0]
-===============Arial Unicode MS++++Microsoft JhengHei++Rockwell++
-[58.0, 58.0]
 ===============11_0_3++AppleWebKit/604.1.38++Mobile/15A432++=>11_2_1++AppleWebKit/604.4.7++Mobile/15C153++
 [675.0, 675.0]
 ===============9_3_4++AppleWebKit/601.1.46++Version/9.0++Mobile/13G35++Safari/601.1++=>11_1_2++AppleWebKit/604.3.5++Version/11.0++Mobile/15B202++Safari/604.1++
@@ -1050,3 +1042,11 @@
 [1.0, 1.0]
 ===============22050++=>16000++
 [1.0, 1.0]
+===============++Wingdings++
+[1.0, 1.0]
+===============Hiragino Kaku Gothic ProN++Marion++++
+[41.0, 41.0]
+===============++Haettenschweiler++
+[1.0, 1.0]
+===============Arial Unicode MS++++Microsoft JhengHei++Rockwell++
+[58.0, 58.0]
