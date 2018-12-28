@@ -1135,7 +1135,7 @@ class Paperlib():
             ]
         for idx in tqdm(df.index):
             if df.at[idx, 'jsFonts'] in flip_fonts_list:
-                df.at[idx, 'jsFonts'] = ''
+                df.at[idx, 'jsFonts'] = 'flipFonts'
         return df
 
     def remove_flip_plugins(self, df, sep = '_'):
@@ -1148,7 +1148,7 @@ class Paperlib():
             ])
         for idx in tqdm(df.index):
             if df.at[idx, 'plugins'] in flip_fonts_list:
-                df.at[idx, 'plugins'] = ''
+                df.at[idx, 'plugins'] = 'flipplugins'
         return df
 
     def relation_detection(self, df = [], threshhold = 0.9, table_name = 'allchanges', feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']):
@@ -1233,6 +1233,7 @@ class Paperlib():
                 'audio': 'audio',
                 'jsFonts': 'jsFonts',
                 'canvastest': 'canvas'
+                #'ipcity': 'ipcity'
                 }
 
         useraction_list = ['localStorage', 'zoom', 'timezone', 'plugin', 'GPU', 'cookie']
@@ -1284,6 +1285,7 @@ class Paperlib():
         browsermap = {}
         osmap = {}
         cnt = -1
+        total_change = 0
         classes_numbers = {}
         others_numbers = {}
         for idx, row in tqdm(df.iterrows()):
@@ -1301,7 +1303,8 @@ class Paperlib():
                 for key in match_list:
                     osmap[os][match_list[key]] = set()
 
-            if row['frombrowserversion'] != row['tobrowserversion']:
+            if row['frombrowserversion'] != row['tobrowserversion'] or (row['fromosversion'] == 
+                    row['toosversion'] and row['agent'] != ''):
                 change_ids['browserUpdate'].add(cnt)
                 browsermap[browser]['browserUpdate'].add(cnt)
                 osmap[os]['browserUpdate'].add(cnt)
@@ -1313,16 +1316,9 @@ class Paperlib():
                 osmap[os]['osUpdate'].add(cnt)
                 cur_classes += 'osupdate_'
 
-            for feature in feature_list:
-                if feature not in useraction_list and feature not in environment_list:
-                    if feature not in others_numbers:
-                        others_numbers[feature] = 0
-                    if row[feature] != '':
-                        others_numbers[feature] += 1
-                    continue
-
+            
+            for feature in match_list:
                 if row[feature] != '':
-
                     # remove related features
                     if feature in related[browser] and row[feature] in related[browser][feature]:
                         continue
@@ -1331,12 +1327,14 @@ class Paperlib():
                     browsermap[browser][match_list[feature]].add(cnt)
                     osmap[os][match_list[feature]].add(cnt)
 
-                    if match_list[feature] in useraction_list:
+                    #jsFonts special
+                    if (match_list[feature] in useraction_list) or (feature =='jsFonts' and row[feature] == 'flipFonts') or (feature == 'plugins' and row[feature] == 'flipplugins'):
                         change_ids['userAction'].add(cnt)
                         browsermap[browser]['userAction'].add(cnt)
                         osmap[os]['userAction'].add(cnt)
                         if 'useraction' not in cur_classes:
                             cur_classes += 'useraction_'
+
                     elif match_list[feature] in environment_list:
                         change_ids['environmentUpdate'].add(cnt)
                         browsermap[browser]['environmentUpdate'].add(cnt)
@@ -1344,14 +1342,25 @@ class Paperlib():
                         if 'environment' not in cur_classes:
                             cur_classes += 'environment_'
                 
-            if cur_classes not in classes_numbers:
-                classes_numbers[cur_classes] = 0
-            classes_numbers[cur_classes] += 1
+            if len(cur_classes) > 0 and cur_classes not in classes_numbers:
+                classes_numbers[cur_classes] = set()
+            if len(cur_classes) > 0:
+                classes_numbers[cur_classes].add(cnt)
 
-        sorted_classes_numbers = sorted(classes_numbers.iteritems(), key = lambda (k, v): (-v, k))
+            if len(cur_classes) > 0:
+                total_change += 1
+
+            for feature in feature_list:
+                if feature not in useraction_list and feature not in environment_list and cur_classes == '':
+                    if feature not in others_numbers:
+                        others_numbers[feature] = 0
+                    if row[feature] != '':
+                        others_numbers[feature] += 1
+
+        sorted_classes_numbers = sorted(classes_numbers.iteritems(), key = lambda (k, v): (-len(v), k))
         f = safeopen('./changereason/bigtable/classes', 'w')
         for item in sorted_classes_numbers:
-            f.write('{}\n'.format(item))
+            f.write('{}\t{}\n'.format(item[0], float(len(item[1])) / float(total_change)))
         for item in others_numbers:
             f.write('{}\t{}\n'.format(item, others_numbers[item]))
         f.close()
@@ -1359,16 +1368,44 @@ class Paperlib():
         total_len = cnt + 1
         for browser in browsermap:
             f = safeopen('./changereason/bigtable/browser/{}'.format(browser), 'w')
-            for key in browsermap[browser]:
-                for key2 in browsermap[browser]:
-                    f.write('{}\t{}\t{}\n'.format(key, key2, len(browsermap[browser][key].intersection(browsermap[browser][key2]))))
+            f.write('{}\n'.format('useraction'))
+            cur_total = 0
+            for key in useraction_list:
+                cur_total += len(browsermap[browser][key])
+            if cur_total == 0:
+                cur_total = 1
+            for key in useraction_list:
+                f.write('{}\t{}\n'.format(key, float(len(browsermap[browser][key])) / float(cur_total)))
+
+            f.write('{}\n'.format('environment'))
+            cur_total = 0
+            for key in environment_list:
+                cur_total += len(browsermap[browser][key])
+            if cur_total == 0:
+                cur_total = 1
+            for key in environment_list:
+                f.write('{}\t{}\n'.format(key, float(len(browsermap[browser][key])) / float(cur_total)))
             f.close()
 
         for os in osmap:
             f = safeopen('./changereason/bigtable/os/{}'.format(os), 'w')
-            for key in osmap[os]:
-                for key2 in osmap[os]:
-                    f.write('{}\t{}\t{}\n'.format(key, key2, len(osmap[os][key].intersection(osmap[os][key2]))))
+            f.write('{}\n'.format('useraction'))
+            cur_total = 0
+            for key in useraction_list:
+                cur_total += len(osmap[os][key])
+            if cur_total == 0:
+                cur_total = 1
+            for key in useraction_list:
+                f.write('{}\t{}\n'.format(key, float(len(osmap[os][key])) / float(cur_total)))
+
+            f.write('{}\n'.format('environment'))
+            cur_total = 0
+            for key in environment_list:
+                cur_total += len(osmap[os][key])
+            if cur_total == 0:
+                cur_total = 1
+            for key in environment_list:
+                f.write('{}\t{}\n'.format(key, float(len(osmap[os][key])) / float(cur_total)))
             f.close()
 
         f = safeopen('./changereason/bigtable/overall', 'w')
