@@ -1301,7 +1301,7 @@ class Paperlib():
 
         browsermap = {}
         osmap = {}
-        cnt = -1
+        #cnt = -1
         total_change = 0
         classes_numbers = {}
 
@@ -1315,8 +1315,8 @@ class Paperlib():
 
         others_numbers = {}
         for idx, row in tqdm(df.iterrows()):
-            cnt += 1
-            #cnt = row['browserid']
+            #cnt += 1
+            cnt = row['browserid']
             browser = row['browser']
             os = row['os']
             cur_classes = ''
@@ -1440,7 +1440,6 @@ class Paperlib():
         
         cur_total = 0
         f = safeopen('./changereason/bigtable/{}'.format('overallactionenv'), 'w')
-        f.write('useraction\n')
         for key in useraction_list:
             cur_total += len(change_ids[key])
         if cur_total == 0:
@@ -1449,7 +1448,6 @@ class Paperlib():
             f.write('{}\t{}\n'.format(key, float(len(change_ids[key])) / float(cur_total)))
 
         cur_total = 0
-        f.write('environment_list\n')
         for key in environment_list:
             cur_total += len(change_ids[key])
         if cur_total == 0:
