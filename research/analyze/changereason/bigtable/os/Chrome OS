@@ -1,13 +1,13 @@
 useraction
 localStorage	0.0
-zoom	0.444444444444
-timezone	0.486111111111
+zoom	0.285714285714
+timezone	0.625
 cookie	0.0
 WebGL	0.0
 lied	0.0
-header	0.0138888888889
+header	0.0178571428571
 private	0.0
-flash	0.0555555555556
+flash	0.0714285714286
 environment
 colorDepth	0.0
 detectedLanguages	0.0

@@ -11,10 +11,10 @@ flash	0.0
 environment
 colorDepth	0.0
 detectedLanguages	0.0
-audio	0.0909090909091
+audio	0.2
 plugin	0.0
-jsFonts	0.818181818182
-canvas	0.0909090909091
+jsFonts	0.6
+canvas	0.2
 GPU	0.0
 inc	0.0
 resolution	0.0

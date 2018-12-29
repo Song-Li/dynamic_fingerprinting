@@ -6,15 +6,15 @@ cookie	0.0
 WebGL	0.0
 lied	0.0
 header	0.0
-private	0.333333333333
-flash	0.666666666667
+private	0.5
+flash	0.5
 environment
 colorDepth	0.0
 detectedLanguages	0.0
 audio	0.0
-plugin	0.5
-jsFonts	0.25
-canvas	0.25
+plugin	0.333333333333
+jsFonts	0.333333333333
+canvas	0.333333333333
 GPU	0.0
 inc	0.0
 resolution	0.0

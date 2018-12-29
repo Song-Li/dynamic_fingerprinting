@@ -1197,6 +1197,14 @@ class Paperlib():
                 count += 1
         return count
 
+    def request_desktop_detection(self, row):
+        """
+        input a row of changes
+        the rule is only the agent string changes
+        return this is a request desktop or not
+        """
+        pass
+
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
         this is a newer version of changes reason, including
@@ -1293,7 +1301,7 @@ class Paperlib():
 
         browsermap = {}
         osmap = {}
-        cnt = -1
+        #cnt = -1
         total_change = 0
         classes_numbers = {}
 
@@ -1307,7 +1315,7 @@ class Paperlib():
 
         others_numbers = {}
         for idx, row in tqdm(df.iterrows()):
-            cnt += 1
+            cnt = row['browserid']
             browser = row['browser']
             os = row['os']
             cur_classes = ''
@@ -1385,7 +1393,6 @@ class Paperlib():
                         classes_numbers[os][cur_classes] = set()
                     classes_numbers[os][cur_classes].add(cnt)
 
-
             for feature in feature_list:
                 if feature not in useraction_list and feature not in environment_list and cur_classes == '':
                     if feature not in others_numbers:
@@ -1396,6 +1403,24 @@ class Paperlib():
         sorted_classes_numbers = {}
         for cur_type in classes_numbers:
             sorted_classes_numbers[cur_type] = sorted(classes_numbers[cur_type].iteritems(), key = lambda (k, v): (-len(v), k))
+
+        total_update = 0
+        f = safeopen('./changereason/bigtable/updatepercentage', 'w')
+        for browser in browsermap:
+            total_update += len(browsermap[browser]['browserUpdate'])
+        if total_update == 0:
+            total_update = 1
+        for browser in browsermap:
+            f.write('{}\t{}\n'.format(browser, float(len(browsermap[browser]['browserUpdate'])) / float(total_update)))
+
+        total_update = 0
+        for os in osmap:
+            total_update += len(osmap[os]['osUpdate'])
+        if total_update == 0:
+            total_update = 1
+        for os in osmap:
+            f.write('{}\t{}\n'.format(os, float(len(osmap[os]['osUpdate'])) / float(total_update)))
+        f.close()
 
         f = safeopen('./changereason/bigtable/classes', 'w')
         for cur_type in sorted_classes_numbers:
@@ -1409,7 +1434,6 @@ class Paperlib():
             f.write('{}\t{}\n'.format(item, others_numbers[item]))
         f.close()
 
-        total_len = cnt + 1
         for browser in browsermap:
             f = safeopen('./changereason/bigtable/browser/{}'.format(browser), 'w')
             f.write('{}\n'.format('useraction'))
@@ -1451,12 +1475,6 @@ class Paperlib():
             for key in environment_list:
                 f.write('{}\t{}\n'.format(key, float(len(osmap[os][key])) / float(cur_total)))
             f.close()
-
-        f = safeopen('./changereason/bigtable/overall', 'w')
-        for key in change_ids:
-            for key2 in change_ids:
-                f.write('{}\t{}\t{}\n'.format(key, key2, float(len(change_ids[key].intersection(change_ids[key2]))) / float(total_len)))
-        f.close()
 
         return 
 
