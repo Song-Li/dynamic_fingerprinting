@@ -1,35 +1,3 @@
-===============bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++
-[1.0, 1.0]
-===============2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++
-[1.0, 1.0]
-===============52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++
-[2.0, 2.0]
-===============89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++
-[2.0, 2.0]
-===============82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++
-[3.0, 3.0]
-===============505d875b6e660959af5a0285eb72e112219e86ba++=>7a6a24f6752a5a123bcc6df63a184217637923fb++
-[3.0, 3.0]
-===============41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++
-[1.0, 1.0]
-===============89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>25f7fa1037d4a3afe8706a130978e3449a07ab70++
-[1.0, 1.0]
-===============b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++
-[3.0, 3.0]
-===============8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++
-[1.0, 1.0]
-===============52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++
-[1.0, 1.0]
-===============7572a0f9a1dc005fedbba709f71909743976db0d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++
-[1.0, 1.0]
-===============89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++
-[1.0, 1.0]
-===============505d875b6e660959af5a0285eb72e112219e86ba++=>7339be08be763f6804f18d224b100b61b872b852++
-[1.0, 1.0]
-===============de-de++=>zh-cn++
-[2.0, 2.0]
-===============en-us++=>de-de++
-[1.0, 1.0]
 ===============11_2_2++AppleWebKit/604.4.7++Mobile/15C202++MailMaster/6.2.1.1162++=>11_2_5++AppleWebKit/604.5.6++Mobile/15D60++MailMaster/6.3.1.1177++
 [1.0, 1.0]
 ===============11_0_3++AppleWebKit/604.1.38++Mobile/15A432++=>11_2_1++AppleWebKit/604.4.7++Mobile/15C153++
@@ -167,4 +135,420 @@
 ===============360.0++=>-120.0++
 [1.0, 1.0]
 ===============3++=>2++
+[1.0, 1.0]
+===============Hessen++=>Bayern++
+[1.0, 1.0]
+===============Sachsen++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Rheinland-Pfalz++=>Niedersachsen++
+[1.0, 1.0]
+===============Niedersachsen++=>Mecklenburg-Vorpommern++
+[1.0, 1.0]
+===============Gyeonggi-do++=>Daegu-gwangyeoksi++
+[1.0, 1.0]
+===============Gyeonggi-do++=>Chiba++
+[1.0, 1.0]
+===============Brandenburg++=>Bucuresti++
+[1.0, 1.0]
+===============Oppland++=>Berlin++
+[1.0, 1.0]
+===============Thuringen++=>Hamburg++
+[1.0, 1.0]
+===============Niedersachsen++=>Schleswig-Holstein++
+[3.0, 3.0]
+===============Schleswig-Holstein++=>Baden-Wurttemberg++
+[1.0, 1.0]
+===============Rheinland-Pfalz++=>Sachsen++
+[1.0, 1.0]
+===============Wien++=>Burgenland++
+[1.0, 1.0]
+===============Brandenburg++=>Sachsen++
+[1.0, 1.0]
+===============Saarland++=>Berlin++
+[1.0, 1.0]
+===============Mecklenburg-Vorpommern++=>Sachsen++
+[1.0, 1.0]
+===============Nordrhein-Westfalen++=>Central++
+[1.0, 1.0]
+===============Wien++=>Niederosterreich++
+[1.0, 1.0]
+===============Schleswig-Holstein++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Salzburg++=>Wien++
+[1.0, 1.0]
+===============Sachsen++=>Baden-Wurttemberg++
+[1.0, 1.0]
+===============Nordrhein-Westfalen++=>Heilongjiang++
+[1.0, 1.0]
+===============Baden-Wurttemberg++=>Sankt Gallen++
+[1.0, 1.0]
+===============Waterford++=>Wicklow++
+[1.0, 1.0]
+===============Guangdong++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Canarias++=>Basel-Stadt++
+[1.0, 1.0]
+===============Mecklenburg-Vorpommern++=>Schleswig-Holstein++
+[1.0, 1.0]
+===============Hessen++=>Saarland++
+[2.0, 2.0]
+===============Sachsen++=>Hessen++
+[1.0, 1.0]
+===============Niederosterreich++=>Wien++
+[1.0, 1.0]
+===============Baden-Wurttemberg++=>Bayern++
+[1.0, 1.0]
+===============Baden-Wurttemberg++=>Hessen++
+[1.0, 1.0]
+===============Nordrhein-Westfalen++=>Mecklenburg-Vorpommern++
+[1.0, 1.0]
+===============Sachsen-Anhalt++=>Schleswig-Holstein++
+[1.0, 1.0]
+===============North Carolina++=>Florida++
+[1.0, 1.0]
+===============Tirol++=>Wien++
+[1.0, 1.0]
+===============Nitriansky kraj++=>Bratislavsky kraj++
+[1.0, 1.0]
+===============Nordrhein-Westfalen++=>Saarland++
+[1.0, 1.0]
+===============Antwerpen++=>Limburg++
+[1.0, 1.0]
+===============Niederosterreich++=>Tirol++
+[1.0, 1.0]
+===============Bayern++=>Brandenburg++
+[1.0, 1.0]
+===============Berlin++=>Oppland++
+[1.0, 1.0]
+===============Saarland++=>Baden-Wurttemberg++
+[1.0, 1.0]
+===============Schleswig-Holstein++=>Hamburg++
+[1.0, 1.0]
+===============Midtjylland++=>Brandenburg++
+[1.0, 1.0]
+===============England++=>Mecklenburg-Vorpommern++
+[1.0, 1.0]
+===============Schleswig-Holstein++=>Berlin++
+[1.0, 1.0]
+===============Florida++=>North Carolina++
+[1.0, 1.0]
+===============Niedersachsen++=>Berlin++
+[1.0, 1.0]
+===============Chiba++=>Gyeonggi-do++
+[1.0, 1.0]
+===============Sankt Gallen++=>Baden-Wurttemberg++
+[1.0, 1.0]
+===============Niedersachsen++=>Rheinland-Pfalz++
+[2.0, 2.0]
+===============Central++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Niedersachsen++=>Thuringen++
+[1.0, 1.0]
+===============Hamburg++=>Berlin++
+[1.0, 1.0]
+===============Hessen++=>Thuringen++
+[1.0, 1.0]
+===============Nordrhein-Westfalen++=>Guangdong++
+[1.0, 1.0]
+===============Texas++=>New York++
+[1.0, 1.0]
+===============bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++=>89aec5862cf8db1bc9be69a52c31a169d6182e4c++
+[1.0, 1.0]
+===============2e02e768da96c8034d4d0a0e38d5921bd71540e3++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++
+[1.0, 1.0]
+===============52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++
+[2.0, 2.0]
+===============89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++
+[2.0, 2.0]
+===============82272d1456b62fefec63828f1552d6411734fa9d++=>b261a45b09d8764fe7d24ee3d4765f5d7708d020++
+[3.0, 3.0]
+===============505d875b6e660959af5a0285eb72e112219e86ba++=>7a6a24f6752a5a123bcc6df63a184217637923fb++
+[3.0, 3.0]
+===============41ca5b49c36d00c4349bb83f08ef906f0efd8305++=>e45df7a3ef70022cfdccf2381dc74e9268268fc7++
+[1.0, 1.0]
+===============89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++=>25f7fa1037d4a3afe8706a130978e3449a07ab70++
+[1.0, 1.0]
+===============b261a45b09d8764fe7d24ee3d4765f5d7708d020++=>8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++
+[3.0, 3.0]
+===============8da8fc3bd57a9762cd3d3d57a9d65dc3bbd22bcd++=>52f36a53a93dfdf998641cb1324e795cb3bc7fc3++
+[1.0, 1.0]
+===============52f36a53a93dfdf998641cb1324e795cb3bc7fc3++=>89a168cd4fca4d8c03a7f457ce2c24f44717e4b7++
+[1.0, 1.0]
+===============7572a0f9a1dc005fedbba709f71909743976db0d++=>2e02e768da96c8034d4d0a0e38d5921bd71540e3++
+[1.0, 1.0]
+===============89aec5862cf8db1bc9be69a52c31a169d6182e4c++=>bcb6546cfda6c81cf90c052e7ac6a862dda9cf03++
+[1.0, 1.0]
+===============505d875b6e660959af5a0285eb72e112219e86ba++=>7339be08be763f6804f18d224b100b61b872b852++
+[1.0, 1.0]
+===============de-de++=>zh-cn++
+[2.0, 2.0]
+===============en-us++=>de-de++
+[1.0, 1.0]
+===============Aachen++=>Yichun++
+[1.0, 1.0]
+===============Neustadt++=>Halle (Saale)++
+[1.0, 1.0]
+===============Nettetal++=>Dusseldorf++
+[1.0, 1.0]
+===============Dusseldorf++=>Issum++
+[1.0, 1.0]
+===============Drebkau++=>Zwickau++
+[1.0, 1.0]
+===============Walchensee++=>Munich++
+[1.0, 1.0]
+===============Pirmasens++=>Dresden++
+[1.0, 1.0]
+===============Bay City++=>New York City++
+[1.0, 1.0]
+===============Wernswig++=>Dusseldorf++
+[1.0, 1.0]
+===============Bielefeld++=>Waldkraiburg++
+[1.0, 1.0]
+===============Ulm++=>Munich++
+[1.0, 1.0]
+===============Heidelberg++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Zeuthen++=>Bucharest++
+[1.0, 1.0]
+===============Chemnitz++=>Dortmund++
+[1.0, 1.0]
+===============Trier++=>Hanover++
+[1.0, 1.0]
+===============Waterford++=>Bray++
+[1.0, 1.0]
+===============Wieseck++=>Siegen++
+[1.0, 1.0]
+===============Muenster++=>Dortmund++
+[1.0, 1.0]
+===============Lenoir++=>Saint Petersburg++
+[1.0, 1.0]
+===============Stuttgart++=>Spagenweiler++
+[1.0, 1.0]
+===============Recklinghausen++=>Isenburg++
+[1.0, 1.0]
+===============Darmstadt++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Recklinghausen++=>Fernando de la Mora++
+[1.0, 1.0]
+===============Nuremberg++=>Wuerzburg++
+[1.0, 1.0]
+===============Ingolstadt++=>Walchensee++
+[1.0, 1.0]
+===============Seevetal++=>Kiel++
+[1.0, 1.0]
+===============Goppingen++=>Mannheim++
+[1.0, 1.0]
+===============Norderstedt++=>Hamburg++
+[1.0, 1.0]
+===============Rostock++=>Seevetal++
+[1.0, 1.0]
+===============Kiel++=>Berlin++
+[1.0, 1.0]
+===============Oeventrop++=>Dortmund++
+[1.0, 1.0]
+===============Kramsach++=>Vienna++
+[1.0, 1.0]
+===============Osnabruck++=>Bad Neuenahr-Ahrweiler++
+[1.0, 1.0]
+===============Luebeck++=>Helmstedt++
+[1.0, 1.0]
+===============Oldenburg++=>Chemnitz++
+[1.0, 1.0]
+===============Wil++=>Mannheim++
+[1.0, 1.0]
+===============Braunschweig++=>Berlin++
+[1.0, 1.0]
+===============Guangzhou++=>Aachen++
+[1.0, 1.0]
+===============Dusseldorf++=>Wesel++
+[1.0, 1.0]
+===============Dresden++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Karlsruhe++=>Dortmund++
+[1.0, 1.0]
+===============Sahy++=>Bratislava++
+[1.0, 1.0]
+===============Chiba++=>Osan++
+[1.0, 1.0]
+===============Dortmund++=>Siegen++
+[1.0, 1.0]
+===============Magdeburg++=>Coswig++
+[1.0, 1.0]
+===============Dortmund++=>Oldenburg++
+[1.0, 1.0]
+===============Leipzig++=>Dusseldorf++
+[1.0, 1.0]
+===============Antwerpen++=>Beringen++
+[1.0, 1.0]
+===============Rostock++=>Schenefeld++
+[1.0, 1.0]
+===============Knutsford++=>Holdorf++
+[1.0, 1.0]
+===============Saint Petersburg++=>Lenoir++
+[1.0, 1.0]
+===============Wuerzburg++=>Pohlitz++
+[1.0, 1.0]
+===============Kiel++=>Achern++
+[1.0, 1.0]
+===============Neuenmarkt++=>Bayreuth++
+[1.0, 1.0]
+===============Dusseldorf++=>Munich++
+[1.0, 1.0]
+===============Dusseldorf++=>Saarbrucken++
+[1.0, 1.0]
+===============Bielefeld++=>Braunschweig++
+[1.0, 1.0]
+===============Dillenburg++=>Villingen-Schwenningen++
+[1.0, 1.0]
+===============Wohlde++=>Braunschweig++
+[1.0, 1.0]
+===============Adeje++=>Basel++
+[1.0, 1.0]
+===============Eichhof++=>Sternsruh++
+[1.0, 1.0]
+===============Fernando de la Mora++=>Recklinghausen++
+[1.0, 1.0]
+===============Vienna++=>Lockenhaus++
+[1.0, 1.0]
+===============Salzburg++=>Vienna++
+[1.0, 1.0]
+===============Dusseldorf++=>Kleve++
+[1.0, 1.0]
+===============Chemnitz++=>Ulm++
+[1.0, 1.0]
+===============Leipzig++=>Karl++
+[1.0, 1.0]
+===============Munich++=>Bonn++
+[1.0, 1.0]
+===============Frankfurt am Main++=>Nuremberg++
+[1.0, 1.0]
+===============Halle (Saale)++=>Magdeburg++
+[1.0, 1.0]
+===============Siegen++=>Dusseldorf++
+[1.0, 1.0]
+===============Langschlag++=>Kramsach++
+[1.0, 1.0]
+===============Schenefeld++=>Luebeck++
+[1.0, 1.0]
+===============Bebra++=>Fulda++
+[1.0, 1.0]
+===============Bremen++=>Hamburg++
+[1.0, 1.0]
+===============Saarbrucken++=>Berlin++
+[1.0, 1.0]
+===============Berlin++=>Ringebu++
+[1.0, 1.0]
+===============Helmstedt++=>Grauel++
+[1.0, 1.0]
+===============Wichte++=>Larrelt++
+[1.0, 1.0]
+===============Varel++=>Nienburg++
+[1.0, 1.0]
+===============Braunschweig++=>Bremen++
+[1.0, 1.0]
+===============Aachen++=>Dusseldorf++
+[1.0, 1.0]
+===============Hamburg++=>Hanover++
+[1.0, 1.0]
+===============Hanover++=>Trier++
+[1.0, 1.0]
+===============Wesel++=>Dusseldorf++
+[1.0, 1.0]
+===============Saarbrucken++=>Neckarzimmern++
+[1.0, 1.0]
+===============Dortmund++=>Wohlde++
+[1.0, 1.0]
+===============Baunatal++=>Sulzbach++
+[1.0, 1.0]
+===============Ingolstadt++=>Munich++
+[1.0, 1.0]
+===============Waldkraiburg++=>Steufzgen++
+[1.0, 1.0]
+===============Holstebro++=>Zeuthen++
+[1.0, 1.0]
+===============Osan++=>Taegu++
+[1.0, 1.0]
+===============Oldenburg++=>Elmshorn++
+[1.0, 1.0]
+===============Waldshut-Tiengen++=>Freiburg++
+[1.0, 1.0]
+===============Hamburg++=>Berlin++
+[1.0, 1.0]
+===============Muenster++=>Kleve++
+[1.0, 1.0]
+===============Wuerzburg++=>Leipzig++
+[1.0, 1.0]
+===============Karlsruhe++=>Bielefeld++
+[1.0, 1.0]
+===============Yongin++=>Chiba++
+[1.0, 1.0]
+===============Helmstedt++=>Rostock++
+[1.0, 1.0]
+===============Follonica++=>Grosseto++
+[1.0, 1.0]
+===============Nuremberg++=>Dusseldorf++
+[1.0, 1.0]
+===============Rinteln++=>Hanover++
+[1.0, 1.0]
+===============Dortmund++=>Nuremberg++
+[1.0, 1.0]
+===============Vienna++=>Maria Enzersdorf++
+[1.0, 1.0]
+===============Heidelberg++=>Bonn++
+[1.0, 1.0]
+===============Villingen-Schwenningen++=>Calw++
+[1.0, 1.0]
+===============Norden-Neustadt++=>Wichte++
+[1.0, 1.0]
+===============Noschenrode++=>Kiel++
+[1.0, 1.0]
+===============Frankfurt am Main++=>Saarbrucken++
+[2.0, 2.0]
+===============Fehmarn++=>Bielefeld++
+[1.0, 1.0]
+===============Maria Enzersdorf++=>Vienna++
+[1.0, 1.0]
+===============Dusseldorf++=>Halle (Saale)++
+[1.0, 1.0]
+===============Munich++=>Ingolstadt++
+[1.0, 1.0]
+===============Aachen++=>Guangzhou++
+[1.0, 1.0]
+===============Ringebu++=>Berlin++
+[1.0, 1.0]
+===============Stuttgart++=>Wil++
+[1.0, 1.0]
+===============Munich++=>Nuremberg++
+[1.0, 1.0]
+===============Kleve++=>Dortmund++
+[1.0, 1.0]
+===============Dortmund++=>Heidelberg++
+[1.0, 1.0]
+===============Japan++=>Korea, Republic of++
+[1.0, 1.0]
+===============Denmark++=>Germany++
+[1.0, 1.0]
+===============Spain++=>Switzerland++
+[1.0, 1.0]
+===============Germany++=>Switzerland++
+[1.0, 1.0]
+===============Korea, Republic of++=>Japan++
+[1.0, 1.0]
+===============Norway++=>Germany++
+[1.0, 1.0]
+===============United Kingdom++=>Germany++
+[1.0, 1.0]
+===============Germany++=>Paraguay++
+[1.0, 1.0]
+===============Germany++=>China++
+[2.0, 2.0]
+===============Paraguay++=>Germany++
+[1.0, 1.0]
+===============Germany++=>Romania++
+[1.0, 1.0]
+===============Switzerland++=>Germany++
+[1.0, 1.0]
+===============Germany++=>Norway++
+[1.0, 1.0]
+===============China++=>Germany++
 [1.0, 1.0]

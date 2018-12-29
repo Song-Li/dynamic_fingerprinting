@@ -1,94 +1,30 @@
-===============4ae230f11be50db77fc4f093b9ad11a5beda5399++=>ab58400b1eb128ca6efff13991cedbe7b65f7354++
-[1.0, 1.0]
-===============8480147184bfc621b3f4cf97680426d1b6dac494++=>02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++
-[1.0, 1.0]
-===============4623d816a3cda9a5b6f0e846dbe86d2921d91bf5++=>130f0db4cb464945561032b4ecc240ed4bc14b8f++
-[1.0, 1.0]
-===============ecbf927c0b4d90d674eebf3a5675c13a717104c4++=>5bd9e00b60b2816145c141109c00cb90191a4a01++
-[1.0, 1.0]
-===============ab58400b1eb128ca6efff13991cedbe7b65f7354++=>26e72c0159681b034ae4cfe12b6ff168b079c7cd++
-[1.0, 1.0]
-===============45db8f18f121272b9dd905507ac0ffcd96a9ed55++=>53e294b1d062cb845f196c866d8a694594bf503e++
-[1.0, 1.0]
-===============dcd325ca6b35ff45889378f6b0852098b55aaf7f++=>bd554a7d5da9293cf3fed52d2052b2b948a14b77++
-[1.0, 1.0]
-===============dcd325ca6b35ff45889378f6b0852098b55aaf7f++=>33d4739778585f6b08d86273b5aa9cf8fdf78054++
-[1.0, 1.0]
-===============929abcf72e8690298676eb589eda4ff2a10fc6dd++=>cff546a5de4a0f96b3526ece74374728e438f057++
-[1.0, 1.0]
-===============1654a03d32d7a7a1ab5b2fd8f29b8838bbddce8d++=>5a68e79900ee7de1feb46d01879b1634733bf03b++
-[1.0, 1.0]
-===============02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>8644ed0117a106913d167972e20952819c007f25++
-[1.0, 1.0]
-===============43e3f04daddd47ddf5228be2d8b3cd733b4e98c1++=>5a68e79900ee7de1feb46d01879b1634733bf03b++
-[1.0, 1.0]
-===============cb9885d1a12702d9c80ca20c8d0637dc08b407d4++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++
-[1.0, 1.0]
-===============dcd325ca6b35ff45889378f6b0852098b55aaf7f++=>53e294b1d062cb845f196c866d8a694594bf503e++
-[2.0, 2.0]
-===============02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>ecbf927c0b4d90d674eebf3a5675c13a717104c4++
-[1.0, 1.0]
-===============f2def825402fb3661fb6b3a7bc0455c911205d20++=>dcd325ca6b35ff45889378f6b0852098b55aaf7f++
-[1.0, 1.0]
-===============ab58400b1eb128ca6efff13991cedbe7b65f7354++=>cb9885d1a12702d9c80ca20c8d0637dc08b407d4++
-[1.0, 1.0]
-===============70f4ef5d547a0e2016cffccb503bdfd65d4fcbad++=>08f8ee74b0666ff10aeaa6e604e96583e36f3996++
-[1.0, 1.0]
-===============Syriac++=>Javanese++Burmese++Lontara++Cherokee++
-[1.0, 1.0]
-===============Burmese++Cherokee++=>Chinese++Kana++Hangul++Modern Yi++Mongolian++Tifinagh++
-[2.0, 2.0]
-===============Chinese++Kana++Javanese++Lontara++Modern Yi++Mongolian++Tifinagh++Syriac++=>
-[1.0, 1.0]
-================>Chinese++Kana++Javanese++Hangul++Lontara++Modern Yi++Mongolian++Tifinagh++Syriac++
-[1.0, 1.0]
-===============Chinese++Kana++Javanese++Hangul++Lontara++Modern Yi++Mongolian++Tifinagh++=>
-[1.0, 1.0]
-================>Malayalam++Khmer++
-[1.0, 1.0]
-===============Javanese++Lontara++Modern Yi++Mongolian++Tifinagh++Syriac++=>
-[1.0, 1.0]
-===============Chinese++Kana++Hangul++=>
-[1.0, 1.0]
 ===============32++=>24++
-[1.0, 1.0]
-===============de-DE++=>en-US++
-[1.0, 1.0]
-===============ru-RU++=>de-DE++
-[1.0, 1.0]
-===============en-US++=>de-DE++
 [1.0, 1.0]
 ===============gzip,deflate++=>gzip, deflate++
 [3.0, 3.0]
 ===============gzip, deflate++=>gzip,deflate++
 [2.0, 2.0]
-===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++=>Maxthon PDF Viewer++
+===============MT Extra++=>Helvetica++Fixedsys++Modern++Modern No. 20++Roman++Script++Small Fonts++System++Terminal++
 [1.0, 1.0]
-===============Maxthon PDF Viewer++=>Adobe Acrobat++AdobeAAMDetect++MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
+===============Arial Rounded MT Bold++Berlin Sans FB Demi++Bodoni MT Poster Compressed++Britannic Bold++Copperplate Gothic Bold++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Fixedsys++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Harlow Solid Italic++HELV++Modern++MT Extra++OCR A Extended++Rage Italic++Rockwell Extra Bold++Roman++Script++Script MT Bold++Small Fonts++System++Terminal++Tw Cen MT Condensed Extra Bold++=>Clarendon++Clarendon Condensed++Copperplate Gothic++Gill Sans++
 [1.0, 1.0]
-===============PDFXChange Viewer++Photo Gallery++Shockwave for Director++=>CANON iMAGE GATEWAY Album Plugin Utility for IJ++Java Deployment Toolkit ++JavaTM Platform SE  U++PDFXChange Editor++PDFXChange Editor++
+================>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
 [1.0, 1.0]
-===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++=>Maxthon PDF Viewer++
+===============Leelawadee++Microsoft Uighur++=>MT Extra++Skia++
 [1.0, 1.0]
-===============Adobe Acrobat++NVIDIA D VISION++NVIDIA D Vision++RealPlayertm G LiveConnectEnabled PlugIn bit ++RealTimes Download Plugin++=>
+===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++=>
 [1.0, 1.0]
-===============Google Update++=>
-[1.0, 1.0]
-===============Adobe Acrobat++AdobeAAMDetect++Alipay Security Control ++Java Deployment Toolkit ++JavaTM Platform SE  U++Unity Player++=>CANON iMAGE GATEWAY Album Plugin Utility for IJ++Foxit Reader Plugin for Mozilla++
-[1.0, 1.0]
-===============Java Deployment Toolkit ++JavaTM Platform SE  U++Microsoft Office Live Plugin for Firefox++NVIDIA D VISION++NVIDIA D Vision++=>Microsoft Office ++Microsoft Office ++Photo Gallery++Photodex Presenter Plugin++
-[1.0, 1.0]
-===============Maxthon PDF Viewer++=>MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
+================>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++
 [2.0, 2.0]
-===============flipplugin++=>
-[2.0, 2.0]
-===============Adobe Acrobat++Widevine Content Decryption Module++=>
+===============MT Extra++=>Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
 [1.0, 1.0]
-===============Widevine Content Decryption Module++=>
+===============Arial Unicode MS++Batang++BatangChe++Clarendon++Clarendon Condensed++Dotum++DotumChe++Euphemia++Fixedsys++FreesiaUPC++Gautami++Gulim++GulimChe++Gungsuh++GungsuhChe++HELV++Iskoola Pota++Kalinga++Kartika++Khmer UI++Lao UI++Latha++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Modern++MS Mincho++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Roman++Sakkal Majalla++Script++Shruti++Small Fonts++System++Terminal++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++=>Arial Rounded MT Bold++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Berlin Sans FB Demi++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bodoni MT Poster Compressed++Britannic Bold++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic Bold++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harlow Solid Italic++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Minion Pro++Niagara Engraved++Niagara Solid++OCR A Extended++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Rage Italic++Ravie++Rockwell++Rockwell Condensed++Rockwell Extra Bold++Script MT Bold++Showcard Gothic++Snap ITC++Stencil++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Tw Cen MT Condensed Extra Bold++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
 [1.0, 1.0]
-===============ANGLE (Intel(R) HD Graphics Family Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Family Direct3D11 vs++5++5++
+===============Arial Unicode MS++=>MS Outlook++MS Reference Sans Serif++Leelawadee++Microsoft Uighur++MS Reference Specialty++
 [1.0, 1.0]
-===============ANGLE (Intel(R) HD Graphics 4000 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs++5++5++
+===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Clarendon Condensed++=>
+[1.0, 1.0]
+===============Andale Mono++Monaco++Heiti SC++KaiTi++MingLiU++HKSCS++MingLiU++MONO++PMingLiU++SimHei++=>Helvetica++Tahoma++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++
 [1.0, 1.0]
 ===============Maxthon/5.1.6.1000++=>Maxthon/5.1.6.2000++
 [1.0, 1.0]
@@ -148,11 +84,29 @@
 [1.0, 1.0]
 ===============Maxthon/5.2.1.3000++=>Maxthon/5.2.1.4000++
 [1.0, 1.0]
-===============1.78++=>None++
+===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++=>Maxthon PDF Viewer++
+[1.0, 1.0]
+===============Maxthon PDF Viewer++=>Adobe Acrobat++AdobeAAMDetect++MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
+[1.0, 1.0]
+===============PDFXChange Viewer++Photo Gallery++Shockwave for Director++=>CANON iMAGE GATEWAY Album Plugin Utility for IJ++Java Deployment Toolkit ++JavaTM Platform SE  U++PDFXChange Editor++PDFXChange Editor++
+[1.0, 1.0]
+===============MXPDFVIEWERPLUGIN++Mx PDF Viewer++=>Maxthon PDF Viewer++
+[1.0, 1.0]
+===============Adobe Acrobat++NVIDIA D VISION++NVIDIA D Vision++RealPlayertm G LiveConnectEnabled PlugIn bit ++RealTimes Download Plugin++=>
+[1.0, 1.0]
+===============Google Update++=>
+[1.0, 1.0]
+===============Adobe Acrobat++AdobeAAMDetect++Alipay Security Control ++Java Deployment Toolkit ++JavaTM Platform SE  U++Unity Player++=>CANON iMAGE GATEWAY Album Plugin Utility for IJ++Foxit Reader Plugin for Mozilla++
+[1.0, 1.0]
+===============Java Deployment Toolkit ++JavaTM Platform SE  U++Microsoft Office Live Plugin for Firefox++NVIDIA D VISION++NVIDIA D Vision++=>Microsoft Office ++Microsoft Office ++Photo Gallery++Photodex Presenter Plugin++
+[1.0, 1.0]
+===============Maxthon PDF Viewer++=>MXPDFVIEWERPLUGIN++Mx PDF Viewer++Widevine Content Decryption Module++
 [2.0, 2.0]
-===============True++=>False++
-[5.0, 5.0]
-===============96000++=>48000++
+===============flipplugin++=>
+[2.0, 2.0]
+===============Adobe Acrobat++Widevine Content Decryption Module++=>
+[1.0, 1.0]
+===============Widevine Content Decryption Module++=>
 [1.0, 1.0]
 ===============1++=>1.25++
 [1.0, 1.0]
@@ -162,25 +116,115 @@
 [1.0, 1.0]
 ===============0.899999976158++=>0.800000011921++
 [1.0, 1.0]
-===============MT Extra++=>Helvetica++Fixedsys++Modern++Modern No. 20++Roman++Script++Small Fonts++System++Terminal++
+===============Syriac++=>Javanese++Burmese++Lontara++Cherokee++
 [1.0, 1.0]
-===============Arial Rounded MT Bold++Berlin Sans FB Demi++Bodoni MT Poster Compressed++Britannic Bold++Copperplate Gothic Bold++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Fixedsys++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Harlow Solid Italic++HELV++Modern++MT Extra++OCR A Extended++Rage Italic++Rockwell Extra Bold++Roman++Script++Script MT Bold++Small Fonts++System++Terminal++Tw Cen MT Condensed Extra Bold++=>Clarendon++Clarendon Condensed++Copperplate Gothic++Gill Sans++
-[1.0, 1.0]
-================>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
-[1.0, 1.0]
-===============Leelawadee++Microsoft Uighur++=>MT Extra++Skia++
-[1.0, 1.0]
-===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++=>
-[1.0, 1.0]
-================>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++
+===============Burmese++Cherokee++=>Chinese++Kana++Hangul++Modern Yi++Mongolian++Tifinagh++
 [2.0, 2.0]
-===============MT Extra++=>Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
+===============Chinese++Kana++Javanese++Lontara++Modern Yi++Mongolian++Tifinagh++Syriac++=>
 [1.0, 1.0]
-===============Arial Unicode MS++Batang++BatangChe++Clarendon++Clarendon Condensed++Dotum++DotumChe++Euphemia++Fixedsys++FreesiaUPC++Gautami++Gulim++GulimChe++Gungsuh++GungsuhChe++HELV++Iskoola Pota++Kalinga++Kartika++Khmer UI++Lao UI++Latha++Mangal++Meiryo++Meiryo UI++MingLiU++HKSCS++MingLiU++Modern++MS Mincho++MS PMincho++MT Extra++Narkisim++Nyala++Plantagenet Cherokee++PMingLiU++Raavi++Rod++Roman++Sakkal Majalla++Script++Shruti++Small Fonts++System++Terminal++Traditional Arabic++Tunga++Utsaah++Vani++Vijaya++Vrinda++=>Arial Rounded MT Bold++Century Schoolbook++Lucida Bright++Lucida Calligraphy++Lucida Fax++Lucida Sans++Lucida Sans Typewriter++MS Outlook++MYRIAD PRO++ADOBE CASLON PRO++ADOBE GARAMOND PRO++Agency FB++Algerian++Baskerville Old Face++Bell MT++Berlin Sans FB++Berlin Sans FB Demi++Bernard MT Condensed++Blackadder ITC++Bodoni MT++Bodoni MT Black++Bodoni MT Condensed++Bodoni MT Poster Compressed++Britannic Bold++Broadway++Brush Script MT++Californian FB++Calisto MT++Castellar++Centaur++Chiller++Colonna MT++Cooper Black++Copperplate Gothic Bold++Copperplate Gothic Light++Curlz MT++Edwardian Script ITC++Elephant++Engravers MT++Eras Bold ITC++Eras Demi ITC++Eras Light ITC++Eras Medium ITC++Felix Titling++Footlight MT Light++Forte++Gigi++Gill Sans MT++Gill Sans MT Condensed++Gill Sans MT Ext Condensed Bold++Gill Sans Ultra Bold++Gill Sans Ultra Bold Condensed++Gloucester MT Extra Condensed++Goudy Old Style++Goudy Stout++Haettenschweiler++Harlow Solid Italic++Harrington++High Tower Text++Imprint MT Shadow++Informal Roman++Jokerman++Kunstler Script++Magneto++Maiandra GD++Matura MT Script Capitals++Minion Pro++Niagara Engraved++Niagara Solid++OCR A Extended++Old English Text MT++Onyx++Palace Script MT++Parchment++Perpetua++Perpetua Titling MT++Playbill++Poor Richard++Rage Italic++Ravie++Rockwell++Rockwell Condensed++Rockwell Extra Bold++Script MT Bold++Showcard Gothic++Snap ITC++Stencil++TRAJAN PRO++Tw Cen MT++Tw Cen MT Condensed++Tw Cen MT Condensed Extra Bold++Viner Hand ITC++Vivaldi++Vladimir Script++Wide Latin++
+================>Chinese++Kana++Javanese++Hangul++Lontara++Modern Yi++Mongolian++Tifinagh++Syriac++
 [1.0, 1.0]
-===============Arial Unicode MS++=>MS Outlook++MS Reference Sans Serif++Leelawadee++Microsoft Uighur++MS Reference Specialty++
+===============Chinese++Kana++Javanese++Hangul++Lontara++Modern Yi++Mongolian++Tifinagh++=>
 [1.0, 1.0]
-===============Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Clarendon Condensed++=>
+================>Malayalam++Khmer++
 [1.0, 1.0]
-===============Andale Mono++Monaco++Heiti SC++KaiTi++MingLiU++HKSCS++MingLiU++MONO++PMingLiU++SimHei++=>Helvetica++Tahoma++Bauhaus 93++Bodoni 72++Bodoni 72 Oldstyle++Bodoni 72 Smallcaps++Bookshelf Symbol 7++English 111 Vivace BT++GeoSlab 703 Lt BT++GeoSlab 703 XBd BT++Humanst 521 Cn BT++Modern No. 20++Univers CE 55 Medium++
+===============Javanese++Lontara++Modern Yi++Mongolian++Tifinagh++Syriac++=>
 [1.0, 1.0]
+===============Chinese++Kana++Hangul++=>
+[1.0, 1.0]
+===============ANGLE (Intel(R) HD Graphics Family Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics Family Direct3D11 vs++5++5++
+[1.0, 1.0]
+===============ANGLE (Intel(R) HD Graphics 4000 Direct3D9Ex vs++3++3++=>ANGLE (Intel(R) HD Graphics 4000 Direct3D11 vs++5++5++
+[1.0, 1.0]
+===============Diekirch++=>Luxembourg++
+[1.0, 1.0]
+===============Sachsen++=>Hessen++
+[1.0, 1.0]
+===============Baden-Wurttemberg++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Bayern++=>Rheinland-Pfalz++
+[2.0, 2.0]
+===============Hessen++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============4ae230f11be50db77fc4f093b9ad11a5beda5399++=>ab58400b1eb128ca6efff13991cedbe7b65f7354++
+[1.0, 1.0]
+===============8480147184bfc621b3f4cf97680426d1b6dac494++=>02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++
+[1.0, 1.0]
+===============4623d816a3cda9a5b6f0e846dbe86d2921d91bf5++=>130f0db4cb464945561032b4ecc240ed4bc14b8f++
+[1.0, 1.0]
+===============ecbf927c0b4d90d674eebf3a5675c13a717104c4++=>5bd9e00b60b2816145c141109c00cb90191a4a01++
+[1.0, 1.0]
+===============ab58400b1eb128ca6efff13991cedbe7b65f7354++=>26e72c0159681b034ae4cfe12b6ff168b079c7cd++
+[1.0, 1.0]
+===============45db8f18f121272b9dd905507ac0ffcd96a9ed55++=>53e294b1d062cb845f196c866d8a694594bf503e++
+[1.0, 1.0]
+===============dcd325ca6b35ff45889378f6b0852098b55aaf7f++=>bd554a7d5da9293cf3fed52d2052b2b948a14b77++
+[1.0, 1.0]
+===============dcd325ca6b35ff45889378f6b0852098b55aaf7f++=>33d4739778585f6b08d86273b5aa9cf8fdf78054++
+[1.0, 1.0]
+===============929abcf72e8690298676eb589eda4ff2a10fc6dd++=>cff546a5de4a0f96b3526ece74374728e438f057++
+[1.0, 1.0]
+===============1654a03d32d7a7a1ab5b2fd8f29b8838bbddce8d++=>5a68e79900ee7de1feb46d01879b1634733bf03b++
+[1.0, 1.0]
+===============02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>8644ed0117a106913d167972e20952819c007f25++
+[1.0, 1.0]
+===============43e3f04daddd47ddf5228be2d8b3cd733b4e98c1++=>5a68e79900ee7de1feb46d01879b1634733bf03b++
+[1.0, 1.0]
+===============cb9885d1a12702d9c80ca20c8d0637dc08b407d4++=>de847cd2dc29c4ad126fd2dc70b850e449768ed9++
+[1.0, 1.0]
+===============dcd325ca6b35ff45889378f6b0852098b55aaf7f++=>53e294b1d062cb845f196c866d8a694594bf503e++
+[2.0, 2.0]
+===============02e7e5699655c7b1b3d3c0a0a6d6fcfe972595b9++=>ecbf927c0b4d90d674eebf3a5675c13a717104c4++
+[1.0, 1.0]
+===============f2def825402fb3661fb6b3a7bc0455c911205d20++=>dcd325ca6b35ff45889378f6b0852098b55aaf7f++
+[1.0, 1.0]
+===============ab58400b1eb128ca6efff13991cedbe7b65f7354++=>cb9885d1a12702d9c80ca20c8d0637dc08b407d4++
+[1.0, 1.0]
+===============70f4ef5d547a0e2016cffccb503bdfd65d4fcbad++=>08f8ee74b0666ff10aeaa6e604e96583e36f3996++
+[1.0, 1.0]
+===============de-DE++=>en-US++
+[1.0, 1.0]
+===============ru-RU++=>de-DE++
+[1.0, 1.0]
+===============en-US++=>de-DE++
+[1.0, 1.0]
+===============True++=>False++
+[5.0, 5.0]
+===============Neustadt bei Coburg++=>Passau++
+[1.0, 1.0]
+===============Ettelbruck++=>Luxembourg++
+[1.0, 1.0]
+===============Maria Enzersdorf++=>Vienna++
+[1.0, 1.0]
+===============Stuttgart++=>Mockmuhl++
+[1.0, 1.0]
+===============Zwickau++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Baunatal++=>Kerpen++
+[1.0, 1.0]
+===============Bielefeld++=>Dortmund++
+[1.0, 1.0]
+===============Karlsruhe++=>Freinsheim++
+[1.0, 1.0]
+===============Bad Waltersdorf++=>Kaindorf++
+[1.0, 1.0]
+===============Vienna++=>Amstetten++
+[1.0, 1.0]
+===============Wuerzburg++=>Miesenbach++
+[1.0, 1.0]
+===============Illertissen++=>Landshut++
+[1.0, 1.0]
+===============Sulzbach++=>Bielefeld++
+[1.0, 1.0]
+===============Simbach++=>Isenburg++
+[1.0, 1.0]
+===============Ulm++=>Stuttgart++
+[1.0, 1.0]
+===============Mannheim++=>Rockenau++
+[1.0, 1.0]
+===============Chemnitz++=>Dresden++
+[1.0, 1.0]
+===============96000++=>48000++
+[1.0, 1.0]
+===============1.78++=>None++
+[2.0, 2.0]

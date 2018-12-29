@@ -1243,12 +1243,15 @@ class Paperlib():
                 'fp2_liedos': 'lied',
                 'audio': 'audio',
                 'jsFonts': 'jsFonts',
-                'canvastest': 'canvas'
-                #'ipcity': 'ipcity'
+                'canvastest': 'canvas',
+                'ipcity': 'ipcity',
+                'ipregion': 'ipregion',
+                'ipcountry': 'ipcountry'
                 }
 
         useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'lied', 'header', 'private', 'flash']
         environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'canvas', 'GPU', 'inc', 'resolution']
+        network_list = ['ipcity', 'ipregion', 'ipcountry']
 
         added_feature = [
                 'os',
@@ -1295,7 +1298,7 @@ class Paperlib():
         browser_idx = feature_list.index('browser')
         total_number = {'overall': 0, 'desktop': 0, 'mobile': 0}
 
-        change_ids = {'private': set(), 'flash': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set()}
+        change_ids = {'private': set(), 'flash': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'networkUpdate': set()}
         for key in match_list:
             change_ids[match_list[key]] = set()
 
@@ -1315,18 +1318,18 @@ class Paperlib():
 
         others_numbers = {}
         for idx, row in tqdm(df.iterrows()):
-            cnt += 1
-            #cnt = row['browserid']
+            #cnt += 1
+            cnt = row['browserid']
             browser = row['browser']
             os = row['os']
             cur_classes = ''
 
             if browser not in browsermap:
-                browsermap[browser] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
+                browsermap[browser] = {'networkUpdate': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
                 for key in match_list:
                     browsermap[browser][match_list[key]] = set()
             if os not in osmap:
-                osmap[os] = {'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
+                osmap[os] = {'networkUpdate': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
                 for key in match_list:
                     osmap[os][match_list[key]] = set()
 
@@ -1343,7 +1346,6 @@ class Paperlib():
                 osmap[os]['osUpdate'].add(cnt)
                 cur_classes += 'osupdate_'
 
-            
             for feature in match_list:
                 if row[feature] != '':
                     # remove related features
@@ -1363,8 +1365,6 @@ class Paperlib():
                         osmap[os]['flash'].add(cnt)
                         change_ids['flash'].add(cnt)
 
-
-
                     #jsFonts special
                     if (match_list[feature] in useraction_list) or (feature =='jsFonts' and row[feature] == 'flipFonts') or (feature == 'plugins' and 'flipplugin' in row[feature]):
                         change_ids['userAction'].add(cnt)
@@ -1379,7 +1379,13 @@ class Paperlib():
                         osmap[os]['environmentUpdate'].add(cnt)
                         if 'environment' not in cur_classes:
                             cur_classes += 'environment_'
-                
+
+                    elif match_list[feature] in network_list:
+                        change_ids['networkUpdate'].add(cnt)
+                        browsermap[browser]['networkUpdate'].add(cnt)
+                        osmap[os]['networkUpdate'].add(cnt)
+                        if 'network' not in cur_classes:
+                            cur_classes += 'network_'
 
             if len(cur_classes) > 0:
                 total_change += 1
@@ -1456,6 +1462,16 @@ class Paperlib():
             cur_total = 1
         for key in environment_list:
             f.write('{}\t{}\n'.format(key, float(len(change_ids[key])) / float(cur_total)))
+
+        cur_total = 0
+        f.write('network Update\n')
+        for key in network_list:
+            cur_total += len(change_ids[key])
+        if cur_total == 0:
+            cur_total = 1
+        for key in network_list:
+            f.write('{}\t{}\n'.format(key, float(len(change_ids[key])) / float(cur_total)))
+
         f.close()
 
         for browser in browsermap:

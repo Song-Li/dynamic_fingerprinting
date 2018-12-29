@@ -1,35 +1,5 @@
-===============6c05988260a2b2df059c972e0b82a8f13f0c7388++=>88f9a35438201f34381be6425fc61c58c31b5fc1++
-[2.0, 2.0]
-===============391219fe2b4ddd613eda0abc5de071cd17af7bab++=>986de49816a287410582339197e77f7fea2460ca++
-[3.0, 3.0]
-===============993256cc97a3db785b26a37e355b93acd6245a0f++=>bdd7ba37c5f2b8bad031b59cd0105e2be2058dcc++
-[1.0, 1.0]
-===============b7251da95affd1a95946f74d9d40e678410f8f6e++=>391219fe2b4ddd613eda0abc5de071cd17af7bab++
-[1.0, 1.0]
-===============1a26806c3a82ec72cf21e9869b099097235f2647++=>8f182b3b9afb58832515da1a210f933d8462f292++
-[3.0, 3.0]
-===============d5ae700aec6b39fcee5968d1e4481344b07670f2++=>391219fe2b4ddd613eda0abc5de071cd17af7bab++
-[1.0, 1.0]
-===============b7251da95affd1a95946f74d9d40e678410f8f6e++=>d5ae700aec6b39fcee5968d1e4481344b07670f2++
-[1.0, 1.0]
-===============986de49816a287410582339197e77f7fea2460ca++=>09fa1b14c0e32dee2398403fb578dd4f3d42e141++
-[1.0, 1.0]
-===============d5ae700aec6b39fcee5968d1e4481344b07670f2++=>643e2f8771e0f5a2ae05466df35ee0fe39ea581e++
-[1.0, 1.0]
-===============88f9a35438201f34381be6425fc61c58c31b5fc1++=>36632f75b903bca305bcd02a56840abd40442e13++
-[1.0, 1.0]
-===============b7704ec9aace7c3b5115e757a88f87bc2200e143++=>745fe5d2db2434718c2aa84894fc9fb9323c3565++
-[1.0, 1.0]
-===============88f9a35438201f34381be6425fc61c58c31b5fc1++=>8f182b3b9afb58832515da1a210f933d8462f292++
-[2.0, 2.0]
-===============b7704ec9aace7c3b5115e757a88f87bc2200e143++=>986de49816a287410582339197e77f7fea2460ca++
-[1.0, 1.0]
 ===============32++=>24++
 [29.0, 29.0]
-===============q=0.8,en-us++q=0.6,en++q=0.4++=>q=0.9,en-us++q=0.8,en++q=0.7++
-[3.0, 3.0]
-===============q=0.8++=>q=0.9++
-[2.0, 2.0]
 ===============gzip, deflate, lzma++=>gzip, deflate++
 [1.0, 1.0]
 ===============Chrome/66.0.3359.126++OPR/33.0.2254.125672++=>Chrome/66.0.3359.158++OPR/35.0.2254.127755++
@@ -246,13 +216,277 @@
 [1.0, 1.0]
 ===============-480.0++=>-540.0++
 [1.0, 1.0]
-===============False++=>True++
-[1.0, 1.0]
-===============True++=>False++
-[3.0, 3.0]
 ===============2.25++=>3.375++
 [1.0, 1.0]
 ===============2++=>2.25++
 [2.0, 2.0]
 ===============2++=>1.75++
+[1.0, 1.0]
+===============False++=>True++
+[1.0, 1.0]
+===============Thuringen++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Vorarlberg++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Niedersachsen++=>Mecklenburg-Vorpommern++
+[1.0, 1.0]
+===============Buskerud++=>Aust-Agder++
+[1.0, 1.0]
+===============Thuringen++=>Niedersachsen++
+[1.0, 1.0]
+===============Sachsen-Anhalt++=>Mecklenburg-Vorpommern++
+[1.0, 1.0]
+===============Wien++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Brandenburg++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Baden-Wurttemberg++=>Berlin++
+[1.0, 1.0]
+===============Zurich++=>Basel-Stadt++
+[1.0, 1.0]
+===============Rheinland-Pfalz++=>Washington++
+[1.0, 1.0]
+===============Wien++=>Steiermark++
+[1.0, 1.0]
+===============Rheinland-Pfalz++=>Brandenburg++
+[1.0, 1.0]
+===============Valais++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Bremen++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Taipei++=>Chiba++
+[1.0, 1.0]
+===============Saarland++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Oberosterreich++=>Rheinland-Pfalz++
+[1.0, 1.0]
+===============Brandenburg++=>Thuringen++
+[1.0, 1.0]
+===============Washington++=>Pennsylvania++
+[1.0, 1.0]
+===============Niedersachsen++=>Rheinland-Pfalz++
+[2.0, 2.0]
+===============Gauteng++=>Washington++
+[1.0, 1.0]
+===============Bayern++=>Saarland++
+[1.0, 1.0]
+===============Schleswig-Holstein++=>Bayern++
+[1.0, 1.0]
+===============Canarias++=>Nordrhein-Westfalen++
+[1.0, 1.0]
+===============Sachsen++=>Berlin++
+[1.0, 1.0]
+===============6c05988260a2b2df059c972e0b82a8f13f0c7388++=>88f9a35438201f34381be6425fc61c58c31b5fc1++
+[2.0, 2.0]
+===============391219fe2b4ddd613eda0abc5de071cd17af7bab++=>986de49816a287410582339197e77f7fea2460ca++
+[3.0, 3.0]
+===============993256cc97a3db785b26a37e355b93acd6245a0f++=>bdd7ba37c5f2b8bad031b59cd0105e2be2058dcc++
+[1.0, 1.0]
+===============b7251da95affd1a95946f74d9d40e678410f8f6e++=>391219fe2b4ddd613eda0abc5de071cd17af7bab++
+[1.0, 1.0]
+===============1a26806c3a82ec72cf21e9869b099097235f2647++=>8f182b3b9afb58832515da1a210f933d8462f292++
+[3.0, 3.0]
+===============d5ae700aec6b39fcee5968d1e4481344b07670f2++=>391219fe2b4ddd613eda0abc5de071cd17af7bab++
+[1.0, 1.0]
+===============b7251da95affd1a95946f74d9d40e678410f8f6e++=>d5ae700aec6b39fcee5968d1e4481344b07670f2++
+[1.0, 1.0]
+===============986de49816a287410582339197e77f7fea2460ca++=>09fa1b14c0e32dee2398403fb578dd4f3d42e141++
+[1.0, 1.0]
+===============d5ae700aec6b39fcee5968d1e4481344b07670f2++=>643e2f8771e0f5a2ae05466df35ee0fe39ea581e++
+[1.0, 1.0]
+===============88f9a35438201f34381be6425fc61c58c31b5fc1++=>36632f75b903bca305bcd02a56840abd40442e13++
+[1.0, 1.0]
+===============b7704ec9aace7c3b5115e757a88f87bc2200e143++=>745fe5d2db2434718c2aa84894fc9fb9323c3565++
+[1.0, 1.0]
+===============88f9a35438201f34381be6425fc61c58c31b5fc1++=>8f182b3b9afb58832515da1a210f933d8462f292++
+[2.0, 2.0]
+===============b7704ec9aace7c3b5115e757a88f87bc2200e143++=>986de49816a287410582339197e77f7fea2460ca++
+[1.0, 1.0]
+===============q=0.8,en-us++q=0.6,en++q=0.4++=>q=0.9,en-us++q=0.8,en++q=0.7++
+[3.0, 3.0]
+===============q=0.8++=>q=0.9++
+[2.0, 2.0]
+===============True++=>False++
+[3.0, 3.0]
+===============Seattle++=>Philadelphia++
+[1.0, 1.0]
+===============Isenburg++=>Chemnitz++
+[1.0, 1.0]
+===============Augsburg-Lechviertel++=>Kaufbeuren++
+[1.0, 1.0]
+===============Dortmund++=>Isenburg++
+[4.0, 4.0]
+===============Wesel++=>Bonn++
+[1.0, 1.0]
+===============Nuremberg++=>Karlsruhe++
+[1.0, 1.0]
+===============Hall in Tirol++=>Vienna++
+[1.0, 1.0]
+===============Freiburg++=>Munich++
+[1.0, 1.0]
+===============Isenburg++=>Seattle++
+[1.0, 1.0]
+===============Munich++=>Friedrichshafen++
+[1.0, 1.0]
+===============Nuremberg++=>Janahof++
+[1.0, 1.0]
+===============Ravensburg++=>Isenburg++
+[1.0, 1.0]
+===============Cuxhaven++=>Nienburg++
+[1.0, 1.0]
+===============Saarbrucken++=>Isenburg++
+[1.0, 1.0]
+===============Bremen++=>Tespe++
+[1.0, 1.0]
+===============Zinna++=>Berlin++
+[1.0, 1.0]
+===============Dusseldorf++=>Buxtehude++
+[1.0, 1.0]
+===============Spreewitz++=>Halle (Saale)++
+[1.0, 1.0]
+===============Erfurt++=>Dorentrup++
+[1.0, 1.0]
+===============Stuttgart++=>Dortmund++
+[1.0, 1.0]
+===============Darmstadt++=>Isenburg++
+[1.0, 1.0]
+===============Drammen++=>Arendal++
+[1.0, 1.0]
+===============Schottjer Dreesche++=>Isenburg++
+[1.0, 1.0]
+===============Flensburg++=>Nuremberg++
+[1.0, 1.0]
+===============Johannesburg++=>Seattle++
+[1.0, 1.0]
+===============Nuremberg++=>Alsenberg++
+[1.0, 1.0]
+===============Zurich++=>Basel++
+[1.0, 1.0]
+===============Dornbirn++=>Isenburg++
+[1.0, 1.0]
+===============Magdeburg++=>Oldenburg++
+[1.0, 1.0]
+===============Karlsruhe++=>Augsburg-Lechviertel++
+[1.0, 1.0]
+===============Dusseldorf++=>Isenburg++
+[2.0, 2.0]
+===============Hanover++=>Isenburg++
+[1.0, 1.0]
+===============Luebeck++=>Isenburg++
+[1.0, 1.0]
+===============Ingolstadt++=>Aachen++
+[1.0, 1.0]
+===============Nuremberg++=>Pohlitz++
+[1.0, 1.0]
+===============Hanover++=>Rostock++
+[1.0, 1.0]
+===============Berlin++=>Zehdenick++
+[1.0, 1.0]
+===============Dortmund++=>Sandhausen++
+[1.0, 1.0]
+===============Muenster++=>Bielefeld++
+[1.0, 1.0]
+===============Hamersleben++=>Magdeburg++
+[1.0, 1.0]
+===============Taipei++=>Chiba++
+[1.0, 1.0]
+===============Zwickau++=>Isenburg++
+[1.0, 1.0]
+===============Isenburg++=>Saarbrucken++
+[1.0, 1.0]
+===============Frankfurt am Main++=>Pirmasens++
+[1.0, 1.0]
+===============Wommen++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Muenster++=>Isenburg++
+[1.0, 1.0]
+===============Mainz++=>Isenburg++
+[1.0, 1.0]
+===============Achern++=>Stuttgart++
+[1.0, 1.0]
+===============Isenburg++=>Karlsruhe++
+[1.0, 1.0]
+===============Mecklenburg++=>Oldenburg++
+[1.0, 1.0]
+===============Dusseldorf++=>Potsdam++
+[1.0, 1.0]
+===============Stuttgart++=>Wuerzburg++
+[1.0, 1.0]
+===============Fulda++=>Bielefeld++
+[1.0, 1.0]
+===============Schacksdorf++=>Erfurt++
+[1.0, 1.0]
+===============Neustrelitz++=>Boitzenburg++
+[1.0, 1.0]
+===============Stockte++=>Hanover++
+[1.0, 1.0]
+===============Bensheim++=>Wieseck++
+[1.0, 1.0]
+===============Wesel++=>Dusseldorf++
+[1.0, 1.0]
+===============Leipzig++=>Lieser++
+[1.0, 1.0]
+===============Vienna++=>Isenburg++
+[1.0, 1.0]
+===============Hameln++=>Westerndorf-Sankt Peter++
+[1.0, 1.0]
+===============Bremen++=>Bonn++
+[1.0, 1.0]
+===============Munich++=>Dortmund++
+[1.0, 1.0]
+===============Brig++=>Isenburg++
+[1.0, 1.0]
+===============Isenburg++=>Schottjer Dreesche++
+[1.0, 1.0]
+===============Dortmund++=>Kleve++
+[1.0, 1.0]
+===============Burghaslach++=>Isenburg++
+[1.0, 1.0]
+===============Vierde++=>Hamburg++
+[1.0, 1.0]
+===============Bamberg++=>Saarbrucken++
+[1.0, 1.0]
+===============Isenburg++=>Munich++
+[1.0, 1.0]
+===============Darmstadt++=>Osnabruck++
+[1.0, 1.0]
+===============Dortmund++=>Bonn++
+[1.0, 1.0]
+===============Vienna++=>Feldbach++
+[1.0, 1.0]
+===============Arrecife++=>Bonn++
+[1.0, 1.0]
+===============Munich++=>Isenburg++
+[1.0, 1.0]
+===============Spreewitz++=>Dresden++
+[1.0, 1.0]
+===============Wiesbaden++=>Isenburg++
+[1.0, 1.0]
+===============Nuremberg++=>Regensburg++
+[1.0, 1.0]
+===============Kiel++=>Isenburg++
+[1.0, 1.0]
+===============Sandstedt++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Villingen-Schwenningen++=>Berlin++
+[1.0, 1.0]
+===============Dortmund++=>Keddinghausen++
+[1.0, 1.0]
+===============Dusseldorf++=>Ingolstadt++
+[1.0, 1.0]
+===============Slamen++=>Ahaus++
+[1.0, 1.0]
+===============Potsdam++=>Frankfurt am Main++
+[1.0, 1.0]
+===============Vocklabruck++=>Isenburg++
+[1.0, 1.0]
+===============Potsdam++=>Isenburg++
+[2.0, 2.0]
+===============South Africa++=>United States++
+[1.0, 1.0]
+===============Spain++=>Germany++
+[1.0, 1.0]
+===============Germany++=>United States++
+[1.0, 1.0]
+===============Taiwan, Province of China++=>Japan++
 [1.0, 1.0]
