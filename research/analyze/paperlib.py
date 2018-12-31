@@ -1160,6 +1160,7 @@ class Paperlib():
         if len(df) == 0:
             df = self.db.load_data(table_name = table_name)
         related = {}
+        overall_list = {}
         for feature in feature_list:
             cur_grouped = df.groupby(['browser', feature])
             for key, cur_group in tqdm(cur_grouped):
@@ -1172,16 +1173,13 @@ class Paperlib():
                 if float(len(together_list)) / float(len(cur_group)) > threshhold:
                     related[browser][feature][key[1]] = [cur_group['agent'].unique(), float(len(together_list)), float(len(cur_group))]
                     related[browser][feature]['sumup'] += float(len(together_list))
+                    overall_list[key[1]] = related[browser][feature][key[1]]
 
-        for b in related:
-            f = safeopen('./relations/{}'.format(b), 'w')
-            for r in related[b]:
-                for cur_key in related[b][r]:
-                    if cur_key == 'sumup':
-                        continue
-                    f.write('==============={}\n'.format(cur_key))
-                    f.write('{}\n'.format(related[b][r][cur_key][1:]))
-            f.close()
+        f = safeopen('./relations/Overall.dat', 'w')
+        sorted_overall = sorted(overall_list.iteritems(), key = lambda (k, v): (-v[1], k))
+        for val in overall_list:
+            f.wrtie('{}\t{}\n\t{}\n'.format(val, sorted_overall[val][1], '===='.join(sorted_overall[val][0])))
+        f.close()
 
         return related
 
@@ -1293,6 +1291,7 @@ class Paperlib():
                 feature_list.append(feature)
 
         related = self.relation_detection(df = df, feature_list = match_list.keys())
+        return 
         detailed_list = {}
 
         browser_idx = feature_list.index('browser')
