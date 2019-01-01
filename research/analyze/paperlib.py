@@ -1524,7 +1524,7 @@ class Paperlib():
         return use vpn or not
         """
         ip2location = self.ip2loation_table
-        ip_from = ip2location['ip_from']
+        ip_from = self.ip2location_from
 
         int_ip = ip2int(fromip)
         idx = bisect.bisect_left(ip_from, int_ip) - 1
@@ -1554,32 +1554,37 @@ class Paperlib():
         input a change dataframe, return VPN usage, subnet change
         IP city, IP region, IP country change
         """
-        df = self.load_data(table_name = 'allchanges', feature_list = ['IP', 'ipcity', 'ipregion', 'ipcountry', 'fromtime', 'totime'])
+        df = self.db.load_data(table_name = 'allchanges', feature_list = ['IP', 'ipcity', 'ipregion', 'ipcountry', 'fromtime', 'totime', 'browserid'])
         ip_db = Database('uniquemachine')
         self.ip2loation_table = ip_db.load_data(table_name = 'ip2location_db5')
+        self.ip2location_from = self.ip2loation_table['ip_from']
         cnt = -1
+        total_ip_change = set()
         numbers = {'vpn': set(), 'subnet': set(), 'ipcity': set(), 'ipregion': set(), 'ipcountry': set()}
         for idx, row in tqdm(df.iterrows()):
-            if row['IP'] == '':
-                continue
             cnt += 1
+            #cnt = row['browserid']
             ip_0 = row['IP'].split('=>')[0]
             ip_1 = row['IP'].split('=>')[1]
+            if ip_0 == ip_1:
+                continue
+            total_ip_change.add(cnt)
             ip_0_list = ip_0.split('.')
             ip_1_list = ip_1.split('.')
             if ip_0_list[0] == ip_1_list[0] and ip_0_list[1] == ip_1_list[1] and ip_0_list[2] == ip_1_list[2] and ip_0_list[3] != ip_1_list[3]:
                 numbers['subnet'].add(cnt)
             if self.check_vpn_usage(ip_0, ip_1, row['fromtime'], row['totime']):
                 numbers['vpn'].add(cnt)
-            if 'ipcity' != '':
+            if row['ipcity'] != '':
                 numbers['ipcity'].add(cnt)
-            if 'ipregion' != '':
+            if row['ipregion'] != '':
                 numbers['ipregion'].add(cnt)
-            if 'ipcountry' != '':
+            if row['ipcountry'] != '':
                 numbers['ipcountry'].add(cnt)
         for key in numbers:
             numbers[key] = len(numbers[key])
-        print numbers
+        for key in numbers:
+            print key, numbers[key],float(numbers[key]) / float(len(total_ip_change))
         return numbers
 
     def rebuild_fingerprintchanges(self, 
