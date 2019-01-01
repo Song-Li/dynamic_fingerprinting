@@ -1180,7 +1180,6 @@ class Paperlib():
         for val in sorted_overall:
             fp.write('{}, {}, {}, {}, {}, {}\n'.format(val[0], val[1][1], val[1][2], val[1][3], val[1][4], '====='.join(val[1][0])))
         fp.close()
-
         return related
 
     def count_val_feature(self, df, val = [], feature = '', sep = '++'):
@@ -1215,8 +1214,8 @@ class Paperlib():
                     if pre_row['os'] not in res_map:
                         res_map[pre_row['os']] = {}
                     if row['os'] not in res_map[pre_row['os']]:
-                        res_map[pre_row['os']][row['os']] = set()
-                    res_map[pre_row['os']][row['os']].add(row['clientid'])
+                        res_map[pre_row['os']][row['os']] = []
+                    res_map[pre_row['os']][row['os']].append(row['clientid'])
                     break
                 pre_row = row
 
@@ -1227,7 +1226,10 @@ class Paperlib():
         print ("Total Number: {}".format(total_number))
         for f in res_map:
             for t in res_map[f]:
-                print f, t, len(res_map[f][t]), float(len(res_map[f][t])) / float(total_number)
+                if len(res_map[f][t]) > 10:
+                    print f, t, len(res_map[f][t]), float(len(res_map[f][t])) / float(total_number), res_map[f][t][:9]
+                else:
+                    print f, t, len(res_map[f][t]), float(len(res_map[f][t])) / float(total_number), res_map[f][t]
         return 
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
@@ -1403,7 +1405,7 @@ class Paperlib():
 
                     elif match_list[feature] in environment_list:
                         #for get the reason of jsFonts
-                        if feature == 'jsFonts':
+                        if feature == 'canvastest':
                             if row[feature] not in reason_map:
                                 reason_map[row[feature]] = 0
                             reason_map[row[feature]] += 1
