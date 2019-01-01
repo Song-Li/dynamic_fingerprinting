@@ -1171,14 +1171,14 @@ class Paperlib():
                     related[browser][feature] = {'sumup': 0}
                 together_list = cur_group[cur_group['agent'] != '']
                 if float(len(together_list)) / float(len(cur_group)) > threshhold:
-                    related[browser][feature][key[1]] = [cur_group['agent'].unique(), float(len(together_list)), float(len(cur_group))]
+                    related[browser][feature][key[1]] = [cur_group['agent'].unique(), float(len(together_list)), float(len(cur_group)), feature, browser]
                     related[browser][feature]['sumup'] += float(len(together_list))
                     overall_list[key[1]] = related[browser][feature][key[1]]
 
         sorted_overall = sorted(overall_list.iteritems(), key = lambda (k, v): (-v[1], k))
         fp = safeopen('./relations/overall', 'w')
         for val in sorted_overall:
-            fp.write('{}, {}, {}, {}\n'.format(val[0], val[1][1], val[1][2], ','.join(val[1][0])))
+            fp.write('{}, {}, {}, {}, {}, {}\n'.format(val[0], val[1][1], val[1][2], val[1][3], val[1][4], '====='.join(val[1][0])))
         fp.close()
 
         return related
