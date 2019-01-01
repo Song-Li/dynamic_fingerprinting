@@ -1291,7 +1291,8 @@ class Paperlib():
                 feature_list.append(feature)
 
         related = self.relation_detection(df = df, feature_list = ['audio', 'canvastest', 'jsFonts', 'gpu', 'plugins', 'cookie', 'language', 'encoding', 'langsdetected'])
-        return 
+
+        #If just want relation, return here
         detailed_list = {}
 
         browser_idx = feature_list.index('browser')
@@ -1516,6 +1517,70 @@ class Paperlib():
             f.close()
 
         return 
+
+    def check_vpn_usage(self, fromip, toip, fromtime, totime):
+        """
+        input the from, to ip, from to time
+        return use vpn or not
+        """
+        ip2location = self.ip2loation_table
+        ip_from = ip2location['ip_from']
+
+        int_ip = ip2int(fromip)
+        idx = bisect.bisect_left(ip_from, int_ip) - 1
+        fromlatitude = ip2location.iloc[idx]['latitude']
+        fromlongitude = ip2location.iloc[idx]['longitude']
+        int_ip = ip2int(toip)
+        idx = bisect.bisect_left(ip_from, int_ip) - 1
+        tolatitude = ip2location.iloc[idx]['latitude']
+        tolongitude = ip2location.iloc[idx]['longitude']
+
+        seconds_change = float((totime - fromtime).total_seconds())
+        distance_change = ip_distance(fromlatitude, fromlongitude,
+                tolatitude,
+                tolongitude) 
+
+        if seconds_change == 0:
+            seconds_change = 0.1
+
+        km_per_hour = distance_change / (seconds_change / 3600)
+
+        if km_per_hour > 1999:
+            return True
+        return False
+
+    def network_change_statics(self):
+        """
+        input a change dataframe, return VPN usage, subnet change
+        IP city, IP region, IP country change
+        """
+        df = self.load_data(table_name = 'allchanges', feature_list = ['IP', 'ipcity', 'ipregion', 'ipcountry', 'fromtime', 'totime'])
+        ip_db = Database('uniquemachine')
+        self.ip2loation_table = ip_db.load_data(table_name = 'ip2location_db5')
+        cnt = -1
+        numbers = {'vpn': set(), 'subnet': set(), 'ipcity': set(), 'ipregion': set(), 'ipcountry': set()}
+        for idx, row in tqdm(df.iterrows()):
+            if row['IP'] == '':
+                continue
+            cnt += 1
+            ip_0 = row['IP'].split('=>')[0]
+            ip_1 = row['IP'].split('=>')[1]
+            ip_0_list = ip_0.split('.')
+            ip_1_list = ip_1.split('.')
+            if ip_0_list[0] == ip_1_list[0] and ip_0_list[1] == ip_1_list[1] and ip_0_list[2] == ip_1_list[2] and ip_0_list[3] != ip_1_list[3]:
+                numbers['subnet'].add(cnt)
+            if self.check_vpn_usage(ip_0, ip_1, row['fromtime'], row['totime']):
+                numbers['vpn'].add(cnt)
+            if 'ipcity' != '':
+                numbers['ipcity'].add(cnt)
+            if 'ipregion' != '':
+                numbers['ipregion'].add(cnt)
+            if 'ipcountry' != '':
+                numbers['ipcountry'].add(cnt)
+        for key in numbers:
+            numbers[key] = len(numbers[key])
+        print numbers
+        return numbers
 
     def rebuild_fingerprintchanges(self, 
             from_table = 'fingerprintchanges', 
