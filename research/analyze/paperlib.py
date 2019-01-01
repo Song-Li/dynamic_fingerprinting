@@ -1175,11 +1175,11 @@ class Paperlib():
                     related[browser][feature]['sumup'] += float(len(together_list))
                     overall_list[key[1]] = related[browser][feature][key[1]]
 
-        f = safeopen('./relations/Overall.dat', 'w')
         sorted_overall = sorted(overall_list.iteritems(), key = lambda (k, v): (-v[1], k))
-        for val in overall_list:
-            f.wrtie('{}\t{}\n\t{}\n'.format(val, sorted_overall[val][1], '===='.join(sorted_overall[val][0])))
-        f.close()
+        fp = safeopen('./relations/overall', 'w')
+        for val in sorted_overall:
+            fp.write('{}, {}, {}, {}\n'.format(val[0], val[1][1], val[1][2], ','.join(val[1][0])))
+        fp.close()
 
         return related
 
@@ -1290,7 +1290,7 @@ class Paperlib():
             if feature not in feature_list:
                 feature_list.append(feature)
 
-        related = self.relation_detection(df = df, feature_list = match_list.keys())
+        related = self.relation_detection(df = df, feature_list = ['audio', 'canvastest', 'jsFonts', 'gpu', 'plugins', 'cookie', 'language', 'encoding', 'langsdetected'])
         return 
         detailed_list = {}
 
