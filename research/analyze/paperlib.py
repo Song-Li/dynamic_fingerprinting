@@ -1202,7 +1202,7 @@ class Paperlib():
         """
         df = self.db.load_data(table_name = 'final_pandas')
         grouped = df.groupby('clientid')
-        res_set = set()
+        res_map = {}
         for key, cur_group in tqdm(grouped):
             if cur_group['os'].nunique() == 1:
                 continue
@@ -1211,10 +1211,24 @@ class Paperlib():
                 if len(pre_row) == 0:
                     pre_row = row
                     continue
-                if row['gpu'] == pre_row['gpu'] and row['agent'] != pre_row['agent']:
-                    res_set.add(row['clientid'])
+                if row['os'] != pre_row['os'] and row['gpu'] == pre_row['gpu'] and row['agent'] != pre_row['agent']:
+                    if pre_row['os'] not in res_map:
+                        res_map[pre_row['os']] = {}
+                    if row['os'] not in res_map[pre_row['os']]:
+                        res_map[pre_row['os']][row['os']] = set()
+                    res_map[pre_row['os']][row['os']].add(row['clientid'])
+                    break
                 pre_row = row
-        print res_set 
+
+        total_number = 0
+        for f in res_map:
+            for t in res_map[f]:
+                total_number += len(res_map[f][t])
+        print ("Total Number: {}".format(total_number))
+        for f in res_map:
+            for t in res_map[f]:
+                print f, t, len(res_map[f][t]), float(len(res_map[f][t])) / float(total_number)
+        return 
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1330,6 +1344,7 @@ class Paperlib():
         classes_numbers['overall'] = {}
 
         others_numbers = {}
+        reason_map = {}
         for idx, row in tqdm(df.iterrows()):
             #cnt += 1
             cnt = row['browserid']
@@ -1387,6 +1402,12 @@ class Paperlib():
                             cur_classes += 'useraction_'
 
                     elif match_list[feature] in environment_list:
+                        #for get the reason of jsFonts
+                        if feature == 'jsFonts':
+                            if row[feature] not in reason_map:
+                                reason_map[row[feature]] = 0
+                            reason_map[row[feature]] += 1
+
                         change_ids['environmentUpdate'].add(cnt)
                         browsermap[browser]['environmentUpdate'].add(cnt)
                         osmap[os]['environmentUpdate'].add(cnt)
@@ -1421,6 +1442,15 @@ class Paperlib():
                         others_numbers[feature] = 0
                     if row[feature] != '':
                         others_numbers[feature] += 1
+
+        #userd for get the reason of changes
+        #===================================
+        reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v, k))
+        for reason in reason_map:
+            print reason
+        return 
+        #===================================
+
 
         sorted_classes_numbers = {}
         for cur_type in classes_numbers:
@@ -1471,7 +1501,6 @@ class Paperlib():
             cur_total = 1
         for key in network_list:
             f.write('{}\t{}\n'.format(key, float(len(change_ids[key])) / float(cur_total)))
-
         f.close()
 
         for browser in browsermap:
