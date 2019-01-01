@@ -7,7 +7,8 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.network_change_statics()
+    paperlib.request_desktop_detection()
+    #paperlib.network_change_statics()
     #paperlib.relation_detection(table_name = 'allchanges')
     #paperlib.draw_detailed_reason(table_name = 'allchanges')
     #fonts = Fonts()

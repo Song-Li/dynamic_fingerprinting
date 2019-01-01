@@ -1195,13 +1195,26 @@ class Paperlib():
                 count += 1
         return count
 
-    def request_desktop_detection(self, row):
+    def request_desktop_detection(self):
         """
-        input a row of changes
         the rule is only the agent string changes
         return this is a request desktop or not
         """
-        pass
+        df = self.db.load_data(table_name = 'final_pandas')
+        grouped = df.groupby('clientid')
+        res_set = set()
+        for key, cur_group in tqdm(grouped):
+            if cur_group['os'].nunique() == 1:
+                continue
+            pre_row = {}
+            for idx, row in cur_group.iterrows():
+                if len(pre_row) == 0:
+                    pre_row = row
+                    continue
+                if row['gpu'] == pre_row['gpu'] and row['agent'] != pre_row['agent']:
+                    res_set.add(row['clientid'])
+                pre_row = row
+        print res_set 
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1442,19 +1455,6 @@ class Paperlib():
         for item in others_numbers:
             f.write('{}\t{}\n'.format(item, others_numbers[item]))
         f.close()
-
-        
-        cur_total = 0
-        f = safeopen('./changereason/bigtable/{}'.format('overallactionenv'), 'w')
-        f.write('useraction\n')
-        for key in useraction_list:
-            cur_total += len(change_ids[key])
-        if cur_total == 0:
-            cur_total = 1
-        for key in useraction_list:
-            f.write('{}\t{}\n'.format(key, float(len(change_ids[key])) / float(cur_total)))
-
-        cur_total = 0
         f.write('environment_list\n')
         for key in environment_list:
             cur_total += len(change_ids[key])
@@ -2071,52 +2071,6 @@ class Paperlib():
 
         df = pd.DataFrame.from_dict(vpn_browserids)
         self.db.export_sql(df, 'possiblevpnids')
-
-    def get_num_of_feature_changes(self, feature_name, feature_value, include = False, sep = '_', table_name = 'patched_tablefeaturechanges'):
-        """
-        return the number of features in change database
-        include is not implemented
-        """
-        df = self.db.load_data(table_name = table_name, feature_list = ['browserid', feature_name, 'browser'])
-        # for MT Extra test
-        start_time = datetime.date(2018, 1, 9)
-        end_time = datetime.date(2018, 2, 9)
-
-        #df = df[df['totime'] > start_time]
-        #df = df[df['totime'] < end_time]
-
-
-        grouped = df.groupby(feature_name)
-        res = 0
-
-        if not include:
-            value_group = grouped.get_group(feature_value)
-            res = value_group['browserid'].nunique()
-        else:
-            res_set = set()
-            firefox_num = 0
-            edge_num = 0
-            chrome_num = 0
-            for key, cur_group in tqdm(grouped):
-                finished = True 
-                key = key.split('=>')
-                if len(key) > 1:
-                    key = key[1]
-                else:
-                    key = key[0]
-                if len(set(feature_value) - set(key.split(sep))) == 0:
-                    for f in cur_group['browserid'].unique():
-                        if f.lower().find('firefox') != -1:
-                            firefox_num += 1
-                        elif f.lower().find('edge') != -1:
-                            edge_num += 1
-                        elif f.lower().find('chrome') != -1:
-                            chrome_num += 1
-                        else:
-                            print f
-                    res_set |= set(cur_group['browserid'].unique())
-            res = len(res_set)
-        return res, chrome_num, firefox_num, edge_num
 
     def get_vpn_user(self):
         """
