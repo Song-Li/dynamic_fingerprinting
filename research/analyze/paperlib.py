@@ -1485,8 +1485,8 @@ class Paperlib():
         others_numbers = {}
         reason_map = {}
         for idx, row in tqdm(df.iterrows()):
-            cnt += 1
-            #cnt = row['browserid']
+            #cnt += 1
+            cnt = row['browserid']
             browser = row['browser']
             os = row['os']
             cur_classes = ''
