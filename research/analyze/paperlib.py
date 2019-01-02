@@ -1281,8 +1281,8 @@ class Paperlib():
         """
         list the relation related to browser/os update
         """
-        feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']
-        df = self.db.load_data(table_name = 'allchanges', limit = 10000)
+        feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio', 'encoding']
+        df = self.db.load_data(table_name = 'allchanges')
         #os_related, browser_related = self.relation_detection_os_browser(df = df)
         browser_options = [
                 'Chrome',
@@ -1306,7 +1306,7 @@ class Paperlib():
         for idx, row in tqdm(df.iterrows()):
             if row['browser'] not in browser_options:
                 continue
-            if row['agent'] != '':
+            if row['agent'] == '':
                 continue
 
             cnt += 1
@@ -1356,14 +1356,16 @@ class Paperlib():
 
                 res[os][os_version]['total'].add(cnt)
 
+        fp = safeopen('./relations/second', 'w')
         for b in res:
             for version in res[b]:
-                for f in res[b][version]:
-                    print b, f, res[b][version][f]
+                fp.write('{} {} '.format(b, version))
+                cur_total = len(res[b][version]['total'])
+                for f in feature_list:
+                    fp.write('{} {} '.format(f, float(len(res[b][version][f])) / float(cur_total)))
+                fp.write('\n')
+        fp.close()
 
-
-
-        
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
