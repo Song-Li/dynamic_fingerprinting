@@ -1186,21 +1186,26 @@ class Paperlib():
         """
         same as relation detection ,this time, return by os or browser 
         """
-        if len(df) == 0:
-            df = self.db.load_data(table_name = table_name)
-
         browser_related = {}
         os_related = {}
         for feature in feature_list:
             cur_grouped = df.groupby(['browser', feature])
+            os_together_list = []
+            browser_together_list = []
             for key, cur_group in tqdm(cur_grouped):
                 for idx, row in cur_group.iterrows():
+                    if len(row['tobrowserversion']) == 0 or len(row['toosversion']) == 0:
+                        continue
                     if row['agent'] != '':
                         if row['fromosversion'] != row['toosversion']:
                             os_together_list.append((row['os'], row['toosversion']))
                         else:
                             # only keep the big version of browser
-                            browser_together_list.append((row['browser'], int(row['tobrowserversion'].split('.')[0])))
+                            try:
+                                browser_together_list.append((row['browser'], int(row['tobrowserversion'].split('.')[0])))
+                            except:
+                                print row['tobrowserversion']
+
                 if float(len(os_together_list)) / float(len(cur_group)) > threshhold:
                     os = collections.Counter([v[0] for v in os_together_list]).most_common(1)
                     version = collections.Counter([v[1] for v in os_together_list]).most_common(1)
@@ -1209,7 +1214,6 @@ class Paperlib():
                     browser = collections.Counter([v[0] for v in browser_together_list]).most_common(1)
                     version = collections.Counter([v[1] for v in browser_together_list]).most_common(1)
                     browser_related[key[1]] = (browser, version) 
-
         return os_related, browser_related 
 
     def count_val_feature(self, df, val = [], feature = '', sep = '++'):
@@ -1277,15 +1281,10 @@ class Paperlib():
         """
         list the relation related to browser/os update
         """
-        df = self.db.load_data(table_name = 'allchanges')
+        df = self.db.load_data(table_name = 'allchanges', limit = 10000)
         os_related, browser_related = self.relation_detection_os_browser(df = df)
-        print os_related
-            
-
-
         
-
-
+            
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
         this is a newer version of changes reason, including
