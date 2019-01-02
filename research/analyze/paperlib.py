@@ -1374,7 +1374,7 @@ class Paperlib():
             consider MS fonts
         TODO: get the desktop request
         """
-        df = self.db.load_data(table_name = table_name)
+        df = self.db.load_data(table_name = table_name, limit = 1000)
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
         adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
@@ -1543,6 +1543,7 @@ class Paperlib():
 
                     elif match_list[feature] in environment_list:
                         #for get the reason of jsFonts
+                        """
                         if feature == 'canvastest':
                             if row[feature] not in reason_map:
                                 reason_map[row[feature]] = {'total': 0}
@@ -1550,6 +1551,7 @@ class Paperlib():
                                 reason_map[row[feature]][browser] = 0
                             reason_map[row[feature]][browser] += 1
                             reason_map[row[feature]]['total'] += 1
+                        """
 
                         if feature == 'jsFonts' or feature == 'plugins':
                             change_ids[match_list[feature]].add(cnt)
@@ -1593,9 +1595,11 @@ class Paperlib():
 
         #userd for get the reason of changes
         #===================================
+        '''
         reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v['total'], k))
         for reason in reason_map:
             print '===================', reason
+        '''
         #return 
         #===================================
 
@@ -1707,6 +1711,18 @@ class Paperlib():
             for key in environment_list:
                 f.write('{}\t{}\n'.format(key, float(len(osmap[os][key])) / float(cur_total)))
             f.close()
+
+        f = safeopen('./changreason/bigtable/ossplit', 'w')
+        for key in match_list.keys():
+            cur_total = 0
+            for os in osmap:
+                cur_total += osmap[os][key]
+            f.write('{}\n'.format(key))
+            for os in osmap:
+                f.write('{}\t{}\n'.format(os, float(len(osmap[os][key])) / float(cur_total)))
+
+        f.close()
+
 
         return 
 
