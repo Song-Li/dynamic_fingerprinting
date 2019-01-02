@@ -1223,7 +1223,8 @@ class Paperlib():
         cnt = -1
         res_set = set()
         for idx in tqdm(df.index):
-            cnt += 1
+            #cnt += 1
+            cnt = df.at[idx, 'browserid']
             cur_vallist = df.at[idx, feature].replace('=>', '++')
             cur_vallist = cur_vallist.split(sep)
             if set(val).issubset(cur_vallist):
@@ -1245,7 +1246,9 @@ class Paperlib():
                 'fp2_liedos'
                 ]
         lied_set = set()
+        cnt = -1
         for key, cur_group in tqdm(grouped):
+            cnt += 1
             #if cur_group['os'].nunique() == 1:
             #    continue
             pre_row = {}
@@ -1255,15 +1258,14 @@ class Paperlib():
                     continue
                 for lied in lied_list:
                     if pre_row[lied] != row[lied]:
-                        lied_set.add(row['clientid'])
+                        lied_set.add(cnt)
 
                 if row['os'] != pre_row['os'] and row['gpu'] == pre_row['gpu'] and row['agent'] != pre_row['agent']:
                     if pre_row['os'] not in res_map:
                         res_map[pre_row['os']] = {}
                     if row['os'] not in res_map[pre_row['os']]:
                         res_map[pre_row['os']][row['os']] = set()
-                    res_map[pre_row['os']][row['os']].add(row['clientid'])
-                    break
+                    res_map[pre_row['os']][row['os']].add(cnt)
                 pre_row = row
 
         total_number = 0
@@ -1379,6 +1381,7 @@ class Paperlib():
         print ('Office Fonts:', ms_office_number)
         adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
         print ('adobe Fonts:', adobe_number)
+        return 
         flash_enabled_number = self.count_val_feature(df, val = ['Shockwave Flash'], feature = 'plugins')
         print ('Flash Enabled:', flash_enabled_number)
         df = self.remove_flip_plugins(df)

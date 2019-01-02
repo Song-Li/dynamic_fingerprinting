@@ -1,0 +1,49 @@
+feature name * do not exsit in table final_pandas
+filling nan with -9999
+finished loading final_pandas
+Total Number: 1932
+Windows 95 Windows 0 0.0
+FreeBSD Linux 0 0.0
+Windows Mac OS X 16 0.000199441563622
+Windows Windows Phone 14 0.000174511368169
+Windows Linux 3 3.73952931791e-05
+Windows iOS 113 0.00140855604308
+Windows BlackBerry OS 0 0.0
+Windows Ubuntu 8 9.97207818109e-05
+Windows Android 126 0.00157060231352
+Mac OS X Windows 23 0.000286697247706
+Mac OS X iOS 45 0.000560929397686
+Mac OS X Other 1 1.24650977264e-05
+Mac OS X BlackBerry OS 0 0.0
+Mac OS X Linux 1 1.24650977264e-05
+Mac OS X Android 60 0.000747905863582
+Windows Phone Windows 12 0.000149581172716
+Windows Phone Android 3 3.73952931791e-05
+Ubuntu Windows 9 0.000112185879537
+Ubuntu iOS 1 1.24650977264e-05
+Ubuntu Linux 6 7.47905863582e-05
+iOS Windows 86 0.00107199840447
+iOS Mac OS X 46 0.000573394495413
+iOS Android 2 2.49301954527e-05
+iOS Ubuntu 1 1.24650977264e-05
+iOS Linux 4 4.98603909055e-05
+Symbian^3 Anna Android 1 1.24650977264e-05
+Other Windows 2 2.49301954527e-05
+Other Mac OS X 1 1.24650977264e-05
+Other Android 3 3.73952931791e-05
+Other iOS 0 0.0
+BlackBerry OS Windows 1 1.24650977264e-05
+BlackBerry OS Mac OS X 0 0.0
+Linux Fedora 0 0.0
+Linux Windows 4 4.98603909055e-05
+Linux Mac OS X 1 1.24650977264e-05
+Linux Windows Phone 1 1.24650977264e-05
+Linux iOS 4 4.98603909055e-05
+Linux Ubuntu 10 0.000124650977264
+Linux Android 481 0.00599571200638
+Android Windows 112 0.00139609094535
+Android Mac OS X 60 0.000747905863582
+Android Windows Phone 2 2.49301954527e-05
+Android iOS 7 8.72556840846e-05
+Android Other 2 2.49301954527e-05
+Android Linux 351 0.00437524930195
