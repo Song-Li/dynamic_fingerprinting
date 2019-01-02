@@ -1182,17 +1182,39 @@ class Paperlib():
         fp.close()
         return related
 
+    def relation_detection_os_browser(self, df = [], threshhold = 0.9, feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']):
+        """
+        same as relation detection ,this time, return by os or browser 
+        """
+        if len(df) == 0:
+            df = self.db.load_data(table_name = table_name)
+        related = {}
+        overall_list = {}
+        for feature in feature_list:
+            cur_grouped = df.groupby(['browser', feature])
+            for key, cur_group in tqdm(cur_grouped):
+                for idx, row in cur_group.iterrows():
+                    if row['agent'] != '':
+                        if row['fromosversion'] != row['toosversion']:
+                            os_together_list.append(row['toversion'])
+                        else:
+                            browser_together_list.append(row['tobrowserversion'])
+                            
+        return related
+
     def count_val_feature(self, df, val = [], feature = '', sep = '++'):
         """
         this function will return the number of changes caused by the val of feature
         """
-        count = 0
+        cnt = -1
+        res_set = set()
         for idx in tqdm(df.index):
+            cnt += 1
             cur_vallist = df.at[idx, feature].replace('=>', '++')
             cur_vallist = cur_vallist.split(sep)
             if set(val).issubset(cur_vallist):
-                count += 1
-        return count
+                res_set.add(cnt)
+        return len(res_set) 
 
     def request_desktop_detection(self):
         """
@@ -1202,20 +1224,31 @@ class Paperlib():
         df = self.db.load_data(table_name = 'final_pandas')
         grouped = df.groupby('clientid')
         res_map = {}
+        lied_list = [
+                'fp2_liedbrowser',
+                'fp2_liedresolution',
+                'fp2_liedlanguages',
+                'fp2_liedos'
+                ]
+        lied_set = set()
         for key, cur_group in tqdm(grouped):
-            if cur_group['os'].nunique() == 1:
-                continue
+            #if cur_group['os'].nunique() == 1:
+            #    continue
             pre_row = {}
             for idx, row in cur_group.iterrows():
                 if len(pre_row) == 0:
                     pre_row = row
                     continue
+                for lied in lied_list:
+                    if pre_row[lied] != row[lied]:
+                        lied_set.add(row['clientid'])
+
                 if row['os'] != pre_row['os'] and row['gpu'] == pre_row['gpu'] and row['agent'] != pre_row['agent']:
                     if pre_row['os'] not in res_map:
                         res_map[pre_row['os']] = {}
                     if row['os'] not in res_map[pre_row['os']]:
-                        res_map[pre_row['os']][row['os']] = []
-                    res_map[pre_row['os']][row['os']].append(row['clientid'])
+                        res_map[pre_row['os']][row['os']] = set()
+                    res_map[pre_row['os']][row['os']].add(row['clientid'])
                     break
                 pre_row = row
 
@@ -1226,11 +1259,23 @@ class Paperlib():
         print ("Total Number: {}".format(total_number))
         for f in res_map:
             for t in res_map[f]:
-                if len(res_map[f][t]) > 10:
-                    print f, t, len(res_map[f][t]), float(len(res_map[f][t])) / float(total_number), res_map[f][t][:9]
-                else:
-                    print f, t, len(res_map[f][t]), float(len(res_map[f][t])) / float(total_number), res_map[f][t]
+                intersection = lied_set.intersection(res_map[f][t])
+                print f, t, len(intersection), float(len(intersection)) / float(len(lied_set))#, res_map[f][t][:9]
         return 
+
+    def get_specific_browser_version(self, version_list):
+        """
+        input a version list 
+        """
+
+    def relation_list(self):
+        """
+        list the relation related to browser/os update
+        """
+        df = self.db.load_data(table_name = 'allchanges')
+        related = relation_detection(df = df)
+        for browser in related:
+            pass
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1242,6 +1287,8 @@ class Paperlib():
         df = self.db.load_data(table_name = table_name)
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
+        adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
+        print ('adobe Fonts:', adobe_number)
         flash_enabled_number = self.count_val_feature(df, val = ['Shockwave Flash'], feature = 'plugins')
         print ('Flash Enabled:', flash_enabled_number)
         df = self.remove_flip_plugins(df)
@@ -1253,8 +1300,8 @@ class Paperlib():
                 'gpu': 'GPU', 
                 'fp2_colordepth': 'colorDepth',
                 #'accept': 'header',
-                'encoding': 'header',
-                'language': 'header',
+                'encoding': 'encoding',
+                'language': 'language',
                 #'httpheaders': 'header',
                 'agent': 'agent',
                 'resolution': 'resolution',
@@ -1264,10 +1311,10 @@ class Paperlib():
                 'timezone': 'timezone',
                 'plugins': 'plugin',
                 'cookie': 'cookie',
-                'fp2_liedbrowser': 'lied',
-                'fp2_liedresolution': 'lied',
-                'fp2_liedlanguages': 'lied',
-                'fp2_liedos': 'lied',
+                'fp2_liedbrowser': 'fp2_liedbrowser',
+                'fp2_liedresolution': 'fp2_liedresolution',
+                'fp2_liedlanguages': 'fp2_liedlanguages',
+                'fp2_liedos': 'fp2_liedos',
                 'audio': 'audio',
                 'jsFonts': 'jsFonts',
                 'canvastest': 'canvas',
@@ -1276,8 +1323,8 @@ class Paperlib():
                 'ipcountry': 'ipcountry'
                 }
 
-        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'lied', 'header', 'private', 'flash']
-        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'canvas', 'GPU', 'inc', 'resolution']
+        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'fp2_liedbrowser', 'fp2_liedresolution', 'fp2_liedlanguages', 'fp2_liedos', 'private', 'flash']
+        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'encoding', 'language', 'canvas', 'GPU', 'inc', 'resolution']
         network_list = ['ipcity', 'ipregion', 'ipcountry']
 
         added_feature = [
@@ -1319,7 +1366,7 @@ class Paperlib():
             if feature not in feature_list:
                 feature_list.append(feature)
 
-        related = self.relation_detection(df = df, feature_list = ['audio', 'canvastest', 'jsFonts', 'gpu', 'plugins', 'cookie', 'language', 'encoding', 'langsdetected'])
+        related = self.relation_detection(df = df, feature_list = match_list.keys())#['audio', 'canvastest', 'jsFonts', 'gpu', 'plugins', 'cookie', 'language', 'encoding', 'langsdetected'])
 
         #If just want relation, return here
         detailed_list = {}
@@ -1348,8 +1395,8 @@ class Paperlib():
         others_numbers = {}
         reason_map = {}
         for idx, row in tqdm(df.iterrows()):
-            #cnt += 1
-            cnt = row['browserid']
+            cnt += 1
+            #cnt = row['browserid']
             browser = row['browser']
             os = row['os']
             cur_classes = ''
@@ -1382,9 +1429,10 @@ class Paperlib():
                     if feature in related[browser] and row[feature] in related[browser][feature]:
                         continue
 
-                    change_ids[match_list[feature]].add(cnt)
-                    browsermap[browser][match_list[feature]].add(cnt)
-                    osmap[os][match_list[feature]].add(cnt)
+                    if feature != 'jsFonts' and feature != 'plugins':
+                        change_ids[match_list[feature]].add(cnt)
+                        browsermap[browser][match_list[feature]].add(cnt)
+                        osmap[os][match_list[feature]].add(cnt)
 
                     if feature == 'jsFonts' and row[feature] == 'flipFonts':
                         browsermap[browser]['private'].add(cnt)
@@ -1407,8 +1455,16 @@ class Paperlib():
                         #for get the reason of jsFonts
                         if feature == 'canvastest':
                             if row[feature] not in reason_map:
-                                reason_map[row[feature]] = 0
-                            reason_map[row[feature]] += 1
+                                reason_map[row[feature]] = {'total': 0}
+                            if browser not in reason_map[row[feature]]:
+                                reason_map[row[feature]][browser] = 0
+                            reason_map[row[feature]][browser] += 1
+                            reason_map[row[feature]]['total'] += 1
+
+                        if feature == 'jsFonts' or feature == 'plugins':
+                            change_ids[match_list[feature]].add(cnt)
+                            browsermap[browser][match_list[feature]].add(cnt)
+                            osmap[os][match_list[feature]].add(cnt)
 
                         change_ids['environmentUpdate'].add(cnt)
                         browsermap[browser]['environmentUpdate'].add(cnt)
@@ -1420,8 +1476,8 @@ class Paperlib():
                         change_ids['networkUpdate'].add(cnt)
                         browsermap[browser]['networkUpdate'].add(cnt)
                         osmap[os]['networkUpdate'].add(cnt)
-                        if 'network' not in cur_classes:
-                            cur_classes += 'network_'
+                        #if 'network' not in cur_classes:
+                        #    cur_classes += 'network_'
 
             if len(cur_classes) > 0:
                 total_change += 1
@@ -1447,10 +1503,10 @@ class Paperlib():
 
         #userd for get the reason of changes
         #===================================
-        reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v, k))
+        reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v['total'], k))
         for reason in reason_map:
-            print reason
-        return 
+            print '===================', reason
+        #return 
         #===================================
 
 
@@ -1483,13 +1539,28 @@ class Paperlib():
             if cur_total_number == 0:
                 cur_total_number = 1
             for item in sorted_classes_numbers[cur_type]:
-                f.write('{}\t{}\n'.format(item[0], float(len(item[1])) / float(cur_total_number)))
+                f.write('{}\t{}\t{}\n'.format(item[0], float(len(item[1])) / float(cur_total_number), len(item[1])))
         for item in others_numbers:
             f.write('{}\t{}\n'.format(item, others_numbers[item]))
         f.close()
+
+        cur_total = 0
+        f = safeopen('./changereason/bigtable/{}'.format('overallactionenv'), 'w')
+        f.write('useraction\n')
+        for key in useraction_list:
+            cur_total += len(change_ids[key])
+            if cur_total == 0:
+                cur_total = 1
+        f.write('cur_total: {}\n'.format(cur_total))
+        for key in useraction_list:
+            f.write('{}\t{}\n'.format(key, float(len(change_ids[key])) / float(cur_total)))
+
+        cur_total = 0
         f.write('environment_list\n')
         for key in environment_list:
             cur_total += len(change_ids[key])
+        f.write('cur_total: {}\n'.format(cur_total))
+
         if cur_total == 0:
             cur_total = 1
         for key in environment_list:
@@ -1593,8 +1664,8 @@ class Paperlib():
         total_ip_change = set()
         numbers = {'vpn': set(), 'subnet': set(), 'ipcity': set(), 'ipregion': set(), 'ipcountry': set()}
         for idx, row in tqdm(df.iterrows()):
-            cnt += 1
-            #cnt = row['browserid']
+            #cnt += 1
+            cnt = row['browserid']
             ip_0 = row['IP'].split('=>')[0]
             ip_1 = row['IP'].split('=>')[1]
             if ip_0 == ip_1:
@@ -1612,10 +1683,19 @@ class Paperlib():
                 numbers['ipregion'].add(cnt)
             if row['ipcountry'] != '':
                 numbers['ipcountry'].add(cnt)
+
+        numbers['ipcity'] = numbers['ipcity'] - numbers['ipregion'] - numbers['vpn']
+        numbers['ipregion'] = numbers['ipregion'] - numbers['ipcountry'] - numbers['vpn']
+        numbers['ipcountry'] = numbers['ipcountry'] - numbers['vpn']
+        numbers['subnet'] -= numbers['vpn']
+
         for key in numbers:
             numbers[key] = len(numbers[key])
+
+        fp = safeopen('./networkstaticsbybrowserid.dat', 'w')
         for key in numbers:
-            print key, numbers[key],float(numbers[key]) / float(len(total_ip_change))
+            fp.write('{}\t{}\t{}\n'.format(key, numbers[key],float(numbers[key]) / float(len(total_ip_change))))
+        fp.close()
         return numbers
 
     def rebuild_fingerprintchanges(self, 

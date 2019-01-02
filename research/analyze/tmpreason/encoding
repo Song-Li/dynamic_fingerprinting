@@ -1,0 +1,23 @@
+feature name * do not exsit in table allchanges
+filling nan with -9999
+finished loading allchanges
+('Office Fonts:', 1377)
+('Flash Enabled:', 32863)
+('gzip, deflate++=>gzip, deflate, br++', 333)
+('gzip, deflate, br++=>gzip, deflate++', 212)
+('gzip, deflate, br++=>gzip++', 9)
+('gzip++=>gzip, deflate, br++', 8)
+('gzip, deflate, br++=>gzip,deflate++', 7)
+('gzip,deflate++=>gzip, deflate, br++', 7)
+('gzip++=>gzip, deflate++', 6)
+('br, gzip, deflate++=>gzip++', 5)
+('gzip, deflate++=>gzip++', 5)
+('gzip, deflate++=>br, gzip, deflate++', 4)
+('gzip, deflate++=>identity++', 3)
+('identity++=>gzip, deflate++', 3)
+('identity++=>gzip, deflate, br++', 3)
+('gzip, deflate, br++=>gzip, br++', 2)
+('gzip, deflate, br++=>identity++', 2)
+('br, gzip, deflate++=>gzip, deflate++', 1)
+('gzip, br++=>gzip, deflate, br++', 1)
+('gzip,deflate++=>gzip, deflate++', 1)
