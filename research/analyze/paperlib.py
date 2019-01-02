@@ -1374,7 +1374,7 @@ class Paperlib():
             consider MS fonts
         TODO: get the desktop request
         """
-        df = self.db.load_data(table_name = table_name, limit = 1000)
+        df = self.db.load_data(table_name = table_name)
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
         adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
@@ -1485,8 +1485,8 @@ class Paperlib():
         others_numbers = {}
         reason_map = {}
         for idx, row in tqdm(df.iterrows()):
-            #cnt += 1
-            cnt = row['browserid']
+            cnt += 1
+            #cnt = row['browserid']
             browser = row['browser']
             os = row['os']
             cur_classes = ''
@@ -1712,14 +1712,31 @@ class Paperlib():
                 f.write('{}\t{}\n'.format(key, float(len(osmap[os][key])) / float(cur_total)))
             f.close()
 
-        f = safeopen('./changreason/bigtable/ossplit', 'w')
-        for key in match_list.keys():
+        f = safeopen('./changereason/bigtable/ossplit', 'w')
+        for key in match_list:
+            key = match_list[key]
             cur_total = 0
             for os in osmap:
-                cur_total += osmap[os][key]
-            f.write('{}\n'.format(key))
+                cur_total += len(osmap[os][key])
+            if cur_total == 0:
+                cur_total = 1
+            f.write('{}==================\n'.format(key))
             for os in osmap:
-                f.write('{}\t{}\n'.format(os, float(len(osmap[os][key])) / float(cur_total)))
+                f.write('{}\t{}\t{}\n'.format(os, len(osmap[os][key]), float(len(osmap[os][key])) / float(cur_total)))
+
+        f.close()
+
+        f = safeopen('./changereason/bigtable/browsersplit', 'w')
+        for key in match_list:
+            key = match_list[key]
+            cur_total = 0
+            for b in browsermap:
+                cur_total += len(browsermap[b][key])
+            if cur_total == 0:
+                cur_total = 1
+            f.write('{}==================\n'.format(key))
+            for b in browsermap:
+                f.write('{}\t{}\t{}\n'.format(b, len(browsermap[b][key]), float(len(browsermap[b][key])) / float(cur_total)))
 
         f.close()
 

@@ -1,0 +1,384 @@
+colorDepth==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	166	0.285223367698
+Mac OS X	11	0.0189003436426
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	0	0.0
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	405	0.69587628866
+FreeBSD	0	0.0
+Windows 95	0	0.0
+encoding==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	819	0.938144329897
+Mac OS X	18	0.020618556701
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	3	0.00343642611684
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	5	0.0057273768614
+Android	28	0.0320733104238
+FreeBSD	0	0.0
+Windows 95	0	0.0
+jsFonts==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	12687	0.834671052632
+Mac OS X	2406	0.158289473684
+Windows Phone	0	0.0
+Ubuntu	36	0.00236842105263
+iOS	7	0.000460526315789
+Maemo	0	0.0
+Other	2	0.000131578947368
+BlackBerry OS	0	0.0
+Linux	31	0.00203947368421
+Android	30	0.00197368421053
+FreeBSD	1	6.57894736842e-05
+Windows 95	0	0.0
+agent==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	0	0.0
+Mac OS X	0	0.0
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	0	0.0
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	0	0.0
+FreeBSD	0	0.0
+Windows 95	0	0.0
+localStorage==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	1196	0.402422611036
+Mac OS X	136	0.0457604306864
+Windows Phone	0	0.0
+Ubuntu	16	0.00538358008075
+iOS	958	0.322341857335
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	1	0.000336473755047
+Linux	6	0.00201884253028
+Android	659	0.221736204576
+FreeBSD	0	0.0
+Windows 95	0	0.0
+plugin==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	1067	0.66645846346
+Mac OS X	486	0.303560274828
+Windows Phone	0	0.0
+Ubuntu	4	0.00249843847595
+iOS	8	0.00499687695191
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	20	0.0124921923798
+Android	16	0.00999375390381
+FreeBSD	0	0.0
+Windows 95	0	0.0
+timezone==================
+OpenBSD	0	0.0
+Fedora	1	7.64988027937e-06
+Chrome OS	35	0.000267745809778
+Windows	41519	0.317615379319
+Mac OS X	8619	0.0659343181279
+Windows Phone	12	9.17985633525e-05
+Ubuntu	294	0.00224906480214
+iOS	45812	0.350456315359
+Maemo	3	2.29496408381e-05
+Other	4	3.05995211175e-05
+BlackBerry OS	0	0.0
+Linux	148	0.00113218228135
+Android	34274	0.262191996695
+FreeBSD	0	0.0
+Windows 95	0	0.0
+zoom==================
+OpenBSD	0	0.0
+Fedora	2	0.00013093289689
+Chrome OS	16	0.00104746317512
+Windows	11753	0.769427168576
+Mac OS X	1621	0.10612111293
+Windows Phone	11	0.000720130932897
+Ubuntu	28	0.00183306055646
+iOS	165	0.0108019639935
+Maemo	0	0.0
+Other	1	6.54664484452e-05
+BlackBerry OS	0	0.0
+Linux	36	0.00235679214403
+Android	1642	0.107495908347
+FreeBSD	0	0.0
+Windows 95	0	0.0
+inc==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	0	0.0
+Mac OS X	0	0.0
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	0	0.0
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	0	0.0
+FreeBSD	0	0.0
+Windows 95	0	0.0
+detectedLanguages==================
+OpenBSD	0	0.0
+Fedora	1	0.00175131348511
+Chrome OS	0	0.0
+Windows	360	0.630472854641
+Mac OS X	160	0.280210157618
+Windows Phone	0	0.0
+Ubuntu	7	0.0122591943958
+iOS	5	0.00875656742557
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	18	0.031523642732
+Android	19	0.0332749562172
+FreeBSD	1	0.00175131348511
+Windows 95	0	0.0
+GPU==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	397	1.0
+Mac OS X	0	0.0
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	0	0.0
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	0	0.0
+FreeBSD	0	0.0
+Windows 95	0	0.0
+fp2_liedbrowser==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	246	0.924812030075
+Mac OS X	12	0.0451127819549
+Windows Phone	0	0.0
+Ubuntu	1	0.00375939849624
+iOS	7	0.0263157894737
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	0	0.0
+FreeBSD	0	0.0
+Windows 95	0	0.0
+WebGL==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	0	0.0
+Mac OS X	0	0.0
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	0	0.0
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	0	0.0
+FreeBSD	0	0.0
+Windows 95	0	0.0
+cookie==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	440	0.229885057471
+Mac OS X	70	0.0365726227795
+Windows Phone	2	0.00104493207941
+Ubuntu	1	0.000522466039707
+iOS	415	0.216823406479
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	1	0.000522466039707
+Linux	6	0.00313479623824
+Android	979	0.511494252874
+FreeBSD	0	0.0
+Windows 95	0	0.0
+ipregion==================
+OpenBSD	0	0.0
+Fedora	8	4.23199813792e-05
+Chrome OS	43	0.000227469899913
+Windows	46792	0.247529571087
+Mac OS X	9260	0.0489853784464
+Windows Phone	277	0.00146532935526
+Ubuntu	332	0.00175627922724
+iOS	70076	0.370701876891
+Maemo	3	1.58699930172e-05
+Other	4	2.11599906896e-05
+BlackBerry OS	24	0.000126959944138
+Linux	309	0.00163460928077
+Android	61905	0.32747730591
+FreeBSD	2	1.05799953448e-05
+Windows 95	1	5.2899976724e-06
+canvas==================
+OpenBSD	1	2.86360642593e-05
+Fedora	2	5.72721285187e-05
+Chrome OS	0	0.0
+Windows	11018	0.315512156009
+Mac OS X	794	0.0227370350219
+Windows Phone	3	8.5908192778e-05
+Ubuntu	18	0.000515449156668
+iOS	12044	0.344892757939
+Maemo	0	0.0
+Other	3	8.5908192778e-05
+BlackBerry OS	45	0.00128862289167
+Linux	44	0.00125998682741
+Android	10948	0.313507631511
+FreeBSD	1	2.86360642593e-05
+Windows 95	0	0.0
+language==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	1	0.000338524035206
+Windows	1457	0.493229519296
+Mac OS X	138	0.0467163168585
+Windows Phone	3	0.00101557210562
+Ubuntu	66	0.0223425863236
+iOS	271	0.091740013541
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	24	0.00812457684496
+Android	993	0.33615436696
+FreeBSD	1	0.000338524035206
+Windows 95	0	0.0
+fp2_liedresolution==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	91	0.0191861690913
+Mac OS X	4	0.000843348091925
+Windows Phone	39	0.00822264389627
+Ubuntu	0	0.0
+iOS	4609	0.971747838921
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	0	0.0
+Android	0	0.0
+FreeBSD	0	0.0
+Windows 95	0	0.0
+fp2_liedlanguages==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	640	0.0487099474846
+Mac OS X	120	0.00913311515336
+Windows Phone	0	0.0
+Ubuntu	0	0.0
+iOS	0	0.0
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	24	0.00182662303067
+Android	12355	0.940330314331
+FreeBSD	0	0.0
+Windows 95	0	0.0
+ipcity==================
+OpenBSD	0	0.0
+Fedora	9	3.6227800409e-05
+Chrome OS	70	0.000281771780959
+Windows	67761	0.272759109279
+Mac OS X	12216	0.0491732010884
+Windows Phone	395	0.00158999790684
+Ubuntu	533	0.00214549084644
+iOS	87940	0.353985863107
+Maemo	3	1.20759334697e-05
+Other	10	4.02531115655e-05
+BlackBerry OS	32	0.00012880995701
+Linux	435	0.0017510103531
+Android	79021	0.318084112902
+FreeBSD	2	8.0506223131e-06
+Windows 95	1	4.02531115655e-06
+audio==================
+OpenBSD	0	0.0
+Fedora	4	0.000186793686373
+Chrome OS	0	0.0
+Windows	5736	0.267862146259
+Mac OS X	1057	0.0493602316242
+Windows Phone	9	0.00042028579434
+Ubuntu	275	0.0128420659382
+iOS	12987	0.606472401233
+Maemo	0	0.0
+Other	1	4.66984215934e-05
+BlackBerry OS	0	0.0
+Linux	118	0.00551041374802
+Android	1227	0.057298963295
+FreeBSD	0	0.0
+Windows 95	0	0.0
+resolution==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	2656	0.646385981991
+Mac OS X	878	0.213677293745
+Windows Phone	0	0.0
+Ubuntu	31	0.00754441469944
+iOS	1	0.000243368216111
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	39	0.00949136042833
+Android	504	0.12265758092
+FreeBSD	0	0.0
+Windows 95	0	0.0
+fp2_liedos==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	0	0.0
+Windows	1468	0.987886944818
+Mac OS X	12	0.00807537012113
+Windows Phone	0	0.0
+Ubuntu	1	0.000672947510094
+iOS	1	0.000672947510094
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	2	0.00134589502019
+Android	2	0.00134589502019
+FreeBSD	0	0.0
+Windows 95	0	0.0
+ipcountry==================
+OpenBSD	0	0.0
+Fedora	0	0.0
+Chrome OS	6	0.000398327026489
+Windows	2990	0.198499634867
+Mac OS X	867	0.0575582553276
+Windows Phone	25	0.0016596959437
+Ubuntu	30	0.00199163513244
+iOS	7102	0.471486423687
+Maemo	0	0.0
+Other	0	0.0
+BlackBerry OS	0	0.0
+Linux	27	0.0017924716192
+Android	4016	0.266613556396
+FreeBSD	0	0.0
+Windows 95	0	0.0
