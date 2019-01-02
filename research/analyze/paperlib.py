@@ -1209,11 +1209,11 @@ class Paperlib():
                 if float(len(os_together_list)) / float(len(cur_group)) > threshhold:
                     os = collections.Counter([v[0] for v in os_together_list]).most_common(1)
                     version = collections.Counter([v[1] for v in os_together_list]).most_common(1)
-                    os_related[key[1]] = (os, version) 
+                    os_related[key[1]] = [feature, os[0], version[0]]
                 if float(len(browser_together_list)) / float(len(cur_group)) > threshhold:
                     browser = collections.Counter([v[0] for v in browser_together_list]).most_common(1)
                     version = collections.Counter([v[1] for v in browser_together_list]).most_common(1)
-                    browser_related[key[1]] = (browser, version) 
+                    browser_related[key[1]] = [feature, browser[0], version[0]]
         return os_related, browser_related 
 
     def count_val_feature(self, df, val = [], feature = '', sep = '++'):
@@ -1281,8 +1281,88 @@ class Paperlib():
         """
         list the relation related to browser/os update
         """
+        feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']
         df = self.db.load_data(table_name = 'allchanges', limit = 10000)
-        os_related, browser_related = self.relation_detection_os_browser(df = df)
+        #os_related, browser_related = self.relation_detection_os_browser(df = df)
+        browser_options = [
+                'Chrome',
+                'Firefox',
+                'Safari',
+                'Edge',
+                'Chrome Mobile',
+                'Firefox Mobile',
+                'Mobile Safari',
+                'Samsung Internet'
+                ]
+        os_options = [
+                'Android',
+                'Windows',
+                'iOS',
+                'Mac OS X'
+                ]
+        
+        cnt = -1
+        res = {}
+        for idx, row in tqdm(df.iterrows()):
+            if row['browser'] not in browser_options:
+                continue
+            if row['agent'] != '':
+                continue
+
+            cnt += 1
+            browser = row['browser']
+            os = row['os']
+            if row['frombrowserversion'] != row['tobrowserversion']:
+                try:
+                    browser_version = int(row['tobrowserversion'].split('.')[0])
+                except:
+                    print 'pass'
+                    continue
+
+                if browser not in res:
+                    res[browser] = {}
+                if browser_version not in res[browser]:
+                    res[browser][browser_version] = {}
+                    res[browser][browser_version]['total'] = set()
+                    for f in feature_list:
+                        res[browser][browser_version][f] = set()
+                for f in feature_list:
+                    if row[f] != '':
+                        res[browser][browser_version][f].add(cnt)
+
+                res[browser][browser_version]['total'].add(cnt)
+
+            if row['fromosversion'] != row['toosversion']:
+                try:
+                    os_version = row['toosversion'].split('.')
+                    if len(os_version) == 1:
+                        os_version = os_version[0]
+                    else:
+                        os_version = os_version[0] + '.' + os_version[1]
+                except:
+                    print 'pass'
+                    continue
+
+                if os not in res:
+                    res[os] = {}
+                if os_version not in res[os]:
+                    res[os][os_version] = {}
+                    res[os][os_version]['total'] = set()
+                    for f in feature_list:
+                        res[os][os_version][f] = set()
+                for f in feature_list:
+                    if row[f] != '':
+                        res[os][os_version][f].add(cnt)
+
+                res[os][os_version]['total'].add(cnt)
+
+        for b in res:
+            for version in res[b]:
+                for f in res[b][version]:
+                    print b, f, res[b][version][f]
+
+
+
         
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
