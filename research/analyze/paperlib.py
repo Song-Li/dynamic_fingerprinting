@@ -1188,19 +1188,29 @@ class Paperlib():
         """
         if len(df) == 0:
             df = self.db.load_data(table_name = table_name)
-        related = {}
-        overall_list = {}
+
+        browser_related = {}
+        os_related = {}
         for feature in feature_list:
             cur_grouped = df.groupby(['browser', feature])
             for key, cur_group in tqdm(cur_grouped):
                 for idx, row in cur_group.iterrows():
                     if row['agent'] != '':
                         if row['fromosversion'] != row['toosversion']:
-                            os_together_list.append(row['toversion'])
+                            os_together_list.append((row['os'], row['toosversion']))
                         else:
-                            browser_together_list.append(row['tobrowserversion'])
-                            
-        return related
+                            # only keep the big version of browser
+                            browser_together_list.append((row['browser'], int(row['tobrowserversion'].split('.')[0])))
+                if float(len(os_together_list)) / float(len(cur_group)) > threshhold:
+                    os = collections.Counter([v[0] for v in os_together_list]).most_common(1)
+                    version = collections.Counter([v[1] for v in os_together_list]).most_common(1)
+                    os_related[key[1]] = (os, version) 
+                if float(len(browser_together_list)) / float(len(cur_group)) > threshhold:
+                    browser = collections.Counter([v[0] for v in browser_together_list]).most_common(1)
+                    version = collections.Counter([v[1] for v in browser_together_list]).most_common(1)
+                    browser_related[key[1]] = (browser, version) 
+
+        return os_related, browser_related 
 
     def count_val_feature(self, df, val = [], feature = '', sep = '++'):
         """
@@ -1263,19 +1273,18 @@ class Paperlib():
                 print f, t, len(intersection), float(len(intersection)) / float(len(lied_set))#, res_map[f][t][:9]
         return 
 
-    def get_specific_browser_version(self, version_list):
-        """
-        input a version list 
-        """
-
     def relation_list(self):
         """
         list the relation related to browser/os update
         """
         df = self.db.load_data(table_name = 'allchanges')
-        related = relation_detection(df = df)
-        for browser in related:
-            pass
+        os_related, browser_related = self.relation_detection_os_browser(df = df)
+        print os_related
+            
+
+
+        
+
 
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
