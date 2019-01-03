@@ -1582,7 +1582,13 @@ class Paperlib():
                         """
                         if feature == 'jsFonts':
                             val = row['jsFonts']
-                            
+                            for font in flip_fonts_list:
+                                row['jsFonts'].replace(font, '')
+                            row['jsFonts'].replace('flipFonts', '')
+                            row['jsFonts'].replace('+', '')
+                            row['jsFonts'].replace('=>', '')
+                            if len(row['jsFonts']) == 0:
+                                continue
 
                         if feature == 'jsFonts' or feature == 'plugins':
                             change_ids[match_list[feature]].add(cnt)
