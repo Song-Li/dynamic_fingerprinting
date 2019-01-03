@@ -1377,17 +1377,18 @@ class Paperlib():
         left_fonts = set()
         right_fonts = set()
         for fonts in change_font_list:
+            if len(fonts) < 2 or fonts == 'flipFonts':
+                continue
             cur_fonts = fonts.split('=>')
             left = cur_fonts[0].split('++')
             right = cur_fonts[1].split('++')
-            left_fonts.union(left)
-            right_fonts.union(right)
-
+            left_fonts = left_fonts.union(left)
+            right_fonts = right_fonts.union(right)
         flip_fonts = left_fonts.intersection(right_fonts)
         if '' in flip_fonts:
             flip_fonts.remove('')
+        print flip_fonts, len(flip_fonts)
         return list(flip_fonts)
-        
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1401,11 +1402,14 @@ class Paperlib():
         print ('Office Fonts:', ms_office_number)
         adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
         print ('adobe Fonts:', adobe_number)
-        return 
         flash_enabled_number = self.count_val_feature(df, val = ['Shockwave Flash'], feature = 'plugins')
         print ('Flash Enabled:', flash_enabled_number)
+
         df = self.remove_flip_plugins(df)
         df = self.remove_flip_fonts(df)
+        flip_fonts_list = self.get_flip_list(df)
+        print flip_fonts_list
+
         totalNumOfChanges = 0
         match_list = {
                 'WebGL': 'WebGL',
@@ -1571,15 +1575,6 @@ class Paperlib():
 
                     elif match_list[feature] in environment_list:
                         #for get the reason of jsFonts
-                        """
-                        if feature == 'canvastest':
-                            if row[feature] not in reason_map:
-                                reason_map[row[feature]] = {'total': 0}
-                            if browser not in reason_map[row[feature]]:
-                                reason_map[row[feature]][browser] = 0
-                            reason_map[row[feature]][browser] += 1
-                            reason_map[row[feature]]['total'] += 1
-                        """
                         if feature == 'jsFonts':
                             val = row['jsFonts']
                             for font in flip_fonts_list:
@@ -1589,6 +1584,14 @@ class Paperlib():
                             row['jsFonts'].replace('=>', '')
                             if len(row['jsFonts']) == 0:
                                 continue
+
+                        if feature == 'jsFonts':
+                            if row[feature] not in reason_map:
+                                reason_map[row[feature]] = {'total': 0}
+                            if browser not in reason_map[row[feature]]:
+                                reason_map[row[feature]][browser] = 0
+                            reason_map[row[feature]][browser] += 1
+                            reason_map[row[feature]]['total'] += 1
 
                         if feature == 'jsFonts' or feature == 'plugins':
                             change_ids[match_list[feature]].add(cnt)
@@ -1632,12 +1635,10 @@ class Paperlib():
 
         #userd for get the reason of changes
         #===================================
-        '''
         reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v['total'], k))
         for reason in reason_map:
             print '===================', reason
-        '''
-        #return 
+        return 
         #===================================
 
 
