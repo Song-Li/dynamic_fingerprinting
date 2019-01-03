@@ -1368,6 +1368,26 @@ class Paperlib():
                 fp.write('\n')
         fp.close()
 
+    def get_flip_list(self, df):
+        """
+        input a change df
+        return a list of flip fonts
+        """
+        change_font_list = df['jsFonts'].unique()
+        left_fonts = set()
+        right_fonts = set()
+        for fonts in change_font_list:
+            cur_fonts = fonts.split('=>')
+            left = cur_fonts[0].split('++')
+            right = cur_fonts[1].split('++')
+            left_fonts.union(left)
+            right_fonts.union(right)
+
+        flip_fonts = left_fonts.intersection(right_fonts)
+        if '' in flip_fonts:
+            flip_fonts.remove('')
+        return list(flip_fonts)
+        
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1416,8 +1436,8 @@ class Paperlib():
                 'ipcountry': 'ipcountry'
                 }
 
-        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'fp2_liedbrowser', 'fp2_liedresolution', 'fp2_liedlanguages', 'fp2_liedos', 'private', 'flash']
-        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'encoding', 'language', 'canvas', 'GPU', 'inc', 'resolution']
+        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'fp2_liedbrowser', 'fp2_liedresolution', 'fp2_liedlanguages', 'fp2_liedos', 'private', 'flash', 'resolution']
+        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'encoding', 'language', 'canvas', 'GPU', 'inc']
         network_list = ['ipcity', 'ipregion', 'ipcountry']
 
         added_feature = [
@@ -1474,8 +1494,11 @@ class Paperlib():
         browsermap = {}
         osmap = {}
         cnt = -1
-        total_change = 0
         classes_numbers = {}
+
+        output_type = 1
+        #remove the only IP change numbers
+        total_browserids = 0 #df['browserid'].nunique()
 
         for browser in desktop_browsers:
             classes_numbers[browser] = {}
@@ -1488,8 +1511,10 @@ class Paperlib():
         others_numbers = {}
         reason_map = {}
         for idx, row in tqdm(df.iterrows()):
-            cnt += 1
-            #cnt = row['browserid']
+            if output_type == 1:
+                cnt = row['browserid']
+            else:
+                cnt += 1
             browser = row['browser']
             os = row['os']
             cur_classes = ''
@@ -1555,6 +1580,9 @@ class Paperlib():
                             reason_map[row[feature]][browser] += 1
                             reason_map[row[feature]]['total'] += 1
                         """
+                        if feature == 'jsFonts':
+                            val = row['jsFonts']
+                            
 
                         if feature == 'jsFonts' or feature == 'plugins':
                             change_ids[match_list[feature]].add(cnt)
@@ -1575,7 +1603,7 @@ class Paperlib():
                         #    cur_classes += 'network_'
 
             if len(cur_classes) > 0:
-                total_change += 1
+                total_browserids += 1
                 if cur_classes not in classes_numbers['overall']:
                     classes_numbers['overall'][cur_classes] = set()
                 classes_numbers['overall'][cur_classes].add(cnt)
@@ -1611,12 +1639,15 @@ class Paperlib():
         for cur_type in classes_numbers:
             sorted_classes_numbers[cur_type] = sorted(classes_numbers[cur_type].iteritems(), key = lambda (k, v): (-len(v), k))
 
+
         total_update = 0
         f = safeopen('./changereason/bigtable/updatepercentage', 'w')
         for browser in browsermap:
             total_update += len(browsermap[browser]['browserUpdate'])
         if total_update == 0:
             total_update = 1
+        if output_type == 1:
+            total_update = total_browserids
         for browser in browsermap:
             f.write('{}\t{}\n'.format(browser, float(len(browsermap[browser]['browserUpdate'])) / float(total_update)))
 
@@ -1625,6 +1656,8 @@ class Paperlib():
             total_update += len(osmap[os]['osUpdate'])
         if total_update == 0:
             total_update = 1
+        if output_type == 1:
+            total_update = total_browserids
         for os in osmap:
             f.write('{}\t{}\n'.format(os, float(len(osmap[os]['osUpdate'])) / float(total_update)))
         f.close()
@@ -1635,6 +1668,8 @@ class Paperlib():
             f.write('{}====================\n'.format(cur_type))
             if cur_total_number == 0:
                 cur_total_number = 1
+            if output_type == 1:
+                cur_total_number = total_browserids
             for item in sorted_classes_numbers[cur_type]:
                 f.write('{}\t{}\t{}\n'.format(item[0], float(len(item[1])) / float(cur_total_number), len(item[1])))
         for item in others_numbers:
@@ -1646,6 +1681,8 @@ class Paperlib():
         f.write('useraction\n')
         for key in useraction_list:
             cur_total += len(change_ids[key])
+            if output_type == 1:
+                cur_total = total_browserids
             if cur_total == 0:
                 cur_total = 1
         f.write('cur_total: {}\n'.format(cur_total))
@@ -1657,7 +1694,8 @@ class Paperlib():
         for key in environment_list:
             cur_total += len(change_ids[key])
         f.write('cur_total: {}\n'.format(cur_total))
-
+        if output_type == 1:
+            cur_total = total_browserids
         if cur_total == 0:
             cur_total = 1
         for key in environment_list:
@@ -1667,6 +1705,8 @@ class Paperlib():
         f.write('network Update\n')
         for key in network_list:
             cur_total += len(change_ids[key])
+        if output_type == 1:
+            cur_total = total_browserids
         if cur_total == 0:
             cur_total = 1
         for key in network_list:
@@ -1721,6 +1761,8 @@ class Paperlib():
             cur_total = 0
             for os in osmap:
                 cur_total += len(osmap[os][key])
+            if output_type == 1:
+                cur_total = total_browserids
             if cur_total == 0:
                 cur_total = 1
             f.write('{}==================\n'.format(key))
@@ -1735,6 +1777,8 @@ class Paperlib():
             cur_total = 0
             for b in browsermap:
                 cur_total += len(browsermap[b][key])
+            if output_type == 1:
+                cur_total = total_browserids
             if cur_total == 0:
                 cur_total = 1
             f.write('{}==================\n'.format(key))
@@ -1742,8 +1786,6 @@ class Paperlib():
                 f.write('{}\t{}\t{}\n'.format(b, len(browsermap[b][key]), float(len(browsermap[b][key])) / float(cur_total)))
 
         f.close()
-
-
         return 
 
     def check_vpn_usage(self, fromip, toip, fromtime, totime):
