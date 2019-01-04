@@ -1214,7 +1214,38 @@ class Paperlib():
                     browser = collections.Counter([v[0] for v in browser_together_list]).most_common(1)
                     version = collections.Counter([v[1] for v in browser_together_list]).most_common(1)
                     browser_related[key[1]] = [feature, browser[0], version[0]]
-        return os_related, browser_related 
+        # reverse the key value of os and browser related
+        r_os_related = {}
+        r_browser_related = {}
+        for val in os_related:
+            os = os_related[val][1]
+            os_version = os_related[val][2]
+            feature = os_related[val][0]
+            if os not in r_os_related:
+                r_os_related[os] = {}
+            if os_version not in r_os_related[os]:
+                r_os_related[os][os_version] = {}
+            if feature not in r_os_related[os][os_version]:
+                r_os_related[os][os_version][feature] = set()
+            r_os_related[os][os_version][feature].add(val)
+
+        for val in browser_related:
+            browser = browser_related[val][1]
+            browser_version = browser_related[val][2]
+            feature = browser_related[val][0]
+            if browser not in r_browser_related:
+                r_browser_related[browser] = {}
+            if browser_version not in r_browser_related[browser]:
+                r_browser_related[browser][browser_version] = {}
+            if feature not in r_browser_related[browser][browser_version]:
+                r_browser_related[browser][browser_version][feature] = set()
+            r_browser_related[browser][browser_version][feature].add(val)
+        
+        for os in r_os_related:
+            for v in r_os_related[os]:
+                for f in r_os_related[os][v]:
+                    print os, v, f, r_os_related[os][v][f]
+        return r_os_related, r_browser_related 
 
     def count_val_feature(self, df, val = [], feature = '', sep = '++'):
         """
@@ -1387,7 +1418,6 @@ class Paperlib():
         flip_fonts = left_fonts.intersection(right_fonts)
         if '' in flip_fonts:
             flip_fonts.remove('')
-        print flip_fonts, len(flip_fonts)
         return list(flip_fonts)
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
@@ -1408,7 +1438,6 @@ class Paperlib():
         df = self.remove_flip_plugins(df)
         df = self.remove_flip_fonts(df)
         flip_fonts_list = self.get_flip_list(df)
-        print flip_fonts_list
 
         totalNumOfChanges = 0
         match_list = {
@@ -1500,7 +1529,9 @@ class Paperlib():
         cnt = -1
         classes_numbers = {}
 
-        output_type = 1
+        # type 1: output the numbers over total browserids
+        # type 0: output the numbers over current category
+        output_type = 0
         #remove the only IP change numbers
         total_browserids = 0 #df['browserid'].nunique()
 
@@ -1515,10 +1546,8 @@ class Paperlib():
         others_numbers = {}
         reason_map = {}
         for idx, row in tqdm(df.iterrows()):
-            if output_type == 1:
-                cnt = row['browserid']
-            else:
-                cnt += 1
+            cnt = row['browserid']
+            #cnt += 1
             browser = row['browser']
             os = row['os']
             cur_classes = ''
@@ -1635,10 +1664,12 @@ class Paperlib():
 
         #userd for get the reason of changes
         #===================================
+        '''
         reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v['total'], k))
         for reason in reason_map:
             print '===================', reason
         return 
+        '''
         #===================================
 
 
