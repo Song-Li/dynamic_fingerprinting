@@ -1607,10 +1607,10 @@ class Paperlib():
                         if feature == 'jsFonts':
                             val = row['jsFonts']
                             for font in flip_fonts_list:
-                                row['jsFonts'].replace(font, '')
-                            row['jsFonts'].replace('flipFonts', '')
-                            row['jsFonts'].replace('+', '')
-                            row['jsFonts'].replace('=>', '')
+                                row['jsFonts'] = row['jsFonts'].replace(font, '')
+                            row['jsFonts'] = row['jsFonts'].replace('flipFonts', '')
+                            row['jsFonts'] = row['jsFonts'].replace('+', '')
+                            row['jsFonts'] = row['jsFonts'].replace('=>', '')
                             if len(row['jsFonts']) == 0:
                                 continue
 
@@ -1664,12 +1664,9 @@ class Paperlib():
 
         #userd for get the reason of changes
         #===================================
-        '''
         reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v['total'], k))
         for reason in reason_map:
             print '===================', reason
-        return 
-        '''
         #===================================
 
 

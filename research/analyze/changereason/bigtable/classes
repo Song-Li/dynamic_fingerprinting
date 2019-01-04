@@ -1,262 +1,185 @@
 Firefox====================
-useraction_	0.29857302426	23790
-browserupdate_useraction_	0.218326033208	17396
-browserupdate_	0.214711530014	17108
-environment_	0.0981814530805	7823
-browserupdate_environment_	0.0453946460171	3617
-browserupdate_useraction_environment_	0.0419181967645	3340
-useraction_environment_	0.0337604638612	2690
-browserupdate_environment_useraction_	0.0240088354523	1913
-environment_useraction_	0.0142823077599	1138
-browserupdate_osupdate_useraction_	0.00252262202086	201
-osupdate_	0.00190765446353	152
-browserupdate_osupdate_	0.00120483439802	96
-osupdate_environment_	0.00115463296477	92
-osupdate_useraction_	0.000903625798517	72
-browserupdate_osupdate_useraction_environment_	0.000878525081891	70
-browserupdate_osupdate_environment_	0.000740471140451	59
-browserupdate_osupdate_environment_useraction_	0.000665168990575	53
-osupdate_useraction_environment_	0.000527115049135	42
-osupdate_environment_useraction_	0.000338859674444	27
+useraction_	0.32875	263
+browserupdate_useraction_	0.27125	217
+browserupdate_	0.25875	207
+environment_	0.0475	38
+useraction_environment_	0.0325	26
+browserupdate_useraction_environment_	0.02625	21
+browserupdate_environment_	0.0175	14
+environment_useraction_	0.01125	9
+browserupdate_osupdate_	0.0025	2
+browserupdate_environment_useraction_	0.00125	1
+browserupdate_osupdate_useraction_	0.00125	1
+osupdate_	0.00125	1
 Chrome====================
-browserupdate_	0.428610877159	31043
-browserupdate_useraction_	0.22172670413	16059
-useraction_	0.134742568379	9759
-environment_	0.0649481546937	4704
-browserupdate_environment_	0.0585002830436	4237
-browserupdate_environment_useraction_	0.0179767213884	1302
-browserupdate_useraction_environment_	0.0165269857926	1197
-browserupdate_osupdate_	0.013199497425	956
-osupdate_	0.00894693967719	648
-browserupdate_osupdate_useraction_	0.00876744860342	635
-environment_useraction_	0.0084498874729	612
-useraction_environment_	0.00608888950253	441
-browserupdate_osupdate_environment_	0.00292708520303	212
-osupdate_useraction_	0.00227815593632	165
-osupdate_environment_	0.0020158228285	146
-browserupdate_osupdate_useraction_environment_	0.00162922666961	118
-browserupdate_osupdate_environment_useraction_	0.00143592859017	104
-osupdate_useraction_environment_	0.000731771300758	53
-osupdate_environment_useraction_	0.000497052204288	36
+browserupdate_	0.458616010855	338
+browserupdate_useraction_	0.244233378562	180
+useraction_	0.1302578019	96
+environment_	0.0624151967436	46
+browserupdate_environment_	0.0271370420624	20
+browserupdate_useraction_environment_	0.0162822252374	12
+environment_useraction_	0.0122116689281	9
+osupdate_	0.010854816825	8
+browserupdate_environment_useraction_	0.00949796472185	7
+browserupdate_osupdate_useraction_	0.00949796472185	7
+browserupdate_osupdate_	0.00814111261872	6
+useraction_environment_	0.00542740841248	4
+osupdate_useraction_	0.00271370420624	2
+browserupdate_osupdate_environment_	0.00135685210312	1
+osupdate_environment_	0.00135685210312	1
 Mac OS X====================
-useraction_	0.387622243253	13516
-browserupdate_	0.14970317474	5220
-browserupdate_osupdate_useraction_	0.102067739253	3559
-browserupdate_osupdate_	0.0893630445381	3116
-browserupdate_useraction_	0.0886747540796	3092
-environment_	0.0602540938943	2101
-osupdate_	0.0218819008288	763
-useraction_environment_	0.0198457082222	692
-browserupdate_environment_	0.0158306805472	552
-environment_useraction_	0.0132209125584	461
-browserupdate_osupdate_environment_	0.0125039433308	436
-browserupdate_environment_useraction_	0.00969342395824	338
-browserupdate_osupdate_environment_useraction_	0.00805873411913	281
-browserupdate_useraction_environment_	0.00599386274341	209
-osupdate_environment_	0.00464596059537	162
-browserupdate_osupdate_useraction_environment_	0.00458860305716	160
-osupdate_useraction_	0.00447388798073	156
-osupdate_environment_useraction_	0.00100375691875	35
-osupdate_useraction_environment_	0.000573575382145	20
+useraction_	0.384615384615	135
+browserupdate_	0.168091168091	59
+browserupdate_osupdate_useraction_	0.119658119658	42
+browserupdate_osupdate_	0.102564102564	36
+browserupdate_useraction_	0.102564102564	36
+environment_	0.037037037037	13
+osupdate_	0.031339031339	11
+environment_useraction_	0.014245014245	5
+useraction_environment_	0.014245014245	5
+browserupdate_environment_	0.00854700854701	3
+browserupdate_useraction_environment_	0.00569800569801	2
+osupdate_useraction_	0.00569800569801	2
+browserupdate_osupdate_environment_	0.002849002849	1
+browserupdate_osupdate_useraction_environment_	0.002849002849	1
 Mobile Safari====================
-osupdate_	0.403152603966	51254
-osupdate_useraction_	0.236925109924	30121
-environment_	0.158007755657	20088
-useraction_	0.121833040989	15489
-osupdate_environment_	0.0319743890257	4065
-useraction_environment_	0.0210960175564	2682
-osupdate_useraction_environment_	0.0174305648415	2216
-environment_useraction_	0.00333509002383	424
-browserupdate_osupdate_useraction_	0.00222601527534	283
-browserupdate_osupdate_	0.00172260546042	219
-browserupdate_	0.00134504809923	171
-osupdate_environment_useraction_	0.000401154696263	51
-browserupdate_osupdate_environment_	0.000173047123878	22
-browserupdate_environment_	0.000133718232088	17
-browserupdate_osupdate_useraction_environment_	0.000117986675371	15
-browserupdate_useraction_	0.000117986675371	15
-browserupdate_osupdate_environment_useraction_	7.8657783581e-06	1
+osupdate_	0.402384500745	540
+osupdate_useraction_	0.223546944858	300
+environment_	0.165424739195	222
+useraction_	0.137108792846	184
+osupdate_environment_	0.032041728763	43
+useraction_environment_	0.0178837555887	24
+osupdate_useraction_environment_	0.0141579731744	19
+browserupdate_osupdate_useraction_	0.00223546944858	3
+environment_useraction_	0.00223546944858	3
+browserupdate_osupdate_	0.00149031296572	2
+browserupdate_	0.000745156482861	1
+osupdate_environment_useraction_	0.000745156482861	1
 iOS====================
-osupdate_	0.401548300236	51299
-osupdate_useraction_	0.235830078354	30128
-environment_	0.158665549928	20270
-useraction_	0.121633151472	15539
-osupdate_environment_	0.031858351663	4070
-useraction_environment_	0.0211032226249	2696
-osupdate_useraction_environment_	0.0173537999108	2217
-environment_useraction_	0.00342066331123	437
-browserupdate_osupdate_useraction_	0.00273966169092	350
-browserupdate_osupdate_	0.00259876480396	332
-browserupdate_	0.00182383192567	233
-osupdate_environment_useraction_	0.000407035451222	52
-browserupdate_osupdate_environment_	0.000266138564261	34
-browserupdate_useraction_	0.00025831095943	33
-browserupdate_environment_	0.000227000540105	29
-browserupdate_osupdate_useraction_environment_	0.000219172935274	28
-browserupdate_osupdate_environment_useraction_	3.13104193248e-05	4
-browserupdate_environment_useraction_	7.8276048312e-06	1
-browserupdate_useraction_environment_	7.8276048312e-06	1
+osupdate_	0.40044411547	541
+osupdate_useraction_	0.222057735011	300
+environment_	0.166543301258	225
+useraction_	0.137675795707	186
+osupdate_environment_	0.0318282753516	43
+useraction_environment_	0.0177646188009	24
+osupdate_useraction_environment_	0.0140636565507	19
+browserupdate_osupdate_	0.00296076980015	4
+browserupdate_osupdate_useraction_	0.00222057735011	3
+environment_useraction_	0.00222057735011	3
+browserupdate_	0.00148038490007	2
+osupdate_environment_useraction_	0.000740192450037	1
 Chrome Mobile====================
-browserupdate_	0.373524373151	23984
-browserupdate_useraction_	0.187494159788	12039
-useraction_	0.161625914967	10378
-environment_	0.0856875876032	5502
-browserupdate_environment_	0.0545709391061	3504
-browserupdate_useraction_environment_	0.035773244043	2297
-browserupdate_osupdate_useraction_	0.0306182837564	1966
-browserupdate_osupdate_	0.0182370347298	1171
-environment_useraction_	0.0172247313503	1106
-browserupdate_environment_useraction_	0.0104968073509	674
-osupdate_	0.0102787727768	660
-useraction_environment_	0.0102631988787	659
-osupdate_useraction_	0.0021336240461	137
-browserupdate_osupdate_useraction_environment_	0.00130820744432	84
-browserupdate_osupdate_environment_	0.000420495249961	27
-osupdate_environment_	0.000202460675907	13
-browserupdate_osupdate_environment_useraction_	7.78694907335e-05	5
-osupdate_useraction_environment_	6.22955925868e-05	4
+browserupdate_	0.4	258
+browserupdate_useraction_	0.17984496124	116
+useraction_	0.158139534884	102
+environment_	0.0852713178295	55
+browserupdate_environment_	0.0480620155039	31
+browserupdate_osupdate_useraction_	0.0403100775194	26
+browserupdate_useraction_environment_	0.0279069767442	18
+osupdate_	0.015503875969	10
+environment_useraction_	0.0139534883721	9
+browserupdate_environment_useraction_	0.0108527131783	7
+browserupdate_osupdate_	0.0108527131783	7
+useraction_environment_	0.0077519379845	5
+osupdate_useraction_	0.0015503875969	1
 Samsung Internet====================
-browserupdate_	0.36400254399	8585
-browserupdate_useraction_	0.229552681789	5414
-useraction_	0.218655925376	5157
-browserupdate_osupdate_useraction_	0.0790756836973	1865
-browserupdate_osupdate_	0.0638965444138	1507
-osupdate_	0.0162391350435	383
-environment_	0.0150095399618	354
-browserupdate_useraction_environment_	0.00377358490566	89
-useraction_environment_	0.00330718677125	78
-osupdate_useraction_	0.00309518761925	73
-browserupdate_environment_	0.00224719101124	53
-browserupdate_osupdate_useraction_environment_	0.000593597625609	14
-browserupdate_environment_useraction_	0.000211999152003	5
-browserupdate_osupdate_environment_	0.000127199491202	3
-environment_useraction_	8.47996608014e-05	2
-osupdate_environment_	8.47996608014e-05	2
-browserupdate_osupdate_environment_useraction_	4.23998304007e-05	1
+browserupdate_	0.408163265306	100
+browserupdate_useraction_	0.2	49
+useraction_	0.2	49
+browserupdate_osupdate_useraction_	0.0816326530612	20
+browserupdate_osupdate_	0.0612244897959	15
+environment_	0.0244897959184	6
+osupdate_	0.0163265306122	4
+useraction_environment_	0.00816326530612	2
 overall====================
-browserupdate_	0.21498567479	89970
-useraction_	0.209162399371	87533
-browserupdate_useraction_	0.135079917705	56530
-osupdate_	0.127880275178	53517
-environment_	0.100049463193	41870
-osupdate_useraction_	0.0732915484847	30672
-browserupdate_environment_	0.0294126783483	12309
-browserupdate_osupdate_useraction_	0.0197661609633	8272
-browserupdate_useraction_environment_	0.0173216756314	7249
-useraction_environment_	0.0171305135331	7169
-browserupdate_osupdate_	0.0159309713663	6667
-osupdate_environment_	0.0105186944584	4402
-browserupdate_environment_useraction_	0.010117254052	4234
-environment_useraction_	0.00986157474558	4127
-osupdate_useraction_environment_	0.00557715421763	2334
-browserupdate_osupdate_environment_	0.00153646536501	643
-browserupdate_osupdate_useraction_environment_	0.00117803643072	493
-browserupdate_osupdate_environment_useraction_	0.000867398020994	363
-osupdate_environment_useraction_	0.00033214414578	139
+browserupdate_	0.236227824463	1012
+useraction_	0.216619981326	928
+browserupdate_useraction_	0.142857142857	612
+osupdate_	0.133053221289	570
+environment_	0.093137254902	399
+osupdate_useraction_	0.0709617180205	304
+browserupdate_osupdate_useraction_	0.0217086834734	93
+browserupdate_environment_	0.015639589169	67
+browserupdate_osupdate_	0.015406162465	66
+useraction_environment_	0.014939309057	64
+browserupdate_useraction_environment_	0.0121381886088	52
+osupdate_environment_	0.0102707749767	44
+environment_useraction_	0.00840336134454	36
+osupdate_useraction_environment_	0.00443510737628	19
+browserupdate_environment_useraction_	0.00350140056022	15
+browserupdate_osupdate_environment_	0.000233426704015	1
+browserupdate_osupdate_useraction_environment_	0.000233426704015	1
+osupdate_environment_useraction_	0.000233426704015	1
 Firefox Mobile====================
-browserupdate_	0.36421009772	1789
-browserupdate_useraction_	0.244706840391	1202
-useraction_	0.186278501629	915
-environment_	0.0553745928339	272
-browserupdate_osupdate_useraction_	0.0289087947883	142
-useraction_environment_	0.0181188925081	89
-browserupdate_useraction_environment_	0.0175081433225	86
-browserupdate_environment_	0.0173045602606	85
-osupdate_	0.0168973941368	83
-browserupdate_osupdate_	0.0144543973941	71
-browserupdate_osupdate_useraction_environment_	0.0142508143322	70
-browserupdate_osupdate_environment_	0.00692182410423	34
-osupdate_useraction_	0.00631107491857	31
-osupdate_environment_	0.0057003257329	28
-environment_useraction_	0.001832247557	9
-browserupdate_environment_useraction_	0.000814332247557	4
-osupdate_useraction_environment_	0.000407166123779	2
+browserupdate_	0.340909090909	15
+browserupdate_useraction_	0.295454545455	13
+useraction_	0.204545454545	9
+environment_	0.0909090909091	4
+osupdate_	0.0454545454545	2
+browserupdate_osupdate_	0.0227272727273	1
 Edge====================
-useraction_	0.581269224543	7181
-browserupdate_	0.180265501052	2227
-browserupdate_useraction_	0.100615185365	1243
-environment_	0.0626517727052	774
-environment_useraction_	0.0306783228104	379
-useraction_environment_	0.016998542982	210
-browserupdate_environment_	0.0154605795694	191
-browserupdate_environment_useraction_	0.00696130807836	86
-browserupdate_useraction_environment_	0.00501861745184	62
-osupdate_useraction_environment_	8.09454427716e-05	1
+useraction_	0.606837606838	71
+browserupdate_	0.205128205128	24
+browserupdate_useraction_	0.0940170940171	11
+environment_	0.0598290598291	7
+browserupdate_environment_	0.00854700854701	1
+browserupdate_useraction_environment_	0.00854700854701	1
+environment_useraction_	0.00854700854701	1
+useraction_environment_	0.00854700854701	1
 Windows====================
-browserupdate_	0.301717190909	46052
-useraction_	0.2651392556	40469
-browserupdate_useraction_	0.213977318142	32660
-environment_	0.0799433936305	12202
-browserupdate_environment_	0.049812294851	7603
-browserupdate_useraction_environment_	0.0282049098164	4305
-browserupdate_environment_useraction_	0.0199760209129	3049
-useraction_environment_	0.018619826643	2842
-environment_useraction_	0.0125071249337	1909
-browserupdate_osupdate_	0.00215549717296	329
-browserupdate_osupdate_useraction_	0.0020965322047	320
-osupdate_	0.00159860580608	244
-browserupdate_osupdate_useraction_environment_	0.000891026186998	136
-osupdate_useraction_	0.000851716208159	130
-osupdate_environment_	0.000642062987689	98
-browserupdate_osupdate_environment_	0.00062240799827	95
-osupdate_useraction_environment_	0.000530684714315	81
-browserupdate_osupdate_environment_useraction_	0.000432409767219	66
-osupdate_environment_useraction_	0.000281721515007	43
+browserupdate_	0.347540983607	530
+useraction_	0.28131147541	429
+browserupdate_useraction_	0.24262295082	370
+environment_	0.0524590163934	80
+browserupdate_environment_	0.0203278688525	31
+browserupdate_useraction_environment_	0.0203278688525	31
+useraction_environment_	0.0170491803279	26
+environment_useraction_	0.0111475409836	17
+browserupdate_environment_useraction_	0.00459016393443	7
+browserupdate_osupdate_	0.00131147540984	2
+browserupdate_osupdate_useraction_	0.000655737704918	1
+osupdate_	0.000655737704918	1
 Safari====================
-useraction_	0.528229490225	11564
-browserupdate_osupdate_useraction_	0.140599305682	3078
-browserupdate_osupdate_	0.113740179061	2490
-browserupdate_	0.0556824410744	1219
-browserupdate_useraction_	0.0507491321031	1111
-environment_	0.0429837383519	941
-browserupdate_osupdate_environment_	0.0118308057738	259
-osupdate_	0.0112826603325	247
-environment_useraction_	0.0102777270236	225
-useraction_environment_	0.00986661794263	216
-browserupdate_osupdate_environment_useraction_	0.00849625433948	186
-browserupdate_osupdate_useraction_environment_	0.00475059382423	104
-browserupdate_environment_	0.00461355746391	101
-browserupdate_environment_useraction_	0.00260369084597	57
-osupdate_useraction_	0.00242097569889	53
-browserupdate_useraction_environment_	0.00114196966929	25
-osupdate_environment_	0.000365430294171	8
-osupdate_environment_useraction_	0.000274072720629	6
-osupdate_useraction_environment_	9.13575735428e-05	2
+useraction_	0.533936651584	118
+browserupdate_osupdate_useraction_	0.162895927602	36
+browserupdate_osupdate_	0.140271493213	31
+browserupdate_useraction_	0.0678733031674	15
+browserupdate_	0.0452488687783	10
+environment_	0.0180995475113	4
+environment_useraction_	0.0135746606335	3
+osupdate_	0.00904977375566	2
+browserupdate_osupdate_useraction_environment_	0.00452488687783	1
+useraction_environment_	0.00452488687783	1
 Android====================
-browserupdate_	0.375530131177	38075
-browserupdate_useraction_	0.202376960252	20519
-useraction_	0.173675904922	17609
-environment_	0.0674030969524	6834
-browserupdate_environment_	0.0397475096163	4030
-browserupdate_osupdate_useraction_	0.0396094289378	4016
-browserupdate_osupdate_	0.0279514745044	2834
-browserupdate_useraction_environment_	0.0264819015682	2685
-environment_useraction_	0.012683696617	1286
-osupdate_	0.0116283657165	1179
-useraction_environment_	0.00874839727784	887
-browserupdate_environment_useraction_	0.00816648584673	828
-osupdate_useraction_	0.00248545221422	252
-browserupdate_osupdate_useraction_environment_	0.00166683104843	169
-browserupdate_osupdate_environment_	0.000769306637735	78
-osupdate_environment_	0.000710129204064	72
-osupdate_useraction_environment_	0.000157806489792	16
-browserupdate_osupdate_environment_useraction_	0.000118354867344	12
-osupdate_environment_useraction_	8.87661505079e-05	9
+browserupdate_	0.40019193858	417
+browserupdate_useraction_	0.197696737044	206
+useraction_	0.167946257198	175
+environment_	0.0719769673704	75
+browserupdate_osupdate_useraction_	0.0451055662188	47
+browserupdate_environment_	0.031669865643	33
+browserupdate_osupdate_	0.0230326295585	24
+browserupdate_useraction_environment_	0.0172744721689	18
+osupdate_	0.0163147792706	17
+environment_useraction_	0.010556621881	11
+browserupdate_environment_useraction_	0.00767754318618	8
+useraction_environment_	0.00767754318618	8
+osupdate_useraction_	0.00191938579655	2
+osupdate_environment_	0.000959692898273	1
 fp2_addbehavior	0
-canvastest	17
-langsdetected	2
-fp2_colordepth	7
+canvastest	0
+langsdetected	0
+fp2_colordepth	0
 cpucores	0
 fp2_opendatabase	0
-os	386827
-toosversion	386827
+os	3956
+toosversion	3956
 agent	0
-tobrowserversion	386827
+tobrowserversion	3956
 fp2_cpuclass	0
-localstorage	1
-plugins	75
-gpu	1
-fromosversion	386827
-fp2_pixelratio	1
-frombrowserversion	386827
-browser	386827
+localstorage	0
+plugins	1
+gpu	0
+fromosversion	3956
+fp2_pixelratio	0
+frombrowserversion	3956
+browser	3956
