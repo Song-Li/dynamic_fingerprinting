@@ -1,8 +1,8 @@
 useraction
-localStorage	0.0
+localStorage	0.5
 zoom	0.0
 timezone	0.0
-cookie	0.0
+cookie	0.5
 WebGL	0.0
 fp2_liedbrowser	0.0
 fp2_liedresolution	0.0

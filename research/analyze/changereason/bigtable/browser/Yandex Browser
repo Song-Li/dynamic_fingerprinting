@@ -1,24 +1,24 @@
 useraction
-localStorage	0.0
-zoom	0.0
-timezone	1.0
-cookie	0.0
+localStorage	0.0416666666667
+zoom	0.3125
+timezone	0.458333333333
+cookie	0.0416666666667
 WebGL	0.0
 fp2_liedbrowser	0.0
 fp2_liedresolution	0.0
 fp2_liedlanguages	0.0
 fp2_liedos	0.0
-private	0.0
+private	0.145833333333
 flash	0.0
 resolution	0.0
 environment
 colorDepth	0.0
 detectedLanguages	0.0
-audio	0.5
-plugin	0.0
-jsFonts	0.0
+audio	0.391304347826
+plugin	0.347826086957
+jsFonts	0.0434782608696
 encoding	0.0
-language	0.5
-canvas	0.0
+language	0.130434782609
+canvas	0.0869565217391
 GPU	0.0
 inc	0.0

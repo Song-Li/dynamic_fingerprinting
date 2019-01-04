@@ -13,12 +13,12 @@ flash	0.03125
 resolution	0.03125
 environment
 colorDepth	0.0
-detectedLanguages	0.138888888889
-audio	0.0972222222222
-plugin	0.208333333333
-jsFonts	0.291666666667
+detectedLanguages	0.16393442623
+audio	0.114754098361
+plugin	0.245901639344
+jsFonts	0.16393442623
 encoding	0.0
 language	0.0
-canvas	0.263888888889
+canvas	0.311475409836
 GPU	0.0
 inc	0.0

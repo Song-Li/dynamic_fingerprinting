@@ -16,9 +16,9 @@ colorDepth	0.0
 detectedLanguages	0.0
 audio	0.0
 plugin	0.0
-jsFonts	0.75
+jsFonts	0.333333333333
 encoding	0.0
 language	0.0
-canvas	0.125
-GPU	0.125
+canvas	0.333333333333
+GPU	0.333333333333
 inc	0.0

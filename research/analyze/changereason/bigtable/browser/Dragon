@@ -1,6 +1,6 @@
 useraction
 localStorage	0.0
-zoom	0.0
+zoom	1.0
 timezone	0.0
 cookie	0.0
 WebGL	0.0
@@ -14,7 +14,7 @@ resolution	0.0
 environment
 colorDepth	0.0
 detectedLanguages	0.0
-audio	0.0
+audio	1.0
 plugin	0.0
 jsFonts	0.0
 encoding	0.0
