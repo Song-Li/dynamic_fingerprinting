@@ -1,4 +1,5 @@
 from database import Database
+from PIL import Image
 from tqdm import *
 from forpaper import *
 import collections
@@ -1436,7 +1437,7 @@ class Paperlib():
             consider MS fonts
         TODO: get the desktop request
         """
-        df = self.db.load_data(table_name = table_name)
+        df = self.db.load_data(table_name = table_name, limit = 10000)
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
         adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
@@ -1510,6 +1511,21 @@ class Paperlib():
                 'iOS',
                 'Mac OS X'
                 ]
+        other_keys = [
+                'networkupdate', 
+                'browserupdate',
+                'osupdate', 
+                'useraction',
+                'environmentupdate', 
+                'flash', 
+                'private'
+                ]
+        classes = [
+                'browserupdate',
+                'osupdate',
+                'useraction',
+                'environmentupdate'
+                ]
 
         feature_list = get_fingerprint_change_feature_list() 
         columns = self.db.get_column_names(table_name)
@@ -1523,13 +1539,8 @@ class Paperlib():
 
         related = self.relation_detection(df = df, feature_list = match_list.keys())#['audio', 'canvastest', 'jsFonts', 'gpu', 'plugins', 'cookie', 'language', 'encoding', 'langsdetected'])
 
-        #If just want relation, return here
         detailed_list = {}
 
-        browser_idx = feature_list.index('browser')
-        total_number = {'overall': 0, 'desktop': 0, 'mobile': 0}
-
-        change_ids = {'private': set(), 'flash': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'networkUpdate': set()}
         for key in match_list:
             change_ids[match_list[key]] = set()
 
@@ -1538,8 +1549,6 @@ class Paperlib():
         cnt = -1
         classes_numbers = {}
 
-        # type 1: output the numbers over total browserids
-        # type 0: output the numbers over current category
         output_type = 1
         #remove the only IP change numbers
         total_browserids = 0 #df['browserid'].nunique()
@@ -1559,29 +1568,29 @@ class Paperlib():
             #cnt += 1
             browser = row['browser']
             os = row['os']
-            cur_classes = ''
+            cur_exist = {}
+            for key in match_list:
+                cur_exist[key] = 0
+            for key in other_keys:
+                cur_exist[key] = 0
 
             if browser not in browsermap:
-                browsermap[browser] = {'networkUpdate': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
+                for key in other_keys:
+                    browsermap[browser][key] = set()
                 for key in match_list:
                     browsermap[browser][match_list[key]] = set()
             if os not in osmap:
-                osmap[os] = {'networkUpdate': set(), 'browserUpdate': set(), 'osUpdate': set(), 'userAction': set(), 'environmentUpdate': set(), 'flash': set(), 'private': set()}
+                for key in other_keys:
+                    osmap[os][key] = set()
                 for key in match_list:
                     osmap[os][match_list[key]] = set()
 
             if row['frombrowserversion'] != row['tobrowserversion'] or (row['fromosversion'] == 
                     row['toosversion'] and row['agent'] != ''):
-                change_ids['browserUpdate'].add(cnt)
-                browsermap[browser]['browserUpdate'].add(cnt)
-                osmap[os]['browserUpdate'].add(cnt)
-                cur_classes += 'browserupdate_'
+                cur_exist['browserupdate'] = 1
                 
             if row['fromosversion'] != row['toosversion']:
-                change_ids['osUpdate'].add(cnt)
-                browsermap[browser]['osUpdate'].add(cnt)
-                osmap[os]['osUpdate'].add(cnt)
-                cur_classes += 'osupdate_'
+                cur_exist['osupdate'] = 1
 
             for feature in match_list:
                 if row[feature] != '':
@@ -1590,39 +1599,24 @@ class Paperlib():
                         continue
 
                     if feature != 'jsFonts' and feature != 'plugins':
-                        change_ids[match_list[feature]].add(cnt)
-                        browsermap[browser][match_list[feature]].add(cnt)
-                        osmap[os][match_list[feature]].add(cnt)
-
+                        cur_exist[match_list[feature]] = 1
                     if feature == 'jsFonts' and row[feature] == 'flipFonts':
-                        browsermap[browser]['private'].add(cnt)
-                        osmap[os]['private'].add(cnt)
-                        change_ids['private'].add(cnt)
-                    if feature == 'plugins' and 'flipplugin' in row[feature]:
-                        browsermap[browser]['flash'].add(cnt)
-                        osmap[os]['flash'].add(cnt)
-                        change_ids['flash'].add(cnt)
+                        cur_exist['private'] = 1
+                    if feature == 'plugins':
+                        if 'flipplugin' in row[feature]:
+                            cur_exist['flash'] = 1
+                        else:
+                            cur_exist['plugin'] = 1
 
-                    #jsFonts special
-                    if (match_list[feature] in useraction_list) or (feature =='jsFonts' and row[feature] == 'flipFonts') or (feature == 'plugins' and 'flipplugin' in row[feature]):
-                        change_ids['userAction'].add(cnt)
-                        browsermap[browser]['userAction'].add(cnt)
-                        osmap[os]['userAction'].add(cnt)
-                        if 'useraction' not in cur_classes:
-                            cur_classes += 'useraction_'
-
-                    elif match_list[feature] in environment_list:
-                        #for get the reason of jsFonts
-                        if feature == 'jsFonts':
-                            val = row['jsFonts']
-                            for font in flip_fonts_list[browser]:
-                                row['jsFonts'] = row['jsFonts'].replace(font, '')
-                            row['jsFonts'] = row['jsFonts'].replace('flipFonts', '')
-                            row['jsFonts'] = row['jsFonts'].replace('+', '')
-                            row['jsFonts'] = row['jsFonts'].replace('=>', '')
-                            if len(row['jsFonts']) == 0:
-                                continue
-
+                    if feature == 'jsFonts':
+                        for font in flip_fonts_list[browser]:
+                            row['jsFonts'] = row['jsFonts'].replace(font, '')
+                        row['jsFonts'] = row['jsFonts'].replace('flipFonts', '')
+                        row['jsFonts'] = row['jsFonts'].replace('+', '')
+                        row['jsFonts'] = row['jsFonts'].replace('=>', '')
+                        if len(row['jsFonts']) > 1:
+                            cur_exist['jsFonts'] = 1
+                        '''
                         if feature == 'jsFonts':
                             if row[feature] not in reason_map:
                                 reason_map[row[feature]] = {'total': 0}
@@ -1630,24 +1624,35 @@ class Paperlib():
                                 reason_map[row[feature]][browser] = 0
                             reason_map[row[feature]][browser] += 1
                             reason_map[row[feature]]['total'] += 1
+                        '''
 
-                        if feature == 'jsFonts' or feature == 'plugins':
-                            change_ids[match_list[feature]].add(cnt)
-                            browsermap[browser][match_list[feature]].add(cnt)
-                            osmap[os][match_list[feature]].add(cnt)
-
-                        change_ids['environmentUpdate'].add(cnt)
-                        browsermap[browser]['environmentUpdate'].add(cnt)
-                        osmap[os]['environmentUpdate'].add(cnt)
-                        if 'environment' not in cur_classes:
-                            cur_classes += 'environment_'
-
-                    elif match_list[feature] in network_list:
                         change_ids['networkUpdate'].add(cnt)
                         browsermap[browser]['networkUpdate'].add(cnt)
                         osmap[os]['networkUpdate'].add(cnt)
-                        #if 'network' not in cur_classes:
-                        #    cur_classes += 'network_'
+
+            for k in useraction_list:
+                if cur_exist[k] == 1:
+                    cur_exist['useraction'] = 1
+            for k in environment_list:
+                if cur_exist[k] == 1:
+                    cur_exist['environmentupdate'] = 1
+
+            t = 0
+            for c in classes:
+                t += cur_exist[c]
+            if t == 1:
+                for k in cur_exist:
+                    if cur_exist[k] == 1:
+                        change_ids[k].add(cnt)
+                        browsermap[browser][k].add(cnt)
+                        osmap[os][k].add(cnt)
+            cur_classes = ''
+            for c in classes:
+                if cur_exist[c] == 1:
+                    cur_classes += c + '_'
+            change_ids[cur_classes].add(cnt)
+            browsermap[browser][cur_classes].add(cnt)
+            osmap[os][cur_classes].add(cnt)
 
             if len(cur_classes) > 0:
                 total_browserids += 1
@@ -1664,18 +1669,13 @@ class Paperlib():
                         classes_numbers[os][cur_classes] = set()
                     classes_numbers[os][cur_classes].add(cnt)
 
-            for feature in feature_list:
-                if feature not in useraction_list and feature not in environment_list and cur_classes == '':
-                    if feature not in others_numbers:
-                        others_numbers[feature] = 0
-                    if row[feature] != '':
-                        others_numbers[feature] += 1
-
         #userd for get the reason of changes
         #===================================
+        '''
         reason_map = sorted(reason_map.iteritems(), key = lambda (k, v): (-v['total'], k))
         for reason in reason_map:
             print '===================', reason
+        '''
         #===================================
 
 
@@ -1693,7 +1693,7 @@ class Paperlib():
         if output_type == 1:
             total_update = len(classes_numbers['overall']['browserupdate_']) 
         for browser in browsermap:
-            f.write('{}\t{}\n'.format(browser, float(len(browsermap[browser]['browserUpdate'])) / float(total_update)))
+            f.write('{}\t{}\n'.format(browser, float(len(browsermap[browser]['browserupdate'])) / float(total_update)))
 
         total_update = 0
         for os in osmap:
@@ -1703,7 +1703,7 @@ class Paperlib():
         if output_type == 1:
             total_update = len(classes_numbers['overall']['osupdate_']) 
         for os in osmap:
-            f.write('{}\t{}\n'.format(os, float(len(osmap[os]['osUpdate'])) / float(total_update)))
+            f.write('{}\t{}\n'.format(os, float(len(osmap[os]['osupdate'])) / float(total_update)))
         f.close()
 
         f = safeopen('./changereason/bigtable/classes', 'w')
@@ -1716,8 +1716,6 @@ class Paperlib():
                 cur_total_number = total_browserids
             for item in sorted_classes_numbers[cur_type]:
                 f.write('{}\t{}\t{}\n'.format(item[0], float(len(item[1])) / float(cur_total_number), len(item[1])))
-        for item in others_numbers:
-            f.write('{}\t{}\n'.format(item, others_numbers[item]))
         f.close()
 
         cur_total = 0
@@ -2468,6 +2466,21 @@ class Paperlib():
                             print key
                             return 
 
+<<<<<<< HEAD
+    def canvas_crop(self, path, input, height, width, k, page, area):
+        im = Image.open(input)
+        imgwidth, imgheight = im.size
+        for i in range(0,imgheight,height):
+            for j in range(0,imgwidth,width):
+                box = (j, i, j+width, i+height)
+                a = im.crop(box)
+                try:
+                    o = a.crop(area)
+                    o.save(os.path.join(path,"PNG","%s" % page,"IMG-%s.png" % k))
+                except:
+                    pass
+                k +=1
+=======
     def gen_canvas_split_database(self):
         """
         generate canvas split database
@@ -2482,4 +2495,5 @@ class Paperlib():
         grouped = df.groupby(['browserid', 'browser'])
         for key, cur_grouped in tqdm(grouped):
             browser = key[1]
+>>>>>>> c03fb2426edf93acd41bb2a80186cc2a1568923c
 
