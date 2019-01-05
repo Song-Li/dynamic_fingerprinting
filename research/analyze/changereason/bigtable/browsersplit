@@ -102,55 +102,55 @@ Chromium	0	0.0
 QupZilla	0	0.0
 jsFonts==================
 Crosswalk	0	0.0
-Chrome	1634	0.316054158607
-SeaMonkey	3	0.000580270793037
-Maxthon	10	0.00193423597679
+Chrome	1941	0.349163518618
+SeaMonkey	6	0.00107933081489
+Maxthon	11	0.00197877316064
 AppEngine-Google	0	0.0
-Firefox Mobile	1	0.000193423597679
+Firefox Mobile	0	0.0
 Other	0	0.0
-Apple Mail	0	0.0
-QQ Browser	1	0.000193423597679
-Android	1	0.000193423597679
+Apple Mail	1	0.000179888469149
+QQ Browser	1	0.000179888469149
+Android	1	0.000179888469149
 QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	1	0.000193423597679
-Mail.ru Chromium Browser	1	0.000193423597679
-Samsung Internet	7	0.00135396518375
+Mobile Safari	6	0.00107933081489
+Mail.ru Chromium Browser	1	0.000179888469149
+Samsung Internet	8	0.00143910775319
 Amazon Silk	0	0.0
 Electron	0	0.0
 Facebook	0	0.0
-Sogou Explorer	1	0.000193423597679
-Safari	156	0.0301740812379
+Sogou Explorer	1	0.000179888469149
+Safari	241	0.0433531210649
 IE Mobile	0	0.0
-Pale Moon	0	0.0
+Pale Moon	2	0.000359776938298
 Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
 Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	78	0.015087040619
+Opera	80	0.0143910775319
 HeadlessChrome	0	0.0
 Thunderbird	0	0.0
-Chrome Mobile	6	0.00116054158607
-Dragon	0	0.0
+Chrome Mobile	6	0.00107933081489
+Dragon	1	0.000179888469149
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-Iron	1	0.000193423597679
-IE	111	0.0214700193424
+Iron	5	0.000899442345746
+IE	96	0.0172692930383
 MobileIron	0	0.0
-Vivaldi	2	0.000386847195358
-Firefox	2857	0.552611218569
-Yandex Browser	1	0.000193423597679
-Coc Coc	1	0.000193423597679
+Vivaldi	15	0.00269832703724
+Firefox	2792	0.502248605864
+Yandex Browser	2	0.000359776938298
+Coc Coc	6	0.00107933081489
 Seznam prohle	0	0.0
 Netscape	0	0.0
-Edge	293	0.0566731141199
+Edge	329	0.0591833063501
 ThunderBrowse	0	0.0
-Chrome Mobile WebView	3	0.000580270793037
-Chromium	0	0.0
-QupZilla	1	0.000193423597679
+Chrome Mobile WebView	3	0.000539665407447
+Chromium	3	0.000539665407447
+QupZilla	1	0.000179888469149
 agent==================
 Crosswalk	0	0.0
 Chrome	0	0.0
@@ -255,9 +255,9 @@ Chromium	0	0.0
 QupZilla	0	0.0
 plugin==================
 Crosswalk	0	0.0
-Chrome	313	0.195502810743
-SeaMonkey	17	0.0106183635228
-Maxthon	15	0.00936914428482
+Chrome	0	0.0
+SeaMonkey	0	0.0
+Maxthon	0	0.0
 AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
 Other	0	0.0
@@ -267,42 +267,42 @@ Android	0	0.0
 QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	2	0.00124921923798
+Mobile Safari	0	0.0
 Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
 Electron	0	0.0
 Facebook	0	0.0
-Sogou Explorer	1	0.000624609618988
-Safari	365	0.227982510931
+Sogou Explorer	0	0.0
+Safari	0	0.0
 IE Mobile	0	0.0
-Pale Moon	2	0.00124921923798
+Pale Moon	0	0.0
 Opera Neon	0	0.0
-Chrome Mobile iOS	6	0.00374765771393
+Chrome Mobile iOS	0	0.0
 Konqueror	0	0.0
-UC Browser	1	0.000624609618988
-Opera	229	0.143035602748
+UC Browser	0	0.0
+Opera	0	0.0
 HeadlessChrome	0	0.0
 Thunderbird	0	0.0
-Chrome Mobile	16	0.00999375390381
+Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-Iron	5	0.00312304809494
-IE	122	0.0762023735166
+Iron	0	0.0
+IE	0	0.0
 MobileIron	0	0.0
-Vivaldi	11	0.00687070580887
-Firefox	486	0.303560274828
-Yandex Browser	8	0.00499687695191
+Vivaldi	0	0.0
+Firefox	0	0.0
+Yandex Browser	0	0.0
 Coc Coc	0	0.0
 Seznam prohle	0	0.0
 Netscape	0	0.0
 Edge	0	0.0
 ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
-Chromium	2	0.00124921923798
+Chromium	0	0.0
 QupZilla	0	0.0
 timezone==================
 Crosswalk	1	7.64988027937e-06

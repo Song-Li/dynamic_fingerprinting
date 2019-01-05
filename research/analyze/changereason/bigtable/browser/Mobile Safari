@@ -11,14 +11,14 @@ fp2_liedos	0.0
 private	3.86204765767e-05
 flash	1.93102382883e-05
 resolution	1.93102382883e-05
+plugin	0.0
 environment
 colorDepth	0.0
-detectedLanguages	0.000159407005938
-audio	0.515482405452
-plugin	7.9703502969e-05
-jsFonts	3.98517514845e-05
+detectedLanguages	0.000159387950271
+audio	0.515420784189
+jsFonts	0.000239081925406
 encoding	0.0
-language	0.0107599729008
-canvas	0.473478659387
+language	0.0107586866433
+canvas	0.473422059292
 GPU	0.0
 inc	0.0

@@ -8,6 +8,7 @@ def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
     #df = db.load_data(table_name = 'allchanges')
+    #paperlib.get_flip_list(df)
     #paperlib.relation_detection_os_browser(df = df)
     #paperlib.get_flip_list(df)
     #paperlib.relation_list()

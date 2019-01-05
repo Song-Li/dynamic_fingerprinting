@@ -34,16 +34,16 @@ jsFonts==================
 OpenBSD	0	0.0
 Fedora	0	0.0
 Chrome OS	0	0.0
-Windows	4653	0.9
-Mac OS X	456	0.0882011605416
+Windows	4907	0.882712718115
+Mac OS X	585	0.105234754452
 Windows Phone	0	0.0
-Ubuntu	22	0.00425531914894
-iOS	1	0.000193423597679
+Ubuntu	25	0.00449721172873
+iOS	6	0.00107933081489
 Maemo	0	0.0
 Other	0	0.0
 BlackBerry OS	0	0.0
-Linux	18	0.00348162475822
-Android	20	0.00386847195358
+Linux	17	0.00305810397554
+Android	19	0.00341788091383
 FreeBSD	0	0.0
 Windows 95	0	0.0
 agent==================
@@ -82,16 +82,16 @@ plugin==================
 OpenBSD	0	0.0
 Fedora	0	0.0
 Chrome OS	0	0.0
-Windows	1067	0.66645846346
-Mac OS X	486	0.303560274828
+Windows	0	0.0
+Mac OS X	0	0.0
 Windows Phone	0	0.0
-Ubuntu	4	0.00249843847595
-iOS	8	0.00499687695191
+Ubuntu	0	0.0
+iOS	0	0.0
 Maemo	0	0.0
 Other	0	0.0
 BlackBerry OS	0	0.0
-Linux	20	0.0124921923798
-Android	16	0.00999375390381
+Linux	0	0.0
+Android	0	0.0
 FreeBSD	0	0.0
 Windows 95	0	0.0
 timezone==================

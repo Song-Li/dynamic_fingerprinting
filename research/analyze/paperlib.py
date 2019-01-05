@@ -1404,21 +1404,30 @@ class Paperlib():
         input a change df
         return a list of flip fonts
         """
-        change_font_list = df['jsFonts'].unique()
-        left_fonts = set()
-        right_fonts = set()
-        for fonts in change_font_list:
-            if len(fonts) < 2 or fonts == 'flipFonts':
-                continue
-            cur_fonts = fonts.split('=>')
-            left = cur_fonts[0].split('++')
-            right = cur_fonts[1].split('++')
-            left_fonts = left_fonts.union(left)
-            right_fonts = right_fonts.union(right)
-        flip_fonts = left_fonts.intersection(right_fonts)
-        if '' in flip_fonts:
-            flip_fonts.remove('')
-        return list(flip_fonts)
+        grouped = df.groupby(['browserid', 'browser'])
+        flip_fonts = {}
+        for key, cur_group in tqdm(grouped):
+            change_font_list = cur_group['jsFonts'].unique()
+            browser = key[1]
+            left_fonts = set()
+            right_fonts = set()
+            for fonts in change_font_list:
+                if len(fonts) < 2 or fonts == 'flipFonts':
+                    continue
+                cur_fonts = fonts.split('=>')
+                left = cur_fonts[0].split('++')
+                right = cur_fonts[1].split('++')
+                left_fonts = left_fonts.union(left)
+                right_fonts = right_fonts.union(right)
+            if browser not in flip_fonts:
+                flip_fonts[browser] = set()
+            flip_fonts[browser] = flip_fonts[browser].union(left_fonts.intersection(right_fonts))
+
+        for browser in flip_fonts:
+            if '' in flip_fonts[browser]:
+                flip_fonts[browser].remove('')
+
+        return flip_fonts
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
         """
@@ -1469,8 +1478,8 @@ class Paperlib():
                 'ipcountry': 'ipcountry'
                 }
 
-        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'fp2_liedbrowser', 'fp2_liedresolution', 'fp2_liedlanguages', 'fp2_liedos', 'private', 'flash', 'resolution']
-        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'plugin', 'jsFonts', 'encoding', 'language', 'canvas', 'GPU', 'inc']
+        useraction_list = ['localStorage', 'zoom', 'timezone', 'cookie', 'WebGL', 'fp2_liedbrowser', 'fp2_liedresolution', 'fp2_liedlanguages', 'fp2_liedos', 'private', 'flash', 'resolution', 'plugin']
+        environment_list = ['colorDepth', 'detectedLanguages', 'audio', 'jsFonts', 'encoding', 'language', 'canvas', 'GPU', 'inc']
         network_list = ['ipcity', 'ipregion', 'ipcountry']
 
         added_feature = [
@@ -1531,7 +1540,7 @@ class Paperlib():
 
         # type 1: output the numbers over total browserids
         # type 0: output the numbers over current category
-        output_type = 0
+        output_type = 1
         #remove the only IP change numbers
         total_browserids = 0 #df['browserid'].nunique()
 
@@ -1606,7 +1615,7 @@ class Paperlib():
                         #for get the reason of jsFonts
                         if feature == 'jsFonts':
                             val = row['jsFonts']
-                            for font in flip_fonts_list:
+                            for font in flip_fonts_list[browser]:
                                 row['jsFonts'] = row['jsFonts'].replace(font, '')
                             row['jsFonts'] = row['jsFonts'].replace('flipFonts', '')
                             row['jsFonts'] = row['jsFonts'].replace('+', '')
@@ -1682,7 +1691,7 @@ class Paperlib():
         if total_update == 0:
             total_update = 1
         if output_type == 1:
-            total_update = total_browserids
+            total_update = len(classes_numbers['overall']['browserupdate_']) 
         for browser in browsermap:
             f.write('{}\t{}\n'.format(browser, float(len(browsermap[browser]['browserUpdate'])) / float(total_update)))
 
@@ -1692,7 +1701,7 @@ class Paperlib():
         if total_update == 0:
             total_update = 1
         if output_type == 1:
-            total_update = total_browserids
+            total_update = len(classes_numbers['overall']['osupdate_']) 
         for os in osmap:
             f.write('{}\t{}\n'.format(os, float(len(osmap[os]['osUpdate'])) / float(total_update)))
         f.close()
@@ -1717,7 +1726,7 @@ class Paperlib():
         for key in useraction_list:
             cur_total += len(change_ids[key])
             if output_type == 1:
-                cur_total = total_browserids
+                cur_total = len(classes_numbers['overall']['useraction_'])
             if cur_total == 0:
                 cur_total = 1
         f.write('cur_total: {}\n'.format(cur_total))
@@ -1730,7 +1739,7 @@ class Paperlib():
             cur_total += len(change_ids[key])
         f.write('cur_total: {}\n'.format(cur_total))
         if output_type == 1:
-            cur_total = total_browserids
+            cur_total = len(classes_numbers['overall']['environment_'] )
         if cur_total == 0:
             cur_total = 1
         for key in environment_list:
@@ -1796,8 +1805,6 @@ class Paperlib():
             cur_total = 0
             for os in osmap:
                 cur_total += len(osmap[os][key])
-            if output_type == 1:
-                cur_total = total_browserids
             if cur_total == 0:
                 cur_total = 1
             f.write('{}==================\n'.format(key))
@@ -1812,8 +1819,6 @@ class Paperlib():
             cur_total = 0
             for b in browsermap:
                 cur_total += len(browsermap[b][key])
-            if output_type == 1:
-                cur_total = total_browserids
             if cur_total == 0:
                 cur_total = 1
             f.write('{}==================\n'.format(key))
@@ -2462,4 +2467,19 @@ class Paperlib():
                         if len(set(cur_feature.split(sep)) ^ set(f2.split(sep))) == 0:
                             print key
                             return 
+
+    def gen_canvas_split_database(self):
+        """
+        generate canvas split database
+        """
+
+    def jsFonts_change_frequency(self):
+        """
+        get jsFonts change frequency
+        """
+        df = self.db.load_data(table_name = 'allchanges')
+        flip_font_list = self.get_flip_list(df)
+        grouped = df.groupby(['browserid', 'browser'])
+        for key, cur_grouped in tqdm(grouped):
+            browser = key[1]
 
