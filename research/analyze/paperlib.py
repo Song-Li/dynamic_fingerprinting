@@ -1540,9 +1540,12 @@ class Paperlib():
         related = self.relation_detection(df = df, feature_list = match_list.keys())#['audio', 'canvastest', 'jsFonts', 'gpu', 'plugins', 'cookie', 'language', 'encoding', 'langsdetected'])
 
         detailed_list = {}
+        change_ids = {}
 
         for key in match_list:
             change_ids[match_list[key]] = set()
+        for key in other_keys:
+            change_ids[key] = set()
 
         browsermap = {}
         osmap = {}
@@ -1570,16 +1573,18 @@ class Paperlib():
             os = row['os']
             cur_exist = {}
             for key in match_list:
-                cur_exist[key] = 0
+                cur_exist[match_list[key]] = 0
             for key in other_keys:
                 cur_exist[key] = 0
 
             if browser not in browsermap:
+                browsermap[browser] = {}
                 for key in other_keys:
                     browsermap[browser][key] = set()
                 for key in match_list:
                     browsermap[browser][match_list[key]] = set()
             if os not in osmap:
+                osmap[os] = {} 
                 for key in other_keys:
                     osmap[os][key] = set()
                 for key in match_list:
@@ -1615,7 +1620,7 @@ class Paperlib():
                         row['jsFonts'] = row['jsFonts'].replace('+', '')
                         row['jsFonts'] = row['jsFonts'].replace('=>', '')
                         if len(row['jsFonts']) > 1:
-                            cur_exist['jsFonts'] = 1
+                            cur_exist[match_list['jsFonts']] = 1
                         '''
                         if feature == 'jsFonts':
                             if row[feature] not in reason_map:
@@ -1625,10 +1630,6 @@ class Paperlib():
                             reason_map[row[feature]][browser] += 1
                             reason_map[row[feature]]['total'] += 1
                         '''
-
-                        change_ids['networkUpdate'].add(cnt)
-                        browsermap[browser]['networkUpdate'].add(cnt)
-                        osmap[os]['networkUpdate'].add(cnt)
 
             for k in useraction_list:
                 if cur_exist[k] == 1:
@@ -1650,9 +1651,6 @@ class Paperlib():
             for c in classes:
                 if cur_exist[c] == 1:
                     cur_classes += c + '_'
-            change_ids[cur_classes].add(cnt)
-            browsermap[browser][cur_classes].add(cnt)
-            osmap[os][cur_classes].add(cnt)
 
             if len(cur_classes) > 0:
                 total_browserids += 1
@@ -1687,7 +1685,7 @@ class Paperlib():
         total_update = 0
         f = safeopen('./changereason/bigtable/updatepercentage', 'w')
         for browser in browsermap:
-            total_update += len(browsermap[browser]['browserUpdate'])
+            total_update += len(browsermap[browser]['browserupdate'])
         if total_update == 0:
             total_update = 1
         if output_type == 1:
@@ -1697,7 +1695,7 @@ class Paperlib():
 
         total_update = 0
         for os in osmap:
-            total_update += len(osmap[os]['osUpdate'])
+            total_update += len(osmap[os]['osupdate'])
         if total_update == 0:
             total_update = 1
         if output_type == 1:
@@ -1737,7 +1735,7 @@ class Paperlib():
             cur_total += len(change_ids[key])
         f.write('cur_total: {}\n'.format(cur_total))
         if output_type == 1:
-            cur_total = len(classes_numbers['overall']['environment_'] )
+            cur_total = len(classes_numbers['overall']['environmentupdate_'] )
         if cur_total == 0:
             cur_total = 1
         for key in environment_list:
@@ -2466,7 +2464,6 @@ class Paperlib():
                             print key
                             return 
 
-<<<<<<< HEAD
     def canvas_crop(self, path, input, height, width, k, page, area):
         im = Image.open(input)
         imgwidth, imgheight = im.size
@@ -2480,7 +2477,6 @@ class Paperlib():
                 except:
                     pass
                 k +=1
-=======
     def gen_canvas_split_database(self):
         """
         generate canvas split database
@@ -2495,5 +2491,3 @@ class Paperlib():
         grouped = df.groupby(['browserid', 'browser'])
         for key, cur_grouped in tqdm(grouped):
             browser = key[1]
->>>>>>> c03fb2426edf93acd41bb2a80186cc2a1568923c
-
