@@ -1,696 +1,1224 @@
 colorDepth==================
-Chrome	0	0.0
+Crosswalk	0	0.0
+Chrome	2	0.0136054421769
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
-Safari	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	9	0.0612244897959
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
-Vivaldi	0	0.0
-Firefox	0	0.0
+Iron	0	0.0
+IE	3	0.0204081632653
+MobileIron	0	0.0
+Vivaldi	2	0.0136054421769
+Firefox	10	0.0680272108844
 Yandex Browser	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
-Chrome Mobile WebView	1	1.0
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	121	0.823129251701
 Chromium	0	0.0
+QupZilla	0	0.0
 encoding==================
-Chrome	1	0.333333333333
+Crosswalk	0	0.0
+Chrome	56	0.273170731707
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
-Mobile Safari UI/WKWebView	0	0.0
+Mobile Safari UI/WKWebView	1	0.00487804878049
 Mobile Safari	0	0.0
-Samsung Internet	0	0.0
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	2	0.00975609756098
 Amazon Silk	0	0.0
-Safari	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	3	0.0146341463415
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
-UC Browser	0	0.0
-Opera	1	0.333333333333
-Chrome Mobile	0	0.0
+Konqueror	0	0.0
+UC Browser	1	0.00487804878049
+Opera	5	0.0243902439024
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	1	0.00487804878049
 Dragon	0	0.0
 Edge Mobile	0	0.0
-Opera Mobile	0	0.0
-Puffin	0	0.0
+Opera Mobile	1	0.00487804878049
+Puffin	2	0.00975609756098
 Firefox iOS	0	0.0
-IE	0	0.0
+Iron	1	0.00487804878049
+IE	1	0.00487804878049
+MobileIron	0	0.0
 Vivaldi	0	0.0
-Firefox	1	0.333333333333
+Firefox	87	0.424390243902
 Yandex Browser	0	0.0
-Edge	0	0.0
-Chrome Mobile WebView	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	41	0.2
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	3	0.0146341463415
 Chromium	0	0.0
+QupZilla	0	0.0
 jsFonts==================
-Chrome	29	0.517857142857
-SeaMonkey	0	0.0
+Crosswalk	0	0.0
+Chrome	1114	0.374831763122
+SeaMonkey	3	0.00100942126514
+Maxthon	9	0.00302826379542
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
-QQ Browser	0	0.0
-Android	0	0.0
+Other	0	0.0
+Apple Mail	1	0.000336473755047
+QQ Browser	1	0.000336473755047
+Android	1	0.000336473755047
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
-Samsung Internet	0	0.0
+Mobile Safari	4	0.00134589502019
+Mail.ru Chromium Browser	1	0.000336473755047
+Samsung Internet	7	0.00235531628533
 Amazon Silk	0	0.0
-Safari	4	0.0714285714286
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	167	0.0561911170929
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	0	0.0
+Opera	51	0.0171601615074
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	2	0.000672947510094
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
-Vivaldi	0	0.0
-Firefox	20	0.357142857143
-Yandex Browser	0	0.0
-Edge	3	0.0535714285714
-Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Iron	3	0.00100942126514
+IE	54	0.0181695827725
+MobileIron	0	0.0
+Vivaldi	7	0.00235531628533
+Firefox	1372	0.461641991925
+Yandex Browser	2	0.000672947510094
+Coc Coc	6	0.00201884253028
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	162	0.0545087483176
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	3	0.00100942126514
+Chromium	1	0.000336473755047
+QupZilla	1	0.000336473755047
 agent==================
+Crosswalk	0	0.0
 Chrome	0	0.0
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	0	0.0
 IE	0	0.0
+MobileIron	0	0.0
 Vivaldi	0	0.0
 Firefox	0	0.0
 Yandex Browser	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 localStorage==================
-Chrome	1	0.047619047619
-SeaMonkey	0	0.0
-Firefox Mobile	0	0.0
+Crosswalk	0	0.0
+Chrome	89	0.0845204178538
+SeaMonkey	1	0.000949667616334
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
+Firefox Mobile	28	0.0265906932574
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	11	0.52380952381
-Samsung Internet	0	0.0
-Amazon Silk	0	0.0
-Safari	0	0.0
+Mobile Safari	479	0.454890788224
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	6	0.00569800569801
+Amazon Silk	1	0.000949667616334
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	31	0.0294396961064
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	2	0.0952380952381
+Opera	2	0.00189933523267
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	119	0.113010446344
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
-Vivaldi	0	0.0
-Firefox	4	0.190476190476
-Yandex Browser	0	0.0
-Edge	3	0.142857142857
-Chrome Mobile WebView	0	0.0
+Iron	0	0.0
+IE	15	0.014245014245
+MobileIron	0	0.0
+Vivaldi	2	0.00189933523267
+Firefox	240	0.22792022792
+Yandex Browser	1	0.000949667616334
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	38	0.0360873694207
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	1	0.000949667616334
 Chromium	0	0.0
+QupZilla	0	0.0
 plugin==================
-Chrome	4	0.5
-SeaMonkey	0	0.0
+Crosswalk	0	0.0
+Chrome	175	0.176056338028
+SeaMonkey	13	0.0130784708249
+Maxthon	10	0.010060362173
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
+Mobile Safari	1	0.0010060362173
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
-Safari	2	0.25
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	265	0.266599597586
 IE Mobile	0	0.0
-Chrome Mobile iOS	0	0.0
-UC Browser	0	0.0
-Opera	1	0.125
-Chrome Mobile	0	0.0
+Pale Moon	1	0.0010060362173
+Opera Neon	0	0.0
+Chrome Mobile iOS	6	0.00603621730382
+Konqueror	0	0.0
+UC Browser	1	0.0010060362173
+Opera	70	0.0704225352113
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	14	0.0140845070423
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
-Vivaldi	0	0.0
-Firefox	1	0.125
-Yandex Browser	0	0.0
+Iron	1	0.0010060362173
+IE	72	0.0724346076459
+MobileIron	0	0.0
+Vivaldi	6	0.00603621730382
+Firefox	352	0.354124748491
+Yandex Browser	5	0.00503018108652
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Chromium	2	0.00201207243461
+QupZilla	0	0.0
 timezone==================
-Chrome	25	0.0628140703518
-SeaMonkey	0	0.0
-Firefox Mobile	4	0.0100502512563
+Crosswalk	1	2.78551532033e-05
+Chrome	2753	0.0766852367688
+SeaMonkey	29	0.000807799442897
+Maxthon	5	0.000139275766017
+AppEngine-Google	0	0.0
+Firefox Mobile	523	0.0145682451253
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
-Android	0	0.0
+Android	7	0.000194986072423
+QQ Browser Mobile	2	5.57103064067e-05
 BlackBerry WebKit	0	0.0
-Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	152	0.381909547739
-Samsung Internet	41	0.103015075377
-Amazon Silk	2	0.00502512562814
-Safari	27	0.0678391959799
-IE Mobile	0	0.0
-Chrome Mobile iOS	1	0.00251256281407
-UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	43	0.108040201005
+Mobile Safari UI/WKWebView	10	0.000278551532033
+Mobile Safari	12511	0.348495821727
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	4575	0.127437325905
+Amazon Silk	48	0.00133704735376
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	1	2.78551532033e-05
+Safari	1893	0.0527298050139
+IE Mobile	3	8.356545961e-05
+Pale Moon	2	5.57103064067e-05
+Opera Neon	1	2.78551532033e-05
+Chrome Mobile iOS	9	0.00025069637883
+Konqueror	0	0.0
+UC Browser	1	2.78551532033e-05
+Opera	156	0.00434540389972
+HeadlessChrome	0	0.0
+Thunderbird	1	2.78551532033e-05
+Chrome Mobile	3731	0.103927576602
 Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	0	0.0
-Puffin	0	0.0
-Firefox iOS	0	0.0
-IE	0	0.0
-Vivaldi	0	0.0
-Firefox	55	0.138190954774
-Yandex Browser	1	0.00251256281407
-Edge	44	0.110552763819
-Chrome Mobile WebView	3	0.00753768844221
-Chromium	0	0.0
+Edge Mobile	9	0.00025069637883
+Opera Mobile	9	0.00025069637883
+Puffin	3	8.356545961e-05
+Firefox iOS	2	5.57103064067e-05
+Iron	13	0.000362116991643
+IE	4	0.000111420612813
+MobileIron	0	0.0
+Vivaldi	15	0.00041782729805
+Firefox	4825	0.134401114206
+Yandex Browser	4	0.000111420612813
+Coc Coc	2	5.57103064067e-05
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	4500	0.125348189415
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	246	0.00685236768802
+Chromium	6	0.00016713091922
+QupZilla	0	0.0
 zoom==================
-Chrome	202	0.742647058824
+Crosswalk	0	0.0
+Chrome	4624	0.45877567219
 SeaMonkey	0	0.0
-Firefox Mobile	0	0.0
+Maxthon	2	0.000198432384165
+AppEngine-Google	0	0.0
+Firefox Mobile	1	9.92161920825e-05
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
-Samsung Internet	6	0.0220588235294
+Mobile Safari	23	0.0022819724179
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	356	0.0353209643814
 Amazon Silk	0	0.0
-Safari	2	0.00735294117647
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	2	0.000198432384165
+Safari	286	0.0283758309356
 IE Mobile	0	0.0
-Chrome Mobile iOS	0	0.0
-UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	2	0.00735294117647
-Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
+Chrome Mobile iOS	8	0.00079372953666
+Konqueror	0	0.0
+UC Browser	3	0.000297648576248
+Opera	112	0.0111122135132
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	244	0.0242087508681
+Dragon	1	9.92161920825e-05
+Edge Mobile	11	0.00109137811291
+Opera Mobile	4	0.00039686476833
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	14	0.0514705882353
-Vivaldi	0	0.0
-Firefox	2	0.00735294117647
-Yandex Browser	0	0.0
-Edge	44	0.161764705882
-Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Iron	1	9.92161920825e-05
+IE	1181	0.117174322849
+MobileIron	0	0.0
+Vivaldi	10	0.000992161920825
+Firefox	248	0.0246056156365
+Yandex Browser	13	0.00128981049707
+Coc Coc	10	0.000992161920825
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	2920	0.289711280881
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	12	0.00119059430499
+Chromium	7	0.000694513344578
+QupZilla	0	0.0
 inc==================
+Crosswalk	0	0.0
 Chrome	0	0.0
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	0	0.0
 IE	0	0.0
+MobileIron	0	0.0
 Vivaldi	0	0.0
 Firefox	0	0.0
 Yandex Browser	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 detectedLanguages==================
-Chrome	4	0.666666666667
-SeaMonkey	0	0.0
-Firefox Mobile	0	0.0
-QQ Browser	0	0.0
+Crosswalk	0	0.0
+Chrome	138	0.5390625
+SeaMonkey	1	0.00390625
+Maxthon	9	0.03515625
+AppEngine-Google	0	0.0
+Firefox Mobile	2	0.0078125
+Other	0	0.0
+Apple Mail	0	0.0
+QQ Browser	1	0.00390625
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
-Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
-Samsung Internet	0	0.0
+Mobile Safari UI/WKWebView	1	0.00390625
+Mobile Safari	4	0.015625
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	4	0.015625
 Amazon Silk	0	0.0
-Safari	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	29	0.11328125
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	0	0.0
+Opera	5	0.01953125
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	9	0.03515625
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	0	0.0
 IE	0	0.0
-Vivaldi	0	0.0
-Firefox	2	0.333333333333
+MobileIron	0	0.0
+Vivaldi	1	0.00390625
+Firefox	49	0.19140625
 Yandex Browser	0	0.0
-Edge	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	1	0.00390625
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Chromium	1	0.00390625
+QupZilla	1	0.00390625
 GPU==================
-Chrome	1	1.0
+Crosswalk	0	0.0
+Chrome	31	0.264957264957
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
+Opera	1	0.00854700854701
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	0	0.0
 IE	0	0.0
+MobileIron	0	0.0
 Vivaldi	0	0.0
-Firefox	0	0.0
+Firefox	84	0.717948717949
 Yandex Browser	0	0.0
+Coc Coc	1	0.00854700854701
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 fp2_liedbrowser==================
-Chrome	3	1.0
+Crosswalk	0	0.0
+Chrome	186	0.939393939394
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
+Mobile Safari	1	0.00505050505051
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
-Chrome Mobile iOS	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
+Chrome Mobile iOS	6	0.030303030303
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
+Opera	1	0.00505050505051
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
+Iron	0	0.0
+IE	2	0.010101010101
+MobileIron	0	0.0
 Vivaldi	0	0.0
-Firefox	0	0.0
+Firefox	1	0.00505050505051
 Yandex Browser	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Chromium	1	0.00505050505051
+QupZilla	0	0.0
 WebGL==================
+Crosswalk	0	0.0
 Chrome	0	0.0
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	0	0.0
 IE	0	0.0
+MobileIron	0	0.0
 Vivaldi	0	0.0
 Firefox	0	0.0
 Yandex Browser	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 cookie==================
-Chrome	1	0.0666666666667
+Crosswalk	0	0.0
+Chrome	95	0.149842271293
 SeaMonkey	0	0.0
-Firefox Mobile	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
+Firefox Mobile	16	0.0252365930599
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
-Android	0	0.0
+Android	1	0.00157728706625
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	5	0.333333333333
-Samsung Internet	4	0.266666666667
-Amazon Silk	0	0.0
-Safari	0	0.0
+Mobile Safari	162	0.255520504732
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	111	0.175078864353
+Amazon Silk	1	0.00157728706625
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	13	0.0205047318612
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	2	0.133333333333
+Opera	2	0.00315457413249
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	150	0.236593059937
 Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	1	0.0666666666667
+Edge Mobile	2	0.00315457413249
+Opera Mobile	1	0.00157728706625
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	0	0.0
 IE	0	0.0
-Vivaldi	0	0.0
-Firefox	0	0.0
-Yandex Browser	0	0.0
-Edge	0	0.0
-Chrome Mobile WebView	2	0.133333333333
+MobileIron	0	0.0
+Vivaldi	2	0.00315457413249
+Firefox	12	0.018927444795
+Yandex Browser	1	0.00157728706625
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	7	0.0110410094637
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	58	0.0914826498423
 Chromium	0	0.0
+QupZilla	0	0.0
 ipregion==================
-Chrome	64	0.0727272727273
-SeaMonkey	0	0.0
-Firefox Mobile	9	0.0102272727273
+Crosswalk	0	0.0
+Chrome	8602	0.109285868557
+SeaMonkey	15	0.000190570568281
+Maxthon	14	0.000177865863729
+AppEngine-Google	0	0.0
+Firefox Mobile	1154	0.0146612290531
+Other	2	2.54094091042e-05
+Apple Mail	1	1.27047045521e-05
 QQ Browser	0	0.0
-Android	1	0.00113636363636
-BlackBerry WebKit	2	0.00227272727273
-Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	388	0.440909090909
-Samsung Internet	64	0.0727272727273
-Amazon Silk	0	0.0
-Safari	24	0.0272727272727
-IE Mobile	0	0.0
-Chrome Mobile iOS	4	0.00454545454545
-UC Browser	0	0.0
-Opera	2	0.00227272727273
-Chrome Mobile	167	0.189772727273
+Android	39	0.000495483477532
+QQ Browser Mobile	2	2.54094091042e-05
+BlackBerry WebKit	24	0.00030491290925
+Mobile Safari UI/WKWebView	31	0.000393845841115
+Mobile Safari	33117	0.420741700652
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	5512	0.0700283314912
+Amazon Silk	122	0.00154997395536
+Electron	0	0.0
+Facebook	1	1.27047045521e-05
+Sogou Explorer	0	0.0
+Safari	2009	0.0255237514452
+IE Mobile	3	3.81141136563e-05
+Pale Moon	2	2.54094091042e-05
+Opera Neon	0	0.0
+Chrome Mobile iOS	33	0.000419255250219
+Konqueror	0	0.0
+UC Browser	2	2.54094091042e-05
+Opera	602	0.00764823214036
+HeadlessChrome	0	0.0
+Thunderbird	1	1.27047045521e-05
+Chrome Mobile	15227	0.193454536215
 Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	1	0.00113636363636
+Edge Mobile	37	0.000470074068428
+Opera Mobile	60	0.000762282273126
 Puffin	0	0.0
-Firefox iOS	0	0.0
-IE	6	0.00681818181818
-Vivaldi	0	0.0
-Firefox	114	0.129545454545
-Yandex Browser	1	0.00113636363636
-Edge	29	0.0329545454545
-Chrome Mobile WebView	4	0.00454545454545
-Chromium	0	0.0
+Firefox iOS	5	6.35235227605e-05
+Iron	12	0.000152456454625
+IE	475	0.00603473466225
+MobileIron	2	2.54094091042e-05
+Vivaldi	16	0.000203275272834
+Firefox	8819	0.112042789445
+Yandex Browser	15	0.000190570568281
+Coc Coc	8	0.000101637636417
+Seznam prohle	1	1.27047045521e-05
+Netscape	0	0.0
+Edge	2410	0.0306183379706
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	326	0.00414173368398
+Chromium	10	0.000127047045521
+QupZilla	0	0.0
 canvas==================
-Chrome	14	0.0360824742268
-SeaMonkey	0	0.0
-Firefox Mobile	3	0.00773195876289
-QQ Browser	0	0.0
-Android	6	0.0154639175258
-BlackBerry WebKit	2	0.00515463917526
-Mobile Safari UI/WKWebView	3	0.00773195876289
-Mobile Safari	259	0.667525773196
-Samsung Internet	4	0.0103092783505
-Amazon Silk	0	0.0
-Safari	1	0.00257731958763
-IE Mobile	0	0.0
-Chrome Mobile iOS	2	0.00515463917526
-UC Browser	0	0.0
-Opera	2	0.00515463917526
-Chrome Mobile	61	0.157216494845
+Crosswalk	0	0.0
+Chrome	921	0.0469538618404
+SeaMonkey	4	0.000203925567168
+Maxthon	17	0.000866683660464
+AppEngine-Google	0	0.0
+Firefox Mobile	140	0.00713739485088
+Other	1	5.0981391792e-05
+Apple Mail	1	5.0981391792e-05
+QQ Browser	1	5.0981391792e-05
+Android	127	0.00647463675758
+QQ Browser Mobile	0	0.0
+BlackBerry WebKit	45	0.00229416263064
+Mobile Safari UI/WKWebView	71	0.00361967881723
+Mobile Safari	10794	0.550293143003
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	255	0.013000254907
+Amazon Silk	2	0.000101962783584
+Electron	0	0.0
+Facebook	10	0.00050981391792
+Sogou Explorer	0	0.0
+Safari	63	0.0032118276829
+IE Mobile	1	5.0981391792e-05
+Pale Moon	0	0.0
+Opera Neon	1	5.0981391792e-05
+Chrome Mobile iOS	56	0.00285495794035
+Konqueror	0	0.0
+UC Browser	1	5.0981391792e-05
+Opera	67	0.00341575325006
+HeadlessChrome	0	0.0
+Thunderbird	1	5.0981391792e-05
+Chrome Mobile	4732	0.24124394596
 Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	0	0.0
+Edge Mobile	2	0.000101962783584
+Opera Mobile	2	0.000101962783584
 Puffin	0	0.0
-Firefox iOS	2	0.00515463917526
-IE	0	0.0
-Vivaldi	0	0.0
-Firefox	29	0.0747422680412
-Yandex Browser	0	0.0
-Edge	0	0.0
-Chrome Mobile WebView	0	0.0
+Firefox iOS	11	0.000560795309712
+Iron	3	0.000152944175376
+IE	83	0.00423145551874
+MobileIron	3	0.000152944175376
+Vivaldi	7	0.000356869742544
+Firefox	2109	0.107519755289
+Yandex Browser	2	0.000101962783584
+Coc Coc	1	5.0981391792e-05
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	46	0.00234514402243
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	34	0.00173336732093
 Chromium	0	0.0
+QupZilla	1	5.0981391792e-05
 language==================
-Chrome	3	0.1875
+Crosswalk	0	0.0
+Chrome	296	0.299292214358
 SeaMonkey	0	0.0
-Firefox Mobile	1	0.0625
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
+Firefox Mobile	54	0.0546006066734
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
-Android	0	0.0
+Android	1	0.0010111223458
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
-Samsung Internet	3	0.1875
+Mobile Safari	80	0.0808897876643
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	80	0.0808897876643
 Amazon Silk	0	0.0
-Safari	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	1	0.0010111223458
 IE Mobile	0	0.0
-Chrome Mobile iOS	0	0.0
+Pale Moon	1	0.0010111223458
+Opera Neon	0	0.0
+Chrome Mobile iOS	1	0.0010111223458
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	6	0.375
+Opera	3	0.00303336703741
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	184	0.186046511628
 Dragon	0	0.0
-Edge Mobile	0	0.0
+Edge Mobile	3	0.00303336703741
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
+Iron	0	0.0
+IE	21	0.0212335692619
+MobileIron	0	0.0
 Vivaldi	0	0.0
-Firefox	1	0.0625
-Yandex Browser	1	0.0625
-Edge	1	0.0625
-Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Firefox	131	0.1324570273
+Yandex Browser	2	0.00202224469161
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	100	0.10111223458
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	27	0.0273003033367
+Chromium	4	0.00404448938322
+QupZilla	0	0.0
 fp2_liedresolution==================
+Crosswalk	0	0.0
 Chrome	0	0.0
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
-Mobile Safari UI/WKWebView	1	0.0140845070423
-Mobile Safari	62	0.87323943662
+Mobile Safari UI/WKWebView	8	0.00239808153477
+Mobile Safari	3185	0.954736211031
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
-Safari	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	4	0.00119904076739
 IE Mobile	0	0.0
-Chrome Mobile iOS	6	0.0845070422535
+Pale Moon	0	0.0
+Opera Neon	0	0.0
+Chrome Mobile iOS	16	0.00479616306954
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
-Edge Mobile	1	0.0140845070423
+Edge Mobile	39	0.011690647482
 Opera Mobile	0	0.0
 Puffin	0	0.0
-Firefox iOS	0	0.0
+Firefox iOS	5	0.00149880095923
+Iron	0	0.0
 IE	0	0.0
+MobileIron	0	0.0
 Vivaldi	0	0.0
 Firefox	0	0.0
 Yandex Browser	0	0.0
-Edge	1	0.0140845070423
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	79	0.0236810551559
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 fp2_liedlanguages==================
-Chrome	4	0.0449438202247
+Crosswalk	1	0.000139140114095
+Chrome	350	0.0486990399332
 SeaMonkey	0	0.0
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
 Firefox Mobile	0	0.0
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
-Samsung Internet	7	0.0786516853933
-Amazon Silk	0	0.0
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	233	0.0324196465841
+Amazon Silk	1	0.000139140114095
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
-Chrome Mobile	77	0.865168539326
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	6595	0.917629052456
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
-Puffin	1	0.0112359550562
+Puffin	5	0.000695700570474
 Firefox iOS	0	0.0
-IE	0	0.0
+Iron	0	0.0
+IE	2	0.00027828022819
+MobileIron	0	0.0
 Vivaldi	0	0.0
 Firefox	0	0.0
 Yandex Browser	0	0.0
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
 Edge	0	0.0
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 ipcity==================
-Chrome	48	0.0586080586081
-SeaMonkey	0	0.0
-Firefox Mobile	7	0.00854700854701
+Crosswalk	1	1.01149053245e-05
+Chrome	10041	0.101563764363
+SeaMonkey	22	0.000222527917139
+Maxthon	17	0.000171953390516
+AppEngine-Google	0	0.0
+Firefox Mobile	1272	0.0128661595727
+Other	3	3.03447159735e-05
+Apple Mail	1	1.01149053245e-05
 QQ Browser	0	0.0
-Android	1	0.001221001221
-BlackBerry WebKit	2	0.002442002442
-Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	342	0.417582417582
-Samsung Internet	51	0.0622710622711
-Amazon Silk	2	0.002442002442
-Safari	37	0.045177045177
-IE Mobile	0	0.0
-Chrome Mobile iOS	4	0.004884004884
-UC Browser	0	0.0
-Opera	4	0.004884004884
-Chrome Mobile	138	0.168498168498
+Android	66	0.000667583751416
+QQ Browser Mobile	2	2.0229810649e-05
+BlackBerry WebKit	32	0.000323676970384
+Mobile Safari UI/WKWebView	36	0.000364136591682
+Mobile Safari	40452	0.409168150186
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	6747	0.0682452662243
+Amazon Silk	70	0.000708043372714
+Electron	0	0.0
+Facebook	1	1.01149053245e-05
+Sogou Explorer	0	0.0
+Safari	2879	0.0291208124292
+IE Mobile	4	4.04596212979e-05
+Pale Moon	2	2.0229810649e-05
+Opera Neon	0	0.0
+Chrome Mobile iOS	29	0.00029333225441
+Konqueror	0	0.0
+UC Browser	3	3.03447159735e-05
+Opera	511	0.00516871662081
+HeadlessChrome	0	0.0
+Thunderbird	1	1.01149053245e-05
+Chrome Mobile	18487	0.186994254734
 Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	1	0.001221001221
+Edge Mobile	47	0.000475400550251
+Opera Mobile	30	0.000303447159735
 Puffin	0	0.0
-Firefox iOS	0	0.0
-IE	8	0.00976800976801
-Vivaldi	0	0.0
-Firefox	126	0.153846153846
-Yandex Browser	2	0.002442002442
-Edge	42	0.0512820512821
-Chrome Mobile WebView	4	0.004884004884
-Chromium	0	0.0
+Firefox iOS	6	6.06894319469e-05
+Iron	11	0.000111263958569
+IE	755	0.00763675351999
+MobileIron	2	2.0229810649e-05
+Vivaldi	20	0.00020229810649
+Firefox	13041	0.131908480337
+Yandex Browser	12	0.000121378863894
+Coc Coc	8	8.09192425959e-05
+Seznam prohle	1	1.01149053245e-05
+Netscape	0	0.0
+Edge	3869	0.0391345687004
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	373	0.00377285968603
+Chromium	10	0.000101149053245
+QupZilla	0	0.0
 audio==================
-Chrome	43	0.15523465704
-SeaMonkey	0	0.0
-Firefox Mobile	1	0.00361010830325
+Crosswalk	0	0.0
+Chrome	1622	0.108422459893
+SeaMonkey	2	0.000133689839572
+Maxthon	6	0.000401069518717
+AppEngine-Google	1	6.68449197861e-05
+Firefox Mobile	72	0.0048128342246
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
-Android	0	0.0
+Android	3	0.000200534759358
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
-Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	182	0.657039711191
-Samsung Internet	1	0.00361010830325
-Amazon Silk	0	0.0
-Safari	2	0.0072202166065
+Mobile Safari UI/WKWebView	17	0.00113636363636
+Mobile Safari	10515	0.702874331551
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	9	0.000601604278075
+Amazon Silk	5	0.00033422459893
+Electron	0	0.0
+Facebook	2	0.000133689839572
+Sogou Explorer	0	0.0
+Safari	203	0.0135695187166
 IE Mobile	0	0.0
-Chrome Mobile iOS	0	0.0
-UC Browser	0	0.0
-Opera	1	0.00361010830325
-Chrome Mobile	17	0.0613718411552
-Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	2	0.0072202166065
-Puffin	0	0.0
-Firefox iOS	0	0.0
+Pale Moon	1	6.68449197861e-05
+Opera Neon	0	0.0
+Chrome Mobile iOS	18	0.00120320855615
+Konqueror	0	0.0
+UC Browser	3	0.000200534759358
+Opera	89	0.00594919786096
+HeadlessChrome	0	0.0
+Thunderbird	1	6.68449197861e-05
+Chrome Mobile	672	0.0449197860963
+Dragon	1	6.68449197861e-05
+Edge Mobile	9	0.000601604278075
+Opera Mobile	3	0.000200534759358
+Puffin	1	6.68449197861e-05
+Firefox iOS	5	0.00033422459893
+Iron	4	0.000267379679144
 IE	0	0.0
-Vivaldi	0	0.0
-Firefox	14	0.0505415162455
-Yandex Browser	1	0.00361010830325
-Edge	10	0.0361010830325
-Chrome Mobile WebView	3	0.0108303249097
+MobileIron	0	0.0
+Vivaldi	6	0.000401069518717
+Firefox	1367	0.0913770053476
+Yandex Browser	7	0.000467914438503
+Coc Coc	0	0.0
+Seznam prohle	1	6.68449197861e-05
+Netscape	0	0.0
+Edge	246	0.0164438502674
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	69	0.00461229946524
 Chromium	0	0.0
+QupZilla	0	0.0
 resolution==================
-Chrome	2	0.0666666666667
-SeaMonkey	0	0.0
-Firefox Mobile	8	0.266666666667
+Crosswalk	0	0.0
+Chrome	31	0.0124648170487
+SeaMonkey	2	0.000804181745074
+Maxthon	1	0.000402090872537
+AppEngine-Google	0	0.0
+Firefox Mobile	416	0.167269802975
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
-Android	0	0.0
+Android	4	0.00160836349015
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	0	0.0
+Mobile Safari	1	0.000402090872537
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
-Safari	2	0.0666666666667
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	392	0.157619622035
 IE Mobile	0	0.0
+Pale Moon	0	0.0
+Opera Neon	0	0.0
 Chrome Mobile iOS	0	0.0
+Konqueror	0	0.0
 UC Browser	0	0.0
 Opera	0	0.0
-Chrome Mobile	0	0.0
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	1	0.000402090872537
 Dragon	0	0.0
 Edge Mobile	0	0.0
-Opera Mobile	0	0.0
-Puffin	0	0.0
+Opera Mobile	1	0.000402090872537
+Puffin	1	0.000402090872537
 Firefox iOS	0	0.0
-IE	2	0.0666666666667
-Vivaldi	0	0.0
-Firefox	13	0.433333333333
+Iron	0	0.0
+IE	200	0.0804181745074
+MobileIron	0	0.0
+Vivaldi	9	0.00361881785283
+Firefox	1156	0.464817048653
 Yandex Browser	0	0.0
-Edge	3	0.1
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	272	0.10936871733
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
 Chromium	0	0.0
+QupZilla	0	0.0
 fp2_liedos==================
-Chrome	6	0.3
+Crosswalk	0	0.0
+Chrome	436	0.442190669371
 SeaMonkey	0	0.0
-Firefox Mobile	0	0.0
+Maxthon	1	0.00101419878296
+AppEngine-Google	0	0.0
+Firefox Mobile	2	0.00202839756592
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
 Android	0	0.0
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
 Mobile Safari UI/WKWebView	0	0.0
 Mobile Safari	0	0.0
+Mail.ru Chromium Browser	0	0.0
 Samsung Internet	0	0.0
 Amazon Silk	0	0.0
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
 Safari	0	0.0
 IE Mobile	0	0.0
-Chrome Mobile iOS	0	0.0
-UC Browser	0	0.0
-Opera	3	0.15
+Pale Moon	0	0.0
+Opera Neon	0	0.0
+Chrome Mobile iOS	1	0.00101419878296
+Konqueror	0	0.0
+UC Browser	1	0.00101419878296
+Opera	16	0.0162271805274
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
 Chrome Mobile	0	0.0
 Dragon	0	0.0
 Edge Mobile	0	0.0
 Opera Mobile	0	0.0
 Puffin	0	0.0
 Firefox iOS	0	0.0
+Iron	1	0.00101419878296
 IE	0	0.0
+MobileIron	0	0.0
 Vivaldi	0	0.0
-Firefox	8	0.4
+Firefox	268	0.271805273834
 Yandex Browser	0	0.0
-Edge	3	0.15
+Coc Coc	1	0.00101419878296
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	258	0.261663286004
+ThunderBrowse	0	0.0
 Chrome Mobile WebView	0	0.0
-Chromium	0	0.0
+Chromium	1	0.00101419878296
+QupZilla	0	0.0
 ipcountry==================
-Chrome	4	0.0597014925373
-SeaMonkey	0	0.0
-Firefox Mobile	0	0.0
+Crosswalk	0	0.0
+Chrome	635	0.0960084668884
+SeaMonkey	1	0.000151194436045
+Maxthon	0	0.0
+AppEngine-Google	0	0.0
+Firefox Mobile	131	0.0198064711219
+Other	0	0.0
+Apple Mail	0	0.0
 QQ Browser	0	0.0
-Android	0	0.0
+Android	5	0.000755972180224
+QQ Browser Mobile	0	0.0
 BlackBerry WebKit	0	0.0
-Mobile Safari UI/WKWebView	0	0.0
-Mobile Safari	38	0.567164179104
-Samsung Internet	4	0.0597014925373
-Amazon Silk	0	0.0
-Safari	6	0.089552238806
-IE Mobile	0	0.0
-Chrome Mobile iOS	1	0.0149253731343
+Mobile Safari UI/WKWebView	4	0.000604777744179
+Mobile Safari	3363	0.508466888419
+Mail.ru Chromium Browser	0	0.0
+Samsung Internet	455	0.0687934684004
+Amazon Silk	4	0.000604777744179
+Electron	0	0.0
+Facebook	0	0.0
+Sogou Explorer	0	0.0
+Safari	199	0.0300876927729
+IE Mobile	3	0.000453583308134
+Pale Moon	0	0.0
+Opera Neon	0	0.0
+Chrome Mobile iOS	4	0.000604777744179
+Konqueror	0	0.0
 UC Browser	0	0.0
-Opera	0	0.0
-Chrome Mobile	8	0.119402985075
+Opera	40	0.00604777744179
+HeadlessChrome	0	0.0
+Thunderbird	0	0.0
+Chrome Mobile	1017	0.153764741458
 Dragon	0	0.0
-Edge Mobile	0	0.0
-Opera Mobile	0	0.0
+Edge Mobile	10	0.00151194436045
+Opera Mobile	8	0.00120955548836
 Puffin	0	0.0
 Firefox iOS	0	0.0
-IE	0	0.0
+Iron	0	0.0
+IE	31	0.00468702751739
+MobileIron	0	0.0
 Vivaldi	0	0.0
-Firefox	5	0.0746268656716
-Yandex Browser	0	0.0
-Edge	0	0.0
-Chrome Mobile WebView	1	0.0149253731343
-Chromium	0	0.0
+Firefox	585	0.0884487450862
+Yandex Browser	1	0.000151194436045
+Coc Coc	0	0.0
+Seznam prohle	0	0.0
+Netscape	0	0.0
+Edge	90	0.013607499244
+ThunderBrowse	0	0.0
+Chrome Mobile WebView	25	0.00377986090112
+Chromium	3	0.000453583308134
+QupZilla	0	0.0

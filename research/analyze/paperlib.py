@@ -1557,7 +1557,7 @@ class Paperlib():
 
         output_type = 1
         #remove the only IP change numbers
-        total_browserids = 0 #df['browserid'].nunique()
+        total_browserids = set() #df['browserid'].nunique()
 
         for browser in desktop_browsers:
             classes_numbers[browser] = {}
@@ -1569,6 +1569,8 @@ class Paperlib():
 
         others_numbers = {}
         reason_map = {}
+        reason_type = 'change'
+        #reason_type = 'browserid'
         for idx, row in tqdm(df.iterrows()):
             #cnt = row['browserid']
             cnt += 1
@@ -1656,7 +1658,7 @@ class Paperlib():
                     cur_classes += c + '_'
 
             if len(cur_classes) > 0:
-                total_browserids += 1
+                total_browserids.add(cnt)
                 if cur_classes not in classes_numbers['overall']:
                     classes_numbers['overall'][cur_classes] = set()
                 classes_numbers['overall'][cur_classes].add(cnt)
@@ -1680,13 +1682,14 @@ class Paperlib():
         #===================================
 
 
+        total_browserids = len(total_browserids)
         sorted_classes_numbers = {}
         for cur_type in classes_numbers:
             sorted_classes_numbers[cur_type] = sorted(classes_numbers[cur_type].iteritems(), key = lambda (k, v): (-len(v), k))
 
 
         total_update = 0
-        f = safeopen('./changereason/bigtable/updatepercentage', 'w')
+        f = safeopen('./changereasonby{}/bigtable/updatepercentage'.format(reason_type), 'w')
         for browser in browsermap:
             total_update += len(browsermap[browser]['browserupdate'])
         if total_update == 0:
@@ -1707,7 +1710,7 @@ class Paperlib():
             f.write('{}\t{}\n'.format(os, float(len(osmap[os]['osupdate'])) / float(total_update)))
         f.close()
 
-        f = safeopen('./changereason/bigtable/classes', 'w')
+        f = safeopen('./changereasonby{}/bigtable/classes'.format(reason_type), 'w')
         for cur_type in sorted_classes_numbers:
             cur_total_number = sum([len(v[1]) for v in sorted_classes_numbers[cur_type]])
             f.write('{}====================\n'.format(cur_type))
@@ -1720,7 +1723,7 @@ class Paperlib():
         f.close()
 
         cur_total = 0
-        f = safeopen('./changereason/bigtable/{}'.format('overallactionenv'), 'w')
+        f = safeopen('./changereasonby{}/bigtable/{}'.format(reason_type, 'overallactionenv'), 'w')
         f.write('useraction\n')
         for key in useraction_list:
             cur_total += len(change_ids[key])
@@ -1757,7 +1760,7 @@ class Paperlib():
         f.close()
 
         for browser in browsermap:
-            f = safeopen('./changereason/bigtable/browser/{}'.format(browser), 'w')
+            f = safeopen('./changereasonby{}/bigtable/browser/{}'.format(reason_type, browser), 'w')
             f.write('{}\n'.format('useraction'))
             cur_total = 0
             for key in useraction_list:
@@ -1778,7 +1781,7 @@ class Paperlib():
             f.close()
 
         for os in osmap:
-            f = safeopen('./changereason/bigtable/os/{}'.format(os), 'w')
+            f = safeopen('./changereasonby{}/bigtable/os/{}'.format(reason_type, os), 'w')
             f.write('{}\n'.format('useraction'))
             cur_total = 0
             for key in useraction_list:
@@ -1798,7 +1801,7 @@ class Paperlib():
                 f.write('{}\t{}\n'.format(key, float(len(osmap[os][key])) / float(cur_total)))
             f.close()
 
-        f = safeopen('./changereason/bigtable/ossplit', 'w')
+        f = safeopen('./changereasonby{}/bigtable/ossplit'.format(reason_type), 'w')
         for key in match_list:
             key = match_list[key]
             cur_total = 0
@@ -1812,7 +1815,7 @@ class Paperlib():
 
         f.close()
 
-        f = safeopen('./changereason/bigtable/browsersplit', 'w')
+        f = safeopen('./changereasonby{}/bigtable/browsersplit'.format(reason_type), 'w')
         for key in match_list:
             key = match_list[key]
             cur_total = 0
