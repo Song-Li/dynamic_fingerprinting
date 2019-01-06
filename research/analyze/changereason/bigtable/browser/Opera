@@ -7,18 +7,18 @@ WebGL	0.0
 fp2_liedbrowser	0.0
 fp2_liedresolution	0.0
 fp2_liedlanguages	0.0
-fp2_liedos	0.333333333333
-private	0.333333333333
+fp2_liedos	0.6
+private	0.2
 flash	0.0
 resolution	0.0
-plugin	0.333333333333
+plugin	0.2
 environment
 colorDepth	0.0
 detectedLanguages	0.0
-audio	0.333333333333
+audio	0.25
 jsFonts	0.0
-encoding	0.333333333333
+encoding	0.25
 language	0.0
-canvas	0.333333333333
+canvas	0.5
 GPU	0.0
 inc	0.0

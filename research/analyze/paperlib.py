@@ -1405,11 +1405,12 @@ class Paperlib():
         input a change df
         return a list of flip fonts
         """
-        grouped = df.groupby(['browserid', 'browser'])
+        grouped = df.groupby(['browserid', 'browser', 'os'])
         flip_fonts = {}
         for key, cur_group in tqdm(grouped):
             change_font_list = cur_group['jsFonts'].unique()
             browser = key[1]
+            os = key[2]
             left_fonts = set()
             right_fonts = set()
             for fonts in change_font_list:
@@ -1420,14 +1421,16 @@ class Paperlib():
                 right = cur_fonts[1].split('++')
                 left_fonts = left_fonts.union(left)
                 right_fonts = right_fonts.union(right)
-            if browser not in flip_fonts:
-                flip_fonts[browser] = set()
-            flip_fonts[browser] = flip_fonts[browser].union(left_fonts.intersection(right_fonts))
+            if os not in flip_fonts:
+                flip_fonts[os] = {} 
+            if browser not in flip_fonts[os]:
+                 flip_fonts[os][browser] = set()
+            flip_fonts[os][browser] = flip_fonts[os][browser].union(left_fonts.intersection(right_fonts))
 
-        for browser in flip_fonts:
-            if '' in flip_fonts[browser]:
-                flip_fonts[browser].remove('')
-
+        for os in flip_fonts:
+            for browser in flip_fonts[os]:
+                if '' in flip_fonts[os][browser]:
+                    flip_fonts[os][browser].remove('')
         return flip_fonts
             
     def draw_detailed_reason(self, table_name = 'allchanges'):
@@ -1437,7 +1440,7 @@ class Paperlib():
             consider MS fonts
         TODO: get the desktop request
         """
-        df = self.db.load_data(table_name = table_name, limit = 10000)
+        df = self.db.load_data(table_name = table_name)
         ms_office_number = self.count_val_feature(df, val = ['MS Outlook', 'MS Reference Sans Serif'], feature = 'jsFonts')
         print ('Office Fonts:', ms_office_number)
         adobe_number = self.count_val_feature(df, val = ['ADOBE GARAMOND PRO'], feature = 'jsFonts')
@@ -1567,8 +1570,8 @@ class Paperlib():
         others_numbers = {}
         reason_map = {}
         for idx, row in tqdm(df.iterrows()):
-            cnt = row['browserid']
-            #cnt += 1
+            #cnt = row['browserid']
+            cnt += 1
             browser = row['browser']
             os = row['os']
             cur_exist = {}
@@ -1614,7 +1617,7 @@ class Paperlib():
                             cur_exist['plugin'] = 1
 
                     if feature == 'jsFonts':
-                        for font in flip_fonts_list[browser]:
+                        for font in flip_fonts_list[os][browser]:
                             row['jsFonts'] = row['jsFonts'].replace(font, '')
                         row['jsFonts'] = row['jsFonts'].replace('flipFonts', '')
                         row['jsFonts'] = row['jsFonts'].replace('+', '')

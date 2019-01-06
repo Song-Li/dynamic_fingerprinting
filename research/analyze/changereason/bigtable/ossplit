@@ -17,13 +17,13 @@ BlackBerry OS	0	0.0
 Linux	1	0.333333333333
 Android	0	0.0
 jsFonts==================
-Windows	37	0.804347826087
-Mac OS X	8	0.173913043478
+Windows	47	0.839285714286
+Mac OS X	8	0.142857142857
 Windows Phone	0	0.0
 Ubuntu	0	0.0
 iOS	0	0.0
 BlackBerry OS	0	0.0
-Linux	1	0.0217391304348
+Linux	1	0.0178571428571
 Android	0	0.0
 agent==================
 Windows	0	0.0
@@ -35,17 +35,17 @@ BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
 localStorage==================
-Windows	6	0.3
-Mac OS X	2	0.1
+Windows	6	0.285714285714
+Mac OS X	2	0.0952380952381
 Windows Phone	0	0.0
 Ubuntu	0	0.0
-iOS	10	0.5
+iOS	11	0.52380952381
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	2	0.1
+Android	2	0.0952380952381
 plugin==================
-Windows	4	0.571428571429
-Mac OS X	3	0.428571428571
+Windows	5	0.625
+Mac OS X	3	0.375
 Windows Phone	0	0.0
 Ubuntu	0	0.0
 iOS	0	0.0
@@ -53,23 +53,23 @@ BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
 timezone==================
-Windows	112	0.290155440415
-Mac OS X	34	0.0880829015544
+Windows	112	0.281407035176
+Mac OS X	34	0.0854271356784
 Windows Phone	0	0.0
-Ubuntu	1	0.00259067357513
-iOS	142	0.367875647668
+Ubuntu	1	0.00251256281407
+iOS	153	0.384422110553
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	97	0.251295336788
+Android	98	0.246231155779
 zoom==================
-Windows	84	0.865979381443
-Mac OS X	6	0.0618556701031
+Windows	251	0.922794117647
+Mac OS X	13	0.0477941176471
 Windows Phone	0	0.0
 Ubuntu	0	0.0
 iOS	0	0.0
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	7	0.0721649484536
+Android	8	0.0294117647059
 inc==================
 Windows	0	0.0
 Mac OS X	0	0.0
@@ -80,13 +80,13 @@ BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
 detectedLanguages==================
-Windows	1	0.333333333333
-Mac OS X	1	0.333333333333
+Windows	3	0.5
+Mac OS X	2	0.333333333333
 Windows Phone	0	0.0
 Ubuntu	0	0.0
 iOS	0	0.0
 BlackBerry OS	0	0.0
-Linux	1	0.333333333333
+Linux	1	0.166666666667
 Android	0	0.0
 GPU==================
 Windows	1	1.0
@@ -98,7 +98,7 @@ BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
 fp2_liedbrowser==================
-Windows	2	1.0
+Windows	3	1.0
 Mac OS X	0	0.0
 Windows Phone	0	0.0
 Ubuntu	0	0.0
@@ -116,47 +116,47 @@ BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
 cookie==================
-Windows	1	0.0833333333333
+Windows	1	0.0666666666667
 Mac OS X	0	0.0
 Windows Phone	0	0.0
 Ubuntu	0	0.0
-iOS	4	0.333333333333
+iOS	5	0.333333333333
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	7	0.583333333333
+Android	9	0.6
 ipregion==================
-Windows	140	0.200573065903
-Mac OS X	34	0.0487106017192
+Windows	189	0.214772727273
+Mac OS X	41	0.0465909090909
 Windows Phone	0	0.0
-Ubuntu	1	0.00143266475645
-iOS	302	0.432664756447
-BlackBerry OS	1	0.00143266475645
-Linux	1	0.00143266475645
-Android	219	0.313753581662
+Ubuntu	1	0.00113636363636
+iOS	392	0.445454545455
+BlackBerry OS	2	0.00227272727273
+Linux	1	0.00113636363636
+Android	254	0.288636363636
 canvas==================
-Windows	25	0.12315270936
-Mac OS X	5	0.0246305418719
+Windows	31	0.0798969072165
+Mac OS X	11	0.0283505154639
 Windows Phone	0	0.0
 Ubuntu	0	0.0
-iOS	122	0.600985221675
-BlackBerry OS	1	0.00492610837438
-Linux	1	0.00492610837438
-Android	49	0.241379310345
+iOS	266	0.685567010309
+BlackBerry OS	2	0.00515463917526
+Linux	1	0.00257731958763
+Android	77	0.198453608247
 language==================
-Windows	6	0.4
+Windows	6	0.375
 Mac OS X	0	0.0
 Windows Phone	0	0.0
 Ubuntu	0	0.0
 iOS	0	0.0
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	9	0.6
+Android	10	0.625
 fp2_liedresolution==================
-Windows	1	0.0222222222222
+Windows	1	0.0140845070423
 Mac OS X	0	0.0
-Windows Phone	1	0.0222222222222
+Windows Phone	1	0.0140845070423
 Ubuntu	0	0.0
-iOS	43	0.955555555556
+iOS	69	0.971830985915
 BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
@@ -168,36 +168,36 @@ Ubuntu	0	0.0
 iOS	0	0.0
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	64	1.0
+Android	89	1.0
 ipcity==================
-Windows	166	0.256965944272
-Mac OS X	41	0.0634674922601
+Windows	211	0.257631257631
+Mac OS X	48	0.0586080586081
 Windows Phone	0	0.0
-Ubuntu	1	0.0015479876161
-iOS	257	0.397832817337
-BlackBerry OS	1	0.0015479876161
-Linux	1	0.0015479876161
-Android	179	0.277089783282
+Ubuntu	1	0.001221001221
+iOS	346	0.422466422466
+BlackBerry OS	2	0.002442002442
+Linux	1	0.001221001221
+Android	210	0.25641025641
 audio==================
-Windows	28	0.170731707317
-Mac OS X	4	0.0243902439024
+Windows	55	0.198555956679
+Mac OS X	10	0.0361010830325
 Windows Phone	0	0.0
-Ubuntu	2	0.0121951219512
-iOS	112	0.682926829268
+Ubuntu	3	0.0108303249097
+iOS	182	0.657039711191
 BlackBerry OS	0	0.0
-Linux	1	0.00609756097561
-Android	17	0.103658536585
+Linux	2	0.0072202166065
+Android	25	0.0902527075812
 resolution==================
-Windows	12	0.6
-Mac OS X	2	0.1
+Windows	18	0.6
+Mac OS X	2	0.0666666666667
 Windows Phone	0	0.0
 Ubuntu	0	0.0
 iOS	0	0.0
 BlackBerry OS	0	0.0
-Linux	1	0.05
-Android	5	0.25
+Linux	2	0.0666666666667
+Android	8	0.266666666667
 fp2_liedos==================
-Windows	11	1.0
+Windows	20	1.0
 Mac OS X	0	0.0
 Windows Phone	0	0.0
 Ubuntu	0	0.0
@@ -206,11 +206,11 @@ BlackBerry OS	0	0.0
 Linux	0	0.0
 Android	0	0.0
 ipcountry==================
-Windows	6	0.115384615385
-Mac OS X	5	0.0961538461538
+Windows	8	0.119402985075
+Mac OS X	6	0.089552238806
 Windows Phone	0	0.0
-Ubuntu	1	0.0192307692308
-iOS	29	0.557692307692
+Ubuntu	1	0.0149253731343
+iOS	39	0.582089552239
 BlackBerry OS	0	0.0
 Linux	0	0.0
-Android	11	0.211538461538
+Android	13	0.194029850746
