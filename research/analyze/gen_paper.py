@@ -7,6 +7,7 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
+    paperlib.relation_detection_os_browser()
     #df = db.load_data(table_name = 'allchanges')
     #paperlib.get_flip_list(df)
     #paperlib.relation_detection_os_browser(df = df)
@@ -15,7 +16,7 @@ def main():
     #paperlib.request_desktop_detection()
     #paperlib.network_change_statics()
     #paperlib.relation_detection(table_name = 'allchanges')
-    paperlib.draw_detailed_reason(table_name = 'allchanges')
+    #paperlib.draw_detailed_reason(table_name = 'allchanges')
     #fonts = Fonts()
     #paperlib.get_browserid_same_value_order_change(feature_name = 'plugins', sep = '~')
     #print set(fonts.get_libre_6()) & set(fonts.get_jsFonts())
