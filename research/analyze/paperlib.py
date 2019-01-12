@@ -1207,29 +1207,35 @@ class Paperlib():
         if len(df) == 0:
             df = self.db.load_data(table_name = 'allchanges')
         browser_related = {}
-        os_related = {}
+        b_o_update = {}
         for feature in feature_list:
             cur_grouped = df.groupby(['browser', feature])
             for key, cur_group in tqdm(cur_grouped):
                 browser_together_list = []
+                cur_browserids = set()
+                num_browserid = cur_group['browserid'].nunique()
                 for idx, row in cur_group.iterrows():
-                    if row['tobrowserversion'] == None or row['frombrowserversion'] == None:
+                    if row['tobrowserversion'] == 'None' or row['frombrowserversion'] == 'None':
                         continue
-                    try:
-                        from_browser_version = int(row['frombrowserversion'].split('.')[0])
-                        to_browser_version = int(row['tobrowserversion'].split('.')[0])
-                    except:
-                        print row['frombrowserversion'], row['tobrowserversion']
+                    from_browser_version = int(row['frombrowserversion'].split('.')[0])
+                    to_browser_version = int(row['tobrowserversion'].split('.')[0])
                     # only consider 1 version number update
-                    if to_browser_version - from_browser_version == 1:
+                    if True:#to_browser_version - from_browser_version == 1:
+                        cur_browserids.add(row['browserid'])
+                        cur_key = '{}_{}'.format(row['browser'], row['os'])
                         browser_together_list.append(('{}_{}'.format(row['browser'], row['os']), to_browser_version))
+                        if cur_key not in b_o_update:
+                            b_o_update[cur_key] = {}
+                        if to_browser_version not in b_o_update[cur_key]:
+                            b_o_update[cur_key][to_browser_version] = set()
+                        b_o_update[cur_key][to_browser_version].add(row['browserid'])
 
-                if float(len(browser_together_list)) / float(len(cur_group)) > threshhold:
+                if float(len(cur_browserids)) / float(num_browserid) > threshhold:
                     browser = collections.Counter([v[0] for v in browser_together_list]).most_common(1)
                     version = collections.Counter([v[1] for v in browser_together_list]).most_common(1)
                     #print version[0][1], len(browser_together_list)
                     if float(version[0][1]) / float(len(browser_together_list)) > threshhold:
-                        browser_related[key[1]] = [feature, browser[0][0], version[0][0], version[0][1]]
+                        browser_related[key[1]] = [feature, browser[0][0], version[0][0], len(cur_browserids)]
 
         # reverse the key value of os and browser related
         r_browser_related = {}
@@ -1243,15 +1249,18 @@ class Paperlib():
             if browser_version not in r_browser_related[browser]:
                 r_browser_related[browser][browser_version] = {}
             if feature not in r_browser_related[browser][browser_version]:
-                r_browser_related[browser][browser_version][feature] = {}
+                r_browser_related[browser][browser_version][feature] = {'total': 0}
             r_browser_related[browser][browser_version][feature][val] = number
+            r_browser_related[browser][browser_version][feature]['total'] += number
         
         for browser in r_browser_related:
             print str(browser) + '=============================='
             for v in r_browser_related[browser]:
-                print v
+                print v, len(b_o_update[browser][v])
                 for f in r_browser_related[browser][v]:
-                    print f, r_browser_related[browser][v][f]
+                    print f, r_browser_related[browser][v][f]['total']
+                    for detail in r_browser_related[browser][v][f]:
+                        print '\t{} {}'.format(r_browser_related[browser][v][f][detail], detail)
         return r_browser_related 
 
     def count_val_feature(self, df, val = [], feature = '', groupkey = 'browserid', sep = '++'):
@@ -2496,10 +2505,12 @@ class Paperlib():
                 except:
                     pass
                 k +=1
+
     def gen_canvas_split_database(self):
         """
         generate canvas split database
         """
+
     def jsFonts_change_frequency(self):
         """
         get jsFonts change frequency
