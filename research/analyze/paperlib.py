@@ -576,9 +576,9 @@ class Paperlib():
         """
         take the name of the feature and the changes df
         """
-        db = Database('filteredchangesbrowserid')
-        df = db.load_data(table_name = '{}changes'.format(feature_name))
-        df = remove_flip_users(df)
+        df = self.db.load_data(table_name = 'allchanges')
+        df = df[df.jsFonts != '']
+        df = self.remove_flip_fonts(df)
         print ("{} users remain".format(df['browserid'].nunique()))
         try:
             min_date = min(df['fromtime'])
@@ -587,7 +587,7 @@ class Paperlib():
         min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
         max_date = max(df['totime'])
         lendate = (max_date - min_date).days
-        grouped = df.groupby(['from', 'to'])
+        grouped = df.groupby(feature_name)
         # how many browserids 
         sorted_group = collections.OrderedDict(grouped['browserid'].nunique().sort_values(ascending=False))
         sorted_keys = sorted_group.keys()
@@ -600,38 +600,12 @@ class Paperlib():
         cnt = 0
         sep = ' '
 
-        f = safeopen('./res/topchanges.dat', 'a')
-        for group in sorted_group:
-            if feature_name == 'langsdetected' or feature_name == 'jsFonts':
-                sep = '_'
-            elif feature_name == 'plugins':
-                sep = '~'
-            counts = get_feature_percentage(grouped.get_group(group), 'browser')
-            os_counts = get_feature_percentage(grouped.get_group(group), 'os')
-            
-            try:
-                f.write('{} {} {} {} {} {} {} {}\n'.format('$$'.join(group), 
-                    '$$', get_change_strs(group[0], group[1], sep=sep), 
-                    sorted_group[group], counts[0][0], counts[0][1], os_counts[0][0], os_counts[0][1]))
-            except:
-                print '$$'.join(str(e) for e in group)
-            cnt += 1
-            if cnt > 10:
-                break
-        f.close()
-
-        print ('all changes finished')
-
         for date in datelist:
             dates_data[date] = {}
             for t in sorted_keys:
                 dates_data[date][t] = 0
 
-        for i in tqdm(range(11)):
-            try:
-                cur_key = sorted_keys[i]
-            except:
-                break
+        for cur_key in tqdm(sorted_keys):
             cur_group = grouped.get_group(cur_key)
             for idx, row in cur_group.iterrows():
                 # round to day
@@ -647,7 +621,7 @@ class Paperlib():
                         key = sorted_keys[idx]
                     except:
                         break
-                    f.write('{} '.format(str(get_change_strs(key[0], key[1], sep = ' ')).replace(' ','=')))
+                    f.write('{} '.format(key))
                 f.write('\n')
             f.write('{}-{}-{} '.format(date.year, date.month, date.day))
             sumup = 0
@@ -659,9 +633,9 @@ class Paperlib():
                     key = sorted_keys[idx]
                 except:
                     break
-                f.write('{} '.format(float(dates_data[date][key]) / total))
+                f.write('{} '.format(float(dates_data[date][key])))
                 sumup += dates_data[date][key]
-            f.write('{} '.format(float(sum(dates_data[date].values()) - sumup) / total))
+            f.write('{} '.format(float(sum(dates_data[date].values()) - sumup)))
             f.write('\n')
         f.close()
 
@@ -1206,24 +1180,31 @@ class Paperlib():
         
         if len(df) == 0:
             df = self.db.load_data(table_name = 'allchanges')
+        row_key = 'browser'
+        column_key = 'os'
         browser_related = {}
         b_o_update = {}
         for feature in feature_list:
-            cur_grouped = df.groupby(['browser', feature])
+            cur_grouped = df.groupby([row_key, feature])
             for key, cur_group in tqdm(cur_grouped):
                 browser_together_list = []
                 cur_browserids = set()
                 num_browserid = cur_group['browserid'].nunique()
                 for idx, row in cur_group.iterrows():
-                    if row['tobrowserversion'] == 'None' or row['frombrowserversion'] == 'None':
+                    if row['to{}version'.format(row_key)] == 'None' or row['from{}version'.format(row_key)] == 'None':
                         continue
-                    from_browser_version = int(row['frombrowserversion'].split('.')[0])
-                    to_browser_version = int(row['tobrowserversion'].split('.')[0])
+                    if row_key == 'browser':
+                        from_browser_version = int(row['from{}version'.format(row_key)].split('.')[0])
+                        to_browser_version = int(row['to{}version'.format(row_key)].split('.')[0])
+                    else:
+                        from_browser_version = row['from{}version'.format(row_key)]
+                        to_browser_version = row['to{}version'.format(row_key)]
+
                     # only consider 1 version number update
-                    if True:#to_browser_version - from_browser_version == 1:
+                    if to_browser_version - from_browser_version == 1:
                         cur_browserids.add(row['browserid'])
-                        cur_key = '{}_{}'.format(row['browser'], row['os'])
-                        browser_together_list.append(('{}_{}'.format(row['browser'], row['os']), to_browser_version))
+                        cur_key = '{}_{}'.format(row[row_key], row[column_key])
+                        browser_together_list.append((cur_key, to_browser_version))
                         if cur_key not in b_o_update:
                             b_o_update[cur_key] = {}
                         if to_browser_version not in b_o_update[cur_key]:
@@ -1256,11 +1237,12 @@ class Paperlib():
         for browser in r_browser_related:
             print str(browser) + '=============================='
             for v in r_browser_related[browser]:
-                print v, len(b_o_update[browser][v])
+                cur_len = len(b_o_update[browser][v])
+                print v, cur_len
                 for f in r_browser_related[browser][v]:
-                    print f, r_browser_related[browser][v][f]['total']
+                    print '\t{} {}'.format(f, float(r_browser_related[browser][v][f]['total']) / float(cur_len))
                     for detail in r_browser_related[browser][v][f]:
-                        print '\t{} {}'.format(r_browser_related[browser][v][f][detail], detail)
+                        print '\t\t{} {}'.format(r_browser_related[browser][v][f][detail], detail)
         return r_browser_related 
 
     def count_val_feature(self, df, val = [], feature = '', groupkey = 'browserid', sep = '++'):
@@ -2520,4 +2502,3 @@ class Paperlib():
         grouped = df.groupby(['browserid', 'browser'])
         for key, cur_grouped in tqdm(grouped):
             browser = key[1]
-
