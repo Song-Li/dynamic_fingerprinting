@@ -578,8 +578,9 @@ class Paperlib():
         """
         df = self.db.load_data(table_name = 'allchanges')
         df = df[df[feature_name] != '']
-        #df = self.remove_flip_fonts(df)
-        #df = df[df.jsFonts != 'flipFonts']
+        if feature_name == 'jsFonts':
+            df = self.remove_flip_fonts(df)
+            df = df[df.jsFonts != 'flipFonts']
         print ("{} users remain".format(df['browserid'].nunique()))
         try:
             min_date = min(df['fromtime'])
@@ -635,9 +636,9 @@ class Paperlib():
                     key = sorted_keys[idx]
                 except:
                     break
-                f.write('{} '.format(float(dates_data[date][key])))
+                f.write('{} '.format(float(dates_data[date][key]) / total))
                 sumup += dates_data[date][key]
-            f.write('{} '.format(float(sum(dates_data[date].values()) - sumup)))
+            f.write('{} '.format(float(sum(dates_data[date].values()) - sumup) / total))
             f.write('\n')
         f.close()
 
