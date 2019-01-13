@@ -577,9 +577,9 @@ class Paperlib():
         take the name of the feature and the changes df
         """
         df = self.db.load_data(table_name = 'allchanges')
-        df = df[df.jsFonts != '']
-        df = self.remove_flip_fonts(df)
-        df = df[df.jsFonts != 'flipFonts']
+        df = df[df[feature_name] != '']
+        #df = self.remove_flip_fonts(df)
+        #df = df[df.jsFonts != 'flipFonts']
         print ("{} users remain".format(df['browserid'].nunique()))
         try:
             min_date = min(df['fromtime'])
