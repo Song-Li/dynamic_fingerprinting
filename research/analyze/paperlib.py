@@ -622,7 +622,8 @@ class Paperlib():
                         key = sorted_keys[idx]
                     except:
                         break
-                    f.write('{} '.format(key.replace(' ', '_')))
+                    f.write('{} '.format(key.replace(' ', '-')))
+                f.write('Others ')
                 f.write('\n')
             f.write('{}-{}-{} '.format(date.year, date.month, date.day))
             sumup = 0
