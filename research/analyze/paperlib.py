@@ -1176,15 +1176,15 @@ class Paperlib():
         fp.close()
         return related
 
-    def relation_detection_os_browser(self, df = [], threshhold = 0.9, feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio']):
+    def relation_detection_os_browser(self, df = [], threshhold = 0.9, feature_list = ['jsFonts', 'canvastest', 'plugins', 'gpu', 'audio', 'encoding']):
         """
         same as relation detection ,this time, return by os or browser 
         """
         
         if len(df) == 0:
             df = self.db.load_data(table_name = 'allchanges')
-        row_key = 'browser'
-        column_key = 'os'
+        row_key = 'os'
+        column_key = 'browser'
         browser_related = {}
         b_o_update = {}
         for feature in feature_list:
@@ -1204,7 +1204,7 @@ class Paperlib():
                         to_browser_version = row['to{}version'.format(row_key)]
 
                     # only consider 1 version number update
-                    if to_browser_version - from_browser_version == 1:
+                    if True: #to_browser_version - from_browser_version == 1:
                         cur_browserids.add(row['browserid'])
                         cur_key = '{}_{}'.format(row[row_key], row[column_key])
                         browser_together_list.append((cur_key, to_browser_version))

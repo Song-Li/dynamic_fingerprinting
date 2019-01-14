@@ -7,8 +7,8 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.feature_change_by_date_paper('jsFonts')
-   # paperlib.relation_detection_os_browser()
+    #paperlib.feature_change_by_date_paper('jsFonts')
+    paperlib.relation_detection_os_browser()
     #df = db.load_data(table_name = 'allchanges')
     #paperlib.get_flip_list(df)
     #paperlib.relation_detection_os_browser(df = df)

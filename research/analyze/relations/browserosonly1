@@ -50,6 +50,9 @@ Maxthon_Windows==============================
 		2 =>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Bernard MT Condensed++Bodoni MT Black++Bodoni MT Condensed++Cooper Black++Copperplate Gothic Light++Footlight MT Light++Gill Sans MT Condensed++Rockwell Condensed++Tw Cen MT Condensed++
 		1 =>Arial Black++Arial Narrow++Segoe UI Light++Segoe UI Semibold++Fixedsys++HELV++Modern++Roman++Script++Small Fonts++System++Terminal++
 		3 total
+	encoding 1.0
+		3 gzip,deflate++=>gzip, deflate++
+		3 total
 	canvastest 1.0
 		1 ab58400b1eb128ca6efff13991cedbe7b65f7354++=>26e72c0159681b034ae4cfe12b6ff168b079c7cd++
 		1 ab58400b1eb128ca6efff13991cedbe7b65f7354++=>cb9885d1a12702d9c80ca20c8d0637dc08b407d4++
