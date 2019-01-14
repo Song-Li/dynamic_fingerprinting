@@ -628,7 +628,7 @@ class Paperlib():
                 f.write('\n')
             f.write('{}-{}-{} '.format(date.year, date.month, date.day))
             sumup = 0
-            total = float(sum(dates_data[date].values()))
+            #total = float(sum(dates_data[date].values()))
             if total == 0:
                 total = 1
             for idx in range(10):
