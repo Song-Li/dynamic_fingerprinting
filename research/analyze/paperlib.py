@@ -2480,9 +2480,9 @@ class Paperlib():
     def canvas_crop(self, path, input, height, width, k, page, area):
         im = Image.open(input)
         imgwidth, imgheight = im.size
-        for i in range(0,imgheight,height):
-            for j in range(0,imgwidth,width):
-                box = (j, i, j+width, i+height)
+        for i in range(0, imgheight,height):
+            for j in range(0, imgwidth,width):
+                box = (j, i, j + width, i + height)
                 a = im.crop(box)
                 try:
                     o = a.crop(area)
@@ -2490,11 +2490,6 @@ class Paperlib():
                 except:
                     pass
                 k +=1
-
-    def gen_canvas_split_database(self):
-        """
-        generate canvas split database
-        """
 
     def jsFonts_change_frequency(self):
         """
