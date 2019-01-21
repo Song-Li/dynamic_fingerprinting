@@ -2506,13 +2506,13 @@ class Paperlib():
         for key, cur_grouped in tqdm(grouped):
             browser = key[1]
 
-    def value_change_by_date(self, feature, value, method = 'window'):
+    def value_change_by_date(self, feature, value):
         """
         return the number of changed browserid of the feature in each day, method options: window, accu, day 
         """
         df = self.db.load_data(table_name = 'allchanges')
         df = df[df[feature].str.contains(value)]
-        print len(df[feature])
+        df = round_time_to_day(df, timekey = 'totime')
         try:
             min_date = min(df['fromtime'])
         except:
@@ -2520,27 +2520,23 @@ class Paperlib():
         min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
         max_date = max(df['totime'])
         lendate = (max_date - min_date).days
-        grouped = df.groupby(feature)
-
-        sorted_group = collections.OrderedDict(grouped['browserid'].nunique().sort_values(ascending=False))
-        sorted_keys = sorted_group.keys()
+        grouped = df.groupby('totime')
         total_len = len(grouped)
         output_length = 5
         cur = 0
         dates_data = {}
         datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
 
-        cnt = 0
-        sep = ' '
-
         for date in datelist:
-            dates_data[date] = {}
-            for t in sorted_keys:
-                dates_data[date][t] = 0
+            dates_data[date] = 0
+        for key, cur_group in tqdm(grouped):
+            dates_data[key] = cur_group['browserid'].nunique()
 
-        for cur_key in tqdm(sorted_keys):
-            cur_group = grouped.get_group(cur_key)
-            for idx, row in cur_group.iterrows():
-                # round to day
-                cur_time = row['totime'].replace(microsecond = 0, second = 0, minute = 0, hour = 0)
+        f = safeopen('./dat/{}in{}ChangeByDate.dat'.format(value, feature), 'w')
+        f.write('Date#value\n')
+        for date in datelist:
+            f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
+            f.write('{}\n'.format(dates_data[date]))
+        f.close()
+
 
