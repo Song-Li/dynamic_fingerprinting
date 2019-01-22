@@ -7,7 +7,8 @@ from fonts import Fonts
 def main():
     db = Database('forpaper345') 
     paperlib = Paperlib(db)
-    paperlib.value_change_by_date('jsFonts', 'ADOBE')
+    paperlib.get_canvas_change_reason_percentage(group_key = 'totime')
+    #paperlib.value_change_by_date('jsFonts', 'ADOBE')
     #paperlib.feature_change_by_date_paper('jsFonts')
     #paperlib.relation_detection_os_browser()
     #df = db.load_data(table_name = 'allchanges')

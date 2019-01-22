@@ -2494,16 +2494,16 @@ class Paperlib():
         width = imgwidth / 2
         height = imgheight
         box = (0, 0, width, height)
-        a = im_l.crop(box)
+        a_1 = im_l.crop(box)
         h_l = imagehash.average_hash(im_l)
-        a = im_r.crop(box)
+        a_2 = im_r.crop(box)
         h_r = imagehash.average_hash(im_r)
         if h_l == h_r:
             return 1 
         else:
             return 0 
 
-    def get_canvas_change_reason_percentage(self, key = 'browserid'):
+    def get_canvas_change_reason_percentage(self, group_key = 'browserid'):
         """
         get the percentage of emoji change and text change
         """
@@ -2511,15 +2511,18 @@ class Paperlib():
         grouped = df.groupby('canvastest')
         change_type = [0,0]
         for key, cur_group in tqdm(grouped):
+            if len(key) == 0:
+                continue
             cur_type = self.canvas_emoji_change(key)
             if cur_type == 2:
                 continue
 
-            if key == 'browserid':
-                change_type[cur_type] += cur_group[key]
+            if group_key == 'browserid':
+                change_type[cur_type] += cur_group[group_key].nunique()
             else:
-                change_type[cur_type] += len(cur_group[key])
-        print change_type
+                change_type[cur_type] += len(cur_group[group_key])
+        total = float(change_type[0] + change_type[1])
+        print change_type, float(change_type[0]) / total, float(change_type[1]) / total
 
     def jsFonts_change_frequency(self):
         """

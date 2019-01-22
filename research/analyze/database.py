@@ -1,6 +1,5 @@
 import ConfigParser
 from extractinfo import *
-import pandas as pd
 import MySQLdb
 import hashlib
 from django.utils.encoding import smart_str, smart_unicode
@@ -8,6 +7,7 @@ from sqlalchemy import create_engine
 from tqdm import *
 from feature_lists import *
 from user_agents import parse
+import pandas as pd
 
 class Database():
 
