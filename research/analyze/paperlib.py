@@ -5,6 +5,7 @@ from forpaper import *
 import collections
 from paperlib_helper import *
 from paperlib_helper import Paperlib_helper
+import imagehash
 
 class Paperlib():
 
@@ -2477,19 +2478,48 @@ class Paperlib():
                             print key
                             return 
 
-    def canvas_crop(self, path, input, height, width, k, page, area):
-        im = Image.open(input)
-        imgwidth, imgheight = im.size
-        for i in range(0, imgheight,height):
-            for j in range(0, imgwidth,width):
-                box = (j, i, j + width, i + height)
-                a = im.crop(box)
-                try:
-                    o = a.crop(area)
-                    o.save(os.path.join(path,"PNG","%s" % page,"IMG-%s.png" % k))
-                except:
-                    pass
-                k +=1
+    def canvas_emoji_change(self, c_str):
+        """
+        return 0 for text change, 1 for emoji change
+        """
+        path = '/home/sol315/pictures/'
+        left_str = c_str.split('=>')[0].split('++')[0]
+        right_str = c_str.split('=>')[1].split('++')[0]
+        try:
+            im_l = Image.open('{}{}.png'.format(path, left_str))
+            im_r = Image.open('{}{}.png'.format(path, right_str))
+        except:
+            return 2
+        imgwidth, imgheight = im_l.size
+        width = imgwidth / 2
+        height = imgheight
+        box = (0, 0, width, height)
+        a = im_l.crop(box)
+        h_l = imagehash.average_hash(im_l)
+        a = im_r.crop(box)
+        h_r = imagehash.average_hash(im_r)
+        if h_l == h_r:
+            return 1 
+        else:
+            return 0 
+
+    def get_canvas_change_reason_percentage(self, key = 'browserid'):
+        """
+        get the percentage of emoji change and text change
+        """
+        df = self.db.load_data(table_name = 'allchanges')
+        grouped = df.groupby('canvastest')
+        change_type = [0,0]
+        for key, cur_group in tqdm(grouped):
+            cur_type = self.canvas_emoji_change(key)
+            if cur_type == 2:
+                continue
+
+            if key == 'browserid':
+                change_type[cur_type] += cur_group[key]
+            else:
+                change_type[cur_type] += len(cur_group[key])
+        print change_type
 
     def jsFonts_change_frequency(self):
         """
@@ -2533,5 +2563,4 @@ class Paperlib():
             f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
             f.write('{}\n'.format(dates_data[date]))
         f.close()
-
 
