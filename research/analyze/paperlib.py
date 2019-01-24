@@ -2534,11 +2534,15 @@ class Paperlib():
         for key, cur_grouped in tqdm(grouped):
             browser = key[1]
 
-    def value_change_by_date(self, feature, value):
+    def value_change_by_date(self, feature, value, browser = 'None'):
         """
         return the number of changed browserid of the feature in each day, method options: window, accu, day 
         """
         df = self.db.load_data(table_name = 'allchanges')
+        if browser != 'None':
+            grouped = df.groupby('browser')
+            df = grouped.get_group(browser)
+
         df = round_time_to_day(df, timekey = 'totime')
 
         total_number = {}
@@ -2558,8 +2562,10 @@ class Paperlib():
             else:
                 total_number[date] = 1
 
-
-        df = df[df[feature].str.contains(value)]
+        if value != '*':
+            df = df[df[feature].str.contains(value)]
+        else:
+            df = df[df[feature] != '']
         grouped = df.groupby('totime')
         total_len = len(grouped)
         output_length = 5
@@ -2570,6 +2576,8 @@ class Paperlib():
         for key, cur_group in tqdm(grouped):
             dates_data[key] = cur_group['browserid'].nunique()
 
+        if value == '*':
+            value = 'all'
         f = safeopen('./dat/{}in{}ChangeByDate.dat'.format(value, feature), 'w')
         f.write('Date#value\n')
         for date in datelist:
