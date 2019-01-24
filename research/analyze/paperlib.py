@@ -2539,8 +2539,9 @@ class Paperlib():
         return the number of changed browserid of the feature in each day, method options: window, accu, day 
         """
         df = self.db.load_data(table_name = 'allchanges')
-        df = df[df[feature].str.contains(value)]
         df = round_time_to_day(df, timekey = 'totime')
+
+        total_number = {}
         try:
             min_date = min(df['fromtime'])
         except:
@@ -2548,12 +2549,21 @@ class Paperlib():
         min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
         max_date = max(df['totime'])
         lendate = (max_date - min_date).days
+        dates_data = {}
+        datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
+        grouped = df.groupby('totime')
+        for date in datelist:
+            if date in grouped.groups.keys():
+                total_number[date] = grouped.get_group(date)['browserid'].nunique()
+            else:
+                total_number[date] = 1
+
+
+        df = df[df[feature].str.contains(value)]
         grouped = df.groupby('totime')
         total_len = len(grouped)
         output_length = 5
         cur = 0
-        dates_data = {}
-        datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
 
         for date in datelist:
             dates_data[date] = 0
@@ -2564,6 +2574,6 @@ class Paperlib():
         f.write('Date#value\n')
         for date in datelist:
             f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
-            f.write('{}\n'.format(dates_data[date]))
+            f.write('{}\n'.format(float(dates_data[date]) / float(total_number[date]) * 100.0))
         f.close()
 
