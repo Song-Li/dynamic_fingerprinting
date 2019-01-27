@@ -2588,3 +2588,130 @@ class Paperlib():
             f.write('{}\n'.format(float(dates_data[date]) / float(total_number[date]) * 100.0))
         f.close()
 
+    def feature_change_by_os_date_paper(self, feature, method = 'day'):
+        """
+        return the number of changed browserid of the feature in each day, method options: window, accu, day 
+        """
+        print ("generating each day's number")
+        db = Database('forpaper345')
+        df = db.load_data(feature_list = ['time', 'os', 'browserid'], table_name = 'final_pandas')
+        df = round_time_to_day(df)
+
+        # keep the same df as changes database
+        df = filter_less_than_n(df, 3)
+        grouped = df.groupby(['time', 'os'])
+        total_number = {}
+        max_size = 0
+
+        if method == 'window':
+            max_size = 5
+        elif method == 'accu':
+            max_size = 10000000
+        elif method == 'day':
+            max_size = 1
+
+        cur_total = {}
+        for cur_group in tqdm(grouped):
+            # here we assume time is sorted
+            cur_time = cur_group[0][0]
+            cur_browser = cur_group[0][1]
+            cur_number = cur_group[1]['browserid'].nunique()
+
+            if cur_time not in total_number:
+                total_number[cur_time] = {}
+            if cur_browser not in cur_total:
+                cur_total[cur_browser] = collections.deque() 
+
+            # assume every day we have data for this browser
+            cur_total[cur_browser].append(cur_number)
+            while len(cur_total[cur_browser]) > max_size:
+                cur_total[cur_browser].popleft()
+
+            total_number[cur_time][cur_browser] = sum(cur_total[cur_browser])
+
+
+        print ("generating real data")
+        if feature == 'browserfingerprint':
+            db = Database('forpaper345')
+            df = db.load_data(table_name = 'allchanges', 
+                    feature_list = ['os', 'fromtime', 'totime', 'browserid', 'toosversion'])
+        else:
+            db = Database('filteredchangesbrowserid')
+            df = db.load_data(table_name = '{}changes'.format(feature))
+        df = round_time_to_day(df, timekey = 'totime')
+        min_date = min(df['fromtime'])
+        min_date = min_date.replace(microsecond = 0, second = 0, minute = 0, hour = 0)
+        max_date = max(df['totime'])
+
+        lendate = (max_date - min_date).days
+        datelist = [min_date + datetime.timedelta(days = i) for i in range(lendate + 3)]
+
+        # to time is the day that this feature changes
+        grouped = df.groupby(['totime', 'os', 'toosversion'])
+
+        res = {}
+        aim_browsers = ['iOS']
+        total_bversion_number = {}
+        for browser in aim_browsers:
+            total_bversion_number[browser] = {}
+
+        for cur_group in tqdm(grouped):
+            cur_time = cur_group[0][0]
+            cur_browser = cur_group[0][1]
+            cur_browser_version = cur_group[0][2]
+            cur_number = cur_group[1]['browserid'].nunique()
+            if cur_browser not in aim_browsers:
+                continue
+
+            if cur_browser not in res:
+                res[cur_browser] = {}
+            if cur_browser_version not in res[cur_browser]:
+                res[cur_browser][cur_browser_version] = {}
+                total_bversion_number[cur_browser][cur_browser_version] = 0
+            
+            try:
+                if total_number[cur_time][cur_browser] == 0:
+                    res[cur_browser][cur_browser_version][cur_time] = 0
+                else:
+                    res[cur_browser][cur_browser_version][cur_time] = float(cur_number) / float(total_number[cur_time][cur_browser]) * 100
+                total_bversion_number[cur_browser][cur_browser_version] += cur_number
+            except:
+                print 'Error here'
+                break
+            
+        max_version_number = 6
+        for browser in aim_browsers:
+            # sort versions first
+            total_bversion_number[browser] = sorted(total_bversion_number[browser].iteritems(), 
+                    key=lambda (k,v): (-v,k))
+            
+            f = safeopen('./change_dats/{}/{}.dat'.format(feature, browser), 'w')
+            f.write('Version#')
+
+            cur_idx = 0
+            versions = [b[0] for b in total_bversion_number[browser]]
+            for version in versions:
+                cur_idx += 1
+                if cur_idx > max_version_number:
+                    f.write('{}#'.format('Others'))
+                    break
+                f.write('{}#'.format(version))
+            f.write('\n')
+
+            for date in datelist:
+                cur_idx = 0
+                cur_cnt = 0
+                f.write('{}-{}-{}#'.format(date.year, date.month, date.day))
+                for browser_version in versions:
+                    cur_idx += 1
+                    if date in res[browser][browser_version]:
+                        cur_num = res[browser][browser_version][date]
+                    else:
+                        cur_num = 0
+                    if cur_idx > max_version_number:
+                        cur_cnt += cur_num
+                        continue
+                    f.write('{}#'.format(cur_num))
+                f.write('{}'.format(cur_cnt))
+                f.write('\n')
+            f.close()
