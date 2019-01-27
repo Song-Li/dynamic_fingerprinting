@@ -2509,7 +2509,7 @@ class Paperlib():
         """
         df = self.db.load_data(table_name = 'allchanges')
         grouped = df.groupby('canvastest')
-        change_type = [0,0]
+        change_type = [0, 0]
         for key, cur_group in tqdm(grouped):
             if len(key) == 0:
                 continue
