@@ -2679,7 +2679,7 @@ class Paperlib():
                 print 'Error here'
                 break
             
-        max_version_number = 6
+        max_version_number = 7
         for browser in aim_browsers:
             # sort versions first
             total_bversion_number[browser] = sorted(total_bversion_number[browser].iteritems(), 
